@@ -1,0 +1,12 @@
+kind,page_label,key,column,value,note
+row,1 of 15,01-4-110-4112,,882828|908267|908267|1138532,OCR read FY22 request as 4138532; page image (pdf p25) shows 1138532
+row,1 of 15,01-4-110-4600,,212332|128000|128000|24000,OCR read revised FY21 as 428000; page image (pdf p25) shows 128000
+row,3 of 15,01-4-210-4010,,1202741|1201417|1201417|1201417,OCR read actual FY20 as 4202741; page image (pdf p31) shows 1202741
+row,5 of 15,01-4-230-4320,,1019|5000|5000|5000,OCR read actual FY20 as 4019; page image (pdf p39) shows 1019
+not_in_total,7 of 15,01-4-615-4490,budget_FY2021,,Buchanan Street Strolls revenue; city's printed fund total excludes it in the FY21 columns only (its actual and FY22 request columns are included in the printed total)
+not_in_total,7 of 15,01-4-615-4490,budget_revised_FY2021,,Buchanan Street Strolls revenue; city's printed fund total excludes it in the FY21 columns only (its actual and FY22 request columns are included in the printed total)
+not_in_total,7 of 15,01-4-615-4495,budget_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
+not_in_total,7 of 15,01-4-615-4495,budget_revised_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
+not_in_total,7 of 15,01-4-615-4900,budget_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
+not_in_total,7 of 15,01-4-615-4900,budget_revised_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
+account,6 of 15,RE Tax - Road & Bridge|01-4-310-4071,,01-4-310-4010,OCR read account as 4071; page image (pdf p41) shows 01-4-310-4010 (FY2023 doc also uses 4010)

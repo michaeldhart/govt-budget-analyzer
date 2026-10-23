@@ -1,0 +1,13 @@
+kind,page_label,key,column,value,note
+row,1 of 15,01-4-110-4109,,75147|1200000|1200000|1130065,OCR read revised FY20 as 4200000; page image (pdf p19) shows 1200000
+row,1 of 15,01-4-110-4110,,3583826|3634459|3634459|3660790,OCR read FY21 request as 3860790; page image (pdf p19) shows 3660790
+row,2 of 15,01-4-140-4010,,65161|65000|65000|65000,OCR read FY20 budget and revised as 85000; page image (pdf p20) shows 65000
+total,2 of 15,Total IMRF Revenues,budget_FY2021,184277,OCR read bold total as 484277; page image (pdf p20) shows 184277
+row,3 of 15,Total Police Department Revenues,,1414931|1445664|1445664|1432063,OCR garbled thousands separators across columns; values from page image (pdf p22)
+row,pdf25,Total Fire Department Revenues,,1045844|1046132|1046132|1046132,OCR garbled columns and read FY21 as 4046132; values from page image (pdf p25); footer label unreadable so keyed by pdf page
+row,5 of 15,01-4-230-4320,,7133|10641|10641|5000,OCR read revised FY20 as 10644; page image (pdf p27) shows 10641
+row,5 of 15,01-4-230-4300,,127618|158827|158827|158827,OCR read FY21 request as 168827; page image (pdf p27) shows 158827
+not_in_total,7 of 15,01-4-615-4490,,,Buchanan Street Strolls revenue (3000); city's printed fund total excludes it (page image pdf p30 shows STROLLS NET instead)
+not_in_total,7 of 15,01-4-615-4495,,,Buchanan Street Strolls revenue (7000); same
+not_in_total,7 of 15,01-4-615-4900,,,Buchanan Street Strolls revenue (7200); same
+account,6 of 15,Expense Reimbursement|01-4-310-4840,,01-4-310-4940,OCR read account as 4840; page image (pdf p29) shows 01-4-310-4940

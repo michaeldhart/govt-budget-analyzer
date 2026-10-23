@@ -1,0 +1,3 @@
+kind,page_label,key,column,value,note
+allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2026,-1,printed 25227480 (same as the FY2026 document); the city's line items sum to 25227481
+allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2027,-1,printed 25830395 (matches CLAUDE.md); the city's line items sum to 25830396 (not re-checked on the image; same $1 pattern as FY2024-FY2026)

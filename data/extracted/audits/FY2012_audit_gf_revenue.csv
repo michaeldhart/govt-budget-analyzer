@@ -1,0 +1,34 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual,flag,prior_year_actual
+2012,FY2012_audit,94,Taxes,Property,4524800,4554649,4554651,,4381602
+2012,FY2012_audit,94,Taxes,Sales & use,2938413,3484967,3585688,,3268452
+2012,FY2012_audit,94,Taxes,State income,1882560,1772663,2167738,,1821072
+2012,FY2012_audit,94,Taxes,Hotel/Motel,6000,4355,4435,,4408
+2012,FY2012_audit,94,Taxes,Auto rental,4700,4870,4870,,5339
+2012,FY2012_audit,94,Taxes,Telecommunications,600369,606279,641093,,553536
+2012,FY2012_audit,94,Taxes,Utility Tax,1782120,1619423,1695059,,1733000
+2012,FY2012_audit,94,Taxes,Replacement tax,237781,285110,283755,,343211
+2012,FY2012_audit,94,Intergovernmental - Grants,Intergovernmental - grants,0,134680,214168,,455474
+2012,FY2012_audit,94,Licenses & Permits,Liquor licenses,48500,126900,126900,,48500
+2012,FY2012_audit,94,Licenses & Permits,Business licenses,12500,14639,14689,,15050
+2012,FY2012_audit,94,Licenses & Permits,Building permits,120000,110295,115332,,147620
+2012,FY2012_audit,94,Licenses & Permits,Electrical permits,12000,16388,17125,,19154
+2012,FY2012_audit,94,Licenses & Permits,Plumbing permits,10000,10387,11102,,8934
+2012,FY2012_audit,94,Licenses & Permits,HVAC permits,2500,6143,6217,,4571
+2012,FY2012_audit,94,Licenses & Permits,Amusement machine licenses,5130,5890,5890,,5530
+2012,FY2012_audit,94,Licenses & Permits,Other,7500,9481,9830,,6658
+2012,FY2012_audit,94,Fines & Fees,Circuit court fines,301500,283703,309912,,305537
+2012,FY2012_audit,94,Fines & Fees,Parking fines,4000,13707,13707,values_overridden,9120
+2012,FY2012_audit,94,Fines & Fees,Engineering fees,20000,0,0,,25466
+2012,FY2012_audit,94,Fines & Fees,Electrician certification fees,5000,4150,4900,,3850
+2012,FY2012_audit,94,Fines & Fees,Plan review fees,8000,18369,19593,,33091
+2012,FY2012_audit,94,Fines & Fees,Sidewalk / lot grading,3000,1740,1800,,2305
+2012,FY2012_audit,94,Fines & Fees,Franchise fees,212000,221787,224849,,212103
+2012,FY2012_audit,94,Fines & Fees,Death & birth certificates,13500,13906,14414,,14186
+2012,FY2012_audit,94,Fines & Fees,Accident/Fire reports,5500,4565,4565,,5308
+2012,FY2012_audit,94,Fines & Fees,Annexation/plat fees,5000,0,0,,0
+2012,FY2012_audit,94,Fines & Fees,Seized vehicle fees,64800,62000,61800,,40500
+2012,FY2012_audit,94,Fines & Fees,Tipping fees,65000,67653,60083,,66726
+2012,FY2012_audit,94,Fines & Fees,Other,5000,3865,4053,,3820
+2012,FY2012_audit,95,Interest,Interest,225700,239693,19283,,15425
+2012,FY2012_audit,95,Other,Reimbursements,296701,405451,236741,,668529
+2012,FY2012_audit,95,Other,Miscellaneous,467502,422181,458768,,410752

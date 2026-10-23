@@ -1,0 +1,32 @@
+fiscal_year,doc,page_label,fund,department,account,line_item,amount,category,treatment
+2027,753H,1 of 15,General,General Administration,01-4-110-4010,RE Property Tax,1769385,Property tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4011,Hotel / Motel Tax,1000,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4012,Auto Rental Tax,10500,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4013,Muni Infrastructure Maint,62000,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4100,State Income Tax,4595481,State income tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4109,Home Rule Sales Tax,1776091,Home rule sales tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4110,Muni Sales Tax,5166614,Municipal sales tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4111,Sales Tax to Developer,-160000,Municipal sales tax,offset
+2027,753H,1 of 15,General,General Administration,01-4-110-4112,Local Use Tax,67655,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4113,Local Motor Fuel Tax,413000,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-1104114,Real Estate Tax to Developer,-45810,Property tax,offset
+2027,753H,1 of 15,General,General Administration,01-4-110-4115,Cannabis Tax,220000,Other taxes,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4120,Replacement Tax,640000,Replacement tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4121,Repl Tax Dist to Pensions,-326331,Replacement tax,offset
+2027,753H,1 of 15,General,General Administration,01-4-110-4440,Video Gambling,538000,Video gaming tax,tax
+2027,753H,1 of 15,General,General Administration,01-4-110-4450,Franchise Fees,150000,,excluded_fee
+2027,753H,2 of 15,General,Audit,01-4-130-4010,RE Taxes - Audit,20000,Property tax,tax
+2027,753H,2 of 15,General,IMRF,01-4-140-4010,RE Taxes - IMRF,65000,Property tax,tax
+2027,753H,2 of 15,General,IMRF,01-4-140-4120,Replacement Tax,66440,Replacement tax,tax
+2027,753H,2 of 15,General,Social Security,01-4-150-4010,RE Taxes - FICA/Med,200000,Property tax,tax
+2027,753H,2 of 15,General,Liability Insurance,01-4-160-4010,RE Taxes - Ins Liability,300000,Property tax,tax
+2027,753H,3 of 15,General,Police,01-4-210-4010,RE Property Tax,1650212,Property tax,tax
+2027,753H,4 of 15,General,Fire,01-4-220-4010,RE Property Tax,1318090,Property tax,tax
+2027,753H,5 of 15,General,Civil Defense,01-4-240-4010,RE Tax - Civil Defense,7000,Property tax,tax
+2027,753H,6 of 15,General,Street,01-4-310-4010,RE Tax - Road & Bridge,365000,Property tax,tax
+2027,753H,6 of 15,General,Street Lighting,01-4-330-4010,RE Tax - Street Lighting,210000,Property tax,tax
+2027,753H,7 of 15,General,Landfill,01-4-335-4010,RE Tax - Refuse/Landfill,50000,Property tax,tax
+2027,753H,7 of 15,General,Forestry,01-4-340-4010,RE Tax - Forestry,40000,Property tax,tax
+2027,753H,7 of 15,General,Utility Tax,01-4-751-4131,Utility Tax - Electric,852000,Utility taxes,tax
+2027,753H,7 of 15,General,Utility Tax,01-4-751-4132,Utility Tax - Gas,470000,Utility taxes,tax
+2027,753H,7 of 15,General,Utility Tax,01-4-751-4133,Utility Tax - Telephone,125000,Utility taxes,tax

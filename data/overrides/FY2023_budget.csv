@@ -1,0 +1,5 @@
+kind,page_label,key,column,value,note
+not_in_total,7 of 15,01-4-615-4490,actual_FY2021,,Buchanan Street Strolls revenue (1714); city's printed actual total excludes it (FY22 and FY23 columns are included/zero)
+not_in_total,7 of 15,01-4-615-4495,actual_FY2021,,Buchanan Street Strolls revenue (2000); same
+not_in_total,7 of 15,01-4-615-4900,actual_FY2021,,Buchanan Street Strolls revenue (0); same
+allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2023,-1,page image (pdf p10) confirms printed 22912503; the city's line items sum to 22912504
