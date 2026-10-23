@@ -1,4 +1,5 @@
 """Extract the General Fund "Schedule of Revenues - Budget and Actual" from a Belvidere audit PDF.
+(The expenditure schedule is read by extract_audit_expenditures.py, which reuses this module's helpers.)
 
 Usage: python3 pipelines/belvidere_il/extract_audit.py FY2020 [--prep auto|text|gray]
 

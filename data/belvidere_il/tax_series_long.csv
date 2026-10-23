@@ -140,7 +140,7 @@ belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4012,General Administ
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4013,General Administration,Muni Infrastructure Maint,169623,Other taxes,tax,FY2017_budget,actual_FY2015,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2484441,State income tax,tax,FY2017_budget,actual_FY2015,1 of 16,,
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3266150,Municipal sales tax,tax,FY2017_budget,actual_FY2015,1 of 16,,
-belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,actual_FY2015,1 of 16,,
+belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,actual_FY2015,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,492691,Other taxes,tax,FY2017_budget,actual_FY2015,1 of 16,,
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4120,General Administration,Replacement Tax,501471,Replacement tax,tax,FY2017_budget,actual_FY2015,1 of 16,,
 belvidere_il,2015,actual_budget_doc,actual_prelim,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-255962,Replacement tax,offset,FY2017_budget,actual_FY2015,1 of 16,,EX-replacement-net
@@ -167,7 +167,7 @@ belvidere_il,2015,budget_adopted,adopted,01-4-110-4012,General Administration,Au
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4013,General Administration,Muni Infrastructure Maint,169200,Other taxes,tax,FY2015_budget,budget_FY2015,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2422900,State income tax,tax,FY2015_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3186586,Municipal sales tax,tax,FY2015_budget,budget_FY2015,1 of 16,,
-belvidere_il,2015,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2015_budget,budget_FY2015,1 of 16,,
+belvidere_il,2015,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2015_budget,budget_FY2015,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,449017,Other taxes,tax,FY2015_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,425680,Replacement tax,tax,FY2015_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_adopted,adopted,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-255961,Replacement tax,offset,FY2015_budget,budget_FY2015,1 of 16,,EX-replacement-net
@@ -194,7 +194,7 @@ belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4012,General Adminis
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4013,General Administration,Muni Infrastructure Maint,169200,Other taxes,tax,FY2016_budget,budget_FY2015,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2422900,State income tax,tax,FY2016_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3186586,Municipal sales tax,tax,FY2016_budget,budget_FY2015,1 of 16,,
-belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_FY2015,1 of 16,,
+belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_FY2015,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,449017,Other taxes,tax,FY2016_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,425680,Replacement tax,tax,FY2016_budget,budget_FY2015,1 of 16,,
 belvidere_il,2015,budget_next_doc,prior_doc_budget,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-255961,Replacement tax,offset,FY2016_budget,budget_FY2015,1 of 16,,EX-replacement-net
@@ -221,7 +221,7 @@ belvidere_il,2015,budget_revised,revised,01-4-110-4012,General Administration,Au
 belvidere_il,2015,budget_revised,revised,01-4-110-4013,General Administration,Muni Infrastructure Maint,169200,Other taxes,tax,FY2016_budget,budget_revised_FY2015,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2015,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2422900,State income tax,tax,FY2016_budget,budget_revised_FY2015,1 of 16,,
 belvidere_il,2015,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3186586,Municipal sales tax,tax,FY2016_budget,budget_revised_FY2015,1 of 16,,
-belvidere_il,2015,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_revised_FY2015,1 of 16,,
+belvidere_il,2015,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_revised_FY2015,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2015,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,449017,Other taxes,tax,FY2016_budget,budget_revised_FY2015,1 of 16,,
 belvidere_il,2015,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,425680,Replacement tax,tax,FY2016_budget,budget_revised_FY2015,1 of 16,,
 belvidere_il,2015,budget_revised,revised,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-255961,Replacement tax,offset,FY2016_budget,budget_revised_FY2015,1 of 16,,EX-replacement-net
@@ -248,7 +248,7 @@ belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4012,General Administ
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4013,General Administration,Muni Infrastructure Maint,172424,Other taxes,tax,FY2018_budget,actual_FY2016,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2731920,State income tax,tax,FY2018_budget,actual_FY2016,1 of 16,,
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3195463,Municipal sales tax,tax,FY2018_budget,actual_FY2016,1 of 16,,
-belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,actual_FY2016,1 of 16,,
+belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,actual_FY2016,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,588796,Other taxes,tax,FY2018_budget,actual_FY2016,1 of 16,,
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4120,General Administration,Replacement Tax,507162,Replacement tax,tax,FY2018_budget,actual_FY2016,1 of 16,,
 belvidere_il,2016,actual_budget_doc,actual_prelim,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-256794,Replacement tax,offset,FY2018_budget,actual_FY2016,1 of 16,,EX-replacement-net
@@ -275,7 +275,7 @@ belvidere_il,2016,budget_adopted,adopted,01-4-110-4012,General Administration,Au
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4013,General Administration,Muni Infrastructure Maint,171600,Other taxes,tax,FY2016_budget,budget_FY2016,1 of 16,,EX-telecom-class|EX-telecom-rebate|EX-fy16-total-diff
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2532915,State income tax,tax,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3202519,Municipal sales tax,tax,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff
-belvidere_il,2016,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff
+belvidere_il,2016,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff|EX-audit-sales-tax-incentive
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,496349,Other taxes,tax,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,427808,Replacement tax,tax,FY2016_budget,budget_FY2016,1 of 16,,EX-fy16-total-diff
 belvidere_il,2016,budget_adopted,adopted,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-257241,Replacement tax,offset,FY2016_budget,budget_FY2016,1 of 16,,EX-replacement-net|EX-fy16-total-diff
@@ -302,7 +302,7 @@ belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4012,General Adminis
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4013,General Administration,Muni Infrastructure Maint,171600,Other taxes,tax,FY2017_budget,budget_FY2016,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2532915,State income tax,tax,FY2017_budget,budget_FY2016,1 of 16,,
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3202519,Municipal sales tax,tax,FY2017_budget,budget_FY2016,1 of 16,,
-belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_FY2016,1 of 16,,
+belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_FY2016,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,496349,Other taxes,tax,FY2017_budget,budget_FY2016,1 of 16,,
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,427808,Replacement tax,tax,FY2017_budget,budget_FY2016,1 of 16,,
 belvidere_il,2016,budget_next_doc,prior_doc_budget,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-257241,Replacement tax,offset,FY2017_budget,budget_FY2016,1 of 16,,EX-replacement-net
@@ -329,7 +329,7 @@ belvidere_il,2016,budget_revised,revised,01-4-110-4012,General Administration,Au
 belvidere_il,2016,budget_revised,revised,01-4-110-4013,General Administration,Muni Infrastructure Maint,171600,Other taxes,tax,FY2017_budget,budget_revised_FY2016,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2016,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2532915,State income tax,tax,FY2017_budget,budget_revised_FY2016,1 of 16,,
 belvidere_il,2016,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3202519,Municipal sales tax,tax,FY2017_budget,budget_revised_FY2016,1 of 16,,
-belvidere_il,2016,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_revised_FY2016,1 of 16,,
+belvidere_il,2016,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_revised_FY2016,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2016,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,496349,Other taxes,tax,FY2017_budget,budget_revised_FY2016,1 of 16,,
 belvidere_il,2016,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,427808,Replacement tax,tax,FY2017_budget,budget_revised_FY2016,1 of 16,,
 belvidere_il,2016,budget_revised,revised,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-257241,Replacement tax,offset,FY2017_budget,budget_revised_FY2016,1 of 16,,EX-replacement-net
@@ -356,7 +356,7 @@ belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4012,General Administ
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4013,General Administration,Muni Infrastructure Maint,150224,Other taxes,tax,FY2019_budget,actual_FY2017,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2436019,State income tax,tax,FY2019_budget,actual_FY2017,1 of 16,,
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3310595,Municipal sales tax,tax,FY2019_budget,actual_FY2017,1 of 16,,
-belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,actual_FY2017,1 of 16,,
+belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,actual_FY2017,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,625106,Other taxes,tax,FY2019_budget,actual_FY2017,1 of 16,,
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4120,General Administration,Replacement Tax,534532,Replacement tax,tax,FY2019_budget,actual_FY2017,1 of 16,,
 belvidere_il,2017,actual_budget_doc,actual_prelim,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-264958,Replacement tax,offset,FY2019_budget,actual_FY2017,1 of 16,,EX-replacement-net
@@ -383,7 +383,7 @@ belvidere_il,2017,budget_adopted,adopted,01-4-110-4012,General Administration,Au
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4013,General Administration,Muni Infrastructure Maint,177600,Other taxes,tax,FY2017_budget,budget_FY2017,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2609670,State income tax,tax,FY2017_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3219242,Municipal sales tax,tax,FY2017_budget,budget_FY2017,1 of 16,,
-belvidere_il,2017,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_FY2017,1 of 16,,
+belvidere_il,2017,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2017_budget,budget_FY2017,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,601247,Other taxes,tax,FY2017_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,468082,Replacement tax,tax,FY2017_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_adopted,adopted,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-264958,Replacement tax,offset,FY2017_budget,budget_FY2017,1 of 16,,EX-replacement-net
@@ -410,7 +410,7 @@ belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4012,General Adminis
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4013,General Administration,Muni Infrastructure Maint,177600,Other taxes,tax,FY2018_budget,budget_FY2017,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2609670,State income tax,tax,FY2018_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3219242,Municipal sales tax,tax,FY2018_budget,budget_FY2017,1 of 16,,
-belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_FY2017,1 of 16,,
+belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_FY2017,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,601247,Other taxes,tax,FY2018_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,468082,Replacement tax,tax,FY2018_budget,budget_FY2017,1 of 16,,
 belvidere_il,2017,budget_next_doc,prior_doc_budget,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-264958,Replacement tax,offset,FY2018_budget,budget_FY2017,1 of 16,,EX-replacement-net
@@ -437,7 +437,7 @@ belvidere_il,2017,budget_revised,revised,01-4-110-4012,General Administration,Au
 belvidere_il,2017,budget_revised,revised,01-4-110-4013,General Administration,Muni Infrastructure Maint,177600,Other taxes,tax,FY2018_budget,budget_revised_FY2017,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2017,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2609670,State income tax,tax,FY2018_budget,budget_revised_FY2017,1 of 16,,
 belvidere_il,2017,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3219242,Municipal sales tax,tax,FY2018_budget,budget_revised_FY2017,1 of 16,,
-belvidere_il,2017,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_revised_FY2017,1 of 16,,
+belvidere_il,2017,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_revised_FY2017,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2017,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,601247,Other taxes,tax,FY2018_budget,budget_revised_FY2017,1 of 16,,
 belvidere_il,2017,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,468082,Replacement tax,tax,FY2018_budget,budget_revised_FY2017,1 of 16,,
 belvidere_il,2017,budget_revised,revised,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-264958,Replacement tax,offset,FY2018_budget,budget_revised_FY2017,1 of 16,,EX-replacement-net
@@ -465,7 +465,7 @@ belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2710101,State income tax,tax,FY2020_budget,actual_FY2018,1 of 15,,
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,0,Home rule sales tax,tax,FY2020_budget,actual_FY2018,1 of 15,,
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3427288,Municipal sales tax,tax,FY2020_budget,actual_FY2018,1 of 15,,
-belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,actual_FY2018,1 of 15,,
+belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,actual_FY2018,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,663705,Other taxes,tax,FY2020_budget,actual_FY2018,1 of 15,,
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,0,Other taxes,tax,FY2020_budget,actual_FY2018,1 of 15,,
 belvidere_il,2018,actual_budget_doc,actual_prelim,01-4-110-4120,General Administration,Replacement Tax,433270,Replacement tax,tax,FY2020_budget,actual_FY2018,1 of 15,,
@@ -493,7 +493,7 @@ belvidere_il,2018,budget_adopted,adopted,01-4-110-4012,General Administration,Au
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4013,General Administration,Muni Infrastructure Maint,159420,Other taxes,tax,FY2018_budget,budget_FY2018,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2584085,State income tax,tax,FY2018_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3305624,Municipal sales tax,tax,FY2018_budget,budget_FY2018,1 of 16,,
-belvidere_il,2018,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_FY2018,1 of 16,,
+belvidere_il,2018,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2018_budget,budget_FY2018,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,619157,Other taxes,tax,FY2018_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,456888,Replacement tax,tax,FY2018_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_adopted,adopted,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-260246,Replacement tax,offset,FY2018_budget,budget_FY2018,1 of 16,,EX-replacement-net
@@ -520,7 +520,7 @@ belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4012,General Adminis
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4013,General Administration,Muni Infrastructure Maint,159420,Other taxes,tax,FY2019_budget,budget_FY2018,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2584085,State income tax,tax,FY2019_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3305624,Municipal sales tax,tax,FY2019_budget,budget_FY2018,1 of 16,,
-belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_FY2018,1 of 16,,
+belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_FY2018,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,619157,Other taxes,tax,FY2019_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,456888,Replacement tax,tax,FY2019_budget,budget_FY2018,1 of 16,,
 belvidere_il,2018,budget_next_doc,prior_doc_budget,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-260246,Replacement tax,offset,FY2019_budget,budget_FY2018,1 of 16,,EX-replacement-net
@@ -547,7 +547,7 @@ belvidere_il,2018,budget_revised,revised,01-4-110-4012,General Administration,Au
 belvidere_il,2018,budget_revised,revised,01-4-110-4013,General Administration,Muni Infrastructure Maint,159420,Other taxes,tax,FY2019_budget,budget_revised_FY2018,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2018,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2584085,State income tax,tax,FY2019_budget,budget_revised_FY2018,1 of 16,,
 belvidere_il,2018,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3305624,Municipal sales tax,tax,FY2019_budget,budget_revised_FY2018,1 of 16,,
-belvidere_il,2018,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_revised_FY2018,1 of 16,,
+belvidere_il,2018,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_revised_FY2018,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2018,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,619157,Other taxes,tax,FY2019_budget,budget_revised_FY2018,1 of 16,,
 belvidere_il,2018,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,456888,Replacement tax,tax,FY2019_budget,budget_revised_FY2018,1 of 16,,
 belvidere_il,2018,budget_revised,revised,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-260246,Replacement tax,offset,FY2019_budget,budget_revised_FY2018,1 of 16,,EX-replacement-net
@@ -575,7 +575,7 @@ belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2484021,State income tax,tax,FY2021_budget,actual_FY2019,1 of 15,,
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,75147,Home rule sales tax,tax,FY2021_budget,actual_FY2019,1 of 15,,
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3583826,Municipal sales tax,tax,FY2021_budget,actual_FY2019,1 of 15,,
-belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,actual_FY2019,1 of 15,,
+belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,actual_FY2019,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,756473,Other taxes,tax,FY2021_budget,actual_FY2019,1 of 15,,
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,339494,Other taxes,tax,FY2021_budget,actual_FY2019,1 of 15,,
 belvidere_il,2019,actual_budget_doc,actual_prelim,01-4-110-4120,General Administration,Replacement Tax,450226,Replacement tax,tax,FY2021_budget,actual_FY2019,1 of 15,,
@@ -603,7 +603,7 @@ belvidere_il,2019,budget_adopted,adopted,01-4-110-4012,General Administration,Au
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4013,General Administration,Muni Infrastructure Maint,142800,Other taxes,tax,FY2019_budget,budget_FY2019,1 of 16,,EX-telecom-class|EX-telecom-rebate
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2451043,State income tax,tax,FY2019_budget,budget_FY2019,1 of 16,,
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3471350,Municipal sales tax,tax,FY2019_budget,budget_FY2019,1 of 16,,
-belvidere_il,2019,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_FY2019,1 of 16,,
+belvidere_il,2019,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2019_budget,budget_FY2019,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,672885,Other taxes,tax,FY2019_budget,budget_FY2019,1 of 16,,
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,505727,Replacement tax,tax,FY2019_budget,budget_FY2019,1 of 16,,
 belvidere_il,2019,budget_adopted,adopted,01-4-110-4121,General Administration,Repl Tax Dist to Pensions,-268051,Replacement tax,offset,FY2019_budget,budget_FY2019,1 of 16,,EX-replacement-net
@@ -631,7 +631,7 @@ belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2451043,State income tax,tax,FY2020_budget,budget_FY2019,1 of 15,,
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,0,Home rule sales tax,tax,FY2020_budget,budget_FY2019,1 of 15,,
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3471350,Municipal sales tax,tax,FY2020_budget,budget_FY2019,1 of 15,,
-belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_FY2019,1 of 15,,
+belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_FY2019,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,672885,Other taxes,tax,FY2020_budget,budget_FY2019,1 of 15,,
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,0,Other taxes,tax,FY2020_budget,budget_FY2019,1 of 15,,
 belvidere_il,2019,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,505727,Replacement tax,tax,FY2020_budget,budget_FY2019,1 of 15,,
@@ -660,7 +660,7 @@ belvidere_il,2019,budget_revised,revised,01-4-110-4013,General Administration,Mu
 belvidere_il,2019,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2451043,State income tax,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
 belvidere_il,2019,budget_revised,revised,01-4-110-4109,General Administration,Home Rule Sales Tax,0,Home rule sales tax,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
 belvidere_il,2019,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3471350,Municipal sales tax,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
-belvidere_il,2019,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_revised_FY2019,1 of 15,,
+belvidere_il,2019,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_revised_FY2019,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2019,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,672885,Other taxes,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
 belvidere_il,2019,budget_revised,revised,01-4-110-4113,General Administration,Local Motor Fuel Tax,0,Other taxes,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
 belvidere_il,2019,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,505727,Replacement tax,tax,FY2020_budget,budget_revised_FY2019,1 of 15,,
@@ -689,7 +689,7 @@ belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2773012,State income tax,tax,FY2022_budget,actual_FY2020,1 of 15,,
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1126401,Home rule sales tax,tax,FY2022_budget,actual_FY2020,1 of 15,,
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3650910,Municipal sales tax,tax,FY2022_budget,actual_FY2020,1 of 15,,
-belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,actual_FY2020,1 of 15,,
+belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,actual_FY2020,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,882828,Other taxes,tax,FY2022_budget,actual_FY2020,1 of 15,,
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,555545,Other taxes,tax,FY2022_budget,actual_FY2020,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2020,actual_budget_doc,actual_prelim,01-4-110-4115,General Administration,Cannabis Tax,4187,Other taxes,tax,FY2022_budget,actual_FY2020,1 of 15,,
@@ -719,7 +719,7 @@ belvidere_il,2020,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2577688,State income tax,tax,FY2020_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1200000,Home rule sales tax,tax,FY2020_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3634459,Municipal sales tax,tax,FY2020_budget,budget_FY2020,1 of 15,,
-belvidere_il,2020,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_FY2020,1 of 15,,
+belvidere_il,2020,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2020_budget,budget_FY2020,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,811045,Other taxes,tax,FY2020_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,558000,Other taxes,tax,FY2020_budget,budget_FY2020,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2020,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,469498,Replacement tax,tax,FY2020_budget,budget_FY2020,1 of 15,,
@@ -748,7 +748,7 @@ belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2577688,State income tax,tax,FY2021_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1200000,Home rule sales tax,tax,FY2021_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3634459,Municipal sales tax,tax,FY2021_budget,budget_FY2020,1 of 15,,
-belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_FY2020,1 of 15,,
+belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_FY2020,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,811045,Other taxes,tax,FY2021_budget,budget_FY2020,1 of 15,,
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,558000,Other taxes,tax,FY2021_budget,budget_FY2020,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2020,budget_next_doc,prior_doc_budget,01-4-110-4120,General Administration,Replacement Tax,469498,Replacement tax,tax,FY2021_budget,budget_FY2020,1 of 15,,
@@ -777,7 +777,7 @@ belvidere_il,2020,budget_revised,revised,01-4-110-4013,General Administration,Mu
 belvidere_il,2020,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2577688,State income tax,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,
 belvidere_il,2020,budget_revised,revised,01-4-110-4109,General Administration,Home Rule Sales Tax,1200000,Home rule sales tax,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,
 belvidere_il,2020,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3634459,Municipal sales tax,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,
-belvidere_il,2020,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_revised_FY2020,1 of 15,,
+belvidere_il,2020,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_revised_FY2020,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2020,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,811045,Other taxes,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,
 belvidere_il,2020,budget_revised,revised,01-4-110-4113,General Administration,Local Motor Fuel Tax,558000,Other taxes,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2020,budget_revised,revised,01-4-110-4120,General Administration,Replacement Tax,469498,Replacement tax,tax,FY2021_budget,budget_revised_FY2020,1 of 15,,
@@ -806,7 +806,7 @@ belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,2932995,State income tax,tax,FY2023_budget,actual_FY2021,1 of 15,,
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1091262,Home rule sales tax,tax,FY2023_budget,actual_FY2021,1 of 15,,
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,3852961,Municipal sales tax,tax,FY2023_budget,actual_FY2021,1 of 15,,
-belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,actual_FY2021,1 of 15,,
+belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,actual_FY2021,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,1173674,Other taxes,tax,FY2023_budget,actual_FY2021,1 of 15,,
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,473581,Other taxes,tax,FY2023_budget,actual_FY2021,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2021,actual_budget_doc,actual_prelim,01-4-110-4115,General Administration,Cannabis Tax,20912,Other taxes,tax,FY2023_budget,actual_FY2021,1 of 15,,
@@ -836,7 +836,7 @@ belvidere_il,2021,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2686425,State income tax,tax,FY2021_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1130065,Home rule sales tax,tax,FY2021_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3660790,Municipal sales tax,tax,FY2021_budget,budget_FY2021,1 of 15,,
-belvidere_il,2021,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_FY2021,1 of 15,,
+belvidere_il,2021,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2021_budget,budget_FY2021,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,908267,Other taxes,tax,FY2021_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,564000,Other taxes,tax,FY2021_budget,budget_FY2021,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2021,budget_adopted,adopted,01-4-110-4120,General Administration,Replacement Tax,451329,Replacement tax,tax,FY2021_budget,budget_FY2021,1 of 15,,
@@ -865,7 +865,7 @@ belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2686425,State income tax,tax,FY2022_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1130065,Home rule sales tax,tax,FY2022_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3660790,Municipal sales tax,tax,FY2022_budget,budget_FY2021,1 of 15,,
-belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_FY2021,1 of 15,,
+belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_FY2021,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,908267,Other taxes,tax,FY2022_budget,budget_FY2021,1 of 15,,
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,564000,Other taxes,tax,FY2022_budget,budget_FY2021,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2021,budget_next_doc,prior_doc_budget,01-4-110-4115,General Administration,Cannabis Tax,0,Other taxes,tax,FY2022_budget,budget_FY2021,1 of 15,,
@@ -895,7 +895,7 @@ belvidere_il,2021,budget_revised,revised,01-4-110-4013,General Administration,Mu
 belvidere_il,2021,budget_revised,revised,01-4-110-4100,General Administration,State Income Tax,2686425,State income tax,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,
 belvidere_il,2021,budget_revised,revised,01-4-110-4109,General Administration,Home Rule Sales Tax,1130065,Home rule sales tax,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,
 belvidere_il,2021,budget_revised,revised,01-4-110-4110,General Administration,Muni Sales Tax,3660790,Municipal sales tax,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,
-belvidere_il,2021,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_revised_FY2021,1 of 15,,
+belvidere_il,2021,budget_revised,revised,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_revised_FY2021,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2021,budget_revised,revised,01-4-110-4112,General Administration,Local Use Tax,908267,Other taxes,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,
 belvidere_il,2021,budget_revised,revised,01-4-110-4113,General Administration,Local Motor Fuel Tax,564000,Other taxes,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2021,budget_revised,revised,01-4-110-4115,General Administration,Cannabis Tax,0,Other taxes,tax,FY2022_budget,budget_revised_FY2021,1 of 15,,
@@ -925,7 +925,7 @@ belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,3667723,State income tax,tax,FY2024_budget,actual_FY2022,1 of 15,,
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1370774,Home rule sales tax,tax,FY2024_budget,actual_FY2022,1 of 15,,
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,4669641,Municipal sales tax,tax,FY2024_budget,actual_FY2022,1 of 15,,
-belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,actual_FY2022,1 of 15,,
+belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,actual_FY2022,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,979341,Other taxes,tax,FY2024_budget,actual_FY2022,1 of 15,,
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,452223,Other taxes,tax,FY2024_budget,actual_FY2022,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2022,actual_budget_doc,actual_prelim,01-4-110-4115,General Administration,Cannabis Tax,39935,Other taxes,tax,FY2024_budget,actual_FY2022,1 of 15,,
@@ -955,7 +955,7 @@ belvidere_il,2022,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,2837376,State income tax,tax,FY2022_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1070950,Home rule sales tax,tax,FY2022_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,3605177,Municipal sales tax,tax,FY2022_budget,budget_FY2022,1 of 15,,
-belvidere_il,2022,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_FY2022,1 of 15,,
+belvidere_il,2022,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2022_budget,budget_FY2022,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,1138532,Other taxes,tax,FY2022_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,504000,Other taxes,tax,FY2022_budget,budget_FY2022,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2022,budget_adopted,adopted,01-4-110-4115,General Administration,Cannabis Tax,23794,Other taxes,tax,FY2022_budget,budget_FY2022,1 of 15,,
@@ -985,7 +985,7 @@ belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,2837376,State income tax,tax,FY2023_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1070950,Home rule sales tax,tax,FY2023_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,3605177,Municipal sales tax,tax,FY2023_budget,budget_FY2022,1 of 15,,
-belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,budget_FY2022,1 of 15,,
+belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,budget_FY2022,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,1138532,Other taxes,tax,FY2023_budget,budget_FY2022,1 of 15,,
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,504000,Other taxes,tax,FY2023_budget,budget_FY2022,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2022,budget_next_doc,prior_doc_budget,01-4-110-4115,General Administration,Cannabis Tax,23794,Other taxes,tax,FY2023_budget,budget_FY2022,1 of 15,,
@@ -1015,7 +1015,7 @@ belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,4094235,State income tax,tax,FY2025_budget,actual_FY2023,1 of 15,,
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1569898,Home rule sales tax,tax,FY2025_budget,actual_FY2023,1 of 15,,
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,5037083,Municipal sales tax,tax,FY2025_budget,actual_FY2023,1 of 15,,
-belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,actual_FY2023,1 of 15,,
+belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,actual_FY2023,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,1031811,Other taxes,tax,FY2025_budget,actual_FY2023,1 of 15,,
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,390703,Other taxes,tax,FY2025_budget,actual_FY2023,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2023,actual_budget_doc,actual_prelim,01-4-110-4115,General Administration,Cannabis Tax,39895,Other taxes,tax,FY2025_budget,actual_FY2023,1 of 15,,
@@ -1045,7 +1045,7 @@ belvidere_il,2023,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,3136002,State income tax,tax,FY2023_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1362254,Home rule sales tax,tax,FY2023_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,4677358,Municipal sales tax,tax,FY2023_budget,budget_FY2023,1 of 15,,
-belvidere_il,2023,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,budget_FY2023,1 of 15,,
+belvidere_il,2023,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2023_budget,budget_FY2023,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,921967,Other taxes,tax,FY2023_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,462391,Other taxes,tax,FY2023_budget,budget_FY2023,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2023,budget_adopted,adopted,01-4-110-4115,General Administration,Cannabis Tax,36386,Other taxes,tax,FY2023_budget,budget_FY2023,1 of 15,,
@@ -1075,7 +1075,7 @@ belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,3136002,State income tax,tax,FY2024_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1362254,Home rule sales tax,tax,FY2024_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,4677358,Municipal sales tax,tax,FY2024_budget,budget_FY2023,1 of 15,,
-belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,budget_FY2023,1 of 15,,
+belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,budget_FY2023,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,921967,Other taxes,tax,FY2024_budget,budget_FY2023,1 of 15,,
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,462391,Other taxes,tax,FY2024_budget,budget_FY2023,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2023,budget_next_doc,prior_doc_budget,01-4-110-4115,General Administration,Cannabis Tax,36386,Other taxes,tax,FY2024_budget,budget_FY2023,1 of 15,,
@@ -1105,7 +1105,7 @@ belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,4148364,State income tax,tax,FY2026_budget,actual_FY2024,1 of 16,,
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1823772,Home rule sales tax,tax,FY2026_budget,actual_FY2024,1 of 16,,
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,5695114,Municipal sales tax,tax,FY2026_budget,actual_FY2024,1 of 16,,
-belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2026_budget,actual_FY2024,1 of 16,,
+belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2026_budget,actual_FY2024,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,967896,Other taxes,tax,FY2026_budget,actual_FY2024,1 of 16,,
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,375618,Other taxes,tax,FY2026_budget,actual_FY2024,1 of 16,,EX-motor-fuel-grants
 belvidere_il,2024,actual_budget_doc,actual_prelim,01-4-110-4114,General Administration,Real Estate Tax to Developer,0,Property tax,offset,FY2026_budget,actual_FY2024,1 of 16,,
@@ -1136,7 +1136,7 @@ belvidere_il,2024,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,4151926,State income tax,tax,FY2024_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1603027,Home rule sales tax,tax,FY2024_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,5148032,Municipal sales tax,tax,FY2024_budget,budget_FY2024,1 of 15,,
-belvidere_il,2024,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,budget_FY2024,1 of 15,,
+belvidere_il,2024,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2024_budget,budget_FY2024,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,970947,Other taxes,tax,FY2024_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,405000,Other taxes,tax,FY2024_budget,budget_FY2024,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2024,budget_adopted,adopted,01-4-110-4115,General Administration,Cannabis Tax,40076,Other taxes,tax,FY2024_budget,budget_FY2024,1 of 15,,
@@ -1166,7 +1166,7 @@ belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,4151926,State income tax,tax,FY2025_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1603027,Home rule sales tax,tax,FY2025_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,5148032,Municipal sales tax,tax,FY2025_budget,budget_FY2024,1 of 15,,
-belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,budget_FY2024,1 of 15,,
+belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,budget_FY2024,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,970947,Other taxes,tax,FY2025_budget,budget_FY2024,1 of 15,,
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,405000,Other taxes,tax,FY2025_budget,budget_FY2024,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2024,budget_next_doc,prior_doc_budget,01-4-110-4115,General Administration,Cannabis Tax,40076,Other taxes,tax,FY2025_budget,budget_FY2024,1 of 15,,
@@ -1196,7 +1196,7 @@ belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4013,General Administ
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4100,General Administration,State Income Tax,4404030,State income tax,tax,FY2027_budget,actual_FY2025,1 of 15,,
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4109,General Administration,Home Rule Sales Tax,1606547,Home rule sales tax,tax,FY2027_budget,actual_FY2025,1 of 15,,
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4110,General Administration,Muni Sales Tax,5512489,Municipal sales tax,tax,FY2027_budget,actual_FY2025,1 of 15,,
-belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,-106462,Municipal sales tax,offset,FY2027_budget,actual_FY2025,1 of 15,,
+belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4111,General Administration,Sales Tax to Developer,-106462,Municipal sales tax,offset,FY2027_budget,actual_FY2025,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4112,General Administration,Local Use Tax,847845,Other taxes,tax,FY2027_budget,actual_FY2025,1 of 15,,
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4113,General Administration,Local Motor Fuel Tax,390147,Other taxes,tax,FY2027_budget,actual_FY2025,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2025,actual_budget_doc,actual_prelim,01-4-110-4114,General Administration,Real Estate Tax to Developer,0,Property tax,offset,FY2027_budget,actual_FY2025,1 of 15,,
@@ -1227,7 +1227,7 @@ belvidere_il,2025,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,4081267,State income tax,tax,FY2025_budget,budget_FY2025,1 of 15,,
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1698752,Home rule sales tax,tax,FY2025_budget,budget_FY2025,1 of 15,,
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,5447940,Municipal sales tax,tax,FY2025_budget,budget_FY2025,1 of 15,,
-belvidere_il,2025,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,budget_FY2025,1 of 15,,
+belvidere_il,2025,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2025_budget,budget_FY2025,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,934200,Other taxes,tax,FY2025_budget,budget_FY2025,1 of 15,,
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,372463,Other taxes,tax,FY2025_budget,budget_FY2025,1 of 15,,EX-motor-fuel-grants
 belvidere_il,2025,budget_adopted,adopted,01-4-110-4115,General Administration,Cannabis Tax,157789,Other taxes,tax,FY2025_budget,budget_FY2025,1 of 15,,
@@ -1257,7 +1257,7 @@ belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,4081267,State income tax,tax,FY2026_budget,budget_FY2025,1 of 16,,
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1698752,Home rule sales tax,tax,FY2026_budget,budget_FY2025,1 of 16,,
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,5447940,Municipal sales tax,tax,FY2026_budget,budget_FY2025,1 of 16,,
-belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2026_budget,budget_FY2025,1 of 16,,
+belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,0,Municipal sales tax,offset,FY2026_budget,budget_FY2025,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,934200,Other taxes,tax,FY2026_budget,budget_FY2025,1 of 16,,
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,372463,Other taxes,tax,FY2026_budget,budget_FY2025,1 of 16,,EX-motor-fuel-grants
 belvidere_il,2025,budget_next_doc,prior_doc_budget,01-4-110-4114,General Administration,Real Estate Tax to Developer,0,Property tax,offset,FY2026_budget,budget_FY2025,1 of 16,,
@@ -1288,7 +1288,7 @@ belvidere_il,2026,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,4313340,State income tax,tax,FY2026_budget,budget_FY2026,1 of 16,,
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1599019,Home rule sales tax,tax,FY2026_budget,budget_FY2026,1 of 16,,
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,5071685,Municipal sales tax,tax,FY2026_budget,budget_FY2026,1 of 16,,
-belvidere_il,2026,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,-100000,Municipal sales tax,offset,FY2026_budget,budget_FY2026,1 of 16,,
+belvidere_il,2026,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,-100000,Municipal sales tax,offset,FY2026_budget,budget_FY2026,1 of 16,,EX-audit-sales-tax-incentive
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,496644,Other taxes,tax,FY2026_budget,budget_FY2026,1 of 16,,
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,399981,Other taxes,tax,FY2026_budget,budget_FY2026,1 of 16,,
 belvidere_il,2026,budget_adopted,adopted,01-4-110-4114,General Administration,Real Estate Tax to Developer,-15000,Property tax,offset,FY2026_budget,budget_FY2026,1 of 16,,EX-re-developer-typo
@@ -1319,7 +1319,7 @@ belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4013,General Adminis
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4100,General Administration,State Income Tax,4313340,State income tax,tax,FY2027_budget,budget_FY2026,1 of 15,,
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4109,General Administration,Home Rule Sales Tax,1599019,Home rule sales tax,tax,FY2027_budget,budget_FY2026,1 of 15,,
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4110,General Administration,Muni Sales Tax,5071685,Municipal sales tax,tax,FY2027_budget,budget_FY2026,1 of 15,,
-belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,-100000,Municipal sales tax,offset,FY2027_budget,budget_FY2026,1 of 15,,
+belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4111,General Administration,Sales Tax to Developer,-100000,Municipal sales tax,offset,FY2027_budget,budget_FY2026,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4112,General Administration,Local Use Tax,496644,Other taxes,tax,FY2027_budget,budget_FY2026,1 of 15,,
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4113,General Administration,Local Motor Fuel Tax,399981,Other taxes,tax,FY2027_budget,budget_FY2026,1 of 15,,
 belvidere_il,2026,budget_next_doc,prior_doc_budget,01-4-110-4114,General Administration,Real Estate Tax to Developer,-15000,Property tax,offset,FY2027_budget,budget_FY2026,1 of 15,,EX-re-developer-typo
@@ -1350,7 +1350,7 @@ belvidere_il,2027,budget_adopted,adopted,01-4-110-4013,General Administration,Mu
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4100,General Administration,State Income Tax,4595481,State income tax,tax,FY2027_budget,budget_FY2027,1 of 15,,
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4109,General Administration,Home Rule Sales Tax,1776091,Home rule sales tax,tax,FY2027_budget,budget_FY2027,1 of 15,,
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4110,General Administration,Muni Sales Tax,5166614,Municipal sales tax,tax,FY2027_budget,budget_FY2027,1 of 15,,
-belvidere_il,2027,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,-160000,Municipal sales tax,offset,FY2027_budget,budget_FY2027,1 of 15,,
+belvidere_il,2027,budget_adopted,adopted,01-4-110-4111,General Administration,Sales Tax to Developer,-160000,Municipal sales tax,offset,FY2027_budget,budget_FY2027,1 of 15,,EX-audit-sales-tax-incentive
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4112,General Administration,Local Use Tax,67655,Other taxes,tax,FY2027_budget,budget_FY2027,1 of 15,,
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4113,General Administration,Local Motor Fuel Tax,413000,Other taxes,tax,FY2027_budget,budget_FY2027,1 of 15,,
 belvidere_il,2027,budget_adopted,adopted,01-4-110-4114,General Administration,Real Estate Tax to Developer,-45810,Property tax,offset,FY2027_budget,budget_FY2027,1 of 15,,EX-re-developer-typo

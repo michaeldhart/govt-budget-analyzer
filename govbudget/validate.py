@@ -35,6 +35,12 @@ def validate_config(E):
     for r in E.table("audit_map.csv"):
         if r["comparable_group"] not in groups:
             errs.append(f"audit_map.csv: {r['audit_label']!r}: unknown comparable_group {r['comparable_group']!r}")
+    exp_groups = set()
+    for r in E.table("audit_expenditure_map.csv"):
+        exp_groups.add(r["department_group"])
+        for d in filter(None, r["budget_dept_codes"].split("|")):
+            if d not in E.departments():
+                errs.append(f"audit_expenditure_map.csv: {r['department_group']}: dept code {d!r} not in departments.csv")
     ids = set()
     for x in E.exceptions():
         if x["exception_id"] in ids:
@@ -50,7 +56,7 @@ def validate_config(E):
             for k in x["scope_id"].split("|"):
                 if not any(key == k for (_, key) in amap) and not k.endswith("UNLABELED"):
                     errs.append(f"exceptions.csv: {x['exception_id']}: account {k!r} not in account_map")
-        if x["scope"] == "group" and x["scope_id"] not in rg and x["scope_id"] not in groups:
+        if x["scope"] == "group" and x["scope_id"] not in rg and x["scope_id"] not in groups and x["scope_id"] not in exp_groups:
             errs.append(f"exceptions.csv: {x['exception_id']}: group {x['scope_id']!r} unknown")
     return errs
 

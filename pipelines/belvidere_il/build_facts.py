@@ -21,6 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", ".."))
 
 from govbudget import Entity  # noqa: E402
+from extract_audit_expenditures import norm as audit_norm  # noqa: E402
 from govbudget.entity import write_csv  # noqa: E402
 from govbudget.schema import ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS  # noqa: E402
 from govbudget.validate import validate_config, validate_tables  # noqa: E402
@@ -76,6 +77,7 @@ def main():
         sys.exit("config problems:\n  " + "\n  ".join(cfg_errs))
     ex = exception_index()
     facts, docs, totals = [], [], []
+    exp_map = {(r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
     lo, hi = E.config["documents"]["budget_range"]
     for fy in range(lo, hi + 1):
         path = E.data_path("extracted", f"FY{fy}_budget_gf_revenue.csv")
@@ -109,7 +111,7 @@ def main():
         docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="audit", fiscal_year=fy,
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if os.path.exists(pdf) else "",
                          sha256=E.sha(pdf) if os.path.exists(pdf) else "", source_url=E.config["source_index"]["audit"],
-                         note="General Fund Schedule of Revenues - Budget and Actual (the detailed schedule)"))
+                         note="General Fund detailed schedules of revenues and of expenditures - Budget and Actual"))
         for seq, r in enumerate(csv.DictReader(open(path)), 1):
             base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow="revenue", fund_code="01",
                         dept_code="", account_key="", account_printed="", audit_section=r["section"], label=r["line_item"],
@@ -119,6 +121,19 @@ def main():
             if r.get("prior_year_actual", "") != "":
                 facts.append(dict(base, period_fy=fy - 1, basis="actual_audited", amount=int(r["prior_year_actual"]),
                                   source_column="prior_year_actual"))
+        # Expenditures: audit_section is always three slots, "Function | Department | Category" (blank when absent), in the entity's canonical names
+        # (entities/belvidere_il/audit_expenditure_map.csv), the same wording in every audit
+        # (seq is still the last revenue row's number here: expenditure rows continue the same numbering)
+        for seq, r in enumerate(csv.DictReader(open(E.data_path("extracted", "audits", f"FY{fy}_audit_gf_expenditure.csv"))), seq + 1):
+            m = exp_map.get((audit_norm(r["function"]), audit_norm(r["department"])))
+            if m is None:
+                sys.exit(f"FY{fy} audit expenditures: {r['function']!r} / {r['department']!r} is not in audit_expenditure_map.csv")
+            section = " | ".join((m["function"], m["department"], r["category"][:1].upper() + r["category"][1:].lower()))  # always three slots, blank when absent
+            base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow="expense", fund_code="01",
+                        dept_code="", account_key="", account_printed="", audit_section=section, label=r["line_item"],
+                        page_label="", pdf_page=r["pdf_page"], flag=r["flag"].strip(), exception_ids=attach(ex, doc_id, "", fy, ""))
+            for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
+                facts.append(dict(base, period_fy=fy, basis=basis, amount=int(r[col]), source_column=col))
 
     amap = E.account_map()
     first, last, label = {}, {}, {}

@@ -1,0 +1,10 @@
+kind,page_label,key,column,value,note
+fixline,,"Salaries 2,813,088 2,182,852 2,791,580 (8,728) 2,167,193",,"Salaries 2,813,088 2,782,852 2,791,580 (8,728) 2,167,193","Police salaries final budget read 2,182,852; page image (pdf p97) shows 2,782,852 (variance (8,728) agrees)"
+fixline,,"Repairs & maintenance - vehicles 136,321 411,101 104,312 6,789 131,976",,"Repairs & maintenance - vehicles 136,321 111,101 104,312 6,789 131,976","Police vehicle repair final budget read 411,101; page image shows 111,101"
+fixline,,"Salaries 531,707 32,174 533,275 (1,101) -",,"Salaries 531,707 532,174 533,275 (1,101) -","Street department salaries final budget: OCR dropped the leading 5 (§32,174); page image shows 532,174"
+fixline,,"Total city engineering 50,350 27,766 27/67 (1) 51,694",,"Total city engineering 50,350 27,766 27,767 (1) 51,694","printed actual total read 27/67; 27,767 ties the group"
+fixline,,DEVELOPMENT,,,second line of the wrapped heading COMMUNITY & ECONOMIC DEVELOPMENT
+allow_diff,,GENERAL GOVERNMENT|Social security|actual,,1,printed total vs its own lines: $1 (cents rounding)
+allow_diff,,PUBLIC SAFETY|Police Department|actual,,-1,cents rounding
+allow_diff,,PUBLIC WORKS|Street department|actual,,-2,cents rounding
+allow_diff,,PUBLIC SAFETY|Fire department|actual,,-1,cents rounding
