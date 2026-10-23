@@ -5,7 +5,8 @@ Usage: python3 pipelines/belvidere_il/build_facts.py
 Inputs : data/belvidere_il/extracted/FY2015..FY2027_budget_gf_{revenue,expense,totals}.csv   (extract_budget.py)
          data/belvidere_il/extracted/audits/FY2012..FY2026_audit_gf_revenue.csv   (extract_audit.py)
          entities/belvidere_il/*  (account_map.csv, exceptions.csv, entity.json)
-Outputs: data/belvidere_il/documents.csv, accounts.csv, facts.csv, control_totals.csv
+         data/belvidere_il/extracted/audits/FY2012..FY2026_audit_fund_statements.csv   (extract_audit_fund_statements.py)
+Outputs: data/belvidere_il/documents.csv, accounts.csv, facts.csv, control_totals.csv, fund_statements.csv
 
 Nothing here classifies or sums anything: facts.csv holds every extracted number once, with its document, period,
 basis and provenance. Mapping decisions live in entities/belvidere_il/account_map.csv; anomalies in exceptions.csv
@@ -23,7 +24,8 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from govbudget import Entity  # noqa: E402
 from extract_audit_expenditures import norm as audit_norm  # noqa: E402
 from govbudget.entity import write_csv  # noqa: E402
-from govbudget.schema import ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS  # noqa: E402
+from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
+                              FUND_STATEMENT_COLUMNS)
 from govbudget.validate import validate_config, validate_tables  # noqa: E402
 
 E = Entity.load("belvidere_il")
@@ -76,7 +78,8 @@ def main():
     if cfg_errs:
         sys.exit("config problems:\n  " + "\n  ".join(cfg_errs))
     ex = exception_index()
-    facts, docs, totals = [], [], []
+    facts, docs, totals, fund_rows = [], [], [], []
+    stmt_map = [(r["statement"], re.compile(r["label_pattern"], re.I), r["line_id"]) for r in E.table("fund_statement_lines.csv")]
     exp_map = {(r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
     lo, hi = E.config["documents"]["budget_range"]
     for fy in range(lo, hi + 1):
@@ -135,6 +138,13 @@ def main():
             for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
                 facts.append(dict(base, period_fy=fy, basis=basis, amount=int(r[col]), source_column=col))
 
+    for fy in range(lo, hi + 1):  # audited fund-level statements: the line_id names lines every audit has
+        for r in csv.DictReader(open(E.data_path("extracted", "audits", f"FY{fy}_audit_fund_statements.csv"))):
+            lid = next((i for st, rx, i in stmt_map if st == r["statement"] and rx.search(r["line_item"].strip())), "")
+            fund_rows.append(dict(entity_id=E.id, doc_id=r["doc"], period_fy=fy, statement=r["statement"], fund=r["fund"],
+                                  section=r["section"], subsection=r["subsection"], line_item=r["line_item"], line_id=lid,
+                                  amount=int(r["amount"]), pdf_page=r["pdf_page"], flag=r["flag"]))
+
     amap = E.account_map()
     first, last, label = {}, {}, {}
     for f in facts:
@@ -153,11 +163,12 @@ def main():
     write_csv(E.data_path("accounts.csv"), ACCOUNT_COLUMNS, accounts)
     write_csv(E.data_path("facts.csv"), FACT_COLUMNS, facts)
     write_csv(E.data_path("control_totals.csv"), CONTROL_TOTAL_COLUMNS, totals)
+    write_csv(E.data_path("fund_statements.csv"), FUND_STATEMENT_COLUMNS, fund_rows)
     errs = validate_tables(E)
     if errs:
         sys.exit(f"{len(errs)} integrity problems:\n  " + "\n  ".join(errs[:30]))
     n_exp = sum(1 for f in facts if f["flow"] == "expense")
-    print(f"{len(docs)} documents, {len(accounts)} accounts, {len(facts)} facts ({n_exp} expense), {len(totals)} control totals -> data/{E.id}/ (integrity checks pass)")
+    print(f"{len(docs)} documents, {len(accounts)} accounts, {len(facts)} facts ({n_exp} expense), {len(totals)} control totals, {len(fund_rows)} fund statement cells -> data/{E.id}/ (integrity checks pass)")
 
 
 if __name__ == "__main__":

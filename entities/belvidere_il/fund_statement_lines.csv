@@ -1,0 +1,21 @@
+statement,label_pattern,line_id,note
+balance_sheet,^(cash and (cash equivalents|investments)|pooled|non-pooled)$,cash,FY2012 lists pooled and non-pooled cash on two lines: both are cash
+balance_sheet,^total assets,total_assets,
+balance_sheet,^total liabilities$,total_liabilities,
+balance_sheet,^total deferred inflows,total_deferred_inflows,
+balance_sheet,^total liabilities and deferred inflows,total_liabilities_deferred,
+balance_sheet,^total liabilities.*fund balances,total_liabilities_deferred_fund_balances,equals total assets
+balance_sheet,^total fund balances?,total_fund_balance,
+balance_sheet,^unassigned,unassigned,includes 'Unassigned (deficit)'
+changes_in_fund_balance,^total revenues?$,total_revenues,
+changes_in_fund_balance,^total expenditures?$,total_expenditures,
+changes_in_fund_balance,^excess,excess_revenues_over_expenditures,
+changes_in_fund_balance,^transfers? in,transfers_in,
+changes_in_fund_balance,^transfers? \(?out,transfers_out,
+changes_in_fund_balance,^transfers in \(out\),transfers_net,FY2012 prints one net transfers line
+changes_in_fund_balance,^total (other )?financing,total_other_financing,FY2013-FY2015: an unlabeled line after the transfers
+changes_in_fund_balance,^net change,net_change_in_fund_balance,
+changes_in_fund_balance,^prior period adjustment,prior_period_adjustment,
+changes_in_fund_balance,(fund balances?.*restated),fund_balance_restated,
+changes_in_fund_balance,^(fund balances?\b.*(may 1|beginning)|beginning$),fund_balance_beginning,
+changes_in_fund_balance,^(fund balances?\b.*(april|ending)|ending$),fund_balance_ending,

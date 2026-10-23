@@ -59,6 +59,12 @@ DEPARTMENT_COLUMNS = ["dept_code", "name", "function", "note"]
 # Totals the source prints (department totals, subtotals, NET lines, fund totals): control totals for reconciling facts.
 TOTAL_KINDS = ("fund_revenues", "fund_expenses", "fund_net", "dept_revenues", "dept_expenses", "dept_net", "subtotal")
 CONTROL_TOTAL_COLUMNS = ["entity_id", "doc_id", "period_fy", "basis", "kind", "name", "amount", "page_label"]
+# Audited fund-level statements (balance sheet; statement of revenues, expenditures and changes in fund balances), one row per
+# line x fund column. line_id is a stable name for the lines every audit has (cash, total_assets, total_fund_balance, ...).
+STATEMENTS = ("balance_sheet", "changes_in_fund_balance")
+FUND_STATEMENT_COLUMNS = ["entity_id", "doc_id", "period_fy", "statement", "fund", "section", "subsection", "line_item", "line_id",
+                          "amount", "pdf_page", "flag"]
+FUND_STATEMENT_MAP_COLUMNS = ["statement", "label_pattern", "line_id", "note"]
 EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "bases", "effect", "summary", "detail",
                      "decided_on", "evidence"]
 

@@ -1,0 +1,4 @@
+kind,page_label,key,column,value,note
+allow_diff,,changes_in_fund_balance|Total expenditures|row,,1,the printed Total column is $1 above the sum of the fund columns (cents rounding in the source)
+allow_diff,,changes_in_fund_balance|total expenditures,,1,same $1
+allow_diff,,changes_in_fund_balance|excess of revenues over expenditures,,1,same $1 carried down
