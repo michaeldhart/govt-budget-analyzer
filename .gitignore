@@ -13,8 +13,8 @@ venv/
 
 # Source PDFs for FY2015-26 are large and re-downloadable from
 # https://www.belvidereil.gov/budget/ and https://www.belvidereil.gov/audit/
-sources/budgets/
-sources/audits/
+sources/*/budgets/
+sources/*/audits/
 
 # OCR scratch output (regenerable)
-data/ocr/
+data/*/ocr/

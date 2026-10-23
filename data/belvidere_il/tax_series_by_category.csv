@@ -1,0 +1,412 @@
+entity_id,fiscal_year,measure,basis,category,is_rollup,gross_tax,offsets,net
+belvidere_il,2013,actual_budget_doc,actual_prelim,ALL TAXES,1,13686718,-195058,13491660
+belvidere_il,2013,actual_budget_doc,actual_prelim,Municipal sales tax,0,3235575,-46719,3188856
+belvidere_il,2013,actual_budget_doc,actual_prelim,Other taxes,0,602968,0,602968
+belvidere_il,2013,actual_budget_doc,actual_prelim,Property tax,0,4401837,0,4401837
+belvidere_il,2013,actual_budget_doc,actual_prelim,Replacement tax,0,538877,-148339,390538
+belvidere_il,2013,actual_budget_doc,actual_prelim,State income tax,0,2696430,0,2696430
+belvidere_il,2013,actual_budget_doc,actual_prelim,Utility taxes,0,2211031,0,2211031
+belvidere_il,2013,actual_budget_doc,actual_prelim,Video gaming tax,0,0,0,0
+belvidere_il,2014,actual_budget_doc,actual_prelim,ALL TAXES,1,13912543,-284759,13627784
+belvidere_il,2014,actual_budget_doc,actual_prelim,Municipal sales tax,0,3198631,-46868,3151763
+belvidere_il,2014,actual_budget_doc,actual_prelim,Other taxes,0,618598,0,618598
+belvidere_il,2014,actual_budget_doc,actual_prelim,Property tax,0,4704129,0,4704129
+belvidere_il,2014,actual_budget_doc,actual_prelim,Replacement tax,0,595761,-237891,357870
+belvidere_il,2014,actual_budget_doc,actual_prelim,State income tax,0,2473944,0,2473944
+belvidere_il,2014,actual_budget_doc,actual_prelim,Utility taxes,0,2301862,0,2301862
+belvidere_il,2014,actual_budget_doc,actual_prelim,Video gaming tax,0,19618,0,19618
+belvidere_il,2014,budget_adopted,adopted,ALL TAXES,1,13587205,-269628,13317577
+belvidere_il,2014,budget_adopted,adopted,Municipal sales tax,0,3201408,-35000,3166408
+belvidere_il,2014,budget_adopted,adopted,Other taxes,0,620831,0,620831
+belvidere_il,2014,budget_adopted,adopted,Property tax,0,4666800,0,4666800
+belvidere_il,2014,budget_adopted,adopted,Replacement tax,0,472143,-234628,237515
+belvidere_il,2014,budget_adopted,adopted,State income tax,0,2440809,0,2440809
+belvidere_il,2014,budget_adopted,adopted,Utility taxes,0,2135214,0,2135214
+belvidere_il,2014,budget_adopted,adopted,Video gaming tax,0,50000,0,50000
+belvidere_il,2014,budget_next_doc,prior_doc_budget,ALL TAXES,1,13587205,-269628,13317577
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3201408,-35000,3166408
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Other taxes,0,620831,0,620831
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Property tax,0,4666800,0,4666800
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Replacement tax,0,472143,-234628,237515
+belvidere_il,2014,budget_next_doc,prior_doc_budget,State income tax,0,2440809,0,2440809
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Utility taxes,0,2135214,0,2135214
+belvidere_il,2014,budget_next_doc,prior_doc_budget,Video gaming tax,0,50000,0,50000
+belvidere_il,2014,budget_revised,revised,ALL TAXES,1,13587205,-269628,13317577
+belvidere_il,2014,budget_revised,revised,Municipal sales tax,0,3201408,-35000,3166408
+belvidere_il,2014,budget_revised,revised,Other taxes,0,620831,0,620831
+belvidere_il,2014,budget_revised,revised,Property tax,0,4666800,0,4666800
+belvidere_il,2014,budget_revised,revised,Replacement tax,0,472143,-234628,237515
+belvidere_il,2014,budget_revised,revised,State income tax,0,2440809,0,2440809
+belvidere_il,2014,budget_revised,revised,Utility taxes,0,2135214,0,2135214
+belvidere_il,2014,budget_revised,revised,Video gaming tax,0,50000,0,50000
+belvidere_il,2015,actual_budget_doc,actual_prelim,ALL TAXES,1,14192271,-255962,13936309
+belvidere_il,2015,actual_budget_doc,actual_prelim,Municipal sales tax,0,3266150,0,3266150
+belvidere_il,2015,actual_budget_doc,actual_prelim,Other taxes,0,673159,0,673159
+belvidere_il,2015,actual_budget_doc,actual_prelim,Property tax,0,4797631,0,4797631
+belvidere_il,2015,actual_budget_doc,actual_prelim,Replacement tax,0,590864,-255962,334902
+belvidere_il,2015,actual_budget_doc,actual_prelim,State income tax,0,2484441,0,2484441
+belvidere_il,2015,actual_budget_doc,actual_prelim,Utility taxes,0,2271662,0,2271662
+belvidere_il,2015,actual_budget_doc,actual_prelim,Video gaming tax,0,108364,0,108364
+belvidere_il,2015,budget_adopted,adopted,ALL TAXES,1,13798791,-255961,13542830
+belvidere_il,2015,budget_adopted,adopted,Municipal sales tax,0,3186586,0,3186586
+belvidere_il,2015,budget_adopted,adopted,Other taxes,0,628772,0,628772
+belvidere_il,2015,budget_adopted,adopted,Property tax,0,4773750,0,4773750
+belvidere_il,2015,budget_adopted,adopted,Replacement tax,0,515680,-255961,259719
+belvidere_il,2015,budget_adopted,adopted,State income tax,0,2422900,0,2422900
+belvidere_il,2015,budget_adopted,adopted,Utility taxes,0,2231103,0,2231103
+belvidere_il,2015,budget_adopted,adopted,Video gaming tax,0,40000,0,40000
+belvidere_il,2015,budget_next_doc,prior_doc_budget,ALL TAXES,1,13798791,-255961,13542830
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3186586,0,3186586
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Other taxes,0,628772,0,628772
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Property tax,0,4773750,0,4773750
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Replacement tax,0,515680,-255961,259719
+belvidere_il,2015,budget_next_doc,prior_doc_budget,State income tax,0,2422900,0,2422900
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Utility taxes,0,2231103,0,2231103
+belvidere_il,2015,budget_next_doc,prior_doc_budget,Video gaming tax,0,40000,0,40000
+belvidere_il,2015,budget_revised,revised,ALL TAXES,1,13798791,-255961,13542830
+belvidere_il,2015,budget_revised,revised,Municipal sales tax,0,3186586,0,3186586
+belvidere_il,2015,budget_revised,revised,Other taxes,0,628772,0,628772
+belvidere_il,2015,budget_revised,revised,Property tax,0,4773750,0,4773750
+belvidere_il,2015,budget_revised,revised,Replacement tax,0,515680,-255961,259719
+belvidere_il,2015,budget_revised,revised,State income tax,0,2422900,0,2422900
+belvidere_il,2015,budget_revised,revised,Utility taxes,0,2231103,0,2231103
+belvidere_il,2015,budget_revised,revised,Video gaming tax,0,40000,0,40000
+belvidere_il,2016,actual_budget_doc,actual_prelim,ALL TAXES,1,14448352,-256794,14191558
+belvidere_il,2016,actual_budget_doc,actual_prelim,Municipal sales tax,0,3195463,0,3195463
+belvidere_il,2016,actual_budget_doc,actual_prelim,Other taxes,0,770274,0,770274
+belvidere_il,2016,actual_budget_doc,actual_prelim,Property tax,0,4899075,0,4899075
+belvidere_il,2016,actual_budget_doc,actual_prelim,Replacement tax,0,596555,-256794,339761
+belvidere_il,2016,actual_budget_doc,actual_prelim,State income tax,0,2731920,0,2731920
+belvidere_il,2016,actual_budget_doc,actual_prelim,Utility taxes,0,2071007,0,2071007
+belvidere_il,2016,actual_budget_doc,actual_prelim,Video gaming tax,0,184058,0,184058
+belvidere_il,2016,budget_adopted,adopted,ALL TAXES,1,14110265,-257241,13853024
+belvidere_il,2016,budget_adopted,adopted,Municipal sales tax,0,3202519,0,3202519
+belvidere_il,2016,budget_adopted,adopted,Other taxes,0,678445,0,678445
+belvidere_il,2016,budget_adopted,adopted,Property tax,0,4873148,0,4873148
+belvidere_il,2016,budget_adopted,adopted,Replacement tax,0,517808,-257241,260567
+belvidere_il,2016,budget_adopted,adopted,State income tax,0,2532915,0,2532915
+belvidere_il,2016,budget_adopted,adopted,Utility taxes,0,2211830,0,2211830
+belvidere_il,2016,budget_adopted,adopted,Video gaming tax,0,93600,0,93600
+belvidere_il,2016,budget_next_doc,prior_doc_budget,ALL TAXES,1,14110265,-257241,13853024
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3202519,0,3202519
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Other taxes,0,678445,0,678445
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Property tax,0,4873148,0,4873148
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Replacement tax,0,517808,-257241,260567
+belvidere_il,2016,budget_next_doc,prior_doc_budget,State income tax,0,2532915,0,2532915
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Utility taxes,0,2211830,0,2211830
+belvidere_il,2016,budget_next_doc,prior_doc_budget,Video gaming tax,0,93600,0,93600
+belvidere_il,2016,budget_revised,revised,ALL TAXES,1,14110265,-257241,13853024
+belvidere_il,2016,budget_revised,revised,Municipal sales tax,0,3202519,0,3202519
+belvidere_il,2016,budget_revised,revised,Other taxes,0,678445,0,678445
+belvidere_il,2016,budget_revised,revised,Property tax,0,4873148,0,4873148
+belvidere_il,2016,budget_revised,revised,Replacement tax,0,517808,-257241,260567
+belvidere_il,2016,budget_revised,revised,State income tax,0,2532915,0,2532915
+belvidere_il,2016,budget_revised,revised,Utility taxes,0,2211830,0,2211830
+belvidere_il,2016,budget_revised,revised,Video gaming tax,0,93600,0,93600
+belvidere_il,2017,actual_budget_doc,actual_prelim,ALL TAXES,1,14358985,-264958,14094027
+belvidere_il,2017,actual_budget_doc,actual_prelim,Municipal sales tax,0,3310595,0,3310595
+belvidere_il,2017,actual_budget_doc,actual_prelim,Other taxes,0,784498,0,784498
+belvidere_il,2017,actual_budget_doc,actual_prelim,Property tax,0,4968764,0,4968764
+belvidere_il,2017,actual_budget_doc,actual_prelim,Replacement tax,0,627067,-264958,362109
+belvidere_il,2017,actual_budget_doc,actual_prelim,State income tax,0,2436019,0,2436019
+belvidere_il,2017,actual_budget_doc,actual_prelim,Utility taxes,0,2002572,0,2002572
+belvidere_il,2017,actual_budget_doc,actual_prelim,Video gaming tax,0,229470,0,229470
+belvidere_il,2017,budget_adopted,adopted,ALL TAXES,1,14478179,-264958,14213221
+belvidere_il,2017,budget_adopted,adopted,Municipal sales tax,0,3219242,0,3219242
+belvidere_il,2017,budget_adopted,adopted,Other taxes,0,788683,0,788683
+belvidere_il,2017,budget_adopted,adopted,Property tax,0,4941324,0,4941324
+belvidere_il,2017,budget_adopted,adopted,Replacement tax,0,560617,-264958,295659
+belvidere_il,2017,budget_adopted,adopted,State income tax,0,2609670,0,2609670
+belvidere_il,2017,budget_adopted,adopted,Utility taxes,0,2178643,0,2178643
+belvidere_il,2017,budget_adopted,adopted,Video gaming tax,0,180000,0,180000
+belvidere_il,2017,budget_next_doc,prior_doc_budget,ALL TAXES,1,14478179,-264958,14213221
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3219242,0,3219242
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Other taxes,0,788683,0,788683
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Property tax,0,4941324,0,4941324
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Replacement tax,0,560617,-264958,295659
+belvidere_il,2017,budget_next_doc,prior_doc_budget,State income tax,0,2609670,0,2609670
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Utility taxes,0,2178643,0,2178643
+belvidere_il,2017,budget_next_doc,prior_doc_budget,Video gaming tax,0,180000,0,180000
+belvidere_il,2017,budget_revised,revised,ALL TAXES,1,14478179,-264958,14213221
+belvidere_il,2017,budget_revised,revised,Municipal sales tax,0,3219242,0,3219242
+belvidere_il,2017,budget_revised,revised,Other taxes,0,788683,0,788683
+belvidere_il,2017,budget_revised,revised,Property tax,0,4941324,0,4941324
+belvidere_il,2017,budget_revised,revised,Replacement tax,0,560617,-264958,295659
+belvidere_il,2017,budget_revised,revised,State income tax,0,2609670,0,2609670
+belvidere_il,2017,budget_revised,revised,Utility taxes,0,2178643,0,2178643
+belvidere_il,2017,budget_revised,revised,Video gaming tax,0,180000,0,180000
+belvidere_il,2018,actual_budget_doc,actual_prelim,ALL TAXES,1,14743556,-260246,14483310
+belvidere_il,2018,actual_budget_doc,actual_prelim,Home rule sales tax,0,0,0,0
+belvidere_il,2018,actual_budget_doc,actual_prelim,Municipal sales tax,0,3427288,0,3427288
+belvidere_il,2018,actual_budget_doc,actual_prelim,Other taxes,0,804530,0,804530
+belvidere_il,2018,actual_budget_doc,actual_prelim,Property tax,0,5042351,0,5042351
+belvidere_il,2018,actual_budget_doc,actual_prelim,Replacement tax,0,524159,-260246,263913
+belvidere_il,2018,actual_budget_doc,actual_prelim,State income tax,0,2710101,0,2710101
+belvidere_il,2018,actual_budget_doc,actual_prelim,Utility taxes,0,1956111,0,1956111
+belvidere_il,2018,actual_budget_doc,actual_prelim,Video gaming tax,0,279016,0,279016
+belvidere_il,2018,budget_adopted,adopted,ALL TAXES,1,14595755,-260246,14335509
+belvidere_il,2018,budget_adopted,adopted,Municipal sales tax,0,3305624,0,3305624
+belvidere_il,2018,budget_adopted,adopted,Other taxes,0,788293,0,788293
+belvidere_il,2018,budget_adopted,adopted,Property tax,0,5032958,0,5032958
+belvidere_il,2018,budget_adopted,adopted,Replacement tax,0,547777,-260246,287531
+belvidere_il,2018,budget_adopted,adopted,State income tax,0,2584085,0,2584085
+belvidere_il,2018,budget_adopted,adopted,Utility taxes,0,2117418,0,2117418
+belvidere_il,2018,budget_adopted,adopted,Video gaming tax,0,219600,0,219600
+belvidere_il,2018,budget_next_doc,prior_doc_budget,ALL TAXES,1,14595755,-260246,14335509
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3305624,0,3305624
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Other taxes,0,788293,0,788293
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Property tax,0,5032958,0,5032958
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Replacement tax,0,547777,-260246,287531
+belvidere_il,2018,budget_next_doc,prior_doc_budget,State income tax,0,2584085,0,2584085
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Utility taxes,0,2117418,0,2117418
+belvidere_il,2018,budget_next_doc,prior_doc_budget,Video gaming tax,0,219600,0,219600
+belvidere_il,2018,budget_revised,revised,ALL TAXES,1,14595755,-260246,14335509
+belvidere_il,2018,budget_revised,revised,Municipal sales tax,0,3305624,0,3305624
+belvidere_il,2018,budget_revised,revised,Other taxes,0,788293,0,788293
+belvidere_il,2018,budget_revised,revised,Property tax,0,5032958,0,5032958
+belvidere_il,2018,budget_revised,revised,Replacement tax,0,547777,-260246,287531
+belvidere_il,2018,budget_revised,revised,State income tax,0,2584085,0,2584085
+belvidere_il,2018,budget_revised,revised,Utility taxes,0,2117418,0,2117418
+belvidere_il,2018,budget_revised,revised,Video gaming tax,0,219600,0,219600
+belvidere_il,2019,actual_budget_doc,actual_prelim,ALL TAXES,1,15484837,-268051,15216786
+belvidere_il,2019,actual_budget_doc,actual_prelim,Home rule sales tax,0,75147,0,75147
+belvidere_il,2019,actual_budget_doc,actual_prelim,Municipal sales tax,0,3583826,0,3583826
+belvidere_il,2019,actual_budget_doc,actual_prelim,Other taxes,0,1222155,0,1222155
+belvidere_il,2019,actual_budget_doc,actual_prelim,Property tax,0,5219361,0,5219361
+belvidere_il,2019,actual_budget_doc,actual_prelim,Replacement tax,0,543841,-268051,275790
+belvidere_il,2019,actual_budget_doc,actual_prelim,State income tax,0,2484021,0,2484021
+belvidere_il,2019,actual_budget_doc,actual_prelim,Utility taxes,0,2010720,0,2010720
+belvidere_il,2019,actual_budget_doc,actual_prelim,Video gaming tax,0,345766,0,345766
+belvidere_il,2019,budget_adopted,adopted,ALL TAXES,1,14906825,-268051,14638774
+belvidere_il,2019,budget_adopted,adopted,Municipal sales tax,0,3471350,0,3471350
+belvidere_il,2019,budget_adopted,adopted,Other taxes,0,825521,0,825521
+belvidere_il,2019,budget_adopted,adopted,Property tax,0,5203934,0,5203934
+belvidere_il,2019,budget_adopted,adopted,Replacement tax,0,599342,-268051,331291
+belvidere_il,2019,budget_adopted,adopted,State income tax,0,2451043,0,2451043
+belvidere_il,2019,budget_adopted,adopted,Utility taxes,0,2082035,0,2082035
+belvidere_il,2019,budget_adopted,adopted,Video gaming tax,0,273600,0,273600
+belvidere_il,2019,budget_next_doc,prior_doc_budget,ALL TAXES,1,14906825,-268051,14638774
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Home rule sales tax,0,0,0,0
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3471350,0,3471350
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Other taxes,0,825521,0,825521
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Property tax,0,5203934,0,5203934
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Replacement tax,0,599342,-268051,331291
+belvidere_il,2019,budget_next_doc,prior_doc_budget,State income tax,0,2451043,0,2451043
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Utility taxes,0,2082035,0,2082035
+belvidere_il,2019,budget_next_doc,prior_doc_budget,Video gaming tax,0,273600,0,273600
+belvidere_il,2019,budget_revised,revised,ALL TAXES,1,14906825,-268051,14638774
+belvidere_il,2019,budget_revised,revised,Home rule sales tax,0,0,0,0
+belvidere_il,2019,budget_revised,revised,Municipal sales tax,0,3471350,0,3471350
+belvidere_il,2019,budget_revised,revised,Other taxes,0,825521,0,825521
+belvidere_il,2019,budget_revised,revised,Property tax,0,5203934,0,5203934
+belvidere_il,2019,budget_revised,revised,Replacement tax,0,599342,-268051,331291
+belvidere_il,2019,budget_revised,revised,State income tax,0,2451043,0,2451043
+belvidere_il,2019,budget_revised,revised,Utility taxes,0,2082035,0,2082035
+belvidere_il,2019,budget_revised,revised,Video gaming tax,0,273600,0,273600
+belvidere_il,2020,actual_budget_doc,actual_prelim,ALL TAXES,1,17239709,-268051,16971658
+belvidere_il,2020,actual_budget_doc,actual_prelim,Home rule sales tax,0,1126401,0,1126401
+belvidere_il,2020,actual_budget_doc,actual_prelim,Municipal sales tax,0,3650910,0,3650910
+belvidere_il,2020,actual_budget_doc,actual_prelim,Other taxes,0,1558345,0,1558345
+belvidere_il,2020,actual_budget_doc,actual_prelim,Property tax,0,5209322,0,5209322
+belvidere_il,2020,actual_budget_doc,actual_prelim,Replacement tax,0,685798,-268051,417747
+belvidere_il,2020,actual_budget_doc,actual_prelim,State income tax,0,2773012,0,2773012
+belvidere_il,2020,actual_budget_doc,actual_prelim,Utility taxes,0,1850039,0,1850039
+belvidere_il,2020,actual_budget_doc,actual_prelim,Video gaming tax,0,385882,0,385882
+belvidere_il,2020,budget_adopted,adopted,ALL TAXES,1,17019326,-268051,16751275
+belvidere_il,2020,budget_adopted,adopted,Home rule sales tax,0,1200000,0,1200000
+belvidere_il,2020,budget_adopted,adopted,Municipal sales tax,0,3634459,0,3634459
+belvidere_il,2020,budget_adopted,adopted,Other taxes,0,1498905,0,1498905
+belvidere_il,2020,budget_adopted,adopted,Property tax,0,5203934,0,5203934
+belvidere_il,2020,budget_adopted,adopted,Replacement tax,0,560387,-268051,292336
+belvidere_il,2020,budget_adopted,adopted,State income tax,0,2577688,0,2577688
+belvidere_il,2020,budget_adopted,adopted,Utility taxes,0,2007953,0,2007953
+belvidere_il,2020,budget_adopted,adopted,Video gaming tax,0,336000,0,336000
+belvidere_il,2020,budget_next_doc,prior_doc_budget,ALL TAXES,1,17019326,-268051,16751275
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1200000,0,1200000
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3634459,0,3634459
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Other taxes,0,1498905,0,1498905
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Property tax,0,5203934,0,5203934
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Replacement tax,0,560387,-268051,292336
+belvidere_il,2020,budget_next_doc,prior_doc_budget,State income tax,0,2577688,0,2577688
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Utility taxes,0,2007953,0,2007953
+belvidere_il,2020,budget_next_doc,prior_doc_budget,Video gaming tax,0,336000,0,336000
+belvidere_il,2020,budget_revised,revised,ALL TAXES,1,17019326,-268051,16751275
+belvidere_il,2020,budget_revised,revised,Home rule sales tax,0,1200000,0,1200000
+belvidere_il,2020,budget_revised,revised,Municipal sales tax,0,3634459,0,3634459
+belvidere_il,2020,budget_revised,revised,Other taxes,0,1498905,0,1498905
+belvidere_il,2020,budget_revised,revised,Property tax,0,5203934,0,5203934
+belvidere_il,2020,budget_revised,revised,Replacement tax,0,560387,-268051,292336
+belvidere_il,2020,budget_revised,revised,State income tax,0,2577688,0,2577688
+belvidere_il,2020,budget_revised,revised,Utility taxes,0,2007953,0,2007953
+belvidere_il,2020,budget_revised,revised,Video gaming tax,0,336000,0,336000
+belvidere_il,2021,actual_budget_doc,actual_prelim,ALL TAXES,1,18242684,-130561,18112123
+belvidere_il,2021,actual_budget_doc,actual_prelim,Home rule sales tax,0,1091262,0,1091262
+belvidere_il,2021,actual_budget_doc,actual_prelim,Municipal sales tax,0,3852961,0,3852961
+belvidere_il,2021,actual_budget_doc,actual_prelim,Other taxes,0,1758207,0,1758207
+belvidere_il,2021,actual_budget_doc,actual_prelim,Property tax,0,5200516,0,5200516
+belvidere_il,2021,actual_budget_doc,actual_prelim,Replacement tax,0,650961,-130561,520400
+belvidere_il,2021,actual_budget_doc,actual_prelim,State income tax,0,2932995,0,2932995
+belvidere_il,2021,actual_budget_doc,actual_prelim,Utility taxes,0,2483955,0,2483955
+belvidere_il,2021,actual_budget_doc,actual_prelim,Video gaming tax,0,271827,0,271827
+belvidere_il,2021,budget_adopted,adopted,ALL TAXES,1,17112693,-264297,16848396
+belvidere_il,2021,budget_adopted,adopted,Home rule sales tax,0,1130065,0,1130065
+belvidere_il,2021,budget_adopted,adopted,Municipal sales tax,0,3660790,0,3660790
+belvidere_il,2021,budget_adopted,adopted,Other taxes,0,1587887,0,1587887
+belvidere_il,2021,budget_adopted,adopted,Property tax,0,5203934,0,5203934
+belvidere_il,2021,budget_adopted,adopted,Replacement tax,0,542328,-264297,278031
+belvidere_il,2021,budget_adopted,adopted,State income tax,0,2686425,0,2686425
+belvidere_il,2021,budget_adopted,adopted,Utility taxes,0,1935264,0,1935264
+belvidere_il,2021,budget_adopted,adopted,Video gaming tax,0,366000,0,366000
+belvidere_il,2021,budget_next_doc,prior_doc_budget,ALL TAXES,1,17112693,-264297,16848396
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1130065,0,1130065
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3660790,0,3660790
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Other taxes,0,1587887,0,1587887
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Property tax,0,5203934,0,5203934
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Replacement tax,0,542328,-264297,278031
+belvidere_il,2021,budget_next_doc,prior_doc_budget,State income tax,0,2686425,0,2686425
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Utility taxes,0,1935264,0,1935264
+belvidere_il,2021,budget_next_doc,prior_doc_budget,Video gaming tax,0,366000,0,366000
+belvidere_il,2021,budget_revised,revised,ALL TAXES,1,17112693,-264297,16848396
+belvidere_il,2021,budget_revised,revised,Home rule sales tax,0,1130065,0,1130065
+belvidere_il,2021,budget_revised,revised,Municipal sales tax,0,3660790,0,3660790
+belvidere_il,2021,budget_revised,revised,Other taxes,0,1587887,0,1587887
+belvidere_il,2021,budget_revised,revised,Property tax,0,5203934,0,5203934
+belvidere_il,2021,budget_revised,revised,Replacement tax,0,542328,-264297,278031
+belvidere_il,2021,budget_revised,revised,State income tax,0,2686425,0,2686425
+belvidere_il,2021,budget_revised,revised,Utility taxes,0,1935264,0,1935264
+belvidere_il,2021,budget_revised,revised,Video gaming tax,0,366000,0,366000
+belvidere_il,2022,actual_budget_doc,actual_prelim,ALL TAXES,1,20799393,-264297,20535096
+belvidere_il,2022,actual_budget_doc,actual_prelim,Home rule sales tax,0,1370774,0,1370774
+belvidere_il,2022,actual_budget_doc,actual_prelim,Municipal sales tax,0,4669641,0,4669641
+belvidere_il,2022,actual_budget_doc,actual_prelim,Other taxes,0,1555061,0,1555061
+belvidere_il,2022,actual_budget_doc,actual_prelim,Property tax,0,5236653,0,5236653
+belvidere_il,2022,actual_budget_doc,actual_prelim,Replacement tax,0,1379853,-264297,1115556
+belvidere_il,2022,actual_budget_doc,actual_prelim,State income tax,0,3667723,0,3667723
+belvidere_il,2022,actual_budget_doc,actual_prelim,Utility taxes,0,2390444,0,2390444
+belvidere_il,2022,actual_budget_doc,actual_prelim,Video gaming tax,0,529244,0,529244
+belvidere_il,2022,budget_adopted,adopted,ALL TAXES,1,17881690,-264297,17617393
+belvidere_il,2022,budget_adopted,adopted,Home rule sales tax,0,1070950,0,1070950
+belvidere_il,2022,budget_adopted,adopted,Municipal sales tax,0,3605177,0,3605177
+belvidere_il,2022,budget_adopted,adopted,Other taxes,0,1768746,0,1768746
+belvidere_il,2022,budget_adopted,adopted,Property tax,0,5203934,0,5203934
+belvidere_il,2022,budget_adopted,adopted,Replacement tax,0,618149,-264297,353852
+belvidere_il,2022,budget_adopted,adopted,State income tax,0,2837376,0,2837376
+belvidere_il,2022,budget_adopted,adopted,Utility taxes,0,2391558,0,2391558
+belvidere_il,2022,budget_adopted,adopted,Video gaming tax,0,385800,0,385800
+belvidere_il,2022,budget_next_doc,prior_doc_budget,ALL TAXES,1,17881690,-264297,17617393
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1070950,0,1070950
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Municipal sales tax,0,3605177,0,3605177
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Other taxes,0,1768746,0,1768746
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Property tax,0,5203934,0,5203934
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Replacement tax,0,618149,-264297,353852
+belvidere_il,2022,budget_next_doc,prior_doc_budget,State income tax,0,2837376,0,2837376
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Utility taxes,0,2391558,0,2391558
+belvidere_il,2022,budget_next_doc,prior_doc_budget,Video gaming tax,0,385800,0,385800
+belvidere_il,2023,actual_budget_doc,actual_prelim,ALL TAXES,1,22361033,-264297,22096736
+belvidere_il,2023,actual_budget_doc,actual_prelim,Home rule sales tax,0,1569898,0,1569898
+belvidere_il,2023,actual_budget_doc,actual_prelim,Municipal sales tax,0,5037083,0,5037083
+belvidere_il,2023,actual_budget_doc,actual_prelim,Other taxes,0,1545444,0,1545444
+belvidere_il,2023,actual_budget_doc,actual_prelim,Property tax,0,5228308,0,5228308
+belvidere_il,2023,actual_budget_doc,actual_prelim,Replacement tax,0,1780573,-264297,1516276
+belvidere_il,2023,actual_budget_doc,actual_prelim,State income tax,0,4094235,0,4094235
+belvidere_il,2023,actual_budget_doc,actual_prelim,Utility taxes,0,2564283,0,2564283
+belvidere_il,2023,actual_budget_doc,actual_prelim,Video gaming tax,0,541209,0,541209
+belvidere_il,2023,budget_adopted,adopted,ALL TAXES,1,19454630,-264297,19190333
+belvidere_il,2023,budget_adopted,adopted,Home rule sales tax,0,1362254,0,1362254
+belvidere_il,2023,budget_adopted,adopted,Municipal sales tax,0,4677358,0,4677358
+belvidere_il,2023,budget_adopted,adopted,Other taxes,0,1504908,0,1504908
+belvidere_il,2023,budget_adopted,adopted,Property tax,0,5203934,0,5203934
+belvidere_il,2023,budget_adopted,adopted,Replacement tax,0,983011,-264297,718714
+belvidere_il,2023,budget_adopted,adopted,State income tax,0,3136002,0,3136002
+belvidere_il,2023,budget_adopted,adopted,Utility taxes,0,2087163,0,2087163
+belvidere_il,2023,budget_adopted,adopted,Video gaming tax,0,500000,0,500000
+belvidere_il,2023,budget_next_doc,prior_doc_budget,ALL TAXES,1,19454630,-264297,19190333
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1362254,0,1362254
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Municipal sales tax,0,4677358,0,4677358
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Other taxes,0,1504908,0,1504908
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Property tax,0,5203934,0,5203934
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Replacement tax,0,983011,-264297,718714
+belvidere_il,2023,budget_next_doc,prior_doc_budget,State income tax,0,3136002,0,3136002
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Utility taxes,0,2087163,0,2087163
+belvidere_il,2023,budget_next_doc,prior_doc_budget,Video gaming tax,0,500000,0,500000
+belvidere_il,2024,actual_budget_doc,actual_prelim,ALL TAXES,1,22329268,-264297,22064971
+belvidere_il,2024,actual_budget_doc,actual_prelim,Home rule sales tax,0,1823772,0,1823772
+belvidere_il,2024,actual_budget_doc,actual_prelim,Municipal sales tax,0,5695114,0,5695114
+belvidere_il,2024,actual_budget_doc,actual_prelim,Other taxes,0,1496599,0,1496599
+belvidere_il,2024,actual_budget_doc,actual_prelim,Property tax,0,5499993,0,5499993
+belvidere_il,2024,actual_budget_doc,actual_prelim,Replacement tax,0,1310737,-264297,1046440
+belvidere_il,2024,actual_budget_doc,actual_prelim,State income tax,0,4148364,0,4148364
+belvidere_il,2024,actual_budget_doc,actual_prelim,Utility taxes,0,1807241,0,1807241
+belvidere_il,2024,actual_budget_doc,actual_prelim,Video gaming tax,0,547448,0,547448
+belvidere_il,2024,budget_adopted,adopted,ALL TAXES,1,22103443,-264297,21839146
+belvidere_il,2024,budget_adopted,adopted,Home rule sales tax,0,1603027,0,1603027
+belvidere_il,2024,budget_adopted,adopted,Municipal sales tax,0,5148032,0,5148032
+belvidere_il,2024,budget_adopted,adopted,Other taxes,0,1496328,0,1496328
+belvidere_il,2024,budget_adopted,adopted,Property tax,0,5453131,0,5453131
+belvidere_il,2024,budget_adopted,adopted,Replacement tax,0,1590999,-264297,1326702
+belvidere_il,2024,budget_adopted,adopted,State income tax,0,4151926,0,4151926
+belvidere_il,2024,budget_adopted,adopted,Utility taxes,0,2160000,0,2160000
+belvidere_il,2024,budget_adopted,adopted,Video gaming tax,0,500000,0,500000
+belvidere_il,2024,budget_next_doc,prior_doc_budget,ALL TAXES,1,22030606,-264297,21766309
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1603027,0,1603027
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Municipal sales tax,0,5148032,0,5148032
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Other taxes,0,1496328,0,1496328
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Property tax,0,5453131,0,5453131
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Replacement tax,0,1590999,-264297,1326702
+belvidere_il,2024,budget_next_doc,prior_doc_budget,State income tax,0,4151926,0,4151926
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Utility taxes,0,2087163,0,2087163
+belvidere_il,2024,budget_next_doc,prior_doc_budget,Video gaming tax,0,500000,0,500000
+belvidere_il,2025,actual_budget_doc,actual_prelim,ALL TAXES,1,22077801,-396484,21681317
+belvidere_il,2025,actual_budget_doc,actual_prelim,Home rule sales tax,0,1606547,0,1606547
+belvidere_il,2025,actual_budget_doc,actual_prelim,Municipal sales tax,0,5512489,-106462,5406027
+belvidere_il,2025,actual_budget_doc,actual_prelim,Other taxes,0,1538160,0,1538160
+belvidere_il,2025,actual_budget_doc,actual_prelim,Property tax,0,5888922,0,5888922
+belvidere_il,2025,actual_budget_doc,actual_prelim,Replacement tax,0,834267,-290022,544245
+belvidere_il,2025,actual_budget_doc,actual_prelim,State income tax,0,4404030,0,4404030
+belvidere_il,2025,actual_budget_doc,actual_prelim,Utility taxes,0,1747809,0,1747809
+belvidere_il,2025,actual_budget_doc,actual_prelim,Video gaming tax,0,545577,0,545577
+belvidere_il,2025,budget_adopted,adopted,ALL TAXES,1,22000759,-264297,21736462
+belvidere_il,2025,budget_adopted,adopted,Home rule sales tax,0,1698752,0,1698752
+belvidere_il,2025,budget_adopted,adopted,Municipal sales tax,0,5447940,0,5447940
+belvidere_il,2025,budget_adopted,adopted,Other taxes,0,1543197,0,1543197
+belvidere_il,2025,budget_adopted,adopted,Property tax,0,5815398,0,5815398
+belvidere_il,2025,budget_adopted,adopted,Replacement tax,0,1450141,-264297,1185844
+belvidere_il,2025,budget_adopted,adopted,State income tax,0,4081267,0,4081267
+belvidere_il,2025,budget_adopted,adopted,Utility taxes,0,1464064,0,1464064
+belvidere_il,2025,budget_adopted,adopted,Video gaming tax,0,500000,0,500000
+belvidere_il,2025,budget_next_doc,prior_doc_budget,ALL TAXES,1,22000886,-264297,21736589
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1698752,0,1698752
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Municipal sales tax,0,5447940,0,5447940
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Other taxes,0,1543197,0,1543197
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Property tax,0,5815525,0,5815525
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Replacement tax,0,1450141,-264297,1185844
+belvidere_il,2025,budget_next_doc,prior_doc_budget,State income tax,0,4081267,0,4081267
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Utility taxes,0,1464064,0,1464064
+belvidere_il,2025,budget_next_doc,prior_doc_budget,Video gaming tax,0,500000,0,500000
+belvidere_il,2026,budget_adopted,adopted,ALL TAXES,1,20814888,-396341,20418547
+belvidere_il,2026,budget_adopted,adopted,Home rule sales tax,0,1599019,0,1599019
+belvidere_il,2026,budget_adopted,adopted,Municipal sales tax,0,5071685,-100000,4971685
+belvidere_il,2026,budget_adopted,adopted,Other taxes,0,1176125,0,1176125
+belvidere_il,2026,budget_adopted,adopted,Property tax,0,5949687,-15000,5934687
+belvidere_il,2026,budget_adopted,adopted,Replacement tax,0,710999,-281341,429658
+belvidere_il,2026,budget_adopted,adopted,State income tax,0,4313340,0,4313340
+belvidere_il,2026,budget_adopted,adopted,Utility taxes,0,1449033,0,1449033
+belvidere_il,2026,budget_adopted,adopted,Video gaming tax,0,545000,0,545000
+belvidere_il,2026,budget_next_doc,prior_doc_budget,ALL TAXES,1,20814888,-396341,20418547
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Home rule sales tax,0,1599019,0,1599019
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Municipal sales tax,0,5071685,-100000,4971685
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Other taxes,0,1176125,0,1176125
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Property tax,0,5949687,-15000,5934687
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Replacement tax,0,710999,-281341,429658
+belvidere_il,2026,budget_next_doc,prior_doc_budget,State income tax,0,4313340,0,4313340
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Utility taxes,0,1449033,0,1449033
+belvidere_il,2026,budget_next_doc,prior_doc_budget,Video gaming tax,0,545000,0,545000
+belvidere_il,2027,budget_adopted,adopted,ALL TAXES,1,20998468,-532141,20466327
+belvidere_il,2027,budget_adopted,adopted,Home rule sales tax,0,1776091,0,1776091
+belvidere_il,2027,budget_adopted,adopted,Municipal sales tax,0,5166614,-160000,5006614
+belvidere_il,2027,budget_adopted,adopted,Other taxes,0,774155,0,774155
+belvidere_il,2027,budget_adopted,adopted,Property tax,0,5994687,-45810,5948877
+belvidere_il,2027,budget_adopted,adopted,Replacement tax,0,706440,-326331,380109
+belvidere_il,2027,budget_adopted,adopted,State income tax,0,4595481,0,4595481
+belvidere_il,2027,budget_adopted,adopted,Utility taxes,0,1447000,0,1447000
+belvidere_il,2027,budget_adopted,adopted,Video gaming tax,0,538000,0,538000

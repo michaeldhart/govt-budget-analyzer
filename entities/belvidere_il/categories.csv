@@ -1,0 +1,18 @@
+category_id,scheme,name,flow,color,sort,note
+property_tax,budget_category,Property tax,revenue,#2a78d6,0,
+municipal_sales_tax,budget_category,Municipal sales tax,revenue,#eb6834,1,
+state_income_tax,budget_category,State income tax,revenue,#1baf7a,2,
+home_rule_sales_tax,budget_category,Home rule sales tax,revenue,#eda100,3,
+utility_taxes,budget_category,Utility taxes,revenue,#e87ba4,4,
+replacement_tax,budget_category,Replacement tax,revenue,#008300,5,
+video_gaming_tax,budget_category,Video gaming tax,revenue,#4a3aa7,6,
+other_taxes,budget_category,Other taxes,revenue,#b4b2a9,7,
+non_tax,budget_category,Not a tax,revenue,,99,"fees, grants, licenses, fines, transfers, interest, reimbursements; not yet classified further"
+rg_property_tax,report_group,Property tax,revenue,#2a78d6,0,
+rg_sales_and_use_taxes,report_group,Sales and use taxes,revenue,#eb6834,1,
+rg_state_income_tax,report_group,State income tax,revenue,#1baf7a,2,
+rg_utility_taxes,report_group,Utility taxes,revenue,#e87ba4,3,
+rg_replacement_tax_net,report_group,Replacement tax (net),revenue,#008300,4,
+rg_video_gaming_tax,report_group,Video gaming tax,revenue,#4a3aa7,5,
+rg_other_taxes,report_group,Other taxes,revenue,#b4b2a9,6,
+rg_telecommunications_tax,report_group,Telecommunications tax,revenue,#52514e,7,

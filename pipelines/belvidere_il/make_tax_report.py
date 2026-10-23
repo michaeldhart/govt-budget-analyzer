@@ -14,6 +14,7 @@ full numbers are in the table on the last page, as the palette's contrast warnin
 import csv
 import os
 import statistics
+import sys
 from collections import defaultdict
 
 import matplotlib
@@ -29,8 +30,12 @@ from reportlab.platypus import (Image, KeepTogether, PageBreak, Paragraph, Simpl
                                 TableStyle)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "..", "data")
-OUT = os.path.join(HERE, "..", "output")
+sys.path.insert(0, os.path.join(HERE, "..", ".."))
+from govbudget import Entity  # noqa: E402
+
+E = Entity.load("belvidere_il")
+DATA = E.data_dir
+OUT = E.output_dir
 CH = os.path.join(OUT, "report_charts")
 os.makedirs(CH, exist_ok=True)
 
@@ -38,9 +43,9 @@ os.makedirs(CH, exist_ok=True)
 SURFACE = "#ffffff"
 INK, INK2, MUTED = "#0b0b0b", "#52514e", "#898781"
 GRID = "#e6e5e1"
-CATS = ["Property tax", "Municipal sales tax", "State income tax", "Home rule sales tax",
-        "Utility taxes", "Replacement tax", "Video gaming tax", "Other taxes"]
-COLOR = dict(zip(CATS, ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#b4b2a9"]))
+_cats = sorted((c for c in E.categories("budget_category") if c["color"]), key=lambda c: int(c["sort"]))
+CATS = [c["name"] for c in _cats]  # category order and colors live in entities/belvidere_il/categories.csv
+COLOR = {c["name"]: c["color"] for c in _cats}
 ADOPTED_GRAY, UP, DOWN, NEUTRAL = "#9a988f", "#2a78d6", "#e34948", "#f0efec"
 
 plt.rcParams.update({
@@ -60,11 +65,9 @@ ALL = "ALL TAXES"
 
 # audit basis: the audit's own groups, so budget and actual are strictly comparable
 TELECOM = "Telecommunications tax"
-GROUPS = ["Property tax", "Sales and use taxes", "State income tax", "Utility taxes", "Replacement tax (net)",
-          "Video gaming tax", "Other taxes", TELECOM]
-GCOLOR = {"Property tax": "#2a78d6", "Sales and use taxes": "#eb6834", "State income tax": "#1baf7a",
-          "Utility taxes": "#e87ba4", "Replacement tax (net)": "#008300", "Video gaming tax": "#4a3aa7",
-          "Other taxes": "#b4b2a9", TELECOM: "#52514e"}
+_groups = sorted(E.categories("report_group"), key=lambda c: int(c["sort"]))
+GROUPS = [c["name"] for c in _groups]
+GCOLOR = {c["name"]: c["color"] for c in _groups}
 TELECOM_IN_TOTALS = True  # decided 2026-10-22: the municipal infrastructure maintenance line is a tax (as the audit presents it)
 AB = {}
 for r in csv.DictReader(open(os.path.join(DATA, "tax_series_audit_basis.csv"))):

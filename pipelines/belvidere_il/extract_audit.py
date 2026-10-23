@@ -1,10 +1,10 @@
 """Extract the General Fund "Schedule of Revenues - Budget and Actual" from a Belvidere audit PDF.
 
-Usage: python scripts/extract_audit.py FY2020 [--prep auto|text|gray]
+Usage: python3 pipelines/belvidere_il/extract_audit.py FY2020 [--prep auto|text|gray]
 
 The audit's General Fund revenue schedule lists every revenue line (taxes, intergovernmental, licenses,
 fines, charges, investment income, miscellaneous) with Original Budget, Final Budget and audited Actual.
-Output: data/extracted/audits/FY20XX_audit_gf_revenue.csv, one row per line item.
+Output: data/belvidere_il/extracted/audits/FY20XX_audit_gf_revenue.csv, one row per line item.
 
 Validation: every section's items must sum to the printed section total (labeled "Total ..." or, in older
 audits, an unlabeled line of numbers), and the sections to TOTAL REVENUES, in all three columns. Cells the
@@ -12,7 +12,7 @@ audit leaves blank (instead of printing a dash) lose their column position in te
 by trying the possible columns until the section total ties out (flagged `placed_by_sum`).
 
 --prep auto (default) tries the PDF's text layer and 300 dpi grayscale OCR and keeps whichever has fewer
-validation problems. Eyeballed corrections live in data/overrides/audit_FY20XX.csv (same kinds as budgets:
+validation problems. Eyeballed corrections live in data/belvidere_il/overrides/audit_FY20XX.csv (same kinds as budgets:
 `row` replaces a line's three values keyed by section|label; `total` replaces one printed total column).
 """
 import csv
@@ -27,7 +27,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from extract_budget import ocr_page  # noqa: E402  (render + tesseract with the same preprocessing)
 
-ROOT = os.path.join(HERE, "..")
+ROOT = os.path.join(HERE, "..", "..")
+DATA_E = os.path.join(ROOT, "data", "belvidere_il")
+SRC_E = os.path.join(ROOT, "sources", "belvidere_il")
 COLS = ["original_budget", "final_budget", "actual"]
 FIX = str.maketrans({"r": "1", "t": "1", "s": "5", "S": "5", "O": "0", "o": "0", "l": "1", "I": "1", "g": "9", "B": "8", "Q": "0"})
 SKIP = re.compile(r"(?i)^((19|20)\d\d(\s+(19|20)\d\d)*$|variance|positive|city of belvidere|schedule of revenues|general fund$|for the year ended|year ended|original\b|budget\b|"
@@ -35,7 +37,7 @@ SKIP = re.compile(r"(?i)^((19|20)\d\d(\s+(19|20)\d\d)*$|variance|positive|city o
 
 
 def audit_pdf(fy):
-    return os.path.join(ROOT, "sources", "audits", f"FY{fy}_audit.pdf")
+    return os.path.join(SRC_E, "audits", f"FY{fy}_audit.pdf")
 
 
 # ---- locating the schedule ---------------------------------------------------------------------
@@ -44,7 +46,7 @@ def page_texts_for_locating(fy):
     with pdfplumber.open(audit_pdf(fy)) as d:
         texts = [(p.extract_text() or "") for p in d.pages]
     if sum(len(t) for t in texts[:5]) < 100:  # scanned (FY2012): use the whole-document OCR sidecar
-        side = os.path.join(ROOT, "data", "ocr", f"FY{fy}_audit.txt")
+        side = os.path.join(DATA_E, "ocr", f"FY{fy}_audit.txt")
         if os.path.exists(side):
             texts = open(side).read().split("\f")
     return texts
@@ -72,7 +74,7 @@ def get_pages(fy, prep, first, last):
     if prep == "text":
         with pdfplumber.open(audit_pdf(fy)) as d:
             return [(p, d.pages[p - 1].extract_text() or "") for p in range(first, last + 1)]
-    outdir = os.path.join(ROOT, "data", "ocr", "audit_pages", f"FY{fy}_{prep}")
+    outdir = os.path.join(DATA_E, "ocr", "audit_pages", f"FY{fy}_{prep}")
     os.makedirs(outdir, exist_ok=True)
     return [(p, ocr_page(audit_pdf(fy), p, outdir, prep)) for p in range(first, last + 1)]
 
@@ -253,7 +255,7 @@ def validate(sections, grand, overrides):
 
 def load_overrides(fy):
     ov = dict(row={}, total={}, allow={})
-    path = os.path.join(ROOT, "data", "overrides", f"audit_FY{fy}.csv")
+    path = os.path.join(DATA_E, "overrides", f"audit_FY{fy}.csv")
     if os.path.exists(path):
         for o in csv.DictReader(open(path)):
             if o["kind"] == "row":
@@ -285,8 +287,8 @@ def main():
         results.append(r)
         print(f"prep {p}: {len(r['problems'])} problems, {len(r['rows'])} lines (pdf pages {r['first']}-{r['last']})")
     res = min(results, key=lambda r: (not r["rows"], len(r["problems"])))  # a result with no lines never wins
-    os.makedirs(os.path.join(ROOT, "data", "extracted", "audits"), exist_ok=True)
-    out = os.path.join(ROOT, "data", "extracted", "audits", f"FY{fy}_audit_gf_revenue.csv")
+    os.makedirs(os.path.join(DATA_E, "extracted", "audits"), exist_ok=True)
+    out = os.path.join(DATA_E, "extracted", "audits", f"FY{fy}_audit_gf_revenue.csv")
     with open(out, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["fiscal_year", "doc", "pdf_page", "section", "line_item", "original_budget", "final_budget", "actual", "flag", "prior_year_actual"])

@@ -1,18 +1,18 @@
 """Extract General Fund revenue lines from a Belvidere budget ordinance PDF.
 
-Usage: python scripts/extract_budget.py FY2015 [--prep auto|gray|thr150] [--force]
+Usage: python3 pipelines/belvidere_il/extract_budget.py FY2015 [--prep auto|gray|thr150] [--force]
 
 --prep auto (default) extracts with every prep, keeps the one with the fewest validation
 problems (ties go to the earlier in PREPS), and writes only that result.
 
-Reads sources/budgets/FY20XX_budget.pdf (scanned), OCRs the General Fund Exhibit A
-pages (cached in data/ocr/budget_pages/), and writes
-data/extracted/FY20XX_budget_gf_revenue.csv in long format (one row per account per column).
+Reads sources/belvidere_il/budgets/FY20XX_budget.pdf (scanned), OCRs the General Fund Exhibit A
+pages (cached in data/belvidere_il/ocr/budget_pages/), and writes
+data/belvidere_il/extracted/FY20XX_budget_gf_revenue.csv in long format (one row per account per column).
 
 Validation: each department's revenue rows must sum to its printed "Total ... Revenues"
 line, and all 01-4 rows to "TOTAL GENERAL FUND REVENUES", in every column. Anything that
 fails is listed and the script exits non-zero. OCR mistakes that have been checked by eye
-against the page image are recorded in data/overrides/FY20XX_budget.csv (never silent):
+against the page image are recorded in data/belvidere_il/overrides/FY20XX_budget.csv (never silent):
     kind,page_label,key,column,value,note
     account,1 of 16,Replacement Tax|01-4-110-4420,,01-4-110-4120,...
     row,1 of 16,01-4-110-4440,,108364|93600|93600|180000,...   (all column values, checked by eye)
@@ -32,7 +32,9 @@ from concurrent.futures import ThreadPoolExecutor
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, "..")
+ROOT = os.path.join(HERE, "..", "..")
+DATA_E = os.path.join(ROOT, "data", "belvidere_il")
+SRC_E = os.path.join(ROOT, "sources", "belvidere_il")
 PREPS = ["gray", "thr150"]
 # Fund digits and the dept code are sometimes misread/split ("071-5-215", "01-4-7 40"); fund is normalized to 01.
 ACCT = re.compile(r"(?<![\d-])(\d{1,3})-([45])-(\d(?:\s?\d){1,3})-(\d{4}|\d{3}\s\d)\d?(?!\d)")  # last group may be split by a space ("447 1")
@@ -199,7 +201,7 @@ def parse(pages, ncols=None):
 
 
 def load_overrides(fy):
-    path = os.path.join(ROOT, "data", "overrides", f"FY{fy}_budget.csv")
+    path = os.path.join(DATA_E, "overrides", f"FY{fy}_budget.csv")
     acct, total, allow, rowv, notin, addr = {}, {}, {}, {}, {}, []
     if os.path.exists(path):
         for o in csv.DictReader(open(path)):
@@ -222,11 +224,11 @@ def load_overrides(fy):
 
 def extract(fy, prep, force=False):
     """OCR (cached), parse and validate one budget with one prep. Returns a result dict; writes nothing."""
-    pdf = os.path.join(ROOT, "sources", "budgets", f"FY{fy}_budget.pdf")
+    pdf = os.path.join(SRC_E, "budgets", f"FY{fy}_budget.pdf")
     if not os.path.exists(pdf):  # FY2027 lives directly under sources/ with its ordinance number
-        alt = os.path.join(ROOT, "sources", f"FY{fy}_budget_753H.pdf")
+        alt = os.path.join(SRC_E, f"FY{fy}_budget_753H.pdf")
         pdf = alt if os.path.exists(alt) else pdf
-    outdir = os.path.join(ROOT, "data", "ocr", "budget_pages", f"FY{fy}_{prep}")
+    outdir = os.path.join(DATA_E, "ocr", "budget_pages", f"FY{fy}_{prep}")
     os.makedirs(outdir, exist_ok=True)
     if force:
         for f in os.listdir(outdir):
@@ -338,7 +340,7 @@ def extract(fy, prep, force=False):
     # year's extract (true for every shared account so far). Mismatches point at OCR errors in
     # one of the two documents; they are listed as hints on failing totals, not failures.
     prior_hint = {}
-    prev = os.path.join(ROOT, "data", "extracted", f"FY{int(fy)-1}_budget_gf_revenue.csv")
+    prev = os.path.join(DATA_E, "extracted", f"FY{int(fy)-1}_budget_gf_revenue.csv")
     if os.path.exists(prev):
         pc = f"budget_FY{int(fy)-1}"
         pv = {r["account"]: int(r["amount"]) for r in csv.DictReader(open(prev)) if r["column"] == pc}
@@ -381,8 +383,8 @@ def extract(fy, prep, force=False):
 
 
 def write_csv(fy, res):
-    os.makedirs(os.path.join(ROOT, "data", "extracted"), exist_ok=True)
-    out = os.path.join(ROOT, "data", "extracted", f"FY{fy}_budget_gf_revenue.csv")
+    os.makedirs(os.path.join(DATA_E, "extracted"), exist_ok=True)
+    out = os.path.join(DATA_E, "extracted", f"FY{fy}_budget_gf_revenue.csv")
     with open(out, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["fiscal_year", "doc", "page_label", "fund", "dept_code", "account", "line_item", "column", "amount", "flag"])

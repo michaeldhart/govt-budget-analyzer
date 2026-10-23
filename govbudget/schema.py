@@ -1,0 +1,61 @@
+"""Canonical vocabulary and table layouts shared by every entity.
+
+Tables (CSV, one set per entity under data/<entity_id>/):
+  documents.csv  one row per source document (budget ordinance, audit, revision)
+  accounts.csv   one row per (flow, account_key) seen in any document, with its mapping
+  facts.csv      one row per source line x period x basis: the only table consumers should read amounts from
+Config (committed, hand-edited, under entities/<entity_id>/):
+  entity.json, categories.csv, account_map.csv, audit_map.csv, comparable_groups.csv, exceptions.csv
+"""
+
+# What a number is. Every amount in facts.csv has exactly one basis.
+BASES = {
+    "adopted":          "the budget document's own current-year column (request as adopted by the ordinance)",
+    "prior_doc_budget": "a later budget document's prior-year plain Budget column (may be restated or stale)",
+    "revised":          "a later budget document's REVISED prior-year column",
+    "actual_prelim":    "the actual column of a budget document (preliminary; superseded by the audit)",
+    "audit_original":   "the audit's original budget column",
+    "audit_final":      "the audit's final (amended) budget column",
+    "actual_audited":   "the audit's actual column",
+}
+SOURCE_TYPES = ("budget", "audit")
+
+# flow: revenue and expense are what they say. contra_expense is a reimbursement or rebate that the source prints
+# in the expense block (so it is NOT in the printed revenue total) but that offsets an item in the revenue block.
+FLOWS = ("revenue", "expense", "contra_expense")
+
+# treatment: how an account counts in the tax analysis.
+#   tax = counted in gross taxes; offset = negative amount netted against taxes; excluded_fee = looks like a tax
+#   but is a fee (kept visible, never summed); non_tax = everything else (not yet classified further).
+TREATMENTS = ("tax", "offset", "excluded_fee", "non_tax")
+
+EXCEPTION_KINDS = (
+    "definitional",          # a category or measure means something slightly different from its name
+    "classification",        # a judgement call on how a line is categorized (record who decided and when)
+    "source_typo",           # the source document itself is wrong or inconsistent
+    "stale_column",          # a later document's prior-year column does not hold the adopted figure
+    "omitted_from_total",    # the source leaves a row out of its own printed total
+    "structural_change",     # account renumbered, relabeled, merged or moved between documents
+    "not_comparable",        # budget and audit cannot be put on the same footing for this line
+    "ocr_correction",        # value corrected by eye against the page image (detail in data/<entity>/overrides)
+)
+EXCEPTION_SCOPES = ("account", "group", "doc", "entity")
+EXCEPTION_EFFECTS = ("excluded", "included", "adjusted", "informational")
+
+FACT_COLUMNS = [
+    "entity_id", "doc_id", "source_type", "row_seq", "period_fy", "basis", "flow", "fund_code", "dept_code",
+    "account_key", "account_printed", "audit_section", "label", "amount", "source_column", "page_label",
+    "pdf_page", "flag", "exception_ids",
+]
+DOCUMENT_COLUMNS = ["entity_id", "doc_id", "doc_type", "fiscal_year", "pdf_path", "sha256", "source_url", "note"]
+ACCOUNT_COLUMNS = ["entity_id", "flow", "account_key", "label_current", "dept_code", "department", "category_id",
+                   "treatment", "first_fy", "last_fy", "note"]
+CATEGORY_COLUMNS = ["category_id", "scheme", "name", "flow", "color", "sort", "note"]
+ACCOUNT_MAP_COLUMNS = ["flow", "account_key", "label", "department", "category_id", "treatment", "note"]
+AUDIT_MAP_COLUMNS = ["audit_label", "comparable_group"]
+GROUP_COLUMNS = ["comparable_group", "report_group", "budget_members", "note"]
+EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "effect", "summary", "detail",
+                     "decided_on", "evidence"]
+
+# Category schemes: where a category_id is used.
+SCHEMES = ("budget_category", "report_group")

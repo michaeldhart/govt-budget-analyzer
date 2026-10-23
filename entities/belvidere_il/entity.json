@@ -1,0 +1,26 @@
+{
+  "entity_id": "belvidere_il",
+  "name": "City of Belvidere, IL",
+  "short_name": "Belvidere",
+  "type": "city",
+  "state": "IL",
+  "fy_start_month": 5,
+  "fy_label_rule": "fiscal year is named for the calendar year in which it ends (FY2027 = May 1, 2026 to April 30, 2027)",
+  "currency": "USD",
+  "units": "dollars",
+  "funds": [{"code": "01", "name": "General"}],
+  "account_format": {
+    "pattern": "FF-R-DDD-OOOO (fund-revenue/expense-department-object)",
+    "key_segments": [2, 3],
+    "key_note": "department + object code; the second segment flips between 4 and 5 for some lines, so it is ignored (see exception EX-street-lighting-prefix)",
+    "typo_fixes": {"1104114": "110-4114"}
+  },
+  "source_index": {
+    "budget": "https://www.belvidereil.gov/budget/",
+    "audit": "https://www.belvidereil.gov/audit/"
+  },
+  "documents": {
+    "budget_range": [2015, 2027],
+    "audit_range": [2012, 2026]
+  }
+}

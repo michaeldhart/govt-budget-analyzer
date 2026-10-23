@@ -1,0 +1,14 @@
+comparable_group,report_group,budget_members,note
+Property tax,Property tax,110-4010|130-4010|140-4010|150-4010|160-4010|210-4010|220-4010|240-4010|310-4010|330-4010|335-4010|340-4010,all 12 real-estate levies across departments; the real estate tax to developer offset (110-4114) is not included
+Sales tax,Sales and use taxes,110-4109|110-4110,municipal + home rule sales tax; the audit does not split them
+Sales + use tax,Sales and use taxes,110-4109|110-4110|110-4112,FY2012-FY2015 audits report sales and use tax as one line
+Local use tax,Sales and use taxes,110-4112,
+State income tax,State income tax,110-4100,
+Utility taxes,Utility taxes,751-4131|751-4132|751-4133,"electric, gas, telephone"
+Replacement tax (net),Replacement tax (net),110-4120|140-4120|110-4121,audit reports replacement tax net of the distribution to pensions (110-4121)
+Video gaming tax,Video gaming tax,110-4440,
+Hotel/motel tax,Other taxes,110-4011,
+Auto rental tax,Other taxes,110-4012,
+Cannabis tax,Other taxes,110-4115,
+Telecommunications tax,Telecommunications tax,110-4013,the budget's Municipal Infrastructure Maintenance line
+Local motor fuel tax,,110-4113,report_group blank = left out of every year: the audits report it inside Grants FY2020-FY2025 and separately only in FY2026

@@ -9,14 +9,14 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 
 import os
 HERE = os.path.dirname(os.path.abspath(__file__))
-SP = os.path.join(HERE, "..", "output") + "/"
+SP = os.path.join(HERE, "..", "..", "output", "belvidere_il") + "/"
 os.makedirs(SP, exist_ok=True)
 OUT = SP + "Belvidere_FY27_Tax_Revenue.pdf"
 
 import csv
 
 # Amounts come from the mapping file (treatment `tax` = gross, `offset` = rebates/pension share, `excluded_fee` left out).
-CSV = os.path.join(HERE, "..", "data", "fy2027_general_fund_tax_lines.csv")
+CSV = os.path.join(HERE, "..", "..", "data", "belvidere_il", "fy2027_general_fund_tax_lines.csv")
 L = ['Property tax', 'Municipal sales tax', 'State income tax', 'Home rule sales tax',
      'Utility taxes', 'Replacement tax', 'Video gaming tax', 'Other taxes']
 CAT_OF = {'Municipal sales tax': 'Municipal sales tax'}

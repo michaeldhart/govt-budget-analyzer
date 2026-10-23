@@ -1,0 +1,127 @@
+entity_id,fiscal_year,group,budget_audit_original,budget_audit_final,actual_audited,budget_docs_adopted,actual_budget_doc,note
+belvidere_il,2012,Other taxes,10700,9225,9305,,,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2012,Property tax,4524800,4554649,4554651,,,
+belvidere_il,2012,Replacement tax (net),237781,285110,283755,,,
+belvidere_il,2012,Sales and use taxes,2938413,3484967,3585688,,,audit reports sales and use combined; later audits report them separately (summed here)
+belvidere_il,2012,State income tax,1882560,1772663,2167738,,,
+belvidere_il,2012,Telecommunications tax,600369,606279,641093,,,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2012,Utility taxes,1782120,1619423,1695059,,,
+belvidere_il,2013,Other taxes,10315,8397,8410,,8410,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2013,Property tax,4601900,4401837,4401837,,4401837,
+belvidere_il,2013,Replacement tax (net),335669,390415,422887,,390538,
+belvidere_il,2013,Sales and use taxes,3442486,3596388,3612765,,3643107,audit reports sales and use combined; later audits report them separately (summed here)
+belvidere_il,2013,State income tax,2075146,2453706,2420836,,2696430,
+belvidere_il,2013,Telecommunications tax,184224,187026,173155,,187026,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2013,Utility taxes,2092809,2188830,2186708,,2211031,
+belvidere_il,2014,Other taxes,9415,9432,9432,9415,9432,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2014,Property tax,4666800,4704129,4704129,4666800,4704129,
+belvidere_il,2014,Replacement tax (net),237515,357870,344106,237515,357870,
+belvidere_il,2014,Sales and use taxes,3580885,3588523,3587440,3615885,3635391,audit reports sales and use combined; later audits report them separately (summed here)
+belvidere_il,2014,State income tax,2440809,2473944,2443256,2440809,2473944,
+belvidere_il,2014,Telecommunications tax,196939,172406,179079,196939,172406,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2014,Utility taxes,2135214,2301862,2315922,2135214,2301862,
+belvidere_il,2014,Video gaming tax,50000,19618,19618,50000,19618,
+belvidere_il,2015,Other taxes,10555,10845,10845,10555,10845,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2015,Property tax,4773750,4797631,4797633,4773750,4797631,
+belvidere_il,2015,Replacement tax (net),259719,334902,357074,259719,334902,
+belvidere_il,2015,Sales and use taxes,3635603,3758841,3795721,3635603,3758841,audit reports sales and use combined; later audits report them separately (summed here)
+belvidere_il,2015,State income tax,2422900,2484441,2577580,2422900,2484441,
+belvidere_il,2015,Telecommunications tax,169200,169623,160289,169200,169623,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2015,Utility taxes,2231103,2271662,2242842,2231103,2271662,
+belvidere_il,2015,Video gaming tax,40000,108364,108364,40000,108364,
+belvidere_il,2016,Other taxes,10496,9054,9054,10496,9054,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2016,Property tax,4873148,4899075,4899073,4873148,4899075,
+belvidere_il,2016,Replacement tax (net),260567,339761,276600,260567,339761,
+belvidere_il,2016,Sales and use taxes,3698868,3784259,3793925,3698868,3784259,
+belvidere_il,2016,State income tax,2532915,2731920,2726656,2532915,2731920,
+belvidere_il,2016,Telecommunications tax,171600,172425,172574,171600,172424,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2016,Utility taxes,2211830,2071007,2057469,2211830,2071007,
+belvidere_il,2016,Video gaming tax,93600,184058,196092,93600,184058,
+belvidere_il,2017,Other taxes,9836,9168,9168,9836,9168,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2017,Property tax,4941324,4968764,4968765,4941324,4968764,
+belvidere_il,2017,Replacement tax (net),295659,362109,362109,295659,362109,
+belvidere_il,2017,Sales and use taxes,3820489,3935701,3919637,3820489,3935701,
+belvidere_il,2017,State income tax,2609670,2436019,2418418,2609670,2436019,
+belvidere_il,2017,Telecommunications tax,177600,150224,144942,177600,150224,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2017,Utility taxes,2178643,2002572,1981920,2178643,2002572,
+belvidere_il,2017,Video gaming tax,180000,229470,235213,180000,229470,
+belvidere_il,2018,Other taxes,9716,9374,9374,9716,9374,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2018,Property tax,5032958,5042351,5042350,5032958,5042351,
+belvidere_il,2018,Replacement tax (net),287531,263913,453055,287531,263913,
+belvidere_il,2018,Sales and use taxes,3924781,4090993,4231118,3924781,4090993,
+belvidere_il,2018,State income tax,2584085,2710101,2320096,2584085,2710101,
+belvidere_il,2018,Telecommunications tax,159420,131451,126721,159420,131451,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2018,Utility taxes,2117418,1956111,1969862,2117418,1956111,
+belvidere_il,2018,Video gaming tax,219600,279016,294495,219600,279016,
+belvidere_il,2019,Other taxes,9836,10961,10961,9836,10961,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2019,Property tax,5203934,5219358,5219358,5203934,5219361,
+belvidere_il,2019,Replacement tax (net),331291,275790,409526,331291,275790,
+belvidere_il,2019,Sales and use taxes,4144235,4415445,4636949,4144235,4415446,
+belvidere_il,2019,State income tax,2451043,2484021,2484021,2451043,2484021,
+belvidere_il,2019,Telecommunications tax,142800,115227,113879,142800,115227,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2019,Utility taxes,2082035,2010720,1994345,2082035,2010720,
+belvidere_il,2019,Video gaming tax,273600,345766,355732,273600,345766,
+belvidere_il,2020,Other taxes,10460,15704,15704,10460,15704,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2020,Property tax,5203934,5209340,5209320,5203934,5209322,
+belvidere_il,2020,Replacement tax (net),292336,417747,551483,292336,417747,
+belvidere_il,2020,Sales and use taxes,5645504,5660139,5676025,5645504,5660139,
+belvidere_il,2020,State income tax,2577688,2773012,2773012,2577688,2773012,
+belvidere_il,2020,Telecommunications tax,119400,104268,102840,119400,104268,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2020,Utility taxes,2007953,1850039,1815989,2007953,1850039,
+belvidere_il,2020,Video gaming tax,336000,385882,365667,336000,385882,
+belvidere_il,2021,Other taxes,10620,10620,25644,10620,25644,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2021,Property tax,5203934,5203934,5200516,5203934,5200516,
+belvidere_il,2021,Replacement tax (net),278031,278031,520400,278031,520400,
+belvidere_il,2021,Sales and use taxes,5699122,5699122,6117897,5699122,6117897,
+belvidere_il,2021,State income tax,2686425,2686425,2932995,2686425,2932995,
+belvidere_il,2021,Telecommunications tax,105000,105000,85308,105000,85308,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2021,Utility taxes,1935264,1935264,2483954,1935264,2483955,
+belvidere_il,2021,Video gaming tax,366000,366000,271827,366000,271827,
+belvidere_il,2022,Other taxes,32014,32014,49954,32014,49954,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2022,Property tax,5203934,5203934,5236654,5203934,5236653,
+belvidere_il,2022,Replacement tax (net),353852,353852,1249292,353852,1115556,
+belvidere_il,2022,Sales and use taxes,5814659,5814659,7194574,5814659,7019756,
+belvidere_il,2022,State income tax,2837376,2837376,3667723,2837376,3667723,
+belvidere_il,2022,Telecommunications tax,94200,94200,73543,94200,73543,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2022,Utility taxes,2391558,2391558,2385118,2391558,2390444,
+belvidere_il,2022,Video gaming tax,385800,385800,541365,385800,529244,
+belvidere_il,2023,Other taxes,46462,46462,52045,46462,52045,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2023,Property tax,5203934,5203934,5228309,5203934,5228308,
+belvidere_il,2023,Replacement tax (net),718714,718714,1650012,718714,1516276,
+belvidere_il,2023,Sales and use taxes,6961579,6961579,7689561,6961579,7638792,
+belvidere_il,2023,State income tax,3136002,3136002,4094235,3136002,4094235,
+belvidere_il,2023,Telecommunications tax,74088,74088,70885,74088,70885,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2023,Utility taxes,2087163,2087163,2498755,2087163,2564283,
+belvidere_il,2023,Video gaming tax,500000,500000,542460,500000,541209,
+belvidere_il,2024,Other taxes,50276,50276,84719,50276,84719,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2024,Property tax,5453131,5453131,5499996,5453131,5499993,
+belvidere_il,2024,Replacement tax (net),1326702,1326702,1180176,1326702,1046440,
+belvidere_il,2024,Sales and use taxes,7722006,7722006,8674315,7722006,8486782,
+belvidere_il,2024,State income tax,4151926,4151926,4148364,4151926,4148364,
+belvidere_il,2024,Telecommunications tax,70105,70105,68366,70105,68366,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2024,Utility taxes,2160000,2160000,1845473,2160000,1807241,
+belvidere_il,2024,Video gaming tax,500000,500000,547448,500000,547448,
+belvidere_il,2025,Other taxes,167789,167789,245295,167789,229939,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2025,Property tax,5815398,5815398,5889022,5815398,5888922,
+belvidere_il,2025,Replacement tax (net),1185844,1185844,677981,1185844,544245,
+belvidere_il,2025,Sales and use taxes,8080892,8080892,7885720,8080892,7966881,
+belvidere_il,2025,State income tax,4081267,4081267,4404030,4081267,4404030,
+belvidere_il,2025,Telecommunications tax,68745,68745,70229,68745,70229,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2025,Utility taxes,1464064,1464064,1724936,1464064,1747809,
+belvidere_il,2025,Video gaming tax,500000,500000,545577,500000,545577,
+belvidere_il,2026,Other taxes,209500,209500,228534,209500,,hotel/motel + auto rental + cannabis; local motor fuel tax excluded in every year (audit reports it inside Grants FY2020-25)
+belvidere_il,2026,Property tax,5949687,5949687,5995086,5949687,,
+belvidere_il,2026,Replacement tax (net),429658,429658,684751,429658,,
+belvidere_il,2026,Sales and use taxes,7167348,7167348,8596639,7167348,,
+belvidere_il,2026,State income tax,4313340,4313340,4646096,4313340,,
+belvidere_il,2026,Telecommunications tax,70000,70000,63218,70000,,"budget documents call this Municipal Infrastructure Maintenance; counted as a tax (decided 2026-10-22), as the audit presents it"
+belvidere_il,2026,Utility taxes,1449033,1449033,1856491,1449033,,
+belvidere_il,2026,Video gaming tax,545000,545000,549050,545000,,
+belvidere_il,2027,Property tax,,,,5994687,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Sales and use taxes,,,,7010360,,FY2027 ordinance; no audit yet
+belvidere_il,2027,State income tax,,,,4595481,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Utility taxes,,,,1447000,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Replacement tax (net),,,,380109,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Video gaming tax,,,,538000,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Other taxes,,,,231500,,FY2027 ordinance; no audit yet
+belvidere_il,2027,Telecommunications tax,,,,62000,,FY2027 ordinance; no audit yet

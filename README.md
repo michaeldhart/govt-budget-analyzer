@@ -5,10 +5,14 @@ Tax revenue analysis for the City of Belvidere, IL, built from the city's budget
 See `CLAUDE.md` for the data pipeline, methodology and findings.
 
 ## Layout
-- `scripts/`: extraction (OCR), series building and report scripts
-- `data/`: extracted and derived CSVs
-- `output/`: generated PDF reports
-- `sources/`: FY2027 budget; older budget/audit PDFs are not committed (download from the city site)
+- `govbudget/`: shared, entity-agnostic data model (schema, entity config, validation)
+- `entities/<entity>/`: per-government config and mapping tables, including an exceptions registry for data that does not fit the shared model
+- `pipelines/<entity>/`: that government's extraction and build scripts
+- `data/<entity>/`: extracted and derived CSVs (`facts.csv` is the canonical table)
+- `output/<entity>/`: generated PDF reports
+- `sources/<entity>/`: FY2027 budget; older budget/audit PDFs are not committed (download from the city site)
+
+See `CLAUDE.md` for the architecture, pipeline order and methodology.
 
 ## License
 Apache License 2.0. See `LICENSE` and `NOTICE`.
