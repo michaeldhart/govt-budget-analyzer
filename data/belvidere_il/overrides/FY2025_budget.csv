@@ -1,2 +1,6 @@
 kind,page_label,key,column,value,note
 allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2025,-1,page image (pdf p10) confirms printed 26559869; the city's line items sum to 26559870
+not_in_total,2 of 15,01-5-110-9990,actual_FY2023,,the city's printed FY23 actual General Administration expense total (3990557) omits this ARPA transfer out (929431); with Heritage Days (96131) the two equal the 1025562 gap exactly (page image pdf p5)
+not_in_total,2 of 15,01-5-110-7902,actual_FY2023,,the city's printed FY23 actual General Administration expense total omits Heritage Days (96131); see 01-5-110-9990
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2025,-1,printed 24465392; the city's expense line items sum to 24465393 (same $1 pattern as the revenue totals)
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,actual_FY2023,5050,printed fund total is $5050 above the sum of its rows (after the two lines omitted from the Gen Admin total); every department NET ties; the same $5050 appears in FY2026's FY24 actual column; not located

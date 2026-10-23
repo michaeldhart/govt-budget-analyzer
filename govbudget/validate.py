@@ -1,6 +1,6 @@
 """Integrity checks on an entity's config and canonical tables. Returns a list of problems (empty = clean)."""
-from .schema import (ACCOUNT_COLUMNS, BASES, DOCUMENT_COLUMNS, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES,
-                     FACT_COLUMNS, FLOWS, SCHEMES, SOURCE_TYPES, TREATMENTS)
+from .schema import (BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
+                     TREATMENTS)
 from .entity import read_csv
 
 
@@ -16,8 +16,13 @@ def validate_config(E):
         if r["treatment"] not in TREATMENTS:
             errs.append(f"account_map.csv: {key}: bad treatment {r['treatment']!r}")
         c = cats.get(r["category_id"])
-        if c is None or c["scheme"] != "budget_category":
-            errs.append(f"account_map.csv: {key}: category_id {r['category_id']!r} is not a budget_category")
+        scheme = "expense_object" if flow == "expense" else "budget_category"
+        if c is None or c["scheme"] != scheme:
+            errs.append(f"account_map.csv: {key}: category_id {r['category_id']!r} is not an {scheme} category (flow {flow})")
+        if (flow == "expense") != (r["treatment"] == "expense"):
+            errs.append(f"account_map.csv: {key}: treatment {r['treatment']!r} does not fit flow {flow!r}")
+        if key.split("-")[0] not in E.departments():
+            errs.append(f"account_map.csv: {key}: department code not in departments.csv")
     rg = {c["name"] for c in E.categories("report_group")}
     groups = {g["comparable_group"]: g for g in E.table("comparable_groups.csv")}
     amap = E.account_map()
@@ -52,6 +57,9 @@ def validate_config(E):
 
 def validate_tables(E):
     errs = []
+    for r in read_csv(E.data_path("control_totals.csv")):
+        if r["kind"] not in TOTAL_KINDS or r["basis"] not in BASES:
+            errs.append(f"control_totals.csv: bad kind/basis {r['kind']!r}/{r['basis']!r}")
     docs = {r["doc_id"] for r in read_csv(E.data_path("documents.csv"))}
     exc = {x["exception_id"] for x in E.exceptions()}
     amap = E.account_map()

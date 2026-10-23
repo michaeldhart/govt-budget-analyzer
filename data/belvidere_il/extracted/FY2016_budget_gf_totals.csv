@@ -1,0 +1,213 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2016,FY2016_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,actual_FY2014,9456526
+2016,FY2016_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2015,10210864
+2016,FY2016_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_revised_FY2015,10210864
+2016,FY2016_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2016,11032479
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,actual_FY2014,164863
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2015,185632
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_revised_FY2015,185632
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2016,181421
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,actual_FY2014,334673
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2015,374888
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_revised_FY2015,374888
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2016,384771
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2014,629448
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2015,548520
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_revised_FY2015,548520
+2016,FY2016_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2016,582825
+2016,FY2016_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,actual_FY2014,1151040
+2016,FY2016_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2015,1275181
+2016,FY2016_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_revised_FY2015,1275181
+2016,FY2016_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2016,1311857
+2016,FY2016_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,actual_FY2014,743587
+2016,FY2016_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2015,868100
+2016,FY2016_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_revised_FY2015,868100
+2016,FY2016_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2016,768100
+2016,FY2016_budget,5 of 16,General,dept_revenues,Building Department - Revenues,actual_FY2014,187755
+2016,FY2016_budget,5 of 16,General,dept_revenues,Building Department - Revenues,budget_FY2015,287780
+2016,FY2016_budget,5 of 16,General,dept_revenues,Building Department - Revenues,budget_revised_FY2015,287780
+2016,FY2016_budget,5 of 16,General,dept_revenues,Building Department - Revenues,budget_FY2016,313723
+2016,FY2016_budget,6 of 16,General,dept_revenues,Street Department - Revenues,actual_FY2014,455049
+2016,FY2016_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2015,314800
+2016,FY2016_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_revised_FY2015,314800
+2016,FY2016_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2016,316800
+2016,FY2016_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,actual_FY2014,39978
+2016,FY2016_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2015,40000
+2016,FY2016_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_revised_FY2015,40000
+2016,FY2016_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2016,40000
+2016,FY2016_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2014,15736551
+2016,FY2016_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2015,16636168
+2016,FY2016_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_revised_FY2015,16636168
+2016,FY2016_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2016,17446105
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2014,692420
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2015,694069
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_revised_FY2015,694069
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2016,747319
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,actual_FY2014,46064
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2015,96050
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_revised_FY2015,96050
+2016,FY2016_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2016,72260
+2016,FY2016_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,actual_FY2014,70054
+2016,FY2016_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2015,78320
+2016,FY2016_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_revised_FY2015,78320
+2016,FY2016_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2016,84970
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,actual_FY2014,1793691
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2015,2556254
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_revised_FY2015,2556254
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2016,2135110
+2016,FY2016_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2014,7662836
+2016,FY2016_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2015,7654610
+2016,FY2016_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_revised_FY2015,7654610
+2016,FY2016_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2016,8897369
+2016,FY2016_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2014,-8495
+2016,FY2016_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2015,-11500
+2016,FY2016_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_revised_FY2015,-11500
+2016,FY2016_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2016,-14900
+2016,FY2016_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2014,-62618
+2016,FY2016_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2015,-62578
+2016,FY2016_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_revised_FY2015,-62578
+2016,FY2016_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2016,-47091
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,actual_FY2014,308654
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2015,335002
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_revised_FY2015,335002
+2016,FY2016_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2016,332000
+2016,FY2016_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2014,26019
+2016,FY2016_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2015,39886
+2016,FY2016_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_revised_FY2015,39886
+2016,FY2016_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2016,52771
+2016,FY2016_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2014,-105363
+2016,FY2016_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2015,-156111
+2016,FY2016_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2015,-156111
+2016,FY2016_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2016,-148392
+2016,FY2016_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2014,4979308
+2016,FY2016_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2015,5498156
+2016,FY2016_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_revised_FY2015,5498156
+2016,FY2016_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2016,5687570
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,actual_FY2014,146806
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2015,181826
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_revised_FY2015,181826
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2016,187233
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,actual_FY2014,181708
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2015,223375
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_revised_FY2015,223375
+2016,FY2016_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2016,240615
+2016,FY2016_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,actual_FY2014,5343208
+2016,FY2016_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2015,5941217
+2016,FY2016_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_revised_FY2015,5941217
+2016,FY2016_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2016,6152128
+2016,FY2016_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2014,-4192168
+2016,FY2016_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2015,-4666036
+2016,FY2016_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_revised_FY2015,-4666036
+2016,FY2016_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2016,-4840271
+2016,FY2016_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2014,-806102
+2016,FY2016_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2015,-765467
+2016,FY2016_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_revised_FY2015,-765467
+2016,FY2016_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2016,-923961
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2014,3162988
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2015,3481085
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_revised_FY2015,3481085
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2016,3488387
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,actual_FY2014,104537
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2015,114463
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_revised_FY2015,114463
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2016,126080
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,actual_FY2014,48042
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2015,45240
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_revised_FY2015,45240
+2016,FY2016_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2016,46230
+2016,FY2016_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,actual_FY2014,3348935
+2016,FY2016_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2015,3673788
+2016,FY2016_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_revised_FY2015,3673788
+2016,FY2016_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2016,3711697
+2016,FY2016_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2014,-2605348
+2016,FY2016_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2015,-2805688
+2016,FY2016_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_revised_FY2015,-2805688
+2016,FY2016_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2016,-2943597
+2016,FY2016_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2014,-20396
+2016,FY2016_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2015,-22425
+2016,FY2016_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_revised_FY2015,-22425
+2016,FY2016_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2016,-22874
+2016,FY2016_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2014,198795
+2016,FY2016_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2015,225049
+2016,FY2016_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_revised_FY2015,225049
+2016,FY2016_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2016,237951
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,actual_FY2014,36879
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2015,39800
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_revised_FY2015,39800
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2016,51550
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,actual_FY2014,5361
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2015,17925
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_revised_FY2015,17925
+2016,FY2016_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2016,7925
+2016,FY2016_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,actual_FY2014,241035
+2016,FY2016_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2015,282774
+2016,FY2016_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_revised_FY2015,282774
+2016,FY2016_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2016,297426
+2016,FY2016_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2014,-53281
+2016,FY2016_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2015,5006
+2016,FY2016_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_revised_FY2015,5006
+2016,FY2016_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2016,16297
+2016,FY2016_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2014,2020
+2016,FY2016_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2015,1500
+2016,FY2016_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_revised_FY2015,1500
+2016,FY2016_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2016,1400
+2016,FY2016_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2014,749862
+2016,FY2016_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2015,790308
+2016,FY2016_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_revised_FY2015,790308
+2016,FY2016_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2016,848688
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,actual_FY2014,346756
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2015,290280
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_revised_FY2015,290280
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2016,354500
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,actual_FY2014,125784
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2015,100949
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_revised_FY2015,100949
+2016,FY2016_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2016,109500
+2016,FY2016_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,actual_FY2014,1222491
+2016,FY2016_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2015,1181537
+2016,FY2016_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_revised_FY2015,1181537
+2016,FY2016_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2016,1312688
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,actual_FY2014,-767443
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2015,-866737
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_revised_FY2015,-866737
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2016,-995888
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,actual_FY2014,-47691
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2015,-114525
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_revised_FY2015,-114525
+2016,FY2016_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2016,-130000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2014,-31278
+2016,FY2016_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2015,-19000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_revised_FY2015,-19000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2016,-6000
+2016,FY2016_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,actual_FY2014,88910
+2016,FY2016_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2015,81000
+2016,FY2016_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_revised_FY2015,81000
+2016,FY2016_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2016,101000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2014,-48932
+2016,FY2016_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2015,-41000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_revised_FY2015,-41000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2016,-61000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2014,-22469
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2015,-51015
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_revised_FY2015,-51015
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2016,-54900
+2016,FY2016_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2014,-24365
+2016,FY2016_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2015,-28000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_revised_FY2015,-28000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2016,-28000
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2014,-164905
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2015,-197790
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_revised_FY2015,-197790
+2016,FY2016_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2016,-159600
+2016,FY2016_budget,7 of 16,General,dept_net,NET - UTILITY TAX,actual_FY2014,2301861
+2016,FY2016_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2015,2231103
+2016,FY2016_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_revised_FY2015,2231103
+2016,FY2016_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2016,1511830
+2016,FY2016_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2014,14704667
+2016,FY2016_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2015,16511935
+2016,FY2016_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2015,16511935
+2016,FY2016_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2016,17342912
+2016,FY2016_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2014,1031884
+2016,FY2016_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2015,124233
+2016,FY2016_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_revised_FY2015,124233
+2016,FY2016_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2016,103193

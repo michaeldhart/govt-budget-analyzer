@@ -26,8 +26,9 @@ FLOWS = ("revenue", "expense", "contra_expense")
 
 # treatment: how an account counts in the tax analysis.
 #   tax = counted in gross taxes; offset = negative amount netted against taxes; excluded_fee = looks like a tax
-#   but is a fee (kept visible, never summed); non_tax = everything else (not yet classified further).
-TREATMENTS = ("tax", "offset", "excluded_fee", "non_tax")
+#   but is a fee (kept visible, never summed); non_tax = everything else (not yet classified further);
+#   expense = an expense line (the tax treatments do not apply).
+TREATMENTS = ("tax", "offset", "excluded_fee", "non_tax", "expense")
 
 EXCEPTION_KINDS = (
     "definitional",          # a category or measure means something slightly different from its name
@@ -54,8 +55,12 @@ CATEGORY_COLUMNS = ["category_id", "scheme", "name", "flow", "color", "sort", "n
 ACCOUNT_MAP_COLUMNS = ["flow", "account_key", "label", "department", "category_id", "treatment", "note"]
 AUDIT_MAP_COLUMNS = ["audit_label", "comparable_group"]
 GROUP_COLUMNS = ["comparable_group", "report_group", "budget_members", "note"]
-EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "effect", "summary", "detail",
+DEPARTMENT_COLUMNS = ["dept_code", "name", "function", "note"]
+# Totals the source prints (department totals, subtotals, NET lines, fund totals): control totals for reconciling facts.
+TOTAL_KINDS = ("fund_revenues", "fund_expenses", "fund_net", "dept_revenues", "dept_expenses", "dept_net", "subtotal")
+CONTROL_TOTAL_COLUMNS = ["entity_id", "doc_id", "period_fy", "basis", "kind", "name", "amount", "page_label"]
+EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "bases", "effect", "summary", "detail",
                      "decided_on", "evidence"]
 
 # Category schemes: where a category_id is used.
-SCHEMES = ("budget_category", "report_group")
+SCHEMES = ("budget_category", "report_group", "expense_object")

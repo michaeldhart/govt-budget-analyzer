@@ -3,3 +3,12 @@ not_in_total,7 of 15,01-4-615-4490,actual_FY2022,,Buchanan Street Strolls revenu
 not_in_total,7 of 15,01-4-615-4495,actual_FY2022,,Buchanan Street Strolls revenue (4775); same
 not_in_total,7 of 15,01-4-615-4900,actual_FY2022,,Buchanan Street Strolls revenue (166); same
 allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2024,-1,page image (pdf p10) confirms printed 24803761; the city's line items sum to 24803762
+not_in_total,2 of 15,01-5-110-7902,actual_FY2022,,the city's printed FY22 actual General Administration expense total (1935779) omits Heritage Days (100117); page image (pdf p5)
+allow_diff,1 of 15,Gen Admin Personnel & Benefit Expenses,budget_FY2024,-76770,printed 824817 is stale: the FY23 column prints 824816 and the FY24 lines (incl. Health Insurance Reimbursement -144861) sum to 901587; verified on the page image (pdf p4)
+allow_diff,2 of 15,Total General Administration Expenses,budget_FY2024,-76770,carries the stale personnel subtotal; see the Gen Admin Personnel & Benefit Expenses row
+allow_diff,2 of 15,NET GENERAL ADMINISTRATION,budget_FY2024,76770,carries the stale personnel subtotal; see the Gen Admin Personnel & Benefit Expenses row
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2024,-76771,stale Gen Admin personnel subtotal (-76770) plus the usual $1 rounding pattern
+not_in_total,7 of 15,01-5-615-6190,actual_FY2022,fund,the city's printed FY22 actual fund expense total omits the Buchanan Street Strolls expense lines (14399 together; the STROLLS NET line includes them); page image (pdf p10)
+not_in_total,7 of 15,01-5-615-7040,actual_FY2022,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7900,actual_FY2022,fund,see 01-5-615-6190
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,actual_FY2022,5050,printed fund total is $5050 above the sum of its rows (after the omitted Heritage Days and Strolls lines); the same $5050 appears in the FY23 and FY24 actual columns (FY2025/FY2026 documents); not located

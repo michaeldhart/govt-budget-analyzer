@@ -11,3 +11,16 @@ not_in_total,7 of 15,01-4-615-4490,,,Buchanan Street Strolls revenue (3000); cit
 not_in_total,7 of 15,01-4-615-4495,,,Buchanan Street Strolls revenue (7000); same
 not_in_total,7 of 15,01-4-615-4900,,,Buchanan Street Strolls revenue (7200); same
 account,6 of 15,Expense Reimbursement|01-4-310-4840,,01-4-310-4940,OCR read account as 4840; page image (pdf p29) shows 01-4-310-4940
+account,2 of 15,Operating Transfers Out|01-5-110-9989,,01-5-110-9999,OCR read the account as 9989; page image (pdf p20) shows 01-5-110-9999
+row,2 of 15,01-5-110-9999,,659243|1763646|1763646|2248332,OCR read Operating Transfers Out FY19 actual as 669243; page image (pdf p20) shows 659243 (a 6 read for 5; the printed total of 2030145 needs it)
+row,2 of 15,"NET GENERAL ADMINISTRATION $,264,894",,9264894|9578157|9578157|10246859,OCR garbled the FY19 actual of this printed line ($,264,894); page image (pdf p20) shows 9,264,894
+total,6 of 15,Street Department - Supplies Expenses,actual_FY2019,112722,OCR read the printed FY19 actual subtotal as 412722 (4 for 1); the rows sum to 112722 and the fund total agrees
+total,7 of 15,NET - ENGINEERING DEPARTMENT,actual_FY2019,-17111,OCR read the printed NET as (17117); page image (pdf p30) shows (17,111); rows sum to 17112 (rounding)
+account,7 of 15,Strolls Supplies|01-5-615-7900,,01-5-615-7040,OCR read the Strolls Supplies account as 7900 (same as Strolls Miscellaneous); other years print 7040
+not_in_total,7 of 15,01-5-615-6190,budget_FY2021,fund,the city's printed FY21 fund expense total omits the Buchanan Street Strolls expense lines (22250 together; STROLLS NET (5050) includes them)
+not_in_total,7 of 15,01-5-615-7040,budget_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7900,budget_FY2021,fund,see 01-5-615-6190
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2021,5050,printed fund total is $5050 above the sum of its rows after the omitted Strolls lines (the same $5050 recurs in other years' fund totals); not located
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2020,-1,printed 18931832; rows sum to 18931833 ($1 rounding pattern)
+allow_diff,7 of 15,NET REV OVER (UNDER) EXP,budget_FY2020,-1,printed 30200 vs printed revenue less printed expense 30201
+allow_diff,7 of 15,NET REV OVER (UNDER) EXP,budget_FY2021,1,printed 5540 vs printed revenue less printed expense 5539

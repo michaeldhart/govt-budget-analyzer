@@ -1,0 +1,221 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2022,FY2022_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,actual_FY2020,13073779
+2022,FY2022_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,budget_FY2021,13953070
+2022,FY2022_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,budget_revised_FY2021,13953070
+2022,FY2022_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,budget_FY2022,13741029
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,actual_FY2020,181591
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2021,184277
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_revised_FY2021,184277
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2022,183089
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,actual_FY2020,371892
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2021,377897
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_revised_FY2021,377897
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2022,383055
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2020,300356
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2021,300000
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_revised_FY2021,300000
+2022,FY2022_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2022,300000
+2022,FY2022_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,actual_FY2020,1481376
+2022,FY2022_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2021,1432063
+2022,FY2022_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_revised_FY2021,1432063
+2022,FY2022_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2022,1585501
+2022,FY2022_budget,pdf35,General,dept_revenues,Total Fire Department Revenues,actual_FY2020,1070735
+2022,FY2022_budget,pdf35,General,dept_revenues,Total Fire Department Revenues,budget_FY2021,1046132
+2022,FY2022_budget,pdf35,General,dept_revenues,Total Fire Department Revenues,budget_revised_FY2021,1046132
+2022,FY2022_budget,pdf35,General,dept_revenues,Total Fire Department Revenues,budget_FY2022,1046132
+2022,FY2022_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,actual_FY2020,175480
+2022,FY2022_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2021,239864
+2022,FY2022_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_revised_FY2021,239864
+2022,FY2022_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2022,255730
+2022,FY2022_budget,6 of 15,General,dept_revenues,Street Department - Revenues,actual_FY2020,387679
+2022,FY2022_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2021,333000
+2022,FY2022_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_revised_FY2021,333000
+2022,FY2022_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2022,333000
+2022,FY2022_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,actual_FY2020,40056
+2022,FY2022_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2021,40000
+2022,FY2022_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_revised_FY2021,40000
+2022,FY2022_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2022,40000
+2022,FY2022_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2020,19228141
+2022,FY2022_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2021,20128567
+2022,FY2022_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_revised_FY2021,20128567
+2022,FY2022_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2022,20559894
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2020,757668
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2021,898029
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_revised_FY2021,898029
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2022,833349
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,actual_FY2020,115407
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2021,178020
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_revised_FY2021,178020
+2022,FY2022_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2022,257221
+2022,FY2022_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,actual_FY2020,319441
+2022,FY2022_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2021,298000
+2022,FY2022_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_revised_FY2021,298000
+2022,FY2022_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2022,384698
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,actual_FY2020,3244653
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2021,3706211
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_revised_FY2021,3706211
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2022,3752701
+2022,FY2022_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2020,9829126
+2022,FY2022_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2021,10246859
+2022,FY2022_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,budget_revised_FY2021,10246859
+2022,FY2022_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2022,9988328
+2022,FY2022_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2020,-16502
+2022,FY2022_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2021,-17500
+2022,FY2022_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_revised_FY2021,-17500
+2022,FY2022_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2022,-23700
+2022,FY2022_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2020,26230
+2022,FY2022_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2021,7009
+2022,FY2022_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_revised_FY2021,7009
+2022,FY2022_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2022,14981
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,actual_FY2020,367633
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2021,391213
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_revised_FY2021,391213
+2022,FY2022_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2022,372745
+2022,FY2022_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2020,4260
+2022,FY2022_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2021,-13316
+2022,FY2022_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_revised_FY2021,-13316
+2022,FY2022_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2022,10310
+2022,FY2022_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2020,-154434
+2022,FY2022_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2021,-180375
+2022,FY2022_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2021,-180375
+2022,FY2022_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2022,-159895
+2022,FY2022_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2020,6162162
+2022,FY2022_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2021,6742113
+2022,FY2022_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_revised_FY2021,6742113
+2022,FY2022_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2022,6987255
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,actual_FY2020,157966
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2021,218015
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_revised_FY2021,218015
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2022,201154
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,actual_FY2020,141168
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_FY2021,198075
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_revised_FY2021,198075
+2022,FY2022_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_FY2022,198075
+2022,FY2022_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,actual_FY2020,6512541
+2022,FY2022_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2021,7224853
+2022,FY2022_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_revised_FY2021,7224853
+2022,FY2022_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2022,7463184
+2022,FY2022_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2020,-5031165
+2022,FY2022_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2021,-5792790
+2022,FY2022_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_revised_FY2021,-5792790
+2022,FY2022_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2022,-5877683
+2022,FY2022_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2020,-1079985
+2022,FY2022_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2021,-1149074
+2022,FY2022_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_revised_FY2021,-1149074
+2022,FY2022_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2022,-1158935
+2022,FY2022_budget,pdf35,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2020,3921780
+2022,FY2022_budget,pdf35,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2021,4261036
+2022,FY2022_budget,pdf35,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_revised_FY2021,4261036
+2022,FY2022_budget,pdf35,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2022,4383892
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Contractual Expenses,actual_FY2020,132737
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Contractual Expenses,budget_FY2021,148440
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Contractual Expenses,budget_revised_FY2021,148440
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Contractual Expenses,budget_FY2022,148540
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Supplies Expenses,actual_FY2020,36737
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Supplies Expenses,budget_FY2021,46300
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Supplies Expenses,budget_revised_FY2021,46300
+2022,FY2022_budget,pdf35,General,subtotal,Fire Department - Supplies Expenses,budget_FY2022,46300
+2022,FY2022_budget,pdf35,General,dept_expenses,Total Fire Department Expenses,actual_FY2020,4117150
+2022,FY2022_budget,pdf35,General,dept_expenses,Total Fire Department Expenses,budget_FY2021,4480776
+2022,FY2022_budget,pdf35,General,dept_expenses,Total Fire Department Expenses,budget_revised_FY2021,4480776
+2022,FY2022_budget,pdf35,General,dept_expenses,Total Fire Department Expenses,budget_FY2022,4603732
+2022,FY2022_budget,pdf35,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2020,-3046415
+2022,FY2022_budget,pdf35,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2021,-3434644
+2022,FY2022_budget,pdf35,General,dept_net,NET - FIRE DEPARTMENT,budget_revised_FY2021,-3434644
+2022,FY2022_budget,pdf35,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2022,-3557600
+2022,FY2022_budget,pdf35,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2020,-13605
+2022,FY2022_budget,pdf35,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2021,-26515
+2022,FY2022_budget,pdf35,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_revised_FY2021,-26515
+2022,FY2022_budget,pdf35,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2022,-26515
+2022,FY2022_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2020,351323
+2022,FY2022_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2021,398777
+2022,FY2022_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_revised_FY2021,398777
+2022,FY2022_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2022,400112
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,actual_FY2020,44020
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2021,68970
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_revised_FY2021,68970
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2022,69093
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,actual_FY2020,6564
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2021,10750
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_revised_FY2021,10750
+2022,FY2022_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2022,10750
+2022,FY2022_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,actual_FY2020,401907
+2022,FY2022_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2021,478497
+2022,FY2022_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_revised_FY2021,478497
+2022,FY2022_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2022,479955
+2022,FY2022_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2020,-226427
+2022,FY2022_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2021,-238633
+2022,FY2022_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_revised_FY2021,-238633
+2022,FY2022_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2022,-224225
+2022,FY2022_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2020,-1769
+2022,FY2022_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2021,0
+2022,FY2022_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_revised_FY2021,0
+2022,FY2022_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2022,0
+2022,FY2022_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2020,916715
+2022,FY2022_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2021,958096
+2022,FY2022_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_revised_FY2021,958096
+2022,FY2022_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2022,970910
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,actual_FY2020,449335
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2021,337500
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_revised_FY2021,337500
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2022,337500
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,actual_FY2020,87952
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2021,113000
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_revised_FY2021,113000
+2022,FY2022_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2022,113000
+2022,FY2022_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,actual_FY2020,1499102
+2022,FY2022_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2021,1408596
+2022,FY2022_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_revised_FY2021,1408596
+2022,FY2022_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2022,1421410
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,actual_FY2020,-1111423
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2021,-1075596
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_revised_FY2021,-1075596
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2022,-1088410
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,actual_FY2020,-62707
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2021,-50000
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_revised_FY2021,-50000
+2022,FY2022_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2022,-30000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2020,-2955
+2022,FY2022_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2021,-4000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_revised_FY2021,-4000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2022,-4000
+2022,FY2022_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,actual_FY2020,30694
+2022,FY2022_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2021,40000
+2022,FY2022_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_revised_FY2021,40000
+2022,FY2022_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2022,40000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2020,9362
+2022,FY2022_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2021,0
+2022,FY2022_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_revised_FY2021,0
+2022,FY2022_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2022,0
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2020,-29868
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2021,-44600
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_revised_FY2021,-44600
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2022,-44200
+2022,FY2022_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2020,-24628
+2022,FY2022_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2021,-23000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_revised_FY2021,-23000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2022,-28000
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2020,-148056
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2021,-128500
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_revised_FY2021,-128500
+2022,FY2022_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2022,-129790
+2022,FY2022_budget,7 of 15,General,dept_net,STROLLS NET,actual_FY2020,7790
+2022,FY2022_budget,7 of 15,General,dept_net,STROLLS NET,budget_FY2021,-5050
+2022,FY2022_budget,7 of 15,General,dept_net,STROLLS NET,budget_revised_FY2021,-5050
+2022,FY2022_budget,7 of 15,General,dept_net,STROLLS NET,budget_FY2022,-5700
+2022,FY2022_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,actual_FY2020,58411
+2022,FY2022_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2021,0
+2022,FY2022_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_revised_FY2021,0
+2022,FY2022_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2022,0
+2022,FY2022_budget,7 of 15,General,dept_net,NET - UTILITY TAX,actual_FY2020,1791627
+2022,FY2022_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2021,1935264
+2022,FY2022_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_revised_FY2021,1935264
+2022,FY2022_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2022,2391558
+2022,FY2022_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2020,18509685
+2022,FY2022_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2021,20123028
+2022,FY2022_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2021,20123028
+2022,FY2022_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2022,20513370
+2022,FY2022_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2020,718456
+2022,FY2022_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2021,5540
+2022,FY2022_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_revised_FY2021,5540
+2022,FY2022_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2022,46524

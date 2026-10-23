@@ -10,3 +10,16 @@ not_in_total,7 of 15,01-4-615-4495,budget_revised_FY2021,,Buchanan Street Stroll
 not_in_total,7 of 15,01-4-615-4900,budget_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
 not_in_total,7 of 15,01-4-615-4900,budget_revised_FY2021,,Buchanan Street Strolls revenue; same, FY21 columns only
 account,6 of 15,RE Tax - Road & Bridge|01-4-310-4071,,01-4-310-4010,OCR read account as 4071; page image (pdf p41) shows 01-4-310-4010 (FY2023 doc also uses 4010)
+row,3 of 15,01-5-210-6816,,4795|13500|13500|13500,OCR (both preps) read Community Policing revised FY21 as 43500; the printed Police Department - Contractual Expenses (218015) needs 13500 (a leading 1 read as 4)
+account,7 of 15,Stro!lls Supplies|01-5-615-7900,,01-5-615-7040,OCR read the Strolls Supplies account as 7900 (the same as Strolls Miscellaneous); the other fiscal years print 7040
+not_in_total,7 of 15,01-5-615-6190,budget_FY2021,fund,the city's printed FY21 fund expense total omits the Buchanan Street Strolls expense lines (22250 together; STROLLS NET includes them), as the revenue total omits the Strolls revenue
+not_in_total,7 of 15,01-5-615-7040,budget_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7900,budget_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-6190,budget_revised_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7040,budget_revised_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7900,budget_revised_FY2021,fund,see 01-5-615-6190
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2021,5050,printed fund total is $5050 above the sum of its rows after the omitted Strolls lines; recurs in the actual columns of FY2021-FY2024; not located
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2021,5050,see budget_FY2021
+allow_diff,7 of 15,NET REV OVER (UNDER) EXP,budget_FY2021,1,printed 5540; printed revenue less printed expense total is 5539
+allow_diff,7 of 15,NET REV OVER (UNDER) EXP,budget_revised_FY2021,1,see budget_FY2021
+account,7 of 15,Strolls Supplies|01-5-615-7900,,01-5-615-7040,same fix as above for the OCR prep that reads the label without the stray `!`

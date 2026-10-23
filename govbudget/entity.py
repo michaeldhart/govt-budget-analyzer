@@ -57,6 +57,10 @@ class Entity:
         rows = self.table("categories.csv")
         return [r for r in rows if scheme is None or r["scheme"] == scheme]
 
+    def departments(self):
+        """dept_code -> department row (name, function)."""
+        return {r["dept_code"]: r for r in self.table("departments.csv")}
+
     def account_map(self):
         """(flow, account_key) -> mapping row."""
         return {(r["flow"], r["account_key"]): r for r in self.table("account_map.csv")}

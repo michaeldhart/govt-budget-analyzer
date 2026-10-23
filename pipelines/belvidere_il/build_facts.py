@@ -2,10 +2,10 @@
 
 Usage: python3 pipelines/belvidere_il/build_facts.py
 
-Inputs : data/belvidere_il/extracted/FY2015..FY2027_budget_gf_revenue.csv   (extract_budget.py)
+Inputs : data/belvidere_il/extracted/FY2015..FY2027_budget_gf_{revenue,expense,totals}.csv   (extract_budget.py)
          data/belvidere_il/extracted/audits/FY2012..FY2026_audit_gf_revenue.csv   (extract_audit.py)
          entities/belvidere_il/*  (account_map.csv, exceptions.csv, entity.json)
-Outputs: data/belvidere_il/documents.csv, accounts.csv, facts.csv
+Outputs: data/belvidere_il/documents.csv, accounts.csv, facts.csv, control_totals.csv
 
 Nothing here classifies or sums anything: facts.csv holds every extracted number once, with its document, period,
 basis and provenance. Mapping decisions live in entities/belvidere_il/account_map.csv; anomalies in exceptions.csv
@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 
 from govbudget import Entity  # noqa: E402
 from govbudget.entity import write_csv  # noqa: E402
-from govbudget.schema import ACCOUNT_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS  # noqa: E402
+from govbudget.schema import ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS  # noqa: E402
 from govbudget.validate import validate_config, validate_tables  # noqa: E402
 
 E = Entity.load("belvidere_il")
@@ -54,17 +54,19 @@ def budget_pdf(fy):
 
 
 def exception_index():
-    """account exceptions as (set of keys, fy_from, fy_to, id); doc exceptions by doc_id."""
+    """account/doc exceptions as (scope, ids, fy_from, fy_to, bases, exception_id)."""
     out = []
     for x in E.exceptions():
         if x["scope"] in ("account", "doc"):
-            out.append((x["scope"], set(x["scope_id"].split("|")), int(x["fy_from"] or 0), int(x["fy_to"] or 9999), x["exception_id"]))
+            out.append((x["scope"], set(x["scope_id"].split("|")), int(x["fy_from"] or 0), int(x["fy_to"] or 9999),
+                        set(filter(None, x["bases"].split("|"))), x["exception_id"]))
     return out
 
 
-def attach(ex, doc_id, key, period_fy):
-    ids = [i for scope, ids_, a, b, i in ex
-           if a <= period_fy <= b and ((scope == "account" and key in ids_) or (scope == "doc" and doc_id in ids_))]
+def attach(ex, doc_id, key, period_fy, basis):
+    ids = [i for scope, ids_, a, b, bases, i in ex
+           if a <= period_fy <= b and (not bases or basis in bases)
+           and ((scope == "account" and key in ids_) or (scope == "doc" and doc_id in ids_))]
     return "|".join(ids)
 
 
@@ -73,7 +75,7 @@ def main():
     if cfg_errs:
         sys.exit("config problems:\n  " + "\n  ".join(cfg_errs))
     ex = exception_index()
-    facts, docs = [], []
+    facts, docs, totals = [], [], []
     lo, hi = E.config["documents"]["budget_range"]
     for fy in range(lo, hi + 1):
         path = E.data_path("extracted", f"FY{fy}_budget_gf_revenue.csv")
@@ -83,15 +85,22 @@ def main():
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if pdf else "", sha256=E.sha(pdf) if pdf else "",
                          source_url=E.config["source_index"]["budget"],
                          note="General Fund Exhibit A; FY2027 is ordinance 753H (revision 780H changes one salary only)" if fy == 2027 else ""))
-        for seq, r in enumerate(csv.DictReader(open(path)), 1):
+        seq = 0  # row_seq numbers the doc's extract rows: revenue file first, then the expense file
+        for kind in ("revenue", "expense"):
+            for r in csv.DictReader(open(E.data_path("extracted", f"FY{fy}_budget_gf_{kind}.csv"))):
+                seq += 1
+                period, basis = budget_basis(fy, r["column"])
+                flow = "expense" if kind == "expense" else "contra_expense" if "expense_block_offset" in r["flag"] else "revenue"
+                key = E.account_key(r["account"])
+                facts.append(dict(entity_id=E.id, doc_id=doc_id, source_type="budget", row_seq=seq, period_fy=period, basis=basis,
+                                  flow=flow, fund_code=r["account"].split("-")[0], dept_code=r["dept_code"], account_key=key,
+                                  account_printed=r["account"], audit_section="", label=r["line_item"], amount=int(r["amount"]),
+                                  source_column=r["column"], page_label=r["page_label"], pdf_page="", flag=r["flag"].strip(),
+                                  exception_ids=attach(ex, doc_id, key, period, basis)))
+        for r in csv.DictReader(open(E.data_path("extracted", f"FY{fy}_budget_gf_totals.csv"))):
             period, basis = budget_basis(fy, r["column"])
-            flow = "contra_expense" if "expense_block_offset" in r["flag"] else "revenue"
-            key = E.account_key(r["account"])
-            facts.append(dict(entity_id=E.id, doc_id=doc_id, source_type="budget", row_seq=seq, period_fy=period, basis=basis,
-                              flow=flow, fund_code=r["account"].split("-")[0], dept_code=r["dept_code"], account_key=key,
-                              account_printed=r["account"], audit_section="", label=r["line_item"], amount=int(r["amount"]),
-                              source_column=r["column"], page_label=r["page_label"], pdf_page="", flag=r["flag"].strip(),
-                              exception_ids=attach(ex, doc_id, key, period)))
+            totals.append(dict(entity_id=E.id, doc_id=doc_id, period_fy=period, basis=basis, kind=r["kind"], name=r["name"],
+                               amount=int(r["amount"]), page_label=r["page_label"]))
     lo, hi = E.config["documents"]["audit_range"]
     for fy in range(lo, hi + 1):
         path = E.data_path("extracted", "audits", f"FY{fy}_audit_gf_revenue.csv")
@@ -104,7 +113,7 @@ def main():
         for seq, r in enumerate(csv.DictReader(open(path)), 1):
             base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow="revenue", fund_code="01",
                         dept_code="", account_key="", account_printed="", audit_section=r["section"], label=r["line_item"],
-                        page_label="", pdf_page=r["pdf_page"], flag=r["flag"].strip(), exception_ids=attach(ex, doc_id, "", fy))
+                        page_label="", pdf_page=r["pdf_page"], flag=r["flag"].strip(), exception_ids=attach(ex, doc_id, "", fy, ""))
             for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
                 facts.append(dict(base, period_fy=fy, basis=basis, amount=int(r[col]), source_column=col))
             if r.get("prior_year_actual", "") != "":
@@ -128,10 +137,12 @@ def main():
     write_csv(E.data_path("documents.csv"), DOCUMENT_COLUMNS, docs)
     write_csv(E.data_path("accounts.csv"), ACCOUNT_COLUMNS, accounts)
     write_csv(E.data_path("facts.csv"), FACT_COLUMNS, facts)
+    write_csv(E.data_path("control_totals.csv"), CONTROL_TOTAL_COLUMNS, totals)
     errs = validate_tables(E)
     if errs:
         sys.exit(f"{len(errs)} integrity problems:\n  " + "\n  ".join(errs[:30]))
-    print(f"{len(docs)} documents, {len(accounts)} accounts, {len(facts)} facts -> data/{E.id}/ (integrity checks pass)")
+    n_exp = sum(1 for f in facts if f["flow"] == "expense")
+    print(f"{len(docs)} documents, {len(accounts)} accounts, {len(facts)} facts ({n_exp} expense), {len(totals)} control totals -> data/{E.id}/ (integrity checks pass)")
 
 
 if __name__ == "__main__":

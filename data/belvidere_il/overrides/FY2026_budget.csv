@@ -2,3 +2,7 @@ kind,page_label,key,column,value,note
 total,5 of 16,Community Dev - Revenues,actual_FY2024,1014657,OCR read bold printed total as 4014657; page image (pdf p8) shows 1014657 and the rows sum to it
 add_row,7 of 16,01-4-340-UNLABELED,,0|0|26000,page image (pdf p10) shows a 26000 revenue line in the FY26 request column of the Forestry block with no label or account number; the printed Forestry total (66000) includes it
 allow_diff,8 of 16,TOTAL GENERAL FUND REVENUES,budget_FY2026,-1,page image (pdf p11) confirms printed 25227480; the city's line items sum to 25227481
+add_row,3 of 16,01-5-210-8350,Grant Expenses,0|0|406000,OCR dropped the Police Grant Expenses row (only an orphan 406,000 survived); values 0|0 follow from the printed department totals tying in those columns; FY2027 document shows FY26 budget 406000
+row,4 of 16,01-5-220-7040,,7824|9980|10250,OCR read Fire Operating Supplies FY24 actual as 7624; page image (pdf p7) shows 7824
+allow_diff,8 of 16,TOTAL GENERAL FUND EXPENSES,budget_FY2026,-1,printed 25227480 (equals printed revenues; balanced budget); the city's expense line items sum to 25227481
+allow_diff,8 of 16,TOTAL GENERAL FUND EXPENSES,actual_FY2024,5050,printed 25177496 verified on the page image (and NET REV OVER (UNDER) EXP 4759093 = 29936588 - 25177496); every department's NET line ties to its rows, so the city's fund total is $5050 above the sum of its department lines (source arithmetic; not located)

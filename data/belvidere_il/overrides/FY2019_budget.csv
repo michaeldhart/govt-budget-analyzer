@@ -1,0 +1,5 @@
+kind,page_label,key,column,value,note
+row,3 of 16,01-5-210-8200,,45298|59255|59255|74830,OCR garbled the Police Equipment row (45298 then $9255); the printed Police Department total needs 59255 for FY18 budget and revised (S read for 5) and 74830 for FY19
+total,2 of 16,NET - SOCIAL SECURITY DEPT,budget_revised_FY2018,16269,OCR read the printed revised NET as 15269; revenues 367916 less expenses 351647 = 16269 and the budget column prints the same
+allow_diff,3 of 16,Police Department - Contractual Expenses,budget_FY2019,3,printed subtotal 183944 vs lines 183941 (the FY2020 document prints 183941 for this column); the printed department total agrees with the lines
+allow_diff,7 of 16,TOTAL GENERAL FUND EXPENSES,budget_FY2019,-1,printed 17418835; rows sum to 17418836 ($1 rounding pattern)

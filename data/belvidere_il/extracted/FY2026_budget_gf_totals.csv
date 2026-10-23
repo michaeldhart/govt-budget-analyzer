@@ -1,0 +1,166 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2026,FY2026_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,actual_FY2024,21268937
+2026,FY2026_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2025,18083680
+2026,FY2026_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2026,16866791
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,actual_FY2024,167620
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2025,174271
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2026,175945
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,actual_FY2024,392049
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2025,399132
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2026,419745
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2024,300360
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2025,300000
+2026,FY2026_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2026,300000
+2026,FY2026_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,actual_FY2024,1784610
+2026,FY2026_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2025,2235099
+2026,FY2026_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2026,2388477
+2026,FY2026_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,actual_FY2024,2127862
+2026,FY2026_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2025,2661193
+2026,FY2026_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2026,2388090
+2026,FY2026_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,actual_FY2024,1014657
+2026,FY2026_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2025,603300
+2026,FY2026_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2026,542400
+2026,FY2026_budget,6 of 16,General,dept_revenues,Street Department - Revenues,actual_FY2024,745708
+2026,FY2026_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2025,344000
+2026,FY2026_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2026,344000
+2026,FY2026_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,actual_FY2024,40074
+2026,FY2026_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2025,40000
+2026,FY2026_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2026,66000
+2026,FY2026_budget,8 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2024,29936588
+2026,FY2026_budget,8 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2025,26591778
+2026,FY2026_budget,8 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2026,25227480
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2024,792905
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2025,993133
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2026,973081
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,actual_FY2024,122985
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2025,164950
+2026,FY2026_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2026,261912
+2026,FY2026_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,actual_FY2024,709736
+2026,FY2026_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2025,664400
+2026,FY2026_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2026,672300
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,actual_FY2024,6456378
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2025,3724253
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2026,3266434
+2026,FY2026_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2024,14812559
+2026,FY2026_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2025,14359427
+2026,FY2026_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2026,13600357
+2026,FY2026_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2024,-31602
+2026,FY2026_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2025,-33171
+2026,FY2026_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2026,-33210
+2026,FY2026_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2024,47861
+2026,FY2026_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2025,73877
+2026,FY2026_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2026,60600
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,actual_FY2024,403694
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2025,416579
+2026,FY2026_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2026,452681
+2026,FY2026_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2024,-11645
+2026,FY2026_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2025,-17447
+2026,FY2026_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2026,-32936
+2026,FY2026_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2024,-181612
+2026,FY2026_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2025,-249189
+2026,FY2026_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2026,-241000
+2026,FY2026_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2024,6980108
+2026,FY2026_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2025,8245113
+2026,FY2026_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2026,8534917
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,actual_FY2024,137833
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2025,190390
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2026,201080
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,actual_FY2024,203275
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2025,211725
+2026,FY2026_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2026,182575
+2026,FY2026_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,actual_FY2024,7366536
+2026,FY2026_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2025,8708603
+2026,FY2026_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2026,9375887
+2026,FY2026_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2024,-5581926
+2026,FY2026_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2025,-6473504
+2026,FY2026_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2026,-6987410
+2026,FY2026_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2024,-1129852
+2026,FY2026_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2025,-1298124
+2026,FY2026_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2026,-1307986
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2024,4428350
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2025,4854778
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2026,5151857
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,actual_FY2024,1845102
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2025,1931601
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2026,1994528
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,actual_FY2024,68098
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2025,100636
+2026,FY2026_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2026,90576
+2026,FY2026_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,actual_FY2024,6372339
+2026,FY2026_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2025,6919015
+2026,FY2026_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2026,7298961
+2026,FY2026_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2024,-4244477
+2026,FY2026_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2025,-4257822
+2026,FY2026_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2026,-4910871
+2026,FY2026_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2024,-41623
+2026,FY2026_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2025,-50650
+2026,FY2026_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2026,-33000
+2026,FY2026_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2024,355456
+2026,FY2026_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2025,396317
+2026,FY2026_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2026,415309
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,actual_FY2024,87457
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2025,61348
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2026,66476
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,actual_FY2024,5932
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2025,20500
+2026,FY2026_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2026,25700
+2026,FY2026_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,actual_FY2024,448845
+2026,FY2026_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2025,478165
+2026,FY2026_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2026,507485
+2026,FY2026_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2024,565812
+2026,FY2026_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2025,125135
+2026,FY2026_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2026,34915
+2026,FY2026_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2024,814
+2026,FY2026_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2025,-211
+2026,FY2026_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2026,-211
+2026,FY2026_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2024,1082760
+2026,FY2026_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2025,1134622
+2026,FY2026_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2026,1155848
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,actual_FY2024,523928
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2025,375700
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2026,394400
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,actual_FY2024,127217
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2025,120000
+2026,FY2026_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2026,123700
+2026,FY2026_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,actual_FY2024,1733905
+2026,FY2026_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2025,1630322
+2026,FY2026_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2026,1673948
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,actual_FY2024,-988197
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2025,-1286322
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2026,-1329948
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,actual_FY2024,-100739
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2025,-83000
+2026,FY2026_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2026,-91800
+2026,FY2026_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2024,-5514
+2026,FY2026_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2025,-4500
+2026,FY2026_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2026,-6000
+2026,FY2026_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,actual_FY2024,34563
+2026,FY2026_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2025,65000
+2026,FY2026_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2026,91000
+2026,FY2026_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2024,5511
+2026,FY2026_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2025,-25000
+2026,FY2026_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2026,-25000
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2024,-68782
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2025,-44500
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2026,-45800
+2026,FY2026_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2024,-3399
+2026,FY2026_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2025,-4500
+2026,FY2026_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2026,-2000
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2024,-86288
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2025,-99382
+2026,FY2026_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2026,-97733
+2026,FY2026_budget,8 of 16,General,dept_net,STROLLS NET,actual_FY2024,0
+2026,FY2026_budget,8 of 16,General,dept_net,STROLLS NET,budget_FY2025,0
+2026,FY2026_budget,8 of 16,General,dept_net,STROLLS NET,budget_FY2026,0
+2026,FY2026_budget,8 of 16,General,dept_expenses,Utility Tax Expenses,actual_FY2024,0
+2026,FY2026_budget,8 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2025,0
+2026,FY2026_budget,8 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2026,0
+2026,FY2026_budget,8 of 16,General,dept_net,NET - UTILITY TAX,actual_FY2024,1807241
+2026,FY2026_budget,8 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2025,1464064
+2026,FY2026_budget,8 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2026,1449033
+2026,FY2026_budget,8 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2024,25177496
+2026,FY2026_budget,8 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2025,24496597
+2026,FY2026_budget,8 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2026,25227480
+2026,FY2026_budget,8 of 16,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2024,4759093
+2026,FY2026_budget,8 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2025,2095181
+2026,FY2026_budget,8 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2026,0

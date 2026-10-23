@@ -1,0 +1,217 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2019,FY2019_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,actual_FY2017,10885954
+2019,FY2019_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2018,11034235
+2019,FY2019_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_revised_FY2018,11034235
+2019,FY2019_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2019,11025085
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,actual_FY2017,191333
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2018,181743
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_revised_FY2018,181743
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2019,189955
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,actual_FY2017,381654
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2018,367916
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_revised_FY2018,367916
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2019,365331
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2017,320477
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2018,290000
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_revised_FY2018,290000
+2019,FY2019_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2019,300000
+2019,FY2019_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,actual_FY2017,1287947
+2019,FY2019_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2018,1333902
+2019,FY2019_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_revised_FY2018,1333902
+2019,FY2019_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2019,1411464
+2019,FY2019_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,actual_FY2017,856154
+2019,FY2019_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2018,1018767
+2019,FY2019_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_revised_FY2018,1018767
+2019,FY2019_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2019,1061132
+2019,FY2019_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,actual_FY2017,419759
+2019,FY2019_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2018,347183
+2019,FY2019_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_revised_FY2018,347183
+2019,FY2019_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2019,321833
+2019,FY2019_budget,6 of 16,General,dept_revenues,Street Department - Revenues,actual_FY2017,385310
+2019,FY2019_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2018,345000
+2019,FY2019_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_revised_FY2018,345000
+2019,FY2019_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2019,335000
+2019,FY2019_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,actual_FY2017,40082
+2019,FY2019_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2018,35000
+2019,FY2019_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_revised_FY2018,35000
+2019,FY2019_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2019,40000
+2019,FY2019_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2017,17079017
+2019,FY2019_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2018,17343164
+2019,FY2019_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_revised_FY2018,17343164
+2019,FY2019_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2019,17418835
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2017,787227
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2018,854802
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_revised_FY2018,854802
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2019,855623
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,actual_FY2017,78565
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2018,93550
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_revised_FY2018,93550
+2019,FY2019_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2019,83160
+2019,FY2019_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,actual_FY2017,44478
+2019,FY2019_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2018,64150
+2019,FY2019_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_revised_FY2018,64150
+2019,FY2019_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2019,233300
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,actual_FY2017,1577430
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2018,1482260
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_revised_FY2018,1482260
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2019,1851256
+2019,FY2019_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2017,9308524
+2019,FY2019_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2018,9551975
+2019,FY2019_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_revised_FY2018,9551975
+2019,FY2019_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2019,9173829
+2019,FY2019_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2017,-15043
+2019,FY2019_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2018,-16500
+2019,FY2019_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_revised_FY2018,-16500
+2019,FY2019_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2019,-16500
+2019,FY2019_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2017,-19112
+2019,FY2019_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2018,-18934
+2019,FY2019_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_revised_FY2018,-18934
+2019,FY2019_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2019,10083
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,actual_FY2017,328800
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2018,351647
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_revised_FY2018,351647
+2019,FY2019_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2019,356023
+2019,FY2019_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2017,52855
+2019,FY2019_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2018,16269
+2019,FY2019_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_revised_FY2018,16269
+2019,FY2019_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2019,9308
+2019,FY2019_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2017,-129043
+2019,FY2019_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2018,-194810
+2019,FY2019_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2018,-194810
+2019,FY2019_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2019,-188060
+2019,FY2019_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2017,5603139
+2019,FY2019_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2018,5999879
+2019,FY2019_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_revised_FY2018,5999879
+2019,FY2019_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2019,6232013
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,actual_FY2017,129699
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2018,180315
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_revised_FY2018,180315
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2019,183944
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,actual_FY2017,150656
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2018,195335
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_revised_FY2018,195335
+2019,FY2019_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2019,196835
+2019,FY2019_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,actual_FY2017,5928791
+2019,FY2019_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2018,6434784
+2019,FY2019_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_revised_FY2018,6434784
+2019,FY2019_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2019,6687619
+2019,FY2019_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2017,-4640844
+2019,FY2019_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2018,-5100882
+2019,FY2019_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_revised_FY2018,-5100882
+2019,FY2019_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2019,-5276155
+2019,FY2019_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2017,-982621
+2019,FY2019_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2018,-1073435
+2019,FY2019_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_revised_FY2018,-1073435
+2019,FY2019_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2019,-1116309
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2017,3473669
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2018,3868049
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_revised_FY2018,3868049
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2019,3933700
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,actual_FY2017,135467
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2018,141390
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_revised_FY2018,141390
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2019,151290
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,actual_FY2017,35181
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2018,41600
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_revised_FY2018,41600
+2019,FY2019_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2019,43100
+2019,FY2019_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,actual_FY2017,3697950
+2019,FY2019_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2018,4088939
+2019,FY2019_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_revised_FY2018,4088939
+2019,FY2019_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2019,4153090
+2019,FY2019_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2017,-2841796
+2019,FY2019_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2018,-3070172
+2019,FY2019_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_revised_FY2018,-3070172
+2019,FY2019_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2019,-3091958
+2019,FY2019_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2017,-22519
+2019,FY2019_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2018,-27585
+2019,FY2019_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_revised_FY2018,-27585
+2019,FY2019_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2019,-26515
+2019,FY2019_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2017,318659
+2019,FY2019_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2018,356891
+2019,FY2019_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_revised_FY2018,356891
+2019,FY2019_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2019,410759
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,actual_FY2017,61809
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2018,60950
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_revised_FY2018,60950
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2019,60875
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,actual_FY2017,8385
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2018,10150
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_revised_FY2018,10150
+2019,FY2019_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2019,9800
+2019,FY2019_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,actual_FY2017,388853
+2019,FY2019_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2018,427991
+2019,FY2019_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_revised_FY2018,427991
+2019,FY2019_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2019,481434
+2019,FY2019_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2017,30906
+2019,FY2019_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2018,-80808
+2019,FY2019_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_revised_FY2018,-80808
+2019,FY2019_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2019,-159601
+2019,FY2019_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2017,1630
+2019,FY2019_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2018,0
+2019,FY2019_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_revised_FY2018,0
+2019,FY2019_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2019,0
+2019,FY2019_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2017,858634
+2019,FY2019_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2018,904742
+2019,FY2019_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_revised_FY2018,904742
+2019,FY2019_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2019,913158
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,actual_FY2017,355850
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2018,379000
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_revised_FY2018,379000
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2019,331500
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,actual_FY2017,86986
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2018,114600
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_revised_FY2018,114600
+2019,FY2019_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2019,108000
+2019,FY2019_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,actual_FY2017,1301470
+2019,FY2019_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2018,1398342
+2019,FY2019_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_revised_FY2018,1398342
+2019,FY2019_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2019,1352658
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,actual_FY2017,-916160
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2018,-1053342
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_revised_FY2018,-1053342
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2019,-1017658
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,actual_FY2017,-149445
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2018,-140000
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_revised_FY2018,-140000
+2019,FY2019_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2019,-110000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2017,-2482
+2019,FY2019_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2018,-34000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_revised_FY2018,-34000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2019,-6000
+2019,FY2019_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,actual_FY2017,127536
+2019,FY2019_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2018,81000
+2019,FY2019_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_revised_FY2018,81000
+2019,FY2019_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2019,80000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2017,-87454
+2019,FY2019_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2018,-46000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_revised_FY2018,-46000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2019,-40000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2017,-16146
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2018,-45900
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_revised_FY2018,-45900
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2019,-45000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2017,-33000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2018,-28000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_revised_FY2018,-28000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2019,-28000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2017,-151508
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2018,-139800
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_revised_FY2018,-139800
+2019,FY2019_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2019,-141500
+2019,FY2019_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,actual_FY2017,1389314
+2019,FY2019_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2018,600000
+2019,FY2019_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_revised_FY2018,600000
+2019,FY2019_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2019,12000
+2019,FY2019_budget,7 of 16,General,dept_net,NET - UTILITY TAX,actual_FY2017,613257
+2019,FY2019_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2018,1517418
+2019,FY2019_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_revised_FY2018,1517418
+2019,FY2019_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2019,2070035
+2019,FY2019_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2017,17079017
+2019,FY2019_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2018,17327670
+2019,FY2019_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2018,17327670
+2019,FY2019_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2019,17418835
+2019,FY2019_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2017,0
+2019,FY2019_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2018,15494
+2019,FY2019_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_revised_FY2018,15494
+2019,FY2019_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2019,0

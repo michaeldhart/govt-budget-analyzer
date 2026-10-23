@@ -4,3 +4,7 @@ row,3 of 15,01-4-210-4010,,1107756|1201417|1201417|1201417,OCR read revised FY19
 row,4 of 15,01-4-220-4010,,990630|1021132|1021132|1021132,OCR read revised FY19 as 4021132; same evidence
 row,5 of 15,01-4-230-4350,,1360|1575|1575|1156,OCR read revised FY19 as 4575; page image (pdf p26) shows 1575
 row,5 of 15,01-4-230-4955,,2060|1000|1000|700,OCR read budget FY19 as 4000; page image (pdf p26) shows 1000
+total,3 of 15,Police Department - Contractual Expenses,actual_FY2018,155130,OCR read the printed FY18 actual subtotal as 165130; page image (pdf p20) shows 155,130 and the rows sum to 155130
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2019,-1,printed 17418835; rows sum to 17418836 ($1 rounding pattern)
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2020,1,printed 18931834; rows sum to 18931833 ($1 rounding pattern)
+allow_diff,7 of 15,NET REV OVER (UNDER) EXP,budget_revised_FY2019,1,printed 0 vs printed revenue less printed expense -1

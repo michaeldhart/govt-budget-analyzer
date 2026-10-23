@@ -16,3 +16,10 @@ rg_replacement_tax_net,report_group,Replacement tax (net),revenue,#008300,4,
 rg_video_gaming_tax,report_group,Video gaming tax,revenue,#4a3aa7,5,
 rg_other_taxes,report_group,Other taxes,revenue,#b4b2a9,6,
 rg_telecommunications_tax,report_group,Telecommunications tax,revenue,#52514e,7,
+exp_personnel,expense_object,Personnel and benefits,expense,,0,"object codes 5000-5999: salaries, overtime, pension and insurance contributions, training. Includes the health insurance reimbursement (110-4540), a contra account printed in the expense block"
+exp_contractual,expense_object,Contractual services,expense,,1,"object codes 6000-6999: repairs and maintenance, professional services, utilities, insurance premiums, program disbursements"
+exp_supplies,expense_object,Supplies,expense,,2,"object codes 7000-7899: office, fuel, operating supplies"
+exp_miscellaneous,expense_object,Miscellaneous,expense,,3,"object codes 7900-7999: miscellaneous expense, Heritage Days, other small lines the city prints outside its Supplies subtotal"
+exp_capital_projects,expense_object,Capital projects,expense,,4,object codes 8000-8199: street and storm projects
+exp_equipment_grants,expense_object,"Equipment, vehicles and grant expense",expense,,5,object codes 8200-8399
+exp_transfers,expense_object,Transfers out,expense,,6,"object codes 9000-9999: operating transfers out (reserves, capital, ARPA)"

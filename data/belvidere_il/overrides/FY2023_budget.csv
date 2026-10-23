@@ -3,3 +3,13 @@ not_in_total,7 of 15,01-4-615-4490,actual_FY2021,,Buchanan Street Strolls revenu
 not_in_total,7 of 15,01-4-615-4495,actual_FY2021,,Buchanan Street Strolls revenue (2000); same
 not_in_total,7 of 15,01-4-615-4900,actual_FY2021,,Buchanan Street Strolls revenue (0); same
 allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2023,-1,page image (pdf p10) confirms printed 22912503; the city's line items sum to 22912504
+row,7 of 15,01-5-610-6150,,1680|27500|2500,OCR read Planning Dept Services FY23 request as 2900; the printed NET - ECONOMIC DEVELOPMENT (121641) needs 2500 and the FY2024 document's prior-year column shows 2500
+allow_diff,1 of 15,Gen Admin Personnel & Benefit Expenses,budget_FY2023,1,printed 824817; the city's lines sum to 824816 (cent rounding in the source)
+allow_diff,2 of 15,Total General Administration Expenses,budget_FY2023,1,carries the $1 on the personnel subtotal
+allow_diff,2 of 15,NET GENERAL ADMINISTRATION,budget_FY2023,-1,carries the $1 on the personnel subtotal
+not_in_total,2 of 15,01-5-110-7901,actual_FY2021,,the city's printed FY21 actual General Administration expense total (2632848) omits Reimb of Seized Vehicle Fee (300) and Heritage Days (4225): 4525 together
+not_in_total,2 of 15,01-5-110-7902,actual_FY2021,,see 01-5-110-7901
+not_in_total,7 of 15,01-5-615-6190,actual_FY2021,fund,the city's printed FY21 actual fund expense total omits the Buchanan Street Strolls expense lines (19706 together; the STROLLS NET line includes them)
+not_in_total,7 of 15,01-5-615-7040,actual_FY2021,fund,see 01-5-615-6190
+not_in_total,7 of 15,01-5-615-7900,actual_FY2021,fund,see 01-5-615-6190
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,actual_FY2021,5050,printed fund total is $5050 above the sum of its rows after the omitted lines; recurs in the FY22-FY24 actual columns; not located

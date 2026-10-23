@@ -1,2 +1,6 @@
 kind,page_label,key,column,value,note
 allow_diff,7 of 16,TOTAL GENERAL FUND REVENUES,budget_FY2016,-1,page image confirms printed 17446105; the city's line items sum to 17446106
+row,3 of 16,01-5-210-5136,,4990|0|0|0,OCR read the Police Unemployment row with a stray colon (4990 0 0 : 0); the printed Police personnel subtotal needs 4990 in FY14 actual
+total,2 of 16,Total General Administration Expenses,budget_FY2015,2556254,OCR read the printed FY15 budget total as 2006254; page image (pdf p12) shows 2,556,254
+total,2 of 16,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2015,-156111,OCR read the printed revised NET as (156171); revenues 548520 less premium 704631 = -156111 and the budget column prints the same
+allow_diff,7 of 16,TOTAL GENERAL FUND EXPENSES,budget_FY2016,-1,printed 17342912; rows sum to 17342913 ($1 rounding pattern)

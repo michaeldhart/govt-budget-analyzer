@@ -1,0 +1,217 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2017,FY2017_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,actual_FY2015,9880883
+2017,FY2017_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2016,11032479
+2017,FY2017_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_revised_FY2016,11032479
+2017,FY2017_budget,1 of 16,General,dept_revenues,Total General Administration Revenues,budget_FY2017,11827130
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,actual_FY2015,184440
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2016,181421
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_revised_FY2016,181421
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total IMRF Revenues,budget_FY2017,185078
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,actual_FY2015,369633
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2016,384771
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_revised_FY2016,384771
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Soc Security Revenues,budget_FY2017,387752
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2015,553202
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2016,582825
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_revised_FY2016,582825
+2017,FY2017_budget,2 of 16,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2017,320000
+2017,FY2017_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,actual_FY2015,1315994
+2017,FY2017_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2016,1311857
+2017,FY2017_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_revised_FY2016,1311857
+2017,FY2017_budget,3 of 16,General,dept_revenues,Total Police Department Revenues,budget_FY2017,1331815
+2017,FY2017_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,actual_FY2015,928868
+2017,FY2017_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2016,768100
+2017,FY2017_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_revised_FY2016,768100
+2017,FY2017_budget,4 of 16,General,dept_revenues,Total Fire Department Revenues,budget_FY2017,841892
+2017,FY2017_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,actual_FY2015,410018
+2017,FY2017_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2016,313723
+2017,FY2017_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_revised_FY2016,313723
+2017,FY2017_budget,5 of 16,General,dept_revenues,Community Dev - Revenues,budget_FY2017,323118
+2017,FY2017_budget,6 of 16,General,dept_revenues,Street Department - Revenues,actual_FY2015,539939
+2017,FY2017_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2016,316800
+2017,FY2017_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_revised_FY2016,316800
+2017,FY2017_budget,6 of 16,General,dept_revenues,Street Department - Revenues,budget_FY2017,321800
+2017,FY2017_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,actual_FY2015,39963
+2017,FY2017_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2016,40000
+2017,FY2017_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_revised_FY2016,40000
+2017,FY2017_budget,7 of 16,General,dept_revenues,Forestry Department Revenues,budget_FY2017,40000
+2017,FY2017_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2015,16793433
+2017,FY2017_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2016,17446106
+2017,FY2017_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_revised_FY2016,17446106
+2017,FY2017_budget,7 of 16,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2017,18039428
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2015,704170
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2016,747319
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_revised_FY2016,747319
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2017,798828
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,actual_FY2015,88809
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2016,72260
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_revised_FY2016,72260
+2017,FY2017_budget,1 of 16,General,subtotal,Gen Admin Contractual Expenses,budget_FY2017,92700
+2017,FY2017_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,actual_FY2015,56707
+2017,FY2017_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2016,84970
+2017,FY2017_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_revised_FY2016,84970
+2017,FY2017_budget,2 of 16,General,subtotal,Gen Admin Supplies Expenses,budget_FY2017,70250
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,actual_FY2015,1850617
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2016,2135110
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_revised_FY2016,1685110
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total General Administration Expenses,budget_FY2017,1577759
+2017,FY2017_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2015,8030266
+2017,FY2017_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2016,8897369
+2017,FY2017_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_revised_FY2016,9347369
+2017,FY2017_budget,2 of 16,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2017,10249371
+2017,FY2017_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2015,-9105
+2017,FY2017_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2016,-14900
+2017,FY2017_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_revised_FY2016,-14900
+2017,FY2017_budget,2 of 16,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2017,-13000
+2017,FY2017_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2015,-21442
+2017,FY2017_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2016,-47091
+2017,FY2017_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_revised_FY2016,-47091
+2017,FY2017_budget,2 of 16,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2017,-29848
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,actual_FY2015,312468
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2016,332000
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_revised_FY2016,332000
+2017,FY2017_budget,2 of 16,General,dept_expenses,Total Soc Security Expenses,budget_FY2017,347182
+2017,FY2017_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2015,57165
+2017,FY2017_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2016,52771
+2017,FY2017_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_revised_FY2016,52771
+2017,FY2017_budget,2 of 16,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2017,40570
+2017,FY2017_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2015,-112528
+2017,FY2017_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2016,-148392
+2017,FY2017_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2016,-148392
+2017,FY2017_budget,2 of 16,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2017,-169860
+2017,FY2017_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2015,5288662
+2017,FY2017_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2016,5687570
+2017,FY2017_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_revised_FY2016,5687570
+2017,FY2017_budget,3 of 16,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2017,5865864
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,actual_FY2015,143556
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2016,187233
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_revised_FY2016,187233
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Contractual Expenses,budget_FY2017,174610
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,actual_FY2015,212550
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2016,240615
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_revised_FY2016,240615
+2017,FY2017_budget,3 of 16,General,subtotal,Police Department - Supplies Expense,budget_FY2017,212835
+2017,FY2017_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,actual_FY2015,5664268
+2017,FY2017_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2016,6152128
+2017,FY2017_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_revised_FY2016,6152128
+2017,FY2017_budget,3 of 16,General,dept_expenses,Total Police Department Expenses,budget_FY2017,6303554
+2017,FY2017_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2015,-4348274
+2017,FY2017_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2016,-4840271
+2017,FY2017_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_revised_FY2016,-4840271
+2017,FY2017_budget,3 of 16,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2017,-4971739
+2017,FY2017_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2015,-845811
+2017,FY2017_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2016,-923961
+2017,FY2017_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_revised_FY2016,-923961
+2017,FY2017_budget,3 of 16,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2017,-1034215
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2015,3400553
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2016,3488387
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_revised_FY2016,3488387
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2017,3606892
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,actual_FY2015,133093
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2016,126080
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_revised_FY2016,126080
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Contractual Expenses,budget_FY2017,133810
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,actual_FY2015,49105
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2016,46230
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_revised_FY2016,46230
+2017,FY2017_budget,4 of 16,General,subtotal,Fire Department - Supplies Expenses,budget_FY2017,43830
+2017,FY2017_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,actual_FY2015,3641305
+2017,FY2017_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2016,3711697
+2017,FY2017_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_revised_FY2016,3711697
+2017,FY2017_budget,4 of 16,General,dept_expenses,Total Fire Department Expenses,budget_FY2017,3835062
+2017,FY2017_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2015,-2712437
+2017,FY2017_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2016,-2943597
+2017,FY2017_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_revised_FY2016,-2943597
+2017,FY2017_budget,4 of 16,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2017,-2993170
+2017,FY2017_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2015,-45026
+2017,FY2017_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2016,-22874
+2017,FY2017_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_revised_FY2016,-22874
+2017,FY2017_budget,4 of 16,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2017,-27585
+2017,FY2017_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2015,220624
+2017,FY2017_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2016,237951
+2017,FY2017_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_revised_FY2016,237951
+2017,FY2017_budget,5 of 16,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2017,341242
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,actual_FY2015,59013
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2016,51550
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_revised_FY2016,51550
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Contractual Expenses,budget_FY2017,57250
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,actual_FY2015,6417
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2016,7925
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_revised_FY2016,7925
+2017,FY2017_budget,5 of 16,General,subtotal,Building Department - Supplies Expenses,budget_FY2017,10725
+2017,FY2017_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,actual_FY2015,286054
+2017,FY2017_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2016,297426
+2017,FY2017_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_revised_FY2016,297426
+2017,FY2017_budget,5 of 16,General,dept_expenses,Total Building Department Expenses,budget_FY2017,409217
+2017,FY2017_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2015,123964
+2017,FY2017_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2016,16297
+2017,FY2017_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_revised_FY2016,16297
+2017,FY2017_budget,5 of 16,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2017,-86099
+2017,FY2017_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2015,1956
+2017,FY2017_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2016,1400
+2017,FY2017_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_revised_FY2016,1400
+2017,FY2017_budget,5 of 16,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2017,1400
+2017,FY2017_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2015,779684
+2017,FY2017_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2016,848688
+2017,FY2017_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_revised_FY2016,848688
+2017,FY2017_budget,6 of 16,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2017,862173
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,actual_FY2015,378138
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2016,354500
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_revised_FY2016,354500
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Contractual Expenses,budget_FY2017,374500
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,actual_FY2015,200226
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2016,109500
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_revised_FY2016,109500
+2017,FY2017_budget,6 of 16,General,subtotal,Street Department - Supplies Expenses,budget_FY2017,111600
+2017,FY2017_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,actual_FY2015,1358048
+2017,FY2017_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2016,1312688
+2017,FY2017_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_revised_FY2016,1312688
+2017,FY2017_budget,6 of 16,General,dept_expenses,Total Street Department Expenses,budget_FY2017,1348273
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,actual_FY2015,-818109
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2016,-995888
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_revised_FY2016,-995888
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET DEPARTMENT,budget_FY2017,-1026473
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,actual_FY2015,-84777
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2016,-130000
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_revised_FY2016,-130000
+2017,FY2017_budget,6 of 16,General,dept_net,NET - STREET LIGHTING,budget_FY2017,-140000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2015,-15986
+2017,FY2017_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2016,-6000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_revised_FY2016,-6000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2017,-6000
+2017,FY2017_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,actual_FY2015,88381
+2017,FY2017_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2016,101000
+2017,FY2017_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_revised_FY2016,101000
+2017,FY2017_budget,7 of 16,General,dept_expenses,Forestry Department Expensess,budget_FY2017,101000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2015,-48418
+2017,FY2017_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2016,-61000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_revised_FY2016,-61000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2017,-61000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2015,-19783
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2016,-54900
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_revised_FY2016,-54900
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2017,-45900
+2017,FY2017_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2015,-24076
+2017,FY2017_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2016,-28000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_revised_FY2016,-28000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2017,-38000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2015,-173745
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2016,-159600
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_revised_FY2016,-159600
+2017,FY2017_budget,7 of 16,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2017,-146300
+2017,FY2017_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,actual_FY2015,5060
+2017,FY2017_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2016,700000
+2017,FY2017_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_revised_FY2016,1150000
+2017,FY2017_budget,7 of 16,General,dept_expenses,Utility Tax Expenses,budget_FY2017,1650000
+2017,FY2017_budget,7 of 16,General,dept_net,NET - UTILITY TAX,actual_FY2015,2266602
+2017,FY2017_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2016,1511830
+2017,FY2017_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_revised_FY2016,1061830
+2017,FY2017_budget,7 of 16,General,dept_net,NET - UTILITY TAX,budget_FY2017,528643
+2017,FY2017_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2015,15592995
+2017,FY2017_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2016,17342913
+2017,FY2017_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2016,17342913
+2017,FY2017_budget,7 of 16,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2017,18008633
+2017,FY2017_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2015,1200438
+2017,FY2017_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2016,103193
+2017,FY2017_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_revised_FY2016,103193
+2017,FY2017_budget,7 of 16,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2017,30795

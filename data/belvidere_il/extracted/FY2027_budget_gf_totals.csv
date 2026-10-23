@@ -1,0 +1,160 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2027,FY2027_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,actual_FY2025,19645388
+2027,FY2027_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,budget_FY2026,16866791
+2027,FY2027_budget,1 of 15,General,dept_revenues,Total General Administration Revenues,budget_FY2027,17129885
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,actual_FY2025,168714
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2026,175945
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2027,152181
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,actual_FY2025,403841
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2026,419745
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2027,434061
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2025,300397
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2026,300000
+2027,FY2027_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2027,300000
+2027,FY2027_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,actual_FY2025,2277485
+2027,FY2027_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2026,2388477
+2027,FY2027_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2027,2461479
+2027,FY2027_budget,4 of 15,General,dept_revenues,Total Fire Department Revenues,actual_FY2025,2866339
+2027,FY2027_budget,4 of 15,General,dept_revenues,Total Fire Department Revenues,budget_FY2026,2388090
+2027,FY2027_budget,4 of 15,General,dept_revenues,Total Fire Department Revenues,budget_FY2027,2576090
+2027,FY2027_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,actual_FY2025,619031
+2027,FY2027_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2026,542400
+2027,FY2027_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2027,538700
+2027,FY2027_budget,6 of 15,General,dept_revenues,Street Department - Revenues,actual_FY2025,590837
+2027,FY2027_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2026,344000
+2027,FY2027_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2027,424000
+2027,FY2027_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,actual_FY2025,78280
+2027,FY2027_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2026,66000
+2027,FY2027_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2027,80000
+2027,FY2027_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2025,28985559
+2027,FY2027_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2026,25227480
+2027,FY2027_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2027,25830395
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2025,776201
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2026,973081
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2027,1013246
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,actual_FY2025,79036
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2026,261912
+2027,FY2027_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2027,312000
+2027,FY2027_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,actual_FY2025,638537
+2027,FY2027_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2026,672300
+2027,FY2027_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2027,692850
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,actual_FY2025,4517826
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2026,3266434
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2027,12970130
+2027,FY2027_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,actual_FY2025,15127562
+2027,FY2027_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2026,13600357
+2027,FY2027_budget,2 of 15,General,dept_net,NET GENERAL ADMINISTRATION,budget_FY2027,4159755
+2027,FY2027_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2025,-29051
+2027,FY2027_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2026,-33210
+2027,FY2027_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2027,-38000
+2027,FY2027_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2025,76109
+2027,FY2027_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2026,60600
+2027,FY2027_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2027,35335
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,actual_FY2025,416540
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2026,452681
+2027,FY2027_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2027,454364
+2027,FY2027_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2025,-12699
+2027,FY2027_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2026,-32936
+2027,FY2027_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2027,-20303
+2027,FY2027_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2025,-200893
+2027,FY2027_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2026,-241000
+2027,FY2027_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2027,-268000
+2027,FY2027_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2025,6902739
+2027,FY2027_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2026,8534917
+2027,FY2027_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2027,8923642
+2027,FY2027_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,actual_FY2025,192575
+2027,FY2027_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2026,201080
+2027,FY2027_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2027,211130
+2027,FY2027_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,actual_FY2025,7845346
+2027,FY2027_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2026,9375887
+2027,FY2027_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2027,9954812
+2027,FY2027_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2025,-5567861
+2027,FY2027_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2026,-6987410
+2027,FY2027_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2027,-7493333
+2027,FY2027_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2025,-1180369
+2027,FY2027_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2026,-1307986
+2027,FY2027_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2027,-1310000
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2025,4645626
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2026,5151857
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2027,5422538
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Contractual Expenses,actual_FY2025,1892897
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Contractual Expenses,budget_FY2026,1994528
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Contractual Expenses,budget_FY2027,2178138
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Supplies Expenses,actual_FY2025,94262
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Supplies Expenses,budget_FY2026,90576
+2027,FY2027_budget,4 of 15,General,subtotal,Fire Department - Supplies Expenses,budget_FY2027,88976
+2027,FY2027_budget,4 of 15,General,dept_expenses,Total Fire Department Expenses,actual_FY2025,7299490
+2027,FY2027_budget,4 of 15,General,dept_expenses,Total Fire Department Expenses,budget_FY2026,7298961
+2027,FY2027_budget,4 of 15,General,dept_expenses,Total Fire Department Expenses,budget_FY2027,7757852
+2027,FY2027_budget,4 of 15,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2025,-4433151
+2027,FY2027_budget,4 of 15,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2026,-4910871
+2027,FY2027_budget,4 of 15,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2027,-5181762
+2027,FY2027_budget,4 of 15,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2025,-50650
+2027,FY2027_budget,4 of 15,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2026,-33000
+2027,FY2027_budget,4 of 15,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2027,-19000
+2027,FY2027_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2025,358643
+2027,FY2027_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2026,415309
+2027,FY2027_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2027,435401
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,actual_FY2025,58794
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2026,66476
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2027,72106
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,actual_FY2025,33258
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2026,25700
+2027,FY2027_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2027,23500
+2027,FY2027_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,actual_FY2025,450695
+2027,FY2027_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2026,507485
+2027,FY2027_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2027,531007
+2027,FY2027_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2025,168336
+2027,FY2027_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2026,34915
+2027,FY2027_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2027,7693
+2027,FY2027_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2025,731
+2027,FY2027_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2026,-211
+2027,FY2027_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2027,-500
+2027,FY2027_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2025,1078774
+2027,FY2027_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2026,1155848
+2027,FY2027_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2027,1205802
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,actual_FY2025,906099
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2026,394400
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2027,420172
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,actual_FY2025,130347
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2026,123700
+2027,FY2027_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2027,135886
+2027,FY2027_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,actual_FY2025,2115220
+2027,FY2027_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2026,1673948
+2027,FY2027_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2027,1761860
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,actual_FY2025,-1524383
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2026,-1329948
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2027,-1337860
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,actual_FY2025,-120415
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2026,-91800
+2027,FY2027_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2027,-162009
+2027,FY2027_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2025,-4233
+2027,FY2027_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2026,-6000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2027,15000
+2027,FY2027_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,actual_FY2025,130211
+2027,FY2027_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2026,91000
+2027,FY2027_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2027,100000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2025,-51931
+2027,FY2027_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2026,-25000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2027,-20000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2025,-18480
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2026,-45800
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2027,-66565
+2027,FY2027_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2025,-4346
+2027,FY2027_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2026,-2000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2027,-2000
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2025,-59088
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2026,-97733
+2027,FY2027_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2027,-78278
+2027,FY2027_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,actual_FY2025,0
+2027,FY2027_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2026,0
+2027,FY2027_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2027,0
+2027,FY2027_budget,7 of 15,General,dept_net,NET - UTILITY TAX,actual_FY2025,1747809
+2027,FY2027_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2026,1449033
+2027,FY2027_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2027,1447000
+2027,FY2027_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2025,25122562
+2027,FY2027_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2026,25227480
+2027,FY2027_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2027,36163222
+2027,FY2027_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2025,3862997
+2027,FY2027_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2026,0
+2027,FY2027_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2027,-10332827

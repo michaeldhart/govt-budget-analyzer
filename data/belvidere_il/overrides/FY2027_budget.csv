@@ -1,3 +1,6 @@
 kind,page_label,key,column,value,note
 allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2026,-1,printed 25227480 (same as the FY2026 document); the city's line items sum to 25227481
 allow_diff,7 of 15,TOTAL GENERAL FUND REVENUES,budget_FY2027,-1,printed 25830395 (matches CLAUDE.md); the city's line items sum to 25830396 (not re-checked on the image; same $1 pattern as FY2024-FY2026)
+row,3 of 15,01-5-210-5122,,1834801|2007755|2098985,OCR read Police Pension FY25 actual as 41834801; page image (pdf p7) shows 1834801
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2026,-1,printed 25227480 (equals printed revenues; balanced budget); the city's expense line items sum to 25227481
+allow_diff,7 of 15,TOTAL GENERAL FUND EXPENSES,budget_FY2027,-1,printed 36163222; the city's expense line items sum to 36163223 (same $1 pattern as the revenue total)

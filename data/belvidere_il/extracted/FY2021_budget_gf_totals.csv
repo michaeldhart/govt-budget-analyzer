@@ -1,0 +1,221 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2021,FY2021_budget,1 of 15,General,dept_revenues,Total General! Administration Revenues,actual_FY2019,11295039
+2021,FY2021_budget,1 of 15,General,dept_revenues,Total General! Administration Revenues,budget_FY2020,12687096
+2021,FY2021_budget,1 of 15,General,dept_revenues,Total General! Administration Revenues,budget_revised_FY2020,12687096
+2021,FY2021_budget,1 of 15,General,dept_revenues,Total General! Administration Revenues,budget_FY2021,13953070
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,actual_FY2019,185939
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2020,181394
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_revised_FY2020,181394
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total IMRF Revenues,budget_FY2021,184277
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,actual_FY2019,367131
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2020,368322
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_revised_FY2020,368322
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Soc Security Revenues,budget_FY2021,377897
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,actual_FY2019,300708
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2020,300000
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_revised_FY2020,300000
+2021,FY2021_budget,2 of 15,General,dept_revenues,Total Liability Insurance Revenues,budget_FY2021,300000
+2021,FY2021_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,actual_FY2019,1414931
+2021,FY2021_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2020,1445664
+2021,FY2021_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_revised_FY2020,1445664
+2021,FY2021_budget,3 of 15,General,dept_revenues,Total Police Department Revenues,budget_FY2021,1432063
+2021,FY2021_budget,pdf25,General,dept_revenues,Total Fire Department Revenues,actual_FY2019,1045844
+2021,FY2021_budget,pdf25,General,dept_revenues,Total Fire Department Revenues,budget_FY2020,1046132
+2021,FY2021_budget,pdf25,General,dept_revenues,Total Fire Department Revenues,budget_revised_FY2020,1046132
+2021,FY2021_budget,pdf25,General,dept_revenues,Total Fire Department Revenues,budget_FY2021,1046132
+2021,FY2021_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,actual_FY2019,204755
+2021,FY2021_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2020,263472
+2021,FY2021_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_revised_FY2020,263472
+2021,FY2021_budget,5 of 15,General,dept_revenues,Community Dev - Revenues,budget_FY2021,239864
+2021,FY2021_budget,6 of 15,General,dept_revenues,Street Department - Revenues,actual_FY2019,446165
+2021,FY2021_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2020,335000
+2021,FY2021_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_revised_FY2020,335000
+2021,FY2021_budget,6 of 15,General,dept_revenues,Street Department - Revenues,budget_FY2021,333000
+2021,FY2021_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,actual_FY2019,40119
+2021,FY2021_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2020,40000
+2021,FY2021_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_revised_FY2020,40000
+2021,FY2021_budget,7 of 15,General,dept_revenues,Forestry Department Revenues,budget_FY2021,40000
+2021,FY2021_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,actual_FY2019,17924014
+2021,FY2021_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2020,18962033
+2021,FY2021_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_revised_FY2020,18962033
+2021,FY2021_budget,7 of 15,General,fund_revenues,TOTAL GENERAL FUND REVENUES,budget_FY2021,20128567
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,actual_FY2019,815630
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2020,887270
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_revised_FY2020,887270
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Personnel & Benefit Expenses,budget_FY2021,898029
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,actual_FY2019,142117
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2020,117850
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_revised_FY2020,117850
+2021,FY2021_budget,1 of 15,General,subtotal,Gen Admin Contractual Expenses,budget_FY2021,178020
+2021,FY2021_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,actual_FY2019,242558
+2021,FY2021_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2020,246443
+2021,FY2021_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_revised_FY2020,246443
+2021,FY2021_budget,2 of 15,General,subtotal,Gen Admin Supplies Expenses,budget_FY2021,298000
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,actual_FY2019,2030145
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2020,3108939
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_revised_FY2020,3108939
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total General Administration Expenses,budget_FY2021,3706211
+2021,FY2021_budget,2 of 15,General,dept_net,"NET GENERAL ADMINISTRATION $,264,894",actual_FY2019,9264894
+2021,FY2021_budget,2 of 15,General,dept_net,"NET GENERAL ADMINISTRATION $,264,894",budget_FY2020,9578157
+2021,FY2021_budget,2 of 15,General,dept_net,"NET GENERAL ADMINISTRATION $,264,894",budget_revised_FY2020,9578157
+2021,FY2021_budget,2 of 15,General,dept_net,"NET GENERAL ADMINISTRATION $,264,894",budget_FY2021,10246859
+2021,FY2021_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,actual_FY2019,-10928
+2021,FY2021_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2020,-16500
+2021,FY2021_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_revised_FY2020,-16500
+2021,FY2021_budget,2 of 15,General,dept_net,NET - AUDIT DEPARTMENT,budget_FY2021,-17500
+2021,FY2021_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,actual_FY2019,19975
+2021,FY2021_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2020,31498
+2021,FY2021_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_revised_FY2020,31498
+2021,FY2021_budget,2 of 15,General,dept_net,NET - IMRF DEPARTMENT,budget_FY2021,7009
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,actual_FY2019,345557
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2020,368003
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_revised_FY2020,368003
+2021,FY2021_budget,2 of 15,General,dept_expenses,Total Soc Security Expenses,budget_FY2021,391213
+2021,FY2021_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,actual_FY2019,21574
+2021,FY2021_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2020,319
+2021,FY2021_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_revised_FY2020,319
+2021,FY2021_budget,2 of 15,General,dept_net,NET - SOCIAL SECURITY DEPT,budget_FY2021,-13316
+2021,FY2021_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,actual_FY2019,-156694
+2021,FY2021_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2020,-180375
+2021,FY2021_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2020,-180375
+2021,FY2021_budget,2 of 15,General,dept_net,NET - LIABILITY INSURANCE DEPT,budget_FY2021,-180375
+2021,FY2021_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,actual_FY2019,5958875
+2021,FY2021_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2020,6466604
+2021,FY2021_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_revised_FY2020,6466604
+2021,FY2021_budget,3 of 15,General,subtotal,Police Dept Personnel & Benefit Expenses,budget_FY2021,6742113
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,actual_FY2019,151418
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2020,200785
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_revised_FY2020,200785
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Contractual Expenses,budget_FY2021,218015
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,actual_FY2019,136888
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_FY2020,205115
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_revised_FY2020,205115
+2021,FY2021_budget,3 of 15,General,subtotal,Police Department - Supplies Expense,budget_FY2021,198075
+2021,FY2021_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,actual_FY2019,6292938
+2021,FY2021_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2020,6942204
+2021,FY2021_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_revised_FY2020,6942204
+2021,FY2021_budget,3 of 15,General,dept_expenses,Total Police Department Expenses,budget_FY2021,7224853
+2021,FY2021_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,actual_FY2019,-4878007
+2021,FY2021_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2020,-5496540
+2021,FY2021_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_revised_FY2020,-5496540
+2021,FY2021_budget,3 of 15,General,dept_net,NET - POLICE DEPARTMENT,budget_FY2021,-5792790
+2021,FY2021_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,actual_FY2019,-1139483
+2021,FY2021_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2020,-1113295
+2021,FY2021_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_revised_FY2020,-1113295
+2021,FY2021_budget,3 of 15,General,dept_net,NET - PUBLIC SAFETY BLDG DEPT,budget_FY2021,-1149074
+2021,FY2021_budget,pdf25,General,subtotal,Fire Depart Personnel & Benefits Expenses,actual_FY2019,3859914
+2021,FY2021_budget,pdf25,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2020,4053276
+2021,FY2021_budget,pdf25,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_revised_FY2020,4053276
+2021,FY2021_budget,pdf25,General,subtotal,Fire Depart Personnel & Benefits Expenses,budget_FY2021,4261036
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Contractual Expenses,actual_FY2019,86658
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Contractual Expenses,budget_FY2020,148940
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Contractual Expenses,budget_revised_FY2020,148940
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Contractual Expenses,budget_FY2021,148440
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Supplies Expenses,actual_FY2019,39799
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Supplies Expenses,budget_FY2020,43100
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Supplies Expenses,budget_revised_FY2020,43100
+2021,FY2021_budget,pdf25,General,subtotal,Fire Department - Supplies Expenses,budget_FY2021,46300
+2021,FY2021_budget,pdf25,General,dept_expenses,Total Fire Department Expenses,actual_FY2019,4016420
+2021,FY2021_budget,pdf25,General,dept_expenses,Total Fire Department Expenses,budget_FY2020,4270316
+2021,FY2021_budget,pdf25,General,dept_expenses,Total Fire Department Expenses,budget_revised_FY2020,4270316
+2021,FY2021_budget,pdf25,General,dept_expenses,Total Fire Department Expenses,budget_FY2021,4480776
+2021,FY2021_budget,pdf25,General,dept_net,NET - FIRE DEPARTMENT,actual_FY2019,-2970576
+2021,FY2021_budget,pdf25,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2020,-3224184
+2021,FY2021_budget,pdf25,General,dept_net,NET - FIRE DEPARTMENT,budget_revised_FY2020,-3224184
+2021,FY2021_budget,pdf25,General,dept_net,NET - FIRE DEPARTMENT,budget_FY2021,-3434644
+2021,FY2021_budget,pdf25,General,dept_net,NET - POLICE & FIRE COMMISSION,actual_FY2019,-13549
+2021,FY2021_budget,pdf25,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2020,-26515
+2021,FY2021_budget,pdf25,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_revised_FY2020,-26515
+2021,FY2021_budget,pdf25,General,dept_net,NET - POLICE & FIRE COMMISSION,budget_FY2021,-26515
+2021,FY2021_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,actual_FY2019,382038
+2021,FY2021_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2020,395414
+2021,FY2021_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_revised_FY2020,395414
+2021,FY2021_budget,5 of 15,General,subtotal,Building Dept Personnel & Benefits Expense,budget_FY2021,398777
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,actual_FY2019,65502
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2020,62575
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_revised_FY2020,62575
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Contractual Expenses,budget_FY2021,68970
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,actual_FY2019,7592
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2020,10250
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_revised_FY2020,10250
+2021,FY2021_budget,5 of 15,General,subtotal,Building Department - Supplies Expenses,budget_FY2021,10750
+2021,FY2021_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,actual_FY2019,455133
+2021,FY2021_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2020,468239
+2021,FY2021_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_revised_FY2020,468239
+2021,FY2021_budget,5 of 15,General,dept_expenses,Total Building Department Expenses,budget_FY2021,478497
+2021,FY2021_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,actual_FY2019,-250378
+2021,FY2021_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2020,-204767
+2021,FY2021_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_revised_FY2020,-204767
+2021,FY2021_budget,5 of 15,General,dept_net,NET - BUILDING DEPARTMENT,budget_FY2021,-238633
+2021,FY2021_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,actual_FY2019,1754
+2021,FY2021_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2020,0
+2021,FY2021_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_revised_FY2020,0
+2021,FY2021_budget,5 of 15,General,dept_net,NET - CIVIL DEFENSE DEPARTMENT,budget_FY2021,0
+2021,FY2021_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,actual_FY2019,795875
+2021,FY2021_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2020,909951
+2021,FY2021_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_revised_FY2020,909951
+2021,FY2021_budget,6 of 15,General,subtotal,Street Dept - Personnel & Benefits Expenses,budget_FY2021,958096
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,actual_FY2019,374164
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2020,333700
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_revised_FY2020,333700
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Contractual Expenses,budget_FY2021,337500
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,actual_FY2019,112722
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2020,108000
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_revised_FY2020,108000
+2021,FY2021_budget,6 of 15,General,subtotal,Street Department - Supplies Expenses,budget_FY2021,113000
+2021,FY2021_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,actual_FY2019,1282761
+2021,FY2021_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2020,1351651
+2021,FY2021_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_revised_FY2020,1351651
+2021,FY2021_budget,6 of 15,General,dept_expenses,Total Street Department Expenses,budget_FY2021,1408596
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,actual_FY2019,-836596
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2020,-1016651
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_revised_FY2020,-1016651
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET DEPARTMENT,budget_FY2021,-1075596
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,actual_FY2019,-87281
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2020,-70000
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_revised_FY2020,-70000
+2021,FY2021_budget,6 of 15,General,dept_net,NET - STREET LIGHTING,budget_FY2021,-50000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,actual_FY2019,-2481
+2021,FY2021_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2020,-4000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_revised_FY2020,-4000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - GARBAGE DEPARTMENT,budget_FY2021,-4000
+2021,FY2021_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,actual_FY2019,43870
+2021,FY2021_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2020,50000
+2021,FY2021_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_revised_FY2020,50000
+2021,FY2021_budget,7 of 15,General,dept_expenses,Forestry Department Expensess,budget_FY2021,40000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,actual_FY2019,-3751
+2021,FY2021_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2020,-10000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_revised_FY2020,-10000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - FORESTRY DEPARTMENT,budget_FY2021,0
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,actual_FY2019,-17111
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2020,-44600
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_revised_FY2020,-44600
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ENGINEERING DEPARTMENT,budget_FY2021,-44600
+2021,FY2021_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,actual_FY2019,-24630
+2021,FY2021_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2020,-23000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_revised_FY2020,-23000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - HEALTH / SOCIAL SERVICES,budget_FY2021,-23000
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,actual_FY2019,-114954
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2020,-157300
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_revised_FY2020,-157300
+2021,FY2021_budget,7 of 15,General,dept_net,NET - ECONOMIC DEVELOPMENT,budget_FY2021,-128500
+2021,FY2021_budget,7 of 15,General,dept_net,STROLLS NET,actual_FY2019,0
+2021,FY2021_budget,7 of 15,General,dept_net,STROLLS NET,budget_FY2020,0
+2021,FY2021_budget,7 of 15,General,dept_net,STROLLS NET,budget_revised_FY2020,0
+2021,FY2021_budget,7 of 15,General,dept_net,STROLLS NET,budget_FY2021,-5050
+2021,FY2021_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,actual_FY2019,625224
+2021,FY2021_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2020,0
+2021,FY2021_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_revised_FY2020,0
+2021,FY2021_budget,7 of 15,General,dept_expenses,Utility Tax Expenses,budget_FY2021,0
+2021,FY2021_budget,7 of 15,General,dept_net,NET - UTILITY TAX,actual_FY2019,1710450
+2021,FY2021_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2020,2007953
+2021,FY2021_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_revised_FY2020,2007953
+2021,FY2021_budget,7 of 15,General,dept_net,NET - UTILITY TAX,budget_FY2021,1935264
+2021,FY2021_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,actual_FY2019,17411787
+2021,FY2021_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2020,18931832
+2021,FY2021_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_revised_FY2020,18931833
+2021,FY2021_budget,7 of 15,General,fund_expenses,TOTAL GENERAL FUND EXPENSES,budget_FY2021,20123028
+2021,FY2021_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,actual_FY2019,512226
+2021,FY2021_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2020,30200
+2021,FY2021_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_revised_FY2020,30200
+2021,FY2021_budget,7 of 15,General,fund_net,NET REV OVER (UNDER) EXP,budget_FY2021,5540
