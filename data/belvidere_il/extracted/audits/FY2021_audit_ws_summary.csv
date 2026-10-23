@@ -1,0 +1,33 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2021,FY2021_audit,135,Operating Revenues,Water sales,2019518,2019518,1946724
+2021,FY2021_audit,135,Operating Revenues,Sewer charges,3243413,3243413,2903080
+2021,FY2021_audit,135,Operating Revenues,Water connection fees,20000,20000,17883
+2021,FY2021_audit,135,Operating Revenues,Sewer connection fees,24000,24000,44100
+2021,FY2021_audit,135,Operating Revenues,Water meter sales,90000,90000,93423
+2021,FY2021_audit,135,Operating Revenues,Sewer meter sales,90000,90000,85106
+2021,FY2021_audit,135,Operating Revenues,Other,5000,5000,13389
+2021,FY2021_audit,135,Operating Revenues,Total operating revenues,5491931,5491931,5103705
+2021,FY2021_audit,135,Operating Expenses Excluding Depreciation,Water,1844577,1844577,1917203
+2021,FY2021_audit,135,Operating Expenses Excluding Depreciation,Sewer,1968855,1968855,2746511
+2021,FY2021_audit,135,Operating Expenses Excluding Depreciation,Collection system,751325,751325,661695
+2021,FY2021_audit,135,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4564757,4564757,5325409
+2021,FY2021_audit,135,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),927174,927174,-221704
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Investment income,3350,3350,32806
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Grants,0,0,9852
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Insurance recoveries,0,0,58555
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Principal payments,-106233,-106233,-106233
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Interest and fiscal charges,-17519,-17519,-16855
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-120402,-120402,-21875
+2021,FY2021_audit,135,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE TRANFERS,806772,806772,-243579
+2021,FY2021_audit,135,Transfers,Transfers In,52500,52500,144055
+2021,FY2021_audit,135,Transfers,Total Transfers,52500,52500,144055
+2021,FY2021_audit,135,Transfers,CHANGE IN NET POSITION - BUDGETARY BASIS,859272,859272,-99524
+2021,FY2021_audit,135,Adjustments To Gaap Basis,Additions to capital assets,,,1053031
+2021,FY2021_audit,135,Adjustments To Gaap Basis,Pension items,,,501172
+2021,FY2021_audit,135,Adjustments To Gaap Basis,OPEB items,,,-47650
+2021,FY2021_audit,135,Adjustments To Gaap Basis,Depreciation and amortization,,,-1854483
+2021,FY2021_audit,135,Adjustments To Gaap Basis,Principal payments,,,106233
+2021,FY2021_audit,135,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,-241697
+2021,FY2021_audit,135,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,-341221
+2021,FY2021_audit,135,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,42658073
+2021,FY2021_audit,135,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,42316852

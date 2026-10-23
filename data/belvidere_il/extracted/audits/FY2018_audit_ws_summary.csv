@@ -1,0 +1,26 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2018,FY2018_audit,129,Operating Revenues,Water sales,2363702,2143711,2148979
+2018,FY2018_audit,129,Operating Revenues,Sewer charges,3275147,3349266,3358994
+2018,FY2018_audit,129,Operating Revenues,Water connection fees,24000,47382,47382
+2018,FY2018_audit,129,Operating Revenues,Sewer connection fees,28800,91511,91511
+2018,FY2018_audit,129,Operating Revenues,Water meter sales,88702,93455,93455
+2018,FY2018_audit,129,Operating Revenues,Sewer meter sales,88702,92004,92004
+2018,FY2018_audit,129,Operating Revenues,Other,45500,203989,204014
+2018,FY2018_audit,129,Operating Revenues,Total operating revenues,5914553,6021318,6036339
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,Water,1929926,1907227,2701375
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,Sewer,1896216,1835718,3316434
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,Collection system,639101,607954,581276
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4465243,4350899,6599085
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,DEPRECIATION,781772,781316,1543765
+2018,FY2018_audit,129,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),667538,889103,-2106511
+2018,FY2018_audit,129,Non-Operating Revenues (Expenses),Investment income,37500,57634,57635
+2018,FY2018_audit,129,Non-Operating Revenues (Expenses),Principal payments,-502335,-502335,-502335
+2018,FY2018_audit,129,Non-Operating Revenues (Expenses),Interest and fiscal charges,-44257,-44257,-41617
+2018,FY2018_audit,129,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-509092,-488958,-486317
+2018,FY2018_audit,129,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,158446,400145,-2592828
+2018,FY2018_audit,129,Adjustments To Gaap Basis,Additions to capital assets,,,2284638
+2018,FY2018_audit,129,Adjustments To Gaap Basis,Principal payments,,,502335
+2018,FY2018_audit,129,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,2786973
+2018,FY2018_audit,129,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,194145
+2018,FY2018_audit,129,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,44844131
+2018,FY2018_audit,129,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,45038276

@@ -21,8 +21,9 @@ def validate_config(E):
             errs.append(f"account_map.csv: {key}: category_id {r['category_id']!r} is not an {scheme} category (flow {flow})")
         if (flow == "expense") != (r["treatment"] == "expense"):
             errs.append(f"account_map.csv: {key}: treatment {r['treatment']!r} does not fit flow {flow!r}")
-        if key.split("-")[0] not in E.departments():
-            errs.append(f"account_map.csv: {key}: department code not in departments.csv")
+        fund, rest = E.split_key(key)
+        if rest.split("-")[0] not in E.departments(fund):
+            errs.append(f"account_map.csv: {key}: department code not in departments.csv for fund {fund}")
     rg = {c["name"] for c in E.categories("report_group")}
     groups = {g["comparable_group"]: g for g in E.table("comparable_groups.csv")}
     amap = E.account_map()
@@ -39,7 +40,7 @@ def validate_config(E):
     for r in E.table("audit_expenditure_map.csv"):
         exp_groups.add(r["department_group"])
         for d in filter(None, r["budget_dept_codes"].split("|")):
-            if d not in E.departments():
+            if d not in E.departments(r.get("fund_code") or "01"):
                 errs.append(f"audit_expenditure_map.csv: {r['department_group']}: dept code {d!r} not in departments.csv")
     ids = set()
     for x in E.exceptions():

@@ -1,6 +1,6 @@
 """Extract the General Fund "Schedule of Detailed Expenditures - Budget and Actual" from a Belvidere audit PDF.
 
-Usage: python3 pipelines/belvidere_il/extract_audit_expenditures.py FY2020 [--prep auto|text|gray]
+Usage: python3 pipelines/belvidere_il/extract_audit_expenditures.py FY2020 [--prep auto|text|gray] [--schedule gf|ws]
 
 The schedule lists every General Fund expenditure line with Original Budget, Final Budget and audited Actual, grouped
 function -> department -> category (Personnel services, Contractual services, Commodities, Capital outlay), with a printed
@@ -31,7 +31,16 @@ from extract_audit import (COLS, DATA_E, ROOT, audit_pdf, clean, page_texts_for_
                            split_numbers)
 from extract_budget import digit_variants, ocr_page  # noqa: E402
 
-TITLE = re.compile(r"SCHEDULE OF (DETAILED )?EXPENDITURES", re.I)
+# Which schedule to read: the General Fund expenditure schedule (default) or the Water and Sewer Fund schedule of operating expenses,
+# which has the same shape (group > category > line, a printed total at every level, a grand total at the end). `--schedule ws`.
+SCHEDULES = {
+    "gf": dict(title=re.compile(r"SCHEDULE OF (DETAILED )?EXPENDITURES", re.I), fund="GENERAL FUND", grand=r"total\s+expenditures?",
+               out="gf_expenditure", overrides="audit_expenditure", fixed_pages={2012: (96, 100)}),
+    "ws": dict(title=re.compile(r"SCHEDULE OF OPERATING EXPENSES", re.I), fund="WATER", grand=r"total\s+operating\s+expenses(\s+excluding\s+depreciation)?",
+               out="ws_operating_expense", overrides="audit_ws_expense", fixed_pages={}),
+}
+S = SCHEDULES["gf"]
+TITLE = S["title"]
 CATEGORY = re.compile(r"(?i)^(personnel services|contractual services|commodities|capital outlay|debt service)$")
 # Group names the schedule uses (functions, departments, categories). A line with no numbers that is NOT one of these is a line item
 # whose three cells are all blank, e.g. "Unemployment Compensation", and counts as zeros; a new, unseen group name would then fail
@@ -41,31 +50,31 @@ KNOWN_GROUPS = {
     "general", "audit", "social security", "police department", "public safety building", "fire department", "police and fire commissions",
     "police and fire commission", "building department", "civil defense", "street department", "street lighting", "garbage", "forestry",
     "city engineering", "health regulations and inspections", "economic development", "public works", "capital projects",
+    "water", "sewer", "collection system",  # Water and Sewer Fund departments
 }
 FURNITURE = re.compile(r"(?i)^((19|20)\d\d(\s+(19|20)\d\d)*$|variance|positive|city of belvidere|schedule of|general fund$|for the year ended|year ended|"
                        r"original\b|budget\b|\(?this schedule is continued|\(?see independent|- ?\d+ ?-?$|\d+$|with comparative|for the fiscal year|for the year|"
                        r"final\b|actual\b|\(negative\))")
 
 
-FIXED_PAGES = {2012: (96, 100)}  # scanned audit whose heading OCR is unreliable: pages found by eye (heading page is 96 = "GENERAL GOVERNMENT")
 
 
 def locate(fy):
     """(first, last) 1-based pdf pages of the detailed General Fund expenditure schedule."""
-    if int(fy) in FIXED_PAGES:
-        return FIXED_PAGES[int(fy)]
+    if int(fy) in S["fixed_pages"]:  # scanned audit whose heading OCR is unreliable: pages found by eye
+        return S["fixed_pages"][int(fy)]
     texts = page_texts_for_locating(fy)
     start = None
     for i, t in enumerate(texts, 1):
         head = t[:700]
-        if TITLE.search(head) and "GENERAL FUND" in head.upper() and "CONTINUED" not in head.upper() \
+        if S["title"].search(head) and S["fund"] in head.upper() and "CONTINUED" not in head.upper() \
                 and "TABLE OF CONTENTS" not in t.upper() and "PAGE NO" not in t.upper() and len(re.findall(r"\d{1,3},\d{3}", t)) > 15:
             start = i
             break
     if start is None:
         raise SystemExit(f"FY{fy}: expenditure schedule start page not found")
     for j in range(start, min(start + 9, len(texts)) + 1):
-        if re.search(r"TOTAL\s+EXPENDITURES", texts[j - 1], re.I):
+        if re.search(S["grand"].replace("\\s+", r"\s+"), texts[j - 1], re.I):
             return start, j
     raise SystemExit(f"FY{fy}: TOTAL EXPENDITURES page not found after page {start}")
 
@@ -86,10 +95,16 @@ def norm(name):
     return re.sub(r"\s+", " ", n).strip().rstrip("s")
 
 
+SPLIT_DIGITS = False  # set per run: only the text layer splits numbers after their first digit; in OCR text ("2 87,158": a variance then a number) it would merge two columns
+
+
 def tidy(line):
     """Module-level cleanups on top of extract_audit.clean: a digit split off by OCR ("704,63 1"), a lone punctuation mark
     standing for a blank/zero cell (". :"), and runs of spaces (so overrides keyed on a line match)."""
     line = re.sub(r"(\d,\d{2}) (\d)(?= |$)", r"\1\2", line)
+    for _ in range(2 if SPLIT_DIGITS else 0):  # the text layer of some years splits a number after its first digit: "1 4,000", "6 ,620"
+        line = re.sub(r"(?<![\d,.])(\d) (?=,\d{3}\b)", r"\1", line)
+        line = re.sub(r"(?<![\d,.])(\d) (?=\d{1,2},\d{3}\b)", r"\1", line)
     line = re.sub(r"(?<=[\d-]) [:.·;~](?= |$)", " -", line)  # a lone mark after a number or dash stands for a blank cell
     line = re.sub(r"(?i)\s*\bOriginal Final\b|\s*\bBudget Budget Actual( \(Negative\))?( Actual)?\s*$|\s*\bPositive\s*$", "", line)  # FY2012 column headers glued to a heading
     return re.sub(r"\s+", " ", line).strip()
@@ -149,13 +164,16 @@ def parse(pages, fixline=None):
             if not line or FURNITURE.match(line) or sum(ch not in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ,.()/&'-:" for ch in line) > 3:
                 continue
             label, vals = split_numbers(line)
+            if SPLIT_DIGITS and len(vals) == 4 and 0 <= vals[1] < 10 and 10 <= vals[2] < 100 and vals[1] != 0:
+                # a two-digit tail split off a three-digit number by the text layer ("3 92" for 392); the group totals still decide
+                vals = [vals[0], int(f"{vals[1]}{vals[2]}"), vals[3]]
             if len(vals) >= 5:  # FY2012 layout: original, final, actual, variance, prior-year actual (a split number makes it 6)
                 vals = vals[:3]
             if pending and vals and not re.match(r"(?i)^total\b", label):
                 label, pending = f"{pending} {label}".strip(), None
             elif pending:
                 pending = None
-            if not vals and re.match(r"(?i)^tota[l!1|]\s+\w+", label) and not re.match(r"(?i)^total\s+expenditures?$", label):
+            if not vals and re.match(r"(?i)^tota[l!1|]\s+\w+", label):
                 pending = label  # wrapped total label: the numbers are on the next line
                 continue
             if grand is not None:
@@ -181,7 +199,7 @@ def parse(pages, fixline=None):
                     stack[-1]["items"].extend(dead["items"])
                 stack.append(dict(name=name, items=[], children=[], depth=len(stack), total=None))
                 continue
-            if re.match(r"(?i)^total\s+expenditures?$", label):
+            if re.match(r"(?i)^" + S["grand"] + "$", label):
                 grand = vals
                 continue
             m = re.match(r"(?i)^tota[l!1|]\s+(.*)$", label)
@@ -321,7 +339,7 @@ def validate(items, closed, grand, overrides):
 
 def load_overrides(fy):
     ov = dict(row={}, total={}, allow={}, fixline={})
-    path = os.path.join(DATA_E, "overrides", f"audit_expenditure_FY{fy}.csv")
+    path = os.path.join(DATA_E, "overrides", f"{S['overrides']}_FY{fy}.csv")
     if os.path.exists(path):
         for o in csv.DictReader(open(path)):
             if o["kind"] == "row":
@@ -336,6 +354,8 @@ def load_overrides(fy):
 
 
 def run(fy, prep):
+    global SPLIT_DIGITS
+    SPLIT_DIGITS = prep == "text"
     first, last = locate(fy)
     ov = load_overrides(fy)
     pages = get_pages(fy, prep, first, last)
@@ -348,6 +368,9 @@ def run(fy, prep):
 
 
 def main():
+    global S
+    if "--schedule" in sys.argv:
+        S = SCHEDULES[sys.argv[sys.argv.index("--schedule") + 1]]
     fy = sys.argv[1].replace("FY", "")
     arg = sys.argv[sys.argv.index("--prep") + 1] if "--prep" in sys.argv else "auto"
     results = []
@@ -356,7 +379,7 @@ def main():
         results.append(r)
         print(f"prep {p}: {len(r['problems'])} problems, {len(r['items'])} lines (pdf pages {r['first']}-{r['last']})")
     res = min(results, key=lambda r: (not r["items"], len(r["problems"])))
-    out = os.path.join(DATA_E, "extracted", "audits", f"FY{fy}_audit_gf_expenditure.csv")
+    out = os.path.join(DATA_E, "extracted", "audits", f"FY{fy}_audit_{S['out']}.csv")
     with open(out, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["fiscal_year", "doc", "pdf_page", "function", "department", "category", "line_item", "original_budget", "final_budget", "actual", "flag"])

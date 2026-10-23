@@ -47,7 +47,7 @@ def main():
                 cats[k][cat] += int(r["amount"])
     sched_rev, sched_exp = defaultdict(int), defaultdict(int)
     for f in read_csv(E.data_path("facts.csv")):
-        if f["source_type"] == "audit" and f["basis"] == "actual_audited" and f["source_column"] == "actual":
+        if f["source_type"] == "audit" and f["basis"] == "actual_audited" and f["source_column"] == "actual" and f["fund_code"] == "01":
             (sched_rev if f["flow"] == "revenue" else sched_exp)[int(f["period_fy"])] += int(f["amount"])
     out = []
     for (fy, fund), v in sorted(st.items()):

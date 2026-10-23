@@ -1,0 +1,30 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2025,FY2025_audit,142,Operating Revenues,Water sales,1919032,1919032,2177841
+2025,FY2025_audit,142,Operating Revenues,Sewer charges,2856240,2856240,3402744
+2025,FY2025_audit,142,Operating Revenues,Water connection fees,35000,35000,139077
+2025,FY2025_audit,142,Operating Revenues,Sewer connection fees,65000,65000,248876
+2025,FY2025_audit,142,Operating Revenues,Water meter sales,94000,94000,109429
+2025,FY2025_audit,142,Operating Revenues,Sewer meter sales,94000,94000,110620
+2025,FY2025_audit,142,Operating Revenues,Other,24000,24000,766710
+2025,FY2025_audit,142,Operating Revenues,Total operating revenues,5087272,5087272,6955297
+2025,FY2025_audit,142,Operating Expenses Excluding Depreciation,Water,2029965,2029965,3819843
+2025,FY2025_audit,142,Operating Expenses Excluding Depreciation,Sewer,2104814,2104814,4087638
+2025,FY2025_audit,142,Operating Expenses Excluding Depreciation,Collection system,783862,783862,766233
+2025,FY2025_audit,142,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4918641,4918641,8673714
+2025,FY2025_audit,142,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),168631,168631,-1718417
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),Investment income,35500,35500,171843
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),Principal payments,-111662,-111662,-187627
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),Interest and fiscal charges,-12090,-12090,-40096
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-88252,-88252,-55880
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE CAPITAL GRANTS AND CONTRIBUTIONS,80379,80379,-1774297
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),CAPITAL GRANTS AND CONTRIBUTIONS,0,0,1316950
+2025,FY2025_audit,142,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,-80379,-80379,-457347
+2025,FY2025_audit,142,Adjustments To Gaap Basis,Additions to capital assets,,,3073545
+2025,FY2025_audit,142,Adjustments To Gaap Basis,Pension items,,,-161741
+2025,FY2025_audit,142,Adjustments To Gaap Basis,OPEB items,,,-40065
+2025,FY2025_audit,142,Adjustments To Gaap Basis,Depreciation,,,-2258776
+2025,FY2025_audit,142,Adjustments To Gaap Basis,Principal payments,,,187627
+2025,FY2025_audit,142,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,800590
+2025,FY2025_audit,142,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,343243
+2025,FY2025_audit,142,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,40684316
+2025,FY2025_audit,142,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,41027559

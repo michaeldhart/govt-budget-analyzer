@@ -1,0 +1,30 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2026,FY2026_audit,141,Operating Revenues,Water sales,2219707,2219707,2225497
+2026,FY2026_audit,141,Operating Revenues,Sewer charges,3435240,3435240,3417675
+2026,FY2026_audit,141,Operating Revenues,Water connection fees,35000,35000,109396
+2026,FY2026_audit,141,Operating Revenues,Sewer connection fees,65000,65000,225104
+2026,FY2026_audit,141,Operating Revenues,Water meter sales,112000,112000,117059
+2026,FY2026_audit,141,Operating Revenues,Sewer meter sales,112000,112000,117326
+2026,FY2026_audit,141,Operating Revenues,Other,44000,44000,781474
+2026,FY2026_audit,141,Operating Revenues,Total operating revenues,6022947,6022947,6993531
+2026,FY2026_audit,141,Operating Expenses Excluding Depreciation,Water,2056217,2070997,5522727
+2026,FY2026_audit,141,Operating Expenses Excluding Depreciation,Sewer,2192672,2207453,3043416
+2026,FY2026_audit,141,Operating Expenses Excluding Depreciation,Collection system,786143,786143,714869
+2026,FY2026_audit,141,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,5035032,5064593,9281012
+2026,FY2026_audit,141,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),987915,958354,-2287481
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),Investment income,35500,35500,160020
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),Principal payments,-311154,-311154,-246750
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),Interest and fiscal charges,-10689,-10689,-98434
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-286343,-286343,-185164
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE CAPITAL GRANTS AND CONTRIBUTIONS,701572,672011,-2472645
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),CAPITAL GRANTS AND CONTRIBUTIONS,0,0,2146016
+2026,FY2026_audit,141,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,-701572,-672011,-326629
+2026,FY2026_audit,141,Adjustments To Gaap Basis,Additions to capital assets,,,2634542
+2026,FY2026_audit,141,Adjustments To Gaap Basis,Pension items,,,225369
+2026,FY2026_audit,141,Adjustments To Gaap Basis,OPEB items,,,-72947
+2026,FY2026_audit,141,Adjustments To Gaap Basis,Depreciation,,,-2218584
+2026,FY2026_audit,141,Adjustments To Gaap Basis,Principal payments,,,246750
+2026,FY2026_audit,141,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,815130
+2026,FY2026_audit,141,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,488501
+2026,FY2026_audit,141,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,41027559
+2026,FY2026_audit,141,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,41516060

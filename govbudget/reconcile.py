@@ -19,7 +19,7 @@ COLUMNS = ["entity_id", "doc_id", "period_fy", "basis", "kind", "printed", "line
 def reconcile(E):
     sums = defaultdict(int)
     for f in read_csv(E.data_path("facts.csv")):
-        if f["source_type"] != "budget":
+        if f["source_type"] != "budget" or f["fund_code"] != "01":  # the fund totals are the General Fund's
             continue
         k = (f["doc_id"], int(f["period_fy"]), f["basis"])
         if f["flow"] == "revenue":

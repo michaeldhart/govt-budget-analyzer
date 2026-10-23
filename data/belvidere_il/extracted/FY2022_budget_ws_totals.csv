@@ -1,0 +1,49 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,actual_FY2020,75606
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2021,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_revised_FY2021,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2022,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,actual_FY2020,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2021,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,budget_revised_FY2021,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2022,75632
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,actual_FY2020,546350
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,budget_FY2021,264901
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,budget_revised_FY2021,264901
+2022,FY2022_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,budget_FY2022,246842
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,actual_FY2020,2035797
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2021,2170518
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_revised_FY2021,2170518
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2022,2116431
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,actual_FY2020,2187561
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2021,2188577
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_revised_FY2021,2188577
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2022,2115402
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,actual_FY2020,-151764
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2021,-18059
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,budget_revised_FY2021,-18059
+2022,FY2022_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2022,1029
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,actual_FY2020,264901
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2021,246842
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_revised_FY2021,246842
+2022,FY2022_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2022,247871
+2022,FY2022_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,actual_FY2020,812379
+2022,FY2022_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2021,649936
+2022,FY2022_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_revised_FY2021,649936
+2022,FY2022_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2022,666519
+2022,FY2022_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,actual_FY2020,3151617
+2022,FY2022_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2021,3369763
+2022,FY2022_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_revised_FY2021,3369763
+2022,FY2022_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2022,3086181
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,actual_FY2020,3165585
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2021,3353180
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_revised_FY2021,3353180
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2022,3070291
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,actual_FY2020,-13968
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2021,16583
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_revised_FY2021,16583
+2022,FY2022_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2022,15890
+2022,FY2022_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,actual_FY2020,649936
+2022,FY2022_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2021,666519
+2022,FY2022_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_revised_FY2021,666519
+2022,FY2022_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2022,682409

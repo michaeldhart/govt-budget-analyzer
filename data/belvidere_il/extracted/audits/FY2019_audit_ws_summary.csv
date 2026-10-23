@@ -1,0 +1,32 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2019,FY2019_audit,137,Operating Revenues,Water sales,2191072,2077265,2071861
+2019,FY2019_audit,137,Operating Revenues,Sewer charges,3172429,3294575,3320691
+2019,FY2019_audit,137,Operating Revenues,Water connection fees,30000,15134,15134
+2019,FY2019_audit,137,Operating Revenues,Sewer connection fees,36000,27437,27437
+2019,FY2019_audit,137,Operating Revenues,Water meter sales,87650,91772,91772
+2019,FY2019_audit,137,Operating Revenues,Sewer meter sales,87650,87540,87540
+2019,FY2019_audit,137,Operating Revenues,Other,40000,539497,66382
+2019,FY2019_audit,137,Operating Revenues,Total operating revenues,5644801,6133220,5680817
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,Water,1941656,1970370,2356795
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,Sewer,2017139,1891247,2900985
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,Collection system,655246,573954,564126
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4614041,4435571,5821906
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,DEPRECIATION,755215,805215,1691152
+2019,FY2019_audit,137,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),275545,892434,-1832241
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),Investment income,62000,95158,97008
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),Insurance recoveries,0,106,89206
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),Principal payments,-503618,-503618,-503619
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),Interest and fiscal charges,-34974,-34974,-32176
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-476592,-443328,-349581
+2019,FY2019_audit,137,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE TRANSFERS,-201047,449106,-2181822
+2019,FY2019_audit,137,Transfers,Transfers (out),-500000,-973115,-473115
+2019,FY2019_audit,137,Transfers,Total transfers,-500000,-973115,-473115
+2019,FY2019_audit,137,Transfers,CHANGE IN NET POSITION - BUDGETARY BASIS,-701047,-524009,-2654937
+2019,FY2019_audit,137,Adjustments To Gaap Basis,Additions to capital assets,,,1399485
+2019,FY2019_audit,137,Adjustments To Gaap Basis,Principal payments,,,503619
+2019,FY2019_audit,137,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,1903104
+2019,FY2019_audit,137,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,-751833
+2019,FY2019_audit,137,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,45038276
+2019,FY2019_audit,137,Adjustments To Gaap Basis,Change in accounting principle,,,-1281616
+2019,FY2019_audit,137,Adjustments To Gaap Basis,"NET POSITION, MAY ONE, RESTATED",,,43756660
+2019,FY2019_audit,137,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,43004827

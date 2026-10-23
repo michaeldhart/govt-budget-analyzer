@@ -1,0 +1,31 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2023,FY2023_audit,141,Operating Revenues,Water sales,1963953,1963953,1928985
+2023,FY2023_audit,141,Operating Revenues,Sewer charges,2874711,2874711,2718328
+2023,FY2023_audit,141,Operating Revenues,Water connection fees,50000,50000,151508
+2023,FY2023_audit,141,Operating Revenues,Sewer connection fees,65000,65000,306257
+2023,FY2023_audit,141,Operating Revenues,Water meter sales,93000,93000,159337
+2023,FY2023_audit,141,Operating Revenues,Sewer meter sales,93000,93000,158854
+2023,FY2023_audit,141,Operating Revenues,Other,26000,26000,73653
+2023,FY2023_audit,141,Operating Revenues,Total operating revenues,5165664,5165664,5496922
+2023,FY2023_audit,141,Operating Expenses Excluding Depreciation,Water,1761340,1761340,2030596
+2023,FY2023_audit,141,Operating Expenses Excluding Depreciation,Sewer,1874761,1874761,4300141
+2023,FY2023_audit,141,Operating Expenses Excluding Depreciation,Collection system,684748,684748,740992
+2023,FY2023_audit,141,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4320849,4320849,7071729
+2023,FY2023_audit,141,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),844815,844815,-1574807
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),Investment income,3700,3700,144659
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),Principal payments,-108914,-108914,-108914
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),Interest and fiscal charges,-16547,-16547,-35663
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-121761,-121761,82
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE CAPITAL GRANTS AND CONTRIBUTIONS,723054,723054,-1574725
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),CAPITAL GRANTS AND CONTRIBUTIONS Capital contributions,0,0,608547
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),Total capital grants and contributions,0,0,608547
+2023,FY2023_audit,141,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,723054,723054,-966178
+2023,FY2023_audit,141,Adjustments To Gaap Basis,Additions to capital assets,,,2244688
+2023,FY2023_audit,141,Adjustments To Gaap Basis,Pension items,,,107685
+2023,FY2023_audit,141,Adjustments To Gaap Basis,OPEB items,,,-41213
+2023,FY2023_audit,141,Adjustments To Gaap Basis,Depreciation,,,-1942529
+2023,FY2023_audit,141,Adjustments To Gaap Basis,Principal payments,,,108914
+2023,FY2023_audit,141,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,477545
+2023,FY2023_audit,141,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,-488633
+2023,FY2023_audit,141,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,42352985
+2023,FY2023_audit,141,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,41864352

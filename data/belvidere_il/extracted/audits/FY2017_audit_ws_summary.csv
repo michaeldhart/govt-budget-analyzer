@@ -1,0 +1,25 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2017,FY2017_audit,134,Operating Revenues,Water sales,2287373,2118914,2099703
+2017,FY2017_audit,134,Operating Revenues,Sewer charges,3269987,3103395,3076085
+2017,FY2017_audit,134,Operating Revenues,Water connection fees,24000,66291,66291
+2017,FY2017_audit,134,Operating Revenues,Sewer connection fees,28800,108609,108609
+2017,FY2017_audit,134,Operating Revenues,Water meter sales,91000,93879,93879
+2017,FY2017_audit,134,Operating Revenues,Sewer meter sales,91000,92544,92544
+2017,FY2017_audit,134,Operating Revenues,Other,39200,195675,195674
+2017,FY2017_audit,134,Operating Revenues,Total operating revenues,5831360,5779307,5732785
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,Water,1923837,1931034,1938801
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,Sewer,1915161,1763182,1813373
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,Collection system,603792,592688,602101
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4442790,4286904,4354275
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,DEPRECIATION,758560,758559,1470507
+2017,FY2017_audit,134,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),630010,733844,-91997
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Investment income,20000,16868,33646
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Proceeds from sale of capital assets,0,1925,1925
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Principal payments,-414770,-420671,0
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Interest and fiscal charges,-58826,-52924,-50442
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-453596,-454802,-14871
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION,176414,279042,-106868
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),"NET POSITION, MAY ONE",,,45025762
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),Prior period adjustment,,,-74763
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),"NET POSITION, MAY ONE, RESTATED",,,44950999
+2017,FY2017_audit,134,Non-Operating Revenues (Expenses),"NET POSITION, APRIL THIRTY",,,44844131

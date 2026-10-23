@@ -1,0 +1,28 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2024,FY2024_audit,141,Operating Revenues,Water sales,2023285,2023285,1893613
+2024,FY2024_audit,141,Operating Revenues,Sewer charges,2542404,2542404,3020218
+2024,FY2024_audit,141,Operating Revenues,Water connection fees,50000,50000,97169
+2024,FY2024_audit,141,Operating Revenues,Sewer connection fees,65000,65000,147569
+2024,FY2024_audit,141,Operating Revenues,Water meter sales,97250,97250,141391
+2024,FY2024_audit,141,Operating Revenues,Sewer meter sales,97250,97250,141919
+2024,FY2024_audit,141,Operating Revenues,Other,24000,24000,602360
+2024,FY2024_audit,141,Operating Revenues,Total operating revenues,4899189,4899189,6044239
+2024,FY2024_audit,141,Operating Expenses Excluding Depreciation,Water,1841403,1841403,3209729
+2024,FY2024_audit,141,Operating Expenses Excluding Depreciation,Sewer,1972396,1972396,3641552
+2024,FY2024_audit,141,Operating Expenses Excluding Depreciation,Collection system,743238,743238,692753
+2024,FY2024_audit,141,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4557037,4557037,7544034
+2024,FY2024_audit,141,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),342152,342152,-1499795
+2024,FY2024_audit,141,Non-Operating Revenues (Expenses),Investment income,12200,12200,139430
+2024,FY2024_audit,141,Non-Operating Revenues (Expenses),Principal payments,-110279,-110279,-110280
+2024,FY2024_audit,141,Non-Operating Revenues (Expenses),Interest and fiscal charges,-13472,-13472,-35307
+2024,FY2024_audit,141,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-111551,-111551,-6157
+2024,FY2024_audit,141,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,230601,230601,-1505952
+2024,FY2024_audit,141,Adjustments To Gaap Basis,Additions to capital assets,,,1921772
+2024,FY2024_audit,141,Adjustments To Gaap Basis,Pension items,,,392067
+2024,FY2024_audit,141,Adjustments To Gaap Basis,OPEB items,,,-15113
+2024,FY2024_audit,141,Adjustments To Gaap Basis,Depreciation,,,-2083090
+2024,FY2024_audit,141,Adjustments To Gaap Basis,Principal payments,,,110280
+2024,FY2024_audit,141,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,325916
+2024,FY2024_audit,141,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,-1180036
+2024,FY2024_audit,141,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,41864352
+2024,FY2024_audit,141,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,40684316

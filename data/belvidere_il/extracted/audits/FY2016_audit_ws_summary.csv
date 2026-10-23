@@ -1,0 +1,29 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2016,FY2016_audit,131,Operating Revenues,Water sales,2277155,2213451,2216583
+2016,FY2016_audit,131,Operating Revenues,Sewer charges,3255695,3488838,3488904
+2016,FY2016_audit,131,Operating Revenues,Water connection fees,24000,9935,9935
+2016,FY2016_audit,131,Operating Revenues,Sewer connection fees,28800,18558,18558
+2016,FY2016_audit,131,Operating Revenues,Water meter sales,90700,90456,90456
+2016,FY2016_audit,131,Operating Revenues,Sewer meter sales,90700,85694,85694
+2016,FY2016_audit,131,Operating Revenues,Other,19200,123891,123890
+2016,FY2016_audit,131,Operating Revenues,Total operating revenues,5786250,6030823,6034020
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,Water,2198710,1811756,2022597
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,Sewer,3418940,1687759,1693882
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,Collection system,831946,555367,558675
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,6449596,4054882,4275154
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,DEPRECIATION,0,0,1439178
+2016,FY2016_audit,131,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),-663346,1975941,319688
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),Investment income,0,0,31524
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),Loan proceeds,37500,0,0
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),Principal payments,-349816,-349505,0
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),Interest and fiscal charges,-58826,-58612,-56642
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-371142,-408117,-25118
+2016,FY2016_audit,131,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE TRANSFERS,-1034488,1567824,294570
+2016,FY2016_audit,131,Transfers,Transfers in,763000,0,0
+2016,FY2016_audit,131,Transfers,Transfers (out),-1000000,-1000000,0
+2016,FY2016_audit,131,Transfers,Total transfers,-237000,-1000000,0
+2016,FY2016_audit,131,Transfers,CHANGE IN NET POSITION,-1271488,567824,294570
+2016,FY2016_audit,131,Transfers,"NET POSITION, MAY ONE",,,45526806
+2016,FY2016_audit,131,Transfers,Change in accounting principle,,,-795614
+2016,FY2016_audit,131,Transfers,"NET POSITION, MAY ONE, RESTATED",,,44731192
+2016,FY2016_audit,131,Transfers,"NET POSITION, APRIL THIRTY",,,45025762

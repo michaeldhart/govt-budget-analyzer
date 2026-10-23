@@ -1,0 +1,37 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,actual_FY2022,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2023,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2024,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,actual_FY2022,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2023,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2024,75632
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,actual_FY2022,264901
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,budget_FY2023,257237
+2024,FY2024_budget,8 of 15,Water/Sewer,beginning_cash,Water: Beginning Cash & Investments,budget_FY2024,258350
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,actual_FY2022,2065389
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2023,2077453
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2024,2130735
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,actual_FY2022,2052261
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2023,2076340
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2024,2126403
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,actual_FY2022,13128
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2023,1113
+2024,FY2024_budget,8 of 15,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2024,4332
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,actual_FY2022,278029
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2023,258350
+2024,FY2024_budget,8 of 15,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2024,262682
+2024,FY2024_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,actual_FY2022,649936
+2024,FY2024_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2023,370126
+2024,FY2024_budget,9 of 15,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2024,400598
+2024,FY2024_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,actual_FY2022,2911218
+2024,FY2024_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2023,2967711
+2024,FY2024_budget,9 of 15,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2024,2649654
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,actual_FY2022,3191028
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2023,2937239
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2024,3093634
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,actual_FY2022,-279810
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2023,30472
+2024,FY2024_budget,10 of 15,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2024,-443980
+2024,FY2024_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,actual_FY2022,370126
+2024,FY2024_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2023,400598
+2024,FY2024_budget,10 of 15,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2024,-43382

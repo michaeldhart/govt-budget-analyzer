@@ -1,0 +1,49 @@
+fiscal_year,doc,page_label,fund,kind,name,column,amount
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,actual_FY2014,69301
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2015,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_revised_FY2015,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2016,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Admin: Ending Cash,actual_FY2014,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2015,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Admin: Ending Cash,budget_revised_FY2015,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Admin: Ending Cash,budget_FY2016,72924
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,actual_FY2014,769462
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2015,989241
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_revised_FY2015,989241
+2016,FY2016_budget,8 of 16,Water/Sewer,beginning_cash,Admin: Beginning Cash & Investments,budget_FY2016,1123044
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,actual_FY2014,2472608
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2015,5644383
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_revised_FY2015,5644383
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_revenues,Water: Total Water Department Revenues,budget_FY2016,3140855
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,actual_FY2014,2239548
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2015,5510580
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_revised_FY2015,5510580
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_expenses,Water: Total Water Department Expenses,budget_FY2016,3115914
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_net,Water: Net Water Department,actual_FY2014,233060
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2015,133803
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_net,Water: Net Water Department,budget_revised_FY2015,133803
+2016,FY2016_budget,8 of 16,Water/Sewer,dept_net,Water: Net Water Department,budget_FY2016,24941
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Water: Ending Cash & Investments,actual_FY2014,989241
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2015,1123044
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_revised_FY2015,1123044
+2016,FY2016_budget,8 of 16,Water/Sewer,ending_cash,Water: Ending Cash & Investments,budget_FY2016,1147985
+2016,FY2016_budget,9 of 16,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,actual_FY2014,871081
+2016,FY2016_budget,9 of 16,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2015,531620
+2016,FY2016_budget,9 of 16,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_revised_FY2015,531620
+2016,FY2016_budget,9 of 16,Water/Sewer,beginning_cash,Sewer: Beginning Cash & Investments,budget_FY2016,884503
+2016,FY2016_budget,9 of 16,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,actual_FY2014,3482649
+2016,FY2016_budget,9 of 16,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2015,5610182
+2016,FY2016_budget,9 of 16,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_revised_FY2015,5610182
+2016,FY2016_budget,9 of 16,Water/Sewer,dept_revenues,Sewer: Total Sewer Department Revenues,budget_FY2016,5551595
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,actual_FY2014,3808830
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2015,5257299
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_revised_FY2015,5257299
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_expenses,Sewer: Total Sewer Department Expenses,budget_FY2016,5436149
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_net,Sewer: Net Sewer Department,actual_FY2014,-326180
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2015,352883
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_revised_FY2015,352883
+2016,FY2016_budget,10 of 16,Water/Sewer,dept_net,Sewer: Net Sewer Department,budget_FY2016,115446
+2016,FY2016_budget,10 of 16,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,actual_FY2014,531620
+2016,FY2016_budget,10 of 16,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2015,884503
+2016,FY2016_budget,10 of 16,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_revised_FY2015,884503
+2016,FY2016_budget,10 of 16,Water/Sewer,ending_cash,Sewer: Ending Cash & Investments,budget_FY2016,999949

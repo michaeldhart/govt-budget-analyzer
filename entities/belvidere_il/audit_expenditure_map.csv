@@ -1,26 +1,29 @@
-audit_function,audit_department,function,department,department_group,budget_dept_codes,note
-general government,,General government,,general_government,110|130|140|150|160,FY2016+ audits list General Government as one set of categories; budget departments 110-160 are not separable
-general government,general,General government,,general_government,110|130|140|150|160,FY2012-FY2015 audits split General / Audit / Social Security; merged here to match later audits
-general government,audit,General government,,general_government,110|130|140|150|160,
-general government,social security,General government,,general_government,110|130|140|150|160,
-public safety,police department,Public safety,Police department,police,210,
-public safety,public safety building,Public safety,Public safety building,public_safety_building,215,
-public safety,fire department,Public safety,Fire department,fire,220,
-public safety,police and fire commission,Public safety,Police and fire commission,police_fire_commission,225,
-public safety,building department,Public safety,Building department,building,230,
-public safety,civil defense,Public safety,Civil defense,civil_defense,240,
-highways and street,street department,Highways and streets,Street department,street,310,
-highways and street,street lighting,Highways and streets,Street lighting,street_lighting,330,
-highways and street,garbage,Highways and streets,Garbage (landfill),garbage,335,
-highways and street,forestry,Highways and streets,Forestry,forestry,340,
-highways and street,city engineering,Highways and streets,City engineering,engineering,360,
-public work,street department,Highways and streets,Street department,street,310,FY2012 audit calls the function Public Works
-public work,street lighting,Highways and streets,Street lighting,street_lighting,330,FY2012 audit calls the function Public Works
-public work,garbage,Highways and streets,Garbage (landfill),garbage,335,FY2012 audit calls the function Public Works
-public work,forestry,Highways and streets,Forestry,forestry,340,FY2012 audit calls the function Public Works
-public work,city engineering,Highways and streets,City engineering,engineering,360,FY2012 audit calls the function Public Works
-health and social service,health regulations and inspection,Health and social services,Health regulations and inspections,health,410,
-community and economic development,,Community and economic development,,economic_development,610|615|751,"FY2013-FY2015 audits list the function without a department; the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
-community and economic development,economic development,Community and economic development,Economic development,economic_development,610|615|751,"the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
-community and economic,community and economic development,Community and economic development,Economic development,economic_development,610|615|751,"FY2012 audit; the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
-community and economic,capital project,Capital projects,Capital projects,capital_projects,,FY2012 audit prints an empty General Fund Capital Projects block (prior-year amounts only)
+fund_code,audit_function,audit_department,function,department,department_group,budget_dept_codes,note
+01,general government,,General government,,general_government,110|130|140|150|160,FY2016+ audits list General Government as one set of categories; budget departments 110-160 are not separable
+01,general government,general,General government,,general_government,110|130|140|150|160,FY2012-FY2015 audits split General / Audit / Social Security; merged here to match later audits
+01,general government,audit,General government,,general_government,110|130|140|150|160,
+01,general government,social security,General government,,general_government,110|130|140|150|160,
+01,public safety,police department,Public safety,Police department,police,210,
+01,public safety,public safety building,Public safety,Public safety building,public_safety_building,215,
+01,public safety,fire department,Public safety,Fire department,fire,220,
+01,public safety,police and fire commission,Public safety,Police and fire commission,police_fire_commission,225,
+01,public safety,building department,Public safety,Building department,building,230,
+01,public safety,civil defense,Public safety,Civil defense,civil_defense,240,
+01,highways and street,street department,Highways and streets,Street department,street,310,
+01,highways and street,street lighting,Highways and streets,Street lighting,street_lighting,330,
+01,highways and street,garbage,Highways and streets,Garbage (landfill),garbage,335,
+01,highways and street,forestry,Highways and streets,Forestry,forestry,340,
+01,highways and street,city engineering,Highways and streets,City engineering,engineering,360,
+01,public work,street department,Highways and streets,Street department,street,310,FY2012 audit calls the function Public Works
+01,public work,street lighting,Highways and streets,Street lighting,street_lighting,330,FY2012 audit calls the function Public Works
+01,public work,garbage,Highways and streets,Garbage (landfill),garbage,335,FY2012 audit calls the function Public Works
+01,public work,forestry,Highways and streets,Forestry,forestry,340,FY2012 audit calls the function Public Works
+01,public work,city engineering,Highways and streets,City engineering,engineering,360,FY2012 audit calls the function Public Works
+01,health and social service,health regulations and inspection,Health and social services,Health regulations and inspections,health,410,
+01,community and economic development,,Community and economic development,,economic_development,610|615|751,"FY2013-FY2015 audits list the function without a department; the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
+01,community and economic development,economic development,Community and economic development,Economic development,economic_development,610|615|751,"the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
+01,community and economic,community and economic development,Community and economic development,Economic development,economic_development,610|615|751,"FY2012 audit; the audit books the budget's Utility Tax department (751) capital projects (Downtown streetscape, Tripp Road, Bellwood detention basin ...) here in FY2016-FY2019"
+01,community and economic,capital project,Capital projects,Capital projects,capital_projects,,FY2012 audit prints an empty General Fund Capital Projects block (prior-year amounts only)
+61,water,,Water,,ws_water,810,Water and Sewer Fund schedule of operating expenses; the budget block adds the depreciation / bond set-asides and a card fee (see build_audit_ws_compare.py)
+61,sewer,,Sewer,,ws_sewer,820,
+61,collection system,,Collection system,,ws_collection,830,the budget prints Collection System expenses inside the Sewer department block

@@ -1,0 +1,32 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2022,FY2022_audit,140,Operating Revenues,Water sales,2022931,2022931,1899822
+2022,FY2022_audit,140,Operating Revenues,Sewer charges,2992181,2992181,2741644
+2022,FY2022_audit,140,Operating Revenues,Water connection fees,20000,20000,190752
+2022,FY2022_audit,140,Operating Revenues,Sewer connection fees,24000,24000,418950
+2022,FY2022_audit,140,Operating Revenues,Water meter sales,93000,93000,117492
+2022,FY2022_audit,140,Operating Revenues,Sewer meter sales,93000,93000,117194
+2022,FY2022_audit,140,Operating Revenues,Other,5000,5000,106612
+2022,FY2022_audit,140,Operating Revenues,Total operating revenues,5250112,5250112,5592466
+2022,FY2022_audit,140,Operating Expenses Excluding Depreciation,Water,1820402,1820402,2041626
+2022,FY2022_audit,140,Operating Expenses Excluding Depreciation,Sewer,1917064,1917064,4391481
+2022,FY2022_audit,140,Operating Expenses Excluding Depreciation,Collection system,775227,775227,737946
+2022,FY2022_audit,140,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,4512693,4512693,7171053
+2022,FY2022_audit,140,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),737419,737419,-1578587
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Investment income,7600,7600,-20537
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Grants,0,0,3365
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Principal payments,-107565,-107565,-107565
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Interest and fiscal charges,-16547,-16547,-15514
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-116512,-116512,-140251
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE CAPITAL GRANTS AND CONTRIBUTIONS,620907,620907,-1718838
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),CAPITAL GRANTS AND CONTRIBUTIONS Capital contributions,0,0,621893
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),Total capital grants and contributions,0,0,621893
+2022,FY2022_audit,140,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,620907,620907,-1096945
+2022,FY2022_audit,140,Adjustments To Gaap Basis,Additions to capital assets,,,2619120
+2022,FY2022_audit,140,Adjustments To Gaap Basis,Pension items,,,441423
+2022,FY2022_audit,140,Adjustments To Gaap Basis,OPEB items,,,-64094
+2022,FY2022_audit,140,Adjustments To Gaap Basis,Depreciation,,,-1970936
+2022,FY2022_audit,140,Adjustments To Gaap Basis,Principal payments,,,107565
+2022,FY2022_audit,140,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,1133078
+2022,FY2022_audit,140,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,36133
+2022,FY2022_audit,140,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,42316852
+2022,FY2022_audit,140,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,42352985

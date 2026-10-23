@@ -362,11 +362,13 @@ def check_expenses(events, rows, exp_rows, fund_total, cols, compare):
 CONFUSIONS = {"1": "47", "4": "1", "6": "85", "8": "630", "5": "6", "3": "8", "0": "8", "7": "1"}
 
 
-def digit_variants(v):
-    """Values one confusable digit away from v (v > 0), each a plausible OCR misread's true value."""
+def digit_variants(v, extra=None):
+    """Values one confusable digit away from v (v > 0), each a plausible OCR misread's true value. `extra` adds confusions
+    ({digit: possible true digits}) for a caller that has seen more of them."""
     sv, out = str(abs(v)), set()
+    conf = {d: CONFUSIONS.get(d, "") + (extra or {}).get(d, "") for d in set(CONFUSIONS) | set(extra or {})}
     for k, d in enumerate(sv):
-        for c in CONFUSIONS.get(d, ""):
+        for c in conf.get(d, ""):
             t = sv[:k] + c + sv[k + 1:]
             if t[0] != "0" or len(t) == 1:
                 out.add(int(t))

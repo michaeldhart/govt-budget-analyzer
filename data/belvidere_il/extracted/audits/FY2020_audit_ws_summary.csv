@@ -1,0 +1,31 @@
+fiscal_year,doc,pdf_page,section,line_item,original_budget,final_budget,actual
+2020,FY2020_audit,133,Operating Revenues,Water sales,2119105,1932566,1889037
+2020,FY2020_audit,133,Operating Revenues,Sewer charges,3287944,3013437,2946022
+2020,FY2020_audit,133,Operating Revenues,Water connection fees,20000,19592,19592
+2020,FY2020_audit,133,Operating Revenues,Sewer connection fees,24000,39876,39876
+2020,FY2020_audit,133,Operating Revenues,Water meter sales,93650,92946,92946
+2020,FY2020_audit,133,Operating Revenues,Sewer meter sales,93650,84497,84497
+2020,FY2020_audit,133,Operating Revenues,Other,7500,542985,591923
+2020,FY2020_audit,133,Operating Revenues,Total operating revenues,5645849,5725899,5663893
+2020,FY2020_audit,133,Operating Expenses Excluding Depreciation,Water,1895206,1982933,2100956
+2020,FY2020_audit,133,Operating Expenses Excluding Depreciation,Sewer,7148717,3638101,3717138
+2020,FY2020_audit,133,Operating Expenses Excluding Depreciation,Collection system,635611,624112,653922
+2020,FY2020_audit,133,Operating Expenses Excluding Depreciation,Total operating expenses excluding depreciation,9679534,6245146,6472016
+2020,FY2020_audit,133,Operating Expenses Excluding Depreciation,OPERATING INCOME (LOSS),-4033685,-519247,-808123
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Investment income,91850,115795,198363
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Grants,0,5990,5990
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Insurance recoveries,0,314,314
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Principal payments,-364917,-364917,-364917
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Interest and fiscal charges,-25074,-25074,-22859
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Total non-operating revenues (expenses),-298141,-267892,-183109
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),INCOME (LOSS) BEFORE CAPITAL GRANTS AND CONTRIBUTIONS,-4331826,-787139,-991232
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),CAPITAL GRANTS AND CONTRIBUTIONS Contributed capital assets,0,0,30270
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),Total capital grants and contributions,0,0,30270
+2020,FY2020_audit,133,Non-Operating Revenues (Expenses),CHANGE IN NET POSITION - BUDGETARY BASIS,-4331826,-787139,-960962
+2020,FY2020_audit,133,Adjustments To Gaap Basis,Additions to capital assets,,,1950383
+2020,FY2020_audit,133,Adjustments To Gaap Basis,Depreciation and amortization,,,-1701092
+2020,FY2020_audit,133,Adjustments To Gaap Basis,Principal payments,,,364917
+2020,FY2020_audit,133,Adjustments To Gaap Basis,Total adjustment to GAAP basis,,,614208
+2020,FY2020_audit,133,Adjustments To Gaap Basis,CHANGE IN NET POSITION - GAAP BASIS,,,-346754
+2020,FY2020_audit,133,Adjustments To Gaap Basis,"NET POSITION, MAY ONE",,,43004827
+2020,FY2020_audit,133,Adjustments To Gaap Basis,"NET POSITION, APRIL THIRTY",,,42658073

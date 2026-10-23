@@ -57,9 +57,15 @@ class Entity:
         rows = self.table("categories.csv")
         return [r for r in rows if scheme is None or r["scheme"] == scheme]
 
-    def departments(self):
-        """dept_code -> department row (name, function)."""
-        return {r["dept_code"]: r for r in self.table("departments.csv")}
+    def departments(self, fund="01"):
+        """dept_code -> department row (name, function) within one fund. Department codes repeat across funds (110 is General
+        Administration in fund 01 and Water / Sewer General Administration in fund 61)."""
+        return {r["dept_code"]: r for r in self.table("departments.csv") if r["fund_code"] == fund}
+
+    @staticmethod
+    def split_key(account_key):
+        """(fund_code, 'DDD-OOOO') for an account key; keys of funds other than the General Fund carry a prefix ('61:810-5010')."""
+        return tuple(account_key.split(":", 1)) if ":" in account_key else ("01", account_key)
 
     def account_map(self):
         """(flow, account_key) -> mapping row."""

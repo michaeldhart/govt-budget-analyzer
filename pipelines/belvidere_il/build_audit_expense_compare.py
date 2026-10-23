@@ -39,7 +39,7 @@ REBATE_GROUP = "economic_development"
 
 
 def main():
-    emap = {(r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
+    emap = {(r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv") if (r["fund_code"] or "01") == "01"}
     by_canon = {(r["function"], r["department"]): r for r in emap.values()}
     groups = {}
     for r in emap.values():
@@ -48,6 +48,8 @@ def main():
     bud = defaultdict(lambda: defaultdict(int))
     docs_with_own = {int(r["fiscal_year"]) for r in read_csv(E.data_path("documents.csv")) if r["doc_type"] == "budget"}
     for f in read_csv(E.data_path("facts.csv")):
+        if f["fund_code"] != "01":  # the General Fund only; Water / Sewer has build_audit_ws_compare.py
+            continue
         fy = int(f["period_fy"])
         if f["source_type"] == "audit" and f["flow"] == "expense":
             fn, dp, _cat = f["audit_section"].split(" | ")

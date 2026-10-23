@@ -56,6 +56,20 @@ def budget_pdf(fy):
     return ""
 
 
+def ws_summary_kind(section, label):
+    """Is a Water and Sewer summary-schedule line a revenue or an expense? (amounts are stored positive)"""
+    sec, lab = section.lower(), label.lower()
+    if sec.startswith("operating revenues"):
+        return "revenue"
+    if sec.startswith("operating expenses") or lab == "depreciation":
+        return "expense"
+    if re.search(r"payments?|interest and fiscal|transfers? \(?out", lab):
+        return "expense"
+    if re.search(r"investment income|insurance recover|proceeds|grants|transfers? in|interest income|connection|gain", lab):
+        return "revenue"
+    return None
+
+
 def exception_index():
     """account/doc exceptions as (scope, ids, fy_from, fy_to, bases, exception_id)."""
     out = []
@@ -80,7 +94,7 @@ def main():
     ex = exception_index()
     facts, docs, totals, fund_rows = [], [], [], []
     stmt_map = [(r["statement"], re.compile(r["label_pattern"], re.I), r["line_id"]) for r in E.table("fund_statement_lines.csv")]
-    exp_map = {(r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
+    exp_map = {(r["fund_code"] or "01", r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
     lo, hi = E.config["documents"]["budget_range"]
     for fy in range(lo, hi + 1):
         path = E.data_path("extracted", f"FY{fy}_budget_gf_revenue.csv")
@@ -106,6 +120,20 @@ def main():
             period, basis = budget_basis(fy, r["column"])
             totals.append(dict(entity_id=E.id, doc_id=doc_id, period_fy=period, basis=basis, kind=r["kind"], name=r["name"],
                                amount=int(r["amount"]), page_label=r["page_label"]))
+        # Water / Sewer Fund (fund 61): account keys carry the fund ("61:810-5010") because department codes repeat across funds
+        for kind in ("revenue", "expense"):
+            for r in csv.DictReader(open(E.data_path("extracted", f"FY{fy}_budget_ws_{kind}.csv"))):
+                seq += 1
+                period, basis = budget_basis(fy, r["column"])
+                key = "61:" + E.account_key(r["account"])
+                facts.append(dict(entity_id=E.id, doc_id=doc_id, source_type="budget", row_seq=seq, period_fy=period, basis=basis,
+                                  flow=kind, fund_code="61", dept_code=r["dept_code"], account_key=key, account_printed=r["account"],
+                                  audit_section="", label=r["line_item"], amount=int(r["amount"]), source_column=r["column"],
+                                  page_label=r["page_label"], pdf_page="", flag=r["flag"].strip(), exception_ids=attach(ex, doc_id, key, period, basis)))
+        for r in csv.DictReader(open(E.data_path("extracted", f"FY{fy}_budget_ws_totals.csv"))):
+            period, basis = budget_basis(fy, r["column"])
+            totals.append(dict(entity_id=E.id, doc_id=doc_id, period_fy=period, basis=basis, kind=r["kind"], name=r["name"],
+                               amount=int(r["amount"]), page_label=r["page_label"]))
     lo, hi = E.config["documents"]["audit_range"]
     for fy in range(lo, hi + 1):
         path = E.data_path("extracted", "audits", f"FY{fy}_audit_gf_revenue.csv")
@@ -128,7 +156,7 @@ def main():
         # (entities/belvidere_il/audit_expenditure_map.csv), the same wording in every audit
         # (seq is still the last revenue row's number here: expenditure rows continue the same numbering)
         for seq, r in enumerate(csv.DictReader(open(E.data_path("extracted", "audits", f"FY{fy}_audit_gf_expenditure.csv"))), seq + 1):
-            m = exp_map.get((audit_norm(r["function"]), audit_norm(r["department"])))
+            m = exp_map.get(("01", audit_norm(r["function"]), audit_norm(r["department"])))
             if m is None:
                 sys.exit(f"FY{fy} audit expenditures: {r['function']!r} / {r['department']!r} is not in audit_expenditure_map.csv")
             section = " | ".join((m["function"], m["department"], r["category"][:1].upper() + r["category"][1:].lower()))  # always three slots, blank when absent
@@ -138,6 +166,42 @@ def main():
             for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
                 facts.append(dict(base, period_fy=fy, basis=basis, amount=int(r[col]), source_column=col))
 
+    for fy in range(lo, hi + 1):  # Water and Sewer Fund: the schedule of operating expenses and the summary schedule (audits FY2016-FY2026)
+        wpath = E.data_path("extracted", "audits", f"FY{fy}_audit_ws_operating_expense.csv")
+        if not os.path.exists(wpath):
+            continue
+        doc_id = f"FY{fy}_audit"
+        seq = max((f["row_seq"] for f in facts if f["doc_id"] == doc_id), default=0)
+        for seq, r in enumerate(csv.DictReader(open(wpath)), seq + 1):
+            m = exp_map.get(("61", audit_norm(r["function"]), audit_norm(r["department"])))
+            if m is None:
+                sys.exit(f"FY{fy} audit W/S operating expenses: {r['function']!r} / {r['department']!r} is not in audit_expenditure_map.csv")
+            section = " | ".join((m["function"], m["department"], r["category"][:1].upper() + r["category"][1:].lower()))
+            base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow="expense", fund_code="61", dept_code="",
+                        account_key="", account_printed="", audit_section=section, label=r["line_item"], page_label="", pdf_page=r["pdf_page"],
+                        flag=r["flag"].strip(), exception_ids="")
+            for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
+                facts.append(dict(base, period_fy=fy, basis=basis, amount=int(r[col]), source_column=col))
+        spath = E.data_path("extracted", "audits", f"FY{fy}_audit_ws_summary.csv")
+        for seq, r in enumerate(csv.DictReader(open(spath)), seq + 1):
+            lab, sec = r["line_item"].strip(), r["section"]
+            if re.match(r"(?i)^(net position|change in (net position|accounting principle)|prior period adjustment)", lab) and not r["original_budget"] \
+                    and not re.search(r"(?i)budget", lab):
+                lid = next((i for st, rx, i in stmt_map if st == "ws_net_position" and rx.search(lab)), "")
+                fund_rows.append(dict(entity_id=E.id, doc_id=doc_id, period_fy=fy, statement="ws_net_position", fund="Water and Sewer",
+                                      section="Net position", subsection="", line_item=lab, line_id=lid, amount=int(r["actual"]),
+                                      pdf_page=r["pdf_page"], flag=""))
+                continue
+            if not r["original_budget"] or re.match(r"(?i)^(total|operating income|income|change|net position|adjust)", lab):
+                continue  # computed lines and the actual-only GAAP adjustments; their parts are the facts
+            kind = ws_summary_kind(sec, lab)
+            if kind is None:
+                sys.exit(f"FY{fy} audit W/S summary: no flow rule for {sec!r} / {lab!r}")
+            base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow=kind, fund_code="61", dept_code="",
+                        account_key="", account_printed="", audit_section=f"Water and Sewer summary | {sec.title()} | ", label=lab,
+                        page_label="", pdf_page=r["pdf_page"], flag="", exception_ids="")
+            for col, basis in (("original_budget", "audit_original"), ("final_budget", "audit_final"), ("actual", "actual_audited")):
+                facts.append(dict(base, period_fy=fy, basis=basis, amount=abs(int(r[col])), source_column=col))
     for fy in range(lo, hi + 1):  # audited fund-level statements: the line_id names lines every audit has
         for r in csv.DictReader(open(E.data_path("extracted", "audits", f"FY{fy}_audit_fund_statements.csv"))):
             lid = next((i for st, rx, i in stmt_map if st == r["statement"] and rx.search(r["line_item"].strip())), "")

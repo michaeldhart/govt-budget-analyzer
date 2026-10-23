@@ -19,3 +19,8 @@ changes_in_fund_balance,^prior period adjustment,prior_period_adjustment,
 changes_in_fund_balance,(fund balances?.*restated),fund_balance_restated,
 changes_in_fund_balance,^(fund balances?\b.*(may 1|beginning)|beginning$),fund_balance_beginning,
 changes_in_fund_balance,^(fund balances?\b.*(april|ending)|ending$),fund_balance_ending,
+ws_net_position,"^net position,? may 1,? restated",np_restated,
+ws_net_position,"^net position,? may 1$",np_beginning,
+ws_net_position,^(change in accounting principle|prior period adjustment),np_prior_adjustment,
+ws_net_position,^change in net position.*gaap|^change in net position$,np_change,FY2016-FY2017 print one change (no GAAP adjustments)
+ws_net_position,"^net position,? april",np_ending,

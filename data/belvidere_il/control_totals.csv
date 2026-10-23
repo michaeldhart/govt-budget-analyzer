@@ -207,6 +207,54 @@ belvidere_il,FY2015_budget,2013,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2015_budget,2014,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,161402,7 of 16
 belvidere_il,FY2015_budget,2014,revised,fund_net,NET REV OVER (UNDER) EXP,161402,7 of 16
 belvidere_il,FY2015_budget,2015,adopted,fund_net,NET REV OVER (UNDER) EXP,124231,7 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,67256,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,69301,8 of 16
+belvidere_il,FY2015_budget,2014,revised,beginning_cash,Admin: Beginning Cash & Investments,69301,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,beginning_cash,Admin: Beginning Cash & Investments,69301,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,ending_cash,Admin: Ending Cash,69301,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,ending_cash,Admin: Ending Cash,69301,8 of 16
+belvidere_il,FY2015_budget,2014,revised,ending_cash,Admin: Ending Cash,69301,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,ending_cash,Admin: Ending Cash,69301,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,421443,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,769461,8 of 16
+belvidere_il,FY2015_budget,2014,revised,beginning_cash,Water: Beginning Cash & Investments,769461,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,beginning_cash,Water: Beginning Cash & Investments,852887,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2566013,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,4655626,8 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_revenues,Water: Total Water Department Revenues,4655626,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_revenues,Water: Total Water Department Revenues,5644383,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2226832,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,4572200,8 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_expenses,Water: Total Water Department Expenses,4572200,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_expenses,Water: Total Water Department Expenses,5510580,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_net,Water: Net Water Department,339181,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_net,Water: Net Water Department,83426,8 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_net,Water: Net Water Department,83426,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_net,Water: Net Water Department,133803,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,ending_cash,Water: Ending Cash & Investments,769461,8 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,852887,8 of 16
+belvidere_il,FY2015_budget,2014,revised,ending_cash,Water: Ending Cash & Investments,852887,8 of 16
+belvidere_il,FY2015_budget,2015,adopted,ending_cash,Water: Ending Cash & Investments,986690,8 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,218855,9 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,871081,9 of 16
+belvidere_il,FY2015_budget,2014,revised,beginning_cash,Sewer: Beginning Cash & Investments,871081,9 of 16
+belvidere_il,FY2015_budget,2015,adopted,beginning_cash,Sewer: Beginning Cash & Investments,880070,9 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3742524,9 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,5057463,9 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_revenues,Sewer: Total Sewer Department Revenues,5057463,9 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,5610182,9 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3099136,10 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,5048474,10 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_expenses,Sewer: Total Sewer Department Expenses,5048474,10 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,5257299,10 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,dept_net,Sewer: Net Sewer Department,643388,10 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,dept_net,Sewer: Net Sewer Department,8989,10 of 16
+belvidere_il,FY2015_budget,2014,revised,dept_net,Sewer: Net Sewer Department,8989,10 of 16
+belvidere_il,FY2015_budget,2015,adopted,dept_net,Sewer: Net Sewer Department,352883,10 of 16
+belvidere_il,FY2015_budget,2013,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,871081,10 of 16
+belvidere_il,FY2015_budget,2014,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,880070,10 of 16
+belvidere_il,FY2015_budget,2014,revised,ending_cash,Sewer: Ending Cash & Investments,880070,10 of 16
+belvidere_il,FY2015_budget,2015,adopted,ending_cash,Sewer: Ending Cash & Investments,1232953,10 of 16
 belvidere_il,FY2016_budget,2014,actual_prelim,dept_revenues,Total General Administration Revenues,9456526,1 of 16
 belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_revenues,Total General Administration Revenues,10210864,1 of 16
 belvidere_il,FY2016_budget,2015,revised,dept_revenues,Total General Administration Revenues,10210864,1 of 16
@@ -419,6 +467,54 @@ belvidere_il,FY2016_budget,2014,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2016_budget,2015,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,124233,7 of 16
 belvidere_il,FY2016_budget,2015,revised,fund_net,NET REV OVER (UNDER) EXP,124233,7 of 16
 belvidere_il,FY2016_budget,2016,adopted,fund_net,NET REV OVER (UNDER) EXP,103193,7 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,69301,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,72924,8 of 16
+belvidere_il,FY2016_budget,2015,revised,beginning_cash,Admin: Beginning Cash & Investments,72924,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,beginning_cash,Admin: Beginning Cash & Investments,72924,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,ending_cash,Admin: Ending Cash,72924,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,ending_cash,Admin: Ending Cash,72924,8 of 16
+belvidere_il,FY2016_budget,2015,revised,ending_cash,Admin: Ending Cash,72924,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,ending_cash,Admin: Ending Cash,72924,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,769462,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,989241,8 of 16
+belvidere_il,FY2016_budget,2015,revised,beginning_cash,Admin: Beginning Cash & Investments,989241,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,beginning_cash,Admin: Beginning Cash & Investments,1123044,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2472608,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,5644383,8 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_revenues,Water: Total Water Department Revenues,5644383,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_revenues,Water: Total Water Department Revenues,3140855,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2239548,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,5510580,8 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_expenses,Water: Total Water Department Expenses,5510580,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_expenses,Water: Total Water Department Expenses,3115914,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_net,Water: Net Water Department,233060,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_net,Water: Net Water Department,133803,8 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_net,Water: Net Water Department,133803,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_net,Water: Net Water Department,24941,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,ending_cash,Water: Ending Cash & Investments,989241,8 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,1123044,8 of 16
+belvidere_il,FY2016_budget,2015,revised,ending_cash,Water: Ending Cash & Investments,1123044,8 of 16
+belvidere_il,FY2016_budget,2016,adopted,ending_cash,Water: Ending Cash & Investments,1147985,8 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,871081,9 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,531620,9 of 16
+belvidere_il,FY2016_budget,2015,revised,beginning_cash,Sewer: Beginning Cash & Investments,531620,9 of 16
+belvidere_il,FY2016_budget,2016,adopted,beginning_cash,Sewer: Beginning Cash & Investments,884503,9 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3482649,9 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,5610182,9 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_revenues,Sewer: Total Sewer Department Revenues,5610182,9 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,5551595,9 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3808830,10 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,5257299,10 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_expenses,Sewer: Total Sewer Department Expenses,5257299,10 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,5436149,10 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,dept_net,Sewer: Net Sewer Department,-326180,10 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,dept_net,Sewer: Net Sewer Department,352883,10 of 16
+belvidere_il,FY2016_budget,2015,revised,dept_net,Sewer: Net Sewer Department,352883,10 of 16
+belvidere_il,FY2016_budget,2016,adopted,dept_net,Sewer: Net Sewer Department,115446,10 of 16
+belvidere_il,FY2016_budget,2014,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,531620,10 of 16
+belvidere_il,FY2016_budget,2015,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,884503,10 of 16
+belvidere_il,FY2016_budget,2015,revised,ending_cash,Sewer: Ending Cash & Investments,884503,10 of 16
+belvidere_il,FY2016_budget,2016,adopted,ending_cash,Sewer: Ending Cash & Investments,999949,10 of 16
 belvidere_il,FY2017_budget,2015,actual_prelim,dept_revenues,Total General Administration Revenues,9880883,1 of 16
 belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_revenues,Total General Administration Revenues,11032479,1 of 16
 belvidere_il,FY2017_budget,2016,revised,dept_revenues,Total General Administration Revenues,11032479,1 of 16
@@ -635,6 +731,54 @@ belvidere_il,FY2017_budget,2015,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2017_budget,2016,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,103193,7 of 16
 belvidere_il,FY2017_budget,2016,revised,fund_net,NET REV OVER (UNDER) EXP,103193,7 of 16
 belvidere_il,FY2017_budget,2017,adopted,fund_net,NET REV OVER (UNDER) EXP,30795,7 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,72924,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75456,8 of 16
+belvidere_il,FY2017_budget,2016,revised,beginning_cash,Admin: Beginning Cash & Investments,75456,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,beginning_cash,Admin: Beginning Cash & Investments,75456,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,ending_cash,Admin: Ending Cash,75456,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,ending_cash,Admin: Ending Cash,75456,8 of 16
+belvidere_il,FY2017_budget,2016,revised,ending_cash,Admin: Ending Cash,75456,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,ending_cash,Admin: Ending Cash,75456,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,989241,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,1080017,8 of 16
+belvidere_il,FY2017_budget,2016,revised,beginning_cash,Water: Beginning Cash & Investments,1080017,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,beginning_cash,Water: Beginning Cash & Investments,604959,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2384009,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,3140855,8 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_revenues,Water: Total Water Department Revenues,3140855,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_revenues,Water: Total Water Department Revenues,2388373,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2300626,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,3115914,8 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_expenses,Water: Total Water Department Expenses,3115913,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_expenses,Water: Total Water Department Expenses,2370642,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_net,Water: Net Water Department,83383,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_net,Water: Net Water Department,24941,8 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_net,Water: Net Water Department,24942,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_net,Water: Net Water Department,17731,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,ending_cash,Water: Ending Cash & Investments,1080017,8 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,604958,8 of 16
+belvidere_il,FY2017_budget,2016,revised,ending_cash,Water: Ending Cash & Investments,604959,8 of 16
+belvidere_il,FY2017_budget,2017,adopted,ending_cash,Water: Ending Cash & Investments,622690,8 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,531620,9 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,1055724,9 of 16
+belvidere_il,FY2017_budget,2016,revised,beginning_cash,Sewer: Beginning Cash & Investments,1055724,9 of 16
+belvidere_il,FY2017_budget,2017,adopted,beginning_cash,Sewer: Beginning Cash & Investments,1171172,9 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3676195,9 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,5551595,9 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_revenues,Sewer: Total Sewer Department Revenues,5551595,9 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3875187,9 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3159484,10 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,5436149,10 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_expenses,Sewer: Total Sewer Department Expenses,5436147,10 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3804304,10 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,dept_net,Sewer: Net Sewer Department,516711,10 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,dept_net,Sewer: Net Sewer Department,115446,10 of 16
+belvidere_il,FY2017_budget,2016,revised,dept_net,Sewer: Net Sewer Department,115448,10 of 16
+belvidere_il,FY2017_budget,2017,adopted,dept_net,Sewer: Net Sewer Department,70883,10 of 16
+belvidere_il,FY2017_budget,2015,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,1055724,10 of 16
+belvidere_il,FY2017_budget,2016,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,1171170,10 of 16
+belvidere_il,FY2017_budget,2016,revised,ending_cash,Sewer: Ending Cash & Investments,1171172,10 of 16
+belvidere_il,FY2017_budget,2017,adopted,ending_cash,Sewer: Ending Cash & Investments,742055,10 of 16
 belvidere_il,FY2018_budget,2016,actual_prelim,dept_revenues,Total General Administration Revenues,10190288,1 of 16
 belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_revenues,Total General Administration Revenues,11827130,1 of 16
 belvidere_il,FY2018_budget,2017,revised,dept_revenues,Total General Administration Revenues,11827130,1 of 16
@@ -851,6 +995,54 @@ belvidere_il,FY2018_budget,2016,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2018_budget,2017,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,30795,7 of 16
 belvidere_il,FY2018_budget,2017,revised,fund_net,NET REV OVER (UNDER) EXP,30795,7 of 16
 belvidere_il,FY2018_budget,2018,adopted,fund_net,NET REV OVER (UNDER) EXP,15494,7 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75456,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2018_budget,2017,revised,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2018_budget,2017,revised,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,1080018,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,697162,8 of 16
+belvidere_il,FY2018_budget,2017,revised,beginning_cash,Water: Beginning Cash & Investments,697162,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,beginning_cash,Water: Beginning Cash & Investments,714893,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2342330,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2388373,8 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_revenues,Water: Total Water Department Revenues,2388373,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_revenues,Water: Total Water Department Revenues,2459904,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2728460,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2370642,8 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_expenses,Water: Total Water Department Expenses,2370642,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_expenses,Water: Total Water Department Expenses,2458048,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_net,Water: Net Water Department,-386131,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_net,Water: Net Water Department,17731,8 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_net,Water: Net Water Department,17731,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_net,Water: Net Water Department,1856,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,ending_cash,Water: Ending Cash & Investments,697162,8 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,714893,8 of 16
+belvidere_il,FY2018_budget,2017,revised,ending_cash,Water: Ending Cash & Investments,714893,8 of 16
+belvidere_il,FY2018_budget,2018,adopted,ending_cash,Water: Ending Cash & Investments,716749,8 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,1055724,9 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,1284737,9 of 16
+belvidere_il,FY2018_budget,2017,revised,beginning_cash,Sewer: Beginning Cash & Investments,1284737,9 of 16
+belvidere_il,FY2018_budget,2018,adopted,beginning_cash,Sewer: Beginning Cash & Investments,855620,9 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3654171,9 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3875187,9 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_revenues,Sewer: Total Sewer Department Revenues,3875187,9 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3886849,9 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3428391,10 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3804304,10 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_expenses,Sewer: Total Sewer Department Expenses,3804304,10 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3835559,10 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,dept_net,Sewer: Net Sewer Department,225779,10 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,dept_net,Sewer: Net Sewer Department,70883,10 of 16
+belvidere_il,FY2018_budget,2017,revised,dept_net,Sewer: Net Sewer Department,70883,10 of 16
+belvidere_il,FY2018_budget,2018,adopted,dept_net,Sewer: Net Sewer Department,51290,10 of 16
+belvidere_il,FY2018_budget,2016,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,1284737,10 of 16
+belvidere_il,FY2018_budget,2017,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,855620,10 of 16
+belvidere_il,FY2018_budget,2017,revised,ending_cash,Sewer: Ending Cash & Investments,855620,10 of 16
+belvidere_il,FY2018_budget,2018,adopted,ending_cash,Sewer: Ending Cash & Investments,406910,10 of 16
 belvidere_il,FY2019_budget,2017,actual_prelim,dept_revenues,Total General Administration Revenues,10885954,1 of 16
 belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_revenues,Total General Administration Revenues,11034235,1 of 16
 belvidere_il,FY2019_budget,2018,revised,dept_revenues,Total General Administration Revenues,11034235,1 of 16
@@ -1067,6 +1259,54 @@ belvidere_il,FY2019_budget,2017,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2019_budget,2018,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,15494,7 of 16
 belvidere_il,FY2019_budget,2018,revised,fund_net,NET REV OVER (UNDER) EXP,15494,7 of 16
 belvidere_il,FY2019_budget,2019,adopted,fund_net,NET REV OVER (UNDER) EXP,0,7 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2019_budget,2018,revised,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2019_budget,2018,revised,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,ending_cash,Admin: Ending Cash,75606,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,697162,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,590789,8 of 16
+belvidere_il,FY2019_budget,2018,revised,beginning_cash,Water: Beginning Cash & Investments,590789,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,beginning_cash,Water: Beginning Cash & Investments,592645,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2236697,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2459904,8 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_revenues,Water: Total Water Department Revenues,2459904,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_revenues,Water: Total Water Department Revenues,2286222,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2371488,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2458048,8 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_expenses,Water: Total Water Department Expenses,2458048,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_expenses,Water: Total Water Department Expenses,2275871,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_net,Water: Net Water Department,-134791,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_net,Water: Net Water Department,1856,8 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_net,Water: Net Water Department,1856,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_net,Water: Net Water Department,10351,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,ending_cash,Water: Ending Cash & Investments,590789,8 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,592645,8 of 16
+belvidere_il,FY2019_budget,2018,revised,ending_cash,Water: Ending Cash & Investments,592645,8 of 16
+belvidere_il,FY2019_budget,2019,adopted,ending_cash,Water: Ending Cash & Investments,602996,8 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,1284737,9 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,965575,9 of 16
+belvidere_il,FY2019_budget,2018,revised,beginning_cash,Sewer: Beginning Cash & Investments,965575,9 of 16
+belvidere_il,FY2019_budget,2019,adopted,beginning_cash,Sewer: Beginning Cash & Investments,516865,9 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3793643,9 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3886849,9 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_revenues,Sewer: Total Sewer Department Revenues,3886849,9 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3785079,9 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3641224,10 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3835559,10 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_expenses,Sewer: Total Sewer Department Expenses,3835559,10 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3783385,10 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,dept_net,Sewer: Net Sewer Department,152419,10 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,dept_net,Sewer: Net Sewer Department,51290,10 of 16
+belvidere_il,FY2019_budget,2018,revised,dept_net,Sewer: Net Sewer Department,51290,10 of 16
+belvidere_il,FY2019_budget,2019,adopted,dept_net,Sewer: Net Sewer Department,1694,10 of 16
+belvidere_il,FY2019_budget,2017,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,965575,10 of 16
+belvidere_il,FY2019_budget,2018,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,516865,10 of 16
+belvidere_il,FY2019_budget,2018,revised,ending_cash,Sewer: Ending Cash & Investments,516865,10 of 16
+belvidere_il,FY2019_budget,2019,adopted,ending_cash,Sewer: Ending Cash & Investments,18559,10 of 16
 belvidere_il,FY2020_budget,2018,actual_prelim,dept_revenues,Total General Administration Revenues,10555659,1 of 15
 belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_revenues,Total General Administration Revenues,11025085,1 of 15
 belvidere_il,FY2020_budget,2019,revised,dept_revenues,Total General Administration Revenues,11025085,1 of 15
@@ -1283,6 +1523,54 @@ belvidere_il,FY2020_budget,2018,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2020_budget,2019,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,0,7 of 15
 belvidere_il,FY2020_budget,2019,revised,fund_net,NET REV OVER (UNDER) EXP,0,7 of 15
 belvidere_il,FY2020_budget,2020,adopted,fund_net,NET REV OVER (UNDER) EXP,30199,7 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2020_budget,2019,revised,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2020_budget,2019,revised,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,590508,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,430244,8 of 15
+belvidere_il,FY2020_budget,2019,revised,beginning_cash,Water: Beginning Cash & Investments,430244,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,beginning_cash,Water: Beginning Cash & Investments,440595,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2286579,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2286222,8 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_revenues,Water: Total Water Department Revenues,2286222,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_revenues,Water: Total Water Department Revenues,2222255,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2435349,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2275871,8 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_expenses,Water: Total Water Department Expenses,2275871,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_expenses,Water: Total Water Department Expenses,2229206,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_net,Water: Net Water Department,-148770,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_net,Water: Net Water Department,10351,8 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_net,Water: Net Water Department,10351,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_net,Water: Net Water Department,-6951,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,ending_cash,Water: Ending Cash & Investments,430244,8 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,440595,8 of 15
+belvidere_il,FY2020_budget,2019,revised,ending_cash,Water: Ending Cash & Investments,440595,8 of 15
+belvidere_il,FY2020_budget,2020,adopted,ending_cash,Water: Ending Cash & Investments,433644,8 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,965295,9 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,797981,9 of 15
+belvidere_il,FY2020_budget,2019,revised,beginning_cash,Sewer: Beginning Cash & Investments,797981,9 of 15
+belvidere_il,FY2020_budget,2020,adopted,beginning_cash,Sewer: Beginning Cash & Investments,299675,9 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,4093391,9 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3785079,9 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_revenues,Sewer: Total Sewer Department Revenues,3785079,9 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3907944,9 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3748570,10 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3783385,10 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_expenses,Sewer: Total Sewer Department Expenses,3783385,10 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3725328,10 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,dept_net,Sewer: Net Sewer Department,344821,10 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,dept_net,Sewer: Net Sewer Department,1694,10 of 15
+belvidere_il,FY2020_budget,2019,revised,dept_net,Sewer: Net Sewer Department,1694,10 of 15
+belvidere_il,FY2020_budget,2020,adopted,dept_net,Sewer: Net Sewer Department,182616,10 of 15
+belvidere_il,FY2020_budget,2018,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,797981,10 of 15
+belvidere_il,FY2020_budget,2019,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,299675,10 of 15
+belvidere_il,FY2020_budget,2019,revised,ending_cash,Sewer: Ending Cash & Investments,299675,10 of 15
+belvidere_il,FY2020_budget,2020,adopted,ending_cash,Sewer: Ending Cash & Investments,482291,10 of 15
 belvidere_il,FY2021_budget,2019,actual_prelim,dept_revenues,Total General! Administration Revenues,11295039,1 of 15
 belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_revenues,Total General! Administration Revenues,12687096,1 of 15
 belvidere_il,FY2021_budget,2020,revised,dept_revenues,Total General! Administration Revenues,12687096,1 of 15
@@ -1503,6 +1791,54 @@ belvidere_il,FY2021_budget,2019,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2021_budget,2020,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,30200,7 of 15
 belvidere_il,FY2021_budget,2020,revised,fund_net,NET REV OVER (UNDER) EXP,30200,7 of 15
 belvidere_il,FY2021_budget,2021,adopted,fund_net,NET REV OVER (UNDER) EXP,5540,7 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2021_budget,2020,revised,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2021_budget,2020,revised,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,430423,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,546351,8 of 15
+belvidere_il,FY2021_budget,2020,revised,beginning_cash,Water: Beginning Cash & Investments,546351,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,beginning_cash,Water: Beginning Cash & Investments,539400,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2200248,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2222255,8 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_revenues,Water: Total Water Department Revenues,2222255,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_revenues,Water: Total Water Department Revenues,2170518,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2304585,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2229206,8 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_expenses,Water: Total Water Department Expenses,2229206,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_expenses,Water: Total Water Department Expenses,2188577,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_net,Water: Net Water Department,-104337,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_net,Water: Net Water Department,-6951,8 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_net,Water: Net Water Department,-6951,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_net,Water: Net Water Department,-18059,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,ending_cash,Water: Ending Cash & Investments,546351,8 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,539400,8 of 15
+belvidere_il,FY2021_budget,2020,revised,ending_cash,Water: Ending Cash & Investments,539400,8 of 15
+belvidere_il,FY2021_budget,2021,adopted,ending_cash,Water: Ending Cash & Investments,521341,8 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,797981,9 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,812379,9 of 15
+belvidere_il,FY2021_budget,2020,revised,beginning_cash,Sewer: Beginning Cash & Investments,812379,9 of 15
+belvidere_il,FY2021_budget,2021,adopted,beginning_cash,Sewer: Beginning Cash & Investments,494995,9 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3920338,9 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3907944,9 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_revenues,Sewer: Total Sewer Department Revenues,3907944,9 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3369763,9 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3626205,10 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3725328,10 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_expenses,Sewer: Total Sewer Department Expenses,3725328,10 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3353180,10 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,dept_net,Sewer: Net Sewer Department,294133,10 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,dept_net,Sewer: Net Sewer Department,182616,10 of 15
+belvidere_il,FY2021_budget,2020,revised,dept_net,Sewer: Net Sewer Department,182616,10 of 15
+belvidere_il,FY2021_budget,2021,adopted,dept_net,Sewer: Net Sewer Department,16583,10 of 15
+belvidere_il,FY2021_budget,2019,actual_prelim,ending_cash,Sewer: Ending Cash & investments,812379,10 of 15
+belvidere_il,FY2021_budget,2020,prior_doc_budget,ending_cash,Sewer: Ending Cash & investments,494995,10 of 15
+belvidere_il,FY2021_budget,2020,revised,ending_cash,Sewer: Ending Cash & investments,494995,10 of 15
+belvidere_il,FY2021_budget,2021,adopted,ending_cash,Sewer: Ending Cash & investments,514578,10 of 15
 belvidere_il,FY2022_budget,2020,actual_prelim,dept_revenues,Total General Administration Revenues,13073779,1 of 15
 belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_revenues,Total General Administration Revenues,13953070,1 of 15
 belvidere_il,FY2022_budget,2021,revised,dept_revenues,Total General Administration Revenues,13953070,1 of 15
@@ -1723,6 +2059,54 @@ belvidere_il,FY2022_budget,2020,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,
 belvidere_il,FY2022_budget,2021,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,5540,7 of 15
 belvidere_il,FY2022_budget,2021,revised,fund_net,NET REV OVER (UNDER) EXP,5540,7 of 15
 belvidere_il,FY2022_budget,2022,adopted,fund_net,NET REV OVER (UNDER) EXP,46524,7 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75606,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2022_budget,2021,revised,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2022_budget,2021,revised,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,546350,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,264901,8 of 15
+belvidere_il,FY2022_budget,2021,revised,beginning_cash,Water: Beginning Cash & Investments,264901,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,beginning_cash,Water: Beginning Cash & Investments,246842,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2035797,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2170518,8 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_revenues,Water: Total Water Department Revenues,2170518,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_revenues,Water: Total Water Department Revenues,2116431,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2187561,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2188577,8 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_expenses,Water: Total Water Department Expenses,2188577,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_expenses,Water: Total Water Department Expenses,2115402,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_net,Water: Net Water Department,-151764,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_net,Water: Net Water Department,-18059,8 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_net,Water: Net Water Department,-18059,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_net,Water: Net Water Department,1029,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,ending_cash,Water: Ending Cash & Investments,264901,8 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,246842,8 of 15
+belvidere_il,FY2022_budget,2021,revised,ending_cash,Water: Ending Cash & Investments,246842,8 of 15
+belvidere_il,FY2022_budget,2022,adopted,ending_cash,Water: Ending Cash & Investments,247871,8 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,812379,9 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,649936,9 of 15
+belvidere_il,FY2022_budget,2021,revised,beginning_cash,Sewer: Beginning Cash & Investments,649936,9 of 15
+belvidere_il,FY2022_budget,2022,adopted,beginning_cash,Sewer: Beginning Cash & Investments,666519,9 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3151617,9 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3369763,9 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_revenues,Sewer: Total Sewer Department Revenues,3369763,9 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3086181,9 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3165585,10 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3353180,10 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_expenses,Sewer: Total Sewer Department Expenses,3353180,10 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3070291,10 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,dept_net,Sewer: Net Sewer Department,-13968,10 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,dept_net,Sewer: Net Sewer Department,16583,10 of 15
+belvidere_il,FY2022_budget,2021,revised,dept_net,Sewer: Net Sewer Department,16583,10 of 15
+belvidere_il,FY2022_budget,2022,adopted,dept_net,Sewer: Net Sewer Department,15890,10 of 15
+belvidere_il,FY2022_budget,2020,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,649936,10 of 15
+belvidere_il,FY2022_budget,2021,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,666519,10 of 15
+belvidere_il,FY2022_budget,2021,revised,ending_cash,Sewer: Ending Cash & Investments,666519,10 of 15
+belvidere_il,FY2022_budget,2022,adopted,ending_cash,Sewer: Ending Cash & Investments,682409,10 of 15
 belvidere_il,FY2023_budget,2021,actual_prelim,dept_revenues,Total General Administration Revenues,14778113,1 of 15
 belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_revenues,Total General Administration Revenues,13741029,1 of 15
 belvidere_il,FY2023_budget,2023,adopted,dept_revenues,Total General Administration Revenues,16536779,1 of 15
@@ -1885,6 +2269,42 @@ belvidere_il,FY2023_budget,2023,adopted,fund_expenses,TOTAL GENERAL FUND EXPENSE
 belvidere_il,FY2023_budget,2021,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,3395091,7 of 15
 belvidere_il,FY2023_budget,2022,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,26441,7 of 15
 belvidere_il,FY2023_budget,2023,adopted,fund_net,NET REV OVER (UNDER) EXP,121662,7 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,264901,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,337932,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,beginning_cash,Water: Beginning Cash & Investments,338961,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2245017,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2116431,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_revenues,Water: Total Water Department Revenues,2077453,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2171986,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2115402,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_expenses,Water: Total Water Department Expenses,2076340,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_net,Water: Net Water Department,73031,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_net,Water: Net Water Department,1029,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_net,Water: Net Water Department,1113,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,ending_cash,Water: Ending Cash & Investments,337932,8 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,338961,8 of 15
+belvidere_il,FY2023_budget,2023,adopted,ending_cash,Water: Ending Cash & Investments,340074,8 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,649936,9 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,438683,9 of 15
+belvidere_il,FY2023_budget,2023,adopted,beginning_cash,Sewer: Beginning Cash & Investments,454573,9 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,2999435,9 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3086181,9 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,2967711,9 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3210688,10 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3070291,10 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,2937509,10 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,dept_net,Sewer: Net Sewer Department,-211253,10 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,dept_net,Sewer: Net Sewer Department,15890,10 of 15
+belvidere_il,FY2023_budget,2023,adopted,dept_net,Sewer: Net Sewer Department,30202,10 of 15
+belvidere_il,FY2023_budget,2021,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,438683,10 of 15
+belvidere_il,FY2023_budget,2022,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,454573,10 of 15
+belvidere_il,FY2023_budget,2023,adopted,ending_cash,Sewer: Ending Cash & Investments,484775,10 of 15
 belvidere_il,FY2024_budget,2022,actual_prelim,dept_revenues,Total General Administration Revenues,15956085,1 of 15
 belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_revenues,Total General Administration Revenues,16536779,1 of 15
 belvidere_il,FY2024_budget,2024,adopted,dept_revenues,Total General Administration Revenues,17292833,1 of 15
@@ -2050,6 +2470,42 @@ belvidere_il,FY2024_budget,2024,adopted,fund_expenses,TOTAL GENERAL FUND EXPENSE
 belvidere_il,FY2024_budget,2022,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,5045214,7 of 15
 belvidere_il,FY2024_budget,2023,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,121663,7 of 15
 belvidere_il,FY2024_budget,2024,adopted,fund_net,NET REV OVER (UNDER) EXP,1871712,7 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,264901,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,257237,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,beginning_cash,Water: Beginning Cash & Investments,258350,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2065389,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2077453,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_revenues,Water: Total Water Department Revenues,2130735,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2052261,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2076340,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_expenses,Water: Total Water Department Expenses,2126403,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_net,Water: Net Water Department,13128,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_net,Water: Net Water Department,1113,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_net,Water: Net Water Department,4332,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,ending_cash,Water: Ending Cash & Investments,278029,8 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,258350,8 of 15
+belvidere_il,FY2024_budget,2024,adopted,ending_cash,Water: Ending Cash & Investments,262682,8 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,649936,9 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,370126,9 of 15
+belvidere_il,FY2024_budget,2024,adopted,beginning_cash,Sewer: Beginning Cash & Investments,400598,9 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,2911218,9 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,2967711,9 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,2649654,9 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3191028,10 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,2937239,10 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3093634,10 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,dept_net,Sewer: Net Sewer Department,-279810,10 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,dept_net,Sewer: Net Sewer Department,30472,10 of 15
+belvidere_il,FY2024_budget,2024,adopted,dept_net,Sewer: Net Sewer Department,-443980,10 of 15
+belvidere_il,FY2024_budget,2022,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,370126,10 of 15
+belvidere_il,FY2024_budget,2023,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,400598,10 of 15
+belvidere_il,FY2024_budget,2024,adopted,ending_cash,Sewer: Ending Cash & Investments,-43382,10 of 15
 belvidere_il,FY2025_budget,2023,actual_prelim,dept_revenues,Total General Administration Revenues,19812578,1 of 15
 belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_revenues,Total General Administration Revenues,17292833,1 of 15
 belvidere_il,FY2025_budget,2025,adopted,dept_revenues,Total General Administration Revenues,18051899,1 of 15
@@ -2212,6 +2668,42 @@ belvidere_il,FY2025_budget,2025,adopted,fund_expenses,TOTAL GENERAL FUND EXPENSE
 belvidere_il,FY2025_budget,2023,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,6880050,7 of 15
 belvidere_il,FY2025_budget,2024,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,1682454,7 of 15
 belvidere_il,FY2025_budget,2025,adopted,fund_net,NET REV OVER (UNDER) EXP,2094477,7 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,ending_cash,Admin: Ending Cash,75632,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,257237,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,-93096,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,beginning_cash,Water: Beginning Cash & Investments,-90298,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2139026,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2130735,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_revenues,Water: Total Water Department Revenues,2023232,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2231622,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2127937,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_expenses,Water: Total Water Department Expenses,2314965,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_net,Water: Net Water Department,-92596,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_net,Water: Net Water Department,2798,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_net,Water: Net Water Department,-291733,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,ending_cash,Water: Ending Cash & Investments,164641,8 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,-90298,8 of 15
+belvidere_il,FY2025_budget,2025,adopted,ending_cash,Water: Ending Cash & Investments,-382031,8 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,649936,9 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,336314,9 of 15
+belvidere_il,FY2025_budget,2025,adopted,beginning_cash,Sewer: Beginning Cash & Investments,-109962,9 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,2899039,9 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,2649654,9 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,2960240,9 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3212661,10 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3095930,10 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3266676,10 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,dept_net,Sewer: Net Sewer Department,-313622,10 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,dept_net,Sewer: Net Sewer Department,-446276,10 of 15
+belvidere_il,FY2025_budget,2025,adopted,dept_net,Sewer: Net Sewer Department,-306436,10 of 15
+belvidere_il,FY2025_budget,2023,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,336314,10 of 15
+belvidere_il,FY2025_budget,2024,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,-109962,10 of 15
+belvidere_il,FY2025_budget,2025,adopted,ending_cash,Sewer: Ending Cash & Investments,-416398,10 of 15
 belvidere_il,FY2026_budget,2024,actual_prelim,dept_revenues,Total General Administration Revenues,21268937,1 of 16
 belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_revenues,Total General Administration Revenues,18083680,1 of 16
 belvidere_il,FY2026_budget,2026,adopted,dept_revenues,Total General Administration Revenues,16866791,1 of 16
@@ -2377,6 +2869,42 @@ belvidere_il,FY2026_budget,2026,adopted,fund_expenses,TOTAL GENERAL FUND EXPENSE
 belvidere_il,FY2026_budget,2024,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,4759093,8 of 16
 belvidere_il,FY2026_budget,2025,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,2095181,8 of 16
 belvidere_il,FY2026_budget,2026,adopted,fund_net,NET REV OVER (UNDER) EXP,0,8 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,75632,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,75632,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,beginning_cash,Admin: Beginning Cash & Investments,75632,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,ending_cash,Admin: Ending Cash,75632,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,ending_cash,Admin: Ending Cash,75632,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,ending_cash,Admin: Ending Cash,75632,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,164641,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,-131309,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,beginning_cash,Water: Beginning Cash & Investments,-423042,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2058215,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2023232,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_revenues,Water: Total Water Department Revenues,2389907,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2354165,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2314965,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_expenses,Water: Total Water Department Expenses,2389217,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_net,Water: Net Water Department,-295950,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_net,Water: Net Water Department,-291733,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_net,Water: Net Water Department,690,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,ending_cash,Water: Ending Cash & Investments,-131309,9 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,-423042,9 of 16
+belvidere_il,FY2026_budget,2026,adopted,ending_cash,Water: Ending Cash & Investments,-422352,9 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,336314,10 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,-36491,10 of 16
+belvidere_il,FY2026_budget,2026,adopted,beginning_cash,Sewer: Beginning Cash & Investments,-342927,10 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3175167,10 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,2960240,10 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3577240,10 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3547972,11 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3266676,11 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3555658,11 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,dept_net,Sewer: Net Sewer Department,-372805,11 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,dept_net,Sewer: Net Sewer Department,-306436,11 of 16
+belvidere_il,FY2026_budget,2026,adopted,dept_net,Sewer: Net Sewer Department,21582,11 of 16
+belvidere_il,FY2026_budget,2024,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,-36491,11 of 16
+belvidere_il,FY2026_budget,2025,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,-342927,11 of 16
+belvidere_il,FY2026_budget,2026,adopted,ending_cash,Sewer: Ending Cash & Investments,-321345,11 of 16
 belvidere_il,FY2027_budget,2025,actual_prelim,dept_revenues,Total General Administration Revenues,19645388,1 of 15
 belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_revenues,Total General Administration Revenues,16866791,1 of 15
 belvidere_il,FY2027_budget,2027,adopted,dept_revenues,Total General Administration Revenues,17129885,1 of 15
@@ -2536,3 +3064,39 @@ belvidere_il,FY2027_budget,2027,adopted,fund_expenses,TOTAL GENERAL FUND EXPENSE
 belvidere_il,FY2027_budget,2025,actual_prelim,fund_net,NET REV OVER (UNDER) EXP,3862997,7 of 15
 belvidere_il,FY2027_budget,2026,prior_doc_budget,fund_net,NET REV OVER (UNDER) EXP,0,7 of 15
 belvidere_il,FY2027_budget,2027,adopted,fund_net,NET REV OVER (UNDER) EXP,-10332827,7 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,beginning_cash,Admin: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,ending_cash,Admin: Ending Cash,0,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,beginning_cash,Water: Beginning Cash & Investments,146589,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,beginning_cash,Water: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,beginning_cash,Water: Beginning Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_revenues,Water: Total Water Department Revenues,2277019,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_revenues,Water: Total Water Department Revenues,2389907,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,dept_revenues,Water: Total Water Department Revenues,2710946,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_expenses,Water: Total Water Department Expenses,2423608,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_expenses,Water: Total Water Department Expenses,2389217,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,dept_expenses,Water: Total Water Department Expenses,2698542,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_net,Water: Net Water Department,-146589,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_net,Water: Net Water Department,690,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,dept_net,Water: Net Water Department,12404,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,ending_cash,Water: Ending Cash & Investments,0,8 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,ending_cash,Water: Ending Cash & Investments,690,8 of 15
+belvidere_il,FY2027_budget,2027,adopted,ending_cash,Water: Ending Cash & Investments,12404,8 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,beginning_cash,Sewer: Beginning Cash & Investments,-36491,pdf13
+belvidere_il,FY2027_budget,2026,prior_doc_budget,beginning_cash,Sewer: Beginning Cash & Investments,400843,pdf13
+belvidere_il,FY2027_budget,2027,adopted,beginning_cash,Sewer: Beginning Cash & Investments,0,pdf13
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_revenues,Sewer: Total Sewer Department Revenues,3969725,pdf13
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_revenues,Sewer: Total Sewer Department Revenues,3577240,pdf13
+belvidere_il,FY2027_budget,2027,adopted,dept_revenues,Sewer: Total Sewer Department Revenues,3670920,pdf13
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_expenses,Sewer: Total Sewer Department Expenses,3532391,10 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_expenses,Sewer: Total Sewer Department Expenses,3555658,10 of 15
+belvidere_il,FY2027_budget,2027,adopted,dept_expenses,Sewer: Total Sewer Department Expenses,3778908,10 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,dept_net,Sewer: Net Sewer Department,437334,10 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,dept_net,Sewer: Net Sewer Department,21582,10 of 15
+belvidere_il,FY2027_budget,2027,adopted,dept_net,Sewer: Net Sewer Department,-107988,10 of 15
+belvidere_il,FY2027_budget,2025,actual_prelim,ending_cash,Sewer: Ending Cash & Investments,400843,10 of 15
+belvidere_il,FY2027_budget,2026,prior_doc_budget,ending_cash,Sewer: Ending Cash & Investments,422425,10 of 15
+belvidere_il,FY2027_budget,2027,adopted,ending_cash,Sewer: Ending Cash & Investments,-107988,10 of 15

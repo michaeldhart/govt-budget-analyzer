@@ -23,3 +23,6 @@ exp_miscellaneous,expense_object,Miscellaneous,expense,,3,"object codes 7900-799
 exp_capital_projects,expense_object,Capital projects,expense,,4,object codes 8000-8199: street and storm projects
 exp_equipment_grants,expense_object,"Equipment, vehicles and grant expense",expense,,5,object codes 8200-8399
 exp_transfers,expense_object,Transfers out,expense,,6,"object codes 9000-9999: operating transfers out (reserves, capital, ARPA)"
+ws_charges,budget_category,Water and sewer charges and fees,revenue,,90,"Water/Sewer Fund revenue: consumption (4500), connection fees (4510), deposits (4520), Dep on Agr (4521), meters sold (4530), other services (4590), card fee (4595)"
+ws_other,budget_category,Other water and sewer revenue,revenue,,91,"Water/Sewer Fund: grants, interest, miscellaneous, reimbursements, sale of assets, transfers in from reserves"
+exp_set_aside,expense_object,Depreciation and bond set-asides,expense,,7,Water/Sewer Fund: unnumbered lines that move cash to the depreciation and bond payment funds (61-5-DDD-DEPSA / BONDSA are this project's pseudo account numbers)
