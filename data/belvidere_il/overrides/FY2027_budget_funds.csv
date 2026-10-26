@@ -1,0 +1,4 @@
+kind,page_label,key,column,value,reason
+not_in_total,14 of 15,41|Capital Assets Account@41-5-752-8300,,,"First of two 'Vehicles' lines (387022/267022/0) is a stale duplicate: the city's Capital Fund Totals (expenditures 2763259 = Public Benefit 1562846 + Capital Assets 1200413) count only the second Vehicles line (692603/267022/657022)"
+not_in_total,14 of 15,41|Capital Assets Account@41-5-752-8910,,,"First of two Bond/Loan principal lines (60000/65576/0) is a stale duplicate left out of the city's Capital Fund Totals; the second line (65000/65576/0) is counted"
+not_in_total,14 of 15,41|Capital Assets Account@41-5-752-8920,,,"First Bond/Loan interest line (4100/0/0) is a stale duplicate left out of the city's Capital Fund Totals; the second line (Interest Payment 1439) is counted"

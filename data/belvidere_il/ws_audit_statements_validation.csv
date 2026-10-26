@@ -1,0 +1,61 @@
+fiscal_year,statement,pdf_pages,reading,lines,totals_checked,problems,notes,overrides,second_reading,second_reading_amounts_agree,second_reading_ocr_problems
+2012,ws_stmt_net_position,31-32,gray,34,9,0,0,,none (text layer unusable),,
+2012,ws_stmt_income,33-33,gray,26,4,0,0,2,none (text layer unusable),,
+2012,ws_stmt_cash_flows,34-35,gray,28,6,0,0,,none (text layer unusable),,
+2012,across statements,,gray,,,0,1,,,,
+2013,ws_stmt_net_position,34-35,gray,27,7,0,0,,none (text layer unusable),12 differ,
+2013,ws_stmt_income,36-36,gray,18,3,0,0,1,none (text layer unusable),12 differ,
+2013,ws_stmt_cash_flows,37-37,gray,22,4,0,0,,none (text layer unusable),12 differ,
+2013,across statements,,gray,,,0,1,,,,
+2014,ws_stmt_net_position,35-36,gray,26,7,0,0,,none (text layer unusable),11 differ,
+2014,ws_stmt_income,37-37,gray,16,3,0,0,1,none (text layer unusable),11 differ,
+2014,ws_stmt_cash_flows,38-38,gray,20,4,0,0,,none (text layer unusable),11 differ,
+2014,across statements,,gray,,,0,1,,,,
+2015,ws_stmt_net_position,33-34,gray,26,7,0,0,,none (text layer unusable),16 differ,
+2015,ws_stmt_income,35-35,gray,13,3,0,0,1,none (text layer unusable),16 differ,
+2015,ws_stmt_cash_flows,36-36,gray,17,4,0,0,,none (text layer unusable),16 differ,
+2015,across statements,,gray,,,0,1,,,,
+2016,ws_stmt_net_position,31-32,text,34,11,0,0,,OCR,78,0
+2016,ws_stmt_income,33-33,text,16,3,0,0,0,OCR,78,0
+2016,ws_stmt_cash_flows,34-34,text,28,7,0,0,,OCR,78,0
+2016,across statements,,text,,,0,1,,,,
+2017,ws_stmt_net_position,31-32,text,36,11,0,0,,OCR,82,0
+2017,ws_stmt_income,33-33,text,17,3,0,0,0,OCR,82,0
+2017,ws_stmt_cash_flows,34-35,text,29,7,0,0,,OCR,82,0
+2017,across statements,,text,,,0,1,,,,
+2018,ws_stmt_net_position,32-33,text,36,11,0,0,,OCR,2 differ,2
+2018,ws_stmt_income,34-34,text,14,3,0,0,0,OCR,2 differ,2
+2018,ws_stmt_cash_flows,35-36,text,28,7,0,0,,OCR,2 differ,2
+2018,across statements,,text,,,0,1,,,,
+2019,ws_stmt_net_position,35-36,text,38,11,0,0,,OCR,88,0
+2019,ws_stmt_income,37-37,text,20,4,0,0,0,OCR,88,0
+2019,ws_stmt_cash_flows,38-39,text,30,7,0,0,,OCR,88,0
+2019,across statements,,text,,,0,1,,,,
+2020,ws_stmt_net_position,34-35,text,38,11,0,0,,OCR,1 differ,3
+2020,ws_stmt_income,36-36,text,19,4,0,0,0,OCR,1 differ,3
+2020,ws_stmt_cash_flows,37-38,text,33,7,0,0,,OCR,1 differ,3
+2020,across statements,,text,,,0,2,,,,
+2021,ws_stmt_net_position,31-32,text,38,11,0,0,,OCR,1 differ,3
+2021,ws_stmt_income,33-33,text,19,4,0,0,0,OCR,1 differ,3
+2021,ws_stmt_cash_flows,34-35,text,35,7,0,0,,OCR,1 differ,3
+2021,across statements,,text,,,0,2,,,,
+2022,ws_stmt_net_position,33-34,text,38,11,0,0,,OCR,90,0
+2022,ws_stmt_income,35-35,text,18,4,0,0,0,OCR,90,0
+2022,ws_stmt_cash_flows,36-37,text,34,8,0,0,,OCR,90,0
+2022,across statements,,text,,,0,1,,,,
+2023,ws_stmt_net_position,35-36,text,38,11,0,0,,OCR,89,0
+2023,ws_stmt_income,37-37,text,17,4,0,0,0,OCR,89,0
+2023,ws_stmt_cash_flows,38-39,text,34,8,0,0,,OCR,89,0
+2023,across statements,,text,,,0,1,,,,
+2024,ws_stmt_net_position,37-38,text,38,11,0,0,,OCR,1 differ,1
+2024,ws_stmt_income,39-39,text,14,3,0,0,0,OCR,1 differ,1
+2024,ws_stmt_cash_flows,40-41,text,34,7,0,0,,OCR,1 differ,1
+2024,across statements,,text,,,0,1,,,,
+2025,ws_stmt_net_position,37-38,text,38,11,0,0,,OCR,1 differ,1
+2025,ws_stmt_income,39-39,text,16,3,0,0,0,OCR,1 differ,1
+2025,ws_stmt_cash_flows,40-41,text,35,8,0,0,,OCR,1 differ,1
+2025,across statements,,text,,,0,1,,,,
+2026,ws_stmt_net_position,37-38,text,39,11,0,0,,OCR,89,0
+2026,ws_stmt_income,39-39,text,16,3,0,0,0,OCR,89,0
+2026,ws_stmt_cash_flows,40-41,text,34,8,0,0,,OCR,89,0
+2026,across statements,,text,,,0,1,,,,

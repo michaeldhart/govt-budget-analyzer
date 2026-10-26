@@ -42,7 +42,7 @@ def load_audits(audit_map):
     lines = defaultdict(dict)  # (doc, row_seq) -> {basis: amount} for rows of the audit's own year
     meta = {}
     for r in read_csv(E.data_path("facts.csv")):
-        if r["source_type"] != "audit" or r["source_column"] == "prior_year_actual":
+        if r["source_type"] != "audit" or r["source_column"] == "prior_year_actual" or r["fund_code"] != "01" or r["flow"] != "revenue":
             continue
         lines[(r["doc_id"], int(r["row_seq"]))][r["basis"]] = int(r["amount"])
         meta[(r["doc_id"], int(r["row_seq"]))] = (int(r["period_fy"]), r["audit_section"], r["label"])

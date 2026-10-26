@@ -23,3 +23,21 @@ fund_code,dept_code,name,function,note
 61,810,Water,Water and sewer,
 61,820,Sewer,Water and sewer,
 61,830,Collection System,Water and sewer,part of the Sewer department block in the budget
+10,310,Motor Fuel Tax (street),Public works,other budgeted funds
+12,110,Downtown TIF,Community development,other budgeted funds
+13,110,Kishwaukee TIF,Community development,other budgeted funds
+14,110,Belv Mall TIF Bond/Interest,Community development,other budgeted funds
+15,110,Kishwaukee II TIF,Community development,other budgeted funds
+16,110,Special Service Area 2 (Farmington Fields),Public works,other budgeted funds
+18,510,Library Operations,Health and welfare,other budgeted funds
+41,110,Capital Projects - Public Benefit,Capital projects and transfers,other budgeted funds
+41,752,Capital Projects - Capital Assets,Capital projects and transfers,other budgeted funds
+91,000,Escrow,Community development,other budgeted funds
+PP,000,Police Pension,Public safety,other budgeted funds
+FP,000,Fire Pension,Public safety,other budgeted funds
+10,000,Motor Fuel Tax,Capital projects and transfers,other budgeted funds
+18,000,Library Operations,Capital projects and transfers,other budgeted funds
+91,110,Escrow,Community development,other budgeted funds
+17,110,Special Service Area 3 (Farmington Fields),Public works,other budgeted funds
+17,000,Special Service Area 3 (Farmington Fields),Public works,other budgeted funds
+IPL,000,Ida Public Library,Health and welfare,other budgeted funds

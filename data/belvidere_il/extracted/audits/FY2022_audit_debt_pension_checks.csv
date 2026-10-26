@@ -1,0 +1,11 @@
+fiscal_year,check_group,passed,accepted_exceptions,failed
+2022,alloc,2,0,0
+2022,debt,80,0,0
+2022,def,12,0,0
+2022,mem,4,0,0
+2022,opeb,15,0,0
+2022,opeb_rsi,30,0,0
+2022,rf,75,0,0
+2022,rsi,297,0,0
+2022,sens,4,0,0
+2022,xchk,29,0,0

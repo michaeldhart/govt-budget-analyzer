@@ -1,0 +1,40 @@
+fiscal_year,doc,pdf_page,activity,group_idx,instrument,year_label,principal,interest,total,row_kind,line_id,flag
+2021,FY2021_audit,52,governmental,0,Capital Lease,2022,65507,3321,68828,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2022,60000,4133,64133,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2023,67147,1681,68828,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2023,60000,3264,63264,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2024,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2024,65000,2357,67357,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2025,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2025,65000,1415,66415,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2026,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2026,65098,472,65570,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2027,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2027,0,0,0,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2028,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2028,0,0,0,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,2029,0,0,0,year,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,2029,0,0,0,year,debt_certificates,
+2021,FY2021_audit,52,governmental,0,Capital Lease,TOTAL,132654,5002,137656,total,capital_lease,
+2021,FY2021_audit,52,governmental,1,Certificates,TOTAL,315098,11641,326739,total,debt_certificates,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2022,107565,16187,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2023,108914,14838,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2024,110280,13472,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2025,111662,12090,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2026,113062,10690,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2027,114480,9272,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2028,115916,7836,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2029,117369,6383,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2030,118841,4911,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2031,120331,3421,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2032,121840,1912,123752,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2033,61485,384,61869,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,2034,0,0,0,year,,
+2021,FY2021_audit,54,business_type,0,IEPA Loan,TOTAL,1321745,101396,1423141,total,,
+2021,FY2021_audit,90,component_unit,0,,2022,17764,9102,26866,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,2023,22170,10069,32239,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,2024,23121,9119,32240,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,2025,24160,8080,32240,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,2026,25220,7018,32238,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,2027,149293,1066,150359,year,mortgage_loan,total_derived
+2021,FY2021_audit,90,component_unit,0,,TOTAL,261728,44454,306182,total,mortgage_loan,total_derived

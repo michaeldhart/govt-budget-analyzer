@@ -1,0 +1,5 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2021,FY2021_budget,Ida Public Library,total_revenue:Total Revenue,budget_FY2021,885374,885374,0,ok
+2021,FY2021_budget,Ida Public Library,total_revenue:Total Revenue,budget_FY2020,844000,841900,2100,allowed_override
+2021,FY2021_budget,Ida Public Library,total_expense:Total Expenses,budget_FY2021,885374,885374,0,ok
+2021,FY2021_budget,Ida Public Library,total_expense:Total Expenses,budget_FY2020,844000,839750,4250,allowed_override

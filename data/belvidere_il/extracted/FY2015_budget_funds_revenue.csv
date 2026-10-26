@@ -1,0 +1,173 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,actual_FY2013,614916,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2014,601248,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_revised_FY2014,601248,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2015,601248,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,actual_FY2013,102192,no_account_number
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_FY2014,0,no_account_number
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_revised_FY2014,0,no_account_number
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_FY2015,102192,no_account_number
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,actual_FY2013,649,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_FY2014,500,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_revised_FY2014,500,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_FY2015,500,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,actual_FY2013,24069,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2014,24000,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_revised_FY2014,24000,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2015,24000,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4010,Property Taxes,actual_FY2013,303060,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4010,Property Taxes,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4010,Property Taxes,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4010,Property Taxes,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4600,Interest Income,actual_FY2013,923,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4600,Interest Income,budget_FY2014,13,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4600,Interest Income,budget_revised_FY2014,13,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4600,Interest Income,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4900,Misc Revenues 7,actual_FY2013,15000,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4900,Misc Revenues 7,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4900,Misc Revenues 7,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-4-110-4900,Misc Revenues 7,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,actual_FY2013,124104,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2014,152000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_revised_FY2014,152000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2015,95000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,actual_FY2013,5,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2014,15,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_revised_FY2014,15,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2015,5,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,actual_FY2013,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2015,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4010,Property Tax,actual_FY2013,20782,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4010,Property Tax,budget_FY2014,22000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4010,Property Tax,budget_revised_FY2014,22000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4010,Property Tax,budget_FY2015,24000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4600,Interest Income,actual_FY2013,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4600,Interest Income,budget_FY2014,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4600,Interest Income,budget_revised_FY2014,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-4600,Interest Income,budget_FY2015,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-9998,Oper Trfs-in (Sales Tax 5100m),actual_FY2013,0,auto_resolved
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-9998,Oper Trfs-in (Sales Tax 5100m),budget_FY2014,0,auto_resolved
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-9998,Oper Trfs-in (Sales Tax 5100m),budget_revised_FY2014,0,auto_resolved
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-4-110-9998,Oper Trfs-in (Sales Tax 5100m),budget_FY2015,0,auto_resolved
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,actual_FY2013,939,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2014,1000,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_revised_FY2014,1000,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2015,1079,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,actual_FY2013,0,from_prep_vote
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2014,0,from_prep_vote
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_revised_FY2014,0,from_prep_vote
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2015,0,from_prep_vote
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,actual_FY2013,19315,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2014,19535,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_revised_FY2014,19535,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2015,16000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,actual_FY2013,0,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2014,1,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_revised_FY2014,1,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2015,0,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,actual_FY2013,638330,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_FY2014,630000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_revised_FY2014,630000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_FY2015,650000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,actual_FY2013,38889,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_FY2014,30000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_revised_FY2014,30000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_FY2015,25000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-44XX,"Fines, Fees, and Gifts",actual_FY2013,63890,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-44XX,"Fines, Fees, and Gifts",budget_FY2014,58000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-44XX,"Fines, Fees, and Gifts",budget_revised_FY2014,58000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-44XX,"Fines, Fees, and Gifts",budget_FY2015,59000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4150,Grant Proceeds,actual_FY2013,29937,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4150,Grant Proceeds,budget_FY2014,26000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4150,Grant Proceeds,budget_revised_FY2014,26000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-4-510-4150,Grant Proceeds,budget_FY2015,26000,
+2015,FY2015_budget,14 of 16,Library Operations #18,000,18-4-000-OTHREV,Other Revenues,actual_FY2013,13917,no_account_number
+2015,FY2015_budget,14 of 16,Library Operations #18,000,18-4-000-OTHREV,Other Revenues,budget_FY2014,78000,no_account_number
+2015,FY2015_budget,14 of 16,Library Operations #18,000,18-4-000-OTHREV,Other Revenues,budget_revised_FY2014,78000,no_account_number
+2015,FY2015_budget,14 of 16,Library Operations #18,000,18-4-000-OTHREV,Other Revenues,budget_FY2015,80000,no_account_number
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,actual_FY2013,39772,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2014,40000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_revised_FY2014,40000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2015,40000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,actual_FY2013,2667,auto_resolved
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2014,0,auto_resolved
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_revised_FY2014,0,auto_resolved
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2015,0,auto_resolved
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,actual_FY2013,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2014,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_revised_FY2014,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2015,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,actual_FY2013,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_FY2014,300000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_revised_FY2014,300000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_FY2015,300000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,actual_FY2013,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,actual_FY2013,239,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2014,500,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_revised_FY2014,500,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2015,500,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,actual_FY2013,73542,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2014,15000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_revised_FY2014,15000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,actual_FY2013,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,actual_FY2013,305840,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2014,195188,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_revised_FY2014,195188,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2015,354535,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,actual_FY2013,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4600,Interest Income,actual_FY2013,993,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4600,Interest Income,budget_FY2014,1500,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4600,Interest Income,budget_revised_FY2014,1500,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4600,Interest Income,budget_FY2015,1500,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,actual_FY2013,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,actual_FY2013,32910,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2014,50000,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_revised_FY2014,50000,
+2015,FY2015_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2015,50500,
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,actual_FY2013,820789,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2014,800600,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_revised_FY2014,800600,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2015,948800,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,actual_FY2013,10000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2014,49987,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_revised_FY2014,49987,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2015,63852,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,actual_FY2013,1218995,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2014,800000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_revised_FY2014,800000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2015,800000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,actual_FY2013,308038,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2014,270000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_revised_FY2014,270000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2015,270000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,actual_FY2013,825979,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2014,570900,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_revised_FY2014,570900,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2015,723100,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,actual_FY2013,10000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2014,49987,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_revised_FY2014,49987,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2015,63852,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,actual_FY2013,798809,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2014,800000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_revised_FY2014,800000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2015,800000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions ee,actual_FY2013,185843,no_account_number from_prep_vote
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions ee,budget_FY2014,175000,no_account_number from_prep_vote
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions ee,budget_revised_FY2014,175000,no_account_number from_prep_vote
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions ee,budget_FY2015,185000,no_account_number from_prep_vote

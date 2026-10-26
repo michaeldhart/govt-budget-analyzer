@@ -1,0 +1,5 @@
+kind,page_label,key,column,value,note
+fixline,,"Depreciation : - 1,289,314",,"Depreciation - - 1,289,314","a scan mark in the original-budget cell read as ':'; the cell prints a dash (page image pdf p111; the same line on p114 reads '- - 1,289,314')"
+fixline,,"Travel 1,015 1,015",,"Travel - 1,015 1,015",the original-budget cell is blank (no dash printed); page image pdf p113. Zero placed; the Total Sewer ties with it
+drop,,"A eee F, 51",,,scan noise from the double rule above Total Operating Expenses (page image pdf p114)
+fixline,,"Miscellaneous 2,930 1,854 1,854",,"Miscellaneous 2,530 1,854 1,854","OCR read the original-budget cell 2,530 as 2,930; page image pdf p114 shows 2,530 and Total Collection System 4,358,758 ties with it"

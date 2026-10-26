@@ -1,6 +1,9 @@
 entity_id,flow,account_key,label_current,dept_code,department,category_id,treatment,first_fy,last_fy,note
 belvidere_il,contra_expense,110-4013,Telecom Tax Rebate,110,General Administration,non_tax,non_tax,2017,2018,
 belvidere_il,contra_expense,110-4540,Health Insurance Reimbursement,110,General Administration,non_tax,non_tax,2015,2027,
+belvidere_il,expense,10:310-6000,Street Maintenance,310,Motor Fuel Tax (street),exp_contractual,expense,2015,2027,"Motor Fuel Tax; first seen FY2015, last FY2027"
+belvidere_il,expense,10:310-7900,Miscellaneous Expenditures,310,Motor Fuel Tax (street),exp_miscellaneous,expense,2015,2027,"Motor Fuel Tax; first seen FY2015, last FY2027"
+belvidere_il,expense,10:310-8021,Rebuild Illinois Projects (Logan),310,Motor Fuel Tax (street),exp_capital_projects,expense,2022,2027,"Motor Fuel Tax; first seen FY2022, last FY2027"
 belvidere_il,expense,110-5000,Salaries - Elected Officials,110,General Administration,exp_personnel,expense,2015,2027,
 belvidere_il,expense,110-5010,Salaries - Regular - FT,110,General Administration,exp_personnel,expense,2015,2027,
 belvidere_il,expense,110-5130,Group Health Insurance,110,General Administration,exp_personnel,expense,2015,2027,
@@ -27,12 +30,52 @@ belvidere_il,expense,110-7903,Comcast Charges,110,General Administration,exp_mis
 belvidere_il,expense,110-7904,Historic Preservation,110,General Administration,exp_miscellaneous,expense,2015,2019,
 belvidere_il,expense,110-9990,Operating Transfer Out (ARPA),110,General Administration,exp_transfers,expense,2025,2027,
 belvidere_il,expense,110-9999,Operating Transfers Out,110,General Administration,exp_transfers,expense,2015,2027,
+belvidere_il,expense,12:110-6890,TIF Administrative Expense,110,Downtown TIF,exp_contractual,expense,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,expense,12:110-7900,Miscellaneous Expense,110,Downtown TIF,exp_miscellaneous,expense,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,expense,12:110-7930,Tax Increment Distributed,110,Downtown TIF,exp_miscellaneous,expense,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,expense,12:110-9999,Operating Transfer Out,110,Downtown TIF,exp_transfers,expense,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
 belvidere_il,expense,130-6100,Accounting & Auditing,130,Audit,exp_contractual,expense,2015,2027,
+belvidere_il,expense,13:110-6890,Other Contractual Services,110,Kishwaukee TIF,exp_contractual,expense,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
+belvidere_il,expense,13:110-7900,Miscellaneous Expense,110,Kishwaukee TIF,exp_miscellaneous,expense,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
+belvidere_il,expense,13:110-8920,Tax Increment Dist - Int,110,Kishwaukee TIF,exp_debt_service,expense,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
+belvidere_il,expense,13:110-8930,Tax Increment Dist - Prin,110,Kishwaukee TIF,exp_debt_service,expense,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
 belvidere_il,expense,140-5120,IMRF Premium Expense,140,IMRF,exp_personnel,expense,2015,2027,
 belvidere_il,expense,140-9999,Operating Transfers Out,140,IMRF,exp_transfers,expense,2025,2025,
+belvidere_il,expense,14:110-7900,Miscellaneous Expense,110,Belv Mall TIF Bond/Interest,exp_miscellaneous,expense,2017,2017,"Belv Mall TIF Bond/Interest; first seen FY2017, last FY2017"
+belvidere_il,expense,14:110-8920,Bond Interest Paid,110,Belv Mall TIF Bond/Interest,exp_debt_service,expense,2015,2017,"Belv Mall TIF Bond/Interest; first seen FY2015, last FY2017"
+belvidere_il,expense,14:110-8930,Bond Principal Paid,110,Belv Mall TIF Bond/Interest,exp_debt_service,expense,2015,2017,"Belv Mall TIF Bond/Interest; first seen FY2015, last FY2017"
 belvidere_il,expense,150-5110,FICA Expense,150,Social Security,exp_personnel,expense,2015,2027,
 belvidere_il,expense,150-5112,Medicare Expense,150,Social Security,exp_personnel,expense,2015,2027,
+belvidere_il,expense,15:110-6890,Other Contractual Services,110,Kishwaukee II TIF,exp_contractual,expense,2015,2027,"Kishwaukee II TIF; first seen FY2015, last FY2027"
+belvidere_il,expense,15:110-7900,Miscellaneous Expense,110,Kishwaukee II TIF,exp_miscellaneous,expense,2015,2027,"Kishwaukee II TIF; first seen FY2015, last FY2027"
 belvidere_il,expense,160-6800,Insurance Premium,160,Liability Insurance,exp_contractual,expense,2015,2027,
+belvidere_il,expense,16:110-6090,Maintenance Expense,110,Special Service Area 2 (Farmington Fields),exp_contractual,expense,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
+belvidere_il,expense,16:110-7900,Misc Expense,110,Special Service Area 2 (Farmington Fields),exp_miscellaneous,expense,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
+belvidere_il,expense,17:110-6090,Maintenance Expense,110,Special Service Area 3 (Farmington Fields),exp_contractual,expense,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
+belvidere_il,expense,17:110-7900,Misc Expense 7,110,Special Service Area 3 (Farmington Fields),exp_miscellaneous,expense,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
+belvidere_il,expense,18:510-5010,Librarian/Director,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-5020,Salaries,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-50XX,Salaries,510,Library Operations,exp_personnel,expense,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,expense,18:510-5110,FICA,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-5120,IMRF,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-5130,Employee Health Insurance,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-5152,Training,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-5156,Ads,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-6010,Maintenance/Repair,510,Library Operations,exp_contractual,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,expense,18:510-6230,Computer Equip/Upgrades,510,Library Operations,exp_contractual,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-6235,Online,510,Library Operations,exp_contractual,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-62XX,Computer Equip/Upgrades,510,Library Operations,exp_contractual,expense,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,expense,18:510-6300,"Heat, Light",510,Library Operations,exp_contractual,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,expense,18:510-6410,Machine Rental,510,Library Operations,exp_contractual,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,expense,18:510-6800,Insurance,510,Library Operations,exp_contractual,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,expense,18:510-7020,Supplies,510,Library Operations,exp_supplies,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,expense,18:510-7040,Janitorial Services,510,Library Operations,exp_supplies,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-7310,Books,510,Library Operations,exp_supplies,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-7320,Periodicals,510,Library Operations,exp_supplies,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-7330,A-V,510,Library Operations,exp_supplies,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-7340,Programming,510,Library Operations,exp_supplies,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,expense,18:510-73XX,"Book Periodicals, A V",510,Library Operations,exp_supplies,expense,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,expense,18:510-7900,Other Expenditures,510,Library Operations,exp_miscellaneous,expense,2015,2019,"Library Operations; first seen FY2015, last FY2019"
 belvidere_il,expense,210-5010,Salary - Regular - FT,210,Police,exp_personnel,expense,2015,2027,
 belvidere_il,expense,210-5040,Overtime,210,Police,exp_personnel,expense,2015,2027,
 belvidere_il,expense,210-5122,Police Pension,210,Police,exp_personnel,expense,2015,2027,
@@ -138,6 +181,35 @@ belvidere_il,expense,360-7020,Office Supplies,360,Engineering,exp_supplies,expen
 belvidere_il,expense,360-7030,Gas & Oil,360,Engineering,exp_supplies,expense,2015,2026,
 belvidere_il,expense,410-6830,Council on Aging,410,Health / Social Services,exp_contractual,expense,2015,2026,
 belvidere_il,expense,410-6832,Demolition / Nuisance,410,Health / Social Services,exp_contractual,expense,2015,2027,
+belvidere_il,expense,41:110-7900,Miscellaneous Expenditures,110,Capital Projects - Public Benefit,exp_miscellaneous,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:110-8020,Infrastructure,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:110-8021,Logan Ave. Reconstruction,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2020,2027,"Capital Projects; first seen FY2020, last FY2027"
+belvidere_il,expense,41:110-8022,Dawngate Detention Improvements,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2020,2027,"Capital Projects; first seen FY2020, last FY2027"
+belvidere_il,expense,41:110-8023,Low Flow Channel 6th to Appleton,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2020,2027,"Capital Projects; first seen FY2020, last FY2027"
+belvidere_il,expense,41:110-8024,5th Avenue Storm Sewer Bypass,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2022,2027,"Capital Projects; first seen FY2022, last FY2027"
+belvidere_il,expense,41:110-8025,Appleton Rd. Widening,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2022,2027,"Capital Projects; first seen FY2022, last FY2027"
+belvidere_il,expense,41:110-8026,Irene Road Realignment,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2025,2027,"Capital Projects; first seen FY2025, last FY2027"
+belvidere_il,expense,41:110-8029,Primary Clarifiers Upgrades,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2025,2027,"Capital Projects; first seen FY2025, last FY2027"
+belvidere_il,expense,41:110-8030,Parking Lot #7 Rehabilitation,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2025,2027,"Capital Projects; first seen FY2025, last FY2027"
+belvidere_il,expense,41:110-8031,Bike Path,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2026,2027,"Capital Projects; first seen FY2026, last FY2027"
+belvidere_il,expense,41:110-8032,Sludge Heater,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2026,2027,"Capital Projects; first seen FY2026, last FY2027"
+belvidere_il,expense,41:110-8033,Allen St Regional,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2026,2027,"Capital Projects; first seen FY2026, last FY2027"
+belvidere_il,expense,41:110-8034,Gateway Center Drive,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2026,2027,"Capital Projects; first seen FY2026, last FY2027"
+belvidere_il,expense,41:110-8035,Bike Path #3029,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:110-8036,Bike Path #3097,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:110-8037,Bike Path,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:110-8038,Bob's Park Streetscape,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:110-8039,Genoa Road Improvements,110,Capital Projects - Public Benefit,exp_capital_projects,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:110-9999,Operating Transfer Out,110,Capital Projects - Public Benefit,exp_transfers,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-7900,Misc. Expense,752,Capital Projects - Capital Assets,exp_miscellaneous,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8100,Buildings,752,Capital Projects - Capital Assets,exp_capital_projects,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8200,Equipment,752,Capital Projects - Capital Assets,exp_equipment_grants,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8300,Vehicles,752,Capital Projects - Capital Assets,exp_equipment_grants,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8400,Furniture Fixtures,752,Capital Projects - Capital Assets,exp_miscellaneous,expense,2015,2019,"Capital Projects; first seen FY2015, last FY2019"
+belvidere_il,expense,41:752-8910,Bond Loan Prin Payments,752,Capital Projects - Capital Assets,exp_debt_service,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8911,Principal Lease Payments,752,Capital Projects - Capital Assets,exp_debt_service,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,expense,41:752-8920,Bond Loan Int Payments,752,Capital Projects - Capital Assets,exp_debt_service,expense,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,expense,41:752-8921,Bond/Loan Interest Payments,752,Capital Projects - Capital Assets,exp_debt_service,expense,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
 belvidere_il,expense,610-6150,Planning Dept Services,610,Economic Development,exp_contractual,expense,2015,2027,
 belvidere_il,expense,610-6840,Economic / Business,610,Economic Development,exp_contractual,expense,2015,2027,
 belvidere_il,expense,610-6842,Tourism,610,Economic Development,exp_contractual,expense,2015,2027,
@@ -145,92 +217,92 @@ belvidere_il,expense,610-6844,Historic Preservation,610,Economic Development,exp
 belvidere_il,expense,615-6190,Strolls Entertainment,615,Buchanan Street Strolls,exp_contractual,expense,2021,2026,
 belvidere_il,expense,615-7040,Strolls Supplies,615,Buchanan Street Strolls,exp_supplies,expense,2021,2026,
 belvidere_il,expense,615-7900,Strolls Miscellaneous,615,Buchanan Street Strolls,exp_miscellaneous,expense,2021,2026,
-belvidere_il,expense,61:110-8910,Debt Serv - Principal,61:110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:110-8920,Debt Serv - Interest,61:110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:110-8930,Fiscal Charges,61:110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:110-9020,Amort - Bond Prem/Disc,61:110,Water / Sewer General Administration,exp_transfers,expense,2027,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:110-9031,Bond Issuance Cost,61:110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-4595,Tyler CC Fee,61:810,Water,exp_personnel,expense,2026,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5010,Salaries - Regular - FT,61:810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5040,Overtime,61:810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5079,FICA,61:810,Water,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5120,IMRF,61:810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5130,Group Health Insurance,61:810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-5140,Uniform Allowance,61:810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6000,Rep & Maint - Infrastructure,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6010,Rep & Maint - Buildings,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6020,Rep & Maint - Equipment,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6030,Rep & Maint - Vehicles,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6040,Rep & Maint - Contractual,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6190,Other Professional Services,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6200,Telephone,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6210,Postage,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6300,Utilities,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6410,Office Equip Rental/Maint,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6800,Liability Insurance,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-6812,Lab Expense,61:810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7020,Office Supplies,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7030,Gas & Oil,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7040,Operating Supplies,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7050,Chemicals,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7060,Meters,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7850,Bad Debt Expense,61:810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-7900,Miscellaneous Expenses,61:810,Water,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-8200,Equipment,61:810,Water,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-9999,Transfer Out,61:810,Water,exp_transfers,expense,2016,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-BONDSA,Bond Pmt Set Aside,61:810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-DEPSA,Depreciaton Set Aside,61:810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5010,Salaries - Regular - FT,61:820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5040,Overtime,61:820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5079,FICA,61:820,Sewer,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5120,IMRF,61:820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5130,Group Health Insurance,61:820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5131,Dental Insurance,61:820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5136,Unemployment Com,61:820,Sewer,exp_personnel,expense,2027,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5140,Uniform Allowance,61:820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5151,Travel,61:820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6005,Rep & Maint - Lift Stations,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6010,Rep & Maint - Buildings,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6020,Rep & Maint - Equipment,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6030,Rep & Maint - Vehicles,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6040,Rep & Maint - Contractual,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6120,IMRF,61:820,Sewer,exp_contractual,expense,2027,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6190,Other Professional Services,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6195,NARP Watershed,61:820,Sewer,exp_contractual,expense,2022,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6200,Telephone,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6210,Postage,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6300,Utilities,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6410,Office Equip Rental / Maint,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6800,Liability Insurance,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6812,Lab Expense,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-6814,Sludge Disposal,61:820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7010,Maintenance Supplies,61:820,Sewer,exp_supplies,expense,2026,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7020,Office Supplies,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7030,Gas & Oil,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7040,Operating Supplies,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7050,Chemicals,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7060,Meters,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7850,Bad Debt Expense,61:820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-7900,Miscellaneous Expense,61:820,Sewer,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-8200,Equipment,61:820,Sewer,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-9999,Operating Transfer Out,61:820,Sewer,exp_transfers,expense,2016,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-BONDSA,Bond Pmt Set Aside,61:820,Sewer,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-DEPSA,Depreciation Set Aside,61:820,Sewer,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5010,Salaries - Regular - FT,61:830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5040,Overtime,61:830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5079,FICA,61:830,Collection System,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5120,IMRF,61:830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5130,Group Health Ins,61:830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-5140,Uniform Allowance,61:830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-6000,Rep & Maint - Infrastructure,61:830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-6020,Rep & Maint - Equipment,61:830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-6030,Rep & Maint - Vehicles,61:830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-6200,Telephone,61:830,Collection System,exp_contractual,expense,2027,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-6410,Office Equip Rent/Maint,61:830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-7030,Gas & Oil,61:830,Collection System,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-7040,Operating Supplies,61:830,Collection System,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-7900,Misc. Expense,61:830,Collection System,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:830-8200,Equipment,61:830,Collection System,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:110-8910,Debt Serv - Principal,110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:110-8920,Debt Serv - Interest,110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:110-8930,Fiscal Charges,110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:110-9020,Amort - Bond Prem/Disc,110,Water / Sewer General Administration,exp_transfers,expense,2027,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:110-9031,Bond Issuance Cost,110,Water / Sewer General Administration,exp_transfers,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-4595,Tyler CC Fee,810,Water,exp_personnel,expense,2026,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5010,Salaries - Regular - FT,810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5040,Overtime,810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5079,FICA,810,Water,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5120,IMRF,810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5130,Group Health Insurance,810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-5140,Uniform Allowance,810,Water,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6000,Rep & Maint - Infrastructure,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6010,Rep & Maint - Buildings,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6020,Rep & Maint - Equipment,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6030,Rep & Maint - Vehicles,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6040,Rep & Maint - Contractual,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6190,Other Professional Services,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6200,Telephone,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6210,Postage,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6300,Utilities,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6410,Office Equip Rental/Maint,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6800,Liability Insurance,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-6812,Lab Expense,810,Water,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7020,Office Supplies,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7030,Gas & Oil,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7040,Operating Supplies,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7050,Chemicals,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7060,Meters,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7850,Bad Debt Expense,810,Water,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-7900,Miscellaneous Expenses,810,Water,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-8200,Equipment,810,Water,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-9999,Transfer Out,810,Water,exp_transfers,expense,2016,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-BONDSA,Bond Pmt Set Aside,810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-DEPSA,Depreciaton Set Aside,810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5010,Salaries - Regular - FT,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5040,Overtime,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5079,FICA,820,Sewer,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5120,IMRF,820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5130,Group Health Insurance,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5131,Dental Insurance,820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5136,Unemployment Com,820,Sewer,exp_personnel,expense,2027,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5140,Uniform Allowance,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5151,Travel,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6005,Rep & Maint - Lift Stations,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6010,Rep & Maint - Buildings,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6020,Rep & Maint - Equipment,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6030,Rep & Maint - Vehicles,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6040,Rep & Maint - Contractual,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6120,IMRF,820,Sewer,exp_contractual,expense,2027,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6190,Other Professional Services,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6195,NARP Watershed,820,Sewer,exp_contractual,expense,2022,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6200,Telephone,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6210,Postage,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6300,Utilities,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6410,Office Equip Rental / Maint,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6800,Liability Insurance,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6812,Lab Expense,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-6814,Sludge Disposal,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7010,Maintenance Supplies,820,Sewer,exp_supplies,expense,2026,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7020,Office Supplies,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7030,Gas & Oil,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7040,Operating Supplies,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7050,Chemicals,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7060,Meters,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7850,Bad Debt Expense,820,Sewer,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-7900,Miscellaneous Expense,820,Sewer,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-8200,Equipment,820,Sewer,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-9999,Operating Transfer Out,820,Sewer,exp_transfers,expense,2016,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-BONDSA,Bond Pmt Set Aside,820,Sewer,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-DEPSA,Depreciation Set Aside,820,Sewer,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5010,Salaries - Regular - FT,830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5040,Overtime,830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5079,FICA,830,Collection System,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5120,IMRF,830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5130,Group Health Ins,830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-5140,Uniform Allowance,830,Collection System,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-6000,Rep & Maint - Infrastructure,830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-6020,Rep & Maint - Equipment,830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-6030,Rep & Maint - Vehicles,830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-6200,Telephone,830,Collection System,exp_contractual,expense,2027,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-6410,Office Equip Rent/Maint,830,Collection System,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-7030,Gas & Oil,830,Collection System,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-7040,Operating Supplies,830,Collection System,exp_supplies,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-7900,Misc. Expense,830,Collection System,exp_miscellaneous,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:830-8200,Equipment,830,Collection System,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,751-8040,Columbia Ave (transfer to Capital),751,Utility Tax,exp_capital_projects,expense,2017,2020,
 belvidere_il,expense,751-8050,LAPP Project,751,Utility Tax,exp_capital_projects,expense,2015,2015,
 belvidere_il,expense,751-8052,Downtown Streetscape,751,Utility Tax,exp_capital_projects,expense,2016,2020,
@@ -239,6 +311,156 @@ belvidere_il,expense,751-8056,Tripp Rd. Reconstruction,751,Utility Tax,exp_capit
 belvidere_il,expense,751-8058,Southside Storm Sewer Study,751,Utility Tax,exp_capital_projects,expense,2020,2027,
 belvidere_il,expense,751-8060,Bellwood Detention Basin,751,Utility Tax,exp_capital_projects,expense,2018,2027,
 belvidere_il,expense,751-8062,Poplar Grove/ Lawrenceville Int,751,Utility Tax,exp_capital_projects,expense,2019,2027,
+belvidere_il,expense,91:000-DISBURS,Disbursement of Collected Fees a,000,Escrow,exp_miscellaneous,expense,2015,2027,"Escrow; first seen FY2015, last FY2027"
+belvidere_il,expense,FP:000-ADMIN,Administration,000,Fire Pension,exp_miscellaneous,expense,2021,2027,"Fire Pension; first seen FY2021, last FY2027"
+belvidere_il,expense,FP:000-BENEFIT,Benefit Payments,000,Fire Pension,exp_pension_payments,expense,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,expense,FP:000-OTHEXP,Other Expenditures whe,000,Fire Pension,exp_miscellaneous,expense,2015,2020,"Fire Pension; first seen FY2015, last FY2020"
+belvidere_il,expense,FP:000-REFUND,Refund of Contributions,000,Fire Pension,exp_pension_payments,expense,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,expense,IPL:000-21300,EMPLOYEE INSURANCE,000,Ida Public Library,exp_contractual,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
+belvidere_il,expense,IPL:000-31567,BOARD TRAINING,000,Ida Public Library,exp_contractual,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
+belvidere_il,expense,IPL:000-41004,Legal,000,Ida Public Library,exp_contractual,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-41005,LEGAL,000,Ida Public Library,exp_contractual,expense,2020,2025,"Ida Public Library; first seen FY2020, last FY2025"
+belvidere_il,expense,IPL:000-41006,AUDIT,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-41215,Friends summer reading,000,Ida Public Library,exp_contractual,expense,2021,2026,"Ida Public Library; first seen FY2021, last FY2026"
+belvidere_il,expense,IPL:000-41217,Friends Spending,000,Ida Public Library,exp_contractual,expense,2026,2026,"Ida Public Library; first seen FY2026, last FY2026"
+belvidere_il,expense,IPL:000-41512,Unrestricted Grant,000,Ida Public Library,exp_contractual,expense,,,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,expense,IPL:000-41518,Gardening Grant Spending,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-41520,Spending,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,expense,IPL:000-41527,Other Grant Spending,000,Ida Public Library,exp_contractual,expense,2026,2026,"Ida Public Library; first seen FY2026, last FY2026"
+belvidere_il,expense,IPL:000-41530,Game Guild Grant Spending,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,expense,IPL:000-41540,Gardening Grant Spending,000,Ida Public Library,exp_contractual,expense,2024,2026,"Ida Public Library; first seen FY2024, last FY2026"
+belvidere_il,expense,IPL:000-41545,IEEE Science Grant Spending,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,expense,IPL:000-41551,Per Capita: Collection,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-41552,Per Capita: Personnel,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-41553,Per Capita: Outsourcing 7,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-41554,Per Capita: Maintenance,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-50100,DIRECTOR,000,Ida Public Library,exp_personnel,expense,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
+belvidere_il,expense,IPL:000-50115,ASSISTANT DIRECTOR,000,Ida Public Library,exp_personnel,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-50200,STAFF,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51100,FICA/MEDICARE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51200,IMRF,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51300,EMPLOYEE INSURANCE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51301,DEDUCTIBLE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51302,Timeclock ADP),000,Ida Public Library,exp_personnel,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027"
+belvidere_il,expense,IPL:000-51519,Staff Meetings/End Year,000,Ida Public Library,exp_personnel,expense,2024,2027,"Ida Public Library; first seen FY2024, last FY2027"
+belvidere_il,expense,IPL:000-51520,STAFF EDUCATION,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51561,BANK FEES,000,Ida Public Library,exp_personnel,expense,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,expense,IPL:000-51562,COLLECTION AGENCY,000,Ida Public Library,exp_personnel,expense,2020,2020,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-51564,PRINTING,000,Ida Public Library,exp_personnel,expense,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
+belvidere_il,expense,IPL:000-51565,POSTAGE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51566,PROFESSIONAL EXPENSES,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51567,BOARD TRAINING,000,Ida Public Library,exp_personnel,expense,2020,2025,"Ida Public Library; first seen FY2020, last FY2025"
+belvidere_il,expense,IPL:000-51568,PATRON BOOK REPAY,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51569,OUTREACH,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51570,HOSPITALITY,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51571,MERCHANDISE EXPENSES,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51572,ADVERTISING,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-51580,BOOKMOBILE COLLECTION 7,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-51585,BOOKMOBILE INSURANCE,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-51590,BOOKMOBILE OPERATION,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-51595,Bookmobile repair,000,Ida Public Library,exp_personnel,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-51664,Program guides,000,Ida Public Library,exp_personnel,expense,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
+belvidere_il,expense,IPL:000-60100,MAINTENCE/SUPPLIES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-60101,RENTAL PROP EXPENSES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-60102,PROPERTY TAXES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-60103,Mortgages income from Sullivan/re,000,Ida Public Library,exp_contractual,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027"
+belvidere_il,expense,IPL:000-60104,Ins Deductible,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-60105,Cleaning service,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-61101,Infrastructure and Equipment,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,expense,IPL:000-61102,External Building Maintenance,000,Ida Public Library,exp_contractual,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-61103,Lawn Service,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-61104,Snow removal J,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-62301,TECH-ANNUAL COSTS,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-62302,TECH- HARDWARE,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-62303,TECH- SOFTWARE,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-62304,TECH- STATELINE,000,Ida Public Library,exp_contractual,expense,2020,2025,"Ida Public Library; first seen FY2020, last FY2025"
+belvidere_il,expense,IPL:000-62305,SERVICE SUBSCRIPTIONS,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-62306,Machine Rent,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-62307,Consortium,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-62308,Databases,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-62309,Printer supplies/repair,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-62351,CONSORTIUM,000,Ida Public Library,exp_contractual,expense,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,expense,IPL:000-62352,DATABASES,000,Ida Public Library,exp_contractual,expense,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,expense,IPL:000-63000,UTILITIES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-64100,MACHINE RENT,000,Ida Public Library,exp_contractual,expense,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,expense,IPL:000-68000,INSURANCE,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-68002,D&O Insurance,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-70200,LIBRARY SUPPLIES,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-71120,Unres Gift/Donation 7,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71121,Friends Summer Spending i,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71122,Friends Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71126,Other Grant Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71127,Gardening Grant Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71128,List Memorial,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-73100,BOOKS FUNDS),000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73101,YYA,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73102,Y SPANISH,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73103,Y NON FIC,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73104,Y EASY READER,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73105,Y FIC,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73106,A FIC,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73107,A NON FIC,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73108,ALP,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73109,A SPANISH,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73110,AUDIO ADULT,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73111,Blackburn Books,000,Ida Public Library,exp_supplies,expense,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
+belvidere_il,expense,IPL:000-73112,Sullivan Books,000,Ida Public Library,exp_supplies,expense,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
+belvidere_il,expense,IPL:000-73113,Y YA NF,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73114,Y PICTURE BOOKS,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73115,Memorial Books,000,Ida Public Library,exp_supplies,expense,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
+belvidere_il,expense,IPL:000-73117,Books-donation-Womens/Newcomer,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-73118,Reorder Books,000,Ida Public Library,exp_supplies,expense,2026,2027,"Ida Public Library; first seen FY2026, last FY2027"
+belvidere_il,expense,IPL:000-73119,Kits Replacements,000,Ida Public Library,exp_supplies,expense,2026,2027,"Ida Public Library; first seen FY2026, last FY2027"
+belvidere_il,expense,IPL:000-73120,AUDIOADULT,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-73121,Y Wonder Books,000,Ida Public Library,exp_supplies,expense,2026,2027,"Ida Public Library; first seen FY2026, last FY2027"
+belvidere_il,expense,IPL:000-73122,Storywalk Books,000,Ida Public Library,exp_supplies,expense,2026,2027,"Ida Public Library; first seen FY2026, last FY2027"
+belvidere_il,expense,IPL:000-73123,Library of Things,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-73125,ListMemorial,000,Ida Public Library,exp_supplies,expense,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,expense,IPL:000-73200,PERIODICALS,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73201,YA Manga,000,Ida Public Library,exp_supplies,expense,2025,2027,"Ida Public Library; first seen FY2025, last FY2027"
+belvidere_il,expense,IPL:000-73301,A-V CD,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73302,A-V Y DVD,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73303,A-V A DVD,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73304,ELECTRONIC MATS,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73306,Video games,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-73401,PROGRAMMING ADULT,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73402,PROGRAMMING SUMMER,000,Ida Public Library,exp_supplies,expense,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
+belvidere_il,expense,IPL:000-73403,PROGRAMMING YOUTH,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73404,LOCAL HISTORY,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73405,HOMETOWN CHRISTMAS,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73406,COMMUNITY GARDEN,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73407,TrunkorTreat,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-73408,PROGRAMMING TEEN,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-73409,Programming All Ages i,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-90000,Misc,000,Ida Public Library,exp_miscellaneous,expense,2024,2027,"Ida Public Library; first seen FY2024, last FY2027"
+belvidere_il,expense,IPL:000-90001,Credit Card Fees,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-90002,Lost/Damaged Fees 7,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-90007,Bank Fees,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-90008,Bad Debts,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-91562,COLLECTION AGENCY,000,Ida Public Library,exp_miscellaneous,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
+belvidere_il,expense,IPL:000-91568,PATRON BOOK REPAY,000,Ida Public Library,exp_miscellaneous,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
+belvidere_il,expense,IPL:000-AV,AV,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-BOOKS,BOOKS,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-COMPUTER,COMPUTER,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-JANITORIAL,JANITORIAL,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-MISC,MISC,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-ONLINE,ONLINE,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-PR,PR,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-PROGRAMMIN,PROGRAMMING,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
+belvidere_il,expense,IPL:000-SAIMAINTEN,sai MAINTENCE/SUPPLIES,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SIFICAMEDI,SI00 FICA/MEDICARE,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SISADVERTI,SIS72 ADVERTISING,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SISOHOSPIT,SIS7O HOSPITALITY,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SSSTAFFMEE,S1S19STAFFMEETINGS,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,PP:000-ADMIN,Administration,000,Police Pension,exp_miscellaneous,expense,2021,2027,"Police Pension; first seen FY2021, last FY2027"
+belvidere_il,expense,PP:000-BENEFIT,Benefit Payments,000,Police Pension,exp_pension_payments,expense,2015,2027,"Police Pension; first seen FY2015, last FY2027"
+belvidere_il,expense,PP:000-OTHEXP,Other Expenditures,000,Police Pension,exp_miscellaneous,expense,2015,2020,"Police Pension; first seen FY2015, last FY2020"
+belvidere_il,expense,PP:000-REFUND,Contribution Refunds,000,Police Pension,exp_pension_payments,expense,2015,2027,"Police Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,10:000-ILJOBS,IL Jobs Now,000,Motor Fuel Tax,fund_other_revenue,non_tax,2015,2020,"Motor Fuel Tax; first seen FY2015, last FY2020"
+belvidere_il,revenue,10:310-4140,State Allotment,310,Motor Fuel Tax (street),fund_intergovernmental,non_tax,2015,2027,"Motor Fuel Tax; first seen FY2015, last FY2027"
+belvidere_il,revenue,10:310-4150,Rebuild Illinois Funds,310,Motor Fuel Tax (street),fund_intergovernmental,non_tax,2022,2027,"Motor Fuel Tax; first seen FY2022, last FY2027"
+belvidere_il,revenue,10:310-4600,Interest on Investments,310,Motor Fuel Tax (street),fund_interest,non_tax,2015,2027,"Motor Fuel Tax; first seen FY2015, last FY2027"
+belvidere_il,revenue,10:310-4900,Misc Revenues,310,Motor Fuel Tax (street),fund_other_revenue,non_tax,2015,2027,"Motor Fuel Tax; first seen FY2015, last FY2027"
 belvidere_il,revenue,110-4010,RE Property Tax,110,General Administration,property_tax,tax,2015,2027,
 belvidere_il,revenue,110-4011,Hotel / Motel Tax,110,General Administration,other_taxes,tax,2015,2027,
 belvidere_il,revenue,110-4012,Auto Rental Tax,110,General Administration,other_taxes,tax,2015,2027,
@@ -278,17 +500,44 @@ belvidere_il,revenue,110-4902,Historic Preservation: Fund Raising,110,General Ad
 belvidere_il,revenue,110-4903,Historic Preservation: Grant Reimb,110,General Administration,non_tax,non_tax,2017,2026,
 belvidere_il,revenue,110-4950,Expense Reimbursement,110,General Administration,non_tax,non_tax,2027,2027,
 belvidere_il,revenue,110-9998,Operating Transfer in,110,General Administration,non_tax,non_tax,2015,2027,
+belvidere_il,revenue,12:110-4010,Property Taxes,110,Downtown TIF,fund_tax_levy,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,revenue,12:110-4600,Interest Income,110,Downtown TIF,fund_interest,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,revenue,12:110-4900,Misc Revenues 7,110,Downtown TIF,fund_other_revenue,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
 belvidere_il,revenue,130-4010,RE Taxes - Audit,130,Audit,property_tax,tax,2015,2027,
+belvidere_il,revenue,13:110-4010,Property Taxes,110,Kishwaukee TIF,fund_tax_levy,non_tax,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
+belvidere_il,revenue,13:110-4600,Interest Income,110,Kishwaukee TIF,fund_interest,non_tax,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
+belvidere_il,revenue,13:110-4900,Misc Revenue,110,Kishwaukee TIF,fund_other_revenue,non_tax,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
 belvidere_il,revenue,140-2013,IMRF Withheld,140,IMRF,non_tax,non_tax,2015,2017,
 belvidere_il,revenue,140-4010,RE Taxes - IMRF,140,IMRF,property_tax,tax,2015,2027,
 belvidere_il,revenue,140-4120,Replacement Tax,140,IMRF,replacement_tax,tax,2015,2027,
 belvidere_il,revenue,140-4600,interest income,140,IMRF,non_tax,non_tax,2015,2021,
 belvidere_il,revenue,140-4940,Expense Reimbursement,140,IMRF,non_tax,non_tax,2015,2027,
+belvidere_il,revenue,14:110-4010,Property Tax,110,Belv Mall TIF Bond/Interest,fund_tax_levy,non_tax,2015,2017,"Belv Mall TIF Bond/Interest; first seen FY2015, last FY2017"
+belvidere_il,revenue,14:110-4600,Interest Income,110,Belv Mall TIF Bond/Interest,fund_interest,non_tax,2015,2017,"Belv Mall TIF Bond/Interest; first seen FY2015, last FY2017"
+belvidere_il,revenue,14:110-9998,Oper Trfs-in (Sales Tax 5100m),110,Belv Mall TIF Bond/Interest,fund_transfer_in,non_tax,2015,2017,"Belv Mall TIF Bond/Interest; first seen FY2015, last FY2017"
 belvidere_il,revenue,150-4010,RE Taxes - FICA/Med,150,Social Security,property_tax,tax,2015,2027,
 belvidere_il,revenue,150-4940,Expense Reimbursement,150,Social Security,non_tax,non_tax,2015,2027,
 belvidere_il,revenue,150-4941,Library Expense Reimbursement,150,Social Security,non_tax,non_tax,2015,2027,
+belvidere_il,revenue,15:110-4010,Property Tax,110,Kishwaukee II TIF,fund_tax_levy,non_tax,2015,2027,"Kishwaukee II TIF; first seen FY2015, last FY2027"
+belvidere_il,revenue,15:110-4600,Interest Income,110,Kishwaukee II TIF,fund_interest,non_tax,2015,2027,"Kishwaukee II TIF; first seen FY2015, last FY2027"
 belvidere_il,revenue,160-4010,RE Taxes - Ins Liability,160,Liability Insurance,property_tax,tax,2015,2027,
 belvidere_il,revenue,160-4940,Expense Reimbursement,160,Liability Insurance,non_tax,non_tax,2015,2027,
+belvidere_il,revenue,16:110-4010,Property Tax,110,Special Service Area 2 (Farmington Fields),fund_tax_levy,non_tax,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
+belvidere_il,revenue,16:110-4600,Interest Income,110,Special Service Area 2 (Farmington Fields),fund_interest,non_tax,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
+belvidere_il,revenue,17:000-OTHER,Other,000,Special Service Area 3 (Farmington Fields),fund_other_revenue,non_tax,2020,2026,"Special Service Area 3 (Farmington Fields); first seen FY2020, last FY2026"
+belvidere_il,revenue,17:110-4010,Property Tax,110,Special Service Area 3 (Farmington Fields),fund_tax_levy,non_tax,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
+belvidere_il,revenue,17:110-4600,Interest Income ____,110,Special Service Area 3 (Farmington Fields),fund_interest,non_tax,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
+belvidere_il,revenue,18:000-OTHREV,Other Revenues,000,Library Operations,fund_other_revenue,non_tax,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,revenue,18:510-4010,Property Tax,510,Library Operations,fund_tax_levy,non_tax,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,revenue,18:510-4120,Replacement Taxes,510,Library Operations,fund_tax_levy,non_tax,2015,2019,"Library Operations; first seen FY2015, last FY2019"
+belvidere_il,revenue,18:510-4150,Grant Proceeds,510,Library Operations,fund_intergovernmental,non_tax,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,revenue,18:510-4151,Grants,510,Library Operations,fund_intergovernmental,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,revenue,18:510-4475,Non-Resident,510,Library Operations,fund_other_revenue,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,revenue,18:510-4477,Fines,510,Library Operations,fund_other_revenue,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,revenue,18:510-44XX,"Fines, Fees, and Gifts",510,Library Operations,fund_other_revenue,non_tax,2015,2017,"Library Operations; first seen FY2015, last FY2017"
+belvidere_il,revenue,18:510-4900,Other,510,Library Operations,fund_other_revenue,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,revenue,18:510-4950,Gift,510,Library Operations,fund_other_revenue,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
+belvidere_il,revenue,18:510-4960,Meeting Room,510,Library Operations,fund_other_revenue,non_tax,2018,2019,"Library Operations; first seen FY2018, last FY2019"
 belvidere_il,revenue,210-4010,RE Property Tax,210,Police,property_tax,tax,2015,2027,
 belvidere_il,revenue,210-4150,Grants,210,Police,non_tax,non_tax,2015,2027,
 belvidere_il,revenue,210-4400,Police Court Fines,210,Police,non_tax,non_tax,2022,2027,
@@ -341,38 +590,136 @@ belvidere_il,revenue,340-4010,RE Tax - Forestry,340,Forestry,property_tax,tax,20
 belvidere_il,revenue,340-4020,Forestry Grants,340,Forestry,non_tax,non_tax,2027,2027,
 belvidere_il,revenue,340-4900,Miscellaneous Revenues,340,Forestry,non_tax,non_tax,2015,2026,
 belvidere_il,revenue,340-UNLABELED,(unlabeled in source),340,Forestry,non_tax,non_tax,2026,2026,
+belvidere_il,revenue,41:110-4010,Property Tax,110,Capital Projects - Public Benefit,fund_tax_levy,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:110-4150,Grants,110,Capital Projects - Public Benefit,fund_intergovernmental,non_tax,2021,2027,"Capital Projects; first seen FY2021, last FY2027"
+belvidere_il,revenue,41:110-4600,Interest Income,110,Capital Projects - Public Benefit,fund_interest,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:110-4940,Expense Reimbursement,110,Capital Projects - Public Benefit,fund_other_revenue,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:110-4972,Assessment Pmt - Prin,110,Capital Projects - Public Benefit,fund_other_revenue,non_tax,2027,2027,"Capital Projects; first seen FY2027, last FY2027"
+belvidere_il,revenue,41:110-9998,Transfer-In,110,Capital Projects - Public Benefit,fund_transfer_in,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:752-4150,Grants,752,Capital Projects - Capital Assets,fund_intergovernmental,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:752-4600,Interest Income,752,Capital Projects - Capital Assets,fund_interest,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:752-4900,Miscellaneous Revenues,752,Capital Projects - Capital Assets,fund_other_revenue,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:752-4910,Impact Fee Revenue,752,Capital Projects - Capital Assets,fund_other_revenue,non_tax,2020,2027,"Capital Projects; first seen FY2020, last FY2027"
+belvidere_il,revenue,41:752-4952,Bank Loan Proceeds,752,Capital Projects - Capital Assets,fund_other_revenue,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
+belvidere_il,revenue,41:752-9998,Operating Transfers In,752,Capital Projects - Capital Assets,fund_transfer_in,non_tax,2015,2027,"Capital Projects; first seen FY2015, last FY2027"
 belvidere_il,revenue,615-4490,Strolls Vendor Fee,615,Buchanan Street Strolls,non_tax,non_tax,2021,2024,
 belvidere_il,revenue,615-4495,Strolls Sponsors,615,Buchanan Street Strolls,non_tax,non_tax,2021,2026,
 belvidere_il,revenue,615-4900,Strolls Miscellaneous,615,Buchanan Street Strolls,non_tax,non_tax,2021,2026,
-belvidere_il,revenue,61:110-4900,Miscellaneous Revenues,61:110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:110-4901,Bond Proceeds,61:110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:110-9998,Operating Transfer In,61:110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4150,Grants,61:810,Water,ws_other,non_tax,2027,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4500,Water Consumption,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4510,Connection Fees,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4520,Deposits on Agreement,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4521,Dep on Agr - Westhills,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4530,Meters Sold,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4590,Other Services,61:810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4595,Tyler CC Fee,61:810,Water,ws_charges,non_tax,2027,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4600,Interest,61:810,Water,ws_other,non_tax,2020,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4900,Miscellaneous Revenues,61:810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4940,Expense Reimbursement,61:810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-4950,Sale of Assets,61:810,Water,ws_other,non_tax,2018,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:810-9998,Operating Transfers-in (Reserves),61:810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4150,Grants,61:820,Sewer,ws_other,non_tax,2022,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4500,Sewer Consumption,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4510,Connection Fees,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4520,Deposits on Agreement,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4521,Dep on Agr - Westhills,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4530,Meters Sold,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4590,Other Services,61:820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4600,Interest,61:820,Sewer,ws_other,non_tax,2020,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4900,Miscellaneous Revenues,61:820,Sewer,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-4940,Expense Reimbursement,61:820,Sewer,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
-belvidere_il,revenue,61:820-9998,Operating Transfers-In (Reserves),61:820,Sewer,ws_other,non_tax,2015,2026,Water/Sewer Fund (61)
+belvidere_il,revenue,61:110-4900,Miscellaneous Revenues,110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:110-4901,Bond Proceeds,110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:110-9998,Operating Transfer In,110,Water / Sewer General Administration,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4150,Grants,810,Water,ws_other,non_tax,2027,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4500,Water Consumption,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4510,Connection Fees,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4520,Deposits on Agreement,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4521,Dep on Agr - Westhills,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4530,Meters Sold,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4590,Other Services,810,Water,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4595,Tyler CC Fee,810,Water,ws_charges,non_tax,2027,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4600,Interest,810,Water,ws_other,non_tax,2020,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4900,Miscellaneous Revenues,810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4940,Expense Reimbursement,810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-4950,Sale of Assets,810,Water,ws_other,non_tax,2018,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:810-9998,Operating Transfers-in (Reserves),810,Water,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4150,Grants,820,Sewer,ws_other,non_tax,2022,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4500,Sewer Consumption,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4510,Connection Fees,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4520,Deposits on Agreement,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4521,Dep on Agr - Westhills,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4530,Meters Sold,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4590,Other Services,820,Sewer,ws_charges,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4600,Interest,820,Sewer,ws_other,non_tax,2020,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4900,Miscellaneous Revenues,820,Sewer,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-4940,Expense Reimbursement,820,Sewer,ws_other,non_tax,2015,2027,Water/Sewer Fund (61)
+belvidere_il,revenue,61:820-9998,Operating Transfers-In (Reserves),820,Sewer,ws_other,non_tax,2015,2026,Water/Sewer Fund (61)
 belvidere_il,revenue,751-4131,Utility Tax - Electric,751,Utility Tax,utility_taxes,tax,2015,2027,
 belvidere_il,revenue,751-4132,Utility Tax - Gas,751,Utility Tax,utility_taxes,tax,2015,2027,
 belvidere_il,revenue,751-4133,Utility Tax - Telephone,751,Utility Tax,utility_taxes,tax,2015,2027,
 belvidere_il,revenue,751-4150,Grants,751,Utility Tax,non_tax,non_tax,2021,2027,
 belvidere_il,revenue,751-4940,Expense Reimbursement,751,Utility Tax,non_tax,non_tax,2018,2027,
+belvidere_il,revenue,91:000-2046,Impact Fees,000,Escrow,fund_other_revenue,non_tax,2026,2027,"Escrow; first seen FY2026, last FY2027"
+belvidere_il,revenue,91:000-2060,Due to Developers,000,Escrow,fund_other_revenue,non_tax,2027,2027,"Escrow; first seen FY2027, last FY2027"
+belvidere_il,revenue,91:110-4490,Other Fees,110,Escrow,fund_other_revenue,non_tax,2015,2027,"Escrow; first seen FY2015, last FY2027"
+belvidere_il,revenue,91:110-4600,Interest Income,110,Escrow,fund_interest,non_tax,2015,2027,"Escrow; first seen FY2015, last FY2027"
+belvidere_il,revenue,91:110-4900,Miscellaneous Revenues,110,Escrow,fund_other_revenue,non_tax,2015,2027,"Escrow; first seen FY2015, last FY2027"
+belvidere_il,revenue,91:110-4971,Escrow/Land Cash Fees,110,Escrow,fund_other_revenue,non_tax,2015,2026,"Escrow; first seen FY2015, last FY2026"
+belvidere_il,revenue,FP:000-CONTRIB,Contributions ee,000,Fire Pension,fund_contributions,non_tax,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,FP:000-INTINC,Interest Inc/Market Fluctuation,000,Fire Pension,fund_interest,non_tax,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,FP:000-PTAX,Property Tax,000,Fire Pension,fund_tax_levy,non_tax,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,FP:000-RTAX,Replacement Tax,000,Fire Pension,fund_tax_levy,non_tax,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,IPL:000-40100,APPROPRIATION,000,Ida Public Library,fund_other_revenue,non_tax,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,revenue,IPL:000-41200,REPLACEMENT TAX,000,Ida Public Library,fund_other_revenue,non_tax,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,revenue,IPL:000-41214,FRIENDS,000,Ida Public Library,fund_other_revenue,non_tax,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,revenue,IPL:000-41215,FRIENDS SUMMER,000,Ida Public Library,fund_other_revenue,non_tax,2020,2025,"Ida Public Library; first seen FY2020, last FY2025"
+belvidere_il,revenue,IPL:000-41216,Friends: Summer,000,Ida Public Library,fund_other_revenue,non_tax,2026,2027,"Ida Public Library; first seen FY2026, last FY2027"
+belvidere_il,revenue,IPL:000-41403,Per Capita Grant,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41404,Restricted Grants,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41405,Unrestricted Grants,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41406,Women's Club Donation,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41407,List Dividends/Interest,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41408,Sullivan Dividends,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41409,Gardening Grant,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41410,Blackburn Interest,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41411,Unres Gift/Donation,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-41500,PER CAPITA,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-41505,Games Grant-R,000,Ida Public Library,fund_other_revenue,non_tax,2023,2024,"Ida Public Library; first seen FY2023, last FY2024"
+belvidere_il,revenue,IPL:000-41510,RestrictedGrants,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,revenue,IPL:000-41511,Unrestricted Grants,000,Ida Public Library,fund_other_revenue,non_tax,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,revenue,IPL:000-41512,Unrestricted Grants,000,Ida Public Library,fund_other_revenue,non_tax,2024,2026,"Ida Public Library; first seen FY2024, last FY2026"
+belvidere_il,revenue,IPL:000-41513,Women's Club Donation-R a,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,revenue,IPL:000-41514,LIST DIVIDENDS/INTEREST,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-41515,Sullivan Dividends,000,Ida Public Library,fund_other_revenue,non_tax,2021,2026,"Ida Public Library; first seen FY2021, last FY2026"
+belvidere_il,revenue,IPL:000-41518,GardeningGrant_,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,revenue,IPL:000-41524,Blackburn Interest,000,Ida Public Library,fund_other_revenue,non_tax,2021,2026,"Ida Public Library; first seen FY2021, last FY2026"
+belvidere_il,revenue,IPL:000-44701,Fax,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44702,Guest Pass,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44703,Non Resident Fees,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44704,Copy/Print,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44705,Computer Card,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44706,Replacement Card,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44707,Lost/Damaged Materials,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44709,Notary,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44710,Auto Registration Fee,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44711,Meeting Room,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44712,Fines,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44713,Credit Card Service Charge,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-44750,NON RESIDENT FEES,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-44770,FINES,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-48000,INTEREST/MEMORIAL FUNDS,000,Ida Public Library,fund_other_revenue,non_tax,2020,2024,"Ida Public Library; first seen FY2020, last FY2024"
+belvidere_il,revenue,IPL:000-48001,RENT,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-48005,Misc Income,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-48006,Ida Merchandise,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-48007,Headphones,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-49000,OTHER,000,Ida Public Library,fund_other_revenue,non_tax,2020,2025,"Ida Public Library; first seen FY2020, last FY2025"
+belvidere_il,revenue,IPL:000-49001,FAX,000,Ida Public Library,fund_other_revenue,non_tax,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,revenue,IPL:000-49002,GUEST PASS,000,Ida Public Library,fund_other_revenue,non_tax,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,revenue,IPL:000-49003,HISTORY BOOK,000,Ida Public Library,fund_other_revenue,non_tax,2020,2024,"Ida Public Library; first seen FY2020, last FY2024"
+belvidere_il,revenue,IPL:000-49004,COPY/PRINT,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49005,COMPUTER CARD,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49006,REPLACEMENT CARD,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49007,FLASH DRIVE,000,Ida Public Library,fund_other_revenue,non_tax,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
+belvidere_il,revenue,IPL:000-49008,HEADPHONES,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49009,LOST/DAMAGED MATERIALS,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49010,REPLACEMENT BARCODE,000,Ida Public Library,fund_other_revenue,non_tax,2020,2024,"Ida Public Library; first seen FY2020, last FY2024"
+belvidere_il,revenue,IPL:000-49011,COLLECTION AGENCY,000,Ida Public Library,fund_other_revenue,non_tax,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
+belvidere_il,revenue,IPL:000-49015,B00KM0B1LE Po,000,Ida Public Library,fund_other_revenue,non_tax,2023,2024,"Ida Public Library; first seen FY2023, last FY2024"
+belvidere_il,revenue,IPL:000-49020,D00R DONATION-R,000,Ida Public Library,fund_other_revenue,non_tax,2023,2024,"Ida Public Library; first seen FY2023, last FY2024"
+belvidere_il,revenue,IPL:000-49025,Notary,000,Ida Public Library,fund_other_revenue,non_tax,2024,2026,"Ida Public Library; first seen FY2024, last FY2026"
+belvidere_il,revenue,IPL:000-49100,Auto Registrations,000,Ida Public Library,fund_other_revenue,non_tax,2024,2026,"Ida Public Library; first seen FY2024, last FY2026"
+belvidere_il,revenue,IPL:000-49500,GIFT/DONATION,000,Ida Public Library,fund_other_revenue,non_tax,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
+belvidere_il,revenue,IPL:000-49501,IDA MERCHANDISE,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49530,Unrestricted Gift/Donation,000,Ida Public Library,fund_other_revenue,non_tax,2025,2026,"Ida Public Library; first seen FY2025, last FY2026"
+belvidere_il,revenue,IPL:000-49600,MEETING ROOM,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
+belvidere_il,revenue,IPL:000-49601,PROCTORING,000,Ida Public Library,fund_other_revenue,non_tax,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
+belvidere_il,revenue,IPL:000-90001,CC INCOME,000,Ida Public Library,fund_other_revenue,non_tax,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
+belvidere_il,revenue,IPL:000-90002,Checking interest sid,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,revenue,IPL:000-BUDGETCARR,BUDGET CARRYOVER,000,Ida Public Library,fund_other_revenue,non_tax,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
+belvidere_il,revenue,IPL:000-GIFTDONATI,GIFT/DONATION,000,Ida Public Library,fund_other_revenue,non_tax,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
+belvidere_il,revenue,IPL:000-IMPACTFEES,Impact Fees,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,revenue,IPL:000-OTHEREEE,Other eee,000,Ida Public Library,fund_other_revenue,non_tax,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,revenue,IPL:000-SSBUDGETCA,ss BUDGETCARRYOVER,000,Ida Public Library,fund_other_revenue,non_tax,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,revenue,IPL:000-UNSPECGRAN,Unspec. grants,000,Ida Public Library,fund_other_revenue,non_tax,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
+belvidere_il,revenue,PP:000-CONTRIB,Contributions,000,Police Pension,fund_contributions,non_tax,2015,2027,"Police Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,PP:000-INTINC,Interest Inc/Mkt Fluctuation,000,Police Pension,fund_interest,non_tax,2015,2027,"Police Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,PP:000-PTAX,Property Tax,000,Police Pension,fund_tax_levy,non_tax,2015,2027,"Police Pension; first seen FY2015, last FY2027"
+belvidere_il,revenue,PP:000-RTAX,Replacement Tax,000,Police Pension,fund_tax_levy,non_tax,2015,2027,"Police Pension; first seen FY2015, last FY2027"

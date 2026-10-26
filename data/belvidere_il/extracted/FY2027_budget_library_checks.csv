@@ -1,0 +1,47 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL TAX,budget_FY2026,882705,882705,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL TAX,budget_FY2027,901705,901705,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL GRANTS/DONATIONS/ENDOWMENTS,budget_FY2026,78975,78975,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL GRANTS/DONATIONS/ENDOWMENTS,budget_FY2027,80775,80775,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL FINES FEES,budget_FY2026,26740,26740,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL FINES FEES,budget_FY2027,38140,38140,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL FRIENDS,budget_FY2026,6300,6300,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL FRIENDS,budget_FY2027,7000,7000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2026,24420,24420,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2027,25220,25220,0,ok
+2027,FY2027_budget,Ida Public Library,total_revenue:TOTAL REVENUE,budget_FY2026,1019140,1019140,0,ok
+2027,FY2027_budget,Ida Public Library,total_revenue:TOTAL REVENUE,budget_FY2027,1052840,1052840,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL LEGAL ACCOUNTING,budget_FY2026,7000,7000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL LEGAL ACCOUNTING,budget_FY2027,7000,7000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL GRANT/DONATION/ENDOWMENT,budget_FY2026,8100,8100,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL GRANT/DONATION/ENDOWMENT,budget_FY2027,8800,8800,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PERSONNEL,budget_FY2026,734500,734500,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PERSONNEL,budget_FY2027,732169,732169,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PUBLIC RELATIONS,budget_FY2026,5400,5400,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PUBLIC RELATIONS,budget_FY2027,3600,3600,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL BOOKMOBILE,budget_FY2026,25500,25500,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL BOOKMOBILE,budget_FY2027,23100,23100,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PROPERTIES,budget_FY2026,89590,89590,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PROPERTIES,budget_FY2027,128990,128990,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL INFORMATION TECHNOLOGY,budget_FY2026,34300,34300,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL INFORMATION TECHNOLOGY,budget_FY2027,43501,43501,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL INSURANCE,budget_FY2026,33000,33000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL INSURANCE,budget_FY2027,30000,30000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL SUPPLIES,budget_FY2026,20500,20500,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL SUPPLIES,budget_FY2027,20800,20800,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Adult Collection,budget_FY2026,10050,10050,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Adult Collection,budget_FY2027,6750,6750,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Other Collection,budget_FY2026,30500,30500,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Other Collection,budget_FY2027,30430,30430,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Young Adult Collection,budget_FY2026,2750,2750,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Young Adult Collection,budget_FY2027,2000,2000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Youth Collection,budget_FY2026,11700,11700,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:Total Youth Collection,budget_FY2027,8950,8950,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL COLLECTION,budget_FY2026,55000,55000,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL COLLECTION,budget_FY2027,48130,48130,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PROGRAMMING,budget_FY2026,5150,5150,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL PROGRAMMING,budget_FY2027,4850,4850,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2026,1100,1100,0,ok
+2027,FY2027_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2027,1900,1900,0,ok
+2027,FY2027_budget,Ida Public Library,total_expense:TOTAL EXPENSES,budget_FY2026,1019140,1019140,0,ok
+2027,FY2027_budget,Ida Public Library,total_expense:TOTAL EXPENSES,budget_FY2027,1052840,1052840,0,ok

@@ -1,0 +1,157 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance (salt),actual_FY2025,123708,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance (salt),budget_FY2026,200000,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance (salt),budget_FY2027,150000,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,actual_FY2025,744550,duplicate_account
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2026,1556570,duplicate_account
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2027,1140000,duplicate_account
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,actual_FY2025,0,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2026,0,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2027,0,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-8021,Rebuild Hlinois Projects (Logan),actual_FY2025,0,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-8021,Rebuild Hlinois Projects (Logan),budget_FY2026,0,
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-8021,Rebuild Hlinois Projects (Logan),budget_FY2027,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,actual_FY2025,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2026,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2027,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,actual_FY2025,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2026,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2027,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,actual_FY2025,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2026,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2027,0,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,actual_FY2025,828,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2026,4000,
+2027,FY2027_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2027,122292,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,actual_FY2025,0,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2026,0,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2027,0,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,actual_FY2025,0,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2026,0,
+2027,FY2027_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2027,0,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,actual_FY2025,24778,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2026,21000,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2027,21630,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,actual_FY2025,2452,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2026,0,
+2027,FY2027_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2027,0,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,actual_FY2025,8032,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2026,9000,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2027,11500,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,actual_FY2025,274,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,budget_FY2026,0,
+2027,FY2027_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,actual_FY2025,139792,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2026,250000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2027,250000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,actual_FY2025,269991,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2026,300000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2027,600000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,actual_FY2025,1320,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,actual_FY2025,2722,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,actual_FY2025,84414,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8024,5th Avenue Storm Sewer Bypass,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8024,5th Avenue Storm Sewer Bypass,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8024,5th Avenue Storm Sewer Bypass,budget_FY2027,5900000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8025,Appleton Rd. Widening,actual_FY2025,21758,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8025,Appleton Rd. Widening,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8025,Appleton Rd. Widening,budget_FY2027,2082849,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8026,Irene Road Realignment,actual_FY2025,60566,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8026,Irene Road Realignment,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8026,Irene Road Realignment,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8029,Primary Clarifiers Upgrades,actual_FY2025,799549,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8029,Primary Clarifiers Upgrades,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8029,Primary Clarifiers Upgrades,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8030,Parking Lot #7 Rehabilitation,actual_FY2025,8753,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8030,Parking Lot #7 Rehabilitation,budget_FY2026,600000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8030,Parking Lot #7 Rehabilitation,budget_FY2027,1530132,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8031,Bike Path,actual_FY2025,69163,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8031,Bike Path,budget_FY2026,1148694,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8031,Bike Path,budget_FY2027,661255,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8035,Bike Path #3029,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8035,Bike Path #3029,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8035,Bike Path #3029,budget_FY2027,100000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8036,Bike Path #3097,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8036,Bike Path #3097,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8036,Bike Path #3097,budget_FY2027,180000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8037,Bike Path,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8037,Bike Path,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8037,Bike Path,budget_FY2027,500000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8038,Bob's Park Streetscape,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8038,Bob's Park Streetscape,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8038,Bob's Park Streetscape,budget_FY2027,647686,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8032,Sludge Heater,actual_FY2025,98943,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8032,Sludge Heater,budget_FY2026,800000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8032,Sludge Heater,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8033,Allen St Regional,actual_FY2025,5875,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8033,Allen St Regional,budget_FY2026,990603,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8033,Allen St Regional,budget_FY2027,222000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8034,Gateway Center Drive,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8034,Gateway Center Drive,budget_FY2026,3718640,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8034,Gateway Center Drive,budget_FY2027,3718640,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8039,Genoa Road Improvements,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8039,Genoa Road Improvements,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-8039,Genoa Road Improvements,budget_FY2027,387500,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,actual_FY2025,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,actual_FY2025,2280,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2026,4663,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2027,4663,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,actual_FY2025,140086,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2026,115000,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2027,723760,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,actual_FY2025,231984,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2026,224242,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2027,610450,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,actual_FY2025,387022,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2026,267022,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2027,0,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,actual_FY2025,60000,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2026,65576,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2027,0,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,actual_FY2025,4100,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2026,0,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2027,0,not_in_printed_total
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,actual_FY2025,692603,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2026,267022,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2027,657022,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond/Loan Principal Payments,actual_FY2025,65000,ocr_zero_guess duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond/Loan Principal Payments,budget_FY2026,65576,ocr_zero_guess duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond/Loan Principal Payments,budget_FY2027,0,ocr_zero_guess duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8911,Principal Lease Payments,actual_FY2025,56270,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8911,Principal Lease Payments,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8911,Principal Lease Payments,budget_FY2027,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Interest Payment,actual_FY2025,1439,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Interest Payment,budget_FY2026,0,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Interest Payment,budget_FY2027,0,duplicate_account
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8921,Bond/Loan Interest Payments,actual_FY2025,10752,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8921,Bond/Loan Interest Payments,budget_FY2026,0,
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-5-752-8921,Bond/Loan Interest Payments,budget_FY2027,0,
+2027,FY2027_budget,15 of 15,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,actual_FY2025,673088,no_account_number
+2027,FY2027_budget,15 of 15,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2026,0,no_account_number
+2027,FY2027_budget,15 of 15,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2027,330000,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,actual_FY2025,2287425,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2026,1857212,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2027,2000000,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,actual_FY2025,63069,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2026,160048,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2027,160000,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-ADMIN,Administration,actual_FY2025,59703,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-ADMIN,Administration,budget_FY2026,59771,no_account_number
+2027,FY2027_budget,15 of 15,Police Pension Fund,000,PP-5-000-ADMIN,Administration,budget_FY2027,62000,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,actual_FY2025,1884024,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2026,1710993,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2027,2000000,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,actual_FY2025,3033,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2026,0,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2027,0,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-ADMIN,Administration a,actual_FY2025,50161,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-ADMIN,Administration a,budget_FY2026,48904,no_account_number
+2027,FY2027_budget,15 of 15,Fire Pension Fund,000,FP-5-000-ADMIN,Administration a,budget_FY2027,52000,no_account_number

@@ -1,0 +1,2 @@
+kind,key,value,exception_id,reason
+allow,pen|police|trend|2012|npo,-3000,EX-adp-police-npo-2011-typo,"FY2013 trend table prints the 2011 police NPO as 1,749,189 (verified on page image); the FY2012 audit prints 1,746,189 and 2011 NPO + 2012 APC - 2012 contributions = 1,722,667 only with 1,746,189"

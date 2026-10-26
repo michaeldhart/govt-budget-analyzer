@@ -58,14 +58,35 @@ GROUP_COLUMNS = ["comparable_group", "report_group", "budget_members", "note"]
 DEPARTMENT_COLUMNS = ["fund_code", "dept_code", "name", "function", "note"]
 # Totals the source prints (department totals, subtotals, NET lines, fund totals): control totals for reconciling facts.
 TOTAL_KINDS = ("fund_revenues", "fund_expenses", "fund_net", "dept_revenues", "dept_expenses", "dept_net", "subtotal",
-               "beginning_cash", "ending_cash")
+               "beginning_cash", "ending_cash",
+               # other budgeted funds and the Ida Public Library budget (fund-scoped names in `name`)
+               "other_fund_revenues", "other_fund_expenses", "rollup_beginning_cash", "rollup_revenues", "rollup_expenses",
+               "rollup_ending_cash", "library_revenue_total", "library_expense_total", "library_subtotal")
 CONTROL_TOTAL_COLUMNS = ["entity_id", "doc_id", "period_fy", "basis", "kind", "name", "amount", "page_label"]
 # Audited fund-level statements (balance sheet; statement of revenues, expenditures and changes in fund balances), one row per
 # line x fund column. line_id is a stable name for the lines every audit has (cash, total_assets, total_fund_balance, ...).
-STATEMENTS = ("balance_sheet", "changes_in_fund_balance", "ws_net_position")
+STATEMENTS = ("balance_sheet", "changes_in_fund_balance", "ws_net_position",
+              "combining_balance_sheet", "combining_changes_in_fund_balance",      # nonmajor governmental funds, one column per fund
+              "ws_stmt_net_position", "ws_stmt_income", "ws_stmt_cash_flows")      # Water / Sewer proprietary fund statements
 FUND_STATEMENT_COLUMNS = ["entity_id", "doc_id", "period_fy", "statement", "fund", "section", "subsection", "line_item", "line_id",
                           "amount", "pdf_page", "flag"]
 FUND_STATEMENT_MAP_COLUMNS = ["statement", "label_pattern", "line_id", "note"]
+# Audited long-term debt, pension and OPEB disclosures (the audits' notes and required supplementary information); long tables, one
+# row per printed figure, tied by the checks in data/<entity_id>/audit_debt_pension_checks.csv. exception_ids use '|' like facts.csv.
+DEBT_PENSION_TABLES = {
+    "debt_balances": ["entity_id", "doc_id", "period_fy", "activity", "line_id", "line_item", "measure", "amount", "pdf_page", "flag", "exception_ids"],
+    "debt_issue_terms": ["entity_id", "doc_id", "period_fy", "activity", "issue", "interest_rate_text", "maturity_text", "ending_balance",
+                         "current_portion", "description", "pdf_page", "flag", "exception_ids"],
+    "debt_service_schedule": ["entity_id", "doc_id", "period_fy", "activity", "instrument", "line_id", "year_ending", "principal", "interest",
+                              "total", "row_kind", "pdf_page", "flag", "exception_ids"],
+    "pension_rollforward": ["entity_id", "doc_id", "period_fy", "plan_id", "source", "measurement_date", "column_year", "component", "line_id",
+                            "amount", "pdf_page", "flag", "exception_ids"],
+    "pension_summary": ["entity_id", "doc_id", "period_fy", "plan_id", "measure", "period_label", "value", "value_text", "unit", "source",
+                        "pdf_page", "flag", "exception_ids"],
+    "opeb_rollforward": ["entity_id", "doc_id", "period_fy", "plan_id", "source", "measurement_date", "column_year", "line_id", "amount",
+                         "pdf_page", "flag", "exception_ids"],
+}
+
 EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "bases", "effect", "summary", "detail",
                      "decided_on", "evidence"]
 

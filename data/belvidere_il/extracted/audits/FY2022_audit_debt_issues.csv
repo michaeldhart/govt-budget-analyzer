@@ -1,0 +1,9 @@
+fiscal_year,doc,pdf_page,activity,issue,interest_rate_text,maturity_text,ending_balance,current_portion,flag,description
+2022,FY2022_audit,54,governmental,"except for the landfill post closure liability: General Obligation Debt Certificates, Series 2005, direct placement,",,"August 1, 2025",255098,60000,,"except for the landfill post closure liability: General Obligation Debt Certificates, Series 2005, direct placement, dated July 19, 2005, due in annual installments on August 1 of 1,237 to 65,098 through August 1, 2025; including variable interest payable semiannually on August 1 and February 1."
+2022,FY2022_audit,54,governmental,"Tax Increment General Mills Revenue Notes, Series 2003, direct placement,",8%,"May 30, 2023",3036000,0,,"Tax Increment General Mills Revenue Notes, Series 2003, direct placement, dated March 17, 2003, due in annual installments plus interest of 8% through May 30, 2023."
+2022,FY2022_audit,54,governmental,"Landfill post closure liability, direct placement.",,,255000,50000,,"Landfill post closure liability, direct placement."
+2022,FY2022_audit,54,governmental,"Fire Truck Capital Lease, direct placement,",2.475%,"June 1, 2022",67147,67147,,"Fire Truck Capital Lease, direct placement, dated December 21, 2016, due in annual installments plus interest of 2.475% through June 1, 2022."
+2022,FY2022_audit,54,governmental,TOTAL,,,3613245,177147,,
+2022,FY2022_audit,57,business_type,IEPA Loan #L17-3622,1.25%,"May 1, 2032",1214180,108914,,"IEPA Loan #L17-3622 IEPA loan payable; due in semiannual installments of 61,876, including interest at 1.25% through May 1, 2032."
+2022,FY2022_audit,57,business_type,TOTAL,,,1214180,108914,,
+2022,FY2022_audit,57,business_type,(derived) IEPA loan draws without a payment schedule,,,1090091,0,derived_gap,activity-table balance less the issue table's TOTAL; the note says the IEPA loans #L17-3623 / #L17-4188 were not fully disbursed so no payment schedule is printed

@@ -1,0 +1,181 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2015,FY2015_budget,Motor Fuel Tax #10,revenue_lines,actual_FY2013,741826,741826,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2014,625748,625748,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,revenue_lines,budget_revised_FY2014,625748,625748,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2015,727940,727940,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,expense_lines,actual_FY2013,456924,456924,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,expense_lines,budget_FY2014,778100,778100,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,expense_lines,budget_revised_FY2014,778100,778100,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,expense_lines,budget_FY2015,750300,750300,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,cash_roll,actual_FY2013,526362,526362,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,cash_roll,budget_FY2014,374009,374010,-1,rounding
+2015,FY2015_budget,Motor Fuel Tax #10,cash_roll,budget_revised_FY2014,374009,374010,-1,rounding
+2015,FY2015_budget,Motor Fuel Tax #10,cash_roll,budget_FY2015,351649,351649,0,ok
+2015,FY2015_budget,Downtown TIF #12,revenue_lines,actual_FY2013,318983,318983,0,ok
+2015,FY2015_budget,Downtown TIF #12,revenue_lines,budget_FY2014,13,13,0,ok
+2015,FY2015_budget,Downtown TIF #12,revenue_lines,budget_revised_FY2014,13,13,0,ok
+2015,FY2015_budget,Downtown TIF #12,revenue_lines,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Downtown TIF #12,expense_lines,actual_FY2013,939943,939943,0,ok
+2015,FY2015_budget,Downtown TIF #12,expense_lines,budget_FY2014,29152,29152,0,ok
+2015,FY2015_budget,Downtown TIF #12,expense_lines,budget_revised_FY2014,29152,29152,0,ok
+2015,FY2015_budget,Downtown TIF #12,expense_lines,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Downtown TIF #12,cash_roll,actual_FY2013,29140,29140,0,ok
+2015,FY2015_budget,Downtown TIF #12,cash_roll,budget_FY2014,0,1,-1,rounding
+2015,FY2015_budget,Downtown TIF #12,cash_roll,budget_revised_FY2014,0,1,-1,rounding
+2015,FY2015_budget,Downtown TIF #12,cash_roll,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,revenue_lines,actual_FY2013,124109,124109,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2014,152015,152015,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,revenue_lines,budget_revised_FY2014,152015,152015,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2015,95005,95005,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,expense_lines,actual_FY2013,101101,101101,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,expense_lines,budget_FY2014,138935,138935,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,expense_lines,budget_revised_FY2014,138935,138935,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,expense_lines,budget_FY2015,95200,95200,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_roll,actual_FY2013,234211,234211,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_roll,budget_FY2014,247291,247291,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_roll,budget_revised_FY2014,247291,247291,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_roll,budget_FY2015,247096,247096,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,revenue_lines,actual_FY2013,20782,20782,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,revenue_lines,budget_FY2014,22000,22000,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,revenue_lines,budget_revised_FY2014,22000,22000,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,revenue_lines,budget_FY2015,24000,24000,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,expense_lines,actual_FY2013,20782,20782,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,expense_lines,budget_FY2014,22000,22000,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,expense_lines,budget_revised_FY2014,22000,22000,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,expense_lines,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_roll,actual_FY2013,93,93,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_roll,budget_FY2014,93,93,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_roll,budget_revised_FY2014,93,93,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_roll,budget_FY2015,24093,24093,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,revenue_lines,actual_FY2013,939,939,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2014,1000,1000,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,revenue_lines,budget_revised_FY2014,1000,1000,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2015,1079,1079,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,expense_lines,actual_FY2013,6350,6350,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2014,0,0,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,expense_lines,budget_revised_FY2014,0,0,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_roll,actual_FY2013,3847,3847,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2014,4847,4847,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_roll,budget_revised_FY2014,4847,4847,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2015,5926,5926,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,actual_FY2013,19315,19315,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2014,19536,19536,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_revised_FY2014,19536,19536,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2015,16000,16000,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,actual_FY2013,12351,12351,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2014,21000,21000,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_revised_FY2014,21000,21000,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2015,25000,25000,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,actual_FY2013,38386,38386,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2014,36922,36922,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_revised_FY2014,36922,36922,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2015,27922,27922,0,ok
+2015,FY2015_budget,Library Operations #18,revenue_lines,actual_FY2013,784964,784963,1,rounding
+2015,FY2015_budget,Library Operations #18,revenue_lines,budget_FY2014,822000,822000,0,ok
+2015,FY2015_budget,Library Operations #18,revenue_lines,budget_revised_FY2014,822000,822000,0,ok
+2015,FY2015_budget,Library Operations #18,revenue_lines,budget_FY2015,840000,840000,0,ok
+2015,FY2015_budget,Library Operations #18,expense_lines,actual_FY2013,751239,751241,-2,rounding
+2015,FY2015_budget,Library Operations #18,expense_lines,budget_FY2014,822000,822000,0,ok
+2015,FY2015_budget,Library Operations #18,expense_lines,budget_revised_FY2014,822000,822000,0,ok
+2015,FY2015_budget,Library Operations #18,expense_lines,budget_FY2015,840000,840000,0,ok
+2015,FY2015_budget,Library Operations #18,cash_roll,actual_FY2013,514836,514836,0,ok
+2015,FY2015_budget,Library Operations #18,cash_roll,budget_FY2014,514836,514836,0,ok
+2015,FY2015_budget,Library Operations #18,cash_roll,budget_revised_FY2014,514836,514836,0,ok
+2015,FY2015_budget,Library Operations #18,cash_roll,budget_FY2015,514836,514836,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,actual_FY2013,42439,42439,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2014,340000,340000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_revised_FY2014,340000,340000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2015,340000,340000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,expense_lines,actual_FY2013,3538,3538,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2014,345000,345000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_revised_FY2014,345000,345000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2015,40000,40000,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_roll,actual_FY2013,98435,98435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2014,93435,93435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_revised_FY2014,93435,93435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2015,393435,393435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,actual_FY2013,379621,379621,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2014,210688,210688,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_revised_FY2014,210688,210688,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2015,355035,355035,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,expense_lines,actual_FY2013,320039,320039,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2014,263491,263491,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_revised_FY2014,263491,263491,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2015,376967,376967,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_roll,actual_FY2013,90819,90819,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2014,38016,38016,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_revised_FY2014,38016,38016,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2015,16084,16084,0,ok
+2015,FY2015_budget,Escrow #91,revenue_lines,actual_FY2013,33903,33903,0,ok
+2015,FY2015_budget,Escrow #91,revenue_lines,budget_FY2014,51500,51500,0,ok
+2015,FY2015_budget,Escrow #91,revenue_lines,budget_revised_FY2014,51500,51500,0,ok
+2015,FY2015_budget,Escrow #91,revenue_lines,budget_FY2015,52000,52000,0,ok
+2015,FY2015_budget,Escrow #91,expense_lines,actual_FY2013,0,0,0,ok
+2015,FY2015_budget,Escrow #91,expense_lines,budget_FY2014,15000,15000,0,ok
+2015,FY2015_budget,Escrow #91,expense_lines,budget_revised_FY2014,15000,15000,0,ok
+2015,FY2015_budget,Escrow #91,expense_lines,budget_FY2015,15000,15000,0,ok
+2015,FY2015_budget,Escrow #91,cash_roll,actual_FY2013,890507,890507,0,ok
+2015,FY2015_budget,Escrow #91,cash_roll,budget_FY2014,927007,927007,0,ok
+2015,FY2015_budget,Escrow #91,cash_roll,budget_revised_FY2014,927007,927007,0,ok
+2015,FY2015_budget,Escrow #91,cash_roll,budget_FY2015,964007,964007,0,ok
+2015,FY2015_budget,Police Pension Fund,revenue_lines,actual_FY2013,2357822,2357822,0,ok
+2015,FY2015_budget,Police Pension Fund,revenue_lines,budget_FY2014,1920587,1920587,0,ok
+2015,FY2015_budget,Police Pension Fund,revenue_lines,budget_revised_FY2014,1920587,1920587,0,ok
+2015,FY2015_budget,Police Pension Fund,revenue_lines,budget_FY2015,2082652,2082652,0,ok
+2015,FY2015_budget,Police Pension Fund,expense_lines,actual_FY2013,785118,785118,0,ok
+2015,FY2015_budget,Police Pension Fund,expense_lines,budget_FY2014,965000,965000,0,ok
+2015,FY2015_budget,Police Pension Fund,expense_lines,budget_revised_FY2014,965000,965000,0,ok
+2015,FY2015_budget,Police Pension Fund,expense_lines,budget_FY2015,975000,975000,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_roll,actual_FY2013,15886127,15886127,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_roll,budget_FY2014,16841714,16841714,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_roll,budget_revised_FY2014,16841714,16841714,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_roll,budget_FY2015,17949366,17949366,0,ok
+2015,FY2015_budget,Fire Pension Fund,revenue_lines,actual_FY2013,1820631,1820631,0,ok
+2015,FY2015_budget,Fire Pension Fund,revenue_lines,budget_FY2014,1595887,1595887,0,ok
+2015,FY2015_budget,Fire Pension Fund,revenue_lines,budget_revised_FY2014,1595887,1595887,0,ok
+2015,FY2015_budget,Fire Pension Fund,revenue_lines,budget_FY2015,1771952,1771952,0,ok
+2015,FY2015_budget,Fire Pension Fund,expense_lines,actual_FY2013,902444,902444,0,ok
+2015,FY2015_budget,Fire Pension Fund,expense_lines,budget_FY2014,1020000,1020000,0,ok
+2015,FY2015_budget,Fire Pension Fund,expense_lines,budget_revised_FY2014,1020000,1020000,0,ok
+2015,FY2015_budget,Fire Pension Fund,expense_lines,budget_FY2015,1030000,1030000,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_roll,actual_FY2013,12241929,12241929,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_roll,budget_FY2014,12817816,12817816,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_roll,budget_revised_FY2014,12817816,12817816,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_roll,budget_FY2015,13559768,13559768,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,cash_chain,budget_FY2014,526362,526362,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,cash_chain,budget_revised_FY2014,526362,526362,0,ok
+2015,FY2015_budget,Motor Fuel Tax #10,cash_chain,budget_FY2015,374009,374009,0,ok
+2015,FY2015_budget,Downtown TIF #12,cash_chain,budget_FY2014,29140,29140,0,ok
+2015,FY2015_budget,Downtown TIF #12,cash_chain,budget_revised_FY2014,29140,29140,0,ok
+2015,FY2015_budget,Downtown TIF #12,cash_chain,budget_FY2015,0,0,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_chain,budget_FY2014,234211,234211,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_chain,budget_revised_FY2014,234211,234211,0,ok
+2015,FY2015_budget,Kishwaukee TIF #13,cash_chain,budget_FY2015,247291,247291,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_chain,budget_FY2014,93,93,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_chain,budget_revised_FY2014,93,93,0,ok
+2015,FY2015_budget,Belv Mall TIF Bond/Interest #14,cash_chain,budget_FY2015,93,93,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2014,3847,3847,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_chain,budget_revised_FY2014,3847,3847,0,ok
+2015,FY2015_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2015,4847,4847,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2014,38386,38386,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_revised_FY2014,38386,38386,0,ok
+2015,FY2015_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2015,36922,36922,0,ok
+2015,FY2015_budget,Library Operations #18,cash_chain,budget_FY2014,514836,514836,0,ok
+2015,FY2015_budget,Library Operations #18,cash_chain,budget_revised_FY2014,514836,514836,0,ok
+2015,FY2015_budget,Library Operations #18,cash_chain,budget_FY2015,514836,514836,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2014,98435,98435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_revised_FY2014,98435,98435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2015,93435,93435,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2014,90819,90819,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_revised_FY2014,90819,90819,0,ok
+2015,FY2015_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2015,38016,38016,0,ok
+2015,FY2015_budget,Escrow #91,cash_chain,budget_FY2014,890507,890507,0,ok
+2015,FY2015_budget,Escrow #91,cash_chain,budget_revised_FY2014,890507,890507,0,ok
+2015,FY2015_budget,Escrow #91,cash_chain,budget_FY2015,927007,927007,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_chain,budget_FY2014,15886127,15886127,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_chain,budget_revised_FY2014,15886127,15886127,0,ok
+2015,FY2015_budget,Police Pension Fund,cash_chain,budget_FY2015,16841714,16841714,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_chain,budget_FY2014,12241929,12241929,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_chain,budget_revised_FY2014,12241929,12241929,0,ok
+2015,FY2015_budget,Fire Pension Fund,cash_chain,budget_FY2015,12817816,12817816,0,ok

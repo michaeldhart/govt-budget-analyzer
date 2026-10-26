@@ -1,0 +1,3 @@
+kind,key,value,exception_id,reason
+allow,pen|police|trend|2014|npo,1,EX-adp-pension-fy2014-apc-rounding,FY2015 trend table repeats the FY2014 $1 rounding
+allow,pen|fire|trend|2014|npo,-1,EX-adp-pension-fy2014-apc-rounding,same

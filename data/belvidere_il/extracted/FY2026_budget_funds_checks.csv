@@ -1,0 +1,111 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2026,FY2026_budget,Motor Fuel Tax #10,revenue_lines,actual_FY2024,1124343,1124343,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2025,1132343,1132343,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2026,1132343,1132343,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,expense_lines,actual_FY2024,1295278,1295278,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,expense_lines,budget_FY2025,943485,943485,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,expense_lines,budget_FY2026,1756570,1756570,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,cash_roll,actual_FY2024,1448175,1448175,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,cash_roll,budget_FY2025,1637033,1637033,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,cash_roll,budget_FY2026,1012806,1012806,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,revenue_lines,actual_FY2024,18887,18887,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2025,20000,20000,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2026,20000,20000,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,expense_lines,actual_FY2024,0,0,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,expense_lines,budget_FY2025,4000,4000,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,expense_lines,budget_FY2026,4000,4000,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,cash_roll,actual_FY2024,66129,66129,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,cash_roll,budget_FY2025,82129,82129,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,cash_roll,budget_FY2026,98129,98129,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,revenue_lines,actual_FY2024,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2025,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2026,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,expense_lines,actual_FY2024,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2025,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2026,0,0,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,cash_roll,actual_FY2024,4915,4915,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2025,4915,4915,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2026,4915,4915,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,actual_FY2024,24250,24250,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2025,16500,16500,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2026,30000,30000,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,actual_FY2024,20313,20313,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2025,16000,16000,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2026,21000,21000,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,actual_FY2024,7056,7056,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2025,7556,7556,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2026,16556,16556,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,actual_FY2024,10483,10483,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2025,6700,6700,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2026,17500,17500,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,actual_FY2024,11090,11090,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2025,6700,6700,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2026,9000,9000,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,actual_FY2024,-4979,-4979,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2025,-4979,-4979,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2026,3521,3521,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,actual_FY2024,236262,236262,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2025,1774064,1774064,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2026,7847957,7847957,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,expense_lines,actual_FY2024,2789144,2789144,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2025,1983944,1983944,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2026,7807937,7807937,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,cash_roll,actual_FY2024,-2501681,-2501681,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2025,-2711561,-2711561,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2026,-2671541,-2671541,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,actual_FY2024,3437621,3437621,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2025,1775108,1775108,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2026,697652,697652,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,expense_lines,actual_FY2024,899585,899585,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2025,686622,686622,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2026,676503,676503,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,cash_roll,actual_FY2024,2538036,2538036,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2025,3626522,3626522,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2026,3647671,3647671,0,ok
+2026,FY2026_budget,Escrow #91,revenue_lines,actual_FY2024,203260,203260,0,ok
+2026,FY2026_budget,Escrow #91,revenue_lines,budget_FY2025,6000,6000,0,ok
+2026,FY2026_budget,Escrow #91,revenue_lines,budget_FY2026,6000,6000,0,ok
+2026,FY2026_budget,Escrow #91,expense_lines,actual_FY2024,161631,161631,0,ok
+2026,FY2026_budget,Escrow #91,expense_lines,budget_FY2025,0,0,0,ok
+2026,FY2026_budget,Escrow #91,expense_lines,budget_FY2026,0,0,0,ok
+2026,FY2026_budget,Escrow #91,cash_roll,actual_FY2024,1543235,1543234,1,rounding
+2026,FY2026_budget,Escrow #91,cash_roll,budget_FY2025,1549235,1549235,0,ok
+2026,FY2026_budget,Escrow #91,cash_roll,budget_FY2026,1555235,1555235,0,ok
+2026,FY2026_budget,Police Pension Fund,revenue_lines,actual_FY2024,4602962,4602962,0,ok
+2026,FY2026_budget,Police Pension Fund,revenue_lines,budget_FY2025,2876562,2876562,0,ok
+2026,FY2026_budget,Police Pension Fund,revenue_lines,budget_FY2026,3049516,3049516,0,ok
+2026,FY2026_budget,Police Pension Fund,expense_lines,actual_FY2024,2357781,2357781,0,ok
+2026,FY2026_budget,Police Pension Fund,expense_lines,budget_FY2025,2077031,2077031,0,ok
+2026,FY2026_budget,Police Pension Fund,expense_lines,budget_FY2026,2077031,2077031,0,ok
+2026,FY2026_budget,Police Pension Fund,cash_roll,actual_FY2024,30085455,30085455,0,ok
+2026,FY2026_budget,Police Pension Fund,cash_roll,budget_FY2025,30884986,30884986,0,ok
+2026,FY2026_budget,Police Pension Fund,cash_roll,budget_FY2026,31857471,31857471,0,ok
+2026,FY2026_budget,Fire Pension Fund,revenue_lines,actual_FY2024,3566745,3566745,0,ok
+2026,FY2026_budget,Fire Pension Fund,revenue_lines,budget_FY2025,2115651,2115651,0,ok
+2026,FY2026_budget,Fire Pension Fund,revenue_lines,budget_FY2026,2208764,2208764,0,ok
+2026,FY2026_budget,Fire Pension Fund,expense_lines,actual_FY2024,1899230,1899230,0,ok
+2026,FY2026_budget,Fire Pension Fund,expense_lines,budget_FY2025,1759897,1759897,0,ok
+2026,FY2026_budget,Fire Pension Fund,expense_lines,budget_FY2026,1759897,1759897,0,ok
+2026,FY2026_budget,Fire Pension Fund,cash_roll,actual_FY2024,20951930,20972205,-20275,allowed_override
+2026,FY2026_budget,Fire Pension Fund,cash_roll,budget_FY2025,21307684,21307684,0,ok
+2026,FY2026_budget,Fire Pension Fund,cash_roll,budget_FY2026,21756552,21756551,1,rounding
+2026,FY2026_budget,Motor Fuel Tax #10,cash_chain,budget_FY2025,1448175,1448175,0,ok
+2026,FY2026_budget,Motor Fuel Tax #10,cash_chain,budget_FY2026,1637033,1637033,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,cash_chain,budget_FY2025,66129,66129,0,ok
+2026,FY2026_budget,Kishwaukee TIF #13,cash_chain,budget_FY2026,82129,82129,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2025,4915,4915,0,ok
+2026,FY2026_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2026,4915,4915,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2025,7056,7056,0,ok
+2026,FY2026_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2026,7556,7556,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2025,-4979,-4979,0,ok
+2026,FY2026_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2026,-4979,-4979,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2025,-2501681,-2501681,0,ok
+2026,FY2026_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2026,-2711561,-2711561,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2025,2538036,2538036,0,ok
+2026,FY2026_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2026,3626522,3626522,0,ok
+2026,FY2026_budget,Escrow #91,cash_chain,budget_FY2025,1543235,1543235,0,ok
+2026,FY2026_budget,Escrow #91,cash_chain,budget_FY2026,1549235,1549235,0,ok
+2026,FY2026_budget,Police Pension Fund,cash_chain,budget_FY2025,30085455,30085455,0,ok
+2026,FY2026_budget,Police Pension Fund,cash_chain,budget_FY2026,30884986,30884986,0,ok
+2026,FY2026_budget,Fire Pension Fund,cash_chain,budget_FY2025,20951930,20951930,0,ok
+2026,FY2026_budget,Fire Pension Fund,cash_chain,budget_FY2026,21307684,21307684,0,ok

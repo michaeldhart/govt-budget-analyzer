@@ -1,0 +1,5 @@
+kind,page_label,key,column,value,note
+fixline,,"Liability insurance 420,080 158,529 152,770 5,759 94,898",,"Liability insurance 120,080 158,529 152,770 5,759 94,898","OCR read the Sewer original-budget cell 120,080 as 420,080; page image pdf p104 shows 120,080 and Total sewer 5,275,588 (also the summary schedule's Sewer line) ties with it"
+fixline,,"Total water 1,688,851 1,684,068 1,556,484 127,584 4,522,221",,"Total water 1,688,851 1,684,068 1,556,484 127,584 1,522,221","OCR read the prior-year (FY2011) Total water 1,522,221 as 4,522,221; page image pdf p103; equals the 2011 column of the summary schedule and of the income statement"
+allow_diff,,variance|net operating income (loss),,446228,"the schedule prints the variance of net operating income as +223,114 although actual 1,290,803 is below final 1,513,917 (it should read (223,114)); sign error in the source, page image pdf p102"
+fixline,,"Heaith Insurance 44,901 62,145 58,304 3,841 47,735",,"Health Insurance 44,901 62,145 58,304 3,841 47,735",OCR typo in the label; page image pdf p104 prints 'Health Insurance'

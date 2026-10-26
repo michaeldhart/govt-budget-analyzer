@@ -1,0 +1,3 @@
+kind,key,value,exception_id,reason
+allow,pen|police|trend|2014|npo,1,EX-adp-pension-fy2014-apc-rounding,"Trend table APC 1,038,032 / 806,331 vs annual pension cost table 1,038,033 / 806,330"
+allow,pen|fire|trend|2014|npo,-1,EX-adp-pension-fy2014-apc-rounding,same

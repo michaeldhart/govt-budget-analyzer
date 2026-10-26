@@ -1,0 +1,9 @@
+fiscal_year,doc,pdf_page,plan_id,source,measurement_date,column_year,line_id,amount,flag
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,arc,423874,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,interest_on_noo,34649,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,arc_adjustment,-28874,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,annual_opeb_cost,429649,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,contributions,145431,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,increase,284218,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,noo_beginning,866224,
+2012,FY2012_audit,65,opeb_city,note_gasb45,,,noo_ending,1150442,

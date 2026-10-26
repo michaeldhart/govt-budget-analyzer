@@ -1,0 +1,36 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-40100,"APPROPRIATION,",budget_FY2023,744525,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41214,FRIENDS,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41505,Games Grant-R,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41510,RestrictedGrants,budget_FY2023,4800,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41500,PER CAPITA-R an,budget_FY2023,37375,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41513,Women's Club Donation-R a,budget_FY2023,100,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41514,LIST DIVIDENDS/INTEREST,budget_FY2023,4000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41518,GardeningGrant_,budget_FY2023,250,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41524,Blackburn Interest si,budget_FY2023,1800,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-44750,NON RESIDENTFEES,budget_FY2023,20000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-44770,FINES Tt,budget_FY2023,5000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-48001,RENT-Church,budget_FY2023,10800,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49000,OTHER i,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49001,FAX,budget_FY2023,3000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49002,GUEST PASS,budget_FY2023,1000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49003,HISTORY BOOK a,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49004,C0PY/PR1NT Print Release),budget_FY2023,8000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49005,C0MPUTERCARD,budget_FY2023,50,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49006,REPLACEMENTCARD,budget_FY2023,100,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49007,FLASHDRIVE,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49008,HEADPHONES ee,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49009,LOST/DAMAGED MATERIALS,budget_FY2023,500,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49010,REPLACEMENT BARCODE 7,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49015,B00KM0B1LE Po,budget_FY2023,11000,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49020,D00R DONATION-R,budget_FY2023,500,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49501,IDA MERCHANDISE ie,budget_FY2023,200,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49600,MEETINGROOM i,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49601,PROCTORING,budget_FY2023,0,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-90002,Checking interest sid,budget_FY2023,250,
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-OTHEREEE,Other eee,budget_FY2023,0,no_account_number
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-SSBUDGETCA,ss BUDGETCARRYOVER,budget_FY2023,0,no_account_number
+2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41200,REPLACEMENT TAX,budget_FY2023,39000,added_by_override
+2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41215,FRIENDS SUMMER,budget_FY2023,3500,added_by_override
+2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41511,Unrestricted Grants,budget_FY2023,0,added_by_override
+2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-49500,GIFT/DONATION,budget_FY2023,500,added_by_override

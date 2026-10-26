@@ -1,0 +1,71 @@
+fiscal_year,doc,pdf_page,function,department,category,line_item,original_budget,final_budget,actual,flag,line_key,category_inferred,category_inferred_basis
+2015,FY2015_audit,108,WATER,,,Salaries,594653,518051,515278,,salarie,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Overtime,50000,33212,33212,,overtime,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,IMRF,135105,132539,85025,,imrf,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,FICA/Medicare,0,0,105072,,fica medicare,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Group Health Insurance,179379,180142,178531,,group health insurance,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Uniform Allowance,13688,10286,10286,,uniform allowance,Personnel services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Repair and maintenance - infrastructure,33795,66456,70377,rm_prefix_added,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Repair and maintenance - equipment,7520,27840,20676,rm_prefix_added,repair and maintenance equipment,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Repair and maintenance - building,2805500,14626,14626,rm_prefix_added,repair and maintenance building,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Repair and maintenance - vehicles,14000,25983,26155,rm_prefix_added,repair and maintenance vehicle,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Repair and maintenance - contractual,95000,66775,68375,rm_prefix_added,repair and maintenance contractual,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Consruction in Progress,0,109509,0,,consruction in progres,Capital outlay,manual_alias
+2015,FY2015_audit,108,WATER,,,Other Professional Services,11000,1477,1477,,other professional service,Contractual services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Telephone,8000,6758,6758,,telephone,Contractual services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Postage,19000,16073,16073,,postage,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Utilities,318750,267500,250310,,utilitie,Contractual services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Liability Insurance,111323,105070,104040,,liability insurance,Contractual services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Equipment Rentals,25116,13745,13745,,equipment rental,Commodities,manual_alias
+2015,FY2015_audit,108,WATER,,,Lab Expense,32225,26349,26966,,lab expense,Contractual services,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Office Supplies,9355,8629,8629,,office supplie,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Gas and Oil,23000,21019,23099,,gas and oil,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Supplies,61145,50711,51273,,supplie,Commodities,manual_alias
+2015,FY2015_audit,108,WATER,,,Chemicals,99000,82496,89263,,chemical,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Equipment,4000,0,2485,,equipment,Capital outlay,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Meters,374830,129909,132259,,meter,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Bad Debt Expense,4000,3804,3804,,bad debt expense,Commodities,fy2016plus_label
+2015,FY2015_audit,108,WATER,,,Miscellaneous,611015,612537,6961,,miscellaneou,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Salaries,636470,607992,611319,,salarie,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Overtime,55000,52761,52761,,overtime,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,IMRF,144182,130567,89682,,imrf,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Group Health Insurance,188288,196631,196956,,group health insurance,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Uniform Allowance,15000,14850,14850,,uniform allowance,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - lift station,144000,43002,44065,rm_prefix_added,repair and maintenance lift station,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - infrastructure,0,0,2686,rm_prefix_added,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - building,5050000,2487756,119544,rm_prefix_added,repair and maintenance building,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - vehicles,17500,22790,26587,rm_prefix_added,repair and maintenance vehicle,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - contractual,0,0,1152,rm_prefix_added,repair and maintenance contractual,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Repair and maintenance - equipment,0,6315,6315,rm_prefix_added,repair and maintenance equipment,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Consruction in Progress,0,164000,0,,consruction in progres,Capital outlay,manual_alias
+2015,FY2015_audit,109,SEWER,,,Other Professional Services,52675,39496,38344,,other professional service,Contractual services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Other Equipment Rental,11385,5464,5464,,other equipment rental,Commodities,manual_alias
+2015,FY2015_audit,109,SEWER,,,Telephone,13000,19452,19452,,telephone,Contractual services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Travel,0,2554,2554,,travel,Personnel services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Postage,14500,16072,16072,,postage,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Utilities,240000,233755,234006,,utilitie,Contractual services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Liability Insurance,132196,124771,123548,,liability insurance,Contractual services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Sludge Disposal,9440,8552,9587,,sludge disposal,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Lab Expense,56000,46228,49884,,lab expense,Contractual services,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Operating Supplies,11940,9297,10781,,operating supplie,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Office Supplies,8500,9736,10670,,office supplie,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Equipment,1436000,88823,0,,equipment,Capital outlay,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Building,50000,0,0,,building,Capital outlay,manual_alias
+2015,FY2015_audit,109,SEWER,,,Gas and Oil,39050,28529,28958,,gas and oil,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Chemicals,105000,82992,82992,,chemical,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Meters,720500,12952,12952,,meter,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Bad Debt Expense,4000,5585,5585,,bad debt expense,Commodities,fy2016plus_label
+2015,FY2015_audit,109,SEWER,,,Miscellaneous,4765,18975,18975,,miscellaneou,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Salaries,290858,262073,266076,,salarie,Personnel services,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Overtime,30000,23235,23235,,overtime,Personnel services,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,IMRF,19998,62082,45408,,imrf,Personnel services,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Group Health Insurance,50515,83149,79914,,group health insurance,Personnel services,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Uniform Allowance,6600,3402,3402,,uniform allowance,Personnel services,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Repair and maintenance - infrastructure,181340,11531,11725,rm_prefix_added,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Repair and maintenance - equipment,8000,335,335,rm_prefix_added,repair and maintenance equipment,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Repair and maintenance - vehicles,10000,30419,32430,rm_prefix_added,repair and maintenance vehicle,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Office Equipment Rental,14840,10141,10141,,office equipment rental,Commodities,manual_alias
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Operating Supplies,18000,13443,13495,,operating supplie,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Equipment,4000,0,2485,,equipment,Capital outlay,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Gas and Oil,12100,10544,11542,,gas and oil,Commodities,fy2016plus_label
+2015,FY2015_audit,110,COLLECTION SYSTEM,,,Miscellaneous,310705,308874,699,,miscellaneou,Commodities,fy2016plus_label

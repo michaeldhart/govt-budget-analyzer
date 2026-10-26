@@ -1,0 +1,6 @@
+kind,key,value,exception_id,reason
+fixtok,"52|4,312,357","1,312,357",,"OCR misread of a 1 (page image: IEPA revolving loan additions 1,312,357)"
+fixtok,"52|57,514","57,511",,"OCR misread (page image: compensated absences ending 57,511; also the issue table and FY2013 beginning)"
+fixtok,"63|124,986","724,988",,"OCR misread: firefighters APC 2011 is 724,988 (FY2013 trend table prints 724,988 for the same year; identity APC = ARC+interest+adjustment)"
+allow,pen|police|trend|2010|npo,-30135,EX-adp-fy2012-npo-2010,"FY2012 trend table: NPO 2010 1,269,471 is not NPO 2009 + APC - contributions (1,299,606); printed this way in the source"
+allow,pen|fire|trend|2010|npo,-30136,EX-adp-fy2012-npo-2010,"same, firefighters"

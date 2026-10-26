@@ -1,0 +1,147 @@
+entity_id,fiscal_year,fund_code,fund,revenues_original,revenues_actual,expenditures_original,expenditures_actual,net_other_financing_actual,net_change_actual,beginning_balance,ending_balance,budget_revenues,budget_expenses,revenues_diff,expenditures_diff,match
+belvidere_il,2012,10,Motor Fuel Tax,604772,751149,596400,894686,,-143537,434667,291130,,,,,verified
+belvidere_il,2012,13,Kishwaukee TIF,240090,152022,223861,133726,,18296,192907,211203,,,,,verified
+belvidere_il,2012,15,Kishwaukee II TIF,485,7689,0,0,,7689,1569,9258,,,,,by_name
+belvidere_il,2012,16,Special Service Area 2 (Farmington Fields),19460,22900,19000,17634,,5266,26156,31422,,,,,verified
+belvidere_il,2012,41,Capital Projects,55100,428198,51456,532288,51456,-52634,204487,151853,,,,,by_name
+belvidere_il,2012,T90,1990 TIF,295927,315846,80300,83110,,232736,417364,650100,,,,,none
+belvidere_il,2012,T93,1993 TIF,24300,24147,24300,24145,,2,91,93,,,,,none
+belvidere_il,2013,10,Motor Fuel Tax,636769,736155,,,,279231,291130,570361,,,,,verified
+belvidere_il,2013,13,Kishwaukee TIF,152015,124109,123935,101101,,23008,211203,234211,,,,,verified
+belvidere_il,2013,15,Kishwaukee II TIF,,,,,,-5411,9258,3847,,,,,by_name
+belvidere_il,2013,16,Special Service Area 2 (Farmington Fields),23101,19315,19120,12351,,6964,31422,38386,,,,,verified
+belvidere_il,2013,41,Capital Projects,55500,116221,314640,321396,,100665,151853,252518,,,,,by_name
+belvidere_il,2013,T90,1990 TIF,312650,318983,950402,939943,,-620960,650100,29140,,,,,none
+belvidere_il,2013,T93,1993 TIF,,,,,,,93,93,,,,,none
+belvidere_il,2014,10,Motor Fuel Tax,625748,865940,,,,127949,570361,698310,,,,,verified
+belvidere_il,2014,13,Kishwaukee TIF,126005,100975,118000,81203,,19772,234211,253983,,,,,verified
+belvidere_il,2014,15,Kishwaukee II TIF,,,,,,1068,3847,4915,,,,,by_name
+belvidere_il,2014,16,Special Service Area 2 (Farmington Fields),19536,15475,21000,18244,,-2769,38386,35617,,,,,verified
+belvidere_il,2014,41,Capital Projects,55500,62506,608491,249444,,308250,252518,560768,,,,,by_name
+belvidere_il,2014,T90,1990 TIF,,,,,,-29140,29140,0,,,,,none
+belvidere_il,2014,T93,1993 TIF,,,,,,23627,93,23720,,,,,none
+belvidere_il,2015,10,Motor Fuel Tax,727940,888279,,,,192197,698310,890507,727940,750300,0,,verified
+belvidere_il,2015,12,Downtown TIF,,,,,,,,,0,0,,,none
+belvidere_il,2015,13,Kishwaukee TIF,95005,20985,95200,7873,,13112,253983,267095,95005,95200,0,0,verified
+belvidere_il,2015,14,Belv Mall TIF Bond/Interest,,,,,,,,,24000,0,,,none
+belvidere_il,2015,15,Kishwaukee II TIF,,,,,,0,4915,4915,1079,0,,,by_name
+belvidere_il,2015,16,Special Service Area 2 (Farmington Fields),,,25000,19672,,-7531,35617,28086,16000,25000,,0,verified
+belvidere_il,2015,18,Library Operations,,,,,,,,,840000,840000,,,none
+belvidere_il,2015,41,Capital Projects,40500,40308,416967,662599,,322591,560768,883359,695035,416967,,,by_name
+belvidere_il,2015,91,Escrow,,,,,,,,,52000,15000,,,none
+belvidere_il,2015,FP,Fire Pension,,,,,,,,,1771952,1030000,,,none
+belvidere_il,2015,PP,Police Pension,,,,,,,,,2082652,975000,,,none
+belvidere_il,2015,T93,1993 TIF,,,,,,-23627,23720,93,,,,,none
+belvidere_il,2016,10,Motor Fuel Tax,632923,684566,765000,674288,,10278,890507,900785,632923,765000,0,0,verified
+belvidere_il,2016,12,Downtown TIF,,,,,,,,,0,0,,,none
+belvidere_il,2016,13,Kishwaukee TIF,30000,21712,40000,7191,,14521,395362,409883,30000,40000,0,0,verified
+belvidere_il,2016,14,Belv Mall TIF Bond/Interest,,,,,,,,,0,0,,,none
+belvidere_il,2016,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2016,16,Special Service Area 2 (Farmington Fields),16000,0,25000,11044,-14567,-25611,28086,2475,16000,25000,0,0,verified
+belvidere_il,2016,18,Library Operations,,,,,,,,,852000,852000,,,none
+belvidere_il,2016,41,Capital Projects,40500,54363,737281,578331,895189,371221,883359,1254580,1187781,737281,,,by_name
+belvidere_il,2016,91,Escrow,,,,,,,,,51500,15000,,,none
+belvidere_il,2016,FP,Fire Pension,,,,,,,,,1970771,1070000,,,none
+belvidere_il,2016,PP,Police Pension,,,,,,,,,2357971,1095000,,,none
+belvidere_il,2016,T93,1993 TIF,24000,0,0,0,,0,93,93,,,,,none
+belvidere_il,2017,10,Motor Fuel Tax,677156,681247,685000,511818,,169429,900785,1070214,677156,685000,0,0,verified
+belvidere_il,2017,13,Kishwaukee TIF,22000,26975,20000,7105,,19870,409883,429753,22000,20000,0,0,verified
+belvidere_il,2017,14,Belv Mall TIF Bond/Interest,,,,,,,,,0,0,,,none
+belvidere_il,2017,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2017,16,Special Service Area 2 (Farmington Fields),18000,20986,27000,16791,1555,5750,2475,8225,18000,27000,0,0,verified
+belvidere_il,2017,17,Special Service Area 3 (Farmington Fields),0,8753,0,10481,-1555,-3283,6589,3306,,,,,verified
+belvidere_il,2017,18,Library Operations,,,,,,,,,855000,855000,,,none
+belvidere_il,2017,41,Capital Projects,40500,67575,2086621,1985756,1402349,-515832,1254580,738748,1027521,2086621,,,by_name
+belvidere_il,2017,91,Escrow,,,,,,,,,65000,40000,,,none
+belvidere_il,2017,FP,Fire Pension,,,,,,,,,1344713,1239790,,,none
+belvidere_il,2017,PP,Police Pension,,,,,,,,,1805009,1177343,,,none
+belvidere_il,2018,10,Motor Fuel Tax,802156,688801,1495000,1356654,,-667853,1070214,402361,802156,1495000,0,0,verified
+belvidere_il,2018,13,Kishwaukee TIF,22000,52357,19823,52368,,-11,429753,429742,22000,19823,0,0,verified
+belvidere_il,2018,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2018,16,Special Service Area 2 (Farmington Fields),13000,15258,12500,14265,-1555,-562,8225,7663,13000,12500,0,0,verified
+belvidere_il,2018,17,Special Service Area 3 (Farmington Fields),5000,6162,4500,7520,1555,197,3306,3503,5000,4500,0,0,verified
+belvidere_il,2018,18,Library Operations,,,,,,,,,865000,865000,,,none
+belvidere_il,2018,41,Capital Projects,40500,780132,532224,1076544,369310,72898,738748,811646,455328,532224,,,by_name
+belvidere_il,2018,91,Escrow,,,,,,,,,51600,40000,,,none
+belvidere_il,2018,FP,Fire Pension,,,,,,,,,1540872,1359429,,,none
+belvidere_il,2018,PP,Police Pension,,,,,,,,,1780914,1424112,,,none
+belvidere_il,2019,10,Motor Fuel Tax,677456,684045,785000,589553,,94492,402361,496853,677456,785000,0,0,verified
+belvidere_il,2019,13,Kishwaukee TIF,50000,21943,46164,15361,,6582,429742,436324,50000,46164,0,0,verified
+belvidere_il,2019,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2019,16,Special Service Area 2 (Farmington Fields),15500,16516,15500,14943,,1573,7663,9236,15500,15500,0,0,verified
+belvidere_il,2019,17,Special Service Area 3 (Farmington Fields),6500,6742,6500,9046,,-2304,3503,1199,6500,6500,0,0,verified
+belvidere_il,2019,18,Library Operations,,,,,,,,,873739,873739,,,none
+belvidere_il,2019,41,Capital Projects,43575,256918,874243,1489443,1132358,-100167,811646,711479,867818,874243,,,by_name
+belvidere_il,2019,91,Escrow,,,,,,,,,50360,50000,,,none
+belvidere_il,2019,FP,Fire Pension,,,,,,,,,2271029,1372625,,,none
+belvidere_il,2019,PP,Police Pension,,,,,,,,,2565000,1505188,,,none
+belvidere_il,2020,10,Motor Fuel Tax,681519,957712,885000,820846,,136866,496853,633719,681519,885000,0,0,verified
+belvidere_il,2020,13,Kishwaukee TIF,22000,22898,8750,448443,,-425545,436324,10779,22000,8750,0,0,verified
+belvidere_il,2020,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2020,16,Special Service Area 2 (Farmington Fields),16500,18310,15500,18454,-1000,-1144,9236,8092,16500,15500,0,0,verified
+belvidere_il,2020,17,Special Service Area 3 (Farmington Fields),6700,7760,6700,12138,1000,-3378,1199,-2179,6700,6700,0,0,verified
+belvidere_il,2020,41,Capital Projects,48075,260870,1428646,1243233,1861865,879502,711479,1590981,1811721,1928646,,,by_name
+belvidere_il,2020,91,Escrow,,,,,,,,,54000,75000,,,none
+belvidere_il,2020,FP,Fire Pension,,,,,,,,,2410471,1391050,,,none
+belvidere_il,2020,PP,Police Pension,,,,,,,,,2944118,1548200,,,none
+belvidere_il,2021,10,Motor Fuel Tax,1104519,1830530,1215000,807244,,1023286,633719,1657005,1104519,1215000,0,0,verified
+belvidere_il,2021,13,Kishwaukee TIF,22000,18584,10600,7026,,11558,10779,22337,22000,10600,0,0,verified
+belvidere_il,2021,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2021,16,Special Service Area 2 (Farmington Fields),16500,19099,15500,10970,-1000,7129,8092,15221,16500,15500,0,0,verified
+belvidere_il,2021,17,Special Service Area 3 (Farmington Fields),6700,7812,6700,6566,1000,2246,-2179,67,6700,6700,0,0,verified
+belvidere_il,2021,41,Capital Projects,96070,398335,1048332,1489480,551729,-539416,1590981,1051565,2344402,1048332,,,by_name
+belvidere_il,2021,91,Escrow,,,,,,,,,53500,75000,,,none
+belvidere_il,2021,FP,Fire Pension,,,,,,,,,2259568,1450098,,,none
+belvidere_il,2021,PP,Police Pension,,,,,,,,,2833328,1550226,,,none
+belvidere_il,2022,10,Motor Fuel Tax,1876448,1631847,2946152,821136,,810711,1657005,2467716,1876448,2946152,0,0,verified
+belvidere_il,2022,13,Kishwaukee TIF,20000,18446,8250,3738,,14708,22337,37045,20000,8250,0,0,verified
+belvidere_il,2022,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2022,16,Special Service Area 2 (Farmington Fields),16500,20839,15500,19238,,1601,15221,16822,16500,15500,0,0,verified
+belvidere_il,2022,17,Special Service Area 3 (Farmington Fields),6700,8425,6700,7277,,1148,67,1215,6700,6700,0,0,verified
+belvidere_il,2022,41,Capital Projects,41275,140657,843593,1647243,413888,-1092698,1051565,-41133,2234868,2343593,,,by_name
+belvidere_il,2022,91,Escrow,,,,,,,,,50000,50000,,,none
+belvidere_il,2022,FP,Fire Pension,,,,,,,,,1941897,1583402,,,none
+belvidere_il,2022,PP,Police Pension,,,,,,,,,2542930,1681763,,,none
+belvidere_il,2023,10,Motor Fuel Tax,1059087,1344147,2984152,2948029,,-1603882,2467716,863834,1059087,2984152,0,0,verified
+belvidere_il,2023,13,Kishwaukee TIF,20000,17976,4000,7779,,10197,37045,47242,20000,4000,0,0,verified
+belvidere_il,2023,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2023,16,Special Service Area 2 (Farmington Fields),16500,1275,16000,15978,,-14703,16822,2119,16500,16000,0,0,verified
+belvidere_il,2023,17,Special Service Area 3 (Farmington Fields),6700,491,6700,5077,3245,-1341,1215,-126,6700,6700,0,0,verified
+belvidere_il,2023,41,Capital Projects,40494,1095547,4042032,3648029,2644816,92334,-41133,51201,2055276,1820000,,,by_name
+belvidere_il,2023,91,Escrow,,,,,,,,,0,0,,,none
+belvidere_il,2023,FP,Fire Pension,,,,,,,,,1789530,1707733,,,none
+belvidere_il,2023,PP,Police Pension,,,,,,,,,2243178,2020091,,,none
+belvidere_il,2024,10,Motor Fuel Tax,1124343,1167319,1344000,1261596,,-94277,863834,769557,1124343,1344000,0,0,verified
+belvidere_il,2024,13,Kishwaukee TIF,20000,18887,4000,0,,18887,47242,66129,20000,4000,0,0,verified
+belvidere_il,2024,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2024,16,Special Service Area 2 (Farmington Fields),16500,24250,16000,20313,,3937,2119,6056,16500,16000,0,0,verified
+belvidere_il,2024,17,Special Service Area 3 (Farmington Fields),6700,10483,6700,11090,,-607,-126,-733,6700,6700,0,0,verified
+belvidere_il,2024,41,Capital Projects,40594,2015171,1461058,3636319,1606302,-14846,51201,36355,1501679,1461058,,,by_name
+belvidere_il,2024,91,Escrow,,,,,,,,,6000,0,,,none
+belvidere_il,2025,10,Motor Fuel Tax,1132343,1175785,1193420,868259,,307526,769557,1077083,1132343,1193420,0,0,verified
+belvidere_il,2025,13,Kishwaukee TIF,20000,20991,4000,828,,20163,66129,86292,20000,4000,0,0,verified
+belvidere_il,2025,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2025,16,Special Service Area 2 (Farmington Fields),16500,25808,16000,27229,,-1421,6056,4635,16500,16000,0,0,verified
+belvidere_il,2025,17,Special Service Area 3 (Farmington Fields),6700,15219,6700,8306,,6913,-733,6180,6700,6700,0,0,verified
+belvidere_il,2025,41,Capital Projects,643003,1096654,2670566,2763259,1544844,-121761,36355,-85406,3549172,2670566,,,by_name
+belvidere_il,2025,91,Escrow,,,,,,,,,6000,0,,,none
+belvidere_il,2025,FP,Fire Pension,,,,,,,,,2115651,1759897,,,none
+belvidere_il,2025,PP,Police Pension,,,,,,,,,2876562,2077031,,,none
+belvidere_il,2026,10,Motor Fuel Tax,1132343,1200334,1756570,1055511,,144823,1077083,1221906,1132343,1756570,0,0,verified
+belvidere_il,2026,13,Kishwaukee TIF,20000,22027,4000,528,,21499,86292,107791,20000,4000,0,0,verified
+belvidere_il,2026,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2026,16,Special Service Area 2 (Farmington Fields),30000,29915,21000,23136,,6779,4635,11414,30000,21000,0,0,verified
+belvidere_il,2026,17,Special Service Area 3 (Farmington Fields),17500,17609,9000,12091,,5518,6180,11698,17500,9000,0,0,verified
+belvidere_il,2026,41,Capital Projects,5338884,1944670,8484440,3207931,1747720,484459,-85406,399053,8545609,8484440,,,by_name
+belvidere_il,2026,91,Escrow,,,,,,,,,6000,0,,,none
+belvidere_il,2026,FP,Fire Pension,,,,,,,,,2208764,1759897,,,none
+belvidere_il,2026,PP,Police Pension,,,,,,,,,3049516,2077031,,,none
+belvidere_il,2027,10,Motor Fuel Tax,,,,,,,,,1206235,1290000,,,verified
+belvidere_il,2027,13,Kishwaukee TIF,,,,,,,,,20000,122292,,,verified
+belvidere_il,2027,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
+belvidere_il,2027,16,Special Service Area 2 (Farmington Fields),,,,,,,,,30000,21630,,,verified
+belvidere_il,2027,17,Special Service Area 3 (Farmington Fields),,,,,,,,,17500,11500,,,verified
+belvidere_il,2027,41,Capital Projects,,,,,,,,,18816006,16780062,,,by_name
+belvidere_il,2027,91,Escrow,,,,,,,,,6000,330000,,,none
+belvidere_il,2027,FP,Fire Pension,,,,,,,,,3890053,2052000,,,none
+belvidere_il,2027,PP,Police Pension,,,,,,,,,4582261,2222000,,,none

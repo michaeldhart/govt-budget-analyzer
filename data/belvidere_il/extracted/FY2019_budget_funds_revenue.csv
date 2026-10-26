@@ -1,0 +1,169 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,actual_FY2017,650699,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2018,647500,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_revised_FY2018,647500,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2019,647500,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,actual_FY2017,0,no_account_number
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_FY2018,0,no_account_number
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_revised_FY2018,0,no_account_number
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,000,10-4-000-ILJOBS,IL Jobs Now,budget_FY2019,0,no_account_number
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Inierest on Investments,actual_FY2017,3429,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Inierest on Investments,budget_FY2018,656,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Inierest on Investments,budget_revised_FY2018,656,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4600,Inierest on Investments,budget_FY2019,656,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,actual_FY2017,29328,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2018,154000,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_revised_FY2018,154000,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2019,29300,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,actual_FY2017,19829,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2018,22000,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_revised_FY2018,22000,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2019,50000,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,actual_FY2017,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_revised_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2019,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,actual_FY2017,7146,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_revised_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2019,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2018,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_revised_FY2018,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2019,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2018,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_revised_FY2018,0,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2019,0,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,actual_FY2017,20986,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2018,13000,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_revised_FY2018,13000,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2019,15500,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2018,0,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_revised_FY2018,0,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2019,0,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,actual_FY2017,8753,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_FY2018,5000,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_revised_FY2018,5000,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_FY2019,6500,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_FY2018,0,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_revised_FY2018,0,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_FY2019,0,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,actual_FY2017,677342,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_FY2018,686566,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_revised_FY2018,686566,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4010,Property Tax,budget_FY2019,710939,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,actual_FY2017,40231,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_FY2018,25000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_revised_FY2018,25000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4120,Replacement Taxes,budget_FY2019,25000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4151,Grants,actual_FY2017,22222,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4151,Grants,budget_FY2018,26000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4151,Grants,budget_revised_FY2018,26000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4151,Grants,budget_FY2019,26000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4475,Non-Resident,actual_FY2017,16315,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4475,Non-Resident,budget_FY2018,21000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4475,Non-Resident,budget_revised_FY2018,21000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4475,Non-Resident,budget_FY2019,16500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4477,Fines,actual_FY2017,12715,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4477,Fines,budget_FY2018,16000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4477,Fines,budget_revised_FY2018,16000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4477,Fines,budget_FY2019,13000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4900,Other,actual_FY2017,28874,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4900,Other,budget_FY2018,68434,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4900,Other,budget_revised_FY2018,68434,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4900,Other,budget_FY2019,60300,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4950,Gift,actual_FY2017,14895,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4950,Gift,budget_FY2018,20000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4950,Gift,budget_revised_FY2018,20000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4950,Gift,budget_FY2019,20000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4960,Meeting Room,actual_FY2017,690,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4960,Meeting Room,budget_FY2018,2000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4960,Meeting Room,budget_revised_FY2018,2000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-4-510-4960,Meeting Room,budget_FY2019,2000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,actual_FY2017,40082,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2018,40000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_revised_FY2018,40000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2019,40000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,actual_FY2017,12266,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_revised_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2019,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,actual_FY2017,183,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_revised_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2019,75,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-in,actual_FY2017,450000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-in,budget_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-in,budget_revised_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-in,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,actual_FY2017,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,actual_FY2017,526,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2018,500,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_revised_FY2018,500,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2019,3500,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,actual_FY2017,27375,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,actual_FY2017,0,auto_resolved
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2018,0,auto_resolved
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_revised_FY2018,0,auto_resolved
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2019,0,auto_resolved
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,actual_FY2017,540689,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2018,414828,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_revised_FY2018,414828,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2019,824243,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,actual_FY2017,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4600,interest Income,actual_FY2017,2754,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4600,interest Income,budget_FY2018,1600,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4600,interest Income,budget_revised_FY2018,1600,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4600,interest Income,budget_FY2019,360,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,actual_FY2017,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,actual_FY2017,548775,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2018,50000,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_revised_FY2018,50000,
+2019,FY2019_budget,15 of 16,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2019,50000,
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,actual_FY2017,1026333,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2018,1085667,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_revised_FY2018,1085667,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2019,1181417,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,actual_FY2017,66096,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2018,64921,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_revised_FY2018,64921,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2019,66868,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,actual_FY2017,1302116,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2018,328664,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_revised_FY2018,328664,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2019,1000000,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,actual_FY2017,306455,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2018,301662,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_revised_FY2018,301662,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2019,316715,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,actual_FY2017,798052,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2018,968767,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_revised_FY2018,968767,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2019,1001132,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,actual_FY2017,66096,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2018,64921,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_revised_FY2018,64921,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2019,66868,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,actual_FY2017,1279333,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2018,319210,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_revised_FY2018,319210,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2019,1000000,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,actual_FY2017,178195,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_FY2018,187974,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_revised_FY2018,187974,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_FY2019,203029,no_account_number

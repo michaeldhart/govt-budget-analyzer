@@ -1,0 +1,6 @@
+kind,key,value,exception_id,reason
+allow,rf|imrf_regular|npl|net_change,4562888,EX-adp-imrf-fy2020-sign,"IMRF regular note: NPL column 'Net changes' printed 2,281,444 without parentheses; must be (2,281,444) (907,201 - 3,188,645); verified on page image"
+allow,rf|imrf_regular|npl|roll,-4562888,EX-adp-imrf-fy2020-sign,same sign slip
+allow,rf|imrf_regular|net_change|npl_col,4562888,EX-adp-imrf-fy2020-sign,same sign slip
+allow,opeb|opeb_city|rf|net_change,540000,EX-adp-opeb-fy2020-netchange,"City OPEB note prints net changes 3,607,811; lines and RSI give 3,067,811 (ending 11,264,558 agrees with RSI)"
+allow,opeb|opeb_city|rf|roll,-540000,EX-adp-opeb-fy2020-netchange,same

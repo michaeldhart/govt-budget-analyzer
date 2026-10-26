@@ -1,5 +1,7 @@
 """Integrity checks on an entity's config and canonical tables. Returns a list of problems (empty = clean)."""
-from .schema import (BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
+import re
+
+from .schema import (DEBT_PENSION_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
                      TREATMENTS)
 from .entity import read_csv
 
@@ -68,6 +70,22 @@ def validate_tables(E):
         if r["kind"] not in TOTAL_KINDS or r["basis"] not in BASES:
             errs.append(f"control_totals.csv: bad kind/basis {r['kind']!r}/{r['basis']!r}")
     docs = {r["doc_id"] for r in read_csv(E.data_path("documents.csv"))}
+    exc_ids = {x["exception_id"] for x in E.exceptions()}
+    for name, cols in DEBT_PENSION_TABLES.items():
+        rows = read_csv(E.data_path(f"{name}.csv"))
+        if not rows or list(rows[0]) != cols:
+            errs.append(f"{name}.csv: missing or its columns differ from schema.DEBT_PENSION_TABLES")
+            continue
+        for i, r in enumerate(rows, 2):
+            if r["doc_id"] not in docs:
+                errs.append(f"{name}.csv line {i}: unknown doc_id {r['doc_id']!r}")
+            for e in filter(None, re.split(r"[;|]", r["exception_ids"])):
+                if e not in exc_ids:
+                    errs.append(f"{name}.csv line {i}: unknown exception {e!r}")
+    for r in read_csv(E.data_path("fund_statements.csv")):
+        if r["statement"] not in STATEMENTS:
+            errs.append(f"fund_statements.csv: unknown statement {r['statement']!r}")
+            break
     exc = {x["exception_id"] for x in E.exceptions()}
     amap = E.account_map()
     seen = set()

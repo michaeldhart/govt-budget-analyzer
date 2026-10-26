@@ -1,0 +1,20 @@
+kind,page_label,key,column,value,reason
+add_row,REPLACEMENT TAX,41200,revenue,39000,Line printed on the page image (p19) but missing from every OCR reading
+add_row,FRIENDS SUMMER,41215,revenue,3500,Line printed on the page image (p19) but missing from the OCR reading
+add_row,Unrestricted Grants,41511,revenue,0,Line printed on the page image (p19) but missing from the OCR reading
+add_row,GIFT/DONATION,49500,revenue,500,Line printed on the page image (p19) but missing from the OCR reading
+add_row,Legal,41004,expense,2000,Line printed on the page image (p19) but missing from the OCR reading
+add_row,AUDIT,41006,expense,7000,Line printed on the page image (p19) but missing from the OCR reading
+add_row,Gardening Grant Spending,41518,expense,250,Line printed on the page image (p20) but missing from the OCR reading
+add_row,POSTAGE,51565,expense,500,Line printed on the page image (p20) but missing from the OCR reading
+add_row,PROPERTY TAXES,60102,expense,3850,Line printed on the page image (p20) but missing from the OCR reading
+add_row,TECH-SOFTWARE,62303,expense,4000,Line printed on the page image (p20) but missing from the OCR reading
+add_row,CONSORTIUM,62351,expense,22000,Line printed on the page image (p20) but missing from the OCR reading
+add_row,DATABASES,62352,expense,3000,Line printed on the page image (p20) but missing from the OCR reading
+add_row,MACHINE RENT,64100,expense,400,Line printed on the page image (p20) but missing from the OCR reading
+add_row,Y YA NF (73113),73113,expense,1500,Line printed on the page image (p21) but missing from the OCR reading
+add_row,Books-donation-Womens/Newcomer,73117,expense,100,Line printed on the page image (p21) but missing from the OCR reading
+add_row,A-V Y A DVD,73303,expense,1000,Line printed on the page image (p21) but missing from the OCR reading
+add_row,COMMUNITY GARDEN,73406,expense,200,Line printed on the page image (p21) but missing from the OCR reading
+recode,,73003,,73103,OCR misread the code of Y NON FIC (73103)
+event_cell,,Total expenses,budget_FY2023,896250,Printed Total Expenses is $896250.00 (OCR read .90)

@@ -1,0 +1,20 @@
+fund_code,name,type,audit_name,budget_match,note
+01,General,general,,,
+61,Water and Sewer,enterprise,Water and Sewer,,
+10,Motor Fuel Tax,special revenue,Motor Fuel Tax,verified,audit original budget totals equal the budget fund page in 23 year/total comparisons
+13,Kishwaukee TIF,TIF,Kishwaukee TIF,verified,24 comparisons
+15,Kishwaukee II TIF,TIF,Kishwaukee TIF #2,by_name,audit combining column only (not budgeted in the audit schedules)
+16,Special Service Area 2 (Farmington Fields),special service area,Farmington SSA #2,verified,"23 comparisons; FY2012-15 audits print one unnumbered 'Farmington' fund, mapped here"
+17,Special Service Area 3 (Farmington Fields),special service area,Farmington SSA #3,verified,18 comparisons
+41,Capital Projects,capital projects,Capital Projects,by_name,"the budget has two ledgers (Public Benefit, Capital Assets) funded by transfers in; the audit's single fund is not comparable at total level"
+12,Downtown TIF,TIF,,,budget only (FY2015-16); the audit's 1990 TIF is not proven to be this fund
+14,Belv Mall TIF Bond/Interest,TIF,,,budget only (FY2015-17); the audit's 1993 TIF is not proven to be this fund
+18,Library Operations,library,,,budget FY2015-19; later the library's own budget (IPL)
+91,Escrow,escrow,,,
+PP,Police Pension,pension trust,,,pseudo code (the budget pages print no fund number)
+FP,Fire Pension,pension trust,,,pseudo code
+IPL,Ida Public Library,library,,,pseudo code; the library's own chart of accounts (5-digit codes)
+T90,1990 TIF,TIF,1990 TIF,,audit only (FY2012-14)
+T93,1993 TIF,TIF,1993 TIF,,"audit only (FY2012-16 schedules, combining later)"
+FFI,Foreign Fire Insurance,special revenue,Foreign Fire Insurance,,audit combining column only
+PRS,Police Restricted,special revenue,Police Restricted,,audit combining column only (FY2023+)

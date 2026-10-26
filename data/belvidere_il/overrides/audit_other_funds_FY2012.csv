@@ -1,0 +1,7 @@
+kind,key,value,reason
+allow_diff,Motor Fuel Tax|net change vs excess + other financing|variance,-68438,"Source arithmetic: the printed variance on the net change line is (33,063) = revenue variance 1,156 - expenditure variance 34,219; every other column of that schedule ties (actual -143,537 = 751,149 - 894,686) and the expenditure variance is shown favourable (+)"
+cell,1990 TIF|86|Contractual services|final_budget,7500,"OCR read 7,900; page image (200 dpi crop) shows 7,500; the printed total 83,093 = 53,744 + 7,500 + 21,849"
+cell,1990 TIF|86|Contractual services|prior_year_actual,7500,"OCR read 7,900; page image shows 7,500; the printed total 84,081 = 68,850 + 7,500 + 7,731"
+cell,Kishwaukee TIF|87|Total revenues|actual,152022,"OCR read 452,022; page image shows 152,022 (= the two items 152,009 + 13)"
+columns,balance_sheet|83,Motor Fuel Tax;1990 TIF;Kishwaukee TIF;Kishwaukee TIF #2;1993 TIF;Farmington SSA #2;Total,"Column headers read from the rotated page image (Motor Fuel Tax, 90 T.I.F. District, Kishwaukee T.I.F., Kishwaukee T.I.F. #2, 93 T.I.F. District, Farmington, Total Nonmajor Governmental Funds); OCR split the wrapped headers"
+columns,changes_in_fund_balance|84,Motor Fuel Tax;1990 TIF;Kishwaukee TIF;Kishwaukee TIF #2;1993 TIF;Farmington SSA #2;Total,"Same seven columns as the combining balance sheet (header read from page image)"

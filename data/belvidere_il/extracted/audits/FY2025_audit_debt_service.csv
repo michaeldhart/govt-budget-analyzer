@@ -1,0 +1,27 @@
+fiscal_year,doc,pdf_page,activity,group_idx,instrument,year_label,principal,interest,total,row_kind,line_id,flag
+2025,FY2025_audit,59,governmental,0,Installment Contract,2026,58296,8726,67022,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2026,65098,472,65570,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,2027,60365,6657,67022,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2027,0,0,0,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,2028,62507,4515,67022,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2028,0,0,0,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,2029,64720,2302,67022,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2029,0,0,0,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,2030,0,0,0,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2030,0,0,0,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,2031,0,0,0,year,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,2031,0,0,0,year,debt_certificates,
+2025,FY2025_audit,59,governmental,0,Installment Contract,TOTAL,245888,22200,268088,total,installment_contract,
+2025,FY2025_audit,59,governmental,1,Certificates,TOTAL,65098,472,65570,total,debt_certificates,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2026,113062,10690,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2027,114480,9272,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2028,115916,7836,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2029,117369,6383,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2030,118841,4911,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2031,120331,3421,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2032,121840,1912,123752,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,2033,61485,384,61869,year,,
+2025,FY2025_audit,61,business_type,0,IEPA Loan,TOTAL,883324,44809,928133,total,,
+2025,FY2025_audit,96,component_unit,0,,2026,25220,7018,32238,year,mortgage_loan,total_derived
+2025,FY2025_audit,96,component_unit,0,,2027,149294,1066,150360,year,mortgage_loan,total_derived
+2025,FY2025_audit,96,component_unit,0,,TOTAL,174514,8084,182598,total,mortgage_loan,total_derived

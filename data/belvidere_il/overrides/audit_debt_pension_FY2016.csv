@@ -1,0 +1,11 @@
+kind,key,value,exception_id,reason
+allow,rf|police|fnp|net_change,1,EX-adp-police-fy2016-note-rounding,"Police note roll-forward (FY2016) is $1 off in the fiduciary column (ending 18,648,664 vs RSI 18,648,665; employee contributions 291,900 vs RSI 291,901)"
+allow,rf|police|fnp|roll,-1,EX-adp-police-fy2016-note-rounding,same $1
+allow,rf|police|npl|net_change,-1,EX-adp-police-fy2016-note-rounding,same $1
+allow,rf|police|npl|roll,1,EX-adp-police-fy2016-note-rounding,same $1
+allow,def|imrf_slep|amortization_tie,3,EX-adp-slep-fy2016-amort-3,"SLEP amortisation schedule totals 44,194; deferred outflows table nets to 44,191"
+allow,opeb|opeb_city|trend|2015|noo,-42269,EX-adp-opeb-fy2015-noo-trend,"FY2016 trend table: FY2015 NOO 2,154,179 is not FY2014 NOO + FY2015 cost - contributions (2,196,448)"
+allow,xchk|netpos|npl|police,-1,EX-adp-police-fy2016-note-rounding,"Statement of Net Position 13,386,846 vs note 13,386,847"
+allow,xchk|netpos|deferred_outflows|imrf,-1,EX-adp-imrf-fy2016-deferred-1,"Statement 1,232,590 vs IMRF notes 1,232,591"
+allow,debt|component_unit|sched||total|interest,521000,EX-adp-library-fy2016-sched-typo,"Library debt service TOTAL interest printed 578,516; years sum to 57,516"
+allow,debt|component_unit|sched||total|total,521000,EX-adp-library-fy2016-sched-typo,same typo flows into the derived total

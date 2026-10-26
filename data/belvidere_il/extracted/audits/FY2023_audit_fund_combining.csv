@@ -1,0 +1,267 @@
+fiscal_year,doc,pdf_page,statement,section,subsection,line_item,fund,amount,flag
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Kishwaukee TIF,47242,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Kishwaukee TIF #2,4915,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Farmington SSA #2,2186,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Farmington SSA #3,0,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Foreign Fire Insurance,44217,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Police Restricted,243435,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Cash and investments,Total,341995,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Kishwaukee TIF,18867,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Farmington SSA #2,24335,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Farmington SSA #3,10491,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Property taxes,Total,53693,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Other,Total,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,Due from other funds,Total,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Kishwaukee TIF,66109,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Kishwaukee TIF #2,4915,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Farmington SSA #2,26521,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Farmington SSA #3,10491,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Foreign Fire Insurance,44217,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Police Restricted,243435,
+2023,FY2023_audit,133,combining_balance_sheet,Assets,,TOTAL ASSETS,Total,395688,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Kishwaukee TIF,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Farmington SSA #2,67,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Farmington SSA #3,126,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Accounts payable,Total,193,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Due to other funds,Total,0,blank_cell_as_zero
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Kishwaukee TIF,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Farmington SSA #2,67,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Farmington SSA #3,126,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Liabilities,,Total liabilities,Total,193,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Kishwaukee TIF,18867,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Farmington SSA #2,24335,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Farmington SSA #3,10491,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Unavailable revenue - property taxes,Total,53693,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Kishwaukee TIF,18867,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Farmington SSA #2,24335,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Farmington SSA #3,10491,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total deferred inflows of resources,Total,53693,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Kishwaukee TIF,18867,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Farmington SSA #2,24402,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Farmington SSA #3,10617,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Deferred Inflows Of Resources,,Total liabilities and deferred inflows of resources,Total,53886,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Kishwaukee TIF,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Farmington SSA #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Farmington SSA #3,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Foreign Fire Insurance,44217,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Police Restricted,243435,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Public safety,Total,287652,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Kishwaukee TIF,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Farmington SSA #2,2119,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Farmington SSA #3,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Capital projects,Total,2119,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Kishwaukee TIF,47242,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Kishwaukee TIF #2,4915,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Farmington SSA #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Farmington SSA #3,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Economic development,Total,52157,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Kishwaukee TIF,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Kishwaukee TIF #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Farmington SSA #2,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Farmington SSA #3,-126,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Foreign Fire Insurance,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Police Restricted,0,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Unassigned (deficit),Total,-126,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Kishwaukee TIF,47242,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Kishwaukee TIF #2,4915,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Farmington SSA #2,2119,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Farmington SSA #3,-126,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Foreign Fire Insurance,44217,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Police Restricted,243435,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,Restricted,Total fund balances (deficit),Total,341802,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Kishwaukee TIF,66109,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Kishwaukee TIF #2,4915,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Farmington SSA #2,26521,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Farmington SSA #3,10491,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Foreign Fire Insurance,44217,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Police Restricted,243435,
+2023,FY2023_audit,133,combining_balance_sheet,Fund Balances,,"TOTAL LIABILITIES, DEFERRED INFLOWS OF RESOURCES, AND FUND BALANCES",Total,395688,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Kishwaukee TIF,17976,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Farmington SSA #2,1275,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Farmington SSA #3,491,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Foreign Fire Insurance,53308,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Police Restricted,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Taxes,Total,73050,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Intergovernmental,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Kishwaukee TIF,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Farmington SSA #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Farmington SSA #3,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Foreign Fire Insurance,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Police Restricted,22976,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Charges for services,Total,22976,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Investment income,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Miscellaneous,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Kishwaukee TIF,17976,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Farmington SSA #2,1275,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Farmington SSA #3,491,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Foreign Fire Insurance,53308,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Police Restricted,22976,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Revenues,,Total revenues,Total,96026,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Kishwaukee TIF,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Farmington SSA #2,15978,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Farmington SSA #3,5077,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Foreign Fire Insurance,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Police Restricted,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,General government,Total,21055,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Kishwaukee TIF,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Farmington SSA #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Farmington SSA #3,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Foreign Fire Insurance,64209,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Police Restricted,61705,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Public safety,Total,125914,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Highways and streets,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Current,Capital outlay,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Principal,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Kishwaukee TIF,7779,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Farmington SSA #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Farmington SSA #3,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Foreign Fire Insurance,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Police Restricted,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Interest and fiscal charges,Total,7779,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Kishwaukee TIF,7779,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Farmington SSA #2,15978,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Farmington SSA #3,5077,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Foreign Fire Insurance,64209,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Police Restricted,61705,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,Debt Service,Total expenditures,Total,154748,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Kishwaukee TIF,10197,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Farmington SSA #2,-14703,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Farmington SSA #3,-4586,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Foreign Fire Insurance,-10901,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Police Restricted,-38729,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Expenditures,,EXCESS (DEFICIENCY) OF REVENUES OVER EXPENDITURES,Total,-58722,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Issuance of installment contract,Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Kishwaukee TIF,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Farmington SSA #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Farmington SSA #3,3245,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Foreign Fire Insurance,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Police Restricted,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers in,Total,3245,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Kishwaukee TIF,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Kishwaukee TIF #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Farmington SSA #2,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Farmington SSA #3,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Foreign Fire Insurance,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Police Restricted,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Transfers (out),Total,0,blank_cell_as_zero
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Kishwaukee TIF,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Farmington SSA #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Farmington SSA #3,3245,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Foreign Fire Insurance,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Police Restricted,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,Total other financing sources (uses),Total,3245,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Kishwaukee TIF,10197,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Kishwaukee TIF #2,0,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Farmington SSA #2,-14703,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Farmington SSA #3,-1341,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Foreign Fire Insurance,-10901,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Police Restricted,-38729,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,NET CHANGE IN FUND BALANCES,Total,-55477,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Kishwaukee TIF,37045,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Kishwaukee TIF #2,4915,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Farmington SSA #2,16822,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Farmington SSA #3,1215,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Foreign Fire Insurance,55118,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Police Restricted,282164,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), MAY 1",Total,397279,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Kishwaukee TIF,47242,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Kishwaukee TIF #2,4915,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Farmington SSA #2,2119,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Farmington SSA #3,-126,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Foreign Fire Insurance,44217,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Police Restricted,243435,
+2023,FY2023_audit,135,combining_changes_in_fund_balance,Other Financing Sources (Uses),,"FUND BALANCES (DEFICIT), APRIL 30",Total,341802,

@@ -8,19 +8,107 @@
   "fy_label_rule": "fiscal year is named for the calendar year in which it ends (FY2027 = May 1, 2026 to April 30, 2027)",
   "currency": "USD",
   "units": "dollars",
-  "funds": [{"code": "01", "name": "General"}],
+  "funds": [
+    {
+      "code": "01",
+      "name": "General"
+    },
+    {
+      "code": "61",
+      "name": "Water and Sewer"
+    },
+    {
+      "code": "10",
+      "name": "Motor Fuel Tax"
+    },
+    {
+      "code": "13",
+      "name": "Kishwaukee TIF"
+    },
+    {
+      "code": "15",
+      "name": "Kishwaukee II TIF"
+    },
+    {
+      "code": "16",
+      "name": "Special Service Area 2 (Farmington Fields)"
+    },
+    {
+      "code": "17",
+      "name": "Special Service Area 3 (Farmington Fields)"
+    },
+    {
+      "code": "41",
+      "name": "Capital Projects"
+    },
+    {
+      "code": "12",
+      "name": "Downtown TIF"
+    },
+    {
+      "code": "14",
+      "name": "Belv Mall TIF Bond/Interest"
+    },
+    {
+      "code": "18",
+      "name": "Library Operations"
+    },
+    {
+      "code": "91",
+      "name": "Escrow"
+    },
+    {
+      "code": "PP",
+      "name": "Police Pension"
+    },
+    {
+      "code": "FP",
+      "name": "Fire Pension"
+    },
+    {
+      "code": "IPL",
+      "name": "Ida Public Library"
+    },
+    {
+      "code": "T90",
+      "name": "1990 TIF"
+    },
+    {
+      "code": "T93",
+      "name": "1993 TIF"
+    },
+    {
+      "code": "FFI",
+      "name": "Foreign Fire Insurance"
+    },
+    {
+      "code": "PRS",
+      "name": "Police Restricted"
+    }
+  ],
   "account_format": {
     "pattern": "FF-R-DDD-OOOO (fund-revenue/expense-department-object)",
-    "key_segments": [2, 3],
+    "key_segments": [
+      2,
+      3
+    ],
     "key_note": "department + object code; the second segment flips between 4 and 5 for some lines, so it is ignored (see exception EX-street-lighting-prefix)",
-    "typo_fixes": {"1104114": "110-4114"}
+    "typo_fixes": {
+      "1104114": "110-4114"
+    }
   },
   "source_index": {
     "budget": "https://www.belvidereil.gov/budget/",
     "audit": "https://www.belvidereil.gov/audit/"
   },
   "documents": {
-    "budget_range": [2015, 2027],
-    "audit_range": [2012, 2026]
+    "budget_range": [
+      2015,
+      2027
+    ],
+    "audit_range": [
+      2012,
+      2026
+    ]
   }
 }

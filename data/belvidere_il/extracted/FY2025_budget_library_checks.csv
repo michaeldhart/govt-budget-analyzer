@@ -1,0 +1,7 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2025,FY2025_budget,Ida Public Library,total_revenue:Total Income,budget_FY2024,966717,966717,0,ok
+2025,FY2025_budget,Ida Public Library,total_revenue:Total Income,budget_FY2025,1005794,1005794,0,ok
+2025,FY2025_budget,Ida Public Library,total_revenue:Total Income,budget_revised_FY2025,996794,996794,0,ok
+2025,FY2025_budget,Ida Public Library,total_expense:Total Expenses,budget_FY2024,966717,966717,0,ok
+2025,FY2025_budget,Ida Public Library,total_expense:Total Expenses,budget_FY2025,1005794,1005794,0,ok
+2025,FY2025_budget,Ida Public Library,total_expense:Total Expenses,budget_revised_FY2025,996794,996794,0,ok

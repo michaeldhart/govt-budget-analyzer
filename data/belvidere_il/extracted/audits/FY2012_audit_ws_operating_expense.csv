@@ -1,0 +1,67 @@
+fiscal_year,doc,pdf_page,function,department,category,line_item,original_budget,final_budget,actual,flag,variance,prior_year_actual,line_key,category_inferred,category_inferred_basis
+2012,FY2012_audit,103,WATER,,,Salaries,461634,466012,476270,,-10258,440631,salarie,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Overtime,43000,25818,25222,,596,35697,overtime,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,IMRF,95434,99938,96561,,3377,84326,imrf,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Group Health Insurance,157567,182003,169278,,12725,113095,group health insurance,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Uniform Allowance,7465,6429,6429,,0,10403,uniform allowance,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Repair and maintenance - infrastructure,27795,12765,13393,rm_prefix_added,-628,33353,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Repair and maintenance - equipment,17750,37724,35222,rm_prefix_added,2502,25973,repair and maintenance equipment,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Repair and maintenance - building,3700,3651,3652,rm_prefix_added,-1,4244,repair and maintenance building,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Repair and maintenance - vehicles,12200,20220,20220,rm_prefix_added,0,16571,repair and maintenance vehicle,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Repair and maintenance - contractual,95000,82684,69240,rm_prefix_added,13444,111566,repair and maintenance contractual,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Other professional services,11000,30827,30827,,0,6278,other professional service,Contractual services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Telephone,13000,13055,12462,,593,12189,telephone,Contractual services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Postage,24525,14251,14995,,-744,13306,postage,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Utilities,249390,233760,236250,,-2490,266500,utilitie,Contractual services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Liability insurance,101120,99609,94760,,4849,79342,liability insurance,Contractual services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Equipment rentals,24526,18518,18009,,509,16896,equipment rental,Commodities,manual_alias
+2012,FY2012_audit,103,WATER,,,Lab expense,32225,32326,32326,,0,15145,lab expense,Contractual services,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Office supplies,9355,11346,11346,,0,11766,office supplie,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Gas & oil,17990,21705,21705,,0,18381,gas and oil,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Supplies,61145,45699,45700,,-1,65021,supplie,Commodities,manual_alias
+2012,FY2012_audit,103,WATER,,,Chemicals,87900,85560,86927,,-1367,82447,chemical,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Equipment,103500,103901,7401,,96500,0,equipment,Capital outlay,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Meters,24830,27115,21008,,6107,17505,meter,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Bad Debt Expense,0,3677,3677,,0,29662,bad debt expense,Commodities,fy2016plus_label
+2012,FY2012_audit,103,WATER,,,Miscellaneous,6800,5475,3604,,1871,11924,miscellaneou,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Salaries,575639,573835,566430,,7405,570356,salarie,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Overtime,45000,51958,52332,,-374,59374,overtime,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,IMRF,118801,110850,107447,,3403,101773,imrf,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Group Health Insurance,167893,183091,169826,,13265,123958,group health insurance,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Uniform Allowance,12760,15833,15280,,553,16360,uniform allowance,Personnel services,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - infrastructure,0,0,66,rm_prefix_added,-66,-7247,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - equipment,0,318,318,rm_prefix_added,0,4730,repair and maintenance equipment,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - lift station,44310,8824,8824,rm_prefix_added,0,12698,repair and maintenance lift station,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - building,3505000,93304,91355,rm_prefix_added,1949,81319,repair and maintenance building,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - vehicles,26000,23164,22549,rm_prefix_added,615,23985,repair and maintenance vehicle,Commodities,fy2016plus_label
+2012,FY2012_audit,103,SEWER,,,Repair and maintenance - contractual,0,6890,6890,rm_prefix_added,0,4623,repair and maintenance contractual,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Consulting,0,0,0,,0,0,consulting,Contractual services,manual_alias
+2012,FY2012_audit,104,SEWER,,,Other professional services,52675,38498,38498,,0,36649,other professional service,Contractual services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Office equipment rental,11385,1485,1485,,0,5554,office equipment rental,Commodities,manual_alias
+2012,FY2012_audit,104,SEWER,,,Telephone,21400,11896,11083,,813,13168,telephone,Contractual services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Travel,0,0,0,,0,300,travel,Personnel services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Postage,14500,11795,12539,,-744,11361,postage,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Utilities,270000,272655,254523,,18132,380985,utilitie,Contractual services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Liability insurance,120080,158529,152770,,5759,94898,liability insurance,Contractual services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Sludge disposal,9440,9728,9428,,300,7144,sludge disposal,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Lab expense,58000,53816,50245,,3571,73735,lab expense,Contractual services,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Operating supplies,11940,7221,5491,,1730,10677,operating supplie,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Office supplies,8500,6455,6455,,0,7226,office supplie,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Gas & oil,27000,31039,39879,,-8840,13201,gas and oil,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Chemicals,105000,69529,55680,,13849,100105,chemical,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Equipment,45000,401,401,,0,0,equipment,Capital outlay,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Meters,20500,6820,6820,,0,18957,meter,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Bad Debt Expense,0,4458,4458,,0,65018,bad debt expense,Commodities,fy2016plus_label
+2012,FY2012_audit,104,SEWER,,,Miscellaneous,4765,453,453,,0,786,miscellaneou,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Salaries,176717,178254,179955,,-1701,200215,salarie,Personnel services,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Overtime,26500,22075,23559,,-1484,28613,overtime,Personnel services,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,IMRF,40935,43516,42364,,1152,42629,imrf,Personnel services,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Health Insurance,44901,62145,58304,,3841,47735,health insurance,Personnel services,manual_alias
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Uniform Allowance,3525,4005,4005,,0,6093,uniform allowance,Personnel services,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Repair and maintenance - infrastructure,31340,12204,10967,rm_prefix_added,1237,28328,repair and maintenance infrastructure,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Repair and maintenance - equipment,8000,952,952,rm_prefix_added,0,7535,repair and maintenance equipment,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Repair and maintenance - vehicles,10000,7831,7831,rm_prefix_added,0,5555,repair and maintenance vehicle,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Office equipment rental,14247,12825,12825,,0,12698,office equipment rental,Commodities,manual_alias
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Gas & oil,5000,11681,11681,,0,7159,gas and oil,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Operating supplies,18000,6814,6814,,0,6824,operating supplie,Commodities,fy2016plus_label
+2012,FY2012_audit,104,COLLECTION SYSTEM,,,Miscellaneous,930,455,455,,0,0,miscellaneou,Commodities,fy2016plus_label

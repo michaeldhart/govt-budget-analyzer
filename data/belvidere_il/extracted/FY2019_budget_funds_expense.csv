@@ -1,0 +1,201 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,actual_FY2017,167514,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2018,220000,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_revised_FY2018,220000,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2019,220000,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,actual_FY2017,344304,duplicate_account
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2018,1275000,duplicate_account
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_revised_FY2018,1275000,duplicate_account
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2019,565000,duplicate_account
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,actual_FY2017,0,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2018,0,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_revised_FY2018,0,
+2019,FY2019_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2019,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,actual_FY2017,7031,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2018,6519,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_revised_FY2018,6519,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2019,41164,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,actual_FY2017,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2018,13304,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_revised_FY2018,13304,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2019,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,actual_FY2017,0,ocr_zero_guess
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2018,0,ocr_zero_guess
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_revised_FY2018,0,ocr_zero_guess
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2019,0,ocr_zero_guess
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,actual_FY2017,74,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_revised_FY2018,0,
+2019,FY2019_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2019,5000,
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,actual_FY2017,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2018,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_revised_FY2018,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2019,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,actual_FY2017,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2018,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_revised_FY2018,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2019,0,from_prep_vote
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,actual_FY2017,16279,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2018,12000,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_revised_FY2018,12000,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2019,15000,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2018,500,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_revised_FY2018,500,
+2019,FY2019_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2019,500,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,actual_FY2017,10481,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2018,4000,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_revised_FY2018,4000,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2019,6000,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,actual_FY2017,0,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,budget_FY2018,500,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,budget_revised_FY2018,500,
+2019,FY2019_budget,13 of 16,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense,budget_FY2019,500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5010,Librarian/Director,actual_FY2017,53209,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5010,Librarian/Director,budget_FY2018,54651,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5010,Librarian/Director,budget_revised_FY2018,54651,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5010,Librarian/Director,budget_FY2019,55744,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5020,Salaries,actual_FY2017,331387,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5020,Salaries,budget_FY2018,337813,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5020,Salaries,budget_revised_FY2018,337813,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5020,Salaries,budget_FY2019,344569,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5110,FICA,actual_FY2017,28311,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5110,FICA,budget_FY2018,32491,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5110,FICA,budget_revised_FY2018,32491,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5110,FICA,budget_FY2019,32000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5120,IMRF,actual_FY2017,47398,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5120,IMRF,budget_FY2018,52000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5120,IMRF,budget_revised_FY2018,52000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5120,IMRF,budget_FY2019,52000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5130,Employee Health Insurance,actual_FY2017,42241,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5130,Employee Health Insurance,budget_FY2018,68000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5130,Employee Health Insurance,budget_revised_FY2018,68000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5130,Employee Health Insurance,budget_FY2019,66000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5152,Training,actual_FY2017,3009,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5152,Training,budget_FY2018,2500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5152,Training,budget_revised_FY2018,2500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5152,Training,budget_FY2019,1000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5156,Ads,actual_FY2017,1810,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5156,Ads,budget_FY2018,3000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5156,Ads,budget_revised_FY2018,3000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-5156,Ads,budget_FY2019,3000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Building Maint and Supplies,actual_FY2017,22027,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Building Maint and Supplies,budget_FY2018,44749,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Building Maint and Supplies,budget_revised_FY2018,44749,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Building Maint and Supplies,budget_FY2019,50000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6230,Computer Equip/Upgrades,actual_FY2017,41844,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6230,Computer Equip/Upgrades,budget_FY2018,36000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6230,Computer Equip/Upgrades,budget_revised_FY2018,36000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6230,Computer Equip/Upgrades,budget_FY2019,37000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6235,Online,actual_FY2017,48707,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6235,Online,budget_FY2018,39000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6235,Online,budget_revised_FY2018,39000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6235,Online,budget_FY2019,40000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6300,Utilities,actual_FY2017,4362,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6300,Utilities,budget_FY2018,5000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6300,Utilities,budget_revised_FY2018,5000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6300,Utilities,budget_FY2019,4500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,actual_FY2017,3102,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_FY2018,5950,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_revised_FY2018,5950,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_FY2019,3000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Liability Insurance,actual_FY2017,20469,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Liability Insurance,budget_FY2018,21420,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Liability Insurance,budget_revised_FY2018,21420,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Liability Insurance,budget_FY2019,21426,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Library Supplies,actual_FY2017,15224,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Library Supplies,budget_FY2018,23000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Library Supplies,budget_revised_FY2018,23000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Library Supplies,budget_FY2019,23000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7040,Janitorial Services,actual_FY2017,17168,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7040,Janitorial Services,budget_FY2018,18000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7040,Janitorial Services,budget_revised_FY2018,18000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7040,Janitorial Services,budget_FY2019,18000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7310,Books,actual_FY2017,65629,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7310,Books,budget_FY2018,80426,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7310,Books,budget_revised_FY2018,80426,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7310,Books,budget_FY2019,80500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7320,Periodicals,actual_FY2017,11739,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7320,Periodicals,budget_FY2018,10000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7320,Periodicals,budget_revised_FY2018,10000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7320,Periodicals,budget_FY2019,9500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7330,A-V,actual_FY2017,17417,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7330,A-V,budget_FY2018,17000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7330,A-V,budget_revised_FY2018,17000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7330,A-V,budget_FY2019,17000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7340,Programming,actual_FY2017,6867,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7340,Programming,budget_FY2018,6000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7340,Programming,budget_revised_FY2018,6000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7340,Programming,budget_FY2019,6500,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Misc,actual_FY2017,9291,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Misc,budget_FY2018,8000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Misc,budget_revised_FY2018,8000,
+2019,FY2019_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Misc,budget_FY2019,9000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,actual_FY2017,81287,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2018,60000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_revised_FY2018,60000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2019,50000,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,actual_FY2017,1383567,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_revised_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2019,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,actual_FY2017,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_revised_FY2018,0,
+2019,FY2019_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,actual_FY2017,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,actual_FY2017,45235,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2018,90000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_revised_FY2018,90000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2019,225000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,actual_FY2017,13141,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2018,141000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_revised_FY2018,141000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2019,283780,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,actual_FY2017,507100,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2018,183828,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_revised_FY2018,183828,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2019,253828,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,actual_FY2017,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,actual_FY2017,50000,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2018,57396,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_revised_FY2018,57396,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2019,61635,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,actual_FY2017,8065,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_revised_FY2018,0,
+2019,FY2019_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2019,0,
+2019,FY2019_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,actual_FY2017,399281,no_account_number
+2019,FY2019_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2018,40000,no_account_number
+2019,FY2019_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_revised_FY2018,40000,no_account_number
+2019,FY2019_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2019,50000,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,actual_FY2017,1307824,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2018,1371612,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2018,1371612,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2019,1452688,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,actual_FY2017,0,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2018,2500,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_revised_FY2018,2500,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2019,2500,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,actual_FY2017,56439,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2018,50000,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_revised_FY2018,50000,no_account_number
+2019,FY2019_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2019,50000,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,actual_FY2017,1277766,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2018,1306929,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2018,1306929,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2019,1320125,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,actual_FY2017,2114,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2018,2500,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_revised_FY2018,2500,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2019,2500,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,actual_FY2017,33320,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_FY2018,50000,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_revised_FY2018,50000,no_account_number
+2019,FY2019_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_FY2019,50000,no_account_number

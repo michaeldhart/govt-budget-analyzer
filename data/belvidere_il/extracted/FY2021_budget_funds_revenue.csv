@@ -1,0 +1,149 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,actual_FY2019,651405,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2020,650000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_revised_FY2020,650000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,State Allotment,budget_FY2021,650000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,Transportation Tax,actual_FY2019,0,duplicate_account
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,Transportation Tax,budget_FY2020,0,duplicate_account
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,Transportation Tax,budget_revised_FY2020,0,duplicate_account
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4140,Transportation Tax,budget_FY2021,420000,duplicate_account
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,actual_FY2019,6062,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_FY2020,3000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_revised_FY2020,3000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4600,Interest on Investments,budget_FY2021,6000,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,actual_FY2019,28518,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2020,28519,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_revised_FY2020,28519,
+2021,FY2021_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,budget_FY2021,28519,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,actual_FY2019,21943,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2020,22000,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_revised_FY2020,22000,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4010,Property Taxes,budget_FY2021,22000,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,actual_FY2019,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2020,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_revised_FY2020,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4600,Interest Income,budget_FY2021,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,actual_FY2019,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2020,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_revised_FY2020,0,
+2021,FY2021_budget,12 of 15,Kishwaukee TIF #13,110,13-4-110-4900,Misc Revenue,budget_FY2021,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,actual_FY2019,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2020,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_revised_FY2020,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4010,Property Tax,budget_FY2021,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,actual_FY2019,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2020,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_revised_FY2020,0,
+2021,FY2021_budget,13 of 15,Kishwaukee II TIF #15,110,15-4-110-4600,Interest Income,budget_FY2021,0,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,actual_FY2019,16516,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2020,16500,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_revised_FY2020,16500,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4010,Property Tax,budget_FY2021,16500,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,actual_FY2019,0,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2020,0,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_revised_FY2020,0,
+2021,FY2021_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-4-110-4600,Interest Income,budget_FY2021,0,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,actual_FY2019,6742,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_FY2020,6700,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_revised_FY2020,6700,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4010,Property Tax,budget_FY2021,6700,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,actual_FY2019,0,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_FY2020,0,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_revised_FY2020,0,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-4-110-4600,Interest Income,budget_FY2021,0,
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,000,17-4-000-OTHER,Other,actual_FY2019,0,no_account_number ocr_zero_guess
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,000,17-4-000-OTHER,Other,budget_FY2020,0,no_account_number ocr_zero_guess
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,000,17-4-000-OTHER,Other,budget_revised_FY2020,0,no_account_number ocr_zero_guess
+2021,FY2021_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,000,17-4-000-OTHER,Other,budget_FY2021,0,no_account_number ocr_zero_guess
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,actual_FY2019,40119,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2020,40000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_revised_FY2020,40000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4010,Property Tax,budget_FY2021,40000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4150,Grants,actual_FY2019,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4150,Grants,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4150,Grants,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4150,Grants,budget_FY2021,50000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,actual_FY2019,62000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4940,Expense Reimbursement,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,actual_FY2019,78,auto_resolved
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2020,75,auto_resolved
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_revised_FY2020,75,auto_resolved
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-4600,Interest Income,budget_FY2021,70,auto_resolved
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,actual_FY2019,60000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_FY2020,1212000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_revised_FY2020,1212000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Public Benefit Account,110,41-4-110-9998,Transfer-In,budget_FY2021,1515000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,actual_FY2019,52000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4150,Grants,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,actual_FY2019,11401,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2020,8000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_revised_FY2020,8000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4600,Interest Income,budget_FY2021,6000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,actual_FY2019,70000,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4900,Miscellaneous Revenues,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4910,Impact Fee Revenue,actual_FY2019,21321,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4910,Impact Fee Revenue,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4910,Impact Fee Revenue,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4910,Impact Fee Revenue,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,actual_FY2019,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-4952,Bank Loan Proceeds,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,actual_FY2019,1072358,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2020,551646,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_revised_FY2020,551646,
+2021,FY2021_budget,14 of 15,Capital Projects #41 - Capital Assets Account,752,41-4-752-9998,Operating Transfers In,budget_FY2021,733332,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4490,Other Fees,actual_FY2019,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4490,Other Fees,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4490,Other Fees,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4600,Interest Income,actual_FY2019,4974,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4600,Interest Income,budget_FY2020,4000,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4600,Interest Income,budget_revised_FY2020,4000,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4600,Interest Income,budget_FY2021,3500,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,actual_FY2019,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2020,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_revised_FY2020,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4900,Miscellaneous Revenues,budget_FY2021,0,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,actual_FY2019,61354,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2020,50000,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_revised_FY2020,50000,
+2021,FY2021_budget,14 of 15,Escrow #91,110,91-4-110-4971,Escrow/Land Cash Fees,budget_FY2021,50000,
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,actual_FY2019,1184098,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2020,1237250,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_revised_FY2020,1237250,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-PTAX,Property Tax,budget_FY2021,1326460,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,actual_FY2019,66868,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2020,66868,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_revised_FY2020,66868,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-RTAX,Replacement Tax,budget_FY2021,66868,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,actual_FY2019,1522474,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2020,1300000,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_revised_FY2020,1300000,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-INTINC,Interest Inc/Mkt Fluctuation,budget_FY2021,1100000,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,actual_FY2019,331743,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2020,340000,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_revised_FY2020,340000,no_account_number
+2021,FY2021_budget,15 of 15,Police Pension Fund,000,PP-4-000-CONTRIB,Contributions,budget_FY2021,340000,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,actual_FY2019,1003401,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2020,1036418,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_revised_FY2020,1036418,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-PTAX,Property Tax,budget_FY2021,1088082,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,actual_FY2019,66868,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2020,66868,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_revised_FY2020,66868,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-RTAX,Replacement Tax,budget_FY2021,66868,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,actual_FY2019,1033998,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2020,1100000,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_revised_FY2020,1100000,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-INTINC,Interest Inc/Market Fluctuation,budget_FY2021,850000,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,actual_FY2019,237493,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_FY2020,207185,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_revised_FY2020,207185,no_account_number
+2021,FY2021_budget,15 of 15,Fire Pension Fund,000,FP-4-000-CONTRIB,Contributions,budget_FY2021,254618,no_account_number

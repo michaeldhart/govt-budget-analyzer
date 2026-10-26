@@ -1,0 +1,3 @@
+kind,key,value,reason
+cell,Motor Fuel Tax|102|Street Maintenance|final_budget,696081,"OCR read 69608 (last digit lost); page image shows 696,081 and 875,937 - 696,081 = printed net change 179,856"
+cell,changes_in_fund_balance|100|Interest and Fiscal Charges|Motor Fuel Tax,0,"OCR read a stray 5 in a dash cell (image shows a dash); Total Expenditures MFT 696,082 ties without it"

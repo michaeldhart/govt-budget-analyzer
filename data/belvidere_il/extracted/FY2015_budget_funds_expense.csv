@@ -1,0 +1,173 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,actual_FY2013,218760,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2014,130300,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_revised_FY2014,130300,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2015,190300,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,actual_FY2013,238164,duplicate_account
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2014,647800,duplicate_account
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_revised_FY2014,647800,duplicate_account
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2015,560000,duplicate_account
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,actual_FY2013,0,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-6890,TIF Administrative Expense,actual_FY2013,7500,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-6890,TIF Administrative Expense,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-6890,TIF Administrative Expense,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-6890,TIF Administrative Expense,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7900,Miscellaneous Expense,actual_FY2013,911418,auto_resolved
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7900,Miscellaneous Expense,budget_FY2014,29152,auto_resolved
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7900,Miscellaneous Expense,budget_revised_FY2014,29152,auto_resolved
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7900,Miscellaneous Expense,budget_FY2015,0,auto_resolved
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7930,Tax Increment Distributed,actual_FY2013,21025,ocr_zero_guess
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7930,Tax Increment Distributed,budget_FY2014,0,ocr_zero_guess
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7930,Tax Increment Distributed,budget_revised_FY2014,0,ocr_zero_guess
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-7930,Tax Increment Distributed,budget_FY2015,0,ocr_zero_guess
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-9999,Operating Transfer Out,actual_FY2013,0,from_prep_vote
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-9999,Operating Transfer Out,budget_FY2014,0,from_prep_vote
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-9999,Operating Transfer Out,budget_revised_FY2014,0,from_prep_vote
+2015,FY2015_budget,12 of 16,Downtown TIF #12,110,12-5-110-9999,Operating Transfer Out,budget_FY2015,0,from_prep_vote
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,actual_FY2013,94307,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2014,113000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_revised_FY2014,113000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2015,75373,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,actual_FY2013,4065,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2014,10935,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_revised_FY2014,10935,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2015,11827,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,actual_FY2013,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2014,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_revised_FY2014,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2015,0,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,actual_FY2013,2729,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2014,15000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_revised_FY2014,15000,
+2015,FY2015_budget,12 of 16,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2015,8000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8920,Bond Interest Paid,actual_FY2013,20782,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8920,Bond Interest Paid,budget_FY2014,22000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8920,Bond Interest Paid,budget_revised_FY2014,22000,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8920,Bond Interest Paid,budget_FY2015,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8930,Bond Principal Paid,actual_FY2013,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8930,Bond Principal Paid,budget_FY2014,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8930,Bond Principal Paid,budget_revised_FY2014,0,
+2015,FY2015_budget,13 of 16,Belv Mall TIF Bond/Interest #14,110,14-5-110-8930,Bond Principal Paid,budget_FY2015,0,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,actual_FY2013,0,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2014,0,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_revised_FY2014,0,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-6890,Other Contractual Services,budget_FY2015,0,
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,actual_FY2013,6350,ocr_zero_guess
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2014,0,ocr_zero_guess
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_revised_FY2014,0,ocr_zero_guess
+2015,FY2015_budget,13 of 16,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2015,0,ocr_zero_guess
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,actual_FY2013,12351,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2014,20000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_revised_FY2014,20000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2015,24000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,actual_FY2013,0,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2014,1000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_revised_FY2014,1000,
+2015,FY2015_budget,13 of 16,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2015,1000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-50XX,Salaries,actual_FY2013,356886,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-50XX,Salaries,budget_FY2014,364052,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-50XX,Salaries,budget_revised_FY2014,364052,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-50XX,Salaries,budget_FY2015,369831,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-73XX,"Book Periodicals, A V",actual_FY2013,96394,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-73XX,"Book Periodicals, A V",budget_FY2014,104000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-73XX,"Book Periodicals, A V",budget_revised_FY2014,104000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-73XX,"Book Periodicals, A V",budget_FY2015,105500,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6300,"Heat, Light",actual_FY2013,7602,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6300,"Heat, Light",budget_FY2014,13600,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6300,"Heat, Light",budget_revised_FY2014,13600,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6300,"Heat, Light",budget_FY2015,13600,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-62XX,Computer Equip/Upgrades,actual_FY2013,37719,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-62XX,Computer Equip/Upgrades,budget_FY2014,36000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-62XX,Computer Equip/Upgrades,budget_revised_FY2014,36000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-62XX,Computer Equip/Upgrades,budget_FY2015,36000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,actual_FY2013,6070,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_FY2014,7000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_revised_FY2014,7000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6410,Machine Rental,budget_FY2015,5950,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Supplies,actual_FY2013,26057,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Supplies,budget_FY2014,23000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Supplies,budget_revised_FY2014,23000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7020,Supplies,budget_FY2015,23000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Insurance,actual_FY2013,50751,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Insurance,budget_FY2014,70348,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Insurance,budget_revised_FY2014,70348,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6800,Insurance,budget_FY2015,71019,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Maintenance/Repair,actual_FY2013,44791,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Maintenance/Repair,budget_FY2014,40000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Maintenance/Repair,budget_revised_FY2014,40000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-6010,Maintenance/Repair,budget_FY2015,41000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Other Expenditures,actual_FY2013,124971,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Other Expenditures,budget_FY2014,164000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Other Expenditures,budget_revised_FY2014,164000,
+2015,FY2015_budget,14 of 16,Library Operations #18,510,18-5-510-7900,Other Expenditures,budget_FY2015,174100,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,actual_FY2013,3538,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2014,45000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_revised_FY2014,45000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2015,40000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,actual_FY2013,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2014,300000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_revised_FY2014,300000,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2015,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,actual_FY2013,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2014,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_revised_FY2014,0,
+2015,FY2015_budget,14 of 16,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,actual_FY2013,843,auto_resolved
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2014,0,auto_resolved
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_revised_FY2014,0,auto_resolved
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2015,0,auto_resolved
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Buildings,actual_FY2013,0,from_prep_vote
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Buildings,budget_FY2014,55000,from_prep_vote
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Buildings,budget_revised_FY2014,55000,from_prep_vote
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Buildings,budget_FY2015,0,from_prep_vote
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,actual_FY2013,14080,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2014,10000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_revised_FY2014,10000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,actual_FY2013,249276,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2014,143303,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_revised_FY2014,143303,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2015,322432,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,actual_FY2013,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8400,Furniture Fixtures,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,actual_FY2013,45000,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2014,55188,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_revised_FY2014,55188,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2015,54535,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,actual_FY2013,10840,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_revised_FY2014,0,
+2015,FY2015_budget,15 of 16,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2015,0,
+2015,FY2015_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees a,actual_FY2013,0,no_account_number
+2015,FY2015_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees a,budget_FY2014,15000,no_account_number
+2015,FY2015_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees a,budget_revised_FY2014,15000,no_account_number
+2015,FY2015_budget,15 of 16,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees a,budget_FY2015,15000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,actual_FY2013,755117,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2014,880000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2014,880000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2015,890000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,actual_FY2013,0,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2014,0,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_revised_FY2014,0,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2015,0,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,actual_FY2013,30001,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2014,85000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_revised_FY2014,85000,no_account_number
+2015,FY2015_budget,15 of 16,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2015,85000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,actual_FY2013,875480,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2014,950000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2014,950000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2015,960000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,actual_FY2013,0,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2014,0,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_revised_FY2014,0,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2015,0,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures whe,actual_FY2013,26964,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures whe,budget_FY2014,70000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures whe,budget_revised_FY2014,70000,no_account_number
+2015,FY2015_budget,16 of 16,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures whe,budget_FY2015,70000,no_account_number

@@ -1,0 +1,3 @@
+kind,key,value,reason
+cell,Motor Fuel Tax|105|Fund Balance - Beginning|actual,570361,"OCR dropped the leading 5 (read 70,361); page image shows 570,361 and it equals FY2013 ending balance 570,361"
+cell,balance_sheet|102|Other Taxes|Kishwaukee TIF #2,0,"OCR read a vertical-rule fragment as the digit 2 in a dash cell; image shows a dash and the Total column 47,167 = Motor Fuel Tax cell"

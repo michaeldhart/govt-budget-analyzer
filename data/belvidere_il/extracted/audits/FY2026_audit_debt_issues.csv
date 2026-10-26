@@ -1,0 +1,4 @@
+fiscal_year,doc,pdf_page,activity,issue,interest_rate_text,maturity_text,ending_balance,current_portion,flag,description
+2026,FY2026_audit,60,business_type,IEPA Revolving Loans IEPA Loan #L17-3622 IEPA loan,1.25%,"May 1, 2032",770262,114480,,"IEPA Revolving Loans IEPA Loan #L17-3622 IEPA loan to provide low interest financing for wastewater improvements; due in semiannual installments, including interest at 1.25% through May 1, 2032."
+2026,FY2026_audit,60,business_type,IEPA Loan #L17-3623 IEPA loan,1.35%,"May 24, 2044",3363682,161212,,"IEPA Loan #L17-3623 IEPA loan to provide low interest financing for wastewater improvements; due in semiannual installments, including interest at 1.35% through May 24, 2044."
+2026,FY2026_audit,60,business_type,TOTAL,,,4133944,275692,,

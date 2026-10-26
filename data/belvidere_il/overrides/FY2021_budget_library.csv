@@ -1,0 +1,3 @@
+kind,page_label,key,column,value,reason
+allow_diff,,Total Revenue,budget_FY2020,2100,"FY2021 library budget: the prior-year column prints Total Revenue 844000 but its lines (page image p39) add to 841900; the FY2020 ordinance prints the same 844000 total with more detail lines"
+allow_diff,,Total Expenses,budget_FY2020,4250,"FY2021 library budget: the prior-year column prints Total Expenses 844000 but its lines (page images p39-p40) add to 839750"

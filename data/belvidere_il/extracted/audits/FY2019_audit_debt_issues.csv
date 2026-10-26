@@ -1,0 +1,9 @@
+fiscal_year,doc,pdf_page,activity,issue,interest_rate_text,maturity_text,ending_balance,current_portion,flag,description
+2019,FY2019_audit,55,governmental,"General Obligation Debt Certificates, Series 2005",,"August 1, 2025",430098,55000,,"General Obligation Debt Certificates, Series 2005 dated July 19, 2005, due in annual installments on August 1 of 1,237 to 65,098 through August 1, 2025; including variable interest payable semiannually on August 1 and February 1."
+2019,FY2019_audit,55,governmental,"Tax Increment General Mills Revenue Notes, Series 2003",8%,"May 30, 2023",3036000,0,,"Tax Increment General Mills Revenue Notes, Series 2003 dated March 17, 2003, due in annual installments plus interest of 8% through May 30, 2023."
+2019,FY2019_audit,55,governmental,Landfill post closure liability.,,,405000,50000,,Landfill post closure liability.
+2019,FY2019_audit,55,governmental,"Fire Truck Capital Lease,",2.475%,"June 1, 2022",258907,62346,,"Fire Truck Capital Lease, dated December 21, 2016, due in annual installments plus interest of 2.475% through June 1, 2022."
+2019,FY2019_audit,55,governmental,TOTAL,,,4130005,167346,,
+2019,FY2019_audit,58,business_type,"Revenue Bonds Waterworks and Sewerage Refunding Revenue Bonds, Series 2013",1.35% to 2.40%,"February 1, 2020",260000,260000,,"Revenue Bonds Waterworks and Sewerage Refunding Revenue Bonds, Series 2013 dated February 4, 2013, due in annual installments of 200,000 to 400,000 through February 1, 2020; including interest at 1.35% to 2.40%, payable semiannually in February and August."
+2019,FY2019_audit,58,business_type,IEPA Loan,1.25%,"May 1, 2032",1532895,104917,,"IEPA Loan IEPA loan payable; due in semiannual installments of 61,876, including interest at 1.25% through May 1, 2032."
+2019,FY2019_audit,58,business_type,TOTAL,,,1792895,364917,,

@@ -1,0 +1,166 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2018,FY2018_budget,Motor Fuel Tax #10,revenue_lines,actual_FY2016,685844,685845,-1,rounding
+2018,FY2018_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2017,677156,677156,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,revenue_lines,budget_revised_FY2017,677156,677156,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2018,802156,802156,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,expense_lines,actual_FY2016,674288,674288,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,expense_lines,budget_FY2017,685000,685000,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,expense_lines,budget_revised_FY2017,685000,685000,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,expense_lines,budget_FY2018,1495000,1495000,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,cash_roll,actual_FY2016,842557,842557,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,cash_roll,budget_FY2017,834712,834713,-1,rounding
+2018,FY2018_budget,Motor Fuel Tax #10,cash_roll,budget_revised_FY2017,834712,834713,-1,rounding
+2018,FY2018_budget,Motor Fuel Tax #10,cash_roll,budget_FY2018,141868,141868,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,revenue_lines,actual_FY2016,21712,21712,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2017,22000,22000,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,revenue_lines,budget_revised_FY2017,22000,22000,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2018,22000,22000,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,expense_lines,actual_FY2016,19490,19490,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,expense_lines,budget_FY2017,20000,20000,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,expense_lines,budget_revised_FY2017,20000,20000,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,expense_lines,budget_FY2018,19823,19823,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_roll,actual_FY2016,244832,244832,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_roll,budget_FY2017,246832,246832,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_roll,budget_revised_FY2017,246832,246832,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_roll,budget_FY2018,249009,249009,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,revenue_lines,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2017,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,revenue_lines,budget_revised_FY2017,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2018,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,expense_lines,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2017,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,expense_lines,budget_revised_FY2017,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2018,0,0,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_roll,actual_FY2016,4915,4915,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2017,4915,4915,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_roll,budget_revised_FY2017,4915,4915,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2018,4915,4915,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2017,20986,20986,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_revised_FY2017,20986,20986,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2018,13000,13000,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,actual_FY2016,19021,19021,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2017,18500,18500,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_revised_FY2017,18500,18500,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2018,12500,12500,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,actual_FY2016,9064,9064,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2017,4961,4961,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_revised_FY2017,4961,4961,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2018,5461,5461,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2017,8753,8753,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_revised_FY2017,8753,8753,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2018,5000,5000,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2017,12500,12500,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_revised_FY2017,12500,12500,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2018,4500,4500,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,actual_FY2016,0,0,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2017,2842,2842,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_revised_FY2017,2842,2842,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2018,3342,3342,0,ok
+2018,FY2018_budget,Library Operations #18,revenue_lines,actual_FY2016,786529,786528,1,rounding
+2018,FY2018_budget,Library Operations #18,revenue_lines,budget_FY2017,855000,855000,0,ok
+2018,FY2018_budget,Library Operations #18,revenue_lines,budget_revised_FY2017,855000,855000,0,ok
+2018,FY2018_budget,Library Operations #18,revenue_lines,budget_FY2018,865000,865000,0,ok
+2018,FY2018_budget,Library Operations #18,expense_lines,actual_FY2016,781234,781236,-2,rounding
+2018,FY2018_budget,Library Operations #18,expense_lines,budget_FY2017,855000,855000,0,ok
+2018,FY2018_budget,Library Operations #18,expense_lines,budget_revised_FY2017,855000,855000,0,ok
+2018,FY2018_budget,Library Operations #18,expense_lines,budget_FY2018,865000,865000,0,ok
+2018,FY2018_budget,Library Operations #18,cash_roll,actual_FY2016,509484,509484,0,ok
+2018,FY2018_budget,Library Operations #18,cash_roll,budget_FY2017,509484,509484,0,ok
+2018,FY2018_budget,Library Operations #18,cash_roll,budget_revised_FY2017,509484,509484,0,ok
+2018,FY2018_budget,Library Operations #18,cash_roll,budget_FY2018,509484,509484,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,actual_FY2016,494018,494018,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2017,490000,490000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_revised_FY2017,490000,490000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2018,40000,40000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,expense_lines,actual_FY2016,211060,211060,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2017,1540000,1540000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_revised_FY2017,1540000,1540000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2018,60000,60000,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_roll,actual_FY2016,1007427,1007427,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2017,-42573,-42573,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_revised_FY2017,-42573,-42573,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2018,-62573,-62573,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,actual_FY2016,707598,707598,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2017,537521,537521,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_revised_FY2017,537521,537521,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2018,415328,415328,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,expense_lines,actual_FY2016,600076,600076,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2017,546621,546621,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_revised_FY2017,546621,546621,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,expense_lines,budget_FY2018,472224,472224,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_roll,actual_FY2016,203147,203147,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2017,194047,194047,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_revised_FY2017,194047,194047,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2018,137151,137151,0,ok
+2018,FY2018_budget,Escrow #91,revenue_lines,actual_FY2016,56045,56045,0,ok
+2018,FY2018_budget,Escrow #91,revenue_lines,budget_FY2017,51500,51500,0,ok
+2018,FY2018_budget,Escrow #91,revenue_lines,budget_revised_FY2017,51500,51500,0,ok
+2018,FY2018_budget,Escrow #91,revenue_lines,budget_FY2018,51600,51600,0,ok
+2018,FY2018_budget,Escrow #91,expense_lines,actual_FY2016,40201,40201,0,ok
+2018,FY2018_budget,Escrow #91,expense_lines,budget_FY2017,40000,40000,0,ok
+2018,FY2018_budget,Escrow #91,expense_lines,budget_revised_FY2017,40000,40000,0,ok
+2018,FY2018_budget,Escrow #91,expense_lines,budget_FY2018,40000,40000,0,ok
+2018,FY2018_budget,Escrow #91,cash_roll,actual_FY2016,1083292,1083292,0,ok
+2018,FY2018_budget,Escrow #91,cash_roll,budget_FY2017,1094792,1094792,0,ok
+2018,FY2018_budget,Escrow #91,cash_roll,budget_revised_FY2017,1094792,1094792,0,ok
+2018,FY2018_budget,Escrow #91,cash_roll,budget_FY2018,1106392,1106392,0,ok
+2018,FY2018_budget,Police Pension Fund,revenue_lines,actual_FY2016,1216511,1216511,0,ok
+2018,FY2018_budget,Police Pension Fund,revenue_lines,budget_FY2017,1805009,1805009,0,ok
+2018,FY2018_budget,Police Pension Fund,revenue_lines,budget_revised_FY2017,1805009,1805009,0,ok
+2018,FY2018_budget,Police Pension Fund,revenue_lines,budget_FY2018,1780914,1780914,0,ok
+2018,FY2018_budget,Police Pension Fund,expense_lines,actual_FY2016,1181617,1181617,0,ok
+2018,FY2018_budget,Police Pension Fund,expense_lines,budget_FY2017,1177343,1177343,0,ok
+2018,FY2018_budget,Police Pension Fund,expense_lines,budget_revised_FY2017,1177343,1177343,0,ok
+2018,FY2018_budget,Police Pension Fund,expense_lines,budget_FY2018,1424112,1424112,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_roll,actual_FY2016,18644790,18644791,-1,rounding
+2018,FY2018_budget,Police Pension Fund,cash_roll,budget_FY2017,19272456,19272456,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_roll,budget_revised_FY2017,19272456,19272456,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_roll,budget_FY2018,19629258,19629258,0,ok
+2018,FY2018_budget,Fire Pension Fund,revenue_lines,actual_FY2016,698234,698234,0,ok
+2018,FY2018_budget,Fire Pension Fund,revenue_lines,budget_FY2017,1344713,1344713,0,ok
+2018,FY2018_budget,Fire Pension Fund,revenue_lines,budget_revised_FY2017,1344713,1344713,0,ok
+2018,FY2018_budget,Fire Pension Fund,revenue_lines,budget_FY2018,1540872,1540872,0,ok
+2018,FY2018_budget,Fire Pension Fund,expense_lines,actual_FY2016,1257339,1257338,1,rounding
+2018,FY2018_budget,Fire Pension Fund,expense_lines,budget_FY2017,1239790,1239790,0,ok
+2018,FY2018_budget,Fire Pension Fund,expense_lines,budget_revised_FY2017,1239790,1239790,0,ok
+2018,FY2018_budget,Fire Pension Fund,expense_lines,budget_FY2018,1359429,1359429,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_roll,actual_FY2016,13542592,13542591,1,rounding
+2018,FY2018_budget,Fire Pension Fund,cash_roll,budget_FY2017,13647515,13647515,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_roll,budget_revised_FY2017,13647515,13647515,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_roll,budget_FY2018,13828958,13828958,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,cash_chain,budget_FY2017,842557,842557,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,cash_chain,budget_revised_FY2017,842557,842557,0,ok
+2018,FY2018_budget,Motor Fuel Tax #10,cash_chain,budget_FY2018,834712,834712,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_chain,budget_FY2017,244832,244832,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_chain,budget_revised_FY2017,244832,244832,0,ok
+2018,FY2018_budget,Kishwaukee TIF #13,cash_chain,budget_FY2018,246832,246832,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2017,4915,4915,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_chain,budget_revised_FY2017,4915,4915,0,ok
+2018,FY2018_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2018,4915,4915,0,ok
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2017,2475,9064,-6589,note
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_revised_FY2017,2475,9064,-6589,note
+2018,FY2018_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2018,4961,4961,0,ok
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2017,6589,0,6589,note
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_revised_FY2017,6589,0,6589,note
+2018,FY2018_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2018,2842,2842,0,ok
+2018,FY2018_budget,Library Operations #18,cash_chain,budget_FY2017,509484,509484,0,ok
+2018,FY2018_budget,Library Operations #18,cash_chain,budget_revised_FY2017,509484,509484,0,ok
+2018,FY2018_budget,Library Operations #18,cash_chain,budget_FY2018,509484,509484,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2017,1007427,1007427,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_revised_FY2017,1007427,1007427,0,ok
+2018,FY2018_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2018,-42573,-42573,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2017,203147,203147,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_revised_FY2017,203147,203147,0,ok
+2018,FY2018_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2018,194047,194047,0,ok
+2018,FY2018_budget,Escrow #91,cash_chain,budget_FY2017,1083292,1083292,0,ok
+2018,FY2018_budget,Escrow #91,cash_chain,budget_revised_FY2017,1083292,1083292,0,ok
+2018,FY2018_budget,Escrow #91,cash_chain,budget_FY2018,1094792,1094792,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_chain,budget_FY2017,18644790,18644790,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_chain,budget_revised_FY2017,18644790,18644790,0,ok
+2018,FY2018_budget,Police Pension Fund,cash_chain,budget_FY2018,19272456,19272456,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_chain,budget_FY2017,13542592,13542592,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_chain,budget_revised_FY2017,13542592,13542592,0,ok
+2018,FY2018_budget,Fire Pension Fund,cash_chain,budget_FY2018,13647515,13647515,0,ok

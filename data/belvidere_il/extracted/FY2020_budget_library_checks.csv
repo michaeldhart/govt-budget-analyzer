@@ -1,0 +1,7 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2020,FY2020_budget,Ida Public Library,total_revenue:(unlabelled total),budget_FY2020,844000,844000,0,ok
+2020,FY2020_budget,Ida Public Library,total_revenue:(unlabelled total),budget_FY2019,873739,873739,0,ok
+2020,FY2020_budget,Ida Public Library,total_revenue:(unlabelled total),budget_FY2018,865000,865000,0,ok
+2020,FY2020_budget,Ida Public Library,total_expense:(unlabelled total),budget_FY2020,844000,844000,0,ok
+2020,FY2020_budget,Ida Public Library,total_expense:(unlabelled total),budget_FY2019,873739,873739,0,ok
+2020,FY2020_budget,Ida Public Library,total_expense:(unlabelled total),budget_FY2018,865000,865000,0,ok

@@ -1,0 +1,129 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,actual_FY2018,129645,
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2019,220000,
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_revised_FY2019,220000,
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Street Maintenance,budget_FY2020,220000,
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,actual_FY2018,1227009,duplicate_account
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2019,565000,duplicate_account
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_revised_FY2019,565000,duplicate_account
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-6000,Contracted Work,budget_FY2020,665000,duplicate_account
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,actual_FY2018,0,ocr_zero_guess
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2019,0,ocr_zero_guess
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_revised_FY2019,0,ocr_zero_guess
+2020,FY2020_budget,12 of 15,Motor Fuel Tax #10,310,10-5-310-7900,Miscellaneous Expenditures,budget_FY2020,0,ocr_zero_guess
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,actual_FY2018,39456,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2019,41164,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_revised_FY2019,41164,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8920,Tax Increment Dist - Int,budget_FY2020,8750,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,actual_FY2018,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2019,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_revised_FY2019,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-8930,Tax Increment Dist - Prin,budget_FY2020,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,actual_FY2018,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2019,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_revised_FY2019,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-6890,Other Contractual Services,budget_FY2020,0,
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,actual_FY2018,12913,from_prep_vote
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2019,0,from_prep_vote
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_revised_FY2019,0,from_prep_vote
+2020,FY2020_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,budget_FY2020,0,from_prep_vote
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,joteer Contractual Services,actual_FY2018,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,joteer Contractual Services,budget_FY2019,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,joteer Contractual Services,budget_revised_FY2019,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-6890,joteer Contractual Services,budget_FY2020,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,actual_FY2018,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2019,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_revised_FY2019,0,
+2020,FY2020_budget,13 of 15,Kishwaukee II TIF #15,110,15-5-110-7900,Miscellaneous Expense,budget_FY2020,0,
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,actual_FY2018,14265,
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2019,15000,
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_revised_FY2019,15000,
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-6090,Maintenance Expense,budget_FY2020,15500,
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,actual_FY2018,1555,ocr_zero_guess auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2019,500,ocr_zero_guess auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_revised_FY2019,500,ocr_zero_guess auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 2 (Farmington Fields) #16,110,16-5-110-7900,Misc Expense,budget_FY2020,0,ocr_zero_guess auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,actual_FY2018,7520,
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2019,6000,
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_revised_FY2019,6000,
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-6090,Maintenance Expense,budget_FY2020,6700,
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense 7 7,actual_FY2018,0,auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense 7 7,budget_FY2019,500,auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense 7 7,budget_revised_FY2019,500,auto_resolved
+2020,FY2020_budget,13 of 15,Special Service Area 3 (Farmington Fields) #17,110,17-5-110-7900,Misc Expense 7 7,budget_FY2020,0,auto_resolved
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,actual_FY2018,22913,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2019,50000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_revised_FY2019,50000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-7900,Miscellaneous Expenditures,budget_FY2020,140000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,actual_FY2018,193147,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_revised_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8020,Infrastructure,budget_FY2020,12000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,actual_FY2018,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,budget_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,budget_revised_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8021,Logan Ave. Reconstruction,budget_FY2020,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,actual_FY2018,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,budget_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,budget_revised_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8022,Dawngate Detention Improvements,budget_FY2020,600000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,actual_FY2018,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,budget_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,budget_revised_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-8023,Low Flow Channel 6th to Appleton,budget_FY2020,500000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,actual_FY2018,0,from_prep_vote
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2019,0,from_prep_vote
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_revised_FY2019,0,from_prep_vote
+2020,FY2020_budget,pdf36,Capital Projects #41 - Public Benefit Account,110,41-5-110-9999,Operating Transfer Out,budget_FY2020,0,from_prep_vote
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,actual_FY2018,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_revised_FY2019,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-7900,Misc. Expense,budget_FY2020,0,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,actual_FY2018,1884,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2019,225000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_revised_FY2019,225000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8100,Building and Improvements,budget_FY2020,25000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,actual_FY2018,123157,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2019,283780,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_revised_FY2019,283780,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8200,Equipment,budget_FY2020,222980,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,actual_FY2018,203286,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2019,253828,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_revised_FY2019,253828,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8300,Vehicles,budget_FY2020,367828,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,actual_FY2018,50000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2019,55000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_revised_FY2019,55000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8910,Bond Loan Prin Payments,budget_FY2020,55000,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,actual_FY2018,7345,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2019,6635,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_revised_FY2019,6635,
+2020,FY2020_budget,pdf36,Capital Projects #41 - Capital Assets Account,752,41-5-752-8920,Bond Loan Int Payments,budget_FY2020,5838,
+2020,FY2020_budget,pdf36,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,actual_FY2018,837278,no_account_number
+2020,FY2020_budget,pdf36,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2019,50000,no_account_number
+2020,FY2020_budget,pdf36,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_revised_FY2019,50000,no_account_number
+2020,FY2020_budget,pdf36,Escrow #91,000,91-5-000-DISBURS,Disbursement of Collected Fees,budget_FY2020,75000,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,actual_FY2018,1445201,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2019,1452688,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2019,1452688,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-BENEFIT,Benefit Payments,budget_FY2020,1495700,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,actual_FY2018,57397,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2019,2500,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_revised_FY2019,2500,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-REFUND,Contribution Refunds,budget_FY2020,2500,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,actual_FY2018,24284,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2019,50000,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_revised_FY2019,50000,no_account_number
+2020,FY2020_budget,pdf37,Police Pension Fund,000,PP-5-000-OTHEXP,Other Expenditures,budget_FY2020,50000,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,actual_FY2018,1286360,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2019,1320125,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_revised_FY2019,1320125,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-BENEFIT,Benefit Payments,budget_FY2020,1338550,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,actual_FY2018,0,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2019,2500,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_revised_FY2019,2500,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-REFUND,Refund of Contributions,budget_FY2020,2500,no_account_number
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,actual_FY2018,37723,no_account_number from_prep_vote
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_FY2019,50000,no_account_number from_prep_vote
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_revised_FY2019,50000,no_account_number from_prep_vote
+2020,FY2020_budget,pdf37,Fire Pension Fund,000,FP-5-000-OTHEXP,Other Expenditures,budget_FY2020,50000,no_account_number from_prep_vote

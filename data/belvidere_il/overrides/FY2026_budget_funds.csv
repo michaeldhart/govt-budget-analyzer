@@ -1,0 +1,2 @@
+kind,page_label,key,column,value,reason
+allow_diff,16 of 16,FP@cash_roll,actual_FY2024,-20275,"Fire Pension actual FY24: printed ending cash 20951930 differs from beginning 19304690 + revenues 3566745 - expenditures 1899230 = 20972205 (the city's own arithmetic; the printed figure equals the next column's beginning cash)"

@@ -1,0 +1,2 @@
+kind,key,value,exception_id,reason
+allow,def|police|amortization_sum,7070802,EX-adp-police-fy2021-amort-sign,"Police amortisation TOTAL printed 3,535,401 without parentheses; years sum to (3,535,401), which also equals the reconciliation line"

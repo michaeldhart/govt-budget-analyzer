@@ -1,0 +1,2 @@
+kind,page_label,key,column,value,reason
+not_in_total,pdf17,41|Capital Assets Account@41-4-752-4150,,,"Capital Assets actual FY21: the Grants line (25000) is printed but the city's Capital Asset Revenues total (577144) does not include it; the printed cash roll (655394 + 577144 - 501396 = 731142) ties to the printed ending cash without it"

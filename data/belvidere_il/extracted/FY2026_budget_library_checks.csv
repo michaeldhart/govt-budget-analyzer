@@ -1,0 +1,24 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL TAX,budget_FY2026,882705,882705,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL GRANTS/DONATIONS/ENDOW,budget_FY2026,90625,90625,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL FINES FEES,budget_FY2026,38060,38060,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL FRIENDS,budget_FY2026,7000,7000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2026,24200,24200,0,ok
+2026,FY2026_budget,Ida Public Library,total_revenue:TOTAL REVENUE,budget_FY2026,1042590,1042590,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL LEGAL ACCOUNTING,budget_FY2026,10000,10000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL GRANT/DONATION/ENDOWM,budget_FY2026,8300,8300,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL PERSONNEL,budget_FY2026,752789.68,752789.68,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL PUBLIC RELATIONS,budget_FY2026,5350,5350,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL BOOKMOBILE,budget_FY2026,18000,18000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL PROPERTIES,budget_FY2026,104740,104740,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL INFORMATION TECHNOLOGY,budget_FY2026,36500,36500,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL INSURANCE,budget_FY2026,28000,28000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL SUPPLIES,budget_FY2026,17000,17000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:Total Adult Collection,budget_FY2026,11300,11300,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:Total Other Collection,budget_FY2026,25500,25500,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:Total Collection,budget_FY2026,3000,3000,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:Total Youth Collection,budget_FY2026,13550,13550,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL COLLECTION,budget_FY2026,53350,53350,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL PROGRAMMING,budget_FY2026,8560.32,8560.32,0,ok
+2026,FY2026_budget,Ida Public Library,subtotal:TOTAL MISCELLANEOUS,budget_FY2026,0,0,0,ok
+2026,FY2026_budget,Ida Public Library,total_expense:TOTAL EXPENSES,budget_FY2026,1042590,1042590,0,ok

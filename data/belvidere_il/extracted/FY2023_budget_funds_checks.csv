@@ -1,0 +1,108 @@
+fiscal_year,doc,fund,check,column,printed,computed,diff,status
+2023,FY2023_budget,Motor Fuel Tax #10,revenue_lines,actual_FY2021,1822127,1822127,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2022,1876448,1876448,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,revenue_lines,budget_FY2023,1059087,1059087,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,expense_lines,actual_FY2021,807244,807244,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,expense_lines,budget_FY2022,2946152,2946152,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,expense_lines,budget_FY2023,2984152,2984152,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,cash_roll,actual_FY2021,1712919,1712919,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,cash_roll,budget_FY2022,643215,643215,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,cash_roll,budget_FY2023,-1281850,-1281850,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,revenue_lines,actual_FY2021,18584,18584,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2022,20000,20000,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,revenue_lines,budget_FY2023,20000,20000,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,expense_lines,actual_FY2021,7026,7026,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,expense_lines,budget_FY2022,8250,8250,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,expense_lines,budget_FY2023,4000,4000,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,cash_roll,actual_FY2021,23215,23215,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,cash_roll,budget_FY2022,34965,34965,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,cash_roll,budget_FY2023,50965,50965,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,revenue_lines,actual_FY2021,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2022,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,revenue_lines,budget_FY2023,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,expense_lines,actual_FY2021,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2022,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,expense_lines,budget_FY2023,0,0,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,cash_roll,actual_FY2021,4915,4915,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2022,4915,4915,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,cash_roll,budget_FY2023,4915,4915,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,actual_FY2021,19099,19099,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2022,16500,16500,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,revenue_lines,budget_FY2023,16500,16500,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,actual_FY2021,10970,10970,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2022,15500,15500,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,expense_lines,budget_FY2023,16000,16000,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,actual_FY2021,16221,16221,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2022,17221,17221,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,cash_roll,budget_FY2023,17721,17721,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,actual_FY2021,7812,7812,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2022,6700,6700,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,revenue_lines,budget_FY2023,6700,6700,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,actual_FY2021,6566,6566,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2022,6700,6700,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,expense_lines,budget_FY2023,6700,6700,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,actual_FY2021,-934,-934,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2022,-934,-934,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,cash_roll,budget_FY2023,-934,-934,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,actual_FY2021,347919,347919,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2022,1710075,1710075,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,revenue_lines,budget_FY2023,1265020,1265020,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,expense_lines,actual_FY2021,919255,919255,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2022,1820000,1820000,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,expense_lines,budget_FY2023,1820000,1820000,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,cash_roll,actual_FY2021,305148,305148,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2022,-112763,-112763,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,cash_roll,budget_FY2023,-667743,-667743,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,actual_FY2021,577144,577144,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2022,524793,524793,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,revenue_lines,budget_FY2023,790256,790256,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,cash_roll,actual_FY2021,731142,731142,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2022,732342,732342,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,cash_roll,budget_FY2023,-699434,-699434,0,ok
+2023,FY2023_budget,Escrow #91,revenue_lines,actual_FY2021,1633,1633,0,ok
+2023,FY2023_budget,Escrow #91,revenue_lines,budget_FY2022,50000,50000,0,ok
+2023,FY2023_budget,Escrow #91,revenue_lines,budget_FY2023,0,0,0,ok
+2023,FY2023_budget,Escrow #91,expense_lines,actual_FY2021,104882,104882,0,ok
+2023,FY2023_budget,Escrow #91,expense_lines,budget_FY2022,50000,50000,0,ok
+2023,FY2023_budget,Escrow #91,expense_lines,budget_FY2023,0,0,0,ok
+2023,FY2023_budget,Escrow #91,cash_roll,actual_FY2021,515812,515812,0,ok
+2023,FY2023_budget,Escrow #91,cash_roll,budget_FY2022,515812,515812,0,ok
+2023,FY2023_budget,Escrow #91,cash_roll,budget_FY2023,515812,515812,0,ok
+2023,FY2023_budget,Police Pension Fund,revenue_lines,actual_FY2021,8275260,8275260,0,ok
+2023,FY2023_budget,Police Pension Fund,revenue_lines,budget_FY2022,2085930,2085930,0,ok
+2023,FY2023_budget,Police Pension Fund,revenue_lines,budget_FY2023,2243178,2243178,0,ok
+2023,FY2023_budget,Police Pension Fund,expense_lines,actual_FY2021,1677955,1677955,0,ok
+2023,FY2023_budget,Police Pension Fund,expense_lines,budget_FY2022,1681763,1681763,0,ok
+2023,FY2023_budget,Police Pension Fund,expense_lines,budget_FY2023,2020091,2020091,0,ok
+2023,FY2023_budget,Police Pension Fund,cash_roll,actual_FY2021,29749995,29749995,0,ok
+2023,FY2023_budget,Police Pension Fund,cash_roll,budget_FY2022,30154162,30154162,0,ok
+2023,FY2023_budget,Police Pension Fund,cash_roll,budget_FY2023,30377250,30377249,1,rounding
+2023,FY2023_budget,Fire Pension Fund,revenue_lines,actual_FY2021,5814824,5814824,0,ok
+2023,FY2023_budget,Fire Pension Fund,revenue_lines,budget_FY2022,1791195,1791195,0,ok
+2023,FY2023_budget,Fire Pension Fund,revenue_lines,budget_FY2023,1789530,1789530,0,ok
+2023,FY2023_budget,Fire Pension Fund,expense_lines,actual_FY2021,1541514,1541514,0,ok
+2023,FY2023_budget,Fire Pension Fund,expense_lines,budget_FY2022,1583402,1583402,0,ok
+2023,FY2023_budget,Fire Pension Fund,expense_lines,budget_FY2023,1707733,1707733,0,ok
+2023,FY2023_budget,Fire Pension Fund,cash_roll,actual_FY2021,20860967,20860967,0,ok
+2023,FY2023_budget,Fire Pension Fund,cash_roll,budget_FY2022,21068760,21068760,0,ok
+2023,FY2023_budget,Fire Pension Fund,cash_roll,budget_FY2023,21150557,21150557,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,cash_chain,budget_FY2022,1712919,1712919,0,ok
+2023,FY2023_budget,Motor Fuel Tax #10,cash_chain,budget_FY2023,643215,643215,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,cash_chain,budget_FY2022,23215,23215,0,ok
+2023,FY2023_budget,Kishwaukee TIF #13,cash_chain,budget_FY2023,34965,34965,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2022,4915,4915,0,ok
+2023,FY2023_budget,Kishwaukee II TIF #15,cash_chain,budget_FY2023,4915,4915,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2022,16221,16221,0,ok
+2023,FY2023_budget,Special Service Area 2 (Farmington Fields) #16,cash_chain,budget_FY2023,17221,17221,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2022,-934,-934,0,ok
+2023,FY2023_budget,Special Service Area 3 (Farmington Fields) #17,cash_chain,budget_FY2023,-934,-934,0,ok
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2022,-2838,305148,-307986,note
+2023,FY2023_budget,Capital Projects #41 - Public Benefit Account,cash_chain,budget_FY2023,-112763,-112763,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2022,731142,731142,0,ok
+2023,FY2023_budget,Capital Projects #41 - Capital Assets Account,cash_chain,budget_FY2023,732342,732342,0,ok
+2023,FY2023_budget,Escrow #91,cash_chain,budget_FY2022,515812,515812,0,ok
+2023,FY2023_budget,Escrow #91,cash_chain,budget_FY2023,515812,515812,0,ok
+2023,FY2023_budget,Police Pension Fund,cash_chain,budget_FY2022,29749995,29749995,0,ok
+2023,FY2023_budget,Police Pension Fund,cash_chain,budget_FY2023,30154162,30154162,0,ok
+2023,FY2023_budget,Fire Pension Fund,cash_chain,budget_FY2022,20860967,20860967,0,ok
+2023,FY2023_budget,Fire Pension Fund,cash_chain,budget_FY2023,21068760,21068760,0,ok

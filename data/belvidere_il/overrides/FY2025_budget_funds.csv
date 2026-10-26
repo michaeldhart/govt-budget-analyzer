@@ -1,0 +1,11 @@
+kind,page_label,key,column,value,reason
+add_row,15 of 15,FP@FP-4-000-PTAX,Property Tax,1236703|1247022|1347253,"Fire Pension request column is blurred in the scan (see page image); values from the FY2026 document's prior-year column, which the printed Total Revenues 2115651 ties to"
+row,15 of 15,FP@FP-4-000-RTAX,,66868|66868|66868,"Fire Pension replacement tax; request cell blurred in the scan, same figure as the FY24 column and FY2026 document"
+row,15 of 15,FP@FP-4-000-INTINC,,147709|484518|484518,"Fire Pension interest; request cell blurred in the scan, FY2026 document's prior-year column"
+add_row,15 of 15,FP@FP-4-000-CONTRIB,Contributions,216783|217012|217012,"Fire Pension contributions; request cell blurred in the scan, FY2026 document's prior-year column"
+row,15 of 15,FP@FP-5-000-BENEFIT,,1728918|1661158|1710993,"Fire Pension benefit payments; request cell blurred in the scan, FY2026 document's prior-year column, ties to Total Expenditures 1759897"
+row,15 of 15,FP@FP-5-000-REFUND,,0|0|0,Fire Pension refund of contributions (request cell blurred in the scan)
+row,15 of 15,FP@FP-5-000-ADMIN,,43325|48904|48904,"Fire Pension administration; request cell blurred in the scan, FY2026 document's prior-year column"
+row,15 of 15,FP@beg,,19408870|19304690|19610048,"Fire Pension beginning cash; request cell blurred in the scan, equals the FY24 budget column's ending cash"
+row,15 of 15,FP@end,,19304690|19610048|19965803,"Fire Pension ending cash; request cell blurred in the scan (last digits read as 803; the arithmetic 19610048 + 2115651 - 1759897 gives 19965802)"
+allow_diff,14 of 15,41|Public Benefit Account@expense_lines,actual_FY2023,645628,"Public Benefit actual FY23: printed Total Expenditures 2336580 exceeds the listed lines (1690952) by 645628, but the cash roll (853747 + 1381652 - 2336580 = -101181) ties to the printed ending cash, so the printed total includes expense lines that are not shown on the page"

@@ -1,4 +1,16 @@
 entity_id,fiscal_year,department,audit_original,audit_final,audit_actual,budget_lines,set_asides_excluded,transfers_excluded,card_fee_excluded,budget_adjusted,diff
+belvidere_il,2012,Water,1688851,1684068,1556484,,,,,,
+belvidere_il,2012,Sewer,5275588,1752845,1691525,,,,,,
+belvidere_il,2012,Collection system,380095,362757,359712,,,,,,
+belvidere_il,2013,Water,1758088,1705433,1780109,,,,,,
+belvidere_il,2013,Sewer,5102753,2906138,1670906,,,,,,
+belvidere_il,2013,Collection system,406709,371776,357314,,,,,,
+belvidere_il,2014,Water,3998029,1683936,1708780,,,,,,
+belvidere_il,2014,Sewer,3397679,3634452,1751904,,,,,,
+belvidere_il,2014,Collection system,4358758,470551,425096,,,,,,
+belvidere_il,2015,Water,5640399,2531496,1864755,5510580,471236,0,0,5039344,601055
+belvidere_il,2015,Sewer,9159391,4479897,1835741,4608520,735129,0,0,3873391,5286000
+belvidere_il,2015,Collection system,956956,819228,500887,648781,0,0,0,648781,308175
 belvidere_il,2016,Water,2198710,1811756,2022597,3115913,417203,500000,0,2198710,0
 belvidere_il,2016,Sewer,3418940,1687759,1693882,4604203,685263,500000,0,3418940,0
 belvidere_il,2016,Collection system,831946,555367,558675,831946,0,0,0,831946,0

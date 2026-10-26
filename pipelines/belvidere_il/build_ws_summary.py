@@ -2,7 +2,7 @@
 
 Usage: python3 pipelines/belvidere_il/build_ws_summary.py   (run build_facts.py first)
 
-Output: data/belvidere_il/ws_summary.csv. Audit columns exist for FY2016-FY2026 (the summary schedule is extracted for those audits);
+Output: data/belvidere_il/ws_summary.csv. Audit columns exist for FY2012-FY2026;
 budget columns for FY2015-FY2027 (the fund's department totals as printed, adopted basis, set-asides included). Amounts are dollars.
   operating_revenues_*     the audit's total operating revenues (charges for services)      *_original / *_actual
   operating_expenses_*     operating expenses excluding depreciation, by the budgetary basis (the actual includes capital outlay)
@@ -43,9 +43,10 @@ def main():
         elif sec.startswith("operating expenses"):
             a[fy]["exp_" + key] += int(f["amount"])
     np = defaultdict(dict)
-    for r in read_csv(E.data_path("fund_statements.csv")):
-        if r["statement"] == "ws_net_position" and r["line_id"]:
-            np[int(r["period_fy"])][r["line_id"]] = int(r["amount"])
+    for r in read_csv(E.data_path("fund_statements.csv")):  # the GAAP statement of revenues, expenses and changes in net position (FY2012-FY2026)
+        if r["statement"] == "ws_stmt_income" and r["line_id"] in ("np_beginning", "np_restated", "np_ending", "change_in_net_position") \
+                and "prior_year_comparative" not in r["flag"]:
+            np[int(r["period_fy"])]["np_change" if r["line_id"] == "change_in_net_position" else r["line_id"]] = int(r["amount"])
     bud = defaultdict(lambda: defaultdict(int))
     for t in read_csv(E.data_path("control_totals.csv")):
         if t["kind"] in ("dept_revenues", "dept_expenses") and t["basis"] == "adopted" and t["name"].split(":")[0] in ("Water", "Sewer"):

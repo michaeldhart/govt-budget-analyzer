@@ -26,3 +26,11 @@ exp_transfers,expense_object,Transfers out,expense,,6,"object codes 9000-9999: o
 ws_charges,budget_category,Water and sewer charges and fees,revenue,,90,"Water/Sewer Fund revenue: consumption (4500), connection fees (4510), deposits (4520), Dep on Agr (4521), meters sold (4530), other services (4590), card fee (4595)"
 ws_other,budget_category,Other water and sewer revenue,revenue,,91,"Water/Sewer Fund: grants, interest, miscellaneous, reimbursements, sale of assets, transfers in from reserves"
 exp_set_aside,expense_object,Depreciation and bond set-asides,expense,,7,Water/Sewer Fund: unnumbered lines that move cash to the depreciation and bond payment funds (61-5-DDD-DEPSA / BONDSA are this project's pseudo account numbers)
+fund_tax_levy,budget_category,Property tax and replacement tax levied for the fund,revenue,,90,other budgeted funds (docs/handoff/budget_other_funds.md)
+fund_intergovernmental,budget_category,State allotment and grants,revenue,,91,other budgeted funds (docs/handoff/budget_other_funds.md)
+fund_transfer_in,budget_category,Operating transfers in,revenue,,92,other budgeted funds (docs/handoff/budget_other_funds.md)
+fund_contributions,budget_category,Pension contributions,revenue,,93,other budgeted funds (docs/handoff/budget_other_funds.md)
+fund_interest,budget_category,Interest,revenue,,94,other budgeted funds (docs/handoff/budget_other_funds.md)
+fund_other_revenue,budget_category,"Other fund revenue (fees, rent, gifts, escrow)",revenue,,95,other budgeted funds (docs/handoff/budget_other_funds.md)
+exp_debt_service,expense_object,Debt service,expense,,8,other budgeted funds (docs/handoff/budget_other_funds.md)
+exp_pension_payments,expense_object,Pension benefit payments and refunds,expense,,9,other budgeted funds (docs/handoff/budget_other_funds.md)
