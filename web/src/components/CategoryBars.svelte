@@ -1,0 +1,42 @@
+<script lang="ts">
+  import * as Plot from '@observablehq/plot';
+  import ChartFrame from './ChartFrame.svelte';
+  import { dollars, percent } from '../lib/format';
+
+  type Row = { category: string; gross_tax: number; offsets: number; net: number; color: string };
+  let { rows, year, title, note = '' }: { rows: Row[]; year: number; title: string; note?: string } = $props();
+
+  const sorted = $derived([...rows].sort((a, b) => b.gross_tax - a.gross_tax));
+  const total = $derived(rows.reduce((s, r) => s + r.gross_tax, 0));
+  const data = $derived(sorted.map((r) => ({ ...r, share: percent(r.gross_tax, total) })));
+  const columns = [
+    { key: 'category', label: 'Category' }, { key: 'gross_tax', label: 'Gross tax ($)' }, { key: 'offsets', label: 'Offsets ($)' },
+    { key: 'net', label: 'Net ($)' }, { key: 'share', label: 'Share of gross' },
+  ];
+
+  let width = $state(0);
+  let host: HTMLElement | undefined = $state();
+
+  $effect(() => {
+    if (!host || width < 240) return; // clientWidth is 0 until the island has been laid out
+    const narrow = width < 520; // phone: label with the share only and leave more room for the bars
+    const plot = Plot.plot({
+      width, marginLeft: narrow ? 105 : 150, marginRight: narrow ? 48 : 150, height: 40 + sorted.length * 34,
+      style: { fontSize: '13px', background: 'transparent' },
+      x: { label: null, axis: null, domain: [0, Math.max(...sorted.map((r) => r.gross_tax)) * 1.0] },
+      y: { label: null, domain: sorted.map((r) => r.category), tickSize: 0 },
+      marks: [
+        Plot.barX(sorted, { y: 'category', x: 'gross_tax', fill: 'color', insetTop: 3, insetBottom: 3,
+          title: (r: Row) => `${r.category}\nGross ${dollars(r.gross_tax)} (${percent(r.gross_tax, total)})\nOffsets ${dollars(r.offsets)}\nNet ${dollars(r.net)}` }),
+        Plot.text(sorted, { y: 'category', x: 'gross_tax', text: (r: Row) => (narrow ? percent(r.gross_tax, total) : `${dollars(r.gross_tax)}  ${percent(r.gross_tax, total)}`),
+          textAnchor: 'start', dx: 6, fill: 'currentColor' }),
+      ],
+    });
+    host.replaceChildren(plot);
+    return () => plot.remove();
+  });
+</script>
+
+<ChartFrame {title} {note} rows={data} {columns} filename={`taxes-fy${year}-by-category.csv`}>
+  <div bind:clientWidth={width} bind:this={host} role="img" aria-label={`${title}: bar chart of gross tax by category; the Table view has the same numbers`}></div>
+</ChartFrame>

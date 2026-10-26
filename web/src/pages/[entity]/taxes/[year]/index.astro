@@ -1,0 +1,122 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import CategoryBars from '../../../../components/CategoryBars.svelte';
+import { readData, href } from '../../../../lib/data';
+import { dollars, percent, fyLabel } from '../../../../lib/format';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('tax_lines')).flatMap((e: any) => {
+    const years = [...new Set(readData(e.entity_id, 'tax_lines.json').rows
+      .filter((r: any) => r.measure === 'budget_adopted').map((r: any) => r.fiscal_year))].sort() as number[];
+    return years.map((y) => ({ params: { entity: e.entity_id, year: String(y) }, props: { years } }));
+  });
+}
+const MEASURE = 'budget_adopted'; // getStaticPaths is hoisted out of this scope, so it repeats the literal
+const entity = '' + Astro.params.entity;
+const year = Number(Astro.params.year);
+const { years } = Astro.props as { years: number[] };
+
+const meta = readData(entity, 'meta.json');
+const colors: Record<string, string> = Object.fromEntries(
+  readData(entity, 'categories.json').schemes.budget_category.map((c: any) => [c.name, c.color]));
+const cats = readData(entity, 'taxes_by_category.json').rows
+  .filter((r: any) => r.measure === MEASURE && r.fiscal_year === year)
+  .map((r: any) => ({ category: r.category, gross_tax: r.gross_tax, offsets: r.offsets, net: r.net, color: colors[r.category] ?? '#b4b2a9' }));
+const lines = readData(entity, 'tax_lines.json').rows.filter((r: any) => r.measure === MEASURE && r.fiscal_year === year);
+
+const gross = cats.reduce((s: number, r: any) => s + r.gross_tax, 0);
+const offsets = cats.reduce((s: number, r: any) => s + r.offsets, 0);
+const fees = lines.filter((l: any) => l.treatment === 'excluded_fee').reduce((s: number, l: any) => s + l.amount, 0);
+// the exported category rows and the exported lines are two views of the same numbers
+const lineGross = lines.filter((l: any) => l.treatment === 'tax').reduce((s: number, l: any) => s + l.amount, 0);
+if (lineGross !== gross) throw new Error(`FY${year}: category rows (${gross}) and lines (${lineGross}) disagree`);
+
+const order = cats.map((c: any) => c.category).sort((a: string, b: string) => (cats.find((c: any) => c.category === b)!.gross_tax - cats.find((c: any) => c.category === a)!.gross_tax));
+const byCategory = order.map((name: string) => ({ name, color: colors[name], total: cats.find((c: any) => c.category === name)!.gross_tax,
+  lines: lines.filter((l: any) => l.category === name && l.treatment !== 'excluded_fee') }));
+const feeLines = lines.filter((l: any) => l.treatment === 'excluded_fee');
+
+const used = new Set<string>(lines.flatMap((l: any) => l.exception_ids));
+const exceptions = readData(entity, 'exceptions.json').exceptions.filter((e: any) => used.has(e.exception_id));
+const page = lines[0]?.source_doc ?? '';
+---
+<Base title={`${fyLabel(year)} General Fund taxes – ${meta.short_name}`} description={`${meta.name}: ${fyLabel(year)} adopted General Fund tax revenue by category.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Taxes</p>
+  <h1>{fyLabel(year)} General Fund taxes</h1>
+  <p class="muted">As adopted in the city's budget ordinance. Fiscal year {fyLabel(year)} runs May {year - 1} – April {year}.</p>
+
+  <nav aria-label="Fiscal year" class="years">
+    {years.map((y) => y === year ? <strong aria-current="page">{fyLabel(y)}</strong> : <a href={href(`/${entity}/taxes/${y}/`)}>{fyLabel(y)}</a>)}
+  </nav>
+
+  <dl class="summary">
+    <div><dt>Gross taxes</dt><dd>{dollars(gross)}</dd></div>
+    <div><dt>Offsets</dt><dd>{dollars(offsets)}</dd></div>
+    <div><dt>Net taxes</dt><dd>{dollars(gross + offsets)}</dd></div>
+  </dl>
+  <p class="muted">Offsets are sales and property tax rebated to developers and the replacement tax passed to the pension funds. Categories and the pie-style shares use gross taxes.</p>
+
+  <CategoryBars client:load rows={cats} year={year} title={`${fyLabel(year)} gross taxes by category`}
+    note="Gross taxes; offsets are shown in the table view and listed under the lines below." />
+
+  <h2>Every tax line</h2>
+  {byCategory.map((c: any) => (
+    <section>
+      <h3><span class="swatch" style={`background:${c.color}`}></span>{c.name} <span class="muted">{dollars(c.total)} · {percent(c.total, gross)}</span></h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Account</th><th>Line</th><th>Treatment</th><th class="num">Amount</th><th>Page</th><th>Notes</th></tr></thead>
+          <tbody>
+            {c.lines.map((l: any) => (
+              <tr>
+                <td>{l.account}</td><td>{l.line_item}</td><td>{l.treatment === 'offset' ? 'offset' : 'tax'}</td>
+                <td class="num">{dollars(l.amount)}</td><td>{l.page_label}</td>
+                <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+  {feeLines.length > 0 && (
+    <section>
+      <h3>Looks like a tax but counted as a fee <span class="muted">{dollars(fees)}, not in the totals</span></h3>
+      <div class="scroll"><table>
+        <thead><tr><th>Account</th><th>Line</th><th class="num">Amount</th><th>Page</th><th>Notes</th></tr></thead>
+        <tbody>{feeLines.map((l: any) => <tr><td>{l.account}</td><td>{l.line_item}</td><td class="num">{dollars(l.amount)}</td><td>{l.page_label}</td>
+          <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td></tr>)}</tbody>
+      </table></div>
+    </section>
+  )}
+
+  {exceptions.length > 0 && (
+    <section>
+      <h2>Exceptions that touch these lines</h2>
+      <p class="muted">Places where the source is inconsistent or a judgement call was needed. The full registry is in the downloads.</p>
+      <dl class="exceptions">
+        {exceptions.map((e: any) => (<>
+          <dt id={e.exception_id}>{e.exception_id} <span class="muted">· {e.kind}</span></dt>
+          <dd><strong>{e.summary}</strong>{e.detail && <><br />{e.detail}</>}{e.evidence && <><br /><span class="muted">Evidence: {e.evidence}</span></>}</dd>
+        </>))}
+      </dl>
+    </section>
+  )}
+  <p class="muted">Source: {page.replace('_', ' ')} (page labels as printed in the ordinance). <a href={href(`/data/${entity}/tax_lines.json`)}>Tax lines (JSON)</a> · <a href={href(`/data/${entity}/downloads/tax_series_long.csv`)}>Tax lines (CSV)</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>All extracted lines</a></p>
+</Base>
+
+<style>
+  .years { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 16px 0; font-size: 0.9375rem; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .swatch { display: inline-block; width: 0.8em; height: 0.8em; border-radius: 2px; margin-right: 0.4em; }
+  h3 { font-size: 1rem; margin: 24px 0 6px; }
+  .scroll { overflow-x: auto; }
+  .ex { font-size: 0.75rem; margin-right: 6px; }
+  .exceptions dt { font-weight: 600; margin-top: 14px; }
+  .exceptions dd { margin: 2px 0 0; }
+  td.num { white-space: nowrap; }
+</style>
