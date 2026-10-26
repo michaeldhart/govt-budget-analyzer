@@ -75,6 +75,9 @@ Headline: net position $38.3M (Apr 2011) -> $40.3M (FY2012) -> peak $45.5M (FY20
 - **Layouts**: FY2016-18 OPEB is GASB 45 (net OPEB obligation), FY2019+ GASB 75 (total OPEB liability, restated at adoption); pensions FY2016+ are GASB 68 (RSI up to 10 columns; IMRF measured December 31 of the prior calendar year, police/fire April 30; the FY2016 IMRF RSI is headed by fiscal year and relabelled to the measurement year); FY2012-15 are GASB 27 (ARC, APC, NPO, funded status). The FY2016 debt table has no pension lines; FY2017+ lists NPL and OPEB lines. IEPA loans #L17-3623 / #L17-4188 are drawn but have no payment schedule (FY2021-25): the activity balance exceeds the issue table by a derived gap (matches the note's own amounts in FY2024-25).
 - Not done: FY2012 debt service schedule; FY2012-15 Statement of Net Position cross-checks and RSI funding-progress schedules; police/fire plan net position tables; IMRF asset allocation.
 
+## Tests (2026-10-26)
+`python3 -m pytest` (pytest is a dev dependency): `tests/test_tieouts.py` asserts the tie-out counts above on the committed tables (FY2027 taxes, 179/182, 31/36 Water/Sewer, 45/45 verified other-fund comparisons, 14/15 statements vs schedules, 94 reconciliation rows 49/25/20, 0 failed debt/pension and Water/Sewer statement checks, `govbudget.validate` clean, source PDF hashes); `tests/test_golden_rebuild.py` (`slow`) runs `rebuild_all.sh` in a scratch copy and compares every `data/belvidere_il/*.csv` with the committed file. A deliberate number change means updating the pinned value and regenerating the CSVs. Layers 3-4 (schema snapshot, parser unit tests) are open: ROADMAP T1.
+
 ## Fiscal year
 Belvidere's fiscal year runs May 1 to April 30. "FY2027" = May 1, 2026 to April 30, 2027.
 
