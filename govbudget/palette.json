@@ -1,0 +1,15 @@
+{
+  "_note": "Shared design tokens read by the PDF scripts (govbudget.palette) and the site (web/public/data/palette.json). Category colors are not here: they live in entities/<id>/categories.csv.",
+  "surface": "#ffffff",
+  "panel": "#f4f3ef",
+  "header": "#e8e7e1",
+  "rule": "#d3d1c7",
+  "grid": "#e6e5e1",
+  "ink": "#0b0b0b",
+  "ink2": "#52514e",
+  "muted": "#898781",
+  "adopted_gray": "#9a988f",
+  "up": "#2a78d6",
+  "down": "#e34948",
+  "neutral": "#f0efec"
+}

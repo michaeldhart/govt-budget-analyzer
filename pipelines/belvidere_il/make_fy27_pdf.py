@@ -14,6 +14,11 @@ os.makedirs(SP, exist_ok=True)
 OUT = SP + "Belvidere_FY27_Tax_Revenue.pdf"
 
 import csv
+import sys
+sys.path.insert(0, os.path.join(HERE, '..', '..'))
+from govbudget import Entity
+from govbudget.palette import tokens
+P = tokens()  # shared with the site: govbudget/palette.json
 
 # Amounts come from the mapping file (treatment `tax` = gross, `offset` = rebates/pension share, `excluded_fee` left out).
 CSV = os.path.join(HERE, "..", "..", "data", "belvidere_il", "fy2027_general_fund_tax_lines.csv")
@@ -32,7 +37,8 @@ for _r in _rows:
     else:
         FEES += _a
 V = [_by[c] for c in L]
-C = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#6250d6', '#b4b2a9']
+_color = {c['name']: c['color'] for c in Entity.load('belvidere_il').categories('budget_category')}  # entities/belvidere_il/categories.csv
+C = [_color[l] for l in L]
 T = sum(V)
 NET = T + OFFSETS
 GF_REVENUE = 25830395  # printed TOTAL GENERAL FUND REVENUES, FY27 budget (checked by extract_budget.py)
@@ -49,7 +55,7 @@ plt.savefig(SP + "pie.png", bbox_inches='tight')
 
 ss = getSampleStyleSheet()
 h = ParagraphStyle('h', parent=ss['Title'], fontSize=17, spaceAfter=2, alignment=0)
-sub = ParagraphStyle('s', parent=ss['Normal'], fontSize=9.5, textColor=colors.HexColor('#52514e'))
+sub = ParagraphStyle('s', parent=ss['Normal'], fontSize=9.5, textColor=colors.HexColor(P['ink2']))
 body = ParagraphStyle('b', parent=ss['Normal'], fontSize=9, leading=12)
 cell = ParagraphStyle('c', parent=ss['Normal'], fontSize=8.5, leading=10.5)
 h2 = ParagraphStyle('h2', parent=ss['Heading3'], fontSize=11, spaceBefore=6, spaceAfter=4)
@@ -64,8 +70,8 @@ story = [
 kpi = Table([["Gross tax revenue", "Share of all General Fund revenue", "Net after rebates & pension share"],
              [f"${T/1e6:.2f}M", f"{T/GF_REVENUE*100:.0f}%  (of ${GF_REVENUE/1e6:.2f}M)", f"${NET/1e6:.2f}M"]], colWidths=[2.4*inch]*3)
 kpi.setStyle(TableStyle([
-    ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#f4f3ef')),
-    ('FONTSIZE', (0, 0), (-1, 0), 8.5), ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor('#52514e')),
+    ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor(P['panel'])),
+    ('FONTSIZE', (0, 0), (-1, 0), 8.5), ('TEXTCOLOR', (0, 0), (-1, 0), colors.HexColor(P['ink2'])),
     ('FONTNAME', (0, 1), (-1, 1), 'Helvetica-Bold'), ('FONTSIZE', (0, 1), (-1, 1), 15),
     ('TOPPADDING', (0, 1), (-1, 1), 4), ('BOTTOMPADDING', (0, 1), (-1, 1), 8),
     ('LINEAFTER', (0, 0), (1, -1), 2, colors.white),
@@ -93,9 +99,9 @@ data.append([Paragraph("<b>Total (gross)</b>", cell), f"${T:,.0f}", ""])
 t = Table(data, colWidths=[1.35*inch, 0.95*inch, 4.9*inch], repeatRows=1)
 t.setStyle(TableStyle([
     ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'), ('FONTSIZE', (0, 0), (-1, -1), 8.5),
-    ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e8e7e1')),
+    ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor(P['header'])),
     ('ALIGN', (1, 0), (1, -1), 'RIGHT'), ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-    ('LINEBELOW', (0, 0), (-1, -1), 0.4, colors.HexColor('#d3d1c7')),
+    ('LINEBELOW', (0, 0), (-1, -1), 0.4, colors.HexColor(P['rule'])),
     ('FONTNAME', (1, -1), (1, -1), 'Helvetica-Bold'),
     ('TOPPADDING', (0, 0), (-1, -1), 3), ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
 ]))

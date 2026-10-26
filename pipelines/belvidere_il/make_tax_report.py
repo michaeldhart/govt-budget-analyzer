@@ -32,6 +32,7 @@ from reportlab.platypus import (Image, KeepTogether, PageBreak, Paragraph, Simpl
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from govbudget import Entity  # noqa: E402
+from govbudget.palette import tokens  # noqa: E402
 
 E = Entity.load("belvidere_il")
 DATA = E.data_dir
@@ -40,13 +41,13 @@ CH = os.path.join(OUT, "report_charts")
 os.makedirs(CH, exist_ok=True)
 
 # ---- design tokens -------------------------------------------------------------------------
-SURFACE = "#ffffff"
-INK, INK2, MUTED = "#0b0b0b", "#52514e", "#898781"
-GRID = "#e6e5e1"
+_P = tokens()  # shared with the site: govbudget/palette.json
+SURFACE, GRID = _P["surface"], _P["grid"]
+INK, INK2, MUTED = _P["ink"], _P["ink2"], _P["muted"]
 _cats = sorted((c for c in E.categories("budget_category") if c["color"]), key=lambda c: int(c["sort"]))
 CATS = [c["name"] for c in _cats]  # category order and colors live in entities/belvidere_il/categories.csv
 COLOR = {c["name"]: c["color"] for c in _cats}
-ADOPTED_GRAY, UP, DOWN, NEUTRAL = "#9a988f", "#2a78d6", "#e34948", "#f0efec"
+ADOPTED_GRAY, UP, DOWN, NEUTRAL = _P["adopted_gray"], _P["up"], _P["down"], _P["neutral"]
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 8, "text.color": INK, "axes.labelcolor": INK2,

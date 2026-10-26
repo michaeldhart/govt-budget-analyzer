@@ -1,0 +1,211 @@
+"""Write the data files the website reads.
+
+Usage: python3 -m govbudget.export_site [entity_id ...] [--out web/public/data]     (default: every entity under entities/)
+
+Reads only the canonical and derived tables in data/<entity_id>/ plus the hand-edited config in entities/<entity_id>/, and writes
+static JSON under <out>/:
+  index.json                 the entities, with their dataset lists
+  palette.json               design tokens (govbudget/palette.json)
+  <entity_id>/meta.json      name, fiscal-year rule, document ranges, the vocabulary of bases
+  <entity_id>/categories.json  category names, order and colors per scheme (entities/<id>/categories.csv)
+  <entity_id>/exceptions.json  the exceptions registry (entities/<id>/exceptions.csv)
+  <entity_id>/<dataset>.json   one file per dataset in DATASETS, in the envelope below
+  <entity_id>/downloads/       gzipped facts.csv and plain copies of the tables behind each dataset
+Dataset envelope: {dataset, entity_id, title, description, sources, columns: {name: meaning}, rows: [{...}]}.
+Every row that depends on a line with an exception carries `exception_ids` (a list), so the site can show the caveat beside the number.
+A dataset whose source tables an entity does not have is skipped. The numbers are not recomputed here beyond regrouping; the exporter
+asserts the identities it relies on (category rows sum to the rollup).
+"""
+import gzip
+import json
+import os
+import shutil
+import sys
+from collections import defaultdict
+
+from . import palette, schema
+from .entity import ROOT, Entity, read_csv
+
+DEFAULT_OUT = os.path.join(ROOT, "web", "public", "data")
+
+
+def ids(s):
+    return sorted(i for i in (s or "").split("|") if i)
+
+
+def num(s):
+    return int(s) if s not in ("", None) else None
+
+
+def in_range(ex, fy):
+    lo = int(ex["fy_from"]) if ex["fy_from"] else -10**9
+    hi = int(ex["fy_to"]) if ex["fy_to"] else 10**9
+    return lo <= fy <= hi
+
+
+# --- datasets -------------------------------------------------------------------------------------------------------------
+def taxes_by_category(E, read):
+    """General Fund gross taxes / offsets / net per fiscal year x measure x category (rollup rows dropped)."""
+    ex_of = defaultdict(set)
+    for r in read("tax_series_long.csv"):
+        for i in ids(r["exception_ids"]):
+            ex_of[(int(r["fiscal_year"]), r["measure"], r["category"])].add(i)
+    rows, roll, parts = [], {}, defaultdict(lambda: [0, 0, 0])
+    for r in read("tax_series_by_category.csv"):
+        k = (int(r["fiscal_year"]), r["measure"])
+        v = (int(r["gross_tax"]), int(r["offsets"]), int(r["net"]))
+        if r["is_rollup"] == "1":
+            roll[k] = v
+            continue
+        for j in range(3):
+            parts[k][j] += v[j]
+        rows.append(dict(fiscal_year=k[0], measure=r["measure"], basis=r["basis"], category=r["category"], gross_tax=v[0],
+                         offsets=v[1], net=v[2], exception_ids=sorted(ex_of[(k[0], r["measure"], r["category"])])))
+    for k, v in roll.items():
+        assert tuple(parts[k]) == v, f"category rows do not sum to ALL TAXES for {k}: {parts[k]} vs {v}"
+    rows.sort(key=lambda r: (r["measure"], r["fiscal_year"], r["category"]))
+    return dict(
+        title="General Fund taxes by category and year",
+        description="Gross taxes, offsets (rebates to developers, replacement tax passed to pensions) and net, per budget category. "
+                    "measure says which document column the number comes from; budget_adopted is the primary series.",
+        sources=["tax_series_by_category.csv", "tax_series_long.csv"],
+        columns=dict(fiscal_year="fiscal year (May-April, named for the year it ends)", measure="series: budget_adopted, budget_next_doc, "
+                     "budget_revised, actual_budget_doc", basis="schema basis of the measure", category="budget category (categories.json, "
+                     "scheme budget_category)", gross_tax="dollars", offsets="dollars, negative", net="gross_tax + offsets",
+                     exception_ids="exceptions (exceptions.json) touching any line in this cell"),
+        rows=rows)
+
+
+def taxes_audit_basis(E, read):
+    """Budget vs audited actual on the audit's own groups."""
+    ex = [e for e in E.exceptions() if e["scope"] == "group"]
+    rows = []
+    for r in read("tax_series_audit_basis.csv"):
+        fy = int(r["fiscal_year"])
+        rows.append(dict(
+            fiscal_year=fy, group=r["group"], budget_audit_original=num(r["budget_audit_original"]),
+            budget_audit_final=num(r["budget_audit_final"]), actual_audited=num(r["actual_audited"]),
+            budget_docs_adopted=num(r["budget_docs_adopted"]), actual_budget_doc=num(r["actual_budget_doc"]), note=r["note"],
+            exception_ids=sorted(e["exception_id"] for e in ex if e["scope_id"] == r["group"] and in_range(e, fy))))
+    rows.sort(key=lambda r: (r["group"], r["fiscal_year"]))
+    return dict(
+        title="Taxes: budget vs audited actual, by the audit's groups",
+        description="The audit's original and final budget beside the audited actual for each of the audit's own tax groups, so budget "
+                    "and actual are strictly comparable. Empty cells mean the source has no figure.",
+        sources=["tax_series_audit_basis.csv"],
+        columns=dict(fiscal_year="fiscal year", group="report group (categories.json, scheme report_group)",
+                     budget_audit_original="audit original budget, dollars", budget_audit_final="audit final budget, dollars",
+                     actual_audited="audited actual, dollars", budget_docs_adopted="budget document's adopted figure, dollars",
+                     actual_budget_doc="budget document's preliminary actual, dollars", note="how the group is defined this year",
+                     exception_ids="group-scoped exceptions in force this year"),
+        rows=rows)
+
+
+def tax_lines(E, read):
+    """Every tax line behind the category series (account level), for the breakdown tables."""
+    rows = []
+    for r in read("tax_series_long.csv"):
+        rows.append(dict(
+            fiscal_year=int(r["fiscal_year"]), measure=r["measure"], basis=r["basis"], account=r["account"],
+            department=r["department"], line_item=r["line_item"], amount=int(r["amount"]), category=r["category"],
+            treatment=r["treatment"], source_doc=r["source_doc"], source_column=r["source_column"],
+            page_label=r["source_page_label"], note=r["note"], exception_ids=ids(r["exception_ids"])))
+    rows.sort(key=lambda r: (r["measure"], r["fiscal_year"], r["account"]))
+    return dict(
+        title="General Fund tax lines",
+        description="One row per fiscal year x measure x account. treatment is tax (counted in gross taxes), offset (negative, netted) "
+                    "or excluded_fee (looks like a tax, is a fee; never summed).",
+        sources=["tax_series_long.csv"],
+        columns=dict(fiscal_year="fiscal year", measure="series", basis="schema basis", account="printed account number",
+                     department="department", line_item="label as printed", amount="dollars", category="budget category",
+                     treatment="tax | offset | excluded_fee", source_doc="document the number was read from",
+                     source_column="column of that document", page_label="printed page label (e.g. '1 of 15')", note="free text",
+                     exception_ids="exceptions touching this line"),
+        rows=rows)
+
+
+DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
+    "taxes_by_category": (taxes_by_category, ["tax_series_by_category.csv", "tax_series_long.csv"]),
+    "taxes_audit_basis": (taxes_audit_basis, ["tax_series_audit_basis.csv"]),
+    "tax_lines": (tax_lines, ["tax_series_long.csv"]),
+}
+
+
+# --- writing --------------------------------------------------------------------------------------------------------------
+def dump(path, obj):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(obj, f, separators=(",", ":"), ensure_ascii=False)
+        f.write("\n")
+
+
+def export_entity(E, out):
+    base = os.path.join(out, E.id)
+    if os.path.isdir(base):
+        shutil.rmtree(base)
+    cache = {}
+
+    def read(name):
+        if name not in cache:
+            cache[name] = read_csv(E.data_path(name))
+        return cache[name]
+
+    written = []
+    copies = set()
+    for name, (build, sources) in DATASETS.items():
+        if not all(os.path.exists(E.data_path(s)) for s in sources):
+            continue
+        d = build(E, read)
+        dump(os.path.join(base, name + ".json"), dict(dataset=name, entity_id=E.id, **d))
+        written.append(name)
+        copies.update(sources)
+
+    cfg = E.config
+    dump(os.path.join(base, "meta.json"), dict(
+        entity_id=E.id, name=cfg["name"], short_name=cfg.get("short_name", cfg["name"]), type=cfg.get("type"), state=cfg.get("state"),
+        fy_start_month=cfg["fy_start_month"], fy_label_rule=cfg.get("fy_label_rule"), currency=cfg.get("currency"),
+        funds=cfg.get("funds", []), documents=cfg.get("documents", {}), source_index=cfg.get("source_index", {}),
+        bases=schema.BASES, datasets=written))
+    cats = defaultdict(list)
+    for c in sorted(E.categories(), key=lambda c: (c["scheme"], int(c["sort"]))):
+        cats[c["scheme"]].append(dict(id=c["category_id"], name=c["name"], flow=c["flow"], color=c["color"] or None,
+                                      sort=int(c["sort"]), note=c["note"]))
+    dump(os.path.join(base, "categories.json"), dict(entity_id=E.id, schemes=cats))
+    dump(os.path.join(base, "exceptions.json"), dict(
+        entity_id=E.id, kinds=list(schema.EXCEPTION_KINDS), exceptions=[
+            dict(e, fy_from=num(e["fy_from"]), fy_to=num(e["fy_to"]), bases=[b for b in e["bases"].split("|") if b])
+            for e in E.exceptions()]))
+
+    dl = os.path.join(base, "downloads")
+    os.makedirs(dl, exist_ok=True)
+    for s in sorted(copies):
+        shutil.copyfile(E.data_path(s), os.path.join(dl, s))
+    if os.path.exists(E.data_path("facts.csv")):
+        with open(E.data_path("facts.csv"), "rb") as src, gzip.GzipFile(os.path.join(dl, "facts.csv.gz"), "wb", mtime=0) as dst:
+            shutil.copyfileobj(src, dst)
+    return dict(entity_id=E.id, name=cfg["name"], short_name=cfg.get("short_name", cfg["name"]), datasets=written)
+
+
+def export(entity_ids=None, out=DEFAULT_OUT):
+    if not entity_ids:
+        entity_ids = sorted(d for d in os.listdir(os.path.join(ROOT, "entities"))
+                            if os.path.exists(os.path.join(ROOT, "entities", d, "entity.json")))
+    index = [export_entity(Entity.load(i), out) for i in entity_ids]
+    dump(os.path.join(out, "index.json"), dict(entities=index))
+    dump(os.path.join(out, "palette.json"), palette.tokens())
+    return index
+
+
+def main():
+    args = sys.argv[1:]
+    out = DEFAULT_OUT
+    if "--out" in args:
+        i = args.index("--out")
+        out = os.path.abspath(args[i + 1])
+        del args[i:i + 2]
+    for e in export(args, out):
+        print(f"{e['entity_id']}: {', '.join(e['datasets'])} -> {os.path.relpath(out, ROOT)}/{e['entity_id']}/")
+
+
+if __name__ == "__main__":
+    main()
