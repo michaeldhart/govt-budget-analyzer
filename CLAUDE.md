@@ -2,6 +2,8 @@
 
 Analysis of City of Belvidere tax revenue, starting with FY2027 and extending into year-over-year history. This project was started in a claude.ai chat on 2026-10-09; this file carries that context over.
 
+**Remaining work, open decisions and the order to do things in: `docs/ROADMAP.md`. Keep it updated.**
+
 ## Architecture (since 2026-10-22)
 Goal: one shared data model for any number of governments, with a custom extraction pipeline per government and an explicit registry of the places where a government's data does not fit the shared model.
 ```

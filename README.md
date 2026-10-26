@@ -12,7 +12,7 @@ See `CLAUDE.md` for the data pipeline, methodology and findings.
 - `output/<entity>/`: generated PDF reports
 - `sources/<entity>/`: FY2027 budget; older budget/audit PDFs are not committed (download from the city site)
 
-See `CLAUDE.md` for the architecture, pipeline order and methodology.
+See `docs/ROADMAP.md` for what is done and what is left, and `CLAUDE.md` for the architecture, pipeline order and methodology.
 
 ## License
 Apache License 2.0. See `LICENSE` and `NOTICE`.
