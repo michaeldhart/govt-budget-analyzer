@@ -1,0 +1,59 @@
+name: Site
+
+# Pull requests build the site (tests, export, build); pushes to main also deploy it to GitHub Pages.
+# One-time setup: repository Settings > Pages > Source = "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Fast tests (the golden rebuild needs the source PDFs and runs locally)
+        run: python -m pytest -q -m "not slow"
+      - name: Export site data
+        run: python -m govbudget.export_site
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: web/.nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - name: Build
+        run: npm run build
+        working-directory: web
+        # For a custom domain, set SITE_URL (https://example.org) and BASE_PATH (/) here.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

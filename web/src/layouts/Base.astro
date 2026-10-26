@@ -1,0 +1,39 @@
+---
+import { readData, href } from '../lib/data';
+const { title, description = '' } = Astro.props;
+const palette = readData<Record<string, string>>('palette.json');
+const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}: ${v};`).join(' ');
+---
+<!doctype html>
+<html lang="en" style={vars}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <header>
+      <a class="brand" href={href('/')}>Local government budgets</a>
+    </header>
+    <main><slot /></main>
+    <footer>
+      <p>Open source (Apache-2.0). Every number is extracted from the city's own budget ordinances and audits and validated against the totals they print.</p>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  :root { color-scheme: light; }
+  body { margin: 0; background: var(--surface); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+  header, main, footer { max-width: 60rem; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); }
+  .brand { font-weight: 700; color: var(--ink); text-decoration: none; }
+  main { padding-top: 24px; padding-bottom: 32px; }
+  footer { color: var(--ink2); font-size: 0.875rem; padding-bottom: 24px; }
+  a { color: var(--up); }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
+  th { background: var(--panel); color: var(--ink2); font-weight: 600; font-size: 0.875rem; }
+  td.num, th.num { text-align: right; }
+  .muted { color: var(--ink2); }
+</style>

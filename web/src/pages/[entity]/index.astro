@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { readData, href } from '../../lib/data';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const datasets = meta.datasets.map((name: string) => {
+  const d = readData(entity, `${name}.json`);
+  return { name, title: d.title, description: d.description, rows: d.rows.length };
+});
+const exceptions = readData(entity, 'exceptions.json').exceptions.length;
+const { budget_range, audit_range } = meta.documents;
+---
+<Base title={`${meta.short_name} budget data`} description={`Budget and audit data for ${meta.name}.`}>
+  <h1>{meta.name}</h1>
+  <p class="muted">{meta.fy_label_rule}. Documents: budgets FY{budget_range[0]}–FY{budget_range[1]}, audits FY{audit_range[0]}–FY{audit_range[1]}.</p>
+  <h2>Datasets available</h2>
+  <table>
+    <thead><tr><th>Dataset (JSON)</th><th>What it holds</th><th class="num">Rows</th></tr></thead>
+    <tbody>
+      {datasets.map((d: any) => (
+        <tr><td><a href={href(`/data/${entity}/${d.name}.json`)}>{d.title}</a></td><td>{d.description}</td><td class="num">{d.rows.toLocaleString('en-US')}</td></tr>
+      ))}
+    </tbody>
+  </table>
+  <p>{exceptions} recorded exceptions (places where the source documents are inconsistent or do not fit the shared model) are published with the data.</p>
+  <p><a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>Download every extracted line (facts.csv.gz)</a></p>
+</Base>

@@ -1,0 +1,20 @@
+{
+  "name": "govbudget-web",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "export": "cd .. && python3 -m govbudget.export_site",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^9.1.1",
+    "@observablehq/plot": "^0.6.17",
+    "astro": "^7.4.2",
+    "svelte": "^5.57.3"
+  }
+}

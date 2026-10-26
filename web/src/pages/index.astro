@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { readData, href } from '../lib/data';
+const { entities } = readData('index.json');
+---
+<Base title="Local government budgets" description="Budgets and audits of local governments, extracted and validated against the totals the documents print.">
+  <h1>Local government budgets</h1>
+  <p class="muted">Budgeted revenue and expenses, audited actuals, and how they compare, extracted from the governments' own documents.</p>
+  <ul>
+    {entities.map((e: any) => <li><a href={href(`/${e.entity_id}/`)}>{e.name}</a></li>)}
+  </ul>
+</Base>
