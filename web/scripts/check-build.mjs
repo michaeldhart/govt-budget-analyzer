@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 const checks = {
   'dist/belvidere_il/taxes/2027/index.html': ['$20,998,468', '-$532,141', '$20,466,327', 'FY2027 gross taxes by category', 'Download CSV', 'EX-telecom-class'],
   'dist/belvidere_il/taxes/index.html': ['FY2027 adopted gross taxes', '$21.00M', 'above the budget in 14 of 15 audited years', 'Adopted gross taxes by category',
-    'Taxes: budget vs audited actual', 'Audited actual vs budget, percent by group and year', 'Adopted offsets by category'],
+    'Taxes: budget vs audited actual', 'Audited actual vs budget, percent by group and year', 'Adopted offsets by category', 'aria-label="Chart filters"', 'id="composition"', 'id="heatmap"'],
 };
 let bad = false;
 for (const [file, need] of Object.entries(checks)) {

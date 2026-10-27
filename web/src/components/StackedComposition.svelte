@@ -1,14 +1,18 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import { url } from '../lib/urlState.svelte';
+  import { inRange } from '../lib/urlParams';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
-  import { fy, moneyTick, millions, pivot, dollars } from '../lib/chart';
+  import { fy, moneyTick, millions, pivot, dollars, emptyNote } from '../lib/chart';
 
   type Row = { fiscal_year: number; category: string; gross_tax: number };
-  let { rows, categories, ink, title, note = '' }: {
+  let { rows: allRows, categories: allCategories, ink, title, note = '' }: {
     rows: Row[]; categories: { name: string; color: string }[]; ink: string; title: string; note?: string;
   } = $props();
 
+  const categories = $derived(allCategories.filter((c) => !url.hide.includes(c.name)));
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year) && !url.hide.includes(r.category)));
   const names = $derived(categories.map((c) => c.name));
   const totals = $derived([...Map.groupBy(rows, (r) => r.fiscal_year)].map(([y, rs]) => ({ fiscal_year: y, total: rs.reduce((s, r) => s + r.gross_tax, 0) })));
   const years = $derived(totals.map((t) => t.fiscal_year));
@@ -20,6 +24,7 @@
   });
 
   function build(width: number) {
+    if (!rows.length) return emptyNote();
     const narrow = width < 520;
     return Plot.plot({
       width, height: narrow ? 360 : 400, marginRight: 8, marginBottom: 40,
@@ -38,6 +43,6 @@
   }
 </script>
 
-<ChartFrame {title} {note} rows={table.rows} columns={table.columns} filename="taxes-adopted-by-category.csv">
+<ChartFrame id="composition" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-adopted-by-category.csv">
   <PlotHost {build} label={`${title}: stacked columns by fiscal year; the Table view has every number`} />
 </ChartFrame>

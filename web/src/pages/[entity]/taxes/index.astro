@@ -4,6 +4,7 @@ import StackedComposition from '../../../components/StackedComposition.svelte';
 import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import BudgetVsActual from '../../../components/BudgetVsActual.svelte';
 import VarianceHeatmap from '../../../components/VarianceHeatmap.svelte';
+import TaxFilters from '../../../components/TaxFilters.svelte';
 import Offsets from '../../../components/Offsets.svelte';
 import { readData, href } from '../../../lib/data';
 import { dollars, percent, fyLabel } from '../../../lib/format';
@@ -28,6 +29,7 @@ const first = years[0], last = years.at(-1)!;
 const total = (y: number, f: 'gross_tax' | 'offsets' | 'net') => byCat.filter((r: any) => r.fiscal_year === y).reduce((s: number, r: any) => s + r[f], 0);
 const catAt = (c: string, y: number) => byCat.find((r: any) => r.fiscal_year === y && r.category === c)?.gross_tax ?? 0;
 
+const allYears = [...new Set<number>([...years, ...readData(entity, 'taxes_budget_vs_actual.json').rows.map((r: any) => r.fiscal_year)])].sort();
 const bva = readData(entity, 'taxes_budget_vs_actual.json').rows;
 const totalRows = bva.filter((r: any) => r.is_total);
 const groupRows = bva.filter((r: any) => !r.is_total);
@@ -65,6 +67,8 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
   </ul>
 
   <h2>Composition by year</h2>
+  <TaxFilters client:load years={allYears} categories={cats} />
+  <p class="muted small-note">Filters apply to every chart below (the category filter to the composition and offsets charts) and are saved in the page address, so a link shows the same view. The summary above always covers the full period.</p>
   <p class="muted">Each column is that year's adopted budget. Click “Table” on any chart to see its numbers, or download them. <a href={href(`/${entity}/taxes/${last}/`)}>See every line for {fyLabel(last)}</a>, or pick another year there.</p>
   <StackedComposition client:load rows={byCat.filter((r: any) => r.category !== 'ALL TAXES')} categories={cats} ink={palette.ink}
     title="Adopted gross taxes by category" />
@@ -91,5 +95,6 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
   .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
   .summary dt { color: var(--ink2); font-size: 0.8125rem; }
   .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
   .small { font-size: 0.8125rem; font-weight: 400; }
 </style>

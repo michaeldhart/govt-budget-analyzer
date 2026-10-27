@@ -1,12 +1,16 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import { url } from '../lib/urlState.svelte';
+  import { inRange } from '../lib/urlParams';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
-  import { fy, moneyTick, millions } from '../lib/chart';
+  import { fy, moneyTick, millions, emptyNote } from '../lib/chart';
 
   type Row = { fiscal_year: number; budget: number | null; actual: number | null; variance_pct: number | null };
-  let { rows, p }: { rows: Row[]; p: Record<string, string> } = $props();
+  let { rows: allRows, p }: { rows: Row[]; p: Record<string, string> } = $props();
 
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const years = $derived(rows.map((r) => r.fiscal_year));
   const tidy = $derived(rows.flatMap((r) => [
     ...(r.budget != null ? [{ fiscal_year: r.fiscal_year, series: 'Budget', amount: r.budget }] : []),
     ...(r.actual != null ? [{ fiscal_year: r.fiscal_year, series: 'Audited actual', amount: r.actual }] : []),
@@ -16,9 +20,10 @@
                             { key: 'actual', label: 'Audited actual ($)' }, { key: 'variance_pct', label: 'Actual vs budget (fraction)' }] };
 
   function lines(width: number) {
+    if (!tidy.length) return emptyNote();
     return Plot.plot({
       width, height: 300, marginRight: 44, style: { fontSize: '12px', background: 'transparent' },
-      x: { label: null, tickFormat: fy, domain: [2012, 2027], ticks: 8 },
+      x: { label: null, tickFormat: fy, domain: [Math.min(...years), Math.max(...years)], ticks: Math.min(8, years.length) },
       y: { label: null, grid: true, tickFormat: moneyTick, domain: [10e6, 25e6] },
       color: { domain: ['Budget', 'Audited actual'], range: [p.adopted_gray, p.ink], legend: true },
       marks: [
@@ -32,6 +37,7 @@
   }
 
   function bars(width: number) {
+    if (!variance.length) return emptyNote();
     const narrow = width < 520;
     return Plot.plot({
       width, height: 260, marginLeft: 48, marginRight: 8, marginBottom: 40, style: { fontSize: '12px', background: 'transparent' },
@@ -49,10 +55,10 @@
   }
 </script>
 
-<ChartFrame title="Taxes: budget vs audited actual" rows={rows as any} columns={table.columns} filename="taxes-budget-vs-actual.csv"
+<ChartFrame id="budget-vs-actual" title="Taxes: budget vs audited actual" rows={rows as any} columns={table.columns} filename="taxes-budget-vs-actual.csv"
   note="Budget is the audit's original budget (the budget document's adopted figure where the audit has none). FY2027 has no audit yet.">
   <PlotHost build={lines} label="Line chart of total budgeted and audited taxes by fiscal year; the Table view has every number" />
 </ChartFrame>
-<ChartFrame title="Audited actual vs budget: percent above (blue) or below (red)" rows={variance as any} columns={table.columns} filename="taxes-variance.csv">
+<ChartFrame id="variance" title="Audited actual vs budget: percent above (blue) or below (red)" rows={variance as any} columns={table.columns} filename="taxes-variance.csv">
   <PlotHost build={bars} label="Bar chart of audited actual minus budget as a percent of budget, by fiscal year; the Table view has every number" />
 </ChartFrame>

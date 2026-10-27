@@ -1,14 +1,18 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import { url } from '../lib/urlState.svelte';
+  import { inRange } from '../lib/urlParams';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, moneyTick, millions } from '../lib/chart';
 
   type Row = { fiscal_year: number; group: string; budget: number | null; actual: number | null };
-  let { rows, groups, ink, ink2, surface, title, note = '' }: {
+  let { rows: allRows, groups, ink, ink2, surface, title, note = '' }: {
     rows: Row[]; groups: { name: string; color: string }[]; ink2: string; ink: string; surface: string; title: string; note?: string;
   } = $props();
 
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const span = $derived([Math.min(...rows.map((r) => r.fiscal_year)), Math.max(...rows.map((r) => r.fiscal_year))]);
   const panels = $derived(groups.map((g) => {
     const mine = rows.filter((r) => r.group === g.name);
     const bud = mine.filter((r) => r.budget != null);
@@ -24,7 +28,7 @@
     const top = Math.max(...p.bud.map((r) => r.budget!), ...p.act.map((r) => r.actual!)) * 1.12;
     return Plot.plot({
       width, height: 120, marginLeft: 44, marginRight: 6, marginTop: 6, marginBottom: 20, style: { fontSize: '10px', background: 'transparent' },
-      x: { label: null, domain: [2012, 2027], ticks: [2012, 2019, 2026], tickFormat: fy },
+      x: { label: null, domain: span, ticks: [...new Set([span[0], Math.round((span[0] + span[1]) / 2), span[1]])], tickFormat: fy },
       y: { label: null, domain: [0, top], ticks: 3, tickFormat: moneyTick, grid: true },
       marks: [
         Plot.lineY(p.bud, { x: 'fiscal_year', y: 'budget', stroke: p.color, strokeWidth: 2 }),
@@ -36,7 +40,8 @@
   };
 </script>
 
-<ChartFrame {title} {note} rows={table.rows} columns={table.columns} filename="taxes-budget-vs-actual-by-group.csv">
+<ChartFrame id="multiples" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-budget-vs-actual-by-group.csv">
+  {#if !panels.length}<p class="muted">Nothing to show with these filters.</p>{/if}
   <div class="grid">
     {#each panels as p (p.name)}
       <div class="panel">

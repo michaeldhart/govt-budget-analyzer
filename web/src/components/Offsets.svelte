@@ -1,20 +1,25 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import { url } from '../lib/urlState.svelte';
+  import { inRange } from '../lib/urlParams';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
-  import { fy, pivot, dollars } from '../lib/chart';
+  import { fy, pivot, dollars, emptyNote } from '../lib/chart';
 
   type Row = { fiscal_year: number; category: string; offsets: number };
-  let { rows, categories, title, note = '' }: {
+  let { rows: allRows, categories: allCategories, title, note = '' }: {
     rows: Row[]; categories: { name: string; color: string }[]; title: string; note?: string;
   } = $props();
 
+  const categories = $derived(allCategories.filter((c) => !url.hide.includes(c.name)));
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
   const used = $derived(categories.filter((c) => rows.some((r) => r.category === c.name && r.offsets !== 0)));
   const names = $derived(used.map((c) => c.name));
   const data = $derived(rows.filter((r) => names.includes(r.category)));
   const table = $derived(pivot(data, 'fiscal_year', 'category', 'offsets', names));
 
   function build(width: number) {
+    if (!data.length) return emptyNote();
     const narrow = width < 520;
     return Plot.plot({
       width, height: 260, marginLeft: 60, marginRight: 8, marginBottom: 40, style: { fontSize: '12px', background: 'transparent' },
@@ -30,6 +35,6 @@
   }
 </script>
 
-<ChartFrame {title} {note} rows={table.rows} columns={table.columns} filename="taxes-adopted-offsets.csv">
+<ChartFrame id="offsets" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-adopted-offsets.csv">
   <PlotHost {build} label={`${title}: stacked columns by fiscal year; the Table view has every number`} />
 </ChartFrame>

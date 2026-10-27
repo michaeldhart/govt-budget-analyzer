@@ -1,12 +1,15 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import { url } from '../lib/urlState.svelte';
+  import { inRange } from '../lib/urlParams';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
-  import { fy } from '../lib/chart';
+  import { fy, emptyNote } from '../lib/chart';
 
   type Row = { fiscal_year: number; group: string; variance_pct: number | null; budget: number | null; actual: number | null };
-  let { rows, groups, p, title, note = '' }: { rows: Row[]; groups: string[]; p: Record<string, string>; title: string; note?: string } = $props();
+  let { rows: allRows, groups, p, title, note = '' }: { rows: Row[]; groups: string[]; p: Record<string, string>; title: string; note?: string } = $props();
 
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
   const years = $derived([...new Set(rows.filter((r) => r.actual != null).map((r) => r.fiscal_year))].sort());
   const cells = $derived(groups.flatMap((g) => years.map((y) => {
     const r = rows.find((x) => x.group === g && x.fiscal_year === y);
@@ -19,6 +22,7 @@
 
   // too many cells for a phone: keep the full-size grid and let the wrapper scroll sideways
   function build(available: number) {
+    if (!years.length) return emptyNote();
     const width = Math.max(available, 640);
     const narrow = false;
     const label = (v: number) => (Math.round(v * 100) ? `${v > 0 ? '+' : ''}${Math.round(v * 100)}` : '0');
@@ -39,7 +43,7 @@
   }
 </script>
 
-<ChartFrame {title} {note} rows={table.rows} columns={table.columns} filename="taxes-variance-heatmap.csv">
+<ChartFrame id="heatmap" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-variance-heatmap.csv">
   <div class="scroll"><PlotHost {build} label={`${title}: grid of groups by fiscal year; the Table view has every number`} /></div>
 </ChartFrame>
 

@@ -26,3 +26,11 @@ export function pivot<T extends Record<string, any>>(rows: T[], rowKey: string, 
 }
 
 export { dollars };
+
+/** What a chart shows when the filters leave nothing to draw. */
+export function emptyNote(): HTMLElement {
+  const p = document.createElement('p');
+  p.className = 'muted';
+  p.textContent = 'Nothing to show with these filters.';
+  return p;
+}

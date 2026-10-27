@@ -32,6 +32,6 @@
   }
 </script>
 
-<ChartFrame {title} {note} rows={data} {columns} filename={`taxes-fy${year}-by-category.csv`}>
+<ChartFrame id="by-category" {title} {note} rows={data} {columns} filename={`taxes-fy${year}-by-category.csv`}>
   <PlotHost {build} label={`${title}: bar chart of gross tax by category; the Table view has the same numbers`} />
 </ChartFrame>

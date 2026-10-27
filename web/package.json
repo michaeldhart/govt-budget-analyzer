@@ -9,7 +9,8 @@
     "export": "cd .. && python3 -m govbudget.export_site",
     "dev": "astro dev",
     "build": "astro build && node scripts/check-build.mjs",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.1.1",
