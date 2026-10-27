@@ -16,8 +16,8 @@ DATASET_COLUMNS = {
     "taxes_budget_vs_actual": ["fiscal_year", "group", "is_total", "budget", "actual", "variance_pct", "exception_ids"],
     "expenses_by_dept_object": ["fiscal_year", "dept_code", "department", "function", "object_id", "object", "amount", "exception_ids"],
     "expenses_fund_totals": ["fiscal_year", "lines_total", "printed_total", "diff", "page_label", "exception_ids"],
-    "expenses_audit_vs_budget": ["fiscal_year", "department_group", "label", "audit_original", "audit_final", "audit_actual", "budget_adjusted",
-                                 "diff", "note"],
+    "expenses_audit_vs_budget": ["fiscal_year", "department_group", "label", "function", "is_total", "audit_original", "audit_final",
+                                 "audit_actual", "variance_pct", "budget_adjusted", "diff", "note", "exception_ids"],
     "fund_balance": ["fiscal_year", "fund", "cash", "total_assets", "total_liabilities", "total_deferred_inflows", "nonspendable", "restricted",
                      "committed", "assigned", "unassigned", "total_fund_balance", "revenues", "expenditures",
                      "excess_revenues_over_expenditures", "other_financing", "net_change", "beginning_balance", "prior_period_adjustment",
@@ -156,6 +156,15 @@ def test_expense_datasets(site):
     av = site(ENTITY, "expenses_audit_vs_budget.json")["rows"]
     comparable = [r for r in av if r["diff"] is not None]
     assert len(comparable) == 182 and sum(1 for r in comparable if r["diff"] == 0) == 179
+    misses = {(r["fiscal_year"], r["department_group"]) for r in comparable if r["diff"] != 0}
+    assert {(y, g) for y, g in misses if y != 2020} == {(2014, "engineering"), (2017, "street")} and sorted(y for y, _ in misses) == [2014, 2017, 2020]
+    assert all(r["exception_ids"] for r in comparable if r["diff"] != 0)  # every miss is explained by an EX-audit-* exception
+    tot = {r["fiscal_year"]: r for r in av if r["is_total"]}
+    assert sorted(tot) == list(range(2012, 2027))
+    assert sum(1 for t in tot.values() if t["variance_pct"] < 0) == 14 and tot[2025]["variance_pct"] > 0  # under budget in 14 of 15 audited years
+    for fy, t in tot.items():
+        parts = [r for r in av if not r["is_total"] and r["fiscal_year"] == fy]
+        assert t["audit_actual"] == sum(r["audit_actual"] or 0 for r in parts)
 
 
 def test_fund_balance_dataset(site):

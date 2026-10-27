@@ -3,7 +3,7 @@
   import { onMount } from 'svelte';
   import { url, initUrlState, setRange, setDept, resetFilters } from '../lib/urlState.svelte';
 
-  let { years, departments }: { years: number[]; departments: { code: string; name: string; function: string }[] } = $props();
+  let { years, departments = [], showDept = true }: { years: number[]; departments?: { code: string; name: string; function: string }[]; showDept?: boolean } = $props();
   onMount(initUrlState);
 
   const functions = $derived([...new Set(departments.map((d) => d.function))]);
@@ -24,7 +24,7 @@
       {#each years as y}<option value={y}>{`FY${y}`}</option>{/each}
     </select>
   </label>
-  <label class="dept">Department (object charts)
+  {#if showDept}<label class="dept">Department (object charts)
     <select value={url.dept ?? ''} onchange={(e) => setDept(e.currentTarget.value)}>
       <option value="">All departments</option>
       {#each functions as f}
@@ -33,7 +33,7 @@
         </optgroup>
       {/each}
     </select>
-  </label>
+  </label>{/if}
   <button type="button" onclick={resetFilters} disabled={!changed}>Reset</button>
 </form>
 

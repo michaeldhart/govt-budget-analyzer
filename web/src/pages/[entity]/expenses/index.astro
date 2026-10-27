@@ -105,7 +105,7 @@ const rounding = totals.filter((t) => t.diff !== 0 && Math.abs(t.diff) <= 3).len
       ))}</tbody>
     </table></div>
   )}
-  <p class="muted">Data: <a href={href(`/data/${entity}/expenses_by_dept_object.json`)}>expenses by department and object</a> · <a href={href(`/data/${entity}/expenses_fund_totals.json`)}>printed-total check</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+  <p class="muted">See also <a href={href(`/${entity}/expenses/audit/`)}>audited spending vs the original budget</a>. Data: <a href={href(`/data/${entity}/expenses_by_dept_object.json`)}>expenses by department and object</a> · <a href={href(`/data/${entity}/expenses_fund_totals.json`)}>printed-total check</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
 </Base>
 
 <style>

@@ -1,0 +1,104 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import BudgetVsActual from '../../../../components/BudgetVsActual.svelte';
+import SmallMultiples from '../../../../components/SmallMultiples.svelte';
+import VarianceHeatmap from '../../../../components/VarianceHeatmap.svelte';
+import ExpenseFilters from '../../../../components/ExpenseFilters.svelte';
+import { readData, href } from '../../../../lib/data';
+import { dollars, fyLabel } from '../../../../lib/format';
+import { millions } from '../../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('expenses_audit_vs_budget')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const fnColor: Record<string, string> = Object.fromEntries(schemes.function_group.map((c: any) => [c.name, c.color]));
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const all: any[] = readData(entity, 'expenses_audit_vs_budget.json').rows;
+
+// the chart components read budget / actual / variance_pct / group
+const asBva = (r: any) => ({ fiscal_year: r.fiscal_year, group: r.label, budget: r.audit_original, actual: r.audit_actual, variance_pct: r.variance_pct });
+const totals = all.filter((r) => r.is_total);
+// a group that never has a dollar (the audit prints an empty FY2012 Capital Projects line) is left out of the charts
+const empty = (g: string) => all.filter((r) => r.department_group === g).every((r) => !r.audit_original && !r.audit_actual);
+const groups = all.filter((r) => !r.is_total && !empty(r.department_group));
+const groupNames: { name: string; color: string; fn: string }[] = [...new Map(groups.map((r) => [r.label, { name: r.label, color: fnColor[r.function] ?? '#898781', fn: r.function ?? 'Other' }])).values()]
+  .sort((a, b) => a.fn.localeCompare(b.fn) || a.name.localeCompare(b.name));
+const years = totals.map((t) => t.fiscal_year).sort();
+
+const under = totals.filter((t) => t.variance_pct < 0);
+const sorted = totals.map((t) => t.variance_pct).sort((a, b) => a - b);
+const median = sorted.length % 2 ? sorted[(sorted.length - 1) / 2] : (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2;
+const latest = totals.at(-1)!;
+const over = totals.filter((t) => t.variance_pct > 0);
+const pct = (v: number, d = 0) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(d)}%`;
+const unspent = totals.reduce((s, t) => s + (t.audit_original - t.audit_actual), 0);
+
+const comparable = groups.filter((r) => r.diff != null);
+const agree = comparable.filter((r) => r.diff === 0).length;
+const misses = comparable.filter((r) => r.diff !== 0);
+const rules = ['EX-audit-transfers-excluded', 'EX-audit-contra-netted', 'EX-audit-sales-tax-incentive', 'EX-audit-751-economic-dev'].filter((id) => exceptions[id]);
+---
+<Base title={`Audited spending vs budget – ${meta.short_name}`} description={`${meta.name}: audited General Fund expenditures against the original budget, by department group.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/expenses/`)}>Expenses</a> › Audit vs budget</p>
+  <h1>Audited spending vs the budget</h1>
+  <p class="muted">What the city's audits report was actually spent from the General Fund, against the original budget the audit prints, {fyLabel(years[0])}–{fyLabel(years.at(-1))}. Transfers out are excluded on both sides. Negative means less was spent than budgeted.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(latest.fiscal_year)} audited spending</dt><dd>{millions(latest.audit_actual, 1)}</dd></div>
+    <div><dt>vs original budget ({millions(latest.audit_original, 1)})</dt><dd>{pct(latest.variance_pct, 1)}</dd></div>
+    <div><dt>Years under budget</dt><dd>{under.length} of {totals.length}</dd></div>
+    <div><dt>Median difference</dt><dd>{pct(median, 1)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>Audited spending was below the original budget in {under.length} of {totals.length} years{over.length ? `; the exception${over.length > 1 ? 's were' : ' was'} ${over.map((t) => `${fyLabel(t.fiscal_year)} (${pct(t.variance_pct, 1)})`).join(', ')}` : ''}. Over the whole period the city spent {millions(unspent, 1)} less than its original budgets.</li>
+    <li>The largest shortfalls were {[...totals].sort((a, b) => a.variance_pct - b.variance_pct).slice(0, 3).map((t) => `${fyLabel(t.fiscal_year)} (${pct(t.variance_pct, 1)})`).join(', ')}.</li>
+    <li>This is the spending side of the pattern on the <a href={href(`/${entity}/taxes/`)}>taxes page</a>, where audited revenue ran above budget in 14 of 15 years.</li>
+  </ul>
+
+  <ExpenseFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+
+  <h2>Total</h2>
+  <BudgetVsActual client:load rows={totals.map(asBva)} p={palette}
+    labels={{ lineTitle: 'General Fund expenditures: original budget vs audited actual', varianceTitle: 'Audited actual vs original budget: percent above (blue) or below (red)',
+      budget: 'Original budget', actual: 'Audited actual', fileStem: 'expenses-audit', note: 'Excludes transfers out; the audit does not budget or report them as expenditures.' }} />
+
+  <h2>By department group</h2>
+  <SmallMultiples client:load rows={groups.map(asBva)} groups={groupNames} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+    title="Original budget (line) and audited actual (dots), each on its own scale" />
+  <VarianceHeatmap client:load rows={groups.map(asBva)} groups={groupNames.map((g) => g.name)} p={palette}
+    title="Audited actual vs original budget, percent by department group and year"
+    note="Blue: spent more than budgeted. Red: less. Color saturates at 60%. A dash means no budget or no spending that year." />
+
+  <h2>How the audit and the budget line up</h2>
+  <p>The audit's original budget is the same figure as the budget ordinance's adopted budget at department-group level: they agree to the dollar in {agree} of {comparable.length} comparable group-years, after the presentation rules below. FY2012 and FY2013 predate the budget documents the site has, so only the audit's figures are shown for them.</p>
+  <ul>
+    {rules.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}
+  </ul>
+  <p>The {misses.length} group-years that do not agree:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th>Group</th><th class="num">Audit original</th><th class="num">Budget on the audit's footing</th><th class="num">Difference</th><th>Why</th></tr></thead>
+    <tbody>{misses.map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td>{r.label}</td><td class="num">{dollars(r.audit_original)}</td><td class="num">{dollars(r.budget_adjusted)}</td><td class="num">{dollars(r.diff)}</td>
+        <td>{r.exception_ids.map((id: string) => <span><strong>{id}</strong>: {exceptions[id]?.summary}. </span>)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="muted">Data: <a href={href(`/data/${entity}/expenses_audit_vs_budget.json`)}>audit vs budget by department group</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

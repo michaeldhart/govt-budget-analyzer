@@ -7,6 +7,8 @@ const checks = {
     'Taxes: budget vs audited actual', 'Audited actual vs budget, percent by group and year', 'Adopted offsets by category', 'aria-label="Chart filters"', 'id="composition"', 'id="heatmap"'],
   'dist/belvidere_il/expenses/index.html': ['$36.2M', 'General Fund expenses over time', 'id="by-function"', 'id="by-object"', 'aria-label="Chart filters"',
     'General Administration', '$20,140,228', 'EX-fund-expense-5050'],
+  'dist/belvidere_il/expenses/audit/index.html': ['14 of 15', 'id="budget-vs-actual"', 'id="heatmap"', 'id="multiples"', 'EX-audit-transfers-excluded', 'How the audit and the budget line up',
+    '179 of 182'],
 };
 let bad = false;
 for (const [file, need] of Object.entries(checks)) {

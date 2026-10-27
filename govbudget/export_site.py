@@ -194,25 +194,64 @@ def expenses_fund_totals(E, read):
 
 
 def expenses_audit_vs_budget(E, read):
-    """Audited expenditures against the original budget per department group."""
+    """Audited expenditures against the original budget per department group, plus a total over all groups."""
     def n(x):
         return None if x in ("", None) else int(x)
-    rows = []
+
+    def var(budget, actual):
+        return None if not budget or actual is None else round((actual - budget) / budget, 6)
+
+    codes, func = defaultdict(set), {}
+    dept = E.departments("01")
+    for m in E.table("audit_expenditure_map.csv"):
+        if m["fund_code"] == "01" and m["department_group"] and m["budget_dept_codes"]:
+            codes[m["department_group"]].update(m["budget_dept_codes"].split("|"))
+            func.setdefault(m["department_group"], dept[sorted(codes[m["department_group"]])[0]]["function"])
+    audit_ex = [e for e in E.exceptions() if e["exception_id"].startswith("EX-audit-")]
+
+    def ex_for(group, fy):
+        out = set()
+        for e in audit_ex:
+            if not in_range(e, fy):
+                continue
+            if e["scope"] == "group" and e["scope_id"] == group:
+                out.add(e["exception_id"])
+            elif e["scope"] == "account" and any(a.split("-")[0] in codes[group] for a in e["scope_id"].split("|")):
+                out.add(e["exception_id"])
+        return sorted(out)
+
+    rows, by_year = [], defaultdict(lambda: [0, 0, 0, set()])
     for r in read("audit_expenses_vs_budget.csv"):
+        g, fy = r["department_group"], int(r["fiscal_year"])
+        orig, fin, act = n(r["audit_original"]), n(r["audit_final"]), n(r["audit_actual"])
+        ex = ex_for(g, fy)
         rows.append(dict(
-            fiscal_year=int(r["fiscal_year"]), department_group=r["department_group"], label=r["department_group"].replace("_", " ").capitalize(),
-            audit_original=n(r["audit_original"]), audit_final=n(r["audit_final"]), audit_actual=n(r["audit_actual"]),
-            budget_adjusted=n(r["budget_adjusted"]) if r["diff"] != "" else None, diff=n(r["diff"]), note=r["note"]))
-    rows.sort(key=lambda r: (r["department_group"], r["fiscal_year"]))
+            fiscal_year=fy, department_group=g, label=g.replace("_", " ").capitalize(), function=func.get(g), is_total=False,
+            audit_original=orig, audit_final=fin, audit_actual=act, variance_pct=var(orig, act),
+            budget_adjusted=n(r["budget_adjusted"]) if r["diff"] != "" else None, diff=n(r["diff"]), note=r["note"], exception_ids=ex))
+        t = by_year[fy]
+        t[0] += orig or 0
+        t[1] += fin or 0
+        t[2] += act or 0
+        t[3].update(ex)
+    for fy, (orig, fin, act, ex) in by_year.items():
+        rows.append(dict(fiscal_year=fy, department_group="all_departments", label="All departments", function=None, is_total=True,
+                         audit_original=orig, audit_final=fin, audit_actual=act, variance_pct=var(orig, act), budget_adjusted=None,
+                         diff=None, note="", exception_ids=sorted(ex)))
+    rows.sort(key=lambda r: (r["is_total"], r["department_group"], r["fiscal_year"]))
     return dict(
         title="Audited expenditures vs the original budget, by department group",
         description="The audit's original budget equals the adopted budget (after three presentation rules) for 179 of 182 comparable "
-                    "group-years; actual is what the audit reports spent. Transfers out are excluded on both sides.",
-        sources=["audit_expenses_vs_budget.csv"],
+                    "group-years; actual is what the audit reports spent. Transfers out are excluded on both sides. variance_pct is "
+                    "(actual - original) / original, so a negative number means less was spent than budgeted.",
+        sources=["audit_expenses_vs_budget.csv", "entities/<id>/audit_expenditure_map.csv", "exceptions.csv"],
         columns=dict(fiscal_year="fiscal year", department_group="department group", label="display name",
+                     function="function group (categories.json, scheme function_group)", is_total="true on the all-departments total rows",
                      audit_original="audit original budget, dollars", audit_final="audit final budget, dollars",
-                     audit_actual="audited actual expenditures, dollars", budget_adjusted="adopted budget put on the audit's footing; empty when "
-                     "there is no budget document", diff="audit original - adjusted budget (0 = they agree)", note="free text"),
+                     audit_actual="audited actual expenditures, dollars", variance_pct="(actual - original) / original, as a fraction",
+                     budget_adjusted="adopted budget put on the audit's footing; empty when there is no budget document",
+                     diff="audit original - adjusted budget (0 = they agree)", note="free text",
+                     exception_ids="audit-comparison exceptions (EX-audit-*) for this group and year"),
         rows=rows)
 
 

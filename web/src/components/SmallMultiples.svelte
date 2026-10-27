@@ -27,7 +27,7 @@
   const build = (p: (typeof panels)[number]) => (width: number) => {
     const top = Math.max(...p.bud.map((r) => r.budget!), ...p.act.map((r) => r.actual!)) * 1.12;
     return Plot.plot({
-      width, height: 120, marginLeft: 44, marginRight: 6, marginTop: 6, marginBottom: 20, style: { fontSize: '10px', background: 'transparent' },
+      width, height: 120, marginLeft: 44, marginRight: 16, marginTop: 6, marginBottom: 20, style: { fontSize: '10px', background: 'transparent' },
       x: { label: null, domain: span, ticks: [...new Set([span[0], Math.round((span[0] + span[1]) / 2), span[1]])], tickFormat: fy },
       y: { label: null, domain: [0, top], ticks: 3, tickFormat: moneyTick, grid: true },
       marks: [

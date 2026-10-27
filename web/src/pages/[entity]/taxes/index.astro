@@ -79,7 +79,9 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
     filename="taxes-adopted-offsets.csv" totalLabel="All offsets" />
 
   <h2>Budget vs audited actual</h2>
-  <BudgetVsActual client:load rows={totalRows} p={palette} />
+  <BudgetVsActual client:load rows={totalRows} p={palette} yDomain={[10e6, 25e6]}
+    labels={{ lineTitle: 'Taxes: budget vs audited actual', varianceTitle: 'Audited actual vs budget: percent above (blue) or below (red)', budget: 'Budget',
+      actual: 'Audited actual', fileStem: 'taxes', note: "Budget is the audit's original budget (the budget document's adopted figure where the audit has none). FY2027 has no audit yet." }} />
 
   <h2>By group</h2>
   <p class="muted">The audit's own groups, so budget and actual are strictly comparable. The telecommunications group is the city's Municipal Infrastructure Maintenance line (see the exceptions on the year pages).</p>
