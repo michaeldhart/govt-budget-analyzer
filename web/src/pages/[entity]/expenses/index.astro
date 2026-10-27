@@ -1,0 +1,121 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import ObjectByDept from '../../../components/ObjectByDept.svelte';
+import ExpenseFilters from '../../../components/ExpenseFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('expenses_by_dept_object')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const rows: any[] = readData(entity, 'expenses_by_dept_object.json').rows;
+const years = [...new Set<number>(rows.map((r) => r.fiscal_year))].sort();
+const first = years[0], last = years.at(-1)!;
+const sum = (f: (r: any) => boolean) => rows.filter(f).reduce((s, r) => s + r.amount, 0);
+const total = (y: number) => sum((r) => r.fiscal_year === y);
+
+const functionColors: Record<string, string> = Object.fromEntries(schemes.function_group.map((c: any) => [c.name, c.color]));
+const functions = schemes.function_group.map((c: any) => ({ name: c.name, color: c.color }));
+const objects = schemes.expense_object.filter((c: any) => c.color).map((c: any) => ({ name: c.name, color: c.color }));
+const departments = [...new Map(rows.map((r) => [r.dept_code, { code: r.dept_code, name: r.department, function: r.function }])).values()]
+  .sort((a, b) => a.function.localeCompare(b.function) || a.name.localeCompare(b.name));
+
+const transfers = (y: number) => sum((r) => r.fiscal_year === y && r.object_id === 'exp_transfers');
+const personnel = (y: number) => sum((r) => r.fiscal_year === y && r.object_id === 'exp_personnel');
+const g0 = total(first), g1 = total(last), opLast = g1 - transfers(last), opPrev = total(last - 1) - transfers(last - 1);
+const cagr = (g1 / g0) ** (1 / (last - first)) - 1;
+const pct = (v: number, d = 0) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(d)}%`;
+
+const bigTransfers = departments.map((d) => ({ name: d.name, amount: sum((r) => r.dept_code === d.code && r.fiscal_year === last && r.object_id === 'exp_transfers') }))
+  .filter((d) => d.amount >= 1e6);
+const deptTable = departments.map((d) => {
+  const a = sum((r) => r.dept_code === d.code && r.fiscal_year === first), b = sum((r) => r.dept_code === d.code && r.fiscal_year === last);
+  return { ...d, a, b, change: b - a, growth: a > 0 ? b / a - 1 : null };
+}).sort((x, y) => y.b - x.b);
+
+const totals: any[] = readData(entity, 'expenses_fund_totals.json').rows;
+const off = totals.filter((t) => Math.abs(t.diff) > 3);
+const exceptions: any[] = readData(entity, 'exceptions.json').exceptions;
+const exById = Object.fromEntries(exceptions.map((e) => [e.exception_id, e]));
+const rounding = totals.filter((t) => t.diff !== 0 && Math.abs(t.diff) <= 3).length;
+---
+<Base title={`General Fund expenses – ${meta.short_name}`} description={`${meta.name}: adopted General Fund expenses by department, function and object category.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Expenses</p>
+  <h1>General Fund expenses over time</h1>
+  <p class="muted">Adopted budgets {fyLabel(first)}–{fyLabel(last)}: every expense line in the city's budget ordinance, grouped by department and by object (what the money is spent on). Not adjusted for inflation.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} adopted expenses</dt><dd>{millions(g1, 1)}</dd></div>
+    <div><dt>of which transfers out</dt><dd>{millions(transfers(last), 1)}</dd></div>
+    <div><dt>{fyLabel(last)} excluding transfers</dt><dd>{millions(opLast, 1)}</dd></div>
+    <div><dt>vs {fyLabel(first)} ({millions(g0, 1)})</dt><dd>{pct(g1 / g0 - 1)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>Adopted expenses grew from {millions(g0, 1)} in {fyLabel(first)} to {millions(g1, 1)} in {fyLabel(last)}, {(cagr * 100).toFixed(1)}% a year, before inflation.</li>
+    <li>{fyLabel(last)} includes a {millions(transfers(last), 2)} operating transfer out of reserves for capital projects. Without transfers, expenses are {millions(opLast, 1)}, {pct(opLast / opPrev - 1, 1)} on {fyLabel(last - 1)}'s {millions(opPrev, 1)}.</li>
+    <li>Personnel and benefits are {((personnel(last) / g1) * 100).toFixed(0)}% of {fyLabel(last)} expenses ({millions(personnel(last), 1)}); {((personnel(last) / opLast) * 100).toFixed(0)}% of expenses excluding transfers.</li>
+  </ul>
+
+  <ExpenseFilters client:load years={years} departments={departments} />
+  <p class="muted small-note">Filters are saved in the page address, so a link shows the same view. The year range applies to every chart; the department applies to the object chart.</p>
+
+  <h2>By department group</h2>
+  <StackedBars client:load id="by-function" ink={palette.ink} series={functions} totalLabel="All expenses"
+    rows={rows.map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.function, value: r.amount }))}
+    title="Adopted expenses by function group" filename="expenses-by-function.csv"
+    note="Function groups collect the 20 General Fund departments (the table below lists them). Capital projects and transfers holds the Utility Tax department, which funds street projects and reserve transfers." />
+
+  <h2>By object</h2>
+  <ObjectByDept client:load rows={rows} series={objects} ink={palette.ink} />
+
+  <h2>Departments, {fyLabel(first)} to {fyLabel(last)}</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Department</th><th>Function</th><th class="num">{fyLabel(first)}</th><th class="num">{fyLabel(last)}</th><th class="num">Change</th><th class="num">Growth</th></tr></thead>
+      <tbody>
+        {deptTable.map((d) => (
+          <tr><td>{d.name}</td><td><span class="swatch" style={`background:${functionColors[d.function]}`}></span>{d.function}</td>
+            <td class="num">{dollars(d.a)}</td><td class="num">{dollars(d.b)}</td><td class="num">{dollars(d.change)}</td>
+            <td class="num">{d.growth != null ? pct(d.growth) : d.b === 0 ? '–' : 'new'}</td></tr>
+        ))}
+      </tbody>
+      <tfoot><tr><th colspan="2">Total</th><th class="num">{dollars(g0)}</th><th class="num">{dollars(g1)}</th><th class="num">{dollars(g1 - g0)}</th><th class="num">{pct(g1 / g0 - 1)}</th></tr></tfoot>
+    </table>
+  </div>
+
+  {bigTransfers.length > 0 && <p class="muted">{fyLabel(last)} {bigTransfers.map((d) => `${d.name} includes a ${millions(d.amount, 2)} transfer out`).join('; ')}, which is why its growth is so large. Choose the department above to see its object breakdown.</p>}
+
+  <h2>How this ties to the city's printed totals</h2>
+  <p>Every year, the expense lines are checked against the total the city prints for the fund. {rounding > 0 ? `${rounding} years differ by $1–3 (the city's own rounding). ` : ''}{off.length === 0 ? 'The rest agree exactly.' : 'Larger differences, which come from the city\'s own arithmetic and not the extraction:'}</p>
+  {off.length > 0 && (
+    <div class="scroll"><table>
+      <thead><tr><th>Fiscal year</th><th class="num">Lines</th><th class="num">City's printed total</th><th class="num">Difference</th><th>Why</th></tr></thead>
+      <tbody>{off.map((t: any) => (
+        <tr><td>{fyLabel(t.fiscal_year)}</td><td class="num">{dollars(t.lines_total)}</td><td class="num">{dollars(t.printed_total)}</td><td class="num">{dollars(t.diff)}</td>
+          <td>{t.exception_ids.map((id: string) => <span><strong>{id}</strong>: {exById[id]?.summary}. </span>)}</td></tr>
+      ))}</tbody>
+    </table></div>
+  )}
+  <p class="muted">Data: <a href={href(`/data/${entity}/expenses_by_dept_object.json`)}>expenses by department and object</a> · <a href={href(`/data/${entity}/expenses_fund_totals.json`)}>printed-total check</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  .swatch { display: inline-block; width: 0.75em; height: 0.75em; border-radius: 2px; margin-right: 0.4em; }
+  td.num, th.num { white-space: nowrap; }
+  tfoot th { border-top: 2px solid var(--rule); }
+</style>

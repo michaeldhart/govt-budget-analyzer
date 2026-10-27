@@ -91,4 +91,4 @@ EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy
                      "decided_on", "evidence"]
 
 # Category schemes: where a category_id is used.
-SCHEMES = ("budget_category", "report_group", "expense_object")
+SCHEMES = ("budget_category", "report_group", "expense_object", "function_group")

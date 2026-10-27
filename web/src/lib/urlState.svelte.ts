@@ -20,4 +20,5 @@ const toggle = (list: string[], v: string, on: boolean) => (on ? [...new Set([..
 export function setTable(id: string, on: boolean) { url.table = toggle(url.table, id, on); persist(); }
 export function setHidden(name: string, hidden: boolean) { url.hide = toggle(url.hide, name, hidden); persist(); }
 export function setRange(from: number | null, to: number | null) { url.from = from; url.to = to; persist(); }
-export function resetFilters() { url.from = null; url.to = null; url.hide = []; persist(); }
+export function setDept(code: string | null) { url.dept = code || null; persist(); }
+export function resetFilters() { url.from = null; url.to = null; url.hide = []; url.dept = null; persist(); }

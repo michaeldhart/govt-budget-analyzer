@@ -16,21 +16,27 @@ rg_replacement_tax_net,report_group,Replacement tax (net),revenue,#008300,4,
 rg_video_gaming_tax,report_group,Video gaming tax,revenue,#4a3aa7,5,
 rg_other_taxes,report_group,Other taxes,revenue,#b4b2a9,6,
 rg_telecommunications_tax,report_group,Telecommunications tax,revenue,#52514e,7,
-exp_personnel,expense_object,Personnel and benefits,expense,,0,"object codes 5000-5999: salaries, overtime, pension and insurance contributions, training. Includes the health insurance reimbursement (110-4540), a contra account printed in the expense block"
-exp_contractual,expense_object,Contractual services,expense,,1,"object codes 6000-6999: repairs and maintenance, professional services, utilities, insurance premiums, program disbursements"
-exp_supplies,expense_object,Supplies,expense,,2,"object codes 7000-7899: office, fuel, operating supplies"
-exp_miscellaneous,expense_object,Miscellaneous,expense,,3,"object codes 7900-7999: miscellaneous expense, Heritage Days, other small lines the city prints outside its Supplies subtotal"
-exp_capital_projects,expense_object,Capital projects,expense,,4,object codes 8000-8199: street and storm projects
-exp_equipment_grants,expense_object,"Equipment, vehicles and grant expense",expense,,5,object codes 8200-8399
-exp_transfers,expense_object,Transfers out,expense,,6,"object codes 9000-9999: operating transfers out (reserves, capital, ARPA)"
+exp_personnel,expense_object,Personnel and benefits,expense,#2a78d6,0,"object codes 5000-5999: salaries, overtime, pension and insurance contributions, training. Includes the health insurance reimbursement (110-4540), a contra account printed in the expense block"
+exp_contractual,expense_object,Contractual services,expense,#eb6834,1,"object codes 6000-6999: repairs and maintenance, professional services, utilities, insurance premiums, program disbursements"
+exp_supplies,expense_object,Supplies,expense,#1baf7a,2,"object codes 7000-7899: office, fuel, operating supplies"
+exp_miscellaneous,expense_object,Miscellaneous,expense,#b4b2a9,3,"object codes 7900-7999: miscellaneous expense, Heritage Days, other small lines the city prints outside its Supplies subtotal"
+exp_capital_projects,expense_object,Capital projects,expense,#eda100,4,object codes 8000-8199: street and storm projects
+exp_equipment_grants,expense_object,"Equipment, vehicles and grant expense",expense,#e87ba4,5,object codes 8200-8399
+exp_transfers,expense_object,Transfers out,expense,#4a3aa7,6,"object codes 9000-9999: operating transfers out (reserves, capital, ARPA)"
 ws_charges,budget_category,Water and sewer charges and fees,revenue,,90,"Water/Sewer Fund revenue: consumption (4500), connection fees (4510), deposits (4520), Dep on Agr (4521), meters sold (4530), other services (4590), card fee (4595)"
 ws_other,budget_category,Other water and sewer revenue,revenue,,91,"Water/Sewer Fund: grants, interest, miscellaneous, reimbursements, sale of assets, transfers in from reserves"
-exp_set_aside,expense_object,Depreciation and bond set-asides,expense,,7,Water/Sewer Fund: unnumbered lines that move cash to the depreciation and bond payment funds (61-5-DDD-DEPSA / BONDSA are this project's pseudo account numbers)
+exp_set_aside,expense_object,Depreciation and bond set-asides,expense,#008300,7,Water/Sewer Fund: unnumbered lines that move cash to the depreciation and bond payment funds (61-5-DDD-DEPSA / BONDSA are this project's pseudo account numbers)
 fund_tax_levy,budget_category,Property tax and replacement tax levied for the fund,revenue,,90,other budgeted funds (docs/handoff/budget_other_funds.md)
 fund_intergovernmental,budget_category,State allotment and grants,revenue,,91,other budgeted funds (docs/handoff/budget_other_funds.md)
 fund_transfer_in,budget_category,Operating transfers in,revenue,,92,other budgeted funds (docs/handoff/budget_other_funds.md)
 fund_contributions,budget_category,Pension contributions,revenue,,93,other budgeted funds (docs/handoff/budget_other_funds.md)
 fund_interest,budget_category,Interest,revenue,,94,other budgeted funds (docs/handoff/budget_other_funds.md)
 fund_other_revenue,budget_category,"Other fund revenue (fees, rent, gifts, escrow)",revenue,,95,other budgeted funds (docs/handoff/budget_other_funds.md)
-exp_debt_service,expense_object,Debt service,expense,,8,other budgeted funds (docs/handoff/budget_other_funds.md)
-exp_pension_payments,expense_object,Pension benefit payments and refunds,expense,,9,other budgeted funds (docs/handoff/budget_other_funds.md)
+exp_debt_service,expense_object,Debt service,expense,#52514e,8,other budgeted funds (docs/handoff/budget_other_funds.md)
+exp_pension_payments,expense_object,Pension benefit payments and refunds,expense,#898781,9,other budgeted funds (docs/handoff/budget_other_funds.md)
+fn_general_government,function_group,General government,expense,#2a78d6,0,department function group (entities/belvidere_il/departments.csv); General Fund departments
+fn_public_safety,function_group,Public safety,expense,#eb6834,1,
+fn_public_works,function_group,Public works,expense,#1baf7a,2,
+fn_community_development,function_group,Community development,expense,#eda100,3,
+fn_health_welfare,function_group,Health and welfare,expense,#e87ba4,4,
+fn_capital_transfers,function_group,Capital projects and transfers,expense,#4a3aa7,5,

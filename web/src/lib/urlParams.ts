@@ -2,15 +2,16 @@
 //   ?from=2018&to=2026         year range for every chart on the page
 //   &hide=Utility+taxes        categories switched off (repeat the parameter)
 //   &table=composition         charts shown as a table instead of a chart (repeat the parameter)
-export type UrlState = { from: number | null; to: number | null; hide: string[]; table: string[] };
+//   &dept=210                  one department (code) instead of all of them (expenses page)
+export type UrlState = { from: number | null; to: number | null; hide: string[]; table: string[]; dept: string | null };
 
-export const emptyState = (): UrlState => ({ from: null, to: null, hide: [], table: [] });
+export const emptyState = (): UrlState => ({ from: null, to: null, hide: [], table: [], dept: null });
 
 const year = (v: string | null): number | null => (v && /^\d{4}$/.test(v) ? Number(v) : null);
 
 export function parse(search: string): UrlState {
   const p = new URLSearchParams(search);
-  return { from: year(p.get('from')), to: year(p.get('to')), hide: [...new Set(p.getAll('hide'))], table: [...new Set(p.getAll('table'))] };
+  return { from: year(p.get('from')), to: year(p.get('to')), hide: [...new Set(p.getAll('hide'))], table: [...new Set(p.getAll('table'))], dept: p.get('dept') || null };
 }
 
 /** Query string without the leading '?'; defaults are left out so an untouched page keeps a clean URL. */
@@ -20,6 +21,7 @@ export function serialize(s: UrlState): string {
   if (s.to != null) p.set('to', String(s.to));
   s.hide.forEach((h) => p.append('hide', h));
   s.table.forEach((t) => p.append('table', t));
+  if (s.dept) p.set('dept', s.dept);
   return p.toString();
 }
 

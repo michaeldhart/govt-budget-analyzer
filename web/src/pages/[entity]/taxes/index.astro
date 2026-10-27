@@ -1,11 +1,10 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import StackedComposition from '../../../components/StackedComposition.svelte';
+import StackedBars from '../../../components/StackedBars.svelte';
 import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import BudgetVsActual from '../../../components/BudgetVsActual.svelte';
 import VarianceHeatmap from '../../../components/VarianceHeatmap.svelte';
 import TaxFilters from '../../../components/TaxFilters.svelte';
-import Offsets from '../../../components/Offsets.svelte';
 import { readData, href } from '../../../lib/data';
 import { dollars, percent, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
@@ -70,12 +69,14 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
   <TaxFilters client:load years={allYears} categories={cats} />
   <p class="muted small-note">Filters apply to every chart below (the category filter to the composition and offsets charts) and are saved in the page address, so a link shows the same view. The summary above always covers the full period.</p>
   <p class="muted">Each column is that year's adopted budget. Click “Table” on any chart to see its numbers, or download them. <a href={href(`/${entity}/taxes/${last}/`)}>See every line for {fyLabel(last)}</a>, or pick another year there.</p>
-  <StackedComposition client:load rows={byCat.filter((r: any) => r.category !== 'ALL TAXES')} categories={cats} ink={palette.ink}
-    title="Adopted gross taxes by category" />
+  <StackedBars client:load id="composition" respectHide rows={byCat.filter((r: any) => r.category !== 'ALL TAXES').map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.gross_tax }))}
+    series={cats} ink={palette.ink} title="Adopted gross taxes by category" filename="taxes-adopted-by-category.csv" totalLabel="All taxes" />
 
   <h2>Offsets</h2>
   <p class="muted">Sales and property tax rebated to developers, and the replacement tax passed to the pension funds, are subtracted from gross taxes to get net.</p>
-  <Offsets client:load rows={byCat} categories={cats} title="Adopted offsets by category" />
+  <StackedBars client:load id="offsets" respectHide negative rows={byCat.filter((r: any) => r.category !== 'ALL TAXES' && r.offsets !== 0).map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.offsets }))}
+    series={cats.filter((c: any) => byCat.some((r: any) => r.category === c.name && r.offsets !== 0))} ink={palette.ink} title="Adopted offsets by category"
+    filename="taxes-adopted-offsets.csv" totalLabel="All offsets" />
 
   <h2>Budget vs audited actual</h2>
   <BudgetVsActual client:load rows={totalRows} p={palette} />
