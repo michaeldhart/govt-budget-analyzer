@@ -1,0 +1,113 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ValueBars from '../../../components/ValueBars.svelte';
+import ExpenseFilters from '../../../components/ExpenseFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('fund_balance')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const all: any[] = readData(entity, 'fund_balance.json').rows;
+const gf = all.filter((r) => r.fund === 'General');
+const gov = all.filter((r) => r.fund !== 'General');
+const first = gf[0], last = gf.at(-1)!;
+const years = gf.map((r) => r.fiscal_year);
+
+// balance categories, in the order the audits present them (most restricted first); colors from the shared palette hues
+const cats = [
+  { key: 'nonspendable', name: 'Nonspendable', color: '#b4b2a9' }, { key: 'restricted', name: 'Restricted', color: '#eda100' },
+  { key: 'committed', name: 'Committed', color: '#e87ba4' }, { key: 'assigned', name: 'Assigned', color: '#1baf7a' },
+  { key: 'unassigned', name: 'Unassigned', color: '#2a78d6' },
+];
+const balanceRows = gf.flatMap((r) => cats.filter((c) => r[c.key]).map((c) => ({ fiscal_year: r.fiscal_year, series: c.name, value: r[c.key] })));
+const flowRows = gf.flatMap((r) => [{ fiscal_year: r.fiscal_year, series: 'Revenues', value: r.revenues }, { fiscal_year: r.fiscal_year, series: 'Expenditures', value: r.expenditures }]);
+const monthsRows = gf.filter((r) => r.unassigned_months != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Unassigned fund balance', value: r.unassigned_months }));
+const netRows = gf.map((r) => ({ fiscal_year: r.fiscal_year, value: r.net_change }));
+
+const surplus = gf.filter((r) => r.excess_revenues_over_expenditures > 0);
+const fell = gf.filter((r) => r.net_change < 0);
+const cagr = (last.total_fund_balance / first.total_fund_balance) ** (1 / (last.fiscal_year - first.fiscal_year)) - 1;
+const used = new Set<string>(gf.flatMap((r) => r.exception_ids));
+const keyEx = [...used].filter((id) => exceptions[id] && id !== 'EX-fund-stmt-columns');
+const mid = gf.filter((r) => r.fiscal_year >= 2016 && r.fiscal_year <= 2020).map((r) => r.unassigned_months);
+const lowMid = Math.min(...mid), highMid = Math.max(...mid);
+const monthsText = (v: number) => `${v.toFixed(1)} months`;
+---
+<Base title={`Fund balance and reserves – ${meta.short_name}`} description={`${meta.name}: General Fund balance, reserves in months of spending, revenues and expenditures from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Fund balance</p>
+  <h1>General Fund balance and reserves</h1>
+  <p class="muted">From the city's audited balance sheets and statements of revenues, expenditures and changes in fund balances, {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)} (year ends April 30). The fund balance is what the General Fund holds at year end; the unassigned part is the money the city can spend on anything.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last.fiscal_year)} General Fund balance</dt><dd>{millions(last.total_fund_balance, 1)}</dd></div>
+    <div><dt>of which unassigned</dt><dd>{millions(last.unassigned, 1)}</dd></div>
+    <div><dt>Unassigned, in months of spending</dt><dd>{last.unassigned_months.toFixed(1)}</dd></div>
+    <div><dt>vs {fyLabel(first.fiscal_year)} ({millions(first.total_fund_balance, 1)})</dt><dd>{(last.total_fund_balance / first.total_fund_balance).toFixed(1)}×</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>The General Fund balance grew from {millions(first.total_fund_balance, 1)} to {millions(last.total_fund_balance, 1)} ({(cagr * 100).toFixed(0)}% a year). Cash and investments at the end of {fyLabel(last.fiscal_year)} were {millions(last.cash, 1)}.</li>
+    <li>Revenues exceeded expenditures in {surplus.length} of {gf.length} years. The balance fell in {fell.map((r) => fyLabel(r.fiscal_year)).join(' and ')}, after transfers out to other funds.</li>
+    <li>The unassigned balance covered {monthsText(first.unassigned_months)} of that year's expenditures in {fyLabel(first.fiscal_year)}, {lowMid.toFixed(1)}–{highMid.toFixed(1)} months in FY2016–FY2020, and {monthsText(last.unassigned_months)} in {fyLabel(last.fiscal_year)}. The Government Finance Officers Association recommends keeping at least two months of operating expenditures in reserve.</li>
+  </ul>
+
+  <ExpenseFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+
+  <h2>What the balance is made of</h2>
+  <StackedBars client:load id="balance" ink={palette.ink} series={cats.map(({ name, color }) => ({ name, color }))} rows={balanceRows}
+    title="General Fund balance by category" filename="fund-balance-by-category.csv" totalLabel="Total fund balance"
+    note="Nonspendable: prepaid items and inventory. Restricted: limited by law or outside parties. Committed and assigned: set aside by the council or management. Unassigned: free to spend. The FY2012 audit used different categories, so the split is not comparable with later years." />
+
+  <h2>Reserves in months of spending</h2>
+  <LineSeries client:load id="months" rows={monthsRows} series={[{ name: 'Unassigned fund balance', color: '#2a78d6' }]}
+    title="Unassigned balance as months of General Fund expenditures" filename="fund-balance-months.csv"
+    kind="months"
+    reference={{ value: 2, label: 'Two months (GFOA minimum)', color: palette.ink2 }}
+    note="Unassigned fund balance divided by that year's General Fund expenditures, times 12." />
+
+  <h2>Revenues and spending</h2>
+  <LineSeries client:load id="flows" rows={flowRows} series={[{ name: 'Revenues', color: '#1baf7a' }, { name: 'Expenditures', color: '#eb6834' }]}
+    title="General Fund revenues and expenditures (audited, before transfers)" filename="fund-balance-revenues-expenditures.csv"
+    kind="money"
+    note="Audited actuals. Transfers out to other funds are not expenditures here; they appear in the change in fund balance below." />
+  <ValueBars client:load id="net-change" rows={netRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Net change in fund balance ($)"
+    title="Net change in General Fund balance (after transfers and other financing)" filename="fund-balance-net-change.csv"
+    note="Revenues minus expenditures, plus other financing sources and uses (mostly transfers out)." />
+
+  <h2>All governmental funds</h2>
+  <p class="muted">The General Fund plus the special funds (Motor Fuel Tax, Capital Projects, TIFs and others).</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th class="num">Total fund balance</th><th class="num">Cash</th><th class="num">Revenues</th><th class="num">Expenditures</th><th class="num">Net change</th></tr></thead>
+    <tbody>{gov.slice().reverse().map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td class="num">{dollars(r.total_fund_balance)}</td><td class="num">{dollars(r.cash)}</td><td class="num">{dollars(r.revenues)}</td><td class="num">{dollars(r.expenditures)}</td><td class="num">{dollars(r.net_change)}</td></tr>
+    ))}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>
+    {keyEx.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}
+    <li>Every year's beginning balance equals the previous year's ending balance, and the statement's revenues and expenditures equal the totals of the audit's detailed schedules (FY2012 differs by $1 and $3).</li>
+  </ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/fund_balance.json`)}>fund balance by year</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

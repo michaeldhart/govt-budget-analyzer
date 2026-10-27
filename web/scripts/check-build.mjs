@@ -9,6 +9,8 @@ const checks = {
     'General Administration', '$20,140,228', 'EX-fund-expense-5050'],
   'dist/belvidere_il/expenses/audit/index.html': ['14 of 15', 'id="budget-vs-actual"', 'id="heatmap"', 'id="multiples"', 'EX-audit-transfers-excluded', 'How the audit and the budget line up',
     '179 of 182'],
+  'dist/belvidere_il/fund-balance/index.html': ['$42.6M', '$39.6M', '21.0', 'id="balance"', 'id="months"', 'id="flows"', 'id="net-change"', 'EX-fund-stmt-fy2016-restatement',
+    'GFOA'],
 };
 let bad = false;
 for (const [file, need] of Object.entries(checks)) {
