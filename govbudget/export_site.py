@@ -134,6 +134,113 @@ def variance(budget, actual):
     return None if not budget or actual is None else round((actual - budget) / budget, 6)
 
 
+def expenses_by_dept_object(E, read):
+    """General Fund adopted expenses per fiscal year x department x object category (contra expense netted in, as the city's totals do)."""
+    amap = E.account_map()
+    cat = {c["category_id"]: c for c in E.categories("expense_object")}
+    dept = E.departments("01")
+    sums, ex_of = defaultdict(int), defaultdict(set)
+    for f in read("facts.csv"):
+        if f["fund_code"] != "01" or f["source_type"] != "budget" or f["basis"] != "adopted" or f["flow"] not in ("expense", "contra_expense"):
+            continue
+        # contra accounts carry no expense category in account_map; categories.csv (exp_personnel) says the health insurance
+        # reimbursement is counted there, as the city's personnel subtotals do (exception EX-expense-categories)
+        category = "exp_personnel" if f["flow"] == "contra_expense" else amap[(f["flow"], f["account_key"])]["category_id"]
+        k = (int(f["period_fy"]), f["dept_code"], category)
+        sums[k] += int(f["amount"])
+        ex_of[k].update(ids(f["exception_ids"]))
+    rows = []
+    for (fy, d, c), amount in sums.items():
+        rows.append(dict(fiscal_year=fy, dept_code=d, department=dept[d]["name"], function=dept[d]["function"], object_id=c,
+                         object=cat[c]["name"], amount=amount, exception_ids=sorted(ex_of[(fy, d, c)])))
+    rows.sort(key=lambda r: (r["fiscal_year"], r["dept_code"], r["object_id"]))
+    return dict(
+        title="General Fund expenses by department and object",
+        description="The adopted budget's expense lines summed per department and object category. The health insurance reimbursement "
+                    "(110-4540) is netted against personnel, as in the city's own subtotals. FY2027 includes a $10.9M operating transfer "
+                    "out of reserves for capital projects.",
+        sources=["facts.csv", "accounts map (entities/<id>/account_map.csv, departments.csv, categories.csv)"],
+        columns=dict(fiscal_year="fiscal year", dept_code="department code", department="department name", function="function group",
+                     object_id="object category id (categories.json, scheme expense_object)", object="object category name",
+                     amount="dollars", exception_ids="exceptions touching the lines in this cell"),
+        rows=rows)
+
+
+def expenses_fund_totals(E, read):
+    """Sum of the expense lines against the total the city prints, per adopted budget."""
+    lines, line_ex = defaultdict(int), defaultdict(set)
+    kinds = {e["exception_id"]: e["kind"] for e in E.exceptions()}
+    for r in expenses_by_dept_object(E, read)["rows"]:
+        lines[r["fiscal_year"]] += r["amount"]
+        line_ex[r["fiscal_year"]].update(i for i in r["exception_ids"] if kinds.get(i) in ("omitted_from_total", "stale_column", "source_typo"))
+    fund_ex = [e for e in E.exceptions() if e["scope_id"] == "fund-expense-total"]
+    rows = []
+    for t in read("control_totals.csv"):
+        if t["kind"] != "fund_expenses" or t["basis"] != "adopted":
+            continue
+        fy = int(t["period_fy"])
+        rows.append(dict(fiscal_year=fy, lines_total=lines[fy], printed_total=int(t["amount"]), diff=int(t["amount"]) - lines[fy],
+                         page_label=t["page_label"], exception_ids=sorted({e["exception_id"] for e in fund_ex if in_range(e, fy)}
+                                              | (line_ex[fy] if abs(int(t["amount"]) - lines[fy]) > 3 else set()))))
+    rows.sort(key=lambda r: r["fiscal_year"])
+    return dict(
+        title="General Fund adopted expenses: lines vs the city's printed total",
+        description="A difference of $1-3 is the city's rounding; larger ones are places the city's own arithmetic is off or leaves lines "
+                    "out of its total (see the exceptions).",
+        sources=["control_totals.csv", "facts.csv"],
+        columns=dict(fiscal_year="fiscal year", lines_total="sum of the expense lines, dollars", printed_total="TOTAL GENERAL FUND EXPENSES as printed",
+                     diff="printed - lines", page_label="printed page label of the total", exception_ids="exceptions that explain a difference"),
+        rows=rows)
+
+
+def expenses_audit_vs_budget(E, read):
+    """Audited expenditures against the original budget per department group."""
+    def n(x):
+        return None if x in ("", None) else int(x)
+    rows = []
+    for r in read("audit_expenses_vs_budget.csv"):
+        rows.append(dict(
+            fiscal_year=int(r["fiscal_year"]), department_group=r["department_group"], label=r["department_group"].replace("_", " ").capitalize(),
+            audit_original=n(r["audit_original"]), audit_final=n(r["audit_final"]), audit_actual=n(r["audit_actual"]),
+            budget_adjusted=n(r["budget_adjusted"]) if r["diff"] != "" else None, diff=n(r["diff"]), note=r["note"]))
+    rows.sort(key=lambda r: (r["department_group"], r["fiscal_year"]))
+    return dict(
+        title="Audited expenditures vs the original budget, by department group",
+        description="The audit's original budget equals the adopted budget (after three presentation rules) for 179 of 182 comparable "
+                    "group-years; actual is what the audit reports spent. Transfers out are excluded on both sides.",
+        sources=["audit_expenses_vs_budget.csv"],
+        columns=dict(fiscal_year="fiscal year", department_group="department group", label="display name",
+                     audit_original="audit original budget, dollars", audit_final="audit final budget, dollars",
+                     audit_actual="audited actual expenditures, dollars", budget_adjusted="adopted budget put on the audit's footing; empty when "
+                     "there is no budget document", diff="audit original - adjusted budget (0 = they agree)", note="free text"),
+        rows=rows)
+
+
+def fund_balance(E, read):
+    """General Fund and total governmental funds: balances by category, revenues, expenditures and months of reserves."""
+    cols = ["cash", "total_assets", "total_liabilities", "total_deferred_inflows", "nonspendable", "restricted", "committed", "assigned",
+            "unassigned", "total_fund_balance", "revenues", "expenditures", "excess_revenues_over_expenditures", "other_financing",
+            "net_change", "beginning_balance", "prior_period_adjustment", "ending_balance"]
+    ex = [e for e in E.exceptions() if e["scope_id"] in ("fund-balance-rollforward", "fund-balance-categories", "fund-statements")]
+    rows = []
+    for r in read("fund_balance_summary.csv"):
+        fy = int(r["fiscal_year"])
+        d = dict(fiscal_year=fy, fund=r["fund"], **{c: num(r[c]) for c in cols},
+                 unassigned_months=float(r["unassigned_months"]) if r["unassigned_months"] else None,
+                 exception_ids=sorted(e["exception_id"] for e in ex if in_range(e, fy)))
+        rows.append(d)
+    rows.sort(key=lambda r: (r["fund"], r["fiscal_year"]))
+    return dict(
+        title="Fund balance, General Fund and all governmental funds",
+        description="From the audits' balance sheet and statement of revenues, expenditures and changes in fund balances. Unassigned months = "
+                    "unassigned balance divided by that year's General Fund expenditures, in months.",
+        sources=["fund_balance_summary.csv"],
+        columns=dict(fiscal_year="fiscal year (April 30 year end)", fund="General | Total governmental funds",
+                     **{c: "dollars" for c in cols}, unassigned_months="months of expenditures covered by the unassigned balance (General Fund)",
+                     exception_ids="exceptions about the statements for this year"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -162,6 +269,10 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "taxes_audit_basis": (taxes_audit_basis, ["tax_series_audit_basis.csv"]),
     "taxes_budget_vs_actual": (taxes_budget_vs_actual, ["tax_series_audit_basis.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv"]),
+    "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
+    "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),
+    "expenses_audit_vs_budget": (expenses_audit_vs_budget, ["audit_expenses_vs_budget.csv"]),
+    "fund_balance": (fund_balance, ["fund_balance_summary.csv"]),
 }
 
 

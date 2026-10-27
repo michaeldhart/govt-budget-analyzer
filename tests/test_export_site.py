@@ -14,6 +14,14 @@ DATASET_COLUMNS = {
     "taxes_audit_basis": ["fiscal_year", "group", "budget_audit_original", "budget_audit_final", "actual_audited",
                           "budget_docs_adopted", "actual_budget_doc", "note", "exception_ids"],
     "taxes_budget_vs_actual": ["fiscal_year", "group", "is_total", "budget", "actual", "variance_pct", "exception_ids"],
+    "expenses_by_dept_object": ["fiscal_year", "dept_code", "department", "function", "object_id", "object", "amount", "exception_ids"],
+    "expenses_fund_totals": ["fiscal_year", "lines_total", "printed_total", "diff", "page_label", "exception_ids"],
+    "expenses_audit_vs_budget": ["fiscal_year", "department_group", "label", "audit_original", "audit_final", "audit_actual", "budget_adjusted",
+                                 "diff", "note"],
+    "fund_balance": ["fiscal_year", "fund", "cash", "total_assets", "total_liabilities", "total_deferred_inflows", "nonspendable", "restricted",
+                     "committed", "assigned", "unassigned", "total_fund_balance", "revenues", "expenditures",
+                     "excess_revenues_over_expenditures", "other_financing", "net_change", "beginning_balance", "prior_period_adjustment",
+                     "ending_balance", "unassigned_months", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "note", "exception_ids"],
 }
@@ -80,8 +88,9 @@ def test_exception_ids_resolve_and_are_attached(site):
     used = set()
     for name in DATASET_COLUMNS:
         for r in site(ENTITY, name + ".json")["rows"]:
-            assert isinstance(r["exception_ids"], list)
-            used.update(r["exception_ids"])
+            if "exception_ids" in r:
+                assert isinstance(r["exception_ids"], list)
+                used.update(r["exception_ids"])
     assert used and used <= known
     # group-scoped exceptions reach the audit-basis rows (telecommunications: 'EX-telecom-group')
     assert any("EX-telecom-group" in r["exception_ids"] for r in site(ENTITY, "taxes_audit_basis.json")["rows"])
@@ -127,3 +136,32 @@ def test_budget_vs_actual_totals_and_variance(site, table):
     for r in rows:
         if r["variance_pct"] is not None:
             assert abs(r["variance_pct"] - (r["actual"] - r["budget"]) / r["budget"]) < 1e-6
+
+
+def test_expense_datasets(site):
+    by = site(ENTITY, "expenses_by_dept_object.json")["rows"]
+    totals = {}
+    for r in by:
+        totals[r["fiscal_year"]] = totals.get(r["fiscal_year"], 0) + r["amount"]
+    assert sorted(totals) == list(range(2015, 2028)) and totals[2027] == 36163223  # FY2027 adopted fund expenses, lines (printed 36,163,222)
+    cats = {c["id"] for c in site(ENTITY, "categories.json")["schemes"]["expense_object"]}
+    assert {r["object_id"] for r in by} <= cats
+    transfers = sum(r["amount"] for r in by if r["fiscal_year"] == 2027 and r["object_id"] == "exp_transfers")
+    assert transfers > 10_000_000  # the $10.9M transfer out of reserves for capital projects
+    ft = {r["fiscal_year"]: r for r in site(ENTITY, "expenses_fund_totals.json")["rows"]}
+    assert all(ft[y]["lines_total"] == totals[y] for y in totals)
+    big = {y for y, r in ft.items() if abs(r["diff"]) > 3}
+    assert big == {2021, 2024}  # the two years the city's printed total is off (EX-fund-expense-5050 and the stale FY2024 subtotal)
+    assert all("EX-fund-expense-5050" in ft[y]["exception_ids"] for y in big)
+    av = site(ENTITY, "expenses_audit_vs_budget.json")["rows"]
+    comparable = [r for r in av if r["diff"] is not None]
+    assert len(comparable) == 182 and sum(1 for r in comparable if r["diff"] == 0) == 179
+
+
+def test_fund_balance_dataset(site):
+    rows = site(ENTITY, "fund_balance.json")["rows"]
+    gf = [r for r in rows if r["fund"] == "General"]
+    assert [r["fiscal_year"] for r in gf] == list(range(2012, 2027))
+    assert gf[0]["total_fund_balance"] == 7770209 and gf[-1]["ending_balance"] == gf[-1]["total_fund_balance"]
+    assert all(r["beginning_balance"] + r["net_change"] == r["ending_balance"] for r in gf)  # beginning is already restated (FY2016: -207,812)
+    assert gf[-1]["unassigned_months"] > 20  # 21 months of expenditures (CLAUDE.md)
