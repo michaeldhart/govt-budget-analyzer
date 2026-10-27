@@ -23,6 +23,7 @@ const { budget_range, audit_range } = meta.documents;
   <p class="muted">{meta.fy_label_rule}. Documents: budgets FY{budget_range[0]}–FY{budget_range[1]}, audits FY{audit_range[0]}–FY{audit_range[1]}.</p>
   <h2>Pages</h2>
   <ul>
+    {taxYears.length > 0 && <li><a href={href(`/${entity}/taxes/`)}>General Fund taxes over time</a>: composition, offsets, budget vs audited actual</li>}
     {taxYears.length > 0 && <li>General Fund taxes by year, as adopted: {taxYears.map((y: number, i: number) => <><a href={href(`/${entity}/taxes/${y}/`)}>FY{y}</a>{i < taxYears.length - 1 ? ', ' : ''}</>)}</li>}
   </ul>
   <h2>Datasets available</h2>

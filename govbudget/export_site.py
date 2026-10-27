@@ -101,6 +101,39 @@ def taxes_audit_basis(E, read):
         rows=rows)
 
 
+def taxes_budget_vs_actual(E, read):
+    """Budget vs audited actual per group, plus a total over all groups: what the budget-vs-actual charts draw."""
+    budget_of = lambda r: r["budget_audit_original"] if r["budget_audit_original"] is not None else r["budget_docs_adopted"]
+    src = taxes_audit_basis(E, read)["rows"]
+    rows, by_year = [], defaultdict(list)
+    for r in src:
+        b, a = budget_of(r), r["actual_audited"]
+        by_year[r["fiscal_year"]].append((b, a, r["exception_ids"]))
+        rows.append(dict(fiscal_year=r["fiscal_year"], group=r["group"], is_total=False, budget=b, actual=a,
+                         variance_pct=variance(b, a), exception_ids=r["exception_ids"]))
+    for fy, parts in by_year.items():  # a total exists when at least one group has the figure; missing groups count as 0
+        b = None if all(p[0] is None for p in parts) else sum(p[0] or 0 for p in parts)
+        a = None if all(p[1] is None for p in parts) else sum(p[1] or 0 for p in parts)
+        rows.append(dict(fiscal_year=fy, group="All taxes", is_total=True, budget=b, actual=a, variance_pct=variance(b, a),
+                         exception_ids=sorted({i for p in parts for i in p[2]})))
+    rows.sort(key=lambda r: (r["is_total"], r["group"], r["fiscal_year"]))
+    return dict(
+        title="Taxes: budget vs audited actual",
+        description="Per audit group and in total (telecommunications included): the budget (the audit's original budget, else the "
+                    "budget document's adopted figure) beside the audited actual and the percent difference.",
+        sources=["tax_series_audit_basis.csv"],
+        columns=dict(fiscal_year="fiscal year", group="report group, or 'All taxes' for the total of every group",
+                     is_total="true on the 'All taxes' rows", budget="dollars; empty when the source has none",
+                     actual="audited actual, dollars; empty before FY2012 and for FY2027 (not yet audited)",
+                     variance_pct="(actual - budget) / budget, as a fraction; empty when either is missing or the budget is 0",
+                     exception_ids="exceptions in force for any group in this row"),
+        rows=rows)
+
+
+def variance(budget, actual):
+    return None if not budget or actual is None else round((actual - budget) / budget, 6)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -127,6 +160,7 @@ def tax_lines(E, read):
 DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "taxes_by_category": (taxes_by_category, ["tax_series_by_category.csv", "tax_series_long.csv"]),
     "taxes_audit_basis": (taxes_audit_basis, ["tax_series_audit_basis.csv"]),
+    "taxes_budget_vs_actual": (taxes_budget_vs_actual, ["tax_series_audit_basis.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv"]),
 }
 

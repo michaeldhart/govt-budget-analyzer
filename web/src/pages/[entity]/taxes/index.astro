@@ -1,0 +1,95 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedComposition from '../../../components/StackedComposition.svelte';
+import SmallMultiples from '../../../components/SmallMultiples.svelte';
+import BudgetVsActual from '../../../components/BudgetVsActual.svelte';
+import VarianceHeatmap from '../../../components/VarianceHeatmap.svelte';
+import Offsets from '../../../components/Offsets.svelte';
+import { readData, href } from '../../../lib/data';
+import { dollars, percent, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities
+    .filter((e: any) => ['taxes_by_category', 'taxes_budget_vs_actual'].every((d) => e.datasets.includes(d)))
+    .map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const cats = schemes.budget_category.filter((c: any) => c.color);
+const groups = schemes.report_group.filter((c: any) => c.color);
+
+const byCat = readData(entity, 'taxes_by_category.json').rows.filter((r: any) => r.measure === 'budget_adopted');
+const years: number[] = [...new Set<number>(byCat.map((r: any) => r.fiscal_year))].sort();
+const first = years[0], last = years.at(-1)!;
+const total = (y: number, f: 'gross_tax' | 'offsets' | 'net') => byCat.filter((r: any) => r.fiscal_year === y).reduce((s: number, r: any) => s + r[f], 0);
+const catAt = (c: string, y: number) => byCat.find((r: any) => r.fiscal_year === y && r.category === c)?.gross_tax ?? 0;
+
+const bva = readData(entity, 'taxes_budget_vs_actual.json').rows;
+const totalRows = bva.filter((r: any) => r.is_total);
+const groupRows = bva.filter((r: any) => !r.is_total);
+const audited = totalRows.filter((r: any) => r.variance_pct != null);
+const above = audited.filter((r: any) => r.variance_pct > 0);
+const sortedVar = audited.map((r: any) => r.variance_pct).sort((a: number, b: number) => a - b);
+const median = sortedVar.length % 2 ? sortedVar[(sortedVar.length - 1) / 2] : (sortedVar[sortedVar.length / 2 - 1] + sortedVar[sortedVar.length / 2]) / 2;
+const biggest = audited.reduce((a: any, b: any) => (Math.abs(b.variance_pct) > Math.abs(a.variance_pct) ? b : a));
+const latest = audited.at(-1);
+const pct = (v: number, d = 0) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(d)}%`;
+
+const g0 = total(first, 'gross_tax'), g1 = total(last, 'gross_tax');
+const cagr = (g1 / g0) ** (1 / (last - first)) - 1;
+const peakYear = years.reduce((a, b) => (total(b, 'gross_tax') > total(a, 'gross_tax') ? b : a));
+const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) - catAt(c.name, first) })).sort((a: any, b: any) => b.delta - a.delta).slice(0, 3);
+---
+<Base title={`General Fund taxes over time – ${meta.short_name}`} description={`${meta.name}: adopted General Fund tax revenue by category, and budget vs audited actual.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Taxes over time</p>
+  <h1>General Fund taxes over time</h1>
+  <p class="muted">Adopted budgets {fyLabel(first)}–{fyLabel(last)} and audited actuals FY{audited[0].fiscal_year}–FY{latest.fiscal_year}. Gross taxes; fees are excluded; dollars are not adjusted for inflation.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} adopted gross taxes</dt><dd>{millions(g1, 2)}</dd></div>
+    <div><dt>vs {fyLabel(first)} ({millions(g0)})</dt><dd>{pct(g1 / g0 - 1)}</dd></div>
+    <div><dt>Peak adopted</dt><dd>{millions(total(peakYear, 'gross_tax'), 2)} <span class="muted small">{fyLabel(peakYear)}</span></dd></div>
+    <div><dt>{fyLabel(last)} net of offsets</dt><dd>{millions(total(last, 'net'), 2)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>Adopted gross taxes grew from {millions(g0)} in {fyLabel(first)} to {millions(g1, 2)} in {fyLabel(last)}, {(cagr * 100).toFixed(1)}% a year, before inflation.</li>
+    <li>The largest increases since {fyLabel(first)}: {growth.map((g: any) => `${g.name} (+${millions(g.delta, 2)})`).join(', ')}.</li>
+    <li>Audited actual taxes were above the budget in {above.length} of {audited.length} audited years (median {pct(median)}); the largest gap was {fyLabel(biggest.fiscal_year)} at {pct(biggest.variance_pct)}.</li>
+    <li>The latest audit, {fyLabel(latest.fiscal_year)}: {millions(latest.actual, 2)} collected against a {millions(latest.budget, 2)} budget ({pct(latest.variance_pct, 1)}).</li>
+  </ul>
+
+  <h2>Composition by year</h2>
+  <p class="muted">Each column is that year's adopted budget. Click “Table” on any chart to see its numbers, or download them. <a href={href(`/${entity}/taxes/${last}/`)}>See every line for {fyLabel(last)}</a>, or pick another year there.</p>
+  <StackedComposition client:load rows={byCat.filter((r: any) => r.category !== 'ALL TAXES')} categories={cats} ink={palette.ink}
+    title="Adopted gross taxes by category" />
+
+  <h2>Offsets</h2>
+  <p class="muted">Sales and property tax rebated to developers, and the replacement tax passed to the pension funds, are subtracted from gross taxes to get net.</p>
+  <Offsets client:load rows={byCat} categories={cats} title="Adopted offsets by category" />
+
+  <h2>Budget vs audited actual</h2>
+  <BudgetVsActual client:load rows={totalRows} p={palette} />
+
+  <h2>By group</h2>
+  <p class="muted">The audit's own groups, so budget and actual are strictly comparable. The telecommunications group is the city's Municipal Infrastructure Maintenance line (see the exceptions on the year pages).</p>
+  <SmallMultiples client:load rows={groupRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+    title="Budget (line) and audited actual (dots), each on its own scale"/>
+  <VarianceHeatmap client:load rows={groupRows} groups={groups.map((g: any) => g.name)} p={palette}
+    title="Audited actual vs budget, percent by group and year" note="Blue: above budget. Red: below. Color saturates at 60%. A dash means the source has no budget line or no actual for that year." />
+
+  <p class="muted">Data: <a href={href(`/data/${entity}/taxes_by_category.json`)}>taxes by category</a> · <a href={href(`/data/${entity}/taxes_budget_vs_actual.json`)}>budget vs actual</a> · <a href={href(`/data/${entity}/downloads/tax_series_audit_basis.csv`)}>audit-basis CSV</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small { font-size: 0.8125rem; font-weight: 400; }
+</style>

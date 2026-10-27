@@ -13,6 +13,7 @@ DATASET_COLUMNS = {
     "taxes_by_category": ["fiscal_year", "measure", "basis", "category", "gross_tax", "offsets", "net", "exception_ids"],
     "taxes_audit_basis": ["fiscal_year", "group", "budget_audit_original", "budget_audit_final", "actual_audited",
                           "budget_docs_adopted", "actual_budget_doc", "note", "exception_ids"],
+    "taxes_budget_vs_actual": ["fiscal_year", "group", "is_total", "budget", "actual", "variance_pct", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "note", "exception_ids"],
 }
@@ -106,3 +107,23 @@ def test_export_is_deterministic(tmp_path):
             pa = os.path.join(root, f)
             with open(pa, "rb") as x, open(os.path.join(b, os.path.relpath(pa, a)), "rb") as y:
                 assert x.read() == y.read(), pa
+
+
+def test_budget_vs_actual_totals_and_variance(site, table):
+    rows = site(ENTITY, "taxes_budget_vs_actual.json")["rows"]
+    tot = {r["fiscal_year"]: r for r in rows if r["is_total"]}
+    parts = {}
+    for r in rows:
+        if not r["is_total"]:
+            parts.setdefault(r["fiscal_year"], []).append(r)
+    for fy, t in tot.items():  # the total row is the sum of its groups
+        assert t["budget"] == (None if all(p["budget"] is None for p in parts[fy]) else sum(p["budget"] or 0 for p in parts[fy]))
+        assert t["actual"] == (None if all(p["actual"] is None for p in parts[fy]) else sum(p["actual"] or 0 for p in parts[fy]))
+    assert sorted(tot) == list(range(2012, 2028))
+    assert tot[2027]["actual"] is None and tot[2027]["variance_pct"] is None  # no FY2027 audit yet
+    # audited taxes exceeded the original budget in 14 of the 15 audited years (CLAUDE.md)
+    audited = [t for fy, t in tot.items() if t["variance_pct"] is not None]
+    assert len(audited) == 15 and sum(1 for t in audited if t["variance_pct"] > 0) == 14
+    for r in rows:
+        if r["variance_pct"] is not None:
+            assert abs(r["variance_pct"] - (r["actual"] - r["budget"]) / r["budget"]) < 1e-6
