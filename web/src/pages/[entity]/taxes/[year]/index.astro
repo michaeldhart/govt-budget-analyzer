@@ -41,8 +41,8 @@ const used = new Set<string>(lines.flatMap((l: any) => l.exception_ids));
 const exceptions = readData(entity, 'exceptions.json').exceptions.filter((e: any) => used.has(e.exception_id));
 const page = lines[0]?.source_doc ?? '';
 ---
-<Base title={`${fyLabel(year)} General Fund taxes – ${meta.short_name}`} description={`${meta.name}: ${fyLabel(year)} adopted General Fund tax revenue by category.`}>
-  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Taxes</p>
+<Base entity={entity} section="taxes" title={`${fyLabel(year)} General Fund taxes – ${meta.short_name}`} description={`${meta.name}: ${fyLabel(year)} adopted General Fund tax revenue by category.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/taxes/`)}>Taxes</a> › {fyLabel(year)}</p>
   <h1>{fyLabel(year)} General Fund taxes</h1>
   <p class="muted">As adopted in the city's budget ordinance. Fiscal year {fyLabel(year)} runs May {year - 1} – April {year}.</p>
 

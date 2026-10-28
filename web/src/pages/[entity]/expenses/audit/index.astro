@@ -3,7 +3,7 @@ import Base from '../../../../layouts/Base.astro';
 import BudgetVsActual from '../../../../components/BudgetVsActual.svelte';
 import SmallMultiples from '../../../../components/SmallMultiples.svelte';
 import VarianceHeatmap from '../../../../components/VarianceHeatmap.svelte';
-import ExpenseFilters from '../../../../components/ExpenseFilters.svelte';
+import ChartFilters from '../../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../../lib/data';
 import { dollars, fyLabel } from '../../../../lib/format';
 import { millions } from '../../../../lib/chart';
@@ -43,7 +43,7 @@ const agree = comparable.filter((r) => r.diff === 0).length;
 const misses = comparable.filter((r) => r.diff !== 0);
 const rules = ['EX-audit-transfers-excluded', 'EX-audit-contra-netted', 'EX-audit-sales-tax-incentive', 'EX-audit-751-economic-dev'].filter((id) => exceptions[id]);
 ---
-<Base title={`Audited spending vs budget – ${meta.short_name}`} description={`${meta.name}: audited General Fund expenditures against the original budget, by department group.`}>
+<Base entity={entity} section="audit" title={`Audited spending vs budget – ${meta.short_name}`} description={`${meta.name}: audited General Fund expenditures against the original budget, by department group.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/expenses/`)}>Expenses</a> › Audit vs budget</p>
   <h1>Audited spending vs the budget</h1>
   <p class="muted">What the city's audits report was actually spent from the General Fund, against the original budget the audit prints, {fyLabel(years[0])}–{fyLabel(years.at(-1))}. Transfers out are excluded on both sides. Negative means less was spent than budgeted.</p>
@@ -62,7 +62,7 @@ const rules = ['EX-audit-transfers-excluded', 'EX-audit-contra-netted', 'EX-audi
     <li>This is the spending side of the pattern on the <a href={href(`/${entity}/taxes/`)}>taxes page</a>, where audited revenue ran above budget in 14 of 15 years.</li>
   </ul>
 
-  <ExpenseFilters client:load years={years} showDept={false} />
+  <ChartFilters client:load years={years} showDept={false} />
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
 
   <h2>Total</h2>

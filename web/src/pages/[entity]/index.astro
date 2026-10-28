@@ -18,15 +18,15 @@ const taxYears = meta.datasets.includes('tax_lines')
   : [];
 const { budget_range, audit_range } = meta.documents;
 ---
-<Base title={`${meta.short_name} budget data`} description={`Budget and audit data for ${meta.name}.`}>
+<Base entity={entity} section="overview" title={`${meta.short_name} budget data`} description={`Budget and audit data for ${meta.name}.`}>
   <h1>{meta.name}</h1>
-  <p class="muted">{meta.fy_label_rule}. Documents: budgets FY{budget_range[0]}–FY{budget_range[1]}, audits FY{audit_range[0]}–FY{audit_range[1]}.</p>
+  <p class="muted">{meta.fy_label_rule.charAt(0).toUpperCase() + meta.fy_label_rule.slice(1)}. Documents: budgets FY{budget_range[0]}–FY{budget_range[1]}, audits FY{audit_range[0]}–FY{audit_range[1]}.</p>
   <h2>Pages</h2>
   <ul>
     {taxYears.length > 0 && <li><a href={href(`/${entity}/taxes/`)}>General Fund taxes over time</a>: composition, offsets, budget vs audited actual</li>}
     {meta.datasets.includes('expenses_by_dept_object') && <li><a href={href(`/${entity}/expenses/`)}>General Fund expenses over time</a>: by department group, object category and department</li>}
-    {meta.datasets.includes('fund_balance') && <li><a href={href(`/${entity}/fund-balance/`)}>General Fund balance and reserves</a>: balance by category, months of spending in reserve, revenues and spending</li>}
     {meta.datasets.includes('expenses_audit_vs_budget') && <li><a href={href(`/${entity}/expenses/audit/`)}>Audited spending vs the budget</a>: total and by department group</li>}
+    {meta.datasets.includes('fund_balance') && <li><a href={href(`/${entity}/fund-balance/`)}>General Fund balance and reserves</a>: balance by category, months of spending in reserve, revenues and spending</li>}
     {taxYears.length > 0 && <li>General Fund taxes by year, as adopted: {taxYears.map((y: number, i: number) => <><a href={href(`/${entity}/taxes/${y}/`)}>FY{y}</a>{i < taxYears.length - 1 ? ', ' : ''}</>)}</li>}
   </ul>
   <h2>Datasets available</h2>

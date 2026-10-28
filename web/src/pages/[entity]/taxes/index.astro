@@ -45,7 +45,7 @@ const cagr = (g1 / g0) ** (1 / (last - first)) - 1;
 const peakYear = years.reduce((a, b) => (total(b, 'gross_tax') > total(a, 'gross_tax') ? b : a));
 const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) - catAt(c.name, first) })).sort((a: any, b: any) => b.delta - a.delta).slice(0, 3);
 ---
-<Base title={`General Fund taxes over time – ${meta.short_name}`} description={`${meta.name}: adopted General Fund tax revenue by category, and budget vs audited actual.`}>
+<Base entity={entity} section="taxes" title={`General Fund taxes over time – ${meta.short_name}`} description={`${meta.name}: adopted General Fund tax revenue by category, and budget vs audited actual.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Taxes over time</p>
   <h1>General Fund taxes over time</h1>
   <p class="muted">Adopted budgets {fyLabel(first)}–{fyLabel(last)} and audited actuals FY{audited[0].fiscal_year}–FY{latest.fiscal_year}. Gross taxes; fees are excluded; dollars are not adjusted for inflation.</p>

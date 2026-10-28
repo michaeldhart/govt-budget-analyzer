@@ -1,6 +1,16 @@
 ---
 import { readData, href } from '../lib/data';
-const { title, description = '' } = Astro.props;
+// `entity` and `section` switch on the government's navigation; section is the id of the page being shown
+const { title, description = '', entity = '', section = '' } = Astro.props;
+const meta = entity ? readData(entity, 'meta.json') : null;
+const has = (d: string) => !!meta?.datasets.includes(d);
+const nav = entity ? [
+  { id: 'overview', label: 'Overview', path: `/${entity}/`, show: true },
+  { id: 'taxes', label: 'Taxes', path: `/${entity}/taxes/`, show: has('taxes_by_category') },
+  { id: 'expenses', label: 'Expenses', path: `/${entity}/expenses/`, show: has('expenses_by_dept_object') },
+  { id: 'audit', label: 'Audit vs budget', path: `/${entity}/expenses/audit/`, show: has('expenses_audit_vs_budget') },
+  { id: 'fund-balance', label: 'Fund balance', path: `/${entity}/fund-balance/`, show: has('fund_balance') },
+].filter((n) => n.show) : [];
 const palette = readData<Record<string, string>>('palette.json');
 const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}: ${v};`).join(' ');
 ---
@@ -15,6 +25,12 @@ const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}:
   <body>
     <header>
       <a class="brand" href={href('/')}>Local government budgets</a>
+      {meta && <span class="entity"><a href={href(`/${entity}/`)}>{meta.short_name}</a></span>}
+      {nav.length > 0 && (
+        <nav aria-label={`${meta.short_name} pages`}>
+          {nav.map((n) => <a href={href(n.path)} aria-current={n.id === section ? 'page' : undefined}>{n.label}</a>)}
+        </nav>
+      )}
     </header>
     <main><slot /></main>
     <footer>
@@ -24,10 +40,16 @@ const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}:
 </html>
 <style is:global>
   :root { color-scheme: light; }
-  body { margin: 0; background: var(--surface); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+  body { overflow-wrap: break-word; margin: 0; background: var(--surface); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
   header, main, footer { max-width: 60rem; margin: 0 auto; padding: 0 16px; }
   header { padding-top: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
   .brand { font-weight: 700; color: var(--ink); text-decoration: none; }
+  .entity a { color: var(--ink2); text-decoration: none; }
+  header nav { display: flex; flex-wrap: wrap; gap: 4px 14px; flex-basis: 100%; font-size: 0.9375rem; padding-top: 6px; }
+  header nav a { color: var(--ink2); text-decoration: none; padding-bottom: 2px; border-bottom: 2px solid transparent; }
+  header nav a:hover { color: var(--ink); }
+  header nav a[aria-current='page'] { color: var(--ink); font-weight: 600; border-bottom-color: var(--up); }
   main { padding-top: 24px; padding-bottom: 32px; }
   footer { color: var(--ink2); font-size: 0.875rem; padding-bottom: 24px; }
   a { color: var(--up); }

@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import StackedBars from '../../../components/StackedBars.svelte';
 import ObjectByDept from '../../../components/ObjectByDept.svelte';
-import ExpenseFilters from '../../../components/ExpenseFilters.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
@@ -46,7 +46,7 @@ const exceptions: any[] = readData(entity, 'exceptions.json').exceptions;
 const exById = Object.fromEntries(exceptions.map((e) => [e.exception_id, e]));
 const rounding = totals.filter((t) => t.diff !== 0 && Math.abs(t.diff) <= 3).length;
 ---
-<Base title={`General Fund expenses – ${meta.short_name}`} description={`${meta.name}: adopted General Fund expenses by department, function and object category.`}>
+<Base entity={entity} section="expenses" title={`General Fund expenses – ${meta.short_name}`} description={`${meta.name}: adopted General Fund expenses by department, function and object category.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Expenses</p>
   <h1>General Fund expenses over time</h1>
   <p class="muted">Adopted budgets {fyLabel(first)}–{fyLabel(last)}: every expense line in the city's budget ordinance, grouped by department and by object (what the money is spent on). Not adjusted for inflation.</p>
@@ -65,7 +65,7 @@ const rounding = totals.filter((t) => t.diff !== 0 && Math.abs(t.diff) <= 3).len
     <li>Personnel and benefits are {((personnel(last) / g1) * 100).toFixed(0)}% of {fyLabel(last)} expenses ({millions(personnel(last), 1)}); {((personnel(last) / opLast) * 100).toFixed(0)}% of expenses excluding transfers.</li>
   </ul>
 
-  <ExpenseFilters client:load years={years} departments={departments} />
+  <ChartFilters client:load years={years} departments={departments} />
   <p class="muted small-note">Filters are saved in the page address, so a link shows the same view. The year range applies to every chart; the department applies to the object chart.</p>
 
   <h2>By department group</h2>

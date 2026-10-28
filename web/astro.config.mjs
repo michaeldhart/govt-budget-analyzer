@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 import svelte from '@astrojs/svelte';
 
-// Hosted on GitHub Pages under /govt-budget-analyzer until the custom domain exists. When it does, build with
-// SITE_URL=https://example.org BASE_PATH=/ (set in .github/workflows/pages.yml); old links will break, which is accepted.
-const site = process.env.SITE_URL || 'https://michaeldhart.github.io';
+// Served by GitHub Pages at https://michaeldhart.com/govt-budget-analyzer/ (the account's custom domain). For another host or
+// path, set SITE_URL and BASE_PATH in .github/workflows/pages.yml; old links will break, which is accepted.
+const site = process.env.SITE_URL || 'https://michaeldhart.com';
 const base = process.env.BASE_PATH || '/govt-budget-analyzer';
 
 export default defineConfig({

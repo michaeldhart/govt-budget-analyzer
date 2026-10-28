@@ -3,7 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import StackedBars from '../../../components/StackedBars.svelte';
 import LineSeries from '../../../components/LineSeries.svelte';
 import ValueBars from '../../../components/ValueBars.svelte';
-import ExpenseFilters from '../../../components/ExpenseFilters.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
@@ -42,7 +42,7 @@ const mid = gf.filter((r) => r.fiscal_year >= 2016 && r.fiscal_year <= 2020).map
 const lowMid = Math.min(...mid), highMid = Math.max(...mid);
 const monthsText = (v: number) => `${v.toFixed(1)} months`;
 ---
-<Base title={`Fund balance and reserves – ${meta.short_name}`} description={`${meta.name}: General Fund balance, reserves in months of spending, revenues and expenditures from the audits.`}>
+<Base entity={entity} section="fund-balance" title={`Fund balance and reserves – ${meta.short_name}`} description={`${meta.name}: General Fund balance, reserves in months of spending, revenues and expenditures from the audits.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Fund balance</p>
   <h1>General Fund balance and reserves</h1>
   <p class="muted">From the city's audited balance sheets and statements of revenues, expenditures and changes in fund balances, {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)} (year ends April 30). The fund balance is what the General Fund holds at year end; the unassigned part is the money the city can spend on anything.</p>
@@ -61,7 +61,7 @@ const monthsText = (v: number) => `${v.toFixed(1)} months`;
     <li>The unassigned balance covered {monthsText(first.unassigned_months)} of that year's expenditures in {fyLabel(first.fiscal_year)}, {lowMid.toFixed(1)}–{highMid.toFixed(1)} months in FY2016–FY2020, and {monthsText(last.unassigned_months)} in {fyLabel(last.fiscal_year)}. The Government Finance Officers Association recommends keeping at least two months of operating expenditures in reserve.</li>
   </ul>
 
-  <ExpenseFilters client:load years={years} showDept={false} />
+  <ChartFilters client:load years={years} showDept={false} />
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
 
   <h2>What the balance is made of</h2>
