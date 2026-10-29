@@ -2,14 +2,16 @@
   import * as Plot from '@observablehq/plot';
   import { url } from '../lib/urlState.svelte';
   import { inRange } from '../lib/urlParams';
+  import type { Exception } from './ExceptionList.svelte';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, emptyNote } from '../lib/chart';
 
-  type Row = { fiscal_year: number; group: string; variance_pct: number | null; budget: number | null; actual: number | null };
-  let { rows: allRows, groups, p, title, note = '' }: { rows: Row[]; groups: string[]; p: Record<string, string>; title: string; note?: string } = $props();
+  type Row = { fiscal_year: number; group: string; variance_pct: number | null; budget: number | null; actual: number | null; exception_ids?: string[] };
+  let { rows: allRows, groups, p, title, note = '', exceptions = {} }: { rows: Row[]; groups: string[]; p: Record<string, string>; title: string; note?: string; exceptions?: Record<string, Exception> } = $props();
 
   const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const exceptionIds = $derived([...new Set(rows.filter((r) => groups.includes(r.group)).flatMap((r) => r.exception_ids ?? []))]);
   const years = $derived([...new Set(rows.filter((r) => r.actual != null).map((r) => r.fiscal_year))].sort());
   const cells = $derived(groups.flatMap((g) => years.map((y) => {
     const r = rows.find((x) => x.group === g && x.fiscal_year === y);
@@ -43,7 +45,7 @@
   }
 </script>
 
-<ChartFrame id="heatmap" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-variance-heatmap.csv">
+<ChartFrame id="heatmap" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-variance-heatmap.csv" {exceptionIds} {exceptions}>
   <div class="scroll"><PlotHost {build} label={`${title}: grid of groups by fiscal year; the Table view has every number`} /></div>
 </ChartFrame>
 

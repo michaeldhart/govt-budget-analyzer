@@ -367,9 +367,20 @@ def export_entity(E, out):
         cats[c["scheme"]].append(dict(id=c["category_id"], name=c["name"], flow=c["flow"], color=c["color"] or None,
                                       sort=int(c["sort"]), note=c["note"]))
     dump(os.path.join(base, "categories.json"), dict(entity_id=E.id, schemes=cats))
+    # where each exception shows up in the source: the documents and PDF pages of the facts it is attached to
+    seen = defaultdict(set)
+    if os.path.exists(E.data_path("facts.csv")):
+        urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+        for f in read("facts.csv"):
+            for i in ids(f["exception_ids"]):
+                seen[i].add((f["doc_id"], int(f["pdf_page"] or 0)))
+
+    def sources(i):
+        return [dict(doc_id=d, fiscal_year=int(d[2:6]), pdf_page=p, source_url=urls[d]) for d, p in sorted(seen[i], key=lambda t: (int(t[0][2:6]), t[0], t[1])) if p]
+
     dump(os.path.join(base, "exceptions.json"), dict(
         entity_id=E.id, kinds=list(schema.EXCEPTION_KINDS), exceptions=[
-            dict(e, fy_from=num(e["fy_from"]), fy_to=num(e["fy_to"]), bases=[b for b in e["bases"].split("|") if b])
+            dict(e, fy_from=num(e["fy_from"]), fy_to=num(e["fy_to"]), bases=[b for b in e["bases"].split("|") if b], sources=sources(e["exception_id"]))
             for e in E.exceptions()]))
 
     dl = os.path.join(base, "downloads")

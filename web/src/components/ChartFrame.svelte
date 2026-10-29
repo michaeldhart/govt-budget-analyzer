@@ -3,11 +3,15 @@
   import { onMount, type Snippet } from 'svelte';
   import { toCsv, type Column } from '../lib/csv';
   import { url, initUrlState, setTable } from '../lib/urlState.svelte';
+  import ExceptionList, { type Exception } from './ExceptionList.svelte';
 
   // `id` names the chart in the URL (?table=<id> opens it as a table) and is the #anchor that links to it.
-  let { id, title, note = '', rows, columns, filename, children }: {
+  // `exceptionIds` are the registry entries behind the numbers drawn (for the years on screen); `exceptions` is the lookup the page passes in
+  let { id, title, note = '', rows, columns, filename, children, exceptionIds = [], exceptions = {} }: {
     id: string; title: string; note?: string; rows: Record<string, unknown>[]; columns: Column[]; filename: string; children: Snippet;
+    exceptionIds?: string[]; exceptions?: Record<string, Exception>;
   } = $props();
+  const items = $derived(exceptionIds.map((i) => exceptions[i]).filter(Boolean));
 
   onMount(initUrlState);
   const view = $derived(url.table.includes(id) ? 'table' : 'chart');
@@ -41,6 +45,12 @@
     </div>
   {/if}
   {#if note}<p class="note">{note}</p>{/if}
+  {#if items.length}
+    <details class="exceptions">
+      <summary>{items.length} note{items.length === 1 ? '' : 's'} on these numbers</summary>
+      <ExceptionList {items} compact />
+    </details>
+  {/if}
 </figure>
 
 <style>
@@ -51,4 +61,7 @@
   button[aria-pressed='true'] { background: var(--panel); color: var(--ink); border-color: var(--muted); }
   .scroll { overflow-x: auto; }
   .note { color: var(--ink2); font-size: 0.8125rem; margin: 6px 0 0; }
+  .exceptions { margin-top: 8px; font-size: 0.8125rem; }
+  .exceptions summary { cursor: pointer; color: var(--ink2); }
+  .exceptions :global(.exlist) { margin-top: 10px; }
 </style>

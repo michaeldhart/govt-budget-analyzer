@@ -1,6 +1,8 @@
 ---
 import Base from '../../../../layouts/Base.astro';
 import CategoryBars from '../../../../components/CategoryBars.svelte';
+import ExceptionList from '../../../../components/ExceptionList.svelte';
+import { exceptionsUsedBy } from '../../../../lib/exceptions';
 import { readData, href } from '../../../../lib/data';
 import { dollars, percent, fyLabel } from '../../../../lib/format';
 
@@ -22,7 +24,7 @@ const colors: Record<string, string> = Object.fromEntries(
   readData(entity, 'categories.json').schemes.budget_category.map((c: any) => [c.name, c.color]));
 const cats = readData(entity, 'taxes_by_category.json').rows
   .filter((r: any) => r.measure === MEASURE && r.fiscal_year === year)
-  .map((r: any) => ({ category: r.category, gross_tax: r.gross_tax, offsets: r.offsets, net: r.net, color: colors[r.category] ?? '#b4b2a9' }));
+  .map((r: any) => ({ category: r.category, gross_tax: r.gross_tax, offsets: r.offsets, net: r.net, color: colors[r.category] ?? '#b4b2a9', exception_ids: r.exception_ids }));
 const lines = readData(entity, 'tax_lines.json').rows.filter((r: any) => r.measure === MEASURE && r.fiscal_year === year);
 
 const gross = cats.reduce((s: number, r: any) => s + r.gross_tax, 0);
@@ -59,7 +61,7 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
   </dl>
   <p class="muted">Offsets are sales and property tax rebated to developers and the replacement tax passed to the pension funds. Categories and the pie-style shares use gross taxes.</p>
 
-  <CategoryBars client:load rows={cats} year={year} title={`${fyLabel(year)} gross taxes by category`}
+  <CategoryBars client:load exceptions={exceptionsUsedBy(entity, cats)} rows={cats} year={year} title={`${fyLabel(year)} gross taxes by category`}
     note="Gross taxes; offsets are shown in the table view and listed under the lines below." />
 
   <h2>Every tax line</h2>
@@ -97,13 +99,8 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
   {exceptions.length > 0 && (
     <section>
       <h2>Exceptions that touch these lines</h2>
-      <p class="muted">Places where the source is inconsistent or a judgement call was needed. The full registry is in the downloads.</p>
-      <dl class="exceptions">
-        {exceptions.map((e: any) => (<>
-          <dt id={e.exception_id}>{e.exception_id} <span class="muted">· {e.kind}</span></dt>
-          <dd><strong>{e.summary}</strong>{e.detail && <><br />{e.detail}</>}{e.evidence && <><br /><span class="muted">Evidence: {e.evidence}</span></>}</dd>
-        </>))}
-      </dl>
+      <p class="muted">Places where the source is inconsistent or a judgement call was needed, with the pages of the source where each shows up. The full registry is in the downloads.</p>
+      <ExceptionList items={exceptions} />
     </section>
   )}
   <p class="muted">Source: <a href={lines[0]?.source_url}>{page.replace('_', ' ')}</a> on belvidereil.gov; each page link opens the PDF at that page (the printed page label is shown). <a href={href(`/data/${entity}/tax_lines.json`)}>Tax lines (JSON)</a> · <a href={href(`/data/${entity}/downloads/tax_series_long.csv`)}>Tax lines (CSV)</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>All extracted lines</a></p>
@@ -120,7 +117,5 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
   .scroll { overflow-x: auto; }
   .ex { font-size: 0.75rem; margin-right: 6px; }
   .fix { font-size: 0.75rem; margin-right: 6px; color: var(--ink2); border-bottom: 1px dotted var(--muted); cursor: help; }
-  .exceptions dt { font-weight: 600; margin-top: 14px; }
-  .exceptions dd { margin: 2px 0 0; }
   td.num { white-space: nowrap; }
 </style>

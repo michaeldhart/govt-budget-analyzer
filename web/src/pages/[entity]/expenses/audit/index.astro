@@ -5,6 +5,7 @@ import SmallMultiples from '../../../../components/SmallMultiples.svelte';
 import VarianceHeatmap from '../../../../components/VarianceHeatmap.svelte';
 import ChartFilters from '../../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../../lib/data';
+import { exceptionsUsedBy } from '../../../../lib/exceptions';
 import { dollars, fyLabel } from '../../../../lib/format';
 import { millions } from '../../../../lib/chart';
 
@@ -21,7 +22,8 @@ const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exc
 const all: any[] = readData(entity, 'expenses_audit_vs_budget.json').rows;
 
 // the chart components read budget / actual / variance_pct / group
-const asBva = (r: any) => ({ fiscal_year: r.fiscal_year, group: r.label, budget: r.audit_original, actual: r.audit_actual, variance_pct: r.variance_pct });
+const asBva = (r: any) => ({ fiscal_year: r.fiscal_year, group: r.label, budget: r.audit_original, actual: r.audit_actual, variance_pct: r.variance_pct, exception_ids: r.exception_ids });
+const exceptionMap = exceptionsUsedBy(entity, all);
 const totals = all.filter((r) => r.is_total);
 // a group that never has a dollar (the audit prints an empty FY2012 Capital Projects line) is left out of the charts
 const empty = (g: string) => all.filter((r) => r.department_group === g).every((r) => !r.audit_original && !r.audit_actual);
@@ -66,14 +68,14 @@ const rules = ['EX-audit-transfers-excluded', 'EX-audit-contra-netted', 'EX-audi
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
 
   <h2>Total</h2>
-  <BudgetVsActual client:load rows={totals.map(asBva)} p={palette}
+  <BudgetVsActual client:load rows={totals.map(asBva)} p={palette} exceptions={exceptionMap}
     labels={{ lineTitle: 'General Fund expenditures: original budget vs audited actual', varianceTitle: 'Audited actual vs original budget: percent above (blue) or below (red)',
       budget: 'Original budget', actual: 'Audited actual', fileStem: 'expenses-audit', note: 'Excludes transfers out; the audit does not budget or report them as expenditures.' }} />
 
   <h2>By department group</h2>
-  <SmallMultiples client:load rows={groups.map(asBva)} groups={groupNames} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+  <SmallMultiples client:load exceptions={exceptionMap} rows={groups.map(asBva)} groups={groupNames} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
     title="Original budget (line) and audited actual (dots), each on its own scale" />
-  <VarianceHeatmap client:load rows={groups.map(asBva)} groups={groupNames.map((g) => g.name)} p={palette}
+  <VarianceHeatmap client:load exceptions={exceptionMap} rows={groups.map(asBva)} groups={groupNames.map((g) => g.name)} p={palette}
     title="Audited actual vs original budget, percent by department group and year"
     note="Blue: spent more than budgeted. Red: less. Color saturates at 60%. A dash means no budget or no spending that year." />
 

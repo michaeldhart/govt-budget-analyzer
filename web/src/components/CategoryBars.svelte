@@ -1,11 +1,13 @@
 <script lang="ts">
   import * as Plot from '@observablehq/plot';
+  import type { Exception } from './ExceptionList.svelte';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { dollars, percent } from '../lib/format';
 
-  type Row = { category: string; gross_tax: number; offsets: number; net: number; color: string };
-  let { rows, year, title, note = '' }: { rows: Row[]; year: number; title: string; note?: string } = $props();
+  type Row = { category: string; gross_tax: number; offsets: number; net: number; color: string; exception_ids?: string[] };
+  let { rows, year, title, note = '', exceptions = {} }: { rows: Row[]; year: number; title: string; note?: string; exceptions?: Record<string, Exception> } = $props();
+  const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
 
   const sorted = $derived([...rows].sort((a, b) => b.gross_tax - a.gross_tax));
   const total = $derived(rows.reduce((s, r) => s + r.gross_tax, 0));
@@ -32,6 +34,6 @@
   }
 </script>
 
-<ChartFrame id="by-category" {title} {note} rows={data} {columns} filename={`taxes-fy${year}-by-category.csv`}>
+<ChartFrame id="by-category" {title} {note} rows={data} {columns} filename={`taxes-fy${year}-by-category.csv`} {exceptionIds} {exceptions}>
   <PlotHost {build} label={`${title}: bar chart of gross tax by category; the Table view has the same numbers`} />
 </ChartFrame>

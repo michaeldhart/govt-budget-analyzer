@@ -6,6 +6,7 @@ import BudgetVsActual from '../../../components/BudgetVsActual.svelte';
 import VarianceHeatmap from '../../../components/VarianceHeatmap.svelte';
 import TaxFilters from '../../../components/TaxFilters.svelte';
 import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
 import { dollars, percent, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -38,6 +39,7 @@ const sortedVar = audited.map((r: any) => r.variance_pct).sort((a: number, b: nu
 const median = sortedVar.length % 2 ? sortedVar[(sortedVar.length - 1) / 2] : (sortedVar[sortedVar.length / 2 - 1] + sortedVar[sortedVar.length / 2]) / 2;
 const biggest = audited.reduce((a: any, b: any) => (Math.abs(b.variance_pct) > Math.abs(a.variance_pct) ? b : a));
 const latest = audited.at(-1);
+const exTaxes = exceptionsUsedBy(entity, byCat), exAudit = exceptionsUsedBy(entity, bva); // each chart gets only the entries its own rows use
 const pct = (v: number, d = 0) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(d)}%`;
 
 const g0 = total(first, 'gross_tax'), g1 = total(last, 'gross_tax');
@@ -69,25 +71,25 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
   <TaxFilters client:load years={allYears} categories={cats} />
   <p class="muted small-note">Filters apply to every chart below (the category filter to the composition and offsets charts) and are saved in the page address, so a link shows the same view. The summary above always covers the full period.</p>
   <p class="muted">Each column is that year's adopted budget. Click “Table” on any chart to see its numbers, or download them. <a href={href(`/${entity}/taxes/${last}/`)}>See every line for {fyLabel(last)}</a>, or pick another year there.</p>
-  <StackedBars client:load id="composition" respectHide rows={byCat.filter((r: any) => r.category !== 'ALL TAXES').map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.gross_tax }))}
+  <StackedBars client:load id="composition" respectHide exceptions={exTaxes} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES').map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.gross_tax, exception_ids: r.exception_ids }))}
     series={cats} ink={palette.ink} title="Adopted gross taxes by category" filename="taxes-adopted-by-category.csv" totalLabel="All taxes" />
 
   <h2>Offsets</h2>
   <p class="muted">Sales and property tax rebated to developers, and the replacement tax passed to the pension funds, are subtracted from gross taxes to get net.</p>
-  <StackedBars client:load id="offsets" respectHide negative rows={byCat.filter((r: any) => r.category !== 'ALL TAXES' && r.offsets !== 0).map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.offsets }))}
+  <StackedBars client:load id="offsets" respectHide negative exceptions={exTaxes} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES' && r.offsets !== 0).map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.offsets, exception_ids: r.exception_ids }))}
     series={cats.filter((c: any) => byCat.some((r: any) => r.category === c.name && r.offsets !== 0))} ink={palette.ink} title="Adopted offsets by category"
     filename="taxes-adopted-offsets.csv" totalLabel="All offsets" />
 
   <h2>Budget vs audited actual</h2>
-  <BudgetVsActual client:load rows={totalRows} p={palette} yDomain={[10e6, 25e6]}
+  <BudgetVsActual client:load rows={totalRows} p={palette} exceptions={exAudit} yDomain={[10e6, 25e6]}
     labels={{ lineTitle: 'Taxes: budget vs audited actual', varianceTitle: 'Audited actual vs budget: percent above (blue) or below (red)', budget: 'Budget',
       actual: 'Audited actual', fileStem: 'taxes', note: "Budget is the audit's original budget (the budget document's adopted figure where the audit has none). FY2027 has no audit yet." }} />
 
   <h2>By group</h2>
   <p class="muted">The audit's own groups, so budget and actual are strictly comparable. The telecommunications group is the city's Municipal Infrastructure Maintenance line (see the exceptions on the year pages).</p>
-  <SmallMultiples client:load rows={groupRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+  <SmallMultiples client:load exceptions={exAudit} rows={groupRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
     title="Budget (line) and audited actual (dots), each on its own scale"/>
-  <VarianceHeatmap client:load rows={groupRows} groups={groups.map((g: any) => g.name)} p={palette}
+  <VarianceHeatmap client:load exceptions={exAudit} rows={groupRows} groups={groups.map((g: any) => g.name)} p={palette}
     title="Audited actual vs budget, percent by group and year" note="Blue: above budget. Red: below. Color saturates at 60%. A dash means the source has no budget line or no actual for that year." />
 
   <p class="muted">Data: <a href={href(`/data/${entity}/taxes_by_category.json`)}>taxes by category</a> · <a href={href(`/data/${entity}/taxes_budget_vs_actual.json`)}>budget vs actual</a> · <a href={href(`/data/${entity}/downloads/tax_series_audit_basis.csv`)}>audit-basis CSV</a></p>

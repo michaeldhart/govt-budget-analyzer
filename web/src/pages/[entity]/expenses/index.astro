@@ -4,6 +4,7 @@ import StackedBars from '../../../components/StackedBars.svelte';
 import ObjectByDept from '../../../components/ObjectByDept.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -27,6 +28,7 @@ const objects = schemes.expense_object.filter((c: any) => c.color).map((c: any) 
 const departments = [...new Map(rows.map((r) => [r.dept_code, { code: r.dept_code, name: r.department, function: r.function }])).values()]
   .sort((a, b) => a.function.localeCompare(b.function) || a.name.localeCompare(b.name));
 
+const exceptionMap = exceptionsUsedBy(entity, rows, readData(entity, 'expenses_fund_totals.json').rows);
 const transfers = (y: number) => sum((r) => r.fiscal_year === y && r.object_id === 'exp_transfers');
 const personnel = (y: number) => sum((r) => r.fiscal_year === y && r.object_id === 'exp_personnel');
 const g0 = total(first), g1 = total(last), opLast = g1 - transfers(last), opPrev = total(last - 1) - transfers(last - 1);
@@ -70,12 +72,12 @@ const rounding = totals.filter((t) => t.diff !== 0 && Math.abs(t.diff) <= 3).len
 
   <h2>By department group</h2>
   <StackedBars client:load id="by-function" ink={palette.ink} series={functions} totalLabel="All expenses"
-    rows={rows.map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.function, value: r.amount }))}
+    exceptions={exceptionMap} rows={rows.map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.function, value: r.amount, exception_ids: r.exception_ids }))}
     title="Adopted expenses by function group" filename="expenses-by-function.csv"
     note="Function groups collect the 20 General Fund departments (the table below lists them). Capital projects and transfers holds the Utility Tax department, which funds street projects and reserve transfers." />
 
   <h2>By object</h2>
-  <ObjectByDept client:load rows={rows} series={objects} ink={palette.ink} />
+  <ObjectByDept client:load exceptions={exceptionMap} rows={rows} series={objects} ink={palette.ink} />
 
   <h2>Departments, {fyLabel(first)} to {fyLabel(last)}</h2>
   <div class="scroll">

@@ -2,16 +2,18 @@
   import * as Plot from '@observablehq/plot';
   import { url } from '../lib/urlState.svelte';
   import { inRange } from '../lib/urlParams';
+  import type { Exception } from './ExceptionList.svelte';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, moneyTick, millions } from '../lib/chart';
 
-  type Row = { fiscal_year: number; group: string; budget: number | null; actual: number | null };
-  let { rows: allRows, groups, ink, ink2, surface, title, note = '' }: {
-    rows: Row[]; groups: { name: string; color: string }[]; ink2: string; ink: string; surface: string; title: string; note?: string;
+  type Row = { fiscal_year: number; group: string; budget: number | null; actual: number | null; exception_ids?: string[] };
+  let { rows: allRows, groups, ink, ink2, surface, title, note = '', exceptions = {} }: {
+    rows: Row[]; groups: { name: string; color: string }[]; ink2: string; ink: string; surface: string; title: string; note?: string; exceptions?: Record<string, Exception>;
   } = $props();
 
   const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const exceptionIds = $derived([...new Set(rows.filter((r) => groups.some((g) => g.name === r.group)).flatMap((r) => r.exception_ids ?? []))]);
   const span = $derived([Math.min(...rows.map((r) => r.fiscal_year)), Math.max(...rows.map((r) => r.fiscal_year))]);
   const panels = $derived(groups.map((g) => {
     const mine = rows.filter((r) => r.group === g.name);
@@ -40,7 +42,7 @@
   };
 </script>
 
-<ChartFrame id="multiples" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-budget-vs-actual-by-group.csv">
+<ChartFrame id="multiples" {title} {note} rows={table.rows} columns={table.columns} filename="taxes-budget-vs-actual-by-group.csv" {exceptionIds} {exceptions}>
   {#if !panels.length}<p class="muted">Nothing to show with these filters.</p>{/if}
   <div class="grid">
     {#each panels as p (p.name)}

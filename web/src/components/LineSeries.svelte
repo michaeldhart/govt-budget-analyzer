@@ -1,6 +1,7 @@
 <script lang="ts">
   // One or more lines by fiscal year with dots, an optional horizontal reference line, and the year range from the URL.
   import * as Plot from '@observablehq/plot';
+  import type { Exception } from './ExceptionList.svelte';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { url } from '../lib/urlState.svelte';
@@ -8,11 +9,11 @@
   import { fy, pivot, emptyNote, moneyTick, millions } from '../lib/chart';
   import { dollars } from '../lib/format';
 
-  type Row = { fiscal_year: number; series: string; value: number };
+  type Row = { fiscal_year: number; series: string; value: number; exception_ids?: string[] };
   // `kind` picks the number format (functions cannot be passed from an Astro page into an island)
-  let { id, rows: allRows, series, title, filename, note = '', kind, reference = null }: {
+  let { id, rows: allRows, series, title, filename, note = '', kind, reference = null, exceptions = {} }: {
     id: string; rows: Row[]; series: { name: string; color: string }[]; title: string; filename: string; note?: string;
-    kind: 'money' | 'months';
+    kind: 'money' | 'months'; exceptions?: Record<string, Exception>;
     reference?: { value: number; label: string; color: string } | null;
   } = $props();
 
@@ -21,6 +22,7 @@
   const valueTitle = (v: number) => (kind === 'money' ? dollars(v) : `${v.toFixed(1)} months`);
   const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
   const names = $derived(series.map((s) => s.name));
+  const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
   const table = $derived(pivot(rows, 'fiscal_year', 'series', 'value', names));
 
   function build(width: number) {
@@ -45,6 +47,6 @@
   }
 </script>
 
-<ChartFrame {id} {title} {note} rows={table.rows} columns={table.columns} {filename}>
+<ChartFrame {id} {title} {note} rows={table.rows} columns={table.columns} {filename} {exceptionIds} {exceptions}>
   <PlotHost {build} label={`${title}: line chart by fiscal year; the Table view has every number`} />
 </ChartFrame>

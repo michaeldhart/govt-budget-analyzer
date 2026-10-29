@@ -191,3 +191,11 @@ def test_corrected_tax_lines_keep_the_raw_reading(site):
     one = next(r for r in rows if r["fiscal_year"] == 2019 and r["measure"] == "budget_revised" and r["account"] == "01-4-110-4010")
     c = one["corrections"][0]
     assert c["raw_value"] != c["final_value"] and c["detail"] and int(c["final_value"]) == one["amount"]
+
+
+def test_exceptions_list_where_they_appear_in_the_source(site):
+    ex = {e["exception_id"]: e for e in site(ENTITY, "exceptions.json")["exceptions"]}
+    t = ex["EX-telecom-class"]
+    assert t["sources"] and all(s["pdf_page"] >= 1 and s["source_url"].endswith(".pdf") for s in t["sources"])
+    assert any(s["doc_id"] == "FY2027_budget" and s["pdf_page"] == 5 for s in t["sources"])  # the FY2027 Municipal Infrastructure Maintenance line
+    assert all(isinstance(e["sources"], list) for e in ex.values())

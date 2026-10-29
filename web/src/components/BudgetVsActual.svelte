@@ -2,17 +2,19 @@
   import * as Plot from '@observablehq/plot';
   import { url } from '../lib/urlState.svelte';
   import { inRange } from '../lib/urlParams';
+  import type { Exception } from './ExceptionList.svelte';
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, moneyTick, millions, emptyNote } from '../lib/chart';
 
-  type Row = { fiscal_year: number; budget: number | null; actual: number | null; variance_pct: number | null };
+  type Row = { fiscal_year: number; budget: number | null; actual: number | null; variance_pct: number | null; exception_ids?: string[] };
   // Reused for taxes and for spending: `labels` carry the wording, `yDomain` the line chart's range (default: fit the data).
   type Labels = { lineTitle: string; varianceTitle: string; budget: string; actual: string; note?: string; fileStem: string; aboveBelow?: string };
-  let { rows: allRows, p, labels, yDomain }: { rows: Row[]; p: Record<string, string>; labels: Labels; yDomain?: [number, number] } = $props();
+  let { rows: allRows, p, labels, yDomain, exceptions = {} }: { rows: Row[]; p: Record<string, string>; labels: Labels; yDomain?: [number, number]; exceptions?: Record<string, Exception> } = $props();
 
   const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
   const years = $derived(rows.map((r) => r.fiscal_year));
+  const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
   const tidy = $derived(rows.flatMap((r) => [
     ...(r.budget != null ? [{ fiscal_year: r.fiscal_year, series: labels.budget, amount: r.budget }] : []),
     ...(r.actual != null ? [{ fiscal_year: r.fiscal_year, series: labels.actual, amount: r.actual }] : []),
@@ -57,7 +59,7 @@
   }
 </script>
 
-<ChartFrame id="budget-vs-actual" title={labels.lineTitle} rows={rows as any} columns={table.columns} filename={`${labels.fileStem}-budget-vs-actual.csv`} note={labels.note}>
+<ChartFrame id="budget-vs-actual" title={labels.lineTitle} rows={rows as any} columns={table.columns} filename={`${labels.fileStem}-budget-vs-actual.csv`} note={labels.note} {exceptionIds} {exceptions}>
   <PlotHost build={lines} label="Line chart of total budgeted and audited taxes by fiscal year; the Table view has every number" />
 </ChartFrame>
 <ChartFrame id="variance" title={labels.varianceTitle} rows={variance as any} columns={table.columns} filename={`${labels.fileStem}-variance.csv`}>
