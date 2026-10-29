@@ -179,7 +179,8 @@ def test_source_urls_cover_documents(table, entity):
         if path and os.path.exists(path):
             assert os.path.getsize(path) == int(manifest[d]["size_bytes"]), d
             checked += 1
-    assert checked in (0, len(docs)) or checked >= 2  # sources are gitignored: CI checks none, a full checkout checks all
+    # older PDFs are gitignored: a CI checkout can compare only the committed FY2027 file, a full local checkout compares all of them
+    assert checked in (1, len(docs)) or checked == 0
 
 
 def test_every_fact_has_a_pdf_page_and_budget_footers_map_in_order(table):
