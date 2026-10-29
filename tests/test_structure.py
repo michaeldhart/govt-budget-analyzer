@@ -5,7 +5,7 @@ from collections import Counter
 
 import pytest
 
-from conftest import ROOT, read
+from conftest import ENTITY, ROOT, read
 from govbudget import schema
 
 CANONICAL = {
@@ -162,3 +162,47 @@ def test_fund_summary_identities(table):
     for r in table("fund_balance_summary"):
         if r["beginning_balance"] and r["net_change"] and r["ending_balance"]:
             assert int(r["beginning_balance"]) + int(r["net_change"]) == int(r["ending_balance"]), (r["fund"], r["fiscal_year"])
+
+
+def test_source_urls_cover_documents(table, entity):
+    """Every document links to its own PDF on the city's site; where the PDF is present locally its size equals the size the server reported."""
+    manifest = {r["doc_id"]: r for r in entity.table("source_urls.csv")}
+    docs = {r["doc_id"]: r for r in table("documents")}
+    assert set(docs) <= set(manifest) and set(manifest) - set(docs) == {"FY2027_budget_revision_780H"}
+    assert all(r["url"].startswith("https://www.belvidereil.gov/wp-content/uploads/") and r["url"].endswith(".pdf") for r in manifest.values())
+    assert len({r["url"] for r in manifest.values()}) == len(manifest)
+    assert all(docs[d]["source_url"] == manifest[d]["url"] for d in docs)
+    checked = 0
+    for d, r in docs.items():
+        path = os.path.join(ROOT, "sources", ENTITY, r["pdf_path"]) if r["pdf_path"] else ""
+        if path and os.path.exists(path):
+            assert os.path.getsize(path) == int(manifest[d]["size_bytes"]), d
+            checked += 1
+    assert checked in (0, len(docs)) or checked >= 2  # sources are gitignored: CI checks none, a full checkout checks all
+
+
+def test_every_fact_has_a_pdf_page_and_budget_footers_map_in_order(table):
+    facts = table("facts")
+    assert all(r["pdf_page"].isdigit() and int(r["pdf_page"]) >= 1 for r in facts)  # budget lines too (T3), via page_map.csv
+    pm = table("page_map")
+    assert len({(r["doc_id"], r["page_label"]) for r in pm}) == len(pm)
+    by_doc = {}
+    for r in pm:
+        by_doc.setdefault(r["doc_id"], []).append((int(r["printed_label"].split(" of ")[0]), int(r["pdf_page"])))
+    assert sorted(by_doc) == [f"FY{y}_budget" for y in range(2015, 2028)]
+    misread = {r["doc_id"]: r for r in pm if r["printed_label"] != r["page_label"]}  # "42 of 15" is a printed 12 whose 1 was read as 4
+    assert {d: (r["page_label"], r["printed_label"]) for d, r in misread.items()} == {
+        "FY2025_budget": ("42 of 15", "12 of 15"), "FY2027_budget": ("41 of 15", "11 of 15")}
+    for d, pages in by_doc.items():  # Exhibit A is printed in order: a higher footer number is on a later PDF page
+        pages.sort()
+        if d == "FY2024_budget":  # the Motor Fuel Tax page ("12 of 15") is bound last (see EX-fy24-pension-pages-missing)
+            assert (12, 23) in pages and max(p for _, p in pages) == 23
+            pages = [p for p in pages if p[0] != 12]
+        assert [p for _, p in pages] == sorted(p for _, p in pages), d
+    # a printed footer label on a budget line resolves to exactly the page the map gives
+    resolve = {(r["doc_id"], r["page_label"]): r["pdf_page"] for r in pm}
+    for r in facts:
+        if r["source_type"] == "budget" and " of " in r["page_label"]:
+            assert resolve[(r["doc_id"], r["page_label"])] == r["pdf_page"]
+        elif r["source_type"] == "budget":
+            assert r["page_label"] == "pdf" + r["pdf_page"]

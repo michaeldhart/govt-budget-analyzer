@@ -59,16 +59,16 @@ fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
 2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73405,HOMETOWN CHRISTMAS,budget_FY2023,413,
 2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73407,TrunkorTreat,budget_FY2023,300,
 2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73408,PROGRAMMING TEEN,budget_FY2023,1000,
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-41004,Legal,budget_FY2023,2000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-41006,AUDIT,budget_FY2023,7000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-41518,Gardening Grant Spending,budget_FY2023,250,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-51565,POSTAGE,budget_FY2023,500,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-60102,PROPERTY TAXES,budget_FY2023,3850,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-62303,TECH-SOFTWARE,budget_FY2023,4000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-62351,CONSORTIUM,budget_FY2023,22000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-62352,DATABASES,budget_FY2023,3000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-64100,MACHINE RENT,budget_FY2023,400,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-73113,Y YA NF (73113),budget_FY2023,1500,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-73117,Books-donation-Womens/Newcomer,budget_FY2023,100,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-73303,A-V Y A DVD,budget_FY2023,1000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-5-000-73406,COMMUNITY GARDEN,budget_FY2023,200,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-5-000-41004,Legal,budget_FY2023,2000,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-5-000-41006,AUDIT,budget_FY2023,7000,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-41518,Gardening Grant Spending,budget_FY2023,250,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-51565,POSTAGE,budget_FY2023,500,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-60102,PROPERTY TAXES,budget_FY2023,3850,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62303,TECH-SOFTWARE,budget_FY2023,4000,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62351,CONSORTIUM,budget_FY2023,22000,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62352,DATABASES,budget_FY2023,3000,added_by_override
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-64100,MACHINE RENT,budget_FY2023,400,added_by_override
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73113,Y YA NF (73113),budget_FY2023,1500,added_by_override
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73117,Books-donation-Womens/Newcomer,budget_FY2023,100,added_by_override
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73303,A-V Y A DVD,budget_FY2023,1000,added_by_override
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73406,COMMUNITY GARDEN,budget_FY2023,200,added_by_override

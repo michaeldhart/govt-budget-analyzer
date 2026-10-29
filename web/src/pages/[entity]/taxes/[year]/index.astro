@@ -66,12 +66,12 @@ const page = lines[0]?.source_doc ?? '';
       <h3><span class="swatch" style={`background:${c.color}`}></span>{c.name} <span class="muted">{dollars(c.total)} · {percent(c.total, gross)}</span></h3>
       <div class="scroll">
         <table>
-          <thead><tr><th>Account</th><th>Line</th><th>Treatment</th><th class="num">Amount</th><th>Page</th><th>Notes</th></tr></thead>
+          <thead><tr><th>Account</th><th>Line</th><th>Treatment</th><th class="num">Amount</th><th>Source page</th><th>Notes</th></tr></thead>
           <tbody>
             {c.lines.map((l: any) => (
               <tr>
                 <td>{l.account}</td><td>{l.line_item}</td><td>{l.treatment === 'offset' ? 'offset' : 'tax'}</td>
-                <td class="num">{dollars(l.amount)}</td><td>{l.page_label}</td>
+                <td class="num">{dollars(l.amount)}</td><td><a href={`${l.source_url}#page=${l.pdf_page}`} title={`Opens the ${l.source_doc.replace('_', ' ')} at PDF page ${l.pdf_page}`}>{l.page_label}</a></td>
                 <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td>
               </tr>
             ))}
@@ -84,8 +84,8 @@ const page = lines[0]?.source_doc ?? '';
     <section>
       <h3>Looks like a tax but counted as a fee <span class="muted">{dollars(fees)}, not in the totals</span></h3>
       <div class="scroll"><table>
-        <thead><tr><th>Account</th><th>Line</th><th class="num">Amount</th><th>Page</th><th>Notes</th></tr></thead>
-        <tbody>{feeLines.map((l: any) => <tr><td>{l.account}</td><td>{l.line_item}</td><td class="num">{dollars(l.amount)}</td><td>{l.page_label}</td>
+        <thead><tr><th>Account</th><th>Line</th><th class="num">Amount</th><th>Source page</th><th>Notes</th></tr></thead>
+        <tbody>{feeLines.map((l: any) => <tr><td>{l.account}</td><td>{l.line_item}</td><td class="num">{dollars(l.amount)}</td><td><a href={`${l.source_url}#page=${l.pdf_page}`} title={`Opens the ${l.source_doc.replace('_', ' ')} at PDF page ${l.pdf_page}`}>{l.page_label}</a></td>
           <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td></tr>)}</tbody>
       </table></div>
     </section>
@@ -103,7 +103,7 @@ const page = lines[0]?.source_doc ?? '';
       </dl>
     </section>
   )}
-  <p class="muted">Source: {page.replace('_', ' ')} (page labels as printed in the ordinance). <a href={href(`/data/${entity}/tax_lines.json`)}>Tax lines (JSON)</a> · <a href={href(`/data/${entity}/downloads/tax_series_long.csv`)}>Tax lines (CSV)</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>All extracted lines</a></p>
+  <p class="muted">Source: <a href={lines[0]?.source_url}>{page.replace('_', ' ')}</a> on belvidereil.gov; each page link opens the PDF at that page (the printed page label is shown). <a href={href(`/data/${entity}/tax_lines.json`)}>Tax lines (JSON)</a> · <a href={href(`/data/${entity}/downloads/tax_series_long.csv`)}>Tax lines (CSV)</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>All extracted lines</a></p>
 </Base>
 
 <style>

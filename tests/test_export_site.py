@@ -23,7 +23,7 @@ DATASET_COLUMNS = {
                      "excess_revenues_over_expenditures", "other_financing", "net_change", "beginning_balance", "prior_period_adjustment",
                      "ending_balance", "unassigned_months", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
-                  "source_doc", "source_column", "page_label", "note", "exception_ids"],
+                  "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids"],
 }
 
 
@@ -174,3 +174,11 @@ def test_fund_balance_dataset(site):
     assert gf[0]["total_fund_balance"] == 7770209 and gf[-1]["ending_balance"] == gf[-1]["total_fund_balance"]
     assert all(r["beginning_balance"] + r["net_change"] == r["ending_balance"] for r in gf)  # beginning is already restated (FY2016: -207,812)
     assert gf[-1]["unassigned_months"] > 20  # 21 months of expenditures (CLAUDE.md)
+
+
+def test_tax_lines_link_to_their_source_page(site):
+    rows = site(ENTITY, "tax_lines.json")["rows"]
+    assert all(isinstance(r["pdf_page"], int) and r["pdf_page"] >= 1 and r["source_url"].endswith(".pdf") for r in rows)
+    one = next(r for r in rows if r["fiscal_year"] == 2027 and r["measure"] == "budget_adopted" and r["account"] == "01-4-110-4010")
+    assert one["page_label"] == "1 of 15" and one["pdf_page"] == 5  # FY2027 Exhibit A starts on PDF page 5
+    assert "753H" in one["source_url"]

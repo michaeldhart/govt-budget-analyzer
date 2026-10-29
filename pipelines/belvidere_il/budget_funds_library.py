@@ -311,7 +311,8 @@ def apply_overrides(rows, events, cols, ov, allow, notes):
             flow = o["column"]
             last = [i for i, r in enumerate(rows) if r["flow"] == flow]
             pos = last[-1] + 1 if last else len(rows)
-            rows.insert(pos, dict(page=0, flow=flow, code=o["key"] or None, label=o["page_label"], cells={i: v for i, v in enumerate(vals)}, y=0, raw="(added by override)", dup=False, raws={}, flags={i: "added_by_override" for i in range(len(vals))}))
+            pg = re.search(r"\(p(\d+)\)", o.get("reason", ""))  # the reason names the PDF page the line was read from: "(p19)"
+            rows.insert(pos, dict(page=int(pg.group(1)) if pg else rows[pos - 1]["page"], flow=flow, code=o["key"] or None, label=o["page_label"], cells={i: v for i, v in enumerate(vals)}, y=0, raw="(added by override)", dup=False, raws={}, flags={i: "added_by_override" for i in range(len(vals))}))
             for e in events:  # keep the event positions meaningful
                 if e["pos"] >= pos:
                     e["pos"] += 1

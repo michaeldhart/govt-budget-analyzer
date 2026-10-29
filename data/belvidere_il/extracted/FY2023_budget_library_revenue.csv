@@ -30,7 +30,7 @@ fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,amount,flag
 2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-90002,Checking interest sid,budget_FY2023,250,
 2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-OTHEREEE,Other eee,budget_FY2023,0,no_account_number
 2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-SSBUDGETCA,ss BUDGETCARRYOVER,budget_FY2023,0,no_account_number
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41200,REPLACEMENT TAX,budget_FY2023,39000,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41215,FRIENDS SUMMER,budget_FY2023,3500,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-41511,Unrestricted Grants,budget_FY2023,0,added_by_override
-2023,FY2023_budget,pdf0,Ida Public Library,000,IPL-4-000-49500,GIFT/DONATION,budget_FY2023,500,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41200,REPLACEMENT TAX,budget_FY2023,39000,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41215,FRIENDS SUMMER,budget_FY2023,3500,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41511,Unrestricted Grants,budget_FY2023,0,added_by_override
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49500,GIFT/DONATION,budget_FY2023,500,added_by_override

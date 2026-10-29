@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 
 from govbudget import Entity  # noqa: E402
 from extract_audit_expenditures import norm as audit_norm  # noqa: E402
-from govbudget.entity import write_csv  # noqa: E402
+from govbudget.entity import read_csv, write_csv  # noqa: E402
 from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
                               FUND_STATEMENT_COLUMNS)
 from govbudget.validate import validate_config, validate_tables  # noqa: E402
@@ -100,6 +100,7 @@ def main():
     if cfg_errs:
         sys.exit("config problems:\n  " + "\n  ".join(cfg_errs))
     ex = exception_index()
+    urls = {r["doc_id"]: r["url"] for r in E.table("source_urls.csv")}  # per-document links on belvidereil.gov (verified by file size)
     facts, docs, totals, fund_rows = [], [], [], []
     stmt_map = [(r["statement"], re.compile(r["label_pattern"], re.I), r["line_id"]) for r in E.table("fund_statement_lines.csv")]
     exp_map = {(r["fund_code"] or "01", r["audit_function"], r["audit_department"]): r for r in E.table("audit_expenditure_map.csv")}
@@ -110,7 +111,7 @@ def main():
         pdf = budget_pdf(fy)
         docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="budget", fiscal_year=fy,
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if pdf else "", sha256=E.sha(pdf) if pdf else "",
-                         source_url=E.config["source_index"]["budget"],
+                         source_url=urls.get(doc_id, E.config["source_index"]["budget"]),
                          note="General Fund Exhibit A; FY2027 is ordinance 753H (revision 780H changes one salary only)" if fy == 2027 else ""))
         seq = 0  # row_seq numbers the doc's extract rows: revenue file first, then the expense file
         for kind in ("revenue", "expense"):
@@ -173,7 +174,7 @@ def main():
         pdf = E.source_path("audits", f"{doc_id}.pdf")
         docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="audit", fiscal_year=fy,
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if os.path.exists(pdf) else "",
-                         sha256=E.sha(pdf) if os.path.exists(pdf) else "", source_url=E.config["source_index"]["audit"],
+                         sha256=E.sha(pdf) if os.path.exists(pdf) else "", source_url=urls.get(doc_id, E.config["source_index"]["audit"]),
                          note="General Fund detailed schedules of revenues and of expenditures - Budget and Actual"))
         for seq, r in enumerate(csv.DictReader(open(path)), 1):
             base = dict(entity_id=E.id, doc_id=doc_id, source_type="audit", row_seq=seq, flow="revenue", fund_code="01",
@@ -291,6 +292,13 @@ def main():
                              dept_code=E.split_key(key)[1].split("-")[0], department=m["department"], category_id=m["category_id"],
                              treatment=m["treatment"], first_fy=first.get((flow, key), ""), last_fy=last.get((flow, key), ""),
                              note=m["note"]))
+    # budget lines carry the printed footer label ("3 of 15", or "pdfN" when the footer was unreadable); the PDF page comes from
+    # page_map.csv (build_page_map.py), so the canonical tables rebuild without the OCR cache
+    page_map = {(r["doc_id"], r["page_label"]): r["pdf_page"] for r in read_csv(E.data_path("page_map.csv"))}
+    for f in facts:
+        if f["source_type"] == "budget" and not f["pdf_page"]:
+            label = f["page_label"]
+            f["pdf_page"] = label[3:] if label.startswith("pdf") else page_map[(f["doc_id"], label)]
     write_csv(E.data_path("documents.csv"), DOCUMENT_COLUMNS, docs)
     write_csv(E.data_path("accounts.csv"), ACCOUNT_COLUMNS, accounts)
     write_csv(E.data_path("facts.csv"), FACT_COLUMNS, facts)
