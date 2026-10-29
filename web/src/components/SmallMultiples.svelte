@@ -6,15 +6,17 @@
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, moneyTick, moneyShort } from '../lib/chart';
+  import { scaleValue, isCapita, unitPhrase, unitNote, type Ref } from '../lib/units';
 
   type Row = { fiscal_year: number; group: string; budget: number | null; actual: number | null; exception_ids?: string[] };
   // `actualAsLine` draws the actual values as the line (for a single series such as a balance, with no budget); id and filename name the chart in the URL and the CSV
-  let { rows: allRows, groups, ink, ink2, surface, title, note = '', exceptions = {}, id = 'multiples', filename = 'taxes-budget-vs-actual-by-group.csv', actualAsLine = false, subLabel = 'budget' }: {
+  let { rows: allRows, groups, ink, ink2, surface, title, note = '', exceptions = {}, id = 'multiples', filename = 'taxes-budget-vs-actual-by-group.csv', actualAsLine = false, subLabel = 'budget', units }: {
     rows: Row[]; groups: { name: string; color: string }[]; ink2: string; ink: string; surface: string; title: string; note?: string; exceptions?: Record<string, Exception>;
-    id?: string; filename?: string; actualAsLine?: boolean; subLabel?: string;
+    id?: string; filename?: string; actualAsLine?: boolean; subLabel?: string; units?: Ref;
   } = $props();
 
-  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)).map((r) => ({ ...r, budget: r.budget == null ? null : scaleValue(r.budget, r.fiscal_year, url.unit, units), actual: r.actual == null ? null : scaleValue(r.actual, r.fiscal_year, url.unit, units) })));
+  const money = (v: number) => (isCapita(url.unit) ? `$${Math.round(v).toLocaleString('en-US')}` : moneyShort(v));
   const exceptionIds = $derived([...new Set(rows.filter((r) => groups.some((g) => g.name === r.group)).flatMap((r) => r.exception_ids ?? []))]);
   const span = $derived([Math.min(...rows.map((r) => r.fiscal_year)), Math.max(...rows.map((r) => r.fiscal_year))]);
   const panels = $derived(groups.map((g) => {
@@ -46,13 +48,13 @@
   };
 </script>
 
-<ChartFrame {id} {title} {note} rows={table.rows} columns={table.columns} {filename} {exceptionIds} {exceptions}>
+<ChartFrame {id} title={unitPhrase(url.unit, units) ? `${title} (${unitPhrase(url.unit, units)})` : title} note={[note, unitNote(url.unit, units, [...new Set(rows.map((r) => r.fiscal_year))])].filter(Boolean).join(' ')} rows={table.rows} columns={table.columns} {filename} {exceptionIds} {exceptions}>
   {#if !panels.length}<p class="muted">Nothing to show with these filters.</p>{/if}
   <div class="grid">
     {#each panels as p (p.name)}
       <div class="panel">
         <h4>{p.name.replace(' (net)', '')}</h4>
-        <div class="sub">FY{String(p.last!.fiscal_year).slice(-2)} {subLabel} {moneyShort(p.last!.budget!)}</div>
+        <div class="sub">FY{String(p.last!.fiscal_year).slice(-2)} {subLabel} {money(p.last!.budget!)}</div>
         <PlotHost build={build(p)} label={`${p.name}: budget line and audited actual dots by fiscal year`} minWidth={120} />
       </div>
     {/each}

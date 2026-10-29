@@ -5,6 +5,7 @@ import LineSeries from '../../../components/LineSeries.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -19,6 +20,7 @@ const bal: any[] = readData(entity, 'debt_balances.json').rows;
 const issues: any[] = readData(entity, 'debt_issues.json').rows;
 const pay: any[] = readData(entity, 'debt_payments.json').rows;
 const exceptions = exceptionsUsedBy(entity, bal, pay);
+const ref = referenceFor(entity);
 // the city itself: governmental and water/sewer activities; the library is a separate (component) unit
 const city = bal.filter((r) => r.activity !== 'component_unit');
 const years = [...new Set(city.map((r) => r.fiscal_year))].sort();
@@ -83,23 +85,24 @@ const exAll = exceptions;
   <ul>
     <li>Borrowed money (certificates, notes, loans, bonds and leases) fell from {millions(borrowFirst, 1)} in {fyLabel(first)} to {millions(borrowLast, 1)} in {fyLabel(last)}; it peaked at {millions(at(peak, 'borrowing'), 1)} in {fyLabel(peak)}. What remains is mostly the water and sewer utility's IEPA loans.</li>
     <li>The pension and retiree health liabilities total {millions(pension + opeb, 1)}, {Math.round((pension + opeb) / at(last) * 100)}% of the {millions(at(last), 1)} the debt note lists for {fyLabel(last)}. The police and fire pensions are nearly all of the pension part.</li>
+    {ref && <li>Per resident, the {millions(at(last), 1)} in long-term liabilities is {dollars(Math.round(at(last) / ref.units[last].population))} ({dollars(Math.round(borrowLast / ref.units[last].population))} of it borrowed money), using the Census population estimate of {ref.units[last].population.toLocaleString('en-US')}. Choose Dollars below to see the charts per resident.</li>}
     <li>The audit schedules {millions(totalLeft, 1)} of principal still to be repaid through FY{schedYears.at(-1)}. {fyLabel(next)} payments are {millions(nextP, 2)} of principal and {millions(nextI, 2)} of interest.</li>
     <li>Pension liabilities jump from {millions(at(beforeJump, 'pension'), 1)} in {fyLabel(beforeJump)} to {millions(at(afterJump, 'pension'), 1)} in {fyLabel(afterJump)} because the audits changed how they are measured (GASB 68 put the full unfunded amount on the balance sheet), so compare years before and after with care.{gap.length ? ` The ${gap.map(fyLabel).join(' and ')} debt note has no pension lines, so ${gap.length > 1 ? 'those years are' : 'that year is'} left out of the first chart.` : ''}</li>
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
-  <p class="muted small-note">The year range applies to the history charts below; the payment schedule is a look ahead and always shows every year.</p>
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">The year range and the Dollars choice apply to the history charts below; the payment schedule is a look ahead in the dollars of each year and always shows every year.</p>
 
   <h2>Everything the city owes</h2>
-  <StackedBars client:load id="liabilities" exceptions={exAll} ink={palette.ink} rows={stackRows} series={SERIES.map(({ name, color }) => ({ name, color }))} totalLabel="Total"
+  <StackedBars client:load id="liabilities" exceptions={exAll} units={ref?.units} ink={palette.ink} rows={stackRows} series={SERIES.map(({ name, color }) => ({ name, color }))} totalLabel="Total"
     title="Long-term liabilities at year end" filename="debt-liabilities.csv"
     note="Governmental and water and sewer activities. Net pension liabilities are the pension plans' unfunded amounts; before FY2016 the audits showed only the part of the required contribution not yet paid." />
 
   <h2>Borrowed money</h2>
-  <StackedBars client:load id="borrowing" exceptions={exAll} ink={palette.ink} rows={instRows} series={instUsed.map((n, i) => ({ name: n, color: IC[i % IC.length] }))} totalLabel="Borrowed debt"
+  <StackedBars client:load id="borrowing" exceptions={exAll} units={ref?.units} ink={palette.ink} rows={instRows} series={instUsed.map((n, i) => ({ name: n, color: IC[i % IC.length] }))} totalLabel="Borrowed debt"
     title="Borrowed debt by kind" filename="debt-borrowing.csv"
     note="The IEPA (Illinois EPA) loans fund water and sewer projects; their balances grow as money is drawn. Some are drawn but have no payment schedule yet." />
-  <LineSeries client:load id="borrowing-flows" exceptions={exAll} rows={flowRows} series={[{ name: 'New borrowing', color: '#eb6834' }, { name: 'Repaid', color: '#2a78d6' }]}
+  <LineSeries client:load id="borrowing-flows" exceptions={exAll} units={ref?.units} rows={flowRows} series={[{ name: 'New borrowing', color: '#eb6834' }, { name: 'Repaid', color: '#2a78d6' }]}
     kind="money" title="New borrowing and repayments each year" filename="debt-borrowing-flows.csv" note="Borrowing only (not pensions or other liabilities)." />
 
   <h2>Payments still to come</h2>

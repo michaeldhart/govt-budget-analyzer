@@ -5,6 +5,7 @@ import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -18,6 +19,7 @@ const palette = readData('palette.json');
 const plans: any[] = readData(entity, 'pension_plans.json').rows;
 const opeb: any[] = readData(entity, 'opeb_liability.json').rows;
 const exceptions = exceptionsUsedBy(entity, plans, opeb);
+const ref = referenceFor(entity);
 const years = [...new Set(plans.map((r) => r.fiscal_year))].sort();
 const last = years.at(-1)!;
 const SHOWN = ['police', 'fire', 'imrf_regular', 'imrf_slep'];
@@ -62,13 +64,14 @@ const pct = (v: number) => `${v.toFixed(1)}%`;
   <h2>What stands out</h2>
   <ul>
     <li>The police pension was {pct(pol.funded_ratio_pct)} funded at the {fyLabel(last)} audit and the fire pension {pct(fir.funded_ratio_pct)}, up from {pct(polFirst.funded_ratio_pct)} and {pct(firFirst.funded_ratio_pct)} in {fyLabel(polFirst.fiscal_year)}. Together they are {millions(npl2, 1)} short of what they owe members (the net pension liability).</li>
+    {ref && <li>The {millions(npl2, 1)} police and fire shortfall is {dollars(Math.round(npl2 / ref.units[last].population))} for each of the city's {ref.units[last].population.toLocaleString('en-US')} residents. Choose Dollars below to see the charts per resident.</li>}
     <li>IMRF's regular plan, which covers most other employees, is {pct(imrf.funded_ratio_pct)} funded: its assets exceed its liability by {millions(-imrf.npl, 1)}.</li>
     <li>{underpaid.length ? `In ${underpaid.length} plan-year${underpaid.length === 1 ? '' : 's'} the city paid less than the actuarially determined contribution (ADC), the amount the actuary says is needed to fund the plan (police and fire: ${underpaid.map((r: any) => `${SHORT[r.plan]} ${fyLabel(r.fiscal_year)}`).join(', ')}).` : 'The city paid at least the actuarially determined contribution every year.'} In {fyLabel(last)} police and fire contributions were {shortfall === 0 ? 'at the ADC' : shortfall > 0 ? `${millions(shortfall, 2)} below it` : `${millions(-shortfall, 2)} above it`}.</li>
     <li>The retiree health liability was {millions(tol.total_opeb_liability, 1)} in {fyLabel(tol.fiscal_year)}. It is not funded: the city pays retirees' premiums as they come due.</li>
     <li>The audits changed how pensions and retiree health are reported (pensions in {fyLabel(firstGasb68)}, retiree health in FY2019). Years before and after are different measures, so the charts show the two periods apart.</li>
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
 
   <h2>How well funded</h2>
@@ -77,11 +80,11 @@ const pct = (v: number) => `${v.toFixed(1)}%`;
     note="Plan assets as a percent of the actuarial liability. FY2013-FY2015 are the older 'funded status' (GASB 27); from FY2016 the audits report the full liability. IMRF is measured each December 31, so an audit year shows the year before." />
 
   <h2>What they owe</h2>
-  <LineSeries client:load id="npl" exceptions={exceptions} rows={npl} series={plansUsed(npl)} kind="money" title="Net pension liability" filename="pensions-net-liability.csv"
+  <LineSeries client:load id="npl" exceptions={exceptions} units={ref?.units} rows={npl} series={plansUsed(npl)} kind="money" title="Net pension liability" filename="pensions-net-liability.csv"
     note="Total pension liability minus plan assets, from FY2016 when the audits began reporting it (GASB 68). A negative number means the plan has more than it owes." />
 
   <h2>What the city pays in</h2>
-  <SmallMultiples client:load id="contributions" filename="pensions-contributions.csv" subLabel="required" exceptions={exceptions} rows={contrib} groups={groups}
+  <SmallMultiples client:load id="contributions" units={ref?.units} filename="pensions-contributions.csv" subLabel="required" exceptions={exceptions} rows={contrib} groups={groups}
     ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Actuarially determined contribution (line) and what the city paid (dots), by plan"
     note="The actuarially determined contribution is the amount the plan's actuary calculates the city should pay each year. Where the dots sit below the line, the city paid less." />
 
@@ -90,7 +93,7 @@ const pct = (v: number) => `${v.toFixed(1)}%`;
     note="Money-weighted return on plan investments for the year ended April 30." />
 
   <h2>Retiree health benefits</h2>
-  <LineSeries client:load id="opeb" exceptions={exceptions} rows={opebRows} kind="money" title="Retiree health (OPEB) liability"
+  <LineSeries client:load id="opeb" exceptions={exceptions} units={ref?.units} rows={opebRows} kind="money" title="Retiree health (OPEB) liability"
     series={[{ name: 'Actuarial accrued liability (GASB 45)', color: '#eda100' }, { name: 'Net OPEB obligation on the balance sheet (GASB 45)', color: '#b4b2a9' }, { name: 'Total OPEB liability (GASB 75)', color: '#2a78d6' }]}
     filename="pensions-opeb.csv"
     note="Until FY2018 the audits reported two smaller numbers (the actuary's accrued liability, in valuation years only, and the part recorded on the balance sheet); from FY2019 they report the full total OPEB liability. The measures are not comparable." />
