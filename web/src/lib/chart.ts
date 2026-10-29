@@ -7,6 +7,7 @@ export function moneyTick(v: number): string {
   if (v === 0) return '0';
   const a = Math.abs(v), sign = v < 0 ? '-' : '';
   if (a >= 1e6) return `${sign}$${(a / 1e6).toFixed(1).replace(/\.0$/, '')}M`;
+  if (a < 1000) return `${sign}$${Math.round(a)}`; // per-resident amounts
   return `${sign}$${Math.round(a / 1e3).toLocaleString('en-US')}K`;
 }
 

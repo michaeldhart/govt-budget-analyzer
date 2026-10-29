@@ -12,6 +12,7 @@ const datasets = meta.datasets.map((name: string) => {
   const d = readData(entity, `${name}.json`);
   return { name, title: d.title, description: d.description, rows: d.rows.length };
 });
+const refSources: any[] = meta.datasets.includes('reference_sources') ? readData(entity, 'reference_sources.json').rows : [];
 const exceptions = readData(entity, 'exceptions.json').exceptions.length;
 const taxYears = meta.datasets.includes('tax_lines')
   ? ([...new Set(readData(entity, 'tax_lines.json').rows.filter((r: any) => r.measure === 'budget_adopted').map((r: any) => r.fiscal_year))] as number[]).sort().reverse()
@@ -44,4 +45,9 @@ const { budget_range, audit_range } = meta.documents;
   </table>
   <p>{exceptions} recorded exceptions (places where the source documents are inconsistent or do not fit the shared model) are published with the data.</p>
   <p><a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>Download every extracted line (facts.csv.gz)</a></p>
+  {refSources.length > 0 && (<>
+    <h2>Reference data</h2>
+    <p class="muted">The “per resident” and “adjusted for inflation” views use these public series. Each is a small table by fiscal year in the downloads.</p>
+    <ul>{refSources.map((r: any) => <li><strong>{r.description}</strong>. {r.publisher}, <a href={r.url}>{r.identifier}</a>; retrieved {r.retrieved_on}. <span class="muted">{r.method}</span></li>)}</ul>
+  </>)}
 </Base>

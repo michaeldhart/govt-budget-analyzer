@@ -2,10 +2,11 @@
 import { readFileSync } from 'node:fs';
 
 const checks = {
+  'dist/belvidere_il/index.html': ['Reference data', 'CPIAUCNS', 'sub-est2025_17'],
   'dist/belvidere_il/taxes/2021/index.html': ['OCR read $3,860,790', 'page image (pdf p19) shows 3660790'],
   'dist/belvidere_il/taxes/2027/index.html': ['$20,998,468', '-$532,141', '$20,466,327', 'FY2027 gross taxes by category', 'Download CSV', 'EX-telecom-class', 'Seen in the source:', 'notes on these numbers', '753H-An-Ordinance-Budgeting-for-All-Corporate-Purposes-for-the-City-of-Belvidere-Boone-County-for-Fiscal-Year-Beginning-May-1-2026-and-Ending-April-30-2027.pdf#page=5'],
   'dist/belvidere_il/taxes/index.html': ['FY2027 adopted gross taxes', '$21.00M', 'above the budget in 14 of 15 audited years', 'Adopted gross taxes by category',
-    'Taxes: budget vs audited actual', 'Audited actual vs budget, percent by group and year', 'Adopted offsets by category', 'EX-telecom-group', 'EX-replacement-net', 'aria-label="Chart filters"', 'id="composition"', 'id="heatmap"'],
+    'Taxes: budget vs audited actual', 'Audited actual vs budget, percent by group and year', 'Adopted offsets by category', 'per resident went from $745 in FY2014 to $801 in FY2027', 'id="eav"', 'EX-telecom-group', 'EX-replacement-net', 'aria-label="Chart filters"', 'id="composition"', 'id="heatmap"'],
   'dist/belvidere_il/expenses/index.html': ['$36.2M', 'General Fund expenses over time', 'id="by-function"', 'id="by-object"', 'aria-label="Chart filters"',
     'General Administration', '$20,140,228', 'EX-fund-expense-5050'],
   'dist/belvidere_il/expenses/audit/index.html': ['14 of 15', 'id="budget-vs-actual"', 'id="heatmap"', 'id="multiples"', 'EX-audit-transfers-excluded', 'How the audit and the budget line up',

@@ -42,6 +42,9 @@ DATASET_COLUMNS = {
                       "employer_contribution_actual", "contribution_deficiency", "money_weighted_return_pct", "pdf_page", "source_url", "exception_ids"],
     "opeb_liability": ["fiscal_year", "basis", "total_opeb_liability", "service_cost", "interest", "benefit_payments", "actuarial_accrued_liability",
                        "net_opeb_obligation", "annual_opeb_cost", "contributions", "pdf_page", "source_url", "exception_ids"],
+    "reference": ["fiscal_year", "population", "population_year", "population_flag", "cpi_fy_avg", "cpi_months", "cpi_flag", "cpi_base_fy", "cpi_factor",
+                  "eav_levy_year", "eav_city", "eav_flag", "exception_ids"],
+    "reference_sources": ["series", "description", "publisher", "identifier", "url", "retrieved_on", "terms", "method"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }

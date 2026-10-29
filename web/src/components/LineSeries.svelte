@@ -8,19 +8,21 @@
   import { inRange } from '../lib/urlParams';
   import { fy, pivot, emptyNote, moneyTick, millions } from '../lib/chart';
   import { dollars } from '../lib/format';
+  import { scaleValue, isCapita, unitPhrase, unitNote, type Ref } from '../lib/units';
 
   type Row = { fiscal_year: number; series: string; value: number; exception_ids?: string[] };
   // `kind` picks the number format (functions cannot be passed from an Astro page into an island)
-  let { id, rows: allRows, series, title, filename, note = '', kind, reference = null, exceptions = {} }: {
+  let { id, rows: allRows, series, title, filename, note = '', kind, reference = null, exceptions = {}, units }: {
     id: string; rows: Row[]; series: { name: string; color: string }[]; title: string; filename: string; note?: string;
-    kind: 'money' | 'months' | 'percent'; exceptions?: Record<string, Exception>;
+    kind: 'money' | 'months' | 'percent'; exceptions?: Record<string, Exception>; units?: Ref;
     reference?: { value: number; label: string; color: string } | null;
   } = $props();
 
   const tick = (v: number) => (kind === 'money' ? moneyTick(v) : kind === 'percent' ? `${v}%` : String(v));
-  const label = (v: number) => (kind === 'money' ? millions(v, 1) : kind === 'percent' ? `${v.toFixed(1)}%` : v.toFixed(1));
+  const label = (v: number) => (kind === 'money' ? (isCapita(unit) ? `$${Math.round(v).toLocaleString('en-US')}` : millions(v, 1)) : kind === 'percent' ? `${v.toFixed(1)}%` : v.toFixed(1));
   const valueTitle = (v: number) => (kind === 'money' ? dollars(v) : kind === 'percent' ? `${v.toFixed(1)}%` : `${v.toFixed(1)} months`);
-  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const unit = $derived(kind === 'money' ? url.unit : null);
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)).map((r) => ({ ...r, value: scaleValue(r.value, r.fiscal_year, unit, units) })));
   const names = $derived(series.map((s) => s.name));
   const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
   const table = $derived(pivot(rows, 'fiscal_year', 'series', 'value', names));
@@ -47,6 +49,6 @@
   }
 </script>
 
-<ChartFrame {id} {title} {note} rows={table.rows} columns={table.columns} {filename} {exceptionIds} {exceptions}>
+<ChartFrame {id} title={unitPhrase(unit, units) ? `${title} (${unitPhrase(unit, units)})` : title} note={[note, unitNote(unit, units, [...new Set(rows.map((r) => r.fiscal_year))])].filter(Boolean).join(' ')} rows={table.rows} columns={table.columns} {filename} {exceptionIds} {exceptions}>
   <PlotHost {build} label={`${title}: line chart by fiscal year; the Table view has every number`} />
 </ChartFrame>

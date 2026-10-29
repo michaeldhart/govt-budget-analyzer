@@ -2,11 +2,12 @@
   // Filters for the charts on the page. They live in the URL (?from=&to=&hide=), so a link reproduces the view.
   import { onMount } from 'svelte';
   import { url, initUrlState, setRange, setHidden, resetFilters } from '../lib/urlState.svelte';
+  import UnitPicker from './UnitPicker.svelte';
 
-  let { years, categories }: { years: number[]; categories: { name: string; color: string }[] } = $props();
+  let { years, categories, unitBase = null }: { years: number[]; categories: { name: string; color: string }[]; unitBase?: number | null } = $props();
   onMount(initUrlState);
 
-  const changed = $derived(url.from != null || url.to != null || url.hide.length > 0);
+  const changed = $derived(url.from != null || url.to != null || url.hide.length > 0 || url.unit != null);
   const num = (v: string) => (v === '' ? null : Number(v));
 </script>
 
@@ -32,6 +33,7 @@
       </label>
     {/each}
   </fieldset>
+  {#if unitBase}<UnitPicker base={unitBase} />{/if}
   <button type="button" onclick={resetFilters} disabled={!changed}>Reset</button>
 </form>
 

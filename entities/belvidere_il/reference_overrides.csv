@@ -1,0 +1,2 @@
+series,key,value,reason,exception_id
+eav_city,2011,352948663,"The FY2015 audit prints the 2011 levy year city EAV as 352,948,663 and the FY2016 audit as 351,948,663 (one million lower). The 2011 tax extensions and rates support 352,948,663: 4,761,751 total extensions / 1.34923% = 352,931,000, so the FY2016 figure is a typo.",EX-eav-fy2016-2011-typo

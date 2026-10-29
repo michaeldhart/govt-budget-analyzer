@@ -605,6 +605,43 @@ def opeb_liability(E, read):
         rows=rows)
 
 
+def reference(E, read):
+    """Population, price level and assessed valuation by fiscal year, for per-resident and inflation-adjusted views."""
+    sources = {r["series"]: r for r in E.table("reference_sources.csv")}
+    rows = []
+    for r in read("reference_by_fy.csv"):
+        rows.append(dict(
+            fiscal_year=int(r["fiscal_year"]), population=int(r["population"]), population_year=int(r["population_year"]), population_flag=r["population_flag"],
+            cpi_fy_avg=float(r["cpi_fy_avg"]), cpi_months=int(r["cpi_months"]), cpi_flag=r["cpi_flag"], cpi_base_fy=int(r["cpi_base_fy"]), cpi_factor=float(r["cpi_factor"]),
+            eav_levy_year=int(r["eav_levy_year"]), eav_city=num(r["eav_city"]), eav_flag=r["eav_flag"],
+            exception_ids=ids(r["eav_flag"]) if r["eav_flag"].startswith("EX-") else []))
+    return dict(
+        title="Population, price level and assessed valuation by fiscal year",
+        description="Reference series for per-resident and inflation-adjusted views. Sources: " + "; ".join(f"{k}: {v['publisher']} ({v['identifier']})" for k, v in sources.items()) +
+                    ". Full descriptions and methods are in the sources list.",
+        sources=["reference_by_fy.csv", "entities/<id>/reference_sources.csv"],
+        columns=dict(fiscal_year="fiscal year (May-April)", population="resident population estimate (July 1 of the year before the fiscal year ends)",
+                     population_year="the July 1 the estimate is for", population_flag="carried_forward when the next estimate is not yet published",
+                     cpi_fy_avg="mean CPI-U (1982-84=100) over the fiscal year's months", cpi_months="months averaged", cpi_flag="provisional (year not over) or missing_month:YYYY-MM",
+                     cpi_base_fy="the fiscal year whose dollars the factor expresses", cpi_factor="multiply a nominal amount by this to get constant base-year dollars",
+                     eav_levy_year="the tax levy year collected in this fiscal year (levy year + 2 = fiscal year)", eav_city="city equalized assessed valuation of that levy year, dollars",
+                     eav_flag="exception id when the audits disagree", exception_ids="exceptions about this row"),
+        rows=rows)
+
+
+def reference_sources(E, read):
+    """Where each reference series comes from and how it is used."""
+    rows = [dict(series=r["series"], description=r["description"], publisher=r["publisher"], identifier=r["identifier"], url=r["url"],
+                 retrieved_on=r["retrieved_on"], terms=r["terms"], method=r["method"]) for r in E.table("reference_sources.csv")]
+    return dict(
+        title="Reference series: sources",
+        description="Population, price level and assessed valuation: publisher, identifier, link, when it was retrieved and how it is turned into a fiscal-year value.",
+        sources=["entities/<id>/reference_sources.csv"],
+        columns=dict(series="cpi | population | eav", description="what the series is", publisher="who publishes it", identifier="series or file id", url="where to find it",
+                     retrieved_on="date the snapshot was taken", terms="terms of use", method="how the fiscal-year value is built"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -653,6 +690,8 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "debt_payments": (debt_payments, ["debt_service_schedule.csv", "documents.csv"]),
     "pension_plans": (pension_plans, ["pension_summary.csv", "documents.csv"]),
     "opeb_liability": (opeb_liability, ["opeb_rollforward.csv", "documents.csv"]),
+    "reference": (reference, ["reference_by_fy.csv"]),
+    "reference_sources": (reference_sources, ["reference_by_fy.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),

@@ -1,12 +1,14 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
 import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import BudgetVsActual from '../../../components/BudgetVsActual.svelte';
 import VarianceHeatmap from '../../../components/VarianceHeatmap.svelte';
 import TaxFilters from '../../../components/TaxFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, percent, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -39,6 +41,9 @@ const sortedVar = audited.map((r: any) => r.variance_pct).sort((a: number, b: nu
 const median = sortedVar.length % 2 ? sortedVar[(sortedVar.length - 1) / 2] : (sortedVar[sortedVar.length / 2 - 1] + sortedVar[sortedVar.length / 2]) / 2;
 const biggest = audited.reduce((a: any, b: any) => (Math.abs(b.variance_pct) > Math.abs(a.variance_pct) ? b : a));
 const latest = audited.at(-1);
+const ref = referenceFor(entity);
+const refRows: any[] = ref ? readData(entity, 'reference.json').rows : [];
+const eavRows = refRows.filter((r) => r.eav_city != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'City equalized assessed valuation', value: r.eav_city, exception_ids: r.exception_ids }));
 const exTaxes = exceptionsUsedBy(entity, byCat), exAudit = exceptionsUsedBy(entity, bva); // each chart gets only the entries its own rows use
 const pct = (v: number, d = 0) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(d)}%`;
 
@@ -62,21 +67,30 @@ const growth = cats.map((c: any) => ({ name: c.name, delta: catAt(c.name, last) 
   <h2>What stands out</h2>
   <ul>
     <li>Adopted gross taxes grew from {millions(g0)} in {fyLabel(first)} to {millions(g1, 2)} in {fyLabel(last)}, {(cagr * 100).toFixed(1)}% a year, before inflation.</li>
+    {ref && <li>Adjusted for inflation and divided by the city's population, adopted gross taxes per resident went from {dollars(Math.round(g0 * ref.units[first].factor / ref.units[first].population))} in {fyLabel(first)} to {dollars(Math.round(g1 * ref.units[last].factor / ref.units[last].population))} in {fyLabel(last)}, in FY{ref.base} dollars ({pct((g1 * ref.units[last].factor / ref.units[last].population) / (g0 * ref.units[first].factor / ref.units[first].population) - 1)}). Pick “Per resident, inflation-adjusted” under Dollars below to see every chart that way. {ref.units[last].cpi_flag === 'provisional' ? `${fyLabel(last)} uses the price level of the months published so far.` : ''}</li>}
     <li>The largest increases since {fyLabel(first)}: {growth.map((g: any) => `${g.name} (+${millions(g.delta, 2)})`).join(', ')}.</li>
     <li>Audited actual taxes were above the budget in {above.length} of {audited.length} audited years (median {pct(median)}); the largest gap was {fyLabel(biggest.fiscal_year)} at {pct(biggest.variance_pct)}.</li>
     <li>The latest audit, {fyLabel(latest.fiscal_year)}: {millions(latest.actual, 2)} collected against a {millions(latest.budget, 2)} budget ({pct(latest.variance_pct, 1)}).</li>
   </ul>
 
   <h2>Composition by year</h2>
-  <TaxFilters client:load years={allYears} categories={cats} />
+  <TaxFilters client:load years={allYears} categories={cats} unitBase={ref?.base ?? null} />
   <p class="muted small-note">Filters apply to every chart below (the category filter to the composition and offsets charts) and are saved in the page address, so a link shows the same view. The summary above always covers the full period.</p>
   <p class="muted">Each column is that year's adopted budget. Click “Table” on any chart to see its numbers, or download them. <a href={href(`/${entity}/taxes/${last}/`)}>See every line for {fyLabel(last)}</a>, or pick another year there.</p>
-  <StackedBars client:load id="composition" respectHide exceptions={exTaxes} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES').map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.gross_tax, exception_ids: r.exception_ids }))}
+  <StackedBars client:load id="composition" respectHide exceptions={exTaxes} units={ref?.units} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES').map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.gross_tax, exception_ids: r.exception_ids }))}
     series={cats} ink={palette.ink} title="Adopted gross taxes by category" filename="taxes-adopted-by-category.csv" totalLabel="All taxes" />
+
+  {ref && (<>
+    <h2>The property tax base</h2>
+    <p class="muted">Property tax is the largest tax. It is levied on the equalized assessed valuation (EAV) of the property in the city; the tax collected in a fiscal year is levied on the valuation of two tax years earlier.</p>
+    <LineSeries client:load id="eav" exceptions={exTaxes} rows={eavRows} series={[{ name: 'City equalized assessed valuation', color: '#2a78d6' }]} kind="money"
+      title="City equalized assessed valuation, by the fiscal year its tax is collected" filename="taxes-assessed-valuation.csv"
+      note="From the audits' schedules of assessed valuations, tax rates and tax extensions. The tax levy year is two years before the fiscal year shown. Not adjusted for inflation." />
+  </>)}
 
   <h2>Offsets</h2>
   <p class="muted">Sales and property tax rebated to developers, and the replacement tax passed to the pension funds, are subtracted from gross taxes to get net.</p>
-  <StackedBars client:load id="offsets" respectHide negative exceptions={exTaxes} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES' && r.offsets !== 0).map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.offsets, exception_ids: r.exception_ids }))}
+  <StackedBars client:load id="offsets" respectHide negative exceptions={exTaxes} units={ref?.units} rows={byCat.filter((r: any) => r.category !== 'ALL TAXES' && r.offsets !== 0).map((r: any) => ({ fiscal_year: r.fiscal_year, series: r.category, value: r.offsets, exception_ids: r.exception_ids }))}
     series={cats.filter((c: any) => byCat.some((r: any) => r.category === c.name && r.offsets !== 0))} ink={palette.ink} title="Adopted offsets by category"
     filename="taxes-adopted-offsets.csv" totalLabel="All offsets" />
 

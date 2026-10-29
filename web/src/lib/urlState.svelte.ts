@@ -1,6 +1,6 @@
 // One reactive copy of the query-string state, shared by every island on the page (they are separate Svelte roots,
 // but this module is bundled once). Read the URL after hydration (initUrlState from onMount) so server and client markup agree.
-import { emptyState, parse, serialize, type UrlState } from './urlParams';
+import { emptyState, parse, serialize, type Unit, type UrlState } from './urlParams';
 
 export const url: UrlState & { ready: boolean } = $state({ ...emptyState(), ready: false });
 
@@ -21,4 +21,5 @@ export function setTable(id: string, on: boolean) { url.table = toggle(url.table
 export function setHidden(name: string, hidden: boolean) { url.hide = toggle(url.hide, name, hidden); persist(); }
 export function setRange(from: number | null, to: number | null) { url.from = from; url.to = to; persist(); }
 export function setDept(code: string | null) { url.dept = code || null; persist(); }
-export function resetFilters() { url.from = null; url.to = null; url.hide = []; url.dept = null; persist(); }
+export function setUnit(u: Unit | null) { url.unit = u; persist(); }
+export function resetFilters() { url.from = null; url.to = null; url.hide = []; url.dept = null; url.unit = null; persist(); }

@@ -7,16 +7,17 @@
   import { url } from '../lib/urlState.svelte';
   import { inRange } from '../lib/urlParams';
   import { fy, moneyTick, millions, emptyNote } from '../lib/chart';
+  import { scaleValue, isCapita, unitPhrase, unitNote, type Ref } from '../lib/units';
 
   type Row = { fiscal_year: number; value: number; exception_ids?: string[] };
-  let { id, rows: allRows, title, filename, note = '', up, down, ink, valueLabel = 'Amount ($)', exceptions = {} }: {
-    id: string; rows: Row[]; title: string; filename: string; note?: string; up: string; down: string; ink: string; valueLabel?: string; exceptions?: Record<string, Exception>;
+  let { id, rows: allRows, title, filename, note = '', up, down, ink, valueLabel = 'Amount ($)', exceptions = {}, units }: {
+    id: string; rows: Row[]; title: string; filename: string; note?: string; up: string; down: string; ink: string; valueLabel?: string; exceptions?: Record<string, Exception>; units?: Ref;
   } = $props();
 
-  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)).map((r) => ({ ...r, value: scaleValue(r.value, r.fiscal_year, url.unit, units) })));
   const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
   const columns = $derived([{ key: 'fiscal_year', label: 'Fiscal year' }, { key: 'value', label: valueLabel }]);
-  const fmt = (v: number) => (v < 0 ? '-' : '+') + millions(Math.abs(v), 1);
+  const fmt = (v: number) => (v < 0 ? '-' : '+') + (isCapita(url.unit) ? `$${Math.round(Math.abs(v)).toLocaleString('en-US')}` : millions(Math.abs(v), 1));
 
   function build(width: number) {
     if (!rows.length) return emptyNote();
@@ -39,6 +40,6 @@
   }
 </script>
 
-<ChartFrame {id} {title} {note} {rows} {columns} {filename} {exceptionIds} {exceptions}>
+<ChartFrame {id} title={unitPhrase(url.unit, units) ? `${title} (${unitPhrase(url.unit, units)})` : title} note={[note, unitNote(url.unit, units, [...new Set(rows.map((r) => r.fiscal_year))])].filter(Boolean).join(' ')} {rows} {columns} {filename} {exceptionIds} {exceptions}>
   <PlotHost {build} label={`${title}: bar chart by fiscal year; the Table view has every number`} />
 </ChartFrame>

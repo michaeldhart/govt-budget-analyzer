@@ -229,3 +229,23 @@ def test_corrections_show_the_raw_reading_next_to_the_final_value(table):
     gf = [r for r in corr if r["doc_id"].endswith("_budget") and r["fund"] == "General"]
     auto_rows = {(r["doc_id"], r["page_label"], r["account_printed"]) for r in gf if r["method"].startswith("auto_resolved")}
     assert len(auto_rows) == 16 and sum(1 for r in gf if r["method"] == "add_row") == 2  # the extracts flag 16 lines auto_resolved, 2 added by override
+
+
+def test_reference_series_by_fiscal_year(table, entity):
+    """Population, price level and assessed valuation (T2): complete, flagged where provisional, and tied to their sources."""
+    rows = {int(r["fiscal_year"]): r for r in table("reference_by_fy")}
+    assert sorted(rows) == list(range(2012, 2028))
+    assert all(r["population"] and r["cpi_fy_avg"] and r["eav_city"] for r in rows.values())
+    assert float(rows[2026]["cpi_factor"]) == 1.0 and rows[2026]["cpi_flag"] == "missing_month:2025-10" and rows[2026]["cpi_months"] == "11"  # no October 2025 CPI exists
+    assert rows[2027]["cpi_flag"] == "provisional" and rows[2027]["population_flag"] == "carried_forward"
+    factors = [float(rows[y]["cpi_factor"]) for y in range(2012, 2027)]
+    assert factors == sorted(factors, reverse=True)  # prices rose every fiscal year, so earlier dollars are scaled up more
+    pops = {y: int(rows[y]["population"]) for y in rows}
+    assert pops[2012] == 25584 and pops[2021] == 25274 and pops[2026] == 25462 and all(24000 < p < 26500 for p in pops.values())
+    assert {int(r["eav_levy_year"]) - int(r["fiscal_year"]) for r in rows.values()} == {-2}  # levy year L is collected in fiscal year L+2
+    assert int(rows[2026]["eav_city"]) == 515737006 and int(rows[2027]["eav_city"]) == 601493726
+    assert rows[2013]["eav_flag"] == "EX-eav-fy2016-2011-typo" and int(rows[2013]["eav_city"]) == 352948663  # the one place two audits disagree
+    src = {r["series"] for r in entity.table("reference_sources.csv")}
+    assert src == {"cpi", "population", "eav"} and all(r["url"].startswith("https://") and r["retrieved_on"] for r in entity.table("reference_sources.csv"))
+    ex = {r["exception_id"] for r in entity.exceptions()}
+    assert {r["eav_flag"] for r in rows.values() if r["eav_flag"]} <= ex

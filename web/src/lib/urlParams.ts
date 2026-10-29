@@ -3,15 +3,19 @@
 //   &hide=Utility+taxes        categories switched off (repeat the parameter)
 //   &table=composition         charts shown as a table instead of a chart (repeat the parameter)
 //   &dept=210                  one department (code) instead of all of them (expenses page)
-export type UrlState = { from: number | null; to: number | null; hide: string[]; table: string[]; dept: string | null };
+//   &unit=real                 dollars shown as real (inflation-adjusted), capita (per resident) or real_capita; absent = as reported
+export const UNITS = ['real', 'capita', 'real_capita'] as const;
+export type Unit = (typeof UNITS)[number];
+export type UrlState = { from: number | null; to: number | null; hide: string[]; table: string[]; dept: string | null; unit: Unit | null };
 
-export const emptyState = (): UrlState => ({ from: null, to: null, hide: [], table: [], dept: null });
+export const emptyState = (): UrlState => ({ from: null, to: null, hide: [], table: [], dept: null, unit: null });
 
 const year = (v: string | null): number | null => (v && /^\d{4}$/.test(v) ? Number(v) : null);
 
 export function parse(search: string): UrlState {
   const p = new URLSearchParams(search);
-  return { from: year(p.get('from')), to: year(p.get('to')), hide: [...new Set(p.getAll('hide'))], table: [...new Set(p.getAll('table'))], dept: p.get('dept') || null };
+  return { from: year(p.get('from')), to: year(p.get('to')), hide: [...new Set(p.getAll('hide'))], table: [...new Set(p.getAll('table'))], dept: p.get('dept') || null,
+    unit: (UNITS as readonly string[]).includes(p.get('unit') ?? '') ? (p.get('unit') as Unit) : null };
 }
 
 /** Query string without the leading '?'; defaults are left out so an untouched page keeps a clean URL. */
@@ -22,6 +26,7 @@ export function serialize(s: UrlState): string {
   s.hide.forEach((h) => p.append('hide', h));
   s.table.forEach((t) => p.append('table', t));
   if (s.dept) p.set('dept', s.dept);
+  if (s.unit) p.set('unit', s.unit);
   return p.toString();
 }
 

@@ -2,12 +2,13 @@
   // Year range and department for the expense charts; both live in the URL (?from=&to=&dept=).
   import { onMount } from 'svelte';
   import { url, initUrlState, setRange, setDept, resetFilters } from '../lib/urlState.svelte';
+  import UnitPicker from './UnitPicker.svelte';
 
-  let { years, departments = [], showDept = true }: { years: number[]; departments?: { code: string; name: string; function: string }[]; showDept?: boolean } = $props();
+  let { years, departments = [], showDept = true, unitBase = null }: { years: number[]; departments?: { code: string; name: string; function: string }[]; showDept?: boolean; unitBase?: number | null } = $props();
   onMount(initUrlState);
 
   const functions = $derived([...new Set(departments.map((d) => d.function))]);
-  const changed = $derived(url.from != null || url.to != null || url.dept != null);
+  const changed = $derived(url.from != null || url.to != null || url.dept != null || url.unit != null);
   const num = (v: string) => (v === '' ? null : Number(v));
 </script>
 
@@ -34,6 +35,7 @@
       {/each}
     </select>
   </label>{/if}
+  {#if unitBase}<UnitPicker base={unitBase} />{/if}
   <button type="button" onclick={resetFilters} disabled={!changed}>Reset</button>
 </form>
 

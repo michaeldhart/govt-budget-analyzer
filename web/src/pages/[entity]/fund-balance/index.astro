@@ -6,6 +6,7 @@ import ValueBars from '../../../components/ValueBars.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -37,6 +38,7 @@ const netRows = gf.map((r) => ({ fiscal_year: r.fiscal_year, value: r.net_change
 const surplus = gf.filter((r) => r.excess_revenues_over_expenditures > 0);
 const fell = gf.filter((r) => r.net_change < 0);
 const cagr = (last.total_fund_balance / first.total_fund_balance) ** (1 / (last.fiscal_year - first.fiscal_year)) - 1;
+const ref = referenceFor(entity);
 const exceptionMap = exceptionsUsedBy(entity, gf);
 const used = new Set<string>(gf.flatMap((r) => r.exception_ids));
 const keyEx = [...used].filter((id) => exceptions[id] && id !== 'EX-fund-stmt-columns');
@@ -63,11 +65,11 @@ const monthsText = (v: number) => `${v.toFixed(1)} months`;
     <li>The unassigned balance covered {monthsText(first.unassigned_months)} of that year's expenditures in {fyLabel(first.fiscal_year)}, {lowMid.toFixed(1)}–{highMid.toFixed(1)} months in FY2016–FY2020, and {monthsText(last.unassigned_months)} in {fyLabel(last.fiscal_year)}. The Government Finance Officers Association recommends keeping at least two months of operating expenditures in reserve.</li>
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
 
   <h2>What the balance is made of</h2>
-  <StackedBars client:load exceptions={exceptionMap} id="balance" ink={palette.ink} series={cats.map(({ name, color }) => ({ name, color }))} rows={balanceRows}
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="balance" ink={palette.ink} series={cats.map(({ name, color }) => ({ name, color }))} rows={balanceRows}
     title="General Fund balance by category" filename="fund-balance-by-category.csv" totalLabel="Total fund balance"
     note="Nonspendable: prepaid items and inventory. Restricted: limited by law or outside parties. Committed and assigned: set aside by the council or management. Unassigned: free to spend. The FY2012 audit used different categories, so the split is not comparable with later years." />
 
@@ -79,11 +81,11 @@ const monthsText = (v: number) => `${v.toFixed(1)} months`;
     note="Unassigned fund balance divided by that year's General Fund expenditures, times 12." />
 
   <h2>Revenues and spending</h2>
-  <LineSeries client:load exceptions={exceptionMap} id="flows" rows={flowRows} series={[{ name: 'Revenues', color: '#1baf7a' }, { name: 'Expenditures', color: '#eb6834' }]}
+  <LineSeries client:load exceptions={exceptionMap} units={ref?.units} id="flows" rows={flowRows} series={[{ name: 'Revenues', color: '#1baf7a' }, { name: 'Expenditures', color: '#eb6834' }]}
     title="General Fund revenues and expenditures (audited, before transfers)" filename="fund-balance-revenues-expenditures.csv"
     kind="money"
     note="Audited actuals. Transfers out to other funds are not expenditures here; they appear in the change in fund balance below." />
-  <ValueBars client:load exceptions={exceptionMap} id="net-change" rows={netRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Net change in fund balance ($)"
+  <ValueBars client:load exceptions={exceptionMap} units={ref?.units} id="net-change" rows={netRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Net change in fund balance ($)"
     title="Net change in General Fund balance (after transfers and other financing)" filename="fund-balance-net-change.csv"
     note="Revenues minus expenditures, plus other financing sources and uses (mostly transfers out)." />
 
