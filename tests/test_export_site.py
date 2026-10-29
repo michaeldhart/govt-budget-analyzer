@@ -38,6 +38,10 @@ DATASET_COLUMNS = {
     "debt_issues": ["fiscal_year", "activity", "activity_label", "issue", "interest_rate", "maturity", "ending_balance", "current_portion", "pdf_page", "source_url",
                     "exception_ids"],
     "debt_payments": ["fiscal_year", "activity", "instrument", "year_ending", "principal", "interest", "total", "pdf_page", "source_url", "exception_ids"],
+    "pension_plans": ["fiscal_year", "plan", "plan_name", "basis", "measured", "funded_ratio_pct", "tpl", "fnp", "npl", "covered_payroll", "adc",
+                      "employer_contribution_actual", "contribution_deficiency", "money_weighted_return_pct", "pdf_page", "source_url", "exception_ids"],
+    "opeb_liability": ["fiscal_year", "basis", "total_opeb_liability", "service_cost", "interest", "benefit_payments", "actuarial_accrued_liability",
+                       "net_opeb_obligation", "annual_opeb_cost", "contributions", "pdf_page", "source_url", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }
@@ -274,3 +278,22 @@ def test_debt_datasets_tie_to_the_printed_totals(site, table):
     assert all(sums[k] == v for k, v in tot.items() if k in sums) and len(set(tot) & set(sums)) > 30  # scheduled principal adds up to each schedule's printed total
     iss = site(ENTITY, "debt_issues.json")["rows"]
     assert any(r["fiscal_year"] == 2026 and "L17-3623" in r["issue"] and r["ending_balance"] == 3363682 for r in iss)
+
+
+def test_pension_and_opeb_datasets_tie_to_the_debt_note(site, table):
+    rows = site(ENTITY, "pension_plans.json")["rows"]
+    assert {r["plan"] for r in rows} == {"police", "fire", "imrf_regular", "imrf_slep", "imrf_eco"}
+    full = [r for r in rows if None not in (r["tpl"], r["fnp"], r["npl"])]
+    assert len(full) > 40 and all(abs(r["tpl"] - r["fnp"] - r["npl"]) <= 1 for r in full)  # NPL = TPL - plan assets
+    for r in full:
+        if r["funded_ratio_pct"] is not None and r["tpl"]:
+            assert abs(r["funded_ratio_pct"] - 100 * r["fnp"] / r["tpl"]) < 0.15, r  # the printed funded ratio matches the amounts
+    by = {(r["plan"], r["fiscal_year"]): r for r in rows}
+    debt = {(r["name"], r["fiscal_year"], r["activity"]): r["ending"] for r in site(ENTITY, "debt_balances.json")["rows"]}
+    assert by[("police", 2026)]["npl"] == debt[("Police pension (net liability)", 2026, "governmental")] == 13038841  # the pension note equals the debt note
+    assert by[("fire", 2026)]["npl"] == debt[("Fire pension (net liability)", 2026, "governmental")] == 11165134
+    assert by[("police", 2026)]["funded_ratio_pct"] == 75.6 and by[("police", 2013)]["basis"] == "GASB 27" and by[("police", 2016)]["basis"] == "GASB 68"
+    assert by[("imrf_regular", 2026)]["measured"] == "December 31 2025" and by[("imrf_regular", 2026)]["npl"] < 0  # IMRF regular is over-funded
+    o = {r["fiscal_year"]: r for r in site(ENTITY, "opeb_liability.json")["rows"]}
+    assert o[2026]["total_opeb_liability"] == 9825889 == debt[("Retiree health benefits (OPEB)", 2026, "governmental")] + debt[("Retiree health benefits (OPEB)", 2026, "business_type")]
+    assert o[2018]["basis"] == "GASB 45" and o[2018]["total_opeb_liability"] is None and o[2019]["basis"] == "GASB 75" and o[2019]["actuarial_accrued_liability"] is None

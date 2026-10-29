@@ -1,0 +1,107 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LineSeries from '../../../components/LineSeries.svelte';
+import SmallMultiples from '../../../components/SmallMultiples.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('pension_plans')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const plans: any[] = readData(entity, 'pension_plans.json').rows;
+const opeb: any[] = readData(entity, 'opeb_liability.json').rows;
+const exceptions = exceptionsUsedBy(entity, plans, opeb);
+const years = [...new Set(plans.map((r) => r.fiscal_year))].sort();
+const last = years.at(-1)!;
+const SHOWN = ['police', 'fire', 'imrf_regular', 'imrf_slep'];
+const SHORT: Record<string, string> = { police: 'Police', fire: 'Fire', imrf_regular: 'IMRF regular', imrf_slep: 'IMRF SLEP' };
+const COLOR: Record<string, string> = { police: '#2a78d6', fire: '#eb6834', imrf_regular: '#1baf7a', imrf_slep: '#eda100' };
+const at = (plan: string, fy: number) => plans.find((r) => r.plan === plan && r.fiscal_year === fy);
+const series = (key: string, ps = SHOWN) => plans.filter((r) => ps.includes(r.plan) && r[key] != null).map((r) => ({ fiscal_year: r.fiscal_year, series: SHORT[r.plan], value: r[key], exception_ids: r.exception_ids }));
+const plansUsed = (rows: any[]) => SHOWN.filter((p) => rows.some((r) => r.series === SHORT[p])).map((p) => ({ name: SHORT[p], color: COLOR[p] }));
+
+const funded = series('funded_ratio_pct'), npl = series('npl').filter((r) => plans.find((p) => p.fiscal_year === r.fiscal_year && SHORT[p.plan] === r.series)!.basis === 'GASB 68');
+const ret = series('money_weighted_return_pct', ['police', 'fire']);
+const contrib = plans.filter((r) => SHOWN.includes(r.plan) && r.adc != null).map((r) => ({ fiscal_year: r.fiscal_year, group: SHORT[r.plan], budget: r.adc, actual: r.employer_contribution_actual, exception_ids: r.exception_ids }));
+const groups = SHOWN.map((p) => ({ name: SHORT[p], color: COLOR[p] }));
+const opebRows = [
+  ...opeb.filter((r) => r.total_opeb_liability != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Total OPEB liability (GASB 75)', value: r.total_opeb_liability, exception_ids: r.exception_ids })),
+  ...opeb.filter((r) => r.actuarial_accrued_liability != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Actuarial accrued liability (GASB 45)', value: r.actuarial_accrued_liability, exception_ids: r.exception_ids })),
+  ...opeb.filter((r) => r.net_opeb_obligation != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Net OPEB obligation on the balance sheet (GASB 45)', value: r.net_opeb_obligation, exception_ids: r.exception_ids })),
+];
+
+const pol = at('police', last)!, fir = at('fire', last)!, imrf = at('imrf_regular', last)!;
+const polFirst = plans.filter((r) => r.plan === 'police' && r.funded_ratio_pct != null).sort((a, b) => a.fiscal_year - b.fiscal_year)[0];
+const firFirst = plans.filter((r) => r.plan === 'fire' && r.funded_ratio_pct != null).sort((a, b) => a.fiscal_year - b.fiscal_year)[0];
+const npl2 = pol.npl + fir.npl;
+const tol = opeb.at(-1)!;
+const shortfall = plans.filter((r) => ['police', 'fire'].includes(r.plan) && r.fiscal_year === last).reduce((s, r) => s + (r.adc - r.employer_contribution_actual), 0);
+const underpaid = plans.filter((r) => ['police', 'fire'].includes(r.plan) && r.contribution_deficiency > 0);
+const firstGasb68 = Math.min(...plans.filter((r) => r.basis === 'GASB 68').map((r) => r.fiscal_year));
+const pct = (v: number) => `${v.toFixed(1)}%`;
+---
+<Base entity={entity} section="pensions" title={`Pensions and retiree health – ${meta.short_name}`} description={`${meta.name}: police, fire and IMRF pension funded status, contributions and retiree health liability from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Pensions</p>
+  <h1>Pensions and retiree health</h1>
+  <p class="muted">The city promises pensions to police officers and firefighters (two city-run funds) and to other employees through the state's Illinois Municipal Retirement Fund (IMRF), plus health benefits for retirees. From the audits' notes and required supplementary information, {fyLabel(years[0])}–{fyLabel(last)}. The funded ratio is the plan's assets as a percent of what it owes members.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} police funded ratio</dt><dd>{pct(pol.funded_ratio_pct)}</dd></div>
+    <div><dt>Fire funded ratio</dt><dd>{pct(fir.funded_ratio_pct)}</dd></div>
+    <div><dt>Police and fire net pension liability</dt><dd>{millions(npl2, 1)}</dd></div>
+    <div><dt>Retiree health (OPEB) liability</dt><dd>{millions(tol.total_opeb_liability, 1)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>The police pension was {pct(pol.funded_ratio_pct)} funded at the {fyLabel(last)} audit and the fire pension {pct(fir.funded_ratio_pct)}, up from {pct(polFirst.funded_ratio_pct)} and {pct(firFirst.funded_ratio_pct)} in {fyLabel(polFirst.fiscal_year)}. Together they are {millions(npl2, 1)} short of what they owe members (the net pension liability).</li>
+    <li>IMRF's regular plan, which covers most other employees, is {pct(imrf.funded_ratio_pct)} funded: its assets exceed its liability by {millions(-imrf.npl, 1)}.</li>
+    <li>{underpaid.length ? `In ${underpaid.length} plan-year${underpaid.length === 1 ? '' : 's'} the city paid less than the actuarially determined contribution (ADC), the amount the actuary says is needed to fund the plan (police and fire: ${underpaid.map((r: any) => `${SHORT[r.plan]} ${fyLabel(r.fiscal_year)}`).join(', ')}).` : 'The city paid at least the actuarially determined contribution every year.'} In {fyLabel(last)} police and fire contributions were {shortfall === 0 ? 'at the ADC' : shortfall > 0 ? `${millions(shortfall, 2)} below it` : `${millions(-shortfall, 2)} above it`}.</li>
+    <li>The retiree health liability was {millions(tol.total_opeb_liability, 1)} in {fyLabel(tol.fiscal_year)}. It is not funded: the city pays retirees' premiums as they come due.</li>
+    <li>The audits changed how pensions and retiree health are reported (pensions in {fyLabel(firstGasb68)}, retiree health in FY2019). Years before and after are different measures, so the charts show the two periods apart.</li>
+  </ul>
+
+  <ChartFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+
+  <h2>How well funded</h2>
+  <LineSeries client:load id="funded" exceptions={exceptions} rows={funded} series={plansUsed(funded)} kind="percent" title="Pension funded ratio" filename="pensions-funded-ratio.csv"
+    reference={{ value: 100, label: 'Fully funded', color: palette.ink2 }}
+    note="Plan assets as a percent of the actuarial liability. FY2013-FY2015 are the older 'funded status' (GASB 27); from FY2016 the audits report the full liability. IMRF is measured each December 31, so an audit year shows the year before." />
+
+  <h2>What they owe</h2>
+  <LineSeries client:load id="npl" exceptions={exceptions} rows={npl} series={plansUsed(npl)} kind="money" title="Net pension liability" filename="pensions-net-liability.csv"
+    note="Total pension liability minus plan assets, from FY2016 when the audits began reporting it (GASB 68). A negative number means the plan has more than it owes." />
+
+  <h2>What the city pays in</h2>
+  <SmallMultiples client:load id="contributions" filename="pensions-contributions.csv" subLabel="required" exceptions={exceptions} rows={contrib} groups={groups}
+    ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Actuarially determined contribution (line) and what the city paid (dots), by plan"
+    note="The actuarially determined contribution is the amount the plan's actuary calculates the city should pay each year. Where the dots sit below the line, the city paid less." />
+
+  <h2>Investment returns</h2>
+  <LineSeries client:load id="returns" exceptions={exceptions} rows={ret} series={plansUsed(ret)} kind="percent" title="Police and fire pension investment return" filename="pensions-returns.csv"
+    note="Money-weighted return on plan investments for the year ended April 30." />
+
+  <h2>Retiree health benefits</h2>
+  <LineSeries client:load id="opeb" exceptions={exceptions} rows={opebRows} kind="money" title="Retiree health (OPEB) liability"
+    series={[{ name: 'Actuarial accrued liability (GASB 45)', color: '#eda100' }, { name: 'Net OPEB obligation on the balance sheet (GASB 45)', color: '#b4b2a9' }, { name: 'Total OPEB liability (GASB 75)', color: '#2a78d6' }]}
+    filename="pensions-opeb.csv"
+    note="Until FY2018 the audits reported two smaller numbers (the actuary's accrued liability, in valuation years only, and the part recorded on the balance sheet); from FY2019 they report the full total OPEB liability. The measures are not comparable." />
+
+  <p class="muted">Members, assumptions, deferred items and the detailed roll-forwards are in the data. Data: <a href={href(`/data/${entity}/pension_plans.json`)}>pension plans by year</a> · <a href={href(`/data/${entity}/opeb_liability.json`)}>retiree health by year</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a>. For where this appears in the city's debt note, see the <a href={href(`/${entity}/debt/`)}>debt page</a>.</p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+</style>

@@ -11,6 +11,7 @@ const nav = entity ? [
   { id: 'audit', label: 'Audit vs budget', path: `/${entity}/expenses/audit/`, show: has('expenses_audit_vs_budget') },
   { id: 'water-sewer', label: 'Water/Sewer', path: `/${entity}/water-sewer/`, show: has('ws_summary') },
   { id: 'other-funds', label: 'Other funds', path: `/${entity}/other-funds/`, show: has('other_funds') },
+  { id: 'pensions', label: 'Pensions', path: `/${entity}/pensions/`, show: has('pension_plans') },
   { id: 'debt', label: 'Debt', path: `/${entity}/debt/`, show: has('debt_balances') },
   { id: 'fund-balance', label: 'Fund balance', path: `/${entity}/fund-balance/`, show: has('fund_balance') },
 ].filter((n) => n.show) : [];

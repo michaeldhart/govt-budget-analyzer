@@ -13,13 +13,13 @@
   // `kind` picks the number format (functions cannot be passed from an Astro page into an island)
   let { id, rows: allRows, series, title, filename, note = '', kind, reference = null, exceptions = {} }: {
     id: string; rows: Row[]; series: { name: string; color: string }[]; title: string; filename: string; note?: string;
-    kind: 'money' | 'months'; exceptions?: Record<string, Exception>;
+    kind: 'money' | 'months' | 'percent'; exceptions?: Record<string, Exception>;
     reference?: { value: number; label: string; color: string } | null;
   } = $props();
 
-  const tick = (v: number) => (kind === 'money' ? moneyTick(v) : String(v));
-  const label = (v: number) => (kind === 'money' ? millions(v, 1) : v.toFixed(1));
-  const valueTitle = (v: number) => (kind === 'money' ? dollars(v) : `${v.toFixed(1)} months`);
+  const tick = (v: number) => (kind === 'money' ? moneyTick(v) : kind === 'percent' ? `${v}%` : String(v));
+  const label = (v: number) => (kind === 'money' ? millions(v, 1) : kind === 'percent' ? `${v.toFixed(1)}%` : v.toFixed(1));
+  const valueTitle = (v: number) => (kind === 'money' ? dollars(v) : kind === 'percent' ? `${v.toFixed(1)}%` : `${v.toFixed(1)} months`);
   const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
   const names = $derived(series.map((s) => s.name));
   const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
@@ -29,11 +29,11 @@
     if (!rows.length) return emptyNote();
     const narrow = width < 520;
     const last = Math.max(...rows.map((r) => r.fiscal_year));
-    const top = Math.max(...rows.map((r) => r.value), reference?.value ?? 0);
+    const top = Math.max(...rows.map((r) => r.value), reference?.value ?? 0), bottom = Math.min(...rows.map((r) => r.value), 0);
     return Plot.plot({
       width, height: 300, marginLeft: 48, marginRight: narrow ? 40 : 56, style: { fontSize: '12px', background: 'transparent' },
       x: { label: null, tickFormat: fy, ticks: Math.min(8, new Set(rows.map((r) => r.fiscal_year)).size) },
-      y: { label: null, grid: true, tickFormat: tick, domain: [0, top * 1.1] },
+      y: { label: null, grid: true, tickFormat: tick, domain: [bottom * 1.15, top * 1.1] },
       color: { domain: names, range: series.map((s) => s.color), legend: names.length > 1 },
       marks: [
         Plot.lineY(rows, { x: 'fiscal_year', y: 'value', stroke: 'series', strokeWidth: 2.2 }),

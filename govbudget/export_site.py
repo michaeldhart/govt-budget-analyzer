@@ -517,6 +517,94 @@ def debt_payments(E, read):
         rows=rows)
 
 
+PLAN_NAME = {"police": "Police pension", "fire": "Fire pension", "imrf_regular": "IMRF (regular)", "imrf_slep": "IMRF (sheriff's law enforcement, SLEP)",
+             "imrf_eco": "IMRF (elected county officials)"}
+PENSION_MEASURES = ("funded_ratio_pct", "tpl", "fnp", "npl", "covered_payroll", "adc", "employer_contribution_actual", "contribution_deficiency",
+                    "money_weighted_return_pct")
+PENSION_EX_ALL = ("EX-adp-rsi-", "EX-adp-pension-", "EX-adp-gasb68", "EX-adp-fy2012-npo", "EX-adp-ocr-fixtok")
+PENSION_EX = {"police": ("EX-adp-police",), "fire": ("EX-adp-fire",), "imrf_regular": ("EX-adp-imrf",), "imrf_slep": ("EX-adp-imrf", "EX-adp-slep"), "imrf_eco": ("EX-adp-imrf",)}
+
+
+def pension_exceptions(E, plan, fy):
+    prefixes = PENSION_EX_ALL + PENSION_EX.get(plan, ())
+    return sorted(e["exception_id"] for e in E.exceptions() if e["exception_id"].startswith(prefixes) and in_range(e, fy))
+
+
+def pension_plans(E, read):
+    """Each pension plan's funded position and contributions by year, from the audits' notes and required supplementary information."""
+    urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+    first = {}  # (plan, measure, measurement year) -> the earliest audit that reports it (later audits repeat it)
+    for r in read("pension_summary.csv"):
+        if r["plan_id"] not in PLAN_NAME or r["measure"] not in PENSION_MEASURES or r["value"] in ("", None):
+            continue
+        k = (r["plan_id"], r["measure"], r["period_label"] or r["period_fy"])
+        if k not in first or int(r["period_fy"]) < int(first[k]["period_fy"]):
+            first[k] = r
+    cells = defaultdict(dict)
+    for (plan, measure, label), r in first.items():
+        fy = int(r["period_fy"])  # the audit year that reports it (IMRF is measured December 31 of the year before)
+        cells[(plan, fy)][measure] = r
+    rows = []
+    for (plan, fy), m in cells.items():
+        any_r = next(iter(m.values()))
+        d = dict(fiscal_year=fy, plan=plan, plan_name=PLAN_NAME[plan], basis="GASB 68" if any(x["source"] == "rsi" for x in m.values()) else "GASB 27",
+                 measured=("April 30" if plan in ("police", "fire") else "December 31") + (f" {fy - 1}" if plan not in ("police", "fire") else f" {fy}"))
+        for meas in PENSION_MEASURES:
+            r = m.get(meas)
+            d[meas] = None if r is None else (float(r["value"]) if r["unit"] == "pct" else int(float(r["value"])))
+        d.update(pdf_page=num(any_r["pdf_page"]), source_url=urls[any_r["doc_id"]], exception_ids=pension_exceptions(E, plan, fy))
+        rows.append(d)
+    rows.sort(key=lambda r: (r["plan"], r["fiscal_year"]))
+    return dict(
+        title="Pension plans by year",
+        description="Funded ratio, total pension liability (TPL), plan assets (fiduciary net position, FNP), net pension liability (NPL = TPL - FNP), covered payroll and "
+                    "contributions for the police and fire pensions and the three IMRF groups. FY2012-FY2015 audits (GASB 27) report only a funded status; from FY2016 "
+                    "(GASB 68) they report the full liability. Percentages are 0-100.",
+        sources=["pension_summary.csv"],
+        columns=dict(fiscal_year="the audit year that reports the figure", plan="plan id", plan_name="display name", basis="GASB 27 (to FY2015) or GASB 68",
+                     measured="the measurement date", funded_ratio_pct="plan assets as a percent of the actuarial liability",
+                     tpl="total pension liability, dollars", fnp="plan assets (fiduciary net position), dollars", npl="net pension liability, dollars",
+                     covered_payroll="payroll of the members the plan covers, dollars", adc="actuarially determined contribution, dollars",
+                     employer_contribution_actual="what the city contributed, dollars", contribution_deficiency="ADC minus actual contribution, dollars",
+                     money_weighted_return_pct="investment return, percent (police and fire)", pdf_page="page of the audit PDF",
+                     source_url="the audit on belvidereil.gov", exception_ids="pension exceptions in force this year"),
+        rows=rows)
+
+
+def opeb_liability(E, read):
+    """The city's retiree health (OPEB) liability by year: GASB 45 measures to FY2018, GASB 75 from FY2019."""
+    urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+    by = defaultdict(dict)
+    for r in read("opeb_rollforward.csv"):
+        if r["plan_id"] != "opeb_city" or r["source"] not in ("note_gasb45", "note"):
+            continue
+        by[int(r["period_fy"])].setdefault(r["line_id"], r)
+    rows = []
+    for fy, m in sorted(by.items()):
+        v = lambda k: int(m[k]["amount"]) if k in m and m[k]["amount"] not in ("", None) else None
+        gasb75 = fy >= 2019
+        src = next(iter(m.values()))
+        rows.append(dict(
+            fiscal_year=fy, basis="GASB 75" if gasb75 else "GASB 45",
+            total_opeb_liability=v("ending") if gasb75 else None, service_cost=v("service_cost") if gasb75 else None, interest=v("interest") if gasb75 else None,
+            benefit_payments=v("benefit_payments") if gasb75 else None,
+            actuarial_accrued_liability=None if gasb75 else v("aal"), net_opeb_obligation=None if gasb75 else v("noo_ending"),
+            annual_opeb_cost=None if gasb75 else v("annual_opeb_cost"), contributions=None if gasb75 else v("contributions"),
+            pdf_page=num(src["pdf_page"]), source_url=urls[src["doc_id"]],
+            exception_ids=sorted(e["exception_id"] for e in E.exceptions() if e["exception_id"].startswith(("EX-adp-opeb", "EX-adp-gasb75", "EX-adp-imrf-fy2016-col")) and in_range(e, fy))))
+    return dict(
+        title="Retiree health benefits (OPEB) by year",
+        description="The city's promise of retiree health benefits. Until FY2018 (GASB 45) the audits report an actuarial accrued liability and the part booked as a net OPEB obligation; "
+                    "from FY2019 (GASB 75) they report the full total OPEB liability. The two measures are not comparable.",
+        sources=["opeb_rollforward.csv"],
+        columns=dict(fiscal_year="audit year", basis="GASB 45 or GASB 75", total_opeb_liability="GASB 75 total OPEB liability, dollars",
+                     service_cost="cost of benefits earned this year (GASB 75)", interest="interest on the liability (GASB 75)",
+                     benefit_payments="benefits paid (GASB 75)", actuarial_accrued_liability="GASB 45 actuarial accrued liability, all unfunded",
+                     net_opeb_obligation="GASB 45 liability recorded on the balance sheet", annual_opeb_cost="GASB 45 annual cost", contributions="GASB 45 contributions",
+                     pdf_page="page of the audit PDF", source_url="the audit on belvidereil.gov", exception_ids="OPEB exceptions in force this year"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -563,6 +651,8 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "debt_balances": (debt_balances, ["debt_balances.csv", "documents.csv"]),
     "debt_issues": (debt_issues, ["debt_issue_terms.csv", "documents.csv"]),
     "debt_payments": (debt_payments, ["debt_service_schedule.csv", "documents.csv"]),
+    "pension_plans": (pension_plans, ["pension_summary.csv", "documents.csv"]),
+    "opeb_liability": (opeb_liability, ["opeb_rollforward.csv", "documents.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),

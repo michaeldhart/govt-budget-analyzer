@@ -16,6 +16,7 @@ const checks = {
     'EX-ws-audit-fy2020-sewer-capital', 'aria-label="Belvidere pages"'],
   'dist/belvidere_il/other-funds/index.html': ['Other funds', 'id="balances"', 'id="revenues"', 'id="spending"', '88 of 88', 'Motor Fuel Tax', 'Capital Projects', 'aria-label="Belvidere pages"'],
   'dist/belvidere_il/debt/index.html': ['Debt and long-term liabilities', 'id="liabilities"', 'id="borrowing"', 'id="payments"', 'IEPA', 'GASB 68', 'aria-label="Belvidere pages"'],
+  'dist/belvidere_il/pensions/index.html': ['Pensions and retiree health', 'id="funded"', 'id="npl"', 'id="contributions"', 'id="opeb"', '75.6%', 'GASB 68', 'aria-label="Belvidere pages"'],
 };
 let bad = false;
 for (const [file, need] of Object.entries(checks)) {
