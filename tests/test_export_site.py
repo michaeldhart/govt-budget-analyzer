@@ -33,6 +33,11 @@ DATASET_COLUMNS = {
                     "net_other_financing_actual", "net_change_actual", "beginning_balance", "ending_balance", "budget_revenues", "budget_expenses",
                     "revenues_diff", "expenditures_diff", "exception_ids"],
     "funds": ["fund_code", "name", "type", "audit_name", "budget_match", "note"],
+    "debt_balances": ["fiscal_year", "activity", "activity_label", "name", "group", "beginning", "additions", "reductions", "ending", "current_portion",
+                      "pdf_page", "source_url", "exception_ids"],
+    "debt_issues": ["fiscal_year", "activity", "activity_label", "issue", "interest_rate", "maturity", "ending_balance", "current_portion", "pdf_page", "source_url",
+                    "exception_ids"],
+    "debt_payments": ["fiscal_year", "activity", "instrument", "year_ending", "principal", "interest", "total", "pdf_page", "source_url", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }
@@ -245,3 +250,27 @@ def test_other_funds_dataset(site):
     assert any(r["fund_code"] == "41" and r["fiscal_year"] == 2027 and r["budget_revenues"] > 18_000_000 for r in rows)  # FY2027 Capital Projects budget
     fl = site(ENTITY, "funds.json")["rows"]
     assert {f["fund_code"] for f in fl} >= {r["fund_code"] for r in rows}
+
+
+def test_debt_datasets_tie_to_the_printed_totals(site, table):
+    rows = site(ENTITY, "debt_balances.json")["rows"]
+    assert {r["group"] for r in rows} == {"borrowing", "pension", "opeb", "other"}
+    ending = {}
+    for r in rows:
+        ending[(r["fiscal_year"], r["activity"])] = ending.get((r["fiscal_year"], r["activity"]), 0) + r["ending"]
+    printed = {(int(t["period_fy"]), t["activity"]): int(t["amount"]) for t in table("debt_balances") if t["line_id"] == "total" and t["measure"] == "ending"}
+    assert ending == {k: v for k, v in printed.items() if k in ending} and len(ending) == 41  # every year and activity: lines add up to the audit's total
+    assert ending[(2026, "governmental")] == 32905590 and ending[(2026, "business_type")] == 6055723
+    for r in rows:  # every row points at its audit page
+        assert r["pdf_page"] >= 1 and r["source_url"].endswith(".pdf")
+    assert not any(r["name"] == "" for r in rows)
+    pay = site(ENTITY, "debt_payments.json")["rows"]
+    assert {r["fiscal_year"] for r in pay} == set(range(2013, 2027)) - {2012} and max(r["year_ending"] for r in pay) == 2045
+    sums = {}
+    for r in pay:
+        k = (r["fiscal_year"], r["activity"], r["instrument"])
+        sums[k] = sums.get(k, 0) + (r["principal"] or 0)
+    tot = {(int(t["period_fy"]), t["activity"], t["instrument"]): int(t["principal"]) for t in table("debt_service_schedule") if t["row_kind"] == "total" and t["principal"]}
+    assert all(sums[k] == v for k, v in tot.items() if k in sums) and len(set(tot) & set(sums)) > 30  # scheduled principal adds up to each schedule's printed total
+    iss = site(ENTITY, "debt_issues.json")["rows"]
+    assert any(r["fiscal_year"] == 2026 and "L17-3623" in r["issue"] and r["ending_balance"] == 3363682 for r in iss)

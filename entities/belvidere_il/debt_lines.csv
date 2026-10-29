@@ -1,0 +1,20 @@
+line_id,label_pattern,name,group,sort
+debt_certificates,,Debt certificates,borrowing,0
+installment_contract,,Installment contracts,borrowing,1
+revolving_loan,,IEPA revolving loans,borrowing,2
+tif_note,,TIF notes,borrowing,3
+revenue_bonds,,Revenue bonds,borrowing,4
+capital_lease,,Capital leases,borrowing,5
+mortgage_loan,,Mortgage loan,borrowing,6
+bond_premium,,Unamortized bond premium,borrowing,7
+revenue_bonds,"^(Revenue|Refunding), Series",Revenue bonds,borrowing,4
+npl_police,,Police pension (net liability),pension,10
+npl_fire,,Fire pension (net liability),pension,11
+npl_imrf,,IMRF pension (net liability),pension,12
+npl_slep,,SLEP pension (net liability),pension,13
+net_pension_obligation,,Police and fire pension underfunding (before GASB 68),pension,14
+opeb,,Retiree health benefits (OPEB),opeb,20
+opeb,^Post employment benefits,Retiree health benefits (OPEB),opeb,20
+compensated_absences,,Accrued vacation and sick leave,other,30
+landfill_postclosure,,Landfill post-closure care,other,31
+asset_retirement,,Asset retirement obligation,other,32

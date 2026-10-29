@@ -18,6 +18,7 @@ asserts the identities it relies on (category rows sum to the rollup).
 """
 import gzip
 import json
+import re
 import os
 import shutil
 import sys
@@ -419,6 +420,103 @@ def funds(E, read):
         rows=rows)
 
 
+DEBT_EX = ("EX-adp-iepa", "EX-adp-gasb68", "EX-adp-fy2025-iepa", "EX-adp-fy2012-schedule", "EX-adp-gasb75")  # debt-note exceptions (the pension ones go with pensions)
+ACTIVITY = {"governmental": "Governmental activities", "business_type": "Water and sewer (business-type)", "component_unit": "Ida Public Library (component unit)"}
+
+
+def debt_exceptions(E, fy):
+    return sorted(e["exception_id"] for e in E.exceptions() if e["exception_id"].startswith(DEBT_EX) and in_range(e, fy))
+
+
+def debt_line(E, line_id, label):
+    """The debt_lines.csv row (name, group, sort) for a printed line: by line_id, or by label pattern for the lines the extractor left without an id."""
+    for r in E.table("debt_lines.csv"):
+        if line_id and r["line_id"] == line_id and not r["label_pattern"]:
+            return r
+        if not line_id and r["label_pattern"] and re.search(r["label_pattern"], label):
+            return r
+    raise KeyError(f"no debt_lines.csv row for {line_id!r} / {label!r}")
+
+
+def debt_balances(E, read):
+    """Long-term liabilities from the audits' debt notes, one row per fiscal year x activity x kind of liability (the printed total excluded)."""
+    urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+    cells = defaultdict(lambda: dict(beginning=0, additions=0, reductions=0, ending=0, current_portion=0, pages=set()))
+    meta = {}
+    for r in read("debt_balances.csv"):
+        if r["line_id"] == "total":
+            continue
+        line = debt_line(E, r["line_id"], r["line_item"])
+        key = (int(r["period_fy"]), r["activity"], line["name"])
+        meta[key] = (line, r["doc_id"])
+        cells[key][r["measure"]] += int(r["amount"])
+        cells[key]["pages"].add(int(r["pdf_page"]))
+    rows = []
+    for (fy, act, name), c in cells.items():
+        line, doc = meta[(fy, act, name)]
+        rows.append(dict(fiscal_year=fy, activity=act, activity_label=ACTIVITY[act], name=name, group=line["group"], beginning=c["beginning"], additions=c["additions"],
+                         reductions=c["reductions"], ending=c["ending"], current_portion=c["current_portion"], pdf_page=min(c["pages"]), source_url=urls[doc],
+                         exception_ids=debt_exceptions(E, fy), _sort=int(line["sort"])))
+    rows.sort(key=lambda r: (r["fiscal_year"], r["activity"], r["_sort"], r["name"]))
+    for r in rows:
+        del r["_sort"]
+    return dict(
+        title="Long-term liabilities by year",
+        description="From the notes to each audit: what the city owed at each April 30 by kind of liability, with the year's additions and reductions. group is borrowing "
+                    "(debt certificates, loans, bonds, leases), pension (net pension liabilities), opeb (retiree health benefits) or other (accrued leave, landfill and "
+                    "asset retirement). The three activities are never added together here: the library is a separate (component) unit.",
+        sources=["debt_balances.csv", "entities/<id>/debt_lines.csv"],
+        columns=dict(fiscal_year="fiscal year (April 30 year end)", activity="governmental | business_type | component_unit", activity_label="display name of the activity",
+                     name="kind of liability", group="borrowing | pension | opeb | other", beginning="balance at the start of the year, dollars",
+                     additions="borrowed or recognized during the year", reductions="repaid or reduced during the year", ending="balance at year end",
+                     current_portion="due within one year", pdf_page="page of the audit PDF", source_url="the audit on belvidereil.gov",
+                     exception_ids="debt-note exceptions in force this year"),
+        rows=rows)
+
+
+def debt_issues(E, read):
+    """The borrowings the audits list one by one: rate, final maturity, balance and the part due within a year."""
+    urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+    rows = []
+    for r in read("debt_issue_terms.csv"):
+        fy = int(r["period_fy"])
+        rows.append(dict(fiscal_year=fy, activity=r["activity"], activity_label=ACTIVITY.get(r["activity"], "Not split by activity (FY2012-15 audits)"), issue=r["issue"], interest_rate=r["interest_rate_text"],
+                         maturity=r["maturity_text"], ending_balance=num(r["ending_balance"]), current_portion=num(r["current_portion"]),
+                         pdf_page=num(r["pdf_page"]), source_url=urls[r["doc_id"]], exception_ids=debt_exceptions(E, fy)))
+    rows.sort(key=lambda r: (r["fiscal_year"], r["activity"]))
+    return dict(
+        title="Borrowings listed in the audits",
+        description="One row per borrowing in the audit's debt note (a TOTAL row closes each list). Labels, rates and maturities are as the audit prints them.",
+        sources=["debt_issue_terms.csv"],
+        columns=dict(fiscal_year="fiscal year", activity="governmental | business_type | component_unit", activity_label="display name", issue="the borrowing as printed",
+                     interest_rate="rate(s) as printed", maturity="final maturity as printed", ending_balance="balance at year end, dollars",
+                     current_portion="due within one year", pdf_page="page of the audit PDF", source_url="the audit on belvidereil.gov",
+                     exception_ids="debt-note exceptions in force this year"),
+        rows=rows)
+
+
+def debt_payments(E, read):
+    """The payments the audits schedule to maturity: principal and interest by year, as of each audit."""
+    urls = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
+    rows = []
+    for r in read("debt_service_schedule.csv"):
+        if r["row_kind"] != "year":
+            continue
+        fy = int(r["period_fy"])
+        rows.append(dict(fiscal_year=fy, activity=r["activity"], instrument=r["instrument"], year_ending=int(r["year_ending"]), principal=num(r["principal"]),
+                         interest=num(r["interest"]), total=num(r["total"]), pdf_page=num(r["pdf_page"]), source_url=urls[r["doc_id"]],
+                         exception_ids=debt_exceptions(E, fy)))
+    rows.sort(key=lambda r: (r["fiscal_year"], r["activity"], r["instrument"], r["year_ending"]))
+    return dict(
+        title="Scheduled debt payments",
+        description="Each audit's schedule of principal and interest due by fiscal year to maturity, as of that audit's year end. The FY2012 audit's schedule is not extracted.",
+        sources=["debt_service_schedule.csv"],
+        columns=dict(fiscal_year="the audit it comes from", activity="governmental | business_type | component_unit", instrument="the borrowing",
+                     year_ending="the fiscal year the payment falls in", principal="principal due", interest="interest due", total="principal + interest",
+                     pdf_page="page of the audit PDF", source_url="the audit on belvidereil.gov", exception_ids="debt-note exceptions in force for that audit"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -462,6 +560,9 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "ws_audit_vs_budget": (ws_audit_vs_budget, ["audit_ws_vs_budget.csv"]),
     "other_funds": (other_funds, ["other_funds_summary.csv"]),
     "funds": (funds, ["other_funds_summary.csv"]),
+    "debt_balances": (debt_balances, ["debt_balances.csv", "documents.csv"]),
+    "debt_issues": (debt_issues, ["debt_issue_terms.csv", "documents.csv"]),
+    "debt_payments": (debt_payments, ["debt_service_schedule.csv", "documents.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),

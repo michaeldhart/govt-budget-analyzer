@@ -1,0 +1,130 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('debt_balances')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const bal: any[] = readData(entity, 'debt_balances.json').rows;
+const issues: any[] = readData(entity, 'debt_issues.json').rows;
+const pay: any[] = readData(entity, 'debt_payments.json').rows;
+const exceptions = exceptionsUsedBy(entity, bal, pay);
+// the city itself: governmental and water/sewer activities; the library is a separate (component) unit
+const city = bal.filter((r) => r.activity !== 'component_unit');
+const years = [...new Set(city.map((r) => r.fiscal_year))].sort();
+const first = years[0], last = years.at(-1)!;
+const sum = (rs: any[], f: string = 'ending') => rs.reduce((s, r) => s + r[f], 0);
+const at = (fy: number, g?: string) => sum(city.filter((r) => r.fiscal_year === fy && (!g || r.group === g)));
+
+const SERIES = [
+  { name: 'Borrowing: governmental', color: '#2a78d6', pick: (r: any) => r.group === 'borrowing' && r.activity === 'governmental' },
+  { name: 'Borrowing: water and sewer', color: '#1baf7a', pick: (r: any) => r.group === 'borrowing' && r.activity === 'business_type' },
+  { name: 'Net pension liabilities', color: '#eb6834', pick: (r: any) => r.group === 'pension' },
+  { name: 'Retiree health benefits (OPEB)', color: '#eda100', pick: (r: any) => r.group === 'opeb' },
+  { name: 'Accrued leave, landfill and other', color: '#b4b2a9', pick: (r: any) => r.group === 'other' },
+];
+// a year with no pension lines between years that have them (the FY2016 debt note leaves them out) would draw a false dip: leave it out of this chart
+const gap = years.filter((y) => at(y, 'pension') === 0 && years.some((z) => z < y && at(z, 'pension') > 0) && years.some((z) => z > y && at(z, 'pension') > 0));
+const beforeJump = Math.max(...years.filter((y) => at(y, 'pension') > 0 && y < Math.min(...gap, 9999)));
+const afterJump = Math.min(...years.filter((y) => at(y, 'pension') > 0 && y > Math.max(...gap, 0)));
+const stackRows = SERIES.flatMap((s) => years.filter((y) => !gap.includes(y)).map((y) => ({ fiscal_year: y, series: s.name, value: sum(city.filter((r) => r.fiscal_year === y && s.pick(r))),
+  exception_ids: [...new Set(city.filter((r) => r.fiscal_year === y).flatMap((r) => r.exception_ids))] })).filter((r) => r.value));
+
+const instruments = [...new Map(city.filter((r) => r.group === 'borrowing').map((r) => [r.name, r.name])).keys()];
+const IC = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#4a3aa7', '#b4b2a9'];
+const instRows = instruments.flatMap((n) => years.map((y) => ({ fiscal_year: y, series: n, value: sum(city.filter((r) => r.fiscal_year === y && r.name === n)),
+  exception_ids: [...new Set(city.filter((r) => r.fiscal_year === y && r.name === n).flatMap((r) => r.exception_ids))] })).filter((r) => r.value));
+const instUsed = instruments.filter((n) => instRows.some((r) => r.series === n));
+const flowRows = years.flatMap((y) => [
+  { fiscal_year: y, series: 'New borrowing', value: sum(city.filter((r) => r.fiscal_year === y && r.group === 'borrowing'), 'additions'), exception_ids: [...new Set(city.filter((r) => r.fiscal_year === y).flatMap((r) => r.exception_ids))] },
+  { fiscal_year: y, series: 'Repaid', value: sum(city.filter((r) => r.fiscal_year === y && r.group === 'borrowing'), 'reductions'), exception_ids: [] as string[] },
+]);
+
+const latestAudit = Math.max(...pay.map((p) => p.fiscal_year));
+const sched = pay.filter((p) => p.fiscal_year === latestAudit && p.activity !== 'component_unit');
+const schedYears = [...new Set(sched.map((p) => p.year_ending))].sort();
+const payRows = schedYears.flatMap((y) => [
+  { fiscal_year: y, series: 'Principal', value: sum(sched.filter((p) => p.year_ending === y), 'principal'), exception_ids: [...new Set(sched.flatMap((p) => p.exception_ids))] },
+  { fiscal_year: y, series: 'Interest', value: sum(sched.filter((p) => p.year_ending === y), 'interest'), exception_ids: [] as string[] },
+]);
+const next = schedYears[0];
+const nextP = sum(sched.filter((p) => p.year_ending === next), 'principal'), nextI = sum(sched.filter((p) => p.year_ending === next), 'interest');
+const totalLeft = sum(sched, 'principal');
+
+const borrowFirst = at(first, 'borrowing'), borrowLast = at(last, 'borrowing');
+const peak = years.reduce((a, b) => (at(b, 'borrowing') > at(a, 'borrowing') ? b : a));
+const pension = at(last, 'pension'), opeb = at(last, 'opeb');
+const current = issues.filter((r) => r.fiscal_year === last && r.activity !== 'component_unit');
+const exAll = exceptions;
+---
+<Base entity={entity} section="debt" title={`Debt and long-term liabilities – ${meta.short_name}`} description={`${meta.name}: borrowing, pension and retiree health liabilities and scheduled debt payments from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Debt</p>
+  <h1>Debt and long-term liabilities</h1>
+  <p class="muted">What the city owes beyond the current year, from the notes to each audit, {fyLabel(first)}–{fyLabel(last)} (year ends April 30). Most of it is not borrowed money: the city's pension and retiree health promises are larger than its loans. The city's own figures cover the general government (governmental activities) and the water and sewer utility; the library is a separate unit and is left out of the totals.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} borrowed debt</dt><dd>{millions(borrowLast, 1)}</dd></div>
+    <div><dt>Net pension liabilities</dt><dd>{millions(pension, 1)}</dd></div>
+    <div><dt>Retiree health (OPEB)</dt><dd>{millions(opeb, 1)}</dd></div>
+    <div><dt>Due in {fyLabel(next)}: principal and interest</dt><dd>{millions(nextP + nextI, 2)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>Borrowed money (certificates, notes, loans, bonds and leases) fell from {millions(borrowFirst, 1)} in {fyLabel(first)} to {millions(borrowLast, 1)} in {fyLabel(last)}; it peaked at {millions(at(peak, 'borrowing'), 1)} in {fyLabel(peak)}. What remains is mostly the water and sewer utility's IEPA loans.</li>
+    <li>The pension and retiree health liabilities total {millions(pension + opeb, 1)}, {Math.round((pension + opeb) / at(last) * 100)}% of the {millions(at(last), 1)} the debt note lists for {fyLabel(last)}. The police and fire pensions are nearly all of the pension part.</li>
+    <li>The audit schedules {millions(totalLeft, 1)} of principal still to be repaid through FY{schedYears.at(-1)}. {fyLabel(next)} payments are {millions(nextP, 2)} of principal and {millions(nextI, 2)} of interest.</li>
+    <li>Pension liabilities jump from {millions(at(beforeJump, 'pension'), 1)} in {fyLabel(beforeJump)} to {millions(at(afterJump, 'pension'), 1)} in {fyLabel(afterJump)} because the audits changed how they are measured (GASB 68 put the full unfunded amount on the balance sheet), so compare years before and after with care.{gap.length ? ` The ${gap.map(fyLabel).join(' and ')} debt note has no pension lines, so ${gap.length > 1 ? 'those years are' : 'that year is'} left out of the first chart.` : ''}</li>
+  </ul>
+
+  <ChartFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range applies to the history charts below; the payment schedule is a look ahead and always shows every year.</p>
+
+  <h2>Everything the city owes</h2>
+  <StackedBars client:load id="liabilities" exceptions={exAll} ink={palette.ink} rows={stackRows} series={SERIES.map(({ name, color }) => ({ name, color }))} totalLabel="Total"
+    title="Long-term liabilities at year end" filename="debt-liabilities.csv"
+    note="Governmental and water and sewer activities. Net pension liabilities are the pension plans' unfunded amounts; before FY2016 the audits showed only the part of the required contribution not yet paid." />
+
+  <h2>Borrowed money</h2>
+  <StackedBars client:load id="borrowing" exceptions={exAll} ink={palette.ink} rows={instRows} series={instUsed.map((n, i) => ({ name: n, color: IC[i % IC.length] }))} totalLabel="Borrowed debt"
+    title="Borrowed debt by kind" filename="debt-borrowing.csv"
+    note="The IEPA (Illinois EPA) loans fund water and sewer projects; their balances grow as money is drawn. Some are drawn but have no payment schedule yet." />
+  <LineSeries client:load id="borrowing-flows" exceptions={exAll} rows={flowRows} series={[{ name: 'New borrowing', color: '#eb6834' }, { name: 'Repaid', color: '#2a78d6' }]}
+    kind="money" title="New borrowing and repayments each year" filename="debt-borrowing-flows.csv" note="Borrowing only (not pensions or other liabilities)." />
+
+  <h2>Payments still to come</h2>
+  <StackedBars client:load id="payments" exceptions={exAll} ignoreRange ink={palette.ink} rows={payRows} series={[{ name: 'Principal', color: '#2a78d6' }, { name: 'Interest', color: '#eb6834' }]} totalLabel="Total due"
+    title={`Scheduled payments, as of the ${fyLabel(latestAudit)} audit`} filename="debt-payments.csv" maxLabels={4}
+    note="Principal and interest due in each fiscal year, from the audit's schedule to maturity. IEPA loans drawn but not yet scheduled are not included." />
+
+  <h2>Borrowings listed in the {fyLabel(last)} audit</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Activity</th><th>Borrowing</th><th>Rate</th><th>Final maturity</th><th class="num">Balance</th><th class="num">Due within a year</th></tr></thead>
+    <tbody>{current.map((r: any) => (
+      <tr><td>{r.activity_label}</td><td>{r.issue}</td><td>{r.interest_rate}</td><td>{r.maturity}</td><td class="num">{dollars(r.ending_balance)}</td><td class="num">{dollars(r.current_portion)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="muted small-note">As the audit prints them, with the page of the audit: <a href={`${current[0]?.source_url}#page=${current[0]?.pdf_page}`}>{fyLabel(last)} audit p.{current[0]?.pdf_page}</a>. The FY2012 audit's schedule of payments to maturity is not extracted.</p>
+
+  <p class="muted">Data: <a href={href(`/data/${entity}/debt_balances.json`)}>liabilities by year</a> · <a href={href(`/data/${entity}/debt_issues.json`)}>borrowings</a> · <a href={href(`/data/${entity}/debt_payments.json`)}>scheduled payments</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

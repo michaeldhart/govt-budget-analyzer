@@ -9,9 +9,9 @@
   import { fy, moneyTick, millions, pivot, dollars, emptyNote } from '../lib/chart';
 
   type Row = { fiscal_year: number; series: string; value: number; exception_ids?: string[] };
-  let { id, rows: allRows, series: allSeries, ink, title, filename, note = '', respectHide = false, negative = false, totalLabel = 'All', maxLabels = 5, exceptions = {} }: {
+  let { id, rows: allRows, series: allSeries, ink, title, filename, note = '', respectHide = false, negative = false, totalLabel = 'All', maxLabels = 5, exceptions = {}, ignoreRange = false }: {
     id: string; rows: Row[]; series: { name: string; color: string }[]; ink: string; title: string; filename: string; note?: string;
-    respectHide?: boolean; negative?: boolean; totalLabel?: string; maxLabels?: number; exceptions?: Record<string, Exception>;
+    respectHide?: boolean; negative?: boolean; totalLabel?: string; maxLabels?: number; exceptions?: Record<string, Exception>; ignoreRange?: boolean;
   } = $props();
 
   // `hide` (the categories switched off on the taxes page) applies only where the chart says so
@@ -21,7 +21,7 @@
   const rows = $derived.by(() => {
     const sums = new Map<string, Row>();
     for (const r of allRows) {
-      if (!inRange(url, r.fiscal_year) || !on(r.series)) continue;
+      if ((!ignoreRange && !inRange(url, r.fiscal_year)) || !on(r.series)) continue; // ignoreRange: future years (debt payments) are not audit years
       const k = `${r.fiscal_year}|${r.series}`;
       sums.set(k, { ...r, value: (sums.get(k)?.value ?? 0) + r.value, exception_ids: [...new Set([...(sums.get(k)?.exception_ids ?? []), ...(r.exception_ids ?? [])])] });
     }
