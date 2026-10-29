@@ -22,6 +22,13 @@ DATASET_COLUMNS = {
                      "committed", "assigned", "unassigned", "total_fund_balance", "revenues", "expenditures",
                      "excess_revenues_over_expenditures", "other_financing", "net_change", "beginning_balance", "prior_period_adjustment",
                      "ending_balance", "unassigned_months", "exception_ids"],
+    "ws_summary": ["fiscal_year", "cash_and_investments_comparable", "net_position_net_investment_in_capital", "net_position_restricted",
+                   "net_position_unrestricted", "net_position_total", "operating_revenues", "operating_expenses_incl_depreciation", "depreciation",
+                   "operating_income", "change_in_net_position", "cash_flow_operating", "cash_flow_noncapital_financing", "cash_flow_capital_financing",
+                   "purchases_of_capital_assets", "budgetary_revenues_original", "budgetary_revenues_actual", "budgetary_expenses_original",
+                   "budgetary_expenses_actual", "budget_revenues", "budget_expenses", "exception_ids"],
+    "ws_audit_vs_budget": ["fiscal_year", "department", "audit_original", "audit_final", "audit_actual", "variance_pct", "budget_adjusted", "diff",
+                           "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }
@@ -199,3 +206,23 @@ def test_exceptions_list_where_they_appear_in_the_source(site):
     assert t["sources"] and all(s["pdf_page"] >= 1 and s["source_url"].endswith(".pdf") for s in t["sources"])
     assert any(s["doc_id"] == "FY2027_budget" and s["pdf_page"] == 5 for s in t["sources"])  # the FY2027 Municipal Infrastructure Maintenance line
     assert all(isinstance(e["sources"], list) for e in ex.values())
+
+
+def test_water_sewer_datasets(site):
+    rows = {r["fiscal_year"]: r for r in site(ENTITY, "ws_summary.json")["rows"]}
+    assert sorted(rows) == list(range(2012, 2028))  # FY2027 has a budget only
+    assert rows[2026]["net_position_total"] == 41516060 and rows[2024]["net_position_total"] == min(
+        r["net_position_total"] for y, r in rows.items() if y >= 2019 and r["net_position_total"])  # the FY2024 low
+    assert rows[2027]["net_position_total"] is None and rows[2027]["budget_revenues"] == 6381866
+    for y in range(2012, 2027):  # net position = its three parts; operating income = revenues - expenses
+        r = rows[y]
+        assert r["net_position_total"] == r["net_position_net_investment_in_capital"] + (r["net_position_restricted"] or 0) + r["net_position_unrestricted"], y
+        assert r["operating_income"] == r["operating_revenues"] - r["operating_expenses_incl_depreciation"], y
+    # budgetary-basis expenses (capital outlay included) exceed operating revenues in every year from FY2018 (CLAUDE.md)
+    assert all(rows[y]["budgetary_expenses_actual"] > rows[y]["budgetary_revenues_actual"] for y in range(2018, 2027))
+    av = site(ENTITY, "ws_audit_vs_budget.json")["rows"]
+    cmp = [r for r in av if r["diff"] is not None]
+    assert len(cmp) == 36 and sum(1 for r in cmp if r["diff"] == 0) == 31  # the misses: FY2015 (three departments), FY2018 Collection system, FY2020 Sewer
+    for r in cmp:
+        if r["diff"] != 0 and (r["fiscal_year"], r["department"]) in {(2018, "Collection system"), (2020, "Sewer"), (2015, "Water")}:
+            assert any(i.startswith("EX-ws-audit-") for i in r["exception_ids"]), r  # each of these is explained by its own exception

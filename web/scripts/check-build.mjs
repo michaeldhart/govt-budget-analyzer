@@ -12,6 +12,8 @@ const checks = {
     '179 of 182'],
   'dist/belvidere_il/fund-balance/index.html': ['aria-label="Belvidere pages"', 'aria-current="page"','$42.6M', '$39.6M', '21.0', 'id="balance"', 'id="months"', 'id="flows"', 'id="net-change"', 'EX-fund-stmt-fy2016-restatement',
     'GFOA'],
+  'dist/belvidere_il/water-sewer/index.html': ['$41.5M', 'Water and Sewer Fund', 'id="income"', 'id="net-position"', 'id="cash"', 'id="multiples"', 'every year since FY2018', '31 of 36',
+    'EX-ws-audit-fy2020-sewer-capital', 'aria-label="Belvidere pages"'],
 };
 let bad = false;
 for (const [file, need] of Object.entries(checks)) {

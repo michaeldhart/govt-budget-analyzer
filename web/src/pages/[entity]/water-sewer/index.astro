@@ -1,0 +1,124 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ValueBars from '../../../components/ValueBars.svelte';
+import SmallMultiples from '../../../components/SmallMultiples.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('ws_summary')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'ws_summary.json').rows;
+const dept: any[] = readData(entity, 'ws_audit_vs_budget.json').rows;
+const exceptions = exceptionsUsedBy(entity, all);
+const exDept = exceptionsUsedBy(entity, dept);
+const audited = all.filter((r) => r.net_position_total != null);
+const first = audited[0], last = audited.at(-1)!;
+const budget = all.find((r) => r.fiscal_year === last.fiscal_year + 1 && r.budget_revenues != null);
+const years = audited.map((r) => r.fiscal_year);
+
+const peak = audited.reduce((a, b) => (b.net_position_total > a.net_position_total ? b : a));
+const low = audited.filter((r) => r.fiscal_year > peak.fiscal_year).reduce((a, b) => (b.net_position_total < a.net_position_total ? b : a));
+const negIncome = audited.filter((r) => r.operating_income < 0);
+const capEx = audited.filter((r) => r.purchases_of_capital_assets > r.cash_flow_operating);
+const budgetary = audited.filter((r) => r.budgetary_expenses_actual != null);
+let since = budgetary.at(-1)!.fiscal_year;  // the first year of the unbroken run of expenses above revenues that ends with the latest audit
+for (const r of [...budgetary].reverse()) { if (r.budgetary_expenses_actual > r.budgetary_revenues_actual) since = r.fiscal_year; else break; }
+const advance = last.cash_flow_noncapital_financing;
+
+const series = (key: string, name: string) => audited.filter((r) => r[key] != null).map((r) => ({ fiscal_year: r.fiscal_year, series: name, value: r[key], exception_ids: r.exception_ids }));
+const npRows = [...series('net_position_net_investment_in_capital', 'Invested in capital assets'), ...series('net_position_restricted', 'Restricted'),
+  ...series('net_position_unrestricted', 'Unrestricted')].filter((r) => r.value);
+const incomeRows = [...series('budgetary_revenues_actual', 'Operating revenues'), ...series('budgetary_expenses_actual', 'Operating expenses (budgetary basis)')];
+const cashRows = series('cash_and_investments_comparable', 'Cash and investments');
+const opRows = [...series('cash_flow_operating', 'Cash from operations'), ...series('purchases_of_capital_assets', 'Capital assets bought')];
+const gaapRows = audited.map((r) => ({ fiscal_year: r.fiscal_year, value: r.operating_income, exception_ids: r.exception_ids }));
+const changeRows = audited.map((r) => ({ fiscal_year: r.fiscal_year, value: r.change_in_net_position, exception_ids: r.exception_ids }));
+const deptRows = dept.map((r) => ({ fiscal_year: r.fiscal_year, group: r.department, budget: r.audit_original, actual: r.audit_actual, exception_ids: r.exception_ids }));
+const comparable = dept.filter((r) => r.diff != null), agree = comparable.filter((r) => r.diff === 0).length;
+const misses = comparable.filter((r) => r.diff !== 0);
+const exById = Object.fromEntries(Object.entries(exDept));
+const pct = (v: number) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(0)}%`;
+---
+<Base entity={entity} section="water-sewer" title={`Water and Sewer Fund – ${meta.short_name}`} description={`${meta.name}: Water and Sewer Fund net position, operating results, cash and audited spending against budget.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Water and Sewer</p>
+  <h1>Water and Sewer Fund</h1>
+  <p class="muted">The city's utility, paid for by user charges and kept apart from the General Fund. From the audits {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)} (year ends April 30) and the budget ordinances. Its statements use business-style accounting, with depreciation and net position instead of a fund balance.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last.fiscal_year)} net position</dt><dd>{millions(last.net_position_total, 1)}</dd></div>
+    <div><dt>Operating revenues</dt><dd>{millions(last.operating_revenues, 1)}</dd></div>
+    <div><dt>Operating income, after depreciation</dt><dd>{millions(last.operating_income, 1)}</dd></div>
+    <div><dt>Cash and investments</dt><dd>{millions(last.cash_and_investments_comparable, 1)}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>Net position, what the utility owns less what it owes, was {millions(first.net_position_total, 1)} in {fyLabel(first.fiscal_year)}, peaked at {millions(peak.net_position_total, 1)} in {fyLabel(peak.fiscal_year)}, fell to {millions(low.net_position_total, 1)} in {fyLabel(low.fiscal_year)} and was {millions(last.net_position_total, 1)} in {fyLabel(last.fiscal_year)}.</li>
+    <li>After depreciation the utility lost money on operations in {negIncome.length} of {audited.length} years ({fyLabel(last.fiscal_year)}: {millions(last.operating_income, 1)}). Net position rose in {fyLabel(last.fiscal_year)} anyway, by {millions(last.change_in_net_position, 1)}, because of capital grants and contributions.</li>
+    <li>On the city's budgetary basis, which counts capital outlay as spending, expenses have exceeded operating revenues every year since {fyLabel(since)} ({fyLabel(last.fiscal_year)}: {millions(last.budgetary_expenses_actual, 1)} against {millions(last.budgetary_revenues_actual, 1)}).</li>
+    <li>Capital assets bought exceeded cash from operations in {capEx.length} of {audited.length} years. Cash and investments {advance ? `rose to ${millions(last.cash_and_investments_comparable, 1)} in ${fyLabel(last.fiscal_year)} after a ${millions(advance, 1)} advance from the General Fund` : `were ${millions(last.cash_and_investments_comparable, 1)} in ${fyLabel(last.fiscal_year)}`}.</li>
+    {budget && <li>The adopted {fyLabel(budget.fiscal_year)} budget has revenues of {millions(budget.budget_revenues, 2)} and expenses of {millions(budget.budget_expenses, 2)}.</li>}
+  </ul>
+
+  <ChartFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+
+  <h2>Revenues and spending</h2>
+  <LineSeries client:load id="income" exceptions={exceptions} rows={incomeRows} series={[{ name: 'Operating revenues', color: '#1baf7a' }, { name: 'Operating expenses (budgetary basis)', color: '#eb6834' }]}
+    kind="money" title="Operating revenues and expenses, budgetary basis" filename="water-sewer-revenues-expenses.csv"
+    note="From the audit's budget-and-actual schedule: expenses include capital outlay and leave out depreciation, the way the city budgets." />
+  <ValueBars client:load id="operating-income" exceptions={exceptions} rows={gaapRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Operating income ($)"
+    title="Operating income after depreciation" filename="water-sewer-operating-income.csv"
+    note="The statement of revenues, expenses and changes in net position: operating revenues minus operating expenses including depreciation." />
+
+  <h2>Net position</h2>
+  <StackedBars client:load id="net-position" exceptions={exceptions} ink={palette.ink} rows={npRows} totalLabel="Net position"
+    series={[{ name: 'Invested in capital assets', color: '#2a78d6' }, { name: 'Restricted', color: '#eda100' }, { name: 'Unrestricted', color: '#1baf7a' }]}
+    title="Net position by component" filename="water-sewer-net-position.csv"
+    note="Invested in capital assets: plants, pipes and equipment less the debt that paid for them. Restricted: set aside for bond payments. Unrestricted: available for any utility use. FY2012-13 call this 'net assets'." />
+  <ValueBars client:load id="net-change" exceptions={exceptions} rows={changeRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Change in net position ($)"
+    title="Change in net position" filename="water-sewer-net-position-change.csv"
+    note="Includes capital grants and contributions, which is why it can be positive when operating income is not." />
+
+  <h2>Cash</h2>
+  <LineSeries client:load id="cash" exceptions={exceptions} rows={cashRows} series={[{ name: 'Cash and investments', color: '#2a78d6' }]}
+    kind="money" title="Cash and investments" filename="water-sewer-cash.csv"
+    note="FY2012 is shown on the same footing as later years (including a $4.3M investments line the FY2012 cash flow statement leaves out)." />
+  <LineSeries client:load id="capital" exceptions={exceptions} rows={opRows} series={[{ name: 'Cash from operations', color: '#1baf7a' }, { name: 'Capital assets bought', color: '#eb6834' }]}
+    kind="money" title="Cash from operations vs capital assets bought" filename="water-sewer-cash-flow.csv"
+    note="Net cash from operating activities, and purchases of capital assets from the cash flow statement." />
+
+  <h2>Audited spending against the budget</h2>
+  <SmallMultiples client:load exceptions={exDept} rows={deptRows}
+    groups={[{ name: 'Water', color: '#2a78d6' }, { name: 'Sewer', color: '#eb6834' }, { name: 'Collection system', color: '#1baf7a' }]}
+    ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Original budget (line) and audited actual operating expenses (dots), by department" />
+  <p>The audit's original budget equals the budget document's expense lines, without the depreciation and bond set-asides, transfers out and the card-processing fee, in {agree} of {comparable.length} comparable department-years. The {misses.length} that differ:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th>Department</th><th class="num">Audit original</th><th class="num">Budget on the audit's footing</th><th class="num">Difference</th><th>Why</th></tr></thead>
+    <tbody>{misses.map((r: any) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td>{r.department}</td><td class="num">{dollars(r.audit_original)}</td><td class="num">{dollars(r.budget_adjusted)}</td><td class="num">{dollars(r.diff)}</td>
+        <td>{r.exception_ids.filter((id: string) => id.startsWith('EX-ws-audit-')).map((id: string) => <span><strong>{id}</strong>: {exById[id]?.summary}. </span>)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="muted">The budget documents' cash sub-ledgers (bond reserves, connection fees, depreciation funding) are not on the site yet. Data: <a href={href(`/data/${entity}/ws_summary.json`)}>Water/Sewer by year</a> · <a href={href(`/data/${entity}/ws_audit_vs_budget.json`)}>audit vs budget</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

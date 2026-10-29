@@ -280,6 +280,91 @@ def fund_balance(E, read):
         rows=rows)
 
 
+# which exceptions concern which Water / Sewer dataset (the registry also holds ones about the budget extraction)
+WS_STATEMENT_EX = ("EX-wsstmt-", "EX-wsold-", "EX-ws-audit-summary-basis")
+WS_COMPARE_EX = ("EX-ws-audit-", "EX-ws-set-asides")
+WS_GROUP = {"Water": "ws_water", "Sewer": "ws_sewer", "Collection system": "ws_collection"}
+WS_DEPT = {"Water": "810", "Sewer": "820", "Collection system": "830"}
+
+
+def ws_exceptions(E, fy, prefixes, department=None):
+    """The Water / Sewer exceptions with these id prefixes in force for a fiscal year; with a department, the group- and account-scoped
+    ones are kept only for that department."""
+    out = []
+    for e in E.exceptions():
+        if not (e["exception_id"].startswith(prefixes) and in_range(e, fy)):
+            continue
+        if department and e["scope"] == "group" and e["scope_id"] != WS_GROUP[department]:
+            continue
+        if department and e["scope"] == "account" and not any(a.split(":")[-1].split("-")[0] == WS_DEPT[department] for a in e["scope_id"].split("|")):
+            continue
+        out.append(e["exception_id"])
+    return sorted(out)
+
+
+def ws_summary(E, read):
+    """Water / Sewer Fund by fiscal year: the audit's statements (net position, income, cash) beside the budgetary-basis schedule."""
+    sched = {int(r["fiscal_year"]): r for r in read("ws_summary.csv")}
+    cols = ["cash_and_investments_comparable", "net_position_net_investment_in_capital", "net_position_restricted", "net_position_unrestricted",
+            "net_position_total", "operating_revenues", "operating_expenses_incl_depreciation", "depreciation", "operating_income",
+            "change_in_net_position", "cash_flow_operating", "cash_flow_noncapital_financing", "cash_flow_capital_financing", "purchases_of_capital_assets"]
+    stmt = {int(r["fiscal_year"]): r for r in read("ws_audit_statement_summary.csv") if int(r["fiscal_year"]) >= E.config["documents"]["audit_range"][0]}
+    rows = []
+    for fy in sorted(set(stmt) | set(sched)):  # a year can have only a budget (the adopted FY2027 budget has no audit yet)
+        r, b = stmt.get(fy, {}), sched.get(fy, {})
+        d = dict(fiscal_year=fy, **{c: num(r.get(c)) for c in cols},
+                 budgetary_revenues_original=num(b.get("operating_revenues_original")), budgetary_revenues_actual=num(b.get("operating_revenues_actual")),
+                 budgetary_expenses_original=num(b.get("operating_expenses_original")), budgetary_expenses_actual=num(b.get("operating_expenses_actual")),
+                 budget_revenues=num(b.get("budget_revenues")), budget_expenses=num(b.get("budget_expenses")), exception_ids=ws_exceptions(E, fy, WS_STATEMENT_EX))
+        if d["purchases_of_capital_assets"] is not None:
+            d["purchases_of_capital_assets"] = abs(d["purchases_of_capital_assets"])
+        rows.append(d)
+    rows.sort(key=lambda r: r["fiscal_year"])
+    return dict(
+        title="Water / Sewer Fund by year",
+        description="Audited net position, operating income and cash flows (GAAP, with depreciation), beside the audit's budgetary-basis operating "
+                    "schedule (which counts capital outlay as an expense and leaves out depreciation) and the budget document's revenue and expense totals.",
+        sources=["ws_audit_statement_summary.csv", "ws_summary.csv"],
+        columns=dict(fiscal_year="fiscal year (April 30 year end)", cash_and_investments_comparable="cash and investments, dollars (FY2012 on the same footing as later years)",
+                     net_position_net_investment_in_capital="net position invested in capital assets", net_position_restricted="restricted net position",
+                     net_position_unrestricted="unrestricted net position", net_position_total="total net position",
+                     operating_revenues="audited operating revenues", operating_expenses_incl_depreciation="operating expenses including depreciation (statement of revenues, expenses and changes in net position)",
+                     depreciation="depreciation", operating_income="operating revenues minus operating expenses including depreciation",
+                     change_in_net_position="change in net position (includes capital grants and contributions)",
+                     cash_flow_operating="net cash from operating activities", cash_flow_noncapital_financing="net cash from noncapital financing (e.g. an advance from the General Fund)",
+                     cash_flow_capital_financing="net cash from capital and related financing", purchases_of_capital_assets="capital assets bought, dollars (positive)",
+                     budgetary_revenues_original="original budget, operating revenues (audit schedule)", budgetary_revenues_actual="actual operating revenues (audit schedule)",
+                     budgetary_expenses_original="original budget, operating expenses including capital outlay and excluding depreciation",
+                     budgetary_expenses_actual="actual operating expenses on the same budgetary basis",
+                     budget_revenues="budget document total revenues", budget_expenses="budget document total expenses",
+                     exception_ids="Water / Sewer exceptions in force this year"),
+        rows=rows)
+
+
+def ws_audit_vs_budget(E, read):
+    """Audited operating expenses against the original budget per Water / Sewer department."""
+    def n(x):
+        return None if x in ("", None) else int(x)
+    rows = []
+    for r in read("audit_ws_vs_budget.csv"):
+        fy = int(r["fiscal_year"])
+        o, a = n(r["audit_original"]), n(r["audit_actual"])
+        rows.append(dict(fiscal_year=fy, department=r["department"], audit_original=o, audit_final=n(r["audit_final"]), audit_actual=a,
+                         variance_pct=None if not o or a is None else round((a - o) / o, 6),
+                         budget_adjusted=n(r["budget_adjusted"]), diff=n(r["diff"]), exception_ids=ws_exceptions(E, fy, WS_COMPARE_EX, r["department"])))
+    rows.sort(key=lambda r: (r["department"], r["fiscal_year"]))
+    return dict(
+        title="Water / Sewer: audited operating expenses vs the original budget, by department",
+        description="The audit's original budget equals the budget document's expense lines (without the depreciation and bond set-asides, transfers "
+                    "out and the card processing fee) in 31 of 36 comparable department-years (FY2015-FY2026).",
+        sources=["audit_ws_vs_budget.csv"],
+        columns=dict(fiscal_year="fiscal year", department="Water, Sewer or Collection system", audit_original="audit original budget, dollars",
+                     audit_final="audit final budget", audit_actual="audited actual operating expenses (budgetary basis)",
+                     variance_pct="(actual - original) / original, as a fraction", budget_adjusted="budget document put on the audit's footing; empty before FY2015",
+                     diff="audit original - adjusted budget (0 = they agree)", exception_ids="Water / Sewer exceptions in force this year"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -319,6 +404,8 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "taxes_by_category": (taxes_by_category, ["tax_series_by_category.csv", "tax_series_long.csv"]),
     "taxes_audit_basis": (taxes_audit_basis, ["tax_series_audit_basis.csv"]),
     "taxes_budget_vs_actual": (taxes_budget_vs_actual, ["tax_series_audit_basis.csv"]),
+    "ws_summary": (ws_summary, ["ws_audit_statement_summary.csv", "ws_summary.csv"]),
+    "ws_audit_vs_budget": (ws_audit_vs_budget, ["audit_ws_vs_budget.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),

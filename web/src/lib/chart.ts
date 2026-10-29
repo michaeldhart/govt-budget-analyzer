@@ -10,7 +10,7 @@ export function moneyTick(v: number): string {
   return `${sign}$${Math.round(a / 1e3).toLocaleString('en-US')}K`;
 }
 
-export const millions = (v: number, d = 1): string => `$${(v / 1e6).toFixed(d)}M`;
+export const millions = (v: number, d = 1): string => `${v < 0 ? '-' : ''}$${Math.abs(v / 1e6).toFixed(d)}M`;
 
 /** Long rows -> one row per `rowKey` with a column per distinct `colKey` value (for a chart's table view). */
 export function pivot<T extends Record<string, any>>(rows: T[], rowKey: string, colKey: string, valKey: string, colOrder: string[]) {

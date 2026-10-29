@@ -9,6 +9,7 @@ const nav = entity ? [
   { id: 'taxes', label: 'Taxes', path: `/${entity}/taxes/`, show: has('taxes_by_category') },
   { id: 'expenses', label: 'Expenses', path: `/${entity}/expenses/`, show: has('expenses_by_dept_object') },
   { id: 'audit', label: 'Audit vs budget', path: `/${entity}/expenses/audit/`, show: has('expenses_audit_vs_budget') },
+  { id: 'water-sewer', label: 'Water/Sewer', path: `/${entity}/water-sewer/`, show: has('ws_summary') },
   { id: 'fund-balance', label: 'Fund balance', path: `/${entity}/fund-balance/`, show: has('fund_balance') },
 ].filter((n) => n.show) : [];
 const palette = readData<Record<string, string>>('palette.json');
