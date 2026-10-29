@@ -6,6 +6,7 @@ import VarianceHeatmap from '../../../../components/VarianceHeatmap.svelte';
 import ChartFilters from '../../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../../lib/data';
 import { exceptionsUsedBy } from '../../../../lib/exceptions';
+import { referenceFor } from '../../../../lib/reference';
 import { dollars, fyLabel } from '../../../../lib/format';
 import { millions } from '../../../../lib/chart';
 
@@ -24,6 +25,7 @@ const all: any[] = readData(entity, 'expenses_audit_vs_budget.json').rows;
 // the chart components read budget / actual / variance_pct / group
 const asBva = (r: any) => ({ fiscal_year: r.fiscal_year, group: r.label, budget: r.audit_original, actual: r.audit_actual, variance_pct: r.variance_pct, exception_ids: r.exception_ids });
 const exceptionMap = exceptionsUsedBy(entity, all);
+const ref = referenceFor(entity);
 const totals = all.filter((r) => r.is_total);
 // a group that never has a dollar (the audit prints an empty FY2012 Capital Projects line) is left out of the charts
 const empty = (g: string) => all.filter((r) => r.department_group === g).every((r) => !r.audit_original && !r.audit_actual);
@@ -64,16 +66,16 @@ const rules = ['EX-audit-transfers-excluded', 'EX-audit-contra-netted', 'EX-audi
     <li>This is the spending side of the pattern on the <a href={href(`/${entity}/taxes/`)}>taxes page</a>, where audited revenue ran above budget in 14 of 15 years.</li>
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
-  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">The year range and the Dollars choice are saved in the page address and apply to the dollar charts below (not to the percent heatmap).</p>
 
   <h2>Total</h2>
-  <BudgetVsActual client:load rows={totals.map(asBva)} p={palette} exceptions={exceptionMap}
+  <BudgetVsActual client:load rows={totals.map(asBva)} p={palette} units={ref?.units} exceptions={exceptionMap}
     labels={{ lineTitle: 'General Fund expenditures: original budget vs audited actual', varianceTitle: 'Audited actual vs original budget: percent above (blue) or below (red)',
       budget: 'Original budget', actual: 'Audited actual', fileStem: 'expenses-audit', note: 'Excludes transfers out; the audit does not budget or report them as expenditures.' }} />
 
   <h2>By department group</h2>
-  <SmallMultiples client:load exceptions={exceptionMap} rows={groups.map(asBva)} groups={groupNames} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+  <SmallMultiples client:load units={ref?.units} exceptions={exceptionMap} rows={groups.map(asBva)} groups={groupNames} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
     title="Original budget (line) and audited actual (dots), each on its own scale" />
   <VarianceHeatmap client:load exceptions={exceptionMap} rows={groups.map(asBva)} groups={groupNames.map((g) => g.name)} p={palette}
     title="Audited actual vs original budget, percent by department group and year"

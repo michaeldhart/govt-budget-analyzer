@@ -3,6 +3,8 @@ import Base from '../../../../layouts/Base.astro';
 import CategoryBars from '../../../../components/CategoryBars.svelte';
 import ExceptionList from '../../../../components/ExceptionList.svelte';
 import { exceptionsUsedBy } from '../../../../lib/exceptions';
+import { referenceFor } from '../../../../lib/reference';
+import UnitPicker from '../../../../components/UnitPicker.svelte';
 import { readData, href } from '../../../../lib/data';
 import { dollars, percent, fyLabel } from '../../../../lib/format';
 
@@ -20,6 +22,7 @@ const year = Number(Astro.params.year);
 const { years } = Astro.props as { years: number[] };
 
 const meta = readData(entity, 'meta.json');
+const ref = referenceFor(entity);
 const colors: Record<string, string> = Object.fromEntries(
   readData(entity, 'categories.json').schemes.budget_category.map((c: any) => [c.name, c.color]));
 const cats = readData(entity, 'taxes_by_category.json').rows
@@ -54,6 +57,7 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
     {years.map((y) => y === year ? <strong aria-current="page">{fyLabel(y)}</strong> : <a href={href(`/${entity}/taxes/${y}/`)}>{fyLabel(y)}</a>)}
   </nav>
 
+  {ref && <div class="unitrow"><UnitPicker client:load base={ref.base} /></div>}
   <dl class="summary">
     <div><dt>Gross taxes</dt><dd>{dollars(gross)}</dd></div>
     <div><dt>Offsets</dt><dd>{dollars(offsets)}</dd></div>
@@ -61,7 +65,7 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
   </dl>
   <p class="muted">Offsets are sales and property tax rebated to developers and the replacement tax passed to the pension funds. Categories and the pie-style shares use gross taxes.</p>
 
-  <CategoryBars client:load exceptions={exceptionsUsedBy(entity, cats)} rows={cats} year={year} title={`${fyLabel(year)} gross taxes by category`}
+  <CategoryBars client:load units={ref?.units} exceptions={exceptionsUsedBy(entity, cats)} rows={cats} year={year} title={`${fyLabel(year)} gross taxes by category`}
     note="Gross taxes; offsets are shown in the table view and listed under the lines below." />
 
   <h2>Every tax line</h2>
@@ -107,6 +111,7 @@ const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Nu
 </Base>
 
 <style>
+  .unitrow { margin: 4px 0 12px; font-size: 0.875rem; }
   .years { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 16px 0; font-size: 0.9375rem; }
   .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
   .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }

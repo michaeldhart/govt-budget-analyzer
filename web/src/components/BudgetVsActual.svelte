@@ -6,13 +6,15 @@
   import ChartFrame from './ChartFrame.svelte';
   import PlotHost from './PlotHost.svelte';
   import { fy, moneyTick, millions, emptyNote } from '../lib/chart';
+  import { scaleValue, isCapita, unitPhrase, unitNote, type Ref } from '../lib/units';
 
   type Row = { fiscal_year: number; budget: number | null; actual: number | null; variance_pct: number | null; exception_ids?: string[] };
   // Reused for taxes and for spending: `labels` carry the wording, `yDomain` the line chart's range (default: fit the data).
   type Labels = { lineTitle: string; varianceTitle: string; budget: string; actual: string; note?: string; fileStem: string; aboveBelow?: string };
-  let { rows: allRows, p, labels, yDomain, exceptions = {} }: { rows: Row[]; p: Record<string, string>; labels: Labels; yDomain?: [number, number]; exceptions?: Record<string, Exception> } = $props();
+  let { rows: allRows, p, labels, yDomain, exceptions = {}, units }: { rows: Row[]; p: Record<string, string>; labels: Labels; yDomain?: [number, number]; exceptions?: Record<string, Exception>; units?: Ref } = $props();
 
-  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)));
+  const rows = $derived(allRows.filter((r) => inRange(url, r.fiscal_year)).map((r) => ({ ...r, budget: r.budget == null ? null : scaleValue(r.budget, r.fiscal_year, url.unit, units), actual: r.actual == null ? null : scaleValue(r.actual, r.fiscal_year, url.unit, units) })));
+  const money = (v: number) => (isCapita(url.unit) ? `$${Math.round(v).toLocaleString('en-US')}` : millions(v));
   const years = $derived(rows.map((r) => r.fiscal_year));
   const exceptionIds = $derived([...new Set(rows.flatMap((r) => r.exception_ids ?? []))]);
   const tidy = $derived(rows.flatMap((r) => [
@@ -28,14 +30,14 @@
     return Plot.plot({
       width, height: 300, marginRight: 44, style: { fontSize: '12px', background: 'transparent' },
       x: { label: null, tickFormat: fy, domain: [Math.min(...years), Math.max(...years)], ticks: Math.min(8, years.length) },
-      y: { label: null, grid: true, tickFormat: moneyTick, domain: yDomain ?? [0, Math.max(...tidy.map((t) => t.amount)) * 1.08] },
+      y: { label: null, grid: true, tickFormat: moneyTick, domain: (url.unit ? undefined : yDomain) ?? [0, Math.max(...tidy.map((t) => t.amount)) * 1.08] }, // a fixed range only fits the dollars as reported
       color: { domain: [labels.budget, labels.actual], range: [p.adopted_gray, p.ink], legend: true },
       marks: [
         Plot.lineY(tidy, { x: 'fiscal_year', y: 'amount', stroke: 'series', strokeWidth: 2.2 }),
         Plot.dot(tidy, { x: 'fiscal_year', y: 'amount', fill: 'series', r: 3.2,
           title: (r: any) => `${fy(r.fiscal_year)} ${r.series}\n${r.amount.toLocaleString('en-US')}` }),
         Plot.text(tidy.filter((r) => r.fiscal_year === Math.max(...tidy.filter((t) => t.series === r.series).map((t) => t.fiscal_year))),
-          { x: 'fiscal_year', y: 'amount', text: (r: any) => millions(r.amount), dy: -10, fill: p.ink2, fontSize: 11 }),
+          { x: 'fiscal_year', y: 'amount', text: (r: any) => money(r.amount), dy: -10, fill: p.ink2, fontSize: 11 }),
       ],
     });
   }
@@ -59,7 +61,7 @@
   }
 </script>
 
-<ChartFrame id="budget-vs-actual" title={labels.lineTitle} rows={rows as any} columns={table.columns} filename={`${labels.fileStem}-budget-vs-actual.csv`} note={labels.note} {exceptionIds} {exceptions}>
+<ChartFrame id="budget-vs-actual" title={unitPhrase(url.unit, units) ? `${labels.lineTitle} (${unitPhrase(url.unit, units)})` : labels.lineTitle} rows={rows as any} columns={table.columns} filename={`${labels.fileStem}-budget-vs-actual.csv`} note={[labels.note, unitNote(url.unit, units, [...new Set(rows.map((r) => r.fiscal_year))])].filter(Boolean).join(' ')} {exceptionIds} {exceptions}>
   <PlotHost build={lines} label="Line chart of total budgeted and audited taxes by fiscal year; the Table view has every number" />
 </ChartFrame>
 <ChartFrame id="variance" title={labels.varianceTitle} rows={variance as any} columns={table.columns} filename={`${labels.fileStem}-variance.csv`}>
