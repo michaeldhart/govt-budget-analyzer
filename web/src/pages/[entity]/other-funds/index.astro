@@ -1,0 +1,120 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SmallMultiples from '../../../components/SmallMultiples.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('other_funds')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const rows: any[] = readData(entity, 'other_funds.json').rows;
+const funds: any[] = readData(entity, 'funds.json').rows;
+const exceptions = exceptionsUsedBy(entity, rows);
+
+const SHORT: Record<string, string> = { '10': 'Motor Fuel Tax', '13': 'Kishwaukee TIF', '15': 'Kishwaukee II TIF', '16': 'Farmington SSA 2', '17': 'Farmington SSA 3',
+  '41': 'Capital Projects', T90: '1990 TIF', T93: '1993 TIF' };
+const COLORS = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#4a3aa7', '#b4b2a9'];
+const audited = rows.filter((r) => r.revenues_actual != null || r.ending_balance != null);
+const auditedCodes = Object.keys(SHORT).filter((c) => audited.some((r) => r.fund_code === c));
+const groups = auditedCodes.map((c, i) => ({ name: SHORT[c], color: COLORS[i % COLORS.length] }));
+const years = [...new Set(audited.map((r) => r.fiscal_year))].sort();
+const lastAudit = years.at(-1)!;
+const nameOf = (c: string) => SHORT[c];
+
+const balRows = audited.filter((r) => SHORT[r.fund_code]).map((r) => ({ fiscal_year: r.fiscal_year, group: nameOf(r.fund_code), budget: null, actual: r.ending_balance, exception_ids: r.exception_ids }));
+const revRows = audited.filter((r) => SHORT[r.fund_code]).map((r) => ({ fiscal_year: r.fiscal_year, group: nameOf(r.fund_code), budget: r.revenues_original, actual: r.revenues_actual, exception_ids: r.exception_ids }));
+const expRows = audited.filter((r) => SHORT[r.fund_code]).map((r) => ({ fiscal_year: r.fiscal_year, group: nameOf(r.fund_code), budget: r.expenditures_original, actual: r.expenditures_actual, exception_ids: r.exception_ids }));
+
+const latest = rows.filter((r) => r.fiscal_year === lastAudit && r.ending_balance != null);
+const combined = latest.reduce((s, r) => s + r.ending_balance, 0);
+const biggest = latest.reduce((a, b) => (b.ending_balance > a.ending_balance ? b : a));
+const mft = rows.find((r) => r.fund_code === '10' && r.fiscal_year === lastAudit);
+const cap27 = rows.find((r) => r.fund_code === '41' && r.fiscal_year === lastAudit + 1);
+const diffs = rows.filter((r) => r.match === 'verified').flatMap((r) => [r.revenues_diff, r.expenditures_diff]).filter((d) => d != null);
+const agree = diffs.filter((d) => d === 0).length;
+
+const span = (f: (r: any) => boolean, code: string) => {
+  const ys = rows.filter((r) => r.fund_code === code && f(r)).map((r) => r.fiscal_year).sort();
+  return ys.length ? (ys[0] === ys.at(-1) ? fyLabel(ys[0]) : `${fyLabel(ys[0])}–${fyLabel(ys.at(-1)!)}`) : '—';
+};
+const MATCH: Record<string, string> = { verified: 'verified to the dollar', by_name: 'matched by name only', '': 'not matched' };
+const table = funds.filter((f) => f.fund_code !== '01' && f.fund_code !== '61').map((f) => ({
+  ...f, audit: span((r) => r.revenues_actual != null || r.ending_balance != null, f.fund_code), budget: span((r) => r.budget_revenues != null || r.budget_expenses != null, f.fund_code),
+}));
+const budgetOnly = funds.filter((f) => !['01', '61'].includes(f.fund_code) && !auditedCodes.includes(f.fund_code)).map((f) => {
+  const r = rows.filter((x) => x.fund_code === f.fund_code && x.budget_revenues != null).sort((a, b) => b.fiscal_year - a.fiscal_year)[0];
+  return r ? { name: f.name, fy: r.fiscal_year, revenues: r.budget_revenues, expenses: r.budget_expenses } : null;
+}).filter(Boolean) as any[];
+---
+<Base entity={entity} section="other-funds" title={`Other funds – ${meta.short_name}`} description={`${meta.name}: Motor Fuel Tax, TIF districts, special service areas, Capital Projects, library and pension funds, audited balances beside the budget.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Other funds</p>
+  <h1>Other funds</h1>
+  <p class="muted">Besides the General Fund and the Water and Sewer Fund, the city keeps money in funds with a single purpose: Motor Fuel Tax, tax increment financing (TIF) districts, special service areas, Capital Projects, the library and the police and fire pensions. The audits report these funds' balances and results for {fyLabel(years[0])}–{fyLabel(lastAudit)}; the budget documents list their planned revenues and expenses.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(lastAudit)} combined balance, audited funds</dt><dd>{millions(combined, 1)}</dd></div>
+    <div><dt>Largest: {nameOf(biggest.fund_code)}</dt><dd>{millions(biggest.ending_balance, 1)}</dd></div>
+    <div><dt>Motor Fuel Tax revenues, {fyLabel(lastAudit)}</dt><dd>{millions(mft.revenues_actual, 2)}</dd></div>
+    <div><dt>Budget match, verified funds</dt><dd>{agree} of {diffs.length}</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>At the end of {fyLabel(lastAudit)} the funds the audit reports separately held {millions(combined, 1)} in all, {millions(biggest.ending_balance, 1)} of it in {nameOf(biggest.fund_code)}.</li>
+    {cap27 && <li>The adopted {fyLabel(cap27.fiscal_year)} budget for Capital Projects is {millions(cap27.budget_revenues, 1)} of revenues, mostly transfers in from other funds and grants. The budget plans this fund as two ledgers (public benefit and capital assets), so it cannot be compared with the audit's single Capital Projects fund.</li>}
+    <li>For Motor Fuel Tax, the Kishwaukee TIF and the two Farmington special service areas, the audit's original budget equals the budget document's page in {agree} of {diffs.length} revenue and expenditure comparisons, to the dollar. That is the evidence the audit's funds were matched to the right budget funds.</li>
+    <li>The 1990 and 1993 TIF funds appear in the audits only until FY2014 and FY2016. Whether they are the budget's Downtown TIF and Belvidere Mall TIF is not proven, so they are not matched.</li>
+  </ul>
+
+  <ChartFilters client:load years={years} showDept={false} />
+  <p class="muted small-note">The year range is saved in the page address and applies to every chart below. Each panel has its own scale.</p>
+
+  <h2>Fund balances</h2>
+  <SmallMultiples client:load id="balances" filename="other-funds-balances.csv" actualAsLine subLabel="balance" exceptions={exceptions} rows={balRows} groups={groups}
+    ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Fund balance at year end, by fund"
+    note="From the audits' schedules and combining statements. The special service areas can carry small negative balances between tax collections." />
+
+  <h2>Revenues</h2>
+  <SmallMultiples client:load id="revenues" filename="other-funds-revenues.csv" exceptions={exceptions} rows={revRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+    title="Original budget (line) and audited actual revenues (dots), by fund" note="Revenues here exclude transfers from other funds, which the audit reports as other financing sources." />
+
+  <h2>Spending</h2>
+  <SmallMultiples client:load id="spending" filename="other-funds-expenditures.csv" exceptions={exceptions} rows={expRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+    title="Original budget (line) and audited actual expenditures (dots), by fund" />
+
+  <h2>Every fund and how it matches the budget</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fund</th><th>Kind</th><th>In the audits</th><th>In the budgets</th><th>Match</th><th>How</th></tr></thead>
+    <tbody>{table.map((f: any) => (
+      <tr><td>{f.name}</td><td>{f.type}</td><td>{f.audit}</td><td>{f.budget}</td><td>{MATCH[f.budget_match] ?? f.budget_match}</td><td>{f.note}</td></tr>
+    ))}</tbody>
+  </table></div>
+
+  {budgetOnly.length > 0 && (<>
+    <h3>Funds that appear only in the budget</h3>
+    <p class="muted">The budget documents plan these funds; the audits report them inside other statements or not as separate funds, so there is no audited result to compare with. Latest budget year shown.</p>
+    <div class="scroll"><table>
+      <thead><tr><th>Fund</th><th>Budget year</th><th class="num">Revenues</th><th class="num">Expenses</th></tr></thead>
+      <tbody>{budgetOnly.map((f: any) => <tr><td>{f.name}</td><td>{fyLabel(f.fy)}</td><td class="num">{dollars(f.revenues)}</td><td class="num">{f.expenses == null ? '—' : dollars(f.expenses)}</td></tr>)}</tbody>
+    </table></div>
+  </>)}
+  <p class="muted">Data: <a href={href(`/data/${entity}/other_funds.json`)}>other funds by year</a> · <a href={href(`/data/${entity}/funds.json`)}>funds list</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+  h3 { font-size: 1rem; margin: 24px 0 6px; }
+</style>

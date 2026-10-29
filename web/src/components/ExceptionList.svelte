@@ -44,8 +44,8 @@
 </ul>
 
 <style>
-  .exlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-  li { border-left: 3px solid var(--rule); padding-left: 10px; font-size: 0.875rem; scroll-margin-top: 12px; }
+  .exlist { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  li { border-left: 3px solid var(--rule); padding-left: 10px; font-size: 0.875rem; scroll-margin-top: 12px; overflow-wrap: anywhere; } /* file paths in the notes have no break points */
   .head { display: flex; flex-wrap: wrap; gap: 4px 10px; justify-content: space-between; align-items: baseline; }
   .chips { display: flex; flex-wrap: wrap; gap: 4px; }
   .chip { font-size: 0.6875rem; color: var(--ink2); background: var(--panel); border-radius: 3px; padding: 1px 6px; white-space: nowrap; }

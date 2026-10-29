@@ -365,6 +365,60 @@ def ws_audit_vs_budget(E, read):
         rows=rows)
 
 
+OTHER_FUND_EX = {  # exception id prefixes by fund code; EX-funds-audit-mapping and EX-negative-cash-balances concern every fund
+    "10": ("EX-fundsched-", "EX-fund-duplicate"), "13": ("EX-fundsched-",), "15": ("EX-fundsched-",), "16": ("EX-fundsched-",), "17": ("EX-fundsched-",),
+    "41": ("EX-pb-", "EX-fund-duplicate"), "18": ("EX-library-",), "IPL": ("EX-library-",),
+    "PP": ("EX-pension-", "EX-fy24-pension"), "FP": ("EX-pension-", "EX-fy24-pension", "EX-fire-pension"),
+}
+OTHER_FUND_ALL = ("EX-funds-audit-mapping", "EX-negative-cash-balances")
+
+
+def other_fund_exceptions(E, code, fy):
+    prefixes = OTHER_FUND_ALL + OTHER_FUND_EX.get(code, ())
+    return sorted(e["exception_id"] for e in E.exceptions() if e["exception_id"].startswith(prefixes) and in_range(e, fy))
+
+
+def other_funds(E, read):
+    """Every fund other than the General and Water / Sewer funds: the audit's schedule (original budget, actual, balances) beside the budget."""
+    kind = {f["fund_code"]: f for f in E.table("funds.csv")}
+    cols = ["revenues_original", "revenues_actual", "expenditures_original", "expenditures_actual", "net_other_financing_actual", "net_change_actual",
+            "beginning_balance", "ending_balance", "budget_revenues", "budget_expenses", "revenues_diff", "expenditures_diff"]
+    rows = []
+    for r in read("other_funds_summary.csv"):
+        fy, code = int(r["fiscal_year"]), r["fund_code"]
+        rows.append(dict(fiscal_year=fy, fund_code=code, fund=r["fund"], type=kind[code]["type"], match=r["match"], **{c: num(r[c]) for c in cols},
+                         exception_ids=other_fund_exceptions(E, code, fy)))
+    rows.sort(key=lambda r: (r["fund_code"], r["fiscal_year"]))
+    return dict(
+        title="Other funds: audited schedules beside the budget",
+        description="Motor Fuel Tax, tax increment financing (TIF) districts, special service areas, Capital Projects, the library, escrow and the pension funds. "
+                    "The audit's original budget is compared with the budget document only for the funds whose match is verified (every year agrees to the dollar); "
+                    "other funds are matched by name, or exist only in the budget or only in the audit.",
+        sources=["other_funds_summary.csv", "entities/<id>/funds.csv"],
+        columns=dict(fiscal_year="fiscal year", fund_code="fund code (PP, FP and IPL are this project's codes)", fund="fund name", type="kind of fund",
+                     match="verified | by_name | none: how the audit's fund was matched to the budget's", revenues_original="audit original budget, revenues",
+                     revenues_actual="audited actual revenues", expenditures_original="audit original budget, expenditures", expenditures_actual="audited actual expenditures",
+                     net_other_financing_actual="transfers and other financing, audited", net_change_actual="audited net change in fund balance",
+                     beginning_balance="fund balance at the start of the year", ending_balance="fund balance at year end",
+                     budget_revenues="budget document revenues", budget_expenses="budget document expenses",
+                     revenues_diff="audit original - budget document, revenues (verified funds only)", expenditures_diff="audit original - budget document, expenditures (verified funds only)",
+                     exception_ids="exceptions about this fund and year"),
+        rows=rows)
+
+
+def funds(E, read):
+    """The funds list: kind, how each audit fund maps to a budget fund, and how sure that is."""
+    rows = [dict(fund_code=f["fund_code"], name=f["name"], type=f["type"], audit_name=f["audit_name"], budget_match=f["budget_match"], note=f["note"])
+            for f in E.table("funds.csv")]
+    return dict(
+        title="Funds",
+        description="Every fund in the budget documents and audits, with how the audit's fund was matched to the budget's (verified by comparing dollars, by name, or not at all).",
+        sources=["entities/<id>/funds.csv"],
+        columns=dict(fund_code="fund code", name="fund name", type="kind of fund", audit_name="the name the audits use", budget_match="verified | by_name | empty",
+                     note="how the match was made"),
+        rows=rows)
+
+
 def tax_lines(E, read):
     """Every tax line behind the category series (account level), for the breakdown tables."""
     rows = []
@@ -406,6 +460,8 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "taxes_budget_vs_actual": (taxes_budget_vs_actual, ["tax_series_audit_basis.csv"]),
     "ws_summary": (ws_summary, ["ws_audit_statement_summary.csv", "ws_summary.csv"]),
     "ws_audit_vs_budget": (ws_audit_vs_budget, ["audit_ws_vs_budget.csv"]),
+    "other_funds": (other_funds, ["other_funds_summary.csv"]),
+    "funds": (funds, ["other_funds_summary.csv"]),
     "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),

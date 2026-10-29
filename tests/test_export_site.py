@@ -29,6 +29,10 @@ DATASET_COLUMNS = {
                    "budgetary_expenses_actual", "budget_revenues", "budget_expenses", "exception_ids"],
     "ws_audit_vs_budget": ["fiscal_year", "department", "audit_original", "audit_final", "audit_actual", "variance_pct", "budget_adjusted", "diff",
                            "exception_ids"],
+    "other_funds": ["fiscal_year", "fund_code", "fund", "type", "match", "revenues_original", "revenues_actual", "expenditures_original", "expenditures_actual",
+                    "net_other_financing_actual", "net_change_actual", "beginning_balance", "ending_balance", "budget_revenues", "budget_expenses",
+                    "revenues_diff", "expenditures_diff", "exception_ids"],
+    "funds": ["fund_code", "name", "type", "audit_name", "budget_match", "note"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
                   "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }
@@ -226,3 +230,18 @@ def test_water_sewer_datasets(site):
     for r in cmp:
         if r["diff"] != 0 and (r["fiscal_year"], r["department"]) in {(2018, "Collection system"), (2020, "Sewer"), (2015, "Water")}:
             assert any(i.startswith("EX-ws-audit-") for i in r["exception_ids"]), r  # each of these is explained by its own exception
+
+
+def test_other_funds_dataset(site):
+    rows = site(ENTITY, "other_funds.json")["rows"]
+    verified = [r for r in rows if r["match"] == "verified" and r["revenues_diff"] is not None]
+    assert {r["fund_code"] for r in verified} == {"10", "13", "16", "17"}  # Motor Fuel Tax, Kishwaukee TIF, SSA 2 and 3
+    diffs = [d for r in rows if r["match"] == "verified" for d in (r["revenues_diff"], r["expenditures_diff"]) if d is not None]
+    assert len(diffs) == 88 and set(diffs) == {0}  # 88 revenue and expenditure total comparisons (funds.csv: 23+24+23+18), the audit's budget = the budget page to the dollar
+    audited = [r for r in rows if None not in (r["ending_balance"], r["beginning_balance"], r["net_change_actual"])]
+    assert len(audited) > 70
+    for r in audited:  # beginning + net change = ending
+        assert r["beginning_balance"] + r["net_change_actual"] == r["ending_balance"] or abs(r["beginning_balance"] + r["net_change_actual"] - r["ending_balance"]) <= 1, r
+    assert any(r["fund_code"] == "41" and r["fiscal_year"] == 2027 and r["budget_revenues"] > 18_000_000 for r in rows)  # FY2027 Capital Projects budget
+    fl = site(ENTITY, "funds.json")["rows"]
+    assert {f["fund_code"] for f in fl} >= {r["fund_code"] for r in rows}

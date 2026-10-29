@@ -10,6 +10,9 @@ export function moneyTick(v: number): string {
   return `${sign}$${Math.round(a / 1e3).toLocaleString('en-US')}K`;
 }
 
+/** $1.22M for a million or more, $62K below that (small funds and lines). */
+export const moneyShort = (v: number): string => (Math.abs(v) >= 1e6 ? millions(v, 2) : `${v < 0 ? '-' : ''}$${Math.round(Math.abs(v) / 1e3).toLocaleString('en-US')}K`);
+
 export const millions = (v: number, d = 1): string => `${v < 0 ? '-' : ''}$${Math.abs(v / 1e6).toFixed(d)}M`;
 
 /** Long rows -> one row per `rowKey` with a column per distinct `colKey` value (for a chart's table view). */
