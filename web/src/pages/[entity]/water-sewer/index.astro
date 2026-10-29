@@ -7,6 +7,7 @@ import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -20,6 +21,7 @@ const palette = readData('palette.json');
 const all: any[] = readData(entity, 'ws_summary.json').rows;
 const dept: any[] = readData(entity, 'ws_audit_vs_budget.json').rows;
 const exceptions = exceptionsUsedBy(entity, all);
+const ref = referenceFor(entity);
 const exDept = exceptionsUsedBy(entity, dept);
 const audited = all.filter((r) => r.net_position_total != null);
 const first = audited[0], last = audited.at(-1)!;
@@ -70,36 +72,36 @@ const pct = (v: number) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(0)}%`;
     {budget && <li>The adopted {fyLabel(budget.fiscal_year)} budget has revenues of {millions(budget.budget_revenues, 2)} and expenses of {millions(budget.budget_expenses, 2)}.</li>}
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
-  <p class="muted small-note">The year range is saved in the page address and applies to every chart below.</p>
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">The year range and the Dollars choice are saved in the page address and apply to every chart below. “Per resident” divides by the whole city's population, not by the utility's customers.</p>
 
   <h2>Revenues and spending</h2>
-  <LineSeries client:load id="income" exceptions={exceptions} rows={incomeRows} series={[{ name: 'Operating revenues', color: '#1baf7a' }, { name: 'Operating expenses (budgetary basis)', color: '#eb6834' }]}
+  <LineSeries client:load id="income" exceptions={exceptions} units={ref?.units} rows={incomeRows} series={[{ name: 'Operating revenues', color: '#1baf7a' }, { name: 'Operating expenses (budgetary basis)', color: '#eb6834' }]}
     kind="money" title="Operating revenues and expenses, budgetary basis" filename="water-sewer-revenues-expenses.csv"
     note="From the audit's budget-and-actual schedule: expenses include capital outlay and leave out depreciation, the way the city budgets." />
-  <ValueBars client:load id="operating-income" exceptions={exceptions} rows={gaapRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Operating income ($)"
+  <ValueBars client:load id="operating-income" exceptions={exceptions} units={ref?.units} rows={gaapRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Operating income ($)"
     title="Operating income after depreciation" filename="water-sewer-operating-income.csv"
     note="The statement of revenues, expenses and changes in net position: operating revenues minus operating expenses including depreciation." />
 
   <h2>Net position</h2>
-  <StackedBars client:load id="net-position" exceptions={exceptions} ink={palette.ink} rows={npRows} totalLabel="Net position"
+  <StackedBars client:load id="net-position" exceptions={exceptions} units={ref?.units} ink={palette.ink} rows={npRows} totalLabel="Net position"
     series={[{ name: 'Invested in capital assets', color: '#2a78d6' }, { name: 'Restricted', color: '#eda100' }, { name: 'Unrestricted', color: '#1baf7a' }]}
     title="Net position by component" filename="water-sewer-net-position.csv"
     note="Invested in capital assets: plants, pipes and equipment less the debt that paid for them. Restricted: set aside for bond payments. Unrestricted: available for any utility use. FY2012-13 call this 'net assets'." />
-  <ValueBars client:load id="net-change" exceptions={exceptions} rows={changeRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Change in net position ($)"
+  <ValueBars client:load id="net-change" exceptions={exceptions} units={ref?.units} rows={changeRows} up={palette.up} down={palette.down} ink={palette.ink} valueLabel="Change in net position ($)"
     title="Change in net position" filename="water-sewer-net-position-change.csv"
     note="Includes capital grants and contributions, which is why it can be positive when operating income is not." />
 
   <h2>Cash</h2>
-  <LineSeries client:load id="cash" exceptions={exceptions} rows={cashRows} series={[{ name: 'Cash and investments', color: '#2a78d6' }]}
+  <LineSeries client:load id="cash" exceptions={exceptions} units={ref?.units} rows={cashRows} series={[{ name: 'Cash and investments', color: '#2a78d6' }]}
     kind="money" title="Cash and investments" filename="water-sewer-cash.csv"
     note="FY2012 is shown on the same footing as later years (including a $4.3M investments line the FY2012 cash flow statement leaves out)." />
-  <LineSeries client:load id="capital" exceptions={exceptions} rows={opRows} series={[{ name: 'Cash from operations', color: '#1baf7a' }, { name: 'Capital assets bought', color: '#eb6834' }]}
+  <LineSeries client:load id="capital" exceptions={exceptions} units={ref?.units} rows={opRows} series={[{ name: 'Cash from operations', color: '#1baf7a' }, { name: 'Capital assets bought', color: '#eb6834' }]}
     kind="money" title="Cash from operations vs capital assets bought" filename="water-sewer-cash-flow.csv"
     note="Net cash from operating activities, and purchases of capital assets from the cash flow statement." />
 
   <h2>Audited spending against the budget</h2>
-  <SmallMultiples client:load exceptions={exDept} rows={deptRows}
+  <SmallMultiples client:load units={ref?.units} exceptions={exDept} rows={deptRows}
     groups={[{ name: 'Water', color: '#2a78d6' }, { name: 'Sewer', color: '#eb6834' }, { name: 'Collection system', color: '#1baf7a' }]}
     ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Original budget (line) and audited actual operating expenses (dots), by department" />
   <p>The audit's original budget equals the budget document's expense lines, without the depreciation and bond set-asides, transfers out and the card-processing fee, in {agree} of {comparable.length} comparable department-years. The {misses.length} that differ:</p>

@@ -13,7 +13,7 @@ const checks = {
     '179 of 182'],
   'dist/belvidere_il/fund-balance/index.html': ['aria-label="Belvidere pages"', 'aria-current="page"','$42.6M', '$39.6M', '21.0', 'id="balance"', 'id="months"', 'id="flows"', 'id="net-change"', 'EX-fund-stmt-fy2016-restatement',
     'GFOA'],
-  'dist/belvidere_il/water-sewer/index.html': ['$41.5M', 'Water and Sewer Fund', 'id="income"', 'id="net-position"', 'id="cash"', 'id="multiples"', 'every year since FY2018', '31 of 36',
+  'dist/belvidere_il/water-sewer/index.html': ['$41.5M', 'not by the utility', 'Water and Sewer Fund', 'id="income"', 'id="net-position"', 'id="cash"', 'id="multiples"', 'every year since FY2018', '31 of 36',
     'EX-ws-audit-fy2020-sewer-capital', 'aria-label="Belvidere pages"'],
   'dist/belvidere_il/other-funds/index.html': ['Other funds', 'id="balances"', 'id="revenues"', 'id="spending"', '88 of 88', 'Motor Fuel Tax', 'Capital Projects', 'aria-label="Belvidere pages"'],
   'dist/belvidere_il/debt/index.html': ['Debt and long-term liabilities', 'is $1,530 ($170 of it borrowed money)', 'id="liabilities"', 'id="borrowing"', 'id="payments"', 'IEPA', 'GASB 68', 'aria-label="Belvidere pages"'],

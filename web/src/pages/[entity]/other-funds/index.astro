@@ -4,6 +4,7 @@ import SmallMultiples from '../../../components/SmallMultiples.svelte';
 import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -17,6 +18,7 @@ const palette = readData('palette.json');
 const rows: any[] = readData(entity, 'other_funds.json').rows;
 const funds: any[] = readData(entity, 'funds.json').rows;
 const exceptions = exceptionsUsedBy(entity, rows);
+const ref = referenceFor(entity);
 
 const SHORT: Record<string, string> = { '10': 'Motor Fuel Tax', '13': 'Kishwaukee TIF', '15': 'Kishwaukee II TIF', '16': 'Farmington SSA 2', '17': 'Farmington SSA 3',
   '41': 'Capital Projects', T90: '1990 TIF', T93: '1993 TIF' };
@@ -73,20 +75,20 @@ const budgetOnly = funds.filter((f) => !['01', '61'].includes(f.fund_code) && !a
     <li>The 1990 and 1993 TIF funds appear in the audits only until FY2014 and FY2016. Whether they are the budget's Downtown TIF and Belvidere Mall TIF is not proven, so they are not matched.</li>
   </ul>
 
-  <ChartFilters client:load years={years} showDept={false} />
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
   <p class="muted small-note">The year range is saved in the page address and applies to every chart below. Each panel has its own scale.</p>
 
   <h2>Fund balances</h2>
-  <SmallMultiples client:load id="balances" filename="other-funds-balances.csv" actualAsLine subLabel="balance" exceptions={exceptions} rows={balRows} groups={groups}
+  <SmallMultiples client:load units={ref?.units} id="balances" filename="other-funds-balances.csv" actualAsLine subLabel="balance" exceptions={exceptions} rows={balRows} groups={groups}
     ink={palette.ink} ink2={palette.ink2} surface={palette.surface} title="Fund balance at year end, by fund"
     note="From the audits' schedules and combining statements. The special service areas can carry small negative balances between tax collections." />
 
   <h2>Revenues</h2>
-  <SmallMultiples client:load id="revenues" filename="other-funds-revenues.csv" exceptions={exceptions} rows={revRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+  <SmallMultiples client:load units={ref?.units} id="revenues" filename="other-funds-revenues.csv" exceptions={exceptions} rows={revRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
     title="Original budget (line) and audited actual revenues (dots), by fund" note="Revenues here exclude transfers from other funds, which the audit reports as other financing sources." />
 
   <h2>Spending</h2>
-  <SmallMultiples client:load id="spending" filename="other-funds-expenditures.csv" exceptions={exceptions} rows={expRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
+  <SmallMultiples client:load units={ref?.units} id="spending" filename="other-funds-expenditures.csv" exceptions={exceptions} rows={expRows} groups={groups} ink={palette.ink} ink2={palette.ink2} surface={palette.surface}
     title="Original budget (line) and audited actual expenditures (dots), by fund" />
 
   <h2>Every fund and how it matches the budget</h2>
