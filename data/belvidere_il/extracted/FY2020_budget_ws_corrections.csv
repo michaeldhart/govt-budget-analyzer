@@ -1,0 +1,5 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2020,FY2020_budget,8 of 15,Water/Sewer,810,61-4-810-4590,Other Services,budget_FY2020,7800,7500,auto_resolved,from OCR prep thr150; makes the printed total tie,"Other Services 61-4-810-4590 7,813 7,500 7,500 7,800"
+2020,FY2020_budget,9 of 15,Water/Sewer,820,61-5-820-6200,Telephone,budget_FY2020,411000,11000,auto_resolved,from OCR prep thr150; makes the printed total tie,"Telephone 61-5-820-6200 9,369 11,000 11,000 411,000"
+2020,FY2020_budget,9 of 15,Water/Sewer,830,61-5-830-6020,Rep & Maint - Equipment,budget_FY2020,42000,12000,auto_resolved,from the FY2021 document; makes the printed total tie,"Rep & Maint - Equipment 61-5-830-6020 23,840 12,000 12,000 42,000"
+2020,FY2020_budget,10 of 15,Water/Sewer,,,Sewer: Net Sewer Department,budget_FY2020,482616,182616,total_override,OCR read the printed net as 482616 (1 for 4); revenues less expenses is 182616 and the revised column prints it,

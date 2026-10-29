@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2026,FY2026_budget,pdf21,Ida Public Library,000,IPL-5-000-51300,Insurance,budget_FY2026,952506,52506,auto_resolved_digit,a single-digit OCR confusion; makes TOTAL PERSONNEL tie,"51300 Insurance 952,506.00"

@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2024,FY2024_budget,5 of 15,General,230,01-5-230-5120,IMRF,(all),,22219|22628|17121,auto_resolved,row not read in full by this prep; whole row from OCR prep thr150,"IMRF 01-5-230-5120 22,219 22,628 A721"

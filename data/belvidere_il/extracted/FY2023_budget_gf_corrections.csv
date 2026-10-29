@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2023,FY2023_budget,7 of 15,General,610,01-5-610-6150,Planning Dept Services,budget_FY2023,2900,2500,row_override,OCR read Planning Dept Services FY23 request as 2900; the printed NET - ECONOMIC DEVELOPMENT (121641) needs 2500 and the FY2024 document's prior-year column shows 2500,"Planning Dept Services 01-5-610-6150 1,680 27,500 2,900"

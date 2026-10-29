@@ -437,18 +437,41 @@ def event_key(b, e):
     return f"{b['key']}@{e['kind']}" + (f"#{e['nth']}" if e["nth"] > 1 else "")
 
 
+def corr(h, column, raw, final, method, detail=""):
+    """Remember what the OCR read before an override or an automatic cross-reading replaced it (written to FY20XX_budget_funds_corrections.csv)."""
+    h.setdefault("corrections", []).append(dict(column=column, raw_value=raw, final_value=final, method=method, detail=detail))
+
+
+def corr_vals(h, cols, raw, new, method, detail=""):
+    """One correction per cell that changed, or one for the whole run when the OCR gave a different number of values."""
+    if len(raw) == len(new):
+        for i, (a, b) in enumerate(zip(raw, new)):
+            if a != b:
+                corr(h, cols[i], a, b, method, detail)
+    else:
+        corr(h, "(all)", "|".join(map(str, raw)), "|".join(map(str, new)), method, detail)
+
+
+def why(ov, kind, k, col=""):
+    return (ov["reasons"].get((kind, k, col)) or ov["reasons"].get((kind, k, ""))
+            or next((v for (kd, kk, _), v in ov["reasons"].items() if (kd, kk) == (kind, k)), ""))  # add_row keeps the label in its column
+
+
 def apply_overrides(blocks, ov, cols, ncols, used):
     for b in blocks:  # `row` overrides on a printed total that no OCR reading found create it
         for k in list(ov["row"]):
             fk, _, what = k.partition("@")
             if fk == b["key"] and what in KIND_OUT and not any(e["kind"] == what for e in b["events"]):
                 b["events"].append(dict(kind=what, name=KIND_OUT[what], vals=list(ov["row"][k]), label=b["page"], raw="(added by override)", flag="added_by_override", nth=1,
-                                        _key=(b["key"], what, 1)))
+                                        _key=(b["key"], what, 1),
+                                        corrections=[dict(column="(all)", raw_value="", final_value="|".join(map(str, ov["row"][k])), method="add_row",
+                                                          detail=why(ov, "row", k))]))
                 used.add(("row", k))
         for k, vals in ov["add"].items():
             fk, _, acct = k.partition("@")
             have = [it for it in b["items"] if it["account"] == acct]
             if fk == b["key"] and have:  # already read: the override states its values
+                corr_vals(have[0], cols, list(have[0]["vals"]), list(vals[1]), "row_override", why(ov, "add_row", k))
                 have[0]["vals"] = list(vals[1])
                 have[0]["flag"] = (have[0]["flag"] + " values_overridden").strip()
                 used.add(("add", k))
@@ -457,11 +480,14 @@ def apply_overrides(blocks, ov, cols, ncols, used):
                 flow = "revenue" if re.match(r"^\w+-4-", acct) else "expense"
                 parts = acct.split("-")
                 b["items"].append(dict(page_label=b["page"], flow=flow, dept=parts[2], obj=parts[3], line_item=label, vals=list(v), raw="(added by override)",
-                                       flag="added_by_override", printed_prefix=b["fund"], account=acct, nth=1, _key=(b["key"], acct, 1)))
+                                       flag="added_by_override", printed_prefix=b["fund"], account=acct, nth=1, _key=(b["key"], acct, 1),
+                                       corrections=[dict(column="(all)", raw_value="", final_value="|".join(map(str, v)), method="add_row",
+                                                         detail=why(ov, "add_row", k))]))
                 used.add(("add", k))
         for it in list(b["items"]):
             k0 = f"{b['key']}@{it['account']}"
             if k0 in ov["account"]:
+                corr(it, "", it["account"], ov["account"][k0], "account_override", why(ov, "account", k0))
                 it["account"] = ov["account"][k0]
                 it["flag"] = (it["flag"] + " account_overridden").strip()
                 used.add(("account", k0))
@@ -482,22 +508,28 @@ def apply_overrides(blocks, ov, cols, ncols, used):
                 it["flag"] = (it["flag"] + " not_in_printed_total").strip()
                 used.add(("notin", k))
             if k in ov["row"]:
+                corr_vals(it, cols, list(it["vals"]), list(ov["row"][k]), "row_override", why(ov, "row", k))
                 it["vals"] = list(ov["row"][k])
                 it["flag"] = (it["flag"] + " values_overridden").strip()
                 used.add(("row", k))
             for i, c in enumerate(cols):
                 if (k, c) in ov["cell"] and len(it["vals"]) == ncols:
+                    if it["vals"][i] != ov["cell"][(k, c)]:
+                        corr(it, c, it["vals"][i], ov["cell"][(k, c)], "cell_override", why(ov, "cell", k, c))
                     it["vals"][i] = ov["cell"][(k, c)]
                     it["flag"] = (it["flag"] + " cell_overridden").strip()
                     used.add(("cell", k, c))
         for e in b["events"]:
             k = event_key(b, e)
             if k in ov["row"]:
+                corr_vals(e, cols, list(e["vals"]), list(ov["row"][k]), "total_line_override", why(ov, "row", k))
                 e["vals"] = list(ov["row"][k])
                 e["flag"] = (e.get("flag", "") + " values_overridden").strip()
                 used.add(("row", k))
             for i, c in enumerate(cols):
                 if (k, c) in ov["cell"] and len(e["vals"]) == ncols:
+                    if e["vals"][i] != ov["cell"][(k, c)]:
+                        corr(e, c, e["vals"][i], ov["cell"][(k, c)], "total_override", why(ov, "cell", k, c))
                     e["vals"][i] = ov["cell"][(k, c)]
                     e["flag"] = (e.get("flag", "") + " cell_overridden").strip()
                     used.add(("cell", k, c))
@@ -637,8 +669,9 @@ def autofix(blocks, ncols, cols, ov, alts, notes_out):
                 if chosen is not None:
                     _, h, v, src = chosen
                     notes_out.append(f"auto-resolved {ck['block']['key']}@{holder_name(h)} {cols[i]}: {h['vals'][i]:,} -> {v:,} (from {src}; makes {ck['id']} tie)")
-                    h["vals"][i] = v
                     tag = "auto_resolved_digit" if tier is synth else ("auto_resolved_sign" if tier is flips else "auto_resolved")
+                    corr(h, cols[i], h["vals"][i], v, tag, f"from {src}; makes {ck['id']} tie")
+                    h["vals"][i] = v
                     if tag not in h.get("flag", ""):
                         h["flag"] = (h.get("flag", "") + " " + tag).strip()
                     fixed.add((id(h), i))
@@ -710,6 +743,7 @@ def fill_short(blocks, ncols, cols, ov, alts, notes_out):
             h["vals"] = o
         if len(sols) == 1:
             for h, v, o in zip(shorts, sols[0], origs):
+                corr(h, "(all)", "|".join(map(str, o)), "|".join(map(str, v)), "placed_by_sum", "OCR left cells out; the only completion that ties every check of the block")
                 h["vals"] = list(v)
                 h["flag"] = (h.get("flag", "") + " placed_by_sum").strip()
                 notes_out.append(f"{b['key']}@{holder_name(h)}: OCR gave {len(o)} values {o}; completed to {list(v)} (the only completion that ties every check of the block)")
@@ -766,6 +800,7 @@ def repair_short(blocks, others, notes, ncols):
                         continue
                 src = ",".join(p for v, p in reads)
                 notes.append(f"{b['key']}@{holder_name(h)}: reading with {len(h['vals'])} values {h['vals']} replaced by the other readings' {list(best)} (preps {src})")
+                corr(h, "(all)", "|".join(map(str, h["vals"])), "|".join(map(str, best)), "from_prep_vote", f"the other OCR readings' complete version (preps {src})")
                 h["vals"] = list(best)
                 h["flag"] = (h.get("flag", "") + " from_prep_vote").strip()
 
@@ -792,6 +827,7 @@ def vote_cells(blocks, others, notes, ncols, cols):
                 (val, n1), n2 = top[0], (top[1][1] if len(top) > 1 else 0)
                 if val != h["vals"][i] and n1 >= 3 and n1 - n2 >= 2 and votes.get(h["vals"][i], 0) + 1 < n1:
                     notes.append(f"{b['key']}@{holder_name(h)} {cols[i]}: {h['vals'][i]:,} -> {val:,} (majority of {n1 + n2 + votes.get(h['vals'][i], 0) * 0} OCR readings)")
+                    corr(h, cols[i], h["vals"][i], val, "prep_vote", f"majority of the other OCR readings ({n1} agree)")
                     h["vals"][i] = val
                     h["flag"] = (h.get("flag", "") + " vote").strip()
 
@@ -958,6 +994,25 @@ def write(fy, res):
             w.writerow([fy, f"FY{fy}_budget", disp(r["block"]), r["check"], r["column"], r["printed"], r["computed"], r["diff"], r["status"]])
 
 
+def write_corrections(fy, res):
+    out = os.path.join(DATA_E, "extracted", f"FY{fy}_budget_funds_corrections.csv")
+    with open(out, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(B.CORRECTION_HEADER)
+        for b in res["blocks"]:
+            for it in b["items"]:
+                if len(it["vals"]) == res["ncols"]:
+                    for c in it.get("corrections", []):
+                        w.writerow([fy, f"FY{fy}_budget", it["page_label"], disp(b), it["dept"], it["account"], it["line_item"], c["column"], c["raw_value"],
+                                    c["final_value"], c["method"], c["detail"], it.get("raw", "")])
+            for e in b["events"]:
+                if e["kind"] in KIND_OUT and len(e["vals"]) == res["ncols"]:
+                    for c in e.get("corrections", []):
+                        w.writerow([fy, f"FY{fy}_budget", e["label"], disp(b), "", "", e["name"], c["column"], c["raw_value"], c["final_value"], c["method"],
+                                    c["detail"], e.get("raw", "")])
+    return out
+
+
 def main():
     fy = sys.argv[1].replace("FY", "")
     arg = sys.argv[sys.argv.index("--prep") + 1] if "--prep" in sys.argv else "auto"
@@ -972,6 +1027,7 @@ def main():
     res = min(results, key=lambda r: len(r["problems"]))
     if "--dry" not in sys.argv:
         write(fy, res)
+        write_corrections(fy, res)
     print(f"\nchosen prep: {res['prep']}; columns {res['cols']}; {len(res['blocks'])} blocks; {len(res['problems'])} problems")
     for n in res["notes"]:
         print("  note:", n)

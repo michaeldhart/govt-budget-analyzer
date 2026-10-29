@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2026,FY2026_budget,10 of 16,Water/Sewer,820,61-4-820-4530,Meters Sold,budget_FY2026,412000,112000,auto_resolved,from the FY2027 document; makes the printed total tie,"Meters Sold 61-4-820-4530 141,919 94,000 412,000"

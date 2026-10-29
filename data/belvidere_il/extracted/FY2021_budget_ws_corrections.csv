@@ -1,0 +1,4 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2021,FY2021_budget,8 of 15,Water/Sewer,810,61-4-810-4530,Meters Sold,budget_FY2021,90060,90000,auto_resolved,from OCR prep thr150; makes the printed total tie,"Meters Sold 61-4-810-4530 91,771 93,650 93,650 90,060"
+2021,FY2021_budget,8 of 15,Water/Sewer,810,61-4-810-4900,Miscellaneaus Revenues,,61-4-3810-4900,61-4-810-4900,account_override,OCR read the account as 3810; the Water department Miscellaneous Revenues line (810),Miscellaneaus Revenues 61-4-3810-4900 106 0 0 0
+2021,FY2021_budget,10 of 15,Water/Sewer,,,Sewer: Total Sewer Department Expenses,budget_revised_FY2020,3725323,3725328,total_override,OCR read the printed revised total as 3725323; the budget column prints 3725328 and the lines sum to 3725328,

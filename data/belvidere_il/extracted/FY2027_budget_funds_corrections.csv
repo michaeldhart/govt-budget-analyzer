@@ -1,0 +1,4 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2027,FY2027_budget,12 of 15,Motor Fuel Tax #10,310,10-4-310-4900,Misc Revenues,(all),0|47689,0|47689|0,from_prep_vote,"the other OCR readings' complete version (preps gray,thr150,thr120,thr180)","Misc Revenues 10-4-310-4900 0 47,689"
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,,,Cash Balance - ending (531 609),(all),-45389|15809,-531609|45389|15809,from_prep_vote,"the other OCR readings' complete version (preps gray,thr150,nlthr150,thr120,thr180)","Cash Balance - ending (531 609). (45,389) 15,809"
+2027,FY2027_budget,14 of 15,Capital Projects #41 - Public Benefit Account,,,Cash Balance - ending (531 609),budget_FY2026,45389,-45389,auto_resolved,from OCR prep nlthr150; makes cash_roll tie,"Cash Balance - ending (531 609). (45,389) 15,809"

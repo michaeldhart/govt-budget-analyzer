@@ -40,6 +40,8 @@ const feeLines = lines.filter((l: any) => l.treatment === 'excluded_fee');
 const used = new Set<string>(lines.flatMap((l: any) => l.exception_ids));
 const exceptions = readData(entity, 'exceptions.json').exceptions.filter((e: any) => used.has(e.exception_id));
 const page = lines[0]?.source_doc ?? '';
+// a value the OCR misread and that was corrected: show what it read (hover for why)
+const fixText = (c: any) => /^-?\d+$/.test(c.raw_value) ? `OCR read ${dollars(Number(c.raw_value))}` : c.raw_value ? `OCR read ${c.raw_value}` : 'added from the page image';
 ---
 <Base entity={entity} section="taxes" title={`${fyLabel(year)} General Fund taxes – ${meta.short_name}`} description={`${meta.name}: ${fyLabel(year)} adopted General Fund tax revenue by category.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/taxes/`)}>Taxes</a> › {fyLabel(year)}</p>
@@ -61,6 +63,7 @@ const page = lines[0]?.source_doc ?? '';
     note="Gross taxes; offsets are shown in the table view and listed under the lines below." />
 
   <h2>Every tax line</h2>
+  <p class="muted">A note “OCR read …” marks a value the scan reader got wrong. It was corrected from the page image or by cross-checking other readings and the city's printed totals; hover for the reason. The page link opens the source PDF at that page.</p>
   {byCategory.map((c: any) => (
     <section>
       <h3><span class="swatch" style={`background:${c.color}`}></span>{c.name} <span class="muted">{dollars(c.total)} · {percent(c.total, gross)}</span></h3>
@@ -72,7 +75,7 @@ const page = lines[0]?.source_doc ?? '';
               <tr>
                 <td>{l.account}</td><td>{l.line_item}</td><td>{l.treatment === 'offset' ? 'offset' : 'tax'}</td>
                 <td class="num">{dollars(l.amount)}</td><td><a href={`${l.source_url}#page=${l.pdf_page}`} title={`Opens the ${l.source_doc.replace('_', ' ')} at PDF page ${l.pdf_page}`}>{l.page_label}</a></td>
-                <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td>
+                <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}{l.corrections.map((c: any) => <span class="fix" title={c.detail || c.method}>{fixText(c)}</span>)}</td>
               </tr>
             ))}
           </tbody>
@@ -86,7 +89,7 @@ const page = lines[0]?.source_doc ?? '';
       <div class="scroll"><table>
         <thead><tr><th>Account</th><th>Line</th><th class="num">Amount</th><th>Source page</th><th>Notes</th></tr></thead>
         <tbody>{feeLines.map((l: any) => <tr><td>{l.account}</td><td>{l.line_item}</td><td class="num">{dollars(l.amount)}</td><td><a href={`${l.source_url}#page=${l.pdf_page}`} title={`Opens the ${l.source_doc.replace('_', ' ')} at PDF page ${l.pdf_page}`}>{l.page_label}</a></td>
-          <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}</td></tr>)}</tbody>
+          <td>{l.exception_ids.map((id: string) => <a class="ex" href={`#${id}`}>{id}</a>)}{l.corrections.map((c: any) => <span class="fix" title={c.detail || c.method}>{fixText(c)}</span>)}</td></tr>)}</tbody>
       </table></div>
     </section>
   )}
@@ -116,6 +119,7 @@ const page = lines[0]?.source_doc ?? '';
   h3 { font-size: 1rem; margin: 24px 0 6px; }
   .scroll { overflow-x: auto; }
   .ex { font-size: 0.75rem; margin-right: 6px; }
+  .fix { font-size: 0.75rem; margin-right: 6px; color: var(--ink2); border-bottom: 1px dotted var(--muted); cursor: help; }
   .exceptions dt { font-weight: 600; margin-top: 14px; }
   .exceptions dd { margin: 2px 0 0; }
   td.num { white-space: nowrap; }

@@ -1,0 +1,6 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2015,FY2015_budget,3 of 16,General,210,01-5-210-5010,Salary - Regular - FT,(all),2942805|3231516|3231516|3255|587,2942805|3231516|3231516|3255587,auto_resolved,row not read in full by this prep; whole row from OCR prep thr150,"Salary - Regular - FT 01-5-210-5010 2,942,805 3,231,516 3,231,516 3,255 587"
+2015,FY2015_budget,7 of 16,General,340,01-5-340-6850,Tree Removal or Purchase,(all),62684|50000|50000|0|80000,62684|50000|50000|80000,auto_resolved,row not read in full by this prep; whole row from OCR prep thr150,"Tree Removal or Purchase 01-5-340-6850 62,684 50,000 50,000 . 80,000"
+2015,FY2015_budget,3 of 16,General,,,Total Police Department Revenues,budget_FY2015,1275181,1275181,total_override,OCR misread bold total; page image shows 1275181,
+2015,FY2015_budget,4 of 16,General,,,Total Fire Department Revenues,budget_FY2015,868100,868100,total_override,OCR misread bold total; page image shows 868100,
+2015,FY2015_budget,7 of 16,General,,,Forestry Department Revenues,budget_revised_FY2014,40000,40000,total_override,OCR misread bold total; page image shows 40000,

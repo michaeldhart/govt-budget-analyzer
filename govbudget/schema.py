@@ -62,6 +62,16 @@ TOTAL_KINDS = ("fund_revenues", "fund_expenses", "fund_net", "dept_revenues", "d
                # other budgeted funds and the Ida Public Library budget (fund-scoped names in `name`)
                "other_fund_revenues", "other_fund_expenses", "rollup_beginning_cash", "rollup_revenues", "rollup_expenses",
                "rollup_ending_cash", "library_revenue_total", "library_expense_total", "library_subtotal")
+# Values the OCR read that an eyeballed override or an automatic cross-reading then replaced: one row per corrected cell (target "line", keyed
+# by doc_id + account_printed + source_column) or printed total (target "total", keyed by label = the total's name). raw_value is what the OCR
+# produced (account text for method account_override; "a|b|c" for a whole row; empty for add_row, a line no OCR reading had), final_value is
+# what facts.csv / control_totals.csv hold. methods: row_override (eyeballed from the page image; also single cells), cell_override,
+# total_override, total_line_override, account_override, add_row, auto_resolved (another OCR prep or the neighbouring document made a failing
+# printed total tie), auto_resolved_digit, auto_resolved_sign, placed_by_sum, from_prep_vote and prep_vote (plurality of the OCR preps).
+CORRECTION_METHODS = ("row_override", "cell_override", "total_override", "total_line_override", "account_override", "add_row", "auto_resolved",
+                      "auto_resolved_digit", "auto_resolved_sign", "placed_by_sum", "from_prep_vote", "prep_vote")
+CORRECTION_COLUMNS = ["entity_id", "doc_id", "source_type", "target", "fund", "account_printed", "account_key", "label", "source_column",
+                      "page_label", "pdf_page", "raw_value", "final_value", "method", "detail", "ocr_line"]
 CONTROL_TOTAL_COLUMNS = ["entity_id", "doc_id", "period_fy", "basis", "kind", "name", "amount", "page_label"]
 # Audited fund-level statements (balance sheet; statement of revenues, expenditures and changes in fund balances), one row per
 # line x fund column. line_id is a stable name for the lines every audit has (cash, total_assets, total_fund_balance, ...).

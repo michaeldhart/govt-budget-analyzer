@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2027,FY2027_budget,3 of 15,General,210,01-5-210-5122,Police Pension,actual_FY2025,41834801,1834801,row_override,OCR read Police Pension FY25 actual as 41834801; page image (pdf p7) shows 1834801,"Police Pension 01-5-210-5122 41,834,801 2,007,755 2,098,985"

@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2017,FY2017_budget,8 of 16,Water/Sewer,810,61-4-810-4500,Water Consumption,budget_FY2016,92277155,2277155,auto_resolved,from OCR prep thr150; makes the printed total tie,"Water Consumption 61-4-810-4500 2,257,557 92,277,155 2,277,155 2,287,373"

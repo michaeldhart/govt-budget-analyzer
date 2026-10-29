@@ -13,6 +13,7 @@ CANONICAL = {
     "documents": schema.DOCUMENT_COLUMNS,
     "accounts": schema.ACCOUNT_COLUMNS,
     "control_totals": schema.CONTROL_TOTAL_COLUMNS,
+    "corrections": schema.CORRECTION_COLUMNS,
     "fund_statements": schema.FUND_STATEMENT_COLUMNS,
     **schema.DEBT_PENSION_TABLES,
 }
@@ -206,3 +207,24 @@ def test_every_fact_has_a_pdf_page_and_budget_footers_map_in_order(table):
             assert resolve[(r["doc_id"], r["page_label"])] == r["pdf_page"]
         elif r["source_type"] == "budget":
             assert r["page_label"] == "pdf" + r["pdf_page"]
+
+
+def test_corrections_show_the_raw_reading_next_to_the_final_value(table):
+    """Every corrected cell keeps what the OCR read; the final value is what facts.csv holds (T3)."""
+    corr = table("corrections")
+    assert corr and {r["method"] for r in corr} <= set(schema.CORRECTION_METHODS)
+    facts = {}
+    for f in table("facts"):
+        facts.setdefault((f["doc_id"], f["account_printed"], f["source_column"]), set()).add(f["amount"])
+    for r in corr:
+        assert r["pdf_page"].isdigit()
+        assert r["detail"] or r["method"] in ("account_override", "auto_resolved", "auto_resolved_digit"), r  # an eyeballed override must say why
+        if r["method"] in ("row_override", "auto_resolved", "auto_resolved_digit", "prep_vote") and r["target"] == "line" and r["source_column"] != "(all)":
+            assert r["raw_value"] != r["final_value"], r
+            assert r["final_value"] in facts[(r["doc_id"], r["account_printed"], r["source_column"])], r  # the corrected value is the fact
+        if r["method"] == "account_override":
+            assert r["account_printed"] == r["final_value"] or r["account_printed"].endswith("-" + r["final_value"]), r  # library recodes name the code only
+            assert any(k[1] == r["account_printed"] for k in facts if k[0] == r["doc_id"]), r
+    gf = [r for r in corr if r["doc_id"].endswith("_budget") and r["fund"] == "General"]
+    auto_rows = {(r["doc_id"], r["page_label"], r["account_printed"]) for r in gf if r["method"].startswith("auto_resolved")}
+    assert len(auto_rows) == 16 and sum(1 for r in gf if r["method"] == "add_row") == 2  # the extracts flag 16 lines auto_resolved, 2 added by override

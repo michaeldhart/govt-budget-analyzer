@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2023,FY2023_budget,8 of 15,Water/Sewer,810,61-5-810-7850,Bad Debt Expense,actual_FY2021,0,737,auto_resolved,from OCR prep thr150; makes the printed total tie,"Bad Debt Expense 61-5-810-7850 T37 2,000 2,000"

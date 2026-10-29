@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2025,FY2025_budget,9 of 15,Water/Sewer,830,61-5-830-7030,Gas & Oil,budget_FY2025,42000,12000,auto_resolved,from the FY2026 document; makes the printed total tie,"Gas & Oil 61-5-830-7030 12,323 12,000 42,000"

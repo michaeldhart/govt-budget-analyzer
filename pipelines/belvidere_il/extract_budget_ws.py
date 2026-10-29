@@ -251,6 +251,9 @@ def autofix(rows, events, cols, ov, ncols, alts, notes_out):
                 hit = [c for c in tier if abs(c[0] - d) <= tol]
                 if len({(id(c[1]), c[2]) for c in hit}) == 1:
                     _, r, v, src = hit[0]
+                    r.setdefault("corrections", []).append(dict(column=cols[i], raw_value=r["vals"][i], final_value=v,
+                                                                 method="auto_resolved_digit" if tier is synth else "auto_resolved",
+                                                                 detail=f"from {src}; makes the printed total tie"))
                     notes_out.append(f"auto-resolved {r['account']} {cols[i]}: {r['vals'][i]:,} -> {v:,} (from {src}; makes the printed total tie)")
                     r["vals"][i] = v
                     tag = "auto_resolved_digit" if tier is synth else "auto_resolved"
@@ -310,11 +313,14 @@ def run(fy, prep, alts=None):
     ncols = max(set(counts), key=counts.get)
     cols = B.column_labels(fy, ncols)
     ov = load_overrides(fy)
+    notes_by = B.read_notes(os.path.join(DATA_E, "overrides", f"FY{fy}_budget_ws.csv"))
     rows, events = parse(pages, ncols)
     used, notes = set(), []
     for r in rows:  # an account number the OCR garbled (61-4-3810-4900 for 61-4-810-4900), fixed by eye
         fix = ov["account"].get((r["page_label"], r["account"]))
         if fix:
+            r.setdefault("corrections", []).append(dict(column="", raw_value=r["account"], final_value=fix, method="account_override",
+                                                         detail=notes_by.get(("account", r["page_label"], r["account"], ""), "")))
             r["account"], r["dept"] = fix, fix.split("-")[2]
             r["flag"] = (r["flag"] + " account_overridden").strip()
     occ = {}
@@ -326,6 +332,13 @@ def run(fy, prep, alts=None):
             r["vals"], r["flag"] = [0] * ncols, (r["flag"] + " padded_zeros").strip()
         k = (r["page_label"], r["account"])
         if k in ov["row"]:
+            raw_vals, new_vals, detail = list(r["vals"]), list(ov["row"][k]), notes_by.get(("row", k[0], k[1], ""), "")
+            if len(raw_vals) == len(new_vals):
+                r.setdefault("corrections", []).extend(dict(column=cols[i], raw_value=a, final_value=b, method="row_override", detail=detail)
+                                                       for i, (a, b) in enumerate(zip(raw_vals, new_vals)) if a != b)
+            else:
+                r.setdefault("corrections", []).append(dict(column="(all)", raw_value="|".join(map(str, raw_vals)), final_value="|".join(map(str, new_vals)),
+                                                             method="row_override", detail=detail))
             r["vals"], r["flag"] = ov["row"][k], (r["flag"] + " values_overridden").strip()
     if alts is not None:
         autofix(rows, events, cols, ov, ncols, alts, notes)
@@ -350,7 +363,11 @@ def run(fy, prep, alts=None):
                [ov["total"].get((e["label"], e["name"], c), v) for c, v in zip(cols, e["vals"])])
               for e in events if e["kind"] in KINDS and len(e["vals"]) == ncols]
     good = [r for r in rows if len(r["vals"]) == ncols]
-    return dict(prep=prep, span=span, cols=cols, rows=rows, good=good, problems=problems, notes=notes, totals=totals)
+    total_corr = [dict(page_label=e["label"], name=f"{e['block'].title()}: {e['name']}", column=c, raw_value=v, final_value=ov["total"][(e["label"], e["name"], c)],
+                       method="total_override", detail=notes_by.get(("total", e["label"], e["name"], c), ""))
+                  for e in events if e["kind"] in KINDS and len(e["vals"]) == ncols for c, v in zip(cols, e["vals"])
+                  if (e["label"], e["name"], c) in ov["total"] and ov["total"][(e["label"], e["name"], c)] != v]
+    return dict(prep=prep, span=span, cols=cols, rows=rows, good=good, problems=problems, notes=notes, totals=totals, total_corr=total_corr)
 
 
 def write(fy, res):
@@ -372,6 +389,10 @@ def write(fy, res):
                 w.writerow([fy, f"FY{fy}_budget", label, "Water/Sewer", kind, name, c, v])
 
 
+def write_corrections(fy, res):
+    return B.write_correction_csv(os.path.join(DATA_E, "extracted", f"FY{fy}_budget_ws_corrections.csv"), fy, "Water/Sewer", res["good"], res["total_corr"])
+
+
 def main():
     fy = sys.argv[1].replace("FY", "")
     arg = sys.argv[sys.argv.index("--prep") + 1] if "--prep" in sys.argv else "auto"
@@ -384,6 +405,7 @@ def main():
         print(f"prep {p}: {len(r['problems'])} problems, {len(r['good'])}/{len(r['rows'])} lines usable (pdf pages {r['span'][0]}-{r['span'][1]})")
     res = min(results, key=lambda r: len(r["problems"]))
     write(fy, res)
+    write_corrections(fy, res)
     print(f"\nchosen prep: {res['prep']}; columns {res['cols']}; {len(res['good'])} lines; {len(res['problems'])} problems")
     for n in res["notes"]:
         print("  note:", n)

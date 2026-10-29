@@ -23,7 +23,7 @@ DATASET_COLUMNS = {
                      "excess_revenues_over_expenditures", "other_financing", "net_change", "beginning_balance", "prior_period_adjustment",
                      "ending_balance", "unassigned_months", "exception_ids"],
     "tax_lines": ["fiscal_year", "measure", "basis", "account", "department", "line_item", "amount", "category", "treatment",
-                  "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids"],
+                  "source_doc", "source_column", "page_label", "pdf_page", "source_url", "note", "exception_ids", "corrections"],
 }
 
 
@@ -182,3 +182,12 @@ def test_tax_lines_link_to_their_source_page(site):
     one = next(r for r in rows if r["fiscal_year"] == 2027 and r["measure"] == "budget_adopted" and r["account"] == "01-4-110-4010")
     assert one["page_label"] == "1 of 15" and one["pdf_page"] == 5  # FY2027 Exhibit A starts on PDF page 5
     assert "753H" in one["source_url"]
+
+
+def test_corrected_tax_lines_keep_the_raw_reading(site):
+    rows = site(ENTITY, "tax_lines.json")["rows"]
+    fixed = [r for r in rows if r["corrections"]]
+    assert 8 <= len(fixed) <= 40
+    one = next(r for r in rows if r["fiscal_year"] == 2019 and r["measure"] == "budget_revised" and r["account"] == "01-4-110-4010")
+    c = one["corrections"][0]
+    assert c["raw_value"] != c["final_value"] and c["detail"] and int(c["final_value"]) == one["amount"]

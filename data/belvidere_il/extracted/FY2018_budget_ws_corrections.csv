@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2018,FY2018_budget,9 of 16,Water/Sewer,820,61-5-820-7040,Operating Supplies,budget_FY2017,412000,12000,auto_resolved,from the FY2017 document; makes the printed total tie,"Operating Supplies 61-5-820-7040 20,296 412,000 12,000 15,000"

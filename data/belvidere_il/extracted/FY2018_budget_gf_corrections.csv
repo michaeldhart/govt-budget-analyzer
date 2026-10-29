@@ -1,0 +1,5 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2018,FY2018_budget,1 of 16,General,110,01-4-110-9998,Operating Transfer in,budget_revised_FY2017,4900000,1900000,row_override,OCR read revised FY17 as 4900000; page image shows 1900000,"Operating Transfer in 01-4-110-9998 133,705 1,900,000 4,900,000 1,173,828"
+2018,FY2018_budget,3 of 16,General,210,01-5-210-8200,Equipment,budget_revised_FY2017,60245,50245,row_override,OCR read the Police Equipment revised FY17 as 60245 (6 for 5); the printed Total Police Department Expenses needs 50245,"Equipment 01-5-210-8200 34,754 50,245 60,245 59,255"
+2018,FY2018_budget,5 of 16,General,230,01-5-230-6210,Postage,budget_FY2017,4500,1500,auto_resolved,from OCR prep thr150; makes the printed totals tie,"Postage 01-5-230-6210 778 4,500 1,500 3,000"
+2018,FY2018_budget,6 of 16,General,310,01-5-310-5152,Training,budget_revised_FY2017,4500,1500,auto_resolved,from OCR prep thr150; makes the printed totals tie,"Training 01-5-310-5152 219 1,500 4,500 1,500"

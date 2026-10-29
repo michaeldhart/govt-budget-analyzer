@@ -1,0 +1,20 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41200,REPLACEMENT TAX,(all),,39000,add_row,Line printed on the page image (p19) but missing from every OCR reading,(added by override)
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41215,FRIENDS SUMMER,(all),,3500,add_row,Line printed on the page image (p19) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-41511,Unrestricted Grants,(all),,0,add_row,Line printed on the page image (p19) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-4-000-49500,GIFT/DONATION,(all),,500,add_row,Line printed on the page image (p19) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73103,YN0NF1C,,73003,73103,account_override,OCR misread the code of Y NON FIC (73103),"| _ 73003YNONFIC $3,000.00"
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-5-000-41004,Legal,(all),,2000,add_row,Line printed on the page image (p19) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf19,Ida Public Library,000,IPL-5-000-41006,AUDIT,(all),,7000,add_row,Line printed on the page image (p19) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-41518,Gardening Grant Spending,(all),,250,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-51565,POSTAGE,(all),,500,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-60102,PROPERTY TAXES,(all),,3850,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62303,TECH-SOFTWARE,(all),,4000,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62351,CONSORTIUM,(all),,22000,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-62352,DATABASES,(all),,3000,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf20,Ida Public Library,000,IPL-5-000-64100,MACHINE RENT,(all),,400,add_row,Line printed on the page image (p20) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73113,Y YA NF (73113),(all),,1500,add_row,Line printed on the page image (p21) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73117,Books-donation-Womens/Newcomer,(all),,100,add_row,Line printed on the page image (p21) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73303,A-V Y A DVD,(all),,1000,add_row,Line printed on the page image (p21) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,000,IPL-5-000-73406,COMMUNITY GARDEN,(all),,200,add_row,Line printed on the page image (p21) but missing from the OCR reading,(added by override)
+2023,FY2023_budget,pdf21,Ida Public Library,,,Total expenses,budget_FY2023,896250.9,896250,total_override,Printed Total Expenses is $896250.00 (OCR read .90),

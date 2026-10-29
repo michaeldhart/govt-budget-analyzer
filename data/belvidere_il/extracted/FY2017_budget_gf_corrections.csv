@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2017,FY2017_budget,1 of 16,General,110,01-4-110-4440,Video Gambling,budget_FY2017,480000,180000,row_override,OCR read FY17 request as 480000; page image shows 180000,"Video Gambling 01-4-110-4440 108,364 93,600 93,600 480,000"

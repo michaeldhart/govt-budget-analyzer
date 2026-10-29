@@ -1,0 +1,3 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2019,FY2019_budget,9 of 16,Water/Sewer,820,61-5-820-6010,Rep & Maint - Buildings,budget_FY2019,423000,123000,auto_resolved,from OCR prep thr150; makes the printed total tie,"Rep & Maint - Buildings 61-5-820-6010 19,652 100,000 100,000 423,000"
+2019,FY2019_budget,9 of 16,Water/Sewer,830,61-5-830-5130,Group Health Ins,budget_FY2018,408409,108409,auto_resolved,from the FY2018 document; makes the printed total tie,"Group Health Ins 61-5-820-5130 99,658 408,409 108,409 110,737"

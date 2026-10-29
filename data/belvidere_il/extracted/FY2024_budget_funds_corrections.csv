@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2024,FY2024_budget,12 of 15,Kishwaukee TIF #13,110,13-5-110-7900,Miscellaneous Expense,(all),3738|4000|4000|0,3738|4000|4000,from_prep_vote,"the other OCR readings' complete version (preps gray,thr150,thr180)","Miscellaneous Expense 13-5-110-7900 3,738 4,000 4,000 )"

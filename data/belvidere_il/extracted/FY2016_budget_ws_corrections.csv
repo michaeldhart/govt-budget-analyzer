@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2016,FY2016_budget,9 of 16,Water/Sewer,820,61-5-820-6410,Office Equip Rental / Maint,actual_FY2014,1427,7427,row_override,OCR read Office Equip Rental / Maint FY14 actual as 1427; page image (pdf p23) shows 7427 and the printed Sewer department subtotal needs it,"Office Equip Rental / Maint 61-5-820-6410 1,427 11,385 11,385 11,400"

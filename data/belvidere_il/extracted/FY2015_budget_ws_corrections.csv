@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2015,FY2015_budget,11 of 16,Water/Sewer,110,61-5-110-9031,Bond Issuance Cost,(all),5500|0|0,5500|0|0|0,row_override,"OCR dropped trailing zeros of the Bond Issuance Cost row (""5","Bond Issuance Cost 61-5-110-9031 5,500 0 0"

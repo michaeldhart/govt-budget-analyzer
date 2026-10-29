@@ -1,0 +1,3 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2027,FY2027_budget,pdf13,Water/Sewer,820,61-5-820-6410,Office Equip Rental / Maint,budget_FY2027,18006,18000,auto_resolved,from OCR prep thr150; makes the printed total tie,"Office Equip Rental / Maint 61-5-820-6410 10,583 18,000 18,006"
+2027,FY2027_budget,pdf13,Water/Sewer,830,61-5-830-6030,Rep & Maint - Vehicles,budget_FY2027,18546,18540,row_override,OCR read Collection System Rep & Maint - Vehicles FY27 request as 18546; the printed Total Sewer Department Expenses (3778908) needs 18540 (3% over 18000),"Rep & Maint - Vehicles 61-5-830-6030 5,449 18,000 18,546"

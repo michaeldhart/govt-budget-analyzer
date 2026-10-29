@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.join(HERE, "..", ".."))
 from govbudget import Entity  # noqa: E402
 from extract_audit_expenditures import norm as audit_norm  # noqa: E402
 from govbudget.entity import read_csv, write_csv  # noqa: E402
-from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
+from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, CORRECTION_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
                               FUND_STATEMENT_COLUMNS)
 from govbudget.validate import validate_config, validate_tables  # noqa: E402
 
@@ -299,6 +299,17 @@ def main():
         if f["source_type"] == "budget" and not f["pdf_page"]:
             label = f["page_label"]
             f["pdf_page"] = label[3:] if label.startswith("pdf") else page_map[(f["doc_id"], label)]
+    corrections = []
+    for fy in range(lo, hi + 1):  # raw OCR readings next to the values that replaced them (extract_*.py write FY20XX_budget_*_corrections.csv)
+        for path in sorted(glob.glob(E.data_path("extracted", f"FY{fy}_budget_*_corrections.csv"))):
+            for r in csv.DictReader(open(path)):
+                label = r["page_label"]
+                corrections.append(dict(
+                    entity_id=E.id, doc_id=r["doc"], source_type="budget", target="line" if r["account"] else "total", fund=r["fund"],
+                    account_printed=r["account"], account_key=E.account_key(r["account"]) if r["account"] else "", label=r["line_item"],
+                    source_column=r["column"], page_label=label, pdf_page=label[3:] if label.startswith("pdf") else page_map[(r["doc"], label)],
+                    raw_value=r["raw_value"], final_value=r["final_value"], method=r["method"], detail=r["detail"], ocr_line=r["ocr_line"]))
+    write_csv(E.data_path("corrections.csv"), CORRECTION_COLUMNS, corrections)
     write_csv(E.data_path("documents.csv"), DOCUMENT_COLUMNS, docs)
     write_csv(E.data_path("accounts.csv"), ACCOUNT_COLUMNS, accounts)
     write_csv(E.data_path("facts.csv"), FACT_COLUMNS, facts)

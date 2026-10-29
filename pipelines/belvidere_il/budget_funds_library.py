@@ -237,6 +237,11 @@ def check_all(rows, events, ncols, cols, allow):
     return problems, results
 
 
+def corr(h, column, raw, final, method, detail=""):
+    """Remember what the reading was before an override or an auto-resolve replaced it (written to FY20XX_budget_library_corrections.csv)."""
+    h.setdefault("corrections", []).append(dict(column=column, raw_value=raw, final_value=final, method=method, detail=detail))
+
+
 def autofix(rows, events, ncols, cols, allow, notes):
     from extract_budget import digit_variants
     for _ in range(40):
@@ -260,6 +265,7 @@ def autofix(rows, events, ncols, cols, allow, notes):
             if len(uniq) == 1:
                 r, a = cands[0]
                 notes.append(f"auto-resolved {r['code'] or r['label']} {cols[i]}: {r['cells'][i] / 100:,.2f} -> {a / 100:,.2f} (makes {e['name']} tie)")
+                corr(r, cols[i], money(r["cells"][i]), money(a), "auto_resolved_digit", f"a single-digit OCR confusion; makes {e['name']} tie")
                 r["cells"][i] = a
                 r["flags"][i] = "auto_resolved_digit"
                 done = True
@@ -292,6 +298,7 @@ def apply_overrides(rows, events, cols, ov, allow, notes):
             if not hit:
                 notes.append(f"override never used: {k}")
                 continue
+            corr(hit[0], c, money(hit[0]["cells"].get(ci, 0)) if hit[0]["cells"].get(ci) is not None else "", money(round(float(o["value"]) * 100)), "row_override", o["reason"])
             hit[0]["cells"][ci] = round(float(o["value"]) * 100)
             hit[0]["flags"][ci] = "cell_overridden"
         elif o["kind"] == "drop":
@@ -304,6 +311,7 @@ def apply_overrides(rows, events, cols, ov, allow, notes):
         elif o["kind"] == "recode":
             for r in rows:
                 if (r["code"] or r["label"]) == o["key"]:
+                    corr(r, "", r["code"] or "", o["value"], "account_override", o["reason"])
                     r["code"] = o["value"]
         elif o["kind"] == "add_row":
             vals = [round(float(v) * 100) for v in o["value"].split("|")]
@@ -312,7 +320,8 @@ def apply_overrides(rows, events, cols, ov, allow, notes):
             last = [i for i, r in enumerate(rows) if r["flow"] == flow]
             pos = last[-1] + 1 if last else len(rows)
             pg = re.search(r"\(p(\d+)\)", o.get("reason", ""))  # the reason names the PDF page the line was read from: "(p19)"
-            rows.insert(pos, dict(page=int(pg.group(1)) if pg else rows[pos - 1]["page"], flow=flow, code=o["key"] or None, label=o["page_label"], cells={i: v for i, v in enumerate(vals)}, y=0, raw="(added by override)", dup=False, raws={}, flags={i: "added_by_override" for i in range(len(vals))}))
+            rows.insert(pos, dict(corrections=[dict(column="(all)", raw_value="", final_value="|".join(str(money(v)) for v in vals), method="add_row", detail=o["reason"])],
+                                  page=int(pg.group(1)) if pg else rows[pos - 1]["page"], flow=flow, code=o["key"] or None, label=o["page_label"], cells={i: v for i, v in enumerate(vals)}, y=0, raw="(added by override)", dup=False, raws={}, flags={i: "added_by_override" for i in range(len(vals))}))
             for e in events:  # keep the event positions meaningful
                 if e["pos"] >= pos:
                     e["pos"] += 1
@@ -320,6 +329,8 @@ def apply_overrides(rows, events, cols, ov, allow, notes):
             ci = cols.index(c)
             for e in events:
                 if e["name"] == k:
+                    if e["cells"].get(ci) != round(float(o["value"]) * 100):
+                        corr(e, c, money(e["cells"][ci]) if e["cells"].get(ci) is not None else "", money(round(float(o["value"]) * 100)), "total_override", o["reason"])
                     e["cells"][ci] = round(float(o["value"]) * 100)
 
 
@@ -373,6 +384,19 @@ def run(fy, write=True):
                 for i, c in enumerate(cols):
                     if e["cells"].get(i) is not None:
                         w.writerow([fy, f"FY{fy}_budget", f"pdf{e['page']}", "Ida Public Library", {"total_revenue": "library_revenue_total", "total_expense": "library_expense_total"}.get(e["kind"], "library_subtotal"), e["name"], c, money(e["cells"][i])])
+        with open(os.path.join(base, f"FY{fy}_budget_library_corrections.csv"), "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["fiscal_year", "doc", "page_label", "fund", "dept_code", "account", "line_item", "column", "raw_value", "final_value", "method", "detail", "ocr_line"])
+            seen = {}
+            for r in rows:
+                obj = r["code"] or slug(r["label"])
+                acct = f"IPL-{'4' if r['flow'] == 'revenue' else '5'}-000-{obj}"
+                for c in r.get("corrections", []):
+                    w.writerow([fy, f"FY{fy}_budget", f"pdf{r['page']}", "Ida Public Library", "000", acct, r["label"], c["column"], c["raw_value"], c["final_value"],
+                                c["method"], c["detail"], r.get("raw", "")])
+            for e in events:
+                for c in e.get("corrections", []):
+                    w.writerow([fy, f"FY{fy}_budget", f"pdf{e['page']}", "Ida Public Library", "", "", e["name"], c["column"], c["raw_value"], c["final_value"], c["method"], c["detail"], ""])
         with open(os.path.join(base, f"FY{fy}_budget_library_checks.csv"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["fiscal_year", "doc", "fund", "check", "column", "printed", "computed", "diff", "status"])

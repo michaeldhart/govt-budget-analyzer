@@ -285,6 +285,10 @@ def tax_lines(E, read):
     rows = []
     url = {d["doc_id"]: d["source_url"] for d in read("documents.csv")}
     page = {(p["doc_id"], p["page_label"]): p["pdf_page"] for p in read("page_map.csv")}
+    corr = defaultdict(list)  # what the OCR read before a value was corrected (corrections.csv), by document and account
+    for c in read("corrections.csv"):
+        if c["target"] == "line":
+            corr[(c["doc_id"], c["account_printed"])].append(c)
     for r in read("tax_series_long.csv"):
         label, doc = r["source_page_label"], r["source_doc"]
         pdf_page = int(label[3:]) if label.startswith("pdf") else int(page[(doc, label)])  # budget footers: page_map.csv (build_page_map.py)
@@ -292,7 +296,9 @@ def tax_lines(E, read):
             fiscal_year=int(r["fiscal_year"]), measure=r["measure"], basis=r["basis"], account=r["account"],
             department=r["department"], line_item=r["line_item"], amount=int(r["amount"]), category=r["category"],
             treatment=r["treatment"], source_doc=doc, source_column=r["source_column"],
-            page_label=label, pdf_page=pdf_page, source_url=url[doc], note=r["note"], exception_ids=ids(r["exception_ids"])))
+            page_label=label, pdf_page=pdf_page, source_url=url[doc], note=r["note"], exception_ids=ids(r["exception_ids"]),
+            corrections=[dict(method=c["method"], column=c["source_column"], raw_value=c["raw_value"], final_value=c["final_value"], detail=c["detail"])
+                         for c in corr[(doc, r["account"])] if c["source_column"] in (r["source_column"], "(all)", "")]))
     rows.sort(key=lambda r: (r["measure"], r["fiscal_year"], r["account"]))
     return dict(
         title="General Fund tax lines",
@@ -304,7 +310,8 @@ def tax_lines(E, read):
                      treatment="tax | offset | excluded_fee", source_doc="document the number was read from",
                      source_column="column of that document", page_label="printed page label (e.g. '1 of 15')", pdf_page="page of the source PDF (open it at source_url#page=N)",
                      source_url="the document on belvidereil.gov", note="free text",
-                     exception_ids="exceptions touching this line"),
+                     exception_ids="exceptions touching this line",
+                     corrections="values the OCR read differently, with the reading kept beside the final value (corrections.csv)"),
         rows=rows)
 
 
@@ -312,7 +319,7 @@ DATASETS = {  # name -> (builder, source tables, tables copied to downloads/)
     "taxes_by_category": (taxes_by_category, ["tax_series_by_category.csv", "tax_series_long.csv"]),
     "taxes_audit_basis": (taxes_audit_basis, ["tax_series_audit_basis.csv"]),
     "taxes_budget_vs_actual": (taxes_budget_vs_actual, ["tax_series_audit_basis.csv"]),
-    "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv"]),
+    "tax_lines": (tax_lines, ["tax_series_long.csv", "documents.csv", "page_map.csv", "corrections.csv"]),
     "expenses_by_dept_object": (expenses_by_dept_object, ["facts.csv"]),
     "expenses_fund_totals": (expenses_fund_totals, ["facts.csv", "control_totals.csv"]),
     "expenses_audit_vs_budget": (expenses_audit_vs_budget, ["audit_expenses_vs_budget.csv"]),

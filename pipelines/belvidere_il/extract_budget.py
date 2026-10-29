@@ -307,6 +307,14 @@ def load_overrides(fy):
     return acct, total, allow, rowv, notin, addr, scope
 
 
+def override_notes(fy):
+    return read_notes(os.path.join(DATA_E, "overrides", f"FY{fy}_budget.csv"))
+
+
+def note_for(notes, kind, label, key, column=""):
+    return notes.get((kind, label, key, column)) or notes.get((kind, label, key, "")) or ""
+
+
 def check_expenses(events, rows, exp_rows, fund_total, cols, compare):
     """Tie the expense rows to every printed expense total, subtotal and NET line.
 
@@ -425,6 +433,9 @@ def autofix(events, rows, exp_good, fund_total, cols, ncols, alts, compare_diffs
                     break
             if pick:
                 for _d, r, col, v, src in pick:
+                    r.setdefault("corrections", []).append(dict(column=cols[col], raw_value=r["vals"][col], final_value=v,
+                                                                 method="auto_resolved_digit" if weak else "auto_resolved",
+                                                                 detail=f"from {src}; makes the printed totals tie"))
                     notes.append(f"auto-resolved {r['account']} {cols[col]}: {r['vals'][col]:,} -> {v:,} (from {src}; makes the printed totals tie)")
                     r["vals"][col] = v
                     tag = "auto_resolved_digit" if weak else "auto_resolved"
@@ -521,10 +532,14 @@ def extract(fy, prep, force=False, alts=None):
         n_ = occ[r["account"]] = occ.get(r["account"], 0) + 1
         r["_key"] = (r["account"], n_)
     acct_fix, total_fix, allow_diff, row_fix, not_in_total, add_rows, not_in_total_scope = load_overrides(fy)
+    onotes = override_notes(fy)
+    total_corr = {}  # (page_label, total's name, column) -> correction: a printed total replaced by an eyeballed value
     used = set()
     for r in rows + exp_rows:
         k = (r["page_label"], f"{r['line_item']}|{r['account']}")
         if k in acct_fix:
+            r.setdefault("corrections", []).append(dict(column="", raw_value=r["account"], final_value=acct_fix[k], method="account_override",
+                                                         detail=note_for(onotes, "account", r["page_label"], k)))
             r["account"], r["dept_code"] = acct_fix[k], acct_fix[k].split("-")[2]
             used.add(k)
         # row overrides match on the account alone (line-item text is OCR noise); the long
@@ -537,6 +552,15 @@ def extract(fy, prep, force=False, alts=None):
             r["skip_scope"] = not_in_total_scope.get((r["page_label"], r["account"]), "")
             used.add((r["page_label"], r["account"]))
         if kr:
+            raw_vals, new_vals = list(r["vals"]), list(row_fix[kr])
+            detail = note_for(onotes, "row", kr[0], kr[1])
+            if len(raw_vals) == len(new_vals):  # one record per cell the override changed
+                r.setdefault("corrections", []).extend(
+                    dict(column=cols[i], raw_value=a, final_value=b, method="row_override", detail=detail)
+                    for i, (a, b) in enumerate(zip(raw_vals, new_vals)) if a != b)
+            else:  # the OCR line did not even give one value per column: keep the whole reading
+                r.setdefault("corrections", []).append(dict(column="(all)", raw_value="|".join(map(str, raw_vals)),
+                                                            final_value="|".join(map(str, new_vals)), method="row_override", detail=detail))
             r["vals"] = row_fix[kr]
             r["flag"] = (r["flag"] + " " if r["flag"] else "") + "values_overridden"
             used.add(kr)
@@ -552,7 +576,9 @@ def extract(fy, prep, force=False, alts=None):
             continue
         lst.insert(at + 1, dict(page_label=page_label, dept_code=dept, account=key,
                                 line_item=label or "(unlabeled in source)",  # add_row's `column` field carries the label, when the page shows one
-                                vals=vals, raw=note, flag="added_by_override"))
+                                vals=vals, raw=note, flag="added_by_override",
+                                corrections=[dict(column="(all)", raw_value="", final_value="|".join(map(str, vals)), method="add_row",
+                                                  detail=note_for(onotes, "add_row", page_label, key, label or ""))]))
         if is_exp:
             for e in events:
                 if e["exp_pos"] > at:
@@ -570,6 +596,8 @@ def extract(fy, prep, force=False, alts=None):
         out = list(vals)
         for i, c in enumerate(cols):
             if (label, name, c) in total_fix:
+                total_corr.setdefault((label, name, c), dict(page_label=label, name=name, column=c, raw_value=out[i], final_value=total_fix[(label, name, c)],
+                                                             method="total_override", detail=note_for(onotes, "total", label, name, c)))
                 out[i] = total_fix[(label, name, c)]
                 used.add((label, name, c))
         return out
@@ -584,7 +612,10 @@ def extract(fy, prep, force=False, alts=None):
     for r in exp_rows:  # a row this prep could not read in full: take another reading of the whole row if there is one
         a_ = alts.get(r.get("_key"))
         if a_ and len(r["vals"]) != ncols and a_["full"]:
+            raw_vals = list(r["vals"])
             r["vals"], src = a_["full"][0]
+            r.setdefault("corrections", []).append(dict(column="(all)", raw_value="|".join(map(str, raw_vals)), final_value="|".join(map(str, r["vals"])),
+                                                         method="auto_resolved", detail=f"row not read in full by this prep; whole row from {src}"))
             r["flag"] = (r["flag"] + " auto_resolved").strip()
             auto_notes.append(f"auto-resolved row {r['account']} on {r['page_label']}: read in full from {src}")
     exp_good = [r for r in exp_rows if len(r["vals"]) == ncols]
@@ -602,7 +633,16 @@ def extract(fy, prep, force=False, alts=None):
         sink = problems if sink is None else sink
         nsink = notes if nsink is None else nsink
         if (label, name) in row_fix:  # whole printed total line replaced after checking the page image
-            vals = row_fix[(label, name)]
+            new, detail = row_fix[(label, name)], note_for(onotes, "row", label, name)
+            if len(vals) == len(new):
+                for i, (a, b) in enumerate(zip(vals, new)):
+                    if a != b:
+                        total_corr.setdefault((label, name, cols[i]), dict(page_label=label, name=name, column=cols[i], raw_value=a, final_value=b,
+                                                                           method="total_line_override", detail=detail))
+            else:
+                total_corr.setdefault((label, name, "(all)"), dict(page_label=label, name=name, column="(all)", raw_value="|".join(map(str, vals)),
+                                                                   final_value="|".join(map(str, new)), method="total_line_override", detail=detail))
+            vals = new
             used.add((label, name))
         if len(vals) != ncols:
             sink.append(f"{label} '{name}': {len(vals)} values read, expected {ncols}: {vals}")
@@ -699,7 +739,7 @@ def extract(fy, prep, force=False, alts=None):
         side = exp_notes if (len(k) > 1 and re.search(r"(?i)-5-|expens|^net\b|\bnet$", str(k[1]))) else notes
         side.append(f"override never used (OCR text may have changed): {k}")
 
-    return dict(prep=prep, totals=printed_log, exp_problems=exp_problems, exp_alt_rows=exp_rows, exp_notes=exp_notes, rows=rows, good=good, exp_rows=exp_rows, exp_good=exp_good, events=events, cols=cols, checks=checks, problems=problems, notes=notes,
+    return dict(prep=prep, total_corr=list(total_corr.values()), totals=printed_log, exp_problems=exp_problems, exp_alt_rows=exp_rows, exp_notes=exp_notes, rows=rows, good=good, exp_rows=exp_rows, exp_good=exp_good, events=events, cols=cols, checks=checks, problems=problems, notes=notes,
                 pdf_pages=(start + 1, end + 1))
 
 
@@ -756,6 +796,40 @@ def write_rows(fy, res, rows, name):
     return out
 
 
+CORRECTION_HEADER = ["fiscal_year", "doc", "page_label", "fund", "dept_code", "account", "line_item", "column", "raw_value", "final_value",
+                     "method", "detail", "ocr_line"]
+
+
+def read_notes(path):
+    """(kind, page_label, key, column) -> note from an eyeballed-override file (why each correction was made)."""
+    if not os.path.exists(path):
+        return {}
+    return {(o["kind"], o["page_label"], o["key"], o["column"]): o["note"] for o in csv.DictReader(open(path))}
+
+
+def write_correction_csv(out, fy, fund, rows, total_corr=()):
+    """Every value the OCR read that an eyeballed override or an auto-resolve then replaced, with the raw reading beside the final one.
+    rows: parsed lines (dicts with page_label, dept_code or dept, account, line_item, raw, corrections); total_corr: corrected printed totals."""
+    with open(out, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(CORRECTION_HEADER)
+        for r in rows:
+            for c in r.get("corrections", []):
+                w.writerow([fy, f"FY{fy}_budget", r["page_label"], fund, r.get("dept_code", r.get("dept", "")), r["account"], r["line_item"],
+                            c["column"], c["raw_value"], c["final_value"], c["method"], c["detail"], r.get("raw", "")])
+        for c in total_corr:
+            w.writerow([fy, f"FY{fy}_budget", c["page_label"], fund, "", "", c["name"].lstrip("| "), c["column"], c["raw_value"], c["final_value"],
+                        c["method"], c["detail"], ""])
+    return out
+
+
+def write_corrections(fy, rev, exp):
+    rows = list(rev["good"]) + list(exp["exp_good"])
+    totals = [c for res, want_rev in ((rev, True), (exp, False)) for c in res["total_corr"]
+              if (total_kind(c["name"].lstrip("| ")) in REV_KINDS) == want_rev]
+    return write_correction_csv(os.path.join(DATA_E, "extracted", f"FY{fy}_budget_gf_corrections.csv"), fy, "General", rows, totals)
+
+
 def main():
     fy = sys.argv[1].replace("FY", "")
     arg = sys.argv[sys.argv.index("--prep") + 1] if "--prep" in sys.argv else "auto"
@@ -774,6 +848,7 @@ def main():
     out = write_rows(fy, rev, rev["good"], "revenue")
     out_exp = write_rows(fy, exp, exp["exp_good"], "expense")
     write_totals(fy, rev, exp)
+    write_corrections(fy, rev, exp)
     print(f"\nchosen prep: revenue {rev['prep']}, expenses {exp['prep']}; General Fund pdf pages {rev['pdf_pages'][0]}-{rev['pdf_pages'][1]}")
     print("columns:", rev["cols"])
     print(f"{len(rev['rows'])} revenue rows, {len(rev['good'])} written -> {os.path.relpath(out, ROOT)}")

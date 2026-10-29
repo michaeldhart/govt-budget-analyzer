@@ -1,0 +1,5 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2016,FY2016_budget,3 of 16,General,210,01-5-210-5136,Unemployment,(all),4990|0|0|0|0,4990|0|0|0,row_override,OCR read the Police Unemployment row with a stray colon (4990 0 0 : 0); the printed Police personnel subtotal needs 4990 in FY14 actual,"Unemployment 01-5-210-5136 4,990 0 0 : 0"
+2016,FY2016_budget,5 of 16,General,230,01-5-230-6210,Postage,budget_revised_FY2015,7000,1000,auto_resolved,from OCR prep thr150; makes the printed totals tie,"Postage 01-5-230-6210 302 1,000 7,000 1,000"
+2016,FY2016_budget,2 of 16,General,,,Total General Administration Expenses,budget_FY2015,2006254,2556254,total_override,OCR read the printed FY15 budget total as 2006254; page image (pdf p12) shows 2,
+2016,FY2016_budget,2 of 16,General,,,NET - LIABILITY INSURANCE DEPT,budget_revised_FY2015,-156171,-156111,total_override,OCR read the printed revised NET as (156171); revenues 548520 less premium 704631 = -156111 and the budget column prints the same,
