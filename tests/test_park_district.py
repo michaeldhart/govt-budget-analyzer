@@ -286,9 +286,10 @@ def test_debt_pension_and_tax_tables():
     assert ex[("FY2020_audit", "2031-2032")] == "EX-fy2020-debt-schedule-row"
 
 
-def test_park_is_kept_off_the_site_until_it_has_pages():
+def test_park_is_on_the_site_with_fund_based_datasets():
     import json
-    assert json.load(open(os.path.join(ROOT, "entities", ENT, "entity.json")))["export_site"] is False
+    cfg = json.load(open(os.path.join(ROOT, "entities", ENT, "entity.json")))
+    assert cfg["fund_based_budget"] is True and "export_site" not in cfg
 
 
 def test_audit_vs_budget_is_built_from_the_facts():

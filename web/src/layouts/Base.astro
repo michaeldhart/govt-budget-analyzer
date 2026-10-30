@@ -14,6 +14,12 @@ const nav = entity ? [
   { id: 'pensions', label: 'Pensions', path: `/${entity}/pensions/`, show: has('pension_plans') },
   { id: 'debt', label: 'Debt', path: `/${entity}/debt/`, show: has('debt_balances') },
   { id: 'fund-balance', label: 'Fund balance', path: `/${entity}/fund-balance/`, show: has('fund_balance') },
+  { id: 'revenue', label: 'Revenue', path: `/${entity}/revenue/`, show: has('park_revenue') },
+  { id: 'spending', label: 'Spending', path: `/${entity}/spending/`, show: has('park_spending') },
+  { id: 'levy', label: 'Property tax levy', path: `/${entity}/levy/`, show: has('levies') },
+  { id: 'audit-budget', label: 'Audit vs budget', path: `/${entity}/audit-budget/`, show: has('park_audit_vs_budget') },
+  { id: 'fund-balances', label: 'Fund balances', path: `/${entity}/fund-balances/`, show: has('park_fund_balance') },
+  { id: 'liabilities', label: 'Debt', path: `/${entity}/liabilities/`, show: has('park_debt') },
 ].filter((n) => n.show) : [];
 const palette = readData<Record<string, string>>('palette.json');
 const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}: ${v};`).join(' ');
@@ -38,7 +44,7 @@ const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}:
     </header>
     <main><slot /></main>
     <footer>
-      <p>Open source (Apache-2.0). Every number is extracted from the city's own budget ordinances and audits and validated against the totals they print.</p>
+      <p>Open source (Apache-2.0). Every number is extracted from the government's own budgets, ordinances and audits and validated against the totals they print.</p>
     </footer>
   </body>
 </html>

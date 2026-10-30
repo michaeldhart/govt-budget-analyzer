@@ -1,0 +1,64 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('park_debt')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'park_debt.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const years = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
+const total = (fy: number, g?: string) => all.filter((r) => r.fiscal_year === fy && (!g || r.group === g)).reduce((s, r) => s + r.ending_balance, 0);
+const first = years[0], last = years.at(-1)!;
+const series = seriesOf(all, 'group', {}, 'ending_balance');
+const peak = years.reduce((b, y) => (total(y) > total(b) ? y : b), first);
+---
+<Base entity={entity} section="liabilities" title={`Debt – ${meta.short_name}`} description={`${meta.name}: long-term liabilities from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Debt</p>
+  <h1>Debt and long-term liabilities</h1>
+  <p class="muted">From the long-term debt note of each audit, {fyLabel(first)}–{fyLabel(last)} (balances at December 31). The groups add to the audit's printed total in every year.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} total</dt><dd>{millions(total(last), 1)}</dd></div>
+    <div><dt>of which bonds</dt><dd>{millions(total(last, 'Bonds'), 1)}</dd></div>
+    <div><dt>Peak ({fyLabel(peak)})</dt><dd>{millions(total(peak), 1)}</dd></div>
+    <div><dt>{fyLabel(first)}</dt><dd>{millions(total(first), 1)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>Long-term liabilities by kind</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="debt-kind" ink={palette.ink} series={series} rows={toRows(all, 'group', 'ending_balance')}
+    title="Long-term liabilities at year end" filename="park-liabilities.csv" totalLabel="Total long-term liabilities"
+    note="Bonds are the general obligation and alternate revenue park bonds. Other borrowing is the agreement for deed and subscription-based IT arrangements." />
+
+  <h2>Every year</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th>{series.map((s) => <th class="num">{s.name}</th>)}<th class="num">Total</th></tr></thead>
+    <tbody>{years.slice().reverse().map((y) => (
+      <tr><td>{fyLabel(y)}</td>{series.map((s) => <td class="num">{dollars(total(y, s.name))}</td>)}<td class="num">{dollars(total(y))}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="muted">Data: <a href={href(`/data/${entity}/park_debt.json`)}>long-term liabilities by kind</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

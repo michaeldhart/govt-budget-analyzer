@@ -32,6 +32,12 @@ const { budget_range, audit_range } = meta.documents;
     {meta.datasets.includes('pension_plans') && <li><a href={href(`/${entity}/pensions/`)}>Pensions and retiree health</a>: funded ratios, contributions, retiree health liability</li>}
     {meta.datasets.includes('expenses_audit_vs_budget') && <li><a href={href(`/${entity}/expenses/audit/`)}>Audited spending vs the budget</a>: total and by department group</li>}
     {meta.datasets.includes('fund_balance') && <li><a href={href(`/${entity}/fund-balance/`)}>General Fund balance and reserves</a>: balance by category, months of spending in reserve, revenues and spending</li>}
+    {meta.datasets.includes('park_revenue') && <li><a href={href(`/${entity}/revenue/`)}>Revenue</a>: budgeted revenue by category and fund</li>}
+    {meta.datasets.includes('park_spending') && <li><a href={href(`/${entity}/spending/`)}>Spending</a>: budgeted spending by function, object and fund</li>}
+    {meta.datasets.includes('levies') && <li><a href={href(`/${entity}/levy/`)}>Property tax levy</a>: the levy ordinances by fund, with assessed valuation and rate</li>}
+    {meta.datasets.includes('park_audit_vs_budget') && <li><a href={href(`/${entity}/audit-budget/`)}>Audit vs budget</a>: audited revenue and spending against the budget, by fund</li>}
+    {meta.datasets.includes('park_fund_balance') && <li><a href={href(`/${entity}/fund-balances/`)}>Fund balances</a>: by fund, and General Fund reserves</li>}
+    {meta.datasets.includes('park_debt') && <li><a href={href(`/${entity}/liabilities/`)}>Debt</a>: long-term liabilities by kind</li>}
     {taxYears.length > 0 && <li>General Fund taxes by year, as adopted: {taxYears.map((y: number, i: number) => <><a href={href(`/${entity}/taxes/${y}/`)}>FY{y}</a>{i < taxYears.length - 1 ? ', ' : ''}</>)}</li>}
   </ul>
   <h2>Datasets available</h2>

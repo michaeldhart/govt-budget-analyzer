@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf, colorsOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('park_revenue')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const all: any[] = readData(entity, 'park_revenue.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const years = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
+const total = (fy: number, f: (r: any) => boolean = () => true) => all.filter((r) => r.fiscal_year === fy && f(r)).reduce((s, r) => s + r.amount, 0);
+const latest = years.at(-1)!;
+const latestAdopted = [...years].reverse().find((y) => all.some((r) => r.fiscal_year === y && r.basis === 'adopted'))!;
+const share = (fy: number, cat: string) => total(fy, (r) => r.category_id === cat) / total(fy);
+const drafts = years.filter((y) => all.find((r) => r.fiscal_year === y)?.basis === 'requested');
+const byCat = seriesOf(all, 'category', colorsOf(schemes.budget_category));
+const byFund = seriesOf(all, 'fund');
+const lastFundRows = byFund.map((f) => ({ fund: f.name, amount: total(latest, (r) => r.fund === f.name) }));
+const exIds = ['EX-fy2022-no-revenue-report', 'EX-fy2024-budget-placeholder', 'EX-fund-renumbering-fy2025'];
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+---
+<Base entity={entity} section="revenue" title={`Revenue – ${meta.short_name}`} description={`${meta.name}: budgeted revenue by fund and category.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Revenue</p>
+  <h1>Budgeted revenue</h1>
+  <p class="muted">Every revenue line in the district's budgets, {fyLabel(years[0])}–{fyLabel(latest)} (the fiscal year is the calendar year). Adopted budgets where the district's document is the adopted one; {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the draft request. These are budgets, not what was collected: the audited actuals are on the <a href={href(`/${entity}/audit-budget/`)}>audit vs budget</a> page.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(latest)} requested revenue</dt><dd>{millions(total(latest), 1)}</dd></div>
+    <div><dt>Property tax share</dt><dd>{(share(latest, 'property_tax') * 100).toFixed(0)}%</dd></div>
+    <div><dt>Program fees share</dt><dd>{(share(latest, 'program_fees') * 100).toFixed(0)}%</dd></div>
+    <div><dt>Latest adopted ({fyLabel(latestAdopted)})</dt><dd>{millions(total(latestAdopted), 1)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>By category</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="revenue-category" ink={palette.ink} series={byCat} rows={toRows(all, 'category')}
+    title="Budgeted revenue by category" filename="park-revenue-by-category.csv" totalLabel="Total budgeted revenue"
+    note="Property tax is the real estate levy for each fund. Bond proceeds are budgeted as revenue when the district plans to borrow. The FY2022 budget document has only its expenditure report, so FY2022 is missing." />
+
+  <h2>By fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="revenue-fund" ink={palette.ink} series={byFund} rows={toRows(all, 'fund')}
+    title="Budgeted revenue by fund" filename="park-revenue-by-fund.csv" totalLabel="Total budgeted revenue"
+    note="The district numbers its funds differently before and after FY2025 (Museum and Special Recreation swap codes); funds are joined by name." />
+
+  <h2>{fyLabel(latest)} by fund</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fund</th><th class="num">Requested revenue</th></tr></thead>
+    <tbody>{lastFundRows.map((r) => <tr><td>{r.fund}</td><td class="num">{dollars(r.amount)}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{exIds.filter((id) => exceptions[id]).map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/park_revenue.json`)}>budgeted revenue by fund and category</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+</style>

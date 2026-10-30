@@ -1,0 +1,79 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('park_audit_vs_budget')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const all: any[] = readData(entity, 'park_audit_vs_budget.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const years = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
+const big = ['General Fund', 'Recreation Fund'];
+const sumBy = (fy: number, k: string) => all.filter((r) => r.fiscal_year === fy).reduce((s, r) => s + (r[k] ?? 0), 0);
+const totals = years.map((fy) => ({ fy, eb: sumBy(fy, 'expense_budget'), ea: sumBy(fy, 'expense_actual'), rb: sumBy(fy, 'revenue_budget'), ra: sumBy(fy, 'revenue_actual') }));
+const pct = (a: number, b: number) => ((a - b) / b) * 100;
+const under = totals.filter((t) => t.ea < t.eb).length;
+const series = seriesOf(all.filter((r) => big.includes(r.fund)), 'fund', {}, 'expense_budget');
+const spendRows = all.filter((r) => big.includes(r.fund) && r.expense_variance_pct != null).map((r) => ({ fiscal_year: r.fiscal_year, series: r.fund, value: r.expense_variance_pct * 100, exception_ids: r.exception_ids }));
+const revRows = all.filter((r) => big.includes(r.fund) && r.revenue_variance_pct != null).map((r) => ({ fiscal_year: r.fiscal_year, series: r.fund, value: r.revenue_variance_pct * 100, exception_ids: r.exception_ids }));
+const funds = [...new Set(all.map((r) => r.fund))].sort();
+const latest = years.at(-1)!;
+const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+---
+<Base entity={entity} section="audit-budget" title={`Audit vs budget – ${meta.short_name}`} description={`${meta.name}: audited revenue and spending against the budget, by fund.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Audit vs budget</p>
+  <h1>Audited results vs the budget</h1>
+  <p class="muted">The audits' budget-and-actual schedules for each fund, {fyLabel(years[0])}–{fyLabel(latest)}: the budget the audit prints beside what was actually collected and spent. Positive means more than budgeted.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(latest)} audited spending</dt><dd>{dollars(totals.at(-1)!.ea)}</dd></div>
+    <div><dt>vs budget, all funds</dt><dd>{pct(totals.at(-1)!.ea, totals.at(-1)!.eb).toFixed(1)}%</dd></div>
+    <div><dt>Years spending was under budget</dt><dd>{under} of {totals.length}</dd></div>
+    <div><dt>{fyLabel(latest)} revenue vs budget</dt><dd>{pct(totals.at(-1)!.ra, totals.at(-1)!.rb).toFixed(1)}%</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={null} />
+
+  <h2>Spending against budget</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="spend-variance" rows={spendRows} series={series}
+    title="Audited spending vs budget, General and Recreation Funds (% difference)" filename="park-spending-variance.csv" kind="percent"
+    note="(actual - budget) / budget. Below zero means the district spent less than budgeted." />
+
+  <h2>Revenue against budget</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="revenue-variance" rows={revRows} series={series}
+    title="Audited revenue vs budget, General and Recreation Funds (% difference)" filename="park-revenue-variance.csv" kind="percent"
+    note="Revenue is what the audit reports collected; the Recreation Fund's revenue includes program fees." />
+
+  <h2>Every fund and year</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th>Fund</th><th class="num">Revenue budget</th><th class="num">Revenue actual</th><th class="num">Spending budget</th><th class="num">Spending actual</th><th class="num">Spending vs budget</th></tr></thead>
+    <tbody>{all.slice().sort((a, b) => b.fiscal_year - a.fiscal_year || a.fund.localeCompare(b.fund)).map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td>{r.fund}</td><td class="num">{dollars(r.revenue_budget)}</td><td class="num">{dollars(r.revenue_actual)}</td><td class="num">{dollars(r.expense_budget)}</td><td class="num">{dollars(r.expense_actual)}</td><td class="num">{r.expense_variance_pct == null ? '' : `${(r.expense_variance_pct * 100).toFixed(1)}%`}</td></tr>
+    ))}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <p class="muted">The audit's budget equals the budget document's fund total in most fund-years; where it does not, the audit's figure is shown and the difference is in the data (revenue_matches, expense_matches).</p>
+  <ul>{usedEx.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/park_audit_vs_budget.json`)}>audited results vs budget by fund</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

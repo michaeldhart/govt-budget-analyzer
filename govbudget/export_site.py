@@ -26,22 +26,10 @@ from collections import defaultdict
 
 from . import palette, schema
 from .entity import ROOT, Entity, read_csv
+from .export_common import ids, in_range, num
+from .export_park import PARK_DATASETS
 
 DEFAULT_OUT = os.path.join(ROOT, "web", "public", "data")
-
-
-def ids(s):
-    return sorted(i for i in (s or "").split("|") if i)
-
-
-def num(s):
-    return int(s) if s not in ("", None) else None
-
-
-def in_range(ex, fy):
-    lo = int(ex["fy_from"]) if ex["fy_from"] else -10**9
-    hi = int(ex["fy_to"]) if ex["fy_to"] else 10**9
-    return lo <= fy <= hi
 
 
 # --- datasets -------------------------------------------------------------------------------------------------------------
@@ -614,7 +602,7 @@ def reference(E, read):
             fiscal_year=int(r["fiscal_year"]), population=int(r["population"]), population_year=int(r["population_year"]), population_flag=r["population_flag"],
             cpi_fy_avg=float(r["cpi_fy_avg"]), cpi_months=int(r["cpi_months"]), cpi_flag=r["cpi_flag"], cpi_base_fy=int(r["cpi_base_fy"]), cpi_factor=float(r["cpi_factor"]),
             eav_levy_year=int(r["eav_levy_year"]), eav_city=num(r["eav_city"]), eav_flag=r["eav_flag"],
-            exception_ids=ids(r["eav_flag"]) if r["eav_flag"].startswith("EX-") else []))
+            exception_ids=(ids(r["eav_flag"]) if r["eav_flag"].startswith("EX-") else []) + (["EX-reference-population-scaled"] if "scaled" in r["population_flag"] else [])))
     return dict(
         title="Population, price level and assessed valuation by fiscal year",
         description="Reference series for per-resident and inflation-adjusted views. Sources: " + "; ".join(f"{k}: {v['publisher']} ({v['identifier']})" for k, v in sources.items()) +
@@ -722,6 +710,8 @@ def export_entity(E, out):
     written = []
     copies = set()
     for name, (build, sources) in DATASETS.items():
+        if name not in SHARED_DATASETS and (name in PARK_DATASETS) != bool(E.config.get("fund_based_budget")):
+            continue  # entity.json "fund_based_budget": true picks the fund-organised datasets (export_park.py) instead of the General Fund ones
         if not all(os.path.exists(E.data_path(s)) for s in sources):
             continue
         d = build(E, read)
@@ -764,6 +754,10 @@ def export_entity(E, out):
         with open(E.data_path("facts.csv"), "rb") as src, gzip.GzipFile(os.path.join(dl, "facts.csv.gz"), "wb", mtime=0) as dst:
             shutil.copyfileobj(src, dst)
     return dict(entity_id=E.id, name=cfg["name"], short_name=cfg.get("short_name", cfg["name"]), datasets=written)
+
+
+DATASETS.update(PARK_DATASETS)
+SHARED_DATASETS = {"reference", "reference_sources"}  # built for every government that has the tables
 
 
 def export(entity_ids=None, out=DEFAULT_OUT):

@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf, colorsOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('park_spending')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const all: any[] = readData(entity, 'park_spending.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const years = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
+const total = (fy: number, f: (r: any) => boolean = () => true) => all.filter((r) => r.fiscal_year === fy && f(r)).reduce((s, r) => s + r.amount, 0);
+const latest = years.at(-1)!, first = years[0];
+const drafts = years.filter((y) => all.find((r) => r.fiscal_year === y)?.basis === 'requested');
+const share = (fy: number, key: string, id: string) => total(fy, (r) => r[key] === id) / total(fy);
+const byFn = seriesOf(all, 'function', colorsOf(schemes.function_group));
+const byObj = seriesOf(all, 'object', colorsOf(schemes.expense_object));
+const byFund = seriesOf(all, 'fund');
+const exIds = ['EX-fy2024-budget-placeholder', 'EX-fund-renumbering-fy2025', 'EX-expense-categories'];
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const latestFund = byFund.map((f) => ({ fund: f.name, amount: total(latest, (r) => r.fund === f.name) }));
+---
+<Base entity={entity} section="spending" title={`Spending – ${meta.short_name}`} description={`${meta.name}: budgeted spending by fund, function and object.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Spending</p>
+  <h1>Budgeted spending</h1>
+  <p class="muted">Every expense line in the district's budgets, {fyLabel(first)}–{fyLabel(latest)}, grouped by what the money is for (function) and what it buys (object). {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the draft request, not the adopted budget. What was actually spent is on the <a href={href(`/${entity}/audit-budget/`)}>audit vs budget</a> page.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(latest)} requested spending</dt><dd>{millions(total(latest), 1)}</dd></div>
+    <div><dt>Personnel and benefits share</dt><dd>{(share(latest, 'object_id', 'exp_personnel') * 100).toFixed(0)}%</dd></div>
+    <div><dt>Capital projects share</dt><dd>{(share(latest, 'object_id', 'exp_capital') * 100).toFixed(0)}%</dd></div>
+    <div><dt>{fyLabel(first)} budget</dt><dd>{millions(total(first), 1)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>By function</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-function" ink={palette.ink} series={byFn} rows={toRows(all, 'function')}
+    title="Budgeted spending by function" filename="park-spending-by-function.csv" totalLabel="Total budgeted spending"
+    note="Function groups follow the district's own departments (administration, parks, recreation, special recreation, museum, debt service, capital projects)." />
+
+  <h2>By object</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-object" ink={palette.ink} series={byObj} rows={toRows(all, 'object')}
+    title="Budgeted spending by object category" filename="park-spending-by-object.csv" totalLabel="Total budgeted spending"
+    note="Object categories follow the account numbers (personnel, contractual, supplies and equipment, capital, debt service). The district renumbered its accounts in FY2025; the mapping is in the district's account map." />
+
+  <h2>By fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-fund" ink={palette.ink} series={byFund} rows={toRows(all, 'fund')}
+    title="Budgeted spending by fund" filename="park-spending-by-fund.csv" totalLabel="Total budgeted spending" />
+
+  <h2>{fyLabel(latest)} by fund</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fund</th><th class="num">Requested spending</th></tr></thead>
+    <tbody>{latestFund.map((r) => <tr><td>{r.fund}</td><td class="num">{dollars(r.amount)}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{exIds.filter((id) => exceptions[id]).map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/park_spending.json`)}>budgeted spending by fund, function and object</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+</style>

@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('park_fund_balance')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'park_fund_balance.json').rows;
+const TOTAL = 'Total Governmental Funds';
+const funds = all.filter((r) => r.fund !== TOTAL);
+const tot = all.filter((r) => r.fund === TOTAL).sort((a, b) => a.fiscal_year - b.fiscal_year);
+const gf = all.filter((r) => r.fund === 'General Fund').sort((a, b) => a.fiscal_year - b.fiscal_year);
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const years = tot.map((r) => r.fiscal_year);
+const first = tot[0], last = tot.at(-1)!;
+const series = seriesOf(funds, 'fund', {}, 'fund_balance');
+const monthsRows = gf.filter((r) => r.unassigned_pct_of_spending != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'General Fund unassigned', value: r.unassigned_pct_of_spending * 12, exception_ids: r.exception_ids }));
+const gfLast = gf.at(-1)!;
+---
+<Base entity={entity} section="fund-balances" title={`Fund balances – ${meta.short_name}`} description={`${meta.name}: fund balances by fund from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Fund balances</p>
+  <h1>Fund balances</h1>
+  <p class="muted">From the district's audited balance sheets and statements of revenues, expenditures and changes in fund balances, {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)} (year ends December 31). The district keeps its money in separate funds (General, Recreation, Special Recreation, Museum and the debt service and capital funds); only the General Fund has an unassigned balance.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last.fiscal_year)} total fund balance</dt><dd>{millions(last.fund_balance, 1)}</dd></div>
+    <div><dt>{fyLabel(first.fiscal_year)}</dt><dd>{millions(first.fund_balance, 1)}</dd></div>
+    <div><dt>General Fund unassigned</dt><dd>{millions(gfLast.unassigned ?? 0, 2)}</dd></div>
+    <div><dt>…in months of General Fund spending</dt><dd>{((gfLast.unassigned_pct_of_spending ?? 0) * 12).toFixed(1)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>Balance by fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="balance-fund" ink={palette.ink} series={series} rows={toRows(funds, 'fund', 'fund_balance')}
+    title="Fund balance by fund" filename="park-fund-balance-by-fund.csv" totalLabel="Total governmental funds"
+    note="Special funds (Recreation, Special Recreation, Museum, debt service) hold restricted balances; the General Fund holds the unassigned money." />
+
+  <h2>General Fund reserves in months of spending</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="months" rows={monthsRows} series={[{ name: 'General Fund unassigned', color: '#2a78d6' }]}
+    title="General Fund unassigned balance as months of its own spending" filename="park-fund-balance-months.csv" kind="months"
+    reference={{ value: 2, label: 'Two months (GFOA minimum)', color: palette.ink2 }}
+    note="Unassigned balance divided by that year's General Fund expenditures, times 12. The General Fund also carries the Audit, IMRF, Liability and Social Security levies." />
+
+  <h2>All governmental funds</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th class="num">Fund balance</th><th class="num">Cash</th><th class="num">Revenues</th><th class="num">Expenditures</th><th class="num">Net change</th></tr></thead>
+    <tbody>{tot.slice().reverse().map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td class="num">{dollars(r.fund_balance)}</td><td class="num">{dollars(r.cash)}</td><td class="num">{dollars(r.revenues)}</td><td class="num">{dollars(r.expenditures)}</td><td class="num">{dollars(r.net_change)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <p class="muted">Data: <a href={href(`/data/${entity}/park_fund_balance.json`)}>fund balances by fund and year</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

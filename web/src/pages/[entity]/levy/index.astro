@@ -1,0 +1,79 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('levies')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'levies.json').rows;
+const agg = all.filter((r) => r.fund_code === '').sort((a, b) => a.fiscal_year - b.fiscal_year);
+const funds = all.filter((r) => r.fund_code !== '');
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const years = agg.map((r) => r.fiscal_year);
+const first = agg[0], last = agg.at(-1)!;
+const cagr = (last.levy / first.levy) ** (1 / (last.fiscal_year - first.fiscal_year)) - 1;
+const eavGrowth = last.eav && first.eav ? (last.eav / first.eav) ** (1 / (last.fiscal_year - first.fiscal_year)) - 1 : null;
+const lastAdopted = [...agg].reverse().find((r) => r.status === 'adopted')!;
+const byFund = seriesOf(funds, 'fund', {}, 'levy');
+const rateRows = agg.filter((r) => r.rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Aggregate levy per $100 of assessed value', value: r.rate_per_100, exception_ids: r.exception_ids }));
+const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+---
+<Base entity={entity} section="levy" title={`Property tax levy – ${meta.short_name}`} description={`${meta.name}: the property tax levy by fund from the district's levy ordinances.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Property tax levy</p>
+  <h1>Property tax levy</h1>
+  <p class="muted">Each December the board adopts a levy ordinance asking the county to collect a set amount of property tax, fund by fund (tax year = fiscal year minus 1). These are the levy ordinances of {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)}; {last.status === 'draft' ? `${fyLabel(last.fiscal_year)} is a draft ordinance` : ''}. The levy is what the district asks for; the county extends it against the district's assessed valuation.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last.fiscal_year)} aggregate levy</dt><dd>{millions(last.levy, 2)}</dd></div>
+    <div><dt>Growth per year since {fyLabel(first.fiscal_year)}</dt><dd>{(cagr * 100).toFixed(1)}%</dd></div>
+    <div><dt>Assessed value growth per year</dt><dd>{eavGrowth == null ? 'n/a' : `${(eavGrowth * 100).toFixed(1)}%`}</dd></div>
+    <div><dt>Latest adopted ({fyLabel(lastAdopted.fiscal_year)})</dt><dd>{millions(lastAdopted.levy, 2)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>Levy by fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="levy-fund" ink={palette.ink} series={byFund} rows={toRows(funds, 'fund', 'levy')}
+    title="Property tax levy by fund" filename="park-levy-by-fund.csv" totalLabel="Total levy"
+    note="Includes the Prior Year Adjustment in FY2023 and FY2024 (a county clerk shortfall for the Special Recreation Fund). FY2024's printed aggregate leaves it out." />
+
+  <h2>Levy per $100 of assessed value</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="levy-rate" rows={rateRows} series={[{ name: 'Aggregate levy per $100 of assessed value', color: '#2a78d6' }]}
+    title="Aggregate levy as a percent of the district's rate-setting assessed valuation" filename="park-levy-rate.csv" kind="percent"
+    note="Aggregate levy divided by the rate-setting assessed valuation of the tax year (from the audits), times 100: dollars of levy per $100 of valuation, which is the same as a percent. An approximation of the extension rate: the county's rate also reflects extensions limited by the property tax cap and the debt service levy." />
+
+  <h2>Aggregate levy, increase and assessed valuation</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th class="num">Aggregate levy</th><th class="num">Stated increase over last extension</th><th class="num">Assessed valuation</th><th class="num">Per $100</th></tr></thead>
+    <tbody>{agg.slice().reverse().map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}{r.status === 'draft' ? ' (draft)' : ''}</td><td class="num">{dollars(r.levy)}</td><td class="num">{r.percent_increase == null ? '' : `${r.percent_increase}%`}</td><td class="num">{dollars(r.eav)}</td><td class="num">{r.rate_per_100 == null ? '' : `$${r.rate_per_100.toFixed(4)}`}</td></tr>
+    ))}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{usedEx.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/levies.json`)}>levy by fund and year</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>
