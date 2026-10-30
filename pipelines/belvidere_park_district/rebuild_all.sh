@@ -6,7 +6,7 @@
 #             extract_budget_report.py FY2025 FY2026 FY2027 and the drafts FY2025_budget_draft FY2026_budget_draft   (layout D)
 #             extract_budget_amended.py FY2023_budget_amended
 #   audits  : extract_audit_fund_statements.py FY2019..FY2025, extract_audit_debt.py FY2019..FY2025, extract_audit_imrf.py FY2019 FY2023 FY2024 FY2025
-#   ordinances: extract_ordinance_appropriation.py FY2019..FY2026 FY2027_appropriation_draft, extract_ordinance_levy.py FY2022_levy FY2023_levy FY2023_levy_draft FY2024_levy FY2025_levy FY2026_levy FY2027_levy_draft
+#   ordinances: extract_ordinance_appropriation.py FY2019..FY2026 FY2027_appropriation_draft FY2023_appropriation_in_draft FY2024_appropriation_in_draft FY2023_appropriation_amended_oct (copies inside budget PDFs: ordinance_copies.csv), extract_ordinance_levy.py FY2022_levy FY2023_levy FY2023_levy_draft FY2024_levy FY2025_levy FY2026_levy FY2027_levy_draft
 #   config  : build_account_map.py --write adds accounts the extracts have and the account map lacks.)
 set -e
 cd "$(dirname "$0")/../.."
@@ -16,3 +16,4 @@ python3 $P/build_audit_compare.py > /dev/null   # audit budget-and-actual vs the
 python3 $P/build_audit_categories.py          # audit expenditure classes vs the budget's object categories
 python3 $P/build_debt_crosschecks.py            # debt note, legal margin, IMRF and statements across the seven audits
 python3 $P/build_reference.py                 # population, CPI factor and assessed valuation by fiscal year (reads committed snapshots)
+python3 $P/build_ordinance_copy_compare.py > /dev/null  # ordinance copies appended to the FY2023/FY2024 drafts and the Oct 2023 amended report, beside the standalone ordinances

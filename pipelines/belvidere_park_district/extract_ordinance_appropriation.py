@@ -63,14 +63,17 @@ def fund_config(ent, fy):
     return out
 
 
-def parse(pdf, fy, doc, ent, prep="gray", overrides=(), corrections=None, used=None):
+def parse(pdf, fy, doc, ent, prep="gray", overrides=(), corrections=None, used=None, cache_doc=None, pages=None):
+    """`cache_doc`/`pages`: an ordinance copy appended to a budget document is read from the host PDF's OCR cache, only the pages (first, last; 1-based PDF pages) it occupies."""
     funds = fund_config(ent, fy)
     used = used if used is not None else set()
     rows, summary, problems = [], [], []
     fund, section, pending = None, None, []
     in_summary, summary_key = False, None
     start = False
-    for pdf_page, page in enumerate(R.pages_of(pdf, doc, prep=prep), start=1):
+    for pdf_page, page in enumerate(R.pages_of(pdf, cache_doc or doc, prep=prep), start=1):
+        if pages and not pages[0] <= pdf_page <= pages[1]:
+            continue
         for raw in page.splitlines():
             s = raw.strip()
             for i, o in enumerate(overrides):
@@ -138,13 +141,15 @@ def parse(pdf, fy, doc, ent, prep="gray", overrides=(), corrections=None, used=N
             if re.match(r"(?i)^estimated year ending", label):
                 rows.append((fund, "balance", "Estimated year-end fund balance", v, 1, pdf_page))
                 continue
-            if re.search(r"(?i)\btotal\b", label) or re.search(r"(?i)appropriation total$", label):
+            if re.search(r"(?i)\btota[l\]]", label) or re.search(r"(?i)appropriation total$", label):  # "Total" printed "Tota]" in one scan
                 sec = "revenue" if re.search(r"(?i)revenue", label) else "appropriation"
                 rows.append((fund, sec, label, v, 1, pdf_page))
                 continue
             if section == "revenue" and re.fullmatch(r"(?i)alternate bond (&|and) interest", label):  # FY2027: the revenue total of this fund carries the fund's name
                 rows.append((fund, "revenue", "Total revenue", v, 1, pdf_page))
                 continue
+            if fy >= 2022 and section is None and not any(r[0] == fund for r in rows):  # the FY2023 draft's Museum Fund has no REVENUE heading: its first lines are revenue
+                section = "revenue"
             if section in ("revenue", "appropriation"):
                 rows.append((fund, section, label, v, 0, pdf_page))
     return rows, summary, problems
@@ -268,13 +273,18 @@ def main(argv):
     fy = int(doc[2:6])
     ent = R.Entity.load(ENTITY)
     src = {r["doc_id"]: r for r in csv.DictReader(open(ent.config_path("source_urls.csv")))}
+    copies = {r["copy_id"]: r for r in ent.table("ordinance_copies.csv")}
+    cache_doc = pages = None
+    if doc in copies:  # a copy of an ordinance inside a budget document (entities/<id>/ordinance_copies.csv)
+        c = copies[doc]
+        cache_doc, pages = c["host_doc"], (int(c["first_pdf_page"]), int(c["last_pdf_page"]))
     ov = A.load_overrides(ent, doc)
     corrections, used = [], set()
-    pdf = ent.source_path(src[doc]["pdf_path"])
-    rows, summary, problems = parse(pdf, fy, doc, ent, "gray", ov, corrections, used)
+    pdf = ent.source_path(src[cache_doc or doc]["pdf_path"])
+    rows, summary, problems = parse(pdf, fy, doc, ent, "gray", ov, corrections, used, cache_doc, pages)
     alt = None
     if any(sum(x[3] for x in rows if group_key(x) == group_key(r) and not x[4]) != r[3] for r in rows if r[4] and r[1] in ("revenue", "appropriation")):
-        alt = parse(pdf, fy, doc, ent, "thr150", ov, None, set())[0]
+        alt = parse(pdf, fy, doc, ent, "thr150", ov, None, set(), cache_doc, pages)[0]
     repair(rows, alt, corrections, doc)
     allow = {o["raw"]: o for o in ov if o["kind"] == "allow_diff"}
     validate(rows, summary, fy, problems, allow)

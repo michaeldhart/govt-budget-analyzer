@@ -1,0 +1,5 @@
+doc,pdf_page,method,raw_text,final_text,detail
+FY2024_appropriation_in_draft,11,line,Parks Services $6;535.00,"Parks Services $6,535.00","The scan prints a semicolon for the thousands comma; the fund's appropriation lines add to the printed total 1,882,068 only with 6,535"
+FY2024_appropriation_in_draft,11,line,"Special & Community Events $24,086,00","Special & Community Events $24,086.00","The scan prints a comma for the decimal point (the second OCR reading has the period); with 24,086.00 the fund's lines add to the printed total 1,882,068"
+FY2024_appropriation_in_draft,13,line,"Other $215,352:00","Other $215,352.00","The scan prints a colon for the decimal point; the Special Recreation revenue lines add to the printed total 543,586 with 215,352.00"
+FY2024_appropriation_in_draft,13,line,"Park Services 539,180,00","Park Services $39,180.00","The scan reads the dollar sign as a 5 and the decimal point as a comma; the Special Recreation appropriation lines add to the printed total 542,311 only with 39,180.00"

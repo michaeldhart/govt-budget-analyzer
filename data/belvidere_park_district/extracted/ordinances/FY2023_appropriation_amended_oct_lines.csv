@@ -1,0 +1,76 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Corporate Taxes,1218217,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Farm Lease,4000,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Miscellaneous,11000,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,60000,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Other,27500,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Interest,3500,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,1324217,1,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Personnel Services,703433.90,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Utilities and Other Contractual Services,459739,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Commodities,205467,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Equipment,35720,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Building,23160,0,9
+2023,FY2023_appropriation_amended_oct,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,1427519.90,1,9
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,revenue,Recreation Taxes,917250,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,revenue,Other,860229,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,1777479,1,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Personnel Services,1296182.23,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Utilities and Other Contractual Services,347422,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Commodities,90939,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Building,19100,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Equipment,26150,0,10
+2023,FY2023_appropriation_amended_oct,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,1779793.23,1,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Real Estate Taxes,1233546,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Debt Service,482700,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Bond Proceeds,706300,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Other,153702.51,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Interest,4420.36,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,2580668.87,1,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,appropriation,Debt Service,482700,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,appropriation,Capital Projects,1139035,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,appropriation,Bonds & Interest,1233546,0,10
+2023,FY2023_appropriation_amended_oct,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Tota],2855281,1,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,revenue,Museum Tax,108711,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,revenue,Interest,100,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,revenue,Other,81500,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,revenue,Total Revenue Museum Fund,190311,1,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,appropriation,Personnel Services,10000,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,appropriation,Utilities and Other Contractual Services,155937,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,appropriation,Commodities,6500,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,appropriation,Buildings,15250,0,10
+2023,FY2023_appropriation_amended_oct,Museum Fund,03,,appropriation,Museum Fund Total,187687,1,10
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax -PPR,15000,0,10
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax,110835,0,10
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,revenue,Interest,500,0,10
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,revenue,"Total Revenue I.M.R.F, Fund",126335,1,10
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,appropriation,LM.R-F.,69000,0,11
+2023,FY2023_appropriation_amended_oct,IMRF Fund,01,imrf,appropriation,I.M.R.F. Fund Appropriation Total,69000,1,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,revenue,Social Security P.P.R.,27000,0,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,revenue,Social Security Tax,155138,0,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,revenue,Interest,500,0,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,revenue,Total Revenue Social Security Fund,182638,1,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,appropriation,Social Security & Medicare,162701,0,11
+2023,FY2023_appropriation_amended_oct,Social Security Fund,01,social_security,appropriation,Social Security Fund Total,162701,1,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,revenue,Liability Tax,105221,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,revenue,Interest,500,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,revenue,Other,10000,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,revenue,Total Revenue Liability Fund,115721,1,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,appropriation,Salaries,10000,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,appropriation,Insurance Premium,85000,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,appropriation,Other,16650,0,11
+2023,FY2023_appropriation_amended_oct,Liability Fund,01,liability,appropriation,Liability Fund Appropriation Total,111650,1,11
+2023,FY2023_appropriation_amended_oct,Audit Fund,01,audit,revenue,Audit Tax,15779,0,11
+2023,FY2023_appropriation_amended_oct,Audit Fund,01,audit,revenue,Interest,100,0,11
+2023,FY2023_appropriation_amended_oct,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,15879,1,11
+2023,FY2023_appropriation_amended_oct,Audit Fund,01,audit,appropriation,Audit,17000,0,11
+2023,FY2023_appropriation_amended_oct,Audit Fund,01,audit,appropriation,Audit Fund Appropriation Total,17000,1,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,revenue,Special Recreation Taxes,353488,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,revenue,Other,215150,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,revenue,Interest,400,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,revenue,Total Revenue Special Recreation Fund,569038,1,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,appropriation,Personnel Services,412947.09,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,appropriation,Utilities and Other Contractual Services,24852,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,appropriation,Commodities,71433,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,appropriation,Building,9264,0,11
+2023,FY2023_appropriation_amended_oct,Special Recreation Fund,09,,appropriation,Special Recreation Fund Appropriation Total,518496.09,1,11
