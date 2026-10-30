@@ -1,0 +1,4 @@
+kind,raw,fixed,reason
+allow_diff,schedule Capital Projects Fund: Proceeds from sale of capital assets: variance,,"The audit prints this variance as (57,500) although actual (57,500) exceeds the budget (0); the sign is wrong in the source"
+allow_diff,schedule Capital Projects Fund: Total other financing sources: variance,,"Printed (33,000) = 24,500 GO bond proceeds variance minus the wrong-signed 57,500 above; the correct variance is 82,000"
+allow_diff,schedule Capital Projects Fund: Net change in fund balance: variance,,"Printed (129,821) carries the same wrong sign through (96,821 excess variance + (33,000)); the correct variance is (14,821) = actual - budget"

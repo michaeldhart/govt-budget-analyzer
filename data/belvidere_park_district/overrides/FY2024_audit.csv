@@ -1,0 +1,3 @@
+kind,raw,fixed,reason
+allow_diff,schedule General Fund: Subscription liability proceeds: variance,,"The audit prints (52,305) although actual 52,305 exceeds the budget (0); the sign is wrong in the source"
+allow_diff,schedule General Fund: Net change in fund balance: variance,,"Printed 42,556 = 94,861 excess variance minus the wrong-signed 52,305 above; the correct variance is 147,166 (actual 147,166 - budget 0)"

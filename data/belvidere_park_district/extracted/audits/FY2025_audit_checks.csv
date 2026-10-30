@@ -1,0 +1,301 @@
+doc,check,expected,found,result
+FY2025_audit,balance_sheet: Cash & cash equivalents: total column,7176993,7176993,ok
+FY2025_audit,balance_sheet: Property taxes: total column,4761440,4761440,ok
+FY2025_audit,balance_sheet: Grants: total column,220825,220825,ok
+FY2025_audit,balance_sheet: Other: total column,50,50,ok
+FY2025_audit,balance_sheet: Prepaid expenses: total column,31705,31705,ok
+FY2025_audit,balance_sheet: Due from other governments: total column,22147,22147,ok
+FY2025_audit,balance_sheet: Total assets: total column,12213160,12213160,ok
+FY2025_audit,balance_sheet: Accounts payable: total column,190044,190044,ok
+FY2025_audit,balance_sheet: Accrued wages: total column,43479,43479,ok
+FY2025_audit,balance_sheet: Unearned revenue: total column,31133,31133,ok
+FY2025_audit,balance_sheet: Total liabilities: total column,264656,264656,ok
+FY2025_audit,balance_sheet: Unearned revenue: total column,220825,220825,ok
+FY2025_audit,balance_sheet: Property taxes: total column,4761440,4761440,ok
+FY2025_audit,balance_sheet: Total liabilities and deferred inflows of resources: total column,5246921,5246921,ok
+FY2025_audit,balance_sheet: Prepaid items: total column,31705,31705,ok
+FY2025_audit,balance_sheet: Recreation purposes: total column,967939,967939,ok
+FY2025_audit,balance_sheet: Special recreation: total column,399667,399667,ok
+FY2025_audit,balance_sheet: Museum purposes: total column,443916,443916,ok
+FY2025_audit,balance_sheet: IMRF: total column,440487,440487,ok
+FY2025_audit,balance_sheet: Social Security: total column,499808,499808,ok
+FY2025_audit,balance_sheet: Liability Insurance: total column,300054,300054,ok
+FY2025_audit,balance_sheet: Audit purposes: total column,0,0,ok
+FY2025_audit,balance_sheet: Working cash: total column,48718,48718,ok
+FY2025_audit,balance_sheet: Debt service: total column,359754,359754,ok
+FY2025_audit,balance_sheet: Capital Projects: total column,1654381,1654381,ok
+FY2025_audit,balance_sheet: Unassigned: total column,1819810,1819810,ok
+FY2025_audit,balance_sheet: Total fund balances: total column,6966239,6966239,ok
+FY2025_audit,"balance_sheet: Total liabilities, deferred inflows of resources, and fund balances: total column",12213160,12213160,ok
+FY2025_audit,balance_sheet: General Fund: assets,5005007,5005007,ok
+FY2025_audit,balance_sheet: General Fund: liabilities,49553,49553,ok
+FY2025_audit,balance_sheet: General Fund: liabilities + deferred inflows,1864425,1864425,ok
+FY2025_audit,balance_sheet: General Fund: fund balances,3140582,3140582,ok
+FY2025_audit,balance_sheet: General Fund: balance equation,5005007,5005007,ok
+FY2025_audit,balance_sheet: General Fund: l + d + fb,5005007,5005007,ok
+FY2025_audit,balance_sheet: Recreation Fund: assets,2056221,2056221,ok
+FY2025_audit,balance_sheet: Recreation Fund: liabilities,47561,47561,ok
+FY2025_audit,balance_sheet: Recreation Fund: liabilities + deferred inflows,1088282,1088282,ok
+FY2025_audit,balance_sheet: Recreation Fund: fund balances,967939,967939,ok
+FY2025_audit,balance_sheet: Recreation Fund: balance equation,2056221,2056221,ok
+FY2025_audit,balance_sheet: Recreation Fund: l + d + fb,2056221,2056221,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: assets,798309,798309,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: liabilities,8642,8642,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: liabilities + deferred inflows,398642,398642,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: fund balances,399667,399667,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: balance equation,798309,798309,ok
+FY2025_audit,balance_sheet: Special Recreation Fund: l + d + fb,798309,798309,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: assets,1733178,1733178,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: liabilities,0,0,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: liabilities + deferred inflows,1392341,1392341,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: fund balances,340837,340837,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: balance equation,1733178,1733178,ok
+FY2025_audit,balance_sheet: Bond & Interest Fund: l + d + fb,1733178,1733178,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: assets,18917,18917,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities,0,0,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities + deferred inflows,0,0,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: fund balances,18917,18917,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: balance equation,18917,18917,ok
+FY2025_audit,balance_sheet: Alternate Bond & Interest Fund: l + d + fb,18917,18917,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: assets,2030241,2030241,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: liabilities,155035,155035,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: liabilities + deferred inflows,375860,375860,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: fund balances,1654381,1654381,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: balance equation,2030241,2030241,ok
+FY2025_audit,balance_sheet: Capital Projects Fund: l + d + fb,2030241,2030241,ok
+FY2025_audit,balance_sheet: Museum Fund: assets,571287,571287,ok
+FY2025_audit,balance_sheet: Museum Fund: liabilities,3865,3865,ok
+FY2025_audit,balance_sheet: Museum Fund: liabilities + deferred inflows,127371,127371,ok
+FY2025_audit,balance_sheet: Museum Fund: fund balances,443916,443916,ok
+FY2025_audit,balance_sheet: Museum Fund: balance equation,571287,571287,ok
+FY2025_audit,balance_sheet: Museum Fund: l + d + fb,571287,571287,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: assets,12213160,12213160,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: liabilities,264656,264656,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: liabilities + deferred inflows,5246921,5246921,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: fund balances,6966239,6966239,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: balance equation,12213160,12213160,ok
+FY2025_audit,balance_sheet: Total Governmental Funds: l + d + fb,12213160,12213160,ok
+FY2025_audit,changes: Property taxes: total column,4551937,4551937,ok
+FY2025_audit,changes: Corporate replacement taxes: total column,173714,173714,ok
+FY2025_audit,changes: Charges & fees: total column,1099912,1099912,ok
+FY2025_audit,changes: Donations & grants: total column,139203,139203,ok
+FY2025_audit,changes: Interest: total column,172164,172164,ok
+FY2025_audit,changes: Other: total column,178932,178932,ok
+FY2025_audit,changes: Total revenues: total column,6315862,6315862,ok
+FY2025_audit,changes: Personnel: total column,2741157,2741157,ok
+FY2025_audit,changes: Contractual services: total column,1142832,1142832,ok
+FY2025_audit,changes: Material & supplies: total column,379335,379335,ok
+FY2025_audit,changes: Capital outlay: total column,1249590,1249590,ok
+FY2025_audit,changes: Principal: total column,1649000,1649000,ok
+FY2025_audit,changes: Interest: total column,179234,179234,ok
+FY2025_audit,changes: Total expenditures: total column,7341148,7341148,ok
+FY2025_audit,changes: Excess of revenues over (under) expenditures: total column,-1025286,-1025286,ok
+FY2025_audit,changes: Subscription liability proceeds: total column,170361,170361,ok
+FY2025_audit,changes: Lease proceeds: total column,96565,96565,ok
+FY2025_audit,changes: Proceeds from sale of capital assets: total column,57500,57500,ok
+FY2025_audit,changes: GO bond proceeds: total column,1335000,1335000,ok
+FY2025_audit,changes: Total other financing sources: total column,1659426,1659426,ok
+FY2025_audit,changes: Net change in fund balances: total column,634140,634140,ok
+FY2025_audit,changes: Beginning: total column,6332099,6332099,ok
+FY2025_audit,changes: Ending: total column,6966239,6966239,ok
+FY2025_audit,changes: General Fund: revenues,2087234,2087234,ok
+FY2025_audit,changes: General Fund: expenditures,1966158,1966158,ok
+FY2025_audit,changes: General Fund: excess,121076,121076,ok
+FY2025_audit,changes: General Fund: other financing,266926,266926,ok
+FY2025_audit,changes: General Fund: net change,388002,388002,ok
+FY2025_audit,changes: General Fund: ending = beginning + net change,3140582,3140582,ok
+FY2025_audit,changes: Recreation Fund: revenues,1886883,1886883,ok
+FY2025_audit,changes: Recreation Fund: expenditures,1699414,1699414,ok
+FY2025_audit,changes: Recreation Fund: excess,187469,187469,ok
+FY2025_audit,changes: Recreation Fund: other financing,0,0,ok
+FY2025_audit,changes: Recreation Fund: net change,187469,187469,ok
+FY2025_audit,changes: Recreation Fund: ending = beginning + net change,967939,967939,ok
+FY2025_audit,changes: Special Recreation Fund: revenues,621525,621525,ok
+FY2025_audit,changes: Special Recreation Fund: expenditures,582723,582723,ok
+FY2025_audit,changes: Special Recreation Fund: excess,38802,38802,ok
+FY2025_audit,changes: Special Recreation Fund: other financing,0,0,ok
+FY2025_audit,changes: Special Recreation Fund: net change,38802,38802,ok
+FY2025_audit,changes: Special Recreation Fund: ending = beginning + net change,399667,399667,ok
+FY2025_audit,changes: Bond & Interest Fund: revenues,1353134,1353134,ok
+FY2025_audit,changes: Bond & Interest Fund: expenditures,1332934,1332934,ok
+FY2025_audit,changes: Bond & Interest Fund: excess,20200,20200,ok
+FY2025_audit,changes: Bond & Interest Fund: other financing,0,0,ok
+FY2025_audit,changes: Bond & Interest Fund: net change,20200,20200,ok
+FY2025_audit,changes: Bond & Interest Fund: ending = beginning + net change,340837,340837,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: revenues,508,508,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: expenditures,495300,495300,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: excess,-494792,-494792,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: other financing,500300,500300,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: net change,5508,5508,ok
+FY2025_audit,changes: Alternate Bond & Interest Fund: ending = beginning + net change,18917,18917,ok
+FY2025_audit,changes: Capital Projects Fund: revenues,231447,231447,ok
+FY2025_audit,changes: Capital Projects Fund: expenditures,1138468,1138468,ok
+FY2025_audit,changes: Capital Projects Fund: excess,-907021,-907021,ok
+FY2025_audit,changes: Capital Projects Fund: other financing,892200,892200,ok
+FY2025_audit,changes: Capital Projects Fund: net change,-14821,-14821,ok
+FY2025_audit,changes: Capital Projects Fund: ending = beginning + net change,1654381,1654381,ok
+FY2025_audit,changes: Museum Fund: revenues,135131,135131,ok
+FY2025_audit,changes: Museum Fund: expenditures,126151,126151,ok
+FY2025_audit,changes: Museum Fund: excess,8980,8980,ok
+FY2025_audit,changes: Museum Fund: other financing,0,0,ok
+FY2025_audit,changes: Museum Fund: net change,8980,8980,ok
+FY2025_audit,changes: Museum Fund: ending = beginning + net change,443916,443916,ok
+FY2025_audit,changes: Total Governmental Funds: revenues,6315862,6315862,ok
+FY2025_audit,changes: Total Governmental Funds: expenditures,7341148,7341148,ok
+FY2025_audit,changes: Total Governmental Funds: excess,-1025286,-1025286,ok
+FY2025_audit,changes: Total Governmental Funds: other financing,1659426,1659426,ok
+FY2025_audit,changes: Total Governmental Funds: net change,634140,634140,ok
+FY2025_audit,changes: Total Governmental Funds: ending = beginning + net change,6966239,6966239,ok
+FY2025_audit,schedule General Fund: budget: revenues,1933195,1933195,ok
+FY2025_audit,schedule General Fund: budget: expenditures,1973195,1973195,ok
+FY2025_audit,schedule General Fund: budget: net change,0,0,ok
+FY2025_audit,schedule General Fund: actual: revenues,2087234,2087234,ok
+FY2025_audit,schedule General Fund: actual: expenditures,1966158,1966158,ok
+FY2025_audit,schedule General Fund: actual: net change,388002,388002,ok
+FY2025_audit,schedule General Fund: Property taxes: variance,12658,12658,ok
+FY2025_audit,schedule General Fund: Corporate replacement taxes: variance,43214,43214,ok
+FY2025_audit,schedule General Fund: Charges and fees: variance,3340,3340,ok
+FY2025_audit,schedule General Fund: Donations & grants: variance,-1504,-1504,ok
+FY2025_audit,schedule General Fund: Interest: variance,73493,73493,ok
+FY2025_audit,schedule General Fund: Other: variance,22838,22838,ok
+FY2025_audit,schedule General Fund: Total revenues: variance,154039,154039,ok
+FY2025_audit,schedule General Fund: Personnel: variance,204285,204285,ok
+FY2025_audit,schedule General Fund: Contractual services: variance,-190147,-190147,ok
+FY2025_audit,schedule General Fund: Material & supplies: variance,-5879,-5879,ok
+FY2025_audit,schedule General Fund: Capital outlay: variance,-1222,-1222,ok
+FY2025_audit,schedule General Fund: Total expenditures: variance,7037,7037,ok
+FY2025_audit,schedule General Fund: Excess of revenues over (under) expenditures: variance,161076,161076,ok
+FY2025_audit,schedule General Fund: Subscription liability proceeds: variance,170361,170361,ok
+FY2025_audit,schedule General Fund: Lease proceeds: variance,56565,56565,ok
+FY2025_audit,schedule General Fund: Net change in fund balance: variance,388002,388002,ok
+FY2025_audit,schedule General Fund: ending = beginning + net change,3140582,3140582,ok
+FY2025_audit,tie General Fund: total revenues,2087234,2087234,ok
+FY2025_audit,tie General Fund: total expenditures,1966158,1966158,ok
+FY2025_audit,tie General Fund: ending fund balance,3140582,3140582,ok
+FY2025_audit,schedule Recreation Fund: budget: revenues,1962057,1962057,ok
+FY2025_audit,schedule Recreation Fund: budget: expenditures,1962057,1962057,ok
+FY2025_audit,schedule Recreation Fund: budget: net change,0,0,ok
+FY2025_audit,schedule Recreation Fund: actual: revenues,1886883,1886883,ok
+FY2025_audit,schedule Recreation Fund: actual: expenditures,1699414,1699414,ok
+FY2025_audit,schedule Recreation Fund: actual: net change,187469,187469,ok
+FY2025_audit,schedule Recreation Fund: Property taxes: variance,-1087,-1087,ok
+FY2025_audit,schedule Recreation Fund: Charges & fees: variance,22201,22201,ok
+FY2025_audit,schedule Recreation Fund: Donations & grants: variance,-60564,-60564,ok
+FY2025_audit,schedule Recreation Fund: Interest: variance,8809,8809,ok
+FY2025_audit,schedule Recreation Fund: Other: variance,-44533,-44533,ok
+FY2025_audit,schedule Recreation Fund: Total revenues: variance,-75174,-75174,ok
+FY2025_audit,schedule Recreation Fund: Personnel: variance,127648,127648,ok
+FY2025_audit,schedule Recreation Fund: Contractual services: variance,80313,80313,ok
+FY2025_audit,schedule Recreation Fund: Material & supplies: variance,54682,54682,ok
+FY2025_audit,schedule Recreation Fund: Capital outlay: variance,0,0,ok
+FY2025_audit,schedule Recreation Fund: Total expenditures: variance,262643,262643,ok
+FY2025_audit,schedule Recreation Fund: Net change in fund balance: variance,187469,187469,ok
+FY2025_audit,schedule Recreation Fund: ending = beginning + net change,967939,967939,ok
+FY2025_audit,tie Recreation Fund: total revenues,1886883,1886883,ok
+FY2025_audit,tie Recreation Fund: total expenditures,1699414,1699414,ok
+FY2025_audit,tie Recreation Fund: ending fund balance,967939,967939,ok
+FY2025_audit,schedule Special Recreation Fund: budget: revenues,588098,588098,ok
+FY2025_audit,schedule Special Recreation Fund: budget: expenditures,588098,588098,ok
+FY2025_audit,schedule Special Recreation Fund: budget: net change,0,0,ok
+FY2025_audit,schedule Special Recreation Fund: actual: revenues,621525,621525,ok
+FY2025_audit,schedule Special Recreation Fund: actual: expenditures,582723,582723,ok
+FY2025_audit,schedule Special Recreation Fund: actual: net change,38802,38802,ok
+FY2025_audit,schedule Special Recreation Fund: Property taxes: variance,-295,-295,ok
+FY2025_audit,schedule Special Recreation Fund: Charges & fees: variance,11863,11863,ok
+FY2025_audit,schedule Special Recreation Fund: Donations & grants: variance,9068,9068,ok
+FY2025_audit,schedule Special Recreation Fund: Interest: variance,3617,3617,ok
+FY2025_audit,schedule Special Recreation Fund: Other: variance,9174,9174,ok
+FY2025_audit,schedule Special Recreation Fund: Total revenues: variance,33427,33427,ok
+FY2025_audit,schedule Special Recreation Fund: Personnel: variance,-13566,-13566,ok
+FY2025_audit,schedule Special Recreation Fund: Contractual: variance,4285,4285,ok
+FY2025_audit,schedule Special Recreation Fund: Material & supplies: variance,14656,14656,ok
+FY2025_audit,schedule Special Recreation Fund: Total expenditures: variance,5375,5375,ok
+FY2025_audit,schedule Special Recreation Fund: Net change in fund balance: variance,38802,38802,ok
+FY2025_audit,schedule Special Recreation Fund: ending = beginning + net change,399667,399667,ok
+FY2025_audit,tie Special Recreation Fund: total revenues,621525,621525,ok
+FY2025_audit,tie Special Recreation Fund: total expenditures,582723,582723,ok
+FY2025_audit,tie Special Recreation Fund: ending fund balance,399667,399667,ok
+FY2025_audit,schedule Bond and Interest Fund: budget: revenues,1334434,1334434,ok
+FY2025_audit,schedule Bond and Interest Fund: budget: expenditures,1332934,1332934,ok
+FY2025_audit,schedule Bond and Interest Fund: budget: net change,1500,1500,ok
+FY2025_audit,schedule Bond and Interest Fund: actual: revenues,1353134,1353134,ok
+FY2025_audit,schedule Bond and Interest Fund: actual: expenditures,1332934,1332934,ok
+FY2025_audit,schedule Bond and Interest Fund: actual: net change,20200,20200,ok
+FY2025_audit,schedule Bond and Interest Fund: Property taxes: variance,11958,11958,ok
+FY2025_audit,schedule Bond and Interest Fund: Interest: variance,6742,6742,ok
+FY2025_audit,schedule Bond and Interest Fund: Total revenues: variance,18700,18700,ok
+FY2025_audit,schedule Bond and Interest Fund: Principal: variance,0,0,ok
+FY2025_audit,schedule Bond and Interest Fund: Interest: variance,0,0,ok
+FY2025_audit,schedule Bond and Interest Fund: Total expenditures: variance,0,0,ok
+FY2025_audit,schedule Bond and Interest Fund: Net change in fund balance: variance,18700,18700,ok
+FY2025_audit,schedule Bond and Interest Fund: ending = beginning + net change,340837,340837,ok
+FY2025_audit,tie Bond and Interest Fund: total revenues,1353134,1353134,ok
+FY2025_audit,tie Bond and Interest Fund: total expenditures,1332934,1332934,ok
+FY2025_audit,tie Bond and Interest Fund: ending fund balance,340837,340837,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: budget: revenues,62300,62300,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: budget: expenditures,495300,495300,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: budget: other financing,433800,433800,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: budget: net change,800,800,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: actual: revenues,508,508,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: actual: expenditures,495300,495300,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: actual: other financing,500300,500300,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: actual: net change,5508,5508,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Interest: variance,-61792,-61792,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Total revenues: variance,-61792,-61792,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Principal payments: variance,68800,68800,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Interest payments: variance,-68800,-68800,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Total expenditures: variance,0,0,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Excess of revenues over (under) expenditures: variance,-61792,-61792,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: GO bond proceeds: variance,66500,66500,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Total other financing sources: variance,66500,66500,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: Net change in fund balance: variance,4708,4708,ok
+FY2025_audit,schedule Alternate Bond and Interest Fund: ending = beginning + net change,18917,18917,ok
+FY2025_audit,tie Alternate Bond and Interest Fund: total revenues,508,508,ok
+FY2025_audit,tie Alternate Bond and Interest Fund: total expenditures,495300,495300,ok
+FY2025_audit,tie Alternate Bond and Interest Fund: ending fund balance,18917,18917,ok
+FY2025_audit,schedule Capital Projects Fund: budget: revenues,1663600,1663600,ok
+FY2025_audit,schedule Capital Projects Fund: budget: expenditures,2473800,2473800,ok
+FY2025_audit,schedule Capital Projects Fund: budget: other financing,810200,810200,ok
+FY2025_audit,schedule Capital Projects Fund: budget: net change,0,0,ok
+FY2025_audit,schedule Capital Projects Fund: actual: revenues,231447,231447,ok
+FY2025_audit,schedule Capital Projects Fund: actual: expenditures,1138468,1138468,ok
+FY2025_audit,schedule Capital Projects Fund: actual: other financing,892200,892200,ok
+FY2025_audit,schedule Capital Projects Fund: actual: net change,-14821,-14821,ok
+FY2025_audit,schedule Capital Projects Fund: Donations & grants: variance,-1502738,-1502738,ok
+FY2025_audit,schedule Capital Projects Fund: Interest: variance,35286,35286,ok
+FY2025_audit,schedule Capital Projects Fund: Other: variance,35299,35299,ok
+FY2025_audit,schedule Capital Projects Fund: Total revenues: variance,-1432153,-1432153,ok
+FY2025_audit,schedule Capital Projects Fund: Contractual services: variance,0,0,ok
+FY2025_audit,schedule Capital Projects Fund: Capital outlay: variance,1335332,1335332,ok
+FY2025_audit,schedule Capital Projects Fund: Total expenditures: variance,1335332,1335332,ok
+FY2025_audit,schedule Capital Projects Fund: Excess of revenues over (under) expenditures: variance,-96821,-96821,ok
+FY2025_audit,schedule Capital Projects Fund: Proceeds from sale of capital assets: variance,57500,-57500,"allowed: The audit prints this variance as (57,500) although actual (57,500) exceeds the budget (0); the sign is wrong in the source"
+FY2025_audit,schedule Capital Projects Fund: GO bond proceeds: variance,24500,24500,ok
+FY2025_audit,schedule Capital Projects Fund: Total other financing sources: variance,82000,-33000,"allowed: Printed (33,000) = 24,500 GO bond proceeds variance minus the wrong-signed 57,500 above; the correct variance is 82,000"
+FY2025_audit,schedule Capital Projects Fund: Net change in fund balance: variance,-14821,-129821,"allowed: Printed (129,821) carries the same wrong sign through (96,821 excess variance + (33,000)); the correct variance is (14,821) = actual - budget"
+FY2025_audit,schedule Capital Projects Fund: ending = beginning + net change,1654381,1654381,ok
+FY2025_audit,tie Capital Projects Fund: total revenues,231447,231447,ok
+FY2025_audit,tie Capital Projects Fund: total expenditures,1138468,1138468,ok
+FY2025_audit,tie Capital Projects Fund: ending fund balance,1654381,1654381,ok
+FY2025_audit,schedule Museum Fund: budget: revenues,205581,205581,ok
+FY2025_audit,schedule Museum Fund: budget: expenditures,205580,205580,ok
+FY2025_audit,schedule Museum Fund: budget: net change,1,1,ok
+FY2025_audit,schedule Museum Fund: actual: revenues,135131,135131,ok
+FY2025_audit,schedule Museum Fund: actual: expenditures,126151,126151,ok
+FY2025_audit,schedule Museum Fund: actual: net change,8980,8980,ok
+FY2025_audit,schedule Museum Fund: Property taxes: variance,-67,-67,ok
+FY2025_audit,schedule Museum Fund: Charges & fees: variance,-1212,-1212,ok
+FY2025_audit,schedule Museum Fund: Donations & grants: variance,-51440,-51440,ok
+FY2025_audit,schedule Museum Fund: Interest: variance,-21591,-21591,ok
+FY2025_audit,schedule Museum Fund: Other: variance,3860,3860,ok
+FY2025_audit,schedule Museum Fund: Total revenues: variance,-70450,-70450,ok
+FY2025_audit,schedule Museum Fund: Personnel: variance,0,0,ok
+FY2025_audit,schedule Museum Fund: Contractual services: variance,167720,167720,ok
+FY2025_audit,schedule Museum Fund: Material & supplies: variance,14309,14309,ok
+FY2025_audit,schedule Museum Fund: Capital outlay: variance,-102600,-102600,ok
+FY2025_audit,schedule Museum Fund: Total expenditures: variance,79429,79429,ok
+FY2025_audit,schedule Museum Fund: Net change in fund balance: variance,8979,8979,ok
+FY2025_audit,schedule Museum Fund: ending = beginning + net change,443916,443916,ok
+FY2025_audit,tie Museum Fund: total revenues,135131,135131,ok
+FY2025_audit,tie Museum Fund: total expenditures,126151,126151,ok
+FY2025_audit,tie Museum Fund: ending fund balance,443916,443916,ok

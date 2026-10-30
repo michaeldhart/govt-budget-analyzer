@@ -1,0 +1,287 @@
+doc,check,expected,found,result
+FY2019_audit,balance_sheet: Cash & cash equivalents: total column,5488465,5488465,ok
+FY2019_audit,balance_sheet: Property taxes: total column,3730000,3730000,ok
+FY2019_audit,balance_sheet: Due from other governments: total column,15919,15919,ok
+FY2019_audit,balance_sheet: Total assets: total column,9234384,9234384,ok
+FY2019_audit,balance_sheet: Accounts payable: total column,83370,83370,ok
+FY2019_audit,balance_sheet: Other payables: total column,8004,8004,ok
+FY2019_audit,balance_sheet: Accrued wages: total column,66586,66586,ok
+FY2019_audit,balance_sheet: Unearned revenue: total column,3804,3804,ok
+FY2019_audit,balance_sheet: Total liabilities: total column,161764,161764,ok
+FY2019_audit,balance_sheet: Property taxes: total column,3730000,3730000,ok
+FY2019_audit,balance_sheet: Total liabilities and deferred inflows of resources: total column,3891764,3891764,ok
+FY2019_audit,balance_sheet: Recreation purposes: total column,686415,686415,ok
+FY2019_audit,balance_sheet: Special recreation: total column,210035,210035,ok
+FY2019_audit,balance_sheet: Museum purposes: total column,363099,363099,ok
+FY2019_audit,balance_sheet: IMRF: total column,76500,76500,ok
+FY2019_audit,balance_sheet: Social Security: total column,116739,116739,ok
+FY2019_audit,balance_sheet: Liability Insurance: total column,154582,154582,ok
+FY2019_audit,balance_sheet: Audit purposes: total column,6895,6895,ok
+FY2019_audit,balance_sheet: Working cash: total column,48718,48718,ok
+FY2019_audit,balance_sheet: Debt service: total column,1098967,1098967,ok
+FY2019_audit,balance_sheet: Capital Projects: total column,1754359,1754359,ok
+FY2019_audit,balance_sheet: Unassigned: total column,826311,826311,ok
+FY2019_audit,balance_sheet: Total fund balances: total column,5342620,5342620,ok
+FY2019_audit,"balance_sheet: Total liabilities, deferred inflows of resources, and fund balances: total column",9234384,9234384,ok
+FY2019_audit,balance_sheet: General Fund: assets,2631161,2631161,ok
+FY2019_audit,balance_sheet: General Fund: liabilities,71416,71416,ok
+FY2019_audit,balance_sheet: General Fund: liabilities + deferred inflows,1401416,1401416,ok
+FY2019_audit,balance_sheet: General Fund: fund balances,1229745,1229745,ok
+FY2019_audit,balance_sheet: General Fund: balance equation,2631161,2631161,ok
+FY2019_audit,balance_sheet: General Fund: l + d + fb,2631161,2631161,ok
+FY2019_audit,balance_sheet: Recreation Fund: assets,1637322,1637322,ok
+FY2019_audit,balance_sheet: Recreation Fund: liabilities,65907,65907,ok
+FY2019_audit,balance_sheet: Recreation Fund: liabilities + deferred inflows,950907,950907,ok
+FY2019_audit,balance_sheet: Recreation Fund: fund balances,686415,686415,ok
+FY2019_audit,balance_sheet: Recreation Fund: balance equation,1637322,1637322,ok
+FY2019_audit,balance_sheet: Recreation Fund: l + d + fb,1637322,1637322,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: assets,480452,480452,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: liabilities,14417,14417,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: liabilities + deferred inflows,270417,270417,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: fund balances,210035,210035,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: balance equation,480452,480452,ok
+FY2019_audit,balance_sheet: Special Recreation Fund: l + d + fb,480452,480452,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: assets,1339414,1339414,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: liabilities,0,0,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: liabilities + deferred inflows,1159000,1159000,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: fund balances,180414,180414,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: balance equation,1339414,1339414,ok
+FY2019_audit,balance_sheet: Bond & Interest Fund: l + d + fb,1339414,1339414,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: assets,918553,918553,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities,0,0,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities + deferred inflows,0,0,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: fund balances,918553,918553,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: balance equation,918553,918553,ok
+FY2019_audit,balance_sheet: Alternate Bond & Interest Fund: l + d + fb,918553,918553,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: assets,1763073,1763073,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: liabilities,8714,8714,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: liabilities + deferred inflows,8714,8714,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: fund balances,1754359,1754359,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: balance equation,1763073,1763073,ok
+FY2019_audit,balance_sheet: Capital Projects Fund: l + d + fb,1763073,1763073,ok
+FY2019_audit,balance_sheet: Museum Fund: assets,464409,464409,ok
+FY2019_audit,balance_sheet: Museum Fund: liabilities,1310,1310,ok
+FY2019_audit,balance_sheet: Museum Fund: liabilities + deferred inflows,101310,101310,ok
+FY2019_audit,balance_sheet: Museum Fund: fund balances,363099,363099,ok
+FY2019_audit,balance_sheet: Museum Fund: balance equation,464409,464409,ok
+FY2019_audit,balance_sheet: Museum Fund: l + d + fb,464409,464409,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: assets,9234384,9234384,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: liabilities,161764,161764,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: liabilities + deferred inflows,3891764,3891764,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: fund balances,5342620,5342620,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: balance equation,9234384,9234384,ok
+FY2019_audit,balance_sheet: Total Governmental Funds: l + d + fb,9234384,9234384,ok
+FY2019_audit,changes: Property taxes: total column,4741805,4741805,ok
+FY2019_audit,changes: Corporate replacement taxes: total column,114053,114053,ok
+FY2019_audit,changes: Charges & fees: total column,1026996,1026996,ok
+FY2019_audit,changes: Donations: total column,64961,64961,ok
+FY2019_audit,changes: Interest: total column,11261,11261,ok
+FY2019_audit,changes: Other: total column,34057,34057,ok
+FY2019_audit,changes: Total revenues: total column,5993133,5993133,ok
+FY2019_audit,changes: Personnel: total column,2332516,2332516,ok
+FY2019_audit,changes: Contractual services: total column,686916,686916,ok
+FY2019_audit,changes: Material & supplies: total column,393001,393001,ok
+FY2019_audit,changes: Capital outlay: total column,576544,576544,ok
+FY2019_audit,changes: Principal: total column,1528887,1528887,ok
+FY2019_audit,changes: Interest and fiscal charges: total column,225704,225704,ok
+FY2019_audit,changes: Total expenditures: total column,5743568,5743568,ok
+FY2019_audit,changes: Excess of revenues over (under) expenditures: total column,249565,249565,ok
+FY2019_audit,changes: GO bond proceeds: total column,1100000,1100000,ok
+FY2019_audit,changes: Total other financing sources: total column,1100000,1100000,ok
+FY2019_audit,changes: Net change in fund balances: total column,1349565,1349565,ok
+FY2019_audit,changes: Beginning: total column,3993055,3993055,ok
+FY2019_audit,changes: Ending: total column,5342620,5342620,ok
+FY2019_audit,changes: General Fund: revenues,1438117,1438117,ok
+FY2019_audit,changes: General Fund: expenditures,1342402,1342402,ok
+FY2019_audit,changes: General Fund: excess,95715,95715,ok
+FY2019_audit,changes: General Fund: other financing,0,0,ok
+FY2019_audit,changes: General Fund: net change,95715,95715,ok
+FY2019_audit,changes: General Fund: ending = beginning + net change,1229745,1229745,ok
+FY2019_audit,changes: Recreation Fund: revenues,1724659,1724659,ok
+FY2019_audit,changes: Recreation Fund: expenditures,1588348,1588348,ok
+FY2019_audit,changes: Recreation Fund: excess,136311,136311,ok
+FY2019_audit,changes: Recreation Fund: other financing,0,0,ok
+FY2019_audit,changes: Recreation Fund: net change,136311,136311,ok
+FY2019_audit,changes: Recreation Fund: ending = beginning + net change,686415,686415,ok
+FY2019_audit,changes: Special Recreation Fund: revenues,443270,443270,ok
+FY2019_audit,changes: Special Recreation Fund: expenditures,480634,480634,ok
+FY2019_audit,changes: Special Recreation Fund: excess,-37364,-37364,ok
+FY2019_audit,changes: Special Recreation Fund: other financing,0,0,ok
+FY2019_audit,changes: Special Recreation Fund: net change,-37364,-37364,ok
+FY2019_audit,changes: Special Recreation Fund: ending = beginning + net change,210035,210035,ok
+FY2019_audit,changes: Bond & Interest Fund: revenues,2240013,2240013,ok
+FY2019_audit,changes: Bond & Interest Fund: expenditures,1118885,1118885,ok
+FY2019_audit,changes: Bond & Interest Fund: excess,1121128,1121128,ok
+FY2019_audit,changes: Bond & Interest Fund: other financing,0,0,ok
+FY2019_audit,changes: Bond & Interest Fund: net change,1121128,1121128,ok
+FY2019_audit,changes: Bond & Interest Fund: ending = beginning + net change,180414,180414,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: revenues,2139,2139,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: expenditures,635706,635706,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: excess,-633567,-633567,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: other financing,640000,640000,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: net change,6433,6433,ok
+FY2019_audit,changes: Alternate Bond & Interest Fund: ending = beginning + net change,918553,918553,ok
+FY2019_audit,changes: Capital Projects Fund: revenues,56335,56335,ok
+FY2019_audit,changes: Capital Projects Fund: expenditures,546727,546727,ok
+FY2019_audit,changes: Capital Projects Fund: excess,-490392,-490392,ok
+FY2019_audit,changes: Capital Projects Fund: other financing,460000,460000,ok
+FY2019_audit,changes: Capital Projects Fund: net change,-30392,-30392,ok
+FY2019_audit,changes: Capital Projects Fund: ending = beginning + net change,1754359,1754359,ok
+FY2019_audit,changes: Museum Fund: revenues,88600,88600,ok
+FY2019_audit,changes: Museum Fund: expenditures,30866,30866,ok
+FY2019_audit,changes: Museum Fund: excess,57734,57734,ok
+FY2019_audit,changes: Museum Fund: other financing,0,0,ok
+FY2019_audit,changes: Museum Fund: net change,57734,57734,ok
+FY2019_audit,changes: Museum Fund: ending = beginning + net change,363099,363099,ok
+FY2019_audit,changes: Total Governmental Funds: revenues,5993133,5993133,ok
+FY2019_audit,changes: Total Governmental Funds: expenditures,5743568,5743568,ok
+FY2019_audit,changes: Total Governmental Funds: excess,249565,249565,ok
+FY2019_audit,changes: Total Governmental Funds: other financing,1100000,1100000,ok
+FY2019_audit,changes: Total Governmental Funds: net change,1349565,1349565,ok
+FY2019_audit,changes: Total Governmental Funds: ending = beginning + net change,5342620,5342620,ok
+FY2019_audit,schedule General Fund: budget: revenues,1440204,1440204,ok
+FY2019_audit,schedule General Fund: budget: expenditures,1561696,1561696,ok
+FY2019_audit,schedule General Fund: budget: net change,-121492,-121492,ok
+FY2019_audit,schedule General Fund: actual: revenues,1438117,1438117,ok
+FY2019_audit,schedule General Fund: actual: expenditures,1342402,1342402,ok
+FY2019_audit,schedule General Fund: actual: net change,95715,95715,ok
+FY2019_audit,schedule General Fund: Property taxes: variance,-1920,-1920,ok
+FY2019_audit,schedule General Fund: Corporate replacement taxes: variance,33669,33669,ok
+FY2019_audit,schedule General Fund: Donations: variance,6264,6264,ok
+FY2019_audit,schedule General Fund: Interest: variance,104,104,ok
+FY2019_audit,schedule General Fund: Other: variance,-40204,-40204,ok
+FY2019_audit,schedule General Fund: Total revenues: variance,-2087,-2087,ok
+FY2019_audit,schedule General Fund: Personnel: variance,86693,86693,ok
+FY2019_audit,schedule General Fund: Contractual services: variance,56250,56250,ok
+FY2019_audit,schedule General Fund: Material & supplies: variance,62293,62293,ok
+FY2019_audit,schedule General Fund: Capital outlay: variance,14058,14058,ok
+FY2019_audit,schedule General Fund: Total expenditures: variance,219294,219294,ok
+FY2019_audit,schedule General Fund: Net change in fund balance: variance,217207,217207,ok
+FY2019_audit,schedule General Fund: ending = beginning + net change,1229745,1229745,ok
+FY2019_audit,tie General Fund: total revenues,1438117,1438117,ok
+FY2019_audit,tie General Fund: total expenditures,1342402,1342402,ok
+FY2019_audit,tie General Fund: ending fund balance,1229745,1229745,ok
+FY2019_audit,schedule Recreation Fund: budget: revenues,1851000,1851000,ok
+FY2019_audit,schedule Recreation Fund: budget: expenditures,1888095,1888095,ok
+FY2019_audit,schedule Recreation Fund: budget: net change,-37095,-37095,ok
+FY2019_audit,schedule Recreation Fund: actual: revenues,1724659,1724659,ok
+FY2019_audit,schedule Recreation Fund: actual: expenditures,1588348,1588348,ok
+FY2019_audit,schedule Recreation Fund: actual: net change,136311,136311,ok
+FY2019_audit,schedule Recreation Fund: Property taxes: variance,-1376,-1376,ok
+FY2019_audit,schedule Recreation Fund: Charges & fees: variance,-113938,-113938,ok
+FY2019_audit,schedule Recreation Fund: Donations: variance,-2500,-2500,ok
+FY2019_audit,schedule Recreation Fund: Interest: variance,653,653,ok
+FY2019_audit,schedule Recreation Fund: Other: variance,-9180,-9180,ok
+FY2019_audit,schedule Recreation Fund: Total revenues: variance,-126341,-126341,ok
+FY2019_audit,schedule Recreation Fund: Personnel: variance,158545,158545,ok
+FY2019_audit,schedule Recreation Fund: Contractual services: variance,68939,68939,ok
+FY2019_audit,schedule Recreation Fund: Material & supplies: variance,67454,67454,ok
+FY2019_audit,schedule Recreation Fund: Capital Outlay: variance,4809,4809,ok
+FY2019_audit,schedule Recreation Fund: Total expenditures: variance,299747,299747,ok
+FY2019_audit,schedule Recreation Fund: Net change in fund balance: variance,173406,173406,ok
+FY2019_audit,schedule Recreation Fund: ending = beginning + net change,686415,686415,ok
+FY2019_audit,tie Recreation Fund: total revenues,1724659,1724659,ok
+FY2019_audit,tie Recreation Fund: total expenditures,1588348,1588348,ok
+FY2019_audit,tie Recreation Fund: ending fund balance,686415,686415,ok
+FY2019_audit,schedule Special Recreation Fund: budget: revenues,461767,461767,ok
+FY2019_audit,schedule Special Recreation Fund: budget: expenditures,500637,500637,ok
+FY2019_audit,schedule Special Recreation Fund: budget: net change,-38870,-38870,ok
+FY2019_audit,schedule Special Recreation Fund: actual: revenues,443270,443270,ok
+FY2019_audit,schedule Special Recreation Fund: actual: expenditures,480634,480634,ok
+FY2019_audit,schedule Special Recreation Fund: actual: net change,-37364,-37364,ok
+FY2019_audit,schedule Special Recreation Fund: Property taxes: variance,-599,-599,ok
+FY2019_audit,schedule Special Recreation Fund: Charges & fees: variance,-9279,-9279,ok
+FY2019_audit,schedule Special Recreation Fund: Interest: variance,366,366,ok
+FY2019_audit,schedule Special Recreation Fund: Other: variance,-8985,-8985,ok
+FY2019_audit,schedule Special Recreation Fund: Total revenues: variance,-18497,-18497,ok
+FY2019_audit,schedule Special Recreation Fund: Personnel: variance,-10584,-10584,ok
+FY2019_audit,schedule Special Recreation Fund: Contractual: variance,5973,5973,ok
+FY2019_audit,schedule Special Recreation Fund: Material & supplies: variance,14898,14898,ok
+FY2019_audit,schedule Special Recreation Fund: Capital outlay: variance,9716,9716,ok
+FY2019_audit,schedule Special Recreation Fund: Total expenditures: variance,20003,20003,ok
+FY2019_audit,schedule Special Recreation Fund: Net change in fund balance: variance,1506,1506,ok
+FY2019_audit,schedule Special Recreation Fund: ending = beginning + net change,210035,210035,ok
+FY2019_audit,tie Special Recreation Fund: total revenues,443270,443270,ok
+FY2019_audit,tie Special Recreation Fund: total expenditures,480634,480634,ok
+FY2019_audit,tie Special Recreation Fund: ending fund balance,210035,210035,ok
+FY2019_audit,schedule Bond and Interest Fund: budget: revenues,2232300,2232300,ok
+FY2019_audit,schedule Bond and Interest Fund: budget: expenditures,1112000,1112000,ok
+FY2019_audit,schedule Bond and Interest Fund: budget: net change,1120300,1120300,ok
+FY2019_audit,schedule Bond and Interest Fund: actual: revenues,2240013,2240013,ok
+FY2019_audit,schedule Bond and Interest Fund: actual: expenditures,1118885,1118885,ok
+FY2019_audit,schedule Bond and Interest Fund: actual: net change,1121128,1121128,ok
+FY2019_audit,schedule Bond and Interest Fund: Property taxes: variance,7591,7591,ok
+FY2019_audit,schedule Bond and Interest Fund: Interest: variance,122,122,ok
+FY2019_audit,schedule Bond and Interest Fund: Total revenues: variance,7713,7713,ok
+FY2019_audit,schedule Bond and Interest Fund: Principal: variance,0,0,ok
+FY2019_audit,schedule Bond and Interest Fund: Interest: variance,-6885,-6885,ok
+FY2019_audit,schedule Bond and Interest Fund: Total expenditures: variance,-6885,-6885,ok
+FY2019_audit,schedule Bond and Interest Fund: Net change in fund balance: variance,828,828,ok
+FY2019_audit,schedule Bond and Interest Fund: ending = beginning + net change,180414,180414,ok
+FY2019_audit,tie Bond and Interest Fund: total revenues,2240013,2240013,ok
+FY2019_audit,tie Bond and Interest Fund: total expenditures,1118885,1118885,ok
+FY2019_audit,tie Bond and Interest Fund: ending fund balance,180414,180414,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: budget: revenues,400,400,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: budget: expenditures,635707,635707,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: budget: other financing,640000,640000,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: budget: net change,4693,4693,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: actual: revenues,2139,2139,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: actual: expenditures,635706,635706,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: actual: other financing,640000,640000,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: actual: net change,6433,6433,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Interest: variance,1739,1739,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Total revenues: variance,1739,1739,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Principal payments: variance,1,1,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Interest payments: variance,0,0,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Total expenditures: variance,1,1,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Excess of revenues over (under) expenditures: variance,1740,1740,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: GO bond proceeds: variance,0,0,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Total other financing sources: variance,0,0,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: Net change in fund balance: variance,1740,1740,ok
+FY2019_audit,schedule Alternate Bond and Interest Fund: ending = beginning + net change,918553,918553,ok
+FY2019_audit,tie Alternate Bond and Interest Fund: total revenues,2139,2139,ok
+FY2019_audit,tie Alternate Bond and Interest Fund: total expenditures,635706,635706,ok
+FY2019_audit,tie Alternate Bond and Interest Fund: ending fund balance,918553,918553,ok
+FY2019_audit,schedule Capital Projects Fund: budget: revenues,50300,50300,ok
+FY2019_audit,schedule Capital Projects Fund: budget: expenditures,878700,878700,ok
+FY2019_audit,schedule Capital Projects Fund: budget: other financing,475000,475000,ok
+FY2019_audit,schedule Capital Projects Fund: budget: net change,-353400,-353400,ok
+FY2019_audit,schedule Capital Projects Fund: actual: revenues,56335,56335,ok
+FY2019_audit,schedule Capital Projects Fund: actual: expenditures,546727,546727,ok
+FY2019_audit,schedule Capital Projects Fund: actual: other financing,460000,460000,ok
+FY2019_audit,schedule Capital Projects Fund: actual: net change,-30392,-30392,ok
+FY2019_audit,schedule Capital Projects Fund: Grants: variance,-20000,-20000,ok
+FY2019_audit,schedule Capital Projects Fund: Donations: variance,50697,50697,ok
+FY2019_audit,schedule Capital Projects Fund: Interest: variance,2737,2737,ok
+FY2019_audit,schedule Capital Projects Fund: Other: variance,-27399,-27399,ok
+FY2019_audit,schedule Capital Projects Fund: Total revenues: variance,6035,6035,ok
+FY2019_audit,schedule Capital Projects Fund: Contractual services: variance,3850,3850,ok
+FY2019_audit,schedule Capital Projects Fund: Capital outlay: variance,328123,328123,ok
+FY2019_audit,schedule Capital Projects Fund: Total expenditures: variance,331973,331973,ok
+FY2019_audit,schedule Capital Projects Fund: Excess of revenues over (under) expenditures: variance,338008,338008,ok
+FY2019_audit,schedule Capital Projects Fund: GO bond proceeds: variance,-15000,-15000,ok
+FY2019_audit,schedule Capital Projects Fund: Total other financing sources: variance,-15000,-15000,ok
+FY2019_audit,schedule Capital Projects Fund: Net change in fund balance: variance,323008,323008,ok
+FY2019_audit,schedule Capital Projects Fund: ending = beginning + net change,1754359,1754359,ok
+FY2019_audit,tie Capital Projects Fund: total revenues,56335,56335,ok
+FY2019_audit,tie Capital Projects Fund: total expenditures,546727,546727,ok
+FY2019_audit,tie Capital Projects Fund: ending fund balance,1754359,1754359,ok
+FY2019_audit,schedule Museum Fund: budget: revenues,89600,89600,ok
+FY2019_audit,schedule Museum Fund: budget: expenditures,211451,211451,ok
+FY2019_audit,schedule Museum Fund: budget: net change,-121851,-121851,ok
+FY2019_audit,schedule Museum Fund: actual: revenues,88600,88600,ok
+FY2019_audit,schedule Museum Fund: actual: expenditures,30866,30866,ok
+FY2019_audit,schedule Museum Fund: actual: net change,57734,57734,ok
+FY2019_audit,schedule Museum Fund: Property taxes: variance,-103,-103,ok
+FY2019_audit,schedule Museum Fund: Charges & fees: variance,-1587,-1587,ok
+FY2019_audit,schedule Museum Fund: Interest: variance,690,690,ok
+FY2019_audit,schedule Museum Fund: Total revenues: variance,-1000,-1000,ok
+FY2019_audit,schedule Museum Fund: Personnel: variance,28489,28489,ok
+FY2019_audit,schedule Museum Fund: Contractual services: variance,136051,136051,ok
+FY2019_audit,schedule Museum Fund: Material & supplies: variance,16045,16045,ok
+FY2019_audit,schedule Museum Fund: Total expenditures: variance,180585,180585,ok
+FY2019_audit,schedule Museum Fund: Net change in fund balance: variance,179585,179585,ok
+FY2019_audit,schedule Museum Fund: ending = beginning + net change,363099,363099,ok
+FY2019_audit,tie Museum Fund: total revenues,88600,88600,ok
+FY2019_audit,tie Museum Fund: total expenditures,30866,30866,ok
+FY2019_audit,tie Museum Fund: ending fund balance,363099,363099,ok

@@ -1,0 +1,5 @@
+doc,pdf_page,method,row,raw_cells,final_cells,detail
+FY2021_audit,18,auto_resolved,balance_sheet|Total liabilities,51283|34117|4219|0|2|5619|4328|99566,51283|34117|4219|0|0|5619|4328|99566,the only OCR reading of this row that satisfies the row's own identity
+FY2021_audit,18,auto_resolved,balance_sheet|Unassigned,1151434|0|0|0|7|0|1151434,1151434|0|0|0|0|0|0|1151434,the only OCR reading of this row that satisfies the row's own identity
+FY2021_audit,20,auto_resolved,changes|Excess of revenues over (under) expenditures,366129|-231578|22414|52663|-483158|-501098|-4640|-779271,366129|-231578|22411|52663|-483158|-501098|-4640|-779271,the only OCR reading of this row that satisfies the row's own identity
+FY2021_audit,47,auto_resolved,Recreation Fund|Interest,1000|468|-632|901,1000|468|-532|901,the only OCR reading of this row that satisfies the row's own identity

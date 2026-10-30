@@ -74,6 +74,30 @@ def ocr_pages(pdf, doc, prep="gray", dpi=300):
     return out
 
 
+def ocr_selected(pdf, doc, pages, prep="gray", dpi=300, psm=6, rotate=0):
+    """OCR only the given 1-based pages (cache data/<entity>/ocr/<doc>_<prep>[_<dpi>][_psm<n>]/page-N.txt, same layout as ocr_pages); dict page -> text."""
+    cache = os.path.join(ROOT, "data", ENTITY, "ocr", f"{doc}_{prep}" + ("" if dpi == 300 else f"_{dpi}") + ("" if psm == 6 else f"_psm{psm}") + (f"_rot{rotate}" if rotate else ""))
+    os.makedirs(cache, exist_ok=True)
+    out = {}
+    for i in pages:
+        txt = os.path.join(cache, f"page-{i}.txt")
+        if not os.path.exists(txt):
+            png = os.path.join(cache, f"page-{i}")
+            subprocess.run(["pdftoppm", "-r", str(dpi), "-f", str(i), "-l", str(i), "-gray", "-png", "-singlefile", pdf, png], check=True)
+            if prep.startswith("thr") or rotate:
+                from PIL import Image
+                im = Image.open(png + ".png")
+                if rotate:
+                    im = im.rotate(rotate, expand=True)  # degrees counter-clockwise: the landscape statements are scanned sideways
+                if prep.startswith("thr"):
+                    im = im.point(lambda v, t=int(prep[3:]): 255 if v > t else 0)
+                im.save(png + ".png")
+            subprocess.run(["tesseract", png + ".png", txt[:-4], "--psm", str(psm)], capture_output=True, check=True)
+            os.remove(png + ".png")
+        out[i] = open(txt).read()
+    return out
+
+
 def pages_of(pdf, doc, prep="gray", dpi=300):
     text = subprocess.run(["pdftotext", "-layout", pdf, "-"], capture_output=True, text=True, check=True).stdout
     if len(text.strip()) > 800 * text.count("\f"):

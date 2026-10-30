@@ -1,0 +1,385 @@
+fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,General Fund,2045137
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Recreation Fund,382886
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Special Recreation Fund,216606
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Bond & Interest Fund,280944
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Capital Projects Fund,1881495
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Museum Fund,459039
+2022,FY2022_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Total Governmental Funds,5277213
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,General Fund,250000
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,2,Assets,Certificates of deposit,Total Governmental Funds,250000
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,General Fund,1575584
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Recreation Fund,897353
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Special Recreation Fund,303493
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Bond & Interest Fund,1245912
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Museum Fund,106374
+2022,FY2022_audit,balance_sheet,18,3,Assets; Receivables,Property taxes,Total Governmental Funds,4128716
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,General Fund,6450
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Recreation Fund,9874
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Special Recreation Fund,5386
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,4,Assets; Receivables,Other,Total Governmental Funds,21710
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,General Fund,35077
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Recreation Fund,399
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Total Governmental Funds,35476
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,General Fund,48890
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Total Governmental Funds,48890
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,General Fund,3961138
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Recreation Fund,1290512
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Special Recreation Fund,525485
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Bond & Interest Fund,1526856
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Capital Projects Fund,1881495
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Museum Fund,565413
+2022,FY2022_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Total Governmental Funds,9762005
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,General Fund,41847
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Recreation Fund,29449
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Special Recreation Fund,7694
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Capital Projects Fund,199327
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Museum Fund,15414
+2022,FY2022_audit,balance_sheet,18,8,Liabilities,Accounts payable,Total Governmental Funds,293731
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,General Fund,8512
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,9,Liabilities,Other payables,Total Governmental Funds,8512
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,General Fund,7625
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Recreation Fund,14809
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Special Recreation Fund,3602
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,10,Liabilities,Accrued wages,Total Governmental Funds,26036
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,General Fund,0
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Recreation Fund,3859
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Special Recreation Fund,28776
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,11,Liabilities,Unearned revenue,Total Governmental Funds,32635
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,General Fund,57984
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Recreation Fund,48117
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Special Recreation Fund,40072
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Capital Projects Fund,199327
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Museum Fund,15414
+2022,FY2022_audit,balance_sheet,18,12,Liabilities,Total liabilities,Total Governmental Funds,360914
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,General Fund,1575584
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Recreation Fund,897353
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Special Recreation Fund,303493
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Bond & Interest Fund,1245912
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Museum Fund,106374
+2022,FY2022_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Total Governmental Funds,4128716
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,General Fund,1633568
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Recreation Fund,945470
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Special Recreation Fund,343565
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Bond & Interest Fund,1245912
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Capital Projects Fund,199327
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Museum Fund,121788
+2022,FY2022_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Total Governmental Funds,4489630
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,General Fund,35077
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Recreation Fund,399
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Total Governmental Funds,35476
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,General Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Recreation Fund,344643
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Total Governmental Funds,344643
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,General Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Special Recreation Fund,181920
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Total Governmental Funds,181920
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,General Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Museum Fund,443625
+2022,FY2022_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Total Governmental Funds,443625
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,General Fund,175260
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Total Governmental Funds,175260
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,General Fund,319932
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Total Governmental Funds,319932
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,General Fund,241041
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Total Governmental Funds,241041
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,General Fund,1252
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Total Governmental Funds,1252
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,General Fund,48718
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Total Governmental Funds,48718
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,General Fund,0
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Bond & Interest Fund,280944
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Total Governmental Funds,292050
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,General Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Capital Projects Fund,1682168
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Total Governmental Funds,1682168
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,General Fund,1506290
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Special Recreation Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Capital Projects Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Museum Fund,0
+2022,FY2022_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Total Governmental Funds,1506290
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,General Fund,2327570
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Recreation Fund,345042
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Special Recreation Fund,181920
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Bond & Interest Fund,280944
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Capital Projects Fund,1682168
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Museum Fund,443625
+2022,FY2022_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Total Governmental Funds,5272375
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",General Fund,3961138
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Recreation Fund,1290512
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Special Recreation Fund,525485
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Bond & Interest Fund,1526856
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Capital Projects Fund,1881495
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Museum Fund,565413
+2022,FY2022_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Total Governmental Funds,9762005
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,General Fund,1488240
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Recreation Fund,845413
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Special Recreation Fund,226947
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Bond & Interest Fund,1185908
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Museum Fund,100246
+2022,FY2022_audit,changes,20,1,Revenues,Property taxes,Total Governmental Funds,3846754
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,General Fund,360716
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Recreation Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Museum Fund,0
+2022,FY2022_audit,changes,20,2,Revenues,Corporate replacement taxes,Total Governmental Funds,360716
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,General Fund,20770
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Recreation Fund,756736
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Special Recreation Fund,184796
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Museum Fund,2180
+2022,FY2022_audit,changes,20,3,Revenues,Charges & fees,Total Governmental Funds,964482
+2022,FY2022_audit,changes,20,4,Revenues,Donations,General Fund,24101
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Recreation Fund,0
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Special Recreation Fund,500
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Museum Fund,2000
+2022,FY2022_audit,changes,20,4,Revenues,Donations,Total Governmental Funds,26601
+2022,FY2022_audit,changes,20,5,Revenues,Interest,General Fund,17096
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Recreation Fund,3140
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Special Recreation Fund,1788
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Bond & Interest Fund,2312
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Alternate Bond & Interest Fund,87
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Capital Projects Fund,15439
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Museum Fund,3751
+2022,FY2022_audit,changes,20,5,Revenues,Interest,Total Governmental Funds,43613
+2022,FY2022_audit,changes,20,6,Revenues,Other,General Fund,95626
+2022,FY2022_audit,changes,20,6,Revenues,Other,Recreation Fund,7600
+2022,FY2022_audit,changes,20,6,Revenues,Other,Special Recreation Fund,9602
+2022,FY2022_audit,changes,20,6,Revenues,Other,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,6,Revenues,Other,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,6,Revenues,Other,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,6,Revenues,Other,Museum Fund,0
+2022,FY2022_audit,changes,20,6,Revenues,Other,Total Governmental Funds,112828
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,General Fund,2006549
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Recreation Fund,1612889
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Special Recreation Fund,423633
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Bond & Interest Fund,1188220
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Alternate Bond & Interest Fund,87
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Capital Projects Fund,15439
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Museum Fund,108177
+2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Total Governmental Funds,5354994
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,General Fund,594959
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Recreation Fund,1220163
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Special Recreation Fund,393957
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Museum Fund,5240
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Total Governmental Funds,2214319
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,General Fund,538008
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Recreation Fund,343556
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Special Recreation Fund,21121
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Capital Projects Fund,4000
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Museum Fund,49352
+2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Total Governmental Funds,956037
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,General Fund,201378
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Recreation Fund,171324
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Special Recreation Fund,79301
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Museum Fund,21506
+2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Total Governmental Funds,473509
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,General Fund,71714
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Recreation Fund,1876
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Capital Projects Fund,657740
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Museum Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Total Governmental Funds,731330
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,General Fund,0
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Recreation Fund,0
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Bond & Interest Fund,1170000
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Alternate Bond & Interest Fund,305000
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Museum Fund,0
+2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Total Governmental Funds,1475000
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",General Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Recreation Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Special Recreation Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Bond & Interest Fund,5850
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Alternate Bond & Interest Fund,170300
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Capital Projects Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Museum Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Total Governmental Funds,176150
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,General Fund,1406059
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Recreation Fund,1736919
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Special Recreation Fund,494379
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Bond & Interest Fund,1175850
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Alternate Bond & Interest Fund,475300
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Capital Projects Fund,661740
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Museum Fund,76098
+2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Total Governmental Funds,6026345
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,General Fund,600490
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Recreation Fund,-124030
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Special Recreation Fund,-70746
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Bond & Interest Fund,12370
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Alternate Bond & Interest Fund,-475213
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Capital Projects Fund,-646301
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Museum Fund,32079
+2022,FY2022_audit,changes,20,15,,Excess of revenues over (under) expenditures,Total Governmental Funds,-671351
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,General Fund,0
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Recreation Fund,0
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Alternate Bond & Interest Fund,482700
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Capital Projects Fund,706300
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Museum Fund,0
+2022,FY2022_audit,changes,20,16,Other financing sources (uses),GO bond proceeds,Total Governmental Funds,1189000
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,General Fund,0
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Recreation Fund,0
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Alternate Bond & Interest Fund,482700
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Capital Projects Fund,706300
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Museum Fund,0
+2022,FY2022_audit,changes,20,17,Other financing sources (uses),Total other financing sources,Total Governmental Funds,1189000
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,General Fund,600490
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Recreation Fund,-124030
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Special Recreation Fund,-70746
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Bond & Interest Fund,12370
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Alternate Bond & Interest Fund,7487
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Capital Projects Fund,59999
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Museum Fund,32079
+2022,FY2022_audit,changes,20,18,,Net change in fund balances,Total Governmental Funds,517649
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,General Fund,1727080
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Recreation Fund,469072
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Special Recreation Fund,252666
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Bond & Interest Fund,268574
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Alternate Bond & Interest Fund,3619
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Capital Projects Fund,1622169
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Museum Fund,411546
+2022,FY2022_audit,changes,20,19,Fund balances,Beginning,Total Governmental Funds,4754726
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,General Fund,2327570
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Recreation Fund,345042
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Special Recreation Fund,181920
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Bond & Interest Fund,280944
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Alternate Bond & Interest Fund,11106
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Capital Projects Fund,1682168
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Museum Fund,443625
+2022,FY2022_audit,changes,20,20,Fund balances,Ending,Total Governmental Funds,5272375

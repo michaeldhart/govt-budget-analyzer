@@ -1,0 +1,252 @@
+fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
+2025,FY2025_audit,General Fund,47,1,Revenues; Taxes,Property taxes,budget,1732841
+2025,FY2025_audit,General Fund,47,1,Revenues; Taxes,Property taxes,actual,1745499
+2025,FY2025_audit,General Fund,47,1,Revenues; Taxes,Property taxes,variance,12658
+2025,FY2025_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,budget,130500
+2025,FY2025_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,actual,173714
+2025,FY2025_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,variance,43214
+2025,FY2025_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,budget,30000
+2025,FY2025_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,actual,33340
+2025,FY2025_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,variance,3340
+2025,FY2025_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,budget,20500
+2025,FY2025_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,actual,18996
+2025,FY2025_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,variance,-1504
+2025,FY2025_audit,General Fund,47,5,Revenues; Taxes,Interest,budget,1600
+2025,FY2025_audit,General Fund,47,5,Revenues; Taxes,Interest,actual,75093
+2025,FY2025_audit,General Fund,47,5,Revenues; Taxes,Interest,variance,73493
+2025,FY2025_audit,General Fund,47,6,Revenues; Taxes,Other,budget,17754
+2025,FY2025_audit,General Fund,47,6,Revenues; Taxes,Other,actual,40592
+2025,FY2025_audit,General Fund,47,6,Revenues; Taxes,Other,variance,22838
+2025,FY2025_audit,General Fund,47,7,Revenues; Taxes,Total revenues,budget,1933195
+2025,FY2025_audit,General Fund,47,7,Revenues; Taxes,Total revenues,actual,2087234
+2025,FY2025_audit,General Fund,47,7,Revenues; Taxes,Total revenues,variance,154039
+2025,FY2025_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,budget,1182487
+2025,FY2025_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,actual,978202
+2025,FY2025_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,variance,204285
+2025,FY2025_audit,General Fund,47,9,Expenditures; Current; Culture & recreation,Contractual services,budget,579550
+2025,FY2025_audit,General Fund,47,9,Expenditures; Current; Culture & recreation,Contractual services,actual,769697
+2025,FY2025_audit,General Fund,47,9,Expenditures; Current; Culture & recreation,Contractual services,variance,-190147
+2025,FY2025_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,budget,203858
+2025,FY2025_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,209737
+2025,FY2025_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,-5879
+2025,FY2025_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,7300
+2025,FY2025_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,8522
+2025,FY2025_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,-1222
+2025,FY2025_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1973195
+2025,FY2025_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1966158
+2025,FY2025_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,7037
+2025,FY2025_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,budget,-40000
+2025,FY2025_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,actual,121076
+2025,FY2025_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,variance,161076
+2025,FY2025_audit,General Fund,47,14,Other financing sources (uses),Subscription liability proceeds,budget,0
+2025,FY2025_audit,General Fund,47,14,Other financing sources (uses),Subscription liability proceeds,actual,170361
+2025,FY2025_audit,General Fund,47,14,Other financing sources (uses),Subscription liability proceeds,variance,170361
+2025,FY2025_audit,General Fund,47,15,Other financing sources (uses),Lease proceeds,budget,40000
+2025,FY2025_audit,General Fund,47,15,Other financing sources (uses),Lease proceeds,actual,96565
+2025,FY2025_audit,General Fund,47,15,Other financing sources (uses),Lease proceeds,variance,56565
+2025,FY2025_audit,General Fund,47,16,,Net change in fund balance,budget,0
+2025,FY2025_audit,General Fund,47,16,,Net change in fund balance,actual,388002
+2025,FY2025_audit,General Fund,47,16,,Net change in fund balance,variance,388002
+2025,FY2025_audit,General Fund,47,17,Fund balance,Beginning,actual,2752580
+2025,FY2025_audit,General Fund,47,18,Fund balance,Ending,actual,3140582
+2025,FY2025_audit,Recreation Fund,48,1,Revenues,Property taxes,budget,1001949
+2025,FY2025_audit,Recreation Fund,48,1,Revenues,Property taxes,actual,1000862
+2025,FY2025_audit,Recreation Fund,48,1,Revenues,Property taxes,variance,-1087
+2025,FY2025_audit,Recreation Fund,48,2,Revenues,Charges & fees,budget,806304
+2025,FY2025_audit,Recreation Fund,48,2,Revenues,Charges & fees,actual,828505
+2025,FY2025_audit,Recreation Fund,48,2,Revenues,Charges & fees,variance,22201
+2025,FY2025_audit,Recreation Fund,48,3,Revenues,Donations & grants,budget,65214
+2025,FY2025_audit,Recreation Fund,48,3,Revenues,Donations & grants,actual,4650
+2025,FY2025_audit,Recreation Fund,48,3,Revenues,Donations & grants,variance,-60564
+2025,FY2025_audit,Recreation Fund,48,4,Revenues,Interest,budget,14700
+2025,FY2025_audit,Recreation Fund,48,4,Revenues,Interest,actual,23509
+2025,FY2025_audit,Recreation Fund,48,4,Revenues,Interest,variance,8809
+2025,FY2025_audit,Recreation Fund,48,5,Revenues,Other,budget,73890
+2025,FY2025_audit,Recreation Fund,48,5,Revenues,Other,actual,29357
+2025,FY2025_audit,Recreation Fund,48,5,Revenues,Other,variance,-44533
+2025,FY2025_audit,Recreation Fund,48,6,Revenues,Total revenues,budget,1962057
+2025,FY2025_audit,Recreation Fund,48,6,Revenues,Total revenues,actual,1886883
+2025,FY2025_audit,Recreation Fund,48,6,Revenues,Total revenues,variance,-75174
+2025,FY2025_audit,Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,budget,1413924
+2025,FY2025_audit,Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,actual,1286276
+2025,FY2025_audit,Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,variance,127648
+2025,FY2025_audit,Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual services,budget,397365
+2025,FY2025_audit,Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual services,actual,317052
+2025,FY2025_audit,Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual services,variance,80313
+2025,FY2025_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,150768
+2025,FY2025_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,96086
+2025,FY2025_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,54682
+2025,FY2025_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
+2025,FY2025_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,0
+2025,FY2025_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,0
+2025,FY2025_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1962057
+2025,FY2025_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1699414
+2025,FY2025_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,262643
+2025,FY2025_audit,Recreation Fund,48,12,,Net change in fund balance,budget,0
+2025,FY2025_audit,Recreation Fund,48,12,,Net change in fund balance,actual,187469
+2025,FY2025_audit,Recreation Fund,48,12,,Net change in fund balance,variance,187469
+2025,FY2025_audit,Recreation Fund,48,13,Fund balance,Beginning,actual,780470
+2025,FY2025_audit,Recreation Fund,48,14,Fund balance,Ending,actual,967939
+2025,FY2025_audit,Special Recreation Fund,49,1,Revenues,Property taxes,budget,342205
+2025,FY2025_audit,Special Recreation Fund,49,1,Revenues,Property taxes,actual,341910
+2025,FY2025_audit,Special Recreation Fund,49,1,Revenues,Property taxes,variance,-295
+2025,FY2025_audit,Special Recreation Fund,49,2,Revenues,Charges & fees,budget,224916
+2025,FY2025_audit,Special Recreation Fund,49,2,Revenues,Charges & fees,actual,236779
+2025,FY2025_audit,Special Recreation Fund,49,2,Revenues,Charges & fees,variance,11863
+2025,FY2025_audit,Special Recreation Fund,49,3,Revenues,Donations & grants,budget,5227
+2025,FY2025_audit,Special Recreation Fund,49,3,Revenues,Donations & grants,actual,14295
+2025,FY2025_audit,Special Recreation Fund,49,3,Revenues,Donations & grants,variance,9068
+2025,FY2025_audit,Special Recreation Fund,49,4,Revenues,Interest,budget,6200
+2025,FY2025_audit,Special Recreation Fund,49,4,Revenues,Interest,actual,9817
+2025,FY2025_audit,Special Recreation Fund,49,4,Revenues,Interest,variance,3617
+2025,FY2025_audit,Special Recreation Fund,49,5,Revenues,Other,budget,9550
+2025,FY2025_audit,Special Recreation Fund,49,5,Revenues,Other,actual,18724
+2025,FY2025_audit,Special Recreation Fund,49,5,Revenues,Other,variance,9174
+2025,FY2025_audit,Special Recreation Fund,49,6,Revenues,Total revenues,budget,588098
+2025,FY2025_audit,Special Recreation Fund,49,6,Revenues,Total revenues,actual,621525
+2025,FY2025_audit,Special Recreation Fund,49,6,Revenues,Total revenues,variance,33427
+2025,FY2025_audit,Special Recreation Fund,49,7,Expenditures; Current; Culture & recreation,Personnel,budget,463113
+2025,FY2025_audit,Special Recreation Fund,49,7,Expenditures; Current; Culture & recreation,Personnel,actual,476679
+2025,FY2025_audit,Special Recreation Fund,49,7,Expenditures; Current; Culture & recreation,Personnel,variance,-13566
+2025,FY2025_audit,Special Recreation Fund,49,8,Expenditures; Current; Culture & recreation,Contractual,budget,42508
+2025,FY2025_audit,Special Recreation Fund,49,8,Expenditures; Current; Culture & recreation,Contractual,actual,38223
+2025,FY2025_audit,Special Recreation Fund,49,8,Expenditures; Current; Culture & recreation,Contractual,variance,4285
+2025,FY2025_audit,Special Recreation Fund,49,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,82477
+2025,FY2025_audit,Special Recreation Fund,49,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,67821
+2025,FY2025_audit,Special Recreation Fund,49,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,14656
+2025,FY2025_audit,Special Recreation Fund,49,10,Expenditures; Current; Culture & recreation,Total expenditures,budget,588098
+2025,FY2025_audit,Special Recreation Fund,49,10,Expenditures; Current; Culture & recreation,Total expenditures,actual,582723
+2025,FY2025_audit,Special Recreation Fund,49,10,Expenditures; Current; Culture & recreation,Total expenditures,variance,5375
+2025,FY2025_audit,Special Recreation Fund,49,11,,Net change in fund balance,budget,0
+2025,FY2025_audit,Special Recreation Fund,49,11,,Net change in fund balance,actual,38802
+2025,FY2025_audit,Special Recreation Fund,49,11,,Net change in fund balance,variance,38802
+2025,FY2025_audit,Special Recreation Fund,49,12,Fund balance,Beginning,actual,360865
+2025,FY2025_audit,Special Recreation Fund,49,13,Fund balance,Ending,actual,399667
+2025,FY2025_audit,Bond and Interest Fund,51,1,Revenues,Property taxes,budget,1332934
+2025,FY2025_audit,Bond and Interest Fund,51,1,Revenues,Property taxes,actual,1344892
+2025,FY2025_audit,Bond and Interest Fund,51,1,Revenues,Property taxes,variance,11958
+2025,FY2025_audit,Bond and Interest Fund,51,2,Revenues,Interest,budget,1500
+2025,FY2025_audit,Bond and Interest Fund,51,2,Revenues,Interest,actual,8242
+2025,FY2025_audit,Bond and Interest Fund,51,2,Revenues,Interest,variance,6742
+2025,FY2025_audit,Bond and Interest Fund,51,3,Revenues,Total revenues,budget,1334434
+2025,FY2025_audit,Bond and Interest Fund,51,3,Revenues,Total revenues,actual,1353134
+2025,FY2025_audit,Bond and Interest Fund,51,3,Revenues,Total revenues,variance,18700
+2025,FY2025_audit,Bond and Interest Fund,51,4,Expenditures; Debt service,Principal,budget,1284000
+2025,FY2025_audit,Bond and Interest Fund,51,4,Expenditures; Debt service,Principal,actual,1284000
+2025,FY2025_audit,Bond and Interest Fund,51,4,Expenditures; Debt service,Principal,variance,0
+2025,FY2025_audit,Bond and Interest Fund,51,5,Expenditures; Debt service,Interest,budget,48934
+2025,FY2025_audit,Bond and Interest Fund,51,5,Expenditures; Debt service,Interest,actual,48934
+2025,FY2025_audit,Bond and Interest Fund,51,5,Expenditures; Debt service,Interest,variance,0
+2025,FY2025_audit,Bond and Interest Fund,51,6,Expenditures; Debt service,Total expenditures,budget,1332934
+2025,FY2025_audit,Bond and Interest Fund,51,6,Expenditures; Debt service,Total expenditures,actual,1332934
+2025,FY2025_audit,Bond and Interest Fund,51,6,Expenditures; Debt service,Total expenditures,variance,0
+2025,FY2025_audit,Bond and Interest Fund,51,7,,Net change in fund balance,budget,1500
+2025,FY2025_audit,Bond and Interest Fund,51,7,,Net change in fund balance,actual,20200
+2025,FY2025_audit,Bond and Interest Fund,51,7,,Net change in fund balance,variance,18700
+2025,FY2025_audit,Bond and Interest Fund,51,8,Fund balance,Beginning,actual,320637
+2025,FY2025_audit,Bond and Interest Fund,51,9,Fund balance,Ending,actual,340837
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,1,Revenues,Interest,budget,62300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,1,Revenues,Interest,actual,508
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,1,Revenues,Interest,variance,-61792
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,2,Revenues,Total revenues,budget,62300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,2,Revenues,Total revenues,actual,508
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,2,Revenues,Total revenues,variance,-61792
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,3,Expenditures; Debt Service,Principal payments,budget,433800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,3,Expenditures; Debt Service,Principal payments,actual,365000
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,3,Expenditures; Debt Service,Principal payments,variance,68800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,4,Expenditures; Debt Service,Interest payments,budget,61500
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,4,Expenditures; Debt Service,Interest payments,actual,130300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,4,Expenditures; Debt Service,Interest payments,variance,-68800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,5,Expenditures; Debt Service,Total expenditures,budget,495300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,5,Expenditures; Debt Service,Total expenditures,actual,495300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,5,Expenditures; Debt Service,Total expenditures,variance,0
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,6,,Excess of revenues over (under) expenditures,budget,-433000
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,6,,Excess of revenues over (under) expenditures,actual,-494792
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,6,,Excess of revenues over (under) expenditures,variance,-61792
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,7,Other financing sources (uses),GO bond proceeds,budget,433800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,7,Other financing sources (uses),GO bond proceeds,actual,500300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,7,Other financing sources (uses),GO bond proceeds,variance,66500
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,8,Other financing sources (uses),Total other financing sources,budget,433800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,8,Other financing sources (uses),Total other financing sources,actual,500300
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,8,Other financing sources (uses),Total other financing sources,variance,66500
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,9,,Net change in fund balance,budget,800
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,9,,Net change in fund balance,actual,5508
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,9,,Net change in fund balance,variance,4708
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,10,Fund balance,Beginning,actual,13409
+2025,FY2025_audit,Alternate Bond and Interest Fund,52,11,Fund balance,Ending,actual,18917
+2025,FY2025_audit,Capital Projects Fund,53,1,Revenues,Donations & grants,budget,1604000
+2025,FY2025_audit,Capital Projects Fund,53,1,Revenues,Donations & grants,actual,101262
+2025,FY2025_audit,Capital Projects Fund,53,1,Revenues,Donations & grants,variance,-1502738
+2025,FY2025_audit,Capital Projects Fund,53,2,Revenues,Interest,budget,8500
+2025,FY2025_audit,Capital Projects Fund,53,2,Revenues,Interest,actual,43786
+2025,FY2025_audit,Capital Projects Fund,53,2,Revenues,Interest,variance,35286
+2025,FY2025_audit,Capital Projects Fund,53,3,Revenues,Other,budget,51100
+2025,FY2025_audit,Capital Projects Fund,53,3,Revenues,Other,actual,86399
+2025,FY2025_audit,Capital Projects Fund,53,3,Revenues,Other,variance,35299
+2025,FY2025_audit,Capital Projects Fund,53,4,Revenues,Total revenues,budget,1663600
+2025,FY2025_audit,Capital Projects Fund,53,4,Revenues,Total revenues,actual,231447
+2025,FY2025_audit,Capital Projects Fund,53,4,Revenues,Total revenues,variance,-1432153
+2025,FY2025_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,budget,0
+2025,FY2025_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,actual,0
+2025,FY2025_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,variance,0
+2025,FY2025_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,budget,2473800
+2025,FY2025_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,actual,1138468
+2025,FY2025_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,variance,1335332
+2025,FY2025_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,budget,2473800
+2025,FY2025_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,actual,1138468
+2025,FY2025_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,variance,1335332
+2025,FY2025_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,budget,-810200
+2025,FY2025_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,actual,-907021
+2025,FY2025_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,variance,-96821
+2025,FY2025_audit,Capital Projects Fund,53,9,Other financing sources (uses),Proceeds from sale of capital assets,budget,0
+2025,FY2025_audit,Capital Projects Fund,53,9,Other financing sources (uses),Proceeds from sale of capital assets,actual,57500
+2025,FY2025_audit,Capital Projects Fund,53,9,Other financing sources (uses),Proceeds from sale of capital assets,variance,-57500
+2025,FY2025_audit,Capital Projects Fund,53,10,Other financing sources (uses),GO bond proceeds,budget,810200
+2025,FY2025_audit,Capital Projects Fund,53,10,Other financing sources (uses),GO bond proceeds,actual,834700
+2025,FY2025_audit,Capital Projects Fund,53,10,Other financing sources (uses),GO bond proceeds,variance,24500
+2025,FY2025_audit,Capital Projects Fund,53,11,Other financing sources (uses),Total other financing sources,budget,810200
+2025,FY2025_audit,Capital Projects Fund,53,11,Other financing sources (uses),Total other financing sources,actual,892200
+2025,FY2025_audit,Capital Projects Fund,53,11,Other financing sources (uses),Total other financing sources,variance,-33000
+2025,FY2025_audit,Capital Projects Fund,53,12,,Net change in fund balance,budget,0
+2025,FY2025_audit,Capital Projects Fund,53,12,,Net change in fund balance,actual,-14821
+2025,FY2025_audit,Capital Projects Fund,53,12,,Net change in fund balance,variance,-129821
+2025,FY2025_audit,Capital Projects Fund,53,13,Fund balance,Beginning,actual,1669202
+2025,FY2025_audit,Capital Projects Fund,53,14,Fund balance,Ending,actual,1654381
+2025,FY2025_audit,Museum Fund,54,1,Revenues,Property taxes,budget,118841
+2025,FY2025_audit,Museum Fund,54,1,Revenues,Property taxes,actual,118774
+2025,FY2025_audit,Museum Fund,54,1,Revenues,Property taxes,variance,-67
+2025,FY2025_audit,Museum Fund,54,2,Revenues,Charges & fees,budget,2500
+2025,FY2025_audit,Museum Fund,54,2,Revenues,Charges & fees,actual,1288
+2025,FY2025_audit,Museum Fund,54,2,Revenues,Charges & fees,variance,-1212
+2025,FY2025_audit,Museum Fund,54,3,Revenues,Donations & grants,budget,51440
+2025,FY2025_audit,Museum Fund,54,3,Revenues,Donations & grants,actual,0
+2025,FY2025_audit,Museum Fund,54,3,Revenues,Donations & grants,variance,-51440
+2025,FY2025_audit,Museum Fund,54,4,Revenues,Interest,budget,32800
+2025,FY2025_audit,Museum Fund,54,4,Revenues,Interest,actual,11209
+2025,FY2025_audit,Museum Fund,54,4,Revenues,Interest,variance,-21591
+2025,FY2025_audit,Museum Fund,54,5,Revenues,Other,budget,0
+2025,FY2025_audit,Museum Fund,54,5,Revenues,Other,actual,3860
+2025,FY2025_audit,Museum Fund,54,5,Revenues,Other,variance,3860
+2025,FY2025_audit,Museum Fund,54,6,Revenues,Total revenues,budget,205581
+2025,FY2025_audit,Museum Fund,54,6,Revenues,Total revenues,actual,135131
+2025,FY2025_audit,Museum Fund,54,6,Revenues,Total revenues,variance,-70450
+2025,FY2025_audit,Museum Fund,54,7,Expenditures; Current; Culture & recreation,Personnel,budget,0
+2025,FY2025_audit,Museum Fund,54,7,Expenditures; Current; Culture & recreation,Personnel,actual,0
+2025,FY2025_audit,Museum Fund,54,7,Expenditures; Current; Culture & recreation,Personnel,variance,0
+2025,FY2025_audit,Museum Fund,54,8,Expenditures; Current; Culture & recreation,Contractual services,budget,185580
+2025,FY2025_audit,Museum Fund,54,8,Expenditures; Current; Culture & recreation,Contractual services,actual,17860
+2025,FY2025_audit,Museum Fund,54,8,Expenditures; Current; Culture & recreation,Contractual services,variance,167720
+2025,FY2025_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,20000
+2025,FY2025_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,5691
+2025,FY2025_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,14309
+2025,FY2025_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
+2025,FY2025_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,102600
+2025,FY2025_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,-102600
+2025,FY2025_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,205580
+2025,FY2025_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,126151
+2025,FY2025_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,79429
+2025,FY2025_audit,Museum Fund,54,12,,Net change in fund balance,budget,1
+2025,FY2025_audit,Museum Fund,54,12,,Net change in fund balance,actual,8980
+2025,FY2025_audit,Museum Fund,54,12,,Net change in fund balance,variance,8979
+2025,FY2025_audit,Museum Fund,54,13,Fund balance,Beginning,actual,434936
+2025,FY2025_audit,Museum Fund,54,14,Fund balance,Ending,actual,443916

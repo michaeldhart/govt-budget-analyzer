@@ -1,0 +1,296 @@
+doc,check,expected,found,result
+FY2020_audit,balance_sheet: Cash & cash equivalents: total column,4464343,4464343,ok
+FY2020_audit,balance_sheet: Property taxes: total column,3843400,3843400,ok
+FY2020_audit,balance_sheet: Prepaid expenses: total column,11697,11697,ok
+FY2020_audit,balance_sheet: Due from other governments: total column,16738,16738,ok
+FY2020_audit,balance_sheet: Total assets: total column,8336178,8336178,ok
+FY2020_audit,balance_sheet: Accounts payable: total column,90338,90338,ok
+FY2020_audit,balance_sheet: Other payables: total column,8078,8078,ok
+FY2020_audit,balance_sheet: Accrued wages: total column,21109,21109,ok
+FY2020_audit,balance_sheet: Uneamed revenue: total column,9256,9256,ok
+FY2020_audit,balance_sheet: Total liabilities: total column,128781,128781,ok
+FY2020_audit,balance_sheet: Property taxes: total column,3843400,3843400,ok
+FY2020_audit,balance_sheet: Total liabilities and deferred inflows of resources: total column,3972181,3972181,ok
+FY2020_audit,balance_sheet: Prepaid items: total column,11697,11697,ok
+FY2020_audit,balance_sheet: Recreation purposes: total column,700650,700650,ok
+FY2020_audit,balance_sheet: Special recreation: total column,230255,230255,ok
+FY2020_audit,balance_sheet: Museum purposes: total column,416186,416186,ok
+FY2020_audit,balance_sheet: IMRF: total column,66095,66095,ok
+FY2020_audit,balance_sheet: Social Security: total column,155492,155492,ok
+FY2020_audit,balance_sheet: Liability Insurance: total column,174842,174842,ok
+FY2020_audit,balance_sheet: Audit purposes: total column,6856,6856,ok
+FY2020_audit,balance_sheet: Working cash: total column,48718,48718,ok
+FY2020_audit,balance_sheet: Debt service: total column,227388,227388,ok
+FY2020_audit,balance_sheet: Capital Projects: total column,1428567,1428567,ok
+FY2020_audit,balance_sheet: Unassigned: total column,897251,897251,ok
+FY2020_audit,balance_sheet: Total fund balances: total column,4363997,4363997,ok
+FY2020_audit,"balance_sheet: Total liabilities, deferred inflows of resources, and fund balances: total column",8336178,8336178,ok
+FY2020_audit,balance_sheet: General Fund: assets,2892803,2892803,ok
+FY2020_audit,balance_sheet: General Fund: liabilities,81852,81852,ok
+FY2020_audit,balance_sheet: General Fund: liabilities + deferred inflows,1531852,1531852,ok
+FY2020_audit,balance_sheet: General Fund: fund balances,1360951,1360951,ok
+FY2020_audit,balance_sheet: General Fund: balance equation,2892803,2892803,ok
+FY2020_audit,balance_sheet: General Fund: l + d + fb,2892803,2892803,ok
+FY2020_audit,balance_sheet: Recreation Fund: assets,1564955,1564955,ok
+FY2020_audit,balance_sheet: Recreation Fund: liabilities,35905,35905,ok
+FY2020_audit,balance_sheet: Recreation Fund: liabilities + deferred inflows,864305,864305,ok
+FY2020_audit,balance_sheet: Recreation Fund: fund balances,700650,700650,ok
+FY2020_audit,balance_sheet: Recreation Fund: balance equation,1564955,1564955,ok
+FY2020_audit,balance_sheet: Recreation Fund: l + d + fb,1564955,1564955,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: assets,500059,500059,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: liabilities,2304,2304,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: liabilities + deferred inflows,269804,269804,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: fund balances,230255,230255,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: balance equation,500059,500059,ok
+FY2020_audit,balance_sheet: Special Recreation Fund: l + d + fb,500059,500059,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: assets,1413411,1413411,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: liabilities,0,0,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: liabilities + deferred inflows,1197500,1197500,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: fund balances,215911,215911,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: balance equation,1413411,1413411,ok
+FY2020_audit,balance_sheet: Bond & Interest Fund: l + d + fb,1413411,1413411,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: assets,11477,11477,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities,0,0,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities + deferred inflows,0,0,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: fund balances,11477,11477,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: balance equation,11477,11477,ok
+FY2020_audit,balance_sheet: Alternate Bond & Interest Fund: l + d + fb,11477,11477,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: assets,1435840,1435840,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: liabilities,7273,7273,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: liabilities + deferred inflows,7273,7273,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: fund balances,1428567,1428567,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: balance equation,1435840,1435840,ok
+FY2020_audit,balance_sheet: Capital Projects Fund: l + d + fb,1435840,1435840,ok
+FY2020_audit,balance_sheet: Museum Fund: assets,517633,517633,ok
+FY2020_audit,balance_sheet: Museum Fund: liabilities,1447,1447,ok
+FY2020_audit,balance_sheet: Museum Fund: liabilities + deferred inflows,101447,101447,ok
+FY2020_audit,balance_sheet: Museum Fund: fund balances,416186,416186,ok
+FY2020_audit,balance_sheet: Museum Fund: balance equation,517633,517633,ok
+FY2020_audit,balance_sheet: Museum Fund: l + d + fb,517633,517633,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: assets,8336178,8336178,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: liabilities,128781,128781,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: liabilities + deferred inflows,3972181,3972181,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: fund balances,4363997,4363997,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: balance equation,8336178,8336178,ok
+FY2020_audit,balance_sheet: Total Governmental Funds: l + d + fb,8336178,8336178,ok
+FY2020_audit,changes: Property taxes: total column,3717044,3717044,ok
+FY2020_audit,changes: Corporate replacement taxes: total column,98085,98085,ok
+FY2020_audit,changes: Charges & fees: total column,368621,368621,ok
+FY2020_audit,changes: Donations: total column,9280,9280,ok
+FY2020_audit,changes: Interest: total column,6126,6126,ok
+FY2020_audit,changes: Other: total column,92354,92354,ok
+FY2020_audit,changes: Total revenues: total column,4291510,4291510,ok
+FY2020_audit,changes: Personnel: total column,1978888,1978888,ok
+FY2020_audit,changes: Contractual services: total column,567897,567897,ok
+FY2020_audit,changes: ' Material & supplies: total column,320864,320864,ok
+FY2020_audit,changes: = Capital outlay: total column,910586,910586,ok
+FY2020_audit,changes: ' Principal = - >: total column,2450000,2450000,ok
+FY2020_audit,changes: Interest: total column,186775,186775,ok
+FY2020_audit,changes: Bond issue costs: total column,113797,113797,ok
+FY2020_audit,changes: Total expenditures: total column,6528807,6528807,ok
+FY2020_audit,changes: Excess of revenues over (under) expenditures: total column,-2237297,-2237297,ok
+FY2020_audit,changes: GO bond proceeds: total column,1140000,1140000,ok
+FY2020_audit,changes: Payment to refunded bond escrow agent: total column,-4953813,-4953813,ok
+FY2020_audit,changes: Premium on bond issuance: total column,662487,662487,ok
+FY2020_audit,changes: Refunding bond proceeds: total column,4410000,4410000,ok
+FY2020_audit,changes: Total other financing sources: total column,1258674,1258674,ok
+FY2020_audit,changes: Net change in fund balances: total column,-978623,-978623,ok
+FY2020_audit,changes: Beginning: total column,5342620,5342620,ok
+FY2020_audit,changes: Ending: total column,4363997,4363997,ok
+FY2020_audit,changes: General Fund: revenues,1477247,1477247,ok
+FY2020_audit,changes: General Fund: expenditures,1346041,1346041,ok
+FY2020_audit,changes: General Fund: excess,131206,131206,ok
+FY2020_audit,changes: General Fund: other financing,0,0,ok
+FY2020_audit,changes: General Fund: net change,131206,131206,ok
+FY2020_audit,changes: General Fund: ending = beginning + net change,1360951,1360951,ok
+FY2020_audit,changes: Recreation Fund: revenues,1212123,1212123,ok
+FY2020_audit,changes: Recreation Fund: expenditures,1197888,1197888,ok
+FY2020_audit,changes: Recreation Fund: excess,14235,14235,ok
+FY2020_audit,changes: Recreation Fund: other financing,0,0,ok
+FY2020_audit,changes: Recreation Fund: net change,14235,14235,ok
+FY2020_audit,changes: Recreation Fund: ending = beginning + net change,700650,700650,ok
+FY2020_audit,changes: Special Recreation Fund: revenues,309314,309314,ok
+FY2020_audit,changes: Special Recreation Fund: expenditures,289094,289094,ok
+FY2020_audit,changes: Special Recreation Fund: excess,20220,20220,ok
+FY2020_audit,changes: Special Recreation Fund: other financing,0,0,ok
+FY2020_audit,changes: Special Recreation Fund: net change,20220,20220,ok
+FY2020_audit,changes: Special Recreation Fund: ending = beginning + net change,230255,230255,ok
+FY2020_audit,changes: Bond & Interest Fund: revenues,1154747,1154747,ok
+FY2020_audit,changes: Bond & Interest Fund: expenditures,1119250,1119250,ok
+FY2020_audit,changes: Bond & Interest Fund: excess,35497,35497,ok
+FY2020_audit,changes: Bond & Interest Fund: other financing,0,0,ok
+FY2020_audit,changes: Bond & Interest Fund: net change,35497,35497,ok
+FY2020_audit,changes: Bond & Interest Fund: ending = beginning + net change,215911,215911,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: revenues,572,572,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: expenditures,1631322,1631322,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: excess,-1630750,-1630750,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: other financing,723674,723674,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: net change,-907076,-907076,ok
+FY2020_audit,changes: Alternate Bond & Interest Fund: ending = beginning + net change,11477,11477,ok
+FY2020_audit,changes: Capital Projects Fund: revenues,36387,36387,ok
+FY2020_audit,changes: Capital Projects Fund: expenditures,897179,897179,ok
+FY2020_audit,changes: Capital Projects Fund: excess,-860792,-860792,ok
+FY2020_audit,changes: Capital Projects Fund: other financing,535000,535000,ok
+FY2020_audit,changes: Capital Projects Fund: net change,-325792,-325792,ok
+FY2020_audit,changes: Capital Projects Fund: ending = beginning + net change,1428567,1428567,ok
+FY2020_audit,changes: Museum Fund: revenues,101120,101120,ok
+FY2020_audit,changes: Museum Fund: expenditures,48033,48033,ok
+FY2020_audit,changes: Museum Fund: excess,53087,53087,ok
+FY2020_audit,changes: Museum Fund: other financing,0,0,ok
+FY2020_audit,changes: Museum Fund: net change,53087,53087,ok
+FY2020_audit,changes: Museum Fund: ending = beginning + net change,416186,416186,ok
+FY2020_audit,changes: Total Governmental Funds: revenues,4291510,4291510,ok
+FY2020_audit,changes: Total Governmental Funds: expenditures,6528807,6528807,ok
+FY2020_audit,changes: Total Governmental Funds: excess,-2237297,-2237297,ok
+FY2020_audit,changes: Total Governmental Funds: other financing,1258674,1258674,ok
+FY2020_audit,changes: Total Governmental Funds: net change,-978623,-978623,ok
+FY2020_audit,changes: Total Governmental Funds: ending = beginning + net change,4363997,4363997,ok
+FY2020_audit,schedule General Fund: budget: revenues,1530767,1530767,ok
+FY2020_audit,schedule General Fund: budget: expenditures,1727433,1727433,ok
+FY2020_audit,schedule General Fund: budget: net change,-196666,-196666,ok
+FY2020_audit,schedule General Fund: actual: revenues,1477247,1477247,ok
+FY2020_audit,schedule General Fund: actual: expenditures,1346041,1346041,ok
+FY2020_audit,schedule General Fund: actual: net change,131206,131206,ok
+FY2020_audit,schedule General Fund: Property taxes: variance,-4854,-4854,ok
+FY2020_audit,schedule General Fund: Corporate replacement taxes: variance,-28153,-28153,ok
+FY2020_audit,schedule General Fund: Donations: variance,1280,1280,ok
+FY2020_audit,schedule General Fund: Interest: variance,-1115,-1115,ok
+FY2020_audit,schedule General Fund: Other: variance,-20678,-20678,ok
+FY2020_audit,schedule General Fund: Total revenues: variance,-53520,-53520,ok
+FY2020_audit,schedule General Fund: Personnel: variance,207599,207599,ok
+FY2020_audit,schedule General Fund: Contractual services: variance,67678,67678,ok
+FY2020_audit,schedule General Fund: Material & supplies: variance,91909,91909,ok
+FY2020_audit,schedule General Fund: Capital outlay: variance,14206,14206,ok
+FY2020_audit,schedule General Fund: Total expenditures: variance,381392,381392,ok
+FY2020_audit,schedule General Fund: Net change in fund balance: variance,327872,327872,ok
+FY2020_audit,schedule General Fund: ending = beginning + net change,1360951,1360951,ok
+FY2020_audit,tie General Fund: total revenues,1477247,1477247,ok
+FY2020_audit,tie General Fund: total expenditures,1346041,1346041,ok
+FY2020_audit,tie General Fund: ending fund balance,1360951,1360951,ok
+FY2020_audit,schedule Recreation Fund: budget: revenues,1788000,1788000,ok
+FY2020_audit,schedule Recreation Fund: budget: expenditures,1834815,1834815,ok
+FY2020_audit,schedule Recreation Fund: budget: net change,-46815,-46815,ok
+FY2020_audit,schedule Recreation Fund: actual: revenues,1212123,1212123,ok
+FY2020_audit,schedule Recreation Fund: actual: expenditures,1197888,1197888,ok
+FY2020_audit,schedule Recreation Fund: actual: net change,14235,14235,ok
+FY2020_audit,schedule Recreation Fund: Property taxes: variance,-3280,-3280,ok
+FY2020_audit,schedule Recreation Fund: Charges & fees: variance,-568498,-568498,ok
+FY2020_audit,schedule Recreation Fund: Donations: variance,-1000,-1000,ok
+FY2020_audit,schedule Recreation Fund: Interest: variance,-99,-99,ok
+FY2020_audit,schedule Recreation Fund: Other: variance,-3000,-3000,ok
+FY2020_audit,schedule Recreation Fund: Total revenues: variance,-575877,-575877,ok
+FY2020_audit,schedule Recreation Fund: Personnel: variance,262049,262049,ok
+FY2020_audit,schedule Recreation Fund: Contractual services: variance,272914,272914,ok
+FY2020_audit,schedule Recreation Fund: Material & supplies: variance,96667,96667,ok
+FY2020_audit,schedule Recreation Fund: Capital Outlay: variance,5297,5297,ok
+FY2020_audit,schedule Recreation Fund: Total expenditures: variance,636927,636927,ok
+FY2020_audit,schedule Recreation Fund: Net change in fund balance: variance,61050,61050,ok
+FY2020_audit,schedule Recreation Fund: ending = beginning + net change,700650,700650,ok
+FY2020_audit,tie Recreation Fund: total revenues,1212123,1212123,ok
+FY2020_audit,tie Recreation Fund: total expenditures,1197888,1197888,ok
+FY2020_audit,tie Recreation Fund: ending fund balance,700650,700650,ok
+FY2020_audit,schedule Special Recreation Fund: budget: revenues,469405,469405,ok
+FY2020_audit,schedule Special Recreation Fund: budget: expenditures,484248,484248,ok
+FY2020_audit,schedule Special Recreation Fund: budget: net change,-14843,-14843,ok
+FY2020_audit,schedule Special Recreation Fund: actual: revenues,309314,309314,ok
+FY2020_audit,schedule Special Recreation Fund: actual: expenditures,289094,289094,ok
+FY2020_audit,schedule Special Recreation Fund: actual: net change,20220,20220,ok
+FY2020_audit,schedule Special Recreation Fund: Property taxes: variance,-907,-907,ok
+FY2020_audit,schedule Special Recreation Fund: Charges & fees: variance,-153547,-153547,ok
+FY2020_audit,schedule Special Recreation Fund: Interest: variance,75,75,ok
+FY2020_audit,schedule Special Recreation Fund: Other: variance,-5712,-5712,ok
+FY2020_audit,schedule Special Recreation Fund: Total revenues: variance,-160091,-160091,ok
+FY2020_audit,schedule Special Recreation Fund: Personnel: variance,120996,120996,ok
+FY2020_audit,schedule Special Recreation Fund: Contractual: variance,16470,16470,ok
+FY2020_audit,schedule Special Recreation Fund: Material & supplies: variance,57688,57688,ok
+FY2020_audit,schedule Special Recreation Fund: Capital outlay: variance,0,0,ok
+FY2020_audit,schedule Special Recreation Fund: Total expenditures: variance,195154,195154,ok
+FY2020_audit,schedule Special Recreation Fund: Net change in fund balance: variance,35063,35063,ok
+FY2020_audit,schedule Special Recreation Fund: ending = beginning + net change,230255,230255,ok
+FY2020_audit,tie Special Recreation Fund: total revenues,309314,309314,ok
+FY2020_audit,tie Special Recreation Fund: total expenditures,289094,289094,ok
+FY2020_audit,tie Special Recreation Fund: ending fund balance,230255,230255,ok
+FY2020_audit,schedule Bond and Interest Fund: budget: revenues,1147465,1147465,ok
+FY2020_audit,schedule Bond and Interest Fund: budget: expenditures,1119250,1119250,ok
+FY2020_audit,schedule Bond and Interest Fund: budget: net change,28215,28215,ok
+FY2020_audit,schedule Bond and Interest Fund: actual: revenues,1154747,1154747,ok
+FY2020_audit,schedule Bond and Interest Fund: actual: expenditures,1119250,1119250,ok
+FY2020_audit,schedule Bond and Interest Fund: actual: net change,35497,35497,ok
+FY2020_audit,schedule Bond and Interest Fund: Property taxes: variance,7138,7138,ok
+FY2020_audit,schedule Bond and Interest Fund: Interest: variance,144,144,ok
+FY2020_audit,schedule Bond and Interest Fund: Total revenues: variance,7282,7282,ok
+FY2020_audit,schedule Bond and Interest Fund: Principal: variance,0,0,ok
+FY2020_audit,schedule Bond and Interest Fund: Interest: variance,0,0,ok
+FY2020_audit,schedule Bond and Interest Fund: Total expenditures: variance,0,0,ok
+FY2020_audit,schedule Bond and Interest Fund: Net change in fund balance: variance,7282,7282,ok
+FY2020_audit,schedule Bond and Interest Fund: ending = beginning + net change,215911,215911,ok
+FY2020_audit,tie Bond and Interest Fund: total revenues,1154747,1154747,ok
+FY2020_audit,tie Bond and Interest Fund: total expenditures,1119250,1119250,ok
+FY2020_audit,tie Bond and Interest Fund: ending fund balance,215911,215911,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: budget: revenues,400,400,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: budget: expenditures,1517525,1517525,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: budget: other financing,505000,505000,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: budget: net change,-1012125,-1012125,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: actual: revenues,572,572,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: actual: expenditures,1631322,1631322,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: actual: other financing,723674,723674,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: actual: net change,-907076,-907076,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Interest: variance,172,172,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Total revenues: variance,172,172,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Principal payments: variance,0,0,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Interest payments: variance,0,0,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Bond issue costs: variance,-113797,-113797,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Total expenditures: variance,-113797,-113797,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Excess of revenues over (under) expenditures: variance,-113625,-113625,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: GO bond proceeds: variance,100000,100000,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Payment to refunded bond escrow agent: variance,-4953813,-4953813,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Premium on bond issuance: variance,662487,662487,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Refunding bond proceeds: variance,4410000,4410000,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Total other financing sources: variance,218674,218674,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: Net change in fund balance: variance,105049,105049,ok
+FY2020_audit,schedule Alternate Bond and Interest Fund: ending = beginning + net change,11477,11477,ok
+FY2020_audit,tie Alternate Bond and Interest Fund: total revenues,572,572,ok
+FY2020_audit,tie Alternate Bond and Interest Fund: total expenditures,1631322,1631322,ok
+FY2020_audit,tie Alternate Bond and Interest Fund: ending fund balance,11477,11477,ok
+FY2020_audit,schedule Capital Projects Fund: budget: revenues,28300,28300,ok
+FY2020_audit,schedule Capital Projects Fund: budget: expenditures,975000,975000,ok
+FY2020_audit,schedule Capital Projects Fund: budget: other financing,630000,630000,ok
+FY2020_audit,schedule Capital Projects Fund: budget: net change,-316700,-316700,ok
+FY2020_audit,schedule Capital Projects Fund: actual: revenues,36387,36387,ok
+FY2020_audit,schedule Capital Projects Fund: actual: expenditures,897179,897179,ok
+FY2020_audit,schedule Capital Projects Fund: actual: other financing,535000,535000,ok
+FY2020_audit,schedule Capital Projects Fund: actual: net change,-325792,-325792,ok
+FY2020_audit,schedule Capital Projects Fund: Donations: variance,0,0,ok
+FY2020_audit,schedule Capital Projects Fund: Interest: variance,1668,1668,ok
+FY2020_audit,schedule Capital Projects Fund: Other: variance,6419,6419,ok
+FY2020_audit,schedule Capital Projects Fund: Total revenues: variance,8087,8087,ok
+FY2020_audit,schedule Capital Projects Fund: Contractual services: variance,3850,3850,ok
+FY2020_audit,schedule Capital Projects Fund: Capital outlay: variance,73971,73971,ok
+FY2020_audit,schedule Capital Projects Fund: Total expenditures: variance,77821,77821,ok
+FY2020_audit,schedule Capital Projects Fund: Excess of revenues over (under) expenditures: variance,85908,85908,ok
+FY2020_audit,schedule Capital Projects Fund: GO bond proceeds: variance,-95000,-95000,ok
+FY2020_audit,schedule Capital Projects Fund: Total other financing sources: variance,-95000,-95000,ok
+FY2020_audit,schedule Capital Projects Fund: Net change in fund balance: variance,-9092,-9092,ok
+FY2020_audit,schedule Capital Projects Fund: ending = beginning + net change,1428567,1428567,ok
+FY2020_audit,tie Capital Projects Fund: total revenues,36387,36387,ok
+FY2020_audit,tie Capital Projects Fund: total expenditures,897179,897179,ok
+FY2020_audit,tie Capital Projects Fund: ending fund balance,1428567,1428567,ok
+FY2020_audit,schedule Museum Fund: budget: revenues,103600,103600,ok
+FY2020_audit,schedule Museum Fund: budget: expenditures,248030,248030,ok
+FY2020_audit,schedule Museum Fund: budget: net change,-144430,-144430,ok
+FY2020_audit,schedule Museum Fund: actual: revenues,101120,101120,ok
+FY2020_audit,schedule Museum Fund: actual: expenditures,48033,48033,ok
+FY2020_audit,schedule Museum Fund: actual: net change,53087,53087,ok
+FY2020_audit,schedule Museum Fund: Property taxes: variance,-376,-376,ok
+FY2020_audit,schedule Museum Fund: Charges & fees: variance,-2485,-2485,ok
+FY2020_audit,schedule Museum Fund: Interest: variance,381,381,ok
+FY2020_audit,schedule Museum Fund: Total revenues: variance,-2480,-2480,ok
+FY2020_audit,schedule Museum Fund: Personnel: variance,12990,12990,ok
+FY2020_audit,schedule Museum Fund: Contractual services: variance,164329,164329,ok
+FY2020_audit,schedule Museum Fund: Material & supplies: variance,22678,22678,ok
+FY2020_audit,schedule Museum Fund: Total expenditures: variance,199997,199997,ok
+FY2020_audit,schedule Museum Fund: Net change in fund balance: variance,197517,197517,ok
+FY2020_audit,schedule Museum Fund: ending = beginning + net change,416186,416186,ok
+FY2020_audit,tie Museum Fund: total revenues,101120,101120,ok
+FY2020_audit,tie Museum Fund: total expenditures,48033,48033,ok
+FY2020_audit,tie Museum Fund: ending fund balance,416186,416186,ok

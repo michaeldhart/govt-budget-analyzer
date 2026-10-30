@@ -1,0 +1,339 @@
+fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
+2023,FY2023_audit,General Fund,46,1,Revenues; Taxes,Property taxes,budget,1605190
+2023,FY2023_audit,General Fund,46,1,Revenues; Taxes,Property taxes,actual,1573258
+2023,FY2023_audit,General Fund,46,1,Revenues; Taxes,Property taxes,variance,-31932
+2023,FY2023_audit,General Fund,46,1,Revenues; Taxes,Property taxes,prior_year_actual,1488240
+2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,budget,102000
+2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,267254
+2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,165254
+2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,360716
+2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,budget,22500
+2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,actual,24938
+2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,variance,2438
+2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,prior_year_actual,20770
+2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,budget,22500
+2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,actual,5005
+2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,variance,-17495
+2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,prior_year_actual,24101
+2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,budget,5100
+2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,actual,64769
+2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,variance,59669
+2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,prior_year_actual,17096
+2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,budget,7500
+2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,actual,52699
+2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,variance,45199
+2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,prior_year_actual,95626
+2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,budget,1764790
+2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,actual,1987923
+2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,variance,223133
+2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,prior_year_actual,2006549
+2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,budget,959890
+2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,actual,851408
+2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,variance,108482
+2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,594959
+2023,FY2023_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Contractual services,budget,632147
+2023,FY2023_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Contractual services,actual,638319
+2023,FY2023_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Contractual services,variance,-6172
+2023,FY2023_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,538008
+2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,budget,181344
+2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,172576
+2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,8768
+2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,201378
+2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,13990
+2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,58763
+2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,-44773
+2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,71714
+2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1787371
+2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1721066
+2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,66305
+2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1406059
+2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,budget,-22581
+2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,actual,266857
+2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,variance,289438
+2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,prior_year_actual,600490
+2023,FY2023_audit,General Fund,46,14,Other financing sources (uses),Proceeds from sale of capital assets,budget,0
+2023,FY2023_audit,General Fund,46,14,Other financing sources (uses),Proceeds from sale of capital assets,actual,10987
+2023,FY2023_audit,General Fund,46,14,Other financing sources (uses),Proceeds from sale of capital assets,variance,-10987
+2023,FY2023_audit,General Fund,46,14,Other financing sources (uses),Proceeds from sale of capital assets,prior_year_actual,0
+2023,FY2023_audit,General Fund,46,15,,Net change in fund balance,budget,-22581
+2023,FY2023_audit,General Fund,46,15,,Net change in fund balance,actual,277844
+2023,FY2023_audit,General Fund,46,15,,Net change in fund balance,variance,278451
+2023,FY2023_audit,General Fund,46,15,,Net change in fund balance,prior_year_actual,600490
+2023,FY2023_audit,General Fund,46,16,Fund balance,Beginning,actual,2327570
+2023,FY2023_audit,General Fund,46,16,Fund balance,Beginning,prior_year_actual,1727080
+2023,FY2023_audit,General Fund,46,17,Fund balance,Ending,actual,2605414
+2023,FY2023_audit,General Fund,46,17,Fund balance,Ending,prior_year_actual,2327570
+2023,FY2023_audit,Recreation Fund,47,1,Revenues,Property taxes,budget,917250
+2023,FY2023_audit,Recreation Fund,47,1,Revenues,Property taxes,actual,896027
+2023,FY2023_audit,Recreation Fund,47,1,Revenues,Property taxes,variance,-21223
+2023,FY2023_audit,Recreation Fund,47,1,Revenues,Property taxes,prior_year_actual,845413
+2023,FY2023_audit,Recreation Fund,47,2,Revenues,Charges & fees,budget,841479
+2023,FY2023_audit,Recreation Fund,47,2,Revenues,Charges & fees,actual,808942
+2023,FY2023_audit,Recreation Fund,47,2,Revenues,Charges & fees,variance,-32537
+2023,FY2023_audit,Recreation Fund,47,2,Revenues,Charges & fees,prior_year_actual,756736
+2023,FY2023_audit,Recreation Fund,47,3,Revenues,Donations,budget,3750
+2023,FY2023_audit,Recreation Fund,47,3,Revenues,Donations,actual,3055
+2023,FY2023_audit,Recreation Fund,47,3,Revenues,Donations,variance,-695
+2023,FY2023_audit,Recreation Fund,47,3,Revenues,Donations,prior_year_actual,0
+2023,FY2023_audit,Recreation Fund,47,4,Revenues,Interest,budget,0
+2023,FY2023_audit,Recreation Fund,47,4,Revenues,Interest,actual,13611
+2023,FY2023_audit,Recreation Fund,47,4,Revenues,Interest,variance,13611
+2023,FY2023_audit,Recreation Fund,47,4,Revenues,Interest,prior_year_actual,3140
+2023,FY2023_audit,Recreation Fund,47,5,Revenues,Other,budget,15000
+2023,FY2023_audit,Recreation Fund,47,5,Revenues,Other,actual,6020
+2023,FY2023_audit,Recreation Fund,47,5,Revenues,Other,variance,-8980
+2023,FY2023_audit,Recreation Fund,47,5,Revenues,Other,prior_year_actual,7600
+2023,FY2023_audit,Recreation Fund,47,6,Revenues,Total revenues,budget,1777479
+2023,FY2023_audit,Recreation Fund,47,6,Revenues,Total revenues,actual,1727655
+2023,FY2023_audit,Recreation Fund,47,6,Revenues,Total revenues,variance,-49824
+2023,FY2023_audit,Recreation Fund,47,6,Revenues,Total revenues,prior_year_actual,1612889
+2023,FY2023_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,budget,1327944
+2023,FY2023_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,actual,1086253
+2023,FY2023_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,variance,241691
+2023,FY2023_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,1220163
+2023,FY2023_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,budget,312299
+2023,FY2023_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,actual,321850
+2023,FY2023_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,variance,-9551
+2023,FY2023_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,343556
+2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,136550
+2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,101449
+2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,35101
+2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,171324
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,1876
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1776793
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1509552
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,267241
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1736919
+2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,budget,686
+2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,actual,218103
+2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,variance,217417
+2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,prior_year_actual,-124030
+2023,FY2023_audit,Recreation Fund,47,13,Fund balance,Beginning,actual,345042
+2023,FY2023_audit,Recreation Fund,47,13,Fund balance,Beginning,prior_year_actual,469072
+2023,FY2023_audit,Recreation Fund,47,14,Fund balance,Ending,actual,563145
+2023,FY2023_audit,Recreation Fund,47,14,Fund balance,Ending,prior_year_actual,345042
+2023,FY2023_audit,Special Recreation Fund,48,1,Revenues,Property taxes,budget,353488
+2023,FY2023_audit,Special Recreation Fund,48,1,Revenues,Property taxes,actual,303046
+2023,FY2023_audit,Special Recreation Fund,48,1,Revenues,Property taxes,variance,-50442
+2023,FY2023_audit,Special Recreation Fund,48,1,Revenues,Property taxes,prior_year_actual,226947
+2023,FY2023_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,budget,198400
+2023,FY2023_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,actual,222498
+2023,FY2023_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,variance,24098
+2023,FY2023_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,prior_year_actual,184796
+2023,FY2023_audit,Special Recreation Fund,48,3,Revenues,Donations,budget,4000
+2023,FY2023_audit,Special Recreation Fund,48,3,Revenues,Donations,actual,6000
+2023,FY2023_audit,Special Recreation Fund,48,3,Revenues,Donations,variance,2000
+2023,FY2023_audit,Special Recreation Fund,48,3,Revenues,Donations,prior_year_actual,500
+2023,FY2023_audit,Special Recreation Fund,48,4,Revenues,Interest,budget,400
+2023,FY2023_audit,Special Recreation Fund,48,4,Revenues,Interest,actual,6282
+2023,FY2023_audit,Special Recreation Fund,48,4,Revenues,Interest,variance,5882
+2023,FY2023_audit,Special Recreation Fund,48,4,Revenues,Interest,prior_year_actual,1788
+2023,FY2023_audit,Special Recreation Fund,48,5,Revenues,Other,budget,12750
+2023,FY2023_audit,Special Recreation Fund,48,5,Revenues,Other,actual,18837
+2023,FY2023_audit,Special Recreation Fund,48,5,Revenues,Other,variance,6087
+2023,FY2023_audit,Special Recreation Fund,48,5,Revenues,Other,prior_year_actual,9602
+2023,FY2023_audit,Special Recreation Fund,48,6,Revenues,Total revenues,budget,569038
+2023,FY2023_audit,Special Recreation Fund,48,6,Revenues,Total revenues,actual,556663
+2023,FY2023_audit,Special Recreation Fund,48,6,Revenues,Total revenues,variance,-12375
+2023,FY2023_audit,Special Recreation Fund,48,6,Revenues,Total revenues,prior_year_actual,423633
+2023,FY2023_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,budget,392547
+2023,FY2023_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,actual,389575
+2023,FY2023_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,variance,2972
+2023,FY2023_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,393957
+2023,FY2023_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual,budget,46381
+2023,FY2023_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual,actual,39551
+2023,FY2023_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual,variance,6830
+2023,FY2023_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Contractual,prior_year_actual,21121
+2023,FY2023_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,79568
+2023,FY2023_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,74222
+2023,FY2023_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,5346
+2023,FY2023_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,79301
+2023,FY2023_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,budget,518496
+2023,FY2023_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,actual,503348
+2023,FY2023_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,variance,15148
+2023,FY2023_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,494379
+2023,FY2023_audit,Special Recreation Fund,48,11,,Net change in fund balance,budget,50542
+2023,FY2023_audit,Special Recreation Fund,48,11,,Net change in fund balance,actual,53315
+2023,FY2023_audit,Special Recreation Fund,48,11,,Net change in fund balance,variance,2773
+2023,FY2023_audit,Special Recreation Fund,48,11,,Net change in fund balance,prior_year_actual,-70746
+2023,FY2023_audit,Special Recreation Fund,48,12,Fund balance,Beginning,actual,181920
+2023,FY2023_audit,Special Recreation Fund,48,12,Fund balance,Beginning,prior_year_actual,252666
+2023,FY2023_audit,Special Recreation Fund,48,13,Fund balance,Ending,actual,235235
+2023,FY2023_audit,Special Recreation Fund,48,13,Fund balance,Ending,prior_year_actual,181920
+2023,FY2023_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,budget,1233546
+2023,FY2023_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,actual,1244075
+2023,FY2023_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,variance,10529
+2023,FY2023_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,prior_year_actual,1185908
+2023,FY2023_audit,Bond and Interest Fund,50,2,Revenues,Interest,budget,500
+2023,FY2023_audit,Bond and Interest Fund,50,2,Revenues,Interest,actual,7811
+2023,FY2023_audit,Bond and Interest Fund,50,2,Revenues,Interest,variance,7311
+2023,FY2023_audit,Bond and Interest Fund,50,2,Revenues,Interest,prior_year_actual,2312
+2023,FY2023_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,budget,1234046
+2023,FY2023_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,actual,1251886
+2023,FY2023_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,variance,17840
+2023,FY2023_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,prior_year_actual,1188220
+2023,FY2023_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,budget,1189000
+2023,FY2023_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,actual,1189000
+2023,FY2023_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,variance,0
+2023,FY2023_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,prior_year_actual,1170000
+2023,FY2023_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,budget,44546
+2023,FY2023_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,actual,44546
+2023,FY2023_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,variance,0
+2023,FY2023_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,prior_year_actual,5850
+2023,FY2023_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,budget,1233546
+2023,FY2023_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,actual,1233546
+2023,FY2023_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,variance,0
+2023,FY2023_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,prior_year_actual,1175850
+2023,FY2023_audit,Bond and Interest Fund,50,7,,Net change in fund balance,budget,500
+2023,FY2023_audit,Bond and Interest Fund,50,7,,Net change in fund balance,actual,18340
+2023,FY2023_audit,Bond and Interest Fund,50,7,,Net change in fund balance,variance,17840
+2023,FY2023_audit,Bond and Interest Fund,50,7,,Net change in fund balance,prior_year_actual,12370
+2023,FY2023_audit,Bond and Interest Fund,50,8,Fund balance,Beginning,actual,280944
+2023,FY2023_audit,Bond and Interest Fund,50,8,Fund balance,Beginning,prior_year_actual,268574
+2023,FY2023_audit,Bond and Interest Fund,50,9,Fund balance,Ending,actual,299284
+2023,FY2023_audit,Bond and Interest Fund,50,9,Fund balance,Ending,prior_year_actual,280944
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,budget,800
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,actual,337
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,variance,-463
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,prior_year_actual,87
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,budget,800
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,actual,337
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,variance,-463
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,prior_year_actual,87
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,budget,325000
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,actual,325000
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,variance,0
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,prior_year_actual,305000
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,budget,157700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,actual,157700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,variance,0
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,prior_year_actual,170300
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,budget,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,actual,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,variance,0
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,prior_year_actual,475300
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,budget,-481900
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,actual,-482363
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,variance,-463
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,prior_year_actual,-475213
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,budget,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,actual,484400
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,variance,1700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,prior_year_actual,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,budget,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,actual,484400
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,variance,1700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,prior_year_actual,482700
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,budget,800
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,actual,2037
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,variance,1237
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,prior_year_actual,7487
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,10,Fund balance,Beginning,actual,11106
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,10,Fund balance,Beginning,prior_year_actual,3619
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,11,Fund balance,Ending,actual,13143
+2023,FY2023_audit,Alternate Bond and Interest Fund,51,11,Fund balance,Ending,prior_year_actual,11106
+2023,FY2023_audit,Capital Projects Fund,52,1,Revenues,Interest,budget_original,500
+2023,FY2023_audit,Capital Projects Fund,52,1,Revenues,Interest,budget_final,3120
+2023,FY2023_audit,Capital Projects Fund,52,1,Revenues,Interest,actual,50428
+2023,FY2023_audit,Capital Projects Fund,52,1,Revenues,Interest,variance,47308
+2023,FY2023_audit,Capital Projects Fund,52,1,Revenues,Interest,prior_year_actual,15439
+2023,FY2023_audit,Capital Projects Fund,52,2,Revenues,Other,budget_original,175000
+2023,FY2023_audit,Capital Projects Fund,52,2,Revenues,Other,budget_final,153703
+2023,FY2023_audit,Capital Projects Fund,52,2,Revenues,Other,actual,153703
+2023,FY2023_audit,Capital Projects Fund,52,2,Revenues,Other,variance,0
+2023,FY2023_audit,Capital Projects Fund,52,2,Revenues,Other,prior_year_actual,0
+2023,FY2023_audit,Capital Projects Fund,52,3,Revenues,Total revenues,budget_original,175500
+2023,FY2023_audit,Capital Projects Fund,52,3,Revenues,Total revenues,budget_final,156823
+2023,FY2023_audit,Capital Projects Fund,52,3,Revenues,Total revenues,actual,204131
+2023,FY2023_audit,Capital Projects Fund,52,3,Revenues,Total revenues,variance,47308
+2023,FY2023_audit,Capital Projects Fund,52,3,Revenues,Total revenues,prior_year_actual,15439
+2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,budget_original,0
+2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,budget_final,0
+2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,actual,5000
+2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,variance,-5000
+2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,4000
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget_original,880796
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget_final,1139035
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,actual,1074133
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,variance,64902
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,657740
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget_original,880796
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget_final,1139035
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,actual,1079133
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,variance,59902
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,661740
+2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget_original,-705296
+2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget_final,-982212
+2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,actual,-875002
+2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,variance,107210
+2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,prior_year_actual,-646301
+2023,FY2023_audit,Capital Projects Fund,52,8,Other financing sources (uses),GO bond proceeds,budget_original,706300
+2023,FY2023_audit,Capital Projects Fund,52,8,Other financing sources (uses),GO bond proceeds,budget_final,706300
+2023,FY2023_audit,Capital Projects Fund,52,8,Other financing sources (uses),GO bond proceeds,actual,698600
+2023,FY2023_audit,Capital Projects Fund,52,8,Other financing sources (uses),GO bond proceeds,variance,-7700
+2023,FY2023_audit,Capital Projects Fund,52,8,Other financing sources (uses),GO bond proceeds,prior_year_actual,706300
+2023,FY2023_audit,Capital Projects Fund,52,9,Other financing sources (uses),Total other financing sources,budget_original,706300
+2023,FY2023_audit,Capital Projects Fund,52,9,Other financing sources (uses),Total other financing sources,budget_final,706300
+2023,FY2023_audit,Capital Projects Fund,52,9,Other financing sources (uses),Total other financing sources,actual,698600
+2023,FY2023_audit,Capital Projects Fund,52,9,Other financing sources (uses),Total other financing sources,variance,-7700
+2023,FY2023_audit,Capital Projects Fund,52,9,Other financing sources (uses),Total other financing sources,prior_year_actual,706300
+2023,FY2023_audit,Capital Projects Fund,52,10,,Net change in fund balance,budget_original,1004
+2023,FY2023_audit,Capital Projects Fund,52,10,,Net change in fund balance,budget_final,-275912
+2023,FY2023_audit,Capital Projects Fund,52,10,,Net change in fund balance,actual,-176402
+2023,FY2023_audit,Capital Projects Fund,52,10,,Net change in fund balance,variance,99510
+2023,FY2023_audit,Capital Projects Fund,52,10,,Net change in fund balance,prior_year_actual,59999
+2023,FY2023_audit,Capital Projects Fund,52,11,Fund balance,Beginning,actual,1682168
+2023,FY2023_audit,Capital Projects Fund,52,11,Fund balance,Beginning,prior_year_actual,1622169
+2023,FY2023_audit,Capital Projects Fund,52,12,Fund balance,Ending,actual,1505766
+2023,FY2023_audit,Capital Projects Fund,52,12,Fund balance,Ending,prior_year_actual,1682168
+2023,FY2023_audit,Museum Fund,53,1,Revenues,Property taxes,budget,108711
+2023,FY2023_audit,Museum Fund,53,1,Revenues,Property taxes,actual,106215
+2023,FY2023_audit,Museum Fund,53,1,Revenues,Property taxes,variance,-2496
+2023,FY2023_audit,Museum Fund,53,1,Revenues,Property taxes,prior_year_actual,100246
+2023,FY2023_audit,Museum Fund,53,2,Revenues,Charges & fees,budget,3500
+2023,FY2023_audit,Museum Fund,53,2,Revenues,Charges & fees,actual,630
+2023,FY2023_audit,Museum Fund,53,2,Revenues,Charges & fees,variance,-2870
+2023,FY2023_audit,Museum Fund,53,2,Revenues,Charges & fees,prior_year_actual,2180
+2023,FY2023_audit,Museum Fund,53,3,Revenues,Donations,budget,3000
+2023,FY2023_audit,Museum Fund,53,3,Revenues,Donations,actual,0
+2023,FY2023_audit,Museum Fund,53,3,Revenues,Donations,variance,-3000
+2023,FY2023_audit,Museum Fund,53,3,Revenues,Donations,prior_year_actual,2000
+2023,FY2023_audit,Museum Fund,53,4,Revenues,Interest,budget,100
+2023,FY2023_audit,Museum Fund,53,4,Revenues,Interest,actual,12806
+2023,FY2023_audit,Museum Fund,53,4,Revenues,Interest,variance,12706
+2023,FY2023_audit,Museum Fund,53,4,Revenues,Interest,prior_year_actual,3751
+2023,FY2023_audit,Museum Fund,53,5,Revenues,Other,budget,75000
+2023,FY2023_audit,Museum Fund,53,5,Revenues,Other,actual,0
+2023,FY2023_audit,Museum Fund,53,5,Revenues,Other,variance,-75000
+2023,FY2023_audit,Museum Fund,53,5,Revenues,Other,prior_year_actual,0
+2023,FY2023_audit,Museum Fund,53,6,Revenues,Total revenues,budget,190311
+2023,FY2023_audit,Museum Fund,53,6,Revenues,Total revenues,actual,119651
+2023,FY2023_audit,Museum Fund,53,6,Revenues,Total revenues,variance,-70660
+2023,FY2023_audit,Museum Fund,53,6,Revenues,Total revenues,prior_year_actual,108177
+2023,FY2023_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Personnel,budget,10000
+2023,FY2023_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Personnel,actual,942
+2023,FY2023_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Personnel,variance,9058
+2023,FY2023_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,5240
+2023,FY2023_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Contractual services,budget,155937
+2023,FY2023_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Contractual services,actual,75489
+2023,FY2023_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Contractual services,variance,80448
+2023,FY2023_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,49352
+2023,FY2023_audit,Museum Fund,53,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,21750
+2023,FY2023_audit,Museum Fund,53,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,14407
+2023,FY2023_audit,Museum Fund,53,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,7343
+2023,FY2023_audit,Museum Fund,53,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,21506
+2023,FY2023_audit,Museum Fund,53,10,Expenditures; Current; Culture & recreation,Total expenditures,budget,187687
+2023,FY2023_audit,Museum Fund,53,10,Expenditures; Current; Culture & recreation,Total expenditures,actual,90838
+2023,FY2023_audit,Museum Fund,53,10,Expenditures; Current; Culture & recreation,Total expenditures,variance,96849
+2023,FY2023_audit,Museum Fund,53,10,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,76098
+2023,FY2023_audit,Museum Fund,53,11,,Net change in fund balance,budget,2624
+2023,FY2023_audit,Museum Fund,53,11,,Net change in fund balance,actual,28813
+2023,FY2023_audit,Museum Fund,53,11,,Net change in fund balance,variance,26189
+2023,FY2023_audit,Museum Fund,53,11,,Net change in fund balance,prior_year_actual,32079
+2023,FY2023_audit,Museum Fund,53,12,Fund balance,Beginning,actual,443625
+2023,FY2023_audit,Museum Fund,53,12,Fund balance,Beginning,prior_year_actual,411546
+2023,FY2023_audit,Museum Fund,53,13,Fund balance,Ending,actual,472438
+2023,FY2023_audit,Museum Fund,53,13,Fund balance,Ending,prior_year_actual,443625

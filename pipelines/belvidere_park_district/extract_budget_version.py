@@ -44,7 +44,8 @@ def read_pages(pages, fy, doc, overrides=(), corrections=None, used=None):
     """Rows, printed fund subtotals and printed grand totals of one OCR reading (no validation)."""
     rows, subs, grands = [], [], []
     used = used if used is not None else set()
-    flow, column = "revenue", "approved"
+    flow = "revenue"
+    column = "requested" if doc.endswith("_draft") else "approved"  # a draft prints Requested (Amended empty), an adopted budget Approved; page headings are too noisy to decide per page
     fund = last_fund = None
     for pdf_page, page in enumerate(pages, start=1):
         head = "\n".join(page.splitlines()[:4])
@@ -54,10 +55,6 @@ def read_pages(pages, fy, doc, overrides=(), corrections=None, used=None):
             flow = "expense"
         elif re.search(r"(?i)REVENUE", head):
             flow = "revenue"
-        if re.search(r"(?i)Approved", head):
-            column = "approved"
-        elif re.search(r"(?i)Requested", head):
-            column = "requested"
         label = f"pdf{pdf_page}"
         for raw in page.splitlines():
             line = raw

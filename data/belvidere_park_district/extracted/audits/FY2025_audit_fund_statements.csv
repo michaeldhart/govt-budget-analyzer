@@ -1,0 +1,409 @@
+fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,General Fund,3136283
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Recreation Fund,1015450
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Special Recreation Fund,408309
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Bond & Interest Fund,340837
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Capital Projects Fund,1809416
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Museum Fund,447781
+2025,FY2025_audit,balance_sheet,18,1,Assets,Cash & cash equivalents,Total Governmental Funds,7176993
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,General Fund,1814872
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Recreation Fund,1040721
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Special Recreation Fund,390000
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Bond & Interest Fund,1392341
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Museum Fund,123506
+2025,FY2025_audit,balance_sheet,18,2,Assets; Receivables,Property taxes,Total Governmental Funds,4761440
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,General Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Capital Projects Fund,220825
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,3,Assets; Receivables,Grants,Total Governmental Funds,220825
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,General Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Recreation Fund,50
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,4,Assets; Receivables,Other,Total Governmental Funds,50
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,General Fund,31705
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,5,Assets; Receivables,Prepaid expenses,Total Governmental Funds,31705
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,General Fund,22147
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,6,Assets; Receivables,Due from other governments,Total Governmental Funds,22147
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,General Fund,5005007
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Recreation Fund,2056221
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Special Recreation Fund,798309
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Bond & Interest Fund,1733178
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Capital Projects Fund,2030241
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Museum Fund,571287
+2025,FY2025_audit,balance_sheet,18,7,Assets; Receivables,Total assets,Total Governmental Funds,12213160
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,General Fund,36178
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Recreation Fund,22686
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Special Recreation Fund,2430
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Capital Projects Fund,124885
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Museum Fund,3865
+2025,FY2025_audit,balance_sheet,18,8,Liabilities,Accounts payable,Total Governmental Funds,190044
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,General Fund,12392
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Recreation Fund,24875
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Special Recreation Fund,6212
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,9,Liabilities,Accrued wages,Total Governmental Funds,43479
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,General Fund,983
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Capital Projects Fund,30150
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,10,Liabilities,Unearned revenue,Total Governmental Funds,31133
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,General Fund,49553
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Recreation Fund,47561
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Special Recreation Fund,8642
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Capital Projects Fund,155035
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Museum Fund,3865
+2025,FY2025_audit,balance_sheet,18,11,Liabilities,Total liabilities,Total Governmental Funds,264656
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,General Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Capital Projects Fund,220825
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,12,Deferred Inflows of Resources,Unearned revenue,Total Governmental Funds,220825
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,General Fund,1814872
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Recreation Fund,1040721
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Special Recreation Fund,390000
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Bond & Interest Fund,1392341
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Museum Fund,123506
+2025,FY2025_audit,balance_sheet,18,13,Deferred Inflows of Resources,Property taxes,Total Governmental Funds,4761440
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,General Fund,1864425
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Recreation Fund,1088282
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Special Recreation Fund,398642
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Bond & Interest Fund,1392341
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Capital Projects Fund,375860
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Museum Fund,127371
+2025,FY2025_audit,balance_sheet,18,14,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Total Governmental Funds,5246921
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,General Fund,31705
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,15,Fund balances; Nonspendable,Prepaid items,Total Governmental Funds,31705
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,General Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Recreation Fund,967939
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Recreation purposes,Total Governmental Funds,967939
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,General Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Special Recreation Fund,399667
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Special recreation,Total Governmental Funds,399667
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,General Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Museum Fund,443916
+2025,FY2025_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,Museum purposes,Total Governmental Funds,443916
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,General Fund,440487
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,IMRF,Total Governmental Funds,440487
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,General Fund,499808
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Social Security,Total Governmental Funds,499808
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,General Fund,300054
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Liability Insurance,Total Governmental Funds,300054
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,General Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Audit purposes,Total Governmental Funds,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,General Fund,48718
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Working cash,Total Governmental Funds,48718
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,General Fund,0
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Bond & Interest Fund,340837
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted,Debt service,Total Governmental Funds,359754
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,General Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Capital Projects Fund,1654381
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Total Governmental Funds,1654381
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,General Fund,1819810
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Special Recreation Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Capital Projects Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Museum Fund,0
+2025,FY2025_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Total Governmental Funds,1819810
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,General Fund,3140582
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Recreation Fund,967939
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Special Recreation Fund,399667
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Bond & Interest Fund,340837
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Capital Projects Fund,1654381
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Museum Fund,443916
+2025,FY2025_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Total Governmental Funds,6966239
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",General Fund,5005007
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Recreation Fund,2056221
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Special Recreation Fund,798309
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Bond & Interest Fund,1733178
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Capital Projects Fund,2030241
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Museum Fund,571287
+2025,FY2025_audit,balance_sheet,18,28,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Total Governmental Funds,12213160
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,General Fund,1745499
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Recreation Fund,1000862
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Special Recreation Fund,341910
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Bond & Interest Fund,1344892
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Museum Fund,118774
+2025,FY2025_audit,changes,20,1,Revenues,Property taxes,Total Governmental Funds,4551937
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,General Fund,173714
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Recreation Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Museum Fund,0
+2025,FY2025_audit,changes,20,2,Revenues,Corporate replacement taxes,Total Governmental Funds,173714
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,General Fund,33340
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Recreation Fund,828505
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Special Recreation Fund,236779
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Museum Fund,1288
+2025,FY2025_audit,changes,20,3,Revenues,Charges & fees,Total Governmental Funds,1099912
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,General Fund,18996
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Recreation Fund,4650
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Special Recreation Fund,14295
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Capital Projects Fund,101262
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Museum Fund,0
+2025,FY2025_audit,changes,20,4,Revenues,Donations & grants,Total Governmental Funds,139203
+2025,FY2025_audit,changes,20,5,Revenues,Interest,General Fund,75093
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Recreation Fund,23509
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Special Recreation Fund,9817
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Bond & Interest Fund,8242
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Alternate Bond & Interest Fund,508
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Capital Projects Fund,43786
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Museum Fund,11209
+2025,FY2025_audit,changes,20,5,Revenues,Interest,Total Governmental Funds,172164
+2025,FY2025_audit,changes,20,6,Revenues,Other,General Fund,40592
+2025,FY2025_audit,changes,20,6,Revenues,Other,Recreation Fund,29357
+2025,FY2025_audit,changes,20,6,Revenues,Other,Special Recreation Fund,18724
+2025,FY2025_audit,changes,20,6,Revenues,Other,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,6,Revenues,Other,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,6,Revenues,Other,Capital Projects Fund,86399
+2025,FY2025_audit,changes,20,6,Revenues,Other,Museum Fund,3860
+2025,FY2025_audit,changes,20,6,Revenues,Other,Total Governmental Funds,178932
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,General Fund,2087234
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Recreation Fund,1886883
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Special Recreation Fund,621525
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Bond & Interest Fund,1353134
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Alternate Bond & Interest Fund,508
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Capital Projects Fund,231447
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Museum Fund,135131
+2025,FY2025_audit,changes,20,7,Revenues,Total revenues,Total Governmental Funds,6315862
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,General Fund,978202
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Recreation Fund,1286276
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Special Recreation Fund,476679
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Museum Fund,0
+2025,FY2025_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Total Governmental Funds,2741157
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,General Fund,769697
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Recreation Fund,317052
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Special Recreation Fund,38223
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Museum Fund,17860
+2025,FY2025_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Total Governmental Funds,1142832
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,General Fund,209737
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Recreation Fund,96086
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Special Recreation Fund,67821
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Museum Fund,5691
+2025,FY2025_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Total Governmental Funds,379335
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,General Fund,8522
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Recreation Fund,0
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Capital Projects Fund,1138468
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Museum Fund,102600
+2025,FY2025_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Total Governmental Funds,1249590
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,General Fund,0
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Recreation Fund,0
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Bond & Interest Fund,1284000
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Alternate Bond & Interest Fund,365000
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Museum Fund,0
+2025,FY2025_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Total Governmental Funds,1649000
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,General Fund,0
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Recreation Fund,0
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Bond & Interest Fund,48934
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Alternate Bond & Interest Fund,130300
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Museum Fund,0
+2025,FY2025_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Total Governmental Funds,179234
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,General Fund,1966158
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Recreation Fund,1699414
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Special Recreation Fund,582723
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Bond & Interest Fund,1332934
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Alternate Bond & Interest Fund,495300
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Capital Projects Fund,1138468
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Museum Fund,126151
+2025,FY2025_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Total Governmental Funds,7341148
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,General Fund,121076
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Recreation Fund,187469
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Special Recreation Fund,38802
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Bond & Interest Fund,20200
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Alternate Bond & Interest Fund,-494792
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Capital Projects Fund,-907021
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Museum Fund,8980
+2025,FY2025_audit,changes,20,15,,Excess of revenues over (under) expenditures,Total Governmental Funds,-1025286
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,General Fund,170361
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Recreation Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Museum Fund,0
+2025,FY2025_audit,changes,20,16,Other financing sources (uses),Subscription liability proceeds,Total Governmental Funds,170361
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,General Fund,96565
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Recreation Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Capital Projects Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Museum Fund,0
+2025,FY2025_audit,changes,20,17,Other financing sources (uses),Lease proceeds,Total Governmental Funds,96565
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,General Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Recreation Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Alternate Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Capital Projects Fund,57500
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Museum Fund,0
+2025,FY2025_audit,changes,20,18,Other financing sources (uses),Proceeds from sale of capital assets,Total Governmental Funds,57500
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,General Fund,0
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Recreation Fund,0
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Alternate Bond & Interest Fund,500300
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Capital Projects Fund,834700
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Museum Fund,0
+2025,FY2025_audit,changes,20,19,Other financing sources (uses),GO bond proceeds,Total Governmental Funds,1335000
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,General Fund,266926
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Recreation Fund,0
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Special Recreation Fund,0
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Bond & Interest Fund,0
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Alternate Bond & Interest Fund,500300
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Capital Projects Fund,892200
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Museum Fund,0
+2025,FY2025_audit,changes,20,20,Other financing sources (uses),Total other financing sources,Total Governmental Funds,1659426
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,General Fund,388002
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Recreation Fund,187469
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Special Recreation Fund,38802
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Bond & Interest Fund,20200
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Alternate Bond & Interest Fund,5508
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Capital Projects Fund,-14821
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Museum Fund,8980
+2025,FY2025_audit,changes,20,21,,Net change in fund balances,Total Governmental Funds,634140
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,General Fund,2752580
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Recreation Fund,780470
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Special Recreation Fund,360865
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Bond & Interest Fund,320637
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Alternate Bond & Interest Fund,13409
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Capital Projects Fund,1669202
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Museum Fund,434936
+2025,FY2025_audit,changes,20,22,Fund balances,Beginning,Total Governmental Funds,6332099
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,General Fund,3140582
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Recreation Fund,967939
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Special Recreation Fund,399667
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Bond & Interest Fund,340837
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Alternate Bond & Interest Fund,18917
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Capital Projects Fund,1654381
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Museum Fund,443916
+2025,FY2025_audit,changes,20,23,Fund balances,Ending,Total Governmental Funds,6966239

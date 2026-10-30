@@ -1,0 +1,3 @@
+kind,raw,fixed,reason
+allow_diff,schedule General Fund: Proceeds from sale of capital assets: variance,,"The audit prints (10,987) although actual 10,987 exceeds the budget (0); the sign is wrong in the source"
+allow_diff,schedule General Fund: Net change in fund balance: variance,,"Printed 278,451 = the correct 300,425 minus twice the wrong-signed 10,987 above (the source flips the sign of the sale proceeds variance and carries it through)"

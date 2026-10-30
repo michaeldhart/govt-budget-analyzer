@@ -1,0 +1,297 @@
+doc,check,expected,found,result
+FY2023_audit,balance_sheet: Cash & cash equivalents: total column,6168374,6168374,ok
+FY2023_audit,balance_sheet: Property taxes: total column,4372109,4372109,ok
+FY2023_audit,balance_sheet: Prepaid expenses: total column,23636,23636,ok
+FY2023_audit,balance_sheet: Due from other governments: total column,28709,28709,ok
+FY2023_audit,balance_sheet: Total assets: total column,10592828,10592828,ok
+FY2023_audit,balance_sheet: Accounts payable: total column,475320,475320,ok
+FY2023_audit,balance_sheet: Other payables: total column,11291,11291,ok
+FY2023_audit,balance_sheet: Accrued wages: total column,29447,29447,ok
+FY2023_audit,balance_sheet: Unearned revenue: total column,10236,10236,ok
+FY2023_audit,balance_sheet: Total liabilities: total column,526294,526294,ok
+FY2023_audit,balance_sheet: Property taxes: total column,4372109,4372109,ok
+FY2023_audit,balance_sheet: Total liabilities and deferred inflows of resources: total column,4898403,4898403,ok
+FY2023_audit,balance_sheet: Prepaid items: total column,23636,23636,ok
+FY2023_audit,balance_sheet: Recreation purposes: total column,563145,563145,ok
+FY2023_audit,balance_sheet: Special recreation: total column,235235,235235,ok
+FY2023_audit,balance_sheet: Museum purposes: total column,472438,472438,ok
+FY2023_audit,balance_sheet: IMRF: total column,332700,332700,ok
+FY2023_audit,balance_sheet: Social Security: total column,390791,390791,ok
+FY2023_audit,balance_sheet: Liability Insurance: total column,256693,256693,ok
+FY2023_audit,balance_sheet: Audit purposes: total column,0,0,ok
+FY2023_audit,balance_sheet: Working cash: total column,48718,48718,ok
+FY2023_audit,balance_sheet: Debt service: total column,312427,312427,ok
+FY2023_audit,balance_sheet: Capital Projects: total column,1505766,1505766,ok
+FY2023_audit,balance_sheet: Unassigned: total column,1552876,1552876,ok
+FY2023_audit,balance_sheet: Total fund balances: total column,5694425,5694425,ok
+FY2023_audit,"balance_sheet: Total liabilities, deferred inflows of resources, and fund balances: total column",10592828,10592828,ok
+FY2023_audit,balance_sheet: General Fund: assets,4398677,4398677,ok
+FY2023_audit,balance_sheet: General Fund: liabilities,76124,76124,ok
+FY2023_audit,balance_sheet: General Fund: liabilities + deferred inflows,1793263,1793263,ok
+FY2023_audit,balance_sheet: General Fund: fund balances,2605414,2605414,ok
+FY2023_audit,balance_sheet: General Fund: balance equation,4398677,4398677,ok
+FY2023_audit,balance_sheet: General Fund: l + d + fb,4398677,4398677,ok
+FY2023_audit,balance_sheet: Recreation Fund: assets,1583772,1583772,ok
+FY2023_audit,balance_sheet: Recreation Fund: liabilities,60906,60906,ok
+FY2023_audit,balance_sheet: Recreation Fund: liabilities + deferred inflows,1020627,1020627,ok
+FY2023_audit,balance_sheet: Recreation Fund: fund balances,563145,563145,ok
+FY2023_audit,balance_sheet: Recreation Fund: balance equation,1583772,1583772,ok
+FY2023_audit,balance_sheet: Recreation Fund: l + d + fb,1583772,1583772,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: assets,577867,577867,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: liabilities,14850,14850,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: liabilities + deferred inflows,342632,342632,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: fund balances,235235,235235,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: balance equation,577867,577867,ok
+FY2023_audit,balance_sheet: Special Recreation Fund: l + d + fb,577867,577867,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: assets,1552919,1552919,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: liabilities,0,0,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: liabilities + deferred inflows,1253635,1253635,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: fund balances,299284,299284,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: balance equation,1552919,1552919,ok
+FY2023_audit,balance_sheet: Bond & Interest Fund: l + d + fb,1552919,1552919,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: assets,13143,13143,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities,0,0,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: liabilities + deferred inflows,0,0,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: fund balances,13143,13143,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: balance equation,13143,13143,ok
+FY2023_audit,balance_sheet: Alternate Bond & Interest Fund: l + d + fb,13143,13143,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: assets,1859645,1859645,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: liabilities,353879,353879,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: liabilities + deferred inflows,353879,353879,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: fund balances,1505766,1505766,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: balance equation,1859645,1859645,ok
+FY2023_audit,balance_sheet: Capital Projects Fund: l + d + fb,1859645,1859645,ok
+FY2023_audit,balance_sheet: Museum Fund: assets,606805,606805,ok
+FY2023_audit,balance_sheet: Museum Fund: liabilities,20535,20535,ok
+FY2023_audit,balance_sheet: Museum Fund: liabilities + deferred inflows,134367,134367,ok
+FY2023_audit,balance_sheet: Museum Fund: fund balances,472438,472438,ok
+FY2023_audit,balance_sheet: Museum Fund: balance equation,606805,606805,ok
+FY2023_audit,balance_sheet: Museum Fund: l + d + fb,606805,606805,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: assets,10592828,10592828,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: liabilities,526294,526294,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: liabilities + deferred inflows,4898403,4898403,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: fund balances,5694425,5694425,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: balance equation,10592828,10592828,ok
+FY2023_audit,balance_sheet: Total Governmental Funds: l + d + fb,10592828,10592828,ok
+FY2023_audit,changes: Property taxes: total column,4122621,4122621,ok
+FY2023_audit,changes: Corporate replacement taxes: total column,267254,267254,ok
+FY2023_audit,changes: Charges & fees: total column,1057008,1057008,ok
+FY2023_audit,changes: Donations: total column,14060,14060,ok
+FY2023_audit,changes: Interest: total column,156044,156044,ok
+FY2023_audit,changes: Other: total column,231259,231259,ok
+FY2023_audit,changes: Total revenues: total column,5848246,5848246,ok
+FY2023_audit,changes: Personnel: total column,2328178,2328178,ok
+FY2023_audit,changes: Contractual services: total column,1080209,1080209,ok
+FY2023_audit,changes: Material & supplies: total column,362654,362654,ok
+FY2023_audit,changes: Capital outlay: total column,1132896,1132896,ok
+FY2023_audit,changes: Principal: total column,1514000,1514000,ok
+FY2023_audit,changes: Interest: total column,202246,202246,ok
+FY2023_audit,changes: Total expenditures: total column,6620183,6620183,ok
+FY2023_audit,changes: Excess of revenues over (under) expenditures: total column,-771937,-771937,ok
+FY2023_audit,changes: Proceeds from sale of capital assets: total column,10987,10987,ok
+FY2023_audit,changes: GO bond proceeds: total column,1183000,1183000,ok
+FY2023_audit,changes: Total other financing sources: total column,1193987,1193987,ok
+FY2023_audit,changes: Net change in fund balances: total column,422050,422050,ok
+FY2023_audit,changes: Beginning: total column,5272375,5272375,ok
+FY2023_audit,changes: Ending: total column,5694425,5694425,ok
+FY2023_audit,changes: General Fund: revenues,1987923,1987923,ok
+FY2023_audit,changes: General Fund: expenditures,1721066,1721066,ok
+FY2023_audit,changes: General Fund: excess,266857,266857,ok
+FY2023_audit,changes: General Fund: other financing,10987,10987,ok
+FY2023_audit,changes: General Fund: net change,277844,277844,ok
+FY2023_audit,changes: General Fund: ending = beginning + net change,2605414,2605414,ok
+FY2023_audit,changes: Recreation Fund: revenues,1727655,1727655,ok
+FY2023_audit,changes: Recreation Fund: expenditures,1509552,1509552,ok
+FY2023_audit,changes: Recreation Fund: excess,218103,218103,ok
+FY2023_audit,changes: Recreation Fund: other financing,0,0,ok
+FY2023_audit,changes: Recreation Fund: net change,218103,218103,ok
+FY2023_audit,changes: Recreation Fund: ending = beginning + net change,563145,563145,ok
+FY2023_audit,changes: Special Recreation Fund: revenues,556663,556663,ok
+FY2023_audit,changes: Special Recreation Fund: expenditures,503348,503348,ok
+FY2023_audit,changes: Special Recreation Fund: excess,53315,53315,ok
+FY2023_audit,changes: Special Recreation Fund: other financing,0,0,ok
+FY2023_audit,changes: Special Recreation Fund: net change,53315,53315,ok
+FY2023_audit,changes: Special Recreation Fund: ending = beginning + net change,235235,235235,ok
+FY2023_audit,changes: Bond & Interest Fund: revenues,1251886,1251886,ok
+FY2023_audit,changes: Bond & Interest Fund: expenditures,1233546,1233546,ok
+FY2023_audit,changes: Bond & Interest Fund: excess,18340,18340,ok
+FY2023_audit,changes: Bond & Interest Fund: other financing,0,0,ok
+FY2023_audit,changes: Bond & Interest Fund: net change,18340,18340,ok
+FY2023_audit,changes: Bond & Interest Fund: ending = beginning + net change,299284,299284,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: revenues,337,337,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: expenditures,482700,482700,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: excess,-482363,-482363,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: other financing,484400,484400,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: net change,2037,2037,ok
+FY2023_audit,changes: Alternate Bond & Interest Fund: ending = beginning + net change,13143,13143,ok
+FY2023_audit,changes: Capital Projects Fund: revenues,204131,204131,ok
+FY2023_audit,changes: Capital Projects Fund: expenditures,1079133,1079133,ok
+FY2023_audit,changes: Capital Projects Fund: excess,-875002,-875002,ok
+FY2023_audit,changes: Capital Projects Fund: other financing,698600,698600,ok
+FY2023_audit,changes: Capital Projects Fund: net change,-176402,-176402,ok
+FY2023_audit,changes: Capital Projects Fund: ending = beginning + net change,1505766,1505766,ok
+FY2023_audit,changes: Museum Fund: revenues,119651,119651,ok
+FY2023_audit,changes: Museum Fund: expenditures,90838,90838,ok
+FY2023_audit,changes: Museum Fund: excess,28813,28813,ok
+FY2023_audit,changes: Museum Fund: other financing,0,0,ok
+FY2023_audit,changes: Museum Fund: net change,28813,28813,ok
+FY2023_audit,changes: Museum Fund: ending = beginning + net change,472438,472438,ok
+FY2023_audit,changes: Total Governmental Funds: revenues,5848246,5848246,ok
+FY2023_audit,changes: Total Governmental Funds: expenditures,6620183,6620183,ok
+FY2023_audit,changes: Total Governmental Funds: excess,-771937,-771937,ok
+FY2023_audit,changes: Total Governmental Funds: other financing,1193987,1193987,ok
+FY2023_audit,changes: Total Governmental Funds: net change,422050,422050,ok
+FY2023_audit,changes: Total Governmental Funds: ending = beginning + net change,5694425,5694425,ok
+FY2023_audit,schedule General Fund: budget: revenues,1764790,1764790,ok
+FY2023_audit,schedule General Fund: budget: expenditures,1787371,1787371,ok
+FY2023_audit,schedule General Fund: budget: net change,-22581,-22581,ok
+FY2023_audit,schedule General Fund: actual: revenues,1987923,1987923,ok
+FY2023_audit,schedule General Fund: actual: expenditures,1721066,1721066,ok
+FY2023_audit,schedule General Fund: actual: net change,277844,277844,ok
+FY2023_audit,schedule General Fund: Property taxes: variance,-31932,-31932,ok
+FY2023_audit,schedule General Fund: Corporate replacement taxes: variance,165254,165254,ok
+FY2023_audit,schedule General Fund: Charges and fees: variance,2438,2438,ok
+FY2023_audit,schedule General Fund: Donations: variance,-17495,-17495,ok
+FY2023_audit,schedule General Fund: Interest: variance,59669,59669,ok
+FY2023_audit,schedule General Fund: Other: variance,45199,45199,ok
+FY2023_audit,schedule General Fund: Total revenues: variance,223133,223133,ok
+FY2023_audit,schedule General Fund: Personnel: variance,108482,108482,ok
+FY2023_audit,schedule General Fund: Contractual services: variance,-6172,-6172,ok
+FY2023_audit,schedule General Fund: Material & supplies: variance,8768,8768,ok
+FY2023_audit,schedule General Fund: Capital outlay: variance,-44773,-44773,ok
+FY2023_audit,schedule General Fund: Total expenditures: variance,66305,66305,ok
+FY2023_audit,schedule General Fund: Excess of revenues over (under) expenditures: variance,289438,289438,ok
+FY2023_audit,schedule General Fund: Proceeds from sale of capital assets: variance,10987,-10987,"allowed: The audit prints (10,987) although actual 10,987 exceeds the budget (0); the sign is wrong in the source"
+FY2023_audit,schedule General Fund: Net change in fund balance: variance,300425,278451,"allowed: Printed 278,451 = the correct 300,425 minus twice the wrong-signed 10,987 above (the source flips the sign of the sale proceeds variance and carries it through)"
+FY2023_audit,schedule General Fund: ending = beginning + net change,2605414,2605414,ok
+FY2023_audit,tie General Fund: total revenues,1987923,1987923,ok
+FY2023_audit,tie General Fund: total expenditures,1721066,1721066,ok
+FY2023_audit,tie General Fund: ending fund balance,2605414,2605414,ok
+FY2023_audit,schedule Recreation Fund: budget: revenues,1777479,1777479,ok
+FY2023_audit,schedule Recreation Fund: budget: expenditures,1776793,1776793,ok
+FY2023_audit,schedule Recreation Fund: budget: net change,686,686,ok
+FY2023_audit,schedule Recreation Fund: actual: revenues,1727655,1727655,ok
+FY2023_audit,schedule Recreation Fund: actual: expenditures,1509552,1509552,ok
+FY2023_audit,schedule Recreation Fund: actual: net change,218103,218103,ok
+FY2023_audit,schedule Recreation Fund: Property taxes: variance,-21223,-21223,ok
+FY2023_audit,schedule Recreation Fund: Charges & fees: variance,-32537,-32537,ok
+FY2023_audit,schedule Recreation Fund: Donations: variance,-695,-695,ok
+FY2023_audit,schedule Recreation Fund: Interest: variance,13611,13611,ok
+FY2023_audit,schedule Recreation Fund: Other: variance,-8980,-8980,ok
+FY2023_audit,schedule Recreation Fund: Total revenues: variance,-49824,-49824,ok
+FY2023_audit,schedule Recreation Fund: Personnel: variance,241691,241691,ok
+FY2023_audit,schedule Recreation Fund: Contractual services: variance,-9551,-9551,ok
+FY2023_audit,schedule Recreation Fund: Material & supplies: variance,35101,35101,ok
+FY2023_audit,schedule Recreation Fund: Capital outlay: variance,0,0,ok
+FY2023_audit,schedule Recreation Fund: Total expenditures: variance,267241,267241,ok
+FY2023_audit,schedule Recreation Fund: Net change in fund balance: variance,217417,217417,ok
+FY2023_audit,schedule Recreation Fund: ending = beginning + net change,563145,563145,ok
+FY2023_audit,tie Recreation Fund: total revenues,1727655,1727655,ok
+FY2023_audit,tie Recreation Fund: total expenditures,1509552,1509552,ok
+FY2023_audit,tie Recreation Fund: ending fund balance,563145,563145,ok
+FY2023_audit,schedule Special Recreation Fund: budget: revenues,569038,569038,ok
+FY2023_audit,schedule Special Recreation Fund: budget: expenditures,518496,518496,ok
+FY2023_audit,schedule Special Recreation Fund: budget: net change,50542,50542,ok
+FY2023_audit,schedule Special Recreation Fund: actual: revenues,556663,556663,ok
+FY2023_audit,schedule Special Recreation Fund: actual: expenditures,503348,503348,ok
+FY2023_audit,schedule Special Recreation Fund: actual: net change,53315,53315,ok
+FY2023_audit,schedule Special Recreation Fund: Property taxes: variance,-50442,-50442,ok
+FY2023_audit,schedule Special Recreation Fund: Charges & fees: variance,24098,24098,ok
+FY2023_audit,schedule Special Recreation Fund: Donations: variance,2000,2000,ok
+FY2023_audit,schedule Special Recreation Fund: Interest: variance,5882,5882,ok
+FY2023_audit,schedule Special Recreation Fund: Other: variance,6087,6087,ok
+FY2023_audit,schedule Special Recreation Fund: Total revenues: variance,-12375,-12375,ok
+FY2023_audit,schedule Special Recreation Fund: Personnel: variance,2972,2972,ok
+FY2023_audit,schedule Special Recreation Fund: Contractual: variance,6830,6830,ok
+FY2023_audit,schedule Special Recreation Fund: Material & supplies: variance,5346,5346,ok
+FY2023_audit,schedule Special Recreation Fund: Total expenditures: variance,15148,15148,ok
+FY2023_audit,schedule Special Recreation Fund: Net change in fund balance: variance,2773,2773,ok
+FY2023_audit,schedule Special Recreation Fund: ending = beginning + net change,235235,235235,ok
+FY2023_audit,tie Special Recreation Fund: total revenues,556663,556663,ok
+FY2023_audit,tie Special Recreation Fund: total expenditures,503348,503348,ok
+FY2023_audit,tie Special Recreation Fund: ending fund balance,235235,235235,ok
+FY2023_audit,schedule Bond and Interest Fund: budget: revenues,1234046,1234046,ok
+FY2023_audit,schedule Bond and Interest Fund: budget: expenditures,1233546,1233546,ok
+FY2023_audit,schedule Bond and Interest Fund: budget: net change,500,500,ok
+FY2023_audit,schedule Bond and Interest Fund: actual: revenues,1251886,1251886,ok
+FY2023_audit,schedule Bond and Interest Fund: actual: expenditures,1233546,1233546,ok
+FY2023_audit,schedule Bond and Interest Fund: actual: net change,18340,18340,ok
+FY2023_audit,schedule Bond and Interest Fund: Property taxes: variance,10529,10529,ok
+FY2023_audit,schedule Bond and Interest Fund: Interest: variance,7311,7311,ok
+FY2023_audit,schedule Bond and Interest Fund: Total revenues: variance,17840,17840,ok
+FY2023_audit,schedule Bond and Interest Fund: Principal: variance,0,0,ok
+FY2023_audit,schedule Bond and Interest Fund: Interest: variance,0,0,ok
+FY2023_audit,schedule Bond and Interest Fund: Total expenditures: variance,0,0,ok
+FY2023_audit,schedule Bond and Interest Fund: Net change in fund balance: variance,17840,17840,ok
+FY2023_audit,schedule Bond and Interest Fund: ending = beginning + net change,299284,299284,ok
+FY2023_audit,tie Bond and Interest Fund: total revenues,1251886,1251886,ok
+FY2023_audit,tie Bond and Interest Fund: total expenditures,1233546,1233546,ok
+FY2023_audit,tie Bond and Interest Fund: ending fund balance,299284,299284,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: budget: revenues,800,800,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: budget: expenditures,482700,482700,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: budget: other financing,482700,482700,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: budget: net change,800,800,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: actual: revenues,337,337,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: actual: expenditures,482700,482700,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: actual: other financing,484400,484400,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: actual: net change,2037,2037,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Interest: variance,-463,-463,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Total revenues: variance,-463,-463,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Principal payments: variance,0,0,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Interest payments: variance,0,0,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Total expenditures: variance,0,0,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Excess of revenues over (under) expenditures: variance,-463,-463,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: GO bond proceeds: variance,1700,1700,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Total other financing sources: variance,1700,1700,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: Net change in fund balance: variance,1237,1237,ok
+FY2023_audit,schedule Alternate Bond and Interest Fund: ending = beginning + net change,13143,13143,ok
+FY2023_audit,tie Alternate Bond and Interest Fund: total revenues,337,337,ok
+FY2023_audit,tie Alternate Bond and Interest Fund: total expenditures,482700,482700,ok
+FY2023_audit,tie Alternate Bond and Interest Fund: ending fund balance,13143,13143,ok
+FY2023_audit,schedule Capital Projects Fund: budget_original: revenues,175500,175500,ok
+FY2023_audit,schedule Capital Projects Fund: budget_original: expenditures,880796,880796,ok
+FY2023_audit,schedule Capital Projects Fund: budget_original: other financing,706300,706300,ok
+FY2023_audit,schedule Capital Projects Fund: budget_original: net change,1004,1004,ok
+FY2023_audit,schedule Capital Projects Fund: budget_final: revenues,156823,156823,ok
+FY2023_audit,schedule Capital Projects Fund: budget_final: expenditures,1139035,1139035,ok
+FY2023_audit,schedule Capital Projects Fund: budget_final: other financing,706300,706300,ok
+FY2023_audit,schedule Capital Projects Fund: budget_final: net change,-275912,-275912,ok
+FY2023_audit,schedule Capital Projects Fund: actual: revenues,204131,204131,ok
+FY2023_audit,schedule Capital Projects Fund: actual: expenditures,1079133,1079133,ok
+FY2023_audit,schedule Capital Projects Fund: actual: other financing,698600,698600,ok
+FY2023_audit,schedule Capital Projects Fund: actual: net change,-176402,-176402,ok
+FY2023_audit,schedule Capital Projects Fund: Interest: variance,47308,47308,ok
+FY2023_audit,schedule Capital Projects Fund: Other: variance,0,0,ok
+FY2023_audit,schedule Capital Projects Fund: Total revenues: variance,47308,47308,ok
+FY2023_audit,schedule Capital Projects Fund: Contractual services: variance,-5000,-5000,ok
+FY2023_audit,schedule Capital Projects Fund: Capital outlay: variance,64902,64902,ok
+FY2023_audit,schedule Capital Projects Fund: Total expenditures: variance,59902,59902,ok
+FY2023_audit,schedule Capital Projects Fund: Excess of revenues over (under) expenditures: variance,107210,107210,ok
+FY2023_audit,schedule Capital Projects Fund: GO bond proceeds: variance,-7700,-7700,ok
+FY2023_audit,schedule Capital Projects Fund: Total other financing sources: variance,-7700,-7700,ok
+FY2023_audit,schedule Capital Projects Fund: Net change in fund balance: variance,99510,99510,ok
+FY2023_audit,schedule Capital Projects Fund: ending = beginning + net change,1505766,1505766,ok
+FY2023_audit,tie Capital Projects Fund: total revenues,204131,204131,ok
+FY2023_audit,tie Capital Projects Fund: total expenditures,1079133,1079133,ok
+FY2023_audit,tie Capital Projects Fund: ending fund balance,1505766,1505766,ok
+FY2023_audit,schedule Museum Fund: budget: revenues,190311,190311,ok
+FY2023_audit,schedule Museum Fund: budget: expenditures,187687,187687,ok
+FY2023_audit,schedule Museum Fund: budget: net change,2624,2624,ok
+FY2023_audit,schedule Museum Fund: actual: revenues,119651,119651,ok
+FY2023_audit,schedule Museum Fund: actual: expenditures,90838,90838,ok
+FY2023_audit,schedule Museum Fund: actual: net change,28813,28813,ok
+FY2023_audit,schedule Museum Fund: Property taxes: variance,-2496,-2496,ok
+FY2023_audit,schedule Museum Fund: Charges & fees: variance,-2870,-2870,ok
+FY2023_audit,schedule Museum Fund: Donations: variance,-3000,-3000,ok
+FY2023_audit,schedule Museum Fund: Interest: variance,12706,12706,ok
+FY2023_audit,schedule Museum Fund: Other: variance,-75000,-75000,ok
+FY2023_audit,schedule Museum Fund: Total revenues: variance,-70660,-70660,ok
+FY2023_audit,schedule Museum Fund: Personnel: variance,9058,9058,ok
+FY2023_audit,schedule Museum Fund: Contractual services: variance,80448,80448,ok
+FY2023_audit,schedule Museum Fund: Material & supplies: variance,7343,7343,ok
+FY2023_audit,schedule Museum Fund: Total expenditures: variance,96849,96849,ok
+FY2023_audit,schedule Museum Fund: Net change in fund balance: variance,26189,26189,ok
+FY2023_audit,schedule Museum Fund: ending = beginning + net change,472438,472438,ok
+FY2023_audit,tie Museum Fund: total revenues,119651,119651,ok
+FY2023_audit,tie Museum Fund: total expenditures,90838,90838,ok
+FY2023_audit,tie Museum Fund: ending fund balance,472438,472438,ok

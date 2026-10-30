@@ -1,0 +1,317 @@
+fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
+2019,FY2019_audit,General Fund,46,1,Revenues; Taxes,Property taxes,budget,1285745
+2019,FY2019_audit,General Fund,46,1,Revenues; Taxes,Property taxes,actual,1283825
+2019,FY2019_audit,General Fund,46,1,Revenues; Taxes,Property taxes,variance,-1920
+2019,FY2019_audit,General Fund,46,1,Revenues; Taxes,Property taxes,prior_year_actual,1267023
+2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,budget,80384
+2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,114053
+2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,33669
+2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,88279
+2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,budget,8000
+2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,actual,14264
+2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,variance,6264
+2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,prior_year_actual,7857
+2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,budget,2750
+2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,actual,2854
+2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,variance,104
+2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,prior_year_actual,3493
+2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,budget,63325
+2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,actual,23121
+2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,variance,-40204
+2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,prior_year_actual,53584
+2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,budget,1440204
+2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,actual,1438117
+2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,variance,-2087
+2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,prior_year_actual,1420236
+2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,budget,867151
+2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,actual,780458
+2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,variance,86693
+2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,846598
+2019,FY2019_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Contractual services,budget,442070
+2019,FY2019_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Contractual services,actual,385820
+2019,FY2019_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Contractual services,variance,56250
+2019,FY2019_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,421210
+2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,211925
+2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,149632
+2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,62293
+2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,162209
+2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,40550
+2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,26492
+2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,14058
+2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,28463
+2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1561696
+2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1342402
+2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,219294
+2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1458480
+2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,budget,-121492
+2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,actual,95715
+2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,variance,217207
+2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,prior_year_actual,-38244
+2019,FY2019_audit,General Fund,46,13,Fund balance,Beginning,actual,1134030
+2019,FY2019_audit,General Fund,46,13,Fund balance,Beginning,prior_year_actual,1172274
+2019,FY2019_audit,General Fund,46,14,Fund balance,Ending,actual,1229745
+2019,FY2019_audit,General Fund,46,14,Fund balance,Ending,prior_year_actual,1134030
+2019,FY2019_audit,Recreation Fund,47,1,Revenues,Property taxes,budget,890000
+2019,FY2019_audit,Recreation Fund,47,1,Revenues,Property taxes,actual,888624
+2019,FY2019_audit,Recreation Fund,47,1,Revenues,Property taxes,variance,-1376
+2019,FY2019_audit,Recreation Fund,47,1,Revenues,Property taxes,prior_year_actual,850205
+2019,FY2019_audit,Recreation Fund,47,2,Revenues,Charges & fees,budget,945500
+2019,FY2019_audit,Recreation Fund,47,2,Revenues,Charges & fees,actual,831562
+2019,FY2019_audit,Recreation Fund,47,2,Revenues,Charges & fees,variance,-113938
+2019,FY2019_audit,Recreation Fund,47,2,Revenues,Charges & fees,prior_year_actual,869529
+2019,FY2019_audit,Recreation Fund,47,3,Revenues,Donations,budget,2500
+2019,FY2019_audit,Recreation Fund,47,3,Revenues,Donations,actual,0
+2019,FY2019_audit,Recreation Fund,47,3,Revenues,Donations,variance,-2500
+2019,FY2019_audit,Recreation Fund,47,3,Revenues,Donations,prior_year_actual,668
+2019,FY2019_audit,Recreation Fund,47,4,Revenues,Interest,budget,1000
+2019,FY2019_audit,Recreation Fund,47,4,Revenues,Interest,actual,1653
+2019,FY2019_audit,Recreation Fund,47,4,Revenues,Interest,variance,653
+2019,FY2019_audit,Recreation Fund,47,4,Revenues,Interest,prior_year_actual,1548
+2019,FY2019_audit,Recreation Fund,47,5,Revenues,Other,budget,12000
+2019,FY2019_audit,Recreation Fund,47,5,Revenues,Other,actual,2820
+2019,FY2019_audit,Recreation Fund,47,5,Revenues,Other,variance,-9180
+2019,FY2019_audit,Recreation Fund,47,5,Revenues,Other,prior_year_actual,10113
+2019,FY2019_audit,Recreation Fund,47,6,Revenues,Total revenues,budget,1851000
+2019,FY2019_audit,Recreation Fund,47,6,Revenues,Total revenues,actual,1724659
+2019,FY2019_audit,Recreation Fund,47,6,Revenues,Total revenues,variance,-126341
+2019,FY2019_audit,Recreation Fund,47,6,Revenues,Total revenues,prior_year_actual,1732063
+2019,FY2019_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,budget,1338366
+2019,FY2019_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,actual,1179821
+2019,FY2019_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,variance,158545
+2019,FY2019_audit,Recreation Fund,47,7,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,1185435
+2019,FY2019_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,budget,327009
+2019,FY2019_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,actual,258070
+2019,FY2019_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,variance,68939
+2019,FY2019_audit,Recreation Fund,47,8,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,247297
+2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,213720
+2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,146266
+2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,67454
+2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,151060
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,budget,9000
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,actual,4191
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,variance,4809
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,prior_year_actual,3039
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1888095
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1588348
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,299747
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1586831
+2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,budget,-37095
+2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,actual,136311
+2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,variance,173406
+2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,prior_year_actual,145232
+2019,FY2019_audit,Recreation Fund,47,13,Fund balance,Beginning,actual,550104
+2019,FY2019_audit,Recreation Fund,47,13,Fund balance,Beginning,prior_year_actual,404872
+2019,FY2019_audit,Recreation Fund,47,14,Fund balance,Ending,actual,686415
+2019,FY2019_audit,Recreation Fund,47,14,Fund balance,Ending,prior_year_actual,550104
+2019,FY2019_audit,Special Recreation Fund,48,1,Revenues,Property taxes,budget,245267
+2019,FY2019_audit,Special Recreation Fund,48,1,Revenues,Property taxes,actual,244668
+2019,FY2019_audit,Special Recreation Fund,48,1,Revenues,Property taxes,variance,-599
+2019,FY2019_audit,Special Recreation Fund,48,1,Revenues,Property taxes,prior_year_actual,236629
+2019,FY2019_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,budget,201800
+2019,FY2019_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,actual,192521
+2019,FY2019_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,variance,-9279
+2019,FY2019_audit,Special Recreation Fund,48,2,Revenues,Charges & fees,prior_year_actual,196679
+2019,FY2019_audit,Special Recreation Fund,48,3,Revenues,Interest,budget,200
+2019,FY2019_audit,Special Recreation Fund,48,3,Revenues,Interest,actual,566
+2019,FY2019_audit,Special Recreation Fund,48,3,Revenues,Interest,variance,366
+2019,FY2019_audit,Special Recreation Fund,48,3,Revenues,Interest,prior_year_actual,728
+2019,FY2019_audit,Special Recreation Fund,48,4,Revenues,Other,budget,14500
+2019,FY2019_audit,Special Recreation Fund,48,4,Revenues,Other,actual,5515
+2019,FY2019_audit,Special Recreation Fund,48,4,Revenues,Other,variance,-8985
+2019,FY2019_audit,Special Recreation Fund,48,4,Revenues,Other,prior_year_actual,9360
+2019,FY2019_audit,Special Recreation Fund,48,5,Revenues,Total revenues,budget,461767
+2019,FY2019_audit,Special Recreation Fund,48,5,Revenues,Total revenues,actual,443270
+2019,FY2019_audit,Special Recreation Fund,48,5,Revenues,Total revenues,variance,-18497
+2019,FY2019_audit,Special Recreation Fund,48,5,Revenues,Total revenues,prior_year_actual,443396
+2019,FY2019_audit,Special Recreation Fund,48,6,Expenditures; Current; Culture & recreation,Personnel,budget,361487
+2019,FY2019_audit,Special Recreation Fund,48,6,Expenditures; Current; Culture & recreation,Personnel,actual,372071
+2019,FY2019_audit,Special Recreation Fund,48,6,Expenditures; Current; Culture & recreation,Personnel,variance,-10584
+2019,FY2019_audit,Special Recreation Fund,48,6,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,329170
+2019,FY2019_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Contractual,budget,32400
+2019,FY2019_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Contractual,actual,26427
+2019,FY2019_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Contractual,variance,5973
+2019,FY2019_audit,Special Recreation Fund,48,7,Expenditures; Current; Culture & recreation,Contractual,prior_year_actual,26138
+2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,budget,96750
+2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,actual,81852
+2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,variance,14898
+2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,80841
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,budget,10000
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,actual,284
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,variance,9716
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,0
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,budget,500637
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,actual,480634
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,variance,20003
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,436149
+2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,budget,-38870
+2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,actual,-37364
+2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,variance,1506
+2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,prior_year_actual,7247
+2019,FY2019_audit,Special Recreation Fund,48,12,Fund balance,Beginning,actual,247399
+2019,FY2019_audit,Special Recreation Fund,48,12,Fund balance,Beginning,prior_year_actual,240152
+2019,FY2019_audit,Special Recreation Fund,48,13,Fund balance,Ending,actual,210035
+2019,FY2019_audit,Special Recreation Fund,48,13,Fund balance,Ending,prior_year_actual,247399
+2019,FY2019_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,budget,2232200
+2019,FY2019_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,actual,2239791
+2019,FY2019_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,variance,7591
+2019,FY2019_audit,Bond and Interest Fund,50,1,Revenues,Property taxes,prior_year_actual,0
+2019,FY2019_audit,Bond and Interest Fund,50,2,Revenues,Interest,budget,100
+2019,FY2019_audit,Bond and Interest Fund,50,2,Revenues,Interest,actual,222
+2019,FY2019_audit,Bond and Interest Fund,50,2,Revenues,Interest,variance,122
+2019,FY2019_audit,Bond and Interest Fund,50,2,Revenues,Interest,prior_year_actual,230
+2019,FY2019_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,budget,2232300
+2019,FY2019_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,actual,2240013
+2019,FY2019_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,variance,7713
+2019,FY2019_audit,Bond and Interest Fund,50,3,Revenues,Total revenues,prior_year_actual,230
+2019,FY2019_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,budget,1090000
+2019,FY2019_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,actual,1090000
+2019,FY2019_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,variance,0
+2019,FY2019_audit,Bond and Interest Fund,50,4,Expenditures; Debt service,Principal,prior_year_actual,1075000
+2019,FY2019_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,budget,22000
+2019,FY2019_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,actual,28885
+2019,FY2019_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,variance,-6885
+2019,FY2019_audit,Bond and Interest Fund,50,5,Expenditures; Debt service,Interest,prior_year_actual,17200
+2019,FY2019_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,budget,1112000
+2019,FY2019_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,actual,1118885
+2019,FY2019_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,variance,-6885
+2019,FY2019_audit,Bond and Interest Fund,50,6,Expenditures; Debt service,Total expenditures,prior_year_actual,1092200
+2019,FY2019_audit,Bond and Interest Fund,50,7,,Net change in fund balance,budget,1120300
+2019,FY2019_audit,Bond and Interest Fund,50,7,,Net change in fund balance,actual,1121128
+2019,FY2019_audit,Bond and Interest Fund,50,7,,Net change in fund balance,variance,828
+2019,FY2019_audit,Bond and Interest Fund,50,7,,Net change in fund balance,prior_year_actual,-1091970
+2019,FY2019_audit,Bond and Interest Fund,50,8,Fund balance,Beginning,actual,-940714
+2019,FY2019_audit,Bond and Interest Fund,50,8,Fund balance,Beginning,prior_year_actual,151256
+2019,FY2019_audit,Bond and Interest Fund,50,9,Fund balance,Ending,actual,180414
+2019,FY2019_audit,Bond and Interest Fund,50,9,Fund balance,Ending,prior_year_actual,-940714
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,budget,400
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,actual,2139
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,variance,1739
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,1,Revenues,Interest,prior_year_actual,3504
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,budget,400
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,actual,2139
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,variance,1739
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,2,Revenues,Total revenues,prior_year_actual,3504
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,budget,438888
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,actual,438887
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,variance,1
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,3,Expenditures; Debt Service,Principal payments,prior_year_actual,420529
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,budget,196819
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,actual,196819
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,variance,0
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,4,Expenditures; Debt Service,Interest payments,prior_year_actual,201396
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,budget,635707
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,actual,635706
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,variance,1
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,5,Expenditures; Debt Service,Total expenditures,prior_year_actual,621925
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,budget,-635307
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,actual,-633567
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,variance,1740
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,6,,Excess of revenues over (under) expenditures,prior_year_actual,-618421
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,budget,640000
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,actual,640000
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,variance,0
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,7,Other financing sources (uses),GO bond proceeds,prior_year_actual,0
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,budget,640000
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,actual,640000
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,variance,0
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,8,Other financing sources (uses),Total other financing sources,prior_year_actual,0
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,budget,4693
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,actual,6433
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,variance,1740
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,9,,Net change in fund balance,prior_year_actual,-618421
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,10,Fund balance,Beginning,actual,912120
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,10,Fund balance,Beginning,prior_year_actual,1530541
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,11,Fund balance,Ending,actual,918553
+2019,FY2019_audit,Alternate Bond and Interest Fund,51,11,Fund balance,Ending,prior_year_actual,912120
+2019,FY2019_audit,Capital Projects Fund,52,1,Revenues,Grants,budget,20000
+2019,FY2019_audit,Capital Projects Fund,52,1,Revenues,Grants,actual,0
+2019,FY2019_audit,Capital Projects Fund,52,1,Revenues,Grants,variance,-20000
+2019,FY2019_audit,Capital Projects Fund,52,1,Revenues,Grants,prior_year_actual,0
+2019,FY2019_audit,Capital Projects Fund,52,2,Revenues,Donations,budget,0
+2019,FY2019_audit,Capital Projects Fund,52,2,Revenues,Donations,actual,50697
+2019,FY2019_audit,Capital Projects Fund,52,2,Revenues,Donations,variance,50697
+2019,FY2019_audit,Capital Projects Fund,52,2,Revenues,Donations,prior_year_actual,106164
+2019,FY2019_audit,Capital Projects Fund,52,3,Revenues,Interest,budget,300
+2019,FY2019_audit,Capital Projects Fund,52,3,Revenues,Interest,actual,3037
+2019,FY2019_audit,Capital Projects Fund,52,3,Revenues,Interest,variance,2737
+2019,FY2019_audit,Capital Projects Fund,52,3,Revenues,Interest,prior_year_actual,2319
+2019,FY2019_audit,Capital Projects Fund,52,4,Revenues,Other,budget,30000
+2019,FY2019_audit,Capital Projects Fund,52,4,Revenues,Other,actual,2601
+2019,FY2019_audit,Capital Projects Fund,52,4,Revenues,Other,variance,-27399
+2019,FY2019_audit,Capital Projects Fund,52,4,Revenues,Other,prior_year_actual,85254
+2019,FY2019_audit,Capital Projects Fund,52,5,Revenues,Total revenues,budget,50300
+2019,FY2019_audit,Capital Projects Fund,52,5,Revenues,Total revenues,actual,56335
+2019,FY2019_audit,Capital Projects Fund,52,5,Revenues,Total revenues,variance,6035
+2019,FY2019_audit,Capital Projects Fund,52,5,Revenues,Total revenues,prior_year_actual,193737
+2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,budget,5000
+2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,actual,1150
+2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,variance,3850
+2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,1100
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,budget,873700
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,actual,545577
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,variance,328123
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,277144
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,budget,878700
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,actual,546727
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,variance,331973
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,278244
+2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,budget,-828400
+2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,actual,-490392
+2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,variance,338008
+2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,prior_year_actual,-84507
+2019,FY2019_audit,Capital Projects Fund,52,10,Other financing sources (uses),GO bond proceeds,budget,475000
+2019,FY2019_audit,Capital Projects Fund,52,10,Other financing sources (uses),GO bond proceeds,actual,460000
+2019,FY2019_audit,Capital Projects Fund,52,10,Other financing sources (uses),GO bond proceeds,variance,-15000
+2019,FY2019_audit,Capital Projects Fund,52,10,Other financing sources (uses),GO bond proceeds,prior_year_actual,1090000
+2019,FY2019_audit,Capital Projects Fund,52,11,Other financing sources (uses),Total other financing sources,budget,475000
+2019,FY2019_audit,Capital Projects Fund,52,11,Other financing sources (uses),Total other financing sources,actual,460000
+2019,FY2019_audit,Capital Projects Fund,52,11,Other financing sources (uses),Total other financing sources,variance,-15000
+2019,FY2019_audit,Capital Projects Fund,52,11,Other financing sources (uses),Total other financing sources,prior_year_actual,1090000
+2019,FY2019_audit,Capital Projects Fund,52,12,,Net change in fund balance,budget,-353400
+2019,FY2019_audit,Capital Projects Fund,52,12,,Net change in fund balance,actual,-30392
+2019,FY2019_audit,Capital Projects Fund,52,12,,Net change in fund balance,variance,323008
+2019,FY2019_audit,Capital Projects Fund,52,12,,Net change in fund balance,prior_year_actual,1005493
+2019,FY2019_audit,Capital Projects Fund,52,13,Fund balance,Beginning,actual,1784751
+2019,FY2019_audit,Capital Projects Fund,52,13,Fund balance,Beginning,prior_year_actual,779258
+2019,FY2019_audit,Capital Projects Fund,52,14,Fund balance,Ending,actual,1754359
+2019,FY2019_audit,Capital Projects Fund,52,14,Fund balance,Ending,prior_year_actual,1784751
+2019,FY2019_audit,Museum Fund,53,1,Revenues,Property taxes,budget,85000
+2019,FY2019_audit,Museum Fund,53,1,Revenues,Property taxes,actual,84897
+2019,FY2019_audit,Museum Fund,53,1,Revenues,Property taxes,variance,-103
+2019,FY2019_audit,Museum Fund,53,1,Revenues,Property taxes,prior_year_actual,74953
+2019,FY2019_audit,Museum Fund,53,2,Revenues,Charges & fees,budget,4500
+2019,FY2019_audit,Museum Fund,53,2,Revenues,Charges & fees,actual,2913
+2019,FY2019_audit,Museum Fund,53,2,Revenues,Charges & fees,variance,-1587
+2019,FY2019_audit,Museum Fund,53,2,Revenues,Charges & fees,prior_year_actual,4000
+2019,FY2019_audit,Museum Fund,53,3,Revenues,Interest,budget,100
+2019,FY2019_audit,Museum Fund,53,3,Revenues,Interest,actual,790
+2019,FY2019_audit,Museum Fund,53,3,Revenues,Interest,variance,690
+2019,FY2019_audit,Museum Fund,53,3,Revenues,Interest,prior_year_actual,839
+2019,FY2019_audit,Museum Fund,53,4,Revenues,Total revenues,budget,89600
+2019,FY2019_audit,Museum Fund,53,4,Revenues,Total revenues,actual,88600
+2019,FY2019_audit,Museum Fund,53,4,Revenues,Total revenues,variance,-1000
+2019,FY2019_audit,Museum Fund,53,4,Revenues,Total revenues,prior_year_actual,79792
+2019,FY2019_audit,Museum Fund,53,5,Expenditures; Current; Culture & recreation,Personnel,budget,28655
+2019,FY2019_audit,Museum Fund,53,5,Expenditures; Current; Culture & recreation,Personnel,actual,166
+2019,FY2019_audit,Museum Fund,53,5,Expenditures; Current; Culture & recreation,Personnel,variance,28489
+2019,FY2019_audit,Museum Fund,53,5,Expenditures; Current; Culture & recreation,Personnel,prior_year_actual,11549
+2019,FY2019_audit,Museum Fund,53,6,Expenditures; Current; Culture & recreation,Contractual services,budget,151500
+2019,FY2019_audit,Museum Fund,53,6,Expenditures; Current; Culture & recreation,Contractual services,actual,15449
+2019,FY2019_audit,Museum Fund,53,6,Expenditures; Current; Culture & recreation,Contractual services,variance,136051
+2019,FY2019_audit,Museum Fund,53,6,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,16689
+2019,FY2019_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Material & supplies,budget,31296
+2019,FY2019_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Material & supplies,actual,15251
+2019,FY2019_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Material & supplies,variance,16045
+2019,FY2019_audit,Museum Fund,53,7,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,15396
+2019,FY2019_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Total expenditures,budget,211451
+2019,FY2019_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Total expenditures,actual,30866
+2019,FY2019_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Total expenditures,variance,180585
+2019,FY2019_audit,Museum Fund,53,8,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,43634
+2019,FY2019_audit,Museum Fund,53,9,,Net change in fund balance,budget,-121851
+2019,FY2019_audit,Museum Fund,53,9,,Net change in fund balance,actual,57734
+2019,FY2019_audit,Museum Fund,53,9,,Net change in fund balance,variance,179585
+2019,FY2019_audit,Museum Fund,53,9,,Net change in fund balance,prior_year_actual,36158
+2019,FY2019_audit,Museum Fund,53,10,Fund balance,Beginning,actual,305365
+2019,FY2019_audit,Museum Fund,53,10,Fund balance,Beginning,prior_year_actual,269207
+2019,FY2019_audit,Museum Fund,53,11,Fund balance,Ending,actual,363099
+2019,FY2019_audit,Museum Fund,53,11,Fund balance,Ending,prior_year_actual,305365

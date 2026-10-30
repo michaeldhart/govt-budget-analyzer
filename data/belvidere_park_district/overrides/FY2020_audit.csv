@@ -1,0 +1,3 @@
+kind,raw,fixed,reason
+row,balance_sheet|Total fund balances,1360951|700650|230255|215911|11477|1428567|416186|4363997,"OCR read the Alternate Bond & Interest column as 14,477. Read from the page image (PDF page 18): 11,477; with it the seven funds sum to the Total column (4,363,997)"
+add_row,Capital Projects Fund|Beginning,Ending|1428567|1754359,"OCR could not read the Ending row (`Veal AZB SGT, —1.754,359_`). Ending fund balance 1,428,567 = beginning 1,754,359 + net change (325,792) and equals the Capital Projects column of the statement of changes (page 20); the prior-year ending 1,754,359 is the beginning balance printed on this page"

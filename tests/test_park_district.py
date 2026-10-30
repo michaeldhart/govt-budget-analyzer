@@ -81,3 +81,36 @@ def test_fy2027_draft_headline():
     exp = sum(Decimal(r["amount"]) for r in rows("FY2027_budget_draft", "expense") if r["column"] == "budget_current")
     assert (rev, exp) == (Decimal("8707625"), Decimal("8696267.00"))
     assert rev - exp == Decimal("11358")  # the draft's printed Report Surplus
+
+
+AUDITED = ("FY2019_audit", "FY2020_audit", "FY2021_audit", "FY2022_audit", "FY2023_audit", "FY2024_audit", "FY2025_audit")
+
+
+def test_audit_fund_statements_pass_every_check():
+    """Every identity the audit extractor tests (sums, balance equation, net change, ending = beginning + change, schedule variances, ties between the
+    schedules and the statement) holds; only the audit's own sign errors in the variance column are allowed, each with a written reason."""
+    allowed = 0
+    for doc in AUDITED:
+        checks = list(csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"{doc}_checks.csv"))))
+        assert checks and all(c["result"] == "ok" or c["result"].startswith("allowed: ") for c in checks), doc
+        allowed += sum(1 for c in checks if c["result"] != "ok")
+    assert allowed == 7  # FY2023 2, FY2024 2, FY2025 3 (EX-audit-variance-sign)
+
+
+def test_audit_vs_budget_counts():
+    rows = list(csv.DictReader(open(os.path.join(ROOT, "data", ENT, "audit_vs_budget.csv"))))
+    assert len(rows) == 49
+    assert sum(1 for r in rows if r["expense_matches"] == "1") == 39 and sum(1 for r in rows if r["expense_matches"] != "") == 49
+    assert sum(1 for r in rows if r["revenue_matches"] == "1") == 33 and sum(1 for r in rows if r["revenue_matches"] != "") == 42  # FY2022 has no revenue report
+
+
+def test_fund_balance_chain_across_audits():
+    """Each audit's beginning fund balance equals the previous audit's ending balance, for every fund column (FY2020-FY2025: 48 comparisons, 0 breaks)."""
+    end, beg = {}, {}
+    for y in range(2019, 2026):
+        for r in csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"FY{y}_audit_fund_statements.csv"))):
+            if r["statement"] == "changes" and r["line_item"] in ("Beginning", "Ending"):
+                (end if r["line_item"] == "Ending" else beg)[(y, r["fund"])] = int(r["amount"])
+    pairs = [(k, v) for k, v in beg.items() if k[0] >= 2020 and (k[0] - 1, k[1]) in end]
+    assert len(pairs) == 48
+    assert all(end[(k[0] - 1, k[1])] == v for k, v in pairs)
