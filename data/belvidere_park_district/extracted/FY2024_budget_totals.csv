@@ -1,0 +1,18 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,flow,kind,name,amount
+2024,FY2024_budget,pdf3,3,01,revenue,fund_subtotal,Corporate,1960771.45
+2024,FY2024_budget,pdf3,3,01,expense,fund_subtotal,Corporate,1960771
+2024,FY2024_budget,pdf5,5,02,revenue,fund_subtotal,Recreation,1882068
+2024,FY2024_budget,pdf5,5,02,expense,fund_subtotal,Recreation,1882068
+2024,FY2024_budget,pdf6,6,03,revenue,fund_subtotal,Museum,207121
+2024,FY2024_budget,pdf6,6,03,expense,fund_subtotal,Museum,207115
+2024,FY2024_budget,pdf7,7,09,revenue,fund_subtotal,Special Recreation,543586
+2024,FY2024_budget,pdf7,7,09,expense,fund_subtotal,Special Recreation,542311
+2024,FY2024_budget,pdf7,7,10,revenue,fund_subtotal,Installment Contracts,485200
+2024,FY2024_budget,pdf8,8,10,expense,fund_subtotal,Installment Contracts,484400
+2024,FY2024_budget,pdf8,8,12,revenue,fund_subtotal,Bond & Interest,1242000
+2024,FY2024_budget,pdf8,8,12,expense,fund_subtotal,Bond & Interest,1241120.13
+2024,FY2024_budget,pdf8,8,21,revenue,fund_subtotal,CIP,724600
+2024,FY2024_budget,pdf8,8,21,expense,fund_subtotal,CIP,720491.35
+2024,FY2024_budget,pdf8,8,,revenue,grand,GRAND TOTAL,7045346.45
+2024,FY2024_budget,pdf8,8,,expense,grand,GRAND TOTAL,7038276.48
+2024,FY2024_budget,pdf8,8,,,report_net,Report Totals Net,7069.97

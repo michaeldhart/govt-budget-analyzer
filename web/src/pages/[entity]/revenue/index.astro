@@ -29,7 +29,7 @@ const drafts = years.filter((y) => all.find((r) => r.fiscal_year === y)?.basis =
 const byCat = seriesOf(all, 'category', colorsOf(schemes.budget_category));
 const byFund = seriesOf(all, 'fund');
 const lastFundRows = byFund.map((f) => ({ fund: f.name, amount: total(latest, (r) => r.fund === f.name) }));
-const exIds = ['EX-fy2022-no-revenue-report', 'EX-fy2024-budget-placeholder', 'EX-fund-renumbering-fy2025'];
+const exIds = ['EX-fy2022-no-revenue-report', 'EX-fund-renumbering-fy2025'];
 const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
 ---
 <Base entity={entity} section="revenue" title={`Revenue – ${meta.short_name}`} description={`${meta.name}: budgeted revenue by fund and category.`}>

@@ -37,7 +37,7 @@ def park_revenue(E, read):
     return dict(
         title="Budgeted revenue by fund and category",
         description="Every revenue line of the district's budgets summed per fund and category. The adopted budget where the district's document is the adopted one; "
-                    "FY2024 and FY2027 are the draft requests (basis requested). FY2022's budget has no revenue report. Bond proceeds are budgeted as revenue.",
+                    "FY2027 is the draft request (basis requested). FY2022's budget has no revenue report. Bond proceeds are budgeted as revenue.",
         sources=["facts.csv", "entities/<id>/account_map.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", category_id="budget category (categories.json, scheme budget_category)",
                      category="category name", basis="adopted | requested (a draft request)", amount="dollars", exception_ids="exceptions touching the lines in this cell"),
@@ -62,7 +62,7 @@ def park_spending(E, read):
                  exception_ids=sorted(ex[(fy, fund, fn, o)])) for (fy, fund, fn, o), a in sorted(sums.items())]
     return dict(
         title="Budgeted spending by fund, function and object",
-        description="Every expense line of the district's budgets summed per fund, function group and object category (adopted budget; FY2024 and FY2027 are draft requests). "
+        description="Every expense line of the district's budgets summed per fund, function group and object category (adopted budget; FY2027 is a draft request). "
                     "Transfers between funds are not separated out by the district.",
         sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", function="function group (categories.json, scheme function_group)", function_id="function id",

@@ -13,7 +13,7 @@ live in the entity's CSVs; anomalies in exceptions.csv (matched to rows by accou
 
 How the park's columns become bases (document status from source_urls.csv):
   draft      budget / approved / requested / budget_original  -> requested   (a draft prints Requested; Amended is empty)
-  adopted    budget (operating budget), approved, budget_original -> adopted
+  adopted    budget (operating budget), approved, budgeted (layout C), budget_original -> adopted
   adopted    budget_current -> revised, only where it differs from budget_original (a budget printed before any activity: they never differ so far)
   final      amended (the FY2023 amended reports) -> revised; their `original` column equals the FY2023 adopted budget on every account (checked) and is not repeated
 The fiscal year is the calendar year: period_fy is the document's fiscal_year. Accounts carry the fund (govbudget.entity.Entity.split_key): fund 01 unprefixed
@@ -67,7 +67,7 @@ def account_key(account):
 
 def to_basis(status, column):
     """(basis or None) for a column of a document of this status; None = the column is not repeated as a fact (see the module docstring)."""
-    if column in ("budget", "approved", "requested", "budget_original"):
+    if column in ("budget", "approved", "requested", "budget_original", "budgeted"):
         return "requested" if status == "draft" else "adopted"
     if column in ("budget_current", "amended"):
         return "revised"
@@ -76,9 +76,8 @@ def to_basis(status, column):
     sys.exit(f"unrecognised budget column {column!r}")
 
 
-# Budget documents whose extracts become facts. FY2024_budget (the adopted FY2024 budget) is not extracted: the draft stands in (EX-fy2024-budget-placeholder);
-# FY2023_budget_amended_oct is the scanned copy of FY2023_budget_amended (identical figures, EX-fy2023-amended-two-copies): one copy only.
-SKIP_DOCS = {"FY2024_budget", "FY2023_budget_amended_oct"}
+# Budget documents whose extracts become facts, except FY2023_budget_amended_oct, the scanned copy of FY2023_budget_amended (identical figures, EX-fy2023-amended-two-copies): one copy only.
+SKIP_DOCS = {"FY2023_budget_amended_oct"}
 
 
 def budget_part(ex, docs):
@@ -157,7 +156,7 @@ def control_totals(doc_id, fy, status):
 
 
 ACCT_IN_TEXT = re.compile(r"(\d{2,3})-{1,2}(\d{3,4})-{1,2}(\d{3,4})")
-METHODS = {"line": "row_override", "line_prefix": "row_override", "add_row": "add_row", "auto_resolved": "auto_resolved",
+METHODS = {"line": "row_override", "line_prefix": "row_override", "total": "total_override", "add_row": "add_row", "auto_resolved": "auto_resolved",
            "auto_resolved_digit": "auto_resolved_digit"}
 
 

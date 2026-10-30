@@ -28,7 +28,7 @@ const share = (fy: number, key: string, id: string) => total(fy, (r) => r[key] =
 const byFn = seriesOf(all, 'function', colorsOf(schemes.function_group));
 const byObj = seriesOf(all, 'object', colorsOf(schemes.expense_object));
 const byFund = seriesOf(all, 'fund');
-const exIds = ['EX-fy2024-budget-placeholder', 'EX-fund-renumbering-fy2025', 'EX-expense-categories'];
+const exIds = ['EX-fund-renumbering-fy2025', 'EX-expense-categories'];
 const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
 const latestFund = byFund.map((f) => ({ fund: f.name, amount: total(latest, (r) => r.fund === f.name) }));
 ---

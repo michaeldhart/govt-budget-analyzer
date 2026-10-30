@@ -6,8 +6,8 @@ The audits print each fund's expenditures in four classes (Personnel, Contractua
 (Principal, Interest); the budget classifies every account by object (entities/belvidere_park_district/account_map.csv, scheme expense_object). The two are
 compared in four groups the classifications can share: personnel, contractual, supplies_capital (the audit's Material & supplies and Capital outlay; the
 budget's supplies, maintenance and equipment purchases and its capital projects), debt_service. Reads facts.csv and accounts.csv only: the audit's original
-budget against the budget document's adopted budget (FY2024: the draft's requested column, see EX-fy2024-budget-placeholder).
-A group `matches` when the two agree to the dollar (a dollar of rounding allowed). The fund totals agree in 39 of 49 fund-years (audit_vs_budget.csv); the
+budget against the budget document's adopted budget.
+A group `matches` when the two agree to the dollar (a dollar of rounding allowed). The fund totals agree in 40 of 49 fund-years (audit_vs_budget.csv); the
 groups agree less often because the audits and the budget draw the lines between classes differently: the table shows by how much.
 """
 import csv
