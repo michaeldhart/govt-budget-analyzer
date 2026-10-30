@@ -1,0 +1,57 @@
+doc,check,expected,found,result
+FY2025_audit,lease 2026: total = principal + interest,20315,20315,ok
+FY2025_audit,lease 2027: total = principal + interest,20315,20315,ok
+FY2025_audit,lease 2028: total = principal + interest,20314,20314,ok
+FY2025_audit,lease 2029: total = principal + interest,20314,20314,ok
+FY2025_audit,lease 2030: total = principal + interest,20315,20315,ok
+FY2025_audit,lease 2031: total = principal + interest,3386,3386,ok
+FY2025_audit,lease schedule: total principal,95427,95427,ok
+FY2025_audit,lease schedule: total interest,9532,9532,ok
+FY2025_audit,lease schedule: total total,104959,104959,ok
+FY2025_audit,lease asset Copy equipment: beginning + additions + deletions = ending,96565,96565,ok
+FY2025_audit,lease asset Total: beginning + additions + deletions = ending,96565,96565,ok
+FY2025_audit,lease assets: total beginning,0,0,ok
+FY2025_audit,lease assets: total additions,96565,96565,ok
+FY2025_audit,lease assets: total deletions,0,0,ok
+FY2025_audit,lease assets: total ending,96565,96565,ok
+FY2025_audit,lease: schedule principal = liability in the note,95427,95427,ok
+FY2025_audit,lease: asset ending = right-of-use asset in the note,96565,96565,ok
+FY2025_audit,lease: asset ending = capital asset note's leased equipment,96565,96565,ok
+FY2025_audit,lease: asset ending = Statement of Net Position right-of-use line,96565,96565,ok
+FY2025_audit,lease: liability = reconciliation line,95427,95427,ok
+FY2025_audit,lease: liability at inception = lease proceeds in the reconciliation,96565,96565,ok
+FY2025_audit,lease: principal repaid in the reconciliation = inception - ending liability,1138,1138,ok
+FY2025_audit,lease: lease proceeds in the statement of changes = additions,96565,96565,ok
+FY2025_audit,lease 2026: annual payment = twelve monthly payments,20315,20315,ok
+FY2025_audit,lease 2027: annual payment = twelve monthly payments,20315,20315,ok
+FY2025_audit,lease 2028: annual payment = twelve monthly payments,20315,20314,ok: rounding
+FY2025_audit,lease 2029: annual payment = twelve monthly payments,20315,20314,ok: rounding
+FY2025_audit,lease 2030: annual payment = twelve monthly payments,20315,20315,ok
+FY2025_audit,lease: remaining payments = (term months - 1) x monthly payment,104959,104959,ok
+FY2025_audit,sbita 2026: total = principal + interest,77841,77841,ok
+FY2025_audit,sbita 2027: total = principal + interest,60648,60648,ok
+FY2025_audit,sbita schedule: total principal,132948,132948,ok
+FY2025_audit,sbita schedule: total interest,5541,5541,ok
+FY2025_audit,sbita schedule: total total,138489,138489,ok
+FY2025_audit,sbita asset Tyler Technologies: beginning + additions + deletions = ending,16599,16599,ok
+FY2025_audit,sbita asset ExcalTech: beginning + additions + deletions = ending,116349,116349,ok
+FY2025_audit,sbita asset Total: beginning + additions + deletions = ending,132948,132948,ok
+FY2025_audit,sbita assets: total beginning,32624,32624,ok
+FY2025_audit,sbita assets: total additions,170361,170361,ok
+FY2025_audit,sbita assets: total deletions,-70037,-70037,ok
+FY2025_audit,sbita assets: total ending,132948,132948,ok
+FY2025_audit,sbita: liability in the note = asset ending,132948,132948,ok
+FY2025_audit,sbita: schedule principal = liability,132948,132948,ok
+FY2025_audit,sbita: schedule principal = debt note SBITA balance,132948,132948,ok
+FY2025_audit,sbita: first year's principal = debt note current portion,73603,73603,ok
+FY2025_audit,sbita: asset ending = Statement of Net Position right-of-use line,132948,132948,ok
+FY2025_audit,sbita: asset ending = reconciliation line,132948,132948,ok
+FY2025_audit,sbita: liability = reconciliation line,132948,132948,ok
+FY2025_audit,sbita: additions = debt activity new issues,170361,170361,ok
+FY2025_audit,sbita: deletions = debt activity retired (amortization),70037,70037,ok
+FY2025_audit,sbita: amortization expense in the note = deletions,70037,70037,ok
+FY2025_audit,sbita: asset beginning = debt activity beginning,32624,32624,ok
+FY2025_audit,sbita 2026: principal = debt note schedule,73603,73603,ok
+FY2025_audit,sbita 2026: interest = debt note schedule,4238,4238,ok
+FY2025_audit,sbita 2027: principal = debt note schedule,59345,59345,ok
+FY2025_audit,sbita 2027: interest = debt note schedule,1303,1303,ok

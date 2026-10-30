@@ -1,0 +1,21 @@
+fiscal_year,doc,kind,asset,measure,amount,pdf_page
+2025,FY2025_audit,lease,Copy equipment,beginning,0,33
+2025,FY2025_audit,lease,Copy equipment,additions,96565,33
+2025,FY2025_audit,lease,Copy equipment,deletions,0,33
+2025,FY2025_audit,lease,Copy equipment,ending,96565,33
+2025,FY2025_audit,lease,Total,beginning,0,33
+2025,FY2025_audit,lease,Total,additions,96565,33
+2025,FY2025_audit,lease,Total,deletions,0,33
+2025,FY2025_audit,lease,Total,ending,96565,33
+2025,FY2025_audit,sbita,Tyler Technologies,beginning,32624,33
+2025,FY2025_audit,sbita,Tyler Technologies,additions,0,33
+2025,FY2025_audit,sbita,Tyler Technologies,deletions,-16025,33
+2025,FY2025_audit,sbita,Tyler Technologies,ending,16599,33
+2025,FY2025_audit,sbita,ExcalTech,beginning,0,33
+2025,FY2025_audit,sbita,ExcalTech,additions,170361,33
+2025,FY2025_audit,sbita,ExcalTech,deletions,-54012,33
+2025,FY2025_audit,sbita,ExcalTech,ending,116349,33
+2025,FY2025_audit,sbita,Total,beginning,32624,33
+2025,FY2025_audit,sbita,Total,additions,170361,33
+2025,FY2025_audit,sbita,Total,deletions,-70037,33
+2025,FY2025_audit,sbita,Total,ending,132948,33

@@ -7,6 +7,9 @@
 #             extract_budget_amended.py FY2023_budget_amended
 #   audits  : extract_audit_fund_statements.py FY2019..FY2025, extract_audit_debt.py FY2019..FY2025, extract_audit_imrf.py FY2019 FY2023 FY2024 FY2025
 #   ordinances: extract_ordinance_appropriation.py FY2019..FY2026 FY2027_appropriation_draft FY2023_appropriation_in_draft FY2024_appropriation_in_draft FY2023_appropriation_amended_oct (copies inside budget PDFs: ordinance_copies.csv), extract_ordinance_levy.py FY2022_levy FY2023_levy FY2023_levy_draft FY2024_levy FY2025_levy FY2026_levy FY2027_levy_draft
+#   audits  : extract_audit_fund_statements.py FY2019..FY2025, extract_audit_debt.py FY2019..FY2025, extract_audit_imrf.py FY2019 FY2023 FY2024 FY2025,
+#             extract_audit_leases.py FY2019..FY2025 (lease and SBITA notes; FY2024-25 only), extract_audit_imrf_note.py FY2019..FY2025 (IMRF note tables and assumptions, in year order)
+#   ordinances: extract_ordinance_appropriation.py FY2019..FY2026 FY2027_appropriation_draft, extract_ordinance_levy.py FY2022_levy FY2023_levy FY2023_levy_draft FY2024_levy FY2025_levy FY2026_levy FY2027_levy_draft
 #   config  : build_account_map.py --write adds accounts the extracts have and the account map lacks.)
 set -e
 cd "$(dirname "$0")/../.."

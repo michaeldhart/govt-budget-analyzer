@@ -1,0 +1,11 @@
+fiscal_year,doc,kind,year_ending,principal,interest,total,row_kind,pdf_page
+2025,FY2025_audit,lease,2026,17080,3235,20315,year,33
+2025,FY2025_audit,lease,2027,17722,2593,20315,year,33
+2025,FY2025_audit,lease,2028,18386,1928,20314,year,33
+2025,FY2025_audit,lease,2029,19076,1238,20314,year,33
+2025,FY2025_audit,lease,2030,19793,522,20315,year,33
+2025,FY2025_audit,lease,2031,3370,16,3386,year,33
+2025,FY2025_audit,lease,Total,95427,9532,104959,total,33
+2025,FY2025_audit,sbita,2026,73603,4238,77841,year,33
+2025,FY2025_audit,sbita,2027,59345,1303,60648,year,33
+2025,FY2025_audit,sbita,Total,132948,5541,138489,total,33

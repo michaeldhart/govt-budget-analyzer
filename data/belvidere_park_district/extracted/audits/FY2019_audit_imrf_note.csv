@@ -1,0 +1,112 @@
+fiscal_year,doc,section,line_item,column,value,value_text,unit,pdf_page
+2019,FY2019_audit,membership,Retirees and beneficiaries currently receiving benefits,count,16,,members,34
+2019,FY2019_audit,membership,Inactive plan members entitled to but not yet receiving benefits,count,64,,members,34
+2019,FY2019_audit,membership,Active plan members,count,28,,members,34
+2019,FY2019_audit,membership,Total,count,108,,members,34
+2019,FY2019_audit,contributions,Member contribution rate,rate,4.5,,percent,34
+2019,FY2019_audit,contributions,District annual contribution rate,rate,8.64,,percent,34
+2019,FY2019_audit,contributions,District contribution,amount,102715,,usd,34
+2019,FY2019_audit,assumptions,Inflation rate,rate,2.50,,percent,34
+2019,FY2019_audit,assumptions,Investment rate of return,rate,7.25,,percent,34
+2019,FY2019_audit,assumptions,Single discount rate,rate,7.25,,percent,36
+2019,FY2019_audit,assumptions,Municipal bond rate,rate,2.75,,percent,36
+2019,FY2019_audit,assumptions,Expected rate of return on plan investments,rate,7.25,,percent,34
+2019,FY2019_audit,assumptions,Salary increases,low,3.35,,percent,34
+2019,FY2019_audit,assumptions,Salary increases,high,14.25,,percent,34
+2019,FY2019_audit,assumptions,Actuarial cost method,text,,Entry Age Normal,,34
+2019,FY2019_audit,assumptions,Asset valuation method,text,,Market Value of Assets,,34
+2019,FY2019_audit,assumptions,Mortality improvement scale,text,,MP-2017,,34
+2019,FY2019_audit,assumptions,Experience study period,text,,2014-2016,,34
+2019,FY2019_audit,asset_allocation,Equities,target allocation,37.00,,percent,35
+2019,FY2019_audit,asset_allocation,Equities,return for the year,29.23,,percent,35
+2019,FY2019_audit,asset_allocation,Equities,one-year arithmetic,7.05,,percent,35
+2019,FY2019_audit,asset_allocation,Equities,ten-year geometric,5.75,,percent,35
+2019,FY2019_audit,asset_allocation,International Equities,target allocation,18.00,,percent,35
+2019,FY2019_audit,asset_allocation,International Equities,return for the year,23.76,,percent,35
+2019,FY2019_audit,asset_allocation,International Equities,one-year arithmetic,8.10,,percent,35
+2019,FY2019_audit,asset_allocation,International Equities,ten-year geometric,6.50,,percent,35
+2019,FY2019_audit,asset_allocation,Fixed Income,target allocation,28.00,,percent,35
+2019,FY2019_audit,asset_allocation,Fixed Income,return for the year,9.50,,percent,35
+2019,FY2019_audit,asset_allocation,Fixed Income,one-year arithmetic,3.70,,percent,35
+2019,FY2019_audit,asset_allocation,Fixed Income,ten-year geometric,3.25,,percent,35
+2019,FY2019_audit,asset_allocation,Real Estate,target allocation,9.00,,percent,35
+2019,FY2019_audit,asset_allocation,Real Estate,return for the year,9.78,,percent,35
+2019,FY2019_audit,asset_allocation,Real Estate,one-year arithmetic,6.35,,percent,35
+2019,FY2019_audit,asset_allocation,Real Estate,ten-year geometric,5.20,,percent,35
+2019,FY2019_audit,asset_allocation,Alternatives,target allocation,7.00,,percent,35
+2019,FY2019_audit,asset_allocation,Private Equity,one-year arithmetic,11.30,,percent,35
+2019,FY2019_audit,asset_allocation,Private Equity,ten-year geometric,7.60,,percent,35
+2019,FY2019_audit,asset_allocation,Commodities,one-year arithmetic,4.65,,percent,35
+2019,FY2019_audit,asset_allocation,Commodities,ten-year geometric,3.60,,percent,35
+2019,FY2019_audit,asset_allocation,Cash Equivalents,target allocation,1.00,,percent,35
+2019,FY2019_audit,asset_allocation,Cash Equivalents,return for the year,3.59,,percent,35
+2019,FY2019_audit,asset_allocation,Cash Equivalents,one-year arithmetic,1.85,,percent,35
+2019,FY2019_audit,asset_allocation,Cash Equivalents,ten-year geometric,1.85,,percent,35
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2018",total pension liability,5272654,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2018",plan fiduciary net position,4375742,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2018",net pension liability (asset),896912,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Service Cost,total pension liability,118608,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Service Cost,plan fiduciary net position,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Service Cost,net pension liability (asset),118608,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Interest,total pension liability,378351,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Interest,plan fiduciary net position,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Interest,net pension liability (asset),378351,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Difference between expected and actual experience,total pension liability,-144023,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Difference between expected and actual experience,plan fiduciary net position,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Difference between expected and actual experience,net pension liability (asset),-144023,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Changes of assumptions,total pension liability,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Changes of assumptions,plan fiduciary net position,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Changes of assumptions,net pension liability (asset),0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employees,total pension liability,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employees,plan fiduciary net position,53274,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employees,net pension liability (asset),-53274,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employer,total pension liability,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employer,plan fiduciary net position,102715,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Contributions - employer,net pension liability (asset),-102715,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net investment income,total pension liability,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net investment income,plan fiduciary net position,785716,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net investment income,net pension liability (asset),-785716,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,total pension liability,-226634,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,plan fiduciary net position,-226634,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,net pension liability (asset),0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Other (Net Transfer),total pension liability,0,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Other (Net Transfer),plan fiduciary net position,14487,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Other (Net Transfer),net pension liability (asset),-14487,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net Changes,total pension liability,126302,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net Changes,plan fiduciary net position,729558,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,Net Changes,net pension liability (asset),-603256,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2019",total pension liability,5398956,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2019",plan fiduciary net position,5105300,,usd,36
+2019,FY2019_audit,net_pension_liability_changes,"Balance, December 31, 2019",net pension liability (asset),293656,,usd,36
+2019,FY2019_audit,sensitivity,Single discount rate,1% decrease,6.25,,percent,37
+2019,FY2019_audit,sensitivity,Single discount rate,current,7.25,,percent,37
+2019,FY2019_audit,sensitivity,Single discount rate,1% increase,8.25,,percent,37
+2019,FY2019_audit,sensitivity,Total Pension Liability,1% decrease,6116702,,usd,37
+2019,FY2019_audit,sensitivity,Total Pension Liability,current,5398956,,usd,37
+2019,FY2019_audit,sensitivity,Total Pension Liability,1% increase,4819498,,usd,37
+2019,FY2019_audit,sensitivity,Plan Fiduciary Net Position,1% decrease,5105300,,usd,37
+2019,FY2019_audit,sensitivity,Plan Fiduciary Net Position,current,5105300,,usd,37
+2019,FY2019_audit,sensitivity,Plan Fiduciary Net Position,1% increase,5105300,,usd,37
+2019,FY2019_audit,sensitivity,Net Pension Liability (asset),1% decrease,1011402,,usd,37
+2019,FY2019_audit,sensitivity,Net Pension Liability (asset),current,293656,,usd,37
+2019,FY2019_audit,sensitivity,Net Pension Liability (asset),1% increase,-285802,,usd,37
+2019,FY2019_audit,pension_expense,Pension expense (income),amount,136472,,usd,37
+2019,FY2019_audit,deferred_items,Differences between expected and actual experience,deferred outflows,93441,,usd,37
+2019,FY2019_audit,deferred_items,Differences between expected and actual experience,deferred inflows,110009,,usd,37
+2019,FY2019_audit,deferred_items,Differences between expected and actual experience,net deferred outflows,-16568,,usd,37
+2019,FY2019_audit,deferred_items,Changes of assumptions,deferred outflows,76439,,usd,37
+2019,FY2019_audit,deferred_items,Changes of assumptions,deferred inflows,38590,,usd,37
+2019,FY2019_audit,deferred_items,Changes of assumptions,net deferred outflows,37849,,usd,37
+2019,FY2019_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred outflows,335083,,usd,37
+2019,FY2019_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred inflows,503470,,usd,37
+2019,FY2019_audit,deferred_items,Net difference between projected and actual earnings on plan investments,net deferred outflows,-168387,,usd,37
+2019,FY2019_audit,deferred_items,Total,deferred outflows,504963,,usd,37
+2019,FY2019_audit,deferred_items,Total,deferred inflows,652069,,usd,37
+2019,FY2019_audit,deferred_items,Total,net deferred outflows,-147106,,usd,37
+2019,FY2019_audit,deferred_recognition,2020,net deferred outflows,-28768,,usd,37
+2019,FY2019_audit,deferred_recognition,2021,net deferred outflows,-34691,,usd,37
+2019,FY2019_audit,deferred_recognition,2022,net deferred outflows,10455,,usd,37
+2019,FY2019_audit,deferred_recognition,2023,net deferred outflows,-94102,,usd,37
+2019,FY2019_audit,deferred_recognition,2024,net deferred outflows,0,,usd,37
+2019,FY2019_audit,deferred_recognition,Thereafter,net deferred outflows,0,,usd,37
+2019,FY2019_audit,deferred_recognition,Total,net deferred outflows,-147106,,usd,37

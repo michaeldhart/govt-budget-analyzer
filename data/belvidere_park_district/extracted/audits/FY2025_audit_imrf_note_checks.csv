@@ -1,0 +1,50 @@
+doc,check,expected,found,result
+FY2025_audit,membership adds,141,141,ok
+FY2025_audit,target allocation adds to 100%,100,100.00,ok
+FY2025_audit,changes (total pension liability): rows add to Net Changes,289749,289749,ok
+FY2025_audit,changes (total pension liability): opening + Net Changes = closing,7161038,7161038,ok
+FY2025_audit,changes (plan fiduciary net position): rows add to Net Changes,907262,907262,ok
+FY2025_audit,changes (plan fiduciary net position): opening + Net Changes = closing,8127029,8127029,ok
+FY2025_audit,changes (net pension liability (asset)): rows add to Net Changes,-617513,-617513,ok
+FY2025_audit,changes (net pension liability (asset)): opening + Net Changes = closing,-965991,-965991,ok
+FY2025_audit,"changes Balance, December 31, 2024: (A) - (B) = net pension liability",-348478,-348478,ok
+FY2025_audit,changes Service Cost: (A) - (B) = net pension liability,116214,116214,ok
+FY2025_audit,changes Interest: (A) - (B) = net pension liability,490439,490439,ok
+FY2025_audit,changes Difference between expected and actual experience: (A) - (B) = net pension liability,12534,12534,ok
+FY2025_audit,changes Changes of assumptions: (A) - (B) = net pension liability,0,0,ok
+FY2025_audit,changes Contributions - employees: (A) - (B) = net pension liability,-65586,-65586,ok
+FY2025_audit,changes Contributions - employer: (A) - (B) = net pension liability,-35854,-35854,ok
+FY2025_audit,changes Net investment income: (A) - (B) = net pension liability,-1107024,-1107024,ok
+FY2025_audit,changes Benefit payments including refunds of Employee Contributions: (A) - (B) = net pension liability,0,0,ok
+FY2025_audit,changes Other (Net Transfer): (A) - (B) = net pension liability,-28236,-28236,ok
+FY2025_audit,changes Net Changes: (A) - (B) = net pension liability,-617513,-617513,ok
+FY2025_audit,"changes Balance, December 31, 2025: (A) - (B) = net pension liability",-965991,-965991,ok
+FY2025_audit,sensitivity: rates are 1% either side,"[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]","[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]",ok
+FY2025_audit,sensitivity: current rate = single discount rate,7.25,7.25,ok
+FY2025_audit,single discount rate = expected rate of return,7.25,7.25,ok
+FY2025_audit,sensitivity 1% decrease: net pension liability = TPL - FNP,-198825,-198825,ok
+FY2025_audit,sensitivity 1% decrease: plan fiduciary net position = closing balance,8127029,8127029,ok
+FY2025_audit,sensitivity current: net pension liability = TPL - FNP,-965991,-965991,ok
+FY2025_audit,sensitivity current: plan fiduciary net position = closing balance,8127029,8127029,ok
+FY2025_audit,sensitivity 1% increase: net pension liability = TPL - FNP,-1550328,-1550328,ok
+FY2025_audit,sensitivity 1% increase: plan fiduciary net position = closing balance,8127029,8127029,ok
+FY2025_audit,sensitivity: current total pension liability = closing balance,7161038,7161038,ok
+FY2025_audit,deferred items: deferred outflows add to total,315949,315949,ok
+FY2025_audit,deferred items: deferred inflows add to total,693980,693980,ok
+FY2025_audit,deferred items: net deferred outflows add to total,-378031,-378031,ok
+FY2025_audit,deferred Differences between expected and actual experience: outflows - inflows = net,17588,17588,ok
+FY2025_audit,deferred Changes of assumptions: outflows - inflows = net,0,0,ok
+FY2025_audit,deferred Net difference between projected and actual earnings on plan investments: outflows - inflows = net,-395619,-395619,ok
+FY2025_audit,deferred Total: outflows - inflows = net,-378031,-378031,ok
+FY2025_audit,recognition schedule adds to the net total,-378031,-378031,ok
+FY2025_audit,recognition schedule total = net deferred outflows,-378031,-378031,ok
+FY2025_audit,net pension liability (asset) = Statement of Net Position,-965991,-965991,ok
+FY2025_audit,deferred outflows = Statement of Net Position,315949,315949,ok
+FY2025_audit,deferred inflows = Statement of Net Position,693980,693980,ok
+FY2025_audit,closing total pension liability = required supplementary information (2025),7161038,7161038,ok
+FY2025_audit,closing plan fiduciary net position = required supplementary information (2025),8127029,8127029,ok
+FY2025_audit,closing net pension liability (asset) = required supplementary information (2025),-965991,-965991,ok
+FY2025_audit,employer contributions in the change table = required supplementary information (2025),35854,35854,ok
+FY2025_audit,employer contributions in the change table = contributions the note says the district made,35844,35854,"explained: The FY2025 note's Contributions paragraph says the district contributed $35,844; the change table's employer contributions, the contributions schedule's actual (35,854) and the 2.45% rate on covered payroll of 1,465,413 (35,903 ADC less 49) all say 35,854. A $10 typo in the paragraph; the table figure is used"
+FY2025_audit,opening total pension liability = previous audit's closing,6871289,6871289,ok
+FY2025_audit,opening plan fiduciary net position = previous audit's closing,7219767,7219767,ok

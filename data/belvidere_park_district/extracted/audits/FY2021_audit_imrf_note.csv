@@ -1,0 +1,112 @@
+fiscal_year,doc,section,line_item,column,value,value_text,unit,pdf_page
+2021,FY2021_audit,membership,Retirees and beneficiaries currently receiving benefits,count,21,,members,34
+2021,FY2021_audit,membership,Inactive plan members entitled to but not yet receiving benefits,count,67,,members,34
+2021,FY2021_audit,membership,Active plan members,count,26,,members,34
+2021,FY2021_audit,membership,Total,count,114,,members,34
+2021,FY2021_audit,contributions,Member contribution rate,rate,4.5,,percent,34
+2021,FY2021_audit,contributions,District annual contribution rate,rate,9.29,,percent,34
+2021,FY2021_audit,contributions,District contribution,amount,107143,,usd,34
+2021,FY2021_audit,assumptions,Inflation rate,rate,2.25,,percent,34
+2021,FY2021_audit,assumptions,Investment rate of return,rate,7.25,,percent,34
+2021,FY2021_audit,assumptions,Single discount rate,rate,7.25,,percent,36
+2021,FY2021_audit,assumptions,Municipal bond rate,rate,1.84,,percent,36
+2021,FY2021_audit,assumptions,Expected rate of return on plan investments,rate,7.25,,percent,34
+2021,FY2021_audit,assumptions,Salary increases,low,2.85,,percent,34
+2021,FY2021_audit,assumptions,Salary increases,high,13.75,,percent,34
+2021,FY2021_audit,assumptions,Actuarial cost method,text,,Entry Age Normal,,34
+2021,FY2021_audit,assumptions,Asset valuation method,text,,Market Value of Assets,,34
+2021,FY2021_audit,assumptions,Mortality improvement scale,text,,MP-2020,,34
+2021,FY2021_audit,assumptions,Experience study period,text,,2017-2019,,34
+2021,FY2021_audit,asset_allocation,Equities,target allocation,39.00,,percent,35
+2021,FY2021_audit,asset_allocation,Equities,return for the year,24.89,,percent,35
+2021,FY2021_audit,asset_allocation,Equities,one-year arithmetic,3.25,,percent,35
+2021,FY2021_audit,asset_allocation,Equities,ten-year geometric,1.90,,percent,35
+2021,FY2021_audit,asset_allocation,International Equities,target allocation,15.00,,percent,35
+2021,FY2021_audit,asset_allocation,International Equities,return for the year,9.78,,percent,35
+2021,FY2021_audit,asset_allocation,International Equities,one-year arithmetic,4.89,,percent,35
+2021,FY2021_audit,asset_allocation,International Equities,ten-year geometric,3.15,,percent,35
+2021,FY2021_audit,asset_allocation,Fixed Income,target allocation,25.00,,percent,35
+2021,FY2021_audit,asset_allocation,Fixed Income,return for the year,-0.44,,percent,35
+2021,FY2021_audit,asset_allocation,Fixed Income,one-year arithmetic,-0.50,,percent,35
+2021,FY2021_audit,asset_allocation,Fixed Income,ten-year geometric,-0.60,,percent,35
+2021,FY2021_audit,asset_allocation,Real Estate,target allocation,10.00,,percent,35
+2021,FY2021_audit,asset_allocation,Real Estate,return for the year,21.95,,percent,35
+2021,FY2021_audit,asset_allocation,Real Estate,one-year arithmetic,4.20,,percent,35
+2021,FY2021_audit,asset_allocation,Real Estate,ten-year geometric,3.30,,percent,35
+2021,FY2021_audit,asset_allocation,Alternatives,target allocation,10.00,,percent,35
+2021,FY2021_audit,asset_allocation,Alternatives,return for the year,46.46,,percent,35
+2021,FY2021_audit,asset_allocation,Private Equity,one-year arithmetic,8.85,,percent,35
+2021,FY2021_audit,asset_allocation,Private Equity,ten-year geometric,5.50,,percent,35
+2021,FY2021_audit,asset_allocation,Commodities,one-year arithmetic,2.90,,percent,35
+2021,FY2021_audit,asset_allocation,Commodities,ten-year geometric,1.70,,percent,35
+2021,FY2021_audit,asset_allocation,Cash Equivalents,target allocation,1.00,,percent,35
+2021,FY2021_audit,asset_allocation,Cash Equivalents,return for the year,2.44,,percent,35
+2021,FY2021_audit,asset_allocation,Cash Equivalents,one-year arithmetic,-0.90,,percent,35
+2021,FY2021_audit,asset_allocation,Cash Equivalents,ten-year geometric,-0.90,,percent,35
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2020",total pension liability,5681579,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2020",plan fiduciary net position,6414603,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2020",net pension liability (asset),-733024,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Service Cost,total pension liability,112525,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Service Cost,plan fiduciary net position,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Service Cost,net pension liability (asset),112525,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Interest,total pension liability,405969,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Interest,plan fiduciary net position,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Interest,net pension liability (asset),405969,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Difference between expected and actual experience,total pension liability,46548,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Difference between expected and actual experience,plan fiduciary net position,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Difference between expected and actual experience,net pension liability (asset),46548,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Changes of assumptions,total pension liability,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Changes of assumptions,plan fiduciary net position,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Changes of assumptions,net pension liability (asset),0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employees,total pension liability,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employees,plan fiduciary net position,53288,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employees,net pension liability (asset),-53288,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employer,total pension liability,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employer,plan fiduciary net position,107143,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Contributions - employer,net pension liability (asset),-107143,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net investment income,total pension liability,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net investment income,plan fiduciary net position,1061433,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net investment income,net pension liability (asset),-1061433,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,total pension liability,-276528,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,plan fiduciary net position,-276528,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,net pension liability (asset),0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Other (Net Transfer),total pension liability,0,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Other (Net Transfer),plan fiduciary net position,68640,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Other (Net Transfer),net pension liability (asset),-68640,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net Changes,total pension liability,288514,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net Changes,plan fiduciary net position,1013976,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,Net Changes,net pension liability (asset),-725462,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2021",total pension liability,5970093,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2021",plan fiduciary net position,7428579,,usd,36
+2021,FY2021_audit,net_pension_liability_changes,"Balance, December 31, 2021",net pension liability (asset),-1458486,,usd,36
+2021,FY2021_audit,sensitivity,Single discount rate,1% decrease,6.25,,percent,37
+2021,FY2021_audit,sensitivity,Single discount rate,current,7.25,,percent,37
+2021,FY2021_audit,sensitivity,Single discount rate,1% increase,8.25,,percent,37
+2021,FY2021_audit,sensitivity,Total Pension Liability,1% decrease,6651377,,usd,37
+2021,FY2021_audit,sensitivity,Total Pension Liability,current,5970093,,usd,37
+2021,FY2021_audit,sensitivity,Total Pension Liability,1% increase,5440617,,usd,37
+2021,FY2021_audit,sensitivity,Plan Fiduciary Net Position,1% decrease,7428579,,usd,37
+2021,FY2021_audit,sensitivity,Plan Fiduciary Net Position,current,7428579,,usd,37
+2021,FY2021_audit,sensitivity,Plan Fiduciary Net Position,1% increase,7428579,,usd,37
+2021,FY2021_audit,sensitivity,Net Pension Liability (asset),1% decrease,-777202,,usd,37
+2021,FY2021_audit,sensitivity,Net Pension Liability (asset),current,-1458486,,usd,37
+2021,FY2021_audit,sensitivity,Net Pension Liability (asset),1% increase,-1987962,,usd,37
+2021,FY2021_audit,pension_expense,Pension expense (income),amount,-265216,,usd,37
+2021,FY2021_audit,deferred_items,Differences between expected and actual experience,deferred outflows,50180,,usd,37
+2021,FY2021_audit,deferred_items,Differences between expected and actual experience,deferred inflows,14801,,usd,37
+2021,FY2021_audit,deferred_items,Differences between expected and actual experience,net deferred outflows,35379,,usd,37
+2021,FY2021_audit,deferred_items,Changes of assumptions,deferred outflows,6213,,usd,37
+2021,FY2021_audit,deferred_items,Changes of assumptions,deferred inflows,16025,,usd,37
+2021,FY2021_audit,deferred_items,Changes of assumptions,net deferred outflows,-9812,,usd,37
+2021,FY2021_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred outflows,110340,,usd,37
+2021,FY2021_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred inflows,863920,,usd,37
+2021,FY2021_audit,deferred_items,Net difference between projected and actual earnings on plan investments,net deferred outflows,-753580,,usd,37
+2021,FY2021_audit,deferred_items,Total,deferred outflows,166733,,usd,37
+2021,FY2021_audit,deferred_items,Total,deferred inflows,894746,,usd,37
+2021,FY2021_audit,deferred_items,Total,net deferred outflows,-728013,,usd,37
+2021,FY2021_audit,deferred_recognition,2022,net deferred outflows,-153511,,usd,37
+2021,FY2021_audit,deferred_recognition,2023,net deferred outflows,-269518,,usd,37
+2021,FY2021_audit,deferred_recognition,2024,net deferred outflows,-185365,,usd,37
+2021,FY2021_audit,deferred_recognition,2025,net deferred outflows,-119619,,usd,37
+2021,FY2021_audit,deferred_recognition,2026,net deferred outflows,0,,usd,37
+2021,FY2021_audit,deferred_recognition,Total,net deferred outflows,-728013,,usd,37

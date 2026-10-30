@@ -106,6 +106,12 @@ DEBT_PENSION_TABLES = {
 # Property tax and debt capacity schedules some audits print (the park district's): optional tables, validated when the file exists.
 TAX_DEBT_TABLES = {
     "legal_debt_margin": ["entity_id", "doc_id", "period_fy", "schedule", "line_item", "column", "amount", "pdf_page", "flag", "exception_ids"],
+    # lease (GASB 87) and subscription (SBITA, GASB 96) notes: remaining obligations, right-to-use asset roll-forward, terms
+    "lease_sbita_schedule": ["entity_id", "doc_id", "period_fy", "kind", "year_ending", "principal", "interest", "total", "row_kind", "pdf_page", "flag", "exception_ids"],
+    "lease_sbita_assets": ["entity_id", "doc_id", "period_fy", "kind", "asset", "measure", "amount", "pdf_page", "flag", "exception_ids"],
+    "lease_sbita_terms": ["entity_id", "doc_id", "period_fy", "kind", "agreement", "term", "value", "value_text", "unit", "pdf_page", "flag", "exception_ids"],
+    # the IMRF note's own tables and assumptions (membership, rates, asset allocation, net pension liability changes, sensitivity, deferred items)
+    "imrf_note": ["entity_id", "doc_id", "period_fy", "section", "line_item", "column", "value", "value_text", "unit", "pdf_page", "flag", "exception_ids"],
     "ordinance_lines": ["entity_id", "doc_id", "period_fy", "ordinance", "fund_code", "fund", "general_fund_part", "section", "line_item", "amount", "printed",
                         "pdf_page", "flag", "exception_ids"],
     "ordinance_summary": ["entity_id", "doc_id", "period_fy", "ordinance", "item", "amount", "pdf_page", "flag", "exception_ids"],

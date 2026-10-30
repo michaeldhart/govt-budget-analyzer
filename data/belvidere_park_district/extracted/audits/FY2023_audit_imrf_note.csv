@@ -1,0 +1,113 @@
+fiscal_year,doc,section,line_item,column,value,value_text,unit,pdf_page
+2023,FY2023_audit,membership,Retirees and beneficiaries currently receiving benefits,count,24,,members,34
+2023,FY2023_audit,membership,Inactive plan members entitled to but not yet receiving benefits,count,76,,members,34
+2023,FY2023_audit,membership,Active plan members,count,31,,members,34
+2023,FY2023_audit,membership,Total,count,131,,members,34
+2023,FY2023_audit,contributions,Member contribution rate,rate,4.5,,percent,34
+2023,FY2023_audit,contributions,District annual contribution rate,rate,1.41,,percent,34
+2023,FY2023_audit,contributions,District contribution,amount,18164,,usd,34
+2023,FY2023_audit,assumptions,Inflation rate,rate,2.25,,percent,34
+2023,FY2023_audit,assumptions,Investment rate of return,rate,7.25,,percent,34
+2023,FY2023_audit,assumptions,Single discount rate,rate,7.25,,percent,36
+2023,FY2023_audit,assumptions,Municipal bond rate,rate,3.77,,percent,36
+2023,FY2023_audit,assumptions,Expected rate of return on plan investments,rate,7.25,,percent,34
+2023,FY2023_audit,assumptions,Salary increases,low,2.85,,percent,34
+2023,FY2023_audit,assumptions,Salary increases,high,13.75,,percent,34
+2023,FY2023_audit,assumptions,Actuarial cost method,text,,Entry Age Normal,,34
+2023,FY2023_audit,assumptions,Asset valuation method,text,,Market Value of Assets,,34
+2023,FY2023_audit,assumptions,Mortality improvement scale,text,,MP-2021,,34
+2023,FY2023_audit,assumptions,Experience study period,text,,2020-2022,,34
+2023,FY2023_audit,asset_allocation,Equities,target allocation,34.50,,percent,35
+2023,FY2023_audit,asset_allocation,Equities,return for the year,23.30,,percent,35
+2023,FY2023_audit,asset_allocation,Equities,one-year arithmetic,6.35,,percent,35
+2023,FY2023_audit,asset_allocation,Equities,ten-year geometric,5.00,,percent,35
+2023,FY2023_audit,asset_allocation,International Equities,target allocation,18.00,,percent,35
+2023,FY2023_audit,asset_allocation,International Equities,return for the year,19.64,,percent,35
+2023,FY2023_audit,asset_allocation,International Equities,one-year arithmetic,8.00,,percent,35
+2023,FY2023_audit,asset_allocation,International Equities,ten-year geometric,6.35,,percent,35
+2023,FY2023_audit,asset_allocation,Fixed Income,target allocation,24.50,,percent,35
+2023,FY2023_audit,asset_allocation,Fixed Income,return for the year,7.62,,percent,35
+2023,FY2023_audit,asset_allocation,Fixed Income,one-year arithmetic,4.85,,percent,35
+2023,FY2023_audit,asset_allocation,Fixed Income,ten-year geometric,4.75,,percent,35
+2023,FY2023_audit,asset_allocation,Real Estate,target allocation,10.50,,percent,35
+2023,FY2023_audit,asset_allocation,Real Estate,return for the year,-4.15,,percent,35
+2023,FY2023_audit,asset_allocation,Real Estate,one-year arithmetic,7.20,,percent,35
+2023,FY2023_audit,asset_allocation,Real Estate,ten-year geometric,6.30,,percent,35
+2023,FY2023_audit,asset_allocation,Alternatives,target allocation,11.50,,percent,35
+2023,FY2023_audit,asset_allocation,Alternatives,return for the year,2.60,,percent,35
+2023,FY2023_audit,asset_allocation,Private Equity,one-year arithmetic,12.35,,percent,35
+2023,FY2023_audit,asset_allocation,Private Equity,ten-year geometric,8.65,,percent,35
+2023,FY2023_audit,asset_allocation,Commodities,one-year arithmetic,7.20,,percent,35
+2023,FY2023_audit,asset_allocation,Commodities,ten-year geometric,6.05,,percent,35
+2023,FY2023_audit,asset_allocation,Cash Equivalents,target allocation,1.00,,percent,35
+2023,FY2023_audit,asset_allocation,Cash Equivalents,return for the year,5.23,,percent,35
+2023,FY2023_audit,asset_allocation,Cash Equivalents,one-year arithmetic,3.80,,percent,35
+2023,FY2023_audit,asset_allocation,Cash Equivalents,ten-year geometric,3.80,,percent,35
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2022",total pension liability,6277012,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2022",plan fiduciary net position,6276918,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2022",net pension liability (asset),94,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Service Cost,total pension liability,106404,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Service Cost,plan fiduciary net position,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Service Cost,net pension liability (asset),106404,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Interest,total pension liability,447201,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Interest,plan fiduciary net position,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Interest,net pension liability (asset),447201,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Difference between expected and actual experience,total pension liability,64305,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Difference between expected and actual experience,plan fiduciary net position,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Difference between expected and actual experience,net pension liability (asset),64305,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Changes of assumptions,total pension liability,-22109,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Changes of assumptions,plan fiduciary net position,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Changes of assumptions,net pension liability (asset),-22109,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employees,total pension liability,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employees,plan fiduciary net position,57969,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employees,net pension liability (asset),-57969,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employer,total pension liability,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employer,plan fiduciary net position,18164,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Contributions - employer,net pension liability (asset),-18164,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net investment income,total pension liability,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net investment income,plan fiduciary net position,702064,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net investment income,net pension liability (asset),-702064,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,total pension liability,-323861,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,plan fiduciary net position,-323861,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,net pension liability (asset),0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Other (Net Transfer),total pension liability,0,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Other (Net Transfer),plan fiduciary net position,154804,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Other (Net Transfer),net pension liability (asset),-154804,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net Changes,total pension liability,271940,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net Changes,plan fiduciary net position,609140,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,Net Changes,net pension liability (asset),-337200,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2023",total pension liability,6548952,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2023",plan fiduciary net position,6886058,,usd,36
+2023,FY2023_audit,net_pension_liability_changes,"Balance, December 31, 2023",net pension liability (asset),-337106,,usd,36
+2023,FY2023_audit,sensitivity,Single discount rate,1% decrease,6.25,,percent,37
+2023,FY2023_audit,sensitivity,Single discount rate,current,7.25,,percent,37
+2023,FY2023_audit,sensitivity,Single discount rate,1% increase,8.25,,percent,37
+2023,FY2023_audit,sensitivity,Total Pension Liability,1% decrease,7271791,,usd,37
+2023,FY2023_audit,sensitivity,Total Pension Liability,current,6548952,,usd,37
+2023,FY2023_audit,sensitivity,Total Pension Liability,1% increase,5990096,,usd,37
+2023,FY2023_audit,sensitivity,Plan Fiduciary Net Position,1% decrease,6886058,,usd,37
+2023,FY2023_audit,sensitivity,Plan Fiduciary Net Position,current,6886058,,usd,37
+2023,FY2023_audit,sensitivity,Plan Fiduciary Net Position,1% increase,6886058,,usd,37
+2023,FY2023_audit,sensitivity,Net Pension Liability (asset),1% decrease,385733,,usd,37
+2023,FY2023_audit,sensitivity,Net Pension Liability (asset),current,-337106,,usd,37
+2023,FY2023_audit,sensitivity,Net Pension Liability (asset),1% increase,-895962,,usd,37
+2023,FY2023_audit,pension_expense,Pension expense (income),amount,-76622,,usd,37
+2023,FY2023_audit,deferred_items,Differences between expected and actual experience,deferred outflows,63951,,usd,37
+2023,FY2023_audit,deferred_items,Differences between expected and actual experience,deferred inflows,0,,usd,37
+2023,FY2023_audit,deferred_items,Differences between expected and actual experience,net deferred outflows,63951,,usd,37
+2023,FY2023_audit,deferred_items,Changes of assumptions,deferred outflows,0,,usd,37
+2023,FY2023_audit,deferred_items,Changes of assumptions,deferred inflows,13758,,usd,37
+2023,FY2023_audit,deferred_items,Changes of assumptions,net deferred outflows,-13758,,usd,37
+2023,FY2023_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred outflows,895083,,usd,37
+2023,FY2023_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred inflows,505269,,usd,37
+2023,FY2023_audit,deferred_items,Net difference between projected and actual earnings on plan investments,net deferred outflows,389814,,usd,37
+2023,FY2023_audit,deferred_items,Total,deferred outflows,959034,,usd,37
+2023,FY2023_audit,deferred_items,Total,deferred inflows,519027,,usd,37
+2023,FY2023_audit,deferred_items,Total,net deferred outflows,440007,,usd,37
+2023,FY2023_audit,deferred_recognition,2024,net deferred outflows,102798,,usd,37
+2023,FY2023_audit,deferred_recognition,2025,net deferred outflows,138991,,usd,37
+2023,FY2023_audit,deferred_recognition,2026,net deferred outflows,248290,,usd,37
+2023,FY2023_audit,deferred_recognition,2027,net deferred outflows,-50072,,usd,37
+2023,FY2023_audit,deferred_recognition,2028,net deferred outflows,0,,usd,37
+2023,FY2023_audit,deferred_recognition,Thereafter,net deferred outflows,0,,usd,37
+2023,FY2023_audit,deferred_recognition,Total,net deferred outflows,440007,,usd,37

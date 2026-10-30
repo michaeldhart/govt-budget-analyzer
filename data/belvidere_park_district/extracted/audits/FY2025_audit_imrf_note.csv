@@ -1,0 +1,113 @@
+fiscal_year,doc,section,line_item,column,value,value_text,unit,pdf_page
+2025,FY2025_audit,membership,Retirees and beneficiaries currently receiving benefits,count,24,,members,35
+2025,FY2025_audit,membership,Inactive plan members entitled to but not yet receiving benefits,count,87,,members,35
+2025,FY2025_audit,membership,Active plan members,count,30,,members,35
+2025,FY2025_audit,membership,Total,count,141,,members,35
+2025,FY2025_audit,contributions,Member contribution rate,rate,4.5,,percent,35
+2025,FY2025_audit,contributions,District annual contribution rate,rate,2.45,,percent,35
+2025,FY2025_audit,contributions,District contribution,amount,35844,,usd,35
+2025,FY2025_audit,assumptions,Inflation rate,rate,2.25,,percent,35
+2025,FY2025_audit,assumptions,Investment rate of return,rate,7.25,,percent,35
+2025,FY2025_audit,assumptions,Single discount rate,rate,7.25,,percent,37
+2025,FY2025_audit,assumptions,Municipal bond rate,rate,4.83,,percent,37
+2025,FY2025_audit,assumptions,Expected rate of return on plan investments,rate,7.25,,percent,35
+2025,FY2025_audit,assumptions,Salary increases,low,2.85,,percent,35
+2025,FY2025_audit,assumptions,Salary increases,high,13.75,,percent,35
+2025,FY2025_audit,assumptions,Actuarial cost method,text,,Entry Age Normal,,35
+2025,FY2025_audit,assumptions,Asset valuation method,text,,Market Value of Assets,,35
+2025,FY2025_audit,assumptions,Mortality improvement scale,text,,MP-2021,,35
+2025,FY2025_audit,assumptions,Experience study period,text,,2020-2022,,35
+2025,FY2025_audit,asset_allocation,Equities,target allocation,32.50,,percent,36
+2025,FY2025_audit,asset_allocation,Equities,return for the year,14.44,,percent,36
+2025,FY2025_audit,asset_allocation,Equities,one-year arithmetic,4.85,,percent,36
+2025,FY2025_audit,asset_allocation,Equities,ten-year geometric,7.35,,percent,36
+2025,FY2025_audit,asset_allocation,International Equities,target allocation,18.00,,percent,36
+2025,FY2025_audit,asset_allocation,International Equities,return for the year,32.71,,percent,36
+2025,FY2025_audit,asset_allocation,International Equities,one-year arithmetic,4.95,,percent,36
+2025,FY2025_audit,asset_allocation,International Equities,ten-year geometric,7.45,,percent,36
+2025,FY2025_audit,asset_allocation,Fixed Income,target allocation,24.00,,percent,36
+2025,FY2025_audit,asset_allocation,Fixed Income,return for the year,7.50,,percent,36
+2025,FY2025_audit,asset_allocation,Fixed Income,one-year arithmetic,2.25,,percent,36
+2025,FY2025_audit,asset_allocation,Fixed Income,ten-year geometric,4.75,,percent,36
+2025,FY2025_audit,asset_allocation,Real Estate,target allocation,10.50,,percent,36
+2025,FY2025_audit,asset_allocation,Real Estate,return for the year,2.33,,percent,36
+2025,FY2025_audit,asset_allocation,Real Estate,one-year arithmetic,3.75,,percent,36
+2025,FY2025_audit,asset_allocation,Real Estate,ten-year geometric,6.25,,percent,36
+2025,FY2025_audit,asset_allocation,Alternatives,target allocation,14.00,,percent,36
+2025,FY2025_audit,asset_allocation,Alternatives,return for the year,15.24,,percent,36
+2025,FY2025_audit,asset_allocation,Private Equity,one-year arithmetic,6.00,,percent,36
+2025,FY2025_audit,asset_allocation,Private Equity,ten-year geometric,8.50,,percent,36
+2025,FY2025_audit,asset_allocation,Commodities,one-year arithmetic,1.40,,percent,36
+2025,FY2025_audit,asset_allocation,Commodities,ten-year geometric,3.90,,percent,36
+2025,FY2025_audit,asset_allocation,Cash Equivalents,target allocation,1.00,,percent,36
+2025,FY2025_audit,asset_allocation,Cash Equivalents,return for the year,4.35,,percent,36
+2025,FY2025_audit,asset_allocation,Cash Equivalents,one-year arithmetic,0.50,,percent,36
+2025,FY2025_audit,asset_allocation,Cash Equivalents,ten-year geometric,3.00,,percent,36
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2024",total pension liability,6871289,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2024",plan fiduciary net position,7219767,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2024",net pension liability (asset),-348478,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Service Cost,total pension liability,116214,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Service Cost,plan fiduciary net position,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Service Cost,net pension liability (asset),116214,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Interest,total pension liability,490439,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Interest,plan fiduciary net position,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Interest,net pension liability (asset),490439,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Difference between expected and actual experience,total pension liability,12534,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Difference between expected and actual experience,plan fiduciary net position,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Difference between expected and actual experience,net pension liability (asset),12534,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Changes of assumptions,total pension liability,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Changes of assumptions,plan fiduciary net position,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Changes of assumptions,net pension liability (asset),0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employees,total pension liability,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employees,plan fiduciary net position,65586,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employees,net pension liability (asset),-65586,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employer,total pension liability,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employer,plan fiduciary net position,35854,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Contributions - employer,net pension liability (asset),-35854,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net investment income,total pension liability,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net investment income,plan fiduciary net position,1107024,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net investment income,net pension liability (asset),-1107024,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,total pension liability,-329438,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,plan fiduciary net position,-329438,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Benefit payments including refunds of Employee Contributions,net pension liability (asset),0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Other (Net Transfer),total pension liability,0,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Other (Net Transfer),plan fiduciary net position,28236,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Other (Net Transfer),net pension liability (asset),-28236,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net Changes,total pension liability,289749,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net Changes,plan fiduciary net position,907262,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,Net Changes,net pension liability (asset),-617513,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2025",total pension liability,7161038,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2025",plan fiduciary net position,8127029,,usd,37
+2025,FY2025_audit,net_pension_liability_changes,"Balance, December 31, 2025",net pension liability (asset),-965991,,usd,37
+2025,FY2025_audit,sensitivity,Single discount rate,1% decrease,6.25,,percent,38
+2025,FY2025_audit,sensitivity,Single discount rate,current,7.25,,percent,38
+2025,FY2025_audit,sensitivity,Single discount rate,1% increase,8.25,,percent,38
+2025,FY2025_audit,sensitivity,Total Pension Liability,1% decrease,7928204,,usd,38
+2025,FY2025_audit,sensitivity,Total Pension Liability,current,7161038,,usd,38
+2025,FY2025_audit,sensitivity,Total Pension Liability,1% increase,6576701,,usd,38
+2025,FY2025_audit,sensitivity,Plan Fiduciary Net Position,1% decrease,8127029,,usd,38
+2025,FY2025_audit,sensitivity,Plan Fiduciary Net Position,current,8127029,,usd,38
+2025,FY2025_audit,sensitivity,Plan Fiduciary Net Position,1% increase,8127029,,usd,38
+2025,FY2025_audit,sensitivity,Net Pension Liability (asset),1% decrease,-198825,,usd,38
+2025,FY2025_audit,sensitivity,Net Pension Liability (asset),current,-965991,,usd,38
+2025,FY2025_audit,sensitivity,Net Pension Liability (asset),1% increase,-1550328,,usd,38
+2025,FY2025_audit,pension_expense,Pension expense (income),amount,8190,,usd,38
+2025,FY2025_audit,deferred_items,Differences between expected and actual experience,deferred outflows,17588,,usd,38
+2025,FY2025_audit,deferred_items,Differences between expected and actual experience,deferred inflows,0,,usd,38
+2025,FY2025_audit,deferred_items,Differences between expected and actual experience,net deferred outflows,17588,,usd,38
+2025,FY2025_audit,deferred_items,Changes of assumptions,deferred outflows,0,,usd,38
+2025,FY2025_audit,deferred_items,Changes of assumptions,deferred inflows,0,,usd,38
+2025,FY2025_audit,deferred_items,Changes of assumptions,net deferred outflows,0,,usd,38
+2025,FY2025_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred outflows,298361,,usd,38
+2025,FY2025_audit,deferred_items,Net difference between projected and actual earnings on plan investments,deferred inflows,693980,,usd,38
+2025,FY2025_audit,deferred_items,Net difference between projected and actual earnings on plan investments,net deferred outflows,-395619,,usd,38
+2025,FY2025_audit,deferred_items,Total,deferred outflows,315949,,usd,38
+2025,FY2025_audit,deferred_items,Total,deferred inflows,693980,,usd,38
+2025,FY2025_audit,deferred_items,Total,net deferred outflows,-378031,,usd,38
+2025,FY2025_audit,deferred_recognition,2026,net deferred outflows,105519,,usd,38
+2025,FY2025_audit,deferred_recognition,2027,net deferred outflows,-206827,,usd,38
+2025,FY2025_audit,deferred_recognition,2028,net deferred outflows,-158555,,usd,38
+2025,FY2025_audit,deferred_recognition,2029,net deferred outflows,-118168,,usd,38
+2025,FY2025_audit,deferred_recognition,2030,net deferred outflows,0,,usd,38
+2025,FY2025_audit,deferred_recognition,Thereafter,net deferred outflows,0,,usd,38
+2025,FY2025_audit,deferred_recognition,Total,net deferred outflows,-378031,,usd,38
