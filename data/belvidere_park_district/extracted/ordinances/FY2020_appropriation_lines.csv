@@ -1,0 +1,110 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2020,FY2020_appropriation,Corporate Fund,01,,balance,Beginning fund balance,775047,1,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,980000,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Employee Medical Contribution,22500,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Farm Lease,3825,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Miscellaneous,38000,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,108238,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Interest,1500,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,revenue,Total Revenues Corporate Fund,1154063,1,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Salaries,598822,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Employee Benefits,217055,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Contractual,252350,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Commodities,169999,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Equipment,110074,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Buildings,29133,0,1
+2020,FY2020_appropriation,Corporate Fund,01,,appropriation,Total Appropriated for the Corporate Fund,1377433,1,1
+2020,FY2020_appropriation,Corporate Fund,01,,balance,Estimated year-end fund balance,551677,1,1
+2020,FY2020_appropriation,Recreation Fund,02,,balance,Beginning fund balance,751221,1,2
+2020,FY2020_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,885000,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,revenue,Other,902000,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,revenue,Interest,1000,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,revenue,Total Revenues Recreation Fund,1788000,1,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Salaries,1124882,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Employee Benefits,66600,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Contractual,374518,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Commodities,169000,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Equipment,37015,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Building,62800,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Contingencies,0,0,2
+2020,FY2020_appropriation,Recreation Fund,02,,appropriation,Total Appropriated for Recreation Fund,1834815,1,2
+2020,FY2020_appropriation,Recreation Fund,02,,balance,Estimated year-end fund balance,704406,1,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,balance,Beginning fund balance,1756157,1,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,revenue,Real Estate Tax,1147365,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,revenue,Bond Proceeds,1135000,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,revenue,Other,28000,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,revenue,Interest,800,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,revenue,Total Bond and Interest Revenues,2311165,1,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,appropriation,Debt Service,2636775,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,appropriation,Capital Projects,975000,0,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,appropriation,Total Appropriated for Bond and Interest Fund,3611775,1,2
+2020,FY2020_appropriation,Bond & Interest Fund,12,,balance,Estimated year-end fund balance,455547,1,2
+2020,FY2020_appropriation,Museum Fund,03,,balance,Beginning fund balance,357103,1,3
+2020,FY2020_appropriation,Museum Fund,03,,revenue,Museum Tax,100000,0,3
+2020,FY2020_appropriation,Museum Fund,03,,revenue,Interest,100,0,3
+2020,FY2020_appropriation,Museum Fund,03,,revenue,Other,3500,0,3
+2020,FY2020_appropriation,Museum Fund,03,,revenue,Total Revenues Museum Fund,103600,1,3
+2020,FY2020_appropriation,Museum Fund,03,,appropriation,Salaries,24000,0,3
+2020,FY2020_appropriation,Museum Fund,03,,appropriation,Contractual,190265,0,3
+2020,FY2020_appropriation,Museum Fund,03,,appropriation,Commodities,8120,0,3
+2020,FY2020_appropriation,Museum Fund,03,,appropriation,Building,25645,0,3
+2020,FY2020_appropriation,Museum Fund,03,,appropriation,Total Appropriated for Museum Fund,248030,1,3
+2020,FY2020_appropriation,Museum Fund,03,,balance,Estimated year-end fund balance,212673,1,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,balance,Beginning fund balance,72768,1,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax-C.P.P.,8000,0,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax,105000,0,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,revenue,Interest,400,0,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,revenue,Total Revenues I.M.R.F. Fund,113400,1,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,appropriation,ILM.R-F.,100000,0,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,appropriation,Total Appropriated I.M.R.F. Fund,100000,1,3
+2020,FY2020_appropriation,IMRF Fund,01,imrf,balance,Estimated year-end fund balance,86168,1,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,balance,Beginning fund balance,126884,1,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,revenue,Social Security P.P.R.,10000,0,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,revenue,Social Security Tax,140404,0,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,revenue,Interest,400,0,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,revenue,Total Revenues Social Security Fund,150804,1,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,appropriation,Social Security,140000,0,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,appropriation,Total Appropriated Social Security Fund,140000,1,3
+2020,FY2020_appropriation,Social Security Fund,01,social_security,balance,Estimated year-end fund balance,137688,1,3
+2020,FY2020_appropriation,Liability Fund,01,liability,balance,Beginning fund balance,154925,1,4
+2020,FY2020_appropriation,Liability Fund,01,liability,revenue,Liability Tax,90000,0,4
+2020,FY2020_appropriation,Liability Fund,01,liability,revenue,Interest,400,0,4
+2020,FY2020_appropriation,Liability Fund,01,liability,revenue,Other,7000,0,4
+2020,FY2020_appropriation,Liability Fund,01,liability,revenue,Total Revenues Liability Fund,97400,1,4
+2020,FY2020_appropriation,Liability Fund,01,liability,appropriation,Insurance Premium,85000,0,4
+2020,FY2020_appropriation,Liability Fund,01,liability,appropriation,Other,10000,0,4
+2020,FY2020_appropriation,Liability Fund,01,liability,appropriation,Total Appropriated Liability Fund,95000,1,4
+2020,FY2020_appropriation,Liability Fund,01,liability,balance,Estimated year-end fund balance,157325,1,4
+2020,FY2020_appropriation,Audit Fund,01,audit,balance,Beginning fund balance,6895,1,4
+2020,FY2020_appropriation,Audit Fund,01,audit,revenue,Audit Tax,15000,0,4
+2020,FY2020_appropriation,Audit Fund,01,audit,revenue,Interest,100,0,4
+2020,FY2020_appropriation,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,15100,1,4
+2020,FY2020_appropriation,Audit Fund,01,audit,appropriation,Audit,15000,0,4
+2020,FY2020_appropriation,Audit Fund,01,audit,appropriation,Total Appropriated Audit Fund,15000,1,4
+2020,FY2020_appropriation,Audit Fund,01,audit,balance,Estimated year-end fund balance,6995,1,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,balance,Beginning fund balance,48718,1,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,revenue,Taxes,0,0,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,revenue,Total Revenues Working Cash Fund,0,1,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,appropriation,Miscellaneous Expenses,0,0,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,appropriation,Total Appropriated Working Cash Fund,0,1,4
+2020,FY2020_appropriation,Working Cash Fund,,working_cash,balance,Estimated year-end fund balance,48718,1,4
+2020,FY2020_appropriation,Riverfront Fund,25,,balance,Beginning fund balance,0,1,5
+2020,FY2020_appropriation,Riverfront Fund,25,,revenue,Other,0,0,5
+2020,FY2020_appropriation,Riverfront Fund,25,,revenue,Total Revenues Riverfront Fund,0,1,5
+2020,FY2020_appropriation,Riverfront Fund,25,,appropriation,Path,0,0,5
+2020,FY2020_appropriation,Riverfront Fund,25,,appropriation,Total Appropriated Riverfront Fund,0,1,5
+2020,FY2020_appropriation,Riverfront Fund,25,,balance,Estimated year-end fund balance,0,1,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,balance,Beginning fund balance,214113,1,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,revenue,Special Recreation Tax,256554,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,revenue,Other,212651,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,revenue,Interest,200,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,revenue,Total Revenues Special Recreation Fund,469405,1,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Salaries,296568,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Employee Benefits,62550,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Contractual,28625,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Commodities,74480,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Equipment,11500,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Building,10525,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Contingencies,0,0,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,appropriation,Total Appropriated for Special Recreation Fund,484248,1,5
+2020,FY2020_appropriation,Special Recreation Fund,09,,balance,Estimated year-end fund balance,199270,1,5

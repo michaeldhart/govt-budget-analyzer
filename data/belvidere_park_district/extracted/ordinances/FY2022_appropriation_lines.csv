@@ -1,0 +1,83 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,1162000,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Employee Medical Contribution,20292,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Farm Lease,3825,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Miscellaneous,10000,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Corporate Personal Property,60000,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Replacement Tax Other,41800,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Interest,1500,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,1299417,1,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Salaries,434669,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Employee Benefits,277772,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Contractual,298532,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Commodities,259727,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Equipment,98383,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Buildings,31005,0,1
+2022,FY2022_appropriation,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,1400088,1,1
+2022,FY2022_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,874912,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,revenue,Employee Insurance Contribution,5189,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,revenue,Other,851356,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,revenue,Interest,1000,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,1732457,1,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Salaries,1166364,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Employee Benefits,94480,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,; Contractual,234180,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Commodities,288192,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Equipment,44710,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Buildings,50210,0,2
+2022,FY2022_appropriation,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,1878136,1,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,revenue,Real Estate Taxes,1175458,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,revenue,Bond Proceeds,1170000,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,revenue,Other,103960,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,revenue,Interest,800,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,2450218,1,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,appropriation,Debt Service,1668095,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,appropriation,Capital Projects,833645,0,2
+2022,FY2022_appropriation,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Total,2501740,1,2
+2022,FY2022_appropriation,Museum Fund,03,,revenue,Museum Tax,103637,0,2
+2022,FY2022_appropriation,Museum Fund,03,,revenue,Interest,100,0,2
+2022,FY2022_appropriation,Museum Fund,03,,revenue,Other,106500,0,2
+2022,FY2022_appropriation,Museum Fund,03,,revenue,Total Revenue Museum Fund,210237,1,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Salaries,10000,0,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Employee Benefits,0,0,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Contractual,139000,0,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Commodities,12900,0,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Buildings,43565,0,2
+2022,FY2022_appropriation,Museum Fund,03,,appropriation,Museum Fund Total,205465,1,2
+2022,FY2022_appropriation,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax -PPR,10000,0,2
+2022,FY2022_appropriation,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax,105649,0,2
+2022,FY2022_appropriation,IMRF Fund,01,imrf,revenue,Interest,400,0,2
+2022,FY2022_appropriation,IMRF Fund,01,imrf,revenue,Total Revenue I.M.R.F. Fund,116049,1,2
+2022,FY2022_appropriation,IMRF Fund,01,imrf,appropriation,IM.RF.,78028,0,3
+2022,FY2022_appropriation,IMRF Fund,01,imrf,appropriation,I.M.R.F. Fund Appropriation Total,78028,1,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,revenue,Social Security P.P.R.,10000,0,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,revenue,Social Security Tax,147909,0,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,revenue,Interest,400,0,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,revenue,Total Revenue Social Security Fund,158309,1,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,appropriation,Social Security,109238,0,3
+2022,FY2022_appropriation,Social Security Fund,01,social_security,appropriation,Social Security Fund Total,109238,1,3
+2022,FY2022_appropriation,Liability Fund,01,liability,revenue,Liability Tax,100331,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,revenue,Interest,400,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,revenue,Other,5000,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,revenue,Total Revenue Liability Fund,105731,1,3
+2022,FY2022_appropriation,Liability Fund,01,liability,appropriation,Salaries,17940,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,appropriation,Insurance Premium,85000,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,appropriation,Other,4000,0,3
+2022,FY2022_appropriation,Liability Fund,01,liability,appropriation,Liability Fund Appropriation Total,106940,1,3
+2022,FY2022_appropriation,Audit Fund,01,audit,revenue,Audit Tax,15000,0,3
+2022,FY2022_appropriation,Audit Fund,01,audit,revenue,Interest,100,0,3
+2022,FY2022_appropriation,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,15100,1,3
+2022,FY2022_appropriation,Audit Fund,01,audit,appropriation,Audit,16500,0,3
+2022,FY2022_appropriation,Audit Fund,01,audit,appropriation,Audit Fund Total,16500,1,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,revenue,Special Recreation Taxes,277178,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,revenue,Employee Insurance Contributions,11337,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,revenue,Other,200000,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,revenue,Interest,200,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,revenue,Total Revenue Special Recreation Fund,488715,1,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Salaries,275369,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Employee Benefits,81410,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Contractual,12000,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Commodities,83838,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Equipment,9780,0,3
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Buildings,14480,0,4
+2022,FY2022_appropriation,Special Recreation Fund,09,,appropriation,Special Recreation Fund Appropriation Total,476877,1,4

@@ -106,6 +106,9 @@ DEBT_PENSION_TABLES = {
 # Property tax and debt capacity schedules some audits print (the park district's): optional tables, validated when the file exists.
 TAX_DEBT_TABLES = {
     "legal_debt_margin": ["entity_id", "doc_id", "period_fy", "schedule", "line_item", "column", "amount", "pdf_page", "flag", "exception_ids"],
+    "ordinance_lines": ["entity_id", "doc_id", "period_fy", "ordinance", "fund_code", "fund", "general_fund_part", "section", "line_item", "amount", "printed",
+                        "pdf_page", "flag", "exception_ids"],
+    "ordinance_summary": ["entity_id", "doc_id", "period_fy", "ordinance", "item", "amount", "pdf_page", "flag", "exception_ids"],
     "assessed_valuations": ["entity_id", "doc_id", "period_fy", "tax_year", "section", "line_item", "amount", "pdf_page", "flag", "exception_ids"],
 }
 

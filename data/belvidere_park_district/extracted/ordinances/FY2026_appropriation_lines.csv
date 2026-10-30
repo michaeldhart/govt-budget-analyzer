@@ -1,0 +1,73 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,1381445,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,IMRF Tax,104956,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Social Security Tax,180598,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Liability Tax,119469,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Audit Tax,18069,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Farm Lease,3850,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Miscellaneous,6000,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,130000,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Interest,25000,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Other,59600,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Bond Proceeds,53800,0,1
+2026,FY2026_appropriation,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,2082787,1,1
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Personnel Services,959748,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Administrative Services,242717.89,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Board Services,11225,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Parks Services,323465.12,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Utilities,135890.50,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,IMRF Employer Contribution,59800,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Social Security & Medicare,194050,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Liability Premium,110400,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Other Risk Management Expenses,24038,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Audit,21325,0,2
+2026,FY2026_appropriation,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,2082659.51,1,2
+2026,FY2026_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,1040721,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,revenue,Other,897292.50,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,revenue,Interest,25000,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,1963013.50,1,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Personnel Services,1459927.12,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Administrative Services,47442,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Parks Services,192996.72,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Advertising,71843.56,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Supplies,63313.50,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Utilities,127486,0,2
+2026,FY2026_appropriation,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,1963008.90,1,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,revenue,Special Recreation Taxes,390000,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,revenue,Other,240516.10,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,revenue,Interest,11600,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,revenue,Total Revenue Special Recreation Fund,642116.10,1,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Personnel Services,498510.20,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Administrative Services,18063,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Park Services,30216,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Advertising,1525,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Supplies,70782.18,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Utilities,23019.72,0,2
+2026,FY2026_appropriation,Special Recreation Fund,05,,appropriation,Special Recreation Fund Appropriation Total,642116.10,1,2
+2026,FY2026_appropriation,Museum Fund,08,,revenue,Museum Tax,123506,0,3
+2026,FY2026_appropriation,Museum Fund,08,,revenue,Interest,13900,0,3
+2026,FY2026_appropriation,Museum Fund,08,,revenue,Other,2250,0,3
+2026,FY2026_appropriation,Museum Fund,08,,revenue,Total Revenue Museum Fund,139656,1,3
+2026,FY2026_appropriation,Museum Fund,08,,appropriation,Administrative Services,250,0,3
+2026,FY2026_appropriation,Museum Fund,08,,appropriation,Park Services,126180,0,3
+2026,FY2026_appropriation,Museum Fund,08,,appropriation,Utilities,12186,0,3
+2026,FY2026_appropriation,Museum Fund,08,,appropriation,Museum Fund Appropriation Total,138616,1,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,revenue,Bond Proceeds,446500,0,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,revenue,Interest,62431,0,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,revenue,Total revenue,508931,1,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Principal,385000,0,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Interest,115300,0,3
+2026,FY2026_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Alternate Bond & Interest Appropriation Total,500300,1,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,revenue,Real Estate Taxes,1378864,0,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,revenue,Interest,10300,0,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,1389164,1,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,appropriation,General Obligation Bonds Principal,1335000,0,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,appropriation,General Obligation Bonds interest,42889.10,0,3
+2026,FY2026_appropriation,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Total,1377889.10,1,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,revenue,Bond Proceeds,834700,0,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,revenue,Grant Revenue,1674824,0,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,revenue,Interest,53700,0,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,revenue,Other,34100,0,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,revenue,Total Revenue Capital Improvement Fund,2597324,1,3
+2026,FY2026_appropriation,Capital Improvement Fund,21,,appropriation,Capital Projects,2595003,0,4
+2026,FY2026_appropriation,Capital Improvement Fund,21,,appropriation,Capital Improvement Fund Appropriation Total,2595003,1,4

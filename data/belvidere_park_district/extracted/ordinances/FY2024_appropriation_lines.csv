@@ -1,0 +1,89 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,1286518,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Farm Lease,3825,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Miscellaneous,12500,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,. Corporate Personal Property Replacement Tax,191000,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Other,47250,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Interest,10250,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,1551343,1,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Personnel Services,818538,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Administrative Services,270318,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Board Services,12950,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Parks Services,398613,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Utilities,112269,0,1
+2024,FY2024_appropriation,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,1612688,1,1
+2024,FY2024_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,969026,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,revenue,Other .,913042,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,1882068,1,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Personnel Services,941452,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Administrative Services,67905,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Parks Services,6535,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Advertising,74670,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Aquatics,50000,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Doty Park,112941,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Rivers Edge,174551,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Preschool,63865,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Summer Camp,79625,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Adult Athletics,17576,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Adult Fitness,19746,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Youth Athletics,16328,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Youth Fitness,20349,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Youth,6344,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Third Base,170510,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Special & Community Events,24086,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Prairie Fields,35585,0,2
+2024,FY2024_appropriation,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,1882068,1,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,Real! Estate Taxes,1242000,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,Debt Service,484400,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,Bond Proceeds,694400,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,Other,25000,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,interest,1800,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,2447600,1,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,appropriation,Debt Service,484400,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,appropriation,Capital Projects,720491.35,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,appropriation,Bonds & Interest,1242000,0,2
+2024,FY2024_appropriation,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Total,2446891.35,1,2
+2024,FY2024_appropriation,Museum Fund,03,,revenue,Museum Tax,114871,0,3
+2024,FY2024_appropriation,Museum Fund,03,,revenue,interest,250,0,3
+2024,FY2024_appropriation,Museum Fund,03,,revenue,Other,92000,0,3
+2024,FY2024_appropriation,Museum Fund,03,,revenue,Total Revenue Museum Fund,207121,1,3
+2024,FY2024_appropriation,Museum Fund,03,,appropriation,Administrative Services,600,0,3
+2024,FY2024_appropriation,Museum Fund,03,,appropriation,Park Services,195194,0,3
+2024,FY2024_appropriation,Museum Fund,03,,appropriation,Utilities,11321,0,3
+2024,FY2024_appropriation,Museum Fund,03,,appropriation,Museum Fund Appropriation Total,207115,1,3
+2024,FY2024_appropriation,IMRF Fund,01,imrf,revenue,IMRF Tax,97583.45,0,3
+2024,FY2024_appropriation,IMRF Fund,01,imrf,revenue,Total Revenue I.M.R.F. Fund,97583.45,1,3
+2024,FY2024_appropriation,IMRF Fund,01,imrf,appropriation,IMRF Employer Contribution _,44737,0,3
+2024,FY2024_appropriation,IMRF Fund,01,imrf,appropriation,IMRF Fund Appropriation Total,44737,1,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,revenue,Social Security Tax,163948,0,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,revenue,Social Security Personal Replacement Tax,9000,0,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,revenue,Interest,1000,0,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,revenue,Total Revenue Social Security Fund,173948,1,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,appropriation,Social Security & Medicare,173840,0,3
+2024,FY2024_appropriation,Social Security Fund,01,social_security,appropriation,Social Security Fund Total,173840,1,3
+2024,FY2024_appropriation,Liability Fund,01,liability,revenue,Liability Tax,111183,0,3
+2024,FY2024_appropriation,Liability Fund,01,liability,revenue,Interest,250,0,3
+2024,FY2024_appropriation,Liability Fund,01,liability,revenue,Other,8000,0,3
+2024,FY2024_appropriation,Liability Fund,01,liability,revenue,Total Revenue Liability Fund,119433,1,3
+2024,FY2024_appropriation,Liability Fund,01,liability,appropriation,Insurance Premium,85000,0,3
+2024,FY2024_appropriation,Liability Fund,01,liability,appropriation,Other Risk Management Expenses,26506,0,3
+2024,FY2024_appropriation,Liability Fund,01,liability,appropriation,Liability Fund Appropriation Total,111506,1,3
+2024,FY2024_appropriation,Audit Fund,01,audit,revenue,Audit Tax,16714,0,4
+2024,FY2024_appropriation,Audit Fund,01,audit,revenue,Interest,1750,0,4
+2024,FY2024_appropriation,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,18464,1,4
+2024,FY2024_appropriation,Audit Fund,01,audit,appropriation,Audit,18000,0,4
+2024,FY2024_appropriation,Audit Fund,01,audit,appropriation,Audit Fund Appropriation Total,18000,1,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,revenue,Special Recreation Taxes,327734,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,revenue,Other,215352,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,revenue,Interest,500,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,revenue,Total Revenue Special Recreation Fund,543586,1,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Personnel Services,229735,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Administrative Services,26265,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Advertising,8240,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Park Services,39180,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Adult Services,90712,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Youth Services,81469,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Specialty/Special Olympic Services,50650,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Inclusion Services,5000,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Utilities,11060,0,4
+2024,FY2024_appropriation,Special Recreation Fund,09,,appropriation,Special Recreation Fund Appropriation Total,542311,1,4

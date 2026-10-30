@@ -1,0 +1,3 @@
+kind,raw,fixed,reason
+allow_diff,aggregate levy,,"The Social Security section levy (169,550.00, verified on the page image) is 4,290 below the SUMMARY line (173,840.00); the aggregate levy (4,533,060.00) follows the SUMMARY"
+allow_diff,summary: Social Security Fund,,"The SUMMARY line (173,840.00) differs from the Social Security section's levy (169,550.00, verified on the page image); the tax-year 2024 extension was 173,877"

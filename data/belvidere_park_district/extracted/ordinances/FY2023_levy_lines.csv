@@ -1,0 +1,44 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Personnel Services,703433.90,0,1
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Utilities and Other Contractual Services,459739,0,1
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Commodities,205467,0,1
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Equipment,35720,0,1
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Buildings,23160,0,1
+2023,FY2023_levy,Corporate Fund,01,,expenditure,Total Expenditures,1427019.90,1,1
+2023,FY2023_levy,Corporate Fund,01,,levy,Corporate Purposes,1218217,1,1
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Personnel Services,1296182.23,0,1
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Utilities and Other Contractual Services,347422,0,1
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Commodities,90939,0,2
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Buildings,19100,0,2
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Equipment,26150,0,2
+2023,FY2023_levy,Recreation Fund,02,,expenditure,Total Expenditures,1776793.23,1,2
+2023,FY2023_levy,Recreation Fund,02,,levy,Recreation Fund,917250,1,2
+2023,FY2023_levy,Museum Fund,03,,expenditure,Personnel Services,10000,0,2
+2023,FY2023_levy,Museum Fund,03,,expenditure,Utilities and Other Contractual Services,155937,0,2
+2023,FY2023_levy,Museum Fund,03,,expenditure,Commodities,6500,0,2
+2023,FY2023_levy,Museum Fund,03,,expenditure,Buildings,15250,0,2
+2023,FY2023_levy,Museum Fund,03,,expenditure,Total Expenditures,187687,1,2
+2023,FY2023_levy,Museum Fund,03,,levy,Museum Fund,108711,1,2
+2023,FY2023_levy,Special Recreation Fund,09,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,518496.09,0,2
+2023,FY2023_levy,Special Recreation Fund,09,,expenditure,Total Expenditures,518496.09,1,2
+2023,FY2023_levy,Special Recreation Fund,09,,levy,Special Recreation Fund,303488,1,2
+2023,FY2023_levy,Liability Fund,01,liability,expenditure,Joint Self-Insurance Premiums,85000,0,2
+2023,FY2023_levy,Liability Fund,01,liability,expenditure,Other Risk Management Expenses,26650,0,2
+2023,FY2023_levy,Liability Fund,01,liability,expenditure,Total Expenditures,111650,1,2
+2023,FY2023_levy,Liability Fund,01,liability,levy,Insurance Fund,105221,1,2
+2023,FY2023_levy,Audit Fund,01,audit,expenditure,Auditing Expenses,17000,0,2
+2023,FY2023_levy,Audit Fund,01,audit,expenditure,Total Expenditures,17000,1,2
+2023,FY2023_levy,Audit Fund,01,audit,levy,Audit Services,15779,1,2
+2023,FY2023_levy,IMRF Fund,01,imrf,expenditure,Employer IMRF Contributions,69000,0,3
+2023,FY2023_levy,IMRF Fund,01,imrf,expenditure,Total Expenditures,69000,1,3
+2023,FY2023_levy,IMRF Fund,01,imrf,levy,I.M.R.F. Fund,110835,1,3
+2023,FY2023_levy,Social Security Fund,01,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,162701,0,3
+2023,FY2023_levy,Social Security Fund,01,social_security,expenditure,Total Expenditures,162701,1,3
+2023,FY2023_levy,Social Security Fund,01,social_security,levy,Social Security Fund,155138,1,3
+2023,FY2023_levy,Bond & Interest Fund,12,,expenditure,Debt Service,482700,0,3
+2023,FY2023_levy,Bond & Interest Fund,12,,expenditure,Capital Projects,880796,0,3
+2023,FY2023_levy,Bond & Interest Fund,12,,expenditure,Bonds & Interest,1233546,0,3
+2023,FY2023_levy,Bond & Interest Fund,12,,expenditure,Total Expenditures,2596952,1,3
+2023,FY2023_levy,Bond & Interest Fund,12,,levy,Debt Service Fund,1233546,1,3
+2023,FY2023_levy,Prior Year Adjustment (Special Recreation),09,,expenditure,"Adjustment due to clerical error from Boone County Clerk’s office of shortage of $50,000.00 for Joint Handicap Recreation Fund from taxes levied in 2021 (payable in",2022,0,3
+2023,FY2023_levy,Prior Year Adjustment (Special Recreation),09,,levy,Prior Year Adjustment,50000,1,3

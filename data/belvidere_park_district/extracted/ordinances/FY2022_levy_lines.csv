@@ -1,0 +1,48 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Salaries,505637,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Employee Benefits,241689,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Contractual,252290,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Commodities,166140,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Equipment,111972,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Buildings,34857,0,1
+2022,FY2022_levy,Corporate Fund,01,,expenditure,Total Expenditures,1312585,1,1
+2022,FY2022_levy,Corporate Fund,01,,levy,Corporate Tax,1162000,1,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Salaries,1122085,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Employee Benefits,154302,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Contractual,368208,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Commodities,144641,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Equipment,32560,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Building,49250,0,1
+2022,FY2022_levy,Recreation Fund,02,,expenditure,Total Expenditures,1871046,1,1
+2022,FY2022_levy,Recreation Fund,02,,levy,Recreation Tax,874912,1,1
+2022,FY2022_levy,Bond & Interest Fund,12,,expenditure,Debt Service,1175458,0,1
+2022,FY2022_levy,Bond & Interest Fund,12,,expenditure,Total Expenditures,1175458,1,1
+2022,FY2022_levy,Bond & Interest Fund,12,,levy,Debt Service,1175458,1,1
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Salaries,257008,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Employee Benefits,78217,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Contractual,36425,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Commodities,64005,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Equipment,9500,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Building,9840,0,2
+2022,FY2022_levy,Special Recreation Fund,09,,expenditure,Total Expenditures,454995,1,2
+2022,FY2022_levy,Special Recreation Fund,09,,levy,Joint Handicap Recreation Tax,277178,1,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Salaries,1080,0,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Contractual,173200,0,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Commodities,6720,0,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Repairs,13650,0,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Building,24035,0,2
+2022,FY2022_levy,Museum Fund,03,,expenditure,Total Expenditures,205035,1,2
+2022,FY2022_levy,Museum Fund,03,,levy,Museum Tax,103637,1,2
+2022,FY2022_levy,IMRF Fund,01,imrf,expenditure,LM.R.F.,100000,0,2
+2022,FY2022_levy,IMRF Fund,01,imrf,levy,1.M.R.F. Tax,105649,1,2
+2022,FY2022_levy,Social Security Fund,01,social_security,expenditure,"F.ILC.A,.",144787,0,2
+2022,FY2022_levy,Social Security Fund,01,social_security,expenditure,Total Expenditures,144787,1,2
+2022,FY2022_levy,Social Security Fund,01,social_security,levy,Social Security Tax,147909,1,2
+2022,FY2022_levy,Liability Fund,01,liability,expenditure,Salaries,17940,0,2
+2022,FY2022_levy,Liability Fund,01,liability,expenditure,Premiums,82000,0,2
+2022,FY2022_levy,Liability Fund,01,liability,expenditure,Other/Claims,5000,0,2
+2022,FY2022_levy,Liability Fund,01,liability,expenditure,Total Expenditures,104940,1,2
+2022,FY2022_levy,Liability Fund,01,liability,levy,Liability Tax,100331,1,2
+2022,FY2022_levy,Audit Fund,01,audit,expenditure,Audit of Park District Accounts,15000,0,2
+2022,FY2022_levy,Audit Fund,01,audit,expenditure,Total Expenditures,15000,1,2
+2022,FY2022_levy,Audit Fund,01,audit,levy,Audit Tax,15000,1,2

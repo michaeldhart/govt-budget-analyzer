@@ -1,0 +1,42 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Personnel Services,959748,0,1
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Administrative Services,242717.89,0,1
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Board Services,11225,0,1
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Parks Services,323465.12,0,1
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Utilities,135890.50,0,1
+2026,FY2026_levy,Corporate Fund,01,,expenditure,Total Expenditures,1673046.51,1,1
+2026,FY2026_levy,Corporate Fund,01,,levy,Corporate Purposes,1381445,1,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Personnel Services,1459927.12,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Administrative Services,47442,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Parks Services,192996.72,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Advertising,71843.56,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Supplies,63313.50,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Utilities ;,127486,0,1
+2026,FY2026_levy,Recreation Fund,02,,expenditure,Total Expenditures,1963008.90,1,1
+2026,FY2026_levy,Recreation Fund,02,,levy,Recreation Fund,1040721,1,2
+2026,FY2026_levy,Special Recreation Fund,05,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,642116.10,0,2
+2026,FY2026_levy,Special Recreation Fund,05,,expenditure,Total Expenditures,642116.10,1,2
+2026,FY2026_levy,Special Recreation Fund,05,,levy,Special Recreation Fund,390000,1,2
+2026,FY2026_levy,Museum Fund,08,,expenditure,Administrative Services,250,0,2
+2026,FY2026_levy,Museum Fund,08,,expenditure,Park Services,126180,0,2
+2026,FY2026_levy,Museum Fund,08,,expenditure,Utilities,12186,0,2
+2026,FY2026_levy,Museum Fund,08,,expenditure,Total Expenditures,138616,1,2
+2026,FY2026_levy,Museum Fund,08,,levy,Museum Fund,123506,1,2
+2026,FY2026_levy,Liability Fund,01,liability,expenditure,Joint Self-Insurance Premiums,110400,0,2
+2026,FY2026_levy,Liability Fund,01,liability,expenditure,Other Risk Management Expenses,24038,0,2
+2026,FY2026_levy,Liability Fund,01,liability,expenditure,Total Expenditures,134438,1,2
+2026,FY2026_levy,Liability Fund,01,liability,levy,Insurance Fund,119469,1,2
+2026,FY2026_levy,Audit Fund,01,audit,expenditure,Auditing Expenses,21135,0,2
+2026,FY2026_levy,Audit Fund,01,audit,expenditure,Total Expenditures,21135,1,2
+2026,FY2026_levy,Audit Fund,01,audit,levy,Audit Services,18069,1,2
+2026,FY2026_levy,IMRF Fund,01,imrf,expenditure,Employer IMRF Contributions,59800,0,2
+2026,FY2026_levy,IMRF Fund,01,imrf,expenditure,Total Expenditures,59800,1,2
+2026,FY2026_levy,IMRF Fund,01,imrf,levy,1.M.R.F.,104956,1,3
+2026,FY2026_levy,Social Security Fund,01,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,194050,0,3
+2026,FY2026_levy,Social Security Fund,01,social_security,expenditure,Total Expenditures,194050,1,3
+2026,FY2026_levy,Social Security Fund,01,social_security,levy,Social Security,180598,1,3
+2026,FY2026_levy,Bond & Interest Fund,12,,expenditure,Debt Service,500300,0,3
+2026,FY2026_levy,Bond & Interest Fund,12,,expenditure,Capital Projects,834700,0,3
+2026,FY2026_levy,Bond & Interest Fund,12,,expenditure,Interest,42889.10,0,3
+2026,FY2026_levy,Bond & Interest Fund,12,,expenditure,Total Expenditures,1377889.10,1,3
+2026,FY2026_levy,Bond & Interest Fund,12,,levy,Bond & Interest Fund,1378864,1,3

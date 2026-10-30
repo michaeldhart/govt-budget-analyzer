@@ -326,3 +326,28 @@ def test_audit_categories_vs_budget():
             assert b == int(totals[k]["doc_expenses"]), k
     ex = {r["diff"] for r in rows if r["fund"] == "General Fund" and r["fiscal_year"] in ("2019", "2020")}
     assert max(abs(int(x)) for x in ex) <= 1000  # the General Fund of FY2019-FY2020 is within a thousand dollars in every group
+
+
+def test_ordinances_cover_every_document_and_tie():
+    """Appropriation (FY2019-FY2027) and levy (FY2022-FY2027) ordinances: every document is in the tables, each ordinance's SUMMARY (e) estimate of taxes
+    equals the levy ordinance's aggregate levy in 5 of 6 years (FY2023: the appropriation prints 100 more, EX-ordinance-fy2023-arithmetic), and the
+    fund levies add to the aggregate (FY2024's aggregate leaves out the 50,000 Prior Year Adjustment)."""
+    from decimal import Decimal
+    lines, summ = canonical("ordinance_lines"), canonical("ordinance_summary")
+    docs = {r["doc_id"]: r for r in canonical("documents") if r["doc_type"] in ("appropriation", "levy")}
+    assert len(docs) == 16 and {r["doc_id"] for r in lines} == set(docs) == {r["doc_id"] for r in summ}
+    assert sum(r["doc_type"] == "appropriation" for r in docs.values()) == 9
+    e = {r["period_fy"]: Decimal(r["amount"]) for r in summ if r["ordinance"] == "appropriation" and r["item"] == "e"}
+    agg = {}
+    for r in summ:
+        if r["ordinance"] == "levy" and r["item"] in ("aggregate_levy", "summary_total") and r["doc_id"] != "FY2023_levy_draft":
+            agg[r["period_fy"]] = Decimal(r["amount"])
+    diff = {fy: e[fy] - agg[fy] for fy in agg}
+    assert set(agg) == {str(y) for y in range(2022, 2028)} and sorted(fy for fy, d in diff.items() if d) == ["2023"] and diff["2023"] == 100
+    for doc, d in docs.items():
+        if d["doc_type"] != "levy":
+            continue
+        levies = [Decimal(r["amount"]) for r in lines if r["doc_id"] == doc and r["section"] == "levy"]
+        a = next(Decimal(r["amount"]) for r in summ if r["doc_id"] == doc and r["item"] in ("aggregate_levy", "summary_total"))
+        assert sum(levies) in (a, a + 50000, a - 4290 if doc == "FY2025_levy" else a), doc  # EX-ordinance-fy2025-social-security-levy
+    assert all(r["exception_ids"] for r in lines if r["doc_id"] in ("FY2023_levy", "FY2024_levy", "FY2025_levy", "FY2022_levy"))

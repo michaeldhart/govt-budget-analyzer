@@ -1,0 +1,86 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,1330010,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Farm Lease,4000,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Miscellaneous,5354,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,120500,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Other,50900,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Bond Proceeds,40000,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,1550764,1,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Personnel Services,889444,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Administrative Services,229203,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Board Services,10950,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Parks Services,360698,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Utilities,122211,0,1
+2025,FY2025_appropriation,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,1612506,1,1
+2025,FY2025_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,1001949,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,revenue,Other,945408,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,revenue,interest,14700,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,1962057,1,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Personnel Services,1377945.50,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Administrative Services,47166.50,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Parks Services,298845,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Advertising,74276,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Supplies,49039,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Utilities,114785,0,2
+2025,FY2025_appropriation,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,1962057,1,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,revenue,Bond Proceeds,433800,0,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,revenue,Interest,62300,0,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,revenue,Total revenue,496100,1,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Principal,433800,0,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Interest .,61500,0,2
+2025,FY2025_appropriation,Alternate Bond & Interest Fund,10,,appropriation,Alternate Bond & Interest Appropriation Total,495300,1,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,revenue,Real Estate Taxes,1332934,0,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,revenue,Interest,1500,0,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,1334434,1,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,appropriation,General Obligation Bonds Principal,1284000,0,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,appropriation,General Obligation Bonds Interest,48934,0,2
+2025,FY2025_appropriation,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Total,1332934,1,2
+2025,FY2025_appropriation,Capital Improvement Fund,21,,revenue,Bond Proceeds,810200,0,2
+2025,FY2025_appropriation,Capital Improvement Fund,21,,revenue,Grant Revenue,1604000,0,2
+2025,FY2025_appropriation,Capital Improvement Fund,21,,revenue,Interest,8500,0,2
+2025,FY2025_appropriation,Capital Improvement Fund,21,,revenue,Other,51100,0,2
+2025,FY2025_appropriation,Capital Improvement Fund,21,,revenue,Total Revenue Capital Improvement Fund,2473800,1,3
+2025,FY2025_appropriation,Capital Improvement Fund,21,,appropriation,Capital Projects,2473800,0,3
+2025,FY2025_appropriation,Capital Improvement Fund,21,,appropriation,Capital Improvement Fund Appropriation Total,2473800,1,3
+2025,FY2025_appropriation,Museum Fund,08,,revenue,Museum Tax,118841,0,3
+2025,FY2025_appropriation,Museum Fund,08,,revenue,Interest,32800,0,3
+2025,FY2025_appropriation,Museum Fund,08,,revenue,Other,53940,0,3
+2025,FY2025_appropriation,Museum Fund,08,,revenue,Total Revenue Museum Fund,205581,1,3
+2025,FY2025_appropriation,Museum Fund,08,,appropriation,Administrative Services,600,0,3
+2025,FY2025_appropriation,Museum Fund,08,,appropriation,Park Services,193230,0,3
+2025,FY2025_appropriation,Museum Fund,08,,appropriation,Utilities,11750,0,3
+2025,FY2025_appropriation,Museum Fund,08,,appropriation,Museum Fund Appropriation Total,205580,1,3
+2025,FY2025_appropriation,IMRF Fund,01,imrf,revenue,IMRF Tax,100988,0,3
+2025,FY2025_appropriation,IMRF Fund,01,imrf,revenue,Interest,500,0,3
+2025,FY2025_appropriation,IMRF Fund,01,imrf,revenue,Total Revenue I.M.R.F. Fund,101488,1,3
+2025,FY2025_appropriation,IMRF Fund,01,imrf,appropriation,IMRF Employer Contribution,50000,0,3
+2025,FY2025_appropriation,IMRF Fund,01,imrf,appropriation,IMRF Fund Appropriation Total!,50000,1,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,revenue,Social Security Tax,169550,0,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,revenue,Social Security Personal Replacement Tax,10000,0,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,revenue,Interest,500,0,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,revenue,Total Revenue Social Security Fund,180050,1,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,appropriation,Social Security & Medicare,177349,0,3
+2025,FY2025_appropriation,Social Security Fund,01,social_security,appropriation,Social Security Fund Total,177349,1,3
+2025,FY2025_appropriation,Liability Fund,01,liability,revenue,Liability Tax,114959,0,3
+2025,FY2025_appropriation,Liability Fund,01,liability,revenue,Interest,500,0,3
+2025,FY2025_appropriation,Liability Fund,01,liability,revenue,Other,8000,0,4
+2025,FY2025_appropriation,Liability Fund,01,liability,revenue,Total Revenue Liability Fund,123459,1,4
+2025,FY2025_appropriation,Liability Fund,01,liability,appropriation,Insurance Premium,96066,0,4
+2025,FY2025_appropriation,Liability Fund,01,liability,appropriation,Other Risk Management Expenses,17274,0,4
+2025,FY2025_appropriation,Liability Fund,01,liability,appropriation,Liability Fund Appropriation Total,113340,1,4
+2025,FY2025_appropriation,Audit Fund,01,audit,revenue,Audit Tax,17334,0,4
+2025,FY2025_appropriation,Audit Fund,01,audit,revenue,Interest,100,0,4
+2025,FY2025_appropriation,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,17434,1,4
+2025,FY2025_appropriation,Audit Fund,01,audit,appropriation,Audit,20000,0,4
+2025,FY2025_appropriation,Audit Fund,01,audit,appropriation,Audit Fund Appropriation Total,20000,1,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,revenue,Special Recreation Taxes,342205,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,revenue,Other,239692.80,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,revenue,Interest,6200,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,revenue,Total Revenue Special Recreation Fund,588097.80,1,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Personnel Services,459359.75,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Administrative Services,25806.50,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Park Services,14316,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Advertising,2103,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Supplies,65526.55,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Utilities,20986,0,4
+2025,FY2025_appropriation,Special Recreation Fund,05,,appropriation,Special Recreation Fund Appropriation Total,588097.80,1,4

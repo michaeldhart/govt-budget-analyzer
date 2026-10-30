@@ -1,0 +1,109 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2021,FY2021_appropriation,Corporate Fund,01,,balance,Beginning fund balance,880597,1,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Corporate Taxes,1100000,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Employee Medical Contribution,18101,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Farm Lease,3825,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Miscellaneous,27000,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,50000,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Interest,1500,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,revenue,Total Revenues Corporate Fund,1200426,1,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Salaries,505637,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Employee Benefits,241689,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Contractual,252290,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Commodities,166140,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Equipment,111972,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Buildings,34857,0,1
+2021,FY2021_appropriation,Corporate Fund,01,,appropriation,Total Appropriated for the Corporate Fund,1312585,1,1
+2021,FY2021_appropriation,Corporate Fund,01,,balance,Estimated year-end fund balance,768438,1,1
+2021,FY2021_appropriation,Recreation Fund,02,,balance,Beginning fund balance,658593,1,2
+2021,FY2021_appropriation,Recreation Fund,02,,revenue,Recreation Taxes,828385,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,revenue,Other,880216,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,revenue,Interest,1000,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,revenue,Total Revenues Recreation Fund,1709601,1,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Salaries,1122085,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Employee Benefits,154302,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Contractual,368208,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Commodities,144641,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Equipment,32560,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Building,49250,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Contingencies,0,0,2
+2021,FY2021_appropriation,Recreation Fund,02,,appropriation,Total Appropriated for Recreation Fund,1871046,1,2
+2021,FY2021_appropriation,Recreation Fund,02,,balance,Estimated year-end fund balance,497148,1,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,balance,Beginning fund balance,1661470,1,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,revenue,Real Estate Tax,1185531,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,revenue,Bond Proceeds,1162800,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,revenue,Other,10000,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,revenue,Interest,800,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,revenue,Total Bond and Interest Revenues,2358331,1,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,appropriation,Debt Service,1541305,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,appropriation,Capital Projects,657000,0,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,appropriation,Total Appropriated for Bond and Interest Fund,2198305,1,2
+2021,FY2021_appropriation,Bond & Interest Fund,12,,balance,Estimated year-end fund balance,1821496,1,2
+2021,FY2021_appropriation,Museum Fund,03,,revenue,Museum Tax,100000,0,3
+2021,FY2021_appropriation,Museum Fund,03,,revenue,Interest,100,0,3
+2021,FY2021_appropriation,Museum Fund,03,,revenue,Other,6000,0,3
+2021,FY2021_appropriation,Museum Fund,03,,revenue,Total Revenues Museum Fund,106100,1,3
+2021,FY2021_appropriation,Museum Fund,03,,appropriation,Salaries,1080,0,3
+2021,FY2021_appropriation,Museum Fund,03,,appropriation,Contractual,173200,0,3
+2021,FY2021_appropriation,Museum Fund,03,,appropriation,Commodities,6720,0,3
+2021,FY2021_appropriation,Museum Fund,03,,appropriation,Building,24035,0,3
+2021,FY2021_appropriation,Museum Fund,03,,appropriation,Total Appropriated for Museum Fund,205035,1,3
+2021,FY2021_appropriation,Museum Fund,03,,balance,Estimated year-end fund balance,317457,1,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,balance,Beginning fund balance,89112,1,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,revenue,I.M.R.F. Tax-C.P.P.,10000,0,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,revenue,IM.R.F. Tax,100000,0,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,revenue,Interest,400,0,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,revenue,"Total Revenues I.M.R.F, Fund",110400,1,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,appropriation,IM.RF.,100000,0,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,appropriation,Total Appropriated 1.M.R.F. Fund,100000,1,3
+2021,FY2021_appropriation,IMRF Fund,01,imrf,balance,Estimated year-end fund balance,99512,1,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,balance,Beginning fund balance,144334,1,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,revenue,Social Security P.P.R.,10000,0,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,revenue,Social Security Tax,140000,0,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,revenue,Interest,400,0,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,revenue,Total Revenues Social Security Fund,150400,1,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,appropriation,Social Security,144787,0,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,appropriation,Total Appropriated Social Security Fund,144787,1,3
+2021,FY2021_appropriation,Social Security Fund,01,social_security,balance,Estimated year-end fund balance,149947,1,3
+2021,FY2021_appropriation,Liability Fund,01,liability,balance,Beginning fund balance,173731,1,4
+2021,FY2021_appropriation,Liability Fund,01,liability,revenue,Liability Tax,95000,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,revenue,Interest,400,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,revenue,Other,2000,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,revenue,Total Revenues Liability Fund,97400,1,4
+2021,FY2021_appropriation,Liability Fund,01,liability,appropriation,Salaries,17940,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,appropriation,Insurance Premium,82000,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,appropriation,Other ‘,5000,0,4
+2021,FY2021_appropriation,Liability Fund,01,liability,appropriation,Total Appropriated Liability Fund,104940,1,4
+2021,FY2021_appropriation,Liability Fund,01,liability,balance,Estimated year-end fund balance,166191,1,4
+2021,FY2021_appropriation,Audit Fund,01,audit,balance,Beginning fund balance,6856,1,4
+2021,FY2021_appropriation,Audit Fund,01,audit,revenue,Audit Tax,15000,0,4
+2021,FY2021_appropriation,Audit Fund,01,audit,revenue,Interest,100,0,4
+2021,FY2021_appropriation,Audit Fund,01,audit,revenue,Total Revenues Audit Fund,15100,1,4
+2021,FY2021_appropriation,Audit Fund,01,audit,appropriation,Audit,15000,0,4
+2021,FY2021_appropriation,Audit Fund,01,audit,appropriation,Total Appropriated Audit Fund,15000,1,4
+2021,FY2021_appropriation,Audit Fund,01,audit,balance,Estimated year-end fund balance,6956,1,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,balance,Beginning fund balance,48718,1,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,revenue,Taxes,0,0,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,revenue,Total Revenues Working Cash Fund,0,1,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,appropriation,Miscellaneous Expenses,0,0,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,appropriation,Total Appropriated Working Cash Fund,0,1,4
+2021,FY2021_appropriation,Working Cash Fund,,working_cash,balance,Estimated year-end fund balance,48718,1,4
+2021,FY2021_appropriation,Riverfront Fund,25,,revenue,Other,0,0,5
+2021,FY2021_appropriation,Riverfront Fund,25,,revenue,Total Revenues Riverfront Fund,0,1,5
+2021,FY2021_appropriation,Riverfront Fund,25,,appropriation,Path,0,0,5
+2021,FY2021_appropriation,Riverfront Fund,25,,appropriation,Total Appropriated Riverfront Fund,0,1,5
+2021,FY2021_appropriation,Riverfront Fund,25,,balance,Estimated year-end fund balance,0,1,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,balance,Beginning fund balance,213767,1,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,revenue,Special Recreation Tax,267535,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,revenue,Other,229987,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,revenue,Interest,200,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,revenue,Total Revenues Special Recreation Fund,497722,1,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Salaries,257008,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Employee Benefits,78217,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Contractual,36425,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Commodities,64005,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Equipment,9500,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Building,9840,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Contingencies,0,0,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,appropriation,Total Appropriated for Special Recreation Fund,454995,1,5
+2021,FY2021_appropriation,Special Recreation Fund,09,,balance,Estimated year-end fund balance,256494,1,5

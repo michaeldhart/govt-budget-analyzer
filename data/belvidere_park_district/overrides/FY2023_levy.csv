@@ -1,0 +1,4 @@
+kind,raw,fixed,reason
+allow_diff,Corporate Fund expenditure,,"Same source arithmetic error as the FY2023 appropriation ordinance: printed total 500 below its purposes"
+allow_diff,Recreation Fund expenditure,,"Same source arithmetic error as the FY2023 appropriation ordinance: printed total 3,000 below its purposes"
+allow_diff,Bond & Interest Fund expenditure,,"Same source arithmetic error as the FY2023 appropriation ordinance: printed total 90 below its purposes"

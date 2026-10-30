@@ -82,7 +82,7 @@ def test_vocabularies():
     assert all(r["flow"] in schema.FLOWS and r["source_type"] in schema.SOURCE_TYPES for r in table("facts"))
 
 
-@pytest.mark.parametrize("name", sorted(set(schema.DEBT_PENSION_TABLES) - {"opeb_rollforward"}) + sorted(schema.TAX_DEBT_TABLES))
+@pytest.mark.parametrize("name", sorted(set(schema.DEBT_PENSION_TABLES) - {"opeb_rollforward"}) + sorted(set(schema.TAX_DEBT_TABLES) - {"ordinance_lines", "ordinance_summary"}))
 def test_audit_tables_cover_the_audits(name):
     rows = table(name)
     want = {str(y) for y in (range(2019, 2026) if not name.startswith("pension") else (2019, 2023, 2024, 2025))}

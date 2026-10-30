@@ -1,0 +1,15 @@
+heading_pattern,name,fund_code_to_fy2024,fund_code_from_fy2025,general_fund_part,note
+CORPORATE,Corporate Fund,01,01,,General Fund
+ILLINOIS MUNICIPAL RETIREMENT|I\.?M\.?R\.?F,IMRF Fund,01,01,imrf,General Fund part (levy and budget carry it inside fund 01)
+SOCIAL SECURITY,Social Security Fund,01,01,social_security,General Fund part
+LIABILITY,Liability Fund,01,01,liability,General Fund part
+AUDIT,Audit Fund,01,01,audit,General Fund part
+^RECREATION,Recreation Fund,02,02,,
+SPECIAL RECREATION|JOINT HANDICAP,Special Recreation Fund,09,05,,
+MUSEUM,Museum Fund,03,08,,
+ALTERNATE BOND,Alternate Bond & Interest Fund,10,10,,
+BOND AND INTEREST|BOND & INTEREST|DEBT SERVICE,Bond & Interest Fund,12,12,,
+CAPITAL,Capital Improvement Fund,21,21,,
+WORKING CASH,Working Cash Fund,,,working_cash,"FY2019-FY2021 ordinances: a fund of its own (nothing budgeted; 48,718 balance); in the audit it is part of the General Fund's restricted balance"
+RIVERFRONT,Riverfront Fund,25,25,,FY2019-FY2021 only (fund 25 in the FY2019-FY2020 budgets)
+PRIOR YEAR ADJUSTMENT,Prior Year Adjustment (Special Recreation),09,05,,"FY2023-FY2024 levies add 50,000 for a Joint Handicap (Special Recreation) shortage from the tax year 2021 extension; no purposes, levy only"

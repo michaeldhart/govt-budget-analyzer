@@ -1,0 +1,1110 @@
+entity_id,doc_id,period_fy,ordinance,fund_code,fund,general_fund_part,section,line_item,amount,printed,pdf_page,flag,exception_ids
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,balance,Beginning fund balance,767259,1,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,930000,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Employee Medical Contribution,22500,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Farm Lease,3825,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Miscellaneous,38000,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,62384,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Interest,1500,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,revenue,Total Revenues Corporate Fund,1058209,1,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Salaries,411212,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Employee Benefits,231084,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Contractual,265300,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Commodities,147283,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Equipment,96930,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Buildings,44387,0,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,appropriation,Total Appropriated for the Corporate Fund,1196196,1,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Corporate Fund,,balance,Estimated year-end fund balance,629272,1,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,balance,Beginning fund balance,557081,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,890000,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,revenue,Other,960000,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,revenue,Interest,1000,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,revenue,Total Revenues Recreation Fund,1851000,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Salaries,1292366,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Employee Benefits,59059,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Contractual,299900,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Commodities,136850,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Equipment,42115,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Building,57805,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Contingencies,0,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,appropriation,Total Appropriated for Recreation Fund,1888095,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,02,Recreation Fund,,balance,Estimated year-end fund balance,519986,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,balance,Beginning fund balance,1749248,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Tax,2232200,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,1115000,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,revenue,Other,50000,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,revenue,Interest,800,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,revenue,Total Bond and Interest Revenues,3398000,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,1747706.89,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,878700,0,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,appropriation,Total Appropriated for Bond and Interest Fund,2626406.89,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,12,Bond & Interest Fund,,balance,Estimated year-end fund balance,2520841.11,1,2,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,balance,Beginning fund balance,307538,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,revenue,Museum Tax,85000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,revenue,Interest,100,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,revenue,Other,4500,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,revenue,Total Revenues Museum Fund,89600,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,appropriation,Salaries,28655,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,appropriation,Contractual,151500,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,appropriation,Commodities,5651,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,appropriation,Building,25645,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,appropriation,Total Appropriated for Museum Fund,211451,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,03,Museum Fund,,balance,Estimated year-end fund balance,185687,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,balance,Beginning fund balance,68280,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,revenue,. I.M.R.F. Tax-C.P.P.,8000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,revenue,LM.R.F. Tax,105000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,revenue,Interest,400,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,revenue,Total Revenues J.M.R.F. Fund,113400,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,appropriation,I.MLR.F.,100000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,appropriation,Total Appropriated I.M.R.F. Fund,100000,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,IMRF Fund,imrf,balance,Estimated year-end fund balance,81680,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,balance,Beginning fund balance,86204,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,revenue,Social Security P.P.R.,10000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,160745,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,revenue,Interest,400,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,revenue,Total Revenues Social Security Fund,171145,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,appropriation,Social Security :,150000,0,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,appropriation,Total Appropriated Social Security Fund,150000,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Social Security Fund,social_security,balance,Estimated year-end fund balance,107349,1,3,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,balance,Beginning fund balance,166007,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,revenue,Liability Tax,75000,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,revenue,Interest,400,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,revenue,Other,7000,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,revenue,Total Revenues Liability Fund,82400,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,90000,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,appropriation,Other,10000,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,appropriation,Total Appropriated Liability Fund,100000,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Liability Fund,liability,balance,Estimated year-end fund balance,148407,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,balance,Beginning fund balance,6211,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,revenue,Audit Tax,15000,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,revenue,Interest,50,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,15050,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,appropriation,Audit,15500,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,appropriation,Total Appropriated Audit Fund,15500,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,01,Audit Fund,audit,balance,Estimated year-end fund balance,5761,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,balance,Beginning fund balance,48718,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,revenue,Taxes,0,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,revenue,Total Revenues Working Cash Fund,0,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,appropriation,"Miscellaneous Expenses ,",0,0,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,appropriation,Total Appropriated Working Cash Fund,0,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,,Working Cash Fund,working_cash,balance,Estimated year-end fund balance,48718,1,4,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,balance,Beginning fund balance,2336,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,revenue,Other,100,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,revenue,Total Revenues Riverfront Fund,100,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,appropriation,Path,52436,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,appropriation,Total Appropriated Riverfront Fund,52436,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,25,Riverfront Fund,,balance,Estimated year-end fund balance,0,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,balance,Beginning fund balance,251167,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Tax,245267,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,revenue,Other,216300,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,revenue,Interest,200,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,revenue,Total Revenues Special Recreation Fund,461767,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Salaries,320487,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Employee Benefits,48200,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Contractual,41200,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Commodities,73500,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Equipment,7500,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Building,9750,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Contingencies,0,0,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,appropriation,Total Appropriated for Special Recreation Fund,500637,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2019_appropriation,2019,appropriation,09,Special Recreation Fund,,balance,Estimated year-end fund balance,212297,1,5,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,balance,Beginning fund balance,775047,1,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,980000,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Employee Medical Contribution,22500,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Farm Lease,3825,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Miscellaneous,38000,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,108238,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Interest,1500,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,revenue,Total Revenues Corporate Fund,1154063,1,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Salaries,598822,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Employee Benefits,217055,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Contractual,252350,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Commodities,169999,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Equipment,110074,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Buildings,29133,0,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,appropriation,Total Appropriated for the Corporate Fund,1377433,1,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Corporate Fund,,balance,Estimated year-end fund balance,551677,1,1,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,balance,Beginning fund balance,751221,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,885000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,revenue,Other,902000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,revenue,Interest,1000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,revenue,Total Revenues Recreation Fund,1788000,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Salaries,1124882,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Employee Benefits,66600,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Contractual,374518,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Commodities,169000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Equipment,37015,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Building,62800,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Contingencies,0,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,appropriation,Total Appropriated for Recreation Fund,1834815,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,02,Recreation Fund,,balance,Estimated year-end fund balance,704406,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,balance,Beginning fund balance,1756157,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Tax,1147365,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,1135000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,revenue,Other,28000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,revenue,Interest,800,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,revenue,Total Bond and Interest Revenues,2311165,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,2636775,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,975000,0,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,appropriation,Total Appropriated for Bond and Interest Fund,3611775,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,12,Bond & Interest Fund,,balance,Estimated year-end fund balance,455547,1,2,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,balance,Beginning fund balance,357103,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,revenue,Museum Tax,100000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,revenue,Interest,100,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,revenue,Other,3500,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,revenue,Total Revenues Museum Fund,103600,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,appropriation,Salaries,24000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,appropriation,Contractual,190265,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,appropriation,Commodities,8120,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,appropriation,Building,25645,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,appropriation,Total Appropriated for Museum Fund,248030,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,03,Museum Fund,,balance,Estimated year-end fund balance,212673,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,balance,Beginning fund balance,72768,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax-C.P.P.,8000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax,105000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,revenue,Interest,400,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,revenue,Total Revenues I.M.R.F. Fund,113400,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,appropriation,ILM.R-F.,100000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,appropriation,Total Appropriated I.M.R.F. Fund,100000,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,IMRF Fund,imrf,balance,Estimated year-end fund balance,86168,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,balance,Beginning fund balance,126884,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,revenue,Social Security P.P.R.,10000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,140404,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,revenue,Interest,400,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,revenue,Total Revenues Social Security Fund,150804,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,appropriation,Social Security,140000,0,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,appropriation,Total Appropriated Social Security Fund,140000,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Social Security Fund,social_security,balance,Estimated year-end fund balance,137688,1,3,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,balance,Beginning fund balance,154925,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,revenue,Liability Tax,90000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,revenue,Interest,400,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,revenue,Other,7000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,revenue,Total Revenues Liability Fund,97400,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,85000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,appropriation,Other,10000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,appropriation,Total Appropriated Liability Fund,95000,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Liability Fund,liability,balance,Estimated year-end fund balance,157325,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,balance,Beginning fund balance,6895,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,revenue,Audit Tax,15000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,revenue,Interest,100,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,15100,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,appropriation,Audit,15000,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,appropriation,Total Appropriated Audit Fund,15000,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,01,Audit Fund,audit,balance,Estimated year-end fund balance,6995,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,balance,Beginning fund balance,48718,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,revenue,Taxes,0,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,revenue,Total Revenues Working Cash Fund,0,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,appropriation,Miscellaneous Expenses,0,0,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,appropriation,Total Appropriated Working Cash Fund,0,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,,Working Cash Fund,working_cash,balance,Estimated year-end fund balance,48718,1,4,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,balance,Beginning fund balance,0,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,revenue,Other,0,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,revenue,Total Revenues Riverfront Fund,0,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,appropriation,Path,0,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,appropriation,Total Appropriated Riverfront Fund,0,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,25,Riverfront Fund,,balance,Estimated year-end fund balance,0,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,balance,Beginning fund balance,214113,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Tax,256554,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,revenue,Other,212651,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,revenue,Interest,200,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,revenue,Total Revenues Special Recreation Fund,469405,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Salaries,296568,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Employee Benefits,62550,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Contractual,28625,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Commodities,74480,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Equipment,11500,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Building,10525,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Contingencies,0,0,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,appropriation,Total Appropriated for Special Recreation Fund,484248,1,5,,
+belvidere_park_district,FY2020_appropriation,2020,appropriation,09,Special Recreation Fund,,balance,Estimated year-end fund balance,199270,1,5,,
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,balance,Beginning fund balance,880597,1,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1100000,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Employee Medical Contribution,18101,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Farm Lease,3825,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Miscellaneous,27000,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,50000,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Interest,1500,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,revenue,Total Revenues Corporate Fund,1200426,1,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Salaries,505637,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Employee Benefits,241689,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Contractual,252290,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Commodities,166140,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Equipment,111972,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Buildings,34857,0,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,appropriation,Total Appropriated for the Corporate Fund,1312585,1,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Corporate Fund,,balance,Estimated year-end fund balance,768438,1,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,balance,Beginning fund balance,658593,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,828385,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,revenue,Other,880216,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,revenue,Interest,1000,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,revenue,Total Revenues Recreation Fund,1709601,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Salaries,1122085,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Employee Benefits,154302,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Contractual,368208,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Commodities,144641,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Equipment,32560,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Building,49250,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Contingencies,0,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,appropriation,Total Appropriated for Recreation Fund,1871046,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,02,Recreation Fund,,balance,Estimated year-end fund balance,497148,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,balance,Beginning fund balance,1661470,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Tax,1185531,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,1162800,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,revenue,Other,10000,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,revenue,Interest,800,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,revenue,Total Bond and Interest Revenues,2358331,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,1541305,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,657000,0,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,appropriation,Total Appropriated for Bond and Interest Fund,2198305,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,12,Bond & Interest Fund,,balance,Estimated year-end fund balance,1821496,1,2,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,revenue,Museum Tax,100000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,revenue,Interest,100,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,revenue,Other,6000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,revenue,Total Revenues Museum Fund,106100,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,appropriation,Salaries,1080,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,appropriation,Contractual,173200,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,appropriation,Commodities,6720,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,appropriation,Building,24035,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,appropriation,Total Appropriated for Museum Fund,205035,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,03,Museum Fund,,balance,Estimated year-end fund balance,317457,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,balance,Beginning fund balance,89112,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax-C.P.P.,10000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,revenue,IM.R.F. Tax,100000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,revenue,Interest,400,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,revenue,"Total Revenues I.M.R.F, Fund",110400,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,appropriation,IM.RF.,100000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,appropriation,Total Appropriated 1.M.R.F. Fund,100000,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,IMRF Fund,imrf,balance,Estimated year-end fund balance,99512,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,balance,Beginning fund balance,144334,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,revenue,Social Security P.P.R.,10000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,140000,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,revenue,Interest,400,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,revenue,Total Revenues Social Security Fund,150400,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,appropriation,Social Security,144787,0,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,appropriation,Total Appropriated Social Security Fund,144787,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Social Security Fund,social_security,balance,Estimated year-end fund balance,149947,1,3,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,balance,Beginning fund balance,173731,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,revenue,Liability Tax,95000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,revenue,Interest,400,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,revenue,Other,2000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,revenue,Total Revenues Liability Fund,97400,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,appropriation,Salaries,17940,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,82000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,appropriation,Other ‘,5000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,appropriation,Total Appropriated Liability Fund,104940,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Liability Fund,liability,balance,Estimated year-end fund balance,166191,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,balance,Beginning fund balance,6856,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,revenue,Audit Tax,15000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,revenue,Interest,100,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,15100,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,appropriation,Audit,15000,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,appropriation,Total Appropriated Audit Fund,15000,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,01,Audit Fund,audit,balance,Estimated year-end fund balance,6956,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,balance,Beginning fund balance,48718,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,revenue,Taxes,0,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,revenue,Total Revenues Working Cash Fund,0,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,appropriation,Miscellaneous Expenses,0,0,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,appropriation,Total Appropriated Working Cash Fund,0,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,,Working Cash Fund,working_cash,balance,Estimated year-end fund balance,48718,1,4,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,25,Riverfront Fund,,revenue,Other,0,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,25,Riverfront Fund,,revenue,Total Revenues Riverfront Fund,0,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,25,Riverfront Fund,,appropriation,Path,0,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,25,Riverfront Fund,,appropriation,Total Appropriated Riverfront Fund,0,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,25,Riverfront Fund,,balance,Estimated year-end fund balance,0,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,balance,Beginning fund balance,213767,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Tax,267535,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,revenue,Other,229987,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,revenue,Interest,200,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,revenue,Total Revenues Special Recreation Fund,497722,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Salaries,257008,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Employee Benefits,78217,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Contractual,36425,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Commodities,64005,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Equipment,9500,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Building,9840,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Contingencies,0,0,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,appropriation,Total Appropriated for Special Recreation Fund,454995,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2021_appropriation,2021,appropriation,09,Special Recreation Fund,,balance,Estimated year-end fund balance,256494,1,5,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1162000,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Employee Medical Contribution,20292,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Farm Lease,3825,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Miscellaneous,10000,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property,60000,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Replacement Tax Other,41800,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Interest,1500,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,1299417,1,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Salaries,434669,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Employee Benefits,277772,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Contractual,298532,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Commodities,259727,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Equipment,98383,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Buildings,31005,0,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,1400088,1,1,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,874912,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,revenue,Employee Insurance Contribution,5189,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,revenue,Other,851356,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,revenue,Interest,1000,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,1732457,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Salaries,1166364,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Employee Benefits,94480,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,; Contractual,234180,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Commodities,288192,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Equipment,44710,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Buildings,50210,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,1878136,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Taxes,1175458,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,1170000,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,revenue,Other,103960,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,revenue,Interest,800,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,2450218,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,1668095,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,833645,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,2501740,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,revenue,Museum Tax,103637,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,revenue,Interest,100,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,revenue,Other,106500,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,revenue,Total Revenue Museum Fund,210237,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Salaries,10000,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Employee Benefits,0,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Contractual,139000,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Commodities,12900,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Buildings,43565,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,03,Museum Fund,,appropriation,Museum Fund Total,205465,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax -PPR,10000,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax,105649,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,revenue,Interest,400,0,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,revenue,Total Revenue I.M.R.F. Fund,116049,1,2,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,appropriation,IM.RF.,78028,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,IMRF Fund,imrf,appropriation,I.M.R.F. Fund Appropriation Total,78028,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,revenue,Social Security P.P.R.,10000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,147909,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,revenue,Interest,400,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,revenue,Total Revenue Social Security Fund,158309,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,appropriation,Social Security,109238,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Social Security Fund,social_security,appropriation,Social Security Fund Total,109238,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,revenue,Liability Tax,100331,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,revenue,Interest,400,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,revenue,Other,5000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,revenue,Total Revenue Liability Fund,105731,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,appropriation,Salaries,17940,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,85000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,appropriation,Other,4000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Liability Fund,liability,appropriation,Liability Fund Appropriation Total,106940,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Audit Fund,audit,revenue,Audit Tax,15000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Audit Fund,audit,revenue,Interest,100,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,15100,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Audit Fund,audit,appropriation,Audit,16500,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,01,Audit Fund,audit,appropriation,Audit Fund Total,16500,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Taxes,277178,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,revenue,Employee Insurance Contributions,11337,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,revenue,Other,200000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,revenue,Interest,200,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,488715,1,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Salaries,275369,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Employee Benefits,81410,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Contractual,12000,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Commodities,83838,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Equipment,9780,0,3,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Buildings,14480,0,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,09,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,476877,1,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1218217,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Farm Lease,4000,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Miscellaneous,11000,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,60000,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Other,27500,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Interest,3500,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,1324217,1,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Personnel Services,703433.90,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Utilities and Other Contractual Services,459739,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Commodities,205467,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Equipment,35720,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Building,23160,0,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,1427019.90,1,1,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,917250,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,revenue,Other,860229,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,1777479,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Personnel Services,1296182.23,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Utilities and Other Contractual Services,347422,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Commodities,90939,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Building,19100,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Equipment,26150,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,1776793.23,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Taxes,1233546,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Debt Service,482700,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,706300,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Other,175000,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Interest,1800,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,2599346,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,482700,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,880796,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,appropriation,Bonds & Interest,1233546,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,2596952,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,revenue,Museum Tax,108711,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,revenue,Interest,100,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,revenue,Other,81500,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,revenue,Total Revenue Museum Fund,190311,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,appropriation,Personnel Services,10000,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,appropriation,Utilities and Other Contractual Services,155937,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,appropriation,Commodities,6500,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,appropriation,Buildings,15250,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,03,Museum Fund,,appropriation,Museum Fund Total,187687,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax -PPR,15000,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,revenue,I.M.R.F. Tax,110835,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,revenue,Interest,500,0,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,revenue,Total Revenue I.M.R.F. Fund,126335,1,2,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,appropriation,LM.R.F.,69000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,IMRF Fund,imrf,appropriation,I.M.R.F. Fund Appropriation Total,69000,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,revenue,Social Security P.P.R.,27000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,155138,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,revenue,Interest,500,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,revenue,Total Revenue Social Security Fund,182638,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,appropriation,Social Security & Medicare,162701,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Social Security Fund,social_security,appropriation,Social Security Fund Total,162701,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,revenue,Liability Tax,105221,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,revenue,Interest,500,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,revenue,Other,10000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,revenue,Total Revenue Liability Fund,115721,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,appropriation,Salaries,10000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,85000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,appropriation,Other,16650,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Liability Fund,liability,appropriation,Liability Fund Appropriation Total,111650,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Audit Fund,audit,revenue,Audit Tax,15779,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Audit Fund,audit,revenue,Interest,100,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,15879,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Audit Fund,audit,appropriation,Audit,17000,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,01,Audit Fund,audit,appropriation,Audit Fund Appropriation Total,17000,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Taxes,353488,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,revenue,Other,215150,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,revenue,Interest,400,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,569038,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,appropriation,Personnel Services,412947.09,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,appropriation,Utilities and Other Contractual Services,24852,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,appropriation,Commodities,71433,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,appropriation,Building,9264,0,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,09,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,518496,1,3,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1286518,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Farm Lease,3825,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Miscellaneous,12500,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,. Corporate Personal Property Replacement Tax,191000,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Other,47250,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Interest,10250,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,1551343,1,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Personnel Services,818538,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Administrative Services,270318,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Board Services,12950,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Parks Services,398613,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Utilities,112269,0,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,1612688,1,1,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,969026,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,revenue,Other .,913042,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,1882068,1,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Personnel Services,941452,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Administrative Services,67905,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Parks Services,6535,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Advertising,74670,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Aquatics,50000,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Doty Park,112941,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Rivers Edge,174551,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Preschool,63865,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Summer Camp,79625,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Adult Athletics,17576,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Adult Fitness,19746,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Youth Athletics,16328,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Youth Fitness,20349,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Youth,6344,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Third Base,170510,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Special & Community Events,24086,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Prairie Fields,35585,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,1882068,1,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,Real! Estate Taxes,1242000,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,Debt Service,484400,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,Bond Proceeds,694400,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,Other,25000,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,interest,1800,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,2447600,1,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,appropriation,Debt Service,484400,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,appropriation,Capital Projects,720491.35,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,appropriation,Bonds & Interest,1242000,0,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,2446891.35,1,2,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,revenue,Museum Tax,114871,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,revenue,interest,250,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,revenue,Other,92000,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,revenue,Total Revenue Museum Fund,207121,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,appropriation,Administrative Services,600,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,appropriation,Park Services,195194,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,appropriation,Utilities,11321,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,03,Museum Fund,,appropriation,Museum Fund Appropriation Total,207115,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,IMRF Fund,imrf,revenue,IMRF Tax,97583.45,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,IMRF Fund,imrf,revenue,Total Revenue I.M.R.F. Fund,97583.45,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,IMRF Fund,imrf,appropriation,IMRF Employer Contribution _,44737,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,IMRF Fund,imrf,appropriation,IMRF Fund Appropriation Total,44737,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,163948,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,revenue,Social Security Personal Replacement Tax,9000,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,revenue,Interest,1000,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,revenue,Total Revenue Social Security Fund,173948,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,appropriation,Social Security & Medicare,173840,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Social Security Fund,social_security,appropriation,Social Security Fund Total,173840,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,revenue,Liability Tax,111183,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,revenue,Interest,250,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,revenue,Other,8000,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,revenue,Total Revenue Liability Fund,119433,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,85000,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,appropriation,Other Risk Management Expenses,26506,0,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Liability Fund,liability,appropriation,Liability Fund Appropriation Total,111506,1,3,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Audit Fund,audit,revenue,Audit Tax,16714,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Audit Fund,audit,revenue,Interest,1750,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,18464,1,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Audit Fund,audit,appropriation,Audit,18000,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,01,Audit Fund,audit,appropriation,Audit Fund Appropriation Total,18000,1,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,revenue,Special Recreation Taxes,327734,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,revenue,Other,215352,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,revenue,Interest,500,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,543586,1,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Personnel Services,229735,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Administrative Services,26265,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Advertising,8240,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Park Services,39180,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Adult Services,90712,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Youth Services,81469,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Specialty/Special Olympic Services,50650,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Inclusion Services,5000,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Utilities,11060,0,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,09,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,542311,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1330010,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Farm Lease,4000,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Miscellaneous,5354,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,120500,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Other,50900,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Bond Proceeds,40000,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,1550764,1,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Personnel Services,889444,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Administrative Services,229203,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Board Services,10950,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Parks Services,360698,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Utilities,122211,0,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,1612506,1,1,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,1001949,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,revenue,Other,945408,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,revenue,interest,14700,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,1962057,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Personnel Services,1377945.50,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Administrative Services,47166.50,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Parks Services,298845,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Advertising,74276,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Supplies,49039,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Utilities,114785,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,1962057,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,revenue,Bond Proceeds,433800,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,revenue,Interest,62300,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,revenue,Total revenue,496100,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Principal,433800,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Interest .,61500,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Alternate Bond & Interest Appropriation Total,495300,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Taxes,1332934,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,revenue,Interest,1500,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,1334434,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds Principal,1284000,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds Interest,48934,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,1332934,1,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,revenue,Bond Proceeds,810200,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,revenue,Grant Revenue,1604000,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,revenue,Interest,8500,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,revenue,Other,51100,0,2,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,revenue,Total Revenue Capital Improvement Fund,2473800,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,appropriation,Capital Projects,2473800,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,21,Capital Improvement Fund,,appropriation,Capital Improvement Fund Appropriation Total,2473800,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,revenue,Museum Tax,118841,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,revenue,Interest,32800,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,revenue,Other,53940,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,revenue,Total Revenue Museum Fund,205581,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,appropriation,Administrative Services,600,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,appropriation,Park Services,193230,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,appropriation,Utilities,11750,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,08,Museum Fund,,appropriation,Museum Fund Appropriation Total,205580,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,IMRF Fund,imrf,revenue,IMRF Tax,100988,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,IMRF Fund,imrf,revenue,Interest,500,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,IMRF Fund,imrf,revenue,Total Revenue I.M.R.F. Fund,101488,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,IMRF Fund,imrf,appropriation,IMRF Employer Contribution,50000,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,IMRF Fund,imrf,appropriation,IMRF Fund Appropriation Total!,50000,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,revenue,Social Security Tax,169550,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,revenue,Social Security Personal Replacement Tax,10000,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,revenue,Interest,500,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,revenue,Total Revenue Social Security Fund,180050,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,appropriation,Social Security & Medicare,177349,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Social Security Fund,social_security,appropriation,Social Security Fund Total,177349,1,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,revenue,Liability Tax,114959,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,revenue,Interest,500,0,3,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,revenue,Other,8000,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,revenue,Total Revenue Liability Fund,123459,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,appropriation,Insurance Premium,96066,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,appropriation,Other Risk Management Expenses,17274,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Liability Fund,liability,appropriation,Liability Fund Appropriation Total,113340,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Audit Fund,audit,revenue,Audit Tax,17334,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Audit Fund,audit,revenue,Interest,100,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Audit Fund,audit,revenue,Total Revenues Audit Fund,17434,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Audit Fund,audit,appropriation,Audit,20000,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,01,Audit Fund,audit,appropriation,Audit Fund Appropriation Total,20000,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,revenue,Special Recreation Taxes,342205,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,revenue,Other,239692.80,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,revenue,Interest,6200,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,588097.80,1,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Personnel Services,459359.75,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Administrative Services,25806.50,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Park Services,14316,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Advertising,2103,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Supplies,65526.55,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Utilities,20986,0,4,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,05,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,588097.80,1,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1381445,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,IMRF Tax,104956,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Social Security Tax,180598,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Liability Tax,119469,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Audit Tax,18069,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Farm Lease,3850,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Miscellaneous,6000,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,130000,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Interest,25000,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Other,59600,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Bond Proceeds,53800,0,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,2082787,1,1,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Personnel Services,959748,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Administrative Services,242717.89,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Board Services,11225,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Parks Services,323465.12,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Utilities,135890.50,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,IMRF Employer Contribution,59800,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Social Security & Medicare,194050,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Liability Premium,110400,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Other Risk Management Expenses,24038,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Audit,21325,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,2082659.51,1,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,1040721,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,revenue,Other,897292.50,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,revenue,Interest,25000,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,1963013.50,1,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Personnel Services,1459927.12,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Administrative Services,47442,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Parks Services,192996.72,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Advertising,71843.56,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Supplies,63313.50,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Utilities,127486,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,1963008.90,1,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,revenue,Special Recreation Taxes,390000,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,revenue,Other,240516.10,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,revenue,Interest,11600,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,642116.10,1,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Personnel Services,498510.20,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Administrative Services,18063,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Park Services,30216,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Advertising,1525,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Supplies,70782.18,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Utilities,23019.72,0,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,05,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,642116.10,1,2,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,revenue,Museum Tax,123506,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,revenue,Interest,13900,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,revenue,Other,2250,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,revenue,Total Revenue Museum Fund,139656,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,appropriation,Administrative Services,250,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,appropriation,Park Services,126180,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,appropriation,Utilities,12186,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,08,Museum Fund,,appropriation,Museum Fund Appropriation Total,138616,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,revenue,Bond Proceeds,446500,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,revenue,Interest,62431,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,revenue,Total revenue,508931,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Principal,385000,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Interest,115300,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Alternate Bond & Interest Appropriation Total,500300,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Taxes,1378864,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,revenue,Interest,10300,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,1389164,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds Principal,1335000,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds interest,42889.10,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,1377889.10,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,revenue,Bond Proceeds,834700,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,revenue,Grant Revenue,1674824,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,revenue,Interest,53700,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,revenue,Other,34100,0,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,revenue,Total Revenue Capital Improvement Fund,2597324,1,3,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,appropriation,Capital Projects,2595003,0,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,21,Capital Improvement Fund,,appropriation,Capital Improvement Fund Appropriation Total,2595003,1,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Corporate Taxes,1438016,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,IMRF Tax,108517,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Social Security Tax,186658,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Liability Tax,123544,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Audit Tax,18676,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Farm Lease,3750,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Miscellaneous,4000,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Corporate Personal Property Replacement Tax,166595,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Interest,37683,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Other,77650,0,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,revenue,Total Revenue Corporate Fund,2165089,1,1,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Personnel Services,1037494,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Administrative Services,264522,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Board Services,9050,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Parks Services,325330,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Utilities,146833,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,IMRF Employer Contribution,36000,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Social Security & Medicare,196950,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Liability Premium,114772,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Other Risk Management Expenses,10938,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Audit,23200,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,01,Corporate Fund,,appropriation,Corporate Fund Appropriation Total,2165089,1,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,revenue,Recreation Taxes,1075511,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,revenue,Other,983172,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,revenue,Interest,21431,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,revenue,Total Revenue Recreation Fund,2080114,1,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Personnel Services,1551509.50,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Administrative Services,162437,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Parks Services,101525,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Advertising,77779,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Supplies,56423.50,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Utilities,130440,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,02,Recreation Fund,,appropriation,Recreation Fund Appropriation Total,2080114,1,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,revenue,Special Recreation Taxes,449500,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,revenue,Other,236557,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,revenue,Interest,8949,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,revenue,Total Revenue Special Recreation Fund,695006,1,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Personnel Services,505083,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Administrative Services,24621,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Park Services,57540,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Advertising,1500,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Supplies,76364,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Utilities,29898,0,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,05,Special Recreation Fund,,appropriation,Special Recreation Fund Appropriation Total,695006,1,2,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,revenue,Museum Tax,127730,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,revenue,Interest,10221,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,revenue,Other,21500,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,revenue,Total Revenue Museum Fund,159451,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,appropriation,Administrative Services,50,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,appropriation,Park Services,145792,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,appropriation,Utilities,13609,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,08,Museum Fund,,appropriation,Museum Fund Appropriation Total,159451,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,revenue,Bond Proceeds,499600,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,revenue,Interest,471,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,revenue,Total revenue,500071,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Principal,400000,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Interest,99600,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,10,Alternate Bond & Interest Fund,,appropriation,Alternate Bond & Interest Appropriation Total,499600,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,revenue,Real Estate Taxes,1415099,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,revenue,Interest,7520,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,revenue,Total Revenue Bond and Interest Fund,1422619,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds Principal,1369000,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,appropriation,General Obligation Bonds Interest,46099,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,12,Bond & Interest Fund,,appropriation,Bond and Interest Fund Appropriation Total,1415099,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,revenue,Bond Proceeds,929350,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,revenue,Grant Revenue,660900,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,revenue,Interest,39925,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,revenue,Other,55100,0,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,revenue,Total Revenue Capital Improvement Fund,1685275,1,3,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,appropriation,Capital Projects,1681908,0,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,21,Capital Improvement Fund,,appropriation,Capital Improvement Fund Appropriation Total,1681908,1,4,,
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Salaries,505637,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Employee Benefits,241689,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Contractual,252290,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Commodities,166140,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Equipment,111972,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Buildings,34857,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,expenditure,Total Expenditures,1312585,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Corporate Fund,,levy,Corporate Tax,1162000,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Salaries,1122085,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Employee Benefits,154302,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Contractual,368208,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Commodities,144641,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Equipment,32560,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Building,49250,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,expenditure,Total Expenditures,1871046,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,02,Recreation Fund,,levy,Recreation Tax,874912,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,12,Bond & Interest Fund,,expenditure,Debt Service,1175458,0,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,1175458,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,12,Bond & Interest Fund,,levy,Debt Service,1175458,1,1,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Salaries,257008,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Employee Benefits,78217,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Contractual,36425,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Commodities,64005,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Equipment,9500,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Building,9840,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,expenditure,Total Expenditures,454995,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,09,Special Recreation Fund,,levy,Joint Handicap Recreation Tax,277178,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Salaries,1080,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Contractual,173200,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Commodities,6720,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Repairs,13650,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Building,24035,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,expenditure,Total Expenditures,205035,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,03,Museum Fund,,levy,Museum Tax,103637,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,IMRF Fund,imrf,expenditure,LM.R.F.,100000,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,IMRF Fund,imrf,levy,1.M.R.F. Tax,105649,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Social Security Fund,social_security,expenditure,"F.ILC.A,.",144787,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,144787,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Social Security Fund,social_security,levy,Social Security Tax,147909,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Liability Fund,liability,expenditure,Salaries,17940,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Liability Fund,liability,expenditure,Premiums,82000,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Liability Fund,liability,expenditure,Other/Claims,5000,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Liability Fund,liability,expenditure,Total Expenditures,104940,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Liability Fund,liability,levy,Liability Tax,100331,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Audit Fund,audit,expenditure,Audit of Park District Accounts,15000,0,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Audit Fund,audit,expenditure,Total Expenditures,15000,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,01,Audit Fund,audit,levy,Audit Tax,15000,1,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Personnel Services,703433.90,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Utilities and Other Contractual Services,459739,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Commodities,205467,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Equipment,35720,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Buildings,23160,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,expenditure,Total Expenditures,1427019.90,1,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Corporate Fund,,levy,Corporate Purposes,1218217,1,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Personnel Services,1296182.23,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Utilities and Other Contractual Services,347422,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Commodities,90939,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Buildings,19100,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Equipment,26150,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,expenditure,Total Expenditures,1776793.23,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,02,Recreation Fund,,levy,Recreation Fund,917250,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,expenditure,Personnel Services,10000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,expenditure,Utilities and Other Contractual Services =,155937,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,expenditure,Commodities 4,6500,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,expenditure,Buildings . % i,15250,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,expenditure,Total Expenditures,187687,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,03,Museum Fund,,levy,Museum Fund,108711,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,09,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement .,518496.09,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,09,Special Recreation Fund,,expenditure,Total Expenditures,518496.09,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,09,Special Recreation Fund,,levy,~ for Special Recreation Fund,303488,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Liability Fund,liability,expenditure,4 ‘Joint Self-Insurance Premiums,85000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,26650,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Liability Fund,liability,expenditure,Total Expenditures,111650,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Liability Fund,liability,levy,Insurance Fund,105221,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,17000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Audit Fund,audit,expenditure,Total Expenditures,17000,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Audit Fund,audit,levy,Audit Services,15779,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,69000,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,69000,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,IMRF Fund,imrf,levy,I.M.R.F. Fund,110835,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,162701,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,162701,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,01,Social Security Fund,social_security,levy,Social Security Fund,155138,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,12,Bond & Interest Fund,,expenditure,Debt Service,482700,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,880796,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,12,Bond & Interest Fund,,expenditure,Bonds & Interest,1233546,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,2596952,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,12,Bond & Interest Fund,,levy,Debt Service Fund,1233546,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,09,Prior Year Adjustment (Special Recreation),,expenditure,"Adjustment due to clerical error from Boone County Clerk’s office of shortage of $50,000.00 for Joint Handicap Recreation Fund from taxes levied in 2021 (payable in",2022,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,09,Prior Year Adjustment (Special Recreation),,levy,Prior Year Adjustment,50000,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Personnel Services,703433.90,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Utilities and Other Contractual Services,459739,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Commodities,205467,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Equipment,35720,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Buildings,23160,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,expenditure,Total Expenditures,1427019.90,1,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Corporate Fund,,levy,Corporate Purposes,1218217,1,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Personnel Services,1296182.23,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Utilities and Other Contractual Services,347422,0,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Commodities,90939,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Buildings,19100,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Equipment,26150,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,expenditure,Total Expenditures,1776793.23,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,02,Recreation Fund,,levy,Recreation Fund,917250,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,expenditure,Personnel Services,10000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,expenditure,Utilities and Other Contractual Services,155937,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,expenditure,Commodities,6500,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,expenditure,Buildings,15250,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,expenditure,Total Expenditures,187687,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,03,Museum Fund,,levy,Museum Fund,108711,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,09,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,518496.09,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,09,Special Recreation Fund,,expenditure,Total Expenditures,518496.09,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,09,Special Recreation Fund,,levy,Special Recreation Fund,303488,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Liability Fund,liability,expenditure,Joint Self-Insurance Premiums,85000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,26650,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Liability Fund,liability,expenditure,Total Expenditures,111650,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Liability Fund,liability,levy,Insurance Fund,105221,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,17000,0,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Audit Fund,audit,expenditure,Total Expenditures,17000,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Audit Fund,audit,levy,Audit Services,15779,1,2,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,69000,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,69000,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,IMRF Fund,imrf,levy,I.M.R.F. Fund,110835,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,162701,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,162701,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,01,Social Security Fund,social_security,levy,Social Security Fund,155138,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,12,Bond & Interest Fund,,expenditure,Debt Service,482700,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,880796,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,12,Bond & Interest Fund,,expenditure,Bonds & Interest,1233546,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,2596952,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,12,Bond & Interest Fund,,levy,Debt Service Fund,1233546,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,09,Prior Year Adjustment (Special Recreation),,expenditure,"Adjustment due to clerical error from Boone County Clerk’s office of shortage of $50,000.00 for Joint Handicap Recreation Fund from taxes levied in 2021 (payable in",2022,0,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,09,Prior Year Adjustment (Special Recreation),,levy,Prior Year Adjustment,50000,1,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Personnel Services,818538,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Administrative Services,270318,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Board Services,12950,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Parks Services,398613,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Utilities,112269,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,expenditure,Total Expenditures,1612688,1,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Corporate Fund,,levy,Corporate Purposes,1286518,1,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Personnel Services,941452,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Administrative Services,67905,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Parks Services,6535,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Advertising,74670,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Aquatics,50000,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Doty Park,112941,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Rivers Edge,174551,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Preschool,63865,0,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Summer Camp,79625,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Adult Athletics,17576,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Adult Fitness,19746,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Youth Athletics,16328,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Youth Fitness,20349,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Youth,6344,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Third Base,170510,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Special & Community Events,24086,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Prairie Fields,35585,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,expenditure,Total Expenditures,1882068,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,02,Recreation Fund,,levy,Recreation Fund,969026,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,03,Museum Fund,,expenditure,Administrative Services,600,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,03,Museum Fund,,expenditure,Park Services,195194,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,03,Museum Fund,,expenditure,Utilities,11321,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,03,Museum Fund,,expenditure,Total Expenditures,207115,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,03,Museum Fund,,levy,Museum Fund,114871,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,09,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,542311,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,09,Special Recreation Fund,,expenditure,Total Expenditures,542311,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,09,Special Recreation Fund,,levy,Special Recreation Fund,327734,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Liability Fund,liability,expenditure,Joint Self-Insurance Premiums,85000,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,26506,0,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Liability Fund,liability,expenditure,Total Expenditures,111506,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Liability Fund,liability,levy,Insurance Fund,111183,1,3,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,18000,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Audit Fund,audit,expenditure,Total Expenditures,18000,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Audit Fund,audit,levy,Audit Services,16714,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,44737,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,44737,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,IMRF Fund,imrf,levy,I.M.R.F. Fund,97583.45,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,173840,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,173840,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,01,Social Security Fund,social_security,levy,Social Security Fund,163948,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,12,Bond & Interest Fund,,expenditure,Debt Service,484000,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,720400,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,12,Bond & Interest Fund,,expenditure,Bonds & Interest,1242000,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,2446800,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,12,Bond & Interest Fund,,levy,Debt Service Fund,1242000,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,09,Prior Year Adjustment (Special Recreation),,expenditure,"Adjustment due to a two-year clerical error by the Boone County Clerk’s office of shortage of $50,000.00 for Joint Handicap Recreation Fund from taxes levied in 2021 (payable in",2022,0,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,09,Prior Year Adjustment (Special Recreation),,levy,Prior Year Adjustment,50000,1,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Personnel Services,889444,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Administrative Services,229203,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Board Services,10950,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Parks Services,360698,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Utilities,122211,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,expenditure,Total Expenditures,1612506,1,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Corporate Fund,,levy,Corporate Purposes,1330010,1,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Personnel Services,1377945.50,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Administrative Services,47166.50,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Parks Services,298845,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Advertising,74276,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Supplies,49039,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Utilities,114785,0,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,expenditure,Total Expenditures,1962057,1,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,02,Recreation Fund,,levy,Recreation Fund,1001949,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,08,Museum Fund,,expenditure,Administrative Services,600,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,08,Museum Fund,,expenditure,Park Services,193230,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,08,Museum Fund,,expenditure,Utilities,11750,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,08,Museum Fund,,expenditure,Total Expenditures,205580,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,08,Museum Fund,,levy,Museum Fund,118841,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,05,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,588097.80,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,05,Special Recreation Fund,,expenditure,Total Expenditures,588097.80,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,05,Special Recreation Fund,,levy,Special Recreation Fund,342205,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Liability Fund,liability,expenditure,Joint Self-Insurance Premiums,96066,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,17274,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Liability Fund,liability,expenditure,Total Expenditures,113340,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Liability Fund,liability,levy,Insurance Fund,114959,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,20000,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Audit Fund,audit,expenditure,Total Expenditures,20000,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Audit Fund,audit,levy,Audit Services,17334,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,50000,0,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,50000,1,2,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,IMRF Fund,imrf,levy,I.M.R.F. Fund,100988,1,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,177349,0,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,177349,1,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,01,Social Security Fund,social_security,levy,Social Security Fund,169550,1,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,12,Bond & Interest Fund,,expenditure,Debt Service,433800,0,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,850200,0,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,12,Bond & Interest Fund,,expenditure,Interest,48934,0,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,1332934,1,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,12,Bond & Interest Fund,,levy,Bond & Interest Fund,1332934,1,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Personnel Services,959748,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Administrative Services,242717.89,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Board Services,11225,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Parks Services,323465.12,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Utilities,135890.50,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,expenditure,Total Expenditures,1673046.51,1,1,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Corporate Fund,,levy,Corporate Purposes,1381445,1,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Personnel Services,1459927.12,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Administrative Services,47442,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Parks Services,192996.72,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Advertising,71843.56,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Supplies,63313.50,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Utilities ;,127486,0,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,expenditure,Total Expenditures,1963008.90,1,1,,
+belvidere_park_district,FY2026_levy,2026,levy,02,Recreation Fund,,levy,Recreation Fund,1040721,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,05,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,642116.10,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,05,Special Recreation Fund,,expenditure,Total Expenditures,642116.10,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,05,Special Recreation Fund,,levy,Special Recreation Fund,390000,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,08,Museum Fund,,expenditure,Administrative Services,250,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,08,Museum Fund,,expenditure,Park Services,126180,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,08,Museum Fund,,expenditure,Utilities,12186,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,08,Museum Fund,,expenditure,Total Expenditures,138616,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,08,Museum Fund,,levy,Museum Fund,123506,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Liability Fund,liability,expenditure,Joint Self-Insurance Premiums,110400,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,24038,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Liability Fund,liability,expenditure,Total Expenditures,134438,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Liability Fund,liability,levy,Insurance Fund,119469,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,21135,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Audit Fund,audit,expenditure,Total Expenditures,21135,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Audit Fund,audit,levy,Audit Services,18069,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,59800,0,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,59800,1,2,,
+belvidere_park_district,FY2026_levy,2026,levy,01,IMRF Fund,imrf,levy,1.M.R.F.,104956,1,3,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,194050,0,3,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,194050,1,3,,
+belvidere_park_district,FY2026_levy,2026,levy,01,Social Security Fund,social_security,levy,Social Security,180598,1,3,,
+belvidere_park_district,FY2026_levy,2026,levy,12,Bond & Interest Fund,,expenditure,Debt Service,500300,0,3,,
+belvidere_park_district,FY2026_levy,2026,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,834700,0,3,,
+belvidere_park_district,FY2026_levy,2026,levy,12,Bond & Interest Fund,,expenditure,Interest,42889.10,0,3,,
+belvidere_park_district,FY2026_levy,2026,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,1377889.10,1,3,,
+belvidere_park_district,FY2026_levy,2026,levy,12,Bond & Interest Fund,,levy,Bond & Interest Fund,1378864,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Personnel Services,1037494,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Administrative Services,264522,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Board Services,9050,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Parks Services,325330,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Utilities,146833,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,expenditure,Total Expenditures,1783229,1,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Corporate Fund,,levy,Corporate Purposes,1438016,1,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Personnel Services,1551509.50,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Administrative Services,162437,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Parks Services,101525,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Advertising,77779,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Supplies,56423.50,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Utilities,130440,0,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,expenditure,Total Expenditures,2080114,1,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,02,Recreation Fund,,levy,Recreation Fund,1075511,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,05,Special Recreation Fund,,expenditure,District’s share of expenses of providing recreational programs for the handicapped under joint intergovernmental agreement,695056,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,05,Special Recreation Fund,,expenditure,Total Expenditures,695056,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,05,Special Recreation Fund,,levy,Special Recreation Fund,449500,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,08,Museum Fund,,expenditure,Administrative Services,50,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,08,Museum Fund,,expenditure,Park Services,145792,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,08,Museum Fund,,expenditure,Utilities,13609,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,08,Museum Fund,,expenditure,Total Expenditures,159451,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,08,Museum Fund,,levy,Museum Fund,127730,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Liability Fund,liability,expenditure,Joint Self-Insurance Premiums,114772,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Liability Fund,liability,expenditure,Other Risk Management Expenses,10938,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Liability Fund,liability,expenditure,Total Expenditures,125710,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Liability Fund,liability,levy,Insurance Fund,123544,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Audit Fund,audit,expenditure,Auditing Expenses,23200,0,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Audit Fund,audit,expenditure,Total Expenditures,23200,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Audit Fund,audit,levy,Audit Services,18676,1,2,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,IMRF Fund,imrf,expenditure,Employer IMRF Contributions,36000,0,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,IMRF Fund,imrf,expenditure,Total Expenditures,36000,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,IMRF Fund,imrf,levy,I.M.R.F.,108517,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Social Security Fund,social_security,expenditure,Cost of participation in the Federal Social Security Insurance and Medicare Program,196950,0,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Social Security Fund,social_security,expenditure,Total Expenditures,196950,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,01,Social Security Fund,social_security,levy,Social Security,186658,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,12,Bond & Interest Fund,,expenditure,Debt Service,499600,0,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,12,Bond & Interest Fund,,expenditure,Capital Projects,929350,0,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,12,Bond & Interest Fund,,expenditure,Interest,46099,0,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,12,Bond & Interest Fund,,expenditure,Total Expenditures,1475049,1,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,12,Bond & Interest Fund,,levy,Bond & Interest Fund,1415099,1,3,,

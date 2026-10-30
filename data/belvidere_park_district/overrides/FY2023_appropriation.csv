@@ -1,0 +1,7 @@
+kind,raw,fixed,reason
+allow_diff,Corporate Fund appropriation,,"The printed Corporate Fund Appropriation Total (1,427,019.90) is 500 below its lines (1,427,519.90, which the October 2023 amended ordinance prints); the audit's original budget uses the printed total"
+allow_diff,Recreation Fund appropriation,,"The printed Recreation Fund Appropriation Total (1,776,793.23) is 3,000 below its lines (1,779,793.23); the FY2023 budget's Recreation expense lines add to the printed total"
+allow_diff,Bond & Interest Fund appropriation,,"The printed Bond and Interest Fund Appropriation Total (2,596,952) is 90 below its lines (482,700 + 880,796 + 1,233,546 = 2,597,042); both OCR readings agree on every line"
+allow_diff,Special Recreation Fund appropriation,,"The printed Special Recreation Fund Appropriation Total (518,496.00) is 9 cents below its lines (518,496.09)"
+allow_diff,summary b,,"SUMMARY OF FUNDS (b) cash expected from all sources, 6,924,464.00, is the budget document's total revenue; the fund tables add to 6,900,964.00, 23,500 less (the Corporate revenue table omits Memorials 22,500 and Citations 1,000, which the budget has): the audit's original budget revenue follows the fund tables"
+allow_diff,summary c,,"SUMMARY OF FUNDS (c) expenditures contemplated, 6,867,889.22, is the budget document's total; the printed fund appropriation totals add to 6,867,299.13 (590.09 less: the fund totals above are off from their lines by 500 + 90 + 0.09, and (c) uses the lines)"

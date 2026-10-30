@@ -328,6 +328,24 @@ def debt_part(docs):
     return out
 
 
+def ordinance_part(ex, docs):
+    """Appropriation and levy ordinances (extract_ordinance_appropriation.py, extract_ordinance_levy.py): fund-level lines and the ordinances' own summaries.
+    Amounts keep the cents the ordinances print; `printed` is 1 on a line the ordinance prints as a total."""
+    lines, summary = [], []
+    for d in docs:
+        if d["doc_type"] not in ("appropriation", "levy"):
+            continue
+        doc, fy, kind = d["doc_id"], int(d["fiscal_year"]), d["doc_type"]
+        for r in read_csv(E.data_path("extracted", "ordinances", f"{doc}_lines.csv")):
+            lines.append(dict(entity_id=E.id, doc_id=doc, period_fy=fy, ordinance=kind, fund_code=r["fund_code"], fund=r["fund"],
+                              general_fund_part=r["general_fund_part"], section=r["section"], line_item=r["line_item"], amount=r["amount"],
+                              printed=r["printed"], pdf_page=r["pdf_page"], flag="", exception_ids=attach(ex, doc, "", fy, "")))
+        for r in read_csv(E.data_path("extracted", "ordinances", f"{doc}_summary.csv")):
+            summary.append(dict(entity_id=E.id, doc_id=doc, period_fy=fy, ordinance=kind, item=r["item"], amount=r["amount"], pdf_page=r["pdf_page"],
+                                flag="", exception_ids=attach(ex, doc, "", fy, "")))
+    return lines, summary
+
+
 def documents():
     """One row per source document (the 44 the district posts that this project holds), whether or not facts were extracted from it yet."""
     inv = {r["doc_id"]: r for r in read_csv(E.data_path("source_inventory.csv"))}
@@ -374,6 +392,7 @@ def main():
     write_csv(E.data_path("corrections.csv"), CORRECTION_COLUMNS, corrections)
     write_csv(E.data_path("fund_statements.csv"), FUND_STATEMENT_COLUMNS, fund_rows)
     tables = debt_part(docs)
+    tables["ordinance_lines"], tables["ordinance_summary"] = ordinance_part(ex, docs)
     for name, cols in {**DEBT_PENSION_TABLES, **TAX_DEBT_TABLES}.items():
         if tables[name]:
             write_csv(E.data_path(f"{name}.csv"), cols, tables[name])

@@ -1,0 +1,4 @@
+kind,raw,fixed,reason
+line,Vil. Sociai Security Fund,VII. Social Security Fund,OCR misreads of the heading
+allow_diff,Museum Fund expenditure,,"The printed Total Museum Fund (205,035) is 13,650 below its purposes (218,685): it leaves out the Repairs line (checked on the page image)"
+allow_diff,IMRF Fund total missing,,"The scan prints no figure on the 'Total I.M.R.F. Fund' line (checked on the page image); the fund's one purpose is 100,000"

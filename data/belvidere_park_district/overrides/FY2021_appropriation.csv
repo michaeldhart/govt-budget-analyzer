@@ -1,0 +1,2 @@
+kind,raw,fixed,reason
+allow_diff,Bond & Interest Fund revenue,,"Read from the page image (PDF page 2): the lines Real Estate Tax 1,185,531, Bond Proceeds 1,162,800, Other 10,000 and Interest 800 add to 2,359,131, the printed Total Bond and Interest Revenues is 2,358,331 (800 lower); the printed estimated year-end balance (1,821,496 = 1,661,470 + 2,358,331 - 2,198,305) uses the printed total"

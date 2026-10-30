@@ -1,0 +1,2 @@
+kind,raw,fixed,reason
+allow_diff,Riverfront Fund balance,,"The ordinance prints an estimated year-end Riverfront Fund balance of 0.00 although beginning balance 2,336 + revenue 100 - appropriation 52,436 is -50,000 (a transfer of 50,000 into the fund is implied but not printed)"

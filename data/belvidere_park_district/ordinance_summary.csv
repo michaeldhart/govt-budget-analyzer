@@ -1,0 +1,119 @@
+entity_id,doc_id,period_fy,ordinance,item,amount,pdf_page,flag,exception_ids
+belvidere_park_district,FY2019_appropriation,2019,appropriation,cash_on_hand_beginning,4060049,1,,EX-ordinance-fy2019-riverfront-balance
+belvidere_park_district,FY2020_appropriation,2020,appropriation,cash_on_hand_beginning,4263831,1,,
+belvidere_park_district,FY2021_appropriation,2021,appropriation,cash_on_hand_beginning,4293570,1,,EX-ordinance-fy2021-bond-revenue
+belvidere_park_district,FY2022_appropriation,2022,appropriation,a,4875000,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,b,6576233,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,c,6756067,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,d,4695166,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2022_appropriation,2022,appropriation,e,3962074,4,,EX-ordinance-fy2022-bond-appropriation
+belvidere_park_district,FY2023_appropriation,2023,appropriation,a,5800000,4,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,b,6924464,4,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,c,6867889.22,4,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,d,5856574.78,4,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2023_appropriation,2023,appropriation,e,4218285,4,,EX-ordinance-fy2023-arithmetic|EX-ordinance-fy2023-summary-revenue
+belvidere_park_district,FY2024_appropriation,2024,appropriation,a,5562280,4,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,b,7041146.45,5,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,c,7039156.35,5,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,d,5564270.10,5,,
+belvidere_park_district,FY2024_appropriation,2024,appropriation,e,4329577.45,5,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,a,6912295,5,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,b,9033264.80,5,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,c,9030963.80,5,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,d,6914596,5,,
+belvidere_park_district,FY2025_appropriation,2025,appropriation,e,4533060,5,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,a,6488779,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,b,9322991.60,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,c,9299592.61,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,d,6512177.99,4,,
+belvidere_park_district,FY2026_appropriation,2026,appropriation,e,4737628,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,a,6750000,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,b,8707625,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,c,8696267,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,d,6761358,4,,
+belvidere_park_district,FY2027_appropriation_draft,2027,appropriation,e,4943251,4,,
+belvidere_park_district,FY2022_levy,2022,levy,summary: Corporate Purposes,1162000,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Recreation Programs,874912,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Debt Service,1175458,2,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Joint Handicap Recreation Purposes,277178,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Museum,103637,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: |.M.R.F. Purposes,105649,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Social Security Purposes,147909,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Liability Purposes,100331,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary: Audit Purposes,15000,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2022_levy,2022,levy,summary_total,3962074,3,,EX-ordinance-fy2022-levy-stale-appropriated
+belvidere_park_district,FY2023_levy_draft,2023,levy,percent_increase,6.4,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,aggregate_levy,4218185,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: General Corporate Fund,1218217,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Recreation Fund,917250,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Museum Fund,108711,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Special Recreation Fund,303488,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Liability Insurance Fund,105221,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Audit Fund,15779,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: I.M.R.F. Fund,110835,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Social Security Fund,155138,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Debt Service,1233546,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary: Prior Year Adjustment,50000,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy_draft,2023,levy,summary_total,4218185,4,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,percent_increase,6.4,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,aggregate_levy,4218185,1,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: General Corporate Fund,1218217,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Recreation Fund,917250,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Museum Fund,108711,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Special Recreation Fund,303488,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Liability Insurance Fund,105221,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Audit Fund,15779,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: !.M.R.F. Fund,110835,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Social Security Fund,155138,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Debt Service,1233546,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary: Prior Year Adjustment,50000,3,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2023_levy,2023,levy,summary_total,4218185,4,,EX-ordinance-fy2023-arithmetic
+belvidere_park_district,FY2024_levy,2024,levy,percent_increase,4.9,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,aggregate_levy,4329577.45,1,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: General Corporate Fund,1286518,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Recreation Fund,969026,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Museum Fund,114871,5,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Special Recreation Fund,327734,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Liability Insurance Fund,111183,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Audit Fund,16714,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: I.M.R.F. Fund,97583.45,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Social Security Fund,163948,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Debt Service,1242000,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary: Prior Year Adjustment,50000,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2024_levy,2024,levy,summary_total,4329577.45,7,,EX-ordinance-fy2024-levy-adjustment
+belvidere_park_district,FY2025_levy,2025,levy,percent_increase,4.9,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,aggregate_levy,4533060,1,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: General Corporate Fund ~,1330010,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Recreation Fund,1001949,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Museum Fund,118841,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Special Recreation Fund,342205,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Liability Insurance Fund,114959,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Audit Fund,17334,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: |.M.R.F. Fund,100988,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Social Security Fund,173840,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary: Bond & Interest Fund,1332934,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2025_levy,2025,levy,summary_total,4533060,3,,EX-ordinance-fy2025-social-security-levy
+belvidere_park_district,FY2026_levy,2026,levy,percent_increase,4.19,1,,
+belvidere_park_district,FY2026_levy,2026,levy,aggregate_levy,4737628,1,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: General Corporate Fund,1381445,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Recreation Fund,1040721,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Museum Fund,123506,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Special Recreation Fund,390000,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Liability Insurance Fund,119469,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Audit Fund,18069,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: I.M.R.F. Fund,104956,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Social Security Fund,180598,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary: Bond & Interest Fund,1378864,3,,
+belvidere_park_district,FY2026_levy,2026,levy,summary_total,4737628,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,percent_increase,3.83,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,aggregate_levy,4943251,1,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: General Corporate Fund,1438016,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Recreation Fund,1075511,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Museum Fund,127730,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Special Recreation Fund,449500,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Liability Insurance Fund,123544,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Audit Fund,18676,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: I.M.R.F. Fund,108517,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Social Security Fund,186658,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary: Bond & Interest Fund,1415099,3,,
+belvidere_park_district,FY2027_levy_draft,2027,levy,summary_total,4943251,3,,

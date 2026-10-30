@@ -1,0 +1,72 @@
+fiscal_year,doc,fund,fund_code,general_fund_part,section,line_item,amount,printed,pdf_page
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Corporate Taxes,1438016,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,IMRF Tax,108517,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Social Security Tax,186658,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Liability Tax,123544,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Audit Tax,18676,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Farm Lease,3750,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Miscellaneous,4000,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Corporate Personal Property Replacement Tax,166595,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Interest,37683,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Other,77650,0,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,revenue,Total Revenue Corporate Fund,2165089,1,1
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Personnel Services,1037494,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Administrative Services,264522,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Board Services,9050,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Parks Services,325330,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Utilities,146833,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,IMRF Employer Contribution,36000,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Social Security & Medicare,196950,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Liability Premium,114772,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Other Risk Management Expenses,10938,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Audit,23200,0,2
+2027,FY2027_appropriation_draft,Corporate Fund,01,,appropriation,Corporate Fund Appropriation Total,2165089,1,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,revenue,Recreation Taxes,1075511,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,revenue,Other,983172,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,revenue,Interest,21431,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,revenue,Total Revenue Recreation Fund,2080114,1,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Personnel Services,1551509.50,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Administrative Services,162437,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Parks Services,101525,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Advertising,77779,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Supplies,56423.50,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Utilities,130440,0,2
+2027,FY2027_appropriation_draft,Recreation Fund,02,,appropriation,Recreation Fund Appropriation Total,2080114,1,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,revenue,Special Recreation Taxes,449500,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,revenue,Other,236557,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,revenue,Interest,8949,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,revenue,Total Revenue Special Recreation Fund,695006,1,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Personnel Services,505083,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Administrative Services,24621,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Park Services,57540,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Advertising,1500,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Supplies,76364,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Utilities,29898,0,2
+2027,FY2027_appropriation_draft,Special Recreation Fund,05,,appropriation,Special Recreation Fund Appropriation Total,695006,1,2
+2027,FY2027_appropriation_draft,Museum Fund,08,,revenue,Museum Tax,127730,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,revenue,Interest,10221,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,revenue,Other,21500,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,revenue,Total Revenue Museum Fund,159451,1,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,appropriation,Administrative Services,50,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,appropriation,Park Services,145792,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,appropriation,Utilities,13609,0,3
+2027,FY2027_appropriation_draft,Museum Fund,08,,appropriation,Museum Fund Appropriation Total,159451,1,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,revenue,Bond Proceeds,499600,0,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,revenue,Interest,471,0,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,revenue,Total revenue,500071,1,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,appropriation,Principal,400000,0,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,appropriation,Interest,99600,0,3
+2027,FY2027_appropriation_draft,Alternate Bond & Interest Fund,10,,appropriation,Alternate Bond & Interest Appropriation Total,499600,1,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,revenue,Real Estate Taxes,1415099,0,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,revenue,Interest,7520,0,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,revenue,Total Revenue Bond and Interest Fund,1422619,1,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,appropriation,General Obligation Bonds Principal,1369000,0,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,appropriation,General Obligation Bonds Interest,46099,0,3
+2027,FY2027_appropriation_draft,Bond & Interest Fund,12,,appropriation,Bond and Interest Fund Appropriation Total,1415099,1,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,revenue,Bond Proceeds,929350,0,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,revenue,Grant Revenue,660900,0,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,revenue,Interest,39925,0,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,revenue,Other,55100,0,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,revenue,Total Revenue Capital Improvement Fund,1685275,1,3
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,appropriation,Capital Projects,1681908,0,4
+2027,FY2027_appropriation_draft,Capital Improvement Fund,21,,appropriation,Capital Improvement Fund Appropriation Total,1681908,1,4
