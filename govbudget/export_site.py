@@ -769,7 +769,8 @@ def export_entity(E, out):
 def export(entity_ids=None, out=DEFAULT_OUT):
     if not entity_ids:
         entity_ids = sorted(d for d in os.listdir(os.path.join(ROOT, "entities"))
-                            if os.path.exists(os.path.join(ROOT, "entities", d, "entity.json")))
+                            if os.path.exists(os.path.join(ROOT, "entities", d, "entity.json"))
+                            and Entity.load(d).config.get("export_site", True))  # entity.json "export_site": false keeps a government off the site until its pages exist
     index = [export_entity(Entity.load(i), out) for i in entity_ids]
     dump(os.path.join(out, "index.json"), dict(entities=index))
     dump(os.path.join(out, "palette.json"), palette.tokens())

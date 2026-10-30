@@ -1,29 +1,29 @@
-fiscal_year,doc,description,instrument_id,column,amount
-2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,beginning,0
-2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,new_issues,1183000
-2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,retired,0
-2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,ending,1183000
-2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,beginning,1189000
-2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,new_issues,0
-2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,retired,1189000
-2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,ending,0
-2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,4105000
-2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0
-2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,325000
-2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,3780000
-2023,FY2023_audit,Unamortized bond premium,premium,beginning,497253
-2023,FY2023_audit,Unamortized bond premium,premium,new_issues,0
-2023,FY2023_audit,Unamortized bond premium,premium,retired,88697
-2023,FY2023_audit,Unamortized bond premium,premium,ending,408556
-2023,FY2023_audit,Net pension liability - IMRF,net_pension,beginning,94
-2023,FY2023_audit,Net pension liability - IMRF,net_pension,new_issues,0
-2023,FY2023_audit,Net pension liability - IMRF,net_pension,retired,94
-2023,FY2023_audit,Net pension liability - IMRF,net_pension,ending,0
-2023,FY2023_audit,Compensated absences,compensated_absences,beginning,40021
-2023,FY2023_audit,Compensated absences,compensated_absences,new_issues,65987
-2023,FY2023_audit,Compensated absences,compensated_absences,retired,71202
-2023,FY2023_audit,Compensated absences,compensated_absences,ending,34806
-2023,FY2023_audit,Total,,beginning,5831368
-2023,FY2023_audit,Total,,new_issues,1248987
-2023,FY2023_audit,Total,,retired,1673993
-2023,FY2023_audit,Total,,ending,5406362
+fiscal_year,doc,description,instrument_id,column,amount,pdf_page
+2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,beginning,0,32
+2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,new_issues,1183000,32
+2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,retired,0,32
+2023,FY2023_audit,"G.O. Bond, Series 2023",park_bond_2023,ending,1183000,32
+2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,beginning,1189000,32
+2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,new_issues,0,32
+2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,retired,1189000,32
+2023,FY2023_audit,"G.O. Bond, Series 2022",park_bond_2022,ending,0,32
+2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,4105000,32
+2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0,32
+2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,325000,32
+2023,FY2023_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,3780000,32
+2023,FY2023_audit,Unamortized bond premium,premium,beginning,497253,32
+2023,FY2023_audit,Unamortized bond premium,premium,new_issues,0,32
+2023,FY2023_audit,Unamortized bond premium,premium,retired,88697,32
+2023,FY2023_audit,Unamortized bond premium,premium,ending,408556,32
+2023,FY2023_audit,Net pension liability - IMRF,net_pension,beginning,94,32
+2023,FY2023_audit,Net pension liability - IMRF,net_pension,new_issues,0,32
+2023,FY2023_audit,Net pension liability - IMRF,net_pension,retired,94,32
+2023,FY2023_audit,Net pension liability - IMRF,net_pension,ending,0,32
+2023,FY2023_audit,Compensated absences,compensated_absences,beginning,40021,32
+2023,FY2023_audit,Compensated absences,compensated_absences,new_issues,65987,32
+2023,FY2023_audit,Compensated absences,compensated_absences,retired,71202,32
+2023,FY2023_audit,Compensated absences,compensated_absences,ending,34806,32
+2023,FY2023_audit,Total,,beginning,5831368,32
+2023,FY2023_audit,Total,,new_issues,1248987,32
+2023,FY2023_audit,Total,,retired,1673993,32
+2023,FY2023_audit,Total,,ending,5406362,32

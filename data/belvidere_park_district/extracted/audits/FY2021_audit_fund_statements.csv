@@ -103,118 +103,118 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2021,FY2021_audit,balance_sheet,18,13,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Capital Projects Fund,5619
 2021,FY2021_audit,balance_sheet,18,13,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Museum Fund,104694
 2021,FY2021_audit,balance_sheet,18,13,Deferred Inflows of Resources,Total liabilities and deferred inflows of resources,Total Governmental Funds,3950890
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,General Fund,14402
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items.,Total Governmental Funds,14402
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,General Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Recreation Fund,469072
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,15,Fund balances; Nonspendable; Restricted,Recreation purposes,Total Governmental Funds,469072
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,General Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Special Recreation Fund,252666
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,16,Fund balances; Nonspendable; Restricted,Special recreation,Total Governmental Funds,252666
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,General Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Museum Fund,411546
-2021,FY2021_audit,balance_sheet,18,17,Fund balances; Nonspendable; Restricted,Museum purposes,Total Governmental Funds,411546
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,General Fund,70202
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,18,Fund balances; Nonspendable; Restricted,IMRF,Total Governmental Funds,70202
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,General Fund,216838
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,19,Fund balances; Nonspendable; Restricted,Social Security,Total Governmental Funds,216838
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,General Fund,222332
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,20,Fund balances; Nonspendable; Restricted,Liability Insurance,Total Governmental Funds,222332
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,General Fund,3154
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,21,Fund balances; Nonspendable; Restricted,Audit purposes,Total Governmental Funds,3154
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,General Fund,48718
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,22,Fund balances; Nonspendable; Restricted,Working cash,Total Governmental Funds,48718
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,General Fund,0
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Bond & Interest Fund,268574
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Alternate Bond & Interest Fund,3619
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,23,Fund balances; Nonspendable; Restricted,Debt service,Total Governmental Funds,272193
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,General Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Capital Projects Fund,1622169
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,24,Fund balances; Nonspendable; Restricted; Committed,Capital Projects,Total Governmental Funds,1622169
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,General Fund,1151434
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Special Recreation Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Capital Projects Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Museum Fund,0
-2021,FY2021_audit,balance_sheet,18,25,Fund balances; Nonspendable; Restricted; Committed,Unassigned,Total Governmental Funds,1151434
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,General Fund,1727080
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Recreation Fund,469072
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Special Recreation Fund,252666
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Bond & Interest Fund,268574
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Alternate Bond & Interest Fund,3619
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Capital Projects Fund,1622169
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Museum Fund,411546
-2021,FY2021_audit,balance_sheet,18,26,Fund balances; Nonspendable; Restricted; Committed,Total fund balances,Total Governmental Funds,4754726
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",General Fund,3268369
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Recreation Fund,1349608
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Special Recreation Fund,484102
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Bond & Interest Fund,1455890
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Alternate Bond & Interest Fund,3619
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Capital Projects Fund,1627788
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Museum Fund,516240
-2021,FY2021_audit,balance_sheet,18,27,Fund balances; Nonspendable; Restricted; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Total Governmental Funds,8705616
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,General Fund,14402
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,14,Fund balances; Nonspendable,Prepaid items,Total Governmental Funds,14402
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,General Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Recreation Fund,469072
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,15,Fund balances; Restricted,Recreation purposes,Total Governmental Funds,469072
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,General Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Special Recreation Fund,252666
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,16,Fund balances; Restricted,Special recreation,Total Governmental Funds,252666
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,General Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Museum Fund,411546
+2021,FY2021_audit,balance_sheet,18,17,Fund balances; Restricted,Museum purposes,Total Governmental Funds,411546
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,General Fund,70202
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,18,Fund balances; Restricted,IMRF,Total Governmental Funds,70202
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,General Fund,216838
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,19,Fund balances; Restricted,Social Security,Total Governmental Funds,216838
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,General Fund,222332
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,20,Fund balances; Restricted,Liability Insurance,Total Governmental Funds,222332
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,General Fund,3154
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,21,Fund balances; Restricted,Audit purposes,Total Governmental Funds,3154
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,General Fund,48718
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,22,Fund balances; Restricted,Working cash,Total Governmental Funds,48718
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,General Fund,0
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Bond & Interest Fund,268574
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Alternate Bond & Interest Fund,3619
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,23,Fund balances; Restricted,Debt service,Total Governmental Funds,272193
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,General Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Capital Projects Fund,1622169
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,24,Fund balances; Committed,Capital Projects,Total Governmental Funds,1622169
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,General Fund,1151434
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Special Recreation Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Capital Projects Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Museum Fund,0
+2021,FY2021_audit,balance_sheet,18,25,Fund balances; Committed,Unassigned,Total Governmental Funds,1151434
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,General Fund,1727080
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Recreation Fund,469072
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Special Recreation Fund,252666
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Bond & Interest Fund,268574
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Alternate Bond & Interest Fund,3619
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Capital Projects Fund,1622169
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Museum Fund,411546
+2021,FY2021_audit,balance_sheet,18,26,Fund balances; Committed,Total fund balances,Total Governmental Funds,4754726
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",General Fund,3268369
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Recreation Fund,1349608
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Special Recreation Fund,484102
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Bond & Interest Fund,1455890
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Alternate Bond & Interest Fund,3619
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Capital Projects Fund,1627788
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Museum Fund,516240
+2021,FY2021_audit,balance_sheet,18,27,Fund balances; Committed,"Total liabilities, deferred inflows of resources, and fund balances",Total Governmental Funds,8705616
 2021,FY2021_audit,changes,20,1,Revenues,Property taxes,General Fund,1450955
 2021,FY2021_audit,changes,20,1,Revenues,Property taxes,Recreation Fund,828856
 2021,FY2021_audit,changes,20,1,Revenues,Property taxes,Special Recreation Fund,267688
@@ -279,54 +279,54 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Capital Projects Fund,0
 2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Museum Fund,0
 2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Total Governmental Funds,2363224
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,General Fund,396539
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Recreation Fund,370532
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Special Recreation Fund,20545
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Capital Projects Fund,4750
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Museum Fund,94932
-2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Total Governmental Funds,887298
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,General Fund,165099
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Recreation Fund,141000
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Special Recreation Fund,45753
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Capital Projects Fund,0
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Museum Fund,12651
-2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Total Governmental Funds,364503
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,General Fund,36607
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Recreation Fund,714
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Special Recreation Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Capital Projects Fund,556766
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Museum Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Total Governmental Funds,594087
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,General Fund,0
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Recreation Fund,0
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Special Recreation Fund,0
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Bond & Interest Fund,1140000
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Alternate Bond & Interest Fund,355000
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Capital Projects Fund,0
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Museum Fund,0
-2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Total Governmental Funds,1495000
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,General Fund,0
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Recreation Fund,0
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Special Recreation Fund,0
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Bond & Interest Fund,5700
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Alternate Bond & Interest Fund,128865
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Capital Projects Fund,0
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Museum Fund,0
-2021,FY2021_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Total Governmental Funds,134565
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,General Fund,1491990
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Recreation Fund,1645557
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Special Recreation Fund,402466
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Bond & Interest Fund,1145700
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Alternate Bond & Interest Fund,483865
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Capital Projects Fund,561516
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Museum Fund,107583
-2021,FY2021_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Total Governmental Funds,5838677
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,General Fund,396539
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Recreation Fund,370532
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Special Recreation Fund,20545
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Capital Projects Fund,4750
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Museum Fund,94932
+2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Total Governmental Funds,887298
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,General Fund,165099
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Recreation Fund,141000
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Special Recreation Fund,45753
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Capital Projects Fund,0
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Museum Fund,12651
+2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Total Governmental Funds,364503
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,General Fund,36607
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Recreation Fund,714
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Special Recreation Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Capital Projects Fund,556766
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Museum Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures,Capital outlay,Total Governmental Funds,594087
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,General Fund,0
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Recreation Fund,0
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Special Recreation Fund,0
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Bond & Interest Fund,1140000
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Alternate Bond & Interest Fund,355000
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Capital Projects Fund,0
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Museum Fund,0
+2021,FY2021_audit,changes,20,12,Expenditures; Debt service,Principal,Total Governmental Funds,1495000
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,General Fund,0
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Recreation Fund,0
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Special Recreation Fund,0
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Bond & Interest Fund,5700
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Alternate Bond & Interest Fund,128865
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Capital Projects Fund,0
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Museum Fund,0
+2021,FY2021_audit,changes,20,13,Expenditures; Debt service,Interest,Total Governmental Funds,134565
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,General Fund,1491990
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Recreation Fund,1645557
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Special Recreation Fund,402466
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Bond & Interest Fund,1145700
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Alternate Bond & Interest Fund,483865
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Capital Projects Fund,561516
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Museum Fund,107583
+2021,FY2021_audit,changes,20,14,Expenditures; Debt service,Total expenditures,Total Governmental Funds,5838677
 2021,FY2021_audit,changes,20,15,,Excess of revenues over (under) expenditures,General Fund,366129
 2021,FY2021_audit,changes,20,15,,Excess of revenues over (under) expenditures,Recreation Fund,-231578
 2021,FY2021_audit,changes,20,15,,Excess of revenues over (under) expenditures,Special Recreation Fund,22411

@@ -1,29 +1,29 @@
-fiscal_year,doc,description,instrument_id,column,amount
-2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,beginning,0
-2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,new_issues,1335000
-2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,retired,0
-2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,ending,1335000
-2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,beginning,1284000
-2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,new_issues,0
-2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,retired,1284000
-2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,ending,0
-2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,3440000
-2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0
-2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,365000
-2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,3075000
-2025,FY2025_audit,SBITA liabilities,sbita,beginning,32624
-2025,FY2025_audit,SBITA liabilities,sbita,new_issues,170361
-2025,FY2025_audit,SBITA liabilities,sbita,retired,70037
-2025,FY2025_audit,SBITA liabilities,sbita,ending,132948
-2025,FY2025_audit,Unamortized bond premium,premium,beginning,327340
-2025,FY2025_audit,Unamortized bond premium,premium,new_issues,0
-2025,FY2025_audit,Unamortized bond premium,premium,retired,73286
-2025,FY2025_audit,Unamortized bond premium,premium,ending,254054
-2025,FY2025_audit,Compensated absences,compensated_absences,beginning,71140
-2025,FY2025_audit,Compensated absences,compensated_absences,new_issues,89607
-2025,FY2025_audit,Compensated absences,compensated_absences,retired,70121
-2025,FY2025_audit,Compensated absences,compensated_absences,ending,90626
-2025,FY2025_audit,Total,,beginning,5155104
-2025,FY2025_audit,Total,,new_issues,1594968
-2025,FY2025_audit,Total,,retired,1862444
-2025,FY2025_audit,Total,,ending,4887628
+fiscal_year,doc,description,instrument_id,column,amount,pdf_page
+2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,beginning,0,32
+2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,new_issues,1335000,32
+2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,retired,0,32
+2025,FY2025_audit,"G.O. Bond, Series 2025",park_bond_2025,ending,1335000,32
+2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,beginning,1284000,32
+2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,new_issues,0,32
+2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,retired,1284000,32
+2025,FY2025_audit,"G.O. Bond, Series 2024",park_bond_2024,ending,0,32
+2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,3440000,32
+2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0,32
+2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,365000,32
+2025,FY2025_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,3075000,32
+2025,FY2025_audit,SBITA liabilities,sbita,beginning,32624,32
+2025,FY2025_audit,SBITA liabilities,sbita,new_issues,170361,32
+2025,FY2025_audit,SBITA liabilities,sbita,retired,70037,32
+2025,FY2025_audit,SBITA liabilities,sbita,ending,132948,32
+2025,FY2025_audit,Unamortized bond premium,premium,beginning,327340,32
+2025,FY2025_audit,Unamortized bond premium,premium,new_issues,0,32
+2025,FY2025_audit,Unamortized bond premium,premium,retired,73286,32
+2025,FY2025_audit,Unamortized bond premium,premium,ending,254054,32
+2025,FY2025_audit,Compensated absences,compensated_absences,beginning,71140,32
+2025,FY2025_audit,Compensated absences,compensated_absences,new_issues,89607,32
+2025,FY2025_audit,Compensated absences,compensated_absences,retired,70121,32
+2025,FY2025_audit,Compensated absences,compensated_absences,ending,90626,32
+2025,FY2025_audit,Total,,beginning,5155104,32
+2025,FY2025_audit,Total,,new_issues,1594968,32
+2025,FY2025_audit,Total,,retired,1862444,32
+2025,FY2025_audit,Total,,ending,4887628,32

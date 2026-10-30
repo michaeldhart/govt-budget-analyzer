@@ -7,26 +7,26 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2021,FY2021_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,187681
 2021,FY2021_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,117681
 2021,FY2021_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,98085
-2021,FY2021_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,budget,13000
-2021,FY2021_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,actual,10808
-2021,FY2021_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,variance,-2192
-2021,FY2021_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,prior_year_actual,0
-2021,FY2021_audit,General Fund,46,4,Revenues; Taxes,Donations,budget,17000
-2021,FY2021_audit,General Fund,46,4,Revenues; Taxes,Donations,actual,18374
-2021,FY2021_audit,General Fund,46,4,Revenues; Taxes,Donations,variance,1374
-2021,FY2021_audit,General Fund,46,4,Revenues; Taxes,Donations,prior_year_actual,9280
-2021,FY2021_audit,General Fund,46,5,Revenues; Taxes,Interest,budget,2800
-2021,FY2021_audit,General Fund,46,5,Revenues; Taxes,Interest,actual,1498
-2021,FY2021_audit,General Fund,46,5,Revenues; Taxes,Interest,variance,-1302
-2021,FY2021_audit,General Fund,46,5,Revenues; Taxes,Interest,prior_year_actual,1685
-2021,FY2021_audit,General Fund,46,6,Revenues; Taxes,Other,budget,20926
-2021,FY2021_audit,General Fund,46,6,Revenues; Taxes,Other,actual,188803
-2021,FY2021_audit,General Fund,46,6,Revenues; Taxes,Other,variance,167877
-2021,FY2021_audit,General Fund,46,6,Revenues; Taxes,Other,prior_year_actual,42647
-2021,FY2021_audit,General Fund,46,7,Revenues; Taxes,Total revenues,budget,1573726
-2021,FY2021_audit,General Fund,46,7,Revenues; Taxes,Total revenues,actual,1858119
-2021,FY2021_audit,General Fund,46,7,Revenues; Taxes,Total revenues,variance,284393
-2021,FY2021_audit,General Fund,46,7,Revenues; Taxes,Total revenues,prior_year_actual,1477247
+2021,FY2021_audit,General Fund,46,3,Revenues,Charges and fees,budget,13000
+2021,FY2021_audit,General Fund,46,3,Revenues,Charges and fees,actual,10808
+2021,FY2021_audit,General Fund,46,3,Revenues,Charges and fees,variance,-2192
+2021,FY2021_audit,General Fund,46,3,Revenues,Charges and fees,prior_year_actual,0
+2021,FY2021_audit,General Fund,46,4,Revenues,Donations,budget,17000
+2021,FY2021_audit,General Fund,46,4,Revenues,Donations,actual,18374
+2021,FY2021_audit,General Fund,46,4,Revenues,Donations,variance,1374
+2021,FY2021_audit,General Fund,46,4,Revenues,Donations,prior_year_actual,9280
+2021,FY2021_audit,General Fund,46,5,Revenues,Interest,budget,2800
+2021,FY2021_audit,General Fund,46,5,Revenues,Interest,actual,1498
+2021,FY2021_audit,General Fund,46,5,Revenues,Interest,variance,-1302
+2021,FY2021_audit,General Fund,46,5,Revenues,Interest,prior_year_actual,1685
+2021,FY2021_audit,General Fund,46,6,Revenues,Other,budget,20926
+2021,FY2021_audit,General Fund,46,6,Revenues,Other,actual,188803
+2021,FY2021_audit,General Fund,46,6,Revenues,Other,variance,167877
+2021,FY2021_audit,General Fund,46,6,Revenues,Other,prior_year_actual,42647
+2021,FY2021_audit,General Fund,46,7,Revenues,Total revenues,budget,1573726
+2021,FY2021_audit,General Fund,46,7,Revenues,Total revenues,actual,1858119
+2021,FY2021_audit,General Fund,46,7,Revenues,Total revenues,variance,284393
+2021,FY2021_audit,General Fund,46,7,Revenues,Total revenues,prior_year_actual,1477247
 2021,FY2021_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,budget,941702
 2021,FY2021_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,actual,893745
 2021,FY2021_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,variance,47957
@@ -39,14 +39,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2021,FY2021_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,165099
 2021,FY2021_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,77810
 2021,FY2021_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,149112
-2021,FY2021_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,33785
-2021,FY2021_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,36607
-2021,FY2021_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,-2822
-2021,FY2021_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,13354
-2021,FY2021_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1677312
-2021,FY2021_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1491990
-2021,FY2021_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,185322
-2021,FY2021_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1346041
+2021,FY2021_audit,General Fund,46,11,Expenditures,Capital outlay,budget,33785
+2021,FY2021_audit,General Fund,46,11,Expenditures,Capital outlay,actual,36607
+2021,FY2021_audit,General Fund,46,11,Expenditures,Capital outlay,variance,-2822
+2021,FY2021_audit,General Fund,46,11,Expenditures,Capital outlay,prior_year_actual,13354
+2021,FY2021_audit,General Fund,46,12,Expenditures,Total expenditures,budget,1677312
+2021,FY2021_audit,General Fund,46,12,Expenditures,Total expenditures,actual,1491990
+2021,FY2021_audit,General Fund,46,12,Expenditures,Total expenditures,variance,185322
+2021,FY2021_audit,General Fund,46,12,Expenditures,Total expenditures,prior_year_actual,1346041
 2021,FY2021_audit,General Fund,46,13,,Net change in fund balance,budget,-103586
 2021,FY2021_audit,General Fund,46,13,,Net change in fund balance,actual,366129
 2021,FY2021_audit,General Fund,46,13,,Net change in fund balance,variance,469715
@@ -91,14 +91,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2021,FY2021_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,141000
 2021,FY2021_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,45611
 2021,FY2021_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,120348
-2021,FY2021_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,3000
-2021,FY2021_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,714
-2021,FY2021_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,2286
-2021,FY2021_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,1203
-2021,FY2021_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1871046
-2021,FY2021_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1645557
-2021,FY2021_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,225489
-2021,FY2021_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1197888
+2021,FY2021_audit,Recreation Fund,47,10,Expenditures,Capital outlay,budget,3000
+2021,FY2021_audit,Recreation Fund,47,10,Expenditures,Capital outlay,actual,714
+2021,FY2021_audit,Recreation Fund,47,10,Expenditures,Capital outlay,variance,2286
+2021,FY2021_audit,Recreation Fund,47,10,Expenditures,Capital outlay,prior_year_actual,1203
+2021,FY2021_audit,Recreation Fund,47,11,Expenditures,Total expenditures,budget,1871046
+2021,FY2021_audit,Recreation Fund,47,11,Expenditures,Total expenditures,actual,1645557
+2021,FY2021_audit,Recreation Fund,47,11,Expenditures,Total expenditures,variance,225489
+2021,FY2021_audit,Recreation Fund,47,11,Expenditures,Total expenditures,prior_year_actual,1197888
 2021,FY2021_audit,Recreation Fund,47,12,,Net change in fund balance,budget,-161445
 2021,FY2021_audit,Recreation Fund,47,12,,Net change in fund balance,actual,-231578
 2021,FY2021_audit,Recreation Fund,47,12,,Net change in fund balance,variance,-70133
@@ -259,14 +259,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2021,FY2021_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,actual,4750
 2021,FY2021_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,variance,250
 2021,FY2021_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,1150
-2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget,652000
-2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,actual,556766
-2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,variance,95234
-2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,896029
-2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget,657000
-2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,actual,561516
-2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,variance,95484
-2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,897179
+2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,budget,652000
+2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,actual,556766
+2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,variance,95234
+2021,FY2021_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,prior_year_actual,896029
+2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,budget,657000
+2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,actual,561516
+2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,variance,95484
+2021,FY2021_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,prior_year_actual,897179
 2021,FY2021_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget,-646700
 2021,FY2021_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,actual,-501098
 2021,FY2021_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,variance,145602

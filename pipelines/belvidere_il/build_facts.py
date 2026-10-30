@@ -109,7 +109,7 @@ def main():
         path = E.data_path("extracted", f"FY{fy}_budget_gf_revenue.csv")
         doc_id = f"FY{fy}_budget"
         pdf = budget_pdf(fy)
-        docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="budget", fiscal_year=fy,
+        docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="budget", fiscal_year=fy, status="adopted",
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if pdf else "", sha256=E.sha(pdf) if pdf else "",
                          source_url=urls.get(doc_id, E.config["source_index"]["budget"]),
                          note="General Fund Exhibit A; FY2027 is ordinance 753H (revision 780H changes one salary only)" if fy == 2027 else ""))
@@ -172,7 +172,7 @@ def main():
         path = E.data_path("extracted", "audits", f"FY{fy}_audit_gf_revenue.csv")
         doc_id = f"FY{fy}_audit"
         pdf = E.source_path("audits", f"{doc_id}.pdf")
-        docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="audit", fiscal_year=fy,
+        docs.append(dict(entity_id=E.id, doc_id=doc_id, doc_type="audit", fiscal_year=fy, status="final",
                          pdf_path=os.path.relpath(pdf, E.sources_dir) if os.path.exists(pdf) else "",
                          sha256=E.sha(pdf) if os.path.exists(pdf) else "", source_url=urls.get(doc_id, E.config["source_index"]["audit"]),
                          note="General Fund detailed schedules of revenues and of expenditures - Budget and Actual"))

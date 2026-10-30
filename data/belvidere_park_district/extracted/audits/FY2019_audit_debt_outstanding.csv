@@ -1,13 +1,13 @@
-fiscal_year,doc,description,instrument_id,column,amount
-2019,FY2019_audit,"G.O. Park Bonds, series 2015-A issued for 2015 capital projects; Principal due at maturity on January 31, 2020 and interest payable semi-annually on Jan 31 and July 31; interest rate of 2.8% per annum*",park_bond_2015A,balance,1000000
-2019,FY2019_audit,"G.O. Park Bonds, series 2015-A issued for 2015 capital projects; Principal due at maturity on January 31, 2020 and interest payable semi-annually on Jan 31 and July 31; interest rate of 2.8% per annum*",park_bond_2015A,current_portion,1000000
-2019,FY2019_audit,"G.O. Park Bonds, series 2019 issued for Debt Service and capital projects; Principal and interest due Dec. 2, 2020; interest rate of 1.75%",park_bond_2019,balance,1100000
-2019,FY2019_audit,"G.O. Park Bonds, series 2019 issued for Debt Service and capital projects; Principal and interest due Dec. 2, 2020; interest rate of 1.75%",park_bond_2019,current_portion,1100000
-2019,FY2019_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2013 through 2032; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,balance,5590000
-2019,FY2019_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2013 through 2032; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,current_portion,350000
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,balance,293656
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,current_portion,0
-2019,FY2019_audit,Compensated absences,compensated_absences,balance,27260
-2019,FY2019_audit,Compensated absences,compensated_absences,current_portion,27260
-2019,FY2019_audit,Total outstanding debt,,balance,8010916
-2019,FY2019_audit,Total outstanding debt,,current_portion,2477260
+fiscal_year,doc,description,instrument_id,column,amount,pdf_page
+2019,FY2019_audit,"G.O. Park Bonds, series 2015-A issued for 2015 capital projects; Principal due at maturity on January 31, 2020 and interest payable semi-annually on Jan 31 and July 31; interest rate of 2.8% per annum*",park_bond_2015A,balance,1000000,31
+2019,FY2019_audit,"G.O. Park Bonds, series 2015-A issued for 2015 capital projects; Principal due at maturity on January 31, 2020 and interest payable semi-annually on Jan 31 and July 31; interest rate of 2.8% per annum*",park_bond_2015A,current_portion,1000000,31
+2019,FY2019_audit,"G.O. Park Bonds, series 2019 issued for Debt Service and capital projects; Principal and interest due Dec. 2, 2020; interest rate of 1.75%",park_bond_2019,balance,1100000,31
+2019,FY2019_audit,"G.O. Park Bonds, series 2019 issued for Debt Service and capital projects; Principal and interest due Dec. 2, 2020; interest rate of 1.75%",park_bond_2019,current_portion,1100000,31
+2019,FY2019_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2013 through 2032; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,balance,5590000,31
+2019,FY2019_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2013 through 2032; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,current_portion,350000,31
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,balance,293656,31
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,current_portion,0,31
+2019,FY2019_audit,Compensated absences,compensated_absences,balance,27260,31
+2019,FY2019_audit,Compensated absences,compensated_absences,current_portion,27260,31
+2019,FY2019_audit,Total outstanding debt,,balance,8010916,31
+2019,FY2019_audit,Total outstanding debt,,current_portion,2477260,31

@@ -1,31 +1,31 @@
-fiscal_year,doc,schedule,line_item,column,amount
-2022,FY2022_audit,legal_debt_margin,Assessed Valuations,this_year,723620217
-2022,FY2022_audit,legal_debt_margin,Assessed Valuations,prior_year,671381071
-2022,FY2022_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,20804081
-2022,FY2022_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,19302206
-2022,FY2022_audit,legal_debt_margin,General obligation bonds,this_year,1189000
-2022,FY2022_audit,legal_debt_margin,General obligation bonds,prior_year,1170000
-2022,FY2022_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,4105000
-2022,FY2022_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,4410000
-2022,FY2022_audit,legal_debt_margin,Total debt applicable to limit,this_year,5294000
-2022,FY2022_audit,legal_debt_margin,Total debt applicable to limit,prior_year,5580000
-2022,FY2022_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,292050
-2022,FY2022_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,272193
-2022,FY2022_audit,legal_debt_margin,Net debt applicable to limit,this_year,5001950
-2022,FY2022_audit,legal_debt_margin,Net debt applicable to limit,prior_year,5307807
-2022,FY2022_audit,legal_debt_margin,Legal debt margin,this_year,15802131
-2022,FY2022_audit,legal_debt_margin,Legal debt margin,prior_year,13994399
-2022,FY2022_audit,non_referendum,Assessed Valuations,this_year,723620217
-2022,FY2022_audit,non_referendum,Assessed Valuations,prior_year,671381071
-2022,FY2022_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,4160816
-2022,FY2022_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,3860441
-2022,FY2022_audit,non_referendum,General obligation bonds,this_year,1189000
-2022,FY2022_audit,non_referendum,General obligation bonds,prior_year,1170000
-2022,FY2022_audit,non_referendum,Total debt applicable to limit,this_year,1189000
-2022,FY2022_audit,non_referendum,Total debt applicable to limit,prior_year,1170000
-2022,FY2022_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,292050
-2022,FY2022_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,272193
-2022,FY2022_audit,non_referendum,Net debt applicable to limit,this_year,896950
-2022,FY2022_audit,non_referendum,Net debt applicable to limit,prior_year,897807
-2022,FY2022_audit,non_referendum,Legal debt margin,this_year,3263866
-2022,FY2022_audit,non_referendum,Legal debt margin,prior_year,2962634
+fiscal_year,doc,schedule,line_item,column,amount,pdf_page
+2022,FY2022_audit,legal_debt_margin,Assessed Valuations,this_year,723620217,55
+2022,FY2022_audit,legal_debt_margin,Assessed Valuations,prior_year,671381071,55
+2022,FY2022_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,20804081,55
+2022,FY2022_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,19302206,55
+2022,FY2022_audit,legal_debt_margin,General obligation bonds,this_year,1189000,55
+2022,FY2022_audit,legal_debt_margin,General obligation bonds,prior_year,1170000,55
+2022,FY2022_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,4105000,55
+2022,FY2022_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,4410000,55
+2022,FY2022_audit,legal_debt_margin,Total debt applicable to limit,this_year,5294000,55
+2022,FY2022_audit,legal_debt_margin,Total debt applicable to limit,prior_year,5580000,55
+2022,FY2022_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,292050,55
+2022,FY2022_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,272193,55
+2022,FY2022_audit,legal_debt_margin,Net debt applicable to limit,this_year,5001950,55
+2022,FY2022_audit,legal_debt_margin,Net debt applicable to limit,prior_year,5307807,55
+2022,FY2022_audit,legal_debt_margin,Legal debt margin,this_year,15802131,55
+2022,FY2022_audit,legal_debt_margin,Legal debt margin,prior_year,13994399,55
+2022,FY2022_audit,non_referendum,Assessed Valuations,this_year,723620217,56
+2022,FY2022_audit,non_referendum,Assessed Valuations,prior_year,671381071,56
+2022,FY2022_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,4160816,56
+2022,FY2022_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,3860441,56
+2022,FY2022_audit,non_referendum,General obligation bonds,this_year,1189000,56
+2022,FY2022_audit,non_referendum,General obligation bonds,prior_year,1170000,56
+2022,FY2022_audit,non_referendum,Total debt applicable to limit,this_year,1189000,56
+2022,FY2022_audit,non_referendum,Total debt applicable to limit,prior_year,1170000,56
+2022,FY2022_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,292050,56
+2022,FY2022_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,272193,56
+2022,FY2022_audit,non_referendum,Net debt applicable to limit,this_year,896950,56
+2022,FY2022_audit,non_referendum,Net debt applicable to limit,prior_year,897807,56
+2022,FY2022_audit,non_referendum,Legal debt margin,this_year,3263866,56
+2022,FY2022_audit,non_referendum,Legal debt margin,prior_year,2962634,56

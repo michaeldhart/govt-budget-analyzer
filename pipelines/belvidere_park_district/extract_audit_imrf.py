@@ -148,18 +148,18 @@ def main(argv):
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, f"{doc}_imrf_changes.csv"), "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["fiscal_year", "doc", "calendar_year", "line_item", "amount"])
+        w.writerow(["fiscal_year", "doc", "calendar_year", "line_item", "amount", "pdf_page"])
         seen = {}
         for label, vals in rows:
             seen[label] = seen.get(label, 0) + 1
             name = label if seen[label] == 1 else f"{label} (2)"
             for y, v in zip(years, vals):
-                w.writerow([fy, doc, y, name, v])
+                w.writerow([fy, doc, y, name, v, ch + 1])
     with open(os.path.join(out, f"{doc}_imrf_contributions.csv"), "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["fiscal_year", "doc", "calendar_year", "actuarially_determined", "actual", "deficiency", "covered_payroll", "percent_of_payroll"])
+        w.writerow(["fiscal_year", "doc", "calendar_year", "actuarially_determined", "actual", "deficiency", "covered_payroll", "percent_of_payroll", "pdf_page"])
         for y, v in contrib:
-            w.writerow([fy, doc, y] + v)
+            w.writerow([fy, doc, y] + v + [co + 1])
     with open(os.path.join(out, f"{doc}_imrf_checks.csv"), "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["doc", "check", "expected", "found", "result"])

@@ -1,0 +1,108 @@
+fiscal_year,fund,doc_fund_code,group,budget_doc,budget_basis,audit_original,budget,diff,diff_pct,matches
+2019,General Fund,01,personnel,FY2019_budget,adopted,867151,867651,500,0.1,0
+2019,General Fund,01,contractual,FY2019_budget,adopted,442070,442320,250,0.1,0
+2019,General Fund,01,supplies_capital,FY2019_budget,adopted,252475,251725,-750,-0.3,0
+2019,Recreation Fund,02,personnel,FY2019_budget,adopted,1338366,1340066,1700,0.1,0
+2019,Recreation Fund,02,contractual,FY2019_budget,adopted,327009,353259,26250,8.0,0
+2019,Recreation Fund,02,supplies_capital,FY2019_budget,adopted,222720,194770,-27950,-12.5,0
+2019,Special Recreation Fund,09,personnel,FY2019_budget,adopted,361487,362487,1000,0.3,0
+2019,Special Recreation Fund,09,contractual,FY2019_budget,adopted,32400,45900,13500,41.7,0
+2019,Special Recreation Fund,09,supplies_capital,FY2019_budget,adopted,106750,92250,-14500,-13.6,0
+2019,Museum Fund,03,personnel,FY2019_budget,adopted,28655,28655,0,0.0,1
+2019,Museum Fund,03,contractual,FY2019_budget,adopted,151500,151500,0,0.0,1
+2019,Museum Fund,03,supplies_capital,FY2019_budget,adopted,31296,31296,0,0.0,1
+2019,Bond and Interest Fund,12,debt_service,FY2019_budget,adopted,1112000,1112000,0,0.0,1
+2019,Alternate Bond and Interest Fund,10,debt_service,FY2019_budget,adopted,635707,635707,0,0.0,1
+2019,Capital Projects Fund,21,contractual,FY2019_budget,adopted,5000,0,-5000,-100.0,0
+2019,Capital Projects Fund,21,supplies_capital,FY2019_budget,adopted,873700,878700,5000,0.6,0
+2020,General Fund,01,personnel,FY2020_budget,adopted,1030072,1031072,1000,0.1,0
+2020,General Fund,01,contractual,FY2020_budget,adopted,428780,428030,-750,-0.2,0
+2020,General Fund,01,supplies_capital,FY2020_budget,adopted,268581,268331,-250,-0.1,0
+2020,Recreation Fund,02,personnel,FY2020_budget,adopted,1176382,1180582,4200,0.4,0
+2020,Recreation Fund,02,contractual,FY2020_budget,adopted,434918,467918,33000,7.6,0
+2020,Recreation Fund,02,supplies_capital,FY2020_budget,adopted,223515,188815,-34700,-15.5,0
+2020,Special Recreation Fund,09,personnel,FY2020_budget,adopted,352068,353068,1000,0.3,0
+2020,Special Recreation Fund,09,contractual,FY2020_budget,adopted,34175,41925,7750,22.7,0
+2020,Special Recreation Fund,09,supplies_capital,FY2020_budget,adopted,98005,89255,-8750,-8.9,0
+2020,Museum Fund,03,personnel,FY2020_budget,adopted,24000,24000,0,0.0,1
+2020,Museum Fund,03,contractual,FY2020_budget,adopted,190265,190265,0,0.0,1
+2020,Museum Fund,03,supplies_capital,FY2020_budget,adopted,33765,33765,0,0.0,1
+2020,Bond and Interest Fund,12,debt_service,FY2020_budget,adopted,1119250,1119250,0,0.0,1
+2020,Alternate Bond and Interest Fund,10,debt_service,FY2020_budget,adopted,1517525,1517525,0,0.0,1
+2020,Capital Projects Fund,21,contractual,FY2020_budget,adopted,5000,0,-5000,-100.0,0
+2020,Capital Projects Fund,21,supplies_capital,FY2020_budget,adopted,970000,975000,5000,0.5,0
+2021,General Fund,01,personnel,FY2021_budget,adopted,941702,989435,47733,5.1,0
+2021,General Fund,01,contractual,FY2021_budget,adopted,458916,487666,28750,6.3,0
+2021,General Fund,01,supplies_capital,FY2021_budget,adopted,276694,276944,250,0.1,0
+2021,Recreation Fund,02,personnel,FY2021_budget,adopted,1260022,1187830,-72192,-5.7,0
+2021,Recreation Fund,02,contractual,FY2021_budget,adopted,421413,441964,20551,4.9,0
+2021,Recreation Fund,02,supplies_capital,FY2021_budget,adopted,189611,167560,-22051,-11.6,0
+2021,Special Recreation Fund,09,personnel,FY2021_budget,adopted,325665,328665,3000,0.9,0
+2021,Special Recreation Fund,09,contractual,FY2021_budget,adopted,40635,46990,6355,15.6,0
+2021,Special Recreation Fund,09,supplies_capital,FY2021_budget,adopted,88695,79340,-9355,-10.5,0
+2021,Museum Fund,03,personnel,FY2021_budget,adopted,1080,1080,0,0.0,1
+2021,Museum Fund,03,contractual,FY2021_budget,adopted,173200,173200,0,0.0,1
+2021,Museum Fund,03,supplies_capital,FY2021_budget,adopted,30755,30755,0,0.0,1
+2021,Bond and Interest Fund,12,debt_service,FY2021_budget,adopted,1145700,1145700,0,0.0,1
+2021,Alternate Bond and Interest Fund,10,debt_service,FY2021_budget,adopted,395605,395605,0,0.0,1
+2021,Capital Projects Fund,21,contractual,FY2021_budget,adopted,5000,0,-5000,-100.0,0
+2021,Capital Projects Fund,21,supplies_capital,FY2021_budget,adopted,652000,723849,71849,11.0,0
+2022,General Fund,01,personnel,FY2022_budget,adopted,900176,901976,1800,0.2,0
+2022,General Fund,01,contractual,FY2022_budget,adopted,541272,544122,2850,0.5,0
+2022,General Fund,01,supplies_capital,FY2022_budget,adopted,269346,264696,-4650,-1.7,0
+2022,Recreation Fund,02,personnel,FY2022_budget,adopted,1250314,1250814,500,0.0,0
+2022,Recreation Fund,02,contractual,FY2022_budget,adopted,444297,471202,26905,6.1,0
+2022,Recreation Fund,02,supplies_capital,FY2022_budget,adopted,183525,156120,-27405,-14.9,0
+2022,Special Recreation Fund,09,personnel,FY2022_budget,adopted,348409,352009,3600,1.0,0
+2022,Special Recreation Fund,09,contractual,FY2022_budget,adopted,38293,47448,9155,23.9,0
+2022,Special Recreation Fund,09,supplies_capital,FY2022_budget,adopted,90175,77420,-12755,-14.1,0
+2022,Museum Fund,03,personnel,FY2022_budget,adopted,10000,10000,0,0.0,1
+2022,Museum Fund,03,contractual,FY2022_budget,adopted,154800,154800,0,0.0,1
+2022,Museum Fund,03,supplies_capital,FY2022_budget,adopted,40665,40665,0,0.0,1
+2022,Bond and Interest Fund,12,debt_service,FY2022_budget,adopted,1175850,1175850,0,0.0,1
+2022,Alternate Bond and Interest Fund,10,debt_service,FY2022_budget,adopted,492245,475300,-16945,-3.4,0
+2022,Capital Projects Fund,21,contractual,FY2022_budget,adopted,5000,0,-5000,-100.0,0
+2022,Capital Projects Fund,21,supplies_capital,FY2022_budget,adopted,828645,833645,5000,0.6,0
+2023,General Fund,01,personnel,FY2023_budget,adopted,959890,955134,-4756,-0.5,0
+2023,General Fund,01,contractual,FY2023_budget,adopted,632147,622171,-9976,-1.6,0
+2023,General Fund,01,supplies_capital,FY2023_budget,adopted,195334,210565,15231,7.8,0
+2023,Recreation Fund,02,personnel,FY2023_budget,adopted,1327944,1296182,-31762,-2.4,0
+2023,Recreation Fund,02,contractual,FY2023_budget,adopted,312299,340461,28162,9.0,0
+2023,Recreation Fund,02,supplies_capital,FY2023_budget,adopted,136550,140150,3600,2.6,0
+2023,Special Recreation Fund,09,personnel,FY2023_budget,adopted,392547,392047,-500,-0.1,0
+2023,Special Recreation Fund,09,contractual,FY2023_budget,adopted,46381,54131,7750,16.7,0
+2023,Special Recreation Fund,09,supplies_capital,FY2023_budget,adopted,79568,72318,-7250,-9.1,0
+2023,Museum Fund,03,personnel,FY2023_budget,adopted,10000,10000,0,0.0,1
+2023,Museum Fund,03,contractual,FY2023_budget,adopted,155937,155937,0,0.0,1
+2023,Museum Fund,03,supplies_capital,FY2023_budget,adopted,21750,21750,0,0.0,1
+2023,Bond and Interest Fund,12,debt_service,FY2023_budget,adopted,1233546,1233546,0,0.0,1
+2023,Alternate Bond and Interest Fund,10,debt_service,FY2023_budget,adopted,482700,482700,0,0.0,1
+2023,Capital Projects Fund,21,supplies_capital,FY2023_budget,adopted,880796,880796,0,0.0,1
+2024,General Fund,01,personnel,FY2024_budget_draft,requested,1070944,1037115,-33829,-3.2,0
+2024,General Fund,01,contractual,FY2024_budget_draft,requested,625160,653160,28000,4.5,0
+2024,General Fund,01,supplies_capital,FY2024_budget_draft,requested,264667,270496,5829,2.2,0
+2024,Recreation Fund,02,personnel,FY2024_budget_draft,requested,1341245,1340445,-800,-0.1,0
+2024,Recreation Fund,02,contractual,FY2024_budget_draft,requested,390570,394270,3700,0.9,0
+2024,Recreation Fund,02,supplies_capital,FY2024_budget_draft,requested,150253,147353,-2900,-1.9,0
+2024,Special Recreation Fund,09,personnel,FY2024_budget_draft,requested,417016,415516,-1500,-0.4,0
+2024,Special Recreation Fund,09,contractual,FY2024_budget_draft,requested,48185,52635,4450,9.2,0
+2024,Special Recreation Fund,09,supplies_capital,FY2024_budget_draft,requested,77110,74160,-2950,-3.8,0
+2024,Museum Fund,03,contractual,FY2024_budget_draft,requested,182765,182765,0,0.0,1
+2024,Museum Fund,03,supplies_capital,FY2024_budget_draft,requested,24350,24350,0,0.0,1
+2024,Bond and Interest Fund,12,debt_service,FY2024_budget_draft,requested,1241120,1242000,880,0.1,0
+2024,Alternate Bond and Interest Fund,10,debt_service,FY2024_budget_draft,requested,484400,484400,0,0.0,1
+2024,Capital Projects Fund,21,supplies_capital,FY2024_budget_draft,requested,721371,720491,-880,-0.1,0
+2025,General Fund,01,personnel,FY2025_budget,adopted,1182487,1116793,-65694,-5.6,0
+2025,General Fund,01,contractual,FY2025_budget,adopted,579550,597665,18115,3.1,0
+2025,General Fund,01,supplies_capital,FY2025_budget,adopted,211158,258737,47579,22.5,0
+2025,Recreation Fund,02,personnel,FY2025_budget,adopted,1413924,1374384,-39540,-2.8,0
+2025,Recreation Fund,02,contractual,FY2025_budget,adopted,397365,403105,5740,1.4,0
+2025,Recreation Fund,02,supplies_capital,FY2025_budget,adopted,150768,148568,-2200,-1.5,0
+2025,Special Recreation Fund,05,personnel,FY2025_budget,adopted,463113,459360,-3753,-0.8,0
+2025,Special Recreation Fund,05,contractual,FY2025_budget,adopted,42508,47378,4870,11.5,0
+2025,Special Recreation Fund,05,supplies_capital,FY2025_budget,adopted,82477,81361,-1116,-1.4,0
+2025,Museum Fund,08,contractual,FY2025_budget,adopted,185580,185580,0,0.0,1
+2025,Museum Fund,08,supplies_capital,FY2025_budget,adopted,20000,20000,0,0.0,1
+2025,Bond and Interest Fund,12,debt_service,FY2025_budget,adopted,1332934,1332934,0,0.0,1
+2025,Alternate Bond and Interest Fund,10,debt_service,FY2025_budget,adopted,495300,495300,0,0.0,1
+2025,Capital Projects Fund,21,supplies_capital,FY2025_budget,adopted,2473800,2475300,1500,0.1,0

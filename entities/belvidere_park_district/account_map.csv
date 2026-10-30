@@ -4,8 +4,8 @@ expense,010-4040,Administrative Longevity,Administration,exp_personnel,expense,r
 expense,010-4130,Medicare Employer Contributions,Administration,exp_personnel,expense,rule: object code
 expense,010-4210,Health Insurance,Administration,exp_personnel,expense,rule: object code
 expense,010-4215,Life Insurance-Employer,Administration,exp_personnel,expense,rule: object code
-expense,010-4240,Administration Uniforms,Administration,exp_personnel,expense,rule: object code
-expense,010-4251,Mileage Reimbursement,Administration,exp_personnel,expense,rule: object code
+expense,010-4240,Administration Uniforms,Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+expense,010-4251,Mileage Reimbursement,Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,010-5010,Dues/Subscriptions,Administration,exp_contractual,expense,rule: object code
 expense,010-5012,Board Dues,Administration,exp_contractual,expense,rule: object code
 expense,010-5015,Professional Meetings,Administration,exp_contractual,expense,rule: object code
@@ -55,7 +55,7 @@ expense,0100-526,Copier Supplies,Corporate Administration,exp_supplies,expense,r
 expense,0100-527,Safety Committee Supplies,Corporate Administration,exp_supplies,expense,rule: keyword supplies
 expense,0100-528,Computer Supplies,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,0100-529,Employee Recognition,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
-expense,0100-530,Mileage Reimbursement,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-530,Mileage Reimbursement,Corporate Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,0100-532,Office Equipment M&R,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,0100-599,Admin Cell Phones/Tablets,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,0100-600,Telephone/Internet Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
@@ -81,7 +81,7 @@ expense,014-4120,Social Security Employer Contrib,Social Security,exp_personnel,
 expense,0140-440,IMRF Employer Contributions,IMRF,exp_personnel,expense,rule: same label in FY2025+ budgets
 expense,015-4010,Parks FT Wages,Parks,exp_personnel,expense,rule: object code
 expense,015-4040,Parks Longevity,Parks,exp_personnel,expense,rule: object code
-expense,015-4240,Parks Uniforms,Parks,exp_personnel,expense,rule: object code
+expense,015-4240,Parks Uniforms,Parks,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,015-5026,Parks Training,Parks,exp_contractual,expense,rule: object code
 expense,015-5125,Natural Gas Services,Parks,exp_contractual,expense,rule: object code
 expense,015-5130,Electric Services,Parks,exp_contractual,expense,rule: object code
@@ -135,9 +135,9 @@ expense,1000-420,Building PT Wages,Buildings and Grounds,exp_personnel,expense,r
 expense,1000-421,Grounds PT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
 expense,1000-422,Horticulture PT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
 expense,1000-425,Parks Training,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
-expense,1000-426,Admin Uniforms,Buildings and Grounds,exp_personnel,expense,rule: keyword personnel
+expense,1000-426,Admin Uniforms,Buildings and Grounds,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,1000-427,Life Safety,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
-expense,1000-428,Parks Uniforms,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-428,Parks Uniforms,Buildings and Grounds,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,1000-429,Parks Safety Equipment,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,1000-430,Parks Office Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,1000-431,Signage,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
@@ -187,7 +187,7 @@ expense,02:010-4010,Recreation FT Wages,Recreation Administration,exp_personnel,
 expense,02:010-4020,Recreation PT Wages,Recreation Administration,exp_personnel,expense,rule: object code
 expense,02:010-4040,Recreation Longevity,Recreation Administration,exp_personnel,expense,rule: object code
 expense,02:010-4210,Health Insurance,Recreation Administration,exp_personnel,expense,rule: object code
-expense,02:010-4251,Mileage Reimbursement,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-4251,Mileage Reimbursement,Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,02:010-5010,Dues/Subscriptions,Recreation Administration,exp_contractual,expense,rule: object code
 expense,02:010-5015,Professional Meetings,Recreation Administration,exp_contractual,expense,rule: object code
 expense,02:010-5020,Conference/Seminars,Recreation Administration,exp_contractual,expense,rule: object code
@@ -223,7 +223,7 @@ expense,02:0100-507,Professional Certification,Recreation Administration,exp_con
 expense,02:0100-520,Postage,Recreation Administration,exp_contractual,expense,rule: keyword contractual
 expense,02:0100-522,Recreation Office Supplies,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,02:0100-524,Printed Supplies,Recreation Administration,exp_supplies,expense,rule: keyword supplies
-expense,02:0100-530,Mileage Reimbursement,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-530,Mileage Reimbursement,Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,02:0100-532,Office Equipment M&R,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,02:0100-599,Rec Cell Phone Carrier Services,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,02:0100-600,Telephone Services,Recreation Administration,exp_contractual,expense,rule: keyword contractual
@@ -242,7 +242,7 @@ expense,02:016-4020,Rec Building PT Wages,Rec Building,exp_personnel,expense,rul
 expense,02:017-4020,Rec Grounds PT Wages,Rec Grounds,exp_personnel,expense,rule: object code
 expense,02:018-4020,Horticulture PT Wages,Recreation Horticulture,exp_personnel,expense,rule: object code
 expense,02:020-4020,Rivers Edge PT Wages,Rivers Edge Operations,exp_personnel,expense,rule: object code
-expense,02:020-4240,Rivers Edge Uniforms,Rivers Edge Operations,exp_personnel,expense,rule: object code
+expense,02:020-4240,Rivers Edge Uniforms,Rivers Edge Operations,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,02:020-5045,Rivers Edge Advertising,Rivers Edge Operations,exp_contractual,expense,rule: object code
 expense,02:020-5125,Rivers Edge Natural Gas Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
 expense,02:020-5130,Rivers Edge Electric Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
@@ -362,7 +362,7 @@ expense,02:1200-715,Doty Ice Arena Supplies,Doty Park,exp_supplies,expense,rule:
 expense,02:1200-716,Doty Birthday Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,02:1500-540,Meehan Building M&R,Meehan Gymnasium,exp_contractual,expense,rule: keyword contractual
 expense,02:1600-420,Rivers Edge PT Wages,Rivers Edge,exp_personnel,expense,rule: same label in FY2025+ budgets
-expense,02:1600-426,Rivers Edge Uniforms,Rivers Edge,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1600-426,Rivers Edge Uniforms,Rivers Edge,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,02:1600-522,Rivers Edge Office Supplies,Rivers Edge,exp_supplies,expense,rule: keyword supplies
 expense,02:1600-540,Rivers Edge Building M&R,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,02:1600-541,Rivers Edge Signage M&R,Rivers Edge,exp_supplies,expense,rule: keyword supplies
@@ -433,7 +433,7 @@ expense,02:9400-500,General Supplies,General and Marketing,exp_supplies,expense,
 expense,02:9400-600,Marketing Contractual,General and Marketing,exp_contractual,expense,rule: keyword contractual
 expense,02:9400-700,General Capital,General and Marketing,exp_supplies,expense,rule: keyword capital (equipment purchase)
 expense,02:9500-420,Prairie Fields Salaries Pt,Prairie Fields,exp_personnel,expense,rule: keyword personnel
-expense,02:9500-426,Prairie Fields Uniforms,Prairie Fields,exp_personnel,expense,rule: keyword personnel
+expense,02:9500-426,Prairie Fields Uniforms,Prairie Fields,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,02:9500-500,Prairie Fields Supplies,Prairie Fields,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,02:9500-600,Prairie Fields Contractual,Prairie Fields,exp_contractual,expense,rule: keyword contractual
 expense,02:9500-610,Prairie Fields Electric,Prairie Fields,exp_contractual,expense,rule: same label in FY2025+ budgets
@@ -465,9 +465,9 @@ expense,05:016-4020,Building PT Wages,Special Recreation Buildings,exp_personnel
 expense,05:030-4010,Special Recreation FT Wages,Special Recreation Administration,exp_personnel,expense,rule: object code
 expense,05:030-4040,Spec Rec Longevity,Special Recreation Administration,exp_personnel,expense,rule: object code
 expense,05:030-4210,Special Recreation Health Insurance,Special Recreation Administration,exp_personnel,expense,rule: object code
-expense,05:030-4240,Staff Uniforms,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4240,Staff Uniforms,Special Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,05:030-4250,Special Recreation Tuition Reimbur,Special Recreation Administration,exp_personnel,expense,rule: object code
-expense,05:030-4251,Mileage Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4251,Mileage Reimbursement,Special Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,05:030-5010,Dues/Subscriptions,Special Recreation Administration,exp_contractual,expense,rule: object code
 expense,05:030-5015,Professional Meetings,Special Recreation Administration,exp_contractual,expense,rule: object code
 expense,05:030-5020,Conference/Seminars,Special Recreation Administration,exp_contractual,expense,rule: object code
@@ -527,14 +527,14 @@ expense,09:0100-415,Special Recreation Longevity .,Special Recreation Administra
 expense,09:0100-420,Special Recreation PT Wages,Special Recreation Administration,exp_personnel,expense,rule: keyword personnel
 expense,09:0100-430,Health Insurance,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
 expense,09:0100-431,Signage,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
-expense,09:0100-432,Staff Uniforms,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-432,Staff Uniforms,Special Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,09:0100-500,Dues/Subscriptions,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,09:0100-502,Professional Meetings,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,09:0100-504,Conference/Seminars,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,09:0100-506,Special Rec Tuition Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: keyword personnel
 expense,09:0100-507,Professional Certification,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
 expense,09:0100-522,Special Recreation Office Supplies,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
-expense,09:0100-530,Mileage Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-530,Mileage Reimbursement,Special Recreation Administration,exp_supplies,expense,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 expense,09:0100-540,Building M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,09:0100-542,Grounds M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
 expense,09:0100-543,Horticulture M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets

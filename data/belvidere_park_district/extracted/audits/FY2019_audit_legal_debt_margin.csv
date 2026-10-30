@@ -1,33 +1,33 @@
-fiscal_year,doc,schedule,line_item,column,amount
-2019,FY2019_audit,legal_debt_margin,Assessed Valuations,this_year,612647631
-2019,FY2019_audit,legal_debt_margin,Assessed Valuations,prior_year,592148762
-2019,FY2019_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,17613619
-2019,FY2019_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,17024277
-2019,FY2019_audit,legal_debt_margin,General obligation bonds,this_year,2100000
-2019,FY2019_audit,legal_debt_margin,General obligation bonds,prior_year,2090000
-2019,FY2019_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,5590000
-2019,FY2019_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,5930000
-2019,FY2019_audit,legal_debt_margin,Agreement for deed,this_year,0
-2019,FY2019_audit,legal_debt_margin,Agreement for deed,prior_year,98887
-2019,FY2019_audit,legal_debt_margin,Total debt applicable to limit,this_year,7690000
-2019,FY2019_audit,legal_debt_margin,Total debt applicable to limit,prior_year,8118887
-2019,FY2019_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,1098967
-2019,FY2019_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,921406
-2019,FY2019_audit,legal_debt_margin,Net debt applicable to limit,this_year,6591033
-2019,FY2019_audit,legal_debt_margin,Net debt applicable to limit,prior_year,7197481
-2019,FY2019_audit,legal_debt_margin,Legal debt margin,this_year,11022586
-2019,FY2019_audit,legal_debt_margin,Legal debt margin,prior_year,9826796
-2019,FY2019_audit,non_referendum,Assessed Valuations,this_year,612647631
-2019,FY2019_audit,non_referendum,Assessed Valuations,prior_year,592148762
-2019,FY2019_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,3522724
-2019,FY2019_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,3404855
-2019,FY2019_audit,non_referendum,General obligation bonds,this_year,2100000
-2019,FY2019_audit,non_referendum,General obligation bonds,prior_year,2090000
-2019,FY2019_audit,non_referendum,Total debt applicable to limit,this_year,2100000
-2019,FY2019_audit,non_referendum,Total debt applicable to limit,prior_year,2090000
-2019,FY2019_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,1098967
-2019,FY2019_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,921406
-2019,FY2019_audit,non_referendum,Net debt applicable to limit,this_year,1001033
-2019,FY2019_audit,non_referendum,Net debt applicable to limit,prior_year,1168594
-2019,FY2019_audit,non_referendum,Legal debt margin,this_year,2521691
-2019,FY2019_audit,non_referendum,Legal debt margin,prior_year,2236261
+fiscal_year,doc,schedule,line_item,column,amount,pdf_page
+2019,FY2019_audit,legal_debt_margin,Assessed Valuations,this_year,612647631,55
+2019,FY2019_audit,legal_debt_margin,Assessed Valuations,prior_year,592148762,55
+2019,FY2019_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,17613619,55
+2019,FY2019_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,17024277,55
+2019,FY2019_audit,legal_debt_margin,General obligation bonds,this_year,2100000,55
+2019,FY2019_audit,legal_debt_margin,General obligation bonds,prior_year,2090000,55
+2019,FY2019_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,5590000,55
+2019,FY2019_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,5930000,55
+2019,FY2019_audit,legal_debt_margin,Agreement for deed,this_year,0,55
+2019,FY2019_audit,legal_debt_margin,Agreement for deed,prior_year,98887,55
+2019,FY2019_audit,legal_debt_margin,Total debt applicable to limit,this_year,7690000,55
+2019,FY2019_audit,legal_debt_margin,Total debt applicable to limit,prior_year,8118887,55
+2019,FY2019_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,1098967,55
+2019,FY2019_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,921406,55
+2019,FY2019_audit,legal_debt_margin,Net debt applicable to limit,this_year,6591033,55
+2019,FY2019_audit,legal_debt_margin,Net debt applicable to limit,prior_year,7197481,55
+2019,FY2019_audit,legal_debt_margin,Legal debt margin,this_year,11022586,55
+2019,FY2019_audit,legal_debt_margin,Legal debt margin,prior_year,9826796,55
+2019,FY2019_audit,non_referendum,Assessed Valuations,this_year,612647631,56
+2019,FY2019_audit,non_referendum,Assessed Valuations,prior_year,592148762,56
+2019,FY2019_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,3522724,56
+2019,FY2019_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,3404855,56
+2019,FY2019_audit,non_referendum,General obligation bonds,this_year,2100000,56
+2019,FY2019_audit,non_referendum,General obligation bonds,prior_year,2090000,56
+2019,FY2019_audit,non_referendum,Total debt applicable to limit,this_year,2100000,56
+2019,FY2019_audit,non_referendum,Total debt applicable to limit,prior_year,2090000,56
+2019,FY2019_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,1098967,56
+2019,FY2019_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,921406,56
+2019,FY2019_audit,non_referendum,Net debt applicable to limit,this_year,1001033,56
+2019,FY2019_audit,non_referendum,Net debt applicable to limit,prior_year,1168594,56
+2019,FY2019_audit,non_referendum,Legal debt margin,this_year,2521691,56
+2019,FY2019_audit,non_referendum,Legal debt margin,prior_year,2236261,56

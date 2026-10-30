@@ -12,7 +12,7 @@ FY2021_audit,balance_sheet: Unearned revenue: total column,5244,5244,ok
 FY2021_audit,balance_sheet: Total liabilities: total column,99566,99566,ok
 FY2021_audit,balance_sheet: Property taxes: total column,3851324,3851324,ok
 FY2021_audit,balance_sheet: Total liabilities and deferred inflows of resources: total column,3950890,3950890,ok
-FY2021_audit,balance_sheet: Prepaid items.: total column,14402,14402,ok
+FY2021_audit,balance_sheet: Prepaid items: total column,14402,14402,ok
 FY2021_audit,balance_sheet: Recreation purposes: total column,469072,469072,ok
 FY2021_audit,balance_sheet: Special recreation: total column,252666,252666,ok
 FY2021_audit,balance_sheet: Museum purposes: total column,411546,411546,ok
@@ -82,8 +82,8 @@ FY2021_audit,changes: Interest: total column,4337,4337,ok
 FY2021_audit,changes: Other: total column,259462,259462,ok
 FY2021_audit,changes: Total revenues: total column,5059406,5059406,ok
 FY2021_audit,changes: Personnel: total column,2363224,2363224,ok
-FY2021_audit,changes: a Contractual services: total column,887298,887298,ok
-FY2021_audit,changes: N Material & supplies: total column,364503,364503,ok
+FY2021_audit,changes: Contractual services: total column,887298,887298,ok
+FY2021_audit,changes: Material & supplies: total column,364503,364503,ok
 FY2021_audit,changes: Capital outlay: total column,594087,594087,ok
 FY2021_audit,changes: Principal: total column,1495000,1495000,ok
 FY2021_audit,changes: Interest: total column,134565,134565,ok

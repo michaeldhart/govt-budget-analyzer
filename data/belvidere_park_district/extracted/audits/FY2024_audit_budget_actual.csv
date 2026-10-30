@@ -5,21 +5,21 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2024,FY2024_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,budget,200000
 2024,FY2024_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,actual,124175
 2024,FY2024_audit,General Fund,47,2,Revenues; Taxes,Corporate replacement taxes,variance,-75825
-2024,FY2024_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,budget,26250
-2024,FY2024_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,actual,33505
-2024,FY2024_audit,General Fund,47,3,Revenues; Taxes,Charges and fees,variance,7255
-2024,FY2024_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,budget,18500
-2024,FY2024_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,actual,19832
-2024,FY2024_audit,General Fund,47,4,Revenues; Taxes,Donations & grants,variance,1332
-2024,FY2024_audit,General Fund,47,5,Revenues; Taxes,Interest,budget,13250
-2024,FY2024_audit,General Fund,47,5,Revenues; Taxes,Interest,actual,89392
-2024,FY2024_audit,General Fund,47,5,Revenues; Taxes,Interest,variance,76142
-2024,FY2024_audit,General Fund,47,6,Revenues; Taxes,Other,budget,26825
-2024,FY2024_audit,General Fund,47,6,Revenues; Taxes,Other,actual,11738
-2024,FY2024_audit,General Fund,47,6,Revenues; Taxes,Other,variance,-15087
-2024,FY2024_audit,General Fund,47,7,Revenues; Taxes,Total revenues,budget,1960771
-2024,FY2024_audit,General Fund,47,7,Revenues; Taxes,Total revenues,actual,1942737
-2024,FY2024_audit,General Fund,47,7,Revenues; Taxes,Total revenues,variance,-18034
+2024,FY2024_audit,General Fund,47,3,Revenues,Charges and fees,budget,26250
+2024,FY2024_audit,General Fund,47,3,Revenues,Charges and fees,actual,33505
+2024,FY2024_audit,General Fund,47,3,Revenues,Charges and fees,variance,7255
+2024,FY2024_audit,General Fund,47,4,Revenues,Donations & grants,budget,18500
+2024,FY2024_audit,General Fund,47,4,Revenues,Donations & grants,actual,19832
+2024,FY2024_audit,General Fund,47,4,Revenues,Donations & grants,variance,1332
+2024,FY2024_audit,General Fund,47,5,Revenues,Interest,budget,13250
+2024,FY2024_audit,General Fund,47,5,Revenues,Interest,actual,89392
+2024,FY2024_audit,General Fund,47,5,Revenues,Interest,variance,76142
+2024,FY2024_audit,General Fund,47,6,Revenues,Other,budget,26825
+2024,FY2024_audit,General Fund,47,6,Revenues,Other,actual,11738
+2024,FY2024_audit,General Fund,47,6,Revenues,Other,variance,-15087
+2024,FY2024_audit,General Fund,47,7,Revenues,Total revenues,budget,1960771
+2024,FY2024_audit,General Fund,47,7,Revenues,Total revenues,actual,1942737
+2024,FY2024_audit,General Fund,47,7,Revenues,Total revenues,variance,-18034
 2024,FY2024_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,budget,1070944
 2024,FY2024_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,actual,982515
 2024,FY2024_audit,General Fund,47,8,Expenditures; Current; Culture & recreation,Personnel,variance,88429
@@ -29,12 +29,12 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2024,FY2024_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,budget,248767
 2024,FY2024_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,187215
 2024,FY2024_audit,General Fund,47,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,61552
-2024,FY2024_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,15900
-2024,FY2024_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,5221
-2024,FY2024_audit,General Fund,47,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,10679
-2024,FY2024_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1960771
-2024,FY2024_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1847876
-2024,FY2024_audit,General Fund,47,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,112895
+2024,FY2024_audit,General Fund,47,11,Expenditures,Capital outlay,budget,15900
+2024,FY2024_audit,General Fund,47,11,Expenditures,Capital outlay,actual,5221
+2024,FY2024_audit,General Fund,47,11,Expenditures,Capital outlay,variance,10679
+2024,FY2024_audit,General Fund,47,12,Expenditures,Total expenditures,budget,1960771
+2024,FY2024_audit,General Fund,47,12,Expenditures,Total expenditures,actual,1847876
+2024,FY2024_audit,General Fund,47,12,Expenditures,Total expenditures,variance,112895
 2024,FY2024_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,budget,0
 2024,FY2024_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,actual,94861
 2024,FY2024_audit,General Fund,47,13,,Excess of revenues over (under) expenditures,variance,94861
@@ -73,12 +73,12 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2024,FY2024_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,150253
 2024,FY2024_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,96426
 2024,FY2024_audit,Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,53827
-2024,FY2024_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
-2024,FY2024_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,0
-2024,FY2024_audit,Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,0
-2024,FY2024_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1882068
-2024,FY2024_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1625743
-2024,FY2024_audit,Recreation Fund,48,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,256325
+2024,FY2024_audit,Recreation Fund,48,10,Expenditures,Capital outlay,budget,0
+2024,FY2024_audit,Recreation Fund,48,10,Expenditures,Capital outlay,actual,0
+2024,FY2024_audit,Recreation Fund,48,10,Expenditures,Capital outlay,variance,0
+2024,FY2024_audit,Recreation Fund,48,11,Expenditures,Total expenditures,budget,1882068
+2024,FY2024_audit,Recreation Fund,48,11,Expenditures,Total expenditures,actual,1625743
+2024,FY2024_audit,Recreation Fund,48,11,Expenditures,Total expenditures,variance,256325
 2024,FY2024_audit,Recreation Fund,48,12,,Net change in fund balance,budget,0
 2024,FY2024_audit,Recreation Fund,48,12,,Net change in fund balance,actual,217325
 2024,FY2024_audit,Recreation Fund,48,12,,Net change in fund balance,variance,217325
@@ -186,12 +186,12 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2024,FY2024_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,budget,0
 2024,FY2024_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,actual,52524
 2024,FY2024_audit,Capital Projects Fund,53,5,Expenditures; Current; Culture & recreation,Contractual services,variance,-52524
-2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,budget,721371
-2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,actual,704781
-2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures; Current; Culture & recreation,Capital outlay,variance,16590
-2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,budget,721371
-2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,actual,757305
-2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures; Current; Culture & recreation,Total expenditures,variance,-35934
+2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures,Capital outlay,budget,721371
+2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures,Capital outlay,actual,704781
+2024,FY2024_audit,Capital Projects Fund,53,6,Expenditures,Capital outlay,variance,16590
+2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures,Total expenditures,budget,721371
+2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures,Total expenditures,actual,757305
+2024,FY2024_audit,Capital Projects Fund,53,7,Expenditures,Total expenditures,variance,-35934
 2024,FY2024_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,budget,-699571
 2024,FY2024_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,actual,-636164
 2024,FY2024_audit,Capital Projects Fund,53,8,,Excess of revenues over (under) expenditures,variance,63407
@@ -233,12 +233,12 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2024,FY2024_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,budget,24350
 2024,FY2024_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,8216
 2024,FY2024_audit,Museum Fund,54,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,16134
-2024,FY2024_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
-2024,FY2024_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,131331
-2024,FY2024_audit,Museum Fund,54,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,-131331
-2024,FY2024_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,207115
-2024,FY2024_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,170020
-2024,FY2024_audit,Museum Fund,54,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,37095
+2024,FY2024_audit,Museum Fund,54,10,Expenditures,Capital outlay,budget,0
+2024,FY2024_audit,Museum Fund,54,10,Expenditures,Capital outlay,actual,131331
+2024,FY2024_audit,Museum Fund,54,10,Expenditures,Capital outlay,variance,-131331
+2024,FY2024_audit,Museum Fund,54,11,Expenditures,Total expenditures,budget,207115
+2024,FY2024_audit,Museum Fund,54,11,Expenditures,Total expenditures,actual,170020
+2024,FY2024_audit,Museum Fund,54,11,Expenditures,Total expenditures,variance,37095
 2024,FY2024_audit,Museum Fund,54,12,,Net change in fund balance,budget,6
 2024,FY2024_audit,Museum Fund,54,12,,Net change in fund balance,actual,-37502
 2024,FY2024_audit,Museum Fund,54,12,,Net change in fund balance,variance,-37508

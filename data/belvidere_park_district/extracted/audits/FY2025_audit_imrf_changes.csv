@@ -1,211 +1,211 @@
-fiscal_year,doc,calendar_year,line_item,amount
-2025,FY2025_audit,2025,Service Cost,116214
-2025,FY2025_audit,2024,Service Cost,118481
-2025,FY2025_audit,2023,Service Cost,106404
-2025,FY2025_audit,2022,Service Cost,93168
-2025,FY2025_audit,2021,Service Cost,112525
-2025,FY2025_audit,2020,Service Cost,116470
-2025,FY2025_audit,2019,Service Cost,118608
-2025,FY2025_audit,2018,Service Cost,114669
-2025,FY2025_audit,2017,Service Cost,115795
-2025,FY2025_audit,2016,Service Cost,112763
-2025,FY2025_audit,2025,Interest on the Total Pension Liability,490439
-2025,FY2025_audit,2024,Interest on the Total Pension Liability,467299
-2025,FY2025_audit,2023,Interest on the Total Pension Liability,447201
-2025,FY2025_audit,2022,Interest on the Total Pension Liability,424823
-2025,FY2025_audit,2021,Interest on the Total Pension Liability,405969
-2025,FY2025_audit,2020,Interest on the Total Pension Liability,387278
-2025,FY2025_audit,2019,Interest on the Total Pension Liability,378351
-2025,FY2025_audit,2018,Interest on the Total Pension Liability,355012
-2025,FY2025_audit,2017,Interest on the Total Pension Liability,327696
-2025,FY2025_audit,2016,Interest on the Total Pension Liability,309271
-2025,FY2025_audit,2025,Benefit Changes,0
-2025,FY2025_audit,2024,Benefit Changes,0
-2025,FY2025_audit,2023,Benefit Changes,0
-2025,FY2025_audit,2022,Benefit Changes,0
-2025,FY2025_audit,2021,Benefit Changes,0
-2025,FY2025_audit,2020,Benefit Changes,0
-2025,FY2025_audit,2019,Benefit Changes,0
-2025,FY2025_audit,2018,Benefit Changes,0
-2025,FY2025_audit,2017,Benefit Changes,0
-2025,FY2025_audit,2016,Benefit Changes,0
-2025,FY2025_audit,2025,Difference between Expected and Actual Experience,12534
-2025,FY2025_audit,2024,Difference between Expected and Actual Experience,61922
-2025,FY2025_audit,2023,Difference between Expected and Actual Experience,64305
-2025,FY2025_audit,2022,Difference between Expected and Actual Experience,103023
-2025,FY2025_audit,2021,Difference between Expected and Actual Experience,46548
-2025,FY2025_audit,2020,Difference between Expected and Actual Experience,59994
-2025,FY2025_audit,2019,Difference between Expected and Actual Experience,-144023
-2025,FY2025_audit,2018,Difference between Expected and Actual Experience,66233
-2025,FY2025_audit,2017,Difference between Expected and Actual Experience,196166
-2025,FY2025_audit,2016,Difference between Expected and Actual Experience,-69952
-2025,FY2025_audit,2025,Assumption Changes,0
-2025,FY2025_audit,2024,Assumption Changes,0
-2025,FY2025_audit,2023,Assumption Changes,-22109
-2025,FY2025_audit,2022,Assumption Changes,0
-2025,FY2025_audit,2021,Assumption Changes,0
-2025,FY2025_audit,2020,Assumption Changes,-50265
-2025,FY2025_audit,2019,Assumption Changes,0
-2025,FY2025_audit,2018,Assumption Changes,146665
-2025,FY2025_audit,2017,Assumption Changes,-126138
-2025,FY2025_audit,2016,Assumption Changes,-5435
-2025,FY2025_audit,2025,Benefit Payments and Refunds,-329438
-2025,FY2025_audit,2024,Benefit Payments and Refunds,-325365
-2025,FY2025_audit,2023,Benefit Payments and Refunds,-323861
-2025,FY2025_audit,2022,Benefit Payments and Refunds,-314095
-2025,FY2025_audit,2021,Benefit Payments and Refunds,-276528
-2025,FY2025_audit,2020,Benefit Payments and Refunds,-230854
-2025,FY2025_audit,2019,Benefit Payments and Refunds,-226634
-2025,FY2025_audit,2018,Benefit Payments and Refunds,-172165
-2025,FY2025_audit,2017,Benefit Payments and Refunds,-125336
-2025,FY2025_audit,2016,Benefit Payments and Refunds,-90643
-2025,FY2025_audit,2025,Net Change in Total Pension Liability,289749
-2025,FY2025_audit,2024,Net Change in Total Pension Liability,322337
-2025,FY2025_audit,2023,Net Change in Total Pension Liability,271940
-2025,FY2025_audit,2022,Net Change in Total Pension Liability,306919
-2025,FY2025_audit,2021,Net Change in Total Pension Liability,288514
-2025,FY2025_audit,2020,Net Change in Total Pension Liability,282623
-2025,FY2025_audit,2019,Net Change in Total Pension Liability,126302
-2025,FY2025_audit,2018,Net Change in Total Pension Liability,510414
-2025,FY2025_audit,2017,Net Change in Total Pension Liability,388183
-2025,FY2025_audit,2016,Net Change in Total Pension Liability,256004
-2025,FY2025_audit,2025,Total Pension Liability - Beginning,6871289
-2025,FY2025_audit,2024,Total Pension Liability - Beginning,6548952
-2025,FY2025_audit,2023,Total Pension Liability - Beginning,6277012
-2025,FY2025_audit,2022,Total Pension Liability - Beginning,5970093
-2025,FY2025_audit,2021,Total Pension Liability - Beginning,5681579
-2025,FY2025_audit,2020,Total Pension Liability - Beginning,5398956
-2025,FY2025_audit,2019,Total Pension Liability - Beginning,5272654
-2025,FY2025_audit,2018,Total Pension Liability - Beginning,4762240
-2025,FY2025_audit,2017,Total Pension Liability - Beginning,4374057
-2025,FY2025_audit,2016,Total Pension Liability - Beginning,4118053
-2025,FY2025_audit,2025,Total Pension Liability - Ending (a),7161038
-2025,FY2025_audit,2024,Total Pension Liability - Ending (a),6871289
-2025,FY2025_audit,2023,Total Pension Liability - Ending (a),6548952
-2025,FY2025_audit,2022,Total Pension Liability - Ending (a),6277012
-2025,FY2025_audit,2021,Total Pension Liability - Ending (a),5970093
-2025,FY2025_audit,2020,Total Pension Liability - Ending (a),5681579
-2025,FY2025_audit,2019,Total Pension Liability - Ending (a),5398956
-2025,FY2025_audit,2018,Total Pension Liability - Ending (a),5272654
-2025,FY2025_audit,2017,Total Pension Liability - Ending (a),4762240
-2025,FY2025_audit,2016,Total Pension Liability - Ending (a),4374057
-2025,FY2025_audit,2025,Employer Contributions,35854
-2025,FY2025_audit,2024,Employer Contributions,27510
-2025,FY2025_audit,2023,Employer Contributions,18164
-2025,FY2025_audit,2022,Employer Contributions,52614
-2025,FY2025_audit,2021,Employer Contributions,107143
-2025,FY2025_audit,2020,Employer Contributions,123601
-2025,FY2025_audit,2019,Employer Contributions,102715
-2025,FY2025_audit,2018,Employer Contributions,116621
-2025,FY2025_audit,2017,Employer Contributions,112287
-2025,FY2025_audit,2016,Employer Contributions,110879
-2025,FY2025_audit,2025,Employee Contributions,65586
-2025,FY2025_audit,2024,Employee Contributions,62208
-2025,FY2025_audit,2023,Employee Contributions,57969
-2025,FY2025_audit,2022,Employee Contributions,53685
-2025,FY2025_audit,2021,Employee Contributions,53288
-2025,FY2025_audit,2020,Employee Contributions,54370
-2025,FY2025_audit,2019,Employee Contributions,53274
-2025,FY2025_audit,2018,Employee Contributions,58751
-2025,FY2025_audit,2017,Employee Contributions,54450
-2025,FY2025_audit,2016,Employee Contributions,52912
-2025,FY2025_audit,2025,Pension Plan Net Investment Income,1107024
-2025,FY2025_audit,2024,Pension Plan Net Investment Income,688337
-2025,FY2025_audit,2023,Pension Plan Net Investment Income,702064
-2025,FY2025_audit,2022,Pension Plan Net Investment Income,-960174
-2025,FY2025_audit,2021,Pension Plan Net Investment Income,1061433
-2025,FY2025_audit,2020,Pension Plan Net Investment Income,720222
-2025,FY2025_audit,2019,Pension Plan Net Investment Income,785716
-2025,FY2025_audit,2018,Pension Plan Net Investment Income,-210731
-2025,FY2025_audit,2017,Pension Plan Net Investment Income,609709
-2025,FY2025_audit,2016,Pension Plan Net Investment Income,249909
-2025,FY2025_audit,2025,Benefit Payments and Refunds (2),-329438
-2025,FY2025_audit,2024,Benefit Payments and Refunds (2),-325365
-2025,FY2025_audit,2023,Benefit Payments and Refunds (2),-323861
-2025,FY2025_audit,2022,Benefit Payments and Refunds (2),-314095
-2025,FY2025_audit,2021,Benefit Payments and Refunds (2),-276528
-2025,FY2025_audit,2020,Benefit Payments and Refunds (2),-230854
-2025,FY2025_audit,2019,Benefit Payments and Refunds (2),-226634
-2025,FY2025_audit,2018,Benefit Payments and Refunds (2),-172165
-2025,FY2025_audit,2017,Benefit Payments and Refunds (2),-125336
-2025,FY2025_audit,2016,Benefit Payments and Refunds (2),-90643
-2025,FY2025_audit,2025,Other (Net Transfer),28236
-2025,FY2025_audit,2024,Other (Net Transfer),-118981
-2025,FY2025_audit,2023,Other (Net Transfer),154804
-2025,FY2025_audit,2022,Other (Net Transfer),16309
-2025,FY2025_audit,2021,Other (Net Transfer),68640
-2025,FY2025_audit,2020,Other (Net Transfer),641964
-2025,FY2025_audit,2019,Other (Net Transfer),14487
-2025,FY2025_audit,2018,Other (Net Transfer),77114
-2025,FY2025_audit,2017,Other (Net Transfer),-36529
-2025,FY2025_audit,2016,Other (Net Transfer),4375
-2025,FY2025_audit,2025,Net Change in Plan Fiduciary Net Position,907262
-2025,FY2025_audit,2024,Net Change in Plan Fiduciary Net Position,333709
-2025,FY2025_audit,2023,Net Change in Plan Fiduciary Net Position,609140
-2025,FY2025_audit,2022,Net Change in Plan Fiduciary Net Position,-1151661
-2025,FY2025_audit,2021,Net Change in Plan Fiduciary Net Position,1013976
-2025,FY2025_audit,2020,Net Change in Plan Fiduciary Net Position,1309303
-2025,FY2025_audit,2019,Net Change in Plan Fiduciary Net Position,729558
-2025,FY2025_audit,2018,Net Change in Plan Fiduciary Net Position,-130410
-2025,FY2025_audit,2017,Net Change in Plan Fiduciary Net Position,614581
-2025,FY2025_audit,2016,Net Change in Plan Fiduciary Net Position,327432
-2025,FY2025_audit,2025,Plan Fiduciary Net Position - Beginning,7219767
-2025,FY2025_audit,2024,Plan Fiduciary Net Position - Beginning,6886058
-2025,FY2025_audit,2023,Plan Fiduciary Net Position - Beginning,6276918
-2025,FY2025_audit,2022,Plan Fiduciary Net Position - Beginning,7428579
-2025,FY2025_audit,2021,Plan Fiduciary Net Position - Beginning,6414603
-2025,FY2025_audit,2020,Plan Fiduciary Net Position - Beginning,5105300
-2025,FY2025_audit,2019,Plan Fiduciary Net Position - Beginning,4375742
-2025,FY2025_audit,2018,Plan Fiduciary Net Position - Beginning,4506152
-2025,FY2025_audit,2017,Plan Fiduciary Net Position - Beginning,3891571
-2025,FY2025_audit,2016,Plan Fiduciary Net Position - Beginning,3564139
-2025,FY2025_audit,2025,Plan Fiduciary Net Position - Ending (b),8127029
-2025,FY2025_audit,2024,Plan Fiduciary Net Position - Ending (b),7219767
-2025,FY2025_audit,2023,Plan Fiduciary Net Position - Ending (b),6886058
-2025,FY2025_audit,2022,Plan Fiduciary Net Position - Ending (b),6276918
-2025,FY2025_audit,2021,Plan Fiduciary Net Position - Ending (b),7428579
-2025,FY2025_audit,2020,Plan Fiduciary Net Position - Ending (b),6414603
-2025,FY2025_audit,2019,Plan Fiduciary Net Position - Ending (b),5105300
-2025,FY2025_audit,2018,Plan Fiduciary Net Position - Ending (b),4375742
-2025,FY2025_audit,2017,Plan Fiduciary Net Position - Ending (b),4506152
-2025,FY2025_audit,2016,Plan Fiduciary Net Position - Ending (b),3891571
-2025,FY2025_audit,2025,Net Pension Liability/(Asset) - Ending (a)-(b),-965991
-2025,FY2025_audit,2024,Net Pension Liability/(Asset) - Ending (a)-(b),-348478
-2025,FY2025_audit,2023,Net Pension Liability/(Asset) - Ending (a)-(b),-337106
-2025,FY2025_audit,2022,Net Pension Liability/(Asset) - Ending (a)-(b),94
-2025,FY2025_audit,2021,Net Pension Liability/(Asset) - Ending (a)-(b),-1458486
-2025,FY2025_audit,2020,Net Pension Liability/(Asset) - Ending (a)-(b),-733024
-2025,FY2025_audit,2019,Net Pension Liability/(Asset) - Ending (a)-(b),293656
-2025,FY2025_audit,2018,Net Pension Liability/(Asset) - Ending (a)-(b),896912
-2025,FY2025_audit,2017,Net Pension Liability/(Asset) - Ending (a)-(b),256088
-2025,FY2025_audit,2016,Net Pension Liability/(Asset) - Ending (a)-(b),482486
-2025,FY2025_audit,2025,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,113.49
-2025,FY2025_audit,2024,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.07
-2025,FY2025_audit,2023,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.15
-2025,FY2025_audit,2022,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,100.00
-2025,FY2025_audit,2021,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,124.43
-2025,FY2025_audit,2020,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,112.90
-2025,FY2025_audit,2019,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.56
-2025,FY2025_audit,2018,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,82.99
-2025,FY2025_audit,2017,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.62
-2025,FY2025_audit,2016,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,88.97
-2025,FY2025_audit,2025,Covered Valuation Payroll,1465413
-2025,FY2025_audit,2024,Covered Valuation Payroll,1382409
-2025,FY2025_audit,2023,Covered Valuation Payroll,1288191
-2025,FY2025_audit,2022,Covered Valuation Payroll,1179685
-2025,FY2025_audit,2021,Covered Valuation Payroll,1129465
-2025,FY2025_audit,2020,Covered Valuation Payroll,1208226
-2025,FY2025_audit,2019,Covered Valuation Payroll,1183590
-2025,FY2025_audit,2018,Covered Valuation Payroll,1284901
-2025,FY2025_audit,2017,Covered Valuation Payroll,1209989
-2025,FY2025_audit,2016,Covered Valuation Payroll,1175816
-2025,FY2025_audit,2025,Net Pension Liability as a Percentage of Covered Valuation Payroll,-65.92
-2025,FY2025_audit,2024,Net Pension Liability as a Percentage of Covered Valuation Payroll,-25.21
-2025,FY2025_audit,2023,Net Pension Liability as a Percentage of Covered Valuation Payroll,-26.17
-2025,FY2025_audit,2022,Net Pension Liability as a Percentage of Covered Valuation Payroll,0.01
-2025,FY2025_audit,2021,Net Pension Liability as a Percentage of Covered Valuation Payroll,-129.13
-2025,FY2025_audit,2020,Net Pension Liability as a Percentage of Covered Valuation Payroll,-60.67
-2025,FY2025_audit,2019,Net Pension Liability as a Percentage of Covered Valuation Payroll,24.81
-2025,FY2025_audit,2018,Net Pension Liability as a Percentage of Covered Valuation Payroll,69.80
-2025,FY2025_audit,2017,Net Pension Liability as a Percentage of Covered Valuation Payroll,21.16
-2025,FY2025_audit,2016,Net Pension Liability as a Percentage of Covered Valuation Payroll,41.03
+fiscal_year,doc,calendar_year,line_item,amount,pdf_page
+2025,FY2025_audit,2025,Service Cost,116214,44
+2025,FY2025_audit,2024,Service Cost,118481,44
+2025,FY2025_audit,2023,Service Cost,106404,44
+2025,FY2025_audit,2022,Service Cost,93168,44
+2025,FY2025_audit,2021,Service Cost,112525,44
+2025,FY2025_audit,2020,Service Cost,116470,44
+2025,FY2025_audit,2019,Service Cost,118608,44
+2025,FY2025_audit,2018,Service Cost,114669,44
+2025,FY2025_audit,2017,Service Cost,115795,44
+2025,FY2025_audit,2016,Service Cost,112763,44
+2025,FY2025_audit,2025,Interest on the Total Pension Liability,490439,44
+2025,FY2025_audit,2024,Interest on the Total Pension Liability,467299,44
+2025,FY2025_audit,2023,Interest on the Total Pension Liability,447201,44
+2025,FY2025_audit,2022,Interest on the Total Pension Liability,424823,44
+2025,FY2025_audit,2021,Interest on the Total Pension Liability,405969,44
+2025,FY2025_audit,2020,Interest on the Total Pension Liability,387278,44
+2025,FY2025_audit,2019,Interest on the Total Pension Liability,378351,44
+2025,FY2025_audit,2018,Interest on the Total Pension Liability,355012,44
+2025,FY2025_audit,2017,Interest on the Total Pension Liability,327696,44
+2025,FY2025_audit,2016,Interest on the Total Pension Liability,309271,44
+2025,FY2025_audit,2025,Benefit Changes,0,44
+2025,FY2025_audit,2024,Benefit Changes,0,44
+2025,FY2025_audit,2023,Benefit Changes,0,44
+2025,FY2025_audit,2022,Benefit Changes,0,44
+2025,FY2025_audit,2021,Benefit Changes,0,44
+2025,FY2025_audit,2020,Benefit Changes,0,44
+2025,FY2025_audit,2019,Benefit Changes,0,44
+2025,FY2025_audit,2018,Benefit Changes,0,44
+2025,FY2025_audit,2017,Benefit Changes,0,44
+2025,FY2025_audit,2016,Benefit Changes,0,44
+2025,FY2025_audit,2025,Difference between Expected and Actual Experience,12534,44
+2025,FY2025_audit,2024,Difference between Expected and Actual Experience,61922,44
+2025,FY2025_audit,2023,Difference between Expected and Actual Experience,64305,44
+2025,FY2025_audit,2022,Difference between Expected and Actual Experience,103023,44
+2025,FY2025_audit,2021,Difference between Expected and Actual Experience,46548,44
+2025,FY2025_audit,2020,Difference between Expected and Actual Experience,59994,44
+2025,FY2025_audit,2019,Difference between Expected and Actual Experience,-144023,44
+2025,FY2025_audit,2018,Difference between Expected and Actual Experience,66233,44
+2025,FY2025_audit,2017,Difference between Expected and Actual Experience,196166,44
+2025,FY2025_audit,2016,Difference between Expected and Actual Experience,-69952,44
+2025,FY2025_audit,2025,Assumption Changes,0,44
+2025,FY2025_audit,2024,Assumption Changes,0,44
+2025,FY2025_audit,2023,Assumption Changes,-22109,44
+2025,FY2025_audit,2022,Assumption Changes,0,44
+2025,FY2025_audit,2021,Assumption Changes,0,44
+2025,FY2025_audit,2020,Assumption Changes,-50265,44
+2025,FY2025_audit,2019,Assumption Changes,0,44
+2025,FY2025_audit,2018,Assumption Changes,146665,44
+2025,FY2025_audit,2017,Assumption Changes,-126138,44
+2025,FY2025_audit,2016,Assumption Changes,-5435,44
+2025,FY2025_audit,2025,Benefit Payments and Refunds,-329438,44
+2025,FY2025_audit,2024,Benefit Payments and Refunds,-325365,44
+2025,FY2025_audit,2023,Benefit Payments and Refunds,-323861,44
+2025,FY2025_audit,2022,Benefit Payments and Refunds,-314095,44
+2025,FY2025_audit,2021,Benefit Payments and Refunds,-276528,44
+2025,FY2025_audit,2020,Benefit Payments and Refunds,-230854,44
+2025,FY2025_audit,2019,Benefit Payments and Refunds,-226634,44
+2025,FY2025_audit,2018,Benefit Payments and Refunds,-172165,44
+2025,FY2025_audit,2017,Benefit Payments and Refunds,-125336,44
+2025,FY2025_audit,2016,Benefit Payments and Refunds,-90643,44
+2025,FY2025_audit,2025,Net Change in Total Pension Liability,289749,44
+2025,FY2025_audit,2024,Net Change in Total Pension Liability,322337,44
+2025,FY2025_audit,2023,Net Change in Total Pension Liability,271940,44
+2025,FY2025_audit,2022,Net Change in Total Pension Liability,306919,44
+2025,FY2025_audit,2021,Net Change in Total Pension Liability,288514,44
+2025,FY2025_audit,2020,Net Change in Total Pension Liability,282623,44
+2025,FY2025_audit,2019,Net Change in Total Pension Liability,126302,44
+2025,FY2025_audit,2018,Net Change in Total Pension Liability,510414,44
+2025,FY2025_audit,2017,Net Change in Total Pension Liability,388183,44
+2025,FY2025_audit,2016,Net Change in Total Pension Liability,256004,44
+2025,FY2025_audit,2025,Total Pension Liability - Beginning,6871289,44
+2025,FY2025_audit,2024,Total Pension Liability - Beginning,6548952,44
+2025,FY2025_audit,2023,Total Pension Liability - Beginning,6277012,44
+2025,FY2025_audit,2022,Total Pension Liability - Beginning,5970093,44
+2025,FY2025_audit,2021,Total Pension Liability - Beginning,5681579,44
+2025,FY2025_audit,2020,Total Pension Liability - Beginning,5398956,44
+2025,FY2025_audit,2019,Total Pension Liability - Beginning,5272654,44
+2025,FY2025_audit,2018,Total Pension Liability - Beginning,4762240,44
+2025,FY2025_audit,2017,Total Pension Liability - Beginning,4374057,44
+2025,FY2025_audit,2016,Total Pension Liability - Beginning,4118053,44
+2025,FY2025_audit,2025,Total Pension Liability - Ending (a),7161038,44
+2025,FY2025_audit,2024,Total Pension Liability - Ending (a),6871289,44
+2025,FY2025_audit,2023,Total Pension Liability - Ending (a),6548952,44
+2025,FY2025_audit,2022,Total Pension Liability - Ending (a),6277012,44
+2025,FY2025_audit,2021,Total Pension Liability - Ending (a),5970093,44
+2025,FY2025_audit,2020,Total Pension Liability - Ending (a),5681579,44
+2025,FY2025_audit,2019,Total Pension Liability - Ending (a),5398956,44
+2025,FY2025_audit,2018,Total Pension Liability - Ending (a),5272654,44
+2025,FY2025_audit,2017,Total Pension Liability - Ending (a),4762240,44
+2025,FY2025_audit,2016,Total Pension Liability - Ending (a),4374057,44
+2025,FY2025_audit,2025,Employer Contributions,35854,44
+2025,FY2025_audit,2024,Employer Contributions,27510,44
+2025,FY2025_audit,2023,Employer Contributions,18164,44
+2025,FY2025_audit,2022,Employer Contributions,52614,44
+2025,FY2025_audit,2021,Employer Contributions,107143,44
+2025,FY2025_audit,2020,Employer Contributions,123601,44
+2025,FY2025_audit,2019,Employer Contributions,102715,44
+2025,FY2025_audit,2018,Employer Contributions,116621,44
+2025,FY2025_audit,2017,Employer Contributions,112287,44
+2025,FY2025_audit,2016,Employer Contributions,110879,44
+2025,FY2025_audit,2025,Employee Contributions,65586,44
+2025,FY2025_audit,2024,Employee Contributions,62208,44
+2025,FY2025_audit,2023,Employee Contributions,57969,44
+2025,FY2025_audit,2022,Employee Contributions,53685,44
+2025,FY2025_audit,2021,Employee Contributions,53288,44
+2025,FY2025_audit,2020,Employee Contributions,54370,44
+2025,FY2025_audit,2019,Employee Contributions,53274,44
+2025,FY2025_audit,2018,Employee Contributions,58751,44
+2025,FY2025_audit,2017,Employee Contributions,54450,44
+2025,FY2025_audit,2016,Employee Contributions,52912,44
+2025,FY2025_audit,2025,Pension Plan Net Investment Income,1107024,44
+2025,FY2025_audit,2024,Pension Plan Net Investment Income,688337,44
+2025,FY2025_audit,2023,Pension Plan Net Investment Income,702064,44
+2025,FY2025_audit,2022,Pension Plan Net Investment Income,-960174,44
+2025,FY2025_audit,2021,Pension Plan Net Investment Income,1061433,44
+2025,FY2025_audit,2020,Pension Plan Net Investment Income,720222,44
+2025,FY2025_audit,2019,Pension Plan Net Investment Income,785716,44
+2025,FY2025_audit,2018,Pension Plan Net Investment Income,-210731,44
+2025,FY2025_audit,2017,Pension Plan Net Investment Income,609709,44
+2025,FY2025_audit,2016,Pension Plan Net Investment Income,249909,44
+2025,FY2025_audit,2025,Benefit Payments and Refunds (2),-329438,44
+2025,FY2025_audit,2024,Benefit Payments and Refunds (2),-325365,44
+2025,FY2025_audit,2023,Benefit Payments and Refunds (2),-323861,44
+2025,FY2025_audit,2022,Benefit Payments and Refunds (2),-314095,44
+2025,FY2025_audit,2021,Benefit Payments and Refunds (2),-276528,44
+2025,FY2025_audit,2020,Benefit Payments and Refunds (2),-230854,44
+2025,FY2025_audit,2019,Benefit Payments and Refunds (2),-226634,44
+2025,FY2025_audit,2018,Benefit Payments and Refunds (2),-172165,44
+2025,FY2025_audit,2017,Benefit Payments and Refunds (2),-125336,44
+2025,FY2025_audit,2016,Benefit Payments and Refunds (2),-90643,44
+2025,FY2025_audit,2025,Other (Net Transfer),28236,44
+2025,FY2025_audit,2024,Other (Net Transfer),-118981,44
+2025,FY2025_audit,2023,Other (Net Transfer),154804,44
+2025,FY2025_audit,2022,Other (Net Transfer),16309,44
+2025,FY2025_audit,2021,Other (Net Transfer),68640,44
+2025,FY2025_audit,2020,Other (Net Transfer),641964,44
+2025,FY2025_audit,2019,Other (Net Transfer),14487,44
+2025,FY2025_audit,2018,Other (Net Transfer),77114,44
+2025,FY2025_audit,2017,Other (Net Transfer),-36529,44
+2025,FY2025_audit,2016,Other (Net Transfer),4375,44
+2025,FY2025_audit,2025,Net Change in Plan Fiduciary Net Position,907262,44
+2025,FY2025_audit,2024,Net Change in Plan Fiduciary Net Position,333709,44
+2025,FY2025_audit,2023,Net Change in Plan Fiduciary Net Position,609140,44
+2025,FY2025_audit,2022,Net Change in Plan Fiduciary Net Position,-1151661,44
+2025,FY2025_audit,2021,Net Change in Plan Fiduciary Net Position,1013976,44
+2025,FY2025_audit,2020,Net Change in Plan Fiduciary Net Position,1309303,44
+2025,FY2025_audit,2019,Net Change in Plan Fiduciary Net Position,729558,44
+2025,FY2025_audit,2018,Net Change in Plan Fiduciary Net Position,-130410,44
+2025,FY2025_audit,2017,Net Change in Plan Fiduciary Net Position,614581,44
+2025,FY2025_audit,2016,Net Change in Plan Fiduciary Net Position,327432,44
+2025,FY2025_audit,2025,Plan Fiduciary Net Position - Beginning,7219767,44
+2025,FY2025_audit,2024,Plan Fiduciary Net Position - Beginning,6886058,44
+2025,FY2025_audit,2023,Plan Fiduciary Net Position - Beginning,6276918,44
+2025,FY2025_audit,2022,Plan Fiduciary Net Position - Beginning,7428579,44
+2025,FY2025_audit,2021,Plan Fiduciary Net Position - Beginning,6414603,44
+2025,FY2025_audit,2020,Plan Fiduciary Net Position - Beginning,5105300,44
+2025,FY2025_audit,2019,Plan Fiduciary Net Position - Beginning,4375742,44
+2025,FY2025_audit,2018,Plan Fiduciary Net Position - Beginning,4506152,44
+2025,FY2025_audit,2017,Plan Fiduciary Net Position - Beginning,3891571,44
+2025,FY2025_audit,2016,Plan Fiduciary Net Position - Beginning,3564139,44
+2025,FY2025_audit,2025,Plan Fiduciary Net Position - Ending (b),8127029,44
+2025,FY2025_audit,2024,Plan Fiduciary Net Position - Ending (b),7219767,44
+2025,FY2025_audit,2023,Plan Fiduciary Net Position - Ending (b),6886058,44
+2025,FY2025_audit,2022,Plan Fiduciary Net Position - Ending (b),6276918,44
+2025,FY2025_audit,2021,Plan Fiduciary Net Position - Ending (b),7428579,44
+2025,FY2025_audit,2020,Plan Fiduciary Net Position - Ending (b),6414603,44
+2025,FY2025_audit,2019,Plan Fiduciary Net Position - Ending (b),5105300,44
+2025,FY2025_audit,2018,Plan Fiduciary Net Position - Ending (b),4375742,44
+2025,FY2025_audit,2017,Plan Fiduciary Net Position - Ending (b),4506152,44
+2025,FY2025_audit,2016,Plan Fiduciary Net Position - Ending (b),3891571,44
+2025,FY2025_audit,2025,Net Pension Liability/(Asset) - Ending (a)-(b),-965991,44
+2025,FY2025_audit,2024,Net Pension Liability/(Asset) - Ending (a)-(b),-348478,44
+2025,FY2025_audit,2023,Net Pension Liability/(Asset) - Ending (a)-(b),-337106,44
+2025,FY2025_audit,2022,Net Pension Liability/(Asset) - Ending (a)-(b),94,44
+2025,FY2025_audit,2021,Net Pension Liability/(Asset) - Ending (a)-(b),-1458486,44
+2025,FY2025_audit,2020,Net Pension Liability/(Asset) - Ending (a)-(b),-733024,44
+2025,FY2025_audit,2019,Net Pension Liability/(Asset) - Ending (a)-(b),293656,44
+2025,FY2025_audit,2018,Net Pension Liability/(Asset) - Ending (a)-(b),896912,44
+2025,FY2025_audit,2017,Net Pension Liability/(Asset) - Ending (a)-(b),256088,44
+2025,FY2025_audit,2016,Net Pension Liability/(Asset) - Ending (a)-(b),482486,44
+2025,FY2025_audit,2025,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,113.49,44
+2025,FY2025_audit,2024,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.07,44
+2025,FY2025_audit,2023,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.15,44
+2025,FY2025_audit,2022,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,100.00,44
+2025,FY2025_audit,2021,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,124.43,44
+2025,FY2025_audit,2020,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,112.90,44
+2025,FY2025_audit,2019,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.56,44
+2025,FY2025_audit,2018,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,82.99,44
+2025,FY2025_audit,2017,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.62,44
+2025,FY2025_audit,2016,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,88.97,44
+2025,FY2025_audit,2025,Covered Valuation Payroll,1465413,44
+2025,FY2025_audit,2024,Covered Valuation Payroll,1382409,44
+2025,FY2025_audit,2023,Covered Valuation Payroll,1288191,44
+2025,FY2025_audit,2022,Covered Valuation Payroll,1179685,44
+2025,FY2025_audit,2021,Covered Valuation Payroll,1129465,44
+2025,FY2025_audit,2020,Covered Valuation Payroll,1208226,44
+2025,FY2025_audit,2019,Covered Valuation Payroll,1183590,44
+2025,FY2025_audit,2018,Covered Valuation Payroll,1284901,44
+2025,FY2025_audit,2017,Covered Valuation Payroll,1209989,44
+2025,FY2025_audit,2016,Covered Valuation Payroll,1175816,44
+2025,FY2025_audit,2025,Net Pension Liability as a Percentage of Covered Valuation Payroll,-65.92,44
+2025,FY2025_audit,2024,Net Pension Liability as a Percentage of Covered Valuation Payroll,-25.21,44
+2025,FY2025_audit,2023,Net Pension Liability as a Percentage of Covered Valuation Payroll,-26.17,44
+2025,FY2025_audit,2022,Net Pension Liability as a Percentage of Covered Valuation Payroll,0.01,44
+2025,FY2025_audit,2021,Net Pension Liability as a Percentage of Covered Valuation Payroll,-129.13,44
+2025,FY2025_audit,2020,Net Pension Liability as a Percentage of Covered Valuation Payroll,-60.67,44
+2025,FY2025_audit,2019,Net Pension Liability as a Percentage of Covered Valuation Payroll,24.81,44
+2025,FY2025_audit,2018,Net Pension Liability as a Percentage of Covered Valuation Payroll,69.80,44
+2025,FY2025_audit,2017,Net Pension Liability as a Percentage of Covered Valuation Payroll,21.16,44
+2025,FY2025_audit,2016,Net Pension Liability as a Percentage of Covered Valuation Payroll,41.03,44

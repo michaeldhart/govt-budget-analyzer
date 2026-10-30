@@ -7,22 +7,22 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,114053
 2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,33669
 2019,FY2019_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,88279
-2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,budget,8000
-2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,actual,14264
-2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,variance,6264
-2019,FY2019_audit,General Fund,46,3,Revenues; Taxes,Donations,prior_year_actual,7857
-2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,budget,2750
-2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,actual,2854
-2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,variance,104
-2019,FY2019_audit,General Fund,46,4,Revenues; Taxes,Interest,prior_year_actual,3493
-2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,budget,63325
-2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,actual,23121
-2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,variance,-40204
-2019,FY2019_audit,General Fund,46,5,Revenues; Taxes,Other,prior_year_actual,53584
-2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,budget,1440204
-2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,actual,1438117
-2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,variance,-2087
-2019,FY2019_audit,General Fund,46,6,Revenues; Taxes,Total revenues,prior_year_actual,1420236
+2019,FY2019_audit,General Fund,46,3,Revenues,Donations,budget,8000
+2019,FY2019_audit,General Fund,46,3,Revenues,Donations,actual,14264
+2019,FY2019_audit,General Fund,46,3,Revenues,Donations,variance,6264
+2019,FY2019_audit,General Fund,46,3,Revenues,Donations,prior_year_actual,7857
+2019,FY2019_audit,General Fund,46,4,Revenues,Interest,budget,2750
+2019,FY2019_audit,General Fund,46,4,Revenues,Interest,actual,2854
+2019,FY2019_audit,General Fund,46,4,Revenues,Interest,variance,104
+2019,FY2019_audit,General Fund,46,4,Revenues,Interest,prior_year_actual,3493
+2019,FY2019_audit,General Fund,46,5,Revenues,Other,budget,63325
+2019,FY2019_audit,General Fund,46,5,Revenues,Other,actual,23121
+2019,FY2019_audit,General Fund,46,5,Revenues,Other,variance,-40204
+2019,FY2019_audit,General Fund,46,5,Revenues,Other,prior_year_actual,53584
+2019,FY2019_audit,General Fund,46,6,Revenues,Total revenues,budget,1440204
+2019,FY2019_audit,General Fund,46,6,Revenues,Total revenues,actual,1438117
+2019,FY2019_audit,General Fund,46,6,Revenues,Total revenues,variance,-2087
+2019,FY2019_audit,General Fund,46,6,Revenues,Total revenues,prior_year_actual,1420236
 2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,budget,867151
 2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,actual,780458
 2019,FY2019_audit,General Fund,46,7,Expenditures; Current; Culture & recreation,Personnel,variance,86693
@@ -35,14 +35,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,149632
 2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,62293
 2019,FY2019_audit,General Fund,46,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,162209
-2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,40550
-2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,26492
-2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,14058
-2019,FY2019_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,28463
-2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1561696
-2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1342402
-2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,219294
-2019,FY2019_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1458480
+2019,FY2019_audit,General Fund,46,10,Expenditures,Capital outlay,budget,40550
+2019,FY2019_audit,General Fund,46,10,Expenditures,Capital outlay,actual,26492
+2019,FY2019_audit,General Fund,46,10,Expenditures,Capital outlay,variance,14058
+2019,FY2019_audit,General Fund,46,10,Expenditures,Capital outlay,prior_year_actual,28463
+2019,FY2019_audit,General Fund,46,11,Expenditures,Total expenditures,budget,1561696
+2019,FY2019_audit,General Fund,46,11,Expenditures,Total expenditures,actual,1342402
+2019,FY2019_audit,General Fund,46,11,Expenditures,Total expenditures,variance,219294
+2019,FY2019_audit,General Fund,46,11,Expenditures,Total expenditures,prior_year_actual,1458480
 2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,budget,-121492
 2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,actual,95715
 2019,FY2019_audit,General Fund,46,12,,Net change in fund balance,variance,217207
@@ -87,14 +87,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,146266
 2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,67454
 2019,FY2019_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,151060
-2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,budget,9000
-2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,actual,4191
-2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,variance,4809
-2019,FY2019_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital Outlay,prior_year_actual,3039
-2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1888095
-2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1588348
-2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,299747
-2019,FY2019_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1586831
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures,Capital Outlay,budget,9000
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures,Capital Outlay,actual,4191
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures,Capital Outlay,variance,4809
+2019,FY2019_audit,Recreation Fund,47,10,Expenditures,Capital Outlay,prior_year_actual,3039
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures,Total expenditures,budget,1888095
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures,Total expenditures,actual,1588348
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures,Total expenditures,variance,299747
+2019,FY2019_audit,Recreation Fund,47,11,Expenditures,Total expenditures,prior_year_actual,1586831
 2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,budget,-37095
 2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,actual,136311
 2019,FY2019_audit,Recreation Fund,47,12,,Net change in fund balance,variance,173406
@@ -135,14 +135,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,actual,81852
 2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,variance,14898
 2019,FY2019_audit,Special Recreation Fund,48,8,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,80841
-2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,budget,10000
-2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,actual,284
-2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,variance,9716
-2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,0
-2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,budget,500637
-2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,actual,480634
-2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,variance,20003
-2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,436149
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures,Capital outlay,budget,10000
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures,Capital outlay,actual,284
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures,Capital outlay,variance,9716
+2019,FY2019_audit,Special Recreation Fund,48,9,Expenditures,Capital outlay,prior_year_actual,0
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures,Total expenditures,budget,500637
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures,Total expenditures,actual,480634
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures,Total expenditures,variance,20003
+2019,FY2019_audit,Special Recreation Fund,48,10,Expenditures,Total expenditures,prior_year_actual,436149
 2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,budget,-38870
 2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,actual,-37364
 2019,FY2019_audit,Special Recreation Fund,48,11,,Net change in fund balance,variance,1506
@@ -247,14 +247,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,actual,1150
 2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,variance,3850
 2019,FY2019_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,1100
-2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,budget,873700
-2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,actual,545577
-2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,variance,328123
-2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,277144
-2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,budget,878700
-2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,actual,546727
-2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,variance,331973
-2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,278244
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures,Capital outlay,budget,873700
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures,Capital outlay,actual,545577
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures,Capital outlay,variance,328123
+2019,FY2019_audit,Capital Projects Fund,52,7,Expenditures,Capital outlay,prior_year_actual,277144
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures,Total expenditures,budget,878700
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures,Total expenditures,actual,546727
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures,Total expenditures,variance,331973
+2019,FY2019_audit,Capital Projects Fund,52,8,Expenditures,Total expenditures,prior_year_actual,278244
 2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,budget,-828400
 2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,actual,-490392
 2019,FY2019_audit,Capital Projects Fund,52,9,,Excess of revenues over (under) expenditures,variance,338008

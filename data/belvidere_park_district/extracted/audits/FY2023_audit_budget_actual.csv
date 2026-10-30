@@ -7,26 +7,26 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,267254
 2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,165254
 2023,FY2023_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,360716
-2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,budget,22500
-2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,actual,24938
-2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,variance,2438
-2023,FY2023_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,prior_year_actual,20770
-2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,budget,22500
-2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,actual,5005
-2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,variance,-17495
-2023,FY2023_audit,General Fund,46,4,Revenues; Taxes,Donations,prior_year_actual,24101
-2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,budget,5100
-2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,actual,64769
-2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,variance,59669
-2023,FY2023_audit,General Fund,46,5,Revenues; Taxes,Interest,prior_year_actual,17096
-2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,budget,7500
-2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,actual,52699
-2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,variance,45199
-2023,FY2023_audit,General Fund,46,6,Revenues; Taxes,Other,prior_year_actual,95626
-2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,budget,1764790
-2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,actual,1987923
-2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,variance,223133
-2023,FY2023_audit,General Fund,46,7,Revenues; Taxes,Total revenues,prior_year_actual,2006549
+2023,FY2023_audit,General Fund,46,3,Revenues,Charges and fees,budget,22500
+2023,FY2023_audit,General Fund,46,3,Revenues,Charges and fees,actual,24938
+2023,FY2023_audit,General Fund,46,3,Revenues,Charges and fees,variance,2438
+2023,FY2023_audit,General Fund,46,3,Revenues,Charges and fees,prior_year_actual,20770
+2023,FY2023_audit,General Fund,46,4,Revenues,Donations,budget,22500
+2023,FY2023_audit,General Fund,46,4,Revenues,Donations,actual,5005
+2023,FY2023_audit,General Fund,46,4,Revenues,Donations,variance,-17495
+2023,FY2023_audit,General Fund,46,4,Revenues,Donations,prior_year_actual,24101
+2023,FY2023_audit,General Fund,46,5,Revenues,Interest,budget,5100
+2023,FY2023_audit,General Fund,46,5,Revenues,Interest,actual,64769
+2023,FY2023_audit,General Fund,46,5,Revenues,Interest,variance,59669
+2023,FY2023_audit,General Fund,46,5,Revenues,Interest,prior_year_actual,17096
+2023,FY2023_audit,General Fund,46,6,Revenues,Other,budget,7500
+2023,FY2023_audit,General Fund,46,6,Revenues,Other,actual,52699
+2023,FY2023_audit,General Fund,46,6,Revenues,Other,variance,45199
+2023,FY2023_audit,General Fund,46,6,Revenues,Other,prior_year_actual,95626
+2023,FY2023_audit,General Fund,46,7,Revenues,Total revenues,budget,1764790
+2023,FY2023_audit,General Fund,46,7,Revenues,Total revenues,actual,1987923
+2023,FY2023_audit,General Fund,46,7,Revenues,Total revenues,variance,223133
+2023,FY2023_audit,General Fund,46,7,Revenues,Total revenues,prior_year_actual,2006549
 2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,budget,959890
 2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,actual,851408
 2023,FY2023_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,variance,108482
@@ -39,14 +39,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,172576
 2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,8768
 2023,FY2023_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,201378
-2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,13990
-2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,58763
-2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,-44773
-2023,FY2023_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,71714
-2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1787371
-2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1721066
-2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,66305
-2023,FY2023_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1406059
+2023,FY2023_audit,General Fund,46,11,Expenditures,Capital outlay,budget,13990
+2023,FY2023_audit,General Fund,46,11,Expenditures,Capital outlay,actual,58763
+2023,FY2023_audit,General Fund,46,11,Expenditures,Capital outlay,variance,-44773
+2023,FY2023_audit,General Fund,46,11,Expenditures,Capital outlay,prior_year_actual,71714
+2023,FY2023_audit,General Fund,46,12,Expenditures,Total expenditures,budget,1787371
+2023,FY2023_audit,General Fund,46,12,Expenditures,Total expenditures,actual,1721066
+2023,FY2023_audit,General Fund,46,12,Expenditures,Total expenditures,variance,66305
+2023,FY2023_audit,General Fund,46,12,Expenditures,Total expenditures,prior_year_actual,1406059
 2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,budget,-22581
 2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,actual,266857
 2023,FY2023_audit,General Fund,46,13,,Excess of revenues over (under) expenditures,variance,289438
@@ -99,14 +99,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,101449
 2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,35101
 2023,FY2023_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,171324
-2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,0
-2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,0
-2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,0
-2023,FY2023_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,1876
-2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1776793
-2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1509552
-2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,267241
-2023,FY2023_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1736919
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures,Capital outlay,budget,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures,Capital outlay,actual,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures,Capital outlay,variance,0
+2023,FY2023_audit,Recreation Fund,47,10,Expenditures,Capital outlay,prior_year_actual,1876
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures,Total expenditures,budget,1776793
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures,Total expenditures,actual,1509552
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures,Total expenditures,variance,267241
+2023,FY2023_audit,Recreation Fund,47,11,Expenditures,Total expenditures,prior_year_actual,1736919
 2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,budget,686
 2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,actual,218103
 2023,FY2023_audit,Recreation Fund,47,12,,Net change in fund balance,variance,217417
@@ -255,16 +255,16 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,actual,5000
 2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,variance,-5000
 2023,FY2023_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,4000
-2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget_original,880796
-2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget_final,1139035
-2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,actual,1074133
-2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,variance,64902
-2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,657740
-2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget_original,880796
-2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget_final,1139035
-2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,actual,1079133
-2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,variance,59902
-2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,661740
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,budget_original,880796
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,budget_final,1139035
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,actual,1074133
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,variance,64902
+2023,FY2023_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,prior_year_actual,657740
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,budget_original,880796
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,budget_final,1139035
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,actual,1079133
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,variance,59902
+2023,FY2023_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,prior_year_actual,661740
 2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget_original,-705296
 2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget_final,-982212
 2023,FY2023_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,actual,-875002

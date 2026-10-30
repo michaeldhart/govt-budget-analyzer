@@ -1,7 +1,8 @@
 """Integrity checks on an entity's config and canonical tables. Returns a list of problems (empty = clean)."""
+import os
 import re
 
-from .schema import (DEBT_PENSION_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
+from .schema import (DEBT_PENSION_TABLES, DOC_STATUSES, TAX_DEBT_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
                      TREATMENTS)
 from .entity import read_csv
 
@@ -76,9 +77,15 @@ def validate_tables(E):
         if r["kind"] not in TOTAL_KINDS or r["basis"] not in BASES:
             errs.append(f"control_totals.csv: bad kind/basis {r['kind']!r}/{r['basis']!r}")
     docs = {r["doc_id"] for r in read_csv(E.data_path("documents.csv"))}
+    for r in read_csv(E.data_path("documents.csv")):
+        if r["status"] not in DOC_STATUSES:
+            errs.append(f"documents.csv: {r['doc_id']}: status {r['status']!r} is not one of {DOC_STATUSES}")
     exc_ids = {x["exception_id"] for x in E.exceptions()}
-    for name, cols in DEBT_PENSION_TABLES.items():
-        rows = read_csv(E.data_path(f"{name}.csv"))
+    for name, cols in {**DEBT_PENSION_TABLES, **TAX_DEBT_TABLES}.items():
+        if not os.path.exists(E.data_path(f"{name}.csv")):
+            if name in TAX_DEBT_TABLES or E.config.get("optional_tables", []).count(name):
+                continue  # a government may not have the table (no OPEB, no assessed valuation schedule); entity.json `optional_tables` says so
+        rows = read_csv(E.data_path(f"{name}.csv")) if os.path.exists(E.data_path(f"{name}.csv")) else []
         if not rows or list(rows[0]) != cols:
             errs.append(f"{name}.csv: missing or its columns differ from schema.DEBT_PENSION_TABLES")
             continue

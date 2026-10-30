@@ -144,3 +144,185 @@ def test_fy2025_debt_and_pension_headlines():
     npl = [r["amount"] for r in csv.DictReader(open(os.path.join(EXTRACTED, "audits", "FY2025_audit_imrf_changes.csv")))
            if r["calendar_year"] == "2025" and r["line_item"].startswith("Net Pension Liability/(Asset)")]
     assert npl == ["-965991"]
+
+
+def test_documents_table():
+    from govbudget import schema
+    rows = list(csv.DictReader(open(os.path.join(ROOT, "data", ENT, "documents.csv"))))
+    assert list(rows[0]) == schema.DOCUMENT_COLUMNS and len(rows) == 44
+    assert {r["status"] for r in rows} <= set(schema.DOC_STATUSES)
+    assert all(len(r["sha256"]) == 64 for r in rows)
+
+
+def canonical(name):
+    return list(csv.DictReader(open(os.path.join(ROOT, "data", ENT, f"{name}.csv"))))
+
+
+def test_budget_facts_structure():
+    import sys
+    sys.path.insert(0, ROOT)
+    from govbudget import schema
+    from govbudget.entity import Entity
+    all_facts = canonical("facts")
+    assert list(all_facts[0]) == schema.FACT_COLUMNS and len(all_facts) == 5308
+    facts = [f for f in all_facts if f["source_type"] == "budget"]
+    assert len(facts) == 4012
+    from collections import Counter
+    assert Counter(f["basis"] for f in facts) == {"adopted": 2156, "requested": 1543, "revised": 313}
+    assert len({(f["doc_id"], f["row_seq"], f["basis"], f["period_fy"]) for f in all_facts}) == len(all_facts)
+    mapped = {(r["flow"], r["account_key"]) for r in Entity.load(ENT).table("account_map.csv")}
+    assert all((f["flow"], f["account_key"]) in mapped for f in facts)
+    docs = {d["doc_id"] for d in canonical("documents")}
+    assert {f["doc_id"] for f in facts} <= docs
+    # the FY2024 draft stands in for the adopted budget: every one of its facts carries the placeholder exception
+    assert all("EX-fy2024-budget-placeholder" in f["exception_ids"] for f in facts if f["doc_id"] == "FY2024_budget_draft")
+    assert sum(1 for f in facts if f["exception_ids"]) == 336
+
+
+def test_budget_facts_equal_the_extracts():
+    """Per document, flow and fund the facts hold the extract's first (adopted/requested/amended) column: nothing dropped, nothing added, cents rounded."""
+    from decimal import ROUND_HALF_UP
+    facts = canonical("facts")
+    first = {"budget", "approved", "requested", "budget_original", "amended"}
+    for doc in DOCS:
+        if doc.endswith("_amended_oct"):
+            continue
+        got = sorted((f["flow"], f["account_printed"], int(f["amount"])) for f in facts if f["doc_id"] == doc)
+        want = sorted((flow, r["account"], int(Decimal(r["amount"]).quantize(Decimal(1), rounding=ROUND_HALF_UP)))
+                      for flow in ("revenue", "expense") if os.path.exists(os.path.join(EXTRACTED, f"{doc}_{flow}.csv"))
+                      for r in rows(doc, flow) if r["column"] in first)
+        assert got == want, doc
+
+
+def test_fund_totals_reconcile_with_the_facts():
+    """A printed fund total equals the sum of the fund's facts (whole dollars: a fund with cents may differ by the rounding of its lines)."""
+    facts = canonical("facts")
+    sums = defaultdict(int)
+    cents = defaultdict(int)
+    for f in facts:
+        sums[(f["doc_id"], f["fund_code"], f["flow"], f["basis"])] += int(f["amount"])
+        cents[(f["doc_id"], f["fund_code"], f["flow"], f["basis"])] += "rounded_from_cents" in f["flag"]
+    n = 0
+    for t in canonical("control_totals"):
+        if t["kind"] in ("fund_revenues", "fund_expenses"):
+            k = (t["doc_id"], t["name"].split()[0], "revenue" if t["kind"] == "fund_revenues" else "expense", t["basis"])
+            assert abs(sums[k] - int(t["amount"])) <= max(1, (cents[k] + 1) // 2), (k, sums[k], t["amount"])
+            n += 1
+    assert n == 133
+
+
+def test_report_totals_reconcile_with_the_facts():
+    facts = canonical("facts")
+    for t in canonical("control_totals"):
+        if t["kind"] in ("rollup_revenues", "rollup_expenses") and t["doc_id"] in ("FY2022_budget", "FY2023_budget", "FY2023_budget_draft", "FY2024_budget_draft", "FY2023_budget_amended"):
+            flow = "revenue" if t["kind"] == "rollup_revenues" else "expense"
+            got = sum(int(f["amount"]) for f in facts if f["doc_id"] == t["doc_id"] and f["flow"] == flow and f["basis"] == t["basis"])
+            assert abs(got - int(t["amount"])) <= 3, (t["doc_id"], flow, got, t["amount"])
+
+
+def test_corrections_table():
+    from govbudget import schema
+    rows = canonical("corrections")
+    assert rows and list(rows[0]) == schema.CORRECTION_COLUMNS and len(rows) == 23
+    assert {r["method"] for r in rows} <= set(schema.CORRECTION_METHODS) and all(r["raw_value"] != r["final_value"] for r in rows)
+
+
+def test_canonical_columns_match_schema():
+    from govbudget import schema
+    want = {"facts": schema.FACT_COLUMNS, "documents": schema.DOCUMENT_COLUMNS, "accounts": schema.ACCOUNT_COLUMNS, "control_totals": schema.CONTROL_TOTAL_COLUMNS,
+            "corrections": schema.CORRECTION_COLUMNS, "fund_statements": schema.FUND_STATEMENT_COLUMNS,
+            **{k: v for k, v in schema.DEBT_PENSION_TABLES.items() if k != "opeb_rollforward"}, **schema.TAX_DEBT_TABLES}
+    for name, cols in want.items():
+        with open(os.path.join(ROOT, "data", ENT, f"{name}.csv"), newline="") as f:
+            assert next(csv.reader(f)) == cols, name
+    assert not os.path.exists(os.path.join(ROOT, "data", ENT, "opeb_rollforward.csv"))  # the park has no OPEB (entity.json optional_tables)
+
+
+def test_audit_facts_reconcile_with_the_fund_statements():
+    """Per audit and fund, the revenue and expenditure facts (actual, without the other financing lines) add to the statement of changes' totals: 49 fund-years x 2."""
+    sums = defaultdict(int)
+    for f in canonical("facts"):
+        if f["source_type"] == "audit" and f["basis"] == "actual_audited" and "prior_year" not in f["flag"] and "other_financing" not in f["flag"]:
+            sums[(f["doc_id"], f["audit_section"].split(" | ")[0], f["flow"])] += int(f["amount"])
+    n = 0
+    for r in canonical("fund_statements"):
+        if r["statement"] == "changes_in_fund_balance" and r["line_id"] in ("total_revenues", "total_expenditures") and r["fund"] != "Total Governmental Funds":
+            assert sums[(r["doc_id"], r["fund"], "revenue" if r["line_id"] == "total_revenues" else "expense")] == int(r["amount"]), r
+            n += 1
+    assert n == 98
+
+
+def test_audit_fact_bases():
+    from collections import Counter
+    c = Counter((f["source_type"], f["basis"]) for f in canonical("facts") if f["source_type"] == "audit")
+    assert c == {("audit", "audit_original"): 350, ("audit", "audit_final"): 350, ("audit", "actual_audited"): 596}  # 92 of them are other financing lines
+    assert all("combined_column" in f["flag"] for f in canonical("facts") if f["source_type"] == "audit" and f["source_column"] == "budget")
+
+
+def test_fund_statements_have_line_ids_and_balance():
+    rows = canonical("fund_statements")
+    assert len(rows) == 2672 and all(r["line_id"] for r in rows)
+    v = {(r["doc_id"], r["fund"], r["statement"], r["line_id"]): int(r["amount"]) for r in rows}
+    for (doc, fund, st, lid), a in v.items():
+        if lid == "total_assets":
+            assert a == v[(doc, fund, st, "total_liabilities_deferred_fund_balances")]
+        if lid == "fund_balance_ending":
+            assert a == v[(doc, fund, st, "fund_balance_beginning")] + v[(doc, fund, st, "net_change_in_fund_balance")]
+
+
+def test_debt_pension_and_tax_tables():
+    counts = {"debt_balances": 276, "debt_issue_terms": 16, "debt_service_schedule": 128, "pension_rollforward": 648, "pension_summary": 288,
+              "legal_debt_margin": 212, "assessed_valuations": 666}
+    for name, n in counts.items():
+        assert len(canonical(name)) == n, name
+    bal = {(r["doc_id"], r["line_id"], r["measure"]): int(r["amount"]) for r in canonical("debt_balances")}
+    assert bal[("FY2025_audit", "total", "ending")] == 4887628 and bal[("FY2025_audit", "total", "balance")] == 4887628
+    roll = {(r["doc_id"], r["column_year"], r["line_id"]): int(r["amount"]) for r in canonical("pension_rollforward")}
+    for (doc, y, lid), a in roll.items():
+        if lid == "npl_ending":
+            assert a == roll[(doc, y, "tpl_ending")] - roll[(doc, y, "fnp_ending")]
+    assert roll[("FY2025_audit", "2025", "npl_ending")] == -965991
+    ex = {(r["doc_id"], r["year_ending"]): r["exception_ids"] for r in canonical("debt_service_schedule") if r["line_id"] == "refunding_2020"}
+    assert ex[("FY2020_audit", "2031-2032")] == "EX-fy2020-debt-schedule-row"
+
+
+def test_park_is_kept_off_the_site_until_it_has_pages():
+    import json
+    assert json.load(open(os.path.join(ROOT, "entities", ENT, "entity.json")))["export_site"] is False
+
+
+def test_audit_vs_budget_is_built_from_the_facts():
+    """The comparison table's audit and budget columns are sums of facts: recompute three of them independently."""
+    facts = canonical("facts")
+    rows = canonical("audit_vs_budget")
+    assert len(rows) == 49
+    code = {(r["fiscal_year"], r["fund"]): r["doc_fund_code"] for r in rows}
+    for r in rows:
+        fy, fc = int(r["fiscal_year"]), r["doc_fund_code"]
+        mine = [f for f in facts if f["source_type"] == "audit" and f["fund_code"] == fc and int(f["period_fy"]) == fy and "prior_year" not in f["flag"]]
+        assert sum(int(f["amount"]) for f in mine if f["basis"] == "audit_original" and f["flow"] == "expense") == int(r["audit_budget_expenditures"])
+        assert sum(int(f["amount"]) for f in mine if f["basis"] == "actual_audited" and f["flow"] == "revenue" and "other_financing" not in f["flag"]) == int(r["audit_actual_revenues"])
+        if r["doc_expenses"] != "":
+            assert sum(int(f["amount"]) for f in facts if f["source_type"] == "budget" and f["fund_code"] == fc and int(f["period_fy"]) == fy and f["flow"] == "expense"
+                       and f["basis"] == r["budget_basis"]) == int(r["doc_expenses"])
+    assert {r["budget_basis"] for r in rows if r["fiscal_year"] == "2024"} == {"requested"}  # the placeholder
+    assert {r["budget_basis"] for r in rows if r["fiscal_year"] != "2024"} == {"adopted"}
+
+
+def test_audit_categories_vs_budget():
+    rows = canonical("audit_categories_vs_budget")
+    assert len(rows) == 107 and {r["group"] for r in rows} == {"personnel", "contractual", "supplies_capital", "debt_service"}
+    comp = [r for r in rows if r["matches"] != ""]
+    assert (sum(int(r["matches"]) for r in comp), sum(1 for r in comp if abs(float(r["diff_pct"] or 0)) <= 1), sum(1 for r in comp if abs(float(r["diff_pct"] or 0)) <= 5)) == (32, 60, 76)
+    # the groups add up to the fund totals of audit_vs_budget.csv: a classification difference moves money between groups, it does not lose any
+    totals = {(r["fiscal_year"], r["fund"]): r for r in canonical("audit_vs_budget")}
+    sums = defaultdict(lambda: [0, 0])
+    for r in rows:
+        sums[(r["fiscal_year"], r["fund"])][0] += int(r["audit_original"])
+        sums[(r["fiscal_year"], r["fund"])][1] += int(r["budget"] or 0)
+    for k, (a, b) in sums.items():
+        assert a == int(totals[k]["audit_budget_expenditures"]), k
+        if totals[k]["doc_expenses"] != "":
+            assert b == int(totals[k]["doc_expenses"]), k
+    ex = {r["diff"] for r in rows if r["fund"] == "General Fund" and r["fiscal_year"] in ("2019", "2020")}
+    assert max(abs(int(x)) for x in ex) <= 1000  # the General Fund of FY2019-FY2020 is within a thousand dollars in every group

@@ -12,7 +12,9 @@ Config (committed, hand-edited, under entities/<entity_id>/):
 BASES = {
     "adopted":          "the budget document's own current-year column (request as adopted by the ordinance)",
     "prior_doc_budget": "a later budget document's prior-year plain Budget column (may be restated or stale)",
-    "revised":          "a later budget document's REVISED prior-year column",
+    "revised":          "a later budget document's REVISED prior-year column; or a document's own amended / current budget column (the park's amended budget)",
+    "requested":        "a draft budget's requested column, before the board adopted it (documents with status draft)",
+    "appropriated":     "the appropriation ordinance's authority to spend (a legal ceiling, not a spending plan)",
     "actual_prelim":    "the actual column of a budget document (preliminary; superseded by the audit)",
     "audit_original":   "the audit's original budget column",
     "audit_final":      "the audit's final (amended) budget column",
@@ -49,7 +51,8 @@ FACT_COLUMNS = [
     "account_key", "account_printed", "audit_section", "label", "amount", "source_column", "page_label",
     "pdf_page", "flag", "exception_ids",
 ]
-DOCUMENT_COLUMNS = ["entity_id", "doc_id", "doc_type", "fiscal_year", "pdf_path", "sha256", "source_url", "note"]
+DOC_STATUSES = ("draft", "adopted", "final")  # a budget as proposed / as adopted, an audit as issued
+DOCUMENT_COLUMNS = ["entity_id", "doc_id", "doc_type", "fiscal_year", "status", "pdf_path", "sha256", "source_url", "note"]
 ACCOUNT_COLUMNS = ["entity_id", "flow", "account_key", "label_current", "dept_code", "department", "category_id",
                    "treatment", "first_fy", "last_fy", "note"]
 CATEGORY_COLUMNS = ["category_id", "scheme", "name", "flow", "color", "sort", "note"]
@@ -62,7 +65,9 @@ TOTAL_KINDS = ("fund_revenues", "fund_expenses", "fund_net", "dept_revenues", "d
                "beginning_cash", "ending_cash",
                # other budgeted funds and the Ida Public Library budget (fund-scoped names in `name`)
                "other_fund_revenues", "other_fund_expenses", "rollup_beginning_cash", "rollup_revenues", "rollup_expenses",
-               "rollup_ending_cash", "library_revenue_total", "library_expense_total", "library_subtotal")
+               "rollup_ending_cash", "library_revenue_total", "library_expense_total", "library_subtotal",
+               # park district budget layouts: a printed section total, and a report-level net (surplus) line
+               "section_total", "rollup_net")
 # Values the OCR read that an eyeballed override or an automatic cross-reading then replaced: one row per corrected cell (target "line", keyed
 # by doc_id + account_printed + source_column) or printed total (target "total", keyed by label = the total's name). raw_value is what the OCR
 # produced (account text for method account_override; "a|b|c" for a whole row; empty for add_row, a line no OCR reading had), final_value is
@@ -96,6 +101,12 @@ DEBT_PENSION_TABLES = {
                         "pdf_page", "flag", "exception_ids"],
     "opeb_rollforward": ["entity_id", "doc_id", "period_fy", "plan_id", "source", "measurement_date", "column_year", "line_id", "amount",
                          "pdf_page", "flag", "exception_ids"],
+}
+
+# Property tax and debt capacity schedules some audits print (the park district's): optional tables, validated when the file exists.
+TAX_DEBT_TABLES = {
+    "legal_debt_margin": ["entity_id", "doc_id", "period_fy", "schedule", "line_item", "column", "amount", "pdf_page", "flag", "exception_ids"],
+    "assessed_valuations": ["entity_id", "doc_id", "period_fy", "tax_year", "section", "line_item", "amount", "pdf_page", "flag", "exception_ids"],
 }
 
 EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "bases", "effect", "summary", "detail",

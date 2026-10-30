@@ -1,0 +1,295 @@
+entity_id,doc_id,period_fy,basis,kind,name,amount,page_label
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Corporate Tax Income,1440254,1
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Corporate Expenses,1561696,3
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Recreation Income,1851000,3
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Recreation Administration,713241,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Recreation B&G Salaries,231984,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Adult Athletics Expenses,8700,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Affiliate Expenses,250,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total General Expenses,45000,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Arts,500,4
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Prairie Fields Expenses,16300,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Preschool Expenses,39500,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Camp Expenses,81900,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Special Event Expenses,75500,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Swim Lesson Expenses,5250,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Third Base Expenses,165000,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Youth Athletics Expenses,32500,5
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Youth Total Expenses,1000,6
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Meehan Expenses,2000,6
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Concession Expenses,0,6
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Pool Expenses,187885,6
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Rivers Edge Recreation Center,179800,7
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Doty Park Expenses,101085,7
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Grand Total Recreation Expenses,1888095,7
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Museum Income,89600,8
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Museum Expenses,211451,8
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Special Recreation Income,462267,8
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Special Recreation Expenses,500637,9
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Alternate Bond Income,640400,9
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Installment Contracts,635707,10
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Bond & Interest Income,2232300,10
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Bond & Interest Expenses,1112000,10
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total CIP Income,525300,10
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total CIP,878700,11
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Riverfront Income,100,11
+belvidere_park_district,FY2019_budget,2019,adopted,section_total,Total Riverfront Expenses,52336,11
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_revenues,Total Other Funds Income,3949967,11
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Total Other Funds Expenses,3390831,11
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_revenues,Corporate: SUMMARY Corporate,1440254,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_revenues,Recreation: SUMMARY Recreation,1851000,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_revenues,Other Funds: SUMMARY Other Funds,3949967,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_revenues,Total: SUMMARY Total,7241221,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Corporate: SUMMARY Corporate,1561696,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Recreation: SUMMARY Recreation,1888095,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Other Funds: SUMMARY Other Funds,3390831,
+belvidere_park_district,FY2019_budget,2019,adopted,rollup_expenses,Total: SUMMARY Total,6840622,
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Corporate Tax Income,1530767,1
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Corporate Expenses,1727433,3
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Recreation Income,1788000,3
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Recreation Administration,705303,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Recreation B&G Salaries,244279,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Adult Athletics Expenses,17500,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Affiliate Expenses,250,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total General Expenses,52000,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Arts,500,4
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Prairie Fields Expenses,16500,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Preschool Expenses,40200,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Camp Expenses,86700,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Special Event Expenses,24000,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Swim Lesson Expenses,7560,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Third Base Expenses,154000,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Youth Athletics Expenses,15900,5
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Youth Total Expenses,1000,6
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Meehan Expenses,2000,6
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Concession Expenses,0,6
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Pool Expenses,197415,6
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Rivers Edge Recreation Center,171065,7
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Doty Park Expenses,102143,7
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Grand Total Recreation Expenses,1838315,7
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Museum Income,103600,8
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Museum Expenses,248030,8
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Special Recreation Income,469405,8
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Special Recreation Expenses,484248,9
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Alternate Bond Income,505400,9
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Installment Contracts,1517525,9
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Bond & Interest Income,1147465,10
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Bond & Interest Expenses,1119250,10
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total CIP Income,658300,10
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total CIP,975000,10
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Riverfront Income,0,11
+belvidere_park_district,FY2020_budget,2020,adopted,section_total,Total Riverfront Expenses,0,11
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_revenues,Total Other Funds Income,3949967,11
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Total Other Funds Expenses,3390831,11
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_revenues,Corporate: SUMMARY Corporate,1530767,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_revenues,Recreation: SUMMARY Recreation,1788000,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_revenues,Other Funds: SUMMARY Other Funds,2884170,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_revenues,Total: SUMMARY Total,6202937,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Corporate: SUMMARY Corporate,1727433,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Recreation: SUMMARY Recreation,1838315,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Other Funds: SUMMARY Other Funds,4344053,
+belvidere_park_district,FY2020_budget,2020,adopted,rollup_expenses,Total: SUMMARY Total,7909801,
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Corporate Expenses,1724045,pdf2
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Corporate Income,1586726,pdf2
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Recreation Expenses,1797354,pdf4
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Tota! Recreation Income,1696601,pdf4
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Museum Expenses,205035,pdf5
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Museum Income,106100,pdf5
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Special Recreation Expenses,454995,pdf5
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Special Recreation Income,492722,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Installment Contracts Expenses,395605,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Installment Contracts Income,450400,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Bond & Interest Expenses,1145700,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total Bond & interest Revenue,1185631,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total CIP Expenses,723849,pdf6
+belvidere_park_district,FY2021_budget,2021,adopted,section_total,Total CIP Income,723100,pdf7
+belvidere_park_district,FY2021_budget,2021,adopted,rollup_revenues,Total Income,6241280,pdf7
+belvidere_park_district,FY2021_budget,2021,adopted,rollup_expenses,Total Expenses,6446583,pdf7
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,01 Corporate: Subtotal,1710794,pdf2
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,02 Recreation: Subtotal,1878136,pdf4
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,03 Museum: Subtotal,205465,pdf5
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,09 Special Recreation: Subtotal,476877,pdf6
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,10 Installment Contracts: Subtotal,475300,pdf6
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,12 Bond & Interest: Subtotal,1175850,pdf6
+belvidere_park_district,FY2022_budget,2022,adopted,fund_expenses,21 CIP: Subtotal,833645,pdf6
+belvidere_park_district,FY2022_budget,2022,adopted,rollup_expenses,GRAND TOTAL,6756067,pdf6
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,01 Corporate: Subtotal,1788290,pdf1
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,02 Recreation: Subtotal,1777479,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,03 Museum: Subtotal,190311,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,09 Special Recreation: Subtotal,566038,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,10 Installment Contracts: Subtotal,483500,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,12 Bond & Interest: Subtotal,1234046,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_revenues,21 CIP: Subtotal,881800,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,01 Corporate: Subtotal,1787871,pdf4
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,02 Recreation: Subtotal,1776793,pdf7
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,03 Museum: Subtotal,187687,pdf7
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,09 Special Recreation: Subtotal,518496,pdf8
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,10 Installment Contracts: Subtotal,482700,pdf8
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,12 Bond & Interest: Subtotal,1233546,pdf8
+belvidere_park_district,FY2023_budget,2023,adopted,fund_expenses,21 CIP: Subtotal,880796,pdf8
+belvidere_park_district,FY2023_budget,2023,adopted,rollup_revenues,GRAND TOTAL,6921464,pdf2
+belvidere_park_district,FY2023_budget,2023,adopted,rollup_expenses,GRAND TOTAL,6867889,pdf9
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,01 Corporate: Subtotal,1788290,pdf1
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,02 Recreation: Subtotal,1777479,pdf1
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,03 Museum: Subtotal,190311,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,09 Special Recreation: Subtotal,566038,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,10 Installment Contracts: Subtotal,483500,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,12 Bond & Interest: Subtotal,1234046,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_revenues,21 Cip: Subtotal,863123,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,01 Corporate: Subtotal,1787871,pdf4
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,02 Recreation: Subtotal,1776793,pdf6
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,03 Museum: Subtotal,187687,pdf6
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,09 Special Recreation: Subtotal,518496,pdf7
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,10 Installment Contracts: Subtotal,482700,pdf7
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,12 Bond & Interest: Subtotal,1233546,pdf7
+belvidere_park_district,FY2023_budget_amended,2023,revised,fund_expenses,21 Cip: Subtotal,1139035,pdf7
+belvidere_park_district,FY2023_budget_amended,2023,revised,rollup_revenues,Report Total revenue,6902787,pdf2
+belvidere_park_district,FY2023_budget_amended,2023,revised,rollup_expenses,Report Total expense,7126128,pdf7
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,01 Corporate: Subtotal,1788290,pdf1
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,02 Recreation: Subtotal,1777479,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,03 Museum: Subtotal,190311,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,09 Special Recreation: Subtotal,569038,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,10 Installment Contracts: Subtotal,483500,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,12 Bond & Interest: Subtotal,1234046,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_revenues,21 CIP: Subtotal,881800,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,01 Corporate: Subtotal,1787871,pdf7
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,02 Recreation: Subtotal,1776793,pdf13
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,03 Museum: Subtotal,187687,pdf13
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,09 Special Recreation: Subtotal,518496,pdf15
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,10 Installment Contracts: Subtotal,482700,pdf15
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,12 Bond & Interest: Subtotal,1233546,pdf15
+belvidere_park_district,FY2023_budget_draft,2023,requested,fund_expenses,21 CIP: Subtotal,880796,pdf15
+belvidere_park_district,FY2023_budget_draft,2023,requested,rollup_revenues,GRAND TOTAL,6924464,pdf3
+belvidere_park_district,FY2023_budget_draft,2023,requested,rollup_expenses,GRAND TOTAL,6867889,pdf15
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,01 Corporate: Subtotal,1960771,pdf1
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,02 Recreation: Subtotal,1882068,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,03 Museum: Subtotal,207121,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,09 Special Recreation: Subtotal,543586,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,10 Installment Contracts: Subtotal,485200,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,12 Bond & Interest: Subtotal,1242000,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_revenues,21 CIP: Subtotal,720400,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,01 Corporate: Subtotal,1960771,pdf4
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,02 Recreation: Subtotal,1882068,pdf7
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,03 Museum: Subtotal,207115,pdf7
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,09 Special Recreation: Subtotal,542311,pdf9
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,10 Installment Contracts: Subtotal,484400,pdf9
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,12 Bond & Interest: Subtotal,1242000,pdf9
+belvidere_park_district,FY2024_budget_draft,2024,requested,fund_expenses,21 CIP: Subtotal,720491,pdf9
+belvidere_park_district,FY2024_budget_draft,2024,requested,rollup_revenues,GRAND TOTAL,7041146,pdf2
+belvidere_park_district,FY2024_budget_draft,2024,requested,rollup_expenses,GRAND TOTAL,7039156,pdf9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,01 General: Total Revenue,1973195,1 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,01 General: Total Expense,1973195,2 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,01 General: Surplus (Deficit),0,2 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,02 Recreation: Total Revenue,1926057,3 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,02 Recreation: Total Expense,1926057,5 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,02 Recreation: Surplus (Deficit),0,5 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,05 Special Recreation: Total Revenue,588098,5 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,05 Special Recreation: Total Expense,588098,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,05 Special Recreation: Surplus (Deficit),0,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,08 Museum: Total Revenue,205581,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,08 Museum: Total Expense,205580,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,08 Museum: Surplus (Deficit),1,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,10 Alternate Bond & Interest: Total Revenue,496100,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,10 Alternate Bond & Interest: Total Expense,495300,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,10 Alternate Bond & Interest: Surplus (Deficit),800,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,12 Bond & Interest: Total Revenue,1334434,6 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,12 Bond & Interest: Total Expense,1332934,7 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,12 Bond & Interest: Surplus (Deficit),1500,7 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_revenues,21 Capital Projects: Total Revenue,2475300,7 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_expenses,21 Capital Projects: Total Expense,2475300,7 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,fund_net,21 Capital Projects: Surplus (Deficit),0,7 of 9
+belvidere_park_district,FY2025_budget,2025,adopted,rollup_net,Report Surplus (Deficit),2301,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,01 General: Total Revenue,1973195,1 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,01 General: Total Expense,1973195,2 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,01 General: Surplus (Deficit),0,2 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,02 Recreation: Total Revenue,1926057,3 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,02 Recreation: Total Expense,1926057,5 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,02 Recreation: Surplus (Deficit),0,5 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,05 Special Recreation: Total Revenue,588098,5 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,05 Special Recreation: Total Expense,588098,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,05 Special Recreation: Surplus (Deficit),0,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,08 Museum: Total Revenue,205581,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,08 Museum: Total Expense,205580,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,08 Museum: Surplus (Deficit),1,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,10 Alternate Bond & Interest: Total Revenue,496100,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,10 Alternate Bond & Interest: Total Expense,495300,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,10 Alternate Bond & Interest: Surplus (Deficit),800,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,12 Bond & Interest: Total Revenue,1334434,6 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,12 Bond & Interest: Total Expense,1332934,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,12 Bond & Interest: Surplus (Deficit),1500,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_revenues,21 Capital Projects: Total Revenue,2475300,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_expenses,21 Capital Projects: Total Expense,2475300,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,fund_net,21 Capital Projects: Surplus (Deficit),0,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,rollup_net,Report Surplus (Deficit),2301,7 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,rollup_net,Report Surplus (Deficit),2301,8 of 9
+belvidere_park_district,FY2025_budget_draft,2025,requested,rollup_net,Report Surplus (Deficit),2301,9 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,01 General: Total Revenue,2082787,1 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,01 General: Total Expense,2082660,2 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,01 General: Surplus (Deficit),127,2 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,02 Recreation: Total Revenue,1963014,3 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,02 Recreation: Total Expense,1963009,4 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,02 Recreation: Surplus (Deficit),5,4 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,05 Special Recreation: Total Revenue,642116,5 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,05 Special Recreation: Total Expense,642116,5 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,05 Special Recreation: Surplus (Deficit),0,5 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,08 Museum: Total Revenue,139656,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,08 Museum: Total Expense,138616,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,08 Museum: Surplus (Deficit),1040,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,10 Alternate Bond & Interest: Total Revenue,508931,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,10 Alternate Bond & Interest: Total Expense,500300,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,10 Alternate Bond & Interest: Surplus (Deficit),8631,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,12 Bond & interest: Total Revenue,1389164,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,12 Bond & interest: Total Expense,1377889,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,12 Bond & Interest: Surplus (Deficit),11275,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_revenues,21 Capital Projects: Total Revenue,2597324,6 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_expenses,21 Capital Projects: Total Expense,2595003,7 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,fund_net,21 Capital Projects: Surplus (Deficit),2321,7 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,rollup_net,Report Surplus (Deficit),23399,7 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,rollup_net,Report Surplus (Deficit),23399,8 of 9
+belvidere_park_district,FY2026_budget,2026,adopted,rollup_net,Report Surplus (Deficit),23399,9 of 9
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,01 General: Total Revenue,2082787,pdf1
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,01 General: Total Expense,2074280,pdf2
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,01 General: Surplus (Deficit),8507,pdf2
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,02 Recreation: Total Revenue,1963014,pdf3
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,02 Recreation: Total Expense,1963009,pdf4
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,02 Recreation: Surplus (Deficit),5,pdf4
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,05 Special Recreation: Total Revenue,642116,pdf5
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,05 Special Recreation: Total Expense,642116,pdf5
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,05 Special Recreation: Surplus (Deficit),0,pdf5
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,08 Museum: Total Revenue,139656,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,08 Museum: Total Expense,138616,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,08 Museum: Surplus (Deficit),1040,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,10 Alternate Bond & Interest: Total Revenue,508931,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,10 Alternate Bond & Interest: Total Expense,500300,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,10 Alternate Bond & Interest: Surplus (Deficit),8631,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,12 Bond & Interest: Total Revenue,1389164,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,12 Bond & Interest: Total Expense,1378864,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,12 Bond & Interest: Surplus (Deficit),10300,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_revenues,21 Capital Projects: Total Revenue,2577324,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_expenses,21 Capital Projects: Total Expense,2577303,pdf6
+belvidere_park_district,FY2026_budget_draft,2026,requested,fund_net,21 Capital Projects: Surplus (Deficit),21,pdf7
+belvidere_park_district,FY2026_budget_draft,2026,requested,rollup_net,Report Surplus (Deficit),28504,pdf7
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,01 General: Total Revenue,2165089,1 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,01 General: Total Expense,2165089,2 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,01 General: Surplus (Deficit),0,2 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,02 Recreation: Total Revenue,2080114,3 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,02 Recreation: Total Expense,2080114,4 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,02 Recreation: Surplus (Deficit),0,4 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,05 Special Recreation: Total Revenue,695006,5 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,05 Special Recreation: Total Expense,695006,5 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,05 Special Recreation: Surplus (Deficit),0,5 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,08 Museum: Total Revenue,159451,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,08 Museum: Total Expense,159451,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,08 Museum: Surplus (Deficit),0,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,10 Alternate Bond & Interest: Total Revenue,500071,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,10 Alternate Bond & Interest: Total Expense,499600,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,10 Alternate Bond & Interest: Surplus (Deficit),471,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,12 Bond & Interest: Total Revenue,1422619,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,12 Bond & Interest: Total Expense,1415099,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,12 Bond & Interest: Surplus (Deficit),7520,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_revenues,21 Capital Projects: Total Revenue,1685275,6 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_expenses,21 Capital Projects: Total Expense,1681908,7 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,fund_net,21 Capital Projects: Surplus (Deficit),3367,7 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,rollup_net,Report Surplus (Deficit),11358,7 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,rollup_net,Report Surplus (Deficit),11358,8 of 9
+belvidere_park_district,FY2027_budget_draft,2027,requested,rollup_net,Report Surplus (Deficit),11358,9 of 9

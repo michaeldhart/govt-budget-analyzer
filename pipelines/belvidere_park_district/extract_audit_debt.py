@@ -93,8 +93,18 @@ def instrument_of(ent, description):
 HEADER_LINE = re.compile(r"(?i)^\W*(balances?|current|portion|12/31|beginning|new|retired|ending|issues|principal|interest|year ending|december 31|consist of|park bond|go refunding|series|sbita|total\s+total|\(alt)")
 
 
-def parse(pdf, fy, doc, ent):
-    pages = get_pages(pdf, doc)
+def table_pages(pages):
+    """PDF page (1-based) of each table: the first page whose text has the table's heading."""
+    def find(rx, rng):
+        return next((i for i in rng if i <= len(pages) and re.search(rx, pages[i - 1])), "")
+    return {"outstanding": find(r"outstanding debt as of", NOTE_PAGES), "schedule": find(r"annual requirements to amortize", NOTE_PAGES),
+            "activity": find(r"[Ll]ong-term liability activity", NOTE_PAGES),
+            "legal_debt_margin": find(r"Schedule of Legal Debt Margin", SCHEDULE_PAGES), "non_referendum": find(r"Schedule of Non-Referendum", SCHEDULE_PAGES),
+            "assessed": find(r"Assessed Valuations and Property Tax", SCHEDULE_PAGES)}
+
+
+def parse(pdf, fy, doc, ent, pages=None):
+    pages = pages if pages is not None else get_pages(pdf, doc)
     note = "\n".join(pages[i - 1] for i in NOTE_PAGES if i <= len(pages))
     problems = []
     ncols = 2 * (1 + len([r for r in csv.DictReader(open(ent.config_path("debt_schedule_columns.csv"))) if r["doc_id"] == doc]))
@@ -306,7 +316,7 @@ def check(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed):
     return out
 
 
-def write(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed, checks, corrections):
+def write(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed, checks, corrections, tp):
     out = ent.data_path("extracted", "audits")
     os.makedirs(out, exist_ok=True)
     cols = [r for r in csv.DictReader(open(ent.config_path("debt_schedule_columns.csv"), newline="")) if r["doc_id"] == doc]
@@ -318,20 +328,20 @@ def write(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed, che
             wr.writerow(header)
             wr.writerows(rows_)
 
-    w("debt_outstanding", ["fiscal_year", "doc", "description", "instrument_id", "column", "amount"],
-      [(fy, doc, l, instrument(ent, l), nm, c[j]) for l, c in outstanding for j, nm in enumerate(("balance", "current_portion"))])
-    w("debt_schedule", ["fiscal_year", "doc", "period", "instrument_id", "kind", "amount"],
-      [(fy, doc, l, inst[j // 2], "principal" if j % 2 == 0 else "interest", c[j]) for l, c in sched for j in range(len(c))])
-    w("debt_activity", ["fiscal_year", "doc", "description", "instrument_id", "column", "amount"],
-      [(fy, doc, l, instrument(ent, l), nm, c[j]) for l, c in activity for j, nm in enumerate(("beginning", "new_issues", "retired", "ending"))])
-    w("legal_debt_margin", ["fiscal_year", "doc", "schedule", "line_item", "column", "amount"],
-      [(fy, doc, key, lab, nm, a[j]) for key, rs in legal.items() for _, lab, a, _ in rs for j, nm in enumerate(("this_year", "prior_year"))])
+    w("debt_outstanding", ["fiscal_year", "doc", "description", "instrument_id", "column", "amount", "pdf_page"],
+      [(fy, doc, l, instrument(ent, l), nm, c[j], tp["outstanding"]) for l, c in outstanding for j, nm in enumerate(("balance", "current_portion"))])
+    w("debt_schedule", ["fiscal_year", "doc", "period", "instrument_id", "kind", "amount", "pdf_page"],
+      [(fy, doc, l, inst[j // 2], "principal" if j % 2 == 0 else "interest", c[j], tp["schedule"]) for l, c in sched for j in range(len(c))])
+    w("debt_activity", ["fiscal_year", "doc", "description", "instrument_id", "column", "amount", "pdf_page"],
+      [(fy, doc, l, instrument(ent, l), nm, c[j], tp["activity"]) for l, c in activity for j, nm in enumerate(("beginning", "new_issues", "retired", "ending"))])
+    w("legal_debt_margin", ["fiscal_year", "doc", "schedule", "line_item", "column", "amount", "pdf_page"],
+      [(fy, doc, key, lab, nm, a[j], tp[key]) for key, rs in legal.items() for _, lab, a, _ in rs for j, nm in enumerate(("this_year", "prior_year"))])
     rows_ = []
     for sec, rs in assessed["sections"].items():
         for lab, vals in rs:
             for yr, v in zip(assessed["years"], vals):
                 rows_.append((fy, doc, yr, sec, lab, v))
-    w("assessed_valuations", ["fiscal_year", "doc", "tax_year", "section", "line_item", "amount"], rows_)
+    w("assessed_valuations", ["fiscal_year", "doc", "tax_year", "section", "line_item", "amount", "pdf_page"], [r + (tp["assessed"],) for r in rows_])
     w("debt_checks", ["doc", "check", "expected", "found", "result"], checks)
     w("debt_corrections", ["doc", "table", "method", "row", "raw", "final", "detail"], corrections)
 
@@ -341,7 +351,9 @@ def main(argv):
     fy = int(doc[2:6])
     ent = R.Entity.load(ENTITY)
     src = {r["doc_id"]: r for r in csv.DictReader(open(ent.config_path("source_urls.csv")))}
-    outstanding, sched, tail, activity, legal, assessed, problems = parse(ent.source_path(src[doc]["pdf_path"]), fy, doc, ent)
+    pages = get_pages(ent.source_path(src[doc]["pdf_path"]), doc)
+    tp = table_pages(pages)
+    outstanding, sched, tail, activity, legal, assessed, problems = parse(ent.source_path(src[doc]["pdf_path"]), fy, doc, ent, pages)
     corrections = []
     opath = ent.data_path("overrides", f"{doc}_debt.csv")  # rows OCR could not read, restored from the page image: kind add_row|row, raw "<table>|<label>"
     for o in (list(csv.DictReader(open(opath, newline=""))) if os.path.exists(opath) else []):
@@ -369,7 +381,7 @@ def main(argv):
         print("  FAIL", c[1], "expected", c[2], "found", c[3])
     if fails:
         sys.exit(1)
-    write(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed, checks, corrections)
+    write(ent, fy, doc, outstanding, sched, tail, activity, legal, assessed, checks, corrections, tp)
 
 
 if __name__ == "__main__":

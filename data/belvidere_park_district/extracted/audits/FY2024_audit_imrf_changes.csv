@@ -1,211 +1,211 @@
-fiscal_year,doc,calendar_year,line_item,amount
-2024,FY2024_audit,2024,Service Cost,118481
-2024,FY2024_audit,2023,Service Cost,106404
-2024,FY2024_audit,2022,Service Cost,93168
-2024,FY2024_audit,2021,Service Cost,112525
-2024,FY2024_audit,2020,Service Cost,116470
-2024,FY2024_audit,2019,Service Cost,118608
-2024,FY2024_audit,2018,Service Cost,114669
-2024,FY2024_audit,2017,Service Cost,115795
-2024,FY2024_audit,2016,Service Cost,112763
-2024,FY2024_audit,2015,Service Cost,107406
-2024,FY2024_audit,2024,Interest on the Total Pension Liability,467299
-2024,FY2024_audit,2023,Interest on the Total Pension Liability,447201
-2024,FY2024_audit,2022,Interest on the Total Pension Liability,424823
-2024,FY2024_audit,2021,Interest on the Total Pension Liability,405969
-2024,FY2024_audit,2020,Interest on the Total Pension Liability,387278
-2024,FY2024_audit,2019,Interest on the Total Pension Liability,378351
-2024,FY2024_audit,2018,Interest on the Total Pension Liability,355012
-2024,FY2024_audit,2017,Interest on the Total Pension Liability,327696
-2024,FY2024_audit,2016,Interest on the Total Pension Liability,309271
-2024,FY2024_audit,2015,Interest on the Total Pension Liability,283321
-2024,FY2024_audit,2024,Benefit Changes,0
-2024,FY2024_audit,2023,Benefit Changes,0
-2024,FY2024_audit,2022,Benefit Changes,0
-2024,FY2024_audit,2021,Benefit Changes,0
-2024,FY2024_audit,2020,Benefit Changes,0
-2024,FY2024_audit,2019,Benefit Changes,0
-2024,FY2024_audit,2018,Benefit Changes,0
-2024,FY2024_audit,2017,Benefit Changes,0
-2024,FY2024_audit,2016,Benefit Changes,0
-2024,FY2024_audit,2015,Benefit Changes,0
-2024,FY2024_audit,2024,Difference between Expected and Actual Experience,61922
-2024,FY2024_audit,2023,Difference between Expected and Actual Experience,64305
-2024,FY2024_audit,2022,Difference between Expected and Actual Experience,103023
-2024,FY2024_audit,2021,Difference between Expected and Actual Experience,46548
-2024,FY2024_audit,2020,Difference between Expected and Actual Experience,59994
-2024,FY2024_audit,2019,Difference between Expected and Actual Experience,-144023
-2024,FY2024_audit,2018,Difference between Expected and Actual Experience,66233
-2024,FY2024_audit,2017,Difference between Expected and Actual Experience,196166
-2024,FY2024_audit,2016,Difference between Expected and Actual Experience,-69952
-2024,FY2024_audit,2015,Difference between Expected and Actual Experience,42667
-2024,FY2024_audit,2024,Assumption Changes,0
-2024,FY2024_audit,2023,Assumption Changes,-22109
-2024,FY2024_audit,2022,Assumption Changes,0
-2024,FY2024_audit,2021,Assumption Changes,0
-2024,FY2024_audit,2020,Assumption Changes,-50265
-2024,FY2024_audit,2019,Assumption Changes,0
-2024,FY2024_audit,2018,Assumption Changes,146665
-2024,FY2024_audit,2017,Assumption Changes,-126138
-2024,FY2024_audit,2016,Assumption Changes,-5435
-2024,FY2024_audit,2015,Assumption Changes,5382
-2024,FY2024_audit,2024,Benefit Payments and Refunds,-325365
-2024,FY2024_audit,2023,Benefit Payments and Refunds,-323861
-2024,FY2024_audit,2022,Benefit Payments and Refunds,-314095
-2024,FY2024_audit,2021,Benefit Payments and Refunds,-276528
-2024,FY2024_audit,2020,Benefit Payments and Refunds,-230854
-2024,FY2024_audit,2019,Benefit Payments and Refunds,-226634
-2024,FY2024_audit,2018,Benefit Payments and Refunds,-172165
-2024,FY2024_audit,2017,Benefit Payments and Refunds,-125336
-2024,FY2024_audit,2016,Benefit Payments and Refunds,-90643
-2024,FY2024_audit,2015,Benefit Payments and Refunds,-89275
-2024,FY2024_audit,2024,Net Change in Total Pension Liability,322337
-2024,FY2024_audit,2023,Net Change in Total Pension Liability,271940
-2024,FY2024_audit,2022,Net Change in Total Pension Liability,306919
-2024,FY2024_audit,2021,Net Change in Total Pension Liability,288514
-2024,FY2024_audit,2020,Net Change in Total Pension Liability,282623
-2024,FY2024_audit,2019,Net Change in Total Pension Liability,126302
-2024,FY2024_audit,2018,Net Change in Total Pension Liability,510414
-2024,FY2024_audit,2017,Net Change in Total Pension Liability,388183
-2024,FY2024_audit,2016,Net Change in Total Pension Liability,256004
-2024,FY2024_audit,2015,Net Change in Total Pension Liability,349501
-2024,FY2024_audit,2024,Total Pension Liability - Beginning,6548952
-2024,FY2024_audit,2023,Total Pension Liability - Beginning,6277012
-2024,FY2024_audit,2022,Total Pension Liability - Beginning,5970093
-2024,FY2024_audit,2021,Total Pension Liability - Beginning,5681579
-2024,FY2024_audit,2020,Total Pension Liability - Beginning,5398956
-2024,FY2024_audit,2019,Total Pension Liability - Beginning,5272654
-2024,FY2024_audit,2018,Total Pension Liability - Beginning,4762240
-2024,FY2024_audit,2017,Total Pension Liability - Beginning,4374057
-2024,FY2024_audit,2016,Total Pension Liability - Beginning,4118053
-2024,FY2024_audit,2015,Total Pension Liability - Beginning,3768552
-2024,FY2024_audit,2024,Total Pension Liability - Ending (a),6871289
-2024,FY2024_audit,2023,Total Pension Liability - Ending (a),6548952
-2024,FY2024_audit,2022,Total Pension Liability - Ending (a),6277012
-2024,FY2024_audit,2021,Total Pension Liability - Ending (a),5970093
-2024,FY2024_audit,2020,Total Pension Liability - Ending (a),5681579
-2024,FY2024_audit,2019,Total Pension Liability - Ending (a),5398956
-2024,FY2024_audit,2018,Total Pension Liability - Ending (a),5272654
-2024,FY2024_audit,2017,Total Pension Liability - Ending (a),4762240
-2024,FY2024_audit,2016,Total Pension Liability - Ending (a),4374057
-2024,FY2024_audit,2015,Total Pension Liability - Ending (a),4118053
-2024,FY2024_audit,2024,Employer Contributions,27510
-2024,FY2024_audit,2023,Employer Contributions,18164
-2024,FY2024_audit,2022,Employer Contributions,52614
-2024,FY2024_audit,2021,Employer Contributions,107143
-2024,FY2024_audit,2020,Employer Contributions,123601
-2024,FY2024_audit,2019,Employer Contributions,102715
-2024,FY2024_audit,2018,Employer Contributions,116621
-2024,FY2024_audit,2017,Employer Contributions,112287
-2024,FY2024_audit,2016,Employer Contributions,110879
-2024,FY2024_audit,2015,Employer Contributions,114211
-2024,FY2024_audit,2024,Employee Contributions,62208
-2024,FY2024_audit,2023,Employee Contributions,57969
-2024,FY2024_audit,2022,Employee Contributions,53685
-2024,FY2024_audit,2021,Employee Contributions,53288
-2024,FY2024_audit,2020,Employee Contributions,54370
-2024,FY2024_audit,2019,Employee Contributions,53274
-2024,FY2024_audit,2018,Employee Contributions,58751
-2024,FY2024_audit,2017,Employee Contributions,54450
-2024,FY2024_audit,2016,Employee Contributions,52912
-2024,FY2024_audit,2015,Employee Contributions,52247
-2024,FY2024_audit,2024,Pension Plan Net Investment Income,688337
-2024,FY2024_audit,2023,Pension Plan Net Investment Income,702064
-2024,FY2024_audit,2022,Pension Plan Net Investment Income,-960174
-2024,FY2024_audit,2021,Pension Plan Net Investment Income,1061433
-2024,FY2024_audit,2020,Pension Plan Net Investment Income,720222
-2024,FY2024_audit,2019,Pension Plan Net Investment Income,785716
-2024,FY2024_audit,2018,Pension Plan Net Investment Income,-210731
-2024,FY2024_audit,2017,Pension Plan Net Investment Income,609709
-2024,FY2024_audit,2016,Pension Plan Net Investment Income,249909
-2024,FY2024_audit,2015,Pension Plan Net Investment Income,17960
-2024,FY2024_audit,2024,Benefit Payments and Refunds (2),-325365
-2024,FY2024_audit,2023,Benefit Payments and Refunds (2),-323861
-2024,FY2024_audit,2022,Benefit Payments and Refunds (2),-314095
-2024,FY2024_audit,2021,Benefit Payments and Refunds (2),-276528
-2024,FY2024_audit,2020,Benefit Payments and Refunds (2),-230854
-2024,FY2024_audit,2019,Benefit Payments and Refunds (2),-226634
-2024,FY2024_audit,2018,Benefit Payments and Refunds (2),-172165
-2024,FY2024_audit,2017,Benefit Payments and Refunds (2),-125336
-2024,FY2024_audit,2016,Benefit Payments and Refunds (2),-90643
-2024,FY2024_audit,2015,Benefit Payments and Refunds (2),-89275
-2024,FY2024_audit,2024,Other (Net Transfer),-118981
-2024,FY2024_audit,2023,Other (Net Transfer),154804
-2024,FY2024_audit,2022,Other (Net Transfer),16309
-2024,FY2024_audit,2021,Other (Net Transfer),68640
-2024,FY2024_audit,2020,Other (Net Transfer),641964
-2024,FY2024_audit,2019,Other (Net Transfer),14487
-2024,FY2024_audit,2018,Other (Net Transfer),77114
-2024,FY2024_audit,2017,Other (Net Transfer),-36529
-2024,FY2024_audit,2016,Other (Net Transfer),4375
-2024,FY2024_audit,2015,Other (Net Transfer),-84461
-2024,FY2024_audit,2024,Net Change in Plan Fiduciary Net Position,333709
-2024,FY2024_audit,2023,Net Change in Plan Fiduciary Net Position,609140
-2024,FY2024_audit,2022,Net Change in Plan Fiduciary Net Position,-1151661
-2024,FY2024_audit,2021,Net Change in Plan Fiduciary Net Position,1013976
-2024,FY2024_audit,2020,Net Change in Plan Fiduciary Net Position,1309303
-2024,FY2024_audit,2019,Net Change in Plan Fiduciary Net Position,729558
-2024,FY2024_audit,2018,Net Change in Plan Fiduciary Net Position,-130410
-2024,FY2024_audit,2017,Net Change in Plan Fiduciary Net Position,614581
-2024,FY2024_audit,2016,Net Change in Plan Fiduciary Net Position,327432
-2024,FY2024_audit,2015,Net Change in Plan Fiduciary Net Position,10682
-2024,FY2024_audit,2024,Plan Fiduciary Net Position - Beginning,6886058
-2024,FY2024_audit,2023,Plan Fiduciary Net Position - Beginning,6276918
-2024,FY2024_audit,2022,Plan Fiduciary Net Position - Beginning,7428579
-2024,FY2024_audit,2021,Plan Fiduciary Net Position - Beginning,6414603
-2024,FY2024_audit,2020,Plan Fiduciary Net Position - Beginning,5105300
-2024,FY2024_audit,2019,Plan Fiduciary Net Position - Beginning,4375742
-2024,FY2024_audit,2018,Plan Fiduciary Net Position - Beginning,4506152
-2024,FY2024_audit,2017,Plan Fiduciary Net Position - Beginning,3891571
-2024,FY2024_audit,2016,Plan Fiduciary Net Position - Beginning,3564139
-2024,FY2024_audit,2015,Plan Fiduciary Net Position - Beginning,3553457
-2024,FY2024_audit,2024,Plan Fiduciary Net Position - Ending (b),7219767
-2024,FY2024_audit,2023,Plan Fiduciary Net Position - Ending (b),6886058
-2024,FY2024_audit,2022,Plan Fiduciary Net Position - Ending (b),6276918
-2024,FY2024_audit,2021,Plan Fiduciary Net Position - Ending (b),7428579
-2024,FY2024_audit,2020,Plan Fiduciary Net Position - Ending (b),6414603
-2024,FY2024_audit,2019,Plan Fiduciary Net Position - Ending (b),5105300
-2024,FY2024_audit,2018,Plan Fiduciary Net Position - Ending (b),4375742
-2024,FY2024_audit,2017,Plan Fiduciary Net Position - Ending (b),4506152
-2024,FY2024_audit,2016,Plan Fiduciary Net Position - Ending (b),3891571
-2024,FY2024_audit,2015,Plan Fiduciary Net Position - Ending (b),3564139
-2024,FY2024_audit,2024,Net Pension Liability/(Asset) - Ending (a)-(b),-348478
-2024,FY2024_audit,2023,Net Pension Liability/(Asset) - Ending (a)-(b),-337106
-2024,FY2024_audit,2022,Net Pension Liability/(Asset) - Ending (a)-(b),94
-2024,FY2024_audit,2021,Net Pension Liability/(Asset) - Ending (a)-(b),-1458486
-2024,FY2024_audit,2020,Net Pension Liability/(Asset) - Ending (a)-(b),-733024
-2024,FY2024_audit,2019,Net Pension Liability/(Asset) - Ending (a)-(b),293656
-2024,FY2024_audit,2018,Net Pension Liability/(Asset) - Ending (a)-(b),896912
-2024,FY2024_audit,2017,Net Pension Liability/(Asset) - Ending (a)-(b),256088
-2024,FY2024_audit,2016,Net Pension Liability/(Asset) - Ending (a)-(b),482486
-2024,FY2024_audit,2015,Net Pension Liability/(Asset) - Ending (a)-(b),553914
-2024,FY2024_audit,2024,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.07
-2024,FY2024_audit,2023,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.15
-2024,FY2024_audit,2022,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,100.00
-2024,FY2024_audit,2021,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,124.43
-2024,FY2024_audit,2020,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,112.90
-2024,FY2024_audit,2019,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.56
-2024,FY2024_audit,2018,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,82.99
-2024,FY2024_audit,2017,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.62
-2024,FY2024_audit,2016,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,88.97
-2024,FY2024_audit,2015,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,86.55
-2024,FY2024_audit,2024,Covered Valuation Payroll,1382409
-2024,FY2024_audit,2023,Covered Valuation Payroll,1288191
-2024,FY2024_audit,2022,Covered Valuation Payroll,1179685
-2024,FY2024_audit,2021,Covered Valuation Payroll,1129465
-2024,FY2024_audit,2020,Covered Valuation Payroll,1208226
-2024,FY2024_audit,2019,Covered Valuation Payroll,1183590
-2024,FY2024_audit,2018,Covered Valuation Payroll,1284901
-2024,FY2024_audit,2017,Covered Valuation Payroll,1209989
-2024,FY2024_audit,2016,Covered Valuation Payroll,1175816
-2024,FY2024_audit,2015,Covered Valuation Payroll,1118130
-2024,FY2024_audit,2024,Net Pension Liability as a Percentage of Covered Valuation Payroll,-25.21
-2024,FY2024_audit,2023,Net Pension Liability as a Percentage of Covered Valuation Payroll,-26.17
-2024,FY2024_audit,2022,Net Pension Liability as a Percentage of Covered Valuation Payroll,0.01
-2024,FY2024_audit,2021,Net Pension Liability as a Percentage of Covered Valuation Payroll,-129.13
-2024,FY2024_audit,2020,Net Pension Liability as a Percentage of Covered Valuation Payroll,-60.67
-2024,FY2024_audit,2019,Net Pension Liability as a Percentage of Covered Valuation Payroll,24.81
-2024,FY2024_audit,2018,Net Pension Liability as a Percentage of Covered Valuation Payroll,69.80
-2024,FY2024_audit,2017,Net Pension Liability as a Percentage of Covered Valuation Payroll,21.16
-2024,FY2024_audit,2016,Net Pension Liability as a Percentage of Covered Valuation Payroll,41.03
-2024,FY2024_audit,2015,Net Pension Liability as a Percentage of Covered Valuation Payroll,49.54
+fiscal_year,doc,calendar_year,line_item,amount,pdf_page
+2024,FY2024_audit,2024,Service Cost,118481,44
+2024,FY2024_audit,2023,Service Cost,106404,44
+2024,FY2024_audit,2022,Service Cost,93168,44
+2024,FY2024_audit,2021,Service Cost,112525,44
+2024,FY2024_audit,2020,Service Cost,116470,44
+2024,FY2024_audit,2019,Service Cost,118608,44
+2024,FY2024_audit,2018,Service Cost,114669,44
+2024,FY2024_audit,2017,Service Cost,115795,44
+2024,FY2024_audit,2016,Service Cost,112763,44
+2024,FY2024_audit,2015,Service Cost,107406,44
+2024,FY2024_audit,2024,Interest on the Total Pension Liability,467299,44
+2024,FY2024_audit,2023,Interest on the Total Pension Liability,447201,44
+2024,FY2024_audit,2022,Interest on the Total Pension Liability,424823,44
+2024,FY2024_audit,2021,Interest on the Total Pension Liability,405969,44
+2024,FY2024_audit,2020,Interest on the Total Pension Liability,387278,44
+2024,FY2024_audit,2019,Interest on the Total Pension Liability,378351,44
+2024,FY2024_audit,2018,Interest on the Total Pension Liability,355012,44
+2024,FY2024_audit,2017,Interest on the Total Pension Liability,327696,44
+2024,FY2024_audit,2016,Interest on the Total Pension Liability,309271,44
+2024,FY2024_audit,2015,Interest on the Total Pension Liability,283321,44
+2024,FY2024_audit,2024,Benefit Changes,0,44
+2024,FY2024_audit,2023,Benefit Changes,0,44
+2024,FY2024_audit,2022,Benefit Changes,0,44
+2024,FY2024_audit,2021,Benefit Changes,0,44
+2024,FY2024_audit,2020,Benefit Changes,0,44
+2024,FY2024_audit,2019,Benefit Changes,0,44
+2024,FY2024_audit,2018,Benefit Changes,0,44
+2024,FY2024_audit,2017,Benefit Changes,0,44
+2024,FY2024_audit,2016,Benefit Changes,0,44
+2024,FY2024_audit,2015,Benefit Changes,0,44
+2024,FY2024_audit,2024,Difference between Expected and Actual Experience,61922,44
+2024,FY2024_audit,2023,Difference between Expected and Actual Experience,64305,44
+2024,FY2024_audit,2022,Difference between Expected and Actual Experience,103023,44
+2024,FY2024_audit,2021,Difference between Expected and Actual Experience,46548,44
+2024,FY2024_audit,2020,Difference between Expected and Actual Experience,59994,44
+2024,FY2024_audit,2019,Difference between Expected and Actual Experience,-144023,44
+2024,FY2024_audit,2018,Difference between Expected and Actual Experience,66233,44
+2024,FY2024_audit,2017,Difference between Expected and Actual Experience,196166,44
+2024,FY2024_audit,2016,Difference between Expected and Actual Experience,-69952,44
+2024,FY2024_audit,2015,Difference between Expected and Actual Experience,42667,44
+2024,FY2024_audit,2024,Assumption Changes,0,44
+2024,FY2024_audit,2023,Assumption Changes,-22109,44
+2024,FY2024_audit,2022,Assumption Changes,0,44
+2024,FY2024_audit,2021,Assumption Changes,0,44
+2024,FY2024_audit,2020,Assumption Changes,-50265,44
+2024,FY2024_audit,2019,Assumption Changes,0,44
+2024,FY2024_audit,2018,Assumption Changes,146665,44
+2024,FY2024_audit,2017,Assumption Changes,-126138,44
+2024,FY2024_audit,2016,Assumption Changes,-5435,44
+2024,FY2024_audit,2015,Assumption Changes,5382,44
+2024,FY2024_audit,2024,Benefit Payments and Refunds,-325365,44
+2024,FY2024_audit,2023,Benefit Payments and Refunds,-323861,44
+2024,FY2024_audit,2022,Benefit Payments and Refunds,-314095,44
+2024,FY2024_audit,2021,Benefit Payments and Refunds,-276528,44
+2024,FY2024_audit,2020,Benefit Payments and Refunds,-230854,44
+2024,FY2024_audit,2019,Benefit Payments and Refunds,-226634,44
+2024,FY2024_audit,2018,Benefit Payments and Refunds,-172165,44
+2024,FY2024_audit,2017,Benefit Payments and Refunds,-125336,44
+2024,FY2024_audit,2016,Benefit Payments and Refunds,-90643,44
+2024,FY2024_audit,2015,Benefit Payments and Refunds,-89275,44
+2024,FY2024_audit,2024,Net Change in Total Pension Liability,322337,44
+2024,FY2024_audit,2023,Net Change in Total Pension Liability,271940,44
+2024,FY2024_audit,2022,Net Change in Total Pension Liability,306919,44
+2024,FY2024_audit,2021,Net Change in Total Pension Liability,288514,44
+2024,FY2024_audit,2020,Net Change in Total Pension Liability,282623,44
+2024,FY2024_audit,2019,Net Change in Total Pension Liability,126302,44
+2024,FY2024_audit,2018,Net Change in Total Pension Liability,510414,44
+2024,FY2024_audit,2017,Net Change in Total Pension Liability,388183,44
+2024,FY2024_audit,2016,Net Change in Total Pension Liability,256004,44
+2024,FY2024_audit,2015,Net Change in Total Pension Liability,349501,44
+2024,FY2024_audit,2024,Total Pension Liability - Beginning,6548952,44
+2024,FY2024_audit,2023,Total Pension Liability - Beginning,6277012,44
+2024,FY2024_audit,2022,Total Pension Liability - Beginning,5970093,44
+2024,FY2024_audit,2021,Total Pension Liability - Beginning,5681579,44
+2024,FY2024_audit,2020,Total Pension Liability - Beginning,5398956,44
+2024,FY2024_audit,2019,Total Pension Liability - Beginning,5272654,44
+2024,FY2024_audit,2018,Total Pension Liability - Beginning,4762240,44
+2024,FY2024_audit,2017,Total Pension Liability - Beginning,4374057,44
+2024,FY2024_audit,2016,Total Pension Liability - Beginning,4118053,44
+2024,FY2024_audit,2015,Total Pension Liability - Beginning,3768552,44
+2024,FY2024_audit,2024,Total Pension Liability - Ending (a),6871289,44
+2024,FY2024_audit,2023,Total Pension Liability - Ending (a),6548952,44
+2024,FY2024_audit,2022,Total Pension Liability - Ending (a),6277012,44
+2024,FY2024_audit,2021,Total Pension Liability - Ending (a),5970093,44
+2024,FY2024_audit,2020,Total Pension Liability - Ending (a),5681579,44
+2024,FY2024_audit,2019,Total Pension Liability - Ending (a),5398956,44
+2024,FY2024_audit,2018,Total Pension Liability - Ending (a),5272654,44
+2024,FY2024_audit,2017,Total Pension Liability - Ending (a),4762240,44
+2024,FY2024_audit,2016,Total Pension Liability - Ending (a),4374057,44
+2024,FY2024_audit,2015,Total Pension Liability - Ending (a),4118053,44
+2024,FY2024_audit,2024,Employer Contributions,27510,44
+2024,FY2024_audit,2023,Employer Contributions,18164,44
+2024,FY2024_audit,2022,Employer Contributions,52614,44
+2024,FY2024_audit,2021,Employer Contributions,107143,44
+2024,FY2024_audit,2020,Employer Contributions,123601,44
+2024,FY2024_audit,2019,Employer Contributions,102715,44
+2024,FY2024_audit,2018,Employer Contributions,116621,44
+2024,FY2024_audit,2017,Employer Contributions,112287,44
+2024,FY2024_audit,2016,Employer Contributions,110879,44
+2024,FY2024_audit,2015,Employer Contributions,114211,44
+2024,FY2024_audit,2024,Employee Contributions,62208,44
+2024,FY2024_audit,2023,Employee Contributions,57969,44
+2024,FY2024_audit,2022,Employee Contributions,53685,44
+2024,FY2024_audit,2021,Employee Contributions,53288,44
+2024,FY2024_audit,2020,Employee Contributions,54370,44
+2024,FY2024_audit,2019,Employee Contributions,53274,44
+2024,FY2024_audit,2018,Employee Contributions,58751,44
+2024,FY2024_audit,2017,Employee Contributions,54450,44
+2024,FY2024_audit,2016,Employee Contributions,52912,44
+2024,FY2024_audit,2015,Employee Contributions,52247,44
+2024,FY2024_audit,2024,Pension Plan Net Investment Income,688337,44
+2024,FY2024_audit,2023,Pension Plan Net Investment Income,702064,44
+2024,FY2024_audit,2022,Pension Plan Net Investment Income,-960174,44
+2024,FY2024_audit,2021,Pension Plan Net Investment Income,1061433,44
+2024,FY2024_audit,2020,Pension Plan Net Investment Income,720222,44
+2024,FY2024_audit,2019,Pension Plan Net Investment Income,785716,44
+2024,FY2024_audit,2018,Pension Plan Net Investment Income,-210731,44
+2024,FY2024_audit,2017,Pension Plan Net Investment Income,609709,44
+2024,FY2024_audit,2016,Pension Plan Net Investment Income,249909,44
+2024,FY2024_audit,2015,Pension Plan Net Investment Income,17960,44
+2024,FY2024_audit,2024,Benefit Payments and Refunds (2),-325365,44
+2024,FY2024_audit,2023,Benefit Payments and Refunds (2),-323861,44
+2024,FY2024_audit,2022,Benefit Payments and Refunds (2),-314095,44
+2024,FY2024_audit,2021,Benefit Payments and Refunds (2),-276528,44
+2024,FY2024_audit,2020,Benefit Payments and Refunds (2),-230854,44
+2024,FY2024_audit,2019,Benefit Payments and Refunds (2),-226634,44
+2024,FY2024_audit,2018,Benefit Payments and Refunds (2),-172165,44
+2024,FY2024_audit,2017,Benefit Payments and Refunds (2),-125336,44
+2024,FY2024_audit,2016,Benefit Payments and Refunds (2),-90643,44
+2024,FY2024_audit,2015,Benefit Payments and Refunds (2),-89275,44
+2024,FY2024_audit,2024,Other (Net Transfer),-118981,44
+2024,FY2024_audit,2023,Other (Net Transfer),154804,44
+2024,FY2024_audit,2022,Other (Net Transfer),16309,44
+2024,FY2024_audit,2021,Other (Net Transfer),68640,44
+2024,FY2024_audit,2020,Other (Net Transfer),641964,44
+2024,FY2024_audit,2019,Other (Net Transfer),14487,44
+2024,FY2024_audit,2018,Other (Net Transfer),77114,44
+2024,FY2024_audit,2017,Other (Net Transfer),-36529,44
+2024,FY2024_audit,2016,Other (Net Transfer),4375,44
+2024,FY2024_audit,2015,Other (Net Transfer),-84461,44
+2024,FY2024_audit,2024,Net Change in Plan Fiduciary Net Position,333709,44
+2024,FY2024_audit,2023,Net Change in Plan Fiduciary Net Position,609140,44
+2024,FY2024_audit,2022,Net Change in Plan Fiduciary Net Position,-1151661,44
+2024,FY2024_audit,2021,Net Change in Plan Fiduciary Net Position,1013976,44
+2024,FY2024_audit,2020,Net Change in Plan Fiduciary Net Position,1309303,44
+2024,FY2024_audit,2019,Net Change in Plan Fiduciary Net Position,729558,44
+2024,FY2024_audit,2018,Net Change in Plan Fiduciary Net Position,-130410,44
+2024,FY2024_audit,2017,Net Change in Plan Fiduciary Net Position,614581,44
+2024,FY2024_audit,2016,Net Change in Plan Fiduciary Net Position,327432,44
+2024,FY2024_audit,2015,Net Change in Plan Fiduciary Net Position,10682,44
+2024,FY2024_audit,2024,Plan Fiduciary Net Position - Beginning,6886058,44
+2024,FY2024_audit,2023,Plan Fiduciary Net Position - Beginning,6276918,44
+2024,FY2024_audit,2022,Plan Fiduciary Net Position - Beginning,7428579,44
+2024,FY2024_audit,2021,Plan Fiduciary Net Position - Beginning,6414603,44
+2024,FY2024_audit,2020,Plan Fiduciary Net Position - Beginning,5105300,44
+2024,FY2024_audit,2019,Plan Fiduciary Net Position - Beginning,4375742,44
+2024,FY2024_audit,2018,Plan Fiduciary Net Position - Beginning,4506152,44
+2024,FY2024_audit,2017,Plan Fiduciary Net Position - Beginning,3891571,44
+2024,FY2024_audit,2016,Plan Fiduciary Net Position - Beginning,3564139,44
+2024,FY2024_audit,2015,Plan Fiduciary Net Position - Beginning,3553457,44
+2024,FY2024_audit,2024,Plan Fiduciary Net Position - Ending (b),7219767,44
+2024,FY2024_audit,2023,Plan Fiduciary Net Position - Ending (b),6886058,44
+2024,FY2024_audit,2022,Plan Fiduciary Net Position - Ending (b),6276918,44
+2024,FY2024_audit,2021,Plan Fiduciary Net Position - Ending (b),7428579,44
+2024,FY2024_audit,2020,Plan Fiduciary Net Position - Ending (b),6414603,44
+2024,FY2024_audit,2019,Plan Fiduciary Net Position - Ending (b),5105300,44
+2024,FY2024_audit,2018,Plan Fiduciary Net Position - Ending (b),4375742,44
+2024,FY2024_audit,2017,Plan Fiduciary Net Position - Ending (b),4506152,44
+2024,FY2024_audit,2016,Plan Fiduciary Net Position - Ending (b),3891571,44
+2024,FY2024_audit,2015,Plan Fiduciary Net Position - Ending (b),3564139,44
+2024,FY2024_audit,2024,Net Pension Liability/(Asset) - Ending (a)-(b),-348478,44
+2024,FY2024_audit,2023,Net Pension Liability/(Asset) - Ending (a)-(b),-337106,44
+2024,FY2024_audit,2022,Net Pension Liability/(Asset) - Ending (a)-(b),94,44
+2024,FY2024_audit,2021,Net Pension Liability/(Asset) - Ending (a)-(b),-1458486,44
+2024,FY2024_audit,2020,Net Pension Liability/(Asset) - Ending (a)-(b),-733024,44
+2024,FY2024_audit,2019,Net Pension Liability/(Asset) - Ending (a)-(b),293656,44
+2024,FY2024_audit,2018,Net Pension Liability/(Asset) - Ending (a)-(b),896912,44
+2024,FY2024_audit,2017,Net Pension Liability/(Asset) - Ending (a)-(b),256088,44
+2024,FY2024_audit,2016,Net Pension Liability/(Asset) - Ending (a)-(b),482486,44
+2024,FY2024_audit,2015,Net Pension Liability/(Asset) - Ending (a)-(b),553914,44
+2024,FY2024_audit,2024,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.07,44
+2024,FY2024_audit,2023,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,105.15,44
+2024,FY2024_audit,2022,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,100.00,44
+2024,FY2024_audit,2021,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,124.43,44
+2024,FY2024_audit,2020,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,112.90,44
+2024,FY2024_audit,2019,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.56,44
+2024,FY2024_audit,2018,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,82.99,44
+2024,FY2024_audit,2017,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.62,44
+2024,FY2024_audit,2016,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,88.97,44
+2024,FY2024_audit,2015,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,86.55,44
+2024,FY2024_audit,2024,Covered Valuation Payroll,1382409,44
+2024,FY2024_audit,2023,Covered Valuation Payroll,1288191,44
+2024,FY2024_audit,2022,Covered Valuation Payroll,1179685,44
+2024,FY2024_audit,2021,Covered Valuation Payroll,1129465,44
+2024,FY2024_audit,2020,Covered Valuation Payroll,1208226,44
+2024,FY2024_audit,2019,Covered Valuation Payroll,1183590,44
+2024,FY2024_audit,2018,Covered Valuation Payroll,1284901,44
+2024,FY2024_audit,2017,Covered Valuation Payroll,1209989,44
+2024,FY2024_audit,2016,Covered Valuation Payroll,1175816,44
+2024,FY2024_audit,2015,Covered Valuation Payroll,1118130,44
+2024,FY2024_audit,2024,Net Pension Liability as a Percentage of Covered Valuation Payroll,-25.21,44
+2024,FY2024_audit,2023,Net Pension Liability as a Percentage of Covered Valuation Payroll,-26.17,44
+2024,FY2024_audit,2022,Net Pension Liability as a Percentage of Covered Valuation Payroll,0.01,44
+2024,FY2024_audit,2021,Net Pension Liability as a Percentage of Covered Valuation Payroll,-129.13,44
+2024,FY2024_audit,2020,Net Pension Liability as a Percentage of Covered Valuation Payroll,-60.67,44
+2024,FY2024_audit,2019,Net Pension Liability as a Percentage of Covered Valuation Payroll,24.81,44
+2024,FY2024_audit,2018,Net Pension Liability as a Percentage of Covered Valuation Payroll,69.80,44
+2024,FY2024_audit,2017,Net Pension Liability as a Percentage of Covered Valuation Payroll,21.16,44
+2024,FY2024_audit,2016,Net Pension Liability as a Percentage of Covered Valuation Payroll,41.03,44
+2024,FY2024_audit,2015,Net Pension Liability as a Percentage of Covered Valuation Payroll,49.54,44

@@ -1,31 +1,31 @@
-fiscal_year,doc,schedule,line_item,column,amount
-2023,FY2023_audit,legal_debt_margin,Assessed Valuations,this_year,758732730
-2023,FY2023_audit,legal_debt_margin,Assessed Valuations,prior_year,723620217
-2023,FY2023_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,21813566
-2023,FY2023_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,20804081
-2023,FY2023_audit,legal_debt_margin,General obligation bonds,this_year,1183000
-2023,FY2023_audit,legal_debt_margin,General obligation bonds,prior_year,1189000
-2023,FY2023_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,3780000
-2023,FY2023_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,4105000
-2023,FY2023_audit,legal_debt_margin,Total debt applicable to limit,this_year,4963000
-2023,FY2023_audit,legal_debt_margin,Total debt applicable to limit,prior_year,5294000
-2023,FY2023_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,312427
-2023,FY2023_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,292050
-2023,FY2023_audit,legal_debt_margin,Net debt applicable to limit,this_year,4650573
-2023,FY2023_audit,legal_debt_margin,Net debt applicable to limit,prior_year,5001950
-2023,FY2023_audit,legal_debt_margin,Legal debt margin,this_year,17162993
-2023,FY2023_audit,legal_debt_margin,Legal debt margin,prior_year,15802131
-2023,FY2023_audit,non_referendum,Assessed Valuations,this_year,758732730
-2023,FY2023_audit,non_referendum,Assessed Valuations,prior_year,723620217
-2023,FY2023_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,4362713
-2023,FY2023_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,4160816
-2023,FY2023_audit,non_referendum,General obligation bonds,this_year,1183000
-2023,FY2023_audit,non_referendum,General obligation bonds,prior_year,1189000
-2023,FY2023_audit,non_referendum,Total debt applicable to limit,this_year,1183000
-2023,FY2023_audit,non_referendum,Total debt applicable to limit,prior_year,1189000
-2023,FY2023_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,312427
-2023,FY2023_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,292050
-2023,FY2023_audit,non_referendum,Net debt applicable to limit,this_year,870573
-2023,FY2023_audit,non_referendum,Net debt applicable to limit,prior_year,896950
-2023,FY2023_audit,non_referendum,Legal debt margin,this_year,3492140
-2023,FY2023_audit,non_referendum,Legal debt margin,prior_year,3263866
+fiscal_year,doc,schedule,line_item,column,amount,pdf_page
+2023,FY2023_audit,legal_debt_margin,Assessed Valuations,this_year,758732730,55
+2023,FY2023_audit,legal_debt_margin,Assessed Valuations,prior_year,723620217,55
+2023,FY2023_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,21813566,55
+2023,FY2023_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,20804081,55
+2023,FY2023_audit,legal_debt_margin,General obligation bonds,this_year,1183000,55
+2023,FY2023_audit,legal_debt_margin,General obligation bonds,prior_year,1189000,55
+2023,FY2023_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,3780000,55
+2023,FY2023_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,4105000,55
+2023,FY2023_audit,legal_debt_margin,Total debt applicable to limit,this_year,4963000,55
+2023,FY2023_audit,legal_debt_margin,Total debt applicable to limit,prior_year,5294000,55
+2023,FY2023_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,312427,55
+2023,FY2023_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,292050,55
+2023,FY2023_audit,legal_debt_margin,Net debt applicable to limit,this_year,4650573,55
+2023,FY2023_audit,legal_debt_margin,Net debt applicable to limit,prior_year,5001950,55
+2023,FY2023_audit,legal_debt_margin,Legal debt margin,this_year,17162993,55
+2023,FY2023_audit,legal_debt_margin,Legal debt margin,prior_year,15802131,55
+2023,FY2023_audit,non_referendum,Assessed Valuations,this_year,758732730,56
+2023,FY2023_audit,non_referendum,Assessed Valuations,prior_year,723620217,56
+2023,FY2023_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,4362713,56
+2023,FY2023_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,4160816,56
+2023,FY2023_audit,non_referendum,General obligation bonds,this_year,1183000,56
+2023,FY2023_audit,non_referendum,General obligation bonds,prior_year,1189000,56
+2023,FY2023_audit,non_referendum,Total debt applicable to limit,this_year,1183000,56
+2023,FY2023_audit,non_referendum,Total debt applicable to limit,prior_year,1189000,56
+2023,FY2023_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,312427,56
+2023,FY2023_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,292050,56
+2023,FY2023_audit,non_referendum,Net debt applicable to limit,this_year,870573,56
+2023,FY2023_audit,non_referendum,Net debt applicable to limit,prior_year,896950,56
+2023,FY2023_audit,non_referendum,Legal debt margin,this_year,3492140,56
+2023,FY2023_audit,non_referendum,Legal debt margin,prior_year,3263866,56

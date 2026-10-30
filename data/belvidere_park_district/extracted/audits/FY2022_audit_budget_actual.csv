@@ -7,26 +7,26 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2022,FY2022_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,actual,360716
 2022,FY2022_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,variance,280716
 2022,FY2022_audit,General Fund,46,2,Revenues; Taxes,Corporate replacement taxes,prior_year_actual,187681
-2022,FY2022_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,budget,15000
-2022,FY2022_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,actual,20770
-2022,FY2022_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,variance,5770
-2022,FY2022_audit,General Fund,46,3,Revenues; Taxes,Charges and fees,prior_year_actual,10808
-2022,FY2022_audit,General Fund,46,4,Revenues; Taxes,Donations,budget,25000
-2022,FY2022_audit,General Fund,46,4,Revenues; Taxes,Donations,actual,24101
-2022,FY2022_audit,General Fund,46,4,Revenues; Taxes,Donations,variance,-899
-2022,FY2022_audit,General Fund,46,4,Revenues; Taxes,Donations,prior_year_actual,18374
-2022,FY2022_audit,General Fund,46,5,Revenues; Taxes,Interest,budget,2800
-2022,FY2022_audit,General Fund,46,5,Revenues; Taxes,Interest,actual,17096
-2022,FY2022_audit,General Fund,46,5,Revenues; Taxes,Interest,variance,14296
-2022,FY2022_audit,General Fund,46,5,Revenues; Taxes,Interest,prior_year_actual,1498
-2022,FY2022_audit,General Fund,46,6,Revenues; Taxes,Other,budget,40917
-2022,FY2022_audit,General Fund,46,6,Revenues; Taxes,Other,actual,95626
-2022,FY2022_audit,General Fund,46,6,Revenues; Taxes,Other,variance,54709
-2022,FY2022_audit,General Fund,46,6,Revenues; Taxes,Other,prior_year_actual,188803
-2022,FY2022_audit,General Fund,46,7,Revenues; Taxes,Total revenues,budget,1694606
-2022,FY2022_audit,General Fund,46,7,Revenues; Taxes,Total revenues,actual,2006549
-2022,FY2022_audit,General Fund,46,7,Revenues; Taxes,Total revenues,variance,311943
-2022,FY2022_audit,General Fund,46,7,Revenues; Taxes,Total revenues,prior_year_actual,1858119
+2022,FY2022_audit,General Fund,46,3,Revenues,Charges and fees,budget,15000
+2022,FY2022_audit,General Fund,46,3,Revenues,Charges and fees,actual,20770
+2022,FY2022_audit,General Fund,46,3,Revenues,Charges and fees,variance,5770
+2022,FY2022_audit,General Fund,46,3,Revenues,Charges and fees,prior_year_actual,10808
+2022,FY2022_audit,General Fund,46,4,Revenues,Donations,budget,25000
+2022,FY2022_audit,General Fund,46,4,Revenues,Donations,actual,24101
+2022,FY2022_audit,General Fund,46,4,Revenues,Donations,variance,-899
+2022,FY2022_audit,General Fund,46,4,Revenues,Donations,prior_year_actual,18374
+2022,FY2022_audit,General Fund,46,5,Revenues,Interest,budget,2800
+2022,FY2022_audit,General Fund,46,5,Revenues,Interest,actual,17096
+2022,FY2022_audit,General Fund,46,5,Revenues,Interest,variance,14296
+2022,FY2022_audit,General Fund,46,5,Revenues,Interest,prior_year_actual,1498
+2022,FY2022_audit,General Fund,46,6,Revenues,Other,budget,40917
+2022,FY2022_audit,General Fund,46,6,Revenues,Other,actual,95626
+2022,FY2022_audit,General Fund,46,6,Revenues,Other,variance,54709
+2022,FY2022_audit,General Fund,46,6,Revenues,Other,prior_year_actual,188803
+2022,FY2022_audit,General Fund,46,7,Revenues,Total revenues,budget,1694606
+2022,FY2022_audit,General Fund,46,7,Revenues,Total revenues,actual,2006549
+2022,FY2022_audit,General Fund,46,7,Revenues,Total revenues,variance,311943
+2022,FY2022_audit,General Fund,46,7,Revenues,Total revenues,prior_year_actual,1858119
 2022,FY2022_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,budget,900176
 2022,FY2022_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,actual,594959
 2022,FY2022_audit,General Fund,46,8,Expenditures; Current; Culture & recreation,Personnel,variance,305217
@@ -39,14 +39,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2022,FY2022_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,actual,201378
 2022,FY2022_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,variance,32903
 2022,FY2022_audit,General Fund,46,10,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,165099
-2022,FY2022_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,budget,35065
-2022,FY2022_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,actual,71714
-2022,FY2022_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,variance,-36649
-2022,FY2022_audit,General Fund,46,11,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,36607
-2022,FY2022_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,budget,1710794
-2022,FY2022_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,actual,1406059
-2022,FY2022_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,variance,304735
-2022,FY2022_audit,General Fund,46,12,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1491990
+2022,FY2022_audit,General Fund,46,11,Expenditures,Capital outlay,budget,35065
+2022,FY2022_audit,General Fund,46,11,Expenditures,Capital outlay,actual,71714
+2022,FY2022_audit,General Fund,46,11,Expenditures,Capital outlay,variance,-36649
+2022,FY2022_audit,General Fund,46,11,Expenditures,Capital outlay,prior_year_actual,36607
+2022,FY2022_audit,General Fund,46,12,Expenditures,Total expenditures,budget,1710794
+2022,FY2022_audit,General Fund,46,12,Expenditures,Total expenditures,actual,1406059
+2022,FY2022_audit,General Fund,46,12,Expenditures,Total expenditures,variance,304735
+2022,FY2022_audit,General Fund,46,12,Expenditures,Total expenditures,prior_year_actual,1491990
 2022,FY2022_audit,General Fund,46,13,,Net change in fund balance,budget,-16188
 2022,FY2022_audit,General Fund,46,13,,Net change in fund balance,actual,600490
 2022,FY2022_audit,General Fund,46,13,,Net change in fund balance,variance,616678
@@ -91,14 +91,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2022,FY2022_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,actual,171324
 2022,FY2022_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,variance,7201
 2022,FY2022_audit,Recreation Fund,47,9,Expenditures; Current; Culture & recreation,Material & supplies,prior_year_actual,141000
-2022,FY2022_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,budget,5000
-2022,FY2022_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,actual,1876
-2022,FY2022_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,variance,3124
-2022,FY2022_audit,Recreation Fund,47,10,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,714
-2022,FY2022_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,budget,1878136
-2022,FY2022_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,actual,1736919
-2022,FY2022_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,variance,141217
-2022,FY2022_audit,Recreation Fund,47,11,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,1645557
+2022,FY2022_audit,Recreation Fund,47,10,Expenditures,Capital outlay,budget,5000
+2022,FY2022_audit,Recreation Fund,47,10,Expenditures,Capital outlay,actual,1876
+2022,FY2022_audit,Recreation Fund,47,10,Expenditures,Capital outlay,variance,3124
+2022,FY2022_audit,Recreation Fund,47,10,Expenditures,Capital outlay,prior_year_actual,714
+2022,FY2022_audit,Recreation Fund,47,11,Expenditures,Total expenditures,budget,1878136
+2022,FY2022_audit,Recreation Fund,47,11,Expenditures,Total expenditures,actual,1736919
+2022,FY2022_audit,Recreation Fund,47,11,Expenditures,Total expenditures,variance,141217
+2022,FY2022_audit,Recreation Fund,47,11,Expenditures,Total expenditures,prior_year_actual,1645557
 2022,FY2022_audit,Recreation Fund,47,12,,Net change in fund balance,budget,-145679
 2022,FY2022_audit,Recreation Fund,47,12,,Net change in fund balance,actual,-124030
 2022,FY2022_audit,Recreation Fund,47,12,,Net change in fund balance,variance,21649
@@ -247,14 +247,14 @@ fiscal_year,doc,fund,pdf_page,row_seq,section,line_item,column,amount
 2022,FY2022_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,actual,4000
 2022,FY2022_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,variance,1000
 2022,FY2022_audit,Capital Projects Fund,52,4,Expenditures; Current; Culture & recreation,Contractual services,prior_year_actual,4750
-2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,budget,828645
-2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,actual,657740
-2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,variance,170905
-2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures; Current; Culture & recreation,Capital outlay,prior_year_actual,556766
-2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,budget,833645
-2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,actual,661740
-2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,variance,171905
-2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures; Current; Culture & recreation,Total expenditures,prior_year_actual,561516
+2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,budget,828645
+2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,actual,657740
+2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,variance,170905
+2022,FY2022_audit,Capital Projects Fund,52,5,Expenditures,Capital outlay,prior_year_actual,556766
+2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,budget,833645
+2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,actual,661740
+2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,variance,171905
+2022,FY2022_audit,Capital Projects Fund,52,6,Expenditures,Total expenditures,prior_year_actual,561516
 2022,FY2022_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,budget,-729385
 2022,FY2022_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,actual,-646301
 2022,FY2022_audit,Capital Projects Fund,52,7,,Excess of revenues over (under) expenditures,variance,83084

@@ -1,33 +1,33 @@
-fiscal_year,doc,description,instrument_id,column,amount
-2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,beginning,0
-2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,new_issues,1100000
-2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,retired,0
-2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,ending,1100000
-2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,beginning,1090000
-2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,new_issues,0
-2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,retired,1090000
-2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,ending,0
-2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,beginning,1000000
-2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,new_issues,0
-2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,retired,0
-2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,ending,1000000
-2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,beginning,5930000
-2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,new_issues,0
-2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,retired,340000
-2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,ending,5590000
-2019,FY2019_audit,Agreement for deed,agreement_deed,beginning,98887
-2019,FY2019_audit,Agreement for deed,agreement_deed,new_issues,0
-2019,FY2019_audit,Agreement for deed,agreement_deed,retired,98887
-2019,FY2019_audit,Agreement for deed,agreement_deed,ending,0
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,beginning,896912
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,new_issues,0
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,retired,603256
-2019,FY2019_audit,Net pension liability - IMRF,net_pension,ending,293656
-2019,FY2019_audit,Compensated absences,compensated_absences,beginning,18092
-2019,FY2019_audit,Compensated absences,compensated_absences,new_issues,73832
-2019,FY2019_audit,Compensated absences,compensated_absences,retired,64664
-2019,FY2019_audit,Compensated absences,compensated_absences,ending,27260
-2019,FY2019_audit,Total,,beginning,9033891
-2019,FY2019_audit,Total,,new_issues,1173832
-2019,FY2019_audit,Total,,retired,2196807
-2019,FY2019_audit,Total,,ending,8010916
+fiscal_year,doc,description,instrument_id,column,amount,pdf_page
+2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,beginning,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,new_issues,1100000,32
+2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,retired,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2019",park_bond_2019,ending,1100000,32
+2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,beginning,1090000,32
+2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,new_issues,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,retired,1090000,32
+2019,FY2019_audit,"G.O. Bond, Series 2018",park_bond_2018,ending,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,beginning,1000000,32
+2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,new_issues,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,retired,0,32
+2019,FY2019_audit,"G.O. Bond, Series 2015-A",park_bond_2015A,ending,1000000,32
+2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,beginning,5930000,32
+2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,new_issues,0,32
+2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,retired,340000,32
+2019,FY2019_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,ending,5590000,32
+2019,FY2019_audit,Agreement for deed,agreement_deed,beginning,98887,32
+2019,FY2019_audit,Agreement for deed,agreement_deed,new_issues,0,32
+2019,FY2019_audit,Agreement for deed,agreement_deed,retired,98887,32
+2019,FY2019_audit,Agreement for deed,agreement_deed,ending,0,32
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,beginning,896912,32
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,new_issues,0,32
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,retired,603256,32
+2019,FY2019_audit,Net pension liability - IMRF,net_pension,ending,293656,32
+2019,FY2019_audit,Compensated absences,compensated_absences,beginning,18092,32
+2019,FY2019_audit,Compensated absences,compensated_absences,new_issues,73832,32
+2019,FY2019_audit,Compensated absences,compensated_absences,retired,64664,32
+2019,FY2019_audit,Compensated absences,compensated_absences,ending,27260,32
+2019,FY2019_audit,Total,,beginning,9033891,32
+2019,FY2019_audit,Total,,new_issues,1173832,32
+2019,FY2019_audit,Total,,retired,2196807,32
+2019,FY2019_audit,Total,,ending,8010916,32

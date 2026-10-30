@@ -123,11 +123,18 @@ def read_rows(text, start_re, ncols, stop_re=None):
         label, amts = r
         if OCR_NOISE:
             label = re.sub(r"^[^A-Za-z(]+", "", label)  # leading scan marks ("' Principal")
+            label = re.sub(r"^(?:[A-Za-z]{1,2}\s+)+(?=[A-Z][a-z])", "", label)  # debris words in front of a label ("aN Contractual services")
+            label = label.rstrip(".").replace("Uneamed", "Unearned")  # "Prepaid items.", "Uneamed revenue"
         indent = len(raw) - len(raw.lstrip())
         def push(h):  # a top-level heading (Assets:, Revenues:, ...) starts a new section; any other heading nests inside it
+            h = re.sub(r"^(Assets|Liabilities|Deferred Inflows of Resources|Fund balances|Revenues|Expenditures|Other financing sources \(uses\))\s*:\s*\S{0,3}$", r"\1", h.strip())
             h = h.rstrip(":").strip()
             if TOP.match(h):
                 stack[:] = [h]
+            elif h in ("Nonspendable", "Restricted", "Committed", "Assigned"):  # classes of fund balance are siblings, not nested
+                stack[:] = [x for x in stack if x not in ("Nonspendable", "Restricted", "Committed", "Assigned")] + [h]
+            elif h == "Debt service":  # a sibling of "Current" under Expenditures
+                stack[:] = stack[:1] + [h]
             else:
                 stack.append(h)
 
@@ -146,6 +153,10 @@ def read_rows(text, start_re, ncols, stop_re=None):
         label = re.sub(r"(?i)^net change\s*in\s*fund", "Net change in fund", label)  # "Net change infund balance"
         if CLEARS.match(label):
             stack[:] = []
+        if stack and stack[-1] == "Taxes" and not re.match(r"(Property taxes|Corporate replacement|Other taxes)", label, re.I):
+            stack.pop()  # the rows after Property taxes / Corporate replacement taxes are not under the Taxes heading
+        if "Culture & recreation" in stack and not re.match(r"(Personnel|Contractual|Material|Commodit|Total)", label, re.I):
+            stack[:] = [x for x in stack if x not in ("Current", "Culture & recreation")]  # Capital outlay is printed beside Current, not under it
         rows.append((": ".join(stack) if False else "; ".join(stack), label.rstrip(":"), amts, indent))
     return rows
 
