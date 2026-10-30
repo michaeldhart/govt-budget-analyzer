@@ -1,0 +1,3 @@
+doc,pdf_page,method,raw_text,final_text,detail
+FY2023_appropriation_in_draft,20,line,"Recreation Fund Appropriation Total 1,776,793.23:00 a","Recreation Fund Appropriation Total 1,776,793.23","The scan prints 1,776,793.23 with a stray mark after it (read '1,776,793.23:00 a'); the standalone FY2023 ordinance prints the same total"
+FY2023_appropriation_in_draft,20,line,Capital Projects -880;796.00,"Capital Projects 880,796.00","The scan prints '-880;796.00' for 880,796.00 (a semicolon for the comma and a stray mark before the number; the parser took 796.00 as the amount). The standalone FY2023 ordinance prints 880,796.00 on the same line, and the Bond and Interest lines add to 2,597,042 only with it (the printed total is 90 below, as in the standalone ordinance)"

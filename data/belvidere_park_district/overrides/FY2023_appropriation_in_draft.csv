@@ -1,0 +1,9 @@
+kind,raw,fixed,reason
+line,"Recreation Fund Appropriation Total 1,776,793","Recreation Fund Appropriation Total 1,776,793.23","The scan prints 1,776,793.23 with a stray mark after it (read '1,776,793.23:00 a'); the standalone FY2023 ordinance prints the same total"
+line,Capital Projects -880;796.00,"Capital Projects 880,796.00","The scan prints '-880;796.00' for 880,796.00 (a semicolon for the comma and a stray mark before the number; the parser took 796.00 as the amount). The standalone FY2023 ordinance prints 880,796.00 on the same line, and the Bond and Interest lines add to 2,597,042 only with it (the printed total is 90 below, as in the standalone ordinance)"
+allow_diff,Corporate Fund appropriation,,"Same as the adopted FY2023 ordinance: the printed Corporate Fund Appropriation Total (1,427,019.90) is 500 below its lines (1,427,519.90, which the October 2023 amended ordinance prints)"
+allow_diff,Recreation Fund appropriation,,"Same as the adopted FY2023 ordinance: the printed Recreation Fund Appropriation Total (1,776,793.23) is 3,000 below its lines (1,779,793.23)"
+allow_diff,Bond & Interest Fund appropriation,,"Same as the adopted FY2023 ordinance: the printed Bond and Interest Fund Appropriation Total (2,596,952) is 90 below its lines (482,700 + 880,796 + 1,233,546 = 2,597,042)"
+allow_diff,Special Recreation Fund appropriation,,"Same as the adopted FY2023 ordinance: the printed Special Recreation Fund Appropriation Total (518,496.00) is 9 cents below its lines (518,496.09)"
+allow_diff,summary b,,"Same as the adopted FY2023 ordinance: SUMMARY (b) 6,924,464.00 is the budget document's total revenue; the fund tables add to 6,900,964.00"
+allow_diff,summary c,,"Same as the adopted FY2023 ordinance: SUMMARY (c) 6,867,889.22 is the budget document's total; the printed fund appropriation totals add to 6,867,299.13"

@@ -368,3 +368,34 @@ def test_reference_series_by_fiscal_year():
     assert abs(ratio - 32342 / 25462) < 1e-3
     src = {r["series"] for r in read_csv(os.path.join(ROOT, "entities", ENT, "reference_sources.csv"))}
     assert src == {"cpi", "population", "eav"}
+
+
+def test_ordinance_copies_in_budget_documents():
+    """The ordinance copies appended to the FY2023 draft (22-12-13A), the FY2024 draft (23-12-12A) and the October 2023 amended report (23-10-24A) are read
+    with the standalone extractor (0 problems, own extract files) and compared with the standalone ordinances: the two draft copies are identical to the adopted
+    ordinances in every amount (80 and 93 items); the October amendment differs in exactly 11 of 80 items, all in the Bond and Interest Fund or the
+    repaired totals, and it is not in ordinance_lines (it is no separate document)."""
+    base = os.path.join(ROOT, "data", "belvidere_park_district")
+    cmp_rows = read_csv(os.path.join(base, "ordinance_copy_comparison.csv"))
+    pairs = defaultdict(list)
+    for r in cmp_rows:
+        pairs[(r["copy_id"], r["compared_to"])].append(r)
+    assert {k: len(v) for k, v in pairs.items()} == {
+        ("FY2023_appropriation_in_draft", "FY2023_appropriation"): 80, ("FY2024_appropriation_in_draft", "FY2024_appropriation"): 93,
+        ("FY2023_appropriation_amended_oct", "FY2023_appropriation"): 80, ("FY2023_appropriation_amended_oct", "FY2023_appropriation_in_draft"): 80}
+    for k in (("FY2023_appropriation_in_draft", "FY2023_appropriation"), ("FY2024_appropriation_in_draft", "FY2024_appropriation")):
+        assert all(r["status"] == "same" for r in pairs[k]), k
+    assert all(float(r["label_similarity"]) >= 0.7 for v in pairs.values() for r in v if r["label_similarity"])
+    diffs = {(r["fund"], r["section"], r["line_item_copy"][:12]): Decimal(r["diff"]) for r in pairs[("FY2023_appropriation_amended_oct", "FY2023_appropriation")] if r["status"] != "same"}
+    assert len(diffs) == 11 and all(r["exception_ids"] == "EX-ordinance-fy2023-amended-oct" for r in pairs[("FY2023_appropriation_amended_oct", "FY2023_appropriation")] if r["status"] != "same")
+    by = {(f, s, n): d for (f, s, n), d in diffs.items()}
+    assert by[("Corporate Fund", "appropriation", "Corporate Fu")] == 500 and by[("Recreation Fund", "appropriation", "Recreation F")] == 3000
+    assert by[("Bond & Interest Fund", "appropriation", "Capital Proj")] == 258239 and by[("Bond & Interest Fund", "revenue", "Total Revenu")] == Decimal("-18677.13")
+    assert by[("(summary)", "summary", "b")] == Decimal("-42177.13") and by[("(summary)", "summary", "c")] == Decimal("257738.91") and by[("(summary)", "summary", "d")] == Decimal("-299916.04")
+    # the amendment equals the Cip fund's change in the same day's amended revenue report: capital projects expense 1,139,034.87, revenue 863,122.87 vs 881,800 (original lines)
+    tot = {(r["flow"], r["column"]): Decimal(r["amount"]) for r in read_csv(os.path.join(base, "extracted", "FY2023_budget_amended_oct_totals.csv")) if r["kind"] == "fund_subtotal" and r["fund_code"] == "21"}
+    assert round(tot[("expense", "amended")]) == 1139035 and tot[("revenue", "amended")] - Decimal(881800) == Decimal("-18677.13")
+    # the standalone ordinance is the only FY2023 appropriation in the canonical tables
+    assert {r["doc_id"] for r in canonical("ordinance_lines")} & {"FY2023_appropriation_in_draft", "FY2024_appropriation_in_draft", "FY2023_appropriation_amended_oct"} == set()
+    ids = {r["exception_id"] for r in read_csv(os.path.join(ROOT, "entities", "belvidere_park_district", "exceptions.csv"))}
+    assert {"EX-ordinance-fy2023-amended-oct", "EX-ordinance-fy2023-amended-oct-arithmetic", "EX-ordinance-copies-appended"} <= ids
