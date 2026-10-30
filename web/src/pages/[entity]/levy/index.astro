@@ -29,7 +29,8 @@ const cagr = (last.levy / first.levy) ** (1 / (last.fiscal_year - first.fiscal_y
 const eavGrowth = last.eav && first.eav ? (last.eav / first.eav) ** (1 / (last.fiscal_year - first.fiscal_year)) - 1 : null;
 const lastAdopted = [...agg].reverse().find((r) => r.status === 'adopted')!;
 const byFund = seriesOf(funds, 'fund', {}, 'levy');
-const rateRows = agg.filter((r) => r.rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Aggregate levy per $100 of assessed value', value: r.rate_per_100, exception_ids: r.exception_ids }));
+const rateRows = agg.filter((r) => r.rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Aggregate levy per $100 of assessed value', value: r.rate_per_100, exception_ids: r.exception_ids }))
+  .concat(agg.filter((r) => r.extension_rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Rate the county extended (audit)', value: r.extension_rate_per_100, exception_ids: r.exception_ids })));
 const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
 ---
 <Base entity={entity} section="levy" title={`Property tax levy – ${meta.short_name}`} description={`${meta.name}: the property tax levy by fund from the district's levy ordinances.`}>
@@ -52,15 +53,15 @@ const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id
     note="Includes the Prior Year Adjustment in FY2023 and FY2024 (a county clerk shortfall for the Special Recreation Fund). FY2024's printed aggregate leaves it out." />
 
   <h2>Levy per $100 of assessed value</h2>
-  <LineSeries client:load exceptions={exceptionMap} id="levy-rate" rows={rateRows} series={[{ name: 'Aggregate levy per $100 of assessed value', color: '#2a78d6' }]}
-    title="Aggregate levy as a percent of the district's rate-setting assessed valuation" filename="park-levy-rate.csv" kind="percent"
-    note="Aggregate levy divided by the rate-setting assessed valuation of the tax year (from the audits), times 100: dollars of levy per $100 of valuation, which is the same as a percent. An approximation of the extension rate: the county's rate also reflects extensions limited by the property tax cap and the debt service levy." />
+  <LineSeries client:load exceptions={exceptionMap} id="levy-rate" rows={rateRows} series={[{ name: 'Aggregate levy per $100 of assessed value', color: '#2a78d6' }, { name: 'Rate the county extended (audit)', color: '#c2551f' }]}
+    title="Levy rate and the rate the county extended, per $100 of assessed valuation" filename="park-levy-rate.csv" kind="percent"
+    note="Aggregate levy divided by the rate-setting assessed valuation of the tax year (from the audits), times 100: dollars of levy per $100 of valuation, which is the same as a percent. The second line is the total tax rate the audit prints for tax years 2021-2024 (it equals the county's extension divided by the same valuation); it is lower than the levy rate when the county extended less than the district asked, e.g. under the tax cap. No extension exists yet for FY2026-27." />
 
   <h2>Aggregate levy, increase and assessed valuation</h2>
   <div class="scroll"><table>
-    <thead><tr><th>Fiscal year</th><th class="num">Aggregate levy</th><th class="num">Stated increase over last extension</th><th class="num">Assessed valuation</th><th class="num">Per $100</th></tr></thead>
+    <thead><tr><th>Fiscal year</th><th class="num">Aggregate levy</th><th class="num">Stated increase over last extension</th><th class="num">Assessed valuation</th><th class="num">Levy per $100</th><th class="num">Extended</th><th class="num">Extended per $100</th></tr></thead>
     <tbody>{agg.slice().reverse().map((r) => (
-      <tr><td>{fyLabel(r.fiscal_year)}{r.status === 'draft' ? ' (draft)' : ''}</td><td class="num">{dollars(r.levy)}</td><td class="num">{r.percent_increase == null ? '' : `${r.percent_increase}%`}</td><td class="num">{dollars(r.eav)}</td><td class="num">{r.rate_per_100 == null ? '' : `$${r.rate_per_100.toFixed(4)}`}</td></tr>
+      <tr><td>{fyLabel(r.fiscal_year)}{r.status === 'draft' ? ' (draft)' : ''}</td><td class="num">{dollars(r.levy)}</td><td class="num">{r.percent_increase == null ? '' : `${r.percent_increase}%`}</td><td class="num">{dollars(r.eav)}</td><td class="num">{r.rate_per_100 == null ? '' : `$${r.rate_per_100.toFixed(4)}`}</td><td class="num">{r.extension == null ? '' : dollars(r.extension)}</td><td class="num">{r.extension_rate_per_100 == null ? '' : `$${r.extension_rate_per_100.toFixed(4)}`}</td></tr>
     ))}</tbody>
   </table></div>
 

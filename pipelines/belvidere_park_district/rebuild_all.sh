@@ -17,3 +17,4 @@ python3 $P/build_audit_categories.py          # audit expenditure classes vs the
 python3 $P/build_debt_crosschecks.py            # debt note, legal margin, IMRF and statements across the seven audits
 python3 $P/build_reference.py                 # population, CPI factor and assessed valuation by fiscal year (reads committed snapshots)
 python3 $P/build_ordinance_copy_compare.py > /dev/null  # ordinance copies appended to the FY2023/FY2024 drafts and the Oct 2023 amended report, beside the standalone ordinances
+python3 $P/build_levy_extension.py             # levy ordinances vs the county's tax extensions (tax years 2021-2024)

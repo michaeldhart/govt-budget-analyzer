@@ -32,7 +32,7 @@ def test_envelope_and_rows(site, name):
     d = site(ENT, name + ".json")
     assert d["dataset"] == name and d["entity_id"] == ENT and d["title"] and d["description"] and d["sources"]
     assert d["rows"] and all(list(r) == list(d["rows"][0]) or name == "levies" for r in d["rows"])
-    assert set(d["columns"]) == set(d["rows"][0]) | ({"percent_increase", "eav", "rate_per_100"} if name == "levies" else set())
+    assert set(d["columns"]) == set(d["rows"][0]) | ({"percent_increase", "eav", "rate_per_100", "extension", "extension_rate_per_100"} if name == "levies" else set())
     ids = {e["exception_id"] for e in site(ENT, "exceptions.json")["exceptions"]}
     assert all(i in ids for r in d["rows"] for i in r["exception_ids"])
 
@@ -50,6 +50,8 @@ def test_levies_debt_and_balances(site):
     agg = {r["fiscal_year"]: r for r in levies if r["fund_code"] == ""}
     assert [agg[y]["levy"] for y in range(2022, 2028)] == [3962074, 4218185, 4329577, 4533060, 4737628, 4943251]
     assert agg[2025]["rate_per_100"] == round(4533060 / 758732730 * 100, 4) or agg[2025]["eav"]  # tax year 2024 valuation
+    assert [agg[y]["extension"] for y in range(2022, 2026)] == [3851324, 4128720, 4372109, 4557070] and agg[2026]["extension"] is None
+    assert [agg[y]["extension_rate_per_100"] for y in range(2022, 2026)] == [0.53223, 0.54416, 0.52927, 0.49246]
     assert agg[2027]["status"] == "draft" and agg[2024]["status"] == "adopted" and agg[2023]["status"] == "adopted"
     debt = site(ENT, "park_debt.json")["rows"]
     assert sum(r["ending_balance"] for r in debt if r["fiscal_year"] == 2025) == 4887628

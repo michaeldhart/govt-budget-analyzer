@@ -78,6 +78,7 @@ def levies(E, read):
     for d in sorted(docs.values(), key=lambda d: (d["fiscal_year"], d["status"] != "adopted")):  # the adopted ordinance wins over a draft of the same year
         pick.setdefault(int(d["fiscal_year"]), d["doc_id"])
     eav = {int(r["fiscal_year"]): num(r["eav_city"]) for r in read("reference_by_fy.csv")}
+    ext = {int(r["period_fy"]): r for r in read("levy_vs_extension.csv") if r["fund_key"] == "total"}
     rows = []
     for r in read("ordinance_lines.csv"):
         if r["ordinance"] == "levy" and r["section"] == "levy" and pick.get(int(r["period_fy"])) == r["doc_id"]:
@@ -92,17 +93,21 @@ def levies(E, read):
         pi = s.get("percent_increase")
         rows.append(dict(fiscal_year=fy, fund="All funds (aggregate levy)", fund_code="", levy=round(agg), status=docs[pick[fy]]["status"], pdf_page=None,
                          percent_increase=pi, eav=eav.get(fy), rate_per_100=round(agg / eav[fy] * 100, 4) if eav.get(fy) else None,
+                         extension=num(ext[fy]["extension_total_printed"]) if fy in ext else None,
+                         extension_rate_per_100=float(ext[fy]["rate_printed"]) * 1 if fy in ext else None,
                          exception_ids=sorted({i for r in rows if r["fiscal_year"] == fy for i in r["exception_ids"]})))
     rows.sort(key=lambda r: (r["fund"] == "All funds (aggregate levy)", r["fund"], r["fiscal_year"]))
     return dict(
         title="Property tax levy by fund",
         description="The levy each year's ordinance asks the county to extend (tax year = fiscal year minus 1), by fund, with the aggregate. The aggregate row also gives the percent "
                     "increase over the previous extension that the ordinance states, the district's rate-setting assessed valuation and the aggregate levy as a rate per $100 of it. "
-                    "FY2027 is a draft ordinance. The FY2024 aggregate leaves out a 50,000 Prior Year Adjustment (see the exceptions).",
-        sources=["ordinance_lines.csv", "ordinance_summary.csv", "reference_by_fy.csv"],
+                    "For FY2022-FY2025 the county's actual extension and the audit's printed total rate are added (levy_vs_extension.csv). FY2027 is a draft ordinance. The FY2024 aggregate leaves out a 50,000 Prior Year Adjustment (see the exceptions).",
+        sources=["ordinance_lines.csv", "ordinance_summary.csv", "reference_by_fy.csv", "levy_vs_extension.csv"],
         columns=dict(fiscal_year="fiscal year (the levy ordinance of the year)", fund="fund as the ordinance names it", fund_code="fund code (empty on the aggregate row)",
                      levy="dollars", status="adopted | draft", pdf_page="page of the ordinance PDF", percent_increase="stated increase over the previous extension (aggregate row)",
                      eav="rate-setting assessed valuation of the tax year (aggregate row)", rate_per_100="aggregate levy / eav x 100 (aggregate row)",
+                     extension="the county's total tax extension for the tax year, as the audit prints it (aggregate row, FY2022-FY2025)",
+                     extension_rate_per_100="the audit's printed total tax rate per $100 of assessed value, which equals extension / eav x 100 (aggregate row, FY2022-FY2025)",
                      exception_ids="exceptions about this ordinance"),
         rows=rows)
 

@@ -354,6 +354,35 @@ def test_ordinances_cover_every_document_and_tie():
     assert all(r["exception_ids"] for r in lines if r["doc_id"] in ("FY2023_levy", "FY2024_levy", "FY2025_levy", "FY2022_levy"))
 
 
+def test_levy_vs_extension_ties_to_the_audits():
+    """Levy ordinances FY2022-FY2025 against the county's extensions for tax years 2021-2024: 4 ordinances x 9 funds (+ Prior Year Adjustment in FY2023-24, levy only),
+    every computed rate (extension / valuation x 100) equals the audit's printed 5-decimal rate (36 of 36), fund extensions add to the printed total (3 of 4 to the
+    dollar, tax year 2022 is $1 off), and the audits that repeat a tax year agree."""
+    from decimal import Decimal
+    rows = canonical("levy_vs_extension")
+    assert len(rows) == 4 * 10 + 2 and {r["period_fy"] for r in rows} == {"2022", "2023", "2024", "2025"}
+    funds = [r for r in rows if r["fund_key"] not in ("pya", "total")]
+    assert len(funds) == 36 and all(Decimal(r["rate_diff"]) == 0 for r in rows if r["rate_diff"] != "")
+    assert all(Decimal(r["rate_diff"]) == 0 for r in rows if r["fund_key"] == "total")
+    tot = {r["period_fy"]: r for r in rows if r["fund_key"] == "total"}
+    assert sorted(fy for fy, r in tot.items() if Decimal(r["extension"]) != Decimal(r["extension_total_printed"])) == ["2023"]
+    assert abs(Decimal(tot["2023"]["extension"]) - Decimal(tot["2023"]["extension_total_printed"])) == 1
+    assert [Decimal(tot[y]["difference"]) for y in ("2022", "2023", "2024", "2025")] == [-110750, -39466, Decimal("42531.55"), 28300]
+    # the extension is within 1.1% of the levy in 19 of 36 fund-years; the rest are the documented gaps
+    far = {(r["period_fy"], r["fund_key"]) for r in funds if abs(Decimal(r["difference_pct"])) > Decimal("1.1")}
+    assert len(far) == 17 and all(r["exception_ids"] for r in funds if (r["period_fy"], r["fund_key"]) in far)
+    assert all(r["exception_ids"] for r in rows if r["fund_key"] == "pya")
+    assert sorted((r["period_fy"], r["fund_key"]) for r in funds if Decimal(r["percent_collected"]) < 99) == [("2024", "01")]
+    assert max(Decimal(r["percent_collected"]) for r in funds) == Decimal("115.066")
+    # FY2025 Social Security: the section's 169,550 is the typo, the SUMMARY figure 173,840 is 37 below the extension
+    ss = next(r for r in funds if r["period_fy"] == "2025" and r["fund_key"] == "01:social_security")
+    assert (ss["levy"], ss["extension"]) == ("169550", "173877") and int(ss["extension"]) - 173840 == 37
+    # the audits agree whenever they repeat a tax year (the builder asserts it); 2021-2024 are each reported by 3 audits except 2024 (1)
+    av = canonical("assessed_valuations")
+    for ty, n in (("2021", 3), ("2022", 3), ("2023", 2), ("2024", 1)):
+        assert len({r["doc_id"] for r in av if r["tax_year"] == ty and r["section"] == "extensions"}) == n
+
+
 def test_reference_series_by_fiscal_year():
     """FY2019-FY2027: population scales the district's own AFR figure (32,342 in 2025) by the city's Census series; CPI is the calendar-year mean with base FY2025;
     EAV is the audits' rate-setting valuation of tax year N-1 (FY2026-27 not reported yet)."""
