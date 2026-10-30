@@ -1,0 +1,9 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2021,FY2021_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,balance,4410000
+2021,FY2021_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,current_portion,305000
+2021,FY2021_audit,"G.O. Park Bonds, series 2021 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2022; interest rate of 0.5%",park_bond_2021,balance,1170000
+2021,FY2021_audit,"G.O. Park Bonds, series 2021 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2022; interest rate of 0.5%",park_bond_2021,current_portion,1170000
+2021,FY2021_audit,Compensated absences,compensated_absences,balance,31990
+2021,FY2021_audit,Compensated absences,compensated_absences,current_portion,31990
+2021,FY2021_audit,Total outstanding debt,,balance,5611990
+2021,FY2021_audit,Total outstanding debt,,current_portion,1506990

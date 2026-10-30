@@ -1,0 +1,66 @@
+doc,check,expected,found,result
+FY2022_audit,outstanding: balances sum to total,5831368,5831368,ok
+FY2022_audit,outstanding: current portions sum to total,1554021,1554021,ok
+FY2022_audit,schedule 2023: total principal,1514000,1514000,ok
+FY2022_audit,schedule 2023: total interest,199791,199791,ok
+FY2022_audit,schedule 2024: total principal,340000,340000,ok
+FY2022_audit,schedule 2024: total interest,144400,144400,ok
+FY2022_audit,schedule 2025: total principal,365000,365000,ok
+FY2022_audit,schedule 2025: total interest,130300,130300,ok
+FY2022_audit,schedule 2026: total principal,385000,385000,ok
+FY2022_audit,schedule 2026: total interest,115300,115300,ok
+FY2022_audit,schedule 2027: total principal,400000,400000,ok
+FY2022_audit,schedule 2027: total interest,99600,99600,ok
+FY2022_audit,schedule 2028-2032: total principal,2290000,2290000,ok
+FY2022_audit,schedule 2028-2032: total interest,236800,236800,ok
+FY2022_audit,schedule: total row column 1,1189000,1189000,ok
+FY2022_audit,schedule: total row column 2,42091,42091,ok
+FY2022_audit,schedule: total row column 3,4105000,4105000,ok
+FY2022_audit,schedule: total row column 4,884100,884100,ok
+FY2022_audit,schedule: total row column 5,5294000,5294000,ok
+FY2022_audit,schedule: total row column 6,926191,926191,ok
+FY2022_audit,schedule: park_bond_2022 principal = outstanding balance,1189000,1189000,ok
+FY2022_audit,schedule: refunding_2020 principal = outstanding balance,4105000,4105000,ok
+FY2022_audit,schedule: principal + other liabilities = total outstanding,5831368,5831368,ok
+FY2022_audit,"activity G.O. Bond, Series 2021: beginning + new - retired = ending",0,0,ok
+FY2022_audit,"activity G.O. Bond, Series 2022: beginning + new - retired = ending",1189000,1189000,ok
+FY2022_audit,"activity G.O. Bond, Series 2022: ending = outstanding balance",1189000,1189000,ok
+FY2022_audit,"activity G.O. Refunding Bond, Series 2020: beginning + new - retired = ending",4105000,4105000,ok
+FY2022_audit,"activity G.O. Refunding Bond, Series 2020: ending = outstanding balance",4105000,4105000,ok
+FY2022_audit,activity Unamortized bond premium: beginning + new - retired = ending,497253,497253,ok
+FY2022_audit,activity Unamortized bond premium: ending = outstanding balance,497253,497253,ok
+FY2022_audit,activity Net pension liability - IMRF: beginning + new - retired = ending,94,94,ok
+FY2022_audit,activity Net pension liability - IMRF: ending = outstanding balance,94,94,ok
+FY2022_audit,activity Compensated absences: beginning + new - retired = ending,40021,40021,ok
+FY2022_audit,activity Compensated absences: ending = outstanding balance,40021,40021,ok
+FY2022_audit,activity: total beginning,6205027,6205027,ok
+FY2022_audit,activity: total new,1273125,1273125,ok
+FY2022_audit,activity: total retired,1646784,1646784,ok
+FY2022_audit,activity: total ending,5831368,5831368,ok
+FY2022_audit,activity: total ending = total outstanding,5831368,5831368,ok
+FY2022_audit,legal_debt_margin col1: limit = rate x valuation,20804081,20804081,ok
+FY2022_audit,legal_debt_margin col1: debt applicable sums,5294000,5294000,ok
+FY2022_audit,legal_debt_margin col1: net debt,5001950,5001950,ok
+FY2022_audit,legal_debt_margin col1: margin,15802131,15802131,ok
+FY2022_audit,legal_debt_margin col2: limit = rate x valuation,19302206,19302206,ok
+FY2022_audit,legal_debt_margin col2: debt applicable sums,5580000,5580000,ok
+FY2022_audit,legal_debt_margin col2: net debt,5307807,5307807,ok
+FY2022_audit,legal_debt_margin col2: margin,13994399,13994399,ok
+FY2022_audit,non_referendum col1: limit = rate x valuation,4160816,4160816,ok
+FY2022_audit,non_referendum col1: debt applicable sums,1189000,1189000,ok
+FY2022_audit,non_referendum col1: net debt,896950,896950,ok
+FY2022_audit,non_referendum col1: margin,3263866,3263866,ok
+FY2022_audit,non_referendum col2: limit = rate x valuation,3860441,3860441,ok
+FY2022_audit,non_referendum col2: debt applicable sums,1170000,1170000,ok
+FY2022_audit,non_referendum col2: net debt,897807,897807,ok
+FY2022_audit,non_referendum col2: margin,2962634,2962634,ok
+FY2022_audit,legal debt margin: debt applicable = bonds in the debt note,5294000,5294000,ok
+FY2022_audit,assessed rates tax year 2021: sum = total,0.53223,0.53223,ok
+FY2022_audit,assessed rates tax year 2020: sum = total,0.57250,0.57250,ok
+FY2022_audit,assessed rates tax year 2019: sum = total,0.58130,0.58130,ok
+FY2022_audit,assessed extensions tax year 2021: sum = total,3851324,3851324,ok
+FY2022_audit,assessed extensions tax year 2020: sum = total,3843657,3843656,ok: rounding
+FY2022_audit,assessed extensions tax year 2019: sum = total,3731130,3731129,ok: rounding
+FY2022_audit,assessed collections tax year 2021: sum = total,3846754,3846754,ok
+FY2022_audit,assessed collections tax year 2020: sum = total,3845699,3845699,ok
+FY2022_audit,assessed collections tax year 2019: sum = total,3717044,3717044,ok

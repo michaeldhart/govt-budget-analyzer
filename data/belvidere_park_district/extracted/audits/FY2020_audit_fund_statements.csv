@@ -279,30 +279,30 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2020,FY2020_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Capital Projects Fund,1150
 2020,FY2020_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Museum Fund,25936
 2020,FY2020_audit,changes,20,9,Expenditures; Current; Culture & recreation,Contractual services,Total Governmental Funds,567897
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,General Fund,149112
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Recreation Fund,120348
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Special Recreation Fund,40317
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Bond & Interest Fund,0
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Alternate Bond & Interest Fund,0
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Capital Projects Fund,0
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Museum Fund,11087
-2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,' Material & supplies,Total Governmental Funds,320864
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,General Fund,13354
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Recreation Fund,1203
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Special Recreation Fund,0
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Bond & Interest Fund,0
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Alternate Bond & Interest Fund,0
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Capital Projects Fund,896029
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Museum Fund,0
-2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,= Capital outlay,Total Governmental Funds,910586
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,General Fund,0
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Recreation Fund,0
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Special Recreation Fund,0
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Bond & Interest Fund,1100000
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Alternate Bond & Interest Fund,1350000
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Capital Projects Fund,0
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Museum Fund,0
-2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,' Principal = - >,Total Governmental Funds,2450000
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,General Fund,149112
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Recreation Fund,120348
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Special Recreation Fund,40317
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Bond & Interest Fund,0
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Alternate Bond & Interest Fund,0
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Capital Projects Fund,0
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Museum Fund,11087
+2020,FY2020_audit,changes,20,10,Expenditures; Current; Culture & recreation,Material & supplies,Total Governmental Funds,320864
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,General Fund,13354
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Recreation Fund,1203
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Special Recreation Fund,0
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Bond & Interest Fund,0
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Alternate Bond & Interest Fund,0
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Capital Projects Fund,896029
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Museum Fund,0
+2020,FY2020_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Total Governmental Funds,910586
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,General Fund,0
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Recreation Fund,0
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Special Recreation Fund,0
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Bond & Interest Fund,1100000
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Alternate Bond & Interest Fund,1350000
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Capital Projects Fund,0
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Museum Fund,0
+2020,FY2020_audit,changes,20,12,Expenditures; Current; Culture & recreation; N Debt service,Principal,Total Governmental Funds,2450000
 2020,FY2020_audit,changes,20,13,Expenditures; Current; Culture & recreation; N Debt service,Interest,General Fund,0
 2020,FY2020_audit,changes,20,13,Expenditures; Current; Culture & recreation; N Debt service,Interest,Recreation Fund,0
 2020,FY2020_audit,changes,20,13,Expenditures; Current; Culture & recreation; N Debt service,Interest,Special Recreation Fund,0

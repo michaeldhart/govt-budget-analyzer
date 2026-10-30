@@ -1,0 +1,25 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2021,FY2021_audit,"G.O. Bond, Series 2021",park_bond_2021,beginning,0
+2021,FY2021_audit,"G.O. Bond, Series 2021",park_bond_2021,new_issues,1170000
+2021,FY2021_audit,"G.O. Bond, Series 2021",park_bond_2021,retired,0
+2021,FY2021_audit,"G.O. Bond, Series 2021",park_bond_2021,ending,1170000
+2021,FY2021_audit,"G.O. Bond, Series 2020",park_bond_2020,beginning,1140000
+2021,FY2021_audit,"G.O. Bond, Series 2020",park_bond_2020,new_issues,0
+2021,FY2021_audit,"G.O. Bond, Series 2020",park_bond_2020,retired,1140000
+2021,FY2021_audit,"G.O. Bond, Series 2020",park_bond_2020,ending,0
+2021,FY2021_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,4410000
+2021,FY2021_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0
+2021,FY2021_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,0
+2021,FY2021_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,4410000
+2021,FY2021_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,beginning,355000
+2021,FY2021_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,new_issues,0
+2021,FY2021_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,retired,355000
+2021,FY2021_audit,Alternate Revenue Bonds 2012A,alt_rev_2012A,ending,0
+2021,FY2021_audit,Compensated absences,compensated_absences,beginning,31185
+2021,FY2021_audit,Compensated absences,compensated_absences,new_issues,73845
+2021,FY2021_audit,Compensated absences,compensated_absences,retired,73040
+2021,FY2021_audit,Compensated absences,compensated_absences,ending,31990
+2021,FY2021_audit,Total,,beginning,5936185
+2021,FY2021_audit,Total,,new_issues,1243845
+2021,FY2021_audit,Total,,retired,1568040
+2021,FY2021_audit,Total,,ending,5611990

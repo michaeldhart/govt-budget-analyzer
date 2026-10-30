@@ -1,0 +1,127 @@
+fiscal_year,doc,calendar_year,line_item,amount
+2019,FY2019_audit,2019,Service Cost,118608
+2019,FY2019_audit,2018,Service Cost,114669
+2019,FY2019_audit,2017,Service Cost,115795
+2019,FY2019_audit,2016,Service Cost,112763
+2019,FY2019_audit,2015,Service Cost,107406
+2019,FY2019_audit,2014,Service Cost,121215
+2019,FY2019_audit,2019,Interest on the Total Pension Liability,378351
+2019,FY2019_audit,2018,Interest on the Total Pension Liability,355012
+2019,FY2019_audit,2017,Interest on the Total Pension Liability,327696
+2019,FY2019_audit,2016,Interest on the Total Pension Liability,309271
+2019,FY2019_audit,2015,Interest on the Total Pension Liability,283321
+2019,FY2019_audit,2014,Interest on the Total Pension Liability,261922
+2019,FY2019_audit,2019,Benefit Changes,0
+2019,FY2019_audit,2018,Benefit Changes,0
+2019,FY2019_audit,2017,Benefit Changes,0
+2019,FY2019_audit,2016,Benefit Changes,0
+2019,FY2019_audit,2015,Benefit Changes,0
+2019,FY2019_audit,2014,Benefit Changes,0
+2019,FY2019_audit,2019,Difference between Expected and Actual Experience,-144023
+2019,FY2019_audit,2018,Difference between Expected and Actual Experience,66233
+2019,FY2019_audit,2017,Difference between Expected and Actual Experience,196166
+2019,FY2019_audit,2016,Difference between Expected and Actual Experience,-69952
+2019,FY2019_audit,2015,Difference between Expected and Actual Experience,42667
+2019,FY2019_audit,2014,Difference between Expected and Actual Experience,-106115
+2019,FY2019_audit,2019,Assumption Changes,0
+2019,FY2019_audit,2018,Assumption Changes,146665
+2019,FY2019_audit,2017,Assumption Changes,-126138
+2019,FY2019_audit,2016,Assumption Changes,-5435
+2019,FY2019_audit,2015,Assumption Changes,5382
+2019,FY2019_audit,2014,Assumption Changes,93553
+2019,FY2019_audit,2019,Benefit Payments and Refunds,-226634
+2019,FY2019_audit,2018,Benefit Payments and Refunds,-172165
+2019,FY2019_audit,2017,Benefit Payments and Refunds,-125336
+2019,FY2019_audit,2016,Benefit Payments and Refunds,-90643
+2019,FY2019_audit,2015,Benefit Payments and Refunds,-89275
+2019,FY2019_audit,2014,Benefit Payments and Refunds,-67405
+2019,FY2019_audit,2019,Net Change in Total Pension Liability,126302
+2019,FY2019_audit,2018,Net Change in Total Pension Liability,510414
+2019,FY2019_audit,2017,Net Change in Total Pension Liability,388183
+2019,FY2019_audit,2016,Net Change in Total Pension Liability,256004
+2019,FY2019_audit,2015,Net Change in Total Pension Liability,349501
+2019,FY2019_audit,2014,Net Change in Total Pension Liability,303170
+2019,FY2019_audit,2019,Total Pension Liability - Beginning,5272654
+2019,FY2019_audit,2018,Total Pension Liability - Beginning,4762240
+2019,FY2019_audit,2017,Total Pension Liability - Beginning,4374057
+2019,FY2019_audit,2016,Total Pension Liability - Beginning,4118053
+2019,FY2019_audit,2015,Total Pension Liability - Beginning,3768552
+2019,FY2019_audit,2014,Total Pension Liability - Beginning,3465382
+2019,FY2019_audit,2019,Total Pension Liability - Ending (a),5398956
+2019,FY2019_audit,2018,Total Pension Liability - Ending (a),5272654
+2019,FY2019_audit,2017,Total Pension Liability - Ending (a),4762240
+2019,FY2019_audit,2016,Total Pension Liability - Ending (a),4374057
+2019,FY2019_audit,2015,Total Pension Liability - Ending (a),4118053
+2019,FY2019_audit,2014,Total Pension Liability - Ending (a),3768552
+2019,FY2019_audit,2019,Employer Contributions,102715
+2019,FY2019_audit,2018,Employer Contributions,116621
+2019,FY2019_audit,2017,Employer Contributions,112287
+2019,FY2019_audit,2016,Employer Contributions,110879
+2019,FY2019_audit,2015,Employer Contributions,114211
+2019,FY2019_audit,2014,Employer Contributions,101298
+2019,FY2019_audit,2019,Employee Contributions,53274
+2019,FY2019_audit,2018,Employee Contributions,58751
+2019,FY2019_audit,2017,Employee Contributions,54450
+2019,FY2019_audit,2016,Employee Contributions,52912
+2019,FY2019_audit,2015,Employee Contributions,52247
+2019,FY2019_audit,2014,Employee Contributions,47553
+2019,FY2019_audit,2019,Pension Plan Net Investment Income,785716
+2019,FY2019_audit,2018,Pension Plan Net Investment Income,-210731
+2019,FY2019_audit,2017,Pension Plan Net Investment Income,609709
+2019,FY2019_audit,2016,Pension Plan Net Investment Income,249909
+2019,FY2019_audit,2015,Pension Plan Net Investment Income,17960
+2019,FY2019_audit,2014,Pension Plan Net Investment Income,201524
+2019,FY2019_audit,2019,Benefit Payments and Refunds (2),-226634
+2019,FY2019_audit,2018,Benefit Payments and Refunds (2),-172165
+2019,FY2019_audit,2017,Benefit Payments and Refunds (2),-125336
+2019,FY2019_audit,2016,Benefit Payments and Refunds (2),-90643
+2019,FY2019_audit,2015,Benefit Payments and Refunds (2),-89275
+2019,FY2019_audit,2014,Benefit Payments and Refunds (2),-67405
+2019,FY2019_audit,2019,Other (Net Transfer),14487
+2019,FY2019_audit,2018,Other (Net Transfer),77114
+2019,FY2019_audit,2017,Other (Net Transfer),-36529
+2019,FY2019_audit,2016,Other (Net Transfer),4375
+2019,FY2019_audit,2015,Other (Net Transfer),-84461
+2019,FY2019_audit,2014,Other (Net Transfer),7538
+2019,FY2019_audit,2019,Net Change in Plan Fiduciary Net Position,729558
+2019,FY2019_audit,2018,Net Change in Plan Fiduciary Net Position,-130410
+2019,FY2019_audit,2017,Net Change in Plan Fiduciary Net Position,614581
+2019,FY2019_audit,2016,Net Change in Plan Fiduciary Net Position,327432
+2019,FY2019_audit,2015,Net Change in Plan Fiduciary Net Position,10682
+2019,FY2019_audit,2014,Net Change in Plan Fiduciary Net Position,290508
+2019,FY2019_audit,2019,Plan Fiduciary Net Position - Beginning,4375742
+2019,FY2019_audit,2018,Plan Fiduciary Net Position - Beginning,4506152
+2019,FY2019_audit,2017,Plan Fiduciary Net Position - Beginning,3891571
+2019,FY2019_audit,2016,Plan Fiduciary Net Position - Beginning,3564139
+2019,FY2019_audit,2015,Plan Fiduciary Net Position - Beginning,3553457
+2019,FY2019_audit,2014,Plan Fiduciary Net Position - Beginning,3262949
+2019,FY2019_audit,2019,Plan Fiduciary Net Position - Ending (b),5105300
+2019,FY2019_audit,2018,Plan Fiduciary Net Position - Ending (b),4375742
+2019,FY2019_audit,2017,Plan Fiduciary Net Position - Ending (b),4506152
+2019,FY2019_audit,2016,Plan Fiduciary Net Position - Ending (b),3891571
+2019,FY2019_audit,2015,Plan Fiduciary Net Position - Ending (b),3564139
+2019,FY2019_audit,2014,Plan Fiduciary Net Position - Ending (b),3553457
+2019,FY2019_audit,2019,Net Pension Liability/(Asset) - Ending (a)-(b),293656
+2019,FY2019_audit,2018,Net Pension Liability/(Asset) - Ending (a)-(b),896912
+2019,FY2019_audit,2017,Net Pension Liability/(Asset) - Ending (a)-(b),256088
+2019,FY2019_audit,2016,Net Pension Liability/(Asset) - Ending (a)-(b),482486
+2019,FY2019_audit,2015,Net Pension Liability/(Asset) - Ending (a)-(b),553914
+2019,FY2019_audit,2014,Net Pension Liability/(Asset) - Ending (a)-(b),215095
+2019,FY2019_audit,2019,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.56
+2019,FY2019_audit,2018,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,82.99
+2019,FY2019_audit,2017,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.62
+2019,FY2019_audit,2016,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,88.97
+2019,FY2019_audit,2015,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,86.55
+2019,FY2019_audit,2014,Plan Fiduciary Net Position as a Percentage of Total Pension Liability,94.29
+2019,FY2019_audit,2019,Covered Valuation Payroll,1183590
+2019,FY2019_audit,2018,Covered Valuation Payroll,1284901
+2019,FY2019_audit,2017,Covered Valuation Payroll,1209989
+2019,FY2019_audit,2016,Covered Valuation Payroll,1175816
+2019,FY2019_audit,2015,Covered Valuation Payroll,1118130
+2019,FY2019_audit,2014,Covered Valuation Payroll,1040847
+2019,FY2019_audit,2019,Net Pension Liability as a Percentage of Covered Valuation Payroll,24.81
+2019,FY2019_audit,2018,Net Pension Liability as a Percentage of Covered Valuation Payroll,69.80
+2019,FY2019_audit,2017,Net Pension Liability as a Percentage of Covered Valuation Payroll,21.16
+2019,FY2019_audit,2016,Net Pension Liability as a Percentage of Covered Valuation Payroll,41.03
+2019,FY2019_audit,2015,Net Pension Liability as a Percentage of Covered Valuation Payroll,49.54
+2019,FY2019_audit,2014,Net Pension Liability as a Percentage of Covered Valuation Payroll,20.67

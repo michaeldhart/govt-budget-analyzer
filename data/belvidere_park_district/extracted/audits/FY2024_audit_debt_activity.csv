@@ -1,0 +1,29 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2024,FY2024_audit,"Restated     Issues      Retired    Balance G.O. Bond, Series 2023",park_bond_2023,beginning,1183000
+2024,FY2024_audit,"Restated     Issues      Retired    Balance G.O. Bond, Series 2023",park_bond_2023,new_issues,0
+2024,FY2024_audit,"Restated     Issues      Retired    Balance G.O. Bond, Series 2023",park_bond_2023,retired,1183000
+2024,FY2024_audit,"Restated     Issues      Retired    Balance G.O. Bond, Series 2023",park_bond_2023,ending,0
+2024,FY2024_audit,"G.O. Bond, Series 2024",park_bond_2024,beginning,0
+2024,FY2024_audit,"G.O. Bond, Series 2024",park_bond_2024,new_issues,1284000
+2024,FY2024_audit,"G.O. Bond, Series 2024",park_bond_2024,retired,0
+2024,FY2024_audit,"G.O. Bond, Series 2024",park_bond_2024,ending,1284000
+2024,FY2024_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,3780000
+2024,FY2024_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0
+2024,FY2024_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,340000
+2024,FY2024_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,3440000
+2024,FY2024_audit,SBITA liability,sbita,beginning,0
+2024,FY2024_audit,SBITA liability,sbita,new_issues,52305
+2024,FY2024_audit,SBITA liability,sbita,retired,19681
+2024,FY2024_audit,SBITA liability,sbita,ending,32624
+2024,FY2024_audit,Unamortized bond premium,premium,beginning,408556
+2024,FY2024_audit,Unamortized bond premium,premium,new_issues,0
+2024,FY2024_audit,Unamortized bond premium,premium,retired,81216
+2024,FY2024_audit,Unamortized bond premium,premium,ending,327340
+2024,FY2024_audit,Compensated absences,compensated_absences,beginning,68034
+2024,FY2024_audit,Compensated absences,compensated_absences,new_issues,66037
+2024,FY2024_audit,Compensated absences,compensated_absences,retired,62931
+2024,FY2024_audit,Compensated absences,compensated_absences,ending,71140
+2024,FY2024_audit,Total,,beginning,5439590
+2024,FY2024_audit,Total,,new_issues,1402342
+2024,FY2024_audit,Total,,retired,1686828
+2024,FY2024_audit,Total,,ending,5155104

@@ -1,0 +1,31 @@
+fiscal_year,doc,schedule,line_item,column,amount
+2025,FY2025_audit,legal_debt_margin,Assessed Valuations,this_year,925368616
+2025,FY2025_audit,legal_debt_margin,Assessed Valuations,prior_year,826063984
+2025,FY2025_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),this_year,26604348
+2025,FY2025_audit,legal_debt_margin,Statutory Debt Limitation (2.875% of Assessed Valuation),prior_year,23749340
+2025,FY2025_audit,legal_debt_margin,General obligation bonds,this_year,1335000
+2025,FY2025_audit,legal_debt_margin,General obligation bonds,prior_year,1284000
+2025,FY2025_audit,legal_debt_margin,General obligation alternate revenue bonds,this_year,3075000
+2025,FY2025_audit,legal_debt_margin,General obligation alternate revenue bonds,prior_year,3440000
+2025,FY2025_audit,legal_debt_margin,Total debt applicable to limit,this_year,4410000
+2025,FY2025_audit,legal_debt_margin,Total debt applicable to limit,prior_year,4724000
+2025,FY2025_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,this_year,359754
+2025,FY2025_audit,legal_debt_margin,Less: assets in debt service funds available for payment on debt,prior_year,334046
+2025,FY2025_audit,legal_debt_margin,Net debt applicable to limit,this_year,4050246
+2025,FY2025_audit,legal_debt_margin,Net debt applicable to limit,prior_year,4389954
+2025,FY2025_audit,legal_debt_margin,Legal debt margin,this_year,22554102
+2025,FY2025_audit,legal_debt_margin,Legal debt margin,prior_year,19359386
+2025,FY2025_audit,non_referendum,Assessed Valuations,this_year,925368616
+2025,FY2025_audit,non_referendum,Assessed Valuations,prior_year,826063984
+2025,FY2025_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",this_year,5320870
+2025,FY2025_audit,non_referendum,"Statutory Debt Limitation (0,575 % of Assessed Valuation)",prior_year,4749868
+2025,FY2025_audit,non_referendum,General obligation bonds,this_year,1335000
+2025,FY2025_audit,non_referendum,General obligation bonds,prior_year,1284000
+2025,FY2025_audit,non_referendum,Total debt applicable to limit,this_year,1335000
+2025,FY2025_audit,non_referendum,Total debt applicable to limit,prior_year,1284000
+2025,FY2025_audit,non_referendum,Less: assets in debt service funds available for payment on debt,this_year,359754
+2025,FY2025_audit,non_referendum,Less: assets in debt service funds available for payment on debt,prior_year,334046
+2025,FY2025_audit,non_referendum,Net debt applicable to limit,this_year,975246
+2025,FY2025_audit,non_referendum,Net debt applicable to limit,prior_year,949954
+2025,FY2025_audit,non_referendum,Legal debt margin,this_year,4345624
+2025,FY2025_audit,non_referendum,Legal debt margin,prior_year,3799914

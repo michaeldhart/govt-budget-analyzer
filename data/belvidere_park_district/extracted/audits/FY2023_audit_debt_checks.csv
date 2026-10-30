@@ -1,0 +1,68 @@
+doc,check,expected,found,result
+FY2023_audit,outstanding: balances sum to total,5406362,5406362,ok
+FY2023_audit,outstanding: current portions sum to total,1557806,1557806,ok
+FY2023_audit,schedule 2024: total principal,1523000,1523000,ok
+FY2023_audit,schedule 2024: total interest,202520,202520,ok
+FY2023_audit,schedule 2025: total principal,365000,365000,ok
+FY2023_audit,schedule 2025: total interest,130300,130300,ok
+FY2023_audit,schedule 2026: total principal,385000,385000,ok
+FY2023_audit,schedule 2026: total interest,115300,115300,ok
+FY2023_audit,schedule 2027: total principal,400000,400000,ok
+FY2023_audit,schedule 2027: total interest,99600,99600,ok
+FY2023_audit,schedule 2028: total principal,420000,420000,ok
+FY2023_audit,schedule 2028: total interest,83200,83200,ok
+FY2023_audit,schedule 2029-2032: total principal,1870000,1870000,ok
+FY2023_audit,schedule 2029-2032: total interest,153600,153600,ok
+FY2023_audit,schedule: total row column 1,1183000,1183000,ok
+FY2023_audit,schedule: total row column 2,58120,58120,ok
+FY2023_audit,schedule: total row column 3,3780000,3780000,ok
+FY2023_audit,schedule: total row column 4,726400,726400,ok
+FY2023_audit,schedule: total row column 5,4963000,4963000,ok
+FY2023_audit,schedule: total row column 6,784520,784520,ok
+FY2023_audit,schedule: park_bond_2023 principal = outstanding balance,1183000,1183000,ok
+FY2023_audit,schedule: refunding_2020 principal = outstanding balance,3780000,3780000,ok
+FY2023_audit,schedule: principal + other liabilities = total outstanding,5406362,5406362,ok
+FY2023_audit,"activity G.O. Bond, Series 2023: beginning + new - retired = ending",1183000,1183000,ok
+FY2023_audit,"activity G.O. Bond, Series 2023: ending = outstanding balance",1183000,1183000,ok
+FY2023_audit,"activity G.O. Bond, Series 2022: beginning + new - retired = ending",0,0,ok
+FY2023_audit,"activity G.O. Refunding Bond, Series 2020: beginning + new - retired = ending",3780000,3780000,ok
+FY2023_audit,"activity G.O. Refunding Bond, Series 2020: ending = outstanding balance",3780000,3780000,ok
+FY2023_audit,activity Unamortized bond premium: beginning + new - retired = ending,408556,408556,ok
+FY2023_audit,activity Unamortized bond premium: ending = outstanding balance,408556,408556,ok
+FY2023_audit,activity Net pension liability - IMRF: beginning + new - retired = ending,0,0,ok
+FY2023_audit,activity Compensated absences: beginning + new - retired = ending,34806,34806,ok
+FY2023_audit,activity Compensated absences: ending = outstanding balance,34806,34806,ok
+FY2023_audit,activity: total beginning,5831368,5831368,ok
+FY2023_audit,activity: total new,1248987,1248987,ok
+FY2023_audit,activity: total retired,1673993,1673993,ok
+FY2023_audit,activity: total ending,5406362,5406362,ok
+FY2023_audit,activity: total ending = total outstanding,5406362,5406362,ok
+FY2023_audit,legal_debt_margin col1: limit = rate x valuation,21813566,21813566,ok
+FY2023_audit,legal_debt_margin col1: debt applicable sums,4963000,4963000,ok
+FY2023_audit,legal_debt_margin col1: net debt,4650573,4650573,ok
+FY2023_audit,legal_debt_margin col1: margin,17162993,17162993,ok
+FY2023_audit,legal_debt_margin col2: limit = rate x valuation,20804081,20804081,ok
+FY2023_audit,legal_debt_margin col2: debt applicable sums,5294000,5294000,ok
+FY2023_audit,legal_debt_margin col2: net debt,5001950,5001950,ok
+FY2023_audit,legal_debt_margin col2: margin,15802131,15802131,ok
+FY2023_audit,non_referendum col1: limit = rate x valuation,4362713,4362713,ok
+FY2023_audit,non_referendum col1: debt applicable sums,1183000,1183000,ok
+FY2023_audit,non_referendum col1: net debt,870573,870573,ok
+FY2023_audit,non_referendum col1: margin,3492140,3492140,ok
+FY2023_audit,non_referendum col2: limit = rate x valuation,4160816,4160816,ok
+FY2023_audit,non_referendum col2: debt applicable sums,1189000,1189000,ok
+FY2023_audit,non_referendum col2: net debt,896950,896950,ok
+FY2023_audit,non_referendum col2: margin,3263866,3263866,ok
+FY2023_audit,legal debt margin: debt applicable = bonds in the debt note,4963000,4963000,ok
+FY2023_audit,assessed rates tax year 2022: sum = total,0.54416,0.54416,ok
+FY2023_audit,assessed rates tax year 2021: sum = total,0.53223,0.53223,ok
+FY2023_audit,assessed rates tax year 2020: sum = total,0.57250,0.57250,ok
+FY2023_audit,assessed extensions tax year 2022: sum = total,4128720,4128719,ok: rounding
+FY2023_audit,assessed extensions tax year 2021: sum = total,3851324,3851324,ok
+FY2023_audit,assessed extensions tax year 2020: sum = total,3843657,3843656,ok: rounding
+FY2023_audit,assessed collections tax year 2022: sum = total,4122621,4122621,ok
+FY2023_audit,assessed collections tax year 2021: sum = total,3846754,3846754,ok
+FY2023_audit,assessed collections tax year 2020: sum = total,3845699,3845699,ok
+FY2023_audit,assessed tax year 2022: percent collected,99.9,99.9,ok
+FY2023_audit,assessed tax year 2021: percent collected,99.9,99.9,ok
+FY2023_audit,assessed tax year 2020: percent collected,100.1,100.1,ok

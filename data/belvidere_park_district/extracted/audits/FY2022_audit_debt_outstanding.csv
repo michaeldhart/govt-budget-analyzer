@@ -1,0 +1,13 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2022,FY2022_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,balance,4105000
+2022,FY2022_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,current_portion,325000
+2022,FY2022_audit,"G.O. Park Bonds, series 2022 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2023; interest rate of 3.54%",park_bond_2022,balance,1189000
+2022,FY2022_audit,"G.O. Park Bonds, series 2022 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2023; interest rate of 3.54%",park_bond_2022,current_portion,1189000
+2022,FY2022_audit,Unamortized bond premium,premium,balance,497253
+2022,FY2022_audit,Unamortized bond premium,premium,current_portion,0
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,balance,94
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,current_portion,0
+2022,FY2022_audit,Compensated absences,compensated_absences,balance,40021
+2022,FY2022_audit,Compensated absences,compensated_absences,current_portion,40021
+2022,FY2022_audit,Total outstanding debt,,balance,5831368
+2022,FY2022_audit,Total outstanding debt,,current_portion,1554021

@@ -1,0 +1,72 @@
+doc,check,expected,found,result
+FY2024_audit,outstanding: balances sum to total,5155104,5155104,ok
+FY2024_audit,outstanding: current portions sum to total,1756165,1756165,ok
+FY2024_audit,schedule 2025: total principal,1665025,1665025,ok
+FY2024_audit,schedule 2025: total interest,180402,180402,ok
+FY2024_audit,schedule 2026: total principal,401599,401599,ok
+FY2024_audit,schedule 2026: total interest,115894,115894,ok
+FY2024_audit,schedule 2027: total principal,400000,400000,ok
+FY2024_audit,schedule 2027: total interest,99600,99600,ok
+FY2024_audit,schedule 2028: total principal,420000,420000,ok
+FY2024_audit,schedule 2028: total interest,83200,83200,ok
+FY2024_audit,schedule 2029: total principal,440000,440000,ok
+FY2024_audit,schedule 2029: total interest,66000,66000,ok
+FY2024_audit,schedule 2030-2032: total principal,1430000,1430000,ok
+FY2024_audit,schedule 2030-2032: total interest,87600,87600,ok
+FY2024_audit,schedule: total row column 1,1284000,1284000,ok
+FY2024_audit,schedule: total row column 2,48934,48934,ok
+FY2024_audit,schedule: total row column 3,3440000,3440000,ok
+FY2024_audit,schedule: total row column 4,582000,582000,ok
+FY2024_audit,schedule: total row column 5,32624,32624,ok
+FY2024_audit,schedule: total row column 6,1762,1762,ok
+FY2024_audit,schedule: total row column 7,4756624,4756624,ok
+FY2024_audit,schedule: total row column 8,632696,632696,ok
+FY2024_audit,schedule: park_bond_2024 principal = outstanding balance,1284000,1284000,ok
+FY2024_audit,schedule: refunding_2020 principal = outstanding balance,3440000,3440000,ok
+FY2024_audit,schedule: sbita principal = outstanding balance,32624,32624,ok
+FY2024_audit,schedule: principal + other liabilities = total outstanding,5155104,5155104,ok
+FY2024_audit,"activity Restated     Issues      Retired    Balance G.O. Bond, Series 2023: beginning + new - retired = ending",0,0,ok
+FY2024_audit,"activity G.O. Bond, Series 2024: beginning + new - retired = ending",1284000,1284000,ok
+FY2024_audit,"activity G.O. Bond, Series 2024: ending = outstanding balance",1284000,1284000,ok
+FY2024_audit,"activity G.O. Refunding Bond, Series 2020: beginning + new - retired = ending",3440000,3440000,ok
+FY2024_audit,"activity G.O. Refunding Bond, Series 2020: ending = outstanding balance",3440000,3440000,ok
+FY2024_audit,activity SBITA liability: beginning + new - retired = ending,32624,32624,ok
+FY2024_audit,activity SBITA liability: ending = outstanding balance,32624,32624,ok
+FY2024_audit,activity Unamortized bond premium: beginning + new - retired = ending,327340,327340,ok
+FY2024_audit,activity Unamortized bond premium: ending = outstanding balance,327340,327340,ok
+FY2024_audit,activity Compensated absences: beginning + new - retired = ending,71140,71140,ok
+FY2024_audit,activity Compensated absences: ending = outstanding balance,71140,71140,ok
+FY2024_audit,activity: total beginning,5439590,5439590,ok
+FY2024_audit,activity: total new,1402342,1402342,ok
+FY2024_audit,activity: total retired,1686828,1686828,ok
+FY2024_audit,activity: total ending,5155104,5155104,ok
+FY2024_audit,activity: total ending = total outstanding,5155104,5155104,ok
+FY2024_audit,legal_debt_margin col1: limit = rate x valuation,23749340,23749340,ok
+FY2024_audit,legal_debt_margin col1: debt applicable sums,4724000,4724000,ok
+FY2024_audit,legal_debt_margin col1: net debt,4389954,4389954,ok
+FY2024_audit,legal_debt_margin col1: margin,19359386,19359386,ok
+FY2024_audit,legal_debt_margin col2: limit = rate x valuation,21813566,21813566,ok
+FY2024_audit,legal_debt_margin col2: debt applicable sums,4963000,4963000,ok
+FY2024_audit,legal_debt_margin col2: net debt,4650573,4650573,ok
+FY2024_audit,legal_debt_margin col2: margin,17162993,17162993,ok
+FY2024_audit,non_referendum col1: limit = rate x valuation,4749868,4749868,ok
+FY2024_audit,non_referendum col1: debt applicable sums,1284000,1284000,ok
+FY2024_audit,non_referendum col1: net debt,949954,949954,ok
+FY2024_audit,non_referendum col1: margin,3799914,3799914,ok
+FY2024_audit,non_referendum col2: limit = rate x valuation,4362713,4362713,ok
+FY2024_audit,non_referendum col2: debt applicable sums,1183000,1183000,ok
+FY2024_audit,non_referendum col2: net debt,870573,870573,ok
+FY2024_audit,non_referendum col2: margin,3492140,3492140,ok
+FY2024_audit,legal debt margin: debt applicable = bonds in the debt note,4724000,4724000,ok
+FY2024_audit,assessed rates tax year 2023: sum = total,0.52927,0.52927,ok
+FY2024_audit,assessed rates tax year 2022: sum = total,0.54416,0.54416,ok
+FY2024_audit,assessed rates tax year 2021: sum = total,0.53223,0.53223,ok
+FY2024_audit,assessed extensions tax year 2023: sum = total,4372109,4372109,ok
+FY2024_audit,assessed extensions tax year 2022: sum = total,4128720,4128719,ok: rounding
+FY2024_audit,assessed extensions tax year 2021: sum = total,3851324,3851324,ok
+FY2024_audit,assessed collections tax year 2023: sum = total,4364289,4364289,ok
+FY2024_audit,assessed collections tax year 2022: sum = total,4122621,4122621,ok
+FY2024_audit,assessed collections tax year 2021: sum = total,3846754,3846754,ok
+FY2024_audit,assessed tax year 2023: percent collected,99.8,99.8,ok
+FY2024_audit,assessed tax year 2022: percent collected,99.9,99.9,ok
+FY2024_audit,assessed tax year 2021: percent collected,99.9,99.9,ok

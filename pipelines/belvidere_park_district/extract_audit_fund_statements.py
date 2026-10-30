@@ -44,7 +44,7 @@ def to_amount(tok):
 
 NUMLIKE = re.compile(r"\(?\$?\d[\d,]*\)?\.?|[-—–=_.:~]{1,3}|\$")
 OCR_NOISE = False  # set by extract() for scanned audits: debris and noise marks inside the numbers are then scan artefacts, not cells
-DEBRIS = re.compile(r"[A-Za-z]{1,2}|\|")  # short letter-only marks the scan leaves after the last number ("Mm", "a", "z")
+DEBRIS = re.compile(r"[A-Za-z]{1,2}|\||,|[-—–=]*_+[-—–=_]*")  # short letter-only marks the scan leaves after the last number ("Mm", "a", "z")
 
 
 def fix_token(t):
@@ -80,7 +80,7 @@ def split_row(line):
         i -= 1
     cells = []
     for j in range(i, end):
-        if toks[j] == "$" or (OCR_NOISE and (re.fullmatch(r"_+", toks[j]) or DEBRIS.fullmatch(toks[j]) or (j > i and toks[j - 1] == "$" and not re.search(r"\d", toks[j])))):  # a "$" and the noise mark after it are not cells
+        if toks[j] == "$" or (OCR_NOISE and (re.fullmatch(r"_+", toks[j]) or DEBRIS.fullmatch(toks[j]) or (j > i and toks[j - 1] == "$" and not re.search(r"\d", toks[j]) and toks[j] != "-"))):  # a "$" and the noise mark after it are not cells
             continue
         cells.append(toks[j])
     if not any(re.search(r"\d", t) for t in cells) and not (cells and len(cells) >= 3):
@@ -121,6 +121,8 @@ def read_rows(text, start_re, ncols, stop_re=None):
         if r is None:
             continue
         label, amts = r
+        if OCR_NOISE:
+            label = re.sub(r"^[^A-Za-z(]+", "", label)  # leading scan marks ("' Principal")
         indent = len(raw) - len(raw.lstrip())
         def push(h):  # a top-level heading (Assets:, Revenues:, ...) starts a new section; any other heading nests inside it
             h = h.rstrip(":").strip()
@@ -251,6 +253,8 @@ class Rows:
                     self.corrections.append((self.doc, pg, "auto_resolved", f"{scope}|{label}", "|".join(map(str, amts)), "|".join(map(str, fixed)),
                                              "the only OCR reading of this row that satisfies the row's own identity"))
                     amts = list(fixed)
+                    if not re.fullmatch(r"[A-Za-z][A-Za-z &/.,'()-]*", label):  # the garbled reading's label is scan debris: take the clean one
+                        label = cands[fixed][1]
                 else:
                     key = f"{scope}|{label}"
                     o = self.overrides.get(key)

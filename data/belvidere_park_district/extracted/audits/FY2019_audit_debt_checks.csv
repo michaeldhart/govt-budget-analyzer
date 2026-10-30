@@ -1,0 +1,75 @@
+doc,check,expected,found,result
+FY2019_audit,outstanding: balances sum to total,8010916,8010916,ok
+FY2019_audit,outstanding: current portions sum to total,2477260,2477260,ok
+FY2019_audit,schedule 2020: total principal,2450000,2450000,ok
+FY2019_audit,schedule 2020: total interest,186775,186775,ok
+FY2019_audit,schedule 2021: total principal,355000,355000,ok
+FY2019_audit,schedule 2021: total interest,142950,142950,ok
+FY2019_audit,schedule 2022: total principal,365000,365000,ok
+FY2019_audit,schedule 2022: total interest,133063,133063,ok
+FY2019_audit,schedule 2023: total principal,380000,380000,ok
+FY2019_audit,schedule 2023: total interest,123750,123750,ok
+FY2019_audit,schedule 2024: total principal,395000,395000,ok
+FY2019_audit,schedule 2024: total interest,114062,114062,ok
+FY2019_audit,schedule 2025-2029: total principal,2225000,2225000,ok
+FY2019_audit,schedule 2025-2029: total interest,394463,394463,ok
+FY2019_audit,schedule 2030-2032: total principal,1520000,1520000,ok
+FY2019_audit,schedule 2030-2032: total interest,69450,69450,ok
+FY2019_audit,schedule: total row column 1,1100000,1100000,ok
+FY2019_audit,schedule: total row column 2,19250,19250,ok
+FY2019_audit,schedule: total row column 3,1000000,1000000,ok
+FY2019_audit,schedule: total row column 4,14000,14000,ok
+FY2019_audit,schedule: total row column 5,5590000,5590000,ok
+FY2019_audit,schedule: total row column 6,1131263,1131263,ok
+FY2019_audit,schedule: total row column 7,7690000,7690000,ok
+FY2019_audit,schedule: total row column 8,1164513,1164513,ok
+FY2019_audit,schedule: park_bond_2019 principal = outstanding balance,1100000,1100000,ok
+FY2019_audit,schedule: park_bond_2015A principal = outstanding balance,1000000,1000000,ok
+FY2019_audit,schedule: alt_rev_2012A principal = outstanding balance,5590000,5590000,ok
+FY2019_audit,schedule: principal + other liabilities = total outstanding,8010916,8010916,ok
+FY2019_audit,"activity G.O. Bond, Series 2019: beginning + new - retired = ending",1100000,1100000,ok
+FY2019_audit,"activity G.O. Bond, Series 2019: ending = outstanding balance",1100000,1100000,ok
+FY2019_audit,"activity G.O. Bond, Series 2018: beginning + new - retired = ending",0,0,ok
+FY2019_audit,"activity G.O. Bond, Series 2015-A: beginning + new - retired = ending",1000000,1000000,ok
+FY2019_audit,"activity G.O. Bond, Series 2015-A: ending = outstanding balance",1000000,1000000,ok
+FY2019_audit,activity Alternate Revenue Bonds 2012A: beginning + new - retired = ending,5590000,5590000,ok
+FY2019_audit,activity Alternate Revenue Bonds 2012A: ending = outstanding balance,5590000,5590000,ok
+FY2019_audit,activity Agreement for deed: beginning + new - retired = ending,0,0,ok
+FY2019_audit,activity Net pension liability - IMRF: beginning + new - retired = ending,293656,293656,ok
+FY2019_audit,activity Net pension liability - IMRF: ending = outstanding balance,293656,293656,ok
+FY2019_audit,activity Compensated absences: beginning + new - retired = ending,27260,27260,ok
+FY2019_audit,activity Compensated absences: ending = outstanding balance,27260,27260,ok
+FY2019_audit,activity: total beginning,9033891,9033891,ok
+FY2019_audit,activity: total new,1173832,1173832,ok
+FY2019_audit,activity: total retired,2196807,2196807,ok
+FY2019_audit,activity: total ending,8010916,8010916,ok
+FY2019_audit,activity: total ending = total outstanding,8010916,8010916,ok
+FY2019_audit,legal_debt_margin col1: limit = rate x valuation,17613619,17613619,ok
+FY2019_audit,legal_debt_margin col1: debt applicable sums,7690000,7690000,ok
+FY2019_audit,legal_debt_margin col1: net debt,6591033,6591033,ok
+FY2019_audit,legal_debt_margin col1: margin,11022586,11022586,ok
+FY2019_audit,legal_debt_margin col2: limit = rate x valuation,17024277,17024277,ok
+FY2019_audit,legal_debt_margin col2: debt applicable sums,8118887,8118887,ok
+FY2019_audit,legal_debt_margin col2: net debt,7197481,7197481,ok
+FY2019_audit,legal_debt_margin col2: margin,9826796,9826796,ok
+FY2019_audit,non_referendum col1: limit = rate x valuation,3522724,3522724,ok
+FY2019_audit,non_referendum col1: debt applicable sums,2100000,2100000,ok
+FY2019_audit,non_referendum col1: net debt,1001033,1001033,ok
+FY2019_audit,non_referendum col1: margin,2521691,2521691,ok
+FY2019_audit,non_referendum col2: limit = rate x valuation,3404855,3404855,ok
+FY2019_audit,non_referendum col2: debt applicable sums,2090000,2090000,ok
+FY2019_audit,non_referendum col2: net debt,1168594,1168594,ok
+FY2019_audit,non_referendum col2: margin,2236261,2236261,ok
+FY2019_audit,legal debt margin: debt applicable = bonds in the debt note,7690000,7690000,ok
+FY2019_audit,assessed rates tax year 2018: sum = total,0.77523,0.77523,ok
+FY2019_audit,assessed rates tax year 2017: sum = total,0.41057,0.41057,ok
+FY2019_audit,assessed rates tax year 2016: sum = total,0.60552,0.60552,ok
+FY2019_audit,assessed extensions tax year 2018: sum = total,4749428,4749427,ok: rounding
+FY2019_audit,assessed extensions tax year 2017: sum = total,2431185,2431186,ok: rounding
+FY2019_audit,assessed extensions tax year 2016: sum = total,3438381,3438380,ok: rounding
+FY2019_audit,assessed collections tax year 2018: sum = total,4741805,4741805,ok
+FY2019_audit,assessed collections tax year 2017: sum = total,2428810,2428810,ok
+FY2019_audit,assessed collections tax year 2016: sum = total,3436565,3436565,ok
+FY2019_audit,assessed tax year 2018: percent collected,99.8,99.8,ok
+FY2019_audit,assessed tax year 2017: percent collected,99.9,99.9,ok
+FY2019_audit,assessed tax year 2016: percent collected,99.9,99.9,ok

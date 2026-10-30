@@ -1,0 +1,94 @@
+fiscal_year,doc,tax_year,section,line_item,amount
+2022,FY2022_audit,2021,valuation,Rate setting assessed valuation,723620217
+2022,FY2022_audit,2020,valuation,Rate setting assessed valuation,671381071
+2022,FY2022_audit,2019,valuation,Rate setting assessed valuation,641859589
+2022,FY2022_audit,2021,rates,General & SB 508,0.15654
+2022,FY2022_audit,2020,rates,General & SB 508,0.16385
+2022,FY2022_audit,2019,rates,General & SB 508,0.15269
+2022,FY2022_audit,2021,rates,Recreation,0.11697
+2022,FY2022_audit,2020,rates,Recreation,0.12339
+2022,FY2022_audit,2019,rates,Recreation,0.13789
+2022,FY2022_audit,2021,rates,Museum,0.01387
+2022,FY2022_audit,2020,rates,Museum,0.01490
+2022,FY2022_audit,2019,rates,Museum,0.01558
+2022,FY2022_audit,2021,rates,Social Security,0.01979
+2022,FY2022_audit,2020,rates,Social Security,0.02086
+2022,FY2022_audit,2019,rates,Social Security,0.02188
+2022,FY2022_audit,2021,rates,IMRF,0.01414
+2022,FY2022_audit,2020,rates,IMRF,0.01490
+2022,FY2022_audit,2019,rates,IMRF,0.01636
+2022,FY2022_audit,2021,rates,Liability,0.01342
+2022,FY2022_audit,2020,rates,Liability,0.01415
+2022,FY2022_audit,2019,rates,Liability,0.01403
+2022,FY2022_audit,2021,rates,Audit,0.00202
+2022,FY2022_audit,2020,rates,Audit,0.00224
+2022,FY2022_audit,2019,rates,Audit,0.00234
+2022,FY2022_audit,2021,rates,Joint Handicap Rec.,0.03140
+2022,FY2022_audit,2020,rates,Joint Handicap Rec.,0.03985
+2022,FY2022_audit,2019,rates,Joint Handicap Rec.,0.03998
+2022,FY2022_audit,2021,rates,Bond & Interest,0.16408
+2022,FY2022_audit,2020,rates,Bond & Interest,0.17836
+2022,FY2022_audit,2019,rates,Bond & Interest,0.18055
+2022,FY2022_audit,2021,rates,Total,0.53223
+2022,FY2022_audit,2020,rates,Total,0.57250
+2022,FY2022_audit,2019,rates,Total,0.58130
+2022,FY2022_audit,2021,extensions,General Fund,1132755
+2022,FY2022_audit,2020,extensions,General Fund,1100058
+2022,FY2022_audit,2019,extensions,General Fund,980055
+2022,FY2022_audit,2021,extensions,Recreation Fund,846419
+2022,FY2022_audit,2020,extensions,Recreation Fund,828417
+2022,FY2022_audit,2019,extensions,Recreation Fund,885060
+2022,FY2022_audit,2021,extensions,Museum Fund,100366
+2022,FY2022_audit,2020,extensions,Museum Fund,100036
+2022,FY2022_audit,2019,extensions,Museum Fund,100002
+2022,FY2022_audit,2021,extensions,Social Security,143204
+2022,FY2022_audit,2020,extensions,Social Security,140050
+2022,FY2022_audit,2019,extensions,Social Security,140439
+2022,FY2022_audit,2021,extensions,; IMRF,102320
+2022,FY2022_audit,2020,extensions,; IMRF,100036
+2022,FY2022_audit,2019,extensions,; IMRF,105008
+2022,FY2022_audit,2021,extensions,Liability Fund,97110
+2022,FY2022_audit,2020,extensions,Liability Fund,95000
+2022,FY2022_audit,2019,extensions,Liability Fund,90053
+2022,FY2022_audit,2021,extensions,Audit Fund,14617
+2022,FY2022_audit,2020,extensions,Audit Fund,15039
+2022,FY2022_audit,2019,extensions,Audit Fund,15020
+2022,FY2022_audit,2021,extensions,Joint Handicap Rec.,227217
+2022,FY2022_audit,2020,extensions,Joint Handicap Rec.,267545
+2022,FY2022_audit,2019,extensions,Joint Handicap Rec.,256615
+2022,FY2022_audit,2021,extensions,Bond & Interest,1187316
+2022,FY2022_audit,2020,extensions,Bond & Interest,1197475
+2022,FY2022_audit,2019,extensions,Bond & Interest,1158877
+2022,FY2022_audit,2021,extensions,Total,3851324
+2022,FY2022_audit,2020,extensions,Total,3843657
+2022,FY2022_audit,2019,extensions,Total,3731130
+2022,FY2022_audit,2021,collections,General Fund,1131415
+2022,FY2022_audit,2020,collections,General Fund,1100643
+2022,FY2022_audit,2019,collections,General Fund,976352
+2022,FY2022_audit,2021,collections,Recreation Fund,845413
+2022,FY2022_audit,2020,collections,Recreation Fund,828856
+2022,FY2022_audit,2019,collections,Recreation Fund,881720
+2022,FY2022_audit,2021,collections,Museum Fund,100246
+2022,FY2022_audit,2020,collections,Museum Fund,100088
+2022,FY2022_audit,2019,collections,Museum Fund,99624
+2022,FY2022_audit,2021,collections,Social Security,143034
+2022,FY2022_audit,2020,collections,Social Security,140126
+2022,FY2022_audit,2019,collections,Social Security,139910
+2022,FY2022_audit,2021,collections,IMRF ;,102197
+2022,FY2022_audit,2020,collections,IMRF ;,100088
+2022,FY2022_audit,2019,collections,IMRF ;,104612
+2022,FY2022_audit,2021,collections,Liability Fund,96996
+2022,FY2022_audit,2020,collections,Liability Fund,95050
+2022,FY2022_audit,2019,collections,Liability Fund,89715
+2022,FY2022_audit,2021,collections,Audit Fund,14598
+2022,FY2022_audit,2020,collections,Audit Fund,15048
+2022,FY2022_audit,2019,collections,Audit Fund,14961
+2022,FY2022_audit,2021,collections,Joint Handicap Rec.,226947
+2022,FY2022_audit,2020,collections,Joint Handicap Rec.,267688
+2022,FY2022_audit,2019,collections,Joint Handicap Rec.,255647
+2022,FY2022_audit,2021,collections,Bond & Interest,1185908
+2022,FY2022_audit,2020,collections,Bond & Interest,1198112
+2022,FY2022_audit,2019,collections,Bond & Interest,1154503
+2022,FY2022_audit,2021,collections,Total,3846754
+2022,FY2022_audit,2020,collections,Total,3845699
+2022,FY2022_audit,2019,collections,Total,3717044

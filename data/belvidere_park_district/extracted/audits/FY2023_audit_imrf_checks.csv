@@ -1,0 +1,119 @@
+doc,check,expected,found,result
+FY2023_audit,2023: TPL changes add up,271940,271940,ok
+FY2023_audit,2023: TPL beginning + change = ending,6548952,6548952,ok
+FY2023_audit,2023: FNP changes add up,609140,609140,ok
+FY2023_audit,2023: FNP beginning + change = ending,6886058,6886058,ok
+FY2023_audit,2023: NPL = TPL - FNP,-337106,-337106,ok
+FY2023_audit,2023: funded ratio,105.15,105.15,ok
+FY2023_audit,2023: NPL as a percentage of payroll,-26.17,-26.17,ok
+FY2023_audit,2023: TPL beginning = 2022 ending,6277012,6277012,ok
+FY2023_audit,2023: FNP beginning = 2022 ending,6276918,6276918,ok
+FY2023_audit,2022: TPL changes add up,306919,306919,ok
+FY2023_audit,2022: TPL beginning + change = ending,6277012,6277012,ok
+FY2023_audit,2022: FNP changes add up,-1151661,-1151661,ok
+FY2023_audit,2022: FNP beginning + change = ending,6276918,6276918,ok
+FY2023_audit,2022: NPL = TPL - FNP,94,94,ok
+FY2023_audit,2022: funded ratio,100.00,100.00,ok
+FY2023_audit,2022: NPL as a percentage of payroll,0.01,0.01,ok
+FY2023_audit,2022: TPL beginning = 2021 ending,5970093,5970093,ok
+FY2023_audit,2022: FNP beginning = 2021 ending,7428579,7428579,ok
+FY2023_audit,2021: TPL changes add up,288514,288514,ok
+FY2023_audit,2021: TPL beginning + change = ending,5970093,5970093,ok
+FY2023_audit,2021: FNP changes add up,1013976,1013976,ok
+FY2023_audit,2021: FNP beginning + change = ending,7428579,7428579,ok
+FY2023_audit,2021: NPL = TPL - FNP,-1458486,-1458486,ok
+FY2023_audit,2021: funded ratio,124.43,124.43,ok
+FY2023_audit,2021: NPL as a percentage of payroll,-129.13,-129.13,ok
+FY2023_audit,2021: TPL beginning = 2020 ending,5681579,5681579,ok
+FY2023_audit,2021: FNP beginning = 2020 ending,6414603,6414603,ok
+FY2023_audit,2020: TPL changes add up,282623,282623,ok
+FY2023_audit,2020: TPL beginning + change = ending,5681579,5681579,ok
+FY2023_audit,2020: FNP changes add up,1309303,1309303,ok
+FY2023_audit,2020: FNP beginning + change = ending,6414603,6414603,ok
+FY2023_audit,2020: NPL = TPL - FNP,-733024,-733024,ok
+FY2023_audit,2020: funded ratio,112.90,112.90,ok
+FY2023_audit,2020: NPL as a percentage of payroll,-60.67,-60.67,ok
+FY2023_audit,2020: TPL beginning = 2019 ending,5398956,5398956,ok
+FY2023_audit,2020: FNP beginning = 2019 ending,5105300,5105300,ok
+FY2023_audit,2019: TPL changes add up,126302,126302,ok
+FY2023_audit,2019: TPL beginning + change = ending,5398956,5398956,ok
+FY2023_audit,2019: FNP changes add up,729558,729558,ok
+FY2023_audit,2019: FNP beginning + change = ending,5105300,5105300,ok
+FY2023_audit,2019: NPL = TPL - FNP,293656,293656,ok
+FY2023_audit,2019: funded ratio,94.56,94.56,ok
+FY2023_audit,2019: NPL as a percentage of payroll,24.81,24.81,ok
+FY2023_audit,2019: TPL beginning = 2018 ending,5272654,5272654,ok
+FY2023_audit,2019: FNP beginning = 2018 ending,4375742,4375742,ok
+FY2023_audit,2018: TPL changes add up,510414,510414,ok
+FY2023_audit,2018: TPL beginning + change = ending,5272654,5272654,ok
+FY2023_audit,2018: FNP changes add up,-130410,-130410,ok
+FY2023_audit,2018: FNP beginning + change = ending,4375742,4375742,ok
+FY2023_audit,2018: NPL = TPL - FNP,896912,896912,ok
+FY2023_audit,2018: funded ratio,82.99,82.99,ok
+FY2023_audit,2018: NPL as a percentage of payroll,69.80,69.80,ok
+FY2023_audit,2018: TPL beginning = 2017 ending,4762240,4762240,ok
+FY2023_audit,2018: FNP beginning = 2017 ending,4506152,4506152,ok
+FY2023_audit,2017: TPL changes add up,388183,388183,ok
+FY2023_audit,2017: TPL beginning + change = ending,4762240,4762240,ok
+FY2023_audit,2017: FNP changes add up,614581,614581,ok
+FY2023_audit,2017: FNP beginning + change = ending,4506152,4506152,ok
+FY2023_audit,2017: NPL = TPL - FNP,256088,256088,ok
+FY2023_audit,2017: funded ratio,94.62,94.62,ok
+FY2023_audit,2017: NPL as a percentage of payroll,21.16,21.16,ok
+FY2023_audit,2017: TPL beginning = 2016 ending,4374057,4374057,ok
+FY2023_audit,2017: FNP beginning = 2016 ending,3891571,3891571,ok
+FY2023_audit,2016: TPL changes add up,256004,256004,ok
+FY2023_audit,2016: TPL beginning + change = ending,4374057,4374057,ok
+FY2023_audit,2016: FNP changes add up,327432,327432,ok
+FY2023_audit,2016: FNP beginning + change = ending,3891571,3891571,ok
+FY2023_audit,2016: NPL = TPL - FNP,482486,482486,ok
+FY2023_audit,2016: funded ratio,88.97,88.97,ok
+FY2023_audit,2016: NPL as a percentage of payroll,41.03,41.03,ok
+FY2023_audit,2016: TPL beginning = 2015 ending,4118053,4118053,ok
+FY2023_audit,2016: FNP beginning = 2015 ending,3564139,3564139,ok
+FY2023_audit,2015: TPL changes add up,349501,349501,ok
+FY2023_audit,2015: TPL beginning + change = ending,4118053,4118053,ok
+FY2023_audit,2015: FNP changes add up,10682,10682,ok
+FY2023_audit,2015: FNP beginning + change = ending,3564139,3564139,ok
+FY2023_audit,2015: NPL = TPL - FNP,553914,553914,ok
+FY2023_audit,2015: funded ratio,86.55,86.55,ok
+FY2023_audit,2015: NPL as a percentage of payroll,49.54,49.54,ok
+FY2023_audit,2015: TPL beginning = 2014 ending,3768552,3768552,ok
+FY2023_audit,2015: FNP beginning = 2014 ending,3553457,3553457,ok
+FY2023_audit,2014: TPL changes add up,303170,303170,ok
+FY2023_audit,2014: TPL beginning + change = ending,3768552,3768552,ok
+FY2023_audit,2014: FNP changes add up,290508,290508,ok
+FY2023_audit,2014: FNP beginning + change = ending,3553457,3553457,ok
+FY2023_audit,2014: NPL = TPL - FNP,215095,215095,ok
+FY2023_audit,2014: funded ratio,94.29,94.29,ok
+FY2023_audit,2014: NPL as a percentage of payroll,20.67,20.67,ok
+FY2023_audit,contributions 2023: deficiency = ADC - actual,-1,-1,ok
+FY2023_audit,contributions 2023: percent of payroll,1.41,1.41,ok
+FY2023_audit,contributions 2023: actual = employer contributions in the change schedule,18164,18164,ok
+FY2023_audit,contributions 2022: deficiency = ADC - actual,0,0,ok
+FY2023_audit,contributions 2022: percent of payroll,4.46,4.46,ok
+FY2023_audit,contributions 2022: actual = employer contributions in the change schedule,52614,52614,ok
+FY2023_audit,contributions 2021: deficiency = ADC - actual,-2216,-2216,ok
+FY2023_audit,contributions 2021: percent of payroll,9.49,9.49,ok
+FY2023_audit,contributions 2021: actual = employer contributions in the change schedule,107143,107143,ok
+FY2023_audit,contributions 2020: deficiency = ADC - actual,1,1,ok
+FY2023_audit,contributions 2020: percent of payroll,10.23,10.23,ok
+FY2023_audit,contributions 2020: actual = employer contributions in the change schedule,123601,123601,ok
+FY2023_audit,contributions 2019: deficiency = ADC - actual,-453,-453,ok
+FY2023_audit,contributions 2019: percent of payroll,8.64,8.64,ok
+FY2023_audit,contributions 2019: actual = employer contributions in the change schedule,102715,102715,ok
+FY2023_audit,contributions 2018: deficiency = ADC - actual,0,0,ok
+FY2023_audit,contributions 2018: percent of payroll,8.92,8.92,ok
+FY2023_audit,contributions 2018: actual = employer contributions in the change schedule,116621,116621,ok
+FY2023_audit,contributions 2017: deficiency = ADC - actual,0,0,ok
+FY2023_audit,contributions 2017: percent of payroll,9.28,9.28,ok
+FY2023_audit,contributions 2017: actual = employer contributions in the change schedule,112287,112287,ok
+FY2023_audit,contributions 2016: deficiency = ADC - actual,0,0,ok
+FY2023_audit,contributions 2016: percent of payroll,9.43,9.43,ok
+FY2023_audit,contributions 2016: actual = employer contributions in the change schedule,110879,110879,ok
+FY2023_audit,contributions 2015: deficiency = ADC - actual,-4411,-4411,ok
+FY2023_audit,contributions 2015: percent of payroll,10.21,10.21,ok
+FY2023_audit,contributions 2015: actual = employer contributions in the change schedule,114211,114211,ok
+FY2023_audit,contributions 2014: deficiency = ADC - actual,-752,-752,ok
+FY2023_audit,contributions 2014: percent of payroll,9.73,9.73,ok
+FY2023_audit,contributions 2014: actual = employer contributions in the change schedule,101298,101298,ok

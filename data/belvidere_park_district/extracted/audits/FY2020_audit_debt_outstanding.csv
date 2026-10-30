@@ -1,0 +1,11 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2020,FY2020_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,balance,4410000
+2020,FY2020_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,current_portion,0
+2020,FY2020_audit,"G.O. Park Bonds, series 2020 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2021; interest rate of 0.5%",park_bond_2020,balance,1140000
+2020,FY2020_audit,"G.O. Park Bonds, series 2020 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2021; interest rate of 0.5%",park_bond_2020,current_portion,1140000
+2020,FY2020_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2021; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,balance,355000
+2020,FY2020_audit,"General Obligation Park Bonds (Alt. Rev. source), series 2012A issued to fund capital projects; Original issue $7,945,000; principal due Feb. 1, 2021; Interest rates vary from 2.0% to 3.0%, due Feb. 1 and Aug.1",alt_rev_2012A,current_portion,355000
+2020,FY2020_audit,Compensated absences,compensated_absences,balance,31185
+2020,FY2020_audit,Compensated absences,compensated_absences,current_portion,31185
+2020,FY2020_audit,Total outstanding debt,,balance,5936185
+2020,FY2020_audit,Total outstanding debt,,current_portion,1526185

@@ -1,0 +1,94 @@
+fiscal_year,doc,tax_year,section,line_item,amount
+2020,FY2020_audit,2019,valuation,Rate setting assessed valuation,641859589
+2020,FY2020_audit,2018,valuation,Rate setting assessed valuation,612647631
+2020,FY2020_audit,2017,valuation,Rate setting assessed valuation,592148762
+2020,FY2020_audit,2019,rates,General,0.15269
+2020,FY2020_audit,2018,rates,General,0.15181
+2020,FY2020_audit,2017,rates,General,0.15199
+2020,FY2020_audit,2019,rates,Recreation,0.13789
+2020,FY2020_audit,2018,rates,Recreation,0.14528
+2020,FY2020_audit,2017,rates,Recreation,0.14372
+2020,FY2020_audit,2019,rates,Museum,0.01558
+2020,FY2020_audit,2018,rates,Museum,0.01388
+2020,FY2020_audit,2017,rates,Museum,0.01267
+2020,FY2020_audit,2019,rates,Social Security,0.02188
+2020,FY2020_audit,2018,rates,Social Security,0.02624
+2020,FY2020_audit,2017,rates,Social Security,0.02519
+2020,FY2020_audit,2019,rates,IMRF,0.01636
+2020,FY2020_audit,2018,rates,IMRF,0.01714
+2020,FY2020_audit,2017,rates,IMRF,0.01757
+2020,FY2020_audit,2019,rates,Liability,0.01403
+2020,FY2020_audit,2018,rates,Liability,0.01225
+2020,FY2020_audit,2017,rates,Liability,0.01689
+2020,FY2020_audit,2019,rates,Audit,0.00234
+2020,FY2020_audit,2018,rates,Audit,0.00245
+2020,FY2020_audit,2017,rates,Audit,0.00254
+2020,FY2020_audit,2019,rates,Joint Handicap Rec.,0.03998
+2020,FY2020_audit,2018,rates,Joint Handicap Rec.,0.04000
+2020,FY2020_audit,2017,rates,Joint Handicap Rec.,0.04000
+2020,FY2020_audit,2019,rates,Bond & Interest,0.18055
+2020,FY2020_audit,2018,rates,Bond & Interest,0.36618
+2020,FY2020_audit,2017,rates,Bond & Interest,0
+2020,FY2020_audit,2019,rates,Total,0.58130
+2020,FY2020_audit,2018,rates,Total,0.77523
+2020,FY2020_audit,2017,rates,Total,0.41057
+2020,FY2020_audit,2019,extensions,General Fund,980055
+2020,FY2020_audit,2018,extensions,General Fund,930060
+2020,FY2020_audit,2017,extensions,General Fund,900007
+2020,FY2020_audit,2019,extensions,Recreation Fund,885060
+2020,FY2020_audit,2018,extensions,Recreation Fund,890054
+2020,FY2020_audit,2017,extensions,Recreation Fund,851036
+2020,FY2020_audit,2019,extensions,Museum Fund,100002
+2020,FY2020_audit,2018,extensions,Museum Fund,85035
+2020,FY2020_audit,2017,extensions,Museum Fund,75025
+2020,FY2020_audit,2019,extensions,Social Security,140439
+2020,FY2020_audit,2018,extensions,Social Security,160759
+2020,FY2020_audit,2017,extensions,Social Security,149162
+2020,FY2020_audit,2019,extensions,IMRF,105008
+2020,FY2020_audit,2018,extensions,IMRF,105008
+2020,FY2020_audit,2017,extensions,IMRF,104041
+2020,FY2020_audit,2019,extensions,Liability Fund,90053
+2020,FY2020_audit,2018,extensions,Liability Fund,75049
+2020,FY2020_audit,2017,extensions,Liability Fund,100014
+2020,FY2020_audit,2019,extensions,Audit Fund,15020
+2020,FY2020_audit,2018,extensions,Audit Fund,15010
+2020,FY2020_audit,2017,extensions,Audit Fund,15041
+2020,FY2020_audit,2019,extensions,Joint Handicap Rec.,256615
+2020,FY2020_audit,2018,extensions,Joint Handicap Rec.,245059
+2020,FY2020_audit,2017,extensions,Joint Handicap Rec.,236860
+2020,FY2020_audit,2019,extensions,Bond & Interest,1158877
+2020,FY2020_audit,2018,extensions,Bond & Interest,2243393
+2020,FY2020_audit,2017,extensions,Bond & Interest,0
+2020,FY2020_audit,2019,extensions,Total,3731130
+2020,FY2020_audit,2018,extensions,Total,4749428
+2020,FY2020_audit,2017,extensions,Total,2431185
+2020,FY2020_audit,2019,collections,General Fund,976352
+2020,FY2020_audit,2018,collections,General Fund,928569
+2020,FY2020_audit,2017,collections,General Fund,899124
+2020,FY2020_audit,2019,collections,Recreation Fund,881720
+2020,FY2020_audit,2018,collections,Recreation Fund,888624
+2020,FY2020_audit,2017,collections,Recreation Fund,850205
+2020,FY2020_audit,2019,collections,Museum Fund,99624
+2020,FY2020_audit,2018,collections,Museum Fund,84897
+2020,FY2020_audit,2017,collections,Museum Fund,74953
+2020,FY2020_audit,2019,collections,Social Security,139910
+2020,FY2020_audit,2018,collections,Social Security,160501
+2020,FY2020_audit,2017,collections,Social Security,149017
+2020,FY2020_audit,2019,collections,IMRF,104612
+2020,FY2020_audit,2018,collections,IMRF,104841
+2020,FY2020_audit,2017,collections,IMRF,103939
+2020,FY2020_audit,2019,collections,Liability Fund,89715
+2020,FY2020_audit,2018,collections,Liability Fund,74930
+2020,FY2020_audit,2017,collections,Liability Fund,99916
+2020,FY2020_audit,2019,collections,Audit Fund,14961
+2020,FY2020_audit,2018,collections,Audit Fund,14984
+2020,FY2020_audit,2017,collections,Audit Fund,15027
+2020,FY2020_audit,2019,collections,Joint Handicap Rec.,255647
+2020,FY2020_audit,2018,collections,Joint Handicap Rec.,244668
+2020,FY2020_audit,2017,collections,Joint Handicap Rec.,236629
+2020,FY2020_audit,2019,collections,Bond & Interest,1154503
+2020,FY2020_audit,2018,collections,Bond & Interest,2239791
+2020,FY2020_audit,2017,collections,Bond & Interest,0
+2020,FY2020_audit,2019,collections,Total,3717044
+2020,FY2020_audit,2018,collections,Total,4741805
+2020,FY2020_audit,2017,collections,Total,2428810

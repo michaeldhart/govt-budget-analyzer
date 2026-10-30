@@ -271,14 +271,14 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2021,FY2021_audit,changes,20,7,Revenues,Total revenues,Capital Projects Fund,60418
 2021,FY2021_audit,changes,20,7,Revenues,Total revenues,Museum Fund,102943
 2021,FY2021_audit,changes,20,7,Revenues,Total revenues,Total Governmental Funds,5059406
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,General Fund,893745
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Recreation Fund,1133311
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Special Recreation Fund,336168
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Capital Projects Fund,0
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Museum Fund,0
-2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,' Personnel,Total Governmental Funds,2363224
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,General Fund,893745
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Recreation Fund,1133311
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Special Recreation Fund,336168
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Capital Projects Fund,0
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Museum Fund,0
+2021,FY2021_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Total Governmental Funds,2363224
 2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,General Fund,396539
 2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Recreation Fund,370532
 2021,FY2021_audit,changes,20,9,Expenditures; Current; Culture & recreation,a Contractual services,Special Recreation Fund,20545
@@ -295,14 +295,14 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Capital Projects Fund,0
 2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Museum Fund,12651
 2021,FY2021_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Total Governmental Funds,364503
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,General Fund,36607
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Recreation Fund,714
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Special Recreation Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Alternate Bond & Interest Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Capital Projects Fund,556766
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Museum Fund,0
-2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Total Governmental Funds,594087
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,General Fund,36607
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Recreation Fund,714
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Special Recreation Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Alternate Bond & Interest Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Capital Projects Fund,556766
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Museum Fund,0
+2021,FY2021_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Total Governmental Funds,594087
 2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,General Fund,0
 2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Recreation Fund,0
 2021,FY2021_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Special Recreation Fund,0

@@ -114,3 +114,33 @@ def test_fund_balance_chain_across_audits():
     pairs = [(k, v) for k, v in beg.items() if k[0] >= 2020 and (k[0] - 1, k[1]) in end]
     assert len(pairs) == 48
     assert all(end[(k[0] - 1, k[1])] == v for k, v in pairs)
+
+
+def test_debt_notes_and_imrf_pass_every_check():
+    """Debt note (outstanding, annual requirements, liability activity), legal debt margin, assessed valuation schedule: every identity holds in all seven audits;
+    the IMRF required supplementary information in the four text audits."""
+    tot = 0
+    for doc in AUDITED:
+        checks = list(csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"{doc}_debt_checks.csv"))))
+        assert checks and all(c["result"].startswith("ok") for c in checks), doc
+        tot += len(checks)
+    assert tot == 485
+    for doc in ("FY2019_audit", "FY2023_audit", "FY2024_audit", "FY2025_audit"):
+        checks = list(csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"{doc}_imrf_checks.csv"))))
+        assert checks and all(c["result"].startswith("ok") for c in checks), doc
+
+
+def test_debt_crosschecks():
+    rows = list(csv.DictReader(open(os.path.join(ROOT, "data", ENT, "audit_debt_crosschecks.csv"))))
+    assert len(rows) == 1025
+    assert not [r for r in rows if r["result"] == "FAIL"]
+    assert sum(1 for r in rows if r["result"].startswith("explained")) == 2  # FY2020 refunding, FY2024 GASB 101
+
+
+def test_fy2025_debt_and_pension_headlines():
+    out = {r["line_item"]: r["amount"] for r in csv.DictReader(open(os.path.join(EXTRACTED, "audits", "FY2025_audit_legal_debt_margin.csv")))
+           if r["schedule"] == "legal_debt_margin" and r["column"] == "this_year"}
+    assert out["Legal debt margin"] == "22554102" and out["Total debt applicable to limit"] == "4410000"
+    npl = [r["amount"] for r in csv.DictReader(open(os.path.join(EXTRACTED, "audits", "FY2025_audit_imrf_changes.csv")))
+           if r["calendar_year"] == "2025" and r["line_item"].startswith("Net Pension Liability/(Asset)")]
+    assert npl == ["-965991"]

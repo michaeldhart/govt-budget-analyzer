@@ -1,0 +1,18 @@
+instrument_id,name,kind,match
+park_bond_2015A,"G.O. Park Bonds, series 2015-A",go_bond,series 2015-A
+park_bond_2018,"G.O. Park Bonds, series 2018",go_bond,series 2018
+agreement_deed,Agreement for deed,other_borrowing,(?i)agreement for deed
+park_bond_2019,"G.O. Park Bonds, series 2019",go_bond,series 2019
+alt_rev_2012A,"G.O. Park Bonds (Alt. Rev. source), series 2012A",alt_revenue_bond,2012A
+park_bond_2020,"G.O. Park Bonds, series 2020",go_bond,(?i)^(?!.*refund).*series 2020
+park_bond_2021,"G.O. Park Bonds, series 2021",go_bond,series 2021
+park_bond_2022,"G.O. Park Bonds, series 2022",go_bond,series 2022
+park_bond_2023,"G.O. Park Bonds, series 2023",go_bond,series 2023
+park_bond_2024,"G.O. Park Bonds, series 2024",go_bond,series 2024
+park_bond_2025,"G.O. Park Bonds, series 2025",go_bond,series 2025
+refunding_2020,"G.O. Refunding Park Bonds (Alt. Rev. source), series 2020",alt_revenue_refunding,(?i)refunding
+sbita,Subscription-based IT arrangements (SBITA),subscription,SBITA
+lease,Leases,lease,(?i)\blease
+premium,Unamortized bond premium,other,(?i)premium
+net_pension,Net pension liability - IMRF,other,(?i)net pension
+compensated_absences,Compensated absences,other,(?i)compensated

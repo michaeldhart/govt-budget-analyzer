@@ -1,0 +1,29 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2022,FY2022_audit,"G.O. Bond, Series 2021",park_bond_2021,beginning,1170000
+2022,FY2022_audit,"G.O. Bond, Series 2021",park_bond_2021,new_issues,0
+2022,FY2022_audit,"G.O. Bond, Series 2021",park_bond_2021,retired,1170000
+2022,FY2022_audit,"G.O. Bond, Series 2021",park_bond_2021,ending,0
+2022,FY2022_audit,"G.O. Bond, Series 2022",park_bond_2022,beginning,0
+2022,FY2022_audit,"G.O. Bond, Series 2022",park_bond_2022,new_issues,1189000
+2022,FY2022_audit,"G.O. Bond, Series 2022",park_bond_2022,retired,0
+2022,FY2022_audit,"G.O. Bond, Series 2022",park_bond_2022,ending,1189000
+2022,FY2022_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,beginning,4410000
+2022,FY2022_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,new_issues,0
+2022,FY2022_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,retired,305000
+2022,FY2022_audit,"G.O. Refunding Bond, Series 2020",refunding_2020,ending,4105000
+2022,FY2022_audit,Unamortized bond premium,premium,beginning,593037
+2022,FY2022_audit,Unamortized bond premium,premium,new_issues,0
+2022,FY2022_audit,Unamortized bond premium,premium,retired,95784
+2022,FY2022_audit,Unamortized bond premium,premium,ending,497253
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,beginning,0
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,new_issues,94
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,retired,0
+2022,FY2022_audit,Net pension liability - IMRF,net_pension,ending,94
+2022,FY2022_audit,Compensated absences,compensated_absences,beginning,31990
+2022,FY2022_audit,Compensated absences,compensated_absences,new_issues,84031
+2022,FY2022_audit,Compensated absences,compensated_absences,retired,76000
+2022,FY2022_audit,Compensated absences,compensated_absences,ending,40021
+2022,FY2022_audit,Total,,beginning,6205027
+2022,FY2022_audit,Total,,new_issues,1273125
+2022,FY2022_audit,Total,,retired,1646784
+2022,FY2022_audit,Total,,ending,5831368

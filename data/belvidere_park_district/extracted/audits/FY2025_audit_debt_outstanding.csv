@@ -1,0 +1,13 @@
+fiscal_year,doc,description,instrument_id,column,amount
+2025,FY2025_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,balance,3075000
+2025,FY2025_audit,"G.O. Refunding Park Bonds Alternate Revenue Source, series 2020; Principal due Feb. 1, 2022 through 2032; Interest due Feb. 1 and Aug. 1; interest rate of 4.0%",refunding_2020,current_portion,385000
+2025,FY2025_audit,"G.O. Park Bonds, series 2025 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2026; interest rate of 3.16%",park_bond_2025,balance,1335000
+2025,FY2025_audit,"G.O. Park Bonds, series 2025 issued for Debt Service and capital projects; Principal and interest due Dec. 1, 2026; interest rate of 3.16%",park_bond_2025,current_portion,1335000
+2025,FY2025_audit,SBITA liabilities,sbita,balance,132948
+2025,FY2025_audit,SBITA liabilities,sbita,current_portion,73603
+2025,FY2025_audit,Unamortized bond premium,premium,balance,254054
+2025,FY2025_audit,Unamortized bond premium,premium,current_portion,0
+2025,FY2025_audit,Compensated absences,compensated_absences,balance,90626
+2025,FY2025_audit,Compensated absences,compensated_absences,current_portion,71579
+2025,FY2025_audit,Total outstanding debt,,balance,4887628
+2025,FY2025_audit,Total outstanding debt,,current_portion,1865182

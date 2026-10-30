@@ -279,14 +279,14 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Capital Projects Fund,15439
 2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Museum Fund,108177
 2022,FY2022_audit,changes,20,7,Revenues,Total revenues,Total Governmental Funds,5354994
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,General Fund,594959
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Recreation Fund,1220163
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Special Recreation Fund,393957
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Bond & Interest Fund,0
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Alternate Bond & Interest Fund,0
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Capital Projects Fund,0
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Museum Fund,5240
-2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,1 Personnel,Total Governmental Funds,2214319
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,General Fund,594959
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Recreation Fund,1220163
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Special Recreation Fund,393957
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Museum Fund,5240
+2022,FY2022_audit,changes,20,8,Expenditures; Current; Culture & recreation,Personnel,Total Governmental Funds,2214319
 2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,General Fund,538008
 2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Recreation Fund,343556
 2022,FY2022_audit,changes,20,9,Expenditures; Current; Culture & recreation,aN Contractual services,Special Recreation Fund,21121
@@ -303,14 +303,14 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Capital Projects Fund,0
 2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Museum Fund,21506
 2022,FY2022_audit,changes,20,10,Expenditures; Current; Culture & recreation,N Material & supplies,Total Governmental Funds,473509
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,General Fund,71714
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Recreation Fund,1876
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Special Recreation Fund,0
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Bond & Interest Fund,0
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Alternate Bond & Interest Fund,0
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Capital Projects Fund,657740
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Museum Fund,0
-2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,' Capital outlay,Total Governmental Funds,731330
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,General Fund,71714
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Recreation Fund,1876
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Alternate Bond & Interest Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Capital Projects Fund,657740
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Museum Fund,0
+2022,FY2022_audit,changes,20,11,Expenditures; Current; Culture & recreation,Capital outlay,Total Governmental Funds,731330
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,General Fund,0
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Recreation Fund,0
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Special Recreation Fund,0
@@ -319,14 +319,14 @@ fiscal_year,doc,statement,pdf_page,row_seq,section,line_item,fund,amount
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Capital Projects Fund,0
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Museum Fund,0
 2022,FY2022_audit,changes,20,12,Expenditures; Current; Culture & recreation; Debt service,Principal,Total Governmental Funds,1475000
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",General Fund,0
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Recreation Fund,0
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Special Recreation Fund,0
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Bond & Interest Fund,5850
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Alternate Bond & Interest Fund,170300
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Capital Projects Fund,0
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Museum Fund,0
-2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,"Interest - - : 5,850 170,300 >",Total Governmental Funds,176150
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,General Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Recreation Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Special Recreation Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Bond & Interest Fund,5850
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Alternate Bond & Interest Fund,170300
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Capital Projects Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Museum Fund,0
+2022,FY2022_audit,changes,20,13,Expenditures; Current; Culture & recreation; Debt service,Interest,Total Governmental Funds,176150
 2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,General Fund,1406059
 2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Recreation Fund,1736919
 2022,FY2022_audit,changes,20,14,Expenditures; Current; Culture & recreation; Debt service,Total expenditures,Special Recreation Fund,494379

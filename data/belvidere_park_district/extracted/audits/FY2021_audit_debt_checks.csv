@@ -1,0 +1,68 @@
+doc,check,expected,found,result
+FY2021_audit,outstanding: balances sum to total,5611990,5611990,ok
+FY2021_audit,outstanding: current portions sum to total,1506990,1506990,ok
+FY2021_audit,schedule 2022: total principal,1475000,1475000,ok
+FY2021_audit,schedule 2022: total interest,176150,176150,ok
+FY2021_audit,schedule 2023: total principal,325000,325000,ok
+FY2021_audit,schedule 2023: total interest,157700,157700,ok
+FY2021_audit,schedule 2024: total principal,340000,340000,ok
+FY2021_audit,schedule 2024: total interest,144400,144400,ok
+FY2021_audit,schedule 2025: total principal,365000,365000,ok
+FY2021_audit,schedule 2025: total interest,130300,130300,ok
+FY2021_audit,schedule 2026: total principal,385000,385000,ok
+FY2021_audit,schedule 2026: total interest,115300,115300,ok
+FY2021_audit,schedule 2027-2031: total principal,2190000,2190000,ok
+FY2021_audit,schedule 2027-2031: total interest,326400,326400,ok
+FY2021_audit,schedule 2032: total principal,500000,500000,ok
+FY2021_audit,schedule 2032: total interest,10000,10000,ok
+FY2021_audit,schedule: total row column 1,1170000,1170000,ok
+FY2021_audit,schedule: total row column 2,5850,5850,ok
+FY2021_audit,schedule: total row column 3,4410000,4410000,ok
+FY2021_audit,schedule: total row column 4,1054400,1054400,ok
+FY2021_audit,schedule: total row column 5,5580000,5580000,ok
+FY2021_audit,schedule: total row column 6,1060250,1060250,ok
+FY2021_audit,schedule: park_bond_2021 principal = outstanding balance,1170000,1170000,ok
+FY2021_audit,schedule: refunding_2020 principal = outstanding balance,4410000,4410000,ok
+FY2021_audit,schedule: principal + other liabilities = total outstanding,5611990,5611990,ok
+FY2021_audit,"activity G.O. Bond, Series 2021: beginning + new - retired = ending",1170000,1170000,ok
+FY2021_audit,"activity G.O. Bond, Series 2021: ending = outstanding balance",1170000,1170000,ok
+FY2021_audit,"activity G.O. Bond, Series 2020: beginning + new - retired = ending",0,0,ok
+FY2021_audit,"activity G.O. Refunding Bond, Series 2020: beginning + new - retired = ending",4410000,4410000,ok
+FY2021_audit,"activity G.O. Refunding Bond, Series 2020: ending = outstanding balance",4410000,4410000,ok
+FY2021_audit,activity Alternate Revenue Bonds 2012A: beginning + new - retired = ending,0,0,ok
+FY2021_audit,activity Compensated absences: beginning + new - retired = ending,31990,31990,ok
+FY2021_audit,activity Compensated absences: ending = outstanding balance,31990,31990,ok
+FY2021_audit,activity: total beginning,5936185,5936185,ok
+FY2021_audit,activity: total new,1243845,1243845,ok
+FY2021_audit,activity: total retired,1568040,1568040,ok
+FY2021_audit,activity: total ending,5611990,5611990,ok
+FY2021_audit,activity: total ending = total outstanding,5611990,5611990,ok
+FY2021_audit,legal_debt_margin col1: limit = rate x valuation,19302206,19302206,ok
+FY2021_audit,legal_debt_margin col1: debt applicable sums,5580000,5580000,ok
+FY2021_audit,legal_debt_margin col1: net debt,5307807,5307807,ok
+FY2021_audit,legal_debt_margin col1: margin,13994399,13994399,ok
+FY2021_audit,legal_debt_margin col2: limit = rate x valuation,18453463,18453463,ok
+FY2021_audit,legal_debt_margin col2: debt applicable sums,5905000,5905000,ok
+FY2021_audit,legal_debt_margin col2: net debt,5677612,5677612,ok
+FY2021_audit,legal_debt_margin col2: margin,12775851,12775851,ok
+FY2021_audit,non_referendum col1: limit = rate x valuation,3860441,3860441,ok
+FY2021_audit,non_referendum col1: debt applicable sums,1170000,1170000,ok
+FY2021_audit,non_referendum col1: net debt,897807,897807,ok
+FY2021_audit,non_referendum col1: margin,2962634,2962634,ok
+FY2021_audit,non_referendum col2: limit = rate x valuation,3690693,3690693,ok
+FY2021_audit,non_referendum col2: debt applicable sums,1140000,1140000,ok
+FY2021_audit,non_referendum col2: net debt,912612,912612,ok
+FY2021_audit,non_referendum col2: margin,2778081,2778081,ok
+FY2021_audit,legal debt margin: debt applicable = bonds in the debt note,5580000,5580000,ok
+FY2021_audit,assessed rates tax year 2020: sum = total,0.57250,0.57250,ok
+FY2021_audit,assessed rates tax year 2019: sum = total,0.58130,0.58130,ok
+FY2021_audit,assessed rates tax year 2018: sum = total,0.77523,0.77523,ok
+FY2021_audit,assessed extensions tax year 2020: sum = total,3843657,3843656,ok: rounding
+FY2021_audit,assessed extensions tax year 2019: sum = total,3731130,3731129,ok: rounding
+FY2021_audit,assessed extensions tax year 2018: sum = total,4749428,4749427,ok: rounding
+FY2021_audit,assessed collections tax year 2020: sum = total,3845699,3845699,ok
+FY2021_audit,assessed collections tax year 2019: sum = total,3717044,3717044,ok
+FY2021_audit,assessed collections tax year 2018: sum = total,4741805,4741805,ok
+FY2021_audit,assessed tax year 2020: percent collected,100.1,100.1,ok
+FY2021_audit,assessed tax year 2019: percent collected,99.6,99.6,ok
+FY2021_audit,assessed tax year 2018: percent collected,99.8,99.8,ok

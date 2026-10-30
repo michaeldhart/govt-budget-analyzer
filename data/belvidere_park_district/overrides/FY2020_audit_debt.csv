@@ -1,0 +1,2 @@
+kind,raw,fixed,reason
+add_row,schedule|2031-2032,0|0|975000|39500|0|0|975000|39500,"OCR garbled the row (`2031-2032 =  __ 975,000, __ 89,500 975,000 89,500`; the 8 is a misread 3) and no reading kept it. Refunding Series 2020 principal 975,000 and interest 39,500 (the only series with payments), totals equal; the interest is fixed by the printed Total row (1,177,880 less the six rows above = 39,500) and matches the same row in the FY2021-FY2025 audits (2031-2032: 39,500 in FY2025). With it every column of the Total row ties"

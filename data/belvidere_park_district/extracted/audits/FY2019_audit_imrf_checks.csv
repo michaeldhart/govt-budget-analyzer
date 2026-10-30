@@ -1,0 +1,71 @@
+doc,check,expected,found,result
+FY2019_audit,2019: TPL changes add up,126302,126302,ok
+FY2019_audit,2019: TPL beginning + change = ending,5398956,5398956,ok
+FY2019_audit,2019: FNP changes add up,729558,729558,ok
+FY2019_audit,2019: FNP beginning + change = ending,5105300,5105300,ok
+FY2019_audit,2019: NPL = TPL - FNP,293656,293656,ok
+FY2019_audit,2019: funded ratio,94.56,94.56,ok
+FY2019_audit,2019: NPL as a percentage of payroll,24.81,24.81,ok
+FY2019_audit,2019: TPL beginning = 2018 ending,5272654,5272654,ok
+FY2019_audit,2019: FNP beginning = 2018 ending,4375742,4375742,ok
+FY2019_audit,2018: TPL changes add up,510414,510414,ok
+FY2019_audit,2018: TPL beginning + change = ending,5272654,5272654,ok
+FY2019_audit,2018: FNP changes add up,-130410,-130410,ok
+FY2019_audit,2018: FNP beginning + change = ending,4375742,4375742,ok
+FY2019_audit,2018: NPL = TPL - FNP,896912,896912,ok
+FY2019_audit,2018: funded ratio,82.99,82.99,ok
+FY2019_audit,2018: NPL as a percentage of payroll,69.80,69.80,ok
+FY2019_audit,2018: TPL beginning = 2017 ending,4762240,4762240,ok
+FY2019_audit,2018: FNP beginning = 2017 ending,4506152,4506152,ok
+FY2019_audit,2017: TPL changes add up,388183,388183,ok
+FY2019_audit,2017: TPL beginning + change = ending,4762240,4762240,ok
+FY2019_audit,2017: FNP changes add up,614581,614581,ok
+FY2019_audit,2017: FNP beginning + change = ending,4506152,4506152,ok
+FY2019_audit,2017: NPL = TPL - FNP,256088,256088,ok
+FY2019_audit,2017: funded ratio,94.62,94.62,ok
+FY2019_audit,2017: NPL as a percentage of payroll,21.16,21.16,ok
+FY2019_audit,2017: TPL beginning = 2016 ending,4374057,4374057,ok
+FY2019_audit,2017: FNP beginning = 2016 ending,3891571,3891571,ok
+FY2019_audit,2016: TPL changes add up,256004,256004,ok
+FY2019_audit,2016: TPL beginning + change = ending,4374057,4374057,ok
+FY2019_audit,2016: FNP changes add up,327432,327432,ok
+FY2019_audit,2016: FNP beginning + change = ending,3891571,3891571,ok
+FY2019_audit,2016: NPL = TPL - FNP,482486,482486,ok
+FY2019_audit,2016: funded ratio,88.97,88.97,ok
+FY2019_audit,2016: NPL as a percentage of payroll,41.03,41.03,ok
+FY2019_audit,2016: TPL beginning = 2015 ending,4118053,4118053,ok
+FY2019_audit,2016: FNP beginning = 2015 ending,3564139,3564139,ok
+FY2019_audit,2015: TPL changes add up,349501,349501,ok
+FY2019_audit,2015: TPL beginning + change = ending,4118053,4118053,ok
+FY2019_audit,2015: FNP changes add up,10682,10682,ok
+FY2019_audit,2015: FNP beginning + change = ending,3564139,3564139,ok
+FY2019_audit,2015: NPL = TPL - FNP,553914,553914,ok
+FY2019_audit,2015: funded ratio,86.55,86.55,ok
+FY2019_audit,2015: NPL as a percentage of payroll,49.54,49.54,ok
+FY2019_audit,2015: TPL beginning = 2014 ending,3768552,3768552,ok
+FY2019_audit,2015: FNP beginning = 2014 ending,3553457,3553457,ok
+FY2019_audit,2014: TPL changes add up,303170,303170,ok
+FY2019_audit,2014: TPL beginning + change = ending,3768552,3768552,ok
+FY2019_audit,2014: FNP changes add up,290508,290508,ok
+FY2019_audit,2014: FNP beginning + change = ending,3553457,3553457,ok
+FY2019_audit,2014: NPL = TPL - FNP,215095,215095,ok
+FY2019_audit,2014: funded ratio,94.29,94.29,ok
+FY2019_audit,2014: NPL as a percentage of payroll,20.67,20.67,ok
+FY2019_audit,contributions 2019: deficiency = ADC - actual,-453,-453,ok
+FY2019_audit,contributions 2019: percent of payroll,8.64,8.64,ok
+FY2019_audit,contributions 2019: actual = employer contributions in the change schedule,102715,102715,ok
+FY2019_audit,contributions 2018: deficiency = ADC - actual,0,0,ok
+FY2019_audit,contributions 2018: percent of payroll,8.92,8.92,ok
+FY2019_audit,contributions 2018: actual = employer contributions in the change schedule,116621,116621,ok
+FY2019_audit,contributions 2017: deficiency = ADC - actual,0,0,ok
+FY2019_audit,contributions 2017: percent of payroll,9.28,9.28,ok
+FY2019_audit,contributions 2017: actual = employer contributions in the change schedule,112287,112287,ok
+FY2019_audit,contributions 2016: deficiency = ADC - actual,0,0,ok
+FY2019_audit,contributions 2016: percent of payroll,9.43,9.43,ok
+FY2019_audit,contributions 2016: actual = employer contributions in the change schedule,110879,110879,ok
+FY2019_audit,contributions 2015: deficiency = ADC - actual,-4411,-4411,ok
+FY2019_audit,contributions 2015: percent of payroll,10.21,10.21,ok
+FY2019_audit,contributions 2015: actual = employer contributions in the change schedule,114211,114211,ok
+FY2019_audit,contributions 2014: deficiency = ADC - actual,-752,-752,ok
+FY2019_audit,contributions 2014: percent of payroll,9.73,9.73,ok
+FY2019_audit,contributions 2014: actual = employer contributions in the change schedule,101298,101298,ok
