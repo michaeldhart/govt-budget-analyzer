@@ -16,3 +16,4 @@ python3 $P/build_audit_compare.py > /dev/null   # audit budget-and-actual vs the
 python3 $P/build_audit_categories.py          # audit expenditure classes vs the budget's object categories
 python3 $P/build_debt_crosschecks.py            # debt note, legal margin, IMRF and statements across the seven audits
 python3 $P/build_reference.py                 # population, CPI factor and assessed valuation by fiscal year (reads committed snapshots)
+python3 $P/build_levy_extension.py             # levy ordinances vs the county's tax extensions (tax years 2021-2024)

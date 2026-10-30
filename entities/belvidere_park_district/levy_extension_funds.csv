@@ -1,0 +1,11 @@
+levy_key,levy_name,audit_extension_pattern,audit_rate_name,note
+01,Corporate Fund,^General Fund$,General & SB 508,
+02,Recreation Fund,^Recreation Fund$,Recreation,
+03|08,Museum Fund,^Museum Fund$,Museum,fund code 03 to FY2024 ordinances' budgets and 08 from FY2025
+09|05,Special Recreation Fund,^Joint Handicap Rec\.$,Joint Handicap Rec.,"the levy ordinance's Special Recreation levy; a Prior Year Adjustment (levy only, fund 09) is kept as its own row"
+01:imrf,IMRF Fund,IMRF,IMRF,the audit prints stray marks around the label in tax year 2021
+01:social_security,Social Security Fund,^Social Security$,Social Security,
+01:liability,Liability Fund,^Liability Fund$,Liability,
+01:audit,Audit Fund,^Audit Fund$,Audit,
+12,Bond & Interest Fund,^Bond & Interest$,Bond & Interest,
+pya,Prior Year Adjustment (Special Recreation),,,levy only: no extension line of its own
