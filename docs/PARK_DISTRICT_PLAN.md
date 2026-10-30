@@ -1,0 +1,121 @@
+# Belvidere Park District: plan for the second government
+
+Status: proposed 2026-10-29, nothing built yet. Roadmap items G1-G3 (see `ROADMAP.md`). Entity id: `belvidere_park_district` (proposed; confirm before creating folders).
+
+Goal: add the park district as a second entity on the shared model, learn what does not abstract (G3), and keep the same rule as the city: every extracted table ties to a total the source prints, anomalies go in `entities/<id>/exceptions.csv`, corrections go in `data/<id>/overrides/` with a reason.
+
+## What we know (first look, 2026-10-29; to be verified in phase 1)
+
+- **Fiscal year is the calendar year** (audits: "year ended December 31"). `fy_start_month` = 1; FY2027 = calendar 2027. The budget software labels the year "Fiscal: 2027". Audits are for the year already ended, so the FY2025 audit was posted July 2026.
+- **Documents** are WordPress uploads. The site's Financial Information page lists only the latest; the media library (`/wp-json/wp/v2/media?search=...`) lists many more.
+  - Operating budgets: FY2019, 2020, 2021, 2022, 2023, 2025 (draft Oct 2024 and adopted Dec 2024), 2026 (draft and final), 2027 (draft, posted Oct 2026). **FY2024 not found.**
+  - Appropriation ordinances: 2019-2023, 2025, 2026, 2027 draft. Tax levy ordinances: Dec 2021, FY2023, 2025, 2026, 2027 draft (more may exist).
+  - Audits: FY2019, 2021, 2023, 2024, 2025. "Annual financial report 2020" (probably an AFR, not an audit). **FY2022 not found; nothing before 2019.**
+  - Treasurer's reports: 2024, 2025 and two June 2023 scans. Not needed at first.
+- **Budget layout**: a software report ("My Budget Report", Account Summary): `fund-dept-object` accounts (`01-010-3010`), Original and Current Total Budget columns, totals per fund, surplus/deficit line. FY2027 and the audits have a text layer; FY2026 budget, the FY2026 ordinance and FY2025 treasurer's report are image-only. Other years not yet checked.
+- **Funds** (FY2027 budget): 01 General, 02 Recreation, 05 Special Recreation, 08 Museum, 10 Alternate Bond & Interest, 12 Bond & Interest, 21 Capital Projects. Property tax is the main revenue (Corporate, Audit, IMRF, Liability, Social Security levies in the General Fund; Recreation and others have their own).
+- **Audit**: government-wide and fund statements, notes, IMRF RSI, budget-and-actual schedules for General, Recreation and Special Recreation, legal debt margin schedules.
+
+## Phase 0 decisions (made 2026-10-29)
+- Entity id `belvidere_park_district`. Pass-one scope as below. Gaps: search the park's own site (media library) only; the Comptroller warehouse and asking the district wait until pass one shows what is worth chasing.
+
+## Phase 1 results (done 2026-10-29)
+- **44 documents downloaded** to `sources/belvidere_park_district/{budgets,audits,ordinances,treasurers}/` (41 MB; `ordinances/` and `treasurers/` are gitignored like budgets and audits). `entities/belvidere_park_district/source_urls.csv` has each URL, type, fiscal year, status and server size (`fetch_sources.py`, re-runnable, `--check`); `data/belvidere_park_district/source_inventory.csv` has pages, text or scan and sha256 (`inventory_sources.py`).
+- **The media library has far more than the Financial Information page.** Budgets FY2019-FY2027 are all present (the FY2024 budget is a June-2023-style scan filed with the December 2023 ordinances: `SKM_C650i23121411520`), plus drafts for FY2023-FY2027 and two FY2023 amended-revenue reports. Audits FY2019-FY2025 are all present, including FY2020 and FY2022 (titled "Annual Financial Report"). No FY2026 audit exists yet (the year has not ended). Nothing before FY2019 is on the site.
+- **Layers**: 11 of 14 budgets are image-only (only FY2020, FY2027 and the FY2023 amended report have text); 4 of 8 audits are text (FY2019, 2023, 2024, 2025), FY2020-22 are scans; every ordinance before FY2027 and all treasurer's reports are scans. OCR is the main cost, not a side case.
+- **Comptroller AFR form**: the file the site calls the 2025 efficiency report is the Illinois Comptroller's Annual Financial Report form (Unit Code 004/010/12). It is a second, standardized source of annual figures; held as `FY2025_afr`, not yet evaluated.
+- **Things that will not abstract** (feed Phase 6): (1) fund codes are renumbered between documents (FY2023: 03 Museum, 09 Special Recreation, 10 Installment Contracts; FY2027: 08 Museum, 05 Special Recreation, 10 Alternate Bond & Interest), and fund 25 Riverfront appears in FY2020; (2) account formats differ (`01-0100-310` in FY2023-25, `01-010-3010` in FY2027); (3) `govbudget.schema.SOURCE_TYPES` is only budget and audit, so appropriation and levy ordinances need new types and a basis; (4) the legal name on older documents is "Belvidere Township Park District"; (5) fund 01 is "Corporate" then "General", and its Audit/IMRF/Liability/Social Security levies are departments inside it in the budget.
+- Still to verify in Phase 2: whether `FY2024_budget` is the adopted one, what the two FY2023 amended-revenue documents are (draft vs final), and whether `FY2023_audit_scan` equals `FY2023_audit`.
+- Config started: `entities/belvidere_park_district/entity.json` (`fy_start_month` 1) and `funds.csv` (both numbering schemes). Existing tests still pass (119 fast tests).
+
+## Phase 2 progress (2026-10-30)
+Confirmed by the owner: FY2024_budget is the adopted one, the two FY2023 amended-revenue reports are both final (not draft), and FY2023_audit_scan equals FY2023_audit.
+- **Five budget layouts** (first page of every budget checked):
+  A. "Operating Budget", one amount column, category tags, totals per section (FY2019, FY2020, FY2021; FY2021 prints `Fund: 01 Corporate / Expenses` headings).
+  B. "Budget Version Report" (Approved / Requested / Amended), revenue and expense in separate reports (FY2022, FY2023 and FY2023 draft, FY2024 draft).
+  C. "Budget Report by Fund - All" (Budgeted / Current YTD / Encumbrance / Remaining), FY2024 adopted.
+  D. "My Budget Report - Account Summary" (Original / Current Total Budget, activity, variance), FY2025, FY2026, FY2027 and their drafts. Funds, revenue and expense totals per fund, a Group Summary and a Fund Summary give four independent tie-outs.
+  So the park needs about four readers, not one. All are single-year documents: unlike the city's three-column ordinances there is no prior-year column to cross-read against, so the checks come from the printed totals and from comparing draft with final.
+- **Reader for layout D**: `pipelines/belvidere_park_district/extract_budget_report.py <FY2027|FY2026|doc_id>` (text layer or cached OCR in `data/belvidere_park_district/ocr/`, gitignored). Writes `<doc_id>_{revenue,expense,totals,corrections}.csv` to `data/belvidere_park_district/extracted/`; amounts keep cents (the park's FY2026 and later budgets print cents; facts will round to dollars later, flag `rounded_from_cents`, as for the city's library). Eyeballed or evidence-based fixes go in `data/belvidere_park_district/overrides/<doc_id>.csv` with a reason; applied fixes are written to the corrections file.
+- **Validated with 0 problems**: `FY2027_budget_draft` (299 account lines, text layer) and `FY2026_budget` (OCR; two OCR repairs: the fund prefix of an account garbled as `001-`, `901-`, `Q1-` is taken from the fund heading and flagged `account_prefix_repaired`, and one override, a line whose hyphens were dropped, which the printed Expense Total identified to the dollar). Checks per fund and column: revenue lines = Revenue Total, expense lines = Expense Total, revenue - expense = Surplus, Group Summary and Fund Summary agree with the fund pages, Report Surplus = sum of fund surpluses, Variance = activity - budget (or budget - activity).
+- **Layout D done (2026-10-30)**: all five documents validate with 0 problems: `FY2027_budget_draft` (text layer), `FY2026_budget`, `FY2026_budget_draft`, `FY2025_budget`, `FY2025_budget_draft` (OCR). The reader reads amounts as money tokens from each line's head (OCR noise such as `$9,051.25`, `420,00`, `—-1,332,934.00` breaks fixed patterns); the variance column is now informational (a note count) because its sign and token position are unreliable, the budget cells are checked by the totals. The FY2025 PDF has 7 pages of a 9-page report (no Group or Fund Summary pages), so those two checks only run when the pages exist. Eyeballed or evidence-based fixes (`data/belvidere_park_district/overrides/<doc_id>.csv`, kinds `line` and `line_prefix`, each with a written reason, applied fixes written to `<doc_id>_corrections.csv`): FY2026 final 1, FY2025 final 2 (an unreadable underlined Fund 21 surplus read from the page image, a misread `$` for a 5 in a printed total), FY2025 draft 1, FY2026 draft 4 (dropped hyphens, a stray negative sign, two leading 5s read as `$`; each found because the fund total was short by exactly that amount and the line's other columns agree).
+- **Draft vs final, an independent check**: FY2025 adopted equals its draft except 2 revenue lines (same fund totals: $8,998,765 revenue, $8,996,464 expense across funds); FY2026 differs on 1 revenue and 10 expense lines (adopted revenue $9,322,992 vs draft $9,302,992; expense $9,299,593 vs $9,274,488). The adopted budgets run a small surplus by fund, not a balanced one.
+- **Layout A done (2026-10-30)**: `extract_budget_operating.py FY2019|FY2020|FY2021` (FY2020 text layer, the others OCR): all three validate with 0 problems. Checks: every block `Total ...` equals its lines; every grand total equals its blocks; FY2019-20 also tie the SUMMARY page (Corporate, Recreation, Other Funds, Total, income and expenses) to the blocks. The FY2020 page carries over FY2019's `Total Other Funds Income/Expenses` (3,949,967 and 3,390,830.89) although its own blocks sum to 2,884,170 and 4,344,053 (which the SUMMARY prints): recorded with `allow_diff` overrides and that evidence; the Meehan Gymnasium total is 1,000 above its only line (also recorded). FY2019 prints six CIP accounts as `21-0910-` with no object code (key `21-0910-NONE-<label>`, flag `no_object_code`) and Rivers Edge Birthdays has no printed total but is added by the city's grand total (`block_unprinted`). FY2021 fixes read from page images: Pool Bldg Equip Purchase 1,000 (OCR 4,000), Special Rec First Aid 1,500 (OCR 4,500), the dropped Preschool revenue row 54,500; one automatic single-digit fix (Meehan Gym 13,500 read as 43,500). 
+- **Layout B done (2026-10-30)**: `extract_budget_version.py FY2022|FY2023|FY2023_budget_draft|FY2024_budget_draft`: all four validate with 0 problems (every fund's lines equal its Subtotal, the Subtotals equal the GRAND TOTAL, per report). FY2022's PDF has only the expenditure report (no revenue). Same repair ladder as the city's extractors, each step flagged and recorded in `<doc_id>_corrections.csv`: one-digit confusion that alone ties a subtotal (`auto_resolved_digit`); the same line in a second OCR reading, thr150 (`auto_resolved`); for a draft, the same line of the adopted document (run `FY2023` before `FY2023_budget_draft`, the draft reads the adopted extract). Page-image fixes (overrides with reasons): FY2022 four lines (three `$` for a leading 5, one 300 for 500), FY2024 draft two lines (410,000 for 10,000; 4,000 for 1,000). The appropriation ordinances appended to the FY2023 and FY2024 drafts (they print appropriation, revenue and cash estimates per fund) are not read here: Phase 4.
+- **Layout C (FY2024 adopted): placeholder, decided 2026-10-30**: the adopted FY2024 budget is not extracted (see above: the scan defeats OCR; `extract_budget_fund_report.py` is a work-in-progress reader that writes nothing). The FY2024 DRAFT (layout B, ties to every printed subtotal) stands in for it, flagged by exception `EX-fy2024-budget-placeholder` (new shared exception kind `substitute_document`). Replace when the adopted document is keyed from the page images.
+- **FY2023 amended-revenue reports done (2026-10-30)**: `extract_budget_amended.py FY2023_budget_amended` (text layer) and `FY2023_budget_amended_oct` (scan), both final: 313 accounts (65 revenue, 248 expense) in two columns, `amended` and `original`, validated per fund and column to the Subtotals and to the Report Totals (revenue and expenditure). The scan was repaired from the text-layer copy (four lines, each flagged `auto_resolved` and recorded: the same line elsewhere made the subtotal tie uniquely); the two copies hold identical figures. The Original column equals the FY2023 adopted budget (layout B) on every shared account; the 12 lines where amended differs are all in fund 21 (CIP). One source anomaly recorded (`allow_diff`, exception `EX-fy2023-amended-cip-original-subtotal`): the printed Cip Original subtotal is stale by 1,004. Also fixed in the FY2023 adopted extract: `02-8400-500` was OCR for `02-9400-500` (the amended report, the draft and the neighbouring accounts agree). Appended ordinance 23-10-24A (the amended appropriation) is for Phase 4.
+- **Account map, departments, categories done (2026-10-30)**: `entities/belvidere_park_district/{account_map,departments,categories}.csv` (816 accounts: 478 in the FY2019-FY2024 format, 338 in the FY2025+ format, 102 departments, 23 categories in schemes budget_category, expense_object and function_group). Both account formats are mapped and years compare through the category, not the number (`EX-account-format-fy2025`, `EX-fund-renumbering-fy2025`). Revenue: property tax and replacement tax are `tax`, everything else `non_tax` (program fees, rentals, donations and sponsorships, grants, interest, impact fees, bond proceeds, other). Expense: FY2025+ accounts by the first digit of the object code (4 personnel, 5 contractual, 6 supplies and maintenance, 7 debt, 8 capital); older accounts take the category of the same label in FY2025+, else a keyword rule; funds 10/12 debt service, 21 capital. `build_account_map.py [--write]` only adds accounts the CSVs lack; the CSVs are the authority (a hand review changed two Doty Sponsorship lines; 33 department names are still derived from labels). 10 exceptions are in `exceptions.csv`.
+- **Shared code changes so far (G3)**: `govbudget.validate.validate_config` no longer requires `comparable_groups.csv`, `audit_map.csv` or `audit_expenditure_map.csv` (a government gets them with its audits); new exception kind `substitute_document`. The city's tables and tests are unchanged (125 fast tests pass, 6 new in `tests/test_park_district.py`, which re-checks the committed extracts against their own totals without OCR).
+- **Phase 2 status**: all budgets FY2019-FY2027 are extracted except the adopted FY2024 (placeholder). Not yet: `build_facts.py`, the schema additions for the park's bases (`approved`, `requested`, `amended`, `original`, appropriation), documents/accounts/facts (Phase 5).
+
+## Phases
+
+Each phase ends with a checkpoint where we look at the result together before the next one starts.
+
+### Phase 0: decisions (before any files are created)
+1. Entity id and short name (`belvidere_park_district`, "Belvidere Park District").
+2. Scope of pass one (this plan): budgets and audits FY2019-FY2027, appropriation and levy ordinances as separate series; skip minutes, program guides, efficiency reports, treasurer's reports.
+3. Whether to try to get FY2024 budget / FY2022 audit / pre-2019 documents (media library search, Illinois Comptroller warehouse, or ask the district) now or only after pass one.
+
+### Phase 1: sources and scoping (G1)
+1. Search the media library again for the gaps (FY2024 budget, FY2022 audit, FY2020 audit, pre-2019).
+2. Download into `sources/belvidere_park_district/{budgets,audits,ordinances}/` (older files gitignored, as for the city). Write `entities/belvidere_park_district/source_urls.csv` (doc_id, url, size, checked_on) and record sha256 in `documents.csv`.
+3. Per document: page count, text layer or scan, fiscal year, draft vs adopted, which pages hold the fund tables.
+4. Write `entity.json` (`fy_start_month` 1, account format `FF-DDD-OOOO`, funds list) and a first `funds.csv`.
+5. Update `ROADMAP.md` G1 with the findings.
+- Checkpoint: document inventory table and the list of known gaps.
+
+### Phase 2: budget extraction (G2, part 1)
+1. Reader for the budget report layout (text layer first: `pdftotext -layout` or positioned words; OCR only for the image-only years, with the city's cross-reading and auto-resolve ideas where they pay off).
+2. Output per year, same long format as the city's extracts: revenue lines, expense lines, printed totals (`Revenue Total`, `Expense Total`, `Surplus (Deficit)` per fund).
+3. Validation: lines sum to every printed total in every column, per fund; the prior year's budget in the next document agrees; accounts that appear or vanish are checked.
+4. `account_map.csv`, `categories.csv`, `departments.csv` (the park's 3-digit codes: Administration 010, Audit 011, IMRF 012, Liability 013, Social Security 014, Parks 015, ...) written as data.
+- Checkpoint: FY2027 and FY2026 validated first, then the earlier years.
+
+### Phase 3: audit extraction (G2, part 2)
+1. Statements of revenues, expenditures and changes in fund balances (governmental funds), balance sheet.
+2. Budget-and-actual schedules for General, Recreation and Special Recreation (original, final, actual).
+3. Debt note and legal debt margin, IMRF pension note and RSI (a smaller version of the city's tables; the shared debt/pension schema should fit).
+4. Validation: statement totals, balance sheet identity, fund columns sum to totals, the schedule's actual equals the statement, beginning balance equals the prior ending balance.
+- Checkpoint: audit tables tie in every year available.
+
+### Phase 4: ordinances (G2, part 3)
+1. Appropriation ordinance: by fund and line, the legal ceiling. New `basis` (proposed `appropriated`) so it never mixes with adopted budgets.
+2. Tax levy ordinance: levy by purpose and fund. Compare with the property-tax lines in the budget and the audit.
+- Checkpoint: how appropriation compares with budget and actual; how levy compares with property tax recognized.
+
+### Phase 5: canonical build and audit-vs-budget (G2, part 4)
+1. `pipelines/belvidere_park_district/build_facts.py` writes `documents.csv`, `accounts.csv`, `facts.csv`, `fund_statements.csv`, debt/pension tables in the canonical layout.
+2. `build_audit_compare` equivalent: audit original budget vs the budget document's adopted budget per fund and department-group; record misses as exceptions.
+3. `build_fund_summary` equivalent: fund balance by fund, months of reserves.
+4. `rebuild_all.sh`, `govbudget.validate` clean.
+- Checkpoint: tie-out counts for this entity (the park's equivalent of 179 of 182).
+
+### Phase 6: what does not abstract (G3), done as it appears, reviewed here
+Expected changes to `govbudget/` and the city's pipeline, each with a test:
+- Fiscal-year labelling per entity (`fy_start_month` 1 vs 5; any code assuming May-April).
+- New basis (`appropriated`) and document type (`ordinance`); draft vs adopted.
+- Funds as the main axis; the city's General Fund consumers filter `fund_code == "01"`, which will not apply to the park's fund set.
+- Account key format (`FF-DDD-OOOO` without the revenue/expense segment).
+- Category schemes and `funds.csv` for audit-to-budget fund matching.
+- Everything park-specific goes in `entities/belvidere_park_district/exceptions.csv`.
+- Requirement: the city's committed tables and the golden rebuild test stay unchanged.
+
+### Phase 7: tests (T1 extension)
+Pin the park's tie-out counts in `tests/test_tieouts.py`, add its structure checks to `test_structure.py`, extend the golden rebuild to both entities.
+
+### Phase 8: reference series (T2)
+Population, CPI factor (the same CPI file works, with the calendar-year averaging), and equalized assessed valuation for the park district. The district's boundary differs from the city's, so the population and EAV basis is a decision to make then; record it in `reference_sources.csv`.
+
+### Phase 9: site
+Export with `govbudget.export_site` (it already loops over entities); park pages for taxes/revenue, expenses by fund and object, audit vs budget, fund balance, debt. Which of the city's pages make sense for a park district is a decision at that point. Comparison across governments stays S5/G4 and is not part of this plan.
+
+## Risks
+- Only five audits (FY2019, 2021, 2023-25) means thin audit history and a gap at FY2022. The first release should say so.
+- Pre-2019 data may not exist online; the Comptroller's warehouse may have summary financials only.
+- Scans among the budgets (the FY2026 file is image-only; others unchecked) bring back OCR validation work.
+- Draft documents (FY2027) can change; mark them in `documents.csv` and in the site.
+- The park's appropriation can differ widely from budget; compare carefully and label it.
+
+## Out of scope for pass one
+Minutes and agendas, program guides (Go Guides), handbooks, treasurer's reports, the efficiency reports, the tax abatement ordinance and the administrative ordinances.

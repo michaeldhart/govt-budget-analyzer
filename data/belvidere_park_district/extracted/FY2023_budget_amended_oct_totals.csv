@@ -1,0 +1,33 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,flow,kind,name,column,amount
+2023,FY2023_budget_amended_oct,pdf1,1,01,revenue,fund_subtotal,Corporate,amended,1788290
+2023,FY2023_budget_amended_oct,pdf1,1,01,revenue,fund_subtotal,Corporate,original,1788290
+2023,FY2023_budget_amended_oct,pdf1,1,02,revenue,fund_subtotal,Recreation,amended,1777479
+2023,FY2023_budget_amended_oct,pdf1,1,02,revenue,fund_subtotal,Recreation,original,1777479
+2023,FY2023_budget_amended_oct,pdf2,2,03,revenue,fund_subtotal,Museum,amended,190311
+2023,FY2023_budget_amended_oct,pdf2,2,03,revenue,fund_subtotal,Museum,original,190311
+2023,FY2023_budget_amended_oct,pdf2,2,09,revenue,fund_subtotal,Special Recreation,amended,566038
+2023,FY2023_budget_amended_oct,pdf2,2,09,revenue,fund_subtotal,Special Recreation,original,566038
+2023,FY2023_budget_amended_oct,pdf2,2,10,revenue,fund_subtotal,Installment Contracts,amended,483500
+2023,FY2023_budget_amended_oct,pdf2,2,10,revenue,fund_subtotal,Installment Contracts,original,483500
+2023,FY2023_budget_amended_oct,pdf2,2,12,revenue,fund_subtotal,Bond & Interest,amended,1234046
+2023,FY2023_budget_amended_oct,pdf2,2,12,revenue,fund_subtotal,Bond & Interest,original,1234046
+2023,FY2023_budget_amended_oct,pdf2,2,21,revenue,fund_subtotal,Cip,amended,863122.87
+2023,FY2023_budget_amended_oct,pdf2,2,21,revenue,fund_subtotal,Cip,original,880796
+2023,FY2023_budget_amended_oct,pdf4,4,01,expense,fund_subtotal,Corporate,amended,1787870.90
+2023,FY2023_budget_amended_oct,pdf4,4,01,expense,fund_subtotal,Corporate,original,1787870.90
+2023,FY2023_budget_amended_oct,pdf6,6,02,expense,fund_subtotal,Recreation,amended,1776793.23
+2023,FY2023_budget_amended_oct,pdf6,6,02,expense,fund_subtotal,Recreation,original,1776793.23
+2023,FY2023_budget_amended_oct,pdf6,6,03,expense,fund_subtotal,Museum,amended,187687
+2023,FY2023_budget_amended_oct,pdf6,6,03,expense,fund_subtotal,Museum,original,187687
+2023,FY2023_budget_amended_oct,pdf7,7,09,expense,fund_subtotal,Special Recreation,amended,518496.09
+2023,FY2023_budget_amended_oct,pdf7,7,09,expense,fund_subtotal,Special Recreation,original,518496.09
+2023,FY2023_budget_amended_oct,pdf7,7,10,expense,fund_subtotal,Installment Contracts,amended,482700
+2023,FY2023_budget_amended_oct,pdf7,7,10,expense,fund_subtotal,Installment Contracts,original,482700
+2023,FY2023_budget_amended_oct,pdf7,7,12,expense,fund_subtotal,Bond & Interest,amended,1233546
+2023,FY2023_budget_amended_oct,pdf7,7,12,expense,fund_subtotal,Bond & Interest,original,1233546
+2023,FY2023_budget_amended_oct,pdf7,7,21,expense,fund_subtotal,Cip,amended,1139034.87
+2023,FY2023_budget_amended_oct,pdf7,7,21,expense,fund_subtotal,Cip,original,880796
+2023,FY2023_budget_amended_oct,pdf2,2,,revenue,grand,Report Total revenue,amended,6902786.87
+2023,FY2023_budget_amended_oct,pdf2,2,,revenue,grand,Report Total revenue,original,6921464
+2023,FY2023_budget_amended_oct,pdf7,7,,expense,grand,Report Total expense,amended,7126128.09
+2023,FY2023_budget_amended_oct,pdf7,7,,expense,grand,Report Total expense,original,6867889.22

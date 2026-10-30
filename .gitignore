@@ -24,3 +24,7 @@ web/public/data/
 web/node_modules/
 web/dist/
 web/.astro/
+
+# Park district source PDFs (re-downloadable with pipelines/belvidere_park_district/fetch_sources.py)
+sources/*/ordinances/
+sources/*/treasurers/

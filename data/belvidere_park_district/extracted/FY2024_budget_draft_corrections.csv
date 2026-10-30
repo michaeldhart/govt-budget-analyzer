@@ -1,0 +1,4 @@
+doc,page_label,pdf_page,method,raw_text,final_text,detail
+FY2024_budget_draft,pdf2,2,line_prefix,"21-0100-318 Impact Fees 410,000.00","21-0100-318 Impact Fees 10,000.00","OCR read 10,000.00 as 410,000.00. Read from the page image (PDF page 2); with the next line the fund 21 revenue lines equal the printed subtotal 720,400.00"
+FY2024_budget_draft,pdf2,2,line_prefix,"21-0100-330 Interest 4,000.00","21-0100-330 Interest 1,000.00","OCR read 1,000.00 as 4,000.00. Read from the page image (PDF page 2)"
+FY2024_budget_draft,pdf9,9,auto_resolved_digit,21-0910-775 Condensing Unit Plaform Rivers Edge 440000,140000,"a single-digit OCR confusion that, alone, makes fund 21 expense lines equal the printed subtotal 720491.35"

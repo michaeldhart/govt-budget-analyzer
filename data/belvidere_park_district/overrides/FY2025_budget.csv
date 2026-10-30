@@ -1,0 +1,3 @@
+kind,raw,fixed,reason
+line,Fund: 21 -Capital Projects Surplus (Deficit:,Fund: 21 - Capital Projects Surplus (Deficit): 0.00 0.00 0.00 0.00 0.00 0.00%,"OCR could not read the line (underlined text). Read from the page image (PDF page 7): Fund 21 surplus is 0.00; revenue and expense totals are both 2,475,300.00 and the Report Surplus 2,301.00 equals the sum of the other funds"
+line_prefix,"Expense Total: 588,097.80 $88,097.80","Expense Total: 588,097.80 588,097.80","OCR read the leading 5 of the Current Total Budget column as $; the Original column prints 588,097.80 and the fund 05 expense lines sum to it in both columns"

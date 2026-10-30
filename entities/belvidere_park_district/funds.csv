@@ -1,0 +1,11 @@
+fund_code,name,type,numbering,audit_name,note
+01,General (Corporate),general,both,General Fund,"Named 'Corporate' through at least the FY2024 budget, 'General' in the FY2027 draft. The audit's General Fund also holds the Audit, IMRF, Liability and Social Security levies, which the budget carries as departments 011-014 of fund 01"
+02,Recreation,special revenue,both,Recreation Fund,
+03,Museum,special revenue,FY2023,Museum Fund,Renumbered 08 by the FY2027 draft
+08,Museum,special revenue,FY2027,Museum Fund,
+05,Special Recreation,special revenue,FY2027,Special Recreation Fund,
+09,Special Recreation,special revenue,FY2023,Special Recreation Fund,Renumbered 05 by the FY2027 draft
+10,Alternate Bond & Interest / Installment Contracts,debt service,both,Alternate Bond and Interest Fund,"Name differs between numbering schemes (FY2023: Installment Contracts; FY2027: Alternate Bond & Interest); the FY2020 budget lists 2012 Debt Principal under fund 10. Same fund to be confirmed in Phase 2"
+12,Bond & Interest,debt service,both,Bond and Interest Fund,
+21,Capital Projects (CIP),capital projects,both,Capital Projects Fund,
+25,Riverfront,unknown,FY2020,,Appears only in the FY2020 budget (Riverfront Revenue 25-0100-300 = 0)

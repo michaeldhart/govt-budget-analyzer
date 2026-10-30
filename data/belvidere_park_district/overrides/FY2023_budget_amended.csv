@@ -1,0 +1,2 @@
+kind,raw,fixed,reason
+allow_diff,fund 21 revenue original subtotal,,"The printed Cip Subtotal in the Original Budget column (880,796.00) is 1,004.00 below its lines (881,800.00, the FY2023 adopted figure; 880,796.00 is the FY2023 draft's). The printed Report Total Revenue Original (6,921,464.00) equals the sum of the lines with 881,800, so the subtotal line is stale"

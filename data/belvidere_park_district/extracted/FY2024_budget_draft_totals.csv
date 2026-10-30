@@ -1,0 +1,17 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,flow,kind,name,amount
+2024,FY2024_budget_draft,pdf1,1,01,revenue,fund_subtotal,Corporate,1960771.45
+2024,FY2024_budget_draft,pdf2,2,02,revenue,fund_subtotal,Recreation,1882068
+2024,FY2024_budget_draft,pdf2,2,03,revenue,fund_subtotal,Museum,207121
+2024,FY2024_budget_draft,pdf2,2,09,revenue,fund_subtotal,Special Recreation,543586
+2024,FY2024_budget_draft,pdf2,2,10,revenue,fund_subtotal,Installment Contracts,485200
+2024,FY2024_budget_draft,pdf2,2,12,revenue,fund_subtotal,Bond & Interest,1242000
+2024,FY2024_budget_draft,pdf2,2,21,revenue,fund_subtotal,CIP,720400
+2024,FY2024_budget_draft,pdf4,4,01,expense,fund_subtotal,Corporate,1960771
+2024,FY2024_budget_draft,pdf7,7,02,expense,fund_subtotal,Recreation,1882068
+2024,FY2024_budget_draft,pdf7,7,03,expense,fund_subtotal,Museum,207115
+2024,FY2024_budget_draft,pdf9,9,09,expense,fund_subtotal,Special Recreation,542311
+2024,FY2024_budget_draft,pdf9,9,10,expense,fund_subtotal,Installment Contracts,484400
+2024,FY2024_budget_draft,pdf9,9,12,expense,fund_subtotal,Bond & Interest,1242000
+2024,FY2024_budget_draft,pdf9,9,21,expense,fund_subtotal,CIP,720491.35
+2024,FY2024_budget_draft,pdf2,2,,revenue,grand,GRAND TOTAL,7041146.45
+2024,FY2024_budget_draft,pdf9,9,,expense,grand,GRAND TOTAL,7039156.35

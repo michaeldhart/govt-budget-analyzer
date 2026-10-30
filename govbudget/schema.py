@@ -39,6 +39,7 @@ EXCEPTION_KINDS = (
     "structural_change",     # account renumbered, relabeled, merged or moved between documents
     "not_comparable",        # budget and audit cannot be put on the same footing for this line
     "ocr_correction",        # value corrected by eye against the page image (detail in data/<entity>/overrides)
+    "substitute_document",   # another document stands in for one that could not be read (say which, and for what)
 )
 EXCEPTION_SCOPES = ("account", "group", "doc", "entity")
 EXCEPTION_EFFECTS = ("excluded", "included", "adjusted", "informational")

@@ -1,0 +1,147 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,fund,dept_code,account,line_item,column,amount,flag
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3010,Corporate Real Estate Taxes,budget_original,1330010,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3010,Corporate Real Estate Taxes,budget_current,1330010,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3020,Personal Property Replacement Tax,budget_original,120500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3020,Personal Property Replacement Tax,budget_current,120500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3040,Miscellaneous Income-Corporate,budget_original,5354,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3040,Miscellaneous Income-Corporate,budget_current,5354,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3080,Administration Employee Reimburs,budget_original,100,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3080,Administration Employee Reimburs,budget_current,100,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3950,Bond Proceeds,budget_original,40000,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-3950,Bond Proceeds,budget_current,40000,
+2025,FY2025_budget,1 of 9,1,01,General,011,01-011-3010,Audit Real Estate Taxes,budget_original,17334,
+2025,FY2025_budget,1 of 9,1,01,General,011,01-011-3010,Audit Real Estate Taxes,budget_current,17334,
+2025,FY2025_budget,1 of 9,1,01,General,011,01-011-3030,Audit Interest,budget_original,100,
+2025,FY2025_budget,1 of 9,1,01,General,011,01-011-3030,Audit Interest,budget_current,100,
+2025,FY2025_budget,1 of 9,1,01,General,012,01-012-3010,IMRF Real Estate Taxes,budget_original,100988,
+2025,FY2025_budget,1 of 9,1,01,General,012,01-012-3010,IMRF Real Estate Taxes,budget_current,100988,
+2025,FY2025_budget,1 of 9,1,01,General,012,01-012-3030,IMRF Interest,budget_original,500,
+2025,FY2025_budget,1 of 9,1,01,General,012,01-012-3030,IMRF Interest,budget_current,500,
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3010,Liability Real Estate Taxes,budget_original,114959,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3010,Liability Real Estate Taxes,budget_current,114959,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3030,Liability Interest,budget_original,500,
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3030,Liability Interest,budget_current,500,
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3041,Liability Claims,budget_original,8000,
+2025,FY2025_budget,1 of 9,1,01,General,013,01-013-3041,Liability Claims,budget_current,8000,
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3010,Social Security Real Estate Taxes,budget_original,169550,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3010,Social Security Real Estate Taxes,budget_current,169550,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3020,Personal Property Replacement Tax,budget_original,10000,
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3020,Personal Property Replacement Tax,budget_current,10000,
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3030,Social Security Interest,budget_original,500,
+2025,FY2025_budget,1 of 9,1,01,General,014,01-014-3030,Social Security Interest,budget_current,500,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3050,Park Donations,budget_original,2500,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3050,Park Donations,budget_current,2500,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3055,Memorials,budget_original,18000,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3055,Memorials,budget_current,18000,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3080,Parks Employee Reimbursement,budget_original,300,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3080,Parks Employee Reimbursement,budget_current,300,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3090,Farm Lease,budget_original,4000,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3090,Farm Lease,budget_current,4000,
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3110,Shelter Rental Revenue,budget_original,30000,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,015,01-015-3110,Shelter Rental Revenue,budget_current,30000,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,02,Recreation,010,02-010-3010,Recreation Real Estate Taxes,budget_original,1001949,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,02,Recreation,010,02-010-3010,Recreation Real Estate Taxes,budget_current,1001949,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3030,Recreation Interest,budget_original,14700,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3030,Recreation Interest,budget_current,14700,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3040,Miscellaneous Income-Recreation,budget_original,250,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3040,Miscellaneous Income-Recreation,budget_current,250,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3050,Recreation Donations,budget_original,54500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3050,Recreation Donations,budget_current,54500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3060,Marketing Sponsorship,budget_original,25000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3060,Marketing Sponsorship,budget_current,25000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3065,Recreation Scholarships,budget_original,5000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3065,Recreation Scholarships,budget_current,5000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3080,Recreation Employee Reimburseme,budget_original,100,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3080,Recreation Employee Reimburseme,budget_current,100,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3090,Affiliate Revenue,budget_original,1000,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3090,Affiliate Revenue,budget_current,1000,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3095,Vending Revenue,budget_original,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3095,Vending Revenue,budget_current,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3900,Grant Revenue,budget_original,10714,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-3900,Grant Revenue,budget_current,10714,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3100,Rivers Edge Daily Revenue,budget_original,11932,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3100,Rivers Edge Daily Revenue,budget_current,11932,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3110,Rivers Edge Rental Revenue,budget_original,37275,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3110,Rivers Edge Rental Revenue,budget_current,37275,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3115,Rivers Edge Birthday Revenue,budget_original,2600,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-3115,Rivers Edge Birthday Revenue,budget_current,2600,
+2025,FY2025_budget,3 of 9,3,02,Recreation,025,02-025-3110,Doty Park Revenue,budget_original,28148,
+2025,FY2025_budget,3 of 9,3,02,Recreation,025,02-025-3110,Doty Park Revenue,budget_current,28148,
+2025,FY2025_budget,3 of 9,3,02,Recreation,025,02-025-3115,Doty Park Birthday Revenue,budget_original,800,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,025,02-025-3115,Doty Park Birthday Revenue,budget_current,800,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,045,02-045-3110,Prairie Fields Rental Revenue,budget_original,7000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,045,02-045-3110,Prairie Fields Rental Revenue,budget_current,7000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,050,02-050-3100,Third Base Revenue,budget_original,481950,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,050,02-050-3100,Third Base Revenue,budget_current,481950,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,055,02-055-3100,Camp Compass Revenue,budget_original,93300,
+2025,FY2025_budget,3 of 9,3,02,Recreation,055,02-055-3100,Camp Compass Revenue,budget_current,93300,
+2025,FY2025_budget,3 of 9,3,02,Recreation,060,02-060-3066,Preschool Fundraising,budget_original,300,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,060,02-060-3066,Preschool Fundraising,budget_current,300,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,060,02-060-3100,Preschool Revenue,budget_original,5940,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,060,02-060-3100,Preschool Revenue,budget_current,5940,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,065,02-065-3100,Adult Fitness Revenue,budget_original,21336,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,065,02-065-3100,Adult Fitness Revenue,budget_current,21336,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,068,02-068-3100,Youth Fitness Revenue,budget_original,30125,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,068,02-068-3100,Youth Fitness Revenue,budget_current,30125,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,070,02-070-3100,Adult Athletics Revenue,budget_original,12950,
+2025,FY2025_budget,3 of 9,3,02,Recreation,070,02-070-3100,Adult Athletics Revenue,budget_current,12950,
+2025,FY2025_budget,3 of 9,3,02,Recreation,075,02-075-3100,Youth Athletics Revenue,budget_original,37186,
+2025,FY2025_budget,3 of 9,3,02,Recreation,075,02-075-3100,Youth Athletics Revenue,budget_current,37186,
+2025,FY2025_budget,3 of 9,3,02,Recreation,085,02-085-3100,Youth Revenue,budget_original,28062,
+2025,FY2025_budget,3 of 9,3,02,Recreation,085,02-085-3100,Youth Revenue,budget_current,28062,
+2025,FY2025_budget,3 of 9,3,02,Recreation,090,02-090-3100,Special Event Revenue,budget_original,13440,
+2025,FY2025_budget,3 of 9,3,02,Recreation,090,02-090-3100,Special Event Revenue,budget_current,13440,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3010,Special Recreation Real EstateTaxes,budget_original,342205,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3010,Special Recreation Real EstateTaxes,budget_current,342205,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3030,Special Recreation Interest,budget_original,6200,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3030,Special Recreation Interest,budget_current,6200,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3040,Miscellaneous Income-Spec Rec,budget_original,50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3040,Miscellaneous Income-Spec Rec,budget_current,50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3050,Special Recreation Donations,budget_original,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3050,Special Recreation Donations,budget_current,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3066,Special Recreation Fundraising,budget_original,9000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3066,Special Recreation Fundraising,budget_current,9000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3110,Special Recreation Rental Revenue,budget_original,300,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3110,Special Recreation Rental Revenue,budget_current,300,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3900,Grant Revenue,budget_original,4726.80,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-3900,Grant Revenue,budget_current,4726.80,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,032,05-032-3100,Special Recreation New Horizons R,budget_original,115306,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,032,05-032-3100,Special Recreation New Horizons R,budget_current,115306,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,033,05-033-3100,Special Recreation Camp/Club Reve,budget_original,77840,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,033,05-033-3100,Special Recreation Camp/Club Reve,budget_current,77840,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,034,05-034-3100,Special Recreation Specialty/SO Re,budget_original,31470,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,034,05-034-3100,Special Recreation Specialty/SO Re,budget_current,31470,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,100,05-100-3065,Special Recreation Scholarships,budget_original,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,100,05-100-3065,Special Recreation Scholarships,budget_current,500,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3010,Museum Real Estate Taxes,budget_original,118841,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3010,Museum Real Estate Taxes,budget_current,118841,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3030,Museum Interest,budget_original,32800,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3030,Museum Interest,budget_current,32800,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3050,Museum Donations,budget_original,1440,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3050,Museum Donations,budget_current,1440,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3110,Museum Rental Revenue,budget_original,2500,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3110,Museum Rental Revenue,budget_current,2500,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3900,Grant Revenue,budget_original,50000,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-3900,Grant Revenue,budget_current,50000,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-3030,Interest,budget_original,62300,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-3030,Interest,budget_current,62300,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-3950,Bond Proceeds,budget_original,433800,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-3950,Bond Proceeds,budget_current,433800,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-3010,Bond & Interest Real Estate Taxes,budget_original,1332934,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-3010,Bond & Interest Real Estate Taxes,budget_current,1332934,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-3030,Interest,budget_original,1500,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-3030,Interest,budget_current,1500,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3030,Interest,budget_original,8500,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3030,Interest,budget_current,8500,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3040,Miscellaneous Income-Capital,budget_original,350,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3040,Miscellaneous Income-Capital,budget_current,350,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3050,Donations,budget_original,1500,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3050,Donations,budget_current,1500,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3900,Grant Revenue,budget_original,1604000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3900,Grant Revenue,budget_current,1604000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3950,Bond Proceeds,budget_original,810200,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3950,Bond Proceeds,budget_current,810200,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3955,Impact Fees,budget_original,25000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3955,Impact Fees,budget_current,25000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3960,Sale of Capital Assets Revenue,budget_original,25750,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,010,21-010-3960,Sale of Capital Assets Revenue,budget_current,25750,

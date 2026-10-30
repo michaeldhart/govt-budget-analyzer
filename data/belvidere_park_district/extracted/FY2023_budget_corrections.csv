@@ -1,0 +1,4 @@
+doc,page_label,pdf_page,method,raw_text,final_text,detail
+FY2023_budget,pdf6,6,line_prefix,"02-8400-500 General Supplies 6,000.00",02-9400-500 General Supplies,"OCR read the department code 9400 as 8400. The same line is 02-9400-500 General Supplies 6,000 in the FY2023 draft and in both FY2023 amended reports, and 02-8400 is not a department (the neighbouring lines are 02-9230 and 02-9400-600)"
+FY2023_budget,pdf4,4,auto_resolved,01-1000-710 Building Equipment Purchase § 50,01-1000-710 Building Equipment Purchase 550,"the thr150 OCR reading of this line, adopted because alone it makes fund 01 expense lines equal the printed subtotal 1787870.90"
+FY2023_budget,pdf6,6,auto_resolved,02-1600-710 Rivers Edge Equipment Purchase 4200,02-1600-710 Rivers Edge Equipment Purchase 1200,"the thr150 OCR reading of this line, adopted because alone it makes fund 02 expense lines equal the printed subtotal 1776793.23"

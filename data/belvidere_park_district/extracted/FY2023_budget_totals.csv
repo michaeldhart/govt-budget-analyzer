@@ -1,0 +1,17 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,flow,kind,name,amount
+2023,FY2023_budget,pdf1,1,01,revenue,fund_subtotal,Corporate,1788290
+2023,FY2023_budget,pdf2,2,02,revenue,fund_subtotal,Recreation,1777479
+2023,FY2023_budget,pdf2,2,03,revenue,fund_subtotal,Museum,190311
+2023,FY2023_budget,pdf2,2,09,revenue,fund_subtotal,Special Recreation,566038
+2023,FY2023_budget,pdf2,2,10,revenue,fund_subtotal,Installment Contracts,483500
+2023,FY2023_budget,pdf2,2,12,revenue,fund_subtotal,Bond & Interest,1234046
+2023,FY2023_budget,pdf2,2,21,revenue,fund_subtotal,CIP,881800
+2023,FY2023_budget,pdf4,4,01,expense,fund_subtotal,Corporate,1787870.90
+2023,FY2023_budget,pdf7,7,02,expense,fund_subtotal,Recreation,1776793.23
+2023,FY2023_budget,pdf7,7,03,expense,fund_subtotal,Museum,187687
+2023,FY2023_budget,pdf8,8,09,expense,fund_subtotal,Special Recreation,518496.09
+2023,FY2023_budget,pdf8,8,10,expense,fund_subtotal,Installment Contracts,482700
+2023,FY2023_budget,pdf8,8,12,expense,fund_subtotal,Bond & Interest,1233546
+2023,FY2023_budget,pdf8,8,21,expense,fund_subtotal,CIP,880796
+2023,FY2023_budget,pdf2,2,,revenue,grand,GRAND TOTAL,6921464
+2023,FY2023_budget,pdf9,9,,expense,grand,GRAND TOTAL,6867889.22

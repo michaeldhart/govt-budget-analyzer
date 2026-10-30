@@ -1,0 +1,45 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,fund,kind,name,column,amount
+2025,FY2025_budget,1 of 9,1,01,General,fund_revenues,Total Revenue,budget_original,1973195
+2025,FY2025_budget,1 of 9,1,01,General,fund_revenues,Total Revenue,budget_current,1973195
+2025,FY2025_budget,2 of 9,2,01,General,fund_expenses,Total Expense,budget_original,1973195
+2025,FY2025_budget,2 of 9,2,01,General,fund_expenses,Total Expense,budget_current,1973195
+2025,FY2025_budget,2 of 9,2,01,General,fund_net,Surplus (Deficit),budget_original,0
+2025,FY2025_budget,2 of 9,2,01,General,fund_net,Surplus (Deficit),budget_current,0
+2025,FY2025_budget,3 of 9,3,02,Recreation,fund_revenues,Total Revenue,budget_original,1926057
+2025,FY2025_budget,3 of 9,3,02,Recreation,fund_revenues,Total Revenue,budget_current,1926057
+2025,FY2025_budget,5 of 9,5,02,Recreation,fund_expenses,Total Expense,budget_original,1926057
+2025,FY2025_budget,5 of 9,5,02,Recreation,fund_expenses,Total Expense,budget_current,1926057
+2025,FY2025_budget,5 of 9,5,02,Recreation,fund_net,Surplus (Deficit),budget_original,0
+2025,FY2025_budget,5 of 9,5,02,Recreation,fund_net,Surplus (Deficit),budget_current,0
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,fund_revenues,Total Revenue,budget_original,588097.80
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,fund_revenues,Total Revenue,budget_current,588097.80
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,fund_expenses,Total Expense,budget_original,588097.80
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,fund_expenses,Total Expense,budget_current,588097.80
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,fund_net,Surplus (Deficit),budget_original,0
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,fund_net,Surplus (Deficit),budget_current,0
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_revenues,Total Revenue,budget_original,205581
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_revenues,Total Revenue,budget_current,205581
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_expenses,Total Expense,budget_original,205580
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_expenses,Total Expense,budget_current,205580
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_net,Surplus (Deficit),budget_original,1
+2025,FY2025_budget,6 of 9,6,08,Museum,fund_net,Surplus (Deficit),budget_current,1
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_revenues,Total Revenue,budget_original,496100
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_revenues,Total Revenue,budget_current,496100
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_expenses,Total Expense,budget_original,495300
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_expenses,Total Expense,budget_current,495300
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_net,Surplus (Deficit),budget_original,800
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,fund_net,Surplus (Deficit),budget_current,800
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,fund_revenues,Total Revenue,budget_original,1334434
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,fund_revenues,Total Revenue,budget_current,1334434
+2025,FY2025_budget,7 of 9,7,12,Bond & Interest,fund_expenses,Total Expense,budget_original,1332934
+2025,FY2025_budget,7 of 9,7,12,Bond & Interest,fund_expenses,Total Expense,budget_current,1332934
+2025,FY2025_budget,7 of 9,7,12,Bond & Interest,fund_net,Surplus (Deficit),budget_original,1500
+2025,FY2025_budget,7 of 9,7,12,Bond & Interest,fund_net,Surplus (Deficit),budget_current,1500
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_revenues,Total Revenue,budget_original,2475300
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_revenues,Total Revenue,budget_current,2475300
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_expenses,Total Expense,budget_original,2475300
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_expenses,Total Expense,budget_current,2475300
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_net,Surplus (Deficit),budget_original,0
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,fund_net,Surplus (Deficit),budget_current,0
+2025,FY2025_budget,7 of 9,7,,,report_net,Report Surplus (Deficit),budget_original,2301
+2025,FY2025_budget,7 of 9,7,,,report_net,Report Surplus (Deficit),budget_current,2301

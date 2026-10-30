@@ -55,7 +55,7 @@ Priority: P1 do next, P2 soon, P3 when convenient. Each item says what "done" me
 - **D7 (P3)** The FY2027 budget revision (780H) is treated as a one-salary change; confirm if it ever matters.
 
 ### Other governments
-- **G1 (P2) Choose and scope the second government** (decision 2): list its documents, years, fiscal-year start month, chart of accounts style and audit layout; create `entities/<id>/entity.json`.
+- **G1 (P2) Choose and scope the second government** (decision 2). Chosen 2026-10-29: Belvidere Park District; plan with phases and checkpoints in `docs/PARK_DISTRICT_PLAN.md`. Phase 1 (sources and scoping) DONE 2026-10-29: 44 documents in `sources/belvidere_park_district/`, `entities/belvidere_park_district/{entity.json,funds.csv,source_urls.csv}`, `data/belvidere_park_district/source_inventory.csv`; Phase 2 (budget extraction) done except the adopted FY2024 budget (placeholder: FY2024 draft), see the plan doc. Original spec: list its documents, years, fiscal-year start month, chart of accounts style and audit layout; create `entities/<id>/entity.json`.
 - **G2 (P2) Build its extraction pipeline** under `pipelines/<id>/` following the Belvidere pattern: per-document extracts, validation to printed totals, overrides with reasons, `build_facts.py` equivalent writing the canonical tables.
 - **G3 (P2) Fix whatever does not abstract.** Expect changes to `govbudget/` (fund-scoped keys, fiscal-year labelling, category schemes, comparable categories across governments). Record every government-specific oddity in its exceptions registry.
 - **G4 (P3) Shared comparison taxonomy** so categories compare across governments (a mapping per entity onto a common set).

@@ -1,0 +1,4 @@
+doc,page_label,pdf_page,method,raw_text,final_text,detail
+FY2022_budget,pdf2,2,line_prefix,02-0100-524 Printed Supplies $00.00,02-0100-524 Printed Supplies 500.00,OCR read the leading 5 of 500.00 as $. Read from the page image (PDF page 2)
+FY2022_budget,pdf3,3,line_prefix,02-1100-604 Pool Advertising $00.00,02-1100-604 Pool Advertising 500.00,OCR read the leading 5 of 500.00 as $. Read from the page image (PDF page 3)
+FY2022_budget,pdf4,4,line_prefix,"02-1600-604 R.E, Advertising 300.00",02-1600-604 R.E. Advertising 500.00,"OCR read 500.00 as 300.00. Read from the page image (PDF page 4); with it the fund 02 expense lines equal the printed subtotal 1,878,136.00"

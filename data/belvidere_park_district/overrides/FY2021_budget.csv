@@ -1,0 +1,4 @@
+kind,raw,fixed,reason
+line_prefix,"02-1100-710 Pool Bldg Equip Purchase 4,000.00","02-1100-710 Pool Bldg Equip Purchase 1,000.00","OCR read 1,000.00 as 4,000.00. Read from the page image (PDF page 3). With it the Recreation expense lines equal the printed Total Recreation Expenses (1,797,354.00)"
+line_prefix,"09-0100-558 Special Rec 1St Aid Supplies 4,500.00","09-0100-558 Special Rec 1St Aid Supplies 1,500.00","OCR read 1,500.00 as 4,500.00. Read from the page image (PDF page 5): all 40 Special Recreation expense lines read from the image sum to the printed Total Special Recreation Expenses (454,995.00)"
+insert_before,"02-3000-300 Camp 105,000.00","02-2000-300 Preschool 54,500.00","No OCR reading kept this row. Read from the page image (PDF page 4): 02-2000-300 Preschool 54,500.00 sits between Doty Sponsorship and Camp; with it the Recreation Income lines equal the printed total (1,696,601.00) to the dollar"

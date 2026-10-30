@@ -1,0 +1,103 @@
+fund_code,dept_code,name,function,note
+01,010,Administration,Administration,curated 2026-10-30
+01,0100,Corporate Administration,Administration,curated 2026-10-30
+01,011,Audit,Administration,name derived from line labels; to be curated
+01,012,IMRF,Administration,name derived from line labels; to be curated
+01,013,Liability,Administration,name derived from line labels; to be curated
+01,014,Social Security,Administration,name derived from line labels; to be curated
+01,0140,IMRF,Administration,curated 2026-10-30
+01,015,Parks,Parks and facilities,name derived from line labels; to be curated
+01,0150,Social Security,Administration,curated 2026-10-30
+01,016,Building,Parks and facilities,name derived from line labels; to be curated
+01,0160,Liability Insurance,Administration,curated 2026-10-30
+01,017,Grounds,Parks and facilities,name derived from line labels; to be curated
+01,0170,Audit,Administration,curated 2026-10-30
+01,018,Horticulture,Parks and facilities,name derived from line labels; to be curated
+01,019,Park Security,Parks and facilities,name derived from line labels; to be curated
+01,1000,Buildings and Grounds,Parks and facilities,curated 2026-10-30
+02,010,Recreation Administration,Administration,curated 2026-10-30
+02,0100,Recreation Administration,Administration,curated 2026-10-30
+02,015,Recreation Parks,Recreation programs and facilities,curated 2026-10-30
+02,016,Rec Building,Recreation programs and facilities,name derived from line labels; to be curated
+02,017,Rec Grounds,Recreation programs and facilities,name derived from line labels; to be curated
+02,018,Recreation Horticulture,Recreation programs and facilities,curated 2026-10-30
+02,020,Rivers Edge Operations,Recreation programs and facilities,curated 2026-10-30
+02,025,Doty Park,Recreation programs and facilities,curated 2026-10-30
+02,026,Rivers Edge Programs,Recreation programs and facilities,curated 2026-10-30
+02,040,Pool,Recreation programs and facilities,curated 2026-10-30
+02,045,Prairie Fields,Recreation programs and facilities,name derived from line labels; to be curated
+02,050,Third Base,Recreation programs and facilities,name derived from line labels; to be curated
+02,055,Camp,Recreation programs and facilities,name derived from line labels; to be curated
+02,060,Preschool,Recreation programs and facilities,name derived from line labels; to be curated
+02,065,Adult Fitness,Recreation programs and facilities,curated 2026-10-30
+02,068,Youth Fitness,Recreation programs and facilities,name derived from line labels; to be curated
+02,070,Adult Athletics,Recreation programs and facilities,name derived from line labels; to be curated
+02,075,Youth Athletics,Recreation programs and facilities,name derived from line labels; to be curated
+02,085,Youth,Recreation programs and facilities,name derived from line labels; to be curated
+02,090,Special Events,Recreation programs and facilities,curated 2026-10-30
+02,095,Community Events,Recreation programs and facilities,curated 2026-10-30
+02,1000,Recreation Buildings and Grounds,Recreation programs and facilities,curated 2026-10-30
+02,1100,Pool,Recreation programs and facilities,curated 2026-10-30
+02,1200,Doty Park,Recreation programs and facilities,curated 2026-10-30
+02,1500,Meehan Gymnasium,Recreation programs and facilities,curated 2026-10-30
+02,1600,Rivers Edge,Recreation programs and facilities,curated 2026-10-30
+02,2000,Preschool,Recreation programs and facilities,name derived from line labels; to be curated
+02,3000,Camp,Recreation programs and facilities,name derived from line labels; to be curated
+02,4000,Adult Athletics,Recreation programs and facilities,name derived from line labels; to be curated
+02,5000,Adult Programs,Recreation programs and facilities,curated 2026-10-30
+02,5500,Arts,Recreation programs and facilities,name derived from line labels; to be curated
+02,6000,Rivers Edge Rentals,Recreation programs and facilities,curated 2026-10-30
+02,6010,Rivers Edge Birthdays,Recreation programs and facilities,curated 2026-10-30
+02,6020,Adult Fitness,Recreation programs and facilities,curated 2026-10-30
+02,6021,Youth Fitness,Recreation programs and facilities,name derived from line labels; to be curated
+02,6030,Rivers Edge Daily Fees,Recreation programs and facilities,curated 2026-10-30
+02,7000,Youth Athletics,Recreation programs and facilities,name derived from line labels; to be curated
+02,7500,Youth,Recreation programs and facilities,name derived from line labels; to be curated
+02,8000,Third Base,Recreation programs and facilities,curated 2026-10-30
+02,9010,Recreation Scholarships,Recreation programs and facilities,curated 2026-10-30
+02,9100,Special Events,Recreation programs and facilities,curated 2026-10-30
+02,9150,Community Events,Recreation programs and facilities,curated 2026-10-30
+02,9200,Pool Concessions,Recreation programs and facilities,curated 2026-10-30
+02,9210,Pool Passes,Recreation programs and facilities,name derived from line labels; to be curated
+02,9220,Pool Daily Admissions,Recreation programs and facilities,curated 2026-10-30
+02,9230,Swim Lessons,Recreation programs and facilities,curated 2026-10-30
+02,9240,Pool Rentals,Recreation programs and facilities,name derived from line labels; to be curated
+02,9400,General and Marketing,Recreation programs and facilities,curated 2026-10-30
+02,9500,Prairie Fields,Recreation programs and facilities,curated 2026-10-30
+02,9600,Prairie Fields Rentals,Recreation programs and facilities,curated 2026-10-30
+02,9700,Affiliate,Recreation programs and facilities,name derived from line labels; to be curated
+02,9800,Recreation Donations,Recreation programs and facilities,curated 2026-10-30
+02,9901,Vending,Recreation programs and facilities,curated 2026-10-30
+03,0100,Museum Administration,Museum,curated 2026-10-30
+03,1000,Museum Buildings and Grounds,Museum,curated 2026-10-30
+03,2000,Museum Operations,Museum,curated 2026-10-30
+05,016,Special Recreation Buildings,Special recreation,curated 2026-10-30
+05,030,Special Recreation Administration,Special recreation,curated 2026-10-30
+05,031,Inclusion,Special recreation,curated 2026-10-30
+05,032,New Horizons,Special recreation,name derived from line labels; to be curated
+05,033,Camp/Club Horizon,Special recreation,name derived from line labels; to be curated
+05,034,Specialty/SO,Special recreation,name derived from line labels; to be curated
+05,100,Special Recreation,Special recreation,curated 2026-10-30
+08,035,Museum,Museum,curated 2026-10-30
+09,0100,Special Recreation Administration,Special recreation,curated 2026-10-30
+09,1000,Special Recreation Buildings and Grounds,Special recreation,curated 2026-10-30
+09,2000,Inclusion,Special recreation,curated 2026-10-30
+09,5000,Adult Programs,Special recreation,curated 2026-10-30
+09,7500,Youth Programs,Special recreation,curated 2026-10-30
+09,9000,Special Recreation Revenue,Special recreation,curated 2026-10-30
+09,9010,Special Recreation Scholarships,Special recreation,curated 2026-10-30
+09,9020,Special Recreation Rentals,Special recreation,curated 2026-10-30
+09,9400,General Programs,Special recreation,curated 2026-10-30
+10,0000,Transfers,Debt service,curated 2026-10-30
+10,010,Alternate Bond and Interest,Debt service,curated 2026-10-30
+10,0100,Installment Contracts,Debt service,curated 2026-10-30
+10,0830,Glenn Green Installment,Debt service,curated 2026-10-30
+10,0850,2020 Debt,Debt service,curated 2026-10-30
+10,0870,2015 Debt,Debt service,curated 2026-10-30
+12,010,Bond and Interest,Debt service,curated 2026-10-30
+12,0100,Bond and Interest,Debt service,curated 2026-10-30
+21,005,Capital Projects,Capital projects,curated 2026-10-30
+21,010,Capital Projects Revenue,Capital projects,curated 2026-10-30
+21,0100,Capital Projects Revenue,Capital projects,curated 2026-10-30
+21,0910,Capital Improvements,Capital projects,curated 2026-10-30
+25,0100,Riverfront,Capital projects,name derived from line labels; to be curated

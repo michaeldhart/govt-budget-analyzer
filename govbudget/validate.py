@@ -6,6 +6,12 @@ from .schema import (DEBT_PENSION_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, 
 from .entity import read_csv
 
 
+def optional_table(E, name):
+    """A config table a government may not have yet (audit mappings come with the audits): no file is no rows."""
+    import os
+    return E.table(name) if os.path.exists(E.config_path(name)) else []
+
+
 def validate_config(E):
     errs = []
     cats = {c["category_id"]: c for c in E.categories()}
@@ -27,7 +33,7 @@ def validate_config(E):
         if rest.split("-")[0] not in E.departments(fund):
             errs.append(f"account_map.csv: {key}: department code not in departments.csv for fund {fund}")
     rg = {c["name"] for c in E.categories("report_group")}
-    groups = {g["comparable_group"]: g for g in E.table("comparable_groups.csv")}
+    groups = {g["comparable_group"]: g for g in optional_table(E, "comparable_groups.csv")}
     amap = E.account_map()
     for g in groups.values():
         if g["report_group"] and g["report_group"] not in rg:
@@ -35,11 +41,11 @@ def validate_config(E):
         for k in g["budget_members"].split("|"):
             if ("revenue", k) not in amap:
                 errs.append(f"comparable_groups.csv: {g['comparable_group']}: member {k!r} not in account_map")
-    for r in E.table("audit_map.csv"):
+    for r in optional_table(E, "audit_map.csv"):
         if r["comparable_group"] not in groups:
             errs.append(f"audit_map.csv: {r['audit_label']!r}: unknown comparable_group {r['comparable_group']!r}")
     exp_groups = set()
-    for r in E.table("audit_expenditure_map.csv"):
+    for r in optional_table(E, "audit_expenditure_map.csv"):
         exp_groups.add(r["department_group"])
         for d in filter(None, r["budget_dept_codes"].split("|")):
             if d not in E.departments(r.get("fund_code") or "01"):

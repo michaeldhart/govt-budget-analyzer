@@ -1,0 +1,38 @@
+{
+  "entity_id": "belvidere_park_district",
+  "name": "Belvidere Park District (Belvidere Township Park District), IL",
+  "short_name": "Belvidere Park District",
+  "type": "park_district",
+  "state": "IL",
+  "fy_start_month": 1,
+  "fy_label_rule": "fiscal year is the calendar year (FY2027 = January 1, 2027 to December 31, 2027); audits are 'for the year ended December 31'",
+  "currency": "USD",
+  "units": "dollars",
+  "legal_name_note": "Older documents (FY2023-24 ordinances and budgets) are headed 'Belvidere Township Park District'; the website and recent documents say 'Belvidere Park District'. Illinois Comptroller unit code 004/010/12.",
+  "funds": [
+    {"code": "01", "name": "General (Corporate)"},
+    {"code": "02", "name": "Recreation"},
+    {"code": "05", "name": "Special Recreation (FY2027 numbering)"},
+    {"code": "08", "name": "Museum (FY2027 numbering)"},
+    {"code": "03", "name": "Museum (FY2023 numbering)"},
+    {"code": "09", "name": "Special Recreation (FY2023 numbering)"},
+    {"code": "10", "name": "Alternate Bond & Interest (FY2027) / Installment Contracts (FY2023)"},
+    {"code": "12", "name": "Bond & Interest"},
+    {"code": "21", "name": "Capital Projects (CIP)"},
+    {"code": "25", "name": "Riverfront (seen in the FY2020 budget only)"}
+  ],
+  "account_format": {
+    "pattern": "FF-DDDD-OOO in FY2023-FY2025 documents (fund-department-object, e.g. 01-0100-310); FF-DDD-OOOO in the FY2027 draft (e.g. 01-010-3010). Period of the change and the code mapping are still to be established (Phase 2).",
+    "key_segments": [1, 2],
+    "key_note": "provisional: department + object code within a fund; the two numbering schemes need a mapping table before years can be joined",
+    "typo_fixes": {}
+  },
+  "source_index": {
+    "financial_information": "https://www.belviderepark.org/about-us/financial-information/",
+    "media_library": "https://www.belviderepark.org/wp-json/wp/v2/media"
+  },
+  "documents": {
+    "budget_range": [2019, 2027],
+    "audit_range": [2019, 2025]
+  }
+}

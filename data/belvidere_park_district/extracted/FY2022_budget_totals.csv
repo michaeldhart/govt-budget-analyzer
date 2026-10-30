@@ -1,0 +1,9 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,flow,kind,name,amount
+2022,FY2022_budget,pdf2,2,01,expense,fund_subtotal,Corporate,1710794
+2022,FY2022_budget,pdf4,4,02,expense,fund_subtotal,Recreation,1878136
+2022,FY2022_budget,pdf5,5,03,expense,fund_subtotal,Museum,205465
+2022,FY2022_budget,pdf6,6,09,expense,fund_subtotal,Special Recreation,476877
+2022,FY2022_budget,pdf6,6,10,expense,fund_subtotal,Installment Contracts,475300
+2022,FY2022_budget,pdf6,6,12,expense,fund_subtotal,Bond & Interest,1175850
+2022,FY2022_budget,pdf6,6,21,expense,fund_subtotal,CIP,833645
+2022,FY2022_budget,pdf6,6,,expense,grand,GRAND TOTAL,6756067

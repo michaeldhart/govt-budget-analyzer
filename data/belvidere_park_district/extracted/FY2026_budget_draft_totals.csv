@@ -1,0 +1,45 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,fund,kind,name,column,amount
+2026,FY2026_budget_draft,pdf1,1,01,General,fund_revenues,Total Revenue,budget_original,2082787
+2026,FY2026_budget_draft,pdf1,1,01,General,fund_revenues,Total Revenue,budget_current,2082787
+2026,FY2026_budget_draft,pdf2,2,01,General,fund_expenses,Total Expense,budget_original,2074279.51
+2026,FY2026_budget_draft,pdf2,2,01,General,fund_expenses,Total Expense,budget_current,2074279.51
+2026,FY2026_budget_draft,pdf2,2,01,General,fund_net,Surplus (Deficit),budget_original,8507.49
+2026,FY2026_budget_draft,pdf2,2,01,General,fund_net,Surplus (Deficit),budget_current,8507.49
+2026,FY2026_budget_draft,pdf3,3,02,Recreation,fund_revenues,Total Revenue,budget_original,1963013.50
+2026,FY2026_budget_draft,pdf3,3,02,Recreation,fund_revenues,Total Revenue,budget_current,1963013.50
+2026,FY2026_budget_draft,pdf4,4,02,Recreation,fund_expenses,Total Expense,budget_original,1963008.90
+2026,FY2026_budget_draft,pdf4,4,02,Recreation,fund_expenses,Total Expense,budget_current,1963008.90
+2026,FY2026_budget_draft,pdf4,4,02,Recreation,fund_net,Surplus (Deficit),budget_original,4.60
+2026,FY2026_budget_draft,pdf4,4,02,Recreation,fund_net,Surplus (Deficit),budget_current,4.60
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_revenues,Total Revenue,budget_original,642116.10
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_revenues,Total Revenue,budget_current,642116.10
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_expenses,Total Expense,budget_original,642116.10
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_expenses,Total Expense,budget_current,642116.10
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_net,Surplus (Deficit),budget_original,0
+2026,FY2026_budget_draft,pdf5,5,05,Special Recreation,fund_net,Surplus (Deficit),budget_current,0
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_revenues,Total Revenue,budget_original,139656
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_revenues,Total Revenue,budget_current,139656
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_expenses,Total Expense,budget_original,138616
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_expenses,Total Expense,budget_current,138616
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_net,Surplus (Deficit),budget_original,1040
+2026,FY2026_budget_draft,pdf6,6,08,Museum,fund_net,Surplus (Deficit),budget_current,1040
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_revenues,Total Revenue,budget_original,508931
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_revenues,Total Revenue,budget_current,508931
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_expenses,Total Expense,budget_original,500300
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_expenses,Total Expense,budget_current,500300
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_net,Surplus (Deficit),budget_original,8631
+2026,FY2026_budget_draft,pdf6,6,10,Alternate Bond & Interest,fund_net,Surplus (Deficit),budget_current,8631
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_revenues,Total Revenue,budget_original,1389164
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_revenues,Total Revenue,budget_current,1389164
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_expenses,Total Expense,budget_original,1378864
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_expenses,Total Expense,budget_current,1378864
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_net,Surplus (Deficit),budget_original,10300
+2026,FY2026_budget_draft,pdf6,6,12,Bond & Interest,fund_net,Surplus (Deficit),budget_current,10300
+2026,FY2026_budget_draft,pdf6,6,21,Capital Projects,fund_revenues,Total Revenue,budget_original,2577324
+2026,FY2026_budget_draft,pdf6,6,21,Capital Projects,fund_revenues,Total Revenue,budget_current,2577324
+2026,FY2026_budget_draft,pdf6,6,21,Capital Projects,fund_expenses,Total Expense,budget_original,2577303
+2026,FY2026_budget_draft,pdf6,6,21,Capital Projects,fund_expenses,Total Expense,budget_current,2577303
+2026,FY2026_budget_draft,pdf7,7,21,Capital Projects,fund_net,Surplus (Deficit),budget_original,21
+2026,FY2026_budget_draft,pdf7,7,21,Capital Projects,fund_net,Surplus (Deficit),budget_current,21
+2026,FY2026_budget_draft,pdf7,7,,,report_net,Report Surplus (Deficit),budget_original,28504.09
+2026,FY2026_budget_draft,pdf7,7,,,report_net,Report Surplus (Deficit),budget_current,28504.09

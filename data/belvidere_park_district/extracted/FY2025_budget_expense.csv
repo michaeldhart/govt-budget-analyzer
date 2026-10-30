@@ -1,0 +1,489 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,fund,dept_code,account,line_item,column,amount,flag
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4010,Administration FT Wages,budget_original,228166,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4010,Administration FT Wages,budget_current,228166,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4040,Administrative Longevity,budget_original,500,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4040,Administrative Longevity,budget_current,500,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4130,Medicare Employer Contributions,budget_original,34349,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4130,Medicare Employer Contributions,budget_current,34349,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4210,Health Insurance,budget_original,255482,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4210,Health Insurance,budget_current,255482,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4215,Life Insurance Employer,budget_original,4500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4215,Life Insurance Employer,budget_current,4500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4240,Administration Uniforms,budget_original,600,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4240,Administration Uniforms,budget_current,600,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4251,Mileage Reimbursement,budget_original,700,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-4251,Mileage Reimbursement,budget_current,700,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5010,Dues/Subscriptions,budget_original,3055,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5010,Dues/Subscriptions,budget_current,3055,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5012,Board Dues,budget_original,6100,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5012,Board Dues,budget_current,6100,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5015,Professional Meetings,budget_original,2300,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5015,Professional Meetings,budget_current,2300,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5020,Conference/Seminars,budget_original,1725,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5020,Conference/Seminars,budget_current,1725,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5022,Board Conference/Seminars,budget_original,350,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5022,Board Conference/Seminars,budget_current,350,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5023,Admin/Board Assistance,budget_original,4500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5023,Admin/Board Assistance,budget_current,4500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5024,Foundation Admin Assistance,budget_original,2000,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5024,Foundation Admin Assistance,budget_current,2000,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5025,Professional Certification,budget_original,400,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5025,Professional Certification,budget_current,400,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5030,Attorney Services,budget_original,7000,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5030,Attorney Services,budget_current,7000,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5035,Legal Publications,budget_original,400,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5035,Legal Publications,budget_current,400,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5040,Employment Services,budget_original,8307,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5040,Employment Services,budget_current,8307,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5045,Advertising- General,budget_original,1200,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5045,Advertising- General,budget_current,1200,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5100,Computer Contract Services,budget_original,134020,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5100,Computer Contract Services,budget_current,134020,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5105,Copier Maintenance,budget_original,22800,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5105,Copier Maintenance,budget_current,22800,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5107,Document Shredding,budget_original,1200,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5107,Document Shredding,budget_current,1200,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5110,Postage Meter Services,budget_original,3619,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5110,Postage Meter Services,budget_current,3619,account_prefix_repaired
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5115,HR Certified Mailings,budget_original,50,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5115,HR Certified Mailings,budget_current,50,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5145,Admin Cell Phones/Tablets,budget_original,5472,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5145,Admin Cell Phones/Tablets,budget_current,5472,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5150,Telephone/Internet Services,budget_original,24910,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5150,Telephone/Internet Services,budget_current,24910,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5152,Professional Services,budget_original,23500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-5152,Professional Services,budget_current,23500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-6010,Office Equipment,budget_original,500,
+2025,FY2025_budget,1 of 9,1,01,General,010,01-010-6010,Office Equipment,budget_current,500,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6016,Employee Recognition,budget_original,2900,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6016,Employee Recognition,budget_current,2900,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6020,Administration Office Supplies,budget_original,7000,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6020,Administration Office Supplies,budget_current,7000,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6021,Computer Supplies,budget_original,500,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6021,Computer Supplies,budget_current,500,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6080,Vehicle M&R,budget_original,18045,
+2025,FY2025_budget,2 of 9,2,01,General,010,01-010-6080,Vehicle M&R,budget_current,18045,
+2025,FY2025_budget,2 of 9,2,01,General,011,01-011-5050,Audit Services,budget_original,20000,
+2025,FY2025_budget,2 of 9,2,01,General,011,01-011-5050,Audit Services,budget_current,20000,
+2025,FY2025_budget,2 of 9,2,01,General,012,01-012-4110,IMRF Employer Contributions,budget_original,50000,
+2025,FY2025_budget,2 of 9,2,01,General,012,01-012-4110,IMRF Employer Contributions,budget_current,50000,
+2025,FY2025_budget,2 of 9,2,01,General,013,01-013-5905,Contractual Liability Premiums,budget_original,96066,
+2025,FY2025_budget,2 of 9,2,01,General,013,01-013-5905,Contractual Liability Premiums,budget_current,96066,
+2025,FY2025_budget,2 of 9,2,01,General,013,01-013-5906,Contractual Liability Claims,budget_original,6000,
+2025,FY2025_budget,2 of 9,2,01,General,013,01-013-5906,Contractual Liability Claims,budget_current,6000,
+2025,FY2025_budget,2 of 9,2,01,General,014,01-014-4120,Social Security Employer Contrib,budget_original,143000,
+2025,FY2025_budget,2 of 9,2,01,General,014,01-014-4120,Social Security Employer Contrib,budget_current,143000,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4010,Parks FT Wages,budget_original,261417,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4010,Parks FT Wages,budget_current,261417,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4040,Parks Longevity,budget_original,250,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4040,Parks Longevity,budget_current,250,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4240,Parks Uniforms,budget_original,4630,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-4240,Parks Uniforms,budget_current,4630,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5026,Parks Training,budget_original,4350,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5026,Parks Training,budget_current,4350,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5125,Natural Gas Services,budget_original,13452,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5125,Natural Gas Services,budget_current,13452,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5130,Electric Services,budget_original,32907,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5130,Electric Services,budget_current,32907,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5135,Disposal Services,budget_original,10100,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5135,Disposal Services,budget_current,10100,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5140,Water/Sewer Services,budget_original,2700,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5140,Water/Sewer Services,budget_current,2700,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5141,Gasoline/Oil Services,budget_original,38142,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5141,Gasoline/Oil Services,budget_current,38142,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5155,Alarm Contract- General,budget_original,675,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5155,Alarm Contract- General,budget_current,675,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5160,Elevator Contract,budget_original,1940,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5160,Elevator Contract,budget_current,1940,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5200,Equipment Rental,budget_original,21575,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-5200,Equipment Rental,budget_current,21575,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6012,Parks Safety Equipment,budget_original,4569,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6012,Parks Safety Equipment,budget_current,4569,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6020,Parks Office Supplies,budget_original,500,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6020,Parks Office Supplies,budget_current,500,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6035,General Supplies,budget_original,3200,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6035,General Supplies,budget_current,3200,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6037,Holiday Lights,budget_original,3000,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6037,Holiday Lights,budget_current,3000,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6055,Signage,budget_original,1850,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6055,Signage,budget_current,1850,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6056,Park Amenities,budget_original,19741,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6056,Park Amenities,budget_current,19741,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6057,Memorials,budget_original,17888,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6057,Memorials,budget_current,17888,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6070,Equipment M&R,budget_original,19040,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6070,Equipment M&R,budget_current,19040,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6075,Pavement M&R,budget_original,19900,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6075,Pavement M&R,budget_current,19900,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6100,Signage M&R,budget_original,1000,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6100,Signage M&R,budget_current,1000,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6105,Amenities M&R,budget_original,4385,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6105,Amenities M&R,budget_current,4385,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6115,Playground M&R,budget_original,15680,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6115,Playground M&R,budget_current,15680,
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6120,Shelter M&R,budget_original,10350,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6120,Shelter M&R,budget_current,10350,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6200,Life Safety,budget_original,2075,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,015,01-015-6200,Life Safety,budget_current,2075,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-4020,Building PT Wages,budget_original,36867,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-4020,Building PT Wages,budget_current,36867,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-5165,Building Contract,budget_original,21180,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-5165,Building Contract,budget_current,21180,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6013,Building Equipment Purchase,budget_original,7300,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6013,Building Equipment Purchase,budget_current,7300,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6025,Custodial Supplies,budget_original,6200,
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6025,Custodial Supplies,budget_current,6200,
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6035,Building Supplies,budget_original,6050,
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6035,Building Supplies,budget_current,6050,
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6095,Buildings M&R,budget_original,21100,
+2025,FY2025_budget,2 of 9,2,01,General,016,01-016-6095,Buildings M&R,budget_current,21100,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-4020,Grounds PT Wages,budget_original,46500,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-4020,Grounds PT Wages,budget_current,46500,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-5166,Grounds Contract,budget_original,60170,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-5166,Grounds Contract,budget_current,60170,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6035,Grounds Supplies,budget_original,5825,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6035,Grounds Supplies,budget_current,5825,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6058,Herbicide & Fertilizer,budget_original,4060,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6058,Herbicide & Fertilizer,budget_current,4060,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6059,Plants & Trees,budget_original,8500,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6059,Plants & Trees,budget_current,8500,
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6085,Grounds M&R,budget_original,17580,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6085,Grounds M&R,budget_current,17580,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6110,Athletic Fields M&R,budget_original,8600,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,017,01-017-6110,Athletic Fields M&R,budget_current,8600,account_prefix_repaired
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-4020,Horticulture PT Wages,budget_original,41650,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-4020,Horticulture PT Wages,budget_current,41650,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-5167,Horticulture Contract,budget_original,15500,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-5167,Horticulture Contract,budget_current,15500,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-6035,Horticulture Supplies,budget_original,5509,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-6035,Horticulture Supplies,budget_current,5509,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-6090,Horticulture M&R,budget_original,9960,
+2025,FY2025_budget,2 of 9,2,01,General,018,01-018-6090,Horticulture M&R,budget_current,9960,
+2025,FY2025_budget,2 of 9,2,01,General,019,01-019-4020,Park Security PT Wages,budget_original,14112,
+2025,FY2025_budget,2 of 9,2,01,General,019,01-019-4020,Park Security PT Wages,budget_current,14112,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4010,Recreation FT Wages,budget_original,588998,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4010,Recreation FT Wages,budget_current,588998,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4210,Health Insurance,budget_original,99627,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4210,Health Insurance,budget_current,99627,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4251,Mileage Reimbursement,budget_original,300,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-4251,Mileage Reimbursement,budget_current,300,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5010,Dues/Subscriptions,budget_original,2839,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5010,Dues/Subscriptions,budget_current,2839,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5015,Professional Meetings,budget_original,530,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5015,Professional Meetings,budget_current,530,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5020,Conference/Seminars,budget_original,2755,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5020,Conference/Seminars,budget_current,2755,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5025,Professional Certification,budget_original,400,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5025,Professional Certification,budget_current,400,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5040,Employment Services,budget_original,997.50,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5040,Employment Services,budget_current,997.50,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5041,Volunteer Services,budget_original,855,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5041,Volunteer Services,budget_current,855,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5045,Advertising - Recreation,budget_original,46250,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5045,Advertising - Recreation,budget_current,46250,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5065,Marketing Services,budget_original,20826,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5065,Marketing Services,budget_current,20826,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5120,Credit Card Processing Fees,budget_original,28240,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5120,Credit Card Processing Fees,budget_current,28240,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5141,Gasoline/Oil Services,budget_original,1040,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5141,Gasoline/Oil Services,budget_current,1040,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5145,Rec Cell Phone Carrier Services,budget_original,3900,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5145,Rec Cell Phone Carrier Services,budget_current,3900,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5150,Telephone/Internet Services,budget_original,6500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5150,Telephone/Internet Services,budget_current,6500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5910,Recreation Scholarships Awarded,budget_original,5000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-5910,Recreation Scholarships Awarded,budget_current,5000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6010,Office Equipment Purchase,budget_original,750,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6010,Office Equipment Purchase,budget_current,750,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6015,Promotional Supplies,budget_original,3000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6015,Promotional Supplies,budget_current,3000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6020,Recreation Office Supplies,budget_original,5000,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6020,Recreation Office Supplies,budget_current,5000,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6036,Doty Recreation Supplies,budget_original,225,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6036,Doty Recreation Supplies,budget_current,225,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6070,Office Equipment M&R,budget_original,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6070,Office Equipment M&R,budget_current,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6075,Pavement M&R,budget_original,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6075,Pavement M&R,budget_current,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6080,Rec Vehicle M&R,budget_original,1630,
+2025,FY2025_budget,3 of 9,3,02,Recreation,010,02-010-6080,Rec Vehicle M&R,budget_current,1630,
+2025,FY2025_budget,3 of 9,3,02,Recreation,015,02-015-4010,Recreation Parks FT Wages,budget_original,261417.06,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,015,02-015-4010,Recreation Parks FT Wages,budget_current,261417.06,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,016,02-016-4020,Rec Building PT Wages,budget_original,56064,
+2025,FY2025_budget,3 of 9,3,02,Recreation,016,02-016-4020,Rec Building PT Wages,budget_current,56064,
+2025,FY2025_budget,3 of 9,3,02,Recreation,017,02-017-4020,Rec Grounds PT Wages,budget_original,31000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,017,02-017-4020,Rec Grounds PT Wages,budget_current,31000,
+2025,FY2025_budget,3 of 9,3,02,Recreation,018,02-018-4020,Horticulture PT Wages,budget_original,17050,
+2025,FY2025_budget,3 of 9,3,02,Recreation,018,02-018-4020,Horticulture PT Wages,budget_current,17050,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-4020,Rivers Edge PT Wages,budget_original,52400,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-4020,Rivers Edge PT Wages,budget_current,52400,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-4240,Rivers Edge Uniforms,budget_original,400,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-4240,Rivers Edge Uniforms,budget_current,400,account_prefix_repaired
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-5045,Rivers Edge Advertising,budget_original,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-5045,Rivers Edge Advertising,budget_current,500,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-5125,Rivers Edge Natural Gas Services,budget_original,11045,
+2025,FY2025_budget,3 of 9,3,02,Recreation,020,02-020-5125,Rivers Edge Natural Gas Services,budget_current,11045,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5130,Rivers Edge Electric Services,budget_original,33000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5130,Rivers Edge Electric Services,budget_current,33000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5135,Rivers Edge Disposal Services,budget_original,3060,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5135,Rivers Edge Disposal Services,budget_current,3060,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5140,Rivers Edge Water/Sewer Services,budget_original,1400,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5140,Rivers Edge Water/Sewer Services,budget_current,1400,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5155,Rivers Edge Alarm Contract,budget_original,900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5155,Rivers Edge Alarm Contract,budget_current,900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5160,Rivers Edge Elevator Contract,budget_original,1940,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5160,Rivers Edge Elevator Contract,budget_current,1940,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5165,Rivers Edge Building Contract,budget_original,22685,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5165,Rivers Edge Building Contract,budget_current,22685,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5900,Rivers Edge Contractual,budget_original,2500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-5900,Rivers Edge Contractual,budget_current,2500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6013,Rivers Edge Equipment Purchase,budget_original,1250,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6013,Rivers Edge Equipment Purchase,budget_current,1250,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6025,Rivers Edge Custodial Supplies,budget_original,6900,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6025,Rivers Edge Custodial Supplies,budget_current,6900,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6040,Rivers Edge Supplies/Equipment,budget_original,9714,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6040,Rivers Edge Supplies/Equipment,budget_current,9714,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6085,Rivers Edge Grounds M&R,budget_original,1580,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6085,Rivers Edge Grounds M&R,budget_current,1580,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6090,Rivers Edge Horticulture M&R,budget_original,2700,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6090,Rivers Edge Horticulture M&R,budget_current,2700,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6095,Rivers Edge Building M&R,budget_original,15780,
+2025,FY2025_budget,4 of 9,4,02,Recreation,020,02-020-6095,Rivers Edge Building M&R,budget_current,15780,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-4020,Doty PT Wages,budget_original,28810,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-4020,Doty PT Wages,budget_current,28810,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5045,Doty Advertising,budget_original,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5045,Doty Advertising,budget_current,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5125,Doty Natural Gas,budget_original,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5125,Doty Natural Gas,budget_current,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5130,Doty Electric Services,budget_original,42000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5130,Doty Electric Services,budget_current,42000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5135,Doty Disposal Services,budget_original,540,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5135,Doty Disposal Services,budget_current,540,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5140,Doty Water/Sewer Services,budget_original,6000,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-5140,Doty Water/Sewer Services,budget_current,6000,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6012,Doty Safety Equipment,budget_original,2867,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6012,Doty Safety Equipment,budget_current,2867,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6025,Doty Custodial Supplies,budget_original,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6025,Doty Custodial Supplies,budget_current,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6035,Doty Ice Arena Supplies,budget_original,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6035,Doty Ice Arena Supplies,budget_current,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6070,Doty Equipment M&R,budget_original,19120,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6070,Doty Equipment M&R,budget_current,19120,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6095,Doty Building M&R,budget_original,7250,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6095,Doty Building M&R,budget_current,7250,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6125,Doty Ice Arena M&R,budget_original,7850,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6125,Doty Ice Arena M&R,budget_current,7850,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6130,Doty Sprayground M&R,budget_original,6900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-6130,Doty Sprayground M&R,budget_current,6900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-9105,Doty Sponsorship,budget_original,3200,
+2025,FY2025_budget,4 of 9,4,02,Recreation,025,02-025-9105,Doty Sponsorship,budget_current,3200,
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-4020,Rivers Edge Birthday PT Wages,budget_original,900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-4020,Rivers Edge Birthday PT Wages,budget_current,900,
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-6030,Rivers Edge Birthday Supplies,budget_original,645,
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-6030,Rivers Edge Birthday Supplies,budget_current,645,
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-6031,Doty Birthday Supplies,budget_original,40,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,026,02-026-6031,Doty Birthday Supplies,budget_current,40,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,040,02-040-5900,Pool Contractual,budget_original,50000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,040,02-040-5900,Pool Contractual,budget_current,50000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-5130,Prairie Fields Electric,budget_original,3700,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-5130,Prairie Fields Electric,budget_current,3700,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-5140,Prairie Fields Water/Sewer Services,budget_original,5000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-5140,Prairie Fields Water/Sewer Services,budget_current,5000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6035,Prairie Fields Supplies,budget_original,320,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6035,Prairie Fields Supplies,budget_current,320,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6050,Prairie Fields Athletic Supplies,budget_original,12210,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6050,Prairie Fields Athletic Supplies,budget_current,12210,
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6110,Prairie Fields Athletic Fields M&R,budget_original,18252,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,045,02-045-6110,Prairie Fields Athletic Fields M&R,budget_current,18252,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-4020,Third Base PT Wages,budget_original,164740,
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-4020,Third Base PT Wages,budget_current,164740,
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-5900,Third Base Contractual,budget_original,1800,
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-5900,Third Base Contractual,budget_current,1800,
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-6045,Third Base Snacks,budget_original,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-6045,Third Base Snacks,budget_current,1500,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-6050,Third Base Supplies,budget_original,4000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,050,02-050-6050,Third Base Supplies,budget_current,4000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-4020,Camp PT Wages,budget_original,53640,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-4020,Camp PT Wages,budget_current,53640,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-5900,Camp Contractual,budget_original,6400,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-5900,Camp Contractual,budget_current,6400,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-6045,Camp Snacks,budget_original,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-6045,Camp Snacks,budget_current,500,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-6050,Camp Supplies,budget_original,5000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,055,02-055-6050,Camp Supplies,budget_current,5000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,060,02-060-4020,Preschool PT Wages,budget_original,6000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,060,02-060-4020,Preschool PT Wages,budget_current,6000,
+2025,FY2025_budget,4 of 9,4,02,Recreation,060,02-060-6050,Preschool Supplies,budget_original,300,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,060,02-060-6050,Preschool Supplies,budget_current,300,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,065,02-065-5900,Adult Fitness Contractual,budget_original,16218,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,065,02-065-5900,Adult Fitness Contractual,budget_current,16218,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,068,02-068-5900,Youth Fitness Contractual,budget_original,22140,
+2025,FY2025_budget,4 of 9,4,02,Recreation,068,02-068-5900,Youth Fitness Contractual,budget_current,22140,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-4020,Adult Athletics PT Wages,budget_original,360,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-4020,Adult Athletics PT Wages,budget_current,360,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-5900,Adult Athletics Contractual,budget_original,6575,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-5900,Adult Athletics Contractual,budget_current,6575,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-6050,Adult Athletics Supplies,budget_original,462,
+2025,FY2025_budget,4 of 9,4,02,Recreation,070,02-070-6050,Adult Athletics Supplies,budget_current,462,
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-4020,Youth Athletics PT Wages,budget_original,8625,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-4020,Youth Athletics PT Wages,budget_current,8625,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-5900,Youth Athletics Contractual,budget_original,10329,
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-5900,Youth Athletics Contractual,budget_current,10329,
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-6050,Youth Athletics Supplies,budget_original,2215,
+2025,FY2025_budget,4 of 9,4,02,Recreation,075,02-075-6050,Youth Athletics Supplies,budget_current,2215,
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-4020,Youth PT Wages,budget_original,1260,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-4020,Youth PT Wages,budget_current,1260,account_prefix_repaired
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-5900,Youth Contractual,budget_original,17390,
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-5900,Youth Contractual,budget_current,17390,
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-6050,Youth Supplies,budget_original,960,
+2025,FY2025_budget,4 of 9,4,02,Recreation,085,02-085-6050,Youth Supplies,budget_current,960,
+2025,FY2025_budget,4 of 9,4,02,Recreation,090,02-090-4020,Special Event PT Wages,budget_original,2346.44,
+2025,FY2025_budget,4 of 9,4,02,Recreation,090,02-090-4020,Special Event PT Wages,budget_current,2346.44,
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-5900,Special Event Contractual,budget_original,12650,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-5900,Special Event Contractual,budget_current,12650,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-6050,Special Event Supplies,budget_original,4608,
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-6050,Special Event Supplies,budget_current,4608,
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-6051,Doty Special Event Supplies,budget_original,240,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,090,02-090-6051,Doty Special Event Supplies,budget_current,240,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,095,02-095-4020,Community Events PT Wages,budget_original,1147,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,095,02-095-4020,Community Events PT Wages,budget_current,1147,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,02,Recreation,095,02-095-6050,Community Events Supplies,budget_original,1100,
+2025,FY2025_budget,5 of 9,5,02,Recreation,095,02-095-6050,Community Events Supplies,budget_current,1100,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,016,05-016-4020,Building PT Wages,budget_original,15360,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,016,05-016-4020,Building PT Wages,budget_current,15360,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4010,Special Recreation FT Wages,budget_original,194291,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4010,Special Recreation FT Wages,budget_current,194291,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4210,Special Recreation Health Insuranc,budget_original,67332,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4210,Special Recreation Health Insuranc,budget_current,67332,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4240,Staff Uniforms,budget_original,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4240,Staff Uniforms,budget_current,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4250,Special Recreation Tuition Reimbur,budget_original,3744,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4250,Special Recreation Tuition Reimbur,budget_current,3744,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4251,Mileage Reimbursement,budget_original,150,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-4251,Mileage Reimbursement,budget_current,150,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5010,Dues/Subscriptions,budget_original,1510,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5010,Dues/Subscriptions,budget_current,1510,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5015,Professional Meetings,budget_original,900,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5015,Professional Meetings,budget_current,900,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5020,Conference/Seminars,budget_original,2000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5020,Conference/Seminars,budget_current,2000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5025,Professional Certification,budget_original,2475,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5025,Professional Certification,budget_current,2475,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5040,Spec Rec Employment Services,budget_original,997.50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5040,Spec Rec Employment Services,budget_current,997.50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5041,Volunteer Services,budget_original,342,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5041,Volunteer Services,budget_current,342,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5045,Advertising - Special Recreation,budget_original,1103,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5045,Advertising - Special Recreation,budget_current,1103,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5115,HR Certified Mailings,budget_original,50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5115,HR Certified Mailings,budget_current,50,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5125,Natural Gas Services,budget_original,3458,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5125,Natural Gas Services,budget_current,3458,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5130,Electric Services,budget_original,6700,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5130,Electric Services,budget_current,6700,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5135,Disposal Services,budget_original,420,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5135,Disposal Services,budget_current,420,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5140,Water/Sewer Services,budget_original,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5140,Water/Sewer Services,budget_current,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5141,Gasoine/Oil Services,budget_original,4808,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5141,Gasoine/Oil Services,budget_current,4808,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5145,Cell Phone Carrier Services,budget_original,2400,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5145,Cell Phone Carrier Services,budget_current,2400,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5150,Telephone/Internet Services,budget_original,5100,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5150,Telephone/Internet Services,budget_current,5100,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5165,Building Contract,budget_original,2990,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5165,Building Contract,budget_current,2990,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5900,Contractual,budget_original,2000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5900,Contractual,budget_current,2000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5910,Scholarships Awarded,budget_original,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5910,Scholarships Awarded,budget_current,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5911,Fundraiser Expenses,budget_original,4450,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5911,Fundraiser Expenses,budget_current,4450,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5960,Grant Expense,budget_original,3174,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-5960,Grant Expense,budget_current,3174,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6010,Office Equipment,budget_original,600,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6010,Office Equipment,budget_current,600,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6012,Safety Equipment,budget_original,1668,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6012,Safety Equipment,budget_current,1668,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6015,Promotional Supplies,budget_original,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6015,Promotional Supplies,budget_current,1000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6020,Special Recreation Office Supplies,budget_original,1500,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6020,Special Recreation Office Supplies,budget_current,1500,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6025,Custodial Supplies,budget_original,3000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6025,Custodial Supplies,budget_current,3000,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6040,Program Equipment,budget_original,4900,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6040,Program Equipment,budget_current,4900,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6075,Pavement M&R,budget_original,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6075,Pavement M&R,budget_current,500,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6080,Vehicle M&R,budget_original,3040,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6080,Vehicle M&R,budget_current,3040,
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6085,Grounds M&R,budget_original,360,account_prefix_repaired
+2025,FY2025_budget,5 of 9,5,05,Special Recreation,030,05-030-6085,Grounds M&R,budget_current,360,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,030,05-030-6090,Horticulture M&R,budget_original,516,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,030,05-030-6090,Horticulture M&R,budget_current,516,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,030,05-030-6095,Building M&R,budget_original,7000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,030,05-030-6095,Building M&R,budget_current,7000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,031,05-031-4020,Inclusion PT Wages,budget_original,4000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,031,05-031-4020,Inclusion PT Wages,budget_current,4000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,031,05-031-5900,Contractual Inclusion,budget_original,1000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,031,05-031-5900,Contractual Inclusion,budget_current,1000,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,032,05-032-4020,New Horizons PT Wages,budget_original,53377.75,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,032,05-032-4020,New Horizons PT Wages,budget_current,53377.75,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,032,05-032-6050,New Horizons Program Supplies,budget_original,28688,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,032,05-032-6050,New Horizons Program Supplies,budget_current,28688,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,033,05-033-4020,Camp/Club Horizon PT Wages,budget_original,89410,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,033,05-033-4020,Camp/Club Horizon PT Wages,budget_current,89410,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,033,05-033-6050,Camp/Club Horizon Program Suppli,budget_original,6900,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,033,05-033-6050,Camp/Club Horizon Program Suppli,budget_current,6900,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,034,05-034-4020,Specialty/SO PT Wages,budget_original,31845,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,034,05-034-4020,Specialty/SO PT Wages,budget_current,31845,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,034,05-034-6050,Specialty/SO Program Supplies,budget_original,20538.55,
+2025,FY2025_budget,6 of 9,6,05,Special Recreation,034,05-034-6050,Specialty/SO Program Supplies,budget_current,20538.55,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5125,Natural Gas Services,budget_original,1400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5125,Natural Gas Services,budget_current,1400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5130,Electric Services,budget_original,6400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5130,Electric Services,budget_current,6400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5140,Water/Sewer Services,budget_original,700,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5140,Water/Sewer Services,budget_current,700,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5150,Telephone/Internet Services,budget_original,3250,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5150,Telephone/Internet Services,budget_current,3250,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5155,Alarm Contract - Museum,budget_original,900,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5155,Alarm Contract - Museum,budget_current,900,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5160,Elevator Contract,budget_original,1940,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5160,Elevator Contract,budget_current,1940,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5165,Building Contract,budget_original,165090,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5165,Building Contract,budget_current,165090,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5166,Grounds Contract,budget_original,4500,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5166,Grounds Contract,budget_current,4500,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5200,Equipment Rental,budget_original,1400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-5200,Equipment Rental,budget_current,1400,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6020,Museum Office Supplies,budget_original,600,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6020,Museum Office Supplies,budget_current,600,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6085,Grounds M&R,budget_original,3100,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6085,Grounds M&R,budget_current,3100,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6095,Building M&R,budget_original,15700,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6095,Building M&R,budget_current,15700,
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6135,Statue M&R,budget_original,600,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,08,Museum,035,08-035-6135,Statue M&R,budget_current,600,account_prefix_repaired
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-7010,Principal,budget_original,433800,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-7010,Principal,budget_current,433800,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-7015,Interest,budget_original,61500,
+2025,FY2025_budget,6 of 9,6,10,Alternate Bond & Interest,010,10-010-7015,Interest,budget_current,61500,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-7010,G.O. Bonds Principal,budget_original,1284000,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-7010,G.O. Bonds Principal,budget_current,1284000,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-7015,G.O. Bonds Interest,budget_original,48934,
+2025,FY2025_budget,6 of 9,6,12,Bond & Interest,010,12-010-7015,G.O. Bonds Interest,budget_current,48934,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8125,Professional Plans/Services,budget_original,47000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8125,Professional Plans/Services,budget_current,47000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8130,Amenities,budget_original,264000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8130,Amenities,budget_current,264000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8135,Buildings,budget_original,1105300,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8135,Buildings,budget_current,1105300,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8140,Software/Replacement Computers,budget_original,42000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8140,Software/Replacement Computers,budget_current,42000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8150,Vehicles,budget_original,84000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8150,Vehicles,budget_current,84000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8155,Pavement,budget_original,764000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8155,Pavement,budget_current,764000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8160,Grounds,budget_original,169000,
+2025,FY2025_budget,7 of 9,7,21,Capital Projects,005,21-005-8160,Grounds,budget_current,169000,

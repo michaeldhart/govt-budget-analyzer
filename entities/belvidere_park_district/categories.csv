@@ -1,0 +1,24 @@
+category_id,scheme,name,flow,color,sort,note
+property_tax,budget_category,Property tax,revenue,#2a78d6,0,"real estate tax levied for each fund (Corporate, Audit, IMRF, Liability, Social Security inside the General Fund; Recreation, Special Recreation, Museum, Bond & Interest)"
+replacement_tax,budget_category,Replacement tax,revenue,#008300,1,"personal property replacement tax (state-shared), a tax"
+program_fees,budget_category,Program and admission fees,revenue,#eb6834,2,"Recreation and Special Recreation program revenue (objects 300): preschool, camp, athletics, Third Base, pool, fitness, events"
+rentals,budget_category,Rentals and leases,revenue,#eda100,3,"shelters, farm lease, Baltic Mill and Prairie Fields rentals"
+donations_sponsorships,budget_category,"Donations, memorials and sponsorships",revenue,#e87ba4,4,
+grants,budget_category,Grants and intergovernmental,revenue,#1baf7a,5,
+interest,budget_category,Interest,revenue,#898781,6,
+impact_fees,budget_category,Impact fees,revenue,#52514e,7,Capital Projects fund
+bond_proceeds,budget_category,Bond proceeds,revenue,#4a3aa7,8,"borrowing, not operating revenue"
+other_revenue,budget_category,Other revenue,revenue,#b4b2a9,9,"miscellaneous, citations, reimbursements, claims, transfers, sale of assets"
+exp_personnel,expense_object,Personnel and benefits,expense,#2a78d6,0,"FY2025+: object codes 4xxx (wages, longevity, Medicare, health and life insurance, uniforms, mileage); earlier years by label"
+exp_contractual,expense_object,Contractual services,expense,#eb6834,1,"FY2025+: object codes 5xxx (dues, professional services, utilities, advertising, contracts, liability premiums); earlier years by label"
+exp_supplies,expense_object,"Supplies, maintenance and equipment",expense,#1baf7a,2,"FY2025+: object codes 6xxx (supplies, M&R, equipment purchases); older 700 'capital' lines are equipment purchases"
+exp_capital,expense_object,Capital projects,expense,#eda100,3,"Capital Projects fund (21), object codes 8xxx"
+exp_debt_service,expense_object,Debt service,expense,#52514e,4,"principal and interest, funds 10 and 12"
+exp_other,expense_object,Other expense,expense,#b4b2a9,9,not classified by a rule; review
+fn_administration,function_group,Administration,expense,#2a78d6,0,"Corporate administration, Audit, IMRF, Liability, Social Security; Recreation administration"
+fn_parks,function_group,Parks and facilities,expense,#1baf7a,1,"General Fund buildings and grounds, parks"
+fn_recreation,function_group,Recreation programs and facilities,expense,#eb6834,2,"Recreation fund programs, pool, Doty Park, Rivers Edge, Third Base"
+fn_special_recreation,function_group,Special recreation,expense,#e87ba4,3,
+fn_museum,function_group,Museum,expense,#eda100,4,
+fn_debt_service,function_group,Debt service,expense,#52514e,5,
+fn_capital,function_group,Capital projects,expense,#4a3aa7,6,

@@ -1,0 +1,273 @@
+fiscal_year,doc,page_label,pdf_page,fund_code,fund,dept_code,account,line_item,flow,column,amount,flag,section,tag
+2020,FY2020_budget,1,1,01,,0100,01-0100-410,Administrative FT Salaries,expense,budget,333072,,Corporate Expenses,sal
+2020,FY2020_budget,1,1,01,,0100,01-0100-415,Administrative Longevity,expense,budget,250,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-420,Administrative PT Salaries,expense,budget,45000,,Corporate Expenses,sal
+2020,FY2020_budget,1,1,01,,0100,01-0100-430,Health Insurance,expense,budget,190000,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-500,Dues/Subscriptions,expense,budget,4000,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-502,Professional Meetings,expense,budget,1000,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-504,Conference/Seminars,expense,budget,3500,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-506,Course Work Material,expense,budget,1000,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-508,Employee Assistance,expense,budget,1000,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-510,Board Dues,expense,budget,6250,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-512,Board Conference/Seminars,expense,budget,2500,,Corporate Expenses,ben
+2020,FY2020_budget,1,1,01,,0100,01-0100-514,Foundation Assistance,expense,budget,2000,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-520,Office Postage,expense,budget,1500,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-522,General Office Supplies,expense,budget,8000,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-524,Printed Supplies,expense,budget,1000,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-526,Copier Supplies,expense,budget,500,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-527,Safety Committee Supplies,expense,budget,1000,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-528,Computer Supplies,expense,budget,4000,,Corporate Expenses,com
+2020,FY2020_budget,1,1,01,,0100,01-0100-529,Employee Recognition,expense,budget,3500,,Corporate Expenses,ben
+2020,FY2020_budget,2,2,01,,0100,01-0100-530,Travel Reimbursement,expense,budget,500,,Corporate Expenses,ben
+2020,FY2020_budget,2,2,01,,0100,01-0100-532,Office Equipment M&R,expense,budget,1000,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,0100,01-0100-600,Telephone,expense,budget,17000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-602,Newspaper Subscriptions,expense,budget,400,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,0100,01-0100-604,Paid Advertising,expense,budget,5000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,0100,01-0100-606,Chamber of Commerce,expense,budget,175,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,0100,01-0100-670,Copier Maintenance,expense,budget,13000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-672,Telephone Maintenance,expense,budget,1800,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,0100,01-0100-674,Postage Meter Lease,expense,budget,1000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-682,Attorney Fees,expense,budget,5000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-684,Police Services,expense,budget,25000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-686,Personnel Services,expense,budget,16750,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,0100,01-0100-700,Office Equipment Purchase,expense,budget,3000,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,0140,01-0140-440,IMRF Employer Contributions,expense,budget,100000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,0150,01-0150-450,Social Security Contributions,expense,budget,115000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,0150,01-0150-451,Medicare Employer Contributions,expense,budget,25000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,0160,01-0160-660,Liability Contractual,expense,budget,85000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,0160,01-0160-661,Liability Claims,expense,budget,10000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,0170,01-0170-670,Audit Contractual,expense,budget,15000,,Corporate Expenses,
+2020,FY2020_budget,2,2,01,,1000,01-1000-410,B&G Full-Time Salaries,expense,budget,130750,,Corporate Expenses,sal
+2020,FY2020_budget,2,2,01,,1000,01-1000-420,Buildings Part-Time Salaries,expense,budget,40000,,Corporate Expenses,sal
+2020,FY2020_budget,2,2,01,,1000,01-1000-421,Grounds Part-Time Salaries,expense,budget,50000,,Corporate Expenses,sal
+2020,FY2020_budget,2,2,01,,1000,01-1000-425,Training & Testing,expense,budget,3555,,Corporate Expenses,ben
+2020,FY2020_budget,2,2,01,,1000,01-1000-426,Uniforms,expense,budget,4250,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-427,New Life Safety,expense,budget,5000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-540,Building M&R,expense,budget,29133,,Corporate Expenses,build
+2020,FY2020_budget,2,2,01,,1000,01-1000-542,Grounds M&R,expense,budget,18412,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-740,Turf Maintenance-General,expense,budget,10000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-750,Athletic Fields M&R,expense,budget,3670,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-543,Park Amenities,expense,budget,30955,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-544,Vehicle M&R,expense,budget,40180,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,1000,01-1000-546,Equipment M&R,expense,budget,38354,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,1000,01-1000-548,Playground M&R,expense,budget,14850,,Corporate Expenses,equip
+2020,FY2020_budget,2,2,01,,1000,01-1000-549,Vandalism Repair,expense,budget,2000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-550,General Supplies,expense,budget,13683,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-552,Custodial Supplies,expense,budget,5000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-554,Landscape Supplies,expense,budget,6545,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-556,Tool Crib Supplies,expense,budget,2909,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-558,First Aid Supplies,expense,budget,2000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-559,Memorials,expense,budget,10000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-601,Natural Gas Utility,expense,budget,10000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,1000,01-1000-610,Electric,expense,budget,21500,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,1000,01-1000-620,Water/Sewer,expense,budget,5000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,1000,01-1000-630,Gasoline/Oil,expense,budget,32000,,Corporate Expenses,com
+2020,FY2020_budget,2,2,01,,1000,01-1000-635,Disposal,expense,budget,13000,,Corporate Expenses,contract
+2020,FY2020_budget,2,2,01,,1000,01-1000-650,Meehan Gym,expense,budget,13500,,Corporate Expenses,contract
+2020,FY2020_budget,3,3,01,,1000,01-1000-652,Alarm Contract,expense,budget,2200,,Corporate Expenses,contract
+2020,FY2020_budget,3,3,01,,1000,01-1000-654,Elevator Contract,expense,budget,2700,,Corporate Expenses,contract
+2020,FY2020_budget,3,3,01,,1000,01-1000-656,Computer Contract,expense,budget,47000,,Corporate Expenses,contract
+2020,FY2020_budget,3,3,01,,1000,01-1000-660,Grounds Contract,expense,budget,59700,,Corporate Expenses,contract
+2020,FY2020_budget,3,3,01,,1000,01-1000-710,Building Equipment Purchase,expense,budget,1100,,Corporate Expenses,equip
+2020,FY2020_budget,3,3,01,,1000,01-1000-720,Landscape Equipment Purchase,expense,budget,7790,,Corporate Expenses,equip
+2020,FY2020_budget,3,3,01,,1000,01-1000-730,Playground Equipment Purchase,expense,budget,2000,,Corporate Expenses,equip
+2020,FY2020_budget,3,3,02,,0100,02-0100-410,Administrative Full-Time Salaries,expense,budget,512453,,Recreation Administration,sal
+2020,FY2020_budget,3,3,02,,0100,02-0100-415,Administrative Longevity,expense,budget,0,,Recreation Administration,ben
+2020,FY2020_budget,3,3,02,,0100,02-0100-420,Administrative Part-Time Salaries,expense,budget,28000,,Recreation Administration,sal
+2020,FY2020_budget,3,3,02,,0100,02-0100-500,Dues/Subscriptions,expense,budget,3000,,Recreation Administration,ben
+2020,FY2020_budget,3,3,02,,0100,02-0100-502,Professional Meetings,expense,budget,1000,,Recreation Administration,ben
+2020,FY2020_budget,3,3,02,,0100,02-0100-504,Conference/Seminars,expense,budget,5000,,Recreation Administration,ben
+2020,FY2020_budget,3,3,02,,0100,02-0100-507,Professional Training/Certification,expense,budget,400,,Recreation Administration,ben
+2020,FY2020_budget,4,4,02,,0100,02-0100-506,Course Work Material,expense,budget,200,,Recreation Administration,ben
+2020,FY2020_budget,4,4,02,,0100,02-0100-520,Postage,expense,budget,7500,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-430,Health Insurance,expense,budget,55000,,Recreation Administration,ben
+2020,FY2020_budget,4,4,02,,0100,02-0100-630,Gasoline/Oil,expense,budget,10000,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-522,Office Supplies,expense,budget,8000,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-524,Printed Supplies,expense,budget,1000,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-530,Travel Reimbursement,expense,budget,500,,Recreation Administration,ben
+2020,FY2020_budget,4,4,02,,0100,02-0100-532,Office Equipment M&R,expense,budget,750,,Recreation Administration,equip
+2020,FY2020_budget,4,4,02,,0100,02-0100-600,Telephone,expense,budget,18000,,Recreation Administration,contract
+2020,FY2020_budget,4,4,02,,0100,02-0100-604,Advertising,expense,budget,40000,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-608,Bankcard Fee,expense,budget,13500,,Recreation Administration,com
+2020,FY2020_budget,4,4,02,,0100,02-0100-700,Office Equipment Purchase,expense,budget,1000,,Recreation Administration,equip
+2020,FY2020_budget,4,4,02,,1000,02-1000-410,Recreation B&G Full-Time Salaries,expense,budget,154279,,Recreation Buildings & Grounds,sal
+2020,FY2020_budget,4,4,02,,1000,02-1000-420,Recreation Buildings Part-Time Salaries,expense,budget,40000,,Recreation Buildings & Grounds,sal
+2020,FY2020_budget,4,4,02,,1000,02-1000-421,Recreation Grounds Part-Time Salaries,expense,budget,50000,,Recreation Buildings & Grounds,sal
+2020,FY2020_budget,4,4,02,,4000,02-4000-420,Adult Athletics Part-Time Salaries,expense,budget,1000,,Recreation Programs,sal
+2020,FY2020_budget,4,4,02,,4000,02-4000-500,Adult Athletics Supplies,expense,budget,500,,Recreation Programs,com
+2020,FY2020_budget,4,4,02,,4000,02-4000-600,Adult Athletics Contractual,expense,budget,16000,,Recreation Programs,contract
+2020,FY2020_budget,4,4,02,,4000,02-4000-700,Adult Athletics Capital,expense,budget,0,,Recreation Programs,
+2020,FY2020_budget,4,4,02,,9700,02-9700-420,Affiliate Part-Time Salaries,expense,budget,0,,Recreation Programs,sal
+2020,FY2020_budget,4,4,02,,9700,02-9700-500,Affiliate Supplies,expense,budget,250,,Recreation Programs,com
+2020,FY2020_budget,4,4,02,,9400,02-9400-420,General Part-Time Salaries,expense,budget,0,,Recreation Programs,sal
+2020,FY2020_budget,4,4,02,,9400,02-9400-500,General Supplies,expense,budget,10000,,Recreation Programs,com
+2020,FY2020_budget,4,4,02,,9400,02-9400-600,General Contractual,expense,budget,42000,,Recreation Programs,contract
+2020,FY2020_budget,4,4,02,,9400,02-9400-700,General Capital,expense,budget,0,,Recreation Programs,
+2020,FY2020_budget,4,4,02,,5500,02-5500-420,Arts Part-time Salaries,expense,budget,250,,Recreation Programs,sal
+2020,FY2020_budget,4,4,02,,5500,02-5500-500,Arts Supplies,expense,budget,250,,Recreation Programs,com
+2020,FY2020_budget,4,4,02,,5500,02-5500-600,Arts Contractual,expense,budget,0,,Recreation Programs,contract
+2020,FY2020_budget,4,4,02,,5500,02-5500-700,Arts Capital,expense,budget,0,,Recreation Programs,
+2020,FY2020_budget,5,5,02,,9500,02-9500-420,Prairie Fields Supervisor Part-Time,expense,budget,500,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,9500,02-9500-426,Prairie Fields Uniforms,expense,budget,1000,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,9500,02-9500-500,Prairie Fields Supplies,expense,budget,1500,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,9500,02-9500-610,Prairie Fields Electric,expense,budget,3500,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,9500,02-9500-620,Prairie Fields Water/Sewer,expense,budget,10000,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,9500,02-9500-600,Prairie Fields Contractual,expense,budget,0,,Recreation Programs,
+2020,FY2020_budget,5,5,02,,2000,02-2000-420,Preschool Part-Time Salaries,expense,budget,36000,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,2000,02-2000-500,Preschool Supplies,expense,budget,3200,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,2000,02-2000-600,Preschool Contractual,expense,budget,1000,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,2000,02-2000-700,Preschool Capital,expense,budget,0,,Recreation Programs,
+2020,FY2020_budget,5,5,02,,3000,02-3000-420,Camp Part-Time Salaries,expense,budget,76000,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,3000,02-3000-500,Camp Supplies,expense,budget,3200,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,3000,02-3000-503,Camp Snacks,expense,budget,500,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,3000,02-3000-600,Camp Contractual,expense,budget,7000,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,9100,02-9100-420,Special Event Part-Time Salaries,expense,budget,3500,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,9100,02-9100-500,Special Event Supplies,expense,budget,7500,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,9100,02-9100-600,Special Event Contractual,expense,budget,13000,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,9230,02-9230-420,Swim Lesson Part-Time Salaries,expense,budget,0,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,9230,02-9230-500,Swim Lesson Supplies,expense,budget,0,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,9230,02-9230-600,Swim Lesson Contractual,expense,budget,7560,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,8000,02-8000-420,Third Base Part-Time Salaries,expense,budget,140000,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,8000,02-8000-500,Third Base Supplies,expense,budget,5000,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,8000,02-8000-503,Third Base Snacks,expense,budget,6500,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,8000,02-8000-600,Third Base Contractual,expense,budget,2500,,Recreation Programs,contract
+2020,FY2020_budget,5,5,02,,7000,02-7000-420,Youth Athletics Part-Time Salaries,expense,budget,7400,,Recreation Programs,sal
+2020,FY2020_budget,5,5,02,,7000,02-7000-500,Youth Athletics Supplies,expense,budget,6500,,Recreation Programs,com
+2020,FY2020_budget,5,5,02,,7000,02-7000-600,Youth Athletics Contractual,expense,budget,2000,,Recreation Programs,contract
+2020,FY2020_budget,6,6,02,,7500,02-7500-420,Youth Part-Time Salaries,expense,budget,500,,Recreation Programs,sal
+2020,FY2020_budget,6,6,02,,7500,02-7500-500,Youth Supplies,expense,budget,500,,Recreation Programs,com
+2020,FY2020_budget,6,6,02,,7500,02-7500-600,Youth Contractual,expense,budget,0,,Recreation Programs,contract
+2020,FY2020_budget,6,6,02,,1500,02-1500-540,Meehan Building M&R,expense,budget,1000,,Meehan Gymnasium,build
+2020,FY2020_budget,6,6,02,,9200,02-9200-420,Concessions Part-Time Salaries,expense,budget,0,,Pool Concessions,sal
+2020,FY2020_budget,6,6,02,,9200,02-9200-500,Concession Supplies,expense,budget,0,,Pool Concessions,com
+2020,FY2020_budget,6,6,02,,9200,02-9200-600,Concession Contractual,expense,budget,0,,Pool Concessions,contract
+2020,FY2020_budget,6,6,02,,1100,02-1100-420,Part-Time Salaries,expense,budget,6000,,Pool Operations,sal
+2020,FY2020_budget,6,6,02,,1100,02-1100-425,Pool Training,expense,budget,500,,Pool Operations,ben
+2020,FY2020_budget,6,6,02,,1100,02-1100-522,Pool Office Supplies,expense,budget,600,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-534,Pool Pass Supplies,expense,budget,1000,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-536,Pool Guard Supplies,expense,budget,0,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-540,Pool Building M&R,expense,budget,19485,,Pool Operations,build
+2020,FY2020_budget,6,6,02,,1100,02-1100-546,Pool Equipment M&R,expense,budget,9330,,Pool Operations,equip
+2020,FY2020_budget,6,6,02,,1100,02-1100-551,Pool Chemicals,expense,budget,12500,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-552,Pool Custodial Supplies,expense,budget,1500,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-554,Pool Landscape Supplies,expense,budget,1000,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-558,Pool First Aid Supplies,expense,budget,500,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-600,Pool Contractual,expense,budget,115000,,Pool Operations,contract
+2020,FY2020_budget,6,6,02,,1100,02-1100-601,Pool Natural Gas,expense,budget,3000,,Pool Operations,contract
+2020,FY2020_budget,6,6,02,,1100,02-1100-604,Pool Advertising,expense,budget,2500,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1100,02-1100-610,Pool Electric,expense,budget,15000,,Pool Operations,contract
+2020,FY2020_budget,6,6,02,,1100,02-1100-620,Pool Water/Sewer,expense,budget,5000,,Pool Operations,contract
+2020,FY2020_budget,6,6,02,,1100,02-1100-710,Pool Building Equipment Purchase,expense,budget,1000,,Pool Operations,equip
+2020,FY2020_budget,6,6,02,,1100,02-1100-740,Pool Circulation Equipment Purchase,expense,budget,2500,,Pool Operations,equip
+2020,FY2020_budget,6,6,02,,1100,02-1100-760,Pool Special Events,expense,budget,1000,,Pool Operations,com
+2020,FY2020_budget,6,6,02,,1600,02-1600-420,RE Part-Time Salaries,expense,budget,50000,,Rivers Edge Recreation Center,sal
+2020,FY2020_budget,6,6,02,,1600,02-1600-426,RE Uniforms,expense,budget,1000,,Rivers Edge Recreation Center,com
+2020,FY2020_budget,6,6,02,,1600,02-1600-522,RE Office Supplies,expense,budget,2000,,Rivers Edge Recreation Center,com
+2020,FY2020_budget,6,6,02,,1600,02-1600-540,RE Building M&R,expense,budget,29865,,Rivers Edge Recreation Center,build
+2020,FY2020_budget,6,6,02,,1600,02-1600-546,RE Equipment M&R,expense,budget,14000,,Rivers Edge Recreation Center,equip
+2020,FY2020_budget,6,6,02,,1600,02-1600-552,RE Custodial Supplies,expense,budget,4000,,Rivers Edge Recreation Center,com
+2020,FY2020_budget,6,6,02,,1600,02-1600-600,RE Contractual,expense,budget,12000,,Rivers Edge Recreation Center,contract
+2020,FY2020_budget,7,7,02,,1600,02-1600-601,RE Natural Gas,expense,budget,15000,,Rivers Edge Recreation Center,contract
+2020,FY2020_budget,7,7,02,,1600,02-1600-610,RE Electric,expense,budget,34000,,Rivers Edge Recreation Center,contract
+2020,FY2020_budget,7,7,02,,1600,02-1600-604,RE Advertising,expense,budget,2500,,Rivers Edge Recreation Center,com
+2020,FY2020_budget,7,7,02,,1600,02-1600-620,RE Water/Sewer,expense,budget,3000,,Rivers Edge Recreation Center,contract
+2020,FY2020_budget,7,7,02,,1600,02-1600-654,RE Elevator,expense,budget,3700,,Rivers Edge Recreation Center,contract
+2020,FY2020_budget,7,7,02,,6010,02-6010-420,RE Birthday Part-Time Salaries,expense,budget,0,,Rivers Edge Recreation Center Birthdays,sal
+2020,FY2020_budget,7,7,02,,6010,02-6010-500,RE Birthday Supplies,expense,budget,0,,Rivers Edge Recreation Center Birthdays,com
+2020,FY2020_budget,7,7,02,,6010,02-6010-600,RE Contractual,expense,budget,0,two_amount_columns,Rivers Edge Recreation Center Birthdays,contract
+2020,FY2020_budget,7,7,02,,1200,02-1200-420,Part-Time Salaries,expense,budget,18000,,Doty Park,sal
+2020,FY2020_budget,7,7,02,,1200,02-1200-425,Training,expense,budget,1000,,Doty Park,ben
+2020,FY2020_budget,7,7,02,,1200,02-1200-540,Building M&R,expense,budget,12450,,Doty Park,build
+2020,FY2020_budget,7,7,02,,1200,02-1200-546,Equipment M&R,expense,budget,6435,,Doty Park,equip
+2020,FY2020_budget,7,7,02,,1200,02-1200-550,General Supplies,expense,budget,8000,,Doty Park,com
+2020,FY2020_budget,7,7,02,,1200,02-1200-552,Custodial Supplies,expense,budget,1500,,Doty Park,com
+2020,FY2020_budget,7,7,02,,1200,02-1200-558,First Aid Supplies,expense,budget,500,,Doty Park,com
+2020,FY2020_budget,7,7,02,,1200,02-1200-600,Contractual,expense,budget,9758,,Doty Park,contract
+2020,FY2020_budget,7,7,02,,1200,02-1200-601,Natural Gas,expense,budget,3000,,Doty Park,contract
+2020,FY2020_budget,7,7,02,,1200,02-1200-604,Advertising,expense,budget,2500,,Doty Park,com
+2020,FY2020_budget,7,7,02,,1200,02-1200-610,Electric,expense,budget,28000,,Doty Park,contract
+2020,FY2020_budget,7,7,02,,1200,02-1200-620,Water/Sewer,expense,budget,7000,,Doty Park,contract
+2020,FY2020_budget,7,7,02,,1200,02-1200-710,Equipment Purchase,expense,budget,2000,,Doty Park,equip
+2020,FY2020_budget,7,7,02,,1200,02-1200-711,Sponsorship,expense,budget,2000,,Doty Park,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-410,Museum Full-Time Salaries,expense,budget,0,,Museum Expenses,sal
+2020,FY2020_budget,8,8,03,,2000,03-2000-420,Museum Part-Time Salaries,expense,budget,24000,,Museum Expenses,sal
+2020,FY2020_budget,8,8,03,,2000,03-2000-500,Museum Supplies,expense,budget,2000,,Museum Expenses,com
+2020,FY2020_budget,8,8,03,,2000,03-2000-540,Museum Building M&R,expense,budget,25645,,Museum Expenses,build
+2020,FY2020_budget,8,8,03,,2000,03-2000-542,Museum Grounds M&R,expense,budget,6120,,Museum Expenses,com
+2020,FY2020_budget,8,8,03,,2000,03-2000-600,Museum Telephone,expense,budget,2000,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-601,Museum Natural Gas,expense,budget,1500,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-610,Museum Electric,expense,budget,8000,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-620,Museum Water/Sewer,expense,budget,1000,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-640,Museum Contractual M&R,expense,budget,134765,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-654,Museum Elevator,expense,budget,3000,,Museum Expenses,contract
+2020,FY2020_budget,8,8,03,,2000,03-2000-680,Museum Professional Services,expense,budget,40000,,Museum Expenses,contract
+2020,FY2020_budget,8,8,09,,0100,09-0100-410,Special Recreation Full-Time Salaries,expense,budget,156436,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,0100,09-0100-415,Special Recreation Longevity,expense,budget,500,,Special Recreation Expenses,ben
+2020,FY2020_budget,8,8,09,,9400,09-9400-420,Special Recreation PT General Salaries,expense,budget,19000,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,7500,09-7500-420,Special Recreation PT Youth Salaries,expense,budget,48897,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,5000,09-5000-420,Special Recreation PT Adult Salaries,expense,budget,57435,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,1000,09-1000-420,Special Recreation PT B&G Salaries,expense,budget,13800,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,2000,09-2000-420,Special Recreation PT Inclusion Salaries,expense,budget,1000,,Special Recreation Expenses,sal
+2020,FY2020_budget,8,8,09,,0100,09-0100-430,Special Recreation Health Insurance,expense,budget,55000,,Special Recreation Expenses,ben
+2020,FY2020_budget,9,9,09,,0100,09-0100-500,Special Recreation Dues/Subscriptions,expense,budget,1500,,Special Recreation Expenses,ben
+2020,FY2020_budget,9,9,09,,9400,09-9400-501,Special Recreation Gen Program Supplies,expense,budget,16000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,7500,09-7500-501,Special Recreation Youth Program Supplies,expense,budget,5989,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,5000,09-5000-501,Special Recreation Adult Program Supplies,expense,budget,28491,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-502,Special Recreation Professional Meetings,expense,budget,4300,,Special Recreation Expenses,ben
+2020,FY2020_budget,9,9,09,,0100,09-0100-506,Special Recreation Course Material,expense,budget,1000,,Special Recreation Expenses,ben
+2020,FY2020_budget,9,9,09,,0100,09-0100-522,Special Recreation Office Supplies,expense,budget,2000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-530,Special Recreation Travel Reimbursement,expense,budget,250,,Special Recreation Expenses,ben
+2020,FY2020_budget,9,9,09,,0100,09-0100-544,Special Recreation Vehicle M&R,expense,budget,5000,,Special Recreation Expenses,equip
+2020,FY2020_budget,9,9,09,,0100,09-0100-558,Special Recreation 1st Aid Supplies,expense,budget,1500,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-560,Special Recreation Program Equipment,expense,budget,6000,,Special Recreation Expenses,equip
+2020,FY2020_budget,9,9,09,,1000,09-1000-630,Special Recreation Gas & Oil,expense,budget,4500,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,1000,09-1000-552,Special Recreation Custodial Supplies,expense,budget,1000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,1000,09-1000-520,Special Recreation Postage,expense,budget,3500,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,1000,09-1000-674,Special Recreation Postage Meter,expense,budget,125,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,1000,09-1000-670,Special Recreation Copier Maintenance,expense,budget,11500,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-600,Special Recreation Cell Telephone,expense,budget,4000,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-601,Special Recreation Natural Gas,expense,budget,2500,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-604,Special Recreation Advertising,expense,budget,5000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-610,Special Recreation Electric,expense,budget,6000,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-620,Special Recreation Water/Sewer,expense,budget,500,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-624,Special Recreation Contractual,expense,budget,1000,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-625,Special Recreation Contractual Inclusion,expense,budget,1000,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-700,Special Recreation Office Equipment,expense,budget,500,,Special Recreation Expenses,equip
+2020,FY2020_budget,9,9,09,,0100,09-0100-622,Special Recreation Cable/Internet/Phone,expense,budget,2000,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-627,Special Recreation Scholarship,expense,budget,1000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-750,Special Recreation CIP,expense,budget,0,,Special Recreation Expenses,contract
+2020,FY2020_budget,9,9,09,,0100,09-0100-760,Special Recreation Fundraiser,expense,budget,5000,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,09,,0100,09-0100-540,Special Recreation Building M&R,expense,budget,10525,,Special Recreation Expenses,build
+2020,FY2020_budget,9,9,09,,0100,09-0100-542,Special Recreation Grounds M&R,expense,budget,500,,Special Recreation Expenses,com
+2020,FY2020_budget,9,9,10,,0850,10-0850-810,2012 Debt Principal,expense,budget,350000,,Alternate Bond Expenses,Fund
+2020,FY2020_budget,9,9,10,,0850,10-0850-815,2012 Debt Interest,expense,budget,153525,,Alternate Bond Expenses,
+2020,FY2020_budget,9,9,10,,0830,10-0830-810,Glenn Green Principal,expense,budget,0,,Alternate Bond Expenses,
+2020,FY2020_budget,9,9,10,,0830,10-0830-815,Glenn Green Interest,expense,budget,0,,Alternate Bond Expenses,
+2020,FY2020_budget,9,9,10,,0870,10-0870-810,2015 Debt Principal,expense,budget,1000000,,Alternate Bond Expenses,
+2020,FY2020_budget,9,9,10,,0870,10-0870-815,2015 Debt Interest,expense,budget,14000,,Alternate Bond Expenses,
+2020,FY2020_budget,10,10,12,,0100,12-0100-810,G.O. Bonds Principal,expense,budget,1100000,,Bond & Interest Expenses,Fund
+2020,FY2020_budget,10,10,12,,0100,12-0100-815,G.O. Bonds Interest,expense,budget,19250,,Bond & Interest Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-669,Belvidere Park Path Repairs,expense,budget,40000,,2020 CIP Expenses,Fund
+2020,FY2020_budget,10,10,21,,0910,21-0910-635,Land Acquisition,expense,budget,0,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-651,Bond Administration,expense,budget,5000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-730,Aquatics Study,expense,budget,23000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-731,Signage (PF Digital and general),expense,budget,40500,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-644,Vehicles (2),expense,budget,46500,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-643,Mowers (2),expense,budget,69000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-734,Equipment (3),expense,budget,20500,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-725,Land Acquisition upgrades (Sundstrand),expense,budget,20000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-703,"Site Planning(Bracken,Winterroth,PF)",expense,budget,30000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-716,Doty Riverside Ice Arena Artist Rendering,expense,budget,2500,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-732,NASR Roof Replacement,expense,budget,80000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-706,Pool Upgrades,expense,budget,0,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-718,Bloom Playground Surface Repairs,expense,budget,120000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-719,Centennial Project,expense,budget,90000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-712,Doty Park Path Development Planning,expense,budget,250000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-727,Rivers Edge Soffit Repairs,expense,budget,50000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-728,Rivers Edge HVAC control replacemnt,expense,budget,18000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-733,Doty Playground,expense,budget,50000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-676,New Computers,expense,budget,15000,,2020 CIP Expenses,
+2020,FY2020_budget,10,10,21,,0910,21-0910-711,Miscellaneous,expense,budget,5000,,2020 CIP Expenses,
+2020,FY2020_budget,11,11,25,,0100,25-0100-500,Riverfront Supplies,expense,budget,0,,Riverfront Expenses,Fune
+2020,FY2020_budget,11,11,25,,0100,25-0100-600,Riverfront Contractual,expense,budget,0,,Riverfront Expenses,
+2020,FY2020_budget,11,11,25,,0100,25-0100-700,Riverfront Capital,expense,budget,0,,Riverfront Expenses,

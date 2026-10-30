@@ -1,0 +1,817 @@
+flow,account_key,label,department,category_id,treatment,note
+expense,010-4010,Administration FT Wages,Administration,exp_personnel,expense,rule: object code
+expense,010-4040,Administrative Longevity,Administration,exp_personnel,expense,rule: object code
+expense,010-4130,Medicare Employer Contributions,Administration,exp_personnel,expense,rule: object code
+expense,010-4210,Health Insurance,Administration,exp_personnel,expense,rule: object code
+expense,010-4215,Life Insurance-Employer,Administration,exp_personnel,expense,rule: object code
+expense,010-4240,Administration Uniforms,Administration,exp_personnel,expense,rule: object code
+expense,010-4251,Mileage Reimbursement,Administration,exp_personnel,expense,rule: object code
+expense,010-5010,Dues/Subscriptions,Administration,exp_contractual,expense,rule: object code
+expense,010-5012,Board Dues,Administration,exp_contractual,expense,rule: object code
+expense,010-5015,Professional Meetings,Administration,exp_contractual,expense,rule: object code
+expense,010-5020,Conference/Seminars,Administration,exp_contractual,expense,rule: object code
+expense,010-5022,Board Conference/Seminars,Administration,exp_contractual,expense,rule: object code
+expense,010-5023,Admin/Board Assistance,Administration,exp_contractual,expense,rule: object code
+expense,010-5024,Foundation Admin Assistance,Administration,exp_contractual,expense,rule: object code
+expense,010-5025,Professional Certification,Administration,exp_contractual,expense,rule: object code
+expense,010-5030,Attorney Services,Administration,exp_contractual,expense,rule: object code
+expense,010-5035,Legal Publications,Administration,exp_contractual,expense,rule: object code
+expense,010-5040,Employment Services,Administration,exp_contractual,expense,rule: object code
+expense,010-5045,Advertising- General,Administration,exp_contractual,expense,rule: object code
+expense,010-5100,Computer Contract Services,Administration,exp_contractual,expense,rule: object code
+expense,010-5105,Copier Maintenance,Administration,exp_contractual,expense,rule: object code
+expense,010-5107,Document Shredding,Administration,exp_contractual,expense,rule: object code
+expense,010-5110,Postage Meter Services,Administration,exp_contractual,expense,rule: object code
+expense,010-5115,HR Certified Mailings,Administration,exp_contractual,expense,rule: object code
+expense,010-5145,Admin Cell Phones/Tablets,Administration,exp_contractual,expense,rule: object code
+expense,010-5150,Telephone/Internet Services,Administration,exp_contractual,expense,rule: object code
+expense,010-5152,Professional Services,Administration,exp_contractual,expense,rule: object code
+expense,010-6010,Office Equipment,Administration,exp_supplies,expense,rule: object code
+expense,010-6016,Employee Recognition,Administration,exp_supplies,expense,rule: object code
+expense,010-6020,Corporate Office Supplies,Administration,exp_supplies,expense,rule: object code
+expense,010-6021,Computer Supplies,Administration,exp_supplies,expense,rule: object code
+expense,010-6080,Vehicle M&R,Administration,exp_supplies,expense,rule: object code
+expense,010-6085,Corporate Miscellaneous Expense,Administration,exp_supplies,expense,rule: object code
+expense,0100-410,Administration FT Wages,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-415,Administrative Longevity,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-416,Parks Longevity,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-420,Administration PT Wages,Corporate Administration,exp_personnel,expense,rule: keyword personnel
+expense,0100-430,Health Insurance,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-500,Dues/Subscriptions,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-502,Professional Meetings,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-504,Conference/Seminars,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-506,Tuition Reimbursement,Corporate Administration,exp_personnel,expense,rule: keyword personnel
+expense,0100-507,Professional Certification,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-508,Employee Assistance,Corporate Administration,exp_personnel,expense,rule: keyword personnel
+expense,0100-510,Board Dues,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-512,Board Conference/Seminars,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-513,Admin/Board Assistance,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-514,Foundation Admin Assistance,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-515,Illinois lcash/Misc,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-520,HR Certified Mailings,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-522,Administration Office Supplies,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,0100-524,Printed Supplies,Corporate Administration,exp_supplies,expense,rule: keyword supplies
+expense,0100-526,Copier Supplies,Corporate Administration,exp_supplies,expense,rule: keyword supplies
+expense,0100-527,Safety Committee Supplies,Corporate Administration,exp_supplies,expense,rule: keyword supplies
+expense,0100-528,Computer Supplies,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,0100-529,Employee Recognition,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,0100-530,Mileage Reimbursement,Corporate Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0100-532,Office Equipment M&R,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,0100-599,Admin Cell Phones/Tablets,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-600,Telephone/Internet Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-602,Newspaper Subscriptions,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-603,Legal Publications,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-604,Advertising,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-606,Chamber of Commerce,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-651,Bond Administration,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-661,Document Shredding,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-670,Copier Maintenance,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-672,Telephone Maintenance,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-674,Postage Meter Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-682,Attorney Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-683,Professional Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-684,Police Services,Corporate Administration,exp_contractual,expense,rule: keyword contractual
+expense,0100-686,Employment Services,Corporate Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0100-700,Office Equipment,Corporate Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,011-5050,Audit Services,Audit,exp_contractual,expense,rule: object code
+expense,012-4110,IMRF Employer Contributions,IMRF,exp_personnel,expense,rule: object code
+expense,013-5905,Contractual Liability Premiums,Liability,exp_contractual,expense,rule: object code
+expense,013-5906,Contractual Liability Claims,Liability,exp_contractual,expense,rule: object code
+expense,014-4120,Social Security Employer Contrib,Social Security,exp_personnel,expense,rule: object code
+expense,0140-440,IMRF Employer Contributions,IMRF,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,015-4010,Parks FT Wages,Parks,exp_personnel,expense,rule: object code
+expense,015-4040,Parks Longevity,Parks,exp_personnel,expense,rule: object code
+expense,015-4240,Parks Uniforms,Parks,exp_personnel,expense,rule: object code
+expense,015-5026,Parks Training,Parks,exp_contractual,expense,rule: object code
+expense,015-5125,Natural Gas Services,Parks,exp_contractual,expense,rule: object code
+expense,015-5130,Electric Services,Parks,exp_contractual,expense,rule: object code
+expense,015-5135,Disposal Services,Parks,exp_contractual,expense,rule: object code
+expense,015-5140,Water/Sewer Services,Parks,exp_contractual,expense,rule: object code
+expense,015-5141,Gasoline/Oil Services,Parks,exp_contractual,expense,rule: object code
+expense,015-5155,Alarm Contract- General,Parks,exp_contractual,expense,rule: object code
+expense,015-5160,Elevator Contract,Parks,exp_contractual,expense,rule: object code
+expense,015-5200,Equipment Rental,Parks,exp_contractual,expense,rule: object code
+expense,015-5916,Vandalism Repair,Parks,exp_contractual,expense,rule: object code
+expense,015-6012,Parks Safety Equipment,Parks,exp_supplies,expense,rule: object code
+expense,015-6020,Parks Office Supplies,Parks,exp_supplies,expense,rule: object code
+expense,015-6035,General Supplies,Parks,exp_supplies,expense,rule: object code
+expense,015-6037,Holiday Lights,Parks,exp_supplies,expense,rule: object code
+expense,015-6055,Signage,Parks,exp_supplies,expense,rule: object code
+expense,015-6056,Park Amenities,Parks,exp_supplies,expense,rule: object code
+expense,015-6057,Memorials,Parks,exp_supplies,expense,rule: object code
+expense,015-6070,Equipment M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6075,Pavement M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6100,Signage M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6105,Amenities M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6115,Playground M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6120,Shelter M&R,Parks,exp_supplies,expense,rule: object code
+expense,015-6200,Life Safety,Parks,exp_supplies,expense,rule: object code
+expense,0150-450,Social Security Employer Contrib,Social Security,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,0150-451,Medicare Employer Contributions,Social Security,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,016-4020,Building PT Wages,Building,exp_personnel,expense,rule: object code
+expense,016-5165,Building Contract,Building,exp_contractual,expense,rule: object code
+expense,016-6013,Building Equipment Purchase,Building,exp_supplies,expense,rule: object code
+expense,016-6025,Custodial Supplies,Building,exp_supplies,expense,rule: object code
+expense,016-6035,Building Supplies,Building,exp_supplies,expense,rule: object code
+expense,016-6095,Buildings M&R,Building,exp_supplies,expense,rule: object code
+expense,0160-410,Liability Ft Salary,Liability Insurance,exp_personnel,expense,rule: keyword personnel
+expense,0160-660,Contractual Liability Premiums,Liability Insurance,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,0160-661,Contractual Liability Claims,Liability Insurance,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,017-4020,Grounds PT Wages,Grounds,exp_personnel,expense,rule: object code
+expense,017-5166,Grounds Contract,Grounds,exp_contractual,expense,rule: object code
+expense,017-6035,Grounds Supplies,Grounds,exp_supplies,expense,rule: object code
+expense,017-6058,Herbicide & Fertilizer,Grounds,exp_supplies,expense,rule: object code
+expense,017-6059,Plants & Trees,Grounds,exp_supplies,expense,rule: object code
+expense,017-6085,Grounds M&R,Grounds,exp_supplies,expense,rule: object code
+expense,017-6110,Athletic Fields M&R,Grounds,exp_supplies,expense,rule: object code
+expense,0170-670,Audit Services,Audit,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,018-4020,Horticulture PT Wages,Horticulture,exp_personnel,expense,rule: object code
+expense,018-5167,Horticulture Contract,Horticulture,exp_contractual,expense,rule: object code
+expense,018-6035,Horticulture Supplies,Horticulture,exp_supplies,expense,rule: object code
+expense,018-6090,Horticulture M&R,Horticulture,exp_supplies,expense,rule: object code
+expense,019-4020,Park Security PT Wages,Park Security,exp_personnel,expense,rule: object code
+expense,1000-410,Parks FT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-420,Building PT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-421,Grounds PT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-422,Horticulture PT Wages,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-425,Parks Training,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-426,Admin Uniforms,Buildings and Grounds,exp_personnel,expense,rule: keyword personnel
+expense,1000-427,Life Safety,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-428,Parks Uniforms,Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,1000-429,Parks Safety Equipment,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-430,Parks Office Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-431,Signage,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-448,Amenities M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-449,Pavement M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-500,Signage M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-540,Buildings M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-541,Horticulture M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-542,Grounds M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-543,Park Amenities,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-544,Vehicles M&R,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-545,Equipment Rental,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-546,Equipment M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-547,Shelter M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-548,Playground M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-549,Vandalism Repair,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-550,General Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-552,Custodial Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-554,Landscape Supplies,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-556,Tool Crib Supplies,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-558,First Aid Supplies,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-559,Memorials,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-601,Natural Gas Services,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-610,Flectric Services,Buildings and Grounds,exp_contractual,expense,rule: keyword contractual
+expense,1000-620,Water/Sewer Services,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-630,Gasoline/Oil Services,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-635,Disposal Services,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-650,Meehan Gym,Buildings and Grounds,exp_contractual,expense,rule: keyword contractual
+expense,1000-652,Alarm Contract,Buildings and Grounds,exp_contractual,expense,rule: keyword contractual
+expense,1000-654,Elevator Contract,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-656,Computer Contract Services,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-658,Building Contract,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-660,Grounds Contract,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-661,Horticulture Contract,Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,1000-662,Grounds Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-663,Horticulture Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-664,Building Supplies,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-665,Herbicide & Fertilizer,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-666,Plants & Trees,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-710,Building Equipment Purchase,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-720,Landscape Equipment Purchase,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-730,Playground Equipment Purchase,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-740,Turf Maintenance,Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,1000-750,Athletic Fields M&R,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,1000-770,Holiday Lights,Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:010-4010,Recreation FT Wages,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-4020,Recreation PT Wages,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-4040,Recreation Longevity,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-4210,Health Insurance,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-4251,Mileage Reimbursement,Recreation Administration,exp_personnel,expense,rule: object code
+expense,02:010-5010,Dues/Subscriptions,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5015,Professional Meetings,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5020,Conference/Seminars,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5025,Professional Certification,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5040,Employment Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5041,Volunteer Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5045,Advertising - Recreation,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5065,Marketing Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5100,Computer Contract Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5120,Credit Card Processing Fees,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5141,Gasoline/Oil Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5145,Rec Cell Phone Carrier Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5150,Telephone/Internet Services,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-5910,Recreation Scholarships Awarded,Recreation Administration,exp_contractual,expense,rule: object code
+expense,02:010-6010,Office Equipment Purchase,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6015,Promotional Supplies,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6020,Recreation Office Supplies,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6021,Computer supplies,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6035,General Supplies,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6036,Doty Recreation Supplies,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6070,Office Equipment M&R,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6075,Pavement M&R,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:010-6080,Rec Vehicle M&R,Recreation Administration,exp_supplies,expense,rule: object code
+expense,02:0100-410,Recreation FT Wages,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-415,Administrative Longevity,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-420,Recreation PT Wages,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-430,Health Insurance,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-500,Dues/Subscriptions,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-502,Professional Meetings,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-504,Conference/Seminars,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-506,Tuition Reimbursement,Recreation Administration,exp_personnel,expense,rule: keyword personnel
+expense,02:0100-507,Professional Certification,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-520,Postage,Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,02:0100-522,Recreation Office Supplies,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:0100-524,Printed Supplies,Recreation Administration,exp_supplies,expense,rule: keyword supplies
+expense,02:0100-530,Mileage Reimbursement,Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:0100-532,Office Equipment M&R,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:0100-599,Rec Cell Phone Carrier Services,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-600,Telephone Services,Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,02:0100-604,Advertising,Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,02:0100-608,Bankcard Fees,Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,02:0100-627,Recreation Scholarships Awarded,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-630,Gasoline/Oil Services,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-686,Employment Services,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-687,Volunteer Services,Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:0100-700,Office Equipment Purchase,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:0100-710,Promotional Supplies,Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:0100-711,Recreation Safety Equipment,Recreation Administration,exp_supplies,expense,rule: keyword supplies
+expense,02:015-4010,Recreation Parks FT Wages,Recreation Parks,exp_personnel,expense,rule: object code
+expense,02:015-6200,Life Safety,Recreation Parks,exp_supplies,expense,rule: object code
+expense,02:016-4020,Rec Building PT Wages,Rec Building,exp_personnel,expense,rule: object code
+expense,02:017-4020,Rec Grounds PT Wages,Rec Grounds,exp_personnel,expense,rule: object code
+expense,02:018-4020,Horticulture PT Wages,Recreation Horticulture,exp_personnel,expense,rule: object code
+expense,02:020-4020,Rivers Edge PT Wages,Rivers Edge Operations,exp_personnel,expense,rule: object code
+expense,02:020-4240,Rivers Edge Uniforms,Rivers Edge Operations,exp_personnel,expense,rule: object code
+expense,02:020-5045,Rivers Edge Advertising,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5125,Rivers Edge Natural Gas Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5130,Rivers Edge Electric Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5135,Rivers Edge Disposal Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5140,Rivers Edge Water/Sewer Services,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5155,Rivers Edge Alarm Contract,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5160,Rivers Edge Elevator Contract,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5165,Rivers Edge Building Contract,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-5900,Rivers Edge Contractual,Rivers Edge Operations,exp_contractual,expense,rule: object code
+expense,02:020-6013,Rivers Edge Equipment Purchase,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:020-6025,Rivers Edge Custodial Supplies,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:020-6040,Rivers Edge Supplies/Equipment,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:020-6085,Rivers Edge Grounds M&R,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:020-6090,Rivers Edge Horticulture M&R,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:020-6095,Rivers Edge Building M&R,Rivers Edge Operations,exp_supplies,expense,rule: object code
+expense,02:025-4020,Doty PT Wages,Doty Park,exp_personnel,expense,rule: object code
+expense,02:025-5045,Doty Advertising,Doty Park,exp_contractual,expense,rule: object code
+expense,02:025-5125,Doty Natural Gas,Doty Park,exp_contractual,expense,rule: object code
+expense,02:025-5130,Doty Electric Services,Doty Park,exp_contractual,expense,rule: object code
+expense,02:025-5135,Doty Disposal Services,Doty Park,exp_contractual,expense,rule: object code
+expense,02:025-5140,Doty Water/Sewer Services,Doty Park,exp_contractual,expense,rule: object code
+expense,02:025-6012,Doty Safety Equipment,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6025,Doty Custodial Supplies,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6035,Doty Ice Arena Supplies,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6036,Doty General Supplies,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6070,Doty Equipment M&R,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6095,Doty Building M&R,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6125,Doty Ice Arena M&R,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-6130,Doty Sprayground M&R,Doty Park,exp_supplies,expense,rule: object code
+expense,02:025-9105,Doty Sponsorship,Doty Park,exp_contractual,expense,reviewed 2026-10-30: sponsorship expense (object 711 / 9105) counted as a contractual service
+expense,02:026-4020,Rivers Edge Birthday PT Wages,Rivers Edge Programs,exp_personnel,expense,rule: object code
+expense,02:026-6030,Rivers Edge Birthday Supplies,Rivers Edge Programs,exp_supplies,expense,rule: object code
+expense,02:026-6031,Doty Birthday Supplies,Rivers Edge Programs,exp_supplies,expense,rule: object code
+expense,02:040-5900,Pool Contractual,Pool,exp_contractual,expense,rule: object code
+expense,02:045-5130,Prairie Fields Electric,Prairie Fields,exp_contractual,expense,rule: object code
+expense,02:045-5140,Prairie Fields Water/Sewer Services,Prairie Fields,exp_contractual,expense,rule: object code
+expense,02:045-6035,Prairie Fields Supplies,Prairie Fields,exp_supplies,expense,rule: object code
+expense,02:045-6050,Prairie Fields Athletic Supplies,Prairie Fields,exp_supplies,expense,rule: object code
+expense,02:045-6110,Prairie Fields Athletic Fields M&R,Prairie Fields,exp_supplies,expense,rule: object code
+expense,02:050-4020,Third Base PT Wages,Third Base,exp_personnel,expense,rule: object code
+expense,02:050-5900,Third Base Contractual,Third Base,exp_contractual,expense,rule: object code
+expense,02:050-6045,Third Base Snacks,Third Base,exp_supplies,expense,rule: object code
+expense,02:050-6050,Third Base Supplies,Third Base,exp_supplies,expense,rule: object code
+expense,02:055-4020,Camp PT Wages,Camp,exp_personnel,expense,rule: object code
+expense,02:055-5900,Camp Contractual,Camp,exp_contractual,expense,rule: object code
+expense,02:055-6045,Camp Snacks,Camp,exp_supplies,expense,rule: object code
+expense,02:055-6050,Camp Supplies,Camp,exp_supplies,expense,rule: object code
+expense,02:060-4020,Preschool PT Wages,Preschool,exp_personnel,expense,rule: object code
+expense,02:060-6050,Preschool Supplies,Preschool,exp_supplies,expense,rule: object code
+expense,02:065-5900,Adult Fitness Contractual,Adult Fitness,exp_contractual,expense,rule: object code
+expense,02:068-5900,Youth Fitness Contractual,Youth Fitness,exp_contractual,expense,rule: object code
+expense,02:070-4020,Adult Athletics PT Wages,Adult Athletics,exp_personnel,expense,rule: object code
+expense,02:070-5900,Adult Athletics Contractual,Adult Athletics,exp_contractual,expense,rule: object code
+expense,02:070-6050,Adult Athletics Supplies,Adult Athletics,exp_supplies,expense,rule: object code
+expense,02:075-4020,Youth Athletics PT Wages,Youth Athletics,exp_personnel,expense,rule: object code
+expense,02:075-5900,Youth Athletics Contractual,Youth Athletics,exp_contractual,expense,rule: object code
+expense,02:075-6050,Youth Athletics Supplies,Youth Athletics,exp_supplies,expense,rule: object code
+expense,02:085-4020,Youth PT Wages,Youth,exp_personnel,expense,rule: object code
+expense,02:085-5900,Youth Contractual,Youth,exp_contractual,expense,rule: object code
+expense,02:085-6050,Youth Supplies,Youth,exp_supplies,expense,rule: object code
+expense,02:090-4020,Special Event PT Wages,Special Events,exp_personnel,expense,rule: object code
+expense,02:090-5900,Special Event Contractual,Special Events,exp_contractual,expense,rule: object code
+expense,02:090-6050,Special Event Supplies,Special Events,exp_supplies,expense,rule: object code
+expense,02:090-6051,Doty Special Event Supplies,Special Events,exp_supplies,expense,rule: object code
+expense,02:095-4020,Community Events PT Wages,Community Events,exp_personnel,expense,rule: object code
+expense,02:095-6050,Community Events Supplies,Community Events,exp_supplies,expense,rule: object code
+expense,02:1000-410,Recreation Parks FT Wages,Recreation Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1000-420,Rec Building PT Wages,Recreation Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1000-421,Rec Grounds PT Wages,Recreation Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1000-422,Horticulture PT Wages,Recreation Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1000-449,Pavement M&R,Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1000-500,Signage M&R,Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1000-544,Rec Vehicle M&R,Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1000-670,Copier Maintenance,Recreation Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1100-420,Pool PT Salaries,Pool,exp_personnel,expense,rule: keyword personnel
+expense,02:1100-425,Pool Training,Pool,exp_personnel,expense,rule: keyword personnel
+expense,02:1100-522,Pool Office Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-534,Pool Pass Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-536,Pool Guard Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-540,Pool Building M&R,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-546,Pool Equipment M&R,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-551,Pool Chemicals,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-552,Pool Custodial Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-554,Pool Landscape Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-558,Pool First Aid Supplies,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-600,Pool Contractual,Pool,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1100-601,Pool Natural Gas,Pool,exp_contractual,expense,rule: keyword contractual
+expense,02:1100-604,Pool Advertising,Pool,exp_contractual,expense,rule: keyword contractual
+expense,02:1100-610,Pool Electric,Pool,exp_contractual,expense,rule: keyword contractual
+expense,02:1100-620,Pool Water/Sewer,Pool,exp_contractual,expense,rule: keyword contractual
+expense,02:1100-710,Pool Bldg Equip Purchase,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-740,Pool Circulation Equipment Purchase,Pool,exp_supplies,expense,rule: keyword supplies
+expense,02:1100-760,Pool Special Events,Pool,exp_contractual,expense,rule: keyword contractual
+expense,02:1200-420,Doty PT Wages,Doty Park,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1200-425,Doty-Training,Doty Park,exp_personnel,expense,rule: keyword personnel
+expense,02:1200-540,Doty Building M&R,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-546,Doty Equipment M&R,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-547,Doty Signage M&R,Doty Park,exp_supplies,expense,rule: keyword supplies
+expense,02:1200-550,Doty General Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-551,Doty Office Supplies,Doty Park,exp_supplies,expense,rule: keyword supplies
+expense,02:1200-552,Doty Custodial Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-558,Doty Safety Equipment,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-600,Doty Contractual,Doty Park,exp_contractual,expense,rule: keyword contractual
+expense,02:1200-601,Doty Natural Gas,Doty Park,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1200-602,Doty Ice Arena M&R,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-604,Doty Advertising,Doty Park,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1200-610,Doty Electric Services,Doty Park,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1200-620,Doty Water/Sewer Services,Doty Park,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1200-630,Doty Sprayground M&R,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-635,Doty Disposal Services,Doty Park,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1200-710,Doty Equipment Purchase,Doty Park,exp_supplies,expense,rule: keyword supplies
+expense,02:1200-711,Doty Sponsorship,Doty Park,exp_contractual,expense,reviewed 2026-10-30: sponsorship expense (object 711 / 9105) counted as a contractual service
+expense,02:1200-712,Doty Signage,Doty Park,exp_supplies,expense,rule: keyword supplies
+expense,02:1200-713,Doty Recreation Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-714,Doty Special Event Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-715,Doty Ice Arena Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1200-716,Doty Birthday Supplies,Doty Park,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1500-540,Meehan Building M&R,Meehan Gymnasium,exp_contractual,expense,rule: keyword contractual
+expense,02:1600-420,Rivers Edge PT Wages,Rivers Edge,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1600-426,Rivers Edge Uniforms,Rivers Edge,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:1600-522,Rivers Edge Office Supplies,Rivers Edge,exp_supplies,expense,rule: keyword supplies
+expense,02:1600-540,Rivers Edge Building M&R,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-541,Rivers Edge Signage M&R,Rivers Edge,exp_supplies,expense,rule: keyword supplies
+expense,02:1600-542,Rivers Edge Grounds M&R,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-543,Rivers Edge Horticulture M&R,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-546,R.E. Equipment M&R,Rivers Edge,exp_supplies,expense,rule: keyword supplies
+expense,02:1600-550,Rivers Edge Supplies/Equipment “,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-552,Rivers Edge Custodial Supplies,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-553,Rivers Edge Safety Equipment,Rivers Edge,exp_supplies,expense,rule: keyword supplies
+expense,02:1600-600,Rivers Edge Contractual,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-601,Rivers Edge Natural Gas Services,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-604,Rivers Edge Advertising,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-610,Rivers Edge Electric Services,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-620,Rivers Edge Water/Sewer Services,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-635,Rivers Edge Disposal Services,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-654,Rivers Edge Elevator Contract,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-655,Rivers Edge Alarm Contract,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-658,‘Rivers Edge Building Contract,Rivers Edge,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:1600-659,Rivers Edge Birthday Contractual,Rivers Edge,exp_contractual,expense,rule: keyword contractual
+expense,02:1600-710,Rivers Edge Equipment Purchase,Rivers Edge,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:1600-711,Rivers Edge Signage,Rivers Edge,exp_supplies,expense,rule: keyword supplies
+expense,02:2000-420,Preschool PT Wages,Preschool,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:2000-500,Preschool Supplies,Preschool,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:2000-600,Preschool Contractual,Preschool,exp_contractual,expense,rule: keyword contractual
+expense,02:2000-700,Preschool Capital,Preschool,exp_supplies,expense,rule: keyword capital (equipment purchase)
+expense,02:3000-420,Camp PT Wages,Camp,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:3000-500,Camp Supplies,Camp,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:3000-503,Camp Snacks,Camp,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:3000-600,Camp Contractual,Camp,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:4000-420,Adult Athletics PT Salaries,Adult Athletics,exp_personnel,expense,rule: keyword personnel
+expense,02:4000-500,Adult Athletics Supplies,Adult Athletics,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:4000-600,Adult Athletics Contractual,Adult Athletics,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:4000-700,Adult Athletics Capital,Adult Athletics,exp_supplies,expense,rule: keyword capital (equipment purchase)
+expense,02:5000-500,Adult Supplies,Adult Programs,exp_supplies,expense,rule: keyword supplies
+expense,02:5500-420,Arts Part-Time Salaries,Arts,exp_personnel,expense,rule: keyword personnel
+expense,02:5500-500,Arts Supplies,Arts,exp_supplies,expense,rule: keyword supplies
+expense,02:5500-600,Arts Contractual,Arts,exp_contractual,expense,rule: keyword contractual
+expense,02:5500-700,Arts Capital,Arts,exp_supplies,expense,rule: keyword capital (equipment purchase)
+expense,02:6010-420,Rivers Edge Birthday PT Wages,Rivers Edge Birthdays,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:6010-500,Rivers Edge Birthday Supplies,Rivers Edge Birthdays,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:6010-600,RE Contractual,Rivers Edge Birthdays,exp_contractual,expense,rule: keyword contractual
+expense,02:6020-600,Fitness Contractual,Adult Fitness,exp_contractual,expense,rule: keyword contractual
+expense,02:6020-601,Adult Fitness Contractual,Adult Fitness,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:6021-601,Youth Fitness Contractual,Youth Fitness,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:7000-420,Youth Athletics PT Wages,Youth Athletics,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:7000-500,Youth Athletics Supplies,Youth Athletics,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:7000-600,Youth Athletics Contractual,Youth Athletics,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:7500-420,Youth PT Wages,Youth,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:7500-500,Youth Supplies,Youth,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:7500-600,Youth Contractual,Youth,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:8000-420,Third Base PT Wages,Third Base,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:8000-500,Third Base Supplies,Third Base,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:8000-503,Third Base Snacks,Third Base,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:8000-600,Third Base Contractual,Third Base,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:9100-420,Special Event PT Wages,Special Events,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:9100-500,Special Event Supplies,Special Events,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9100-600,Special Event Contractual,Special Events,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:9150-420,Community Events PT Wages,Community Events,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,02:9150-522,Community Events Supplies,Community Events,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9200-420,Concessions Part-Time Salaries,Pool Concessions,exp_personnel,expense,rule: keyword personnel
+expense,02:9200-500,Concession Supplies,Pool Concessions,exp_supplies,expense,rule: keyword supplies
+expense,02:9200-600,Concession Contractual,Pool Concessions,exp_contractual,expense,rule: keyword contractual
+expense,02:9230-420,Swim Lesson Part-Time Salaries,Swim Lessons,exp_personnel,expense,rule: keyword personnel
+expense,02:9230-500,Swim Lesson Supplies,Swim Lessons,exp_supplies,expense,rule: keyword supplies
+expense,02:9230-600,Swim Lessons Contractual,Swim Lessons,exp_contractual,expense,rule: keyword contractual
+expense,02:9400-420,General Part-Time Salaries,General and Marketing,exp_personnel,expense,rule: keyword personnel
+expense,02:9400-500,General Supplies,General and Marketing,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9400-600,Marketing Contractual,General and Marketing,exp_contractual,expense,rule: keyword contractual
+expense,02:9400-700,General Capital,General and Marketing,exp_supplies,expense,rule: keyword capital (equipment purchase)
+expense,02:9500-420,Prairie Fields Salaries Pt,Prairie Fields,exp_personnel,expense,rule: keyword personnel
+expense,02:9500-426,Prairie Fields Uniforms,Prairie Fields,exp_personnel,expense,rule: keyword personnel
+expense,02:9500-500,Prairie Fields Supplies,Prairie Fields,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9500-600,Prairie Fields Contractual,Prairie Fields,exp_contractual,expense,rule: keyword contractual
+expense,02:9500-610,Prairie Fields Electric,Prairie Fields,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:9500-620,Prairie Fields Water/Sewer Services,Prairie Fields,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,02:9500-750,Prairie Fields Athletic Fields M&R,Prairie Fields,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9500-751,Prairie Fields Athletic Supplies,Prairie Fields,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,02:9700-420,Affiliate Part-Time Salaries,Affiliate,exp_personnel,expense,rule: keyword personnel
+expense,02:9700-500,Affiliate Supplies,Affiliate,exp_supplies,expense,rule: keyword supplies
+expense,03:1000-500,Signage M&R,Museum Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:1000-545,Equipment Rental,Museum Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-410,Museum Full-Time Salaries,Museum Operations,exp_personnel,expense,rule: keyword personnel
+expense,03:2000-420,Museum Pt Salaries,Museum Operations,exp_personnel,expense,rule: keyword personnel
+expense,03:2000-431,Signage,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-500,Museum Office Supplies,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-540,Building M&R,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-542,Grounds M&R,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-543,Horticulture M&R,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-544,Statue M&R,Museum Operations,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,03:2000-600,Telephone/Internet Services,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-601,Natural Gas Services,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-610,Electric Services,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-620,Water/Sewer Services,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-640,Building Contract,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-654,Elevator Contract,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-655,Alarm Contract,Museum Operations,exp_contractual,expense,rule: keyword contractual
+expense,03:2000-660,Grounds Contract,Museum Operations,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,03:2000-680,Museum Professional Service,Museum Operations,exp_contractual,expense,rule: keyword contractual
+expense,05:016-4020,Building PT Wages,Special Recreation Buildings,exp_personnel,expense,rule: object code
+expense,05:030-4010,Special Recreation FT Wages,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4040,Spec Rec Longevity,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4210,Special Recreation Health Insurance,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4240,Staff Uniforms,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4250,Special Recreation Tuition Reimbur,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-4251,Mileage Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: object code
+expense,05:030-5010,Dues/Subscriptions,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5015,Professional Meetings,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5020,Conference/Seminars,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5025,Professional Certification,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5040,Spec Rec Employment Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5041,Volunteer Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5045,Advertising - Special Recreation,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5115,HR Certified Mailings,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5125,Natural Gas Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5130,Electric Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5135,Disposal Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5140,Water/Sewer Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5141,Gasoline/Oil Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5145,Cell Phone Carrier Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5150,Telephone/Internet Services,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5165,Building Contract,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5900,Contractual,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5910,Scholarships Awarded,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5911,Fundraiser Expenses,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-5960,Grant Expense,Special Recreation Administration,exp_contractual,expense,rule: object code
+expense,05:030-6010,Office Equipment,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6012,Safety Equipment,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6015,Promotional Supplies,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6020,Special Recreation Office Supplies,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6021,Computer Supplies,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6025,Custodial Supplies,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6040,Program Equipment,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6055,Signage,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6075,Pavement M&R,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6080,Vehicle M&R,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6085,Grounds M&R,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6090,Horticulture M&R,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:030-6095,Building M&R,Special Recreation Administration,exp_supplies,expense,rule: object code
+expense,05:031-4020,Inclusion PT Wages,Inclusion,exp_personnel,expense,rule: object code
+expense,05:031-5900,Contractual Inclusion,Inclusion,exp_contractual,expense,rule: object code
+expense,05:032-4020,New Horizons PT Wages,New Horizons,exp_personnel,expense,rule: object code
+expense,05:032-6050,New Horizons Program Supplies,New Horizons,exp_supplies,expense,rule: object code
+expense,05:033-4020,Camp/Club Horizon PT Wages,Camp/Club Horizon,exp_personnel,expense,rule: object code
+expense,05:033-6050,Camp/Club Horizon Program Suppli…,Camp/Club Horizon,exp_supplies,expense,rule: object code
+expense,05:034-4020,Specialty/SO PT Wages,Specialty/SO,exp_personnel,expense,rule: object code
+expense,05:034-6050,Specialty/SO Program Supplies,Specialty/SO,exp_supplies,expense,rule: object code
+expense,08:035-5125,Natural Gas Services,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5130,Electric Services,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5140,Water/Sewer Services,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5150,Telephone/Internet Services,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5155,Alarm Contract - Museum,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5160,Elevator Contract,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5165,Building Contract,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5166,Grounds Contract,Museum,exp_contractual,expense,rule: object code
+expense,08:035-5200,Equipment Rental,Museum,exp_contractual,expense,rule: object code
+expense,08:035-6020,Museum Office Supplies,Museum,exp_supplies,expense,rule: object code
+expense,08:035-6085,Grounds M&R,Museum,exp_supplies,expense,rule: object code
+expense,08:035-6095,Building M&R,Museum,exp_supplies,expense,rule: object code
+expense,08:035-6135,Statue M&R,Museum,exp_supplies,expense,rule: object code
+expense,09:0100-410,Special Recreation FT Wages,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-415,Special Recreation Longevity .,Special Recreation Administration,exp_personnel,expense,rule: keyword personnel
+expense,09:0100-420,Special Recreation PT Wages,Special Recreation Administration,exp_personnel,expense,rule: keyword personnel
+expense,09:0100-430,Health Insurance,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-431,Signage,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-432,Staff Uniforms,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-500,Dues/Subscriptions,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-502,Professional Meetings,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-504,Conference/Seminars,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-506,Special Rec Tuition Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: keyword personnel
+expense,09:0100-507,Professional Certification,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-522,Special Recreation Office Supplies,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-530,Mileage Reimbursement,Special Recreation Administration,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:0100-540,Building M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-542,Grounds M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-543,Horticulture M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-544,Vehicle M&R,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-545,Equipment Rental,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-558,Safety Equipment,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-560,Program Equipment,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-600,Cell Phone Carrier Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-601,Natural Gas Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-604,Advertising,Special Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,09:0100-610,Electric Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-611,Disposal Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-620,Water/Sewer Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-622,Telephone/internet Services,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-624,Contractual,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-625,Contractual Inclusion,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-627,Scholarships Awarded,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-658,Building Contract,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:0100-664,Building Supplies,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-686,Spec Rec Employee Services,Special Recreation Administration,exp_contractual,expense,rule: keyword contractual
+expense,09:0100-700,Office Equipment,Special Recreation Administration,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:0100-750,Special Recreation CIP,Special Recreation Administration,exp_capital,expense,rule: keyword CIP
+expense,09:0100-760,Fundraiser Expenses,Special Recreation Administration,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:1000-420,Building PT Wages,Special Recreation Buildings and Grounds,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:1000-449,Pavement M&R,Special Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:1000-500,Signage M&R,Special Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:1000-520,Postage,Special Recreation Buildings and Grounds,exp_contractual,expense,rule: keyword contractual
+expense,09:1000-552,Custodial Supplies,Special Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:1000-630,Gasoline/Oil Services,Special Recreation Buildings and Grounds,exp_contractual,expense,rule: same label in FY2025+ budgets
+expense,09:1000-670,Spec Rec Copier Maintenance,Special Recreation Buildings and Grounds,exp_supplies,expense,rule: keyword supplies
+expense,09:1000-674,Spec Rec Postage Meter,Special Recreation Buildings and Grounds,exp_contractual,expense,rule: keyword contractual
+expense,09:1000-700,Promotional Supplies,Special Recreation Buildings and Grounds,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:2000-420,Inclusion PT Wages,Inclusion,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:5000-420,New Horizons PT Wages,Adult Programs,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:5000-501,New Horizons Program Supplies,Adult Programs,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,09:7500-420,Camp/Club Horizon PT Wages,Youth Programs,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:7500-501,Camp/Club Horizon Program Supplies,Youth Programs,exp_supplies,expense,rule: keyword supplies
+expense,09:9400-420,Specialty/SO PT Wages,General Programs,exp_personnel,expense,rule: same label in FY2025+ budgets
+expense,09:9400-501,Specialty/SO Program Supplies,General Programs,exp_supplies,expense,rule: same label in FY2025+ budgets
+expense,10:010-7010,Principal,Alternate Bond and Interest,exp_debt_service,expense,rule: fund 10
+expense,10:010-7015,Interest,Alternate Bond and Interest,exp_debt_service,expense,rule: fund 10
+expense,10:0830-810,Glenn Green Principal,Glenn Green Installment,exp_debt_service,expense,rule: fund 10
+expense,10:0830-815,Glenn Green Interest,Glenn Green Installment,exp_debt_service,expense,rule: fund 10
+expense,10:0850-810,2020 Debt Principal,2020 Debt,exp_debt_service,expense,rule: fund 10
+expense,10:0850-815,2020 Debt Interest,2020 Debt,exp_debt_service,expense,rule: fund 10
+expense,10:0870-810,2015 Debt Principal,2015 Debt,exp_debt_service,expense,rule: fund 10
+expense,10:0870-815,2015 Debt Interest,2015 Debt,exp_debt_service,expense,rule: fund 10
+expense,12:010-7010,G.O. Bonds Principal,Bond and Interest,exp_debt_service,expense,rule: fund 12
+expense,12:010-7015,G.O. Bonds Interest,Bond and Interest,exp_debt_service,expense,rule: fund 12
+expense,12:0100-810,G.O. Bonds Principal,Bond and Interest,exp_debt_service,expense,rule: fund 12
+expense,12:0100-815,G.O. Bonds Interest,Bond and Interest,exp_debt_service,expense,rule: fund 12
+expense,21:005-8125,Professional Plans/Services,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8130,Amenities,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8135,Buildings,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8140,Software/Replacement Computers,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8145,Equipment,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8150,Vehicles,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8155,Pavement,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:005-8160,Grounds,Capital Projects,exp_capital,expense,rule: fund 21
+expense,21:0910-635,Land Acquisition,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-636,Concrete Sidewalk Replacement,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-637,Solar Panel Installation,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-641,Master Plan,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-643,Mower,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-644,Replacement Vehicle,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-651,Bond Administration,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-669,Hard Surface Repairs,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-676,New Computers,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-677,Security Cameras Upgrade,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-703,"Site Planning(Bracken,Winterroth,PF)",Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-706,Pool Upgrades,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-710,Part-time Compensation Study,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-711,Miscellaneous/Contingencies,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-712,Doty Park Path Development Planning,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-714,Aberdeen Park Parking lot re-hab,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-716,Doty Riverside Ice Arena Artist Rendering,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-717,Indian Sculpture re-installation,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-718,Bloom Playground Surface Repairs,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-719,Centennial Project,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-725,Land Acquisition upgrades (Sundstrand),Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-726,Site Planning,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-727,Rivers Edge Building Repairs,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-728,Rivers Edge Hvac Replacement,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-730,Aquatics Feasability Study,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-731,Signage,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-732,Nasr Roof Replacement,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-733,Doty Playground,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-734,Small Equipment,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-735,Shelter Restorations,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-737,Riverbank Stabilization Engineering,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-738,Large Equipment,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-741,Admin Parking Lot/Sidewalk Upgrade,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-751,Doty Locker Rooms/Sheds,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-761,Contractual Retainers,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-762,Shed Belvidere Park,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-763,Native American Shelter,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-765,Variable freqency drive,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-766,Administration HVAC Replacement,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-767,Administration Cleaning & Sealing,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-768,Cottonwood Playground,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-770,Condensing Unit Install RE,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-771,Special Recreation Building Fencing,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-772,City Water Hookup at Sundstrand,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-773,Tyler Software,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-775,Condensing Unit Plaform Rivers Edge,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-aberdeen-path-overlay,Aberdeen Path overlay,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-financial-software-purchase,Financial Software Purchase,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-land-acquisition-upgrades,Land Acquisition upgrades,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-rivers-edge-hvac-control-replacemnt,Rivers Edge HVAC control replacemnt,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-rivers-edge-rtu-replacment,Rivers Edge RTU Replacment,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,21:0910-NONE-rivers-edge-soffit-repairs,Rivers Edge Soffit Repairs,Capital Improvements,exp_capital,expense,rule: fund 21
+expense,25:0100-500,Riverfront Supplies,Riverfront,exp_supplies,expense,rule: keyword supplies
+expense,25:0100-600,Riverfront Contractual,Riverfront,exp_contractual,expense,rule: keyword contractual
+expense,25:0100-700,Riverfront Capital,Riverfront,exp_supplies,expense,rule: keyword capital (equipment purchase)
+revenue,010-3010,Corporate Real Estate Taxes,Administration,property_tax,tax,rule: property_tax
+revenue,010-3020,Personal Property Replacement Tax,Administration,replacement_tax,tax,rule: replacement_tax
+revenue,010-3030,Corporate Interest,Administration,interest,non_tax,rule: interest
+revenue,010-3040,Miscellaneous Income-Corporate,Administration,other_revenue,non_tax,rule: other
+revenue,010-3080,Administration Employee Reimburs,Administration,other_revenue,non_tax,rule: other
+revenue,010-3111,Administration Rentals,Administration,rentals,non_tax,rule: rentals
+revenue,010-3950,Bond Proceeds,Administration,bond_proceeds,non_tax,rule: bond_proceeds
+revenue,0100-310,Corporate Real Estate Taxes,Corporate Administration,property_tax,tax,rule: property_tax
+revenue,0100-311,Personal Property Replacement Tax,Corporate Administration,replacement_tax,tax,rule: replacement_tax
+revenue,0100-312,Farm Lease,Corporate Administration,rentals,non_tax,rule: rentals
+revenue,0100-313,Employee Insurance Contributions,Corporate Administration,other_revenue,non_tax,rule: other
+revenue,0100-330,Corporate Interest,Corporate Administration,interest,non_tax,rule: interest
+revenue,0100-349,Corporate Miscellaneous,Corporate Administration,other_revenue,non_tax,rule: other
+revenue,0100-350,Memorials,Corporate Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,0100-360,Donations,Corporate Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,0100-370,Shelter Rentals,Corporate Administration,rentals,non_tax,rule: rentals
+revenue,0100-391,Citations,Corporate Administration,other_revenue,non_tax,rule: other
+revenue,011-3010,Audit Real Estate Taxes,Audit,property_tax,tax,rule: property_tax
+revenue,011-3030,Audit Interest,Audit,interest,non_tax,rule: interest
+revenue,012-3010,IMRF Real Estate Taxes,IMRF,property_tax,tax,rule: property_tax
+revenue,012-3030,IMRF Interest,IMRF,interest,non_tax,rule: interest
+revenue,013-3010,Liability Real Estate Taxes,Liability,property_tax,tax,rule: property_tax
+revenue,013-3030,Liability Interest,Liability,interest,non_tax,rule: interest
+revenue,013-3040,Liability Miscellaneous,Liability,other_revenue,non_tax,rule: other
+revenue,013-3041,Liability Claims,Liability,other_revenue,non_tax,rule: other
+revenue,014-3010,Social Security Real Estate Taxes,Social Security,property_tax,tax,rule: property_tax
+revenue,014-3020,Personal Property Replacement Tax,Social Security,replacement_tax,tax,rule: replacement_tax
+revenue,014-3030,Social Security Interest,Social Security,interest,non_tax,rule: interest
+revenue,0140-310,IMRF Real Estate Taxes,IMRF,property_tax,tax,rule: property_tax
+revenue,0140-311,Pprtax-Imrf,IMRF,replacement_tax,tax,rule: replacement_tax
+revenue,0140-330,Imrf Interest,IMRF,interest,non_tax,rule: interest
+revenue,015-3050,Park Donations,Parks,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,015-3055,Memorials,Parks,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,015-3080,Parks Employee Reimbursement,Parks,other_revenue,non_tax,rule: other
+revenue,015-3090,Farm Lease,Parks,rentals,non_tax,rule: rentals
+revenue,015-3110,Shelter Rental Revenue,Parks,rentals,non_tax,rule: rentals
+revenue,015-3200,Citations,Parks,other_revenue,non_tax,rule: other
+revenue,0150-310,Social Security Real Estate Taxes,Social Security,property_tax,tax,rule: property_tax
+revenue,0150-311,Pers Prop Replacement Tax Soc Sec,Social Security,replacement_tax,tax,rule: replacement_tax
+revenue,0150-330,Social Security Interest,Social Security,interest,non_tax,rule: interest
+revenue,0160-310,Liability Real Estate Taxes,Liability Insurance,property_tax,tax,rule: property_tax
+revenue,0160-330,Liability Interest,Liability Insurance,interest,non_tax,rule: interest
+revenue,0160-395,Liability Other,Liability Insurance,other_revenue,non_tax,rule: other
+revenue,0160-396,Liability Claims,Liability Insurance,other_revenue,non_tax,rule: other
+revenue,0170-310,Audit Real Estate Taxes,Audit,property_tax,tax,rule: property_tax
+revenue,0170-330,Audit Interest,Audit,interest,non_tax,rule: interest
+revenue,02:010-3010,Recreation Real Estate Taxes,Recreation Administration,property_tax,tax,rule: property_tax
+revenue,02:010-3030,Recreation Interest,Recreation Administration,interest,non_tax,rule: interest
+revenue,02:010-3040,Miscellaneous Income-Recreation,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:010-3050,Recreation Donations,Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:010-3060,Marketing Sponsorship,Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:010-3065,Recreation Scholarships,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:010-3080,Recreation Employee Reimburseme,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:010-3090,Affiliate Revenue,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:010-3095,Vending Revenue,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:010-3900,Grant Revenue,Recreation Administration,grants,non_tax,rule: grants
+revenue,02:010-3901,Intergovernmental Revenue,Recreation Administration,grants,non_tax,rule: grants
+revenue,02:0100-310,Recreation Real Estate Taxes,Recreation Administration,property_tax,tax,rule: property_tax
+revenue,02:0100-313,Employee Insurance Contribution,Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,02:0100-330,Recreation Interest,Recreation Administration,interest,non_tax,rule: interest
+revenue,02:0100-349,Miscellaneous Income-Recreation,Recreation Administration,other_revenue,non_tax,rule: other
+revenue,02:020-3100,Rivers Edge Daily Revenue,Rivers Edge Operations,program_fees,non_tax,rule: program revenue object 300
+revenue,02:020-3110,Rivers Edge Rental Revenue,Rivers Edge Operations,rentals,non_tax,rule: rentals
+revenue,02:020-3115,Rivers Edge Birthday Revenue,Rivers Edge Operations,program_fees,non_tax,rule: program revenue object 300
+revenue,02:025-3110,Doty Park Revenue,Doty Park,program_fees,non_tax,rule: program revenue object 300
+revenue,02:025-3115,Doty Park Birthday Revenue,Doty Park,program_fees,non_tax,rule: program revenue object 300
+revenue,02:045-3110,Prairie Fields Rental Revenue,Prairie Fields,rentals,non_tax,rule: rentals
+revenue,02:050-3100,Third Base Revenue,Third Base,program_fees,non_tax,rule: program revenue object 300
+revenue,02:055-3100,Camp Compass Revenue,Camp,program_fees,non_tax,rule: program revenue object 300
+revenue,02:060-3066,Preschool Fundraising,Preschool,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:060-3100,Preschool Revenue,Preschool,program_fees,non_tax,rule: program revenue object 300
+revenue,02:065-3100,Adult Fitness Revenue,Adult Fitness,program_fees,non_tax,rule: program revenue object 300
+revenue,02:068-3100,Youth Fitness Revenue,Youth Fitness,program_fees,non_tax,rule: program revenue object 300
+revenue,02:070-3100,Adult Athletics Revenue,Adult Athletics,program_fees,non_tax,rule: program revenue object 300
+revenue,02:070-3106,Adult Athletics Revenue,Adult Athletics,program_fees,non_tax,rule: program revenue object 300
+revenue,02:075-3100,Youth Athletics Revenue,Youth Athletics,program_fees,non_tax,rule: program revenue object 300
+revenue,02:085-3100,Youth Revenue,Youth,program_fees,non_tax,rule: program revenue object 300
+revenue,02:090-3100,Special Event Revenue,Special Events,program_fees,non_tax,rule: program revenue object 300
+revenue,02:1200-300,Doty Park Revenue ’,Doty Park,program_fees,non_tax,rule: program revenue object 300
+revenue,02:1200-301,Doty Park Birthday Revenue,Doty Park,program_fees,non_tax,rule: program revenue object 300
+revenue,02:1200-320,Marketing Sponsorship,Doty Park,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:2000-300,Preschool Revenue,Preschool,program_fees,non_tax,rule: program revenue object 300
+revenue,02:2000-301,Preschool Fundraising,Preschool,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:3000-300,Camp Compass Revenue,Camp,program_fees,non_tax,rule: program revenue object 300
+revenue,02:4000-300,Adult Athletics Revenue,Adult Athletics,program_fees,non_tax,rule: program revenue object 300
+revenue,02:5500-300,Arts,Arts,program_fees,non_tax,rule: program revenue object 300
+revenue,02:6000-300,Rivers Edge Rental Revenue,Rivers Edge Rentals,rentals,non_tax,rule: rentals
+revenue,02:6010-300,Rivers Edge Birthday Revenue,Rivers Edge Birthdays,program_fees,non_tax,rule: program revenue object 300
+revenue,02:6020-300,Adult Fitness,Adult Fitness,program_fees,non_tax,rule: program revenue object 300
+revenue,02:6021-300,Youth Fitness,Youth Fitness,program_fees,non_tax,rule: program revenue object 300
+revenue,02:6030-300,Rivers Edge Daily Fees,Rivers Edge Daily Fees,program_fees,non_tax,rule: program revenue object 300
+revenue,02:7000-300,Youth Athletics Revenue,Youth Athletics,program_fees,non_tax,rule: program revenue object 300
+revenue,02:7500-300,Youth Revenue,Youth,program_fees,non_tax,rule: program revenue object 300
+revenue,02:8000-300,Third Base Revenue,Third Base,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9010-300,Recreation Scholarship Donations,Recreation Scholarships,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:9100-300,Special Event Revenue,Special Events,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9200-300,Pool Concessions,Pool Concessions,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9210-300,Pool Passes,Pool Passes,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9220-300,Pool Daily Admissions,Pool Daily Admissions,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9230-300,Swim Lessons Income,Swim Lessons,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9240-300,Employee Uniform Purchase,Pool Rentals,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9240-301,Pool Rentals,Pool Rentals,rentals,non_tax,rule: rentals
+revenue,02:9400-300,General,General and Marketing,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9500-300,Prairie Fields Rental Revenue,Prairie Fields,rentals,non_tax,rule: rentals
+revenue,02:9600-300,Prairie Fields Rentals,Prairie Fields Rentals,rentals,non_tax,rule: rentals
+revenue,02:9700-300,Affiliate Revenue,Affiliate,program_fees,non_tax,rule: program revenue object 300
+revenue,02:9800-300,Recreation Donations,Recreation Donations,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,02:9901-300,Vending Revenue,Vending,program_fees,non_tax,rule: program revenue object 300
+revenue,03:0100-310,Real Estate Taxes-Museum,Museum Administration,property_tax,tax,rule: property_tax
+revenue,03:0100-330,Museum interest,Museum Administration,interest,non_tax,rule: interest
+revenue,03:0100-331,Grant Revenue,Museum Administration,grants,non_tax,rule: grants
+revenue,03:0100-349,Miscellaneous Income-Museum,Museum Administration,other_revenue,non_tax,rule: other
+revenue,03:0100-360,Donations-Museum,Museum Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,03:2000-300,Baltic Mill Rentals,Museum Operations,rentals,non_tax,rule: rentals
+revenue,05:030-3010,Special Recreation Real EstateTaxes,Special Recreation Administration,property_tax,tax,rule: property_tax
+revenue,05:030-3030,Special Recreation Interest,Special Recreation Administration,interest,non_tax,rule: interest
+revenue,05:030-3040,Miscellaneous Income-Spec Rec,Special Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,05:030-3050,Special Recreation Donations,Special Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,05:030-3066,Special Recreation Fundraising,Special Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,05:030-3080,Special Recreation Employee Reim,Special Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,05:030-3110,Special Recreation Rental Revenue,Special Recreation Administration,rentals,non_tax,rule: rentals
+revenue,05:030-3900,Grant Revenue,Special Recreation Administration,grants,non_tax,rule: grants
+revenue,05:030-3901,Intergovernmental Revenue,Special Recreation Administration,grants,non_tax,rule: grants
+revenue,05:032-3100,Special Recreation New Horizons R…,New Horizons,program_fees,non_tax,rule: program revenue object 300
+revenue,05:033-3100,Special Recreation Camp/Club Reve…,Camp/Club Horizon,program_fees,non_tax,rule: program revenue object 300
+revenue,05:034-3100,Special Recreation Specialty/SO Rev…,Specialty/SO,program_fees,non_tax,rule: program revenue object 300
+revenue,05:100-3065,Special Recreation Scholarships,Special Recreation,program_fees,non_tax,rule: program revenue object 300
+revenue,08:035-3010,Museum Real Estate Taxes,Museum,property_tax,tax,rule: property_tax
+revenue,08:035-3030,Museum Interest,Museum,interest,non_tax,rule: interest
+revenue,08:035-3050,Museum Donations,Museum,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,08:035-3110,Museum Rental Revenue,Museum,rentals,non_tax,rule: rentals
+revenue,08:035-3900,Grant Revenue,Museum,grants,non_tax,rule: grants
+revenue,09:0100-310,Special Recreation Real EstateTaxes,Special Recreation Administration,property_tax,tax,rule: property_tax
+revenue,09:0100-313,Employee Insurance Contributions,Special Recreation Administration,program_fees,non_tax,rule: program revenue object 300
+revenue,09:0100-330,Special Recreation Interest,Special Recreation Administration,interest,non_tax,rule: interest
+revenue,09:0100-349,Miscellaneous Income-Spec Rec,Special Recreation Administration,other_revenue,non_tax,rule: other
+revenue,09:0100-360,Special Recreation Donations,Special Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,09:0100-392,Special Recreation Fundraising,Special Recreation Administration,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,09:5000-300,Special Recreation Adult Revenue,Adult Programs,program_fees,non_tax,rule: program revenue object 300
+revenue,09:7500-300,Special Recreation Youth Revenue,Youth Programs,program_fees,non_tax,rule: program revenue object 300
+revenue,09:9000-300,Spec Rec General Program Income,Special Recreation Revenue,program_fees,non_tax,rule: program revenue object 300
+revenue,09:9010-300,Special Recreation Scholarships,Special Recreation Scholarships,program_fees,non_tax,rule: program revenue object 300
+revenue,09:9020-300,Special Recreation Rentals,Special Recreation Rentals,rentals,non_tax,rule: rentals
+revenue,09:9400-300,Special Recreation General Programs,General Programs,program_fees,non_tax,rule: program revenue object 300
+revenue,10:0000-900,Transfers,Transfers,other_revenue,non_tax,rule: other
+revenue,10:010-3030,Interest,Alternate Bond and Interest,interest,non_tax,rule: interest
+revenue,10:010-3950,Bond Proceeds,Alternate Bond and Interest,bond_proceeds,non_tax,rule: bond_proceeds
+revenue,10:0100-330,Interest,Installment Contracts,interest,non_tax,rule: interest
+revenue,10:0100-390,Bond Proceeds,Installment Contracts,bond_proceeds,non_tax,rule: bond_proceeds
+revenue,12:010-3010,Bond & Interest Real Estate Taxes,Bond and Interest,property_tax,tax,rule: property_tax
+revenue,12:010-3030,Interest,Bond and Interest,interest,non_tax,rule: interest
+revenue,12:0100-310,Real Estate Taxes-B&l,Bond and Interest,property_tax,tax,rule: property_tax
+revenue,12:0100-330,Interest,Bond and Interest,interest,non_tax,rule: interest
+revenue,21:010-3030,Interest,Capital Projects Revenue,interest,non_tax,rule: interest
+revenue,21:010-3040,Miscellaneous Income-Capital,Capital Projects Revenue,other_revenue,non_tax,rule: other
+revenue,21:010-3050,Donations,Capital Projects Revenue,donations_sponsorships,non_tax,rule: donations_sponsorships
+revenue,21:010-3900,Grant Revenue,Capital Projects Revenue,grants,non_tax,rule: grants
+revenue,21:010-3950,Bond Proceeds,Capital Projects Revenue,bond_proceeds,non_tax,rule: bond_proceeds
+revenue,21:010-3955,Impact Fees,Capital Projects Revenue,impact_fees,non_tax,rule: impact_fees
+revenue,21:010-3960,Sale of Capital Assets Revenue,Capital Projects Revenue,other_revenue,non_tax,rule: other
+revenue,21:0100-315,Grant Expense,Capital Projects Revenue,grants,non_tax,rule: grants
+revenue,21:0100-318,Impact Fees,Capital Projects Revenue,impact_fees,non_tax,rule: impact_fees
+revenue,21:0100-330,Interest,Capital Projects Revenue,interest,non_tax,rule: interest
+revenue,21:0100-390,Bond Proceeds,Capital Projects Revenue,bond_proceeds,non_tax,rule: bond_proceeds
+revenue,25:0100-300,Riverfront Revenue,Riverfront,other_revenue,non_tax,rule: other
+revenue,25:0100-330,Riverfront Interest,Riverfront,interest,non_tax,rule: interest
