@@ -1,0 +1,29 @@
+entity_id,doc_id,period_fy,kind,asset,measure,amount,pdf_page,flag,exception_ids
+belvidere_park_district,FY2024_audit,2024,sbita,Tyler Technologies,beginning,0,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Tyler Technologies,additions,52305,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Tyler Technologies,deletions,-19681,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Tyler Technologies,ending,32624,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Total,beginning,0,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Total,additions,52305,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Total,deletions,-19681,33,,
+belvidere_park_district,FY2024_audit,2024,sbita,Total,ending,32624,33,,
+belvidere_park_district,FY2025_audit,2025,lease,Copy equipment,beginning,0,33,,EX-fy2025-lease-no-amortization
+belvidere_park_district,FY2025_audit,2025,lease,Copy equipment,additions,96565,33,,EX-fy2025-lease-no-amortization
+belvidere_park_district,FY2025_audit,2025,lease,Copy equipment,deletions,0,33,,EX-fy2025-lease-no-amortization
+belvidere_park_district,FY2025_audit,2025,lease,Copy equipment,ending,96565,33,,EX-fy2025-lease-no-amortization
+belvidere_park_district,FY2025_audit,2025,lease,Total,beginning,0,33,,
+belvidere_park_district,FY2025_audit,2025,lease,Total,additions,96565,33,,
+belvidere_park_district,FY2025_audit,2025,lease,Total,deletions,0,33,,
+belvidere_park_district,FY2025_audit,2025,lease,Total,ending,96565,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Tyler Technologies,beginning,32624,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Tyler Technologies,additions,0,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Tyler Technologies,deletions,-16025,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Tyler Technologies,ending,16599,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,ExcalTech,beginning,0,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,ExcalTech,additions,170361,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,ExcalTech,deletions,-54012,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,ExcalTech,ending,116349,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Total,beginning,32624,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Total,additions,170361,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Total,deletions,-70037,33,,
+belvidere_park_district,FY2025_audit,2025,sbita,Total,ending,132948,33,,

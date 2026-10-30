@@ -1,0 +1,50 @@
+doc,check,expected,found,result
+FY2024_audit,membership adds,131,131,ok
+FY2024_audit,target allocation adds to 100%,100,100.00,ok
+FY2024_audit,changes (total pension liability): rows add to Net Changes,322337,322337,ok
+FY2024_audit,changes (total pension liability): opening + Net Changes = closing,6871289,6871289,ok
+FY2024_audit,changes (plan fiduciary net position): rows add to Net Changes,333709,333709,ok
+FY2024_audit,changes (plan fiduciary net position): opening + Net Changes = closing,7219767,7219767,ok
+FY2024_audit,changes (net pension liability (asset)): rows add to Net Changes,-11372,-11372,ok
+FY2024_audit,changes (net pension liability (asset)): opening + Net Changes = closing,-348478,-348478,ok
+FY2024_audit,"changes Balance, December 31, 2023: (A) - (B) = net pension liability",-337106,-337106,ok
+FY2024_audit,changes Service Cost: (A) - (B) = net pension liability,118481,118481,ok
+FY2024_audit,changes Interest: (A) - (B) = net pension liability,467299,467299,ok
+FY2024_audit,changes Difference between expected and actual experience: (A) - (B) = net pension liability,61922,61922,ok
+FY2024_audit,changes Changes of assumptions: (A) - (B) = net pension liability,0,0,ok
+FY2024_audit,changes Contributions - employees: (A) - (B) = net pension liability,-62208,-62208,ok
+FY2024_audit,changes Contributions - employer: (A) - (B) = net pension liability,-27510,-27510,ok
+FY2024_audit,changes Net investment income: (A) - (B) = net pension liability,-688337,-688337,ok
+FY2024_audit,changes Benefit payments including refunds of Employee Contributions: (A) - (B) = net pension liability,0,0,ok
+FY2024_audit,changes Other (Net Transfer): (A) - (B) = net pension liability,118981,118981,ok
+FY2024_audit,changes Net Changes: (A) - (B) = net pension liability,-11372,-11372,ok
+FY2024_audit,"changes Balance, December 31, 2024: (A) - (B) = net pension liability",-348478,-348478,ok
+FY2024_audit,sensitivity: rates are 1% either side,"[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]","[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]",ok
+FY2024_audit,sensitivity: current rate = single discount rate,7.25,7.25,ok
+FY2024_audit,single discount rate = expected rate of return,7.25,7.25,ok
+FY2024_audit,sensitivity 1% decrease: net pension liability = TPL - FNP,411611,411611,ok
+FY2024_audit,sensitivity 1% decrease: plan fiduciary net position = closing balance,7219767,7219767,ok
+FY2024_audit,sensitivity current: net pension liability = TPL - FNP,-348478,-348478,ok
+FY2024_audit,sensitivity current: plan fiduciary net position = closing balance,7219767,7219767,ok
+FY2024_audit,sensitivity 1% increase: net pension liability = TPL - FNP,-937393,-937393,ok
+FY2024_audit,sensitivity 1% increase: plan fiduciary net position = closing balance,7219767,7219767,ok
+FY2024_audit,sensitivity: current total pension liability = closing balance,6871289,6871289,ok
+FY2024_audit,deferred items: deferred outflows add to total,648620,648620,ok
+FY2024_audit,deferred items: deferred inflows add to total,436802,436802,ok
+FY2024_audit,deferred items: net deferred outflows add to total,211818,211818,ok
+FY2024_audit,deferred Differences between expected and actual experience: outflows - inflows = net,51898,51898,ok
+FY2024_audit,deferred Changes of assumptions: outflows - inflows = net,-5407,-5407,ok
+FY2024_audit,deferred Net difference between projected and actual earnings on plan investments: outflows - inflows = net,165327,165327,ok
+FY2024_audit,deferred Total: outflows - inflows = net,211818,211818,ok
+FY2024_audit,recognition schedule adds to the net total,211818,211818,ok
+FY2024_audit,recognition schedule total = net deferred outflows,211818,211818,ok
+FY2024_audit,net pension liability (asset) = Statement of Net Position,-348478,-348478,ok
+FY2024_audit,deferred outflows = Statement of Net Position,648620,648620,ok
+FY2024_audit,deferred inflows = Statement of Net Position,436802,436802,ok
+FY2024_audit,closing total pension liability = required supplementary information (2024),6871289,6871289,ok
+FY2024_audit,closing plan fiduciary net position = required supplementary information (2024),7219767,7219767,ok
+FY2024_audit,closing net pension liability (asset) = required supplementary information (2024),-348478,-348478,ok
+FY2024_audit,employer contributions in the change table = required supplementary information (2024),27510,27510,ok
+FY2024_audit,employer contributions in the change table = contributions the note says the district made,27510,27510,ok
+FY2024_audit,opening total pension liability = previous audit's closing,6548952,6548952,ok
+FY2024_audit,opening plan fiduciary net position = previous audit's closing,6886058,6886058,ok

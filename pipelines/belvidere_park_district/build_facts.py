@@ -258,6 +258,8 @@ PENSION_LINES = [  # (regex on the schedule's label, line_id, kind): dollar line
     (r"^Net Pension Liability/\(Asset\)", "npl_ending", "roll"), (r"Plan Fiduciary Net Position as a Percentage", "funded_ratio", ("funded ratio", "percent")),
     (r"^Covered Valuation Payroll", "covered_payroll", ("covered valuation payroll", "usd")),
     (r"^Net Pension Liability as a Percentage", "npl_percent_of_payroll", ("net pension liability as a percentage of covered payroll", "percent"))]
+NOTE_EXCEPTIONS = {("imrf_note", "FY2025_audit", "District contribution"): "EX-fy2025-imrf-note-contribution-typo",
+                   ("lease_sbita_assets", "FY2025_audit", "Copy equipment"): "EX-fy2025-lease-no-amortization"}
 DEBT_EXCEPTIONS = {("debt_service_schedule", "FY2020_audit", "2031-2032"): "EX-fy2020-debt-schedule-row",
                    ("debt_balances", "FY2024_audit", "compensated_absences", "beginning"): "EX-gasb101-compensated-absences",
                    ("debt_balances", "FY2020_audit", "alt_rev_2012A", "retired"): "EX-fy2020-advance-refunding"}
@@ -325,6 +327,12 @@ def debt_part(docs):
         for r in audit_extract(doc, "assessed_valuations"):
             out["assessed_valuations"].append(dict(base, tax_year=r["tax_year"], section=r["section"], line_item=r["line_item"], amount=r["amount"],
                                                    pdf_page=r["pdf_page"], exception_ids=""))
+        for table, name, cols in (("lease_schedule", "lease_sbita_schedule", ("kind", "year_ending", "principal", "interest", "total", "row_kind")),
+                                  ("lease_assets", "lease_sbita_assets", ("kind", "asset", "measure", "amount")),
+                                  ("lease_terms", "lease_sbita_terms", ("kind", "agreement", "term", "value", "value_text", "unit")),
+                                  ("imrf_note", "imrf_note", ("section", "line_item", "column", "value", "value_text", "unit"))):
+            for r in audit_extract(doc, table):
+                out[name].append(dict(base, **{c: r[c] for c in cols}, pdf_page=r["pdf_page"], exception_ids=NOTE_EXCEPTIONS.get((name, doc, r.get("agreement") or r.get("line_item") or r.get("asset")), "")))
     return out
 
 

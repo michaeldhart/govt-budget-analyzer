@@ -1,0 +1,18 @@
+fiscal_year,doc,kind,agreement,term,value,value_text,unit,pdf_page
+2025,FY2025_audit,lease,Copy equipment,term_months,63,,months,32
+2025,FY2025_audit,lease,Copy equipment,termination,,February 2031,,32
+2025,FY2025_audit,lease,Copy equipment,monthly_payment,1692.88,,usd,32
+2025,FY2025_audit,lease,Copy equipment,right_of_use_asset,96565,,usd,32
+2025,FY2025_audit,lease,Copy equipment,lease_liability,95427,,usd,32
+2025,FY2025_audit,lease,Copy equipment,discount_rate,3.69,,percent,32
+2025,FY2025_audit,sbita,Tyler Technologies,term_years,3,,years,33
+2025,FY2025_audit,sbita,Tyler Technologies,start,,May 2024,,33
+2025,FY2025_audit,sbita,Tyler Technologies,end,,May 2026,,33
+2025,FY2025_audit,sbita,Tyler Technologies,discount_rate,3.58,,percent,33
+2025,FY2025_audit,sbita,ExcalTech,term_years,3,,years,33
+2025,FY2025_audit,sbita,ExcalTech,start,,January 2025,,33
+2025,FY2025_audit,sbita,ExcalTech,end,,December 2027,,33
+2025,FY2025_audit,sbita,ExcalTech,discount_rate,4.03,,percent,33
+2025,FY2025_audit,sbita,All agreements,right_of_use_asset,132948,,usd,33
+2025,FY2025_audit,sbita,All agreements,subscription_liability,132948,,usd,33
+2025,FY2025_audit,sbita,All agreements,amortization_expense,70037,,usd,33

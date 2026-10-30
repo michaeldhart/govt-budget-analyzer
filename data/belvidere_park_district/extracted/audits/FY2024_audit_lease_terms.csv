@@ -1,0 +1,8 @@
+fiscal_year,doc,kind,agreement,term,value,value_text,unit,pdf_page
+2024,FY2024_audit,sbita,Tyler Technologies,term_years,3,,years,33
+2024,FY2024_audit,sbita,Tyler Technologies,start,,May 2024,,33
+2024,FY2024_audit,sbita,Tyler Technologies,end,,May 2026,,33
+2024,FY2024_audit,sbita,Tyler Technologies,discount_rate,3.58,,percent,33
+2024,FY2024_audit,sbita,All agreements,right_of_use_asset,32624,,usd,33
+2024,FY2024_audit,sbita,All agreements,subscription_liability,32624,,usd,33
+2024,FY2024_audit,sbita,All agreements,amortization_expense,19681,,usd,33

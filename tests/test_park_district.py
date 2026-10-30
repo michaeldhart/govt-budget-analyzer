@@ -286,6 +286,59 @@ def test_debt_pension_and_tax_tables():
     assert ex[("FY2020_audit", "2031-2032")] == "EX-fy2020-debt-schedule-row"
 
 
+def test_lease_and_sbita_notes():
+    """Only the FY2024 and FY2025 audits have lease / subscription notes; their schedules add, tie to the liability and to the debt note's SBITA line."""
+    sched = canonical("lease_sbita_schedule")
+    assert {(r["doc_id"], r["kind"]) for r in sched} == {("FY2024_audit", "sbita"), ("FY2025_audit", "sbita"), ("FY2025_audit", "lease")}
+    for doc, kind in {(r["doc_id"], r["kind"]) for r in sched}:
+        body = [r for r in sched if r["doc_id"] == doc and r["kind"] == kind]
+        tot = next(r for r in body if r["row_kind"] == "total")
+        for col in ("principal", "interest", "total"):
+            assert abs(sum(int(r[col]) for r in body if r["row_kind"] != "total") - int(tot[col])) <= 1
+        assert all(abs(int(r["principal"]) + int(r["interest"]) - int(r["total"])) <= 1 for r in body)
+    bal = {(r["doc_id"], r["line_id"], r["measure"]): int(r["amount"]) for r in canonical("debt_balances")}
+    for doc in ("FY2024_audit", "FY2025_audit"):
+        tot = next(r for r in sched if r["doc_id"] == doc and r["kind"] == "sbita" and r["row_kind"] == "total")
+        assert int(tot["principal"]) == bal[(doc, "sbita", "balance")] == bal[(doc, "sbita", "ending")]
+    assert bal[("FY2025_audit", "sbita", "balance")] == 132948
+    assets = {(r["doc_id"], r["kind"], r["asset"], r["measure"]): int(r["amount"]) for r in canonical("lease_sbita_assets")}
+    for (doc, kind, asset, m), v in assets.items():
+        if m == "ending":
+            assert v == assets[(doc, kind, asset, "beginning")] + assets[(doc, kind, asset, "additions")] + assets[(doc, kind, asset, "deletions")]
+    assert assets[("FY2025_audit", "sbita", "Total", "deletions")] == -70037 and assets[("FY2025_audit", "lease", "Total", "ending")] == 96565
+    terms = {(r["doc_id"], r["agreement"], r["term"]): r for r in canonical("lease_sbita_terms")}
+    assert terms[("FY2025_audit", "Copy equipment", "monthly_payment")]["value"] == "1692.88" and terms[("FY2025_audit", "ExcalTech", "discount_rate")]["value"] == "4.03"
+    for doc in ("FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"):
+        rows_ = list(csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"{doc}_audit_lease_checks.csv"))))
+        assert rows_ and all(r["result"].startswith("ok") for r in rows_)
+    assert sum(len(list(csv.DictReader(open(p)))) for p in glob.glob(os.path.join(EXTRACTED, "audits", "FY20*_audit_lease_checks.csv"))) == 5 + 26 + 56
+
+
+def test_imrf_note_ties_to_the_rsi_and_statements():
+    """The note's change table, sensitivity and deferred items add up in all seven audits and agree with the required supplementary information."""
+    rows_ = canonical("imrf_note")
+    assert {r["period_fy"] for r in rows_} == {str(y) for y in range(2019, 2026)} and len(rows_) == 779
+    v = {(r["doc_id"], r["section"], r["line_item"], r["column"]): Decimal(r["value"]) for r in rows_ if r["value"]}
+    roll = {(r["doc_id"], r["column_year"], r["line_id"]): int(r["amount"]) for r in canonical("pension_rollforward")}
+    for y in (2019, 2023, 2024, 2025):
+        doc = f"FY{y}_audit"
+        end = f"Balance, December 31, {y}"
+        assert v[(doc, "net_pension_liability_changes", end, "total pension liability")] == roll[(doc, str(y), "tpl_ending")]
+        assert v[(doc, "net_pension_liability_changes", end, "net pension liability (asset)")] == roll[(doc, str(y), "npl_ending")]
+    for y in range(2019, 2026):
+        doc = f"FY{y}_audit"
+        assert v[(doc, "sensitivity", "Net Pension Liability (asset)", "current")] == v[(doc, "net_pension_liability_changes", f"Balance, December 31, {y}", "net pension liability (asset)")]
+        assert v[(doc, "sensitivity", "Single discount rate", "1% decrease")] == v[(doc, "sensitivity", "Single discount rate", "1% increase")] - 2
+        assert v[(doc, "deferred_items", "Total", "deferred outflows")] - v[(doc, "deferred_items", "Total", "deferred inflows")] == v[(doc, "deferred_items", "Total", "net deferred outflows")]
+        assert sum(x for (d, s, l, c), x in v.items() if d == doc and s == "membership" and l != "Total") == v[(doc, "membership", "Total", "count")]
+        rows2 = list(csv.DictReader(open(os.path.join(EXTRACTED, "audits", f"{doc}_imrf_note_checks.csv"))))
+        assert rows2 and all(r["result"] != "FAIL" for r in rows2)
+    assert v[("FY2025_audit", "assumptions", "Single discount rate", "rate")] == Decimal("7.25") and v[("FY2025_audit", "membership", "Total", "count")] == 141
+    assert v[("FY2019_audit", "membership", "Total", "count")] == 108 and v[("FY2021_audit", "pension_expense", "Pension expense (income)", "amount")] == -265216
+    typo = [r for r in rows_ if r["exception_ids"]]
+    assert [(r["doc_id"], r["value"], r["exception_ids"]) for r in typo] == [("FY2025_audit", "35844", "EX-fy2025-imrf-note-contribution-typo")]
+
+
 def test_park_is_on_the_site_with_fund_based_datasets():
     import json
     cfg = json.load(open(os.path.join(ROOT, "entities", ENT, "entity.json")))

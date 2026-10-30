@@ -86,6 +86,8 @@ def test_vocabularies():
 def test_audit_tables_cover_the_audits(name):
     rows = table(name)
     want = {str(y) for y in (range(2019, 2026) if not name.startswith("pension") else (2019, 2023, 2024, 2025))}
+    if name.startswith("lease_sbita"):
+        want = {"2024", "2025"}  # the first subscription (GASB 96) is in the FY2024 audit, the first lease in FY2025
     if name == "debt_issue_terms":
         want = {str(y) for y in range(2019, 2026)}
     assert {r["period_fy"] for r in rows} == want, name

@@ -1,0 +1,27 @@
+doc,check,expected,found,result
+FY2024_audit,sbita 2025: total = principal + interest,17193,17193,ok
+FY2024_audit,sbita 2026: total = principal + interest,17193,17193,ok
+FY2024_audit,sbita schedule: total principal,32624,32624,ok
+FY2024_audit,sbita schedule: total interest,1762,1762,ok
+FY2024_audit,sbita schedule: total total,34386,34386,ok
+FY2024_audit,sbita asset Tyler Technologies: beginning + additions + deletions = ending,32624,32624,ok
+FY2024_audit,sbita asset Total: beginning + additions + deletions = ending,32624,32624,ok
+FY2024_audit,sbita assets: total beginning,0,0,ok
+FY2024_audit,sbita assets: total additions,52305,52305,ok
+FY2024_audit,sbita assets: total deletions,-19681,-19681,ok
+FY2024_audit,sbita assets: total ending,32624,32624,ok
+FY2024_audit,sbita: liability in the note = asset ending,32624,32624,ok
+FY2024_audit,sbita: schedule principal = liability,32624,32624,ok
+FY2024_audit,sbita: schedule principal = debt note SBITA balance,32624,32624,ok
+FY2024_audit,sbita: first year's principal = debt note current portion,16025,16025,ok
+FY2024_audit,sbita: asset ending = Statement of Net Position right-of-use line,32624,32624,ok
+FY2024_audit,sbita: asset ending = reconciliation line,32624,32624,ok
+FY2024_audit,sbita: liability = reconciliation line,32624,32624,ok
+FY2024_audit,sbita: additions = debt activity new issues,52305,52305,ok
+FY2024_audit,sbita: deletions = debt activity retired (amortization),19681,19681,ok
+FY2024_audit,sbita: amortization expense in the note = deletions,19681,19681,ok
+FY2024_audit,sbita: asset beginning = debt activity beginning,0,0,ok
+FY2024_audit,sbita 2025: principal = debt note schedule,16025,16025,ok
+FY2024_audit,sbita 2025: interest = debt note schedule,1168,1168,ok
+FY2024_audit,sbita 2026: principal = debt note schedule,16599,16599,ok
+FY2024_audit,sbita 2026: interest = debt note schedule,594,594,ok

@@ -1,0 +1,50 @@
+doc,check,expected,found,result
+FY2020_audit,membership adds,107,107,ok
+FY2020_audit,target allocation adds to 100%,100,100.00,ok
+FY2020_audit,changes (total pension liability): rows add to Net Changes,282623,282623,ok
+FY2020_audit,changes (total pension liability): opening + Net Changes = closing,5681579,5681579,ok
+FY2020_audit,changes (plan fiduciary net position): rows add to Net Changes,1309303,1309303,ok
+FY2020_audit,changes (plan fiduciary net position): opening + Net Changes = closing,6414603,6414603,ok
+FY2020_audit,changes (net pension liability (asset)): rows add to Net Changes,-1026680,-1026680,ok
+FY2020_audit,changes (net pension liability (asset)): opening + Net Changes = closing,-733024,-733024,ok
+FY2020_audit,"changes Balance, December 31, 2019: (A) - (B) = net pension liability",293656,293656,ok
+FY2020_audit,changes Service Cost: (A) - (B) = net pension liability,116470,116470,ok
+FY2020_audit,changes Interest: (A) - (B) = net pension liability,387278,387278,ok
+FY2020_audit,changes Difference between expected and actual experience: (A) - (B) = net pension liability,59994,59994,ok
+FY2020_audit,changes Changes of assumptions: (A) - (B) = net pension liability,-50265,-50265,ok
+FY2020_audit,changes Contributions - employees: (A) - (B) = net pension liability,-54370,-54370,ok
+FY2020_audit,changes Contributions - employer: (A) - (B) = net pension liability,-123601,-123601,ok
+FY2020_audit,changes Net investment income: (A) - (B) = net pension liability,-720222,-720222,ok
+FY2020_audit,changes Benefit payments including refunds of Employee Contributions: (A) - (B) = net pension liability,0,0,ok
+FY2020_audit,changes Other (Net Transfer): (A) - (B) = net pension liability,-641964,-641964,ok
+FY2020_audit,changes Net Changes: (A) - (B) = net pension liability,-1026680,-1026680,ok
+FY2020_audit,"changes Balance, December 31, 2020: (A) - (B) = net pension liability",-733024,-733024,ok
+FY2020_audit,sensitivity: rates are 1% either side,"[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]","[Decimal('6.25'), Decimal('7.25'), Decimal('8.25')]",ok
+FY2020_audit,sensitivity: current rate = single discount rate,7.25,7.25,ok
+FY2020_audit,single discount rate = expected rate of return,7.25,7.25,ok
+FY2020_audit,sensitivity 1% decrease: net pension liability = TPL - FNP,-41340,-41340,ok
+FY2020_audit,sensitivity 1% decrease: plan fiduciary net position = closing balance,6414603,6414603,ok
+FY2020_audit,sensitivity current: net pension liability = TPL - FNP,-733024,-733024,ok
+FY2020_audit,sensitivity current: plan fiduciary net position = closing balance,6414603,6414603,ok
+FY2020_audit,sensitivity 1% increase: net pension liability = TPL - FNP,-1269697,-1269697,ok
+FY2020_audit,sensitivity 1% increase: plan fiduciary net position = closing balance,6414603,6414603,ok
+FY2020_audit,sensitivity: current total pension liability = closing balance,5681579,5681579,ok
+FY2020_audit,deferred items: deferred outflows add to total,333403,333403,ok
+FY2020_audit,deferred items: deferred inflows add to total,708313,708313,ok
+FY2020_audit,deferred items: net deferred outflows add to total,-374910,-374910,ok
+FY2020_audit,deferred Differences between expected and actual experience: outflows - inflows = net,13521,13521,ok
+FY2020_audit,deferred Changes of assumptions: outflows - inflows = net,-289,-289,ok
+FY2020_audit,deferred Net difference between projected and actual earnings on plan investments: outflows - inflows = net,-388142,-388142,ok
+FY2020_audit,deferred Total: outflows - inflows = net,-374910,-374910,ok
+FY2020_audit,recognition schedule adds to the net total,-374910,-374910,ok
+FY2020_audit,recognition schedule total = net deferred outflows,-374910,-374910,ok
+FY2020_audit,net pension liability (asset) = Statement of Net Position,-733024,-733024,ok
+FY2020_audit,deferred outflows = Statement of Net Position,333403,333403,ok
+FY2020_audit,deferred inflows = Statement of Net Position,708313,708313,ok
+FY2020_audit,closing total pension liability = required supplementary information (2020),5681579,5681579,ok
+FY2020_audit,closing plan fiduciary net position = required supplementary information (2020),6414603,6414603,ok
+FY2020_audit,closing net pension liability (asset) = required supplementary information (2020),-733024,-733024,ok
+FY2020_audit,employer contributions in the change table = required supplementary information (2020),123601,123601,ok
+FY2020_audit,employer contributions in the change table = contributions the note says the district made,123601,123601,ok
+FY2020_audit,opening total pension liability = previous audit's closing,5398956,5398956,ok
+FY2020_audit,opening plan fiduciary net position = previous audit's closing,5105300,5105300,ok
