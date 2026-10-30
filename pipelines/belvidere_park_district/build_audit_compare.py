@@ -7,8 +7,7 @@ original budget (the revenue lines, the other financing lines and the expenditur
 document's revenues and expenses for the same fund and year. The audit books proceeds of debt, leases and subscriptions as other financing sources, the
 budget document counts them as revenue, so the revenue difference is also shown with the audit's other financing added. A fund-year `matches` when the
 budget document equals the audit budget to the dollar (a dollar of rounding allowed: the facts are whole dollars and some documents print cents).
-The budget document of a year is its adopted budget; FY2024 has none extracted (EX-fy2024-budget-placeholder), so the DRAFT's requested column is used and
-the row says so in `budget_basis`. Fund codes are the era's own (Museum and Special Recreation swap codes after FY2024), the same in the audit and the budget.
+The budget document of a year is its adopted budget; The row's `budget_basis` says which basis it used. Fund codes are the era's own (Museum and Special Recreation swap codes after FY2024), the same in the audit and the budget.
 """
 import csv
 import os

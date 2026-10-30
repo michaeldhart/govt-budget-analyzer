@@ -4,6 +4,7 @@
 #   budgets : extract_budget_operating.py FY2019|FY2020|FY2021         (layout A)
 #             extract_budget_version.py FY2022 FY2023 FY2023_budget_draft FY2024_budget_draft   (layout B: the adopted FY2023 before its draft)
 #             extract_budget_report.py FY2025 FY2026 FY2027 and the drafts FY2025_budget_draft FY2026_budget_draft   (layout D)
+#             extract_budget_fund_report.py FY2024_budget   (layout C: the adopted FY2024 budget, read from the page images; needs the draft's extract)
 #             extract_budget_amended.py FY2023_budget_amended
 #   audits  : extract_audit_fund_statements.py FY2019..FY2025, extract_audit_debt.py FY2019..FY2025, extract_audit_imrf.py FY2019 FY2023 FY2024 FY2025
 #   ordinances: extract_ordinance_appropriation.py FY2019..FY2026 FY2027_appropriation_draft, extract_ordinance_levy.py FY2022_levy FY2023_levy FY2023_levy_draft FY2024_levy FY2025_levy FY2026_levy FY2027_levy_draft

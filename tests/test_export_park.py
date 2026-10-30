@@ -41,7 +41,7 @@ def test_budget_totals_equal_the_adopted_lines(site):
     rev, exp = site(ENT, "park_revenue.json")["rows"], site(ENT, "park_spending.json")["rows"]
     assert sum(r["amount"] for r in rev if r["fiscal_year"] == 2026) == 9322993
     assert sum(r["amount"] for r in exp if r["fiscal_year"] == 2026) == 9299597
-    assert {r["fiscal_year"] for r in rev if r["basis"] == "requested"} == {2024, 2027}  # the drafts stand in where there is no adopted budget
+    assert {r["fiscal_year"] for r in rev if r["basis"] == "requested"} == {2027}  # only FY2027 is still a draft
     assert 2022 not in {r["fiscal_year"] for r in rev}  # the FY2022 budget document has no revenue report
 
 

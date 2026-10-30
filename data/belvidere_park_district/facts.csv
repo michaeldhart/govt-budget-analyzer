@@ -2153,336 +2153,666 @@ belvidere_park_district,FY2023_budget_draft,budget,297,2023,requested,expense,21
 belvidere_park_district,FY2023_budget_draft,budget,298,2023,requested,expense,21,0910,21:0910-741,21-0910-741,,Admin Parking Lot/Sidewalk Upgrade,310777,requested,pdf15,15,,
 belvidere_park_district,FY2023_budget_draft,budget,299,2023,requested,expense,21,0910,21:0910-763,21-0910-763,,Native American Shelter,8500,requested,pdf15,15,,
 belvidere_park_district,FY2023_budget_draft,budget,300,2023,requested,expense,21,0910,21:0910-765,21-0910-765,,Variable freqency drive,15200,requested,pdf15,15,,
-belvidere_park_district,FY2024_budget_draft,budget,1,2024,requested,revenue,01,0100,0100-310,01-0100-310,,Corporate Real Estate Taxes,1286518,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,2,2024,requested,revenue,01,0100,0100-311,01-0100-311,,Personal Property Replacement Tax,191000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,3,2024,requested,revenue,01,0100,0100-312,01-0100-312,,Farm Lease,3825,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,4,2024,requested,revenue,01,0100,0100-330,01-0100-330,,Corporate Interest,10250,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,5,2024,requested,revenue,01,0100,0100-349,01-0100-349,,Corporate Miscellaneous,12500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,6,2024,requested,revenue,01,0100,0100-350,01-0100-350,,Memorials,18500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,7,2024,requested,revenue,01,0100,0100-360,01-0100-360,,Donations,2500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,8,2024,requested,revenue,01,0100,0100-370,01-0100-370,,Shelter Rentals,26250,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,9,2024,requested,revenue,01,0140,0140-310,01-0140-310,,IMRF Real Estate Taxes,97583,requested,pdf1,1,rounded_from_cents,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,10,2024,requested,revenue,01,0150,0150-310,01-0150-310,,Social Security Real Estate Taxes,163948,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,11,2024,requested,revenue,01,0150,0150-311,01-0150-311,,Pers Prop Replacement Tax Soc Sec,9000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,12,2024,requested,revenue,01,0150,0150-330,01-0150-330,,Social Security Interest,1000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,13,2024,requested,revenue,01,0160,0160-310,01-0160-310,,Liability Real Estate Taxes,111183,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,14,2024,requested,revenue,01,0160,0160-330,01-0160-330,,Liability Interest,250,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,15,2024,requested,revenue,01,0160,0160-395,01-0160-395,,Liability Other,500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,16,2024,requested,revenue,01,0160,0160-396,01-0160-396,,Liability Claims,7500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,17,2024,requested,revenue,01,0170,0170-310,01-0170-310,,Audit Real Estate Taxes,16714,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,18,2024,requested,revenue,01,0170,0170-330,01-0170-330,,Audit Interest,1750,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,19,2024,requested,revenue,02,0100,02:0100-310,02-0100-310,,Recreation Real Estate Taxes,969026,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,20,2024,requested,revenue,02,0100,02:0100-330,02-0100-330,,Recreation Interest,1500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,21,2024,requested,revenue,02,1200,02:1200-300,02-1200-300,,Doty Park Revenue ’,25900,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,22,2024,requested,revenue,02,1200,02:1200-301,02-1200-301,,Doty Park Birthday Revenue,300,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,23,2024,requested,revenue,02,1200,02:1200-320,02-1200-320,,Marketing Sponsorship,12000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,24,2024,requested,revenue,02,2000,02:2000-300,02-2000-300,,Preschool Revenue,63250,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,25,2024,requested,revenue,02,2000,02:2000-301,02-2000-301,,Preschool Fundraising,750,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,26,2024,requested,revenue,02,3000,02:3000-300,02-3000-300,,Camp Compass Revenue,122000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,27,2024,requested,revenue,02,4000,02:4000-300,02-4000-300,,Adult Athletics Revenue,14300,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,28,2024,requested,revenue,02,6000,02:6000-300,02-6000-300,,Rivers Edge Rental Revenue,38125,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,29,2024,requested,revenue,02,6010,02:6010-300,02-6010-300,,Rivers Edge Birthday Revenue,2400,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,30,2024,requested,revenue,02,6020,02:6020-300,02-6020-300,,Adult Fitness,26328,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,31,2024,requested,revenue,02,6021,02:6021-300,02-6021-300,,Youth Fitness,27132,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,32,2024,requested,revenue,02,6030,02:6030-300,02-6030-300,,Rivers Edge Daily Fees,8424,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,33,2024,requested,revenue,02,7000,02:7000-300,02-7000-300,,Youth Athletics Revenue,30660,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,34,2024,requested,revenue,02,7500,02:7500-300,02-7500-300,,Youth Revenue,12828,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,35,2024,requested,revenue,02,8000,02:8000-300,02-8000-300,,Third Base Revenue,443700,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,36,2024,requested,revenue,02,9010,02:9010-300,02-9010-300,,Recreation Scholarship Donations,5000,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,37,2024,requested,revenue,02,9100,02:9100-300,02-9100-300,,Special Event Revenue,13500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,38,2024,requested,revenue,02,9240,02:9240-300,02-9240-300,,Employee Uniform Purchase,500,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,39,2024,requested,revenue,02,9500,02:9500-300,02-9500-300,,Prairie Fields Rental Revenue,4375,requested,pdf1,1,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,40,2024,requested,revenue,02,9700,02:9700-300,02-9700-300,,Affiliate Revenue,850,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,41,2024,requested,revenue,02,9800,02:9800-300,02-9800-300,,Recreation Donations,58500,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,42,2024,requested,revenue,02,9901,02:9901-300,02-9901-300,,Vending Revenue,720,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,43,2024,requested,revenue,03,0100,03:0100-310,03-0100-310,,Real Estate Taxes-Museum,114871,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,44,2024,requested,revenue,03,0100,03:0100-330,03-0100-330,,Museum interest,250,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,45,2024,requested,revenue,03,0100,03:0100-331,03-0100-331,,Grant Revenue,75000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,46,2024,requested,revenue,03,0100,03:0100-360,03-0100-360,,Donations-Museum,15000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,47,2024,requested,revenue,03,2000,03:2000-300,03-2000-300,,Baltic Mill Rentals,2000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,48,2024,requested,revenue,09,0100,09:0100-310,09-0100-310,,Special Recreation Real EstateTaxes,327734,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,49,2024,requested,revenue,09,0100,09:0100-330,09-0100-330,,Special Recreation Interest,500,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,50,2024,requested,revenue,09,0100,09:0100-360,09-0100-360,,Special Recreation Donations,4500,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,51,2024,requested,revenue,09,0100,09:0100-392,09-0100-392,,Special Recreation Fundraising,8500,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,52,2024,requested,revenue,09,5000,09:5000-300,09-5000-300,,Special Recreation Adult Revenue,107952,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,53,2024,requested,revenue,09,7500,09:7500-300,09-7500-300,,Special Recreation Youth Revenue,64100,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,54,2024,requested,revenue,09,9010,09:9010-300,09-9010-300,,Special Recreation Scholarships,1000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,55,2024,requested,revenue,09,9020,09:9020-300,09-9020-300,,Special Recreation Rentals,300,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,56,2024,requested,revenue,09,9400,09:9400-300,09-9400-300,,Special Recreation General Programs,29000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,57,2024,requested,revenue,10,0100,10:0100-330,10-0100-330,,Interest,800,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,58,2024,requested,revenue,10,0100,10:0100-390,10-0100-390,,Bond Proceeds,484400,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,59,2024,requested,revenue,12,0100,12:0100-310,12-0100-310,,Real Estate Taxes-B&l,1242000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,60,2024,requested,revenue,21,0100,21:0100-315,21-0100-315,,Grant Expense,15000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,61,2024,requested,revenue,21,0100,21:0100-318,21-0100-318,,Impact Fees,10000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,62,2024,requested,revenue,21,0100,21:0100-330,21-0100-330,,Interest,1000,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,63,2024,requested,revenue,21,0100,21:0100-390,21-0100-390,,Bond Proceeds,694400,requested,pdf2,2,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,64,2024,requested,expense,01,0100,0100-410,01-0100-410,,Administration FT Wages,211021,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,65,2024,requested,expense,01,0100,0100-416,01-0100-416,,Parks Longevity,750,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,66,2024,requested,expense,01,0100,0100-420,01-0100-420,,Administration PT Wages,16536,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,67,2024,requested,expense,01,0100,0100-430,01-0100-430,,Health Insurance,237411,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,68,2024,requested,expense,01,0100,0100-500,01-0100-500,,Dues/Subscriptions,3949,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,69,2024,requested,expense,01,0100,0100-502,01-0100-502,,Professional Meetings,4550,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,70,2024,requested,expense,01,0100,0100-504,01-0100-504,,Conference/Seminars,4325,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,71,2024,requested,expense,01,0100,0100-507,01-0100-507,,Professional Certification,995,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,72,2024,requested,expense,01,0100,0100-510,01-0100-510,,Board Dues,6000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,73,2024,requested,expense,01,0100,0100-512,01-0100-512,,Board Conference/Seminars,350,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,74,2024,requested,expense,01,0100,0100-513,01-0100-513,,Admin/Board Assistance,6600,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,75,2024,requested,expense,01,0100,0100-514,01-0100-514,,Foundation Admin Assistance,2200,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,76,2024,requested,expense,01,0100,0100-520,01-0100-520,,HR Certified Mailings,100,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,77,2024,requested,expense,01,0100,0100-522,01-0100-522,,Administration Office Supplies,8600,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,78,2024,requested,expense,01,0100,0100-528,01-0100-528,,Computer Supplies,1500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,79,2024,requested,expense,01,0100,0100-529,01-0100-529,,Employee Recognition,4000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,80,2024,requested,expense,01,0100,0100-530,01-0100-530,,Mileage Reimbursement,650,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,81,2024,requested,expense,01,0100,0100-532,01-0100-532,,Office Equipment M&R,200,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,82,2024,requested,expense,01,0100,0100-599,01-0100-599,,Admin Cell Phones/Tablets,6058,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,83,2024,requested,expense,01,0100,0100-600,01-0100-600,,Telephone/Internet Services,15200,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,84,2024,requested,expense,01,0100,0100-603,01-0100-603,,Legal Publications,400,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,85,2024,requested,expense,01,0100,0100-604,01-0100-604,,Advertising,2320,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,86,2024,requested,expense,01,0100,0100-651,01-0100-651,,Bond Administration,5000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,87,2024,requested,expense,01,0100,0100-661,01-0100-661,,Document Shredding,1500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,88,2024,requested,expense,01,0100,0100-670,01-0100-670,,Copier Maintenance,20100,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,89,2024,requested,expense,01,0100,0100-672,01-0100-672,,Telephone Maintenance,500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,90,2024,requested,expense,01,0100,0100-674,01-0100-674,,Postage Meter Services,1500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,91,2024,requested,expense,01,0100,0100-682,01-0100-682,,Attorney Services,7500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,92,2024,requested,expense,01,0100,0100-683,01-0100-683,,Professional Services,25000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,93,2024,requested,expense,01,0100,0100-684,01-0100-684,,Police Services,28000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,94,2024,requested,expense,01,0100,0100-686,01-0100-686,,Employment Services,11006,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,95,2024,requested,expense,01,0100,0100-700,01-0100-700,,Office Equipment,500,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,96,2024,requested,expense,01,0140,0140-440,01-0140-440,,IMRF Employer Contributions,44737,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,97,2024,requested,expense,01,0150,0150-450,01-0150-450,,Social Security Employer Contrib,140005,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,98,2024,requested,expense,01,0150,0150-451,01-0150-451,,Medicare Employer Contributions,33835,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,99,2024,requested,expense,01,0160,0160-660,01-0160-660,,Contractual Liability Premiums,85000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,100,2024,requested,expense,01,0160,0160-661,01-0160-661,,Contractual Liability Claims,8000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,101,2024,requested,expense,01,0170,0170-670,01-0170-670,,Audit Services,18000,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,102,2024,requested,expense,01,1000,1000-410,01-1000-410,,Parks FT Wages,236230,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,103,2024,requested,expense,01,1000,1000-420,01-1000-420,,Building PT Wages,36600,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,104,2024,requested,expense,01,1000,1000-421,01-1000-421,,Grounds PT Wages,39990,requested,pdf3,3,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,105,2024,requested,expense,01,1000,1000-422,01-1000-422,,Horticulture PT Wages,40000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,106,2024,requested,expense,01,1000,1000-425,01-1000-425,,Parks Training,5390,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,107,2024,requested,expense,01,1000,1000-426,01-1000-426,,Admin Uniforms,425,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,108,2024,requested,expense,01,1000,1000-428,01-1000-428,,Parks Uniforms,4754,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,109,2024,requested,expense,01,1000,1000-429,01-1000-429,,Parks Safety Equipment,4020,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,110,2024,requested,expense,01,1000,1000-430,01-1000-430,,Parks Office Supplies,500,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,111,2024,requested,expense,01,1000,1000-431,01-1000-431,,Signage,1820,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,112,2024,requested,expense,01,1000,1000-448,01-1000-448,,Amenities M&R,9225,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,113,2024,requested,expense,01,1000,1000-449,01-1000-449,,Pavement M&R,18381,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,114,2024,requested,expense,01,1000,1000-500,01-1000-500,,Signage M&R,3400,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,115,2024,requested,expense,01,1000,1000-540,01-1000-540,,Buildings M&R,31100,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,116,2024,requested,expense,01,1000,1000-541,01-1000-541,,Horticulture M&R,7960,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,117,2024,requested,expense,01,1000,1000-542,01-1000-542,,Grounds M&R,18568,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,118,2024,requested,expense,01,1000,1000-543,01-1000-543,,Park Amenities,14750,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,119,2024,requested,expense,01,1000,1000-544,01-1000-544,,Vehicles M&R,19225,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,120,2024,requested,expense,01,1000,1000-545,01-1000-545,,Equipment Rental,7150,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,121,2024,requested,expense,01,1000,1000-546,01-1000-546,,Equipment M&R,26210,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,122,2024,requested,expense,01,1000,1000-547,01-1000-547,,Shelter M&R,5000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,123,2024,requested,expense,01,1000,1000-548,01-1000-548,,Playground M&R,12800,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,124,2024,requested,expense,01,1000,1000-550,01-1000-550,,General Supplies,3890,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,125,2024,requested,expense,01,1000,1000-552,01-1000-552,,Custodial Supplies,5500,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,126,2024,requested,expense,01,1000,1000-559,01-1000-559,,Memorials,18000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,127,2024,requested,expense,01,1000,1000-601,01-1000-601,,Natural Gas Services,13881,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,128,2024,requested,expense,01,1000,1000-610,01-1000-610,,Flectric Services,30278,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,129,2024,requested,expense,01,1000,1000-620,01-1000-620,,Water/Sewer Services,4230,requested,pdf4,4,account_prefix_repaired,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,130,2024,requested,expense,01,1000,1000-630,01-1000-630,,Gasoline/Oil Services,36200,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,131,2024,requested,expense,01,1000,1000-635,01-1000-635,,Disposal Services,12480,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,132,2024,requested,expense,01,1000,1000-652,01-1000-652,,Alarm Contract,675,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,133,2024,requested,expense,01,1000,1000-654,01-1000-654,,Elevator Contract,3348,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,134,2024,requested,expense,01,1000,1000-656,01-1000-656,,Computer Contract Services,148371,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,135,2024,requested,expense,01,1000,1000-658,01-1000-658,,Building Contract,22304,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,136,2024,requested,expense,01,1000,1000-660,01-1000-660,,Grounds Contract,64000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,137,2024,requested,expense,01,1000,1000-661,01-1000-661,,Horticulture Contract,40700,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,138,2024,requested,expense,01,1000,1000-662,01-1000-662,,Grounds Supplies,5000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,139,2024,requested,expense,01,1000,1000-663,01-1000-663,,Horticulture Supplies,9015,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,140,2024,requested,expense,01,1000,1000-664,01-1000-664,,Building Supplies,5010,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,141,2024,requested,expense,01,1000,1000-665,01-1000-665,,Herbicide & Fertilizer,2960,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,142,2024,requested,expense,01,1000,1000-666,01-1000-666,,Plants & Trees,8175,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,143,2024,requested,expense,01,1000,1000-710,01-1000-710,,Building Equipment Purchase,2900,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,144,2024,requested,expense,01,1000,1000-730,01-1000-730,,Playground Equipment Purchase,6000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,145,2024,requested,expense,01,1000,1000-750,01-1000-750,,Athletic Fields M&R,7000,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,146,2024,requested,expense,01,1000,1000-770,01-1000-770,,Holiday Lights,3458,requested,pdf4,4,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,147,2024,requested,expense,02,0100,02:0100-410,02-0100-410,,Recreation FT Wages,506260,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,148,2024,requested,expense,02,0100,02:0100-420,02-0100-420,,Recreation PT Wages,35847,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,149,2024,requested,expense,02,0100,02:0100-430,02-0100-430,,Health Insurance,63125,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,150,2024,requested,expense,02,0100,02:0100-500,02-0100-500,,Dues/Subscriptions,5100,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,151,2024,requested,expense,02,0100,02:0100-502,02-0100-502,,Professional Meetings,1825,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,152,2024,requested,expense,02,0100,02:0100-504,02-0100-504,,Conference/Seminars,5190,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,153,2024,requested,expense,02,0100,02:0100-507,02-0100-507,,Professional Certification,1400,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,154,2024,requested,expense,02,0100,02:0100-522,02-0100-522,,Recreation Office Supplies,5400,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,155,2024,requested,expense,02,0100,02:0100-530,02-0100-530,,Mileage Reimbursement,300,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,156,2024,requested,expense,02,0100,02:0100-532,02-0100-532,,Office Equipment M&R,250,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,157,2024,requested,expense,02,0100,02:0100-599,02-0100-599,,Rec Cell Phone Carrier Services,5550,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,158,2024,requested,expense,02,0100,02:0100-600,02-0100-600,,Telephone Services,7280,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,159,2024,requested,expense,02,0100,02:0100-604,02-0100-604,,Advertising,49750,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,160,2024,requested,expense,02,0100,02:0100-608,02-0100-608,,Bankcard Fees,18000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,161,2024,requested,expense,02,0100,02:0100-627,02-0100-627,,Recreation Scholarships Awarded,5000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,162,2024,requested,expense,02,0100,02:0100-630,02-0100-630,,Gasoline/Oil Services,1660,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,163,2024,requested,expense,02,0100,02:0100-686,02-0100-686,,Employment Services,720,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,164,2024,requested,expense,02,0100,02:0100-687,02-0100-687,,Volunteer Services,1200,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,165,2024,requested,expense,02,0100,02:0100-700,02-0100-700,,Office Equipment Purchase,500,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,166,2024,requested,expense,02,0100,02:0100-710,02-0100-710,,Promotional Supplies,3500,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,167,2024,requested,expense,02,0100,02:0100-711,02-0100-711,,Recreation Safety Equipment,2500,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,168,2024,requested,expense,02,1000,02:1000-410,02-1000-410,,Recreation Parks FT Wages,236230,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,169,2024,requested,expense,02,1000,02:1000-420,02-1000-420,,Rec Building PT Wages,54990,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,170,2024,requested,expense,02,1000,02:1000-421,02-1000-421,,Rec Grounds PT Wages,30000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,171,2024,requested,expense,02,1000,02:1000-422,02-1000-422,,Horticulture PT Wages,15000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,172,2024,requested,expense,02,1000,02:1000-449,02-1000-449,,Pavement M&R,3000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,173,2024,requested,expense,02,1000,02:1000-544,02-1000-544,,Rec Vehicle M&R,3535,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,174,2024,requested,expense,02,1100,02:1100-600,02-1100-600,,Pool Contractual,50000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,175,2024,requested,expense,02,1200,02:1200-420,02-1200-420,,Doty PT Wages,27576,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,176,2024,requested,expense,02,1200,02:1200-540,02-1200-540,,Doty Building M&R,6400,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,177,2024,requested,expense,02,1200,02:1200-546,02-1200-546,,Doty Equipment M&R,13250,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,178,2024,requested,expense,02,1200,02:1200-547,02-1200-547,,Doty Signage M&R,900,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,179,2024,requested,expense,02,1200,02:1200-551,02-1200-551,,Doty Office Supplies,100,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,180,2024,requested,expense,02,1200,02:1200-552,02-1200-552,,Doty Custodial Supplies,1800,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,181,2024,requested,expense,02,1200,02:1200-558,02-1200-558,,Doty Safety Equipment,900,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,182,2024,requested,expense,02,1200,02:1200-601,02-1200-601,,Doty Natural Gas,2000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,183,2024,requested,expense,02,1200,02:1200-602,02-1200-602,,Doty Ice Arena M&R,3500,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,184,2024,requested,expense,02,1200,02:1200-604,02-1200-604,,Doty Advertising,500,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,185,2024,requested,expense,02,1200,02:1200-610,02-1200-610,,Doty Electric Services,30000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,186,2024,requested,expense,02,1200,02:1200-620,02-1200-620,,Doty Water/Sewer Services,10000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,187,2024,requested,expense,02,1200,02:1200-630,02-1200-630,,Doty Sprayground M&R,8000,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,188,2024,requested,expense,02,1200,02:1200-635,02-1200-635,,Doty Disposal Services,320,requested,pdf5,5,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,189,2024,requested,expense,02,1200,02:1200-711,02-1200-711,,Doty Sponsorship,4000,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,190,2024,requested,expense,02,1200,02:1200-712,02-1200-712,,Doty Signage,500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,191,2024,requested,expense,02,1200,02:1200-713,02-1200-713,,Doty Recreation Supplies,225,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,192,2024,requested,expense,02,1200,02:1200-714,02-1200-714,,Doty Special Event Supplies,2250,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,193,2024,requested,expense,02,1200,02:1200-715,02-1200-715,,Doty Ice Arena Supplies,600,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,194,2024,requested,expense,02,1200,02:1200-716,02-1200-716,,Doty Birthday Supplies,120,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,195,2024,requested,expense,02,1600,02:1600-420,02-1600-420,,Rivers Edge PT Wages,61048,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,196,2024,requested,expense,02,1600,02:1600-426,02-1600-426,,Rivers Edge Uniforms,800,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,197,2024,requested,expense,02,1600,02:1600-522,02-1600-522,,Rivers Edge Office Supplies,300,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,198,2024,requested,expense,02,1600,02:1600-540,02-1600-540,,Rivers Edge Building M&R,13400,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,199,2024,requested,expense,02,1600,02:1600-541,02-1600-541,,Rivers Edge Signage M&R,300,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,200,2024,requested,expense,02,1600,02:1600-542,02-1600-542,,Rivers Edge Grounds M&R,1590,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,201,2024,requested,expense,02,1600,02:1600-543,02-1600-543,,Rivers Edge Horticulture M&R,1400,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,202,2024,requested,expense,02,1600,02:1600-550,02-1600-550,,Rivers Edge Supplies/Equipment “,3018,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,203,2024,requested,expense,02,1600,02:1600-552,02-1600-552,,Rivers Edge Custodial Supplies,6300,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,204,2024,requested,expense,02,1600,02:1600-553,02-1600-553,,Rivers Edge Safety Equipment,500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,205,2024,requested,expense,02,1600,02:1600-600,02-1600-600,,Rivers Edge Contractual,2500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,206,2024,requested,expense,02,1600,02:1600-601,02-1600-601,,Rivers Edge Natural Gas Services,11000,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,207,2024,requested,expense,02,1600,02:1600-604,02-1600-604,,Rivers Edge Advertising,500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,208,2024,requested,expense,02,1600,02:1600-610,02-1600-610,,Rivers Edge Electric Services,37500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,209,2024,requested,expense,02,1600,02:1600-620,02-1600-620,,Rivers Edge Water/Sewer Services,1300,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,210,2024,requested,expense,02,1600,02:1600-635,02-1600-635,,Rivers Edge Disposal Services,2520,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,211,2024,requested,expense,02,1600,02:1600-654,02-1600-654,,Rivers Edge Elevator Contract,5745,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,212,2024,requested,expense,02,1600,02:1600-655,02-1600-655,,Rivers Edge Alarm Contract,900,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,213,2024,requested,expense,02,1600,02:1600-658,02-1600-658,,‘Rivers Edge Building Contract,16160,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,214,2024,requested,expense,02,1600,02:1600-659,02-1600-659,,Rivers Edge Birthday Contractual,350,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,215,2024,requested,expense,02,1600,02:1600-710,02-1600-710,,Rivers Edge Equipment Purchase,4800,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,216,2024,requested,expense,02,1600,02:1600-711,02-1600-711,,Rivers Edge Signage,500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,217,2024,requested,expense,02,2000,02:2000-420,02-2000-420,,Preschool PT Wages,59915,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,218,2024,requested,expense,02,2000,02:2000-500,02-2000-500,,Preschool Supplies,3750,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,219,2024,requested,expense,02,2000,02:2000-600,02-2000-600,,Preschool Contractual,200,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,220,2024,requested,expense,02,3000,02:3000-420,02-3000-420,,Camp PT Wages,68000,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,221,2024,requested,expense,02,3000,02:3000-500,02-3000-500,,Camp Supplies,3000,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,222,2024,requested,expense,02,3000,02:3000-503,02-3000-503,,Camp Snacks,500,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,223,2024,requested,expense,02,3000,02:3000-600,02-3000-600,,Camp Contractual,8125,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,224,2024,requested,expense,02,4000,02:4000-420,02-4000-420,,Adult Athletics PT Salaries,3346,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,225,2024,requested,expense,02,4000,02:4000-500,02-4000-500,,Adult Athletics Supplies,930,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,226,2024,requested,expense,02,4000,02:4000-600,02-4000-600,,Adult Athletics Contractual,13330,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,227,2024,requested,expense,02,6010,02:6010-420,02-6010-420,,Rivers Edge Birthday PT Wages,1400,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,228,2024,requested,expense,02,6010,02:6010-500,02-6010-500,,Rivers Edge Birthday Supplies,720,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,229,2024,requested,expense,02,6020,02:6020-601,02-6020-601,,Adult Fitness Contractual,19746,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,230,2024,requested,expense,02,6021,02:6021-601,02-6021-601,,Youth Fitness Contractual,20349,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,231,2024,requested,expense,02,7000,02:7000-420,02-7000-420,,Youth Athletics PT Wages,9828,requested,pdf6,6,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,232,2024,requested,expense,02,7000,02:7000-500,02-7000-500,,Youth Athletics Supplies,3500,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,233,2024,requested,expense,02,7000,02:7000-600,02-7000-600,,Youth Athletics Contractual,3000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,234,2024,requested,expense,02,7500,02:7500-420,02-7500-420,,Youth PT Wages,1344,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,235,2024,requested,expense,02,7500,02:7500-500,02-7500-500,,Youth Supplies,500,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,236,2024,requested,expense,02,7500,02:7500-600,02-7500-600,,Youth Contractual,4500,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,237,2024,requested,expense,02,8000,02:8000-420,02-8000-420,,Third Base PT Wages,162000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,238,2024,requested,expense,02,8000,02:8000-500,02-8000-500,,Third Base Supplies,4000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,239,2024,requested,expense,02,8000,02:8000-503,02-8000-503,,Third Base Snacks,2710,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,240,2024,requested,expense,02,8000,02:8000-600,02-8000-600,,Third Base Contractual,1800,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,241,2024,requested,expense,02,9100,02:9100-420,02-9100-420,,Special Event PT Wages,4200,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,242,2024,requested,expense,02,9100,02:9100-500,02-9100-500,,Special Event Supplies,6900,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,243,2024,requested,expense,02,9100,02:9100-600,02-9100-600,,Special Event Contractual,12350,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,244,2024,requested,expense,02,9150,02:9150-420,02-9150-420,,Community Events PT Wages,336,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,245,2024,requested,expense,02,9150,02:9150-522,02-9150-522,,Community Events Supplies,300,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,246,2024,requested,expense,02,9400,02:9400-500,02-9400-500,,General Supplies,6000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,247,2024,requested,expense,02,9400,02:9400-600,02-9400-600,,Marketing Contractual,21420,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,248,2024,requested,expense,02,9500,02:9500-500,02-9500-500,,Prairie Fields Supplies,300,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,249,2024,requested,expense,02,9500,02:9500-610,02-9500-610,,Prairie Fields Electric,3000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,250,2024,requested,expense,02,9500,02:9500-620,02-9500-620,,Prairie Fields Water/Sewer Services,8480,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,251,2024,requested,expense,02,9500,02:9500-750,02-9500-750,,Prairie Fields Athletic Fields M&R,10000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,252,2024,requested,expense,02,9500,02:9500-751,02-9500-751,,Prairie Fields Athletic Supplies,13805,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,253,2024,requested,expense,03,1000,03:1000-500,03-1000-500,,Signage M&R,800,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,254,2024,requested,expense,03,1000,03:1000-545,03-1000-545,,Equipment Rental,1000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,255,2024,requested,expense,03,2000,03:2000-431,03-2000-431,,Signage,700,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,256,2024,requested,expense,03,2000,03:2000-500,03-2000-500,,Museum Office Supplies,600,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,257,2024,requested,expense,03,2000,03:2000-540,03-2000-540,,Building M&R,17850,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,258,2024,requested,expense,03,2000,03:2000-542,03-2000-542,,Grounds M&R,2200,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,259,2024,requested,expense,03,2000,03:2000-543,03-2000-543,,Horticulture M&R,2000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,260,2024,requested,expense,03,2000,03:2000-544,03-2000-544,,Statue M&R,200,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,261,2024,requested,expense,03,2000,03:2000-600,03-2000-600,,Telephone/Internet Services,3721,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,262,2024,requested,expense,03,2000,03:2000-601,03-2000-601,,Natural Gas Services,1500,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,263,2024,requested,expense,03,2000,03:2000-610,03-2000-610,,Electric Services,5600,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,264,2024,requested,expense,03,2000,03:2000-620,03-2000-620,,Water/Sewer Services,500,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,265,2024,requested,expense,03,2000,03:2000-640,03-2000-640,,Building Contract,156918,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,266,2024,requested,expense,03,2000,03:2000-654,03-2000-654,,Elevator Contract,3792,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,267,2024,requested,expense,03,2000,03:2000-655,03-2000-655,,Alarm Contract,734,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,268,2024,requested,expense,03,2000,03:2000-660,03-2000-660,,Grounds Contract,9000,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,269,2024,requested,expense,09,0100,09:0100-410,09-0100-410,,Special Recreation FT Wages,175850,requested,pdf7,7,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,270,2024,requested,expense,09,0100,09:0100-415,09-0100-415,,Special Recreation Longevity .,250,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,271,2024,requested,expense,09,0100,09:0100-420,09-0100-420,,Special Recreation PT Wages,3585,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,272,2024,requested,expense,09,0100,09:0100-430,09-0100-430,,Health Insurance,36946,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,273,2024,requested,expense,09,0100,09:0100-431,09-0100-431,,Signage,200,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,274,2024,requested,expense,09,0100,09:0100-432,09-0100-432,,Staff Uniforms,1000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,275,2024,requested,expense,09,0100,09:0100-500,09-0100-500,,Dues/Subscriptions,1490,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,276,2024,requested,expense,09,0100,09:0100-502,09-0100-502,,Professional Meetings,900,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,277,2024,requested,expense,09,0100,09:0100-504,09-0100-504,,Conference/Seminars,3300,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,278,2024,requested,expense,09,0100,09:0100-506,09-0100-506,,Special Rec Tuition Reimbursement,3600,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,279,2024,requested,expense,09,0100,09:0100-507,09-0100-507,,Professional Certification,1035,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,280,2024,requested,expense,09,0100,09:0100-522,09-0100-522,,Special Recreation Office Supplies,1500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,281,2024,requested,expense,09,0100,09:0100-530,09-0100-530,,Mileage Reimbursement,500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,282,2024,requested,expense,09,0100,09:0100-540,09-0100-540,,Building M&R,4500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,283,2024,requested,expense,09,0100,09:0100-542,09-0100-542,,Grounds M&R,260,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,284,2024,requested,expense,09,0100,09:0100-543,09-0100-543,,Horticulture M&R,208,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,285,2024,requested,expense,09,0100,09:0100-544,09-0100-544,,Vehicle M&R,5540,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,286,2024,requested,expense,09,0100,09:0100-545,09-0100-545,,Equipment Rental,500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,287,2024,requested,expense,09,0100,09:0100-558,09-0100-558,,Safety Equipment,1800,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,288,2024,requested,expense,09,0100,09:0100-560,09-0100-560,,Program Equipment,4180,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,289,2024,requested,expense,09,0100,09:0100-600,09-0100-600,,Cell Phone Carrier Services,2400,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,290,2024,requested,expense,09,0100,09:0100-601,09-0100-601,,Natural Gas Services,4000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,291,2024,requested,expense,09,0100,09:0100-604,09-0100-604,,Advertising,2290,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,292,2024,requested,expense,09,0100,09:0100-610,09-0100-610,,Electric Services,5500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,293,2024,requested,expense,09,0100,09:0100-611,09-0100-611,,Disposal Services,960,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,294,2024,requested,expense,09,0100,09:0100-620,09-0100-620,,Water/Sewer Services,500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,295,2024,requested,expense,09,0100,09:0100-622,09-0100-622,,Telephone/internet Services,4100,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,296,2024,requested,expense,09,0100,09:0100-624,09-0100-624,,Contractual,2000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,297,2024,requested,expense,09,0100,09:0100-625,09-0100-625,,Contractual Inclusion,1000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,298,2024,requested,expense,09,0100,09:0100-627,09-0100-627,,Scholarships Awarded,1000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,299,2024,requested,expense,09,0100,09:0100-658,09-0100-658,,Building Contract,10470,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,300,2024,requested,expense,09,0100,09:0100-664,09-0100-664,,Building Supplies,400,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,301,2024,requested,expense,09,0100,09:0100-686,09-0100-686,,Spec Rec Employee Services,710,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,302,2024,requested,expense,09,0100,09:0100-700,09-0100-700,,Office Equipment,600,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,303,2024,requested,expense,09,0100,09:0100-760,09-0100-760,,Fundraiser Expenses,4450,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,304,2024,requested,expense,09,1000,09:1000-420,09-1000-420,,Building PT Wages,13104,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,305,2024,requested,expense,09,1000,09:1000-449,09-1000-449,,Pavement M&R,2372,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,306,2024,requested,expense,09,1000,09:1000-500,09-1000-500,,Signage M&R,150,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,307,2024,requested,expense,09,1000,09:1000-520,09-1000-520,,Postage,50,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,308,2024,requested,expense,09,1000,09:1000-552,09-1000-552,,Custodial Supplies,4800,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,309,2024,requested,expense,09,1000,09:1000-630,09-1000-630,,Gasoline/Oil Services,5980,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,310,2024,requested,expense,09,1000,09:1000-700,09-1000-700,,Promotional Supplies,1500,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,311,2024,requested,expense,09,2000,09:2000-420,09-2000-420,,Inclusion PT Wages,4000,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,312,2024,requested,expense,09,5000,09:5000-420,09-5000-420,,New Horizons PT Wages,70712,requested,pdf8,8,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,313,2024,requested,expense,09,5000,09:5000-501,09-5000-501,,New Horizons Program Supplies,20000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,314,2024,requested,expense,09,7500,09:7500-420,09-7500-420,,Camp/Club Horizon PT Wages,75469,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,315,2024,requested,expense,09,7500,09:7500-501,09-7500-501,,Camp/Club Horizon Program Supplies,6000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,316,2024,requested,expense,09,9400,09:9400-420,09-9400-420,,Specialty/SO PT Wages,32000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,317,2024,requested,expense,09,9400,09:9400-501,09-9400-501,,Specialty/SO Program Supplies,18650,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,318,2024,requested,expense,10,0850,10:0850-810,10-0850-810,,2020 Debt Principal,415600,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,319,2024,requested,expense,10,0850,10:0850-815,10-0850-815,,2020 Debt Interest,68800,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,320,2024,requested,expense,12,0100,12:0100-810,12-0100-810,,G.O. Bonds Principal,1179000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,321,2024,requested,expense,12,0100,12:0100-815,12-0100-815,,G.O. Bonds Interest,63000,requested,pdf9,9,account_prefix_repaired,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,322,2024,requested,expense,21,0910,21:0910-741,21-0910-741,,Admin Parking Lot/Sidewalk Upgrade,15091,requested,pdf9,9,rounded_from_cents,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,323,2024,requested,expense,21,0910,21:0910-766,21-0910-766,,Administration HVAC Replacement,39400,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,324,2024,requested,expense,21,0910,21:0910-767,21-0910-767,,Administration Cleaning & Sealing,20000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,325,2024,requested,expense,21,0910,21:0910-768,21-0910-768,,Cottonwood Playground,260000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,326,2024,requested,expense,21,0910,21:0910-770,21-0910-770,,Condensing Unit Install RE,20000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,327,2024,requested,expense,21,0910,21:0910-771,21-0910-771,,Special Recreation Building Fencing,15000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,328,2024,requested,expense,21,0910,21:0910-772,21-0910-772,,City Water Hookup at Sundstrand,135000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,329,2024,requested,expense,21,0910,21:0910-773,21-0910-773,,Tyler Software,76000,requested,pdf9,9,,EX-fy2024-budget-placeholder
-belvidere_park_district,FY2024_budget_draft,budget,330,2024,requested,expense,21,0910,21:0910-775,21-0910-775,,Condensing Unit Plaform Rivers Edge,140000,requested,pdf9,9,auto_resolved_digit,EX-fy2024-budget-placeholder
+belvidere_park_district,FY2024_budget,budget,1,2024,adopted,revenue,01,0100,0100-310,01-0100-310,,Corporate Real Estate Taxes,1286518,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,2,2024,adopted,revenue,01,0100,0100-311,01-0100-311,,Personal Property Replacement Tax,191000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,3,2024,adopted,revenue,01,0100,0100-312,01-0100-312,,Farm Lease,3825,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,4,2024,adopted,revenue,01,0100,0100-330,01-0100-330,,Corporate Interest,10250,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,5,2024,adopted,revenue,01,0100,0100-349,01-0100-349,,Corporate Miscellaneous,12500,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,6,2024,adopted,revenue,01,0100,0100-350,01-0100-350,,Memorials,18500,budgeted,pdf2,2,account_inferred,
+belvidere_park_district,FY2024_budget,budget,7,2024,adopted,revenue,01,0100,0100-360,01-0100-360,,Donations,2500,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,8,2024,adopted,revenue,01,0100,0100-370,01-0100-370,,Shelter Rentals,26250,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,9,2024,adopted,revenue,01,0140,0140-310,01-0140-310,,IMRF Real Estate Taxes,97583,budgeted,pdf2,2,rounded_from_cents,
+belvidere_park_district,FY2024_budget,budget,10,2024,adopted,revenue,01,0150,0150-310,01-0150-310,,Social Security Real Estate Taxes,163948,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,11,2024,adopted,revenue,01,0150,0150-311,01-0150-311,,Pers Prop Replacement Tax Soc Sec,9000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,12,2024,adopted,revenue,01,0150,0150-330,01-0150-330,,Social Security Interest,1000,budgeted,pdf2,2,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,13,2024,adopted,revenue,01,0160,0160-310,01-0160-310,,Liability Real Estate Taxes,111183,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,14,2024,adopted,revenue,01,0160,0160-330,01-0160-330,,Liability Interest,250,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,15,2024,adopted,revenue,01,0160,0160-395,01-0160-395,,Liability Other,500,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,16,2024,adopted,revenue,01,0160,0160-396,01-0160-396,,Liability Claims,7500,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,17,2024,adopted,revenue,01,0170,0170-310,01-0170-310,,Audit Real Estate Taxes,16714,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,18,2024,adopted,revenue,01,0170,0170-330,01-0170-330,,Audit Interest,1750,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,19,2024,adopted,revenue,02,0100,02:0100-310,02-0100-310,,Recreation Real Estate Taxes,969026,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,20,2024,adopted,revenue,02,0100,02:0100-330,02-0100-330,,Recreation Interest,1500,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,21,2024,adopted,revenue,02,1200,02:1200-300,02-1200-300,,Doty Park Revenue ’,25900,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,22,2024,adopted,revenue,02,1200,02:1200-301,02-1200-301,,Doty Park Birthday Revenue,300,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,23,2024,adopted,revenue,02,1200,02:1200-320,02-1200-320,,Marketing Sponsorship,12000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,24,2024,adopted,revenue,02,2000,02:2000-300,02-2000-300,,Preschool Revenue,63250,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,25,2024,adopted,revenue,02,2000,02:2000-301,02-2000-301,,Preschool Fundraising,750,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,26,2024,adopted,revenue,02,3000,02:3000-300,02-3000-300,,Camp Compass Revenue,122000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,27,2024,adopted,revenue,02,4000,02:4000-300,02-4000-300,,Adult Athletics Revenue,14300,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,28,2024,adopted,revenue,02,6000,02:6000-300,02-6000-300,,Rivers Edge Rental Revenue,38125,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,29,2024,adopted,revenue,02,6010,02:6010-300,02-6010-300,,Rivers Edge Birthday Revenue,2400,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,30,2024,adopted,revenue,02,6020,02:6020-300,02-6020-300,,Adult Fitness,26328,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,31,2024,adopted,revenue,02,6021,02:6021-300,02-6021-300,,Youth Fitness,27132,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,32,2024,adopted,revenue,02,6030,02:6030-300,02-6030-300,,Rivers Edge Daily Fees,8424,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,33,2024,adopted,revenue,02,7000,02:7000-300,02-7000-300,,Youth Athletics Revenue,30660,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,34,2024,adopted,revenue,02,7500,02:7500-300,02-7500-300,,Youth Revenue,12828,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,35,2024,adopted,revenue,02,8000,02:8000-300,02-8000-300,,Third Base Revenue,443700,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,36,2024,adopted,revenue,02,9010,02:9010-300,02-9010-300,,Recreation Scholarship Donations,5000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,37,2024,adopted,revenue,02,9100,02:9100-300,02-9100-300,,Special Event Revenue,13500,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,38,2024,adopted,revenue,02,9240,02:9240-300,02-9240-300,,Employee Uniform Purchase,500,budgeted,pdf5,5,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,39,2024,adopted,revenue,02,9500,02:9500-300,02-9500-300,,Prairie Fields Rental Revenue,4375,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,40,2024,adopted,revenue,02,9700,02:9700-300,02-9700-300,,Affiliate Revenue,850,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,41,2024,adopted,revenue,02,9800,02:9800-300,02-9800-300,,Recreation Donations,58500,budgeted,pdf5,5,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,42,2024,adopted,revenue,02,9901,02:9901-300,02-9901-300,,Vending Revenue,720,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,43,2024,adopted,revenue,03,0100,03:0100-310,03-0100-310,,Real Estate Taxes-Museum,114871,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,44,2024,adopted,revenue,03,0100,03:0100-330,03-0100-330,,Museum interest,250,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,45,2024,adopted,revenue,03,0100,03:0100-331,03-0100-331,,Grant Revenue,75000,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,46,2024,adopted,revenue,03,0100,03:0100-360,03-0100-360,,Donations-Museum,15000,budgeted,pdf6,6,overridden,
+belvidere_park_district,FY2024_budget,budget,47,2024,adopted,revenue,03,2000,03:2000-300,03-2000-300,,Baltic Mill Rentals,2000,budgeted,pdf6,6,account_inferred,
+belvidere_park_district,FY2024_budget,budget,48,2024,adopted,revenue,09,0100,09:0100-310,09-0100-310,,Special Recreation Real EstateTaxes,327734,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,49,2024,adopted,revenue,09,0100,09:0100-330,09-0100-330,,Special Recreation Interest,500,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,50,2024,adopted,revenue,09,0100,09:0100-360,09-0100-360,,Special Recreation Donations,4500,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,51,2024,adopted,revenue,09,0100,09:0100-392,09-0100-392,,Special Recreation Fundraising,8500,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,52,2024,adopted,revenue,09,5000,09:5000-300,09-5000-300,,Special Recreation Adult Revenue,107952,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,53,2024,adopted,revenue,09,7500,09:7500-300,09-7500-300,,Special Recreation Youth Revenue,64100,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,54,2024,adopted,revenue,09,9010,09:9010-300,09-9010-300,,Special Recreation Scholarships,1000,budgeted,pdf7,7,overridden,
+belvidere_park_district,FY2024_budget,budget,55,2024,adopted,revenue,09,9020,09:9020-300,09-9020-300,,Special Recreation Rentals,300,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,56,2024,adopted,revenue,09,9400,09:9400-300,09-9400-300,,Special Recreation General Programs,29000,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,57,2024,adopted,revenue,10,0100,10:0100-330,10-0100-330,,Interest,800,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,58,2024,adopted,revenue,10,0100,10:0100-390,10-0100-390,,Bond Proceeds,484400,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,59,2024,adopted,revenue,12,0100,12:0100-310,12-0100-310,,Real Estate Taxes-B&l,1242000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,60,2024,adopted,revenue,21,0100,21:0100-315,21-0100-315,,Grant Expense,15000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,61,2024,adopted,revenue,21,0100,21:0100-318,21-0100-318,,Impact Fees,10000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,62,2024,adopted,revenue,21,0100,21:0100-330,21-0100-330,,Interest,1000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,63,2024,adopted,revenue,21,0100,21:0100-390,21-0100-390,,Bond Proceeds,698600,budgeted,pdf8,8,overridden,
+belvidere_park_district,FY2024_budget,budget,64,2024,adopted,expense,01,0100,0100-410,01-0100-410,,Administration FT Wages,211021,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,65,2024,adopted,expense,01,0100,0100-416,01-0100-416,,Parks Longevity,750,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,66,2024,adopted,expense,01,0100,0100-420,01-0100-420,,Administration PT Wages,16536,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,67,2024,adopted,expense,01,0100,0100-430,01-0100-430,,Health Insurance,237411,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,68,2024,adopted,expense,01,0100,0100-500,01-0100-500,,Dues/Subscriptions,3949,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,69,2024,adopted,expense,01,0100,0100-502,01-0100-502,,Professional Meetings,4550,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,70,2024,adopted,expense,01,0100,0100-504,01-0100-504,,Conference/Seminars,4325,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,71,2024,adopted,expense,01,0100,0100-507,01-0100-507,,Professional Certification,995,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,72,2024,adopted,expense,01,0100,0100-510,01-0100-510,,Board Dues,6000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,73,2024,adopted,expense,01,0100,0100-512,01-0100-512,,Board Conference/Seminars,350,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,74,2024,adopted,expense,01,0100,0100-513,01-0100-513,,Admin/Board Assistance,6600,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,75,2024,adopted,expense,01,0100,0100-514,01-0100-514,,Foundation Admin Assistance,2200,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,76,2024,adopted,expense,01,0100,0100-520,01-0100-520,,HR Certified Mailings,100,budgeted,pdf1,1,overridden,
+belvidere_park_district,FY2024_budget,budget,77,2024,adopted,expense,01,0100,0100-522,01-0100-522,,Administration Office Supplies,8600,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,78,2024,adopted,expense,01,0100,0100-528,01-0100-528,,Computer Supplies,1500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,79,2024,adopted,expense,01,0100,0100-529,01-0100-529,,Employee Recognition,4000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,80,2024,adopted,expense,01,0100,0100-530,01-0100-530,,Mileage Reimbursement,650,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,81,2024,adopted,expense,01,0100,0100-532,01-0100-532,,Office Equipment M&R,200,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,82,2024,adopted,expense,01,0100,0100-599,01-0100-599,,Admin Cell Phones/Tablets,6058,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,83,2024,adopted,expense,01,0100,0100-600,01-0100-600,,Telephone/Internet Services,15200,budgeted,pdf1,1,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,84,2024,adopted,expense,01,0100,0100-603,01-0100-603,,Legal Publications,400,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,85,2024,adopted,expense,01,0100,0100-604,01-0100-604,,Advertising,2320,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,86,2024,adopted,expense,01,0100,0100-651,01-0100-651,,Bond Administration,5000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,87,2024,adopted,expense,01,0100,0100-661,01-0100-661,,Document Shredding,1500,budgeted,pdf1,1,overridden,
+belvidere_park_district,FY2024_budget,budget,88,2024,adopted,expense,01,0100,0100-670,01-0100-670,,Copier Maintenance,20100,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,89,2024,adopted,expense,01,0100,0100-672,01-0100-672,,Telephone Maintenance,500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,90,2024,adopted,expense,01,0100,0100-674,01-0100-674,,Postage Meter Services,1500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,91,2024,adopted,expense,01,0100,0100-682,01-0100-682,,Attorney Services,7500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,92,2024,adopted,expense,01,0100,0100-683,01-0100-683,,Professional Services,25000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,93,2024,adopted,expense,01,0100,0100-684,01-0100-684,,Police Services,28000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,94,2024,adopted,expense,01,0100,0100-686,01-0100-686,,Employment Services,11006,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,95,2024,adopted,expense,01,0100,0100-700,01-0100-700,,Office Equipment,500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,96,2024,adopted,expense,01,0140,0140-440,01-0140-440,,IMRF Employer Contributions,44737,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,97,2024,adopted,expense,01,0150,0150-450,01-0150-450,,Social Security Employer Contrib,140005,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,98,2024,adopted,expense,01,0150,0150-451,01-0150-451,,Medicare Employer Contributions,33835,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,99,2024,adopted,expense,01,0160,0160-660,01-0160-660,,Contractual Liability Premiums,85000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,100,2024,adopted,expense,01,0160,0160-661,01-0160-661,,Contractual Liability Claims,8000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,101,2024,adopted,expense,01,0170,0170-670,01-0170-670,,Audit Services,18000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,102,2024,adopted,expense,01,1000,1000-410,01-1000-410,,Parks FT Wages,236230,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,103,2024,adopted,expense,01,1000,1000-420,01-1000-420,,Building PT Wages,36600,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,104,2024,adopted,expense,01,1000,1000-421,01-1000-421,,Grounds PT Wages,39990,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,105,2024,adopted,expense,01,1000,1000-422,01-1000-422,,Horticulture PT Wages,40000,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,106,2024,adopted,expense,01,1000,1000-425,01-1000-425,,Parks Training,5390,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,107,2024,adopted,expense,01,1000,1000-426,01-1000-426,,Admin Uniforms,425,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,108,2024,adopted,expense,01,1000,1000-428,01-1000-428,,Parks Uniforms,4754,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,109,2024,adopted,expense,01,1000,1000-429,01-1000-429,,Parks Safety Equipment,4020,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,110,2024,adopted,expense,01,1000,1000-430,01-1000-430,,Parks Office Supplies,500,budgeted,pdf1,1,,
+belvidere_park_district,FY2024_budget,budget,111,2024,adopted,expense,01,1000,1000-431,01-1000-431,,Signage,1820,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,112,2024,adopted,expense,01,1000,1000-448,01-1000-448,,Amenities M&R,9225,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,113,2024,adopted,expense,01,1000,1000-449,01-1000-449,,Pavement M&R,18381,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,114,2024,adopted,expense,01,1000,1000-500,01-1000-500,,Signage M&R,3400,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,115,2024,adopted,expense,01,1000,1000-540,01-1000-540,,Buildings M&R,31100,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,116,2024,adopted,expense,01,1000,1000-541,01-1000-541,,Horticulture M&R,7960,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,117,2024,adopted,expense,01,1000,1000-542,01-1000-542,,Grounds M&R,18568,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,118,2024,adopted,expense,01,1000,1000-543,01-1000-543,,Park Amenities,14750,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,119,2024,adopted,expense,01,1000,1000-544,01-1000-544,,Vehicles M&R,19225,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,120,2024,adopted,expense,01,1000,1000-545,01-1000-545,,Equipment Rental,7150,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,121,2024,adopted,expense,01,1000,1000-546,01-1000-546,,Equipment M&R,26210,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,122,2024,adopted,expense,01,1000,1000-547,01-1000-547,,Shelter M&R,5000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,123,2024,adopted,expense,01,1000,1000-548,01-1000-548,,Playground M&R,12800,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,124,2024,adopted,expense,01,1000,1000-550,01-1000-550,,General Supplies,3890,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,125,2024,adopted,expense,01,1000,1000-552,01-1000-552,,Custodial Supplies,5500,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,126,2024,adopted,expense,01,1000,1000-559,01-1000-559,,Memorials,18000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,127,2024,adopted,expense,01,1000,1000-601,01-1000-601,,Natural Gas Services,13881,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,128,2024,adopted,expense,01,1000,1000-610,01-1000-610,,Flectric Services,30278,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,129,2024,adopted,expense,01,1000,1000-620,01-1000-620,,Water/Sewer Services,4230,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,130,2024,adopted,expense,01,1000,1000-630,01-1000-630,,Gasoline/Oil Services,36200,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,131,2024,adopted,expense,01,1000,1000-635,01-1000-635,,Disposal Services,12480,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,132,2024,adopted,expense,01,1000,1000-652,01-1000-652,,Alarm Contract,675,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,133,2024,adopted,expense,01,1000,1000-654,01-1000-654,,Elevator Contract,3348,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,134,2024,adopted,expense,01,1000,1000-656,01-1000-656,,Computer Contract Services,148371,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,135,2024,adopted,expense,01,1000,1000-658,01-1000-658,,Building Contract,22304,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,136,2024,adopted,expense,01,1000,1000-660,01-1000-660,,Grounds Contract,64000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,137,2024,adopted,expense,01,1000,1000-661,01-1000-661,,Horticulture Contract,40700,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,138,2024,adopted,expense,01,1000,1000-662,01-1000-662,,Grounds Supplies,5000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,139,2024,adopted,expense,01,1000,1000-663,01-1000-663,,Horticulture Supplies,9015,budgeted,pdf2,2,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,140,2024,adopted,expense,01,1000,1000-664,01-1000-664,,Building Supplies,5010,budgeted,pdf2,2,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,141,2024,adopted,expense,01,1000,1000-665,01-1000-665,,Herbicide & Fertilizer,2960,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,142,2024,adopted,expense,01,1000,1000-666,01-1000-666,,Plants & Trees,8175,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,143,2024,adopted,expense,01,1000,1000-710,01-1000-710,,Building Equipment Purchase,2900,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,144,2024,adopted,expense,01,1000,1000-730,01-1000-730,,Playground Equipment Purchase,6000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,145,2024,adopted,expense,01,1000,1000-750,01-1000-750,,Athletic Fields M&R,7000,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,146,2024,adopted,expense,01,1000,1000-770,01-1000-770,,Holiday Lights,3458,budgeted,pdf2,2,,
+belvidere_park_district,FY2024_budget,budget,147,2024,adopted,expense,02,0100,02:0100-410,02-0100-410,,Recreation FT Wages,506260,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,148,2024,adopted,expense,02,0100,02:0100-420,02-0100-420,,Recreation PT Wages,35847,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,149,2024,adopted,expense,02,0100,02:0100-430,02-0100-430,,Health Insurance,63125,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,150,2024,adopted,expense,02,0100,02:0100-500,02-0100-500,,Dues/Subscriptions,5100,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,151,2024,adopted,expense,02,0100,02:0100-502,02-0100-502,,Professional Meetings,1825,budgeted,pdf3,3,overridden,
+belvidere_park_district,FY2024_budget,budget,152,2024,adopted,expense,02,0100,02:0100-504,02-0100-504,,Conference/Seminars,5190,budgeted,pdf3,3,overridden,
+belvidere_park_district,FY2024_budget,budget,153,2024,adopted,expense,02,0100,02:0100-507,02-0100-507,,Professional Certification,1400,budgeted,pdf3,3,overridden,
+belvidere_park_district,FY2024_budget,budget,154,2024,adopted,expense,02,0100,02:0100-522,02-0100-522,,Recreation Office Supplies,5400,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,155,2024,adopted,expense,02,0100,02:0100-530,02-0100-530,,Mileage Reimbursement,300,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,156,2024,adopted,expense,02,0100,02:0100-532,02-0100-532,,Office Equipment M&R,250,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,157,2024,adopted,expense,02,0100,02:0100-599,02-0100-599,,Rec Cell Phone Carrier Services,5550,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,158,2024,adopted,expense,02,0100,02:0100-600,02-0100-600,,Telephone Services,7280,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,159,2024,adopted,expense,02,0100,02:0100-604,02-0100-604,,Advertising,49750,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,160,2024,adopted,expense,02,0100,02:0100-608,02-0100-608,,Bankcard Fees,18000,budgeted,pdf3,3,account_inferred;overridden,
+belvidere_park_district,FY2024_budget,budget,161,2024,adopted,expense,02,0100,02:0100-627,02-0100-627,,Recreation Scholarships Awarded,5000,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,162,2024,adopted,expense,02,0100,02:0100-630,02-0100-630,,Gasoline/Oil Services,1660,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,163,2024,adopted,expense,02,0100,02:0100-686,02-0100-686,,Employment Services,720,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,164,2024,adopted,expense,02,0100,02:0100-687,02-0100-687,,Volunteer Services,1200,budgeted,pdf3,3,overridden,
+belvidere_park_district,FY2024_budget,budget,165,2024,adopted,expense,02,0100,02:0100-700,02-0100-700,,Office Equipment Purchase,500,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,166,2024,adopted,expense,02,0100,02:0100-710,02-0100-710,,Promotional Supplies,3500,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,167,2024,adopted,expense,02,0100,02:0100-711,02-0100-711,,Recreation Safety Equipment,2500,budgeted,pdf3,3,overridden,
+belvidere_park_district,FY2024_budget,budget,168,2024,adopted,expense,02,1000,02:1000-410,02-1000-410,,Recreation Parks FT Wages,236230,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,169,2024,adopted,expense,02,1000,02:1000-420,02-1000-420,,Rec Building PT Wages,54990,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,170,2024,adopted,expense,02,1000,02:1000-421,02-1000-421,,Rec Grounds PT Wages,30000,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,171,2024,adopted,expense,02,1000,02:1000-422,02-1000-422,,Horticulture PT Wages,15000,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,172,2024,adopted,expense,02,1000,02:1000-449,02-1000-449,,Pavement M&R,3000,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,173,2024,adopted,expense,02,1000,02:1000-544,02-1000-544,,Rec Vehicle M&R,3535,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,174,2024,adopted,expense,02,1100,02:1100-600,02-1100-600,,Pool Contractual,50000,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,175,2024,adopted,expense,02,1200,02:1200-420,02-1200-420,,Doty PT Wages,27576,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,176,2024,adopted,expense,02,1200,02:1200-540,02-1200-540,,Doty Building M&R,6400,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,177,2024,adopted,expense,02,1200,02:1200-546,02-1200-546,,Doty Equipment M&R,13250,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,178,2024,adopted,expense,02,1200,02:1200-547,02-1200-547,,Doty Signage M&R,900,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,179,2024,adopted,expense,02,1200,02:1200-551,02-1200-551,,Doty Office Supplies,100,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,180,2024,adopted,expense,02,1200,02:1200-552,02-1200-552,,Doty Custodial Supplies,1800,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,181,2024,adopted,expense,02,1200,02:1200-558,02-1200-558,,Doty Safety Equipment,900,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,182,2024,adopted,expense,02,1200,02:1200-601,02-1200-601,,Doty Natural Gas,2000,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,183,2024,adopted,expense,02,1200,02:1200-602,02-1200-602,,Doty Ice Arena M&R,3500,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,184,2024,adopted,expense,02,1200,02:1200-604,02-1200-604,,Doty Advertising,500,budgeted,pdf3,3,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,185,2024,adopted,expense,02,1200,02:1200-610,02-1200-610,,Doty Electric Services,30000,budgeted,pdf3,3,,
+belvidere_park_district,FY2024_budget,budget,186,2024,adopted,expense,02,1200,02:1200-620,02-1200-620,,Doty Water/Sewer Services,10000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,187,2024,adopted,expense,02,1200,02:1200-630,02-1200-630,,Doty Sprayground M&R,8000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,188,2024,adopted,expense,02,1200,02:1200-635,02-1200-635,,Doty Disposal Services,320,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,189,2024,adopted,expense,02,1200,02:1200-711,02-1200-711,,Doty Sponsorship,4000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,190,2024,adopted,expense,02,1200,02:1200-712,02-1200-712,,Doty Signage,500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,191,2024,adopted,expense,02,1200,02:1200-713,02-1200-713,,Doty Recreation Supplies,225,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,192,2024,adopted,expense,02,1200,02:1200-714,02-1200-714,,Doty Special Event Supplies,2250,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,193,2024,adopted,expense,02,1200,02:1200-715,02-1200-715,,Doty Ice Arena Supplies,600,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,194,2024,adopted,expense,02,1200,02:1200-716,02-1200-716,,Doty Birthday Supplies,120,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,195,2024,adopted,expense,02,1600,02:1600-420,02-1600-420,,Rivers Edge PT Wages,61048,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,196,2024,adopted,expense,02,1600,02:1600-426,02-1600-426,,Rivers Edge Uniforms,800,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,197,2024,adopted,expense,02,1600,02:1600-522,02-1600-522,,Rivers Edge Office Supplies,300,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,198,2024,adopted,expense,02,1600,02:1600-540,02-1600-540,,Rivers Edge Building M&R,13400,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,199,2024,adopted,expense,02,1600,02:1600-541,02-1600-541,,Rivers Edge Signage M&R,300,budgeted,pdf4,4,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,200,2024,adopted,expense,02,1600,02:1600-542,02-1600-542,,Rivers Edge Grounds M&R,1590,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,201,2024,adopted,expense,02,1600,02:1600-543,02-1600-543,,Rivers Edge Horticulture M&R,1400,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,202,2024,adopted,expense,02,1600,02:1600-550,02-1600-550,,Rivers Edge Supplies/Equipment “,3018,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,203,2024,adopted,expense,02,1600,02:1600-552,02-1600-552,,Rivers Edge Custodial Supplies,6300,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,204,2024,adopted,expense,02,1600,02:1600-553,02-1600-553,,Rivers Edge Safety Equipment,500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,205,2024,adopted,expense,02,1600,02:1600-600,02-1600-600,,Rivers Edge Contractual,2500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,206,2024,adopted,expense,02,1600,02:1600-601,02-1600-601,,Rivers Edge Natural Gas Services,11000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,207,2024,adopted,expense,02,1600,02:1600-604,02-1600-604,,Rivers Edge Advertising,500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,208,2024,adopted,expense,02,1600,02:1600-610,02-1600-610,,Rivers Edge Electric Services,37500,budgeted,pdf4,4,account_inferred,
+belvidere_park_district,FY2024_budget,budget,209,2024,adopted,expense,02,1600,02:1600-620,02-1600-620,,Rivers Edge Water/Sewer Services,1300,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,210,2024,adopted,expense,02,1600,02:1600-635,02-1600-635,,Rivers Edge Disposal Services,2520,budgeted,pdf4,4,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,211,2024,adopted,expense,02,1600,02:1600-654,02-1600-654,,Rivers Edge Elevator Contract,5745,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,212,2024,adopted,expense,02,1600,02:1600-655,02-1600-655,,Rivers Edge Alarm Contract,900,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,213,2024,adopted,expense,02,1600,02:1600-658,02-1600-658,,‘Rivers Edge Building Contract,16160,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,214,2024,adopted,expense,02,1600,02:1600-659,02-1600-659,,Rivers Edge Birthday Contractual,350,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,215,2024,adopted,expense,02,1600,02:1600-710,02-1600-710,,Rivers Edge Equipment Purchase,4800,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,216,2024,adopted,expense,02,1600,02:1600-711,02-1600-711,,Rivers Edge Signage,500,budgeted,pdf4,4,account_inferred,
+belvidere_park_district,FY2024_budget,budget,217,2024,adopted,expense,02,2000,02:2000-420,02-2000-420,,Preschool PT Wages,59915,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,218,2024,adopted,expense,02,2000,02:2000-500,02-2000-500,,Preschool Supplies,3750,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,219,2024,adopted,expense,02,2000,02:2000-600,02-2000-600,,Preschool Contractual,200,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,220,2024,adopted,expense,02,3000,02:3000-420,02-3000-420,,Camp PT Wages,68000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,221,2024,adopted,expense,02,3000,02:3000-500,02-3000-500,,Camp Supplies,3000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,222,2024,adopted,expense,02,3000,02:3000-503,02-3000-503,,Camp Snacks,500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,223,2024,adopted,expense,02,3000,02:3000-600,02-3000-600,,Camp Contractual,8125,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,224,2024,adopted,expense,02,4000,02:4000-420,02-4000-420,,Adult Athletics PT Salaries,3346,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,225,2024,adopted,expense,02,4000,02:4000-500,02-4000-500,,Adult Athletics Supplies,930,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,226,2024,adopted,expense,02,4000,02:4000-600,02-4000-600,,Adult Athletics Contractual,13330,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,227,2024,adopted,expense,02,6010,02:6010-420,02-6010-420,,Rivers Edge Birthday PT Wages,1400,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,228,2024,adopted,expense,02,6010,02:6010-500,02-6010-500,,Rivers Edge Birthday Supplies,720,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,229,2024,adopted,expense,02,6020,02:6020-601,02-6020-601,,Adult Fitness Contractual,19746,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,230,2024,adopted,expense,02,6021,02:6021-601,02-6021-601,,Youth Fitness Contractual,20349,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,231,2024,adopted,expense,02,7000,02:7000-420,02-7000-420,,Youth Athletics PT Wages,9828,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,232,2024,adopted,expense,02,7000,02:7000-500,02-7000-500,,Youth Athletics Supplies,3500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,233,2024,adopted,expense,02,7000,02:7000-600,02-7000-600,,Youth Athletics Contractual,3000,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,234,2024,adopted,expense,02,7500,02:7500-420,02-7500-420,,Youth PT Wages,1344,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,235,2024,adopted,expense,02,7500,02:7500-500,02-7500-500,,Youth Supplies,500,budgeted,pdf4,4,,
+belvidere_park_district,FY2024_budget,budget,236,2024,adopted,expense,02,7500,02:7500-600,02-7500-600,,Youth Contractual,4500,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,237,2024,adopted,expense,02,8000,02:8000-420,02-8000-420,,Third Base PT Wages,162000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,238,2024,adopted,expense,02,8000,02:8000-500,02-8000-500,,Third Base Supplies,4000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,239,2024,adopted,expense,02,8000,02:8000-503,02-8000-503,,Third Base Snacks,2710,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,240,2024,adopted,expense,02,8000,02:8000-600,02-8000-600,,Third Base Contractual,1800,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,241,2024,adopted,expense,02,9100,02:9100-420,02-9100-420,,Special Event PT Wages,4200,budgeted,pdf5,5,overridden,
+belvidere_park_district,FY2024_budget,budget,242,2024,adopted,expense,02,9100,02:9100-500,02-9100-500,,Special Event Supplies,6900,budgeted,pdf5,5,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,243,2024,adopted,expense,02,9100,02:9100-600,02-9100-600,,Special Event Contractual,12350,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,244,2024,adopted,expense,02,9150,02:9150-420,02-9150-420,,Community Events PT Wages,336,budgeted,pdf5,5,overridden,
+belvidere_park_district,FY2024_budget,budget,245,2024,adopted,expense,02,9150,02:9150-522,02-9150-522,,Community Events Supplies,300,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,246,2024,adopted,expense,02,9400,02:9400-500,02-9400-500,,General Supplies,6000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,247,2024,adopted,expense,02,9400,02:9400-600,02-9400-600,,Marketing Contractual,21420,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,248,2024,adopted,expense,02,9500,02:9500-500,02-9500-500,,Prairie Fields Supplies,300,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,249,2024,adopted,expense,02,9500,02:9500-610,02-9500-610,,Prairie Fields Electric,3000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,250,2024,adopted,expense,02,9500,02:9500-620,02-9500-620,,Prairie Fields Water/Sewer Services,8480,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,251,2024,adopted,expense,02,9500,02:9500-750,02-9500-750,,Prairie Fields Athletic Fields M&R,10000,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,252,2024,adopted,expense,02,9500,02:9500-751,02-9500-751,,Prairie Fields Athletic Supplies,13805,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,253,2024,adopted,expense,03,1000,03:1000-500,03-1000-500,,Signage M&R,800,budgeted,pdf5,5,,
+belvidere_park_district,FY2024_budget,budget,254,2024,adopted,expense,03,1000,03:1000-545,03-1000-545,,Equipment Rental,1000,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,255,2024,adopted,expense,03,2000,03:2000-431,03-2000-431,,Signage,700,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,256,2024,adopted,expense,03,2000,03:2000-500,03-2000-500,,Museum Office Supplies,600,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,257,2024,adopted,expense,03,2000,03:2000-540,03-2000-540,,Building M&R,17850,budgeted,pdf6,6,overridden,
+belvidere_park_district,FY2024_budget,budget,258,2024,adopted,expense,03,2000,03:2000-542,03-2000-542,,Grounds M&R,2200,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,259,2024,adopted,expense,03,2000,03:2000-543,03-2000-543,,Horticulture M&R,2000,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,260,2024,adopted,expense,03,2000,03:2000-544,03-2000-544,,Statue M&R,200,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,261,2024,adopted,expense,03,2000,03:2000-600,03-2000-600,,Telephone/Internet Services,3721,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,262,2024,adopted,expense,03,2000,03:2000-601,03-2000-601,,Natural Gas Services,1500,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,263,2024,adopted,expense,03,2000,03:2000-610,03-2000-610,,Electric Services,5600,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,264,2024,adopted,expense,03,2000,03:2000-620,03-2000-620,,Water/Sewer Services,500,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,265,2024,adopted,expense,03,2000,03:2000-640,03-2000-640,,Building Contract,156918,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,266,2024,adopted,expense,03,2000,03:2000-654,03-2000-654,,Elevator Contract,3792,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,267,2024,adopted,expense,03,2000,03:2000-655,03-2000-655,,Alarm Contract,734,budgeted,pdf6,6,overridden,
+belvidere_park_district,FY2024_budget,budget,268,2024,adopted,expense,03,2000,03:2000-660,03-2000-660,,Grounds Contract,9000,budgeted,pdf6,6,account_inferred,
+belvidere_park_district,FY2024_budget,budget,269,2024,adopted,expense,09,0100,09:0100-410,09-0100-410,,Special Recreation FT Wages,175850,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,270,2024,adopted,expense,09,0100,09:0100-415,09-0100-415,,Special Recreation Longevity .,250,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,271,2024,adopted,expense,09,0100,09:0100-420,09-0100-420,,Special Recreation PT Wages,3585,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,272,2024,adopted,expense,09,0100,09:0100-430,09-0100-430,,Health Insurance,36946,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,273,2024,adopted,expense,09,0100,09:0100-431,09-0100-431,,Signage,200,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,274,2024,adopted,expense,09,0100,09:0100-432,09-0100-432,,Staff Uniforms,1000,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,275,2024,adopted,expense,09,0100,09:0100-500,09-0100-500,,Dues/Subscriptions,1490,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,276,2024,adopted,expense,09,0100,09:0100-502,09-0100-502,,Professional Meetings,900,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,277,2024,adopted,expense,09,0100,09:0100-504,09-0100-504,,Conference/Seminars,3300,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,278,2024,adopted,expense,09,0100,09:0100-506,09-0100-506,,Special Rec Tuition Reimbursement,3600,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,279,2024,adopted,expense,09,0100,09:0100-507,09-0100-507,,Professional Certification,1035,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,280,2024,adopted,expense,09,0100,09:0100-522,09-0100-522,,Special Recreation Office Supplies,1500,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,281,2024,adopted,expense,09,0100,09:0100-530,09-0100-530,,Mileage Reimbursement,500,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,282,2024,adopted,expense,09,0100,09:0100-540,09-0100-540,,Building M&R,4500,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,283,2024,adopted,expense,09,0100,09:0100-542,09-0100-542,,Grounds M&R,260,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,284,2024,adopted,expense,09,0100,09:0100-543,09-0100-543,,Horticulture M&R,208,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,285,2024,adopted,expense,09,0100,09:0100-544,09-0100-544,,Vehicle M&R,5540,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,286,2024,adopted,expense,09,0100,09:0100-545,09-0100-545,,Equipment Rental,500,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,287,2024,adopted,expense,09,0100,09:0100-558,09-0100-558,,Safety Equipment,1800,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,288,2024,adopted,expense,09,0100,09:0100-560,09-0100-560,,Program Equipment,4180,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,289,2024,adopted,expense,09,0100,09:0100-600,09-0100-600,,Cell Phone Carrier Services,2400,budgeted,pdf6,6,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,290,2024,adopted,expense,09,0100,09:0100-601,09-0100-601,,Natural Gas Services,4000,budgeted,pdf6,6,,
+belvidere_park_district,FY2024_budget,budget,291,2024,adopted,expense,09,0100,09:0100-604,09-0100-604,,Advertising,2290,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,292,2024,adopted,expense,09,0100,09:0100-610,09-0100-610,,Electric Services,5500,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,293,2024,adopted,expense,09,0100,09:0100-611,09-0100-611,,Disposal Services,960,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,294,2024,adopted,expense,09,0100,09:0100-620,09-0100-620,,Water/Sewer Services,500,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,295,2024,adopted,expense,09,0100,09:0100-622,09-0100-622,,Telephone/internet Services,4100,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,296,2024,adopted,expense,09,0100,09:0100-624,09-0100-624,,Contractual,2000,budgeted,pdf7,7,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,297,2024,adopted,expense,09,0100,09:0100-625,09-0100-625,,Contractual Inclusion,1000,budgeted,pdf7,7,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,298,2024,adopted,expense,09,0100,09:0100-627,09-0100-627,,Scholarships Awarded,1000,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,299,2024,adopted,expense,09,0100,09:0100-658,09-0100-658,,Building Contract,10470,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,300,2024,adopted,expense,09,0100,09:0100-664,09-0100-664,,Building Supplies,400,budgeted,pdf7,7,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,301,2024,adopted,expense,09,0100,09:0100-686,09-0100-686,,Spec Rec Employee Services,710,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,302,2024,adopted,expense,09,0100,09:0100-700,09-0100-700,,Office Equipment,600,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,303,2024,adopted,expense,09,0100,09:0100-760,09-0100-760,,Fundraiser Expenses,4450,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,304,2024,adopted,expense,09,1000,09:1000-420,09-1000-420,,Building PT Wages,13104,budgeted,pdf7,7,overridden,
+belvidere_park_district,FY2024_budget,budget,305,2024,adopted,expense,09,1000,09:1000-449,09-1000-449,,Pavement M&R,2372,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,306,2024,adopted,expense,09,1000,09:1000-500,09-1000-500,,Signage M&R,150,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,307,2024,adopted,expense,09,1000,09:1000-520,09-1000-520,,Postage,50,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,308,2024,adopted,expense,09,1000,09:1000-552,09-1000-552,,Custodial Supplies,4800,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,309,2024,adopted,expense,09,1000,09:1000-630,09-1000-630,,Gasoline/Oil Services,5980,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,310,2024,adopted,expense,09,1000,09:1000-700,09-1000-700,,Promotional Supplies,1500,budgeted,pdf7,7,account_inferred;auto_resolved,
+belvidere_park_district,FY2024_budget,budget,311,2024,adopted,expense,09,2000,09:2000-420,09-2000-420,,Inclusion PT Wages,4000,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,312,2024,adopted,expense,09,5000,09:5000-420,09-5000-420,,New Horizons PT Wages,70712,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,313,2024,adopted,expense,09,5000,09:5000-501,09-5000-501,,New Horizons Program Supplies,20000,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,314,2024,adopted,expense,09,7500,09:7500-420,09-7500-420,,Camp/Club Horizon PT Wages,75469,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,315,2024,adopted,expense,09,7500,09:7500-501,09-7500-501,,Camp/Club Horizon Program Supplies,6000,budgeted,pdf7,7,account_inferred,
+belvidere_park_district,FY2024_budget,budget,316,2024,adopted,expense,09,9400,09:9400-420,09-9400-420,,Specialty/SO PT Wages,32000,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,317,2024,adopted,expense,09,9400,09:9400-501,09-9400-501,,Specialty/SO Program Supplies,18650,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,318,2024,adopted,expense,10,0850,10:0850-810,10-0850-810,,2020 Debt Principal,415600,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,319,2024,adopted,expense,10,0850,10:0850-815,10-0850-815,,2020 Debt Interest,68800,budgeted,pdf7,7,,
+belvidere_park_district,FY2024_budget,budget,320,2024,adopted,expense,12,0100,12:0100-810,12-0100-810,,G.O. Bonds Principal,1183000,budgeted,pdf8,8,account_inferred;overridden,
+belvidere_park_district,FY2024_budget,budget,321,2024,adopted,expense,12,0100,12:0100-815,12-0100-815,,G.O. Bonds Interest,58120,budgeted,pdf8,8,overridden rounded_from_cents,
+belvidere_park_district,FY2024_budget,budget,322,2024,adopted,expense,21,0910,21:0910-741,21-0910-741,,Admin Parking Lot/Sidewalk Upgrade,15091,budgeted,pdf8,8,rounded_from_cents,
+belvidere_park_district,FY2024_budget,budget,323,2024,adopted,expense,21,0910,21:0910-766,21-0910-766,,Administration HVAC Replacement,39400,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,324,2024,adopted,expense,21,0910,21:0910-767,21-0910-767,,Administration Cleaning & Sealing,20000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,325,2024,adopted,expense,21,0910,21:0910-768,21-0910-768,,Cottonwood Playground,260000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,326,2024,adopted,expense,21,0910,21:0910-770,21-0910-770,,Condensing Unit Install RE,20000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,327,2024,adopted,expense,21,0910,21:0910-771,21-0910-771,,Special Recreation Building Fencing,15000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,328,2024,adopted,expense,21,0910,21:0910-772,21-0910-772,,City Water Hookup at Sundstrand,135000,budgeted,pdf8,8,auto_resolved,
+belvidere_park_district,FY2024_budget,budget,329,2024,adopted,expense,21,0910,21:0910-773,21-0910-773,,Tyler Software,76000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget,budget,330,2024,adopted,expense,21,0910,21:0910-775,21-0910-775,,Condensing Unit Plaform Rivers Edge,140000,budgeted,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,1,2024,requested,revenue,01,0100,0100-310,01-0100-310,,Corporate Real Estate Taxes,1286518,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,2,2024,requested,revenue,01,0100,0100-311,01-0100-311,,Personal Property Replacement Tax,191000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,3,2024,requested,revenue,01,0100,0100-312,01-0100-312,,Farm Lease,3825,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,4,2024,requested,revenue,01,0100,0100-330,01-0100-330,,Corporate Interest,10250,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,5,2024,requested,revenue,01,0100,0100-349,01-0100-349,,Corporate Miscellaneous,12500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,6,2024,requested,revenue,01,0100,0100-350,01-0100-350,,Memorials,18500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,7,2024,requested,revenue,01,0100,0100-360,01-0100-360,,Donations,2500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,8,2024,requested,revenue,01,0100,0100-370,01-0100-370,,Shelter Rentals,26250,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,9,2024,requested,revenue,01,0140,0140-310,01-0140-310,,IMRF Real Estate Taxes,97583,requested,pdf1,1,rounded_from_cents,
+belvidere_park_district,FY2024_budget_draft,budget,10,2024,requested,revenue,01,0150,0150-310,01-0150-310,,Social Security Real Estate Taxes,163948,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,11,2024,requested,revenue,01,0150,0150-311,01-0150-311,,Pers Prop Replacement Tax Soc Sec,9000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,12,2024,requested,revenue,01,0150,0150-330,01-0150-330,,Social Security Interest,1000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,13,2024,requested,revenue,01,0160,0160-310,01-0160-310,,Liability Real Estate Taxes,111183,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,14,2024,requested,revenue,01,0160,0160-330,01-0160-330,,Liability Interest,250,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,15,2024,requested,revenue,01,0160,0160-395,01-0160-395,,Liability Other,500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,16,2024,requested,revenue,01,0160,0160-396,01-0160-396,,Liability Claims,7500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,17,2024,requested,revenue,01,0170,0170-310,01-0170-310,,Audit Real Estate Taxes,16714,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,18,2024,requested,revenue,01,0170,0170-330,01-0170-330,,Audit Interest,1750,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,19,2024,requested,revenue,02,0100,02:0100-310,02-0100-310,,Recreation Real Estate Taxes,969026,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,20,2024,requested,revenue,02,0100,02:0100-330,02-0100-330,,Recreation Interest,1500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,21,2024,requested,revenue,02,1200,02:1200-300,02-1200-300,,Doty Park Revenue ’,25900,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,22,2024,requested,revenue,02,1200,02:1200-301,02-1200-301,,Doty Park Birthday Revenue,300,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,23,2024,requested,revenue,02,1200,02:1200-320,02-1200-320,,Marketing Sponsorship,12000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,24,2024,requested,revenue,02,2000,02:2000-300,02-2000-300,,Preschool Revenue,63250,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,25,2024,requested,revenue,02,2000,02:2000-301,02-2000-301,,Preschool Fundraising,750,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,26,2024,requested,revenue,02,3000,02:3000-300,02-3000-300,,Camp Compass Revenue,122000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,27,2024,requested,revenue,02,4000,02:4000-300,02-4000-300,,Adult Athletics Revenue,14300,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,28,2024,requested,revenue,02,6000,02:6000-300,02-6000-300,,Rivers Edge Rental Revenue,38125,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,29,2024,requested,revenue,02,6010,02:6010-300,02-6010-300,,Rivers Edge Birthday Revenue,2400,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,30,2024,requested,revenue,02,6020,02:6020-300,02-6020-300,,Adult Fitness,26328,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,31,2024,requested,revenue,02,6021,02:6021-300,02-6021-300,,Youth Fitness,27132,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,32,2024,requested,revenue,02,6030,02:6030-300,02-6030-300,,Rivers Edge Daily Fees,8424,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,33,2024,requested,revenue,02,7000,02:7000-300,02-7000-300,,Youth Athletics Revenue,30660,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,34,2024,requested,revenue,02,7500,02:7500-300,02-7500-300,,Youth Revenue,12828,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,35,2024,requested,revenue,02,8000,02:8000-300,02-8000-300,,Third Base Revenue,443700,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,36,2024,requested,revenue,02,9010,02:9010-300,02-9010-300,,Recreation Scholarship Donations,5000,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,37,2024,requested,revenue,02,9100,02:9100-300,02-9100-300,,Special Event Revenue,13500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,38,2024,requested,revenue,02,9240,02:9240-300,02-9240-300,,Employee Uniform Purchase,500,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,39,2024,requested,revenue,02,9500,02:9500-300,02-9500-300,,Prairie Fields Rental Revenue,4375,requested,pdf1,1,,
+belvidere_park_district,FY2024_budget_draft,budget,40,2024,requested,revenue,02,9700,02:9700-300,02-9700-300,,Affiliate Revenue,850,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,41,2024,requested,revenue,02,9800,02:9800-300,02-9800-300,,Recreation Donations,58500,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,42,2024,requested,revenue,02,9901,02:9901-300,02-9901-300,,Vending Revenue,720,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,43,2024,requested,revenue,03,0100,03:0100-310,03-0100-310,,Real Estate Taxes-Museum,114871,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,44,2024,requested,revenue,03,0100,03:0100-330,03-0100-330,,Museum interest,250,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,45,2024,requested,revenue,03,0100,03:0100-331,03-0100-331,,Grant Revenue,75000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,46,2024,requested,revenue,03,0100,03:0100-360,03-0100-360,,Donations-Museum,15000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,47,2024,requested,revenue,03,2000,03:2000-300,03-2000-300,,Baltic Mill Rentals,2000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,48,2024,requested,revenue,09,0100,09:0100-310,09-0100-310,,Special Recreation Real EstateTaxes,327734,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,49,2024,requested,revenue,09,0100,09:0100-330,09-0100-330,,Special Recreation Interest,500,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,50,2024,requested,revenue,09,0100,09:0100-360,09-0100-360,,Special Recreation Donations,4500,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,51,2024,requested,revenue,09,0100,09:0100-392,09-0100-392,,Special Recreation Fundraising,8500,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,52,2024,requested,revenue,09,5000,09:5000-300,09-5000-300,,Special Recreation Adult Revenue,107952,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,53,2024,requested,revenue,09,7500,09:7500-300,09-7500-300,,Special Recreation Youth Revenue,64100,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,54,2024,requested,revenue,09,9010,09:9010-300,09-9010-300,,Special Recreation Scholarships,1000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,55,2024,requested,revenue,09,9020,09:9020-300,09-9020-300,,Special Recreation Rentals,300,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,56,2024,requested,revenue,09,9400,09:9400-300,09-9400-300,,Special Recreation General Programs,29000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,57,2024,requested,revenue,10,0100,10:0100-330,10-0100-330,,Interest,800,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,58,2024,requested,revenue,10,0100,10:0100-390,10-0100-390,,Bond Proceeds,484400,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,59,2024,requested,revenue,12,0100,12:0100-310,12-0100-310,,Real Estate Taxes-B&l,1242000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,60,2024,requested,revenue,21,0100,21:0100-315,21-0100-315,,Grant Expense,15000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,61,2024,requested,revenue,21,0100,21:0100-318,21-0100-318,,Impact Fees,10000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,62,2024,requested,revenue,21,0100,21:0100-330,21-0100-330,,Interest,1000,requested,pdf2,2,,
+belvidere_park_district,FY2024_budget_draft,budget,63,2024,requested,revenue,21,0100,21:0100-390,21-0100-390,,Bond Proceeds,694400,requested,pdf2,2,,EX-fy2024-draft-vs-adopted
+belvidere_park_district,FY2024_budget_draft,budget,64,2024,requested,expense,01,0100,0100-410,01-0100-410,,Administration FT Wages,211021,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,65,2024,requested,expense,01,0100,0100-416,01-0100-416,,Parks Longevity,750,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,66,2024,requested,expense,01,0100,0100-420,01-0100-420,,Administration PT Wages,16536,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,67,2024,requested,expense,01,0100,0100-430,01-0100-430,,Health Insurance,237411,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,68,2024,requested,expense,01,0100,0100-500,01-0100-500,,Dues/Subscriptions,3949,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,69,2024,requested,expense,01,0100,0100-502,01-0100-502,,Professional Meetings,4550,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,70,2024,requested,expense,01,0100,0100-504,01-0100-504,,Conference/Seminars,4325,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,71,2024,requested,expense,01,0100,0100-507,01-0100-507,,Professional Certification,995,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,72,2024,requested,expense,01,0100,0100-510,01-0100-510,,Board Dues,6000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,73,2024,requested,expense,01,0100,0100-512,01-0100-512,,Board Conference/Seminars,350,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,74,2024,requested,expense,01,0100,0100-513,01-0100-513,,Admin/Board Assistance,6600,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,75,2024,requested,expense,01,0100,0100-514,01-0100-514,,Foundation Admin Assistance,2200,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,76,2024,requested,expense,01,0100,0100-520,01-0100-520,,HR Certified Mailings,100,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,77,2024,requested,expense,01,0100,0100-522,01-0100-522,,Administration Office Supplies,8600,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,78,2024,requested,expense,01,0100,0100-528,01-0100-528,,Computer Supplies,1500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,79,2024,requested,expense,01,0100,0100-529,01-0100-529,,Employee Recognition,4000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,80,2024,requested,expense,01,0100,0100-530,01-0100-530,,Mileage Reimbursement,650,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,81,2024,requested,expense,01,0100,0100-532,01-0100-532,,Office Equipment M&R,200,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,82,2024,requested,expense,01,0100,0100-599,01-0100-599,,Admin Cell Phones/Tablets,6058,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,83,2024,requested,expense,01,0100,0100-600,01-0100-600,,Telephone/Internet Services,15200,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,84,2024,requested,expense,01,0100,0100-603,01-0100-603,,Legal Publications,400,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,85,2024,requested,expense,01,0100,0100-604,01-0100-604,,Advertising,2320,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,86,2024,requested,expense,01,0100,0100-651,01-0100-651,,Bond Administration,5000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,87,2024,requested,expense,01,0100,0100-661,01-0100-661,,Document Shredding,1500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,88,2024,requested,expense,01,0100,0100-670,01-0100-670,,Copier Maintenance,20100,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,89,2024,requested,expense,01,0100,0100-672,01-0100-672,,Telephone Maintenance,500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,90,2024,requested,expense,01,0100,0100-674,01-0100-674,,Postage Meter Services,1500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,91,2024,requested,expense,01,0100,0100-682,01-0100-682,,Attorney Services,7500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,92,2024,requested,expense,01,0100,0100-683,01-0100-683,,Professional Services,25000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,93,2024,requested,expense,01,0100,0100-684,01-0100-684,,Police Services,28000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,94,2024,requested,expense,01,0100,0100-686,01-0100-686,,Employment Services,11006,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,95,2024,requested,expense,01,0100,0100-700,01-0100-700,,Office Equipment,500,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,96,2024,requested,expense,01,0140,0140-440,01-0140-440,,IMRF Employer Contributions,44737,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,97,2024,requested,expense,01,0150,0150-450,01-0150-450,,Social Security Employer Contrib,140005,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,98,2024,requested,expense,01,0150,0150-451,01-0150-451,,Medicare Employer Contributions,33835,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,99,2024,requested,expense,01,0160,0160-660,01-0160-660,,Contractual Liability Premiums,85000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,100,2024,requested,expense,01,0160,0160-661,01-0160-661,,Contractual Liability Claims,8000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,101,2024,requested,expense,01,0170,0170-670,01-0170-670,,Audit Services,18000,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,102,2024,requested,expense,01,1000,1000-410,01-1000-410,,Parks FT Wages,236230,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,103,2024,requested,expense,01,1000,1000-420,01-1000-420,,Building PT Wages,36600,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,104,2024,requested,expense,01,1000,1000-421,01-1000-421,,Grounds PT Wages,39990,requested,pdf3,3,,
+belvidere_park_district,FY2024_budget_draft,budget,105,2024,requested,expense,01,1000,1000-422,01-1000-422,,Horticulture PT Wages,40000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,106,2024,requested,expense,01,1000,1000-425,01-1000-425,,Parks Training,5390,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,107,2024,requested,expense,01,1000,1000-426,01-1000-426,,Admin Uniforms,425,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,108,2024,requested,expense,01,1000,1000-428,01-1000-428,,Parks Uniforms,4754,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,109,2024,requested,expense,01,1000,1000-429,01-1000-429,,Parks Safety Equipment,4020,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,110,2024,requested,expense,01,1000,1000-430,01-1000-430,,Parks Office Supplies,500,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,111,2024,requested,expense,01,1000,1000-431,01-1000-431,,Signage,1820,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,112,2024,requested,expense,01,1000,1000-448,01-1000-448,,Amenities M&R,9225,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,113,2024,requested,expense,01,1000,1000-449,01-1000-449,,Pavement M&R,18381,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,114,2024,requested,expense,01,1000,1000-500,01-1000-500,,Signage M&R,3400,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,115,2024,requested,expense,01,1000,1000-540,01-1000-540,,Buildings M&R,31100,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,116,2024,requested,expense,01,1000,1000-541,01-1000-541,,Horticulture M&R,7960,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,117,2024,requested,expense,01,1000,1000-542,01-1000-542,,Grounds M&R,18568,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,118,2024,requested,expense,01,1000,1000-543,01-1000-543,,Park Amenities,14750,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,119,2024,requested,expense,01,1000,1000-544,01-1000-544,,Vehicles M&R,19225,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,120,2024,requested,expense,01,1000,1000-545,01-1000-545,,Equipment Rental,7150,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,121,2024,requested,expense,01,1000,1000-546,01-1000-546,,Equipment M&R,26210,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,122,2024,requested,expense,01,1000,1000-547,01-1000-547,,Shelter M&R,5000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,123,2024,requested,expense,01,1000,1000-548,01-1000-548,,Playground M&R,12800,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,124,2024,requested,expense,01,1000,1000-550,01-1000-550,,General Supplies,3890,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,125,2024,requested,expense,01,1000,1000-552,01-1000-552,,Custodial Supplies,5500,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,126,2024,requested,expense,01,1000,1000-559,01-1000-559,,Memorials,18000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,127,2024,requested,expense,01,1000,1000-601,01-1000-601,,Natural Gas Services,13881,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,128,2024,requested,expense,01,1000,1000-610,01-1000-610,,Flectric Services,30278,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,129,2024,requested,expense,01,1000,1000-620,01-1000-620,,Water/Sewer Services,4230,requested,pdf4,4,account_prefix_repaired,
+belvidere_park_district,FY2024_budget_draft,budget,130,2024,requested,expense,01,1000,1000-630,01-1000-630,,Gasoline/Oil Services,36200,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,131,2024,requested,expense,01,1000,1000-635,01-1000-635,,Disposal Services,12480,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,132,2024,requested,expense,01,1000,1000-652,01-1000-652,,Alarm Contract,675,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,133,2024,requested,expense,01,1000,1000-654,01-1000-654,,Elevator Contract,3348,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,134,2024,requested,expense,01,1000,1000-656,01-1000-656,,Computer Contract Services,148371,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,135,2024,requested,expense,01,1000,1000-658,01-1000-658,,Building Contract,22304,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,136,2024,requested,expense,01,1000,1000-660,01-1000-660,,Grounds Contract,64000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,137,2024,requested,expense,01,1000,1000-661,01-1000-661,,Horticulture Contract,40700,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,138,2024,requested,expense,01,1000,1000-662,01-1000-662,,Grounds Supplies,5000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,139,2024,requested,expense,01,1000,1000-663,01-1000-663,,Horticulture Supplies,9015,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,140,2024,requested,expense,01,1000,1000-664,01-1000-664,,Building Supplies,5010,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,141,2024,requested,expense,01,1000,1000-665,01-1000-665,,Herbicide & Fertilizer,2960,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,142,2024,requested,expense,01,1000,1000-666,01-1000-666,,Plants & Trees,8175,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,143,2024,requested,expense,01,1000,1000-710,01-1000-710,,Building Equipment Purchase,2900,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,144,2024,requested,expense,01,1000,1000-730,01-1000-730,,Playground Equipment Purchase,6000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,145,2024,requested,expense,01,1000,1000-750,01-1000-750,,Athletic Fields M&R,7000,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,146,2024,requested,expense,01,1000,1000-770,01-1000-770,,Holiday Lights,3458,requested,pdf4,4,,
+belvidere_park_district,FY2024_budget_draft,budget,147,2024,requested,expense,02,0100,02:0100-410,02-0100-410,,Recreation FT Wages,506260,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,148,2024,requested,expense,02,0100,02:0100-420,02-0100-420,,Recreation PT Wages,35847,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,149,2024,requested,expense,02,0100,02:0100-430,02-0100-430,,Health Insurance,63125,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,150,2024,requested,expense,02,0100,02:0100-500,02-0100-500,,Dues/Subscriptions,5100,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,151,2024,requested,expense,02,0100,02:0100-502,02-0100-502,,Professional Meetings,1825,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,152,2024,requested,expense,02,0100,02:0100-504,02-0100-504,,Conference/Seminars,5190,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,153,2024,requested,expense,02,0100,02:0100-507,02-0100-507,,Professional Certification,1400,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,154,2024,requested,expense,02,0100,02:0100-522,02-0100-522,,Recreation Office Supplies,5400,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,155,2024,requested,expense,02,0100,02:0100-530,02-0100-530,,Mileage Reimbursement,300,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,156,2024,requested,expense,02,0100,02:0100-532,02-0100-532,,Office Equipment M&R,250,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,157,2024,requested,expense,02,0100,02:0100-599,02-0100-599,,Rec Cell Phone Carrier Services,5550,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,158,2024,requested,expense,02,0100,02:0100-600,02-0100-600,,Telephone Services,7280,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,159,2024,requested,expense,02,0100,02:0100-604,02-0100-604,,Advertising,49750,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,160,2024,requested,expense,02,0100,02:0100-608,02-0100-608,,Bankcard Fees,18000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,161,2024,requested,expense,02,0100,02:0100-627,02-0100-627,,Recreation Scholarships Awarded,5000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,162,2024,requested,expense,02,0100,02:0100-630,02-0100-630,,Gasoline/Oil Services,1660,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,163,2024,requested,expense,02,0100,02:0100-686,02-0100-686,,Employment Services,720,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,164,2024,requested,expense,02,0100,02:0100-687,02-0100-687,,Volunteer Services,1200,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,165,2024,requested,expense,02,0100,02:0100-700,02-0100-700,,Office Equipment Purchase,500,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,166,2024,requested,expense,02,0100,02:0100-710,02-0100-710,,Promotional Supplies,3500,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,167,2024,requested,expense,02,0100,02:0100-711,02-0100-711,,Recreation Safety Equipment,2500,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,168,2024,requested,expense,02,1000,02:1000-410,02-1000-410,,Recreation Parks FT Wages,236230,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,169,2024,requested,expense,02,1000,02:1000-420,02-1000-420,,Rec Building PT Wages,54990,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,170,2024,requested,expense,02,1000,02:1000-421,02-1000-421,,Rec Grounds PT Wages,30000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,171,2024,requested,expense,02,1000,02:1000-422,02-1000-422,,Horticulture PT Wages,15000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,172,2024,requested,expense,02,1000,02:1000-449,02-1000-449,,Pavement M&R,3000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,173,2024,requested,expense,02,1000,02:1000-544,02-1000-544,,Rec Vehicle M&R,3535,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,174,2024,requested,expense,02,1100,02:1100-600,02-1100-600,,Pool Contractual,50000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,175,2024,requested,expense,02,1200,02:1200-420,02-1200-420,,Doty PT Wages,27576,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,176,2024,requested,expense,02,1200,02:1200-540,02-1200-540,,Doty Building M&R,6400,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,177,2024,requested,expense,02,1200,02:1200-546,02-1200-546,,Doty Equipment M&R,13250,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,178,2024,requested,expense,02,1200,02:1200-547,02-1200-547,,Doty Signage M&R,900,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,179,2024,requested,expense,02,1200,02:1200-551,02-1200-551,,Doty Office Supplies,100,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,180,2024,requested,expense,02,1200,02:1200-552,02-1200-552,,Doty Custodial Supplies,1800,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,181,2024,requested,expense,02,1200,02:1200-558,02-1200-558,,Doty Safety Equipment,900,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,182,2024,requested,expense,02,1200,02:1200-601,02-1200-601,,Doty Natural Gas,2000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,183,2024,requested,expense,02,1200,02:1200-602,02-1200-602,,Doty Ice Arena M&R,3500,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,184,2024,requested,expense,02,1200,02:1200-604,02-1200-604,,Doty Advertising,500,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,185,2024,requested,expense,02,1200,02:1200-610,02-1200-610,,Doty Electric Services,30000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,186,2024,requested,expense,02,1200,02:1200-620,02-1200-620,,Doty Water/Sewer Services,10000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,187,2024,requested,expense,02,1200,02:1200-630,02-1200-630,,Doty Sprayground M&R,8000,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,188,2024,requested,expense,02,1200,02:1200-635,02-1200-635,,Doty Disposal Services,320,requested,pdf5,5,,
+belvidere_park_district,FY2024_budget_draft,budget,189,2024,requested,expense,02,1200,02:1200-711,02-1200-711,,Doty Sponsorship,4000,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,190,2024,requested,expense,02,1200,02:1200-712,02-1200-712,,Doty Signage,500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,191,2024,requested,expense,02,1200,02:1200-713,02-1200-713,,Doty Recreation Supplies,225,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,192,2024,requested,expense,02,1200,02:1200-714,02-1200-714,,Doty Special Event Supplies,2250,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,193,2024,requested,expense,02,1200,02:1200-715,02-1200-715,,Doty Ice Arena Supplies,600,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,194,2024,requested,expense,02,1200,02:1200-716,02-1200-716,,Doty Birthday Supplies,120,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,195,2024,requested,expense,02,1600,02:1600-420,02-1600-420,,Rivers Edge PT Wages,61048,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,196,2024,requested,expense,02,1600,02:1600-426,02-1600-426,,Rivers Edge Uniforms,800,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,197,2024,requested,expense,02,1600,02:1600-522,02-1600-522,,Rivers Edge Office Supplies,300,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,198,2024,requested,expense,02,1600,02:1600-540,02-1600-540,,Rivers Edge Building M&R,13400,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,199,2024,requested,expense,02,1600,02:1600-541,02-1600-541,,Rivers Edge Signage M&R,300,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,200,2024,requested,expense,02,1600,02:1600-542,02-1600-542,,Rivers Edge Grounds M&R,1590,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,201,2024,requested,expense,02,1600,02:1600-543,02-1600-543,,Rivers Edge Horticulture M&R,1400,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,202,2024,requested,expense,02,1600,02:1600-550,02-1600-550,,Rivers Edge Supplies/Equipment “,3018,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,203,2024,requested,expense,02,1600,02:1600-552,02-1600-552,,Rivers Edge Custodial Supplies,6300,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,204,2024,requested,expense,02,1600,02:1600-553,02-1600-553,,Rivers Edge Safety Equipment,500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,205,2024,requested,expense,02,1600,02:1600-600,02-1600-600,,Rivers Edge Contractual,2500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,206,2024,requested,expense,02,1600,02:1600-601,02-1600-601,,Rivers Edge Natural Gas Services,11000,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,207,2024,requested,expense,02,1600,02:1600-604,02-1600-604,,Rivers Edge Advertising,500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,208,2024,requested,expense,02,1600,02:1600-610,02-1600-610,,Rivers Edge Electric Services,37500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,209,2024,requested,expense,02,1600,02:1600-620,02-1600-620,,Rivers Edge Water/Sewer Services,1300,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,210,2024,requested,expense,02,1600,02:1600-635,02-1600-635,,Rivers Edge Disposal Services,2520,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,211,2024,requested,expense,02,1600,02:1600-654,02-1600-654,,Rivers Edge Elevator Contract,5745,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,212,2024,requested,expense,02,1600,02:1600-655,02-1600-655,,Rivers Edge Alarm Contract,900,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,213,2024,requested,expense,02,1600,02:1600-658,02-1600-658,,‘Rivers Edge Building Contract,16160,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,214,2024,requested,expense,02,1600,02:1600-659,02-1600-659,,Rivers Edge Birthday Contractual,350,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,215,2024,requested,expense,02,1600,02:1600-710,02-1600-710,,Rivers Edge Equipment Purchase,4800,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,216,2024,requested,expense,02,1600,02:1600-711,02-1600-711,,Rivers Edge Signage,500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,217,2024,requested,expense,02,2000,02:2000-420,02-2000-420,,Preschool PT Wages,59915,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,218,2024,requested,expense,02,2000,02:2000-500,02-2000-500,,Preschool Supplies,3750,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,219,2024,requested,expense,02,2000,02:2000-600,02-2000-600,,Preschool Contractual,200,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,220,2024,requested,expense,02,3000,02:3000-420,02-3000-420,,Camp PT Wages,68000,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,221,2024,requested,expense,02,3000,02:3000-500,02-3000-500,,Camp Supplies,3000,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,222,2024,requested,expense,02,3000,02:3000-503,02-3000-503,,Camp Snacks,500,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,223,2024,requested,expense,02,3000,02:3000-600,02-3000-600,,Camp Contractual,8125,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,224,2024,requested,expense,02,4000,02:4000-420,02-4000-420,,Adult Athletics PT Salaries,3346,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,225,2024,requested,expense,02,4000,02:4000-500,02-4000-500,,Adult Athletics Supplies,930,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,226,2024,requested,expense,02,4000,02:4000-600,02-4000-600,,Adult Athletics Contractual,13330,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,227,2024,requested,expense,02,6010,02:6010-420,02-6010-420,,Rivers Edge Birthday PT Wages,1400,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,228,2024,requested,expense,02,6010,02:6010-500,02-6010-500,,Rivers Edge Birthday Supplies,720,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,229,2024,requested,expense,02,6020,02:6020-601,02-6020-601,,Adult Fitness Contractual,19746,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,230,2024,requested,expense,02,6021,02:6021-601,02-6021-601,,Youth Fitness Contractual,20349,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,231,2024,requested,expense,02,7000,02:7000-420,02-7000-420,,Youth Athletics PT Wages,9828,requested,pdf6,6,,
+belvidere_park_district,FY2024_budget_draft,budget,232,2024,requested,expense,02,7000,02:7000-500,02-7000-500,,Youth Athletics Supplies,3500,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,233,2024,requested,expense,02,7000,02:7000-600,02-7000-600,,Youth Athletics Contractual,3000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,234,2024,requested,expense,02,7500,02:7500-420,02-7500-420,,Youth PT Wages,1344,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,235,2024,requested,expense,02,7500,02:7500-500,02-7500-500,,Youth Supplies,500,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,236,2024,requested,expense,02,7500,02:7500-600,02-7500-600,,Youth Contractual,4500,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,237,2024,requested,expense,02,8000,02:8000-420,02-8000-420,,Third Base PT Wages,162000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,238,2024,requested,expense,02,8000,02:8000-500,02-8000-500,,Third Base Supplies,4000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,239,2024,requested,expense,02,8000,02:8000-503,02-8000-503,,Third Base Snacks,2710,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,240,2024,requested,expense,02,8000,02:8000-600,02-8000-600,,Third Base Contractual,1800,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,241,2024,requested,expense,02,9100,02:9100-420,02-9100-420,,Special Event PT Wages,4200,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,242,2024,requested,expense,02,9100,02:9100-500,02-9100-500,,Special Event Supplies,6900,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,243,2024,requested,expense,02,9100,02:9100-600,02-9100-600,,Special Event Contractual,12350,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,244,2024,requested,expense,02,9150,02:9150-420,02-9150-420,,Community Events PT Wages,336,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,245,2024,requested,expense,02,9150,02:9150-522,02-9150-522,,Community Events Supplies,300,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,246,2024,requested,expense,02,9400,02:9400-500,02-9400-500,,General Supplies,6000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,247,2024,requested,expense,02,9400,02:9400-600,02-9400-600,,Marketing Contractual,21420,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,248,2024,requested,expense,02,9500,02:9500-500,02-9500-500,,Prairie Fields Supplies,300,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,249,2024,requested,expense,02,9500,02:9500-610,02-9500-610,,Prairie Fields Electric,3000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,250,2024,requested,expense,02,9500,02:9500-620,02-9500-620,,Prairie Fields Water/Sewer Services,8480,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,251,2024,requested,expense,02,9500,02:9500-750,02-9500-750,,Prairie Fields Athletic Fields M&R,10000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,252,2024,requested,expense,02,9500,02:9500-751,02-9500-751,,Prairie Fields Athletic Supplies,13805,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,253,2024,requested,expense,03,1000,03:1000-500,03-1000-500,,Signage M&R,800,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,254,2024,requested,expense,03,1000,03:1000-545,03-1000-545,,Equipment Rental,1000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,255,2024,requested,expense,03,2000,03:2000-431,03-2000-431,,Signage,700,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,256,2024,requested,expense,03,2000,03:2000-500,03-2000-500,,Museum Office Supplies,600,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,257,2024,requested,expense,03,2000,03:2000-540,03-2000-540,,Building M&R,17850,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,258,2024,requested,expense,03,2000,03:2000-542,03-2000-542,,Grounds M&R,2200,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,259,2024,requested,expense,03,2000,03:2000-543,03-2000-543,,Horticulture M&R,2000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,260,2024,requested,expense,03,2000,03:2000-544,03-2000-544,,Statue M&R,200,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,261,2024,requested,expense,03,2000,03:2000-600,03-2000-600,,Telephone/Internet Services,3721,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,262,2024,requested,expense,03,2000,03:2000-601,03-2000-601,,Natural Gas Services,1500,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,263,2024,requested,expense,03,2000,03:2000-610,03-2000-610,,Electric Services,5600,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,264,2024,requested,expense,03,2000,03:2000-620,03-2000-620,,Water/Sewer Services,500,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,265,2024,requested,expense,03,2000,03:2000-640,03-2000-640,,Building Contract,156918,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,266,2024,requested,expense,03,2000,03:2000-654,03-2000-654,,Elevator Contract,3792,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,267,2024,requested,expense,03,2000,03:2000-655,03-2000-655,,Alarm Contract,734,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,268,2024,requested,expense,03,2000,03:2000-660,03-2000-660,,Grounds Contract,9000,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,269,2024,requested,expense,09,0100,09:0100-410,09-0100-410,,Special Recreation FT Wages,175850,requested,pdf7,7,,
+belvidere_park_district,FY2024_budget_draft,budget,270,2024,requested,expense,09,0100,09:0100-415,09-0100-415,,Special Recreation Longevity .,250,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,271,2024,requested,expense,09,0100,09:0100-420,09-0100-420,,Special Recreation PT Wages,3585,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,272,2024,requested,expense,09,0100,09:0100-430,09-0100-430,,Health Insurance,36946,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,273,2024,requested,expense,09,0100,09:0100-431,09-0100-431,,Signage,200,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,274,2024,requested,expense,09,0100,09:0100-432,09-0100-432,,Staff Uniforms,1000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,275,2024,requested,expense,09,0100,09:0100-500,09-0100-500,,Dues/Subscriptions,1490,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,276,2024,requested,expense,09,0100,09:0100-502,09-0100-502,,Professional Meetings,900,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,277,2024,requested,expense,09,0100,09:0100-504,09-0100-504,,Conference/Seminars,3300,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,278,2024,requested,expense,09,0100,09:0100-506,09-0100-506,,Special Rec Tuition Reimbursement,3600,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,279,2024,requested,expense,09,0100,09:0100-507,09-0100-507,,Professional Certification,1035,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,280,2024,requested,expense,09,0100,09:0100-522,09-0100-522,,Special Recreation Office Supplies,1500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,281,2024,requested,expense,09,0100,09:0100-530,09-0100-530,,Mileage Reimbursement,500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,282,2024,requested,expense,09,0100,09:0100-540,09-0100-540,,Building M&R,4500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,283,2024,requested,expense,09,0100,09:0100-542,09-0100-542,,Grounds M&R,260,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,284,2024,requested,expense,09,0100,09:0100-543,09-0100-543,,Horticulture M&R,208,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,285,2024,requested,expense,09,0100,09:0100-544,09-0100-544,,Vehicle M&R,5540,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,286,2024,requested,expense,09,0100,09:0100-545,09-0100-545,,Equipment Rental,500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,287,2024,requested,expense,09,0100,09:0100-558,09-0100-558,,Safety Equipment,1800,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,288,2024,requested,expense,09,0100,09:0100-560,09-0100-560,,Program Equipment,4180,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,289,2024,requested,expense,09,0100,09:0100-600,09-0100-600,,Cell Phone Carrier Services,2400,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,290,2024,requested,expense,09,0100,09:0100-601,09-0100-601,,Natural Gas Services,4000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,291,2024,requested,expense,09,0100,09:0100-604,09-0100-604,,Advertising,2290,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,292,2024,requested,expense,09,0100,09:0100-610,09-0100-610,,Electric Services,5500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,293,2024,requested,expense,09,0100,09:0100-611,09-0100-611,,Disposal Services,960,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,294,2024,requested,expense,09,0100,09:0100-620,09-0100-620,,Water/Sewer Services,500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,295,2024,requested,expense,09,0100,09:0100-622,09-0100-622,,Telephone/internet Services,4100,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,296,2024,requested,expense,09,0100,09:0100-624,09-0100-624,,Contractual,2000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,297,2024,requested,expense,09,0100,09:0100-625,09-0100-625,,Contractual Inclusion,1000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,298,2024,requested,expense,09,0100,09:0100-627,09-0100-627,,Scholarships Awarded,1000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,299,2024,requested,expense,09,0100,09:0100-658,09-0100-658,,Building Contract,10470,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,300,2024,requested,expense,09,0100,09:0100-664,09-0100-664,,Building Supplies,400,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,301,2024,requested,expense,09,0100,09:0100-686,09-0100-686,,Spec Rec Employee Services,710,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,302,2024,requested,expense,09,0100,09:0100-700,09-0100-700,,Office Equipment,600,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,303,2024,requested,expense,09,0100,09:0100-760,09-0100-760,,Fundraiser Expenses,4450,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,304,2024,requested,expense,09,1000,09:1000-420,09-1000-420,,Building PT Wages,13104,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,305,2024,requested,expense,09,1000,09:1000-449,09-1000-449,,Pavement M&R,2372,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,306,2024,requested,expense,09,1000,09:1000-500,09-1000-500,,Signage M&R,150,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,307,2024,requested,expense,09,1000,09:1000-520,09-1000-520,,Postage,50,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,308,2024,requested,expense,09,1000,09:1000-552,09-1000-552,,Custodial Supplies,4800,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,309,2024,requested,expense,09,1000,09:1000-630,09-1000-630,,Gasoline/Oil Services,5980,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,310,2024,requested,expense,09,1000,09:1000-700,09-1000-700,,Promotional Supplies,1500,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,311,2024,requested,expense,09,2000,09:2000-420,09-2000-420,,Inclusion PT Wages,4000,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,312,2024,requested,expense,09,5000,09:5000-420,09-5000-420,,New Horizons PT Wages,70712,requested,pdf8,8,,
+belvidere_park_district,FY2024_budget_draft,budget,313,2024,requested,expense,09,5000,09:5000-501,09-5000-501,,New Horizons Program Supplies,20000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,314,2024,requested,expense,09,7500,09:7500-420,09-7500-420,,Camp/Club Horizon PT Wages,75469,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,315,2024,requested,expense,09,7500,09:7500-501,09-7500-501,,Camp/Club Horizon Program Supplies,6000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,316,2024,requested,expense,09,9400,09:9400-420,09-9400-420,,Specialty/SO PT Wages,32000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,317,2024,requested,expense,09,9400,09:9400-501,09-9400-501,,Specialty/SO Program Supplies,18650,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,318,2024,requested,expense,10,0850,10:0850-810,10-0850-810,,2020 Debt Principal,415600,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,319,2024,requested,expense,10,0850,10:0850-815,10-0850-815,,2020 Debt Interest,68800,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,320,2024,requested,expense,12,0100,12:0100-810,12-0100-810,,G.O. Bonds Principal,1179000,requested,pdf9,9,,EX-fy2024-draft-vs-adopted
+belvidere_park_district,FY2024_budget_draft,budget,321,2024,requested,expense,12,0100,12:0100-815,12-0100-815,,G.O. Bonds Interest,63000,requested,pdf9,9,account_prefix_repaired,EX-fy2024-draft-vs-adopted
+belvidere_park_district,FY2024_budget_draft,budget,322,2024,requested,expense,21,0910,21:0910-741,21-0910-741,,Admin Parking Lot/Sidewalk Upgrade,15091,requested,pdf9,9,rounded_from_cents,
+belvidere_park_district,FY2024_budget_draft,budget,323,2024,requested,expense,21,0910,21:0910-766,21-0910-766,,Administration HVAC Replacement,39400,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,324,2024,requested,expense,21,0910,21:0910-767,21-0910-767,,Administration Cleaning & Sealing,20000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,325,2024,requested,expense,21,0910,21:0910-768,21-0910-768,,Cottonwood Playground,260000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,326,2024,requested,expense,21,0910,21:0910-770,21-0910-770,,Condensing Unit Install RE,20000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,327,2024,requested,expense,21,0910,21:0910-771,21-0910-771,,Special Recreation Building Fencing,15000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,328,2024,requested,expense,21,0910,21:0910-772,21-0910-772,,City Water Hookup at Sundstrand,135000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,329,2024,requested,expense,21,0910,21:0910-773,21-0910-773,,Tyler Software,76000,requested,pdf9,9,,
+belvidere_park_district,FY2024_budget_draft,budget,330,2024,requested,expense,21,0910,21:0910-775,21-0910-775,,Condensing Unit Plaform Rivers Edge,140000,requested,pdf9,9,auto_resolved_digit,
 belvidere_park_district,FY2025_budget,budget,1,2025,adopted,revenue,01,010,010-3010,01-010-3010,,Corporate Real Estate Taxes,1330010,budget_original,1 of 9,1,,
 belvidere_park_district,FY2025_budget,budget,3,2025,adopted,revenue,01,010,010-3020,01-010-3020,,Personal Property Replacement Tax,120500,budget_original,1 of 9,1,,
 belvidere_park_district,FY2025_budget,budget,5,2025,adopted,revenue,01,010,010-3040,01-010-3040,,Miscellaneous Income-Corporate,5354,budget_original,1 of 9,1,,

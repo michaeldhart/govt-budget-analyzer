@@ -32,53 +32,53 @@ belvidere_park_district,expense,010-6020,Corporate Office Supplies,010,Administr
 belvidere_park_district,expense,010-6021,Computer Supplies,010,Administration,exp_supplies,expense,2025,2025,rule: object code
 belvidere_park_district,expense,010-6080,Vehicle M&R,010,Administration,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,010-6085,Corporate Miscellaneous Expense,010,Administration,exp_supplies,expense,2026,2026,rule: object code
-belvidere_park_district,expense,0100-410,Administration FT Wages,0100,Corporate Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-410,Administration FT Wages,0100,Corporate Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-415,Administrative Longevity,0100,Corporate Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-416,Parks Longevity,0100,Corporate Administration,exp_personnel,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-420,Administration PT Wages,0100,Corporate Administration,exp_personnel,expense,2019,2023,rule: keyword personnel
-belvidere_park_district,expense,0100-430,Health Insurance,0100,Corporate Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-500,Dues/Subscriptions,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-502,Professional Meetings,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-504,Conference/Seminars,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-416,Parks Longevity,0100,Corporate Administration,exp_personnel,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-420,Administration PT Wages,0100,Corporate Administration,exp_personnel,expense,2019,2024,rule: keyword personnel
+belvidere_park_district,expense,0100-430,Health Insurance,0100,Corporate Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-500,Dues/Subscriptions,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-502,Professional Meetings,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-504,Conference/Seminars,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-506,Tuition Reimbursement,0100,Corporate Administration,exp_personnel,expense,2019,2022,rule: keyword personnel
-belvidere_park_district,expense,0100-507,Professional Certification,0100,Corporate Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-507,Professional Certification,0100,Corporate Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-508,Employee Assistance,0100,Corporate Administration,exp_personnel,expense,2019,2022,rule: keyword personnel
-belvidere_park_district,expense,0100-510,Board Dues,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-512,Board Conference/Seminars,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-513,Admin/Board Assistance,0100,Corporate Administration,exp_contractual,expense,2022,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-514,Foundation Admin Assistance,0100,Corporate Administration,exp_contractual,expense,2019,2022,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-510,Board Dues,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-512,Board Conference/Seminars,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-513,Admin/Board Assistance,0100,Corporate Administration,exp_contractual,expense,2022,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-514,Foundation Admin Assistance,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-515,Illinois lcash/Misc,0100,Corporate Administration,exp_contractual,expense,2023,2023,rule: keyword contractual
-belvidere_park_district,expense,0100-520,HR Certified Mailings,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-522,Administration Office Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-520,HR Certified Mailings,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-522,Administration Office Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-524,Printed Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: keyword supplies
 belvidere_park_district,expense,0100-526,Copier Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: keyword supplies
 belvidere_park_district,expense,0100-527,Safety Committee Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2022,rule: keyword supplies
-belvidere_park_district,expense,0100-528,Computer Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-529,Employee Recognition,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-530,Mileage Reimbursement,0100,Corporate Administration,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,0100-532,Office Equipment M&R,0100,Corporate Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-599,Admin Cell Phones/Tablets,0100,Corporate Administration,exp_contractual,expense,2022,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-600,Telephone/Internet Services,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-528,Computer Supplies,0100,Corporate Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-529,Employee Recognition,0100,Corporate Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-530,Mileage Reimbursement,0100,Corporate Administration,exp_supplies,expense,2019,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,0100-532,Office Equipment M&R,0100,Corporate Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-599,Admin Cell Phones/Tablets,0100,Corporate Administration,exp_contractual,expense,2022,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-600,Telephone/Internet Services,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,0100-602,Newspaper Subscriptions,0100,Corporate Administration,exp_contractual,expense,2019,2022,rule: keyword contractual
-belvidere_park_district,expense,0100-603,Legal Publications,0100,Corporate Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-604,Advertising,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
+belvidere_park_district,expense,0100-603,Legal Publications,0100,Corporate Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-604,Advertising,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
 belvidere_park_district,expense,0100-606,Chamber of Commerce,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,0100-651,Bond Administration,0100,Corporate Administration,exp_contractual,expense,,,rule: keyword contractual
-belvidere_park_district,expense,0100-661,Document Shredding,0100,Corporate Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-670,Copier Maintenance,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-672,Telephone Maintenance,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,0100-674,Postage Meter Services,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-682,Attorney Services,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-683,Professional Services,0100,Corporate Administration,exp_contractual,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-684,Police Services,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,0100-686,Employment Services,0100,Corporate Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0100-700,Office Equipment,0100,Corporate Administration,exp_supplies,expense,2019,2022,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-651,Bond Administration,0100,Corporate Administration,exp_contractual,expense,2024,2024,rule: keyword contractual
+belvidere_park_district,expense,0100-661,Document Shredding,0100,Corporate Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-670,Copier Maintenance,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-672,Telephone Maintenance,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,0100-674,Postage Meter Services,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-682,Attorney Services,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-683,Professional Services,0100,Corporate Administration,exp_contractual,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-684,Police Services,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,0100-686,Employment Services,0100,Corporate Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0100-700,Office Equipment,0100,Corporate Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,011-5050,Audit Services,011,Audit,exp_contractual,expense,2025,2026,rule: object code
 belvidere_park_district,expense,012-4110,IMRF Employer Contributions,012,IMRF,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,013-5905,Contractual Liability Premiums,013,Liability,exp_contractual,expense,2025,2026,rule: object code
 belvidere_park_district,expense,013-5906,Contractual Liability Claims,013,Liability,exp_contractual,expense,2025,2026,rule: object code
 belvidere_park_district,expense,014-4120,Social Security Employer Contrib,014,Social Security,exp_personnel,expense,2025,2026,rule: object code
-belvidere_park_district,expense,0140-440,IMRF Employer Contributions,0140,IMRF,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0140-440,IMRF Employer Contributions,0140,IMRF,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,015-4010,Parks FT Wages,015,Parks,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,015-4040,Parks Longevity,015,Parks,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,015-4240,Parks Uniforms,015,Parks,exp_supplies,expense,2025,2026,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
@@ -106,8 +106,8 @@ belvidere_park_district,expense,015-6105,Amenities M&R,015,Parks,exp_supplies,ex
 belvidere_park_district,expense,015-6115,Playground M&R,015,Parks,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,015-6120,Shelter M&R,015,Parks,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,015-6200,Life Safety,015,Parks,exp_supplies,expense,2025,2026,rule: object code
-belvidere_park_district,expense,0150-450,Social Security Employer Contrib,0150,Social Security,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0150-451,Medicare Employer Contributions,0150,Social Security,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0150-450,Social Security Employer Contrib,0150,Social Security,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0150-451,Medicare Employer Contributions,0150,Social Security,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,016-4020,Building PT Wages,016,Building,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,016-5165,Building Contract,016,Building,exp_contractual,expense,2025,2026,rule: object code
 belvidere_park_district,expense,016-6013,Building Equipment Purchase,016,Building,exp_supplies,expense,2025,2026,rule: object code
@@ -115,8 +115,8 @@ belvidere_park_district,expense,016-6025,Custodial Supplies,016,Building,exp_sup
 belvidere_park_district,expense,016-6035,Building Supplies,016,Building,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,016-6095,Buildings M&R,016,Building,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,0160-410,Liability Ft Salary,0160,Liability Insurance,exp_personnel,expense,2021,2021,rule: keyword personnel
-belvidere_park_district,expense,0160-660,Contractual Liability Premiums,0160,Liability Insurance,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,0160-661,Contractual Liability Claims,0160,Liability Insurance,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0160-660,Contractual Liability Premiums,0160,Liability Insurance,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0160-661,Contractual Liability Claims,0160,Liability Insurance,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,017-4020,Grounds PT Wages,017,Grounds,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,017-5166,Grounds Contract,017,Grounds,exp_contractual,expense,2025,2026,rule: object code
 belvidere_park_district,expense,017-6035,Grounds Supplies,017,Grounds,exp_supplies,expense,2025,2026,rule: object code
@@ -124,7 +124,7 @@ belvidere_park_district,expense,017-6058,Herbicide & Fertilizer,017,Grounds,exp_
 belvidere_park_district,expense,017-6059,Plants & Trees,017,Grounds,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,017-6085,Grounds M&R,017,Grounds,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,017-6110,Athletic Fields M&R,017,Grounds,exp_supplies,expense,2025,2026,rule: object code
-belvidere_park_district,expense,0170-670,Audit Services,0170,Audit,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,0170-670,Audit Services,0170,Audit,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,018-4020,Horticulture PT Wages,018,Horticulture,exp_personnel,expense,2025,2025,rule: object code
 belvidere_park_district,expense,018-5167,Horticulture Contract,018,Horticulture,exp_contractual,expense,2025,2025,rule: object code
 belvidere_park_district,expense,018-6035,Horticulture Supplies,018,Horticulture,exp_supplies,expense,2025,2025,rule: object code
@@ -158,31 +158,31 @@ belvidere_park_district,expense,02:010-6036,Doty Recreation Supplies,010,Recreat
 belvidere_park_district,expense,02:010-6070,Office Equipment M&R,010,Recreation Administration,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,02:010-6075,Pavement M&R,010,Recreation Administration,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,02:010-6080,Rec Vehicle M&R,010,Recreation Administration,exp_supplies,expense,2025,2026,rule: object code
-belvidere_park_district,expense,02:0100-410,Recreation FT Wages,0100,Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-410,Recreation FT Wages,0100,Recreation Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:0100-415,Administrative Longevity,0100,Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-420,Recreation PT Wages,0100,Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-430,Health Insurance,0100,Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-500,Dues/Subscriptions,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-502,Professional Meetings,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-504,Conference/Seminars,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-420,Recreation PT Wages,0100,Recreation Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-430,Health Insurance,0100,Recreation Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-500,Dues/Subscriptions,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-502,Professional Meetings,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-504,Conference/Seminars,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:0100-506,Tuition Reimbursement,0100,Recreation Administration,exp_personnel,expense,2019,2021,rule: keyword personnel
-belvidere_park_district,expense,02:0100-507,Professional Certification,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-507,Professional Certification,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:0100-520,Postage,0100,Recreation Administration,exp_contractual,expense,2019,2022,rule: keyword contractual
-belvidere_park_district,expense,02:0100-522,Recreation Office Supplies,0100,Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-522,Recreation Office Supplies,0100,Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:0100-524,Printed Supplies,0100,Recreation Administration,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,02:0100-530,Mileage Reimbursement,0100,Recreation Administration,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,02:0100-532,Office Equipment M&R,0100,Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-599,Rec Cell Phone Carrier Services,0100,Recreation Administration,exp_contractual,expense,2022,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-600,Telephone Services,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,02:0100-604,Advertising,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,02:0100-608,Bankcard Fees,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,02:0100-627,Recreation Scholarships Awarded,0100,Recreation Administration,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-630,Gasoline/Oil Services,0100,Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-686,Employment Services,0100,Recreation Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-687,Volunteer Services,0100,Recreation Administration,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-700,Office Equipment Purchase,0100,Recreation Administration,exp_supplies,expense,2019,2022,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-710,Promotional Supplies,0100,Recreation Administration,exp_supplies,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:0100-711,Recreation Safety Equipment,0100,Recreation Administration,exp_supplies,expense,,,rule: keyword supplies
+belvidere_park_district,expense,02:0100-530,Mileage Reimbursement,0100,Recreation Administration,exp_supplies,expense,2019,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,02:0100-532,Office Equipment M&R,0100,Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-599,Rec Cell Phone Carrier Services,0100,Recreation Administration,exp_contractual,expense,2022,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-600,Telephone Services,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,02:0100-604,Advertising,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,02:0100-608,Bankcard Fees,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,02:0100-627,Recreation Scholarships Awarded,0100,Recreation Administration,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-630,Gasoline/Oil Services,0100,Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-686,Employment Services,0100,Recreation Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-687,Volunteer Services,0100,Recreation Administration,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-700,Office Equipment Purchase,0100,Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-710,Promotional Supplies,0100,Recreation Administration,exp_supplies,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:0100-711,Recreation Safety Equipment,0100,Recreation Administration,exp_supplies,expense,2024,2024,rule: keyword supplies
 belvidere_park_district,expense,02:015-4010,Recreation Parks FT Wages,015,Recreation Parks,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,02:015-6200,Life Safety,015,Recreation Parks,exp_supplies,expense,,,rule: object code
 belvidere_park_district,expense,02:016-4020,Rec Building PT Wages,016,Rec Building,exp_personnel,expense,2025,2026,rule: object code
@@ -256,13 +256,13 @@ belvidere_park_district,expense,02:090-6050,Special Event Supplies,090,Special E
 belvidere_park_district,expense,02:090-6051,Doty Special Event Supplies,090,Special Events,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,02:095-4020,Community Events PT Wages,095,Community Events,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,02:095-6050,Community Events Supplies,095,Community Events,exp_supplies,expense,2025,2026,rule: object code
-belvidere_park_district,expense,02:1000-410,Recreation Parks FT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1000-420,Rec Building PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1000-421,Rec Grounds PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1000-422,Horticulture PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1000-449,Pavement M&R,1000,Recreation Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-410,Recreation Parks FT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-420,Rec Building PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-421,Rec Grounds PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-422,Horticulture PT Wages,1000,Recreation Buildings and Grounds,exp_personnel,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-449,Pavement M&R,1000,Recreation Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1000-500,Signage M&R,1000,Recreation Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1000-544,Rec Vehicle M&R,1000,Recreation Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1000-544,Rec Vehicle M&R,1000,Recreation Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1000-670,Copier Maintenance,1000,Recreation Buildings and Grounds,exp_contractual,expense,2022,2022,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1100-420,Pool PT Salaries,1100,Pool,exp_personnel,expense,2019,2022,rule: keyword personnel
 belvidere_park_district,expense,02:1100-425,Pool Training,1100,Pool,exp_personnel,expense,2019,2022,rule: keyword personnel
@@ -275,7 +275,7 @@ belvidere_park_district,expense,02:1100-551,Pool Chemicals,1100,Pool,exp_supplie
 belvidere_park_district,expense,02:1100-552,Pool Custodial Supplies,1100,Pool,exp_supplies,expense,2019,2022,rule: keyword supplies
 belvidere_park_district,expense,02:1100-554,Pool Landscape Supplies,1100,Pool,exp_supplies,expense,2019,2022,rule: keyword supplies
 belvidere_park_district,expense,02:1100-558,Pool First Aid Supplies,1100,Pool,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,02:1100-600,Pool Contractual,1100,Pool,exp_contractual,expense,2019,2022,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1100-600,Pool Contractual,1100,Pool,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1100-601,Pool Natural Gas,1100,Pool,exp_contractual,expense,2019,2023,rule: keyword contractual
 belvidere_park_district,expense,02:1100-604,Pool Advertising,1100,Pool,exp_contractual,expense,2019,2022,rule: keyword contractual
 belvidere_park_district,expense,02:1100-610,Pool Electric,1100,Pool,exp_contractual,expense,2019,2023,rule: keyword contractual
@@ -283,92 +283,92 @@ belvidere_park_district,expense,02:1100-620,Pool Water/Sewer,1100,Pool,exp_contr
 belvidere_park_district,expense,02:1100-710,Pool Bldg Equip Purchase,1100,Pool,exp_supplies,expense,2019,2022,rule: keyword supplies
 belvidere_park_district,expense,02:1100-740,Pool Circulation Equipment Purchase,1100,Pool,exp_supplies,expense,2019,2020,rule: keyword supplies
 belvidere_park_district,expense,02:1100-760,Pool Special Events,1100,Pool,exp_contractual,expense,2019,2022,rule: keyword contractual
-belvidere_park_district,expense,02:1200-420,Doty PT Wages,1200,Doty Park,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-420,Doty PT Wages,1200,Doty Park,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1200-425,Doty-Training,1200,Doty Park,exp_personnel,expense,2019,2022,rule: keyword personnel
-belvidere_park_district,expense,02:1200-540,Doty Building M&R,1200,Doty Park,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-546,Doty Equipment M&R,1200,Doty Park,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-547,Doty Signage M&R,1200,Doty Park,exp_supplies,expense,,,rule: keyword supplies
+belvidere_park_district,expense,02:1200-540,Doty Building M&R,1200,Doty Park,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-546,Doty Equipment M&R,1200,Doty Park,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-547,Doty Signage M&R,1200,Doty Park,exp_supplies,expense,2024,2024,rule: keyword supplies
 belvidere_park_district,expense,02:1200-550,Doty General Supplies,1200,Doty Park,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-551,Doty Office Supplies,1200,Doty Park,exp_supplies,expense,,,rule: keyword supplies
-belvidere_park_district,expense,02:1200-552,Doty Custodial Supplies,1200,Doty Park,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-558,Doty Safety Equipment,1200,Doty Park,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-551,Doty Office Supplies,1200,Doty Park,exp_supplies,expense,2024,2024,rule: keyword supplies
+belvidere_park_district,expense,02:1200-552,Doty Custodial Supplies,1200,Doty Park,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-558,Doty Safety Equipment,1200,Doty Park,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1200-600,Doty Contractual,1200,Doty Park,exp_contractual,expense,2019,2022,rule: keyword contractual
-belvidere_park_district,expense,02:1200-601,Doty Natural Gas,1200,Doty Park,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-602,Doty Ice Arena M&R,1200,Doty Park,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-604,Doty Advertising,1200,Doty Park,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-610,Doty Electric Services,1200,Doty Park,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-620,Doty Water/Sewer Services,1200,Doty Park,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-630,Doty Sprayground M&R,1200,Doty Park,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-635,Doty Disposal Services,1200,Doty Park,exp_contractual,expense,,,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-601,Doty Natural Gas,1200,Doty Park,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-602,Doty Ice Arena M&R,1200,Doty Park,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-604,Doty Advertising,1200,Doty Park,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-610,Doty Electric Services,1200,Doty Park,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-620,Doty Water/Sewer Services,1200,Doty Park,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-630,Doty Sprayground M&R,1200,Doty Park,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-635,Doty Disposal Services,1200,Doty Park,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1200-710,Doty Equipment Purchase,1200,Doty Park,exp_supplies,expense,2019,2022,rule: keyword supplies
-belvidere_park_district,expense,02:1200-711,Doty Sponsorship,1200,Doty Park,exp_contractual,expense,2019,2023,reviewed 2026-10-30: sponsorship expense (object 711 / 9105) counted as a contractual service
-belvidere_park_district,expense,02:1200-712,Doty Signage,1200,Doty Park,exp_supplies,expense,,,rule: keyword supplies
-belvidere_park_district,expense,02:1200-713,Doty Recreation Supplies,1200,Doty Park,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-714,Doty Special Event Supplies,1200,Doty Park,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-715,Doty Ice Arena Supplies,1200,Doty Park,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1200-716,Doty Birthday Supplies,1200,Doty Park,exp_supplies,expense,,,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-711,Doty Sponsorship,1200,Doty Park,exp_contractual,expense,2019,2024,reviewed 2026-10-30: sponsorship expense (object 711 / 9105) counted as a contractual service
+belvidere_park_district,expense,02:1200-712,Doty Signage,1200,Doty Park,exp_supplies,expense,2024,2024,rule: keyword supplies
+belvidere_park_district,expense,02:1200-713,Doty Recreation Supplies,1200,Doty Park,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-714,Doty Special Event Supplies,1200,Doty Park,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-715,Doty Ice Arena Supplies,1200,Doty Park,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1200-716,Doty Birthday Supplies,1200,Doty Park,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1500-540,Meehan Building M&R,1500,Meehan Gymnasium,exp_contractual,expense,2019,2021,rule: keyword contractual
-belvidere_park_district,expense,02:1600-420,Rivers Edge PT Wages,1600,Rivers Edge,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-426,Rivers Edge Uniforms,1600,Rivers Edge,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,02:1600-522,Rivers Edge Office Supplies,1600,Rivers Edge,exp_supplies,expense,2019,2022,rule: keyword supplies
-belvidere_park_district,expense,02:1600-540,Rivers Edge Building M&R,1600,Rivers Edge,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-541,Rivers Edge Signage M&R,1600,Rivers Edge,exp_supplies,expense,,,rule: keyword supplies
-belvidere_park_district,expense,02:1600-542,Rivers Edge Grounds M&R,1600,Rivers Edge,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-543,Rivers Edge Horticulture M&R,1600,Rivers Edge,exp_supplies,expense,,,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-420,Rivers Edge PT Wages,1600,Rivers Edge,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-426,Rivers Edge Uniforms,1600,Rivers Edge,exp_supplies,expense,2019,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,02:1600-522,Rivers Edge Office Supplies,1600,Rivers Edge,exp_supplies,expense,2019,2024,rule: keyword supplies
+belvidere_park_district,expense,02:1600-540,Rivers Edge Building M&R,1600,Rivers Edge,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-541,Rivers Edge Signage M&R,1600,Rivers Edge,exp_supplies,expense,2024,2024,rule: keyword supplies
+belvidere_park_district,expense,02:1600-542,Rivers Edge Grounds M&R,1600,Rivers Edge,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-543,Rivers Edge Horticulture M&R,1600,Rivers Edge,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:1600-546,R.E. Equipment M&R,1600,Rivers Edge,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,02:1600-550,Rivers Edge Supplies/Equipment “,1600,Rivers Edge,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-552,Rivers Edge Custodial Supplies,1600,Rivers Edge,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-553,Rivers Edge Safety Equipment,1600,Rivers Edge,exp_supplies,expense,,,rule: keyword supplies
-belvidere_park_district,expense,02:1600-600,Rivers Edge Contractual,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-601,Rivers Edge Natural Gas Services,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-604,Rivers Edge Advertising,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-610,Rivers Edge Electric Services,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-620,Rivers Edge Water/Sewer Services,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-635,Rivers Edge Disposal Services,1600,Rivers Edge,exp_contractual,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-654,Rivers Edge Elevator Contract,1600,Rivers Edge,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-655,Rivers Edge Alarm Contract,1600,Rivers Edge,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-658,‘Rivers Edge Building Contract,1600,Rivers Edge,exp_contractual,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-659,Rivers Edge Birthday Contractual,1600,Rivers Edge,exp_contractual,expense,,,rule: keyword contractual
-belvidere_park_district,expense,02:1600-710,Rivers Edge Equipment Purchase,1600,Rivers Edge,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:1600-711,Rivers Edge Signage,1600,Rivers Edge,exp_supplies,expense,,,rule: keyword supplies
-belvidere_park_district,expense,02:2000-420,Preschool PT Wages,2000,Preschool,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:2000-500,Preschool Supplies,2000,Preschool,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:2000-600,Preschool Contractual,2000,Preschool,exp_contractual,expense,2019,2023,rule: keyword contractual
+belvidere_park_district,expense,02:1600-550,Rivers Edge Supplies/Equipment “,1600,Rivers Edge,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-552,Rivers Edge Custodial Supplies,1600,Rivers Edge,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-553,Rivers Edge Safety Equipment,1600,Rivers Edge,exp_supplies,expense,2024,2024,rule: keyword supplies
+belvidere_park_district,expense,02:1600-600,Rivers Edge Contractual,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-601,Rivers Edge Natural Gas Services,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-604,Rivers Edge Advertising,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-610,Rivers Edge Electric Services,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-620,Rivers Edge Water/Sewer Services,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-635,Rivers Edge Disposal Services,1600,Rivers Edge,exp_contractual,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-654,Rivers Edge Elevator Contract,1600,Rivers Edge,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-655,Rivers Edge Alarm Contract,1600,Rivers Edge,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-658,‘Rivers Edge Building Contract,1600,Rivers Edge,exp_contractual,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-659,Rivers Edge Birthday Contractual,1600,Rivers Edge,exp_contractual,expense,2024,2024,rule: keyword contractual
+belvidere_park_district,expense,02:1600-710,Rivers Edge Equipment Purchase,1600,Rivers Edge,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:1600-711,Rivers Edge Signage,1600,Rivers Edge,exp_supplies,expense,2024,2024,rule: keyword supplies
+belvidere_park_district,expense,02:2000-420,Preschool PT Wages,2000,Preschool,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:2000-500,Preschool Supplies,2000,Preschool,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:2000-600,Preschool Contractual,2000,Preschool,exp_contractual,expense,2019,2024,rule: keyword contractual
 belvidere_park_district,expense,02:2000-700,Preschool Capital,2000,Preschool,exp_supplies,expense,2019,2020,rule: keyword capital (equipment purchase)
-belvidere_park_district,expense,02:3000-420,Camp PT Wages,3000,Camp,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:3000-500,Camp Supplies,3000,Camp,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:3000-503,Camp Snacks,3000,Camp,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:3000-600,Camp Contractual,3000,Camp,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:4000-420,Adult Athletics PT Salaries,4000,Adult Athletics,exp_personnel,expense,2019,2023,rule: keyword personnel
-belvidere_park_district,expense,02:4000-500,Adult Athletics Supplies,4000,Adult Athletics,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:4000-600,Adult Athletics Contractual,4000,Adult Athletics,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:3000-420,Camp PT Wages,3000,Camp,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:3000-500,Camp Supplies,3000,Camp,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:3000-503,Camp Snacks,3000,Camp,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:3000-600,Camp Contractual,3000,Camp,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:4000-420,Adult Athletics PT Salaries,4000,Adult Athletics,exp_personnel,expense,2019,2024,rule: keyword personnel
+belvidere_park_district,expense,02:4000-500,Adult Athletics Supplies,4000,Adult Athletics,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:4000-600,Adult Athletics Contractual,4000,Adult Athletics,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:4000-700,Adult Athletics Capital,4000,Adult Athletics,exp_supplies,expense,2019,2020,rule: keyword capital (equipment purchase)
 belvidere_park_district,expense,02:5000-500,Adult Supplies,5000,Adult Programs,exp_supplies,expense,2021,2021,rule: keyword supplies
 belvidere_park_district,expense,02:5500-420,Arts Part-Time Salaries,5500,Arts,exp_personnel,expense,2019,2023,rule: keyword personnel
 belvidere_park_district,expense,02:5500-500,Arts Supplies,5500,Arts,exp_supplies,expense,2019,2023,rule: keyword supplies
 belvidere_park_district,expense,02:5500-600,Arts Contractual,5500,Arts,exp_contractual,expense,2019,2020,rule: keyword contractual
 belvidere_park_district,expense,02:5500-700,Arts Capital,5500,Arts,exp_supplies,expense,2019,2020,rule: keyword capital (equipment purchase)
-belvidere_park_district,expense,02:6010-420,Rivers Edge Birthday PT Wages,6010,Rivers Edge Birthdays,exp_personnel,expense,2019,2020,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:6010-500,Rivers Edge Birthday Supplies,6010,Rivers Edge Birthdays,exp_supplies,expense,2019,2020,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:6010-420,Rivers Edge Birthday PT Wages,6010,Rivers Edge Birthdays,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:6010-500,Rivers Edge Birthday Supplies,6010,Rivers Edge Birthdays,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:6010-600,RE Contractual,6010,Rivers Edge Birthdays,exp_contractual,expense,2019,2020,rule: keyword contractual
 belvidere_park_district,expense,02:6020-600,Fitness Contractual,6020,Adult Fitness,exp_contractual,expense,2023,2023,rule: keyword contractual
-belvidere_park_district,expense,02:6020-601,Adult Fitness Contractual,6020,Adult Fitness,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:6021-601,Youth Fitness Contractual,6021,Youth Fitness,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7000-420,Youth Athletics PT Wages,7000,Youth Athletics,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7000-500,Youth Athletics Supplies,7000,Youth Athletics,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7000-600,Youth Athletics Contractual,7000,Youth Athletics,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7500-420,Youth PT Wages,7500,Youth,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7500-500,Youth Supplies,7500,Youth,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:7500-600,Youth Contractual,7500,Youth,exp_contractual,expense,2019,2020,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:8000-420,Third Base PT Wages,8000,Third Base,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:8000-500,Third Base Supplies,8000,Third Base,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:8000-503,Third Base Snacks,8000,Third Base,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:8000-600,Third Base Contractual,8000,Third Base,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9100-420,Special Event PT Wages,9100,Special Events,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9100-500,Special Event Supplies,9100,Special Events,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9100-600,Special Event Contractual,9100,Special Events,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9150-420,Community Events PT Wages,9150,Community Events,exp_personnel,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9150-522,Community Events Supplies,9150,Community Events,exp_supplies,expense,,,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:6020-601,Adult Fitness Contractual,6020,Adult Fitness,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:6021-601,Youth Fitness Contractual,6021,Youth Fitness,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7000-420,Youth Athletics PT Wages,7000,Youth Athletics,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7000-500,Youth Athletics Supplies,7000,Youth Athletics,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7000-600,Youth Athletics Contractual,7000,Youth Athletics,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7500-420,Youth PT Wages,7500,Youth,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7500-500,Youth Supplies,7500,Youth,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:7500-600,Youth Contractual,7500,Youth,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:8000-420,Third Base PT Wages,8000,Third Base,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:8000-500,Third Base Supplies,8000,Third Base,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:8000-503,Third Base Snacks,8000,Third Base,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:8000-600,Third Base Contractual,8000,Third Base,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9100-420,Special Event PT Wages,9100,Special Events,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9100-500,Special Event Supplies,9100,Special Events,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9100-600,Special Event Contractual,9100,Special Events,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9150-420,Community Events PT Wages,9150,Community Events,exp_personnel,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9150-522,Community Events Supplies,9150,Community Events,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:9200-420,Concessions Part-Time Salaries,9200,Pool Concessions,exp_personnel,expense,2019,2020,rule: keyword personnel
 belvidere_park_district,expense,02:9200-500,Concession Supplies,9200,Pool Concessions,exp_supplies,expense,2019,2020,rule: keyword supplies
 belvidere_park_district,expense,02:9200-600,Concession Contractual,9200,Pool Concessions,exp_contractual,expense,2019,2020,rule: keyword contractual
@@ -376,37 +376,37 @@ belvidere_park_district,expense,02:9230-420,Swim Lesson Part-Time Salaries,9230,
 belvidere_park_district,expense,02:9230-500,Swim Lesson Supplies,9230,Swim Lessons,exp_supplies,expense,2019,2020,rule: keyword supplies
 belvidere_park_district,expense,02:9230-600,Swim Lessons Contractual,9230,Swim Lessons,exp_contractual,expense,2019,2022,rule: keyword contractual
 belvidere_park_district,expense,02:9400-420,General Part-Time Salaries,9400,General and Marketing,exp_personnel,expense,2019,2020,rule: keyword personnel
-belvidere_park_district,expense,02:9400-500,General Supplies,9400,General and Marketing,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9400-600,Marketing Contractual,9400,General and Marketing,exp_contractual,expense,2019,2023,rule: keyword contractual
+belvidere_park_district,expense,02:9400-500,General Supplies,9400,General and Marketing,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9400-600,Marketing Contractual,9400,General and Marketing,exp_contractual,expense,2019,2024,rule: keyword contractual
 belvidere_park_district,expense,02:9400-700,General Capital,9400,General and Marketing,exp_supplies,expense,2019,2020,rule: keyword capital (equipment purchase)
 belvidere_park_district,expense,02:9500-420,Prairie Fields Salaries Pt,9500,Prairie Fields,exp_personnel,expense,2019,2023,rule: keyword personnel
 belvidere_park_district,expense,02:9500-426,Prairie Fields Uniforms,9500,Prairie Fields,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,02:9500-500,Prairie Fields Supplies,9500,Prairie Fields,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9500-500,Prairie Fields Supplies,9500,Prairie Fields,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:9500-600,Prairie Fields Contractual,9500,Prairie Fields,exp_contractual,expense,2019,2020,rule: keyword contractual
-belvidere_park_district,expense,02:9500-610,Prairie Fields Electric,9500,Prairie Fields,exp_contractual,expense,2020,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9500-620,Prairie Fields Water/Sewer Services,9500,Prairie Fields,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9500-750,Prairie Fields Athletic Fields M&R,9500,Prairie Fields,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,02:9500-751,Prairie Fields Athletic Supplies,9500,Prairie Fields,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9500-610,Prairie Fields Electric,9500,Prairie Fields,exp_contractual,expense,2020,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9500-620,Prairie Fields Water/Sewer Services,9500,Prairie Fields,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9500-750,Prairie Fields Athletic Fields M&R,9500,Prairie Fields,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,02:9500-751,Prairie Fields Athletic Supplies,9500,Prairie Fields,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,02:9700-420,Affiliate Part-Time Salaries,9700,Affiliate,exp_personnel,expense,2019,2020,rule: keyword personnel
 belvidere_park_district,expense,02:9700-500,Affiliate Supplies,9700,Affiliate,exp_supplies,expense,2019,2022,rule: keyword supplies
-belvidere_park_district,expense,03:1000-500,Signage M&R,1000,Museum Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:1000-545,Equipment Rental,1000,Museum Buildings and Grounds,exp_contractual,expense,,,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:1000-500,Signage M&R,1000,Museum Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:1000-545,Equipment Rental,1000,Museum Buildings and Grounds,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,03:2000-410,Museum Full-Time Salaries,2000,Museum Operations,exp_personnel,expense,2019,2020,rule: keyword personnel
 belvidere_park_district,expense,03:2000-420,Museum Pt Salaries,2000,Museum Operations,exp_personnel,expense,2019,2023,rule: keyword personnel
-belvidere_park_district,expense,03:2000-431,Signage,2000,Museum Operations,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-500,Museum Office Supplies,2000,Museum Operations,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-540,Building M&R,2000,Museum Operations,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-542,Grounds M&R,2000,Museum Operations,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-543,Horticulture M&R,2000,Museum Operations,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-544,Statue M&R,2000,Museum Operations,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-600,Telephone/Internet Services,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-601,Natural Gas Services,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-610,Electric Services,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-620,Water/Sewer Services,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-640,Building Contract,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-654,Elevator Contract,2000,Museum Operations,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,03:2000-655,Alarm Contract,2000,Museum Operations,exp_contractual,expense,,,rule: keyword contractual
-belvidere_park_district,expense,03:2000-660,Grounds Contract,2000,Museum Operations,exp_contractual,expense,2023,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-431,Signage,2000,Museum Operations,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-500,Museum Office Supplies,2000,Museum Operations,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-540,Building M&R,2000,Museum Operations,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-542,Grounds M&R,2000,Museum Operations,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-543,Horticulture M&R,2000,Museum Operations,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-544,Statue M&R,2000,Museum Operations,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-600,Telephone/Internet Services,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-601,Natural Gas Services,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-610,Electric Services,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-620,Water/Sewer Services,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-640,Building Contract,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-654,Elevator Contract,2000,Museum Operations,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,03:2000-655,Alarm Contract,2000,Museum Operations,exp_contractual,expense,2024,2024,rule: keyword contractual
+belvidere_park_district,expense,03:2000-660,Grounds Contract,2000,Museum Operations,exp_contractual,expense,2023,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,03:2000-680,Museum Professional Service,2000,Museum Operations,exp_contractual,expense,2019,2022,rule: keyword contractual
 belvidere_park_district,expense,05:016-4020,Building PT Wages,016,Special Recreation Buildings,exp_personnel,expense,2025,2026,rule: object code
 belvidere_park_district,expense,05:030-4010,Special Recreation FT Wages,030,Special Recreation Administration,exp_personnel,expense,2025,2026,rule: object code
@@ -469,123 +469,123 @@ belvidere_park_district,expense,08:035-6020,Museum Office Supplies,035,Museum,ex
 belvidere_park_district,expense,08:035-6085,Grounds M&R,035,Museum,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,08:035-6095,Building M&R,035,Museum,exp_supplies,expense,2025,2026,rule: object code
 belvidere_park_district,expense,08:035-6135,Statue M&R,035,Museum,exp_supplies,expense,2025,2025,rule: object code
-belvidere_park_district,expense,09:0100-410,Special Recreation FT Wages,0100,Special Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-415,Special Recreation Longevity .,0100,Special Recreation Administration,exp_personnel,expense,2019,2022,rule: keyword personnel
-belvidere_park_district,expense,09:0100-420,Special Recreation PT Wages,0100,Special Recreation Administration,exp_personnel,expense,2021,2023,rule: keyword personnel
-belvidere_park_district,expense,09:0100-430,Health Insurance,0100,Special Recreation Administration,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-431,Signage,0100,Special Recreation Administration,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-432,Staff Uniforms,0100,Special Recreation Administration,exp_supplies,expense,,,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,09:0100-500,Dues/Subscriptions,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-502,Professional Meetings,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-504,Conference/Seminars,0100,Special Recreation Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-506,Special Rec Tuition Reimbursement,0100,Special Recreation Administration,exp_personnel,expense,2019,2023,rule: keyword personnel
-belvidere_park_district,expense,09:0100-507,Professional Certification,0100,Special Recreation Administration,exp_contractual,expense,2021,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-522,Special Recreation Office Supplies,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-530,Mileage Reimbursement,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,09:0100-540,Building M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-542,Grounds M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-543,Horticulture M&R,0100,Special Recreation Administration,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-544,Vehicle M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-545,Equipment Rental,0100,Special Recreation Administration,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-558,Safety Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-560,Program Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-600,Cell Phone Carrier Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-601,Natural Gas Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-604,Advertising,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,09:0100-610,Electric Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-611,Disposal Services,0100,Special Recreation Administration,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-620,Water/Sewer Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-622,Telephone/internet Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-624,Contractual,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-625,Contractual Inclusion,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-627,Scholarships Awarded,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-658,Building Contract,0100,Special Recreation Administration,exp_contractual,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-664,Building Supplies,0100,Special Recreation Administration,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:0100-686,Spec Rec Employee Services,0100,Special Recreation Administration,exp_contractual,expense,2021,2023,rule: keyword contractual
-belvidere_park_district,expense,09:0100-700,Office Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-410,Special Recreation FT Wages,0100,Special Recreation Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-415,Special Recreation Longevity .,0100,Special Recreation Administration,exp_personnel,expense,2019,2024,rule: keyword personnel
+belvidere_park_district,expense,09:0100-420,Special Recreation PT Wages,0100,Special Recreation Administration,exp_personnel,expense,2021,2024,rule: keyword personnel
+belvidere_park_district,expense,09:0100-430,Health Insurance,0100,Special Recreation Administration,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-431,Signage,0100,Special Recreation Administration,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-432,Staff Uniforms,0100,Special Recreation Administration,exp_supplies,expense,2024,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,09:0100-500,Dues/Subscriptions,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-502,Professional Meetings,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-504,Conference/Seminars,0100,Special Recreation Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-506,Special Rec Tuition Reimbursement,0100,Special Recreation Administration,exp_personnel,expense,2019,2024,rule: keyword personnel
+belvidere_park_district,expense,09:0100-507,Professional Certification,0100,Special Recreation Administration,exp_contractual,expense,2021,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-522,Special Recreation Office Supplies,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-530,Mileage Reimbursement,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,09:0100-540,Building M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-542,Grounds M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-543,Horticulture M&R,0100,Special Recreation Administration,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-544,Vehicle M&R,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-545,Equipment Rental,0100,Special Recreation Administration,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-558,Safety Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-560,Program Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-600,Cell Phone Carrier Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-601,Natural Gas Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-604,Advertising,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,09:0100-610,Electric Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-611,Disposal Services,0100,Special Recreation Administration,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-620,Water/Sewer Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-622,Telephone/internet Services,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-624,Contractual,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-625,Contractual Inclusion,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-627,Scholarships Awarded,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-658,Building Contract,0100,Special Recreation Administration,exp_contractual,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-664,Building Supplies,0100,Special Recreation Administration,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-686,Spec Rec Employee Services,0100,Special Recreation Administration,exp_contractual,expense,2021,2024,rule: keyword contractual
+belvidere_park_district,expense,09:0100-700,Office Equipment,0100,Special Recreation Administration,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,09:0100-750,Special Recreation CIP,0100,Special Recreation Administration,exp_capital,expense,2019,2020,rule: keyword CIP
-belvidere_park_district,expense,09:0100-760,Fundraiser Expenses,0100,Special Recreation Administration,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:1000-420,Building PT Wages,1000,Special Recreation Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:1000-449,Pavement M&R,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:1000-500,Signage M&R,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:1000-520,Postage,1000,Special Recreation Buildings and Grounds,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,09:1000-552,Custodial Supplies,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:1000-630,Gasoline/Oil Services,1000,Special Recreation Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:0100-760,Fundraiser Expenses,0100,Special Recreation Administration,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:1000-420,Building PT Wages,1000,Special Recreation Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:1000-449,Pavement M&R,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:1000-500,Signage M&R,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:1000-520,Postage,1000,Special Recreation Buildings and Grounds,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,09:1000-552,Custodial Supplies,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:1000-630,Gasoline/Oil Services,1000,Special Recreation Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,09:1000-670,Spec Rec Copier Maintenance,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2019,2022,rule: keyword supplies
 belvidere_park_district,expense,09:1000-674,Spec Rec Postage Meter,1000,Special Recreation Buildings and Grounds,exp_contractual,expense,2019,2021,rule: keyword contractual
-belvidere_park_district,expense,09:1000-700,Promotional Supplies,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:2000-420,Inclusion PT Wages,2000,Inclusion,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:5000-420,New Horizons PT Wages,5000,Adult Programs,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:5000-501,New Horizons Program Supplies,5000,Adult Programs,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:7500-420,Camp/Club Horizon PT Wages,7500,Youth Programs,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:7500-501,Camp/Club Horizon Program Supplies,7500,Youth Programs,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,09:9400-420,Specialty/SO PT Wages,9400,General Programs,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,09:9400-501,Specialty/SO Program Supplies,9400,General Programs,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-410,Parks FT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-420,Building PT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-421,Grounds PT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-422,Horticulture PT Wages,1000,Buildings and Grounds,exp_personnel,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-425,Parks Training,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-426,Admin Uniforms,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,09:1000-700,Promotional Supplies,1000,Special Recreation Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:2000-420,Inclusion PT Wages,2000,Inclusion,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:5000-420,New Horizons PT Wages,5000,Adult Programs,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:5000-501,New Horizons Program Supplies,5000,Adult Programs,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:7500-420,Camp/Club Horizon PT Wages,7500,Youth Programs,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:7500-501,Camp/Club Horizon Program Supplies,7500,Youth Programs,exp_supplies,expense,2019,2024,rule: keyword supplies
+belvidere_park_district,expense,09:9400-420,Specialty/SO PT Wages,9400,General Programs,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,09:9400-501,Specialty/SO Program Supplies,9400,General Programs,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-410,Parks FT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-420,Building PT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-421,Grounds PT Wages,1000,Buildings and Grounds,exp_personnel,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-422,Horticulture PT Wages,1000,Buildings and Grounds,exp_personnel,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-425,Parks Training,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-426,Admin Uniforms,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
 belvidere_park_district,expense,1000-427,Life Safety,1000,Buildings and Grounds,exp_supplies,expense,2020,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-428,Parks Uniforms,1000,Buildings and Grounds,exp_supplies,expense,,,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
-belvidere_park_district,expense,1000-429,Parks Safety Equipment,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-430,Parks Office Supplies,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-431,Signage,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-448,Amenities M&R,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-449,Pavement M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-500,Signage M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-540,Buildings M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-541,Horticulture M&R,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-542,Grounds M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-543,Park Amenities,1000,Buildings and Grounds,exp_supplies,expense,2020,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-544,Vehicles M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,1000-545,Equipment Rental,1000,Buildings and Grounds,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-546,Equipment M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-547,Shelter M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-548,Playground M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-428,Parks Uniforms,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,"reviewed 2026-10-30: the audits count uniforms, course work material and travel / mileage reimbursement in Material & supplies (General Fund FY2019 and FY2020 category totals then tie to the dollar)"
+belvidere_park_district,expense,1000-429,Parks Safety Equipment,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-430,Parks Office Supplies,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-431,Signage,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-448,Amenities M&R,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-449,Pavement M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-500,Signage M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-540,Buildings M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-541,Horticulture M&R,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-542,Grounds M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-543,Park Amenities,1000,Buildings and Grounds,exp_supplies,expense,2020,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-544,Vehicles M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: keyword supplies
+belvidere_park_district,expense,1000-545,Equipment Rental,1000,Buildings and Grounds,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-546,Equipment M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-547,Shelter M&R,1000,Buildings and Grounds,exp_supplies,expense,2023,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-548,Playground M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,1000-549,Vandalism Repair,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-550,General Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-552,Custodial Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-550,General Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-552,Custodial Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,1000-554,Landscape Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
 belvidere_park_district,expense,1000-556,Tool Crib Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
 belvidere_park_district,expense,1000-558,First Aid Supplies,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,1000-559,Memorials,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-601,Natural Gas Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-610,Flectric Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,1000-620,Water/Sewer Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-630,Gasoline/Oil Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-635,Disposal Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-559,Memorials,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-601,Natural Gas Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-610,Flectric Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,1000-620,Water/Sewer Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-630,Gasoline/Oil Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-635,Disposal Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,1000-650,Meehan Gym,1000,Buildings and Grounds,exp_contractual,expense,2019,2022,rule: keyword contractual
-belvidere_park_district,expense,1000-652,Alarm Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: keyword contractual
-belvidere_park_district,expense,1000-654,Elevator Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-656,Computer Contract Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-658,Building Contract,1000,Buildings and Grounds,exp_contractual,expense,2022,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-660,Grounds Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-661,Horticulture Contract,1000,Buildings and Grounds,exp_contractual,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-662,Grounds Supplies,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-663,Horticulture Supplies,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-664,Building Supplies,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-665,Herbicide & Fertilizer,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-666,Plants & Trees,1000,Buildings and Grounds,exp_supplies,expense,,,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-710,Building Equipment Purchase,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-652,Alarm Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: keyword contractual
+belvidere_park_district,expense,1000-654,Elevator Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-656,Computer Contract Services,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-658,Building Contract,1000,Buildings and Grounds,exp_contractual,expense,2022,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-660,Grounds Contract,1000,Buildings and Grounds,exp_contractual,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-661,Horticulture Contract,1000,Buildings and Grounds,exp_contractual,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-662,Grounds Supplies,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-663,Horticulture Supplies,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-664,Building Supplies,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-665,Herbicide & Fertilizer,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-666,Plants & Trees,1000,Buildings and Grounds,exp_supplies,expense,2024,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-710,Building Equipment Purchase,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,1000-720,Landscape Equipment Purchase,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,1000-730,Playground Equipment Purchase,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
+belvidere_park_district,expense,1000-730,Playground Equipment Purchase,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: keyword supplies
 belvidere_park_district,expense,1000-740,Turf Maintenance,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: keyword supplies
-belvidere_park_district,expense,1000-750,Athletic Fields M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2023,rule: same label in FY2025+ budgets
-belvidere_park_district,expense,1000-770,Holiday Lights,1000,Buildings and Grounds,exp_supplies,expense,2022,2023,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-750,Athletic Fields M&R,1000,Buildings and Grounds,exp_supplies,expense,2019,2024,rule: same label in FY2025+ budgets
+belvidere_park_district,expense,1000-770,Holiday Lights,1000,Buildings and Grounds,exp_supplies,expense,2022,2024,rule: same label in FY2025+ budgets
 belvidere_park_district,expense,10:010-7010,Principal,010,Alternate Bond and Interest,exp_debt_service,expense,2025,2026,rule: fund 10
 belvidere_park_district,expense,10:010-7015,Interest,010,Alternate Bond and Interest,exp_debt_service,expense,2025,2026,rule: fund 10
 belvidere_park_district,expense,10:0830-810,Glenn Green Principal,0830,Glenn Green Installment,exp_debt_service,expense,2019,2020,rule: fund 10
 belvidere_park_district,expense,10:0830-815,Glenn Green Interest,0830,Glenn Green Installment,exp_debt_service,expense,2019,2020,rule: fund 10
-belvidere_park_district,expense,10:0850-810,2020 Debt Principal,0850,2020 Debt,exp_debt_service,expense,2019,2023,rule: fund 10
-belvidere_park_district,expense,10:0850-815,2020 Debt Interest,0850,2020 Debt,exp_debt_service,expense,2019,2023,rule: fund 10
+belvidere_park_district,expense,10:0850-810,2020 Debt Principal,0850,2020 Debt,exp_debt_service,expense,2019,2024,rule: fund 10
+belvidere_park_district,expense,10:0850-815,2020 Debt Interest,0850,2020 Debt,exp_debt_service,expense,2019,2024,rule: fund 10
 belvidere_park_district,expense,10:0870-810,2015 Debt Principal,0870,2015 Debt,exp_debt_service,expense,2019,2020,rule: fund 10
 belvidere_park_district,expense,10:0870-815,2015 Debt Interest,0870,2015 Debt,exp_debt_service,expense,2019,2020,rule: fund 10
 belvidere_park_district,expense,12:010-7010,G.O. Bonds Principal,010,Bond and Interest,exp_debt_service,expense,2025,2026,rule: fund 12
 belvidere_park_district,expense,12:010-7015,G.O. Bonds Interest,010,Bond and Interest,exp_debt_service,expense,2025,2026,rule: fund 12
-belvidere_park_district,expense,12:0100-810,G.O. Bonds Principal,0100,Bond and Interest,exp_debt_service,expense,2019,2023,rule: fund 12
-belvidere_park_district,expense,12:0100-815,G.O. Bonds Interest,0100,Bond and Interest,exp_debt_service,expense,2019,2023,rule: fund 12
+belvidere_park_district,expense,12:0100-810,G.O. Bonds Principal,0100,Bond and Interest,exp_debt_service,expense,2019,2024,rule: fund 12
+belvidere_park_district,expense,12:0100-815,G.O. Bonds Interest,0100,Bond and Interest,exp_debt_service,expense,2019,2024,rule: fund 12
 belvidere_park_district,expense,21:005-8125,Professional Plans/Services,005,Capital Projects,exp_capital,expense,2025,2026,rule: fund 21
 belvidere_park_district,expense,21:005-8130,Amenities,005,Capital Projects,exp_capital,expense,2025,2026,rule: fund 21
 belvidere_park_district,expense,21:005-8135,Buildings,005,Capital Projects,exp_capital,expense,2025,2026,rule: fund 21
@@ -626,20 +626,20 @@ belvidere_park_district,expense,21:0910-734,Small Equipment,0910,Capital Improve
 belvidere_park_district,expense,21:0910-735,Shelter Restorations,0910,Capital Improvements,exp_capital,expense,2021,2021,rule: fund 21
 belvidere_park_district,expense,21:0910-737,Riverbank Stabilization Engineering,0910,Capital Improvements,exp_capital,expense,2021,2023,rule: fund 21
 belvidere_park_district,expense,21:0910-738,Large Equipment,0910,Capital Improvements,exp_capital,expense,2021,2021,rule: fund 21
-belvidere_park_district,expense,21:0910-741,Admin Parking Lot/Sidewalk Upgrade,0910,Capital Improvements,exp_capital,expense,2022,2023,rule: fund 21
+belvidere_park_district,expense,21:0910-741,Admin Parking Lot/Sidewalk Upgrade,0910,Capital Improvements,exp_capital,expense,2022,2024,rule: fund 21
 belvidere_park_district,expense,21:0910-751,Doty Locker Rooms/Sheds,0910,Capital Improvements,exp_capital,expense,2022,2022,rule: fund 21
 belvidere_park_district,expense,21:0910-761,Contractual Retainers,0910,Capital Improvements,exp_capital,expense,2022,2022,rule: fund 21
 belvidere_park_district,expense,21:0910-762,Shed Belvidere Park,0910,Capital Improvements,exp_capital,expense,2022,2022,rule: fund 21
 belvidere_park_district,expense,21:0910-763,Native American Shelter,0910,Capital Improvements,exp_capital,expense,2023,2023,rule: fund 21
 belvidere_park_district,expense,21:0910-765,Variable freqency drive,0910,Capital Improvements,exp_capital,expense,2023,2023,rule: fund 21
-belvidere_park_district,expense,21:0910-766,Administration HVAC Replacement,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-767,Administration Cleaning & Sealing,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-768,Cottonwood Playground,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-770,Condensing Unit Install RE,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-771,Special Recreation Building Fencing,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-772,City Water Hookup at Sundstrand,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-773,Tyler Software,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
-belvidere_park_district,expense,21:0910-775,Condensing Unit Plaform Rivers Edge,0910,Capital Improvements,exp_capital,expense,,,rule: fund 21
+belvidere_park_district,expense,21:0910-766,Administration HVAC Replacement,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-767,Administration Cleaning & Sealing,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-768,Cottonwood Playground,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-770,Condensing Unit Install RE,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-771,Special Recreation Building Fencing,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-772,City Water Hookup at Sundstrand,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-773,Tyler Software,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
+belvidere_park_district,expense,21:0910-775,Condensing Unit Plaform Rivers Edge,0910,Capital Improvements,exp_capital,expense,2024,2024,rule: fund 21
 belvidere_park_district,expense,21:0910-NONE-aberdeen-path-overlay,Aberdeen Path overlay,0910,Capital Improvements,exp_capital,expense,2019,2019,rule: fund 21
 belvidere_park_district,expense,21:0910-NONE-financial-software-purchase,Financial Software Purchase,0910,Capital Improvements,exp_capital,expense,2019,2019,rule: fund 21
 belvidere_park_district,expense,21:0910-NONE-land-acquisition-upgrades,Land Acquisition upgrades,0910,Capital Improvements,exp_capital,expense,2019,2019,rule: fund 21
@@ -656,15 +656,15 @@ belvidere_park_district,revenue,010-3040,Miscellaneous Income-Corporate,010,Admi
 belvidere_park_district,revenue,010-3080,Administration Employee Reimburs,010,Administration,other_revenue,non_tax,2025,2026,rule: other
 belvidere_park_district,revenue,010-3111,Administration Rentals,010,Administration,rentals,non_tax,,,rule: rentals
 belvidere_park_district,revenue,010-3950,Bond Proceeds,010,Administration,bond_proceeds,non_tax,2025,2026,rule: bond_proceeds
-belvidere_park_district,revenue,0100-310,Corporate Real Estate Taxes,0100,Corporate Administration,property_tax,tax,2019,2023,rule: property_tax
-belvidere_park_district,revenue,0100-311,Personal Property Replacement Tax,0100,Corporate Administration,replacement_tax,tax,2019,2023,rule: replacement_tax
-belvidere_park_district,revenue,0100-312,Farm Lease,0100,Corporate Administration,rentals,non_tax,2019,2023,rule: rentals
+belvidere_park_district,revenue,0100-310,Corporate Real Estate Taxes,0100,Corporate Administration,property_tax,tax,2019,2024,rule: property_tax
+belvidere_park_district,revenue,0100-311,Personal Property Replacement Tax,0100,Corporate Administration,replacement_tax,tax,2019,2024,rule: replacement_tax
+belvidere_park_district,revenue,0100-312,Farm Lease,0100,Corporate Administration,rentals,non_tax,2019,2024,rule: rentals
 belvidere_park_district,revenue,0100-313,Employee Insurance Contributions,0100,Corporate Administration,other_revenue,non_tax,2019,2021,rule: other
-belvidere_park_district,revenue,0100-330,Corporate Interest,0100,Corporate Administration,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,0100-349,Corporate Miscellaneous,0100,Corporate Administration,other_revenue,non_tax,2019,2023,rule: other
-belvidere_park_district,revenue,0100-350,Memorials,0100,Corporate Administration,donations_sponsorships,non_tax,2019,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,0100-360,Donations,0100,Corporate Administration,donations_sponsorships,non_tax,2023,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,0100-370,Shelter Rentals,0100,Corporate Administration,rentals,non_tax,2021,2023,rule: rentals
+belvidere_park_district,revenue,0100-330,Corporate Interest,0100,Corporate Administration,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,0100-349,Corporate Miscellaneous,0100,Corporate Administration,other_revenue,non_tax,2019,2024,rule: other
+belvidere_park_district,revenue,0100-350,Memorials,0100,Corporate Administration,donations_sponsorships,non_tax,2019,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,0100-360,Donations,0100,Corporate Administration,donations_sponsorships,non_tax,2023,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,0100-370,Shelter Rentals,0100,Corporate Administration,rentals,non_tax,2021,2024,rule: rentals
 belvidere_park_district,revenue,0100-391,Citations,0100,Corporate Administration,other_revenue,non_tax,2023,2023,rule: other
 belvidere_park_district,revenue,011-3010,Audit Real Estate Taxes,011,Audit,property_tax,tax,2025,2026,rule: property_tax
 belvidere_park_district,revenue,011-3030,Audit Interest,011,Audit,interest,non_tax,2025,2026,rule: interest
@@ -677,7 +677,7 @@ belvidere_park_district,revenue,013-3041,Liability Claims,013,Liability,other_re
 belvidere_park_district,revenue,014-3010,Social Security Real Estate Taxes,014,Social Security,property_tax,tax,2025,2026,rule: property_tax
 belvidere_park_district,revenue,014-3020,Personal Property Replacement Tax,014,Social Security,replacement_tax,tax,2025,2025,rule: replacement_tax
 belvidere_park_district,revenue,014-3030,Social Security Interest,014,Social Security,interest,non_tax,2025,2026,rule: interest
-belvidere_park_district,revenue,0140-310,IMRF Real Estate Taxes,0140,IMRF,property_tax,tax,2019,2023,rule: property_tax
+belvidere_park_district,revenue,0140-310,IMRF Real Estate Taxes,0140,IMRF,property_tax,tax,2019,2024,rule: property_tax
 belvidere_park_district,revenue,0140-311,Pprtax-Imrf,0140,IMRF,replacement_tax,tax,2019,2023,rule: replacement_tax
 belvidere_park_district,revenue,0140-330,Imrf Interest,0140,IMRF,interest,non_tax,2019,2023,rule: interest
 belvidere_park_district,revenue,015-3050,Park Donations,015,Parks,donations_sponsorships,non_tax,2025,2026,rule: donations_sponsorships
@@ -686,15 +686,15 @@ belvidere_park_district,revenue,015-3080,Parks Employee Reimbursement,015,Parks,
 belvidere_park_district,revenue,015-3090,Farm Lease,015,Parks,rentals,non_tax,2025,2026,rule: rentals
 belvidere_park_district,revenue,015-3110,Shelter Rental Revenue,015,Parks,rentals,non_tax,2025,2026,rule: rentals
 belvidere_park_district,revenue,015-3200,Citations,015,Parks,other_revenue,non_tax,,,rule: other
-belvidere_park_district,revenue,0150-310,Social Security Real Estate Taxes,0150,Social Security,property_tax,tax,2019,2023,rule: property_tax
-belvidere_park_district,revenue,0150-311,Pers Prop Replacement Tax Soc Sec,0150,Social Security,replacement_tax,tax,2019,2023,rule: replacement_tax
-belvidere_park_district,revenue,0150-330,Social Security Interest,0150,Social Security,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,0160-310,Liability Real Estate Taxes,0160,Liability Insurance,property_tax,tax,2019,2023,rule: property_tax
-belvidere_park_district,revenue,0160-330,Liability Interest,0160,Liability Insurance,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,0160-395,Liability Other,0160,Liability Insurance,other_revenue,non_tax,2023,2023,rule: other
-belvidere_park_district,revenue,0160-396,Liability Claims,0160,Liability Insurance,other_revenue,non_tax,2019,2023,rule: other
-belvidere_park_district,revenue,0170-310,Audit Real Estate Taxes,0170,Audit,property_tax,tax,2019,2023,rule: property_tax
-belvidere_park_district,revenue,0170-330,Audit Interest,0170,Audit,interest,non_tax,2019,2023,rule: interest
+belvidere_park_district,revenue,0150-310,Social Security Real Estate Taxes,0150,Social Security,property_tax,tax,2019,2024,rule: property_tax
+belvidere_park_district,revenue,0150-311,Pers Prop Replacement Tax Soc Sec,0150,Social Security,replacement_tax,tax,2019,2024,rule: replacement_tax
+belvidere_park_district,revenue,0150-330,Social Security Interest,0150,Social Security,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,0160-310,Liability Real Estate Taxes,0160,Liability Insurance,property_tax,tax,2019,2024,rule: property_tax
+belvidere_park_district,revenue,0160-330,Liability Interest,0160,Liability Insurance,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,0160-395,Liability Other,0160,Liability Insurance,other_revenue,non_tax,2023,2024,rule: other
+belvidere_park_district,revenue,0160-396,Liability Claims,0160,Liability Insurance,other_revenue,non_tax,2019,2024,rule: other
+belvidere_park_district,revenue,0170-310,Audit Real Estate Taxes,0170,Audit,property_tax,tax,2019,2024,rule: property_tax
+belvidere_park_district,revenue,0170-330,Audit Interest,0170,Audit,interest,non_tax,2019,2024,rule: interest
 belvidere_park_district,revenue,02:010-3010,Recreation Real Estate Taxes,010,Recreation Administration,property_tax,tax,2025,2026,rule: property_tax
 belvidere_park_district,revenue,02:010-3030,Recreation Interest,010,Recreation Administration,interest,non_tax,2025,2026,rule: interest
 belvidere_park_district,revenue,02:010-3040,Miscellaneous Income-Recreation,010,Recreation Administration,program_fees,non_tax,2025,2026,rule: program revenue object 300
@@ -706,9 +706,9 @@ belvidere_park_district,revenue,02:010-3090,Affiliate Revenue,010,Recreation Adm
 belvidere_park_district,revenue,02:010-3095,Vending Revenue,010,Recreation Administration,program_fees,non_tax,2025,2026,rule: program revenue object 300
 belvidere_park_district,revenue,02:010-3900,Grant Revenue,010,Recreation Administration,grants,non_tax,2025,2026,rule: grants
 belvidere_park_district,revenue,02:010-3901,Intergovernmental Revenue,010,Recreation Administration,grants,non_tax,,,rule: grants
-belvidere_park_district,revenue,02:0100-310,Recreation Real Estate Taxes,0100,Recreation Administration,property_tax,tax,2019,2023,rule: property_tax
+belvidere_park_district,revenue,02:0100-310,Recreation Real Estate Taxes,0100,Recreation Administration,property_tax,tax,2019,2024,rule: property_tax
 belvidere_park_district,revenue,02:0100-313,Employee Insurance Contribution,0100,Recreation Administration,program_fees,non_tax,2021,2021,rule: program revenue object 300
-belvidere_park_district,revenue,02:0100-330,Recreation Interest,0100,Recreation Administration,interest,non_tax,2019,2021,rule: interest
+belvidere_park_district,revenue,02:0100-330,Recreation Interest,0100,Recreation Administration,interest,non_tax,2019,2024,rule: interest
 belvidere_park_district,revenue,02:0100-349,Miscellaneous Income-Recreation,0100,Recreation Administration,other_revenue,non_tax,2023,2023,rule: other
 belvidere_park_district,revenue,02:020-3100,Rivers Edge Daily Revenue,020,Rivers Edge Operations,program_fees,non_tax,2025,2026,rule: program revenue object 300
 belvidere_park_district,revenue,02:020-3110,Rivers Edge Rental Revenue,020,Rivers Edge Operations,rentals,non_tax,2025,2026,rule: rentals
@@ -727,42 +727,42 @@ belvidere_park_district,revenue,02:070-3106,Adult Athletics Revenue,070,Adult At
 belvidere_park_district,revenue,02:075-3100,Youth Athletics Revenue,075,Youth Athletics,program_fees,non_tax,2025,2026,rule: program revenue object 300
 belvidere_park_district,revenue,02:085-3100,Youth Revenue,085,Youth,program_fees,non_tax,2025,2026,rule: program revenue object 300
 belvidere_park_district,revenue,02:090-3100,Special Event Revenue,090,Special Events,program_fees,non_tax,2025,2026,rule: program revenue object 300
-belvidere_park_district,revenue,02:1200-300,Doty Park Revenue ’,1200,Doty Park,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:1200-301,Doty Park Birthday Revenue,1200,Doty Park,program_fees,non_tax,,,rule: program revenue object 300
-belvidere_park_district,revenue,02:1200-320,Marketing Sponsorship,1200,Doty Park,donations_sponsorships,non_tax,2019,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,02:2000-300,Preschool Revenue,2000,Preschool,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:2000-301,Preschool Fundraising,2000,Preschool,donations_sponsorships,non_tax,,,rule: donations_sponsorships
-belvidere_park_district,revenue,02:3000-300,Camp Compass Revenue,3000,Camp,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:4000-300,Adult Athletics Revenue,4000,Adult Athletics,program_fees,non_tax,2019,2023,rule: program revenue object 300
+belvidere_park_district,revenue,02:1200-300,Doty Park Revenue ’,1200,Doty Park,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:1200-301,Doty Park Birthday Revenue,1200,Doty Park,program_fees,non_tax,2024,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:1200-320,Marketing Sponsorship,1200,Doty Park,donations_sponsorships,non_tax,2019,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,02:2000-300,Preschool Revenue,2000,Preschool,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:2000-301,Preschool Fundraising,2000,Preschool,donations_sponsorships,non_tax,2024,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,02:3000-300,Camp Compass Revenue,3000,Camp,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:4000-300,Adult Athletics Revenue,4000,Adult Athletics,program_fees,non_tax,2019,2024,rule: program revenue object 300
 belvidere_park_district,revenue,02:5500-300,Arts,5500,Arts,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:6000-300,Rivers Edge Rental Revenue,6000,Rivers Edge Rentals,rentals,non_tax,2019,2023,rule: rentals
-belvidere_park_district,revenue,02:6010-300,Rivers Edge Birthday Revenue,6010,Rivers Edge Birthdays,program_fees,non_tax,2019,2020,rule: program revenue object 300
-belvidere_park_district,revenue,02:6020-300,Adult Fitness,6020,Adult Fitness,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:6021-300,Youth Fitness,6021,Youth Fitness,program_fees,non_tax,,,rule: program revenue object 300
-belvidere_park_district,revenue,02:6030-300,Rivers Edge Daily Fees,6030,Rivers Edge Daily Fees,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:7000-300,Youth Athletics Revenue,7000,Youth Athletics,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:7500-300,Youth Revenue,7500,Youth,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:8000-300,Third Base Revenue,8000,Third Base,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:9010-300,Recreation Scholarship Donations,9010,Recreation Scholarships,donations_sponsorships,non_tax,,,rule: donations_sponsorships
-belvidere_park_district,revenue,02:9100-300,Special Event Revenue,9100,Special Events,program_fees,non_tax,2019,2023,rule: program revenue object 300
+belvidere_park_district,revenue,02:6000-300,Rivers Edge Rental Revenue,6000,Rivers Edge Rentals,rentals,non_tax,2019,2024,rule: rentals
+belvidere_park_district,revenue,02:6010-300,Rivers Edge Birthday Revenue,6010,Rivers Edge Birthdays,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:6020-300,Adult Fitness,6020,Adult Fitness,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:6021-300,Youth Fitness,6021,Youth Fitness,program_fees,non_tax,2024,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:6030-300,Rivers Edge Daily Fees,6030,Rivers Edge Daily Fees,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:7000-300,Youth Athletics Revenue,7000,Youth Athletics,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:7500-300,Youth Revenue,7500,Youth,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:8000-300,Third Base Revenue,8000,Third Base,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:9010-300,Recreation Scholarship Donations,9010,Recreation Scholarships,donations_sponsorships,non_tax,2024,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,02:9100-300,Special Event Revenue,9100,Special Events,program_fees,non_tax,2019,2024,rule: program revenue object 300
 belvidere_park_district,revenue,02:9200-300,Pool Concessions,9200,Pool Concessions,program_fees,non_tax,2019,2020,rule: program revenue object 300
 belvidere_park_district,revenue,02:9210-300,Pool Passes,9210,Pool Passes,program_fees,non_tax,2019,2021,rule: program revenue object 300
 belvidere_park_district,revenue,02:9220-300,Pool Daily Admissions,9220,Pool Daily Admissions,program_fees,non_tax,2019,2021,rule: program revenue object 300
 belvidere_park_district,revenue,02:9230-300,Swim Lessons Income,9230,Swim Lessons,program_fees,non_tax,2019,2021,rule: program revenue object 300
-belvidere_park_district,revenue,02:9240-300,Employee Uniform Purchase,9240,Pool Rentals,program_fees,non_tax,,,rule: program revenue object 300
+belvidere_park_district,revenue,02:9240-300,Employee Uniform Purchase,9240,Pool Rentals,program_fees,non_tax,2024,2024,rule: program revenue object 300
 belvidere_park_district,revenue,02:9240-301,Pool Rentals,9240,Pool Rentals,rentals,non_tax,2019,2021,rule: rentals
 belvidere_park_district,revenue,02:9400-300,General,9400,General and Marketing,program_fees,non_tax,2019,2021,rule: program revenue object 300
-belvidere_park_district,revenue,02:9500-300,Prairie Fields Rental Revenue,9500,Prairie Fields,rentals,non_tax,2019,2023,rule: rentals
+belvidere_park_district,revenue,02:9500-300,Prairie Fields Rental Revenue,9500,Prairie Fields,rentals,non_tax,2019,2024,rule: rentals
 belvidere_park_district,revenue,02:9600-300,Prairie Fields Rentals,9600,Prairie Fields Rentals,rentals,non_tax,2019,2020,rule: rentals
-belvidere_park_district,revenue,02:9700-300,Affiliate Revenue,9700,Affiliate,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,02:9800-300,Recreation Donations,9800,Recreation Donations,donations_sponsorships,non_tax,2019,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,02:9901-300,Vending Revenue,9901,Vending,program_fees,non_tax,,,rule: program revenue object 300
-belvidere_park_district,revenue,03:0100-310,Real Estate Taxes-Museum,0100,Museum Administration,property_tax,tax,2019,2023,rule: property_tax
-belvidere_park_district,revenue,03:0100-330,Museum interest,0100,Museum Administration,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,03:0100-331,Grant Revenue,0100,Museum Administration,grants,non_tax,,,rule: grants
+belvidere_park_district,revenue,02:9700-300,Affiliate Revenue,9700,Affiliate,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,02:9800-300,Recreation Donations,9800,Recreation Donations,donations_sponsorships,non_tax,2019,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,02:9901-300,Vending Revenue,9901,Vending,program_fees,non_tax,2024,2024,rule: program revenue object 300
+belvidere_park_district,revenue,03:0100-310,Real Estate Taxes-Museum,0100,Museum Administration,property_tax,tax,2019,2024,rule: property_tax
+belvidere_park_district,revenue,03:0100-330,Museum interest,0100,Museum Administration,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,03:0100-331,Grant Revenue,0100,Museum Administration,grants,non_tax,2024,2024,rule: grants
 belvidere_park_district,revenue,03:0100-349,Miscellaneous Income-Museum,0100,Museum Administration,other_revenue,non_tax,2021,2023,rule: other
-belvidere_park_district,revenue,03:0100-360,Donations-Museum,0100,Museum Administration,donations_sponsorships,non_tax,2023,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,03:2000-300,Baltic Mill Rentals,2000,Museum Operations,rentals,non_tax,2019,2023,rule: rentals
+belvidere_park_district,revenue,03:0100-360,Donations-Museum,0100,Museum Administration,donations_sponsorships,non_tax,2023,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,03:2000-300,Baltic Mill Rentals,2000,Museum Operations,rentals,non_tax,2019,2024,rule: rentals
 belvidere_park_district,revenue,05:030-3010,Special Recreation Real EstateTaxes,030,Special Recreation Administration,property_tax,tax,2025,2026,rule: property_tax
 belvidere_park_district,revenue,05:030-3030,Special Recreation Interest,030,Special Recreation Administration,interest,non_tax,2025,2026,rule: interest
 belvidere_park_district,revenue,05:030-3040,Miscellaneous Income-Spec Rec,030,Special Recreation Administration,program_fees,non_tax,2025,2026,rule: program revenue object 300
@@ -781,26 +781,26 @@ belvidere_park_district,revenue,08:035-3030,Museum Interest,035,Museum,interest,
 belvidere_park_district,revenue,08:035-3050,Museum Donations,035,Museum,donations_sponsorships,non_tax,2025,2026,rule: donations_sponsorships
 belvidere_park_district,revenue,08:035-3110,Museum Rental Revenue,035,Museum,rentals,non_tax,2025,2026,rule: rentals
 belvidere_park_district,revenue,08:035-3900,Grant Revenue,035,Museum,grants,non_tax,2025,2025,rule: grants
-belvidere_park_district,revenue,09:0100-310,Special Recreation Real EstateTaxes,0100,Special Recreation Administration,property_tax,tax,2019,2023,rule: property_tax
+belvidere_park_district,revenue,09:0100-310,Special Recreation Real EstateTaxes,0100,Special Recreation Administration,property_tax,tax,2019,2024,rule: property_tax
 belvidere_park_district,revenue,09:0100-313,Employee Insurance Contributions,0100,Special Recreation Administration,program_fees,non_tax,2019,2021,rule: program revenue object 300
-belvidere_park_district,revenue,09:0100-330,Special Recreation Interest,0100,Special Recreation Administration,interest,non_tax,2019,2023,rule: interest
+belvidere_park_district,revenue,09:0100-330,Special Recreation Interest,0100,Special Recreation Administration,interest,non_tax,2019,2024,rule: interest
 belvidere_park_district,revenue,09:0100-349,Miscellaneous Income-Spec Rec,0100,Special Recreation Administration,other_revenue,non_tax,2023,2023,rule: other
-belvidere_park_district,revenue,09:0100-360,Special Recreation Donations,0100,Special Recreation Administration,donations_sponsorships,non_tax,2023,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,09:0100-392,Special Recreation Fundraising,0100,Special Recreation Administration,donations_sponsorships,non_tax,2019,2023,rule: donations_sponsorships
-belvidere_park_district,revenue,09:5000-300,Special Recreation Adult Revenue,5000,Adult Programs,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,09:7500-300,Special Recreation Youth Revenue,7500,Youth Programs,program_fees,non_tax,2019,2023,rule: program revenue object 300
+belvidere_park_district,revenue,09:0100-360,Special Recreation Donations,0100,Special Recreation Administration,donations_sponsorships,non_tax,2023,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,09:0100-392,Special Recreation Fundraising,0100,Special Recreation Administration,donations_sponsorships,non_tax,2019,2024,rule: donations_sponsorships
+belvidere_park_district,revenue,09:5000-300,Special Recreation Adult Revenue,5000,Adult Programs,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,09:7500-300,Special Recreation Youth Revenue,7500,Youth Programs,program_fees,non_tax,2019,2024,rule: program revenue object 300
 belvidere_park_district,revenue,09:9000-300,Spec Rec General Program Income,9000,Special Recreation Revenue,program_fees,non_tax,,,rule: program revenue object 300
-belvidere_park_district,revenue,09:9010-300,Special Recreation Scholarships,9010,Special Recreation Scholarships,program_fees,non_tax,2019,2023,rule: program revenue object 300
-belvidere_park_district,revenue,09:9020-300,Special Recreation Rentals,9020,Special Recreation Rentals,rentals,non_tax,2019,2023,rule: rentals
-belvidere_park_district,revenue,09:9400-300,Special Recreation General Programs,9400,General Programs,program_fees,non_tax,2019,2023,rule: program revenue object 300
+belvidere_park_district,revenue,09:9010-300,Special Recreation Scholarships,9010,Special Recreation Scholarships,program_fees,non_tax,2019,2024,rule: program revenue object 300
+belvidere_park_district,revenue,09:9020-300,Special Recreation Rentals,9020,Special Recreation Rentals,rentals,non_tax,2019,2024,rule: rentals
+belvidere_park_district,revenue,09:9400-300,Special Recreation General Programs,9400,General Programs,program_fees,non_tax,2019,2024,rule: program revenue object 300
 belvidere_park_district,revenue,10:0000-900,Transfers,0000,Transfers,other_revenue,non_tax,2019,2020,rule: other
 belvidere_park_district,revenue,10:010-3030,Interest,010,Alternate Bond and Interest,interest,non_tax,2025,2026,rule: interest
 belvidere_park_district,revenue,10:010-3950,Bond Proceeds,010,Alternate Bond and Interest,bond_proceeds,non_tax,2025,2026,rule: bond_proceeds
-belvidere_park_district,revenue,10:0100-330,Interest,0100,Installment Contracts,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,10:0100-390,Bond Proceeds,0100,Installment Contracts,bond_proceeds,non_tax,2019,2023,rule: bond_proceeds
+belvidere_park_district,revenue,10:0100-330,Interest,0100,Installment Contracts,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,10:0100-390,Bond Proceeds,0100,Installment Contracts,bond_proceeds,non_tax,2019,2024,rule: bond_proceeds
 belvidere_park_district,revenue,12:010-3010,Bond & Interest Real Estate Taxes,010,Bond and Interest,property_tax,tax,2025,2026,rule: property_tax
 belvidere_park_district,revenue,12:010-3030,Interest,010,Bond and Interest,interest,non_tax,2025,2026,rule: interest
-belvidere_park_district,revenue,12:0100-310,Real Estate Taxes-B&l,0100,Bond and Interest,property_tax,tax,2019,2023,rule: property_tax
+belvidere_park_district,revenue,12:0100-310,Real Estate Taxes-B&l,0100,Bond and Interest,property_tax,tax,2019,2024,rule: property_tax
 belvidere_park_district,revenue,12:0100-330,Interest,0100,Bond and Interest,interest,non_tax,2019,2023,rule: interest
 belvidere_park_district,revenue,21:010-3030,Interest,010,Capital Projects Revenue,interest,non_tax,2025,2026,rule: interest
 belvidere_park_district,revenue,21:010-3040,Miscellaneous Income-Capital,010,Capital Projects Revenue,other_revenue,non_tax,2025,2026,rule: other
@@ -809,9 +809,9 @@ belvidere_park_district,revenue,21:010-3900,Grant Revenue,010,Capital Projects R
 belvidere_park_district,revenue,21:010-3950,Bond Proceeds,010,Capital Projects Revenue,bond_proceeds,non_tax,2025,2026,rule: bond_proceeds
 belvidere_park_district,revenue,21:010-3955,Impact Fees,010,Capital Projects Revenue,impact_fees,non_tax,2025,2026,rule: impact_fees
 belvidere_park_district,revenue,21:010-3960,Sale of Capital Assets Revenue,010,Capital Projects Revenue,other_revenue,non_tax,2025,2026,rule: other
-belvidere_park_district,revenue,21:0100-315,Grant Expense,0100,Capital Projects Revenue,grants,non_tax,2019,2020,rule: grants
-belvidere_park_district,revenue,21:0100-318,Impact Fees,0100,Capital Projects Revenue,impact_fees,non_tax,2019,2023,rule: impact_fees
-belvidere_park_district,revenue,21:0100-330,Interest,0100,Capital Projects Revenue,interest,non_tax,2019,2023,rule: interest
-belvidere_park_district,revenue,21:0100-390,Bond Proceeds,0100,Capital Projects Revenue,bond_proceeds,non_tax,2019,2023,rule: bond_proceeds
+belvidere_park_district,revenue,21:0100-315,Grant Expense,0100,Capital Projects Revenue,grants,non_tax,2019,2024,rule: grants
+belvidere_park_district,revenue,21:0100-318,Impact Fees,0100,Capital Projects Revenue,impact_fees,non_tax,2019,2024,rule: impact_fees
+belvidere_park_district,revenue,21:0100-330,Interest,0100,Capital Projects Revenue,interest,non_tax,2019,2024,rule: interest
+belvidere_park_district,revenue,21:0100-390,Bond Proceeds,0100,Capital Projects Revenue,bond_proceeds,non_tax,2019,2024,rule: bond_proceeds
 belvidere_park_district,revenue,25:0100-300,Riverfront Revenue,0100,Riverfront,other_revenue,non_tax,2019,2020,rule: other
 belvidere_park_district,revenue,25:0100-330,Riverfront Interest,0100,Riverfront,interest,non_tax,2019,2020,rule: interest
