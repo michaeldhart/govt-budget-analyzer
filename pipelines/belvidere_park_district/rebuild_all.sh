@@ -15,3 +15,4 @@ python3 $P/build_facts.py                       # documents, accounts, facts, co
 python3 $P/build_audit_compare.py > /dev/null   # audit budget-and-actual vs the budget documents, fund by fund
 python3 $P/build_audit_categories.py          # audit expenditure classes vs the budget's object categories
 python3 $P/build_debt_crosschecks.py            # debt note, legal margin, IMRF and statements across the seven audits
+python3 $P/build_reference.py                 # population, CPI factor and assessed valuation by fiscal year (reads committed snapshots)

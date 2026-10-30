@@ -1,0 +1,10 @@
+entity_id,fiscal_year,population,population_year,population_vintage,population_flag,cpi_fy_avg,cpi_months,cpi_flag,cpi_base_fy,cpi_factor,eav_levy_year,eav_city,eav_flag,eav_source_audits
+belvidere_park_district,2019,31937,2019,2019,scaled_from_district_figure,255.657,12,,2025,1.25928,2018,612647631,,FY2019|FY2020|FY2021
+belvidere_park_district,2020,32103,2020,2025,scaled_from_district_figure,258.811,12,,2025,1.24393,2019,641859589,,FY2020|FY2021|FY2022
+belvidere_park_district,2021,31960,2021,2025,scaled_from_district_figure,270.97,12,,2025,1.18811,2020,671381071,,FY2021|FY2022|FY2023
+belvidere_park_district,2022,31936,2022,2025,scaled_from_district_figure,292.655,12,,2025,1.10008,2021,723620217,,FY2022|FY2023|FY2024
+belvidere_park_district,2023,32219,2023,2025,scaled_from_district_figure,304.702,12,,2025,1.05658,2022,758732730,,FY2023|FY2024|FY2025
+belvidere_park_district,2024,32299,2024,2025,scaled_from_district_figure,313.689,12,,2025,1.02631,2023,826063984,,FY2024|FY2025
+belvidere_park_district,2025,32342,2025,2025,scaled_from_district_figure,321.943,11,missing_month:2025-10,2025,1.0,2024,925368616,,FY2025
+belvidere_park_district,2026,32342,2025,2025,scaled_from_district_figure+carried_forward,332.243,9,provisional,2025,0.969,2025,,not_yet_reported,
+belvidere_park_district,2027,32342,2025,2025,scaled_from_district_figure+carried_forward,332.243,0,provisional_carried_forward,2025,0.969,2026,,not_yet_reported,

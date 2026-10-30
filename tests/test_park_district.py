@@ -6,7 +6,7 @@ import os
 from collections import defaultdict
 from decimal import Decimal
 
-from conftest import ROOT
+from conftest import ROOT, read as read_csv
 
 ENT = "belvidere_park_district"
 EXTRACTED = os.path.join(ROOT, "data", ENT, "extracted")
@@ -351,3 +351,19 @@ def test_ordinances_cover_every_document_and_tie():
         a = next(Decimal(r["amount"]) for r in summ if r["doc_id"] == doc and r["item"] in ("aggregate_levy", "summary_total"))
         assert sum(levies) in (a, a + 50000, a - 4290 if doc == "FY2025_levy" else a), doc  # EX-ordinance-fy2025-social-security-levy
     assert all(r["exception_ids"] for r in lines if r["doc_id"] in ("FY2023_levy", "FY2024_levy", "FY2025_levy", "FY2022_levy"))
+
+
+def test_reference_series_by_fiscal_year():
+    """FY2019-FY2027: population scales the district's own AFR figure (32,342 in 2025) by the city's Census series; CPI is the calendar-year mean with base FY2025;
+    EAV is the audits' rate-setting valuation of tax year N-1 (FY2026-27 not reported yet)."""
+    rows = {int(r["fiscal_year"]): r for r in canonical("reference_by_fy")}
+    assert sorted(rows) == list(range(2019, 2028))
+    assert rows[2025]["population"] == "32342" and rows[2025]["cpi_factor"] == "1.0" and rows[2025]["cpi_flag"] == "missing_month:2025-10"
+    assert all(r["population_flag"].startswith("scaled_from_district_figure") for r in rows.values())
+    assert rows[2019]["eav_city"] == "612647631" and rows[2025]["eav_city"] == "925368616" and rows[2026]["eav_flag"] == "not_yet_reported"
+    assert all(int(r["eav_levy_year"]) == int(y) - 1 for y, r in rows.items())
+    assert [int(rows[y]["eav_city"]) for y in range(2019, 2026)] == sorted(int(rows[y]["eav_city"]) for y in range(2019, 2026))
+    ratio = int(rows[2024]["population"]) / 25428  # the city's 2024 July 1 estimate (vintage 2025)
+    assert abs(ratio - 32342 / 25462) < 1e-3
+    src = {r["series"] for r in read_csv(os.path.join(ROOT, "entities", ENT, "reference_sources.csv"))}
+    assert src == {"cpi", "population", "eav"}
