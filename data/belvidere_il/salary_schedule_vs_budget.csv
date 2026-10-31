@@ -1,0 +1,14 @@
+entity_id,period_fy,schedule_total,positions,general_fund_salaries,water_sewer_salaries,schedule_share,exception_ids
+belvidere_il,2015,1125148.67,18,7049690,1521981,0.1313,EX-salary-not-comparable
+belvidere_il,2016,1153152.00,18,7204034,1535473,0.1319,EX-salary-not-comparable
+belvidere_il,2017,1187225.00,19,7375830,1438022,0.1347,EX-salary-not-comparable
+belvidere_il,2018,1213008.18,19,7467879,1478884,0.1356,EX-salary-not-comparable
+belvidere_il,2019,1270941.79,19,7719190,1508987,0.1377,EX-salary-not-comparable
+belvidere_il,2020,1302539.47,19,7931776,1543983,0.1375,EX-salary-not-comparable
+belvidere_il,2021,1329969.31,20,8284071,1565088,0.1350,EX-salary-not-comparable
+belvidere_il,2022,1342969.28,20,8504249,1596595,0.1330,EX-salary-not-comparable
+belvidere_il,2023,1387869.19,20,8861263,1469014,0.1343,EX-salary-not-comparable
+belvidere_il,2024,1525510.09,21,9084575,1666579,0.1419,EX-salary-not-comparable
+belvidere_il,2025,1653727.22,22,9615719,1720903,0.1459,EX-salary-not-comparable
+belvidere_il,2026,1699371.83,22,9921169,1821735,0.1447,EX-salary-not-comparable
+belvidere_il,2027,1810614.28,22,10406911,1968587,0.1463,EX-salary-not-comparable

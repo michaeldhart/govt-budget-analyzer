@@ -15,6 +15,7 @@ CANONICAL = {
     "control_totals": schema.CONTROL_TOTAL_COLUMNS,
     "corrections": schema.CORRECTION_COLUMNS,
     "fund_statements": schema.FUND_STATEMENT_COLUMNS,
+    "salary_schedule": schema.SALARY_SCHEDULE_COLUMNS,
     **schema.DEBT_PENSION_TABLES,
 }
 # Derived tables the site reads: the columns it may rely on (new columns may be added, these must not vanish or be renamed).

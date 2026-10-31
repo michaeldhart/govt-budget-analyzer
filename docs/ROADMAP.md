@@ -46,13 +46,13 @@ Priority: P1 do next, P2 soon, P3 when convenient. Each item says what "done" me
 - **T6 (P3) One command for the extractors.** `rebuild_all.sh` rebuilds derived tables only; add a documented entry point that runs the per-year extractors and the debt/pension build in the right order.
 
 ### Remaining data gaps (Belvidere)
-- **D1 (P3)** Budget Exhibit B salary schedule (positions and pay).
+- **D1 (done 2026-10-31)** Budget Exhibit B salary schedule (positions and pay): `extract_salaries.py`, `build_salaries.py`, tables `salary_schedule*.csv`; see CLAUDE.md. Not on the site (named incumbents; 13-15% of salaries only). Open: the audit-style comparison by department is impossible (see `EX-salary-not-comparable`).
 - **D2 (P3)** Water/Sewer budget cash sub-ledgers (bond reserves, connection fees, depreciation funding, bond payments).
 - **D3 (P3)** FY2012 debt service to maturity; FY2012-15 pension funding-progress schedules; police/fire plan net position tables; IMRF asset allocation.
 - **D4 (done 2026-10-31)** The audit's 1990 / 1993 TIF funds are budget funds #12 / #14 (verified, T90/T93 merged); Capital Projects budget ties to the audit by transfers, revenue and expenditures except two project lines the audit omits (FY2020, FY2022); evidence in `fund_crosscheck.csv` and `docs/extraction-notes/tif_capital_crosscheck.md`.
 - **D5 (done 2026-10-31)** Water/Sewer statements FY2013-15 checked against page images, a second OCR reading and the year-to-year chains: no corrections needed (same note).
 - **D6 (blocked)** FY2027 audited actuals when the audit is published (expected after the FY2027 year ends April 30, 2027): run the same extractors, add the year to `entity.json` ranges, rebuild.
-- **D7 (P3)** The FY2027 budget revision (780H) is treated as a one-salary change; confirm if it ever matters.
+- **D7 (P3)** The FY2027 budget revision (780H) is treated as a one-salary change; confirm if it ever matters. (Its Exhibit B is now extracted as `FY2027R`: only the Building Inspector changes, to full-time at 78,000.)
 
 ### Other governments
 - **G1-G3 DONE 2026-10-31 for the Belvidere Park District** (all phases, results in `docs/PARK_DISTRICT_PLAN.md`; what did not abstract is in CLAUDE.md and the park's exceptions). Next here: choose a third government (G1 again) and compare (S5/G4). Original G1 text: **Choose and scope the second government** (decision 2). Chosen 2026-10-29: Belvidere Park District; plan with phases and checkpoints in `docs/PARK_DISTRICT_PLAN.md`. Phase 1 (sources and scoping) DONE 2026-10-29: 44 documents in `sources/belvidere_park_district/`, `entities/belvidere_park_district/{entity.json,funds.csv,source_urls.csv}`, `data/belvidere_park_district/source_inventory.csv`; Phase 2 (budget extraction) done except the adopted FY2024 budget (placeholder: FY2024 draft), see the plan doc. Original spec: list its documents, years, fiscal-year start month, chart of accounts style and audit layout; create `entities/<id>/entity.json`.

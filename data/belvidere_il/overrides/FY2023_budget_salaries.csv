@@ -1,0 +1,2 @@
+kind,position_id,slot,period_fy,value,reason
+cell,building_inspector,1,2021,22172.80,"thr150 OCR reads 22,177.80; gray reads 22,172.80, which is the FY2021 document's figure and ties the printed FY21 total 1,326,394.56"

@@ -1,0 +1,6 @@
+doc_id,document_fy,period_fy,kind,printed,computed,diff,n_positions,status,detail
+FY2023_budget,2023,2021,total,1326394.56,1326394.56,0.00,20,ok,
+FY2023_budget,2023,2022,total,1337356.28,1337356.29,0.01,20,ok,cents rounding
+FY2023_budget,2023,2023,total,1387869.19,1387869.19,0.00,20,ok,
+FY2023_budget,2023,2022,total_increase,10961.72,10961.72,-0.00,,ok,
+FY2023_budget,2023,2023,total_increase,50512.91,50512.91,-0.00,,ok,

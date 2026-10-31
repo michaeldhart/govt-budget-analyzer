@@ -1,0 +1,4 @@
+doc_id,document_fy,period_fy,kind,printed,computed,diff,n_positions,status,detail
+FY2024_budget,2024,2022,total,1337356.29,1337356.29,0.00,20,ok,
+FY2024_budget,2024,2023,total,1474218.65,1474218.65,0.00,21,ok,
+FY2024_budget,2024,2024,total,1525510.11,1525510.09,-0.02,21,ok,cents rounding

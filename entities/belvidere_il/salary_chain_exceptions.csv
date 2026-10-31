@@ -1,0 +1,16 @@
+document_fy,position_id,slot,period_fy,exception_id
+2017,fire_chief,1,2016,EX-salary-fy2017-fire-chief
+2021,building_inspector,1,2020,EX-salary-prior-year-actual
+2022,det_admin_asst,1,2021,EX-salary-prior-year-actual
+2023,det_admin_asst,1,2021,EX-salary-prior-year-actual
+2023,finance_officer,1,2022,EX-salary-prior-year-actual
+2024,finance_officer,1,2022,EX-salary-prior-year-actual
+2024,assistant_clerk,1,2023,EX-salary-fy2024-clerk-swap
+2024,cd_admin_asst,1,2023,EX-salary-fy2024-clerk-swap
+2024,deputy_chief,1,2023,EX-salary-police-restated-fy2023
+2024,deputy_chief,2,2023,EX-salary-police-restated-fy2023
+2024,police_chief,1,2023,EX-salary-police-restated-fy2023
+2025,finance_officer,1,2024,EX-salary-prior-year-actual
+2026,finance_officer,1,2025,EX-salary-prior-year-actual
+2027,asst_pw_director,1,2026,EX-salary-prior-year-actual
+2027,street_water_sewer_supt,1,2026,EX-salary-prior-year-actual
