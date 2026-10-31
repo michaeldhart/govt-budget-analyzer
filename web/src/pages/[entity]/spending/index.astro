@@ -35,7 +35,7 @@ const latestFund = byFund.map((f) => ({ fund: f.name, amount: total(latest, (r) 
 <Base entity={entity} section="spending" title={`Spending – ${meta.short_name}`} description={`${meta.name}: budgeted spending by fund, function and object.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Spending</p>
   <h1>Budgeted spending</h1>
-  <p class="muted">Every expense line in the district's budgets, {fyLabel(first)}–{fyLabel(latest)}, grouped by what the money is for (function) and what it buys (object). {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the draft request, not the adopted budget. What was actually spent is on the <a href={href(`/${entity}/audit-budget/`)}>audit vs budget</a> page.</p>
+  <p class="muted">Every expense line in the district's budgets, {fyLabel(first)}–{fyLabel(latest)}, grouped by what the money is for (function) and what it buys (object). {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the draft request, not the adopted budget. Each department's own budget is on the <a href={href(`/${entity}/spending/departments/`)}>spending by department</a> page. What was actually spent is on the <a href={href(`/${entity}/audit-budget/`)}>audit vs budget</a> page.</p>
 
   <dl class="summary">
     <div><dt>{fyLabel(latest)} requested spending</dt><dd>{millions(total(latest), 1)}</dd></div>

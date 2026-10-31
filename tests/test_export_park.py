@@ -7,7 +7,7 @@ import pytest
 from govbudget import export_site
 
 ENT = "belvidere_park_district"
-PARK = ["park_revenue", "park_spending", "levies", "park_audit_vs_budget", "park_fund_balance", "park_debt"]
+PARK = ["park_revenue", "park_spending", "park_spending_by_department", "park_revenue_by_department", "levies", "park_audit_vs_budget", "park_fund_balance", "park_debt"]
 
 
 @pytest.fixture(scope="module")
@@ -62,3 +62,22 @@ def test_levies_debt_and_balances(site):
 def test_reference_rows_carry_the_population_exception(site):
     rows = site(ENT, "reference.json")["rows"]
     assert [r["fiscal_year"] for r in rows] == list(range(2019, 2028)) and all("EX-reference-population-scaled" in r["exception_ids"] for r in rows)
+
+
+def test_department_datasets_add_to_the_fund_level_totals(site):
+    for dept, whole in (("park_spending_by_department", "park_spending"), ("park_revenue_by_department", "park_revenue")):
+        d, w = site(ENT, dept + ".json")["rows"], site(ENT, whole + ".json")["rows"]
+        for fy in sorted({r["fiscal_year"] for r in w}):
+            assert sum(r["amount"] for r in d if r["fiscal_year"] == fy) == sum(r["amount"] for r in w if r["fiscal_year"] == fy), (dept, fy)
+        assert {r["fiscal_year"] for r in d} == {r["fiscal_year"] for r in w}
+        assert {(r["fiscal_year"], r["basis"]) for r in d} == {(r["fiscal_year"], r["basis"]) for r in w}
+
+
+def test_department_identity_is_fund_and_name(site):
+    rows = site(ENT, "park_spending_by_department.json")["rows"]
+    assert all(r["dept_id"] == f"{r['fund']}|{r['department']}" and r["dept_codes"] for r in rows)
+    # one function per department, and a program keeps one identity across the FY2025 renumbering (Third Base was 02-8000, then 02-050)
+    assert len({(r["dept_id"], r["function"]) for r in rows}) == len({r["dept_id"] for r in rows})
+    tb = {r["fiscal_year"]: set(r["dept_codes"]) for r in rows if r["dept_id"] == "Recreation|Third Base"}
+    assert tb[2024] == {"02-8000"} and tb[2026] == {"02-050"}
+    assert len({r["dept_id"] for r in rows}) > 50
