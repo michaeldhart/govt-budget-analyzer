@@ -1,0 +1,7 @@
+kind,fund_code,dept_code,account,period_fy,measure,value,reason
+allow_diff,001,0085,,2023,activity,-2,"Printed IT (0085) FY2023 Total Activity expense total 235,561.17; its lines sum to 235,559.17. Source arithmetic in the county's condensed worksheet (text layer, exact figures)"
+allow_diff,018,0018,,2023,activity,18,"Printed Tort Immunity FY2023 Total Activity expense total 1,275,550.24; lines sum to 1,275,568.24. Same 18 dollar gap as the FY2024 budget column of the FY2026 and FY2027 documents (source arithmetic carried through the worksheets)"
+allow_diff,163,0076,,2025,final,5000,"Sale in Error Fund: printed Revenue Total for the FY2025 Final Budget is 0.00 but the one revenue line (Sale in Error Fees) is 5,000.00 and the department total printed just below is 5,000.00. Printed total is a source typo"
+allow_diff,166,,,2024,budget,800,"Schnell Memorial Fund: printed Revenue Total for the FY2024 Total Budget is 0.00 but the one revenue line (Interest - Other) is 800.00; the fund total line below it implies 800 (4,200 deficit with 5,000 of expense). Printed total is a source error"
+allow_diff,167,,,2024,budget,300,"Wolfram Memorial Fund: printed Revenue Total for the FY2024 Total Budget is 0.00 but the one revenue line is 300.00; the fund total below it implies 300 (-700 with 1,000 of expense)"
+allow_diff,167,,,2024,ytd,94.01,"Wolfram Memorial Fund: printed Revenue Total for the FY2024 YTD Activity is 0.00 but the one revenue line is 94.01; the fund total below it prints 94.01"

@@ -1,0 +1,4 @@
+kind,fund_code,dept_code,account,period_fy,measure,value,reason
+place,013,,013-0013-501300,,,2025:budget=7500|2025:ytd=4500|2026:final=12647,"Health Fund Leased Property prints three numbers on a page whose expense columns are shifted; the other two cells are blank. Placed in the last three columns: FY2025 budget, FY2025 YTD and FY2026 final budget. The fund's printed Expense Total ties in all five columns with this placement (differences were exactly 12000/12647, -7500, -4500, -12647 before)"
+allow_diff,001,0085,,2024,budget,-3,"Printed Information Technology (0085) FY2024 Total Budget expense total 364,280.00; its ten lines sum to 364,277.00. Source arithmetic in the county's worksheet (text layer, exact figures)"
+allow_diff,018,,,2024,budget,18,"Printed Tort Immunity Fund FY2024 Total Budget expense total 1,326,000.00; its lines sum to 1,326,018.00. Source arithmetic in the county's worksheet (text layer, exact figures)"

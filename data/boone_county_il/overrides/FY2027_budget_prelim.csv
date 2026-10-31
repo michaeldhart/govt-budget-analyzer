@@ -1,0 +1,3 @@
+kind,fund_code,dept_code,account,period_fy,measure,value,reason
+allow_diff,001,,,2026,budget,15000,"General Fund FY2026 Total Budget revenue: the printed total is 22,673,465; its lines sum to 22,688,465, the figure the FY2026 budget's narrative prints as General Fund Total Revenue (also the FY2025-doc style summary). The printed total is $15,000 short in this preliminary document"
+allow_diff,018,,,2025,budget,18,"Tort Immunity FY2025 Total Budget expense: printed 1,536,000; lines sum to 1,536,018 (the printed revenue total is also 1,536,000). Same 18 dollar gap in the FY2026 document's FY2024 column: source arithmetic"
