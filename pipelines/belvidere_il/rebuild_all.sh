@@ -12,6 +12,7 @@ python3 $P/build_audit_ws_compare.py           # audit vs budget: Water / Sewer 
 python3 $P/build_fund_summary.py | head -2     # fund balance summary
 python3 $P/build_ws_summary.py | head -1       # Water / Sewer summary
 python3 $P/build_other_funds_summary.py        # other funds: audit schedules beside the budget
+python3 $P/build_fund_crosscheck.py | head -1    # TIF funds #12/#14 and Capital Projects #41: audit vs budget by line, transfers, balances
 python3 $P/build_reference.py                 # population, CPI and assessed valuation by fiscal year (from the committed snapshots and extracts)
 python3 -m govbudget.reconcile belvidere_il | head -1
 # reference snapshots (CPI, population): python3 $P/fetch_reference.py (network); assessed valuation extracts: python3 $P/extract_audit_eav.py

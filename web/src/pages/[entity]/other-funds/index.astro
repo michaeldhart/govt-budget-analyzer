@@ -21,7 +21,7 @@ const exceptions = exceptionsUsedBy(entity, rows);
 const ref = referenceFor(entity);
 
 const SHORT: Record<string, string> = { '10': 'Motor Fuel Tax', '13': 'Kishwaukee TIF', '15': 'Kishwaukee II TIF', '16': 'Farmington SSA 2', '17': 'Farmington SSA 3',
-  '41': 'Capital Projects', T90: '1990 TIF', T93: '1993 TIF' };
+  '41': 'Capital Projects', '12': '1990 TIF (Downtown)', '14': '1993 TIF (Mall)' };
 const COLORS = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#4a3aa7', '#b4b2a9'];
 const audited = rows.filter((r) => r.revenues_actual != null || r.ending_balance != null);
 const auditedCodes = Object.keys(SHORT).filter((c) => audited.some((r) => r.fund_code === c));

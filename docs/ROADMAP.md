@@ -49,8 +49,8 @@ Priority: P1 do next, P2 soon, P3 when convenient. Each item says what "done" me
 - **D1 (P3)** Budget Exhibit B salary schedule (positions and pay).
 - **D2 (P3)** Water/Sewer budget cash sub-ledgers (bond reserves, connection fees, depreciation funding, bond payments).
 - **D3 (P3)** FY2012 debt service to maturity; FY2012-15 pension funding-progress schedules; police/fire plan net position tables; IMRF asset allocation.
-- **D4 (P3)** Prove or drop the mapping of the audit's 1990 and 1993 TIF funds to budget funds #12 and #14; compare Capital Projects budget (two ledgers) with the audit fund by another route than totals.
-- **D5 (P3)** Water/Sewer audit: no independent second reading exists for FY2013-15 statements (OCR only); spot-check them against page images if they become important.
+- **D4 (done 2026-10-31)** The audit's 1990 / 1993 TIF funds are budget funds #12 / #14 (verified, T90/T93 merged); Capital Projects budget ties to the audit by transfers, revenue and expenditures except two project lines the audit omits (FY2020, FY2022); evidence in `fund_crosscheck.csv` and `docs/extraction-notes/tif_capital_crosscheck.md`.
+- **D5 (done 2026-10-31)** Water/Sewer statements FY2013-15 checked against page images, a second OCR reading and the year-to-year chains: no corrections needed (same note).
 - **D6 (blocked)** FY2027 audited actuals when the audit is published (expected after the FY2027 year ends April 30, 2027): run the same extractors, add the year to `entity.json` ranges, rebuild.
 - **D7 (P3)** The FY2027 budget revision (780H) is treated as a one-salary change; confirm if it ever matters.
 

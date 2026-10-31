@@ -1,29 +1,29 @@
 entity_id,fiscal_year,fund_code,fund,revenues_original,revenues_actual,expenditures_original,expenditures_actual,net_other_financing_actual,net_change_actual,beginning_balance,ending_balance,budget_revenues,budget_expenses,revenues_diff,expenditures_diff,match
 belvidere_il,2012,10,Motor Fuel Tax,604772,751149,596400,894686,,-143537,434667,291130,,,,,verified
+belvidere_il,2012,12,Downtown TIF,295927,315846,80300,83110,,232736,417364,650100,,,,,verified
 belvidere_il,2012,13,Kishwaukee TIF,240090,152022,223861,133726,,18296,192907,211203,,,,,verified
+belvidere_il,2012,14,Belv Mall TIF Bond/Interest,24300,24147,24300,24145,,2,91,93,,,,,verified
 belvidere_il,2012,15,Kishwaukee II TIF,485,7689,0,0,,7689,1569,9258,,,,,by_name
 belvidere_il,2012,16,Special Service Area 2 (Farmington Fields),19460,22900,19000,17634,,5266,26156,31422,,,,,verified
 belvidere_il,2012,41,Capital Projects,55100,428198,51456,532288,51456,-52634,204487,151853,,,,,by_name
-belvidere_il,2012,T90,1990 TIF,295927,315846,80300,83110,,232736,417364,650100,,,,,none
-belvidere_il,2012,T93,1993 TIF,24300,24147,24300,24145,,2,91,93,,,,,none
 belvidere_il,2013,10,Motor Fuel Tax,636769,736155,,,,279231,291130,570361,,,,,verified
+belvidere_il,2013,12,Downtown TIF,312650,318983,950402,939943,,-620960,650100,29140,,,,,verified
 belvidere_il,2013,13,Kishwaukee TIF,152015,124109,123935,101101,,23008,211203,234211,,,,,verified
+belvidere_il,2013,14,Belv Mall TIF Bond/Interest,,,,,,,93,93,,,,,verified
 belvidere_il,2013,15,Kishwaukee II TIF,,,,,,-5411,9258,3847,,,,,by_name
 belvidere_il,2013,16,Special Service Area 2 (Farmington Fields),23101,19315,19120,12351,,6964,31422,38386,,,,,verified
 belvidere_il,2013,41,Capital Projects,55500,116221,314640,321396,,100665,151853,252518,,,,,by_name
-belvidere_il,2013,T90,1990 TIF,312650,318983,950402,939943,,-620960,650100,29140,,,,,none
-belvidere_il,2013,T93,1993 TIF,,,,,,,93,93,,,,,none
 belvidere_il,2014,10,Motor Fuel Tax,625748,865940,,,,127949,570361,698310,,,,,verified
+belvidere_il,2014,12,Downtown TIF,,,,,,-29140,29140,0,,,,,verified
 belvidere_il,2014,13,Kishwaukee TIF,126005,100975,118000,81203,,19772,234211,253983,,,,,verified
+belvidere_il,2014,14,Belv Mall TIF Bond/Interest,,,,,,23627,93,23720,,,,,verified
 belvidere_il,2014,15,Kishwaukee II TIF,,,,,,1068,3847,4915,,,,,by_name
 belvidere_il,2014,16,Special Service Area 2 (Farmington Fields),19536,15475,21000,18244,,-2769,38386,35617,,,,,verified
 belvidere_il,2014,41,Capital Projects,55500,62506,608491,249444,,308250,252518,560768,,,,,by_name
-belvidere_il,2014,T90,1990 TIF,,,,,,-29140,29140,0,,,,,none
-belvidere_il,2014,T93,1993 TIF,,,,,,23627,93,23720,,,,,none
 belvidere_il,2015,10,Motor Fuel Tax,727940,888279,,,,192197,698310,890507,727940,750300,0,,verified
-belvidere_il,2015,12,Downtown TIF,,,,,,,,,0,0,,,none
+belvidere_il,2015,12,Downtown TIF,,,,,,,,,0,0,,,verified
 belvidere_il,2015,13,Kishwaukee TIF,95005,20985,95200,7873,,13112,253983,267095,95005,95200,0,0,verified
-belvidere_il,2015,14,Belv Mall TIF Bond/Interest,,,,,,,,,24000,0,,,none
+belvidere_il,2015,14,Belv Mall TIF Bond/Interest,,,,,,-23627,23720,93,24000,0,,,verified
 belvidere_il,2015,15,Kishwaukee II TIF,,,,,,0,4915,4915,1079,0,,,by_name
 belvidere_il,2015,16,Special Service Area 2 (Farmington Fields),,,25000,19672,,-7531,35617,28086,16000,25000,,0,verified
 belvidere_il,2015,18,Library Operations,,,,,,,,,840000,840000,,,none
@@ -31,11 +31,10 @@ belvidere_il,2015,41,Capital Projects,40500,40308,416967,662599,,322591,560768,8
 belvidere_il,2015,91,Escrow,,,,,,,,,52000,15000,,,none
 belvidere_il,2015,FP,Fire Pension,,,,,,,,,1771952,1030000,,,none
 belvidere_il,2015,PP,Police Pension,,,,,,,,,2082652,975000,,,none
-belvidere_il,2015,T93,1993 TIF,,,,,,-23627,23720,93,,,,,none
 belvidere_il,2016,10,Motor Fuel Tax,632923,684566,765000,674288,,10278,890507,900785,632923,765000,0,0,verified
-belvidere_il,2016,12,Downtown TIF,,,,,,,,,0,0,,,none
+belvidere_il,2016,12,Downtown TIF,,,,,,,,,0,0,,,verified
 belvidere_il,2016,13,Kishwaukee TIF,30000,21712,40000,7191,,14521,395362,409883,30000,40000,0,0,verified
-belvidere_il,2016,14,Belv Mall TIF Bond/Interest,,,,,,,,,0,0,,,none
+belvidere_il,2016,14,Belv Mall TIF Bond/Interest,24000,0,0,0,,0,93,93,0,0,24000,0,verified
 belvidere_il,2016,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
 belvidere_il,2016,16,Special Service Area 2 (Farmington Fields),16000,0,25000,11044,-14567,-25611,28086,2475,16000,25000,0,0,verified
 belvidere_il,2016,18,Library Operations,,,,,,,,,852000,852000,,,none
@@ -43,10 +42,9 @@ belvidere_il,2016,41,Capital Projects,40500,54363,737281,578331,895189,371221,88
 belvidere_il,2016,91,Escrow,,,,,,,,,51500,15000,,,none
 belvidere_il,2016,FP,Fire Pension,,,,,,,,,1970771,1070000,,,none
 belvidere_il,2016,PP,Police Pension,,,,,,,,,2357971,1095000,,,none
-belvidere_il,2016,T93,1993 TIF,24000,0,0,0,,0,93,93,,,,,none
 belvidere_il,2017,10,Motor Fuel Tax,677156,681247,685000,511818,,169429,900785,1070214,677156,685000,0,0,verified
 belvidere_il,2017,13,Kishwaukee TIF,22000,26975,20000,7105,,19870,409883,429753,22000,20000,0,0,verified
-belvidere_il,2017,14,Belv Mall TIF Bond/Interest,,,,,,,,,0,0,,,none
+belvidere_il,2017,14,Belv Mall TIF Bond/Interest,,,,,,,,,0,0,,,verified
 belvidere_il,2017,15,Kishwaukee II TIF,,,,,,,,,0,0,,,by_name
 belvidere_il,2017,16,Special Service Area 2 (Farmington Fields),18000,20986,27000,16791,1555,5750,2475,8225,18000,27000,0,0,verified
 belvidere_il,2017,17,Special Service Area 3 (Farmington Fields),0,8753,0,10481,-1555,-3283,6589,3306,,,,,verified
