@@ -1,0 +1,2 @@
+kind,key,value,exception_id,reason
+allow,contrib|note|fire|2011,1300,EX-adp-fire-contrib-2011,"The FY2013 schedule of employer contributions prints 427,000 for the firefighters' FY2011 employer contribution (49.99% of the 854,114 required, so internally consistent) where the note's trend table prints 425,700 (the police figure)"

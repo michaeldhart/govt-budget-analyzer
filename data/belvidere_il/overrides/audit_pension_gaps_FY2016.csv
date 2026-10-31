@@ -1,0 +1,2 @@
+kind,key,value,exception_id,reason
+allow,npos|tie_contrib|police,-1,EX-adp-plan-npos-rounding,"Police employer contributions: the FY2016 RSI prints 1,079,608 where the statements and the budget-and-actual schedule print 1,079,609"

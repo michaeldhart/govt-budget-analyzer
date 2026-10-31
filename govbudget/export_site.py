@@ -497,7 +497,7 @@ def debt_payments(E, read):
     rows.sort(key=lambda r: (r["fiscal_year"], r["activity"], r["instrument"], r["year_ending"]))
     return dict(
         title="Scheduled debt payments",
-        description="Each audit's schedule of principal and interest due by fiscal year to maturity, as of that audit's year end. The FY2012 audit's schedule is not extracted.",
+        description="Each audit's schedule of principal and interest due by fiscal year to maturity, as of that audit's year end. The FY2012 audit's five-year bands (2018-2022 etc.) are not charted.",
         sources=["debt_service_schedule.csv"],
         columns=dict(fiscal_year="the audit it comes from", activity="governmental | business_type | component_unit", instrument="the borrowing",
                      year_ending="the fiscal year the payment falls in", principal="principal due", interest="interest due", total="principal + interest",

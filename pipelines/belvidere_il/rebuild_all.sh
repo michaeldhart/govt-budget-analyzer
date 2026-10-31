@@ -21,3 +21,4 @@ python3 -m govbudget.reconcile belvidere_il | head -1
 # debt, pension and OPEB tables are built from their own per-year extracts:
 #   for y in 2012 .. 2026: python3 $P/extract_audit_debt_pension.py FY$y ; then python3 $P/extract_audit_debt_pension.py --build
 #   for the Water / Sewer statements: python3 $P/audit_ws_build_statements.py
+#   police / fire plan net position, target allocations, FY2012-15 funding progress: python3 $P/audit_pension_gaps.py FY$y per year (--build runs with the debt/pension build)

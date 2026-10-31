@@ -71,6 +71,32 @@ def test_audit_debt_and_pension_checks(table):
     assert sum(int(r["failed"]) for r in rows) == 0
 
 
+def test_pension_gaps_checks(table):
+    """audit_pension_gaps.py (roadmap D3): police/fire plan net position, target allocations, FY2012-15 funding progress and statement cross-checks."""
+    rows = table("audit_pension_gaps_checks")
+    assert len({r["period_fy"] for r in rows}) == 15
+    assert sum(int(r["failed"]) for r in rows) == 0
+    assert (sum(int(r["passed"]) for r in rows), sum(int(r["accepted_exceptions"]) for r in rows)) == (3103, 6)
+    x = Counter(r["status"] for r in table("audit_pension_gaps_crosschecks"))
+    assert (x["pass"], x["DIFF"]) == (474, 0)
+
+
+def test_pension_plan_net_position_values(table):
+    """The two prints of each statement agree and the funds' net position is what the notes' fiduciary net position says."""
+    end = {(r["period_fy"], r["plan_id"]): int(r["amount"]) for r in table("pension_plan_net_position")
+           if r["source"] == "combining" and r["statement"] == "net_position" and r["line_id"] == "net_position"}
+    assert end[("2012", "total")] == 25637165 and end[("2026", "police")] == 40299767 and end[("2026", "fire")] == 27285724
+    assert all(end[(y, "total")] == end[(y, "police")] + end[(y, "fire")] for y in {k[0] for k in end})
+
+
+def test_fy2012_debt_service_to_maturity(table):
+    rows = [r for r in table("debt_service_schedule") if r["period_fy"] == "2012"]
+    assert len(rows) == 64 and {r["activity"] for r in rows} == {"governmental", "business_type"}
+    tot = {r["instrument"]: int(r["principal"]) for r in rows if r["row_kind"] == "total"}
+    assert tot["G.O. Debt Certificates"] == 770982 and tot["Revenue Bonds Series 2004"] == 2230000
+    assert sum(int(r["principal"]) for r in rows if r["row_kind"] == "total" and r["activity"] == "governmental") == 1235122
+
+
 def test_water_sewer_audit_statements(table):
     assert sum(int(r["problems"]) for r in table("ws_audit_statements_validation")) == 0
     assert sum(int(r["problems"]) for r in table("ws_audit_old_schedules_validation")) == 0

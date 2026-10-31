@@ -62,6 +62,11 @@ def tag(table, row, rules):
             ids.append(eid)
         elif table == "debt_service_schedule" and g == "debt" and len(k) > 2 and k[2] == "sched" and row["activity"] == k[1]:
             ids.append(eid)
+        elif table == "debt_service_schedule" and g == "debt" and len(k) > 4 and k[1] == "sched" and k[2] == "2012":
+            if k[3] == "t0" and row["activity"] == "governmental" and row["year_ending"] in (k[4][3:], "TOTAL"):
+                ids.append(eid)         # the printed 2016 total and the table's TOTAL row omit the revolving loan fund's 8,750
+            elif k[3] == "t2" and row["instrument"].startswith("IEPA"):
+                ids.append(eid)
     return ";".join(sorted(set(ids)))
 
 
@@ -277,6 +282,8 @@ def main():
     c = Counter((r[0], r[5]) for r in xr)
     for k in sorted(c):
         print(f"  {k[0]:28s} {k[1]:5s} {c[k]}")
+    import audit_pension_gaps_build      # the optional detail tables (plan net position, allocations, funding progress)
+    audit_pension_gaps_build.main()
 
 
 def rd_checks(fy):

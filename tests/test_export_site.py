@@ -272,12 +272,14 @@ def test_debt_datasets_tie_to_the_printed_totals(site, table):
         assert r["pdf_page"] >= 1 and r["source_url"].endswith(".pdf")
     assert not any(r["name"] == "" for r in rows)
     pay = site(ENTITY, "debt_payments.json")["rows"]
-    assert {r["fiscal_year"] for r in pay} == set(range(2013, 2027)) - {2012} and max(r["year_ending"] for r in pay) == 2045
+    assert {r["fiscal_year"] for r in pay} == set(range(2012, 2027)) and max(r["year_ending"] for r in pay) == 2045
     sums = {}
     for r in pay:
         k = (r["fiscal_year"], r["activity"], r["instrument"])
         sums[k] = sums.get(k, 0) + (r["principal"] or 0)
-    tot = {(int(t["period_fy"]), t["activity"], t["instrument"]): int(t["principal"]) for t in table("debt_service_schedule") if t["row_kind"] == "total" and t["principal"]}
+    # the FY2012 audit schedules its later years in five-year bands (row_kind band, not charted), so its annual rows are a part of the total
+    tot = {(int(t["period_fy"]), t["activity"], t["instrument"]): int(t["principal"]) for t in table("debt_service_schedule")
+           if t["row_kind"] == "total" and t["principal"] and t["period_fy"] != "2012"}
     assert all(sums[k] == v for k, v in tot.items() if k in sums) and len(set(tot) & set(sums)) > 30  # scheduled principal adds up to each schedule's printed total
     iss = site(ENTITY, "debt_issues.json")["rows"]
     assert any(r["fiscal_year"] == 2026 and "L17-3623" in r["issue"] and r["ending_balance"] == 3363682 for r in iss)

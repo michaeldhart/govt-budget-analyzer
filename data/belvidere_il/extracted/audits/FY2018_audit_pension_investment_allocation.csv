@@ -1,0 +1,9 @@
+fiscal_year,doc,pdf_page,plan_id,asset_class,range_text,target_pct,expected_return_pct,expected_return_text,flag
+2018,FY2018_audit,72,police,Fixed income,0%-100%,55.0,3.0,3.00%,
+2018,FY2018_audit,72,police,U.S. large company stocks,0%-65%,20.0,7.6,7.60%,
+2018,FY2018_audit,72,police,U.S. small company stocks,0%-10%,10.0,9.8,9.80%,
+2018,FY2018_audit,72,police,Foreign stocks,0%-15%,15.0,4.1,4.10%,
+2018,FY2018_audit,80,fire,Large cap domestic equity,40%-100%,38.5,6.5,6.50%,
+2018,FY2018_audit,80,fire,Small cap domestic equity,0%-40%,11.0,8.5,8.50%,
+2018,FY2018_audit,80,fire,International equity,0%-20%,5.5,6.8,6.80%,
+2018,FY2018_audit,80,fire,Fixed income,40%-50%,45.0,1.3,1.30%,

@@ -552,6 +552,9 @@ def run_year(fy):
                         chk.eq(f"debt|issues|{act}|tie", tot["ending"], at[2][3], f"{act} outstanding-debt table total = liability table ending")
                 for i in its:
                     T["debt_issues"].append([fy, doc, i["page"], act, i["issue"], i["rate_text"], i["maturity_text"], i["ending"], i["current"], "", i["description"]])
+    if fy == 2012:
+        import audit_pension_gaps as GAPS
+        T["debt_service"].extend(GAPS.debt_service_2012(pages, rows, chk))
     if fy >= 2013:
         iss = read_old_issues(fy, pages)
         validate_old_issues(iss, ends, chk)

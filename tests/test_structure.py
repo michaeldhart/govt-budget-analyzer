@@ -17,6 +17,7 @@ CANONICAL = {
     "fund_statements": schema.FUND_STATEMENT_COLUMNS,
     "salary_schedule": schema.SALARY_SCHEDULE_COLUMNS,
     **schema.DEBT_PENSION_TABLES,
+    **schema.PENSION_DETAIL_TABLES,
 }
 # Derived tables the site reads: the columns it may rely on (new columns may be added, these must not vanish or be renamed).
 DERIVED = {
@@ -109,16 +110,25 @@ def test_control_totals_and_statements_vocabulary(table):
 def test_debt_pension_tables_cover_all_audits(name, table):
     rows = table(name)
     assert rows, name
-    if name != "debt_service_schedule":  # FY2012's schedule is not extracted (CLAUDE.md)
-        assert {r["period_fy"] for r in rows} >= {str(y) for y in range(2013, 2027)}
+    assert {r["period_fy"] for r in rows} >= {str(y) for y in range(2012, 2027)}
+
+
+def test_pension_detail_tables_coverage(table):
+    """Plan net position every audit; targets only where printed; funding progress only in the GASB 27-era audits."""
+    npos = table("pension_plan_net_position")
+    assert {r["period_fy"] for r in npos} == {str(y) for y in range(2012, 2027)}
+    assert {r["plan_id"] for r in npos} == {"police", "fire", "total"}
+    assert {r["period_fy"] for r in table("pension_funding_progress")} == {"2012", "2013", "2014", "2015"}
+    alloc = Counter((r["period_fy"], r["plan_id"]) for r in table("pension_investment_allocation"))
+    assert {k for k in alloc} == {(str(y), p) for y in range(2016, 2022) for p in ("police", "fire")} | {("2022", "police"), ("2025", "imrf"), ("2026", "imrf")}
 
 
 def test_exception_ids_resolve_everywhere(table, entity):
     ids = {e["exception_id"] for e in entity.exceptions()}
     assert len(ids) == len(entity.exceptions()), "duplicate exception_id"
-    for name in schema.DEBT_PENSION_TABLES:
+    for name in list(schema.DEBT_PENSION_TABLES) + list(schema.PENSION_DETAIL_TABLES):
         for r in table(name):
-            for x in r["exception_ids"].split("|"):
+            for x in r["exception_ids"].replace(";", "|").split("|"):
                 assert not x or x in ids, f"{name}: unknown exception {x}"
     for e in entity.exceptions():
         assert e["kind"] in schema.EXCEPTION_KINDS and e["scope"] in schema.EXCEPTION_SCOPES and e["effect"] in schema.EXCEPTION_EFFECTS

@@ -1,0 +1,3 @@
+kind,key,value,exception_id,reason
+fixtok,"91|124,234","724,234",,"OCR misread of a 7 (page image, combining statement of net assets: police State and local obligations 724,234; the total column prints 724,234 and the fire column is a dash)"
+allow,snp|note|net_pension_obligation,1,EX-adp-fy2012-npo-rounding,"FY2012 net pension obligation: the Statement of Net Assets, the reconciliation and the debt note print 3,332,770 where the pension note's police (1,722,667) and firefighters (1,610,102) obligations sum to 3,332,769"
