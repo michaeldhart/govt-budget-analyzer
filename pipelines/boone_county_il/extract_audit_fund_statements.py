@@ -21,11 +21,12 @@ OUT = ROOT / "data/boone_county_il/extracted/audits"
 COLS = ROOT / "entities/boone_county_il/audit_fund_columns.csv"
 OVR = ROOT / "data/boone_county_il/overrides"
 
-TOKEN = re.compile(r"\(\s*[\d,]+\s*\)|(?<![\w])[\d,]*\d(?=\s|$)|(?<![\w])[-–—](?=\s|$)")
+TOKEN = re.compile(r"\(\s*[\d,]+\s*\)|(?<![\w#-])[\d,]*\d(?=\s|$)|(?<![\w])[-–—](?=\s|$)")
 
 
 def protect(line):
     """Keep dates in labels ('NOVEMBER 30', 'DECEMBER 1, 2014') from being read as amounts."""
+    line = re.sub(r"COVID\s*-?\s*19", "COVID19", line)
     line = re.sub(r"((?:December|November|DECEMBER|NOVEMBER)\s+\d{1,2},?)\s+(\d{4})\b", r"\1 y\2", line)
     return re.sub(r"\b((?:December|November|DECEMBER|NOVEMBER)\s+)(\d{1,2})(?=\s|$)", r"\1d\2", line)
 

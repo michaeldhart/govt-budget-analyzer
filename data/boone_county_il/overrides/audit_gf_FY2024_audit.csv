@@ -1,0 +1,5 @@
+path,label,column,value,reason
+DEBT SERVICE,Total debt service,budget,-5000,"The FY2024 General Fund expenditure schedule prints a 5,000 budget on the Total debt service line whose two lines (principal retirement and interest, original and final budget a dash) have no budget. The printed total expenditures budget (18,014,299) equals the lines without it. Source arithmetic"
+DEBT SERVICE,Total debt service,variance,5000,"Same 5,000: the printed variance of 204,303 for total debt service is actual 209,303 less the 5,000 budget"
+,TOTAL EXPENDITURES,variance,5000,"The printed TOTAL EXPENDITURES variance (3,377,455) is actual less budget plus 5,000: it subtracts the 5,000 printed on Total debt service although the printed budget total (18,014,299) excludes it. Source arithmetic"
+,TOTAL EXPENDITURES,line_variance,-5000,"Printed variance 3,377,455 vs actual 21,396,754 less budget 18,014,299 = 3,382,455"

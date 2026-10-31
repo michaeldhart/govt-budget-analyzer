@@ -1,0 +1,403 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2023_audit,88,revenue,1,Taxes,Property tax,item,7400000,7417332,17332
+FY2023_audit,88,revenue,2,Taxes,State income tax,item,2700000,2971101,271101
+FY2023_audit,88,revenue,3,Taxes,State sales tax,item,2100000,2616387,516387
+FY2023_audit,88,revenue,4,Taxes,Replacement taxes,item,500000,1479591,979591
+FY2023_audit,88,revenue,5,Taxes,Use taxes,item,720000,763575,43575
+FY2023_audit,88,revenue,6,Taxes,Video gaming tax,item,70000,90381,20381
+FY2023_audit,88,revenue,7,,(subtotal of Taxes),total,13490000,15338367,1848367
+FY2023_audit,88,revenue,8,"Fees, licenses, permits and fines",County clerk fees,item,115000,88946,-26054
+FY2023_audit,88,revenue,9,"Fees, licenses, permits and fines",County sheriff fees,item,80000,116844,36844
+FY2023_audit,88,revenue,10,"Fees, licenses, permits and fines",States attorney fees,item,4000,1729,-2271
+FY2023_audit,88,revenue,11,"Fees, licenses, permits and fines",County Coroner fees,item,10000,15761,5761
+FY2023_audit,88,revenue,12,"Fees, licenses, permits and fines",County recorder,item,200000,63349,-136651
+FY2023_audit,88,revenue,13,"Fees, licenses, permits and fines",Licenses and permits,item,247000,453106,206106
+FY2023_audit,88,revenue,14,"Fees, licenses, permits and fines",Criminal fees,item,185000,162666,-22334
+FY2023_audit,88,revenue,15,"Fees, licenses, permits and fines",Traffic fines,item,140000,125139,-14861
+FY2023_audit,88,revenue,16,"Fees, licenses, permits and fines",Cable franchise fees,item,100000,102770,2770
+FY2023_audit,88,revenue,17,"Fees, licenses, permits and fines",Circuit court fees,item,450000,496867,46867
+FY2023_audit,88,revenue,18,"Fees, licenses, permits and fines",Counsel fees,item,1500,0,-1500
+FY2023_audit,88,revenue,19,"Fees, licenses, permits and fines",Finance court,item,6000,1046,-4954
+FY2023_audit,88,revenue,20,"Fees, licenses, permits and fines",Penalty late taxes,item,162500,162205,-295
+FY2023_audit,88,revenue,21,"Fees, licenses, permits and fines",Other fees,item,164800,199094,34294
+FY2023_audit,88,revenue,22,,"(subtotal of Fees, licenses, permits and fines)",total,1865800,1989522,123722
+FY2023_audit,88,revenue,23,Intergovernmental revenue,State of IL salary reimbursements,item,733059,796533,63474
+FY2023_audit,88,revenue,24,Intergovernmental revenue,County Sheriff reimbursements,item,100000,41686,-58314
+FY2023_audit,88,revenue,25,Intergovernmental revenue,Public safety building operations - city,item,850000,850177,177
+FY2023_audit,88,revenue,26,Intergovernmental revenue,Grants,item,158850,250512,91662
+FY2023_audit,88,revenue,27,Intergovernmental revenue,Other governmental revenue,item,50000,237172,187172
+FY2023_audit,88,revenue,28,,(subtotal of Intergovernmental revenue),total,1891909,2176080,284171
+FY2023_audit,88,revenue,29,Interest,Investments,item,14000,256793,242793
+FY2023_audit,89,revenue,30,Interest|Miscellaneous,Miscellaneous,item,155700,197644,41944
+FY2023_audit,89,revenue,31,Interest|Miscellaneous,Penalties,item,16250,16930,680
+FY2023_audit,89,revenue,32,Interest|Miscellaneous,Rent,item,164335,146707,-17628
+FY2023_audit,89,revenue,33,Interest|Miscellaneous,County farm,item,16000,15611,-389
+FY2023_audit,89,revenue,34,Interest,(subtotal of Miscellaneous),total,352285,376892,24607
+FY2023_audit,89,revenue,35,,Total revenues,total,17613994,20137654,2523660
+FY2023_audit,89,expenditure,36,General government|Courthouse,Salaries - other full-time,item,189176,205815,-16639
+FY2023_audit,89,expenditure,37,General government|Courthouse,Maintenance supplies,item,9500,13542,-4042
+FY2023_audit,89,expenditure,38,General government|Courthouse,Gas and oil,item,2000,748,1252
+FY2023_audit,89,expenditure,39,General government|Courthouse,Uniforms,item,4500,2500,2000
+FY2023_audit,89,expenditure,40,General government|Courthouse,Utilities,item,240000,338349,-98349
+FY2023_audit,89,expenditure,41,General government|Courthouse,Telephone,item,140000,142934,-2934
+FY2023_audit,89,expenditure,42,General government|Courthouse,Snow removal,item,2000,3535,-1535
+FY2023_audit,89,expenditure,43,General government|Courthouse,Waste disposal,item,2400,4215,-1815
+FY2023_audit,89,expenditure,44,General government|Courthouse,Maintenance - equipment,item,10000,19320,-9320
+FY2023_audit,89,expenditure,45,General government|Courthouse,Maintenance - grounds,item,24690,30386,-5696
+FY2023_audit,89,expenditure,46,General government|Courthouse,Training and conferences,item,500,0,500
+FY2023_audit,89,expenditure,47,General government|Courthouse,Equipment,item,2000,1526,474
+FY2023_audit,89,expenditure,48,General government|Courthouse,Other professional services,item,0,48,-48
+FY2023_audit,89,expenditure,49,General government|Courthouse,Other,item,0,152,-152
+FY2023_audit,89,expenditure,50,General government,(subtotal of Courthouse),total,626766,763070,-136304
+FY2023_audit,89,expenditure,51,General government|County board,Chairman,item,12000,13100,-1100
+FY2023_audit,89,expenditure,52,General government|County board,Postage,item,0,10,-10
+FY2023_audit,89,expenditure,53,General government|County board,Travel,item,4500,6540,-2040
+FY2023_audit,89,expenditure,54,General government|County board,Other professional services,item,0,464,-464
+FY2023_audit,89,expenditure,55,General government|County board,Per diem,item,36000,32669,3331
+FY2023_audit,89,expenditure,56,General government|County board,Dues and memberships,item,10000,8250,1750
+FY2023_audit,89,expenditure,57,General government|County board,Office supplies - other,item,0,117,-117
+FY2023_audit,89,expenditure,58,General government|County board,Training & Conferences,item,0,262,-262
+FY2023_audit,89,expenditure,59,General government,(subtotal of County board),total,62500,61412,1088
+FY2023_audit,89,expenditure,60,General government|County farm,Taxes,item,3400,3594,-194
+FY2023_audit,89,expenditure,61,General government,(subtotal of County farm),total,3400,3594,-194
+FY2023_audit,90,expenditure,62,General government|County treasurer,Salaries - department head,item,82378,82695,-317
+FY2023_audit,90,expenditure,63,General government|County treasurer,Salaries - deputies,item,81945,81813,132
+FY2023_audit,90,expenditure,64,General government|County treasurer,Office supplies,item,1800,856,944
+FY2023_audit,90,expenditure,65,General government|County treasurer,Publications,item,350,350,0
+FY2023_audit,90,expenditure,66,General government|County treasurer,Publishing and advertising,item,550,688,-138
+FY2023_audit,90,expenditure,67,General government|County treasurer,Travel,item,700,680,20
+FY2023_audit,90,expenditure,68,General government|County treasurer,Postage,item,12500,14117,-1617
+FY2023_audit,90,expenditure,69,General government|County treasurer,Printing,item,5500,5247,253
+FY2023_audit,90,expenditure,70,General government|County treasurer,Other professional services,item,0,157,-157
+FY2023_audit,90,expenditure,71,General government|County treasurer,Dues and memberships,item,600,600,0
+FY2023_audit,90,expenditure,72,General government|County treasurer,Maintenance - equipment,item,500,73,427
+FY2023_audit,90,expenditure,73,General government,(subtotal of County treasurer),total,186823,187276,-453
+FY2023_audit,90,expenditure,74,General government|County clerk and recorder,Salaries - department head,item,90221,90568,-347
+FY2023_audit,90,expenditure,75,General government|County clerk and recorder,Salaries - deputies,item,198072,198367,-295
+FY2023_audit,90,expenditure,76,General government|County clerk and recorder,Office supplies,item,5500,10884,-5384
+FY2023_audit,90,expenditure,77,General government|County clerk and recorder,Publishing & Advertising,item,0,450,-450
+FY2023_audit,90,expenditure,78,General government|County clerk and recorder,Equipment maintenance,item,500,0,500
+FY2023_audit,90,expenditure,79,General government|County clerk and recorder,Travel,item,1000,910,90
+FY2023_audit,90,expenditure,80,General government|County clerk and recorder,Training and conferences,item,1500,603,897
+FY2023_audit,90,expenditure,81,General government|County clerk and recorder,Printing,item,3000,3155,-155
+FY2023_audit,90,expenditure,82,General government|County clerk and recorder,Postage,item,6000,5732,268
+FY2023_audit,90,expenditure,83,General government|County clerk and recorder,Dues,item,650,630,20
+FY2023_audit,90,expenditure,84,General government|County clerk and recorder,Data processing,item,15000,20465,-5465
+FY2023_audit,90,expenditure,85,General government|County clerk and recorder,Office equipment,item,250,1348,-1098
+FY2023_audit,90,expenditure,86,General government|County clerk and recorder,Other Professional Services - Other,item,0,1048,-1048
+FY2023_audit,90,expenditure,87,General government|County clerk and recorder,Miscellaneous fees register births and deaths,item,350,0,350
+FY2023_audit,90,expenditure,88,General government|County clerk and recorder,REFUNDS,item,0,25,-25
+FY2023_audit,90,expenditure,89,General government,(subtotal of County clerk and recorder),total,322043,334185,-12142
+FY2023_audit,90,expenditure,90,General government|Zoning,Travel,item,200,138,62
+FY2023_audit,90,expenditure,91,General government|Zoning,Per diem,item,2000,3960,-1960
+FY2023_audit,90,expenditure,92,General government,(subtotal of Zoning),total,2200,4098,-1898
+FY2023_audit,91,expenditure,93,General government|Planning,Planning director salary,item,79051,92341,-13290
+FY2023_audit,91,expenditure,94,General government|Planning,Office supplies,item,800,821,-21
+FY2023_audit,91,expenditure,95,General government|Planning,Materials Office (Work Release),item,0,100,-100
+FY2023_audit,91,expenditure,96,General government|Planning,Equipment maintenance,item,1000,0,1000
+FY2023_audit,91,expenditure,97,General government|Planning,Travel,item,1500,91,1409
+FY2023_audit,91,expenditure,98,General government|Planning,Training and conferences,item,1700,873,827
+FY2023_audit,91,expenditure,99,General government|Planning,Publishing and advertising,item,1500,934,566
+FY2023_audit,91,expenditure,100,General government|Planning,Printing,item,500,0,500
+FY2023_audit,91,expenditure,101,General government|Planning,Other professional services - other,item,10000,4376,5624
+FY2023_audit,91,expenditure,102,General government|Planning,Dues,item,500,843,-343
+FY2023_audit,91,expenditure,103,General government|Planning,Planning Technician,item,0,2085,-2085
+FY2023_audit,91,expenditure,104,General government,(subtotal of Planning),total,96551,102464,-5913
+FY2023_audit,91,expenditure,105,General government|Supervisor of assessments,Salaries - department,item,75377,75667,-290
+FY2023_audit,91,expenditure,106,General government|Supervisor of assessments,Salaries - clerks,item,133769,129811,3958
+FY2023_audit,91,expenditure,107,General government|Supervisor of assessments,Office supplies,item,1000,1075,-75
+FY2023_audit,91,expenditure,108,General government|Supervisor of assessments,Printing,item,7000,6211,789
+FY2023_audit,91,expenditure,109,General government|Supervisor of assessments,Equipment maintenance,item,2700,2231,469
+FY2023_audit,91,expenditure,110,General government|Supervisor of assessments,Travel,item,3000,2824,176
+FY2023_audit,91,expenditure,111,General government|Supervisor of assessments,Mapping maintenance,item,1300,2610,-1310
+FY2023_audit,91,expenditure,112,General government|Supervisor of assessments,Training and conferences,item,6000,5492,508
+FY2023_audit,91,expenditure,113,General government|Supervisor of assessments,Publishing and advertising,item,20000,0,20000
+FY2023_audit,91,expenditure,114,General government|Supervisor of assessments,Postage,item,10500,12447,-1947
+FY2023_audit,91,expenditure,115,General government|Supervisor of assessments,Dues and memberships,item,700,702,-2
+FY2023_audit,91,expenditure,116,General government|Supervisor of assessments,Other professional services,item,800,670,130
+FY2023_audit,91,expenditure,117,General government|Supervisor of assessments,Software Licenses,item,0,-34715,34715
+FY2023_audit,91,expenditure,118,General government|Supervisor of assessments,Publications,item,0,20318,-20318
+FY2023_audit,91,expenditure,119,General government|Supervisor of assessments,Misc Materials & Services,item,0,2,-2
+FY2023_audit,91,expenditure,120,General government,(subtotal of Supervisor of assessments),total,262146,225345,36801
+FY2023_audit,91,expenditure,121,General government|Supervisor of educational service region,Intergovernmental education service,item,84000,114719,-30719
+FY2023_audit,92,expenditure,122,General government|Supervisor of educational service region|Administrative services,Salaries - department head,item,132000,129676,2324
+FY2023_audit,92,expenditure,123,General government|Supervisor of educational service region|Administrative services,Salaries - secretary,item,38786,60040,-21254
+FY2023_audit,92,expenditure,124,General government|Supervisor of educational service region|Administrative services,Salaries - administrative assistant,item,0,1192,-1192
+FY2023_audit,92,expenditure,125,General government|Supervisor of educational service region|Administrative services,Stationery and supplies,item,1400,1521,-121
+FY2023_audit,92,expenditure,126,General government|Supervisor of educational service region|Administrative services,Publications,item,0,60,-60
+FY2023_audit,92,expenditure,127,General government|Supervisor of educational service region|Administrative services,Travel,item,2500,389,2111
+FY2023_audit,92,expenditure,128,General government|Supervisor of educational service region|Administrative services,Postage,item,100,1534,-1434
+FY2023_audit,92,expenditure,129,General government|Supervisor of educational service region|Administrative services,Training and conferences,item,2000,1202,798
+FY2023_audit,92,expenditure,130,General government|Supervisor of educational service region|Administrative services,Publishing and advertising,item,500,424,76
+FY2023_audit,92,expenditure,131,General government|Supervisor of educational service region|Administrative services,Other professional services,item,20000,1958,18042
+FY2023_audit,92,expenditure,132,General government|Supervisor of educational service region|Administrative services,Maintenance - equipment,item,2500,4601,-2101
+FY2023_audit,92,expenditure,133,General government|Supervisor of educational service region|Administrative services,Dues and memberships,item,2000,2292,-292
+FY2023_audit,92,expenditure,134,General government|Supervisor of educational service region|Administrative services,Rental equipment,item,0,804,-804
+FY2023_audit,92,expenditure,135,General government|Supervisor of educational service region|Administrative services,Equipment,item,0,429,-429
+FY2023_audit,92,expenditure,136,General government|Supervisor of educational service region|Administrative services,(unlabeled line),item,0,92,-92
+FY2023_audit,92,expenditure,137,General government|Supervisor of educational service region,(subtotal of Administrative services),total,201786,206214,-4428
+FY2023_audit,92,expenditure,138,General government|Supervisor of educational service region|Board of review,Salaries - board members,item,16000,15058,942
+FY2023_audit,92,expenditure,139,General government|Supervisor of educational service region|Board of review,Office supplies,item,100,53,47
+FY2023_audit,92,expenditure,140,General government|Supervisor of educational service region|Board of review,Travel,item,800,93,707
+FY2023_audit,92,expenditure,141,General government|Supervisor of educational service region|Board of review,Publishing and advertising,item,100,0,100
+FY2023_audit,92,expenditure,142,General government|Supervisor of educational service region|Board of review,Other professional services,item,4000,4000,0
+FY2023_audit,92,expenditure,143,General government|Supervisor of educational service region|Board of review,Postage,item,400,11,389
+FY2023_audit,92,expenditure,144,General government|Supervisor of educational service region|Board of review,Training and conferences,item,2300,240,2060
+FY2023_audit,92,expenditure,145,General government|Supervisor of educational service region|Board of review,Office equipment,item,4000,0,4000
+FY2023_audit,92,expenditure,146,General government|Supervisor of educational service region,(subtotal of Board of review),total,27700,19455,8245
+FY2023_audit,92,expenditure,147,General government|Supervisor of educational service region|Election,Salaries - clerks,item,3000,641,2359
+FY2023_audit,92,expenditure,148,General government|Supervisor of educational service region|Election,Postage,item,19500,0,19500
+FY2023_audit,92,expenditure,149,General government|Supervisor of educational service region|Election,Printing paper and supplies,item,80000,154452,-74452
+FY2023_audit,92,expenditure,150,General government|Supervisor of educational service region|Election,Other professional services - other,item,120000,584,119416
+FY2023_audit,92,expenditure,151,General government|Supervisor of educational service region|Election,Voter registration,item,40000,32650,7350
+FY2023_audit,92,expenditure,152,General government|Supervisor of educational service region|Election,Voter registration,item,40500,0,40500
+FY2023_audit,92,expenditure,153,General government|Supervisor of educational service region|Election,Equipment - other,item,0,22,-22
+FY2023_audit,92,expenditure,154,General government|Supervisor of educational service region|Election,Election judge compensation,item,5000,0,5000
+FY2023_audit,92,expenditure,155,General government|Supervisor of educational service region,(subtotal of Election),total,308000,188349,119651
+FY2023_audit,93,expenditure,156,General government|Supervisor of educational service region|Logan Avenue building,Salaries - maintenance,item,21074,24384,-3310
+FY2023_audit,93,expenditure,157,General government|Supervisor of educational service region|Logan Avenue building,Maintenance supplies,item,4500,4734,-234
+FY2023_audit,93,expenditure,158,General government|Supervisor of educational service region|Logan Avenue building,Property maintenance,item,33000,38241,-5241
+FY2023_audit,93,expenditure,159,General government|Supervisor of educational service region|Logan Avenue building,Equipment maintenance,item,0,1921,-1921
+FY2023_audit,93,expenditure,160,General government|Supervisor of educational service region|Logan Avenue building,Waste disposal,item,1550,2624,-1074
+FY2023_audit,93,expenditure,161,General government|Supervisor of educational service region|Logan Avenue building,Utilities,item,19000,26343,-7343
+FY2023_audit,93,expenditure,162,General government|Supervisor of educational service region|Logan Avenue building,Other professional services - other,item,2000,0,2000
+FY2023_audit,93,expenditure,163,General government|Supervisor of educational service region,(subtotal of Logan Avenue building),total,81124,98247,-17123
+FY2023_audit,93,expenditure,164,General government|Supervisor of educational service region|Information technology,Salaries - computer coordinator,item,67250,67509,-259
+FY2023_audit,93,expenditure,165,General government|Supervisor of educational service region|Information technology,Computer replacement,item,25000,0,25000
+FY2023_audit,93,expenditure,166,General government|Supervisor of educational service region|Information technology,Telephone,item,14148,11933,2215
+FY2023_audit,93,expenditure,167,General government|Supervisor of educational service region|Information technology,Data processing,item,24111,26963,-2852
+FY2023_audit,93,expenditure,168,General government|Supervisor of educational service region|Information technology,Website,item,13059,11199,1860
+FY2023_audit,93,expenditure,169,General government|Supervisor of educational service region|Information technology,Software licenses,item,77903,84856,-6953
+FY2023_audit,93,expenditure,170,General government|Supervisor of educational service region|Information technology,Equipment,item,14900,17752,-2852
+FY2023_audit,93,expenditure,171,General government|Supervisor of educational service region|Information technology,Contingencies,item,5400,0,5400
+FY2023_audit,93,expenditure,172,General government|Supervisor of educational service region,(subtotal of Information technology),total,241771,220212,21559
+FY2023_audit,93,expenditure,173,General government|Supervisor of educational service region|Building department,Senior building inspector,item,72322,74687,-2365
+FY2023_audit,93,expenditure,174,General government|Supervisor of educational service region|Building department,Zoning officer,item,41496,41860,-364
+FY2023_audit,93,expenditure,175,General government|Supervisor of educational service region|Building department,Salary - plumbing inspector,item,15000,267,14733
+FY2023_audit,93,expenditure,176,General government|Supervisor of educational service region|Building department,Salary - electrical inspector,item,28965,3338,25627
+FY2023_audit,93,expenditure,177,General government|Supervisor of educational service region|Building department,Office supplies,item,700,106,594
+FY2023_audit,93,expenditure,178,General government|Supervisor of educational service region|Building department,Fuel,item,3000,2650,350
+FY2023_audit,93,expenditure,179,General government|Supervisor of educational service region|Building department,Publications,item,750,735,15
+FY2023_audit,93,expenditure,180,General government|Supervisor of educational service region|Building department,Maintenance and vehicles,item,10000,5137,4863
+FY2023_audit,93,expenditure,181,General government|Supervisor of educational service region|Building department,Equipment maintenance,item,1800,1274,526
+FY2023_audit,93,expenditure,182,General government|Supervisor of educational service region|Building department,Training and conferences,item,1000,0,1000
+FY2023_audit,93,expenditure,183,General government|Supervisor of educational service region|Building department,Telephone,item,240,240,0
+FY2023_audit,93,expenditure,184,General government|Supervisor of educational service region|Building department,Postage,item,50,0,50
+FY2023_audit,93,expenditure,185,General government|Supervisor of educational service region|Building department,Publishing and advertising,item,100,0,100
+FY2023_audit,93,expenditure,186,General government|Supervisor of educational service region|Building department,Software licenses,item,15000,13000,2000
+FY2023_audit,93,expenditure,187,General government|Supervisor of educational service region|Building department,Printing,item,906,391,515
+FY2023_audit,93,expenditure,188,General government|Supervisor of educational service region|Building department,Other professional services,item,5000,14417,-9417
+FY2023_audit,93,expenditure,189,General government|Supervisor of educational service region|Building department,Dues,item,300,145,155
+FY2023_audit,93,expenditure,190,General government|Supervisor of educational service region|Building department,Equipment,item,500,0,500
+FY2023_audit,93,expenditure,191,General government|Supervisor of educational service region|Building department,Refunds,item,0,4735,-4735
+FY2023_audit,93,expenditure,192,General government|Supervisor of educational service region|Building department,Travel,item,2000,1195,805
+FY2023_audit,93,expenditure,193,General government|Supervisor of educational service region,(subtotal of Building department),total,199129,164177,34952
+FY2023_audit,94,expenditure,194,General government|Supervisor of educational service region|Other professional services and capital,Other professional services,item,30000,32828,-2828
+FY2023_audit,94,expenditure,195,General government|Supervisor of educational service region|Other professional services and capital,Other professional services - legal,item,12500,61949,-49449
+FY2023_audit,94,expenditure,196,General government|Supervisor of educational service region|Other professional services and capital,Equipment,item,0,46500,-46500
+FY2023_audit,94,expenditure,197,General government|Supervisor of educational service region|Other professional services and capital,Misc Materials & Services,item,0,20772,-20772
+FY2023_audit,94,expenditure,198,General government|Supervisor of educational service region,(subtotal of Other professional services and capital),total,42500,162049,-119549
+FY2023_audit,94,expenditure,199,General government|Supervisor of educational service region|Miscellaneous,Annual audit,item,51650,59950,-8300
+FY2023_audit,94,expenditure,200,General government|Supervisor of educational service region|Miscellaneous,Growth dimensions,item,30000,30000,0
+FY2023_audit,94,expenditure,201,General government|Supervisor of educational service region|Miscellaneous,CASA,item,25000,25000,0
+FY2023_audit,94,expenditure,202,General government|Supervisor of educational service region|Miscellaneous,Soil and water conservation district,item,20000,20000,0
+FY2023_audit,94,expenditure,203,General government|Supervisor of educational service region|Miscellaneous,Office supplies,item,100,0,100
+FY2023_audit,94,expenditure,204,General government|Supervisor of educational service region|Miscellaneous,Publications,item,500,0,500
+FY2023_audit,94,expenditure,205,General government|Supervisor of educational service region|Miscellaneous,Travel,item,1000,0,1000
+FY2023_audit,94,expenditure,206,General government|Supervisor of educational service region|Miscellaneous,Training and conferences,item,1000,1248,-248
+FY2023_audit,94,expenditure,207,General government|Supervisor of educational service region|Miscellaneous,Website expense,item,0,-4839,4839
+FY2023_audit,94,expenditure,208,General government|Supervisor of educational service region|Miscellaneous,Contingencies,item,480523,87536,392987
+FY2023_audit,94,expenditure,209,General government|Supervisor of educational service region|Miscellaneous,Union dues,item,0,-42,42
+FY2023_audit,94,expenditure,210,General government|Supervisor of educational service region|Miscellaneous,Other,item,15000,12629,2371
+FY2023_audit,94,expenditure,211,General government|Supervisor of educational service region|Miscellaneous,Miscellaneous,item,0,-262,262
+FY2023_audit,94,expenditure,212,General government|Supervisor of educational service region|Miscellaneous,Bank charges,item,0,-7,7
+FY2023_audit,94,expenditure,213,General government|Supervisor of educational service region|Miscellaneous,Capital Improvements,item,0,100423,-100423
+FY2023_audit,94,expenditure,214,General government|Supervisor of educational service region|Miscellaneous,Misc Materials & Services,item,0,790,-790
+FY2023_audit,94,expenditure,215,General government|Supervisor of educational service region|Miscellaneous,Grants Manager,item,0,4500,-4500
+FY2023_audit,94,expenditure,216,General government|Supervisor of educational service region|Miscellaneous,Patrol Vehicles,item,0,644,-644
+FY2023_audit,94,expenditure,217,General government|Supervisor of educational service region|Miscellaneous,Equipment - Other,item,0,-46500,46500
+FY2023_audit,94,expenditure,218,General government|Supervisor of educational service region|Miscellaneous,Returned deposit Items,item,0,336,-336
+FY2023_audit,94,expenditure,219,General government|Supervisor of educational service region,(subtotal of Miscellaneous),total,624773,291406,333367
+FY2023_audit,94,expenditure,220,General government|Supervisor of educational service region,Employee health insurance,item,229713,229713,0
+FY2023_audit,94,expenditure,221,,Total general government,total,3602925,3375985,226940
+FY2023_audit,95,expenditure,222,Public Safety|Emergency service and disaster assistance,Salaries - director,item,53862,54069,-207
+FY2023_audit,95,expenditure,223,Public Safety|Emergency service and disaster assistance,Salaries - aide,item,4738,2894,1844
+FY2023_audit,95,expenditure,224,Public Safety|Emergency service and disaster assistance,Office supplies,item,3000,3023,-23
+FY2023_audit,95,expenditure,225,Public Safety|Emergency service and disaster assistance,Maintenance supplies,item,500,361,139
+FY2023_audit,95,expenditure,226,Public Safety|Emergency service and disaster assistance,Gas and oil,item,2800,2840,-40
+FY2023_audit,95,expenditure,227,Public Safety|Emergency service and disaster assistance,Travel,item,500,391,109
+FY2023_audit,95,expenditure,228,Public Safety|Emergency service and disaster assistance,Equipment maintenance,item,1200,1961,-761
+FY2023_audit,95,expenditure,229,Public Safety|Emergency service and disaster assistance,Other professional services,item,500,330,170
+FY2023_audit,95,expenditure,230,Public Safety|Emergency service and disaster assistance,Training and conferences,item,4500,4500,0
+FY2023_audit,95,expenditure,231,Public Safety|Emergency service and disaster assistance,Dues,item,500,747,-247
+FY2023_audit,95,expenditure,232,Public Safety|Emergency service and disaster assistance,Vehicle maintenance,item,3500,2740,760
+FY2023_audit,95,expenditure,233,Public Safety|Emergency service and disaster assistance,Machinery and equipment,item,4000,4256,-256
+FY2023_audit,95,expenditure,234,Public Safety,(subtotal of Emergency service and disaster assistance),total,79600,78112,1488
+FY2023_audit,95,expenditure,235,Public Safety|County coroner,Salaries - coroner,item,62252,62491,-239
+FY2023_audit,95,expenditure,236,Public Safety|County coroner,Salaries - deputy,item,25219,20354,4865
+FY2023_audit,95,expenditure,237,Public Safety|County coroner,Salaries - secretary,item,42900,41382,1518
+FY2023_audit,95,expenditure,238,Public Safety|County coroner,Office supplies,item,1600,2236,-636
+FY2023_audit,95,expenditure,239,Public Safety|County coroner,Medical supplies,item,2000,1921,79
+FY2023_audit,95,expenditure,240,Public Safety|County coroner,Morgue supplies,item,5500,3446,2054
+FY2023_audit,95,expenditure,241,Public Safety|County coroner,Fuel - other,item,0,91,-91
+FY2023_audit,95,expenditure,242,Public Safety|County coroner,Equipment maintenance,item,1080,1115,-35
+FY2023_audit,95,expenditure,243,Public Safety|County coroner,Travel,item,3500,3827,-327
+FY2023_audit,95,expenditure,244,Public Safety|County coroner,Postage,item,600,587,13
+FY2023_audit,95,expenditure,245,Public Safety|County coroner,Training and conferences,item,3000,1603,1397
+FY2023_audit,95,expenditure,246,Public Safety|County coroner,Lab fees,item,20000,12311,7689
+FY2023_audit,95,expenditure,247,Public Safety|County coroner,Dues,item,350,350,0
+FY2023_audit,95,expenditure,248,Public Safety|County coroner,Disposition services,item,2000,500,1500
+FY2023_audit,95,expenditure,249,Public Safety|County coroner,Other professional services,item,40000,39733,267
+FY2023_audit,95,expenditure,250,Public Safety|County coroner,Telephone,item,2600,2242,358
+FY2023_audit,95,expenditure,251,Public Safety,(subtotal of County coroner),total,212601,194189,18412
+FY2023_audit,96,expenditure,252,Public Safety|Sheriff's department,Salaries - sheriff,item,151003,155625,-4622
+FY2023_audit,96,expenditure,253,Public Safety|Sheriff's department,Salaries - deputies,item,3035240,3323994,-288754
+FY2023_audit,96,expenditure,254,Public Safety|Sheriff's department,Salaries - overtime,item,230000,318591,-88591
+FY2023_audit,96,expenditure,255,Public Safety|Sheriff's department,E911 Reimbursements,item,-86000,-115296,29296
+FY2023_audit,96,expenditure,256,Public Safety|Sheriff's department,Office supplies,item,9300,11122,-1822
+FY2023_audit,96,expenditure,257,Public Safety|Sheriff's department,Publications,item,2200,1759,441
+FY2023_audit,96,expenditure,258,Public Safety|Sheriff's department,Gasoline and oil,item,130000,132781,-2781
+FY2023_audit,96,expenditure,259,Public Safety|Sheriff's department,Uniforms,item,55400,64671,-9271
+FY2023_audit,96,expenditure,260,Public Safety|Sheriff's department,Postage,item,4400,2537,1863
+FY2023_audit,96,expenditure,261,Public Safety|Sheriff's department,Travel,item,20000,14794,5206
+FY2023_audit,96,expenditure,262,Public Safety|Sheriff's department,Training and conferences,item,77000,103867,-26867
+FY2023_audit,96,expenditure,263,Public Safety|Sheriff's department,Other professional services,item,15000,14092,908
+FY2023_audit,96,expenditure,264,Public Safety|Sheriff's department,Lab fees,item,400,343,57
+FY2023_audit,96,expenditure,265,Public Safety|Sheriff's department,Dues,item,2500,1797,703
+FY2023_audit,96,expenditure,266,Public Safety|Sheriff's department,Maintenance - vehicles,item,90000,78473,11527
+FY2023_audit,96,expenditure,267,Public Safety|Sheriff's department,Maintenance - equipment,item,73000,65968,7032
+FY2023_audit,96,expenditure,268,Public Safety|Sheriff's department,K9 Unit,item,4500,4753,-253
+FY2023_audit,96,expenditure,269,Public Safety|Sheriff's department,Community Policing,item,2500,3301,-801
+FY2023_audit,96,expenditure,270,Public Safety|Sheriff's department,Firing range,item,5000,5470,-470
+FY2023_audit,96,expenditure,271,Public Safety|Sheriff's department,Lab Fees Coroner,item,0,-390,390
+FY2023_audit,96,expenditure,272,Public Safety|Sheriff's department,Sheriff Expenses,item,0,65236,-65236
+FY2023_audit,96,expenditure,273,Public Safety,(subtotal of Sheriff's department),total,3821443,4253488,-432045
+FY2023_audit,96,expenditure,274,Public Safety,Employee health insurance,item,1733379,1733379,0
+FY2023_audit,96,expenditure,275,,Total public safety,total,5847023,6259168,-412145
+FY2023_audit,97,expenditure,276,Judiciary and court related|State's attorney,Salaries - department head,item,188754,193119,-4365
+FY2023_audit,97,expenditure,277,Judiciary and court related|State's attorney,Salaries - assistants,item,593775,610106,-16331
+FY2023_audit,97,expenditure,278,Judiciary and court related|State's attorney,Salaries - secretaries,item,130035,162678,-32643
+FY2023_audit,97,expenditure,279,Judiciary and court related|State's attorney,Salaries - grant wages,item,37050,40533,-3483
+FY2023_audit,97,expenditure,280,Judiciary and court related|State's attorney,Office supplies,item,8900,7994,906
+FY2023_audit,97,expenditure,281,Judiciary and court related|State's attorney,Fuel - other,item,1400,1039,361
+FY2023_audit,97,expenditure,282,Judiciary and court related|State's attorney,Food,item,0,50,-50
+FY2023_audit,97,expenditure,283,Judiciary and court related|State's attorney,Publications,item,8200,10440,-2240
+FY2023_audit,97,expenditure,284,Judiciary and court related|State's attorney,Appellate service,item,22000,21000,1000
+FY2023_audit,97,expenditure,285,Judiciary and court related|State's attorney,Travel,item,4500,1943,2557
+FY2023_audit,97,expenditure,286,Judiciary and court related|State's attorney,Training and conferences,item,2000,1914,86
+FY2023_audit,97,expenditure,287,Judiciary and court related|State's attorney,Dues and memberships,item,3600,4400,-800
+FY2023_audit,97,expenditure,288,Judiciary and court related|State's attorney,Postage,item,4000,417,3583
+FY2023_audit,97,expenditure,289,Judiciary and court related|State's attorney,Other professional services,item,1300,777,523
+FY2023_audit,97,expenditure,290,Judiciary and court related|State's attorney,Other Professional Serv./Legal,item,0,63,-63
+FY2023_audit,97,expenditure,291,Judiciary and court related|State's attorney,Other Prof. Serv. - Court Legal,item,0,31,-31
+FY2023_audit,97,expenditure,292,Judiciary and court related|State's attorney,(unlabeled line),item,0,32,-32
+FY2023_audit,97,expenditure,293,Judiciary and court related|State's attorney,Office equipment,item,8700,8146,554
+FY2023_audit,97,expenditure,294,Judiciary and court related|State's attorney,Other professional services/legal,item,27560,0,27560
+FY2023_audit,97,expenditure,295,Judiciary and court related|State's attorney,Deputy County Admin. Salary,item,87550,62564,24986
+FY2023_audit,97,expenditure,296,Judiciary and court related,(subtotal of State's attorney),total,1129324,1127246,2078
+FY2023_audit,97,expenditure,297,Judiciary and court related|Public defender,Salaries - public defender,item,169878,173808,-3930
+FY2023_audit,97,expenditure,298,Judiciary and court related|Public defender,Salaries - assistant public defender,item,203800,214936,-11136
+FY2023_audit,97,expenditure,299,Judiciary and court related|Public defender,Salaries - secretaries,item,92020,77128,14892
+FY2023_audit,97,expenditure,300,Judiciary and court related|Public defender,Publications,item,6500,6534,-34
+FY2023_audit,97,expenditure,301,Judiciary and court related|Public defender,Training and conferences,item,2750,719,2031
+FY2023_audit,97,expenditure,302,Judiciary and court related|Public defender,Maintenance,item,1000,962,38
+FY2023_audit,97,expenditure,303,Judiciary and court related|Public defender,Utilities,item,6500,6508,-8
+FY2023_audit,97,expenditure,304,Judiciary and court related|Public defender,Postage,item,675,523,152
+FY2023_audit,97,expenditure,305,Judiciary and court related|Public defender,Dues,item,1155,1155,0
+FY2023_audit,97,expenditure,306,Judiciary and court related|Public defender,Lease of property,item,24000,0,24000
+FY2023_audit,97,expenditure,307,Judiciary and court related|Public defender,Office supplies,item,3450,4871,-1421
+FY2023_audit,97,expenditure,308,Judiciary and court related|Public defender,Equipment,item,500,454,46
+FY2023_audit,97,expenditure,309,Judiciary and court related,(subtotal of Public defender),total,512228,487598,24630
+FY2023_audit,98,expenditure,310,Judiciary and court related|Probation,Salaries - officers,item,367024,364958,2066
+FY2023_audit,98,expenditure,311,Judiciary and court related|Probation,Salaries - supervisors,item,85761,87927,-2166
+FY2023_audit,98,expenditure,312,Judiciary and court related|Probation,Salaries - secretary,item,33852,-1091,34943
+FY2023_audit,98,expenditure,313,Judiciary and court related|Probation,Office supplies,item,8000,7916,84
+FY2023_audit,98,expenditure,314,Judiciary and court related|Probation,Equipment maintenance,item,8000,5888,2112
+FY2023_audit,98,expenditure,315,Judiciary and court related|Probation,Fuel,item,2000,1081,919
+FY2023_audit,98,expenditure,316,Judiciary and court related|Probation,Postage,item,500,375,125
+FY2023_audit,98,expenditure,317,Judiciary and court related|Probation,Printing and reproduction,item,350,350,0
+FY2023_audit,98,expenditure,318,Judiciary and court related|Probation,Juvenile placement,item,80000,68358,11642
+FY2023_audit,98,expenditure,319,Judiciary and court related,(subtotal of Probation),total,585487,535762,49725
+FY2023_audit,98,expenditure,320,Judiciary and court related|Circuit clerk,Salaries - circuit clerk,item,79384,80141,-757
+FY2023_audit,98,expenditure,321,Judiciary and court related|Circuit clerk,Salaries - clerk,item,736855,669030,67825
+FY2023_audit,98,expenditure,322,Judiciary and court related|Circuit clerk,Salaries - non-union,item,61186,66668,-5482
+FY2023_audit,98,expenditure,323,Judiciary and court related|Circuit clerk,Salaries - overtime,item,4000,624,3376
+FY2023_audit,98,expenditure,324,Judiciary and court related|Circuit clerk,Office supplies,item,7000,6285,715
+FY2023_audit,98,expenditure,325,Judiciary and court related|Circuit clerk,Equipment,item,14500,14500,0
+FY2023_audit,98,expenditure,326,Judiciary and court related,(subtotal of Circuit clerk),total,902925,837248,65677
+FY2023_audit,98,expenditure,327,Judiciary and court related|Judicial,Salaries - judges,item,2051,2051,0
+FY2023_audit,98,expenditure,328,Judiciary and court related|Judicial,Salaries - assistant,item,22402,23338,-936
+FY2023_audit,98,expenditure,329,Judiciary and court related|Judicial,Office supplies,item,3000,3659,-659
+FY2023_audit,98,expenditure,330,Judiciary and court related|Judicial,Publications,item,5370,5364,6
+FY2023_audit,98,expenditure,331,Judiciary and court related|Judicial,Equipment maintenance,item,2000,1220,780
+FY2023_audit,98,expenditure,332,Judiciary and court related|Judicial,Travel,item,250,0,250
+FY2023_audit,98,expenditure,333,Judiciary and court related|Judicial,Equipment,item,3000,54790,-51790
+FY2023_audit,98,expenditure,334,Judiciary and court related,(subtotal of Judicial),total,38073,90422,-52349
+FY2023_audit,99,expenditure,335,Judiciary and court related|County corrections,Salaries - union,item,2028000,1855301,172699
+FY2023_audit,99,expenditure,336,Judiciary and court related|County corrections,Salaries - non-union,item,139871,239309,-99438
+FY2023_audit,99,expenditure,337,Judiciary and court related|County corrections,Salaries - overtime,item,180000,266472,-86472
+FY2023_audit,99,expenditure,338,Judiciary and court related|County corrections,Office supplies,item,6500,6033,467
+FY2023_audit,99,expenditure,339,Judiciary and court related|County corrections,Fuel - other,item,1500,1412,88
+FY2023_audit,99,expenditure,340,Judiciary and court related|County corrections,Maintenance supplies,item,46000,45423,577
+FY2023_audit,99,expenditure,341,Judiciary and court related|County corrections,Food,item,175000,160411,14589
+FY2023_audit,99,expenditure,342,Judiciary and court related|County corrections,Uniforms,item,37400,34137,3263
+FY2023_audit,99,expenditure,343,Judiciary and court related|County corrections,Property maintenance - other,item,5300,2433,2867
+FY2023_audit,99,expenditure,344,Judiciary and court related|County corrections,Vehicle maintenance,item,1500,0,1500
+FY2023_audit,99,expenditure,345,Judiciary and court related|County corrections,Snow removal,item,1500,1800,-300
+FY2023_audit,99,expenditure,346,Judiciary and court related|County corrections,Equipment maintenance,item,56500,53995,2505
+FY2023_audit,99,expenditure,347,Judiciary and court related|County corrections,Waste disposal,item,8000,7769,231
+FY2023_audit,99,expenditure,348,Judiciary and court related|County corrections,Insurance and bonds,item,500,0,500
+FY2023_audit,99,expenditure,349,Judiciary and court related|County corrections,Training and conferences,item,21750,21084,666
+FY2023_audit,99,expenditure,350,Judiciary and court related|County corrections,Postage,item,300,580,-280
+FY2023_audit,99,expenditure,351,Judiciary and court related|County corrections,Publishing and advertising,item,1250,447,803
+FY2023_audit,99,expenditure,352,Judiciary and court related|County corrections,Printing,item,2000,1530,470
+FY2023_audit,99,expenditure,353,Judiciary and court related|County corrections,Other professional services,item,66000,44070,21930
+FY2023_audit,99,expenditure,354,Judiciary and court related|County corrections,Dues,item,250,0,250
+FY2023_audit,99,expenditure,355,Judiciary and court related|County corrections,Machinery and equipment,item,48000,20282,27718
+FY2023_audit,99,expenditure,356,Judiciary and court related|County corrections,Health Department Jail Staff Wages,item,43185,0,43185
+FY2023_audit,99,expenditure,357,Judiciary and court related,(subtotal of County corrections),total,2870306,2762488,107818
+FY2023_audit,99,expenditure,358,Judiciary and court related|County public safety building,Salaries - regular,item,1353784,1362039,-8255
+FY2023_audit,99,expenditure,359,Judiciary and court related|County public safety building,Salaries - overtime,item,96000,155923,-59923
+FY2023_audit,99,expenditure,360,Judiciary and court related|County public safety building,Office supplies,item,11000,11026,-26
+FY2023_audit,99,expenditure,361,Judiciary and court related|County public safety building,Maintenance supplies,item,9600,11418,-1818
+FY2023_audit,99,expenditure,362,Judiciary and court related|County public safety building,Gas and oil,item,600,789,-189
+FY2023_audit,99,expenditure,363,Judiciary and court related|County public safety building,Uniforms,item,16000,16960,-960
+FY2023_audit,99,expenditure,364,Judiciary and court related|County public safety building,Property maintenance,item,19200,13447,5753
+FY2023_audit,99,expenditure,365,Judiciary and court related|County public safety building,Equipment maintenance,item,181240,146494,34746
+FY2023_audit,99,expenditure,366,Judiciary and court related|County public safety building,Waste disposal,item,4560,6346,-1786
+FY2023_audit,99,expenditure,367,Judiciary and court related|County public safety building,Utilities,item,19000,17808,1192
+FY2023_audit,99,expenditure,368,Judiciary and court related|County public safety building,Training and conferences,item,2500,1326,1174
+FY2023_audit,99,expenditure,369,Judiciary and court related|County public safety building,Postage,item,1000,484,516
+FY2023_audit,99,expenditure,370,Judiciary and court related|County public safety building,Other professional services,item,1000,0,1000
+FY2023_audit,99,expenditure,371,Judiciary and court related|County public safety building,Other Professional Services - Legal,item,1000,0,1000
+FY2023_audit,99,expenditure,372,Judiciary and court related|County public safety building,Snow removal,item,3010,2539,471
+FY2023_audit,99,expenditure,373,Judiciary and court related|County public safety building,Equipment rental,item,0,4557,-4557
+FY2023_audit,99,expenditure,374,Judiciary and court related|County public safety building,Machinery and equipment,item,11846,7085,4761
+FY2023_audit,99,expenditure,375,Judiciary and court related|County public safety building,Dues,item,500,40,460
+FY2023_audit,99,expenditure,376,Judiciary and court related,(subtotal of County public safety building),total,1731840,1758281,-26441
+FY2023_audit,100,expenditure,377,Judiciary and court related|Jurors and other legal services,Legal service/rotation,item,100000,142893,-42893
+FY2023_audit,100,expenditure,378,Judiciary and court related|Jurors and other legal services,Legal services/contract,item,32500,32990,-490
+FY2023_audit,100,expenditure,379,Judiciary and court related|Jurors and other legal services,Interpreter wages,item,44636,44808,-172
+FY2023_audit,100,expenditure,380,Judiciary and court related|Jurors and other legal services,Other professional services - court legal,item,25000,11619,13381
+FY2023_audit,100,expenditure,381,Judiciary and court related|Jurors and other legal services,Grand jury per diem,item,3000,0,3000
+FY2023_audit,100,expenditure,382,Judiciary and court related|Jurors and other legal services,Petit jury per diem,item,20000,9360,10640
+FY2023_audit,100,expenditure,383,Judiciary and court related|Jurors and other legal services,Meals and lodging,item,2000,515,1485
+FY2023_audit,100,expenditure,384,Judiciary and court related|Jurors and other legal services,Court administrator services,item,13500,27000,-13500
+FY2023_audit,100,expenditure,385,Judiciary and court related|Jurors and other legal services,Office supplies,item,400,36,364
+FY2023_audit,100,expenditure,386,Judiciary and court related|Jurors and other legal services,Publications,item,4000,4128,-128
+FY2023_audit,100,expenditure,387,Judiciary and court related|Jurors and other legal services,Other professional services,item,0,72,-72
+FY2023_audit,100,expenditure,388,Judiciary and court related|Jurors and other legal services,Other professional services - court legal,item,0,15849,-15849
+FY2023_audit,100,expenditure,389,Judiciary and court related|Jurors and other legal services,Court reporter services,item,33000,22591,10409
+FY2023_audit,100,expenditure,390,Judiciary and court related|Jurors and other legal services,Other professional services,item,0,258,-258
+FY2023_audit,100,expenditure,391,Judiciary and court related|Jurors and other legal services,Witness fees,item,8000,0,8000
+FY2023_audit,100,expenditure,392,Judiciary and court related|Jurors and other legal services,Court evaluations,item,2000,0,2000
+FY2023_audit,100,expenditure,393,Judiciary and court related|Jurors and other legal services,Other professional services - other,item,13500,14588,-1088
+FY2023_audit,100,expenditure,394,Judiciary and court related,(subtotal of Jurors and other legal services),total,301536,326707,-25171
+FY2023_audit,100,expenditure,395,Judiciary and court related,Employee health insurance,item,606908,606908,0
+FY2023_audit,100,expenditure,396,,Total judiciary and court related,total,8678627,8532660,145967
+FY2023_audit,100,expenditure,397,Public health,Health dept. staff wages,item,0,29241,-29241
+FY2023_audit,100,expenditure,398,Public health|Debt service and capital outlay,Debt service - principal,item,0,163911,-163911
+FY2023_audit,100,expenditure,399,Public health|Debt service and capital outlay,Debt service - interest,item,0,12427,-12427
+FY2023_audit,100,expenditure,400,Public health|Debt service and capital outlay,Capital outlay,item,1089211,344618,744593
+FY2023_audit,100,expenditure,401,Public health,Total debt service and capital outlay,total,1089211,520956,568255
+FY2023_audit,100,expenditure,402,,Total expenditures,total,19217786,18718010,499776

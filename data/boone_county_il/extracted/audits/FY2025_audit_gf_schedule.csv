@@ -1,0 +1,362 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2025_audit,106,revenue,1,Taxes,Property taxes,item,7400000,7410611,10611
+FY2025_audit,106,revenue,2,Taxes,Cannabis tax,item,28000,28642,642
+FY2025_audit,106,revenue,3,Taxes,Video gaming tax,item,94982,86826,-8156
+FY2025_audit,106,revenue,4,,Total taxes,total,7522982,7526079,3097
+FY2025_audit,106,revenue,5,Intergovernmental revenue,State income tax,item,2850000,3329796,479796
+FY2025_audit,106,revenue,6,Intergovernmental revenue,State sales and use tax,item,3300000,3857736,557736
+FY2025_audit,106,revenue,7,Intergovernmental revenue,Replacement tax,item,600000,644719,44719
+FY2025_audit,106,revenue,8,Intergovernmental revenue,State of Illinois salary reimbursements,item,808014,815969,7955
+FY2025_audit,106,revenue,9,Intergovernmental revenue,Grants,item,275500,480676,205176
+FY2025_audit,106,revenue,10,Intergovernmental revenue,Reimbursement from City of Belvidere,item,875000,926689,51689
+FY2025_audit,106,revenue,11,Intergovernmental revenue,Other reimbursements,item,141000,172225,31225
+FY2025_audit,106,revenue,12,,Total intergovernmental revenue,total,8849514,10227810,1378296
+FY2025_audit,106,revenue,13,Charges for service|Licenses and permits,Building permits,item,280000,300721,20721
+FY2025_audit,106,revenue,14,Charges for service|Licenses and permits,Liquor permits,item,25000,19300,-5700
+FY2025_audit,106,revenue,15,Charges for service|Licenses and permits,Other permits,item,1000,1000,0
+FY2025_audit,106,revenue,16,Charges for service,Total licenses and permits,total,306000,321021,15021
+FY2025_audit,106,revenue,17,Charges for service|Fines and fees,Cable TV franchise fees,item,100000,87266,-12734
+FY2025_audit,106,revenue,18,Charges for service|Fines and fees,County clerk fees,item,80000,88275,8275
+FY2025_audit,106,revenue,19,Charges for service|Fines and fees,Stamps fees,item,130000,141992,11992
+FY2025_audit,106,revenue,20,Charges for service|Fines and fees,County recorder fees,item,105000,112717,7717
+FY2025_audit,106,revenue,21,Charges for service|Fines and fees,Coroners fees,item,15000,22911,7911
+FY2025_audit,106,revenue,22,Charges for service|Fines and fees,Sheriff's fees,item,50000,23280,-26720
+FY2025_audit,106,revenue,23,Charges for service|Fines and fees,Jail housing fees,item,30000,58125,28125
+FY2025_audit,106,revenue,24,Charges for service|Fines and fees,Circuit court fees,item,354000,306714,-47286
+FY2025_audit,106,revenue,25,Charges for service|Fines and fees,Court system operation fees,item,320000,499571,179571
+FY2025_audit,106,revenue,26,Charges for service|Fines and fees,Penalty fines,item,165000,192546,27546
+FY2025_audit,106,revenue,27,Charges for service|Fines and fees,Other,item,30250,32892,2642
+FY2025_audit,106,revenue,28,Charges for service,Total fines and fees,total,1379250,1566289,187039
+FY2025_audit,106,revenue,29,,Total charges for service,total,1685250,1887310,202060
+FY2025_audit,106,revenue,30,,Investment income,item,395000,314666,-80334
+FY2025_audit,106,revenue,31,Miscellaneous,County farm,item,16500,12458,-4042
+FY2025_audit,106,revenue,32,Miscellaneous,Treasurer - miscellaneous,item,0,475,475
+FY2025_audit,106,revenue,33,Miscellaneous,Assessor - miscellaneous,item,0,6,6
+FY2025_audit,106,revenue,34,Miscellaneous,Sheriff - miscellaneous,item,30000,62886,32886
+FY2025_audit,106,revenue,35,Miscellaneous,Drug crime disbursement,item,10000,944,-9056
+FY2025_audit,106,revenue,36,Miscellaneous,Rent,item,170904,179528,8624
+FY2025_audit,106,revenue,37,Miscellaneous,Plot quarry royalties,item,140000,100515,-39485
+FY2025_audit,106,revenue,38,Miscellaneous,Other,item,78810,127000,48190
+FY2025_audit,106,revenue,39,,Total miscellaneous,total,446214,483812,37598
+FY2025_audit,106,revenue,40,,TOTAL REVENUES,total,18898960,20439677,1540717
+FY2025_audit,107,expenditure,41,General control and administration|County buildings,Salaries - maintenance,item,235665,241910,6245
+FY2025_audit,107,expenditure,42,General control and administration|County buildings,Maintenance supplies,item,17000,12559,-4441
+FY2025_audit,107,expenditure,43,General control and administration|County buildings,Gas and oil,item,2500,810,-1690
+FY2025_audit,107,expenditure,44,General control and administration|County buildings,Uniforms,item,3500,2500,-1000
+FY2025_audit,107,expenditure,45,General control and administration|County buildings,Utilities,item,240000,297479,57479
+FY2025_audit,107,expenditure,46,General control and administration|County buildings,Telephone,item,140000,163076,23076
+FY2025_audit,107,expenditure,47,General control and administration|County buildings,Snow removal,item,4000,2060,-1940
+FY2025_audit,107,expenditure,48,General control and administration|County buildings,Waste disposal,item,5000,4365,-635
+FY2025_audit,107,expenditure,49,General control and administration|County buildings,Maintenance - equipment,item,15000,13982,-1018
+FY2025_audit,107,expenditure,50,General control and administration|County buildings,Maintenance - grounds,item,28000,34056,6056
+FY2025_audit,107,expenditure,51,General control and administration|County buildings,Office equipment,item,4250,1190,-3060
+FY2025_audit,107,expenditure,52,General control and administration|County buildings,Other professional services,item,500,0,-500
+FY2025_audit,107,expenditure,53,General control and administration,Total county buildings,total,695415,773987,78572
+FY2025_audit,107,expenditure,54,General control and administration|County board,Chairman,item,12000,11968,-32
+FY2025_audit,107,expenditure,55,General control and administration|County board,Travel,item,4500,6936,2436
+FY2025_audit,107,expenditure,56,General control and administration|County board,Training and conferences,item,1000,1715,715
+FY2025_audit,107,expenditure,57,General control and administration|County board,Per diem,item,35000,26260,-8740
+FY2025_audit,107,expenditure,58,General control and administration|County board,Dues and memberships,item,8500,8250,-250
+FY2025_audit,107,expenditure,59,General control and administration,Total county board,total,61000,55129,-5871
+FY2025_audit,107,expenditure,60,General control and administration|County farm,Taxes,item,4018,7311,3293
+FY2025_audit,107,expenditure,61,General control and administration,Total county farm,total,4018,7311,3293
+FY2025_audit,107,expenditure,62,General control and administration|County treasurer,Salaries - department head,item,85707,85707,0
+FY2025_audit,107,expenditure,63,General control and administration|County treasurer,Salaries - deputies,item,94733,87987,-6746
+FY2025_audit,107,expenditure,64,General control and administration|County treasurer,Office supplies,item,2000,2111,111
+FY2025_audit,107,expenditure,65,General control and administration|County treasurer,Advertising and publishing,item,1050,1869,819
+FY2025_audit,107,expenditure,66,General control and administration|County treasurer,Travel,item,800,749,-51
+FY2025_audit,107,expenditure,67,General control and administration|County treasurer,Postage,item,14500,18530,4030
+FY2025_audit,107,expenditure,68,General control and administration|County treasurer,Printing,item,5500,5075,-425
+FY2025_audit,107,expenditure,69,General control and administration|County treasurer,Other professional services,item,200,271,71
+FY2025_audit,107,expenditure,70,General control and administration|County treasurer,Dues and membership,item,700,700,0
+FY2025_audit,107,expenditure,71,General control and administration|County treasurer,Maintenance equipment,item,100,151,51
+FY2025_audit,107,expenditure,72,General control and administration,Total county treasurer,total,205290,203150,-2140
+FY2025_audit,107,expenditure,73,General control and administration|County clerk and recorder,Salaries - department head,item,93866,75093,-18773
+FY2025_audit,107,expenditure,74,General control and administration|County clerk and recorder,Salaries - deputies,item,215600,210816,-4784
+FY2025_audit,107,expenditure,75,General control and administration|County clerk and recorder,Office supplies,item,6000,6807,807
+FY2025_audit,107,expenditure,76,General control and administration|County clerk and recorder,Equipment maintenance,item,500,6849,6349
+FY2025_audit,107,expenditure,77,General control and administration|County clerk and recorder,Travel,item,1000,1002,2
+FY2025_audit,107,expenditure,78,General control and administration|County clerk and recorder,Training,item,1500,961,-539
+FY2025_audit,107,expenditure,79,General control and administration|County clerk and recorder,"Printing, duplicating and binding",item,4500,4147,-353
+FY2025_audit,107,expenditure,80,General control and administration|County clerk and recorder,Postage,item,8000,4073,-3927
+FY2025_audit,107,expenditure,81,General control and administration|County clerk and recorder,Dues and memberships,item,1150,1058,-92
+FY2025_audit,107,expenditure,82,General control and administration|County clerk and recorder,Office equipment,item,600,544,-56
+FY2025_audit,107,expenditure,83,General control and administration|County clerk and recorder,Other professional services,item,1000,13169,12169
+FY2025_audit,107,expenditure,84,General control and administration,Total county clerk and recorder,total,333716,324519,-9197
+FY2025_audit,108,expenditure,85,General control and administration|Zoning,Travel,item,350,0,-350
+FY2025_audit,108,expenditure,86,General control and administration|Zoning,Training and conferences,item,800,0,-800
+FY2025_audit,108,expenditure,87,General control and administration|Zoning,Per diem,item,4000,2040,-1960
+FY2025_audit,108,expenditure,88,General control and administration,Total zoning,total,5150,2040,-3110
+FY2025_audit,108,expenditure,89,General control and administration|Planning,Planning director salary,item,84872,84873,1
+FY2025_audit,108,expenditure,90,General control and administration|Planning,Other salaries/wages,item,46760,47375,615
+FY2025_audit,108,expenditure,91,General control and administration|Planning,Office supplies,item,1000,577,-423
+FY2025_audit,108,expenditure,92,General control and administration|Planning,Equipment maintenance,item,1000,0,-1000
+FY2025_audit,108,expenditure,93,General control and administration|Planning,Travel,item,1500,356,-1144
+FY2025_audit,108,expenditure,94,General control and administration|Planning,Training and conferences,item,4500,2248,-2252
+FY2025_audit,108,expenditure,95,General control and administration|Planning,Postage,item,100,90,-10
+FY2025_audit,108,expenditure,96,General control and administration|Planning,Publishing and advertising,item,2500,1466,-1034
+FY2025_audit,108,expenditure,97,General control and administration|Planning,Printing,item,1000,0,-1000
+FY2025_audit,108,expenditure,98,General control and administration|Planning,Other professional services,item,3000,1778,-1222
+FY2025_audit,108,expenditure,99,General control and administration|Planning,Dues,item,2000,1039,-961
+FY2025_audit,108,expenditure,100,General control and administration,Total planning,total,148232,139802,-8430
+FY2025_audit,108,expenditure,101,General control and administration|Supervisor of assessments,Salaries - department,item,79967,80006,39
+FY2025_audit,108,expenditure,102,General control and administration|Supervisor of assessments,Salaries - clerks,item,138600,133699,-4901
+FY2025_audit,108,expenditure,103,General control and administration|Supervisor of assessments,Office supplies,item,1000,1435,435
+FY2025_audit,108,expenditure,104,General control and administration|Supervisor of assessments,Printing,item,7000,4755,-2245
+FY2025_audit,108,expenditure,105,General control and administration|Supervisor of assessments,Equipment maintenance,item,3000,2455,-545
+FY2025_audit,108,expenditure,106,General control and administration|Supervisor of assessments,Travel,item,3000,2298,-702
+FY2025_audit,108,expenditure,107,General control and administration|Supervisor of assessments,Mapping maintenance,item,1700,1531,-169
+FY2025_audit,108,expenditure,108,General control and administration|Supervisor of assessments,Training and conference,item,6000,2533,-3467
+FY2025_audit,108,expenditure,109,General control and administration|Supervisor of assessments,Advertising and publishing,item,21000,21031,31
+FY2025_audit,108,expenditure,110,General control and administration|Supervisor of assessments,Postage,item,11000,6977,-4023
+FY2025_audit,108,expenditure,111,General control and administration|Supervisor of assessments,Dues and memberships,item,700,535,-165
+FY2025_audit,108,expenditure,112,General control and administration|Supervisor of assessments,Other professional services,item,800,892,92
+FY2025_audit,108,expenditure,113,General control and administration,Total supervisor of assessments,total,273767,258147,-15620
+FY2025_audit,108,expenditure,114,General control and administration|Supervisor of educational service region,Intergovernmental education service,item,69000,110068,41068
+FY2025_audit,108,expenditure,115,General control and administration,Total supervisor of educational service region,total,84000,77995,-6005
+FY2025_audit,108,expenditure,116,General control and administration|Administrative services,Salaries - department head,item,140039,140040,1
+FY2025_audit,108,expenditure,117,General control and administration|Administrative services,Salaries - deputy,item,53560,53560,0
+FY2025_audit,108,expenditure,118,General control and administration|Administrative services,Salaries - administrative assistant and others,item,96220,96209,-11
+FY2025_audit,108,expenditure,119,General control and administration|Administrative services,Office supplies,item,1600,1987,387
+FY2025_audit,108,expenditure,120,General control and administration|Administrative services,Travel,item,1250,2355,1105
+FY2025_audit,108,expenditure,121,General control and administration|Administrative services,Postage,item,100,23,-77
+FY2025_audit,108,expenditure,122,General control and administration|Administrative services,Training and conferences,item,2000,777,-1223
+FY2025_audit,108,expenditure,123,General control and administration|Administrative services,Publishing and advertising,item,500,0,-500
+FY2025_audit,108,expenditure,124,General control and administration|Administrative services,Equipment maintenance,item,3900,4334,434
+FY2025_audit,108,expenditure,125,General control and administration|Administrative services,Dues and memberships,item,2000,2759,759
+FY2025_audit,108,expenditure,126,General control and administration|Administrative services,Office equipment,item,3000,2311,-689
+FY2025_audit,108,expenditure,127,General control and administration|Administrative services,Other professional services,item,2500,840,-1660
+FY2025_audit,108,expenditure,128,General control and administration,Total administrative services,total,306669,305195,-1474
+FY2025_audit,109,expenditure,129,General control and administration|Board of review,Salaries - board members,item,18000,18000,0
+FY2025_audit,109,expenditure,130,General control and administration|Board of review,Office supplies,item,100,0,-100
+FY2025_audit,109,expenditure,131,General control and administration|Board of review,Travel,item,800,0,-800
+FY2025_audit,109,expenditure,132,General control and administration|Board of review,Advertising and publishing,item,100,48,-52
+FY2025_audit,109,expenditure,133,General control and administration|Board of review,Postage,item,400,0,-400
+FY2025_audit,109,expenditure,134,General control and administration|Board of review,Training and conference,item,2300,0,-2300
+FY2025_audit,109,expenditure,135,General control and administration|Board of review,Other professional services,item,5000,450,-4550
+FY2025_audit,109,expenditure,136,General control and administration,Total board of review,total,26700,18498,-8202
+FY2025_audit,109,expenditure,137,General control and administration|Election,Salaries - clerks,item,5000,0,-5000
+FY2025_audit,109,expenditure,138,General control and administration|Election,Printing paper and supplies,item,80000,134827,54827
+FY2025_audit,109,expenditure,139,General control and administration|Election,Travel,item,0,25,25
+FY2025_audit,109,expenditure,140,General control and administration|Election,Postage,item,20000,895,-19105
+FY2025_audit,109,expenditure,141,General control and administration|Election,Voter registration,item,40000,25000,-15000
+FY2025_audit,109,expenditure,142,General control and administration|Election,Other professional services,item,125000,52247,-72753
+FY2025_audit,109,expenditure,143,General control and administration,Total election,total,270000,212994,-57006
+FY2025_audit,109,expenditure,144,General control and administration|Logan avenue building,Salaries - maintenance,item,25939,25908,-31
+FY2025_audit,109,expenditure,145,General control and administration|Logan avenue building,Maintenance supplies,item,4500,4811,311
+FY2025_audit,109,expenditure,146,General control and administration|Logan avenue building,Property maintenance,item,28000,38711,10711
+FY2025_audit,109,expenditure,147,General control and administration|Logan avenue building,Equipment maintenance,item,3000,136,-2864
+FY2025_audit,109,expenditure,148,General control and administration|Logan avenue building,Waste disposal,item,2800,3080,280
+FY2025_audit,109,expenditure,149,General control and administration|Logan avenue building,Utilities,item,25000,17235,-7765
+FY2025_audit,109,expenditure,150,General control and administration,Total logan avenue building,total,89239,89881,642
+FY2025_audit,109,expenditure,151,General control and administration|Information technology,Salaries - IT,item,156560,160148,3588
+FY2025_audit,109,expenditure,152,General control and administration|Information technology,Website,item,12900,14321,1421
+FY2025_audit,109,expenditure,153,General control and administration|Information technology,Software licenses,item,130000,65290,-64710
+FY2025_audit,109,expenditure,154,General control and administration|Information technology,Telephone,item,8200,31450,23250
+FY2025_audit,109,expenditure,155,General control and administration|Information technology,Office equipment,item,0,908,908
+FY2025_audit,109,expenditure,156,General control and administration|Information technology,Computer replacement,item,25000,9819,-15181
+FY2025_audit,109,expenditure,157,General control and administration,Total information technology,total,332660,281936,-50724
+FY2025_audit,109,expenditure,158,General control and administration|Building department,Salary - building inspector,item,75982,76005,23
+FY2025_audit,109,expenditure,159,General control and administration|Building department,Salary - zoning officer,item,45760,45744,-16
+FY2025_audit,109,expenditure,160,General control and administration|Building department,Salary - others,item,54760,26902,-27858
+FY2025_audit,109,expenditure,161,General control and administration|Building department,Office supplies,item,700,91,-609
+FY2025_audit,109,expenditure,162,General control and administration|Building department,Fuel,item,3000,2490,-510
+FY2025_audit,109,expenditure,163,General control and administration|Building department,Publications,item,750,0,-750
+FY2025_audit,109,expenditure,164,General control and administration|Building department,Vehicle maintenance,item,10000,4427,-5573
+FY2025_audit,109,expenditure,165,General control and administration|Building department,Equipment maintenance,item,1800,771,-1029
+FY2025_audit,109,expenditure,166,General control and administration|Building department,Telephone,item,240,240,0
+FY2025_audit,109,expenditure,167,General control and administration|Building department,Travel,item,2000,2537,537
+FY2025_audit,109,expenditure,168,General control and administration|Building department,Training and conferences,item,1000,195,-805
+FY2025_audit,109,expenditure,169,General control and administration|Building department,Postage,item,50,88,38
+FY2025_audit,109,expenditure,170,General control and administration|Building department,Publishing and advertising,item,100,0,-100
+FY2025_audit,110,expenditure,171,General control and administration|Building department,Office equipment,item,500,0,-500
+FY2025_audit,110,expenditure,172,General control and administration|Building department,Printing,item,900,152,-748
+FY2025_audit,110,expenditure,173,General control and administration|Building department,Other professional services,item,10000,13758,3758
+FY2025_audit,110,expenditure,174,General control and administration|Building department,Dues,item,300,170,-130
+FY2025_audit,110,expenditure,175,General control and administration|Building department,Refunds,item,0,2715,2715
+FY2025_audit,110,expenditure,176,General control and administration,Total building department,total,207842,176285,-31557
+FY2025_audit,110,expenditure,177,General control and administration|McKinley Avenue building,Maintenance supplies,item,3000,3553,553
+FY2025_audit,110,expenditure,178,General control and administration|McKinley Avenue building,Fuel,item,1000,0,-1000
+FY2025_audit,110,expenditure,179,General control and administration|McKinley Avenue building,Property maintenance,item,3000,3157,157
+FY2025_audit,110,expenditure,180,General control and administration|McKinley Avenue building,Equipment maintenance,item,5000,2619,-2381
+FY2025_audit,110,expenditure,181,General control and administration|McKinley Avenue building,Waste disposal,item,1800,1498,-302
+FY2025_audit,110,expenditure,182,General control and administration|McKinley Avenue building,Utility,item,10200,23094,12894
+FY2025_audit,110,expenditure,183,General control and administration|McKinley Avenue building,Equipment,item,1000,5067,4067
+FY2025_audit,110,expenditure,184,General control and administration,Total McKinley Avenue building,total,25000,38988,13988
+FY2025_audit,110,expenditure,185,General control and administration|Other professional services and capital,Other professional services,item,125000,188414,63414
+FY2025_audit,110,expenditure,186,General control and administration,Total other professional services and capital,total,125000,188414,63414
+FY2025_audit,110,expenditure,187,General control and administration|Miscellaneous,Growth dimensions,item,35000,35000,0
+FY2025_audit,110,expenditure,188,General control and administration|Miscellaneous,Veterans Assistance Commission,item,16000,20158,4158
+FY2025_audit,110,expenditure,189,General control and administration|Miscellaneous,CASA,item,35000,35000,0
+FY2025_audit,110,expenditure,190,General control and administration|Miscellaneous,Soil and water conservation district,item,20000,20000,0
+FY2025_audit,110,expenditure,191,General control and administration|Miscellaneous,Annual audit,item,63000,63065,65
+FY2025_audit,110,expenditure,192,General control and administration|Miscellaneous,Contingencies,item,95000,89386,-5614
+FY2025_audit,110,expenditure,193,General control and administration,Total miscellaneous,total,264000,262609,-1391
+FY2025_audit,110,expenditure,194,General control and administration,Employee health insurance,item,231300,231300,0
+FY2025_audit,110,expenditure,195,General control and administration,Capital outlay,item,689410,833969,144559
+FY2025_audit,110,expenditure,196,,Total general control and administration,total,4363408,4514222,150814
+FY2025_audit,110,expenditure,197,Public safety|Emergency service and disaster assistance,Salaries - coordinator,item,57143,59340,2197
+FY2025_audit,110,expenditure,198,Public safety|Emergency service and disaster assistance,Salaries - aide,item,4738,5033,295
+FY2025_audit,110,expenditure,199,Public safety|Emergency service and disaster assistance,Office supplies,item,3500,2710,-790
+FY2025_audit,110,expenditure,200,Public safety|Emergency service and disaster assistance,Maintenance supplies,item,500,268,-232
+FY2025_audit,110,expenditure,201,Public safety|Emergency service and disaster assistance,Gas and oil,item,3000,2961,-39
+FY2025_audit,110,expenditure,202,Public safety|Emergency service and disaster assistance,Travel,item,1500,365,-1135
+FY2025_audit,110,expenditure,203,Public safety|Emergency service and disaster assistance,Publications,item,480,0,-480
+FY2025_audit,110,expenditure,204,Public safety|Emergency service and disaster assistance,Vehicle maintenance,item,4000,4808,808
+FY2025_audit,110,expenditure,205,Public safety|Emergency service and disaster assistance,Equipment maintenance,item,1200,866,-334
+FY2025_audit,110,expenditure,206,Public safety|Emergency service and disaster assistance,Other professional services,item,500,929,429
+FY2025_audit,110,expenditure,207,Public safety|Emergency service and disaster assistance,Training and conferences,item,7000,6902,-98
+FY2025_audit,110,expenditure,208,Public safety|Emergency service and disaster assistance,Dues and memberships,item,500,654,154
+FY2025_audit,110,expenditure,209,Public safety|Emergency service and disaster assistance,Office equipment,item,4000,4249,249
+FY2025_audit,110,expenditure,210,Public safety,Total emergency service and disaster assistance,total,88061,89085,1024
+FY2025_audit,111,expenditure,211,Public safety|County coroner,Salaries - coroner,item,63504,65370,1866
+FY2025_audit,111,expenditure,212,Public safety|County coroner,Salaries - deputy,item,33889,35670,1781
+FY2025_audit,111,expenditure,213,Public safety|County coroner,Salaries - secretary,item,45825,46616,791
+FY2025_audit,111,expenditure,214,Public safety|County coroner,Office supplies,item,1600,1116,-484
+FY2025_audit,111,expenditure,215,Public safety|County coroner,Medical supplies,item,2000,340,-1660
+FY2025_audit,111,expenditure,216,Public safety|County coroner,Maintenance supplies,item,5500,2522,-2978
+FY2025_audit,111,expenditure,217,Public safety|County coroner,Fuel,item,500,136,-364
+FY2025_audit,111,expenditure,218,Public safety|County coroner,Equipment maintenance,item,1740,830,-910
+FY2025_audit,111,expenditure,219,Public safety|County coroner,Telephone,item,2600,1708,-892
+FY2025_audit,111,expenditure,220,Public safety|County coroner,Travel,item,3500,3690,190
+FY2025_audit,111,expenditure,221,Public safety|County coroner,Postage,item,600,574,-26
+FY2025_audit,111,expenditure,222,Public safety|County coroner,Training and conferences,item,3000,1537,-1463
+FY2025_audit,111,expenditure,223,Public safety|County coroner,Disposition services,item,2000,600,-1400
+FY2025_audit,111,expenditure,224,Public safety|County coroner,Lab fees,item,20000,10842,-9158
+FY2025_audit,111,expenditure,225,Public safety|County coroner,Dues and memberships,item,350,0,-350
+FY2025_audit,111,expenditure,226,Public safety|County coroner,Other professional services,item,40000,38372,-1628
+FY2025_audit,111,expenditure,227,Public safety,Total county coroner,total,226608,209923,-16685
+FY2025_audit,111,expenditure,228,Public safety|Sheriff's department,Salaries - sheriff,item,165373,169602,4229
+FY2025_audit,111,expenditure,229,Public safety|Sheriff's department,Salaries - deputies,item,2791471,2798959,7488
+FY2025_audit,111,expenditure,230,Public safety|Sheriff's department,Salaries - others,item,1071277,1189091,117814
+FY2025_audit,111,expenditure,231,Public safety|Sheriff's department,Office supplies,item,10000,7927,-2073
+FY2025_audit,111,expenditure,232,Public safety|Sheriff's department,Publications,item,2200,1387,-813
+FY2025_audit,111,expenditure,233,Public safety|Sheriff's department,Gasoline and oil,item,150000,138613,-11387
+FY2025_audit,111,expenditure,234,Public safety|Sheriff's department,Clothing - uniforms,item,63000,58016,-4984
+FY2025_audit,111,expenditure,235,Public safety|Sheriff's department,Postage,item,4400,647,-3753
+FY2025_audit,111,expenditure,236,Public safety|Sheriff's department,Travel expense,item,20000,6363,-13637
+FY2025_audit,111,expenditure,237,Public safety|Sheriff's department,Training and conferences,item,80000,80796,796
+FY2025_audit,111,expenditure,238,Public safety|Sheriff's department,Other professional services,item,15000,14811,-189
+FY2025_audit,111,expenditure,239,Public safety|Sheriff's department,Laboratory fees,item,400,343,-57
+FY2025_audit,111,expenditure,240,Public safety|Sheriff's department,Dues,item,2500,2015,-485
+FY2025_audit,111,expenditure,241,Public safety|Sheriff's department,Maintenance - vehicles,item,100000,119943,19943
+FY2025_audit,111,expenditure,242,Public safety|Sheriff's department,Maintenance - equipment,item,100000,92402,-7598
+FY2025_audit,111,expenditure,243,Public safety|Sheriff's department,K-9 unit,item,5000,6919,1919
+FY2025_audit,111,expenditure,244,Public safety|Sheriff's department,DARE Program,item,2500,2112,-388
+FY2025_audit,111,expenditure,245,Public safety|Sheriff's department,Firing range,item,5000,4698,-302
+FY2025_audit,111,expenditure,246,Public safety,Total sheriff's department,total,4588121,4694644,106523
+FY2025_audit,111,expenditure,247,Public safety|General public safety,Salaries - dispatchers,item,1082847,1078649,-4198
+FY2025_audit,111,expenditure,248,Public safety|General public safety,Salaries - PSB,item,549903,547733,-2170
+FY2025_audit,111,expenditure,249,Public safety|General public safety,Office supplies,item,11000,11073,73
+FY2025_audit,111,expenditure,250,Public safety|General public safety,Maintenance supplies,item,10600,9316,-1284
+FY2025_audit,111,expenditure,251,Public safety|General public safety,Fuel,item,600,476,-124
+FY2025_audit,111,expenditure,252,Public safety|General public safety,Clothing - uniforms,item,20650,16017,-4633
+FY2025_audit,111,expenditure,253,Public safety|General public safety,Property maintenance,item,19200,11598,-7602
+FY2025_audit,111,expenditure,254,Public safety|General public safety,Equipment maintenance,item,190302,119916,-70386
+FY2025_audit,111,expenditure,255,Public safety|General public safety,Snow removal,item,3010,1080,-1930
+FY2025_audit,111,expenditure,256,Public safety|General public safety,Waste disposal,item,6240,7315,1075
+FY2025_audit,111,expenditure,257,Public safety|General public safety,Utilities,item,22750,3124,-19626
+FY2025_audit,111,expenditure,258,Public safety|General public safety,Training and conferences,item,2500,598,-1902
+FY2025_audit,111,expenditure,259,Public safety|General public safety,Postage,item,1000,1192,192
+FY2025_audit,112,expenditure,260,Public safety|General public safety,Other professional services,item,1000,250,-750
+FY2025_audit,112,expenditure,261,Public safety|General public safety,Dues,item,500,0,-500
+FY2025_audit,112,expenditure,262,Public safety|General public safety,Office equipment,item,20746,15449,-5297
+FY2025_audit,112,expenditure,263,Public safety,Total general public safety,total,1942848,1823786,-119062
+FY2025_audit,112,expenditure,264,Public safety,Employee health insurance,item,1721900,1721900,0
+FY2025_audit,112,expenditure,265,,Total public safety,total,8567538,8539338,-28200
+FY2025_audit,112,expenditure,266,Judiciary and courts|State's attorney,Salaries - department head,item,206716,212002,5286
+FY2025_audit,112,expenditure,267,Judiciary and courts|State's attorney,Salaries - assistants,item,749000,725778,-23222
+FY2025_audit,112,expenditure,268,Judiciary and courts|State's attorney,Salaries - secretaries and others,item,209194,210976,1782
+FY2025_audit,112,expenditure,269,Judiciary and courts|State's attorney,Office supplies,item,9400,9837,437
+FY2025_audit,112,expenditure,270,Judiciary and courts|State's attorney,Fuel,item,0,677,677
+FY2025_audit,112,expenditure,271,Judiciary and courts|State's attorney,Publications,item,8600,12429,3829
+FY2025_audit,112,expenditure,272,Judiciary and courts|State's attorney,Appellate service,item,25000,25000,0
+FY2025_audit,112,expenditure,273,Judiciary and courts|State's attorney,Travel,item,4500,2181,-2319
+FY2025_audit,112,expenditure,274,Judiciary and courts|State's attorney,Training and conferences,item,2000,2375,375
+FY2025_audit,112,expenditure,275,Judiciary and courts|State's attorney,Dues and memberships,item,4000,5483,1483
+FY2025_audit,112,expenditure,276,Judiciary and courts|State's attorney,Postage,item,4000,56,-3944
+FY2025_audit,112,expenditure,277,Judiciary and courts|State's attorney,Other professional service,item,1300,228,-1072
+FY2025_audit,112,expenditure,278,Judiciary and courts|State's attorney,Office equipment,item,8700,4806,-3894
+FY2025_audit,112,expenditure,279,Judiciary and courts,Total state's attorney,total,1232410,1211828,-20582
+FY2025_audit,112,expenditure,280,Judiciary and courts|Public defender,Salaries - public defender,item,186044,190929,4885
+FY2025_audit,112,expenditure,281,Judiciary and courts|Public defender,Salaries - assistant public defender,item,330000,318277,-11723
+FY2025_audit,112,expenditure,282,Judiciary and courts|Public defender,Salaries - secretary,item,107596,85973,-21623
+FY2025_audit,112,expenditure,283,Judiciary and courts|Public defender,Publications,item,7500,8498,998
+FY2025_audit,112,expenditure,284,Judiciary and courts|Public defender,Training and conferences,item,2800,1715,-1085
+FY2025_audit,112,expenditure,285,Judiciary and courts|Public defender,Equipment maintenance,item,1000,1786,786
+FY2025_audit,112,expenditure,286,Judiciary and courts|Public defender,Utilities,item,8000,7417,-583
+FY2025_audit,112,expenditure,287,Judiciary and courts|Public defender,Postage,item,800,667,-133
+FY2025_audit,112,expenditure,288,Judiciary and courts|Public defender,Dues,item,1540,1925,385
+FY2025_audit,112,expenditure,289,Judiciary and courts|Public defender,Lease of property,item,25704,25709,5
+FY2025_audit,112,expenditure,290,Judiciary and courts|Public defender,Office supplies,item,5250,5347,97
+FY2025_audit,112,expenditure,291,Judiciary and courts,Total public defender,total,676234,648243,-27991
+FY2025_audit,112,expenditure,292,Judiciary and courts|Probation,Salaries - officers,item,441632,447517,5885
+FY2025_audit,112,expenditure,293,Judiciary and courts|Probation,Salaries - supervisors,item,98695,96721,-1974
+FY2025_audit,112,expenditure,294,Judiciary and courts|Probation,Salaries - secretary,item,38563,38560,-3
+FY2025_audit,112,expenditure,295,Judiciary and courts|Probation,Office supplies,item,10000,6282,-3718
+FY2025_audit,112,expenditure,296,Judiciary and courts|Probation,Equipment maintenance,item,22000,18793,-3207
+FY2025_audit,112,expenditure,297,Judiciary and courts|Probation,Fuel,item,2000,1164,-836
+FY2025_audit,112,expenditure,298,Judiciary and courts|Probation,Postage,item,500,443,-57
+FY2025_audit,112,expenditure,299,Judiciary and courts|Probation,Printing and reproduction,item,350,359,9
+FY2025_audit,112,expenditure,300,Judiciary and courts|Probation,Juvenile placement,item,120000,37700,-82300
+FY2025_audit,112,expenditure,301,Judiciary and courts,Total probation,total,733740,647539,-86201
+FY2025_audit,113,expenditure,302,Judiciary and courts|Circuit clerk,Salaries - circuit clerk,item,82584,85046,2462
+FY2025_audit,113,expenditure,303,Judiciary and courts|Circuit clerk,Salaries - clerks,item,766624,684496,-82128
+FY2025_audit,113,expenditure,304,Judiciary and courts|Circuit clerk,Salaries - non-union,item,117944,128253,10309
+FY2025_audit,113,expenditure,305,Judiciary and courts|Circuit clerk,Salaries - overtime,item,4000,2111,-1889
+FY2025_audit,113,expenditure,306,Judiciary and courts|Circuit clerk,Office supplies,item,7000,4651,-2349
+FY2025_audit,113,expenditure,307,Judiciary and courts|Circuit clerk,Postage,item,16000,16000,0
+FY2025_audit,113,expenditure,308,Judiciary and courts,Total circuit clerk,total,994152,920557,-73595
+FY2025_audit,113,expenditure,309,Judiciary and courts|Judicial,Salaries - judges,item,2200,2183,-17
+FY2025_audit,113,expenditure,310,Judiciary and courts|Judicial,Salaries - assistant,item,23767,23928,161
+FY2025_audit,113,expenditure,311,Judiciary and courts|Judicial,Office supplies,item,3000,2125,-875
+FY2025_audit,113,expenditure,312,Judiciary and courts|Judicial,Publications,item,5500,5928,428
+FY2025_audit,113,expenditure,313,Judiciary and courts|Judicial,Travel,item,250,0,-250
+FY2025_audit,113,expenditure,314,Judiciary and courts|Judicial,Office equipment,item,3000,5101,2101
+FY2025_audit,113,expenditure,315,Judiciary and courts|Judicial,Equipment maintenance,item,2000,1137,-863
+FY2025_audit,113,expenditure,316,Judiciary and courts,Total judicial,total,39717,40402,685
+FY2025_audit,113,expenditure,317,Judiciary and courts|County corrections,Salaries - health department staff,item,54185,41891,-12294
+FY2025_audit,113,expenditure,318,Judiciary and courts|County corrections,Salaries - corrections staff,item,2345247,2371738,26491
+FY2025_audit,113,expenditure,319,Judiciary and courts|County corrections,Salaries - jail supervisor,item,204298,204299,1
+FY2025_audit,113,expenditure,320,Judiciary and courts|County corrections,Medical and dental claims,item,0,964,964
+FY2025_audit,113,expenditure,321,Judiciary and courts|County corrections,Office supplies,item,7500,7511,11
+FY2025_audit,113,expenditure,322,Judiciary and courts|County corrections,Gas and oil,item,2000,630,-1370
+FY2025_audit,113,expenditure,323,Judiciary and courts|County corrections,Maintenance supplies,item,56000,55766,-234
+FY2025_audit,113,expenditure,324,Judiciary and courts|County corrections,Food,item,200000,240119,40119
+FY2025_audit,113,expenditure,325,Judiciary and courts|County corrections,Uniforms,item,42000,42482,482
+FY2025_audit,113,expenditure,326,Judiciary and courts|County corrections,Maintenance - property,item,5300,5264,-36
+FY2025_audit,113,expenditure,327,Judiciary and courts|County corrections,Maintenance - vehicles,item,1500,1105,-395
+FY2025_audit,113,expenditure,328,Judiciary and courts|County corrections,Maintenance - equipment,item,56500,57004,504
+FY2025_audit,113,expenditure,329,Judiciary and courts|County corrections,Snow removal,item,1500,660,-840
+FY2025_audit,113,expenditure,330,Judiciary and courts|County corrections,Waste disposal,item,10300,7161,-3139
+FY2025_audit,113,expenditure,331,Judiciary and courts|County corrections,Insurance and bonds,item,500,180,-320
+FY2025_audit,113,expenditure,332,Judiciary and courts|County corrections,Training and conferences,item,45000,43483,-1517
+FY2025_audit,113,expenditure,333,Judiciary and courts|County corrections,Postage,item,300,0,-300
+FY2025_audit,113,expenditure,334,Judiciary and courts|County corrections,Publishing and advertising,item,1250,407,-843
+FY2025_audit,113,expenditure,335,Judiciary and courts|County corrections,Printing and reproduction,item,2065,1877,-188
+FY2025_audit,113,expenditure,336,Judiciary and courts|County corrections,Dues,item,250,0,-250
+FY2025_audit,113,expenditure,337,Judiciary and courts|County corrections,Office equipment,item,53000,52307,-693
+FY2025_audit,113,expenditure,338,Judiciary and courts|County corrections,Other professional services,item,66000,66514,514
+FY2025_audit,113,expenditure,339,Judiciary and courts,Total county corrections,total,3154695,3201362,46667
+FY2025_audit,113,expenditure,340,Judiciary and courts|Court services,Court psych evaluation,item,2000,0,-2000
+FY2025_audit,113,expenditure,341,Judiciary and courts|Court services,Other professional services,item,10000,3538,-6462
+FY2025_audit,113,expenditure,342,Judiciary and courts|Court services,Court reporter services,item,33000,25168,-7832
+FY2025_audit,113,expenditure,343,Judiciary and courts|Court services,Witness fees,item,2000,1034,-966
+FY2025_audit,113,expenditure,344,Judiciary and courts,Total court services,total,47000,29740,-17260
+FY2025_audit,114,expenditure,345,Judiciary and courts|Jurors and other legal services,Legal service/rotation,item,230000,292704,62704
+FY2025_audit,114,expenditure,346,Judiciary and courts|Jurors and other legal services,Legal service/contract,item,34500,40867,6367
+FY2025_audit,114,expenditure,347,Judiciary and courts|Jurors and other legal services,Interpreter wages,item,47355,47366,11
+FY2025_audit,114,expenditure,348,Judiciary and courts|Jurors and other legal services,Other professional services,item,33500,55930,22430
+FY2025_audit,114,expenditure,349,Judiciary and courts|Jurors and other legal services,Court reporter services,item,13500,18000,4500
+FY2025_audit,114,expenditure,350,Judiciary and courts|Jurors and other legal services,Petit jury per diem,item,20000,20199,199
+FY2025_audit,114,expenditure,351,Judiciary and courts|Jurors and other legal services,Meals and lodging,item,2000,1557,-443
+FY2025_audit,114,expenditure,352,Judiciary and courts|Jurors and other legal services,Office supplies,item,400,111,-289
+FY2025_audit,114,expenditure,353,Judiciary and courts|Jurors and other legal services,Computer maintenance,item,0,124,124
+FY2025_audit,114,expenditure,354,Judiciary and courts|Jurors and other legal services,Publications,item,4000,2544,-1456
+FY2025_audit,114,expenditure,355,Judiciary and courts,Total jurors and other legal services,total,385255,479402,94147
+FY2025_audit,114,expenditure,356,Judiciary and courts,Employee health insurance,item,616800,616800,0
+FY2025_audit,114,expenditure,357,,Total judiciary and courts,total,7880003,7795873,-84130
+FY2025_audit,114,expenditure,358,DEBT SERVICE,Principal retirement,item,0,162229,162229
+FY2025_audit,114,expenditure,359,DEBT SERVICE,Interest and fiscal charges,item,0,18742,18742
+FY2025_audit,114,expenditure,360,,Total debt service,total,5000,209303,204303
+FY2025_audit,114,expenditure,361,,TOTAL EXPENDITURES,total,20810949,21030404,219455

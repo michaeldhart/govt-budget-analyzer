@@ -1,0 +1,7 @@
+path,label,column,value,reason
+General control and administration|Supervisor of educational service region,Total supervisor of educational service region,budget,-15000,"Total printed 84,000 / 77,995 / (6,005) are the FY2024 figures (the FY2026 budget worksheet shows 84,000 budget and 77,994.85 activity for FY2024); the one FY2025 line above it (Intergovernmental education service 69,000 / 110,068 / 41,068) is the FY2025 figure. The audit's own TOTAL EXPENDITURES agrees with the lines, so the stale total is a printing slip. Source error"
+General control and administration|Supervisor of educational service region,Total supervisor of educational service region,actual,32073,"Same stale FY2024 total (see budget column)"
+General control and administration|Supervisor of educational service region,Total supervisor of educational service region,variance,47073,"Same stale FY2024 total (see budget column)"
+DEBT SERVICE,Total debt service,budget,-5000,"Total debt service prints a 5,000 budget (and in the FY2024 audit too) although its two lines have none; the total is not carried into TOTAL EXPENDITURES. Source error"
+DEBT SERVICE,Total debt service,actual,-28332,"Total printed 209,303 is the FY2024 figure (202,846 + 6,457); the FY2025 lines are 162,229 + 18,742 = 180,971. Stale total"
+DEBT SERVICE,Total debt service,variance,-23332,"Same stale total: printed variance 204,303 is the FY2024 figure"

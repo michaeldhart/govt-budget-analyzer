@@ -1,0 +1,362 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2015_audit,94,revenue,1,Taxes,Property taxes,item,5774956,5708503,-66453
+FY2015_audit,94,revenue,2,Taxes,State income tax,item,1859066,2025439,166373
+FY2015_audit,94,revenue,3,Taxes,State sales tax,item,1527615,1535802,8187
+FY2015_audit,94,revenue,4,Taxes,Replacement tax,item,514508,530387,15879
+FY2015_audit,94,revenue,5,Taxes,Use tax,item,350000,422159,72159
+FY2015_audit,94,revenue,6,,Total taxes,total,10026145,10222290,196145
+FY2015_audit,94,revenue,7,"Fees, licenses, permits and fines",County clerk fees,item,47707,46421,-1286
+FY2015_audit,94,revenue,8,"Fees, licenses, permits and fines",County sheriff fees,item,121419,142735,21316
+FY2015_audit,94,revenue,9,"Fees, licenses, permits and fines",State's attorney fees,item,70000,44145,-25855
+FY2015_audit,94,revenue,10,"Fees, licenses, permits and fines",County coroner fees,item,11000,11926,926
+FY2015_audit,94,revenue,11,"Fees, licenses, permits and fines",County recorder,item,99044,103528,4484
+FY2015_audit,94,revenue,12,"Fees, licenses, permits and fines",Licenses and permits,item,143000,206910,63910
+FY2015_audit,94,revenue,13,"Fees, licenses, permits and fines",Criminal fines,item,220000,266898,46898
+FY2015_audit,94,revenue,14,"Fees, licenses, permits and fines",Traffic fines,item,730000,664377,-65623
+FY2015_audit,94,revenue,15,"Fees, licenses, permits and fines",Cable franchise fees,item,65000,99397,34397
+FY2015_audit,94,revenue,16,"Fees, licenses, permits and fines",Circuit court fees,item,583716,656484,72768
+FY2015_audit,94,revenue,17,"Fees, licenses, permits and fines",Counsel fees,item,3000,8947,5947
+FY2015_audit,94,revenue,18,"Fees, licenses, permits and fines",Finance court,item,0,52821,52821
+FY2015_audit,94,revenue,19,"Fees, licenses, permits and fines",Penalty late taxes,item,225000,142325,-82675
+FY2015_audit,94,revenue,20,"Fees, licenses, permits and fines",Other,item,7850,10888,3038
+FY2015_audit,94,revenue,21,,"Total fees, licenses, permits and fines",total,2326736,2457802,131066
+FY2015_audit,94,revenue,22,Intergovernmental revenue,State of Illinois salary reimbursements,item,448038,481007,32969
+FY2015_audit,94,revenue,23,Intergovernmental revenue,County sheriff reimbursements,item,603345,207944,-395401
+FY2015_audit,94,revenue,24,Intergovernmental revenue,Public safety building operations - city,item,714717,641287,-73430
+FY2015_audit,94,revenue,25,Intergovernmental revenue,Grants,item,277200,154406,-122794
+FY2015_audit,94,revenue,26,Intergovernmental revenue,Reimbursement from City of Belvidere,item,45100,25330,-19770
+FY2015_audit,94,revenue,27,Intergovernmental revenue,Other,item,196500,15187,-181313
+FY2015_audit,94,revenue,28,,Total intergovernmental revenue,total,2284900,1525161,-759739
+FY2015_audit,94,revenue,29,Interest,Investments,item,3000,6683,3683
+FY2015_audit,94,revenue,30,Interest|Miscellaneous,Work release,item,28710,33557,4847
+FY2015_audit,94,revenue,31,Interest|Miscellaneous,Revenue stamps,item,63809,82026,18217
+FY2015_audit,94,revenue,32,Interest|Miscellaneous,Miscellaneous,item,161793,112447,-49346
+FY2015_audit,94,revenue,33,Interest|Miscellaneous,Penalties,item,20000,16760,-3240
+FY2015_audit,94,revenue,34,Interest|Miscellaneous,Rent,item,119393,119307,-86
+FY2015_audit,94,revenue,35,Interest|Miscellaneous,County farm,item,17000,17360,360
+FY2015_audit,94,revenue,36,Interest,Total miscellaneous,total,410705,381457,-29248
+FY2015_audit,94,revenue,37,,TOTAL REVENUES,total,15051486,14593393,-458093
+FY2015_audit,95,expenditure,38,General Government|Courthouse,Salaries - other full-time,item,157402,150739,-6663
+FY2015_audit,95,expenditure,39,General Government|Courthouse,Salaries - overtime,item,1000,0,-1000
+FY2015_audit,95,expenditure,40,General Government|Courthouse,Maintenance supplies,item,9500,7692,-1808
+FY2015_audit,95,expenditure,41,General Government|Courthouse,Gas and oil,item,1390,429,-961
+FY2015_audit,95,expenditure,42,General Government|Courthouse,Uniforms,item,1950,1800,-150
+FY2015_audit,95,expenditure,43,General Government|Courthouse,Utilities,item,349148,293799,-55349
+FY2015_audit,95,expenditure,44,General Government|Courthouse,Telephone,item,84000,88824,4824
+FY2015_audit,95,expenditure,45,General Government|Courthouse,Snow removal,item,2000,800,-1200
+FY2015_audit,95,expenditure,46,General Government|Courthouse,Waste disposal,item,1306,1137,-169
+FY2015_audit,95,expenditure,47,General Government|Courthouse,Maintenance - equipment,item,9300,8242,-1058
+FY2015_audit,95,expenditure,48,General Government|Courthouse,Maintenance - grounds,item,7900,12908,5008
+FY2015_audit,95,expenditure,49,General Government|Courthouse,Training and conferences,item,500,0,-500
+FY2015_audit,95,expenditure,50,General Government|Courthouse,Equipment,item,500,423,-77
+FY2015_audit,95,expenditure,51,General Government,Total courthouse,total,625896,566793,-59103
+FY2015_audit,95,expenditure,52,General Government|County board,Chairman,item,12000,12100,100
+FY2015_audit,95,expenditure,53,General Government|County board,Travel,item,8860,10114,1254
+FY2015_audit,95,expenditure,54,General Government|County board,Other professional services,item,0,-37,-37
+FY2015_audit,95,expenditure,55,General Government|County board,Per diem,item,45000,40404,-4596
+FY2015_audit,95,expenditure,56,General Government|County board,Dues and memberships,item,5000,2200,-2800
+FY2015_audit,95,expenditure,57,General Government|County board,Liquor commission,item,100,0,-100
+FY2015_audit,95,expenditure,58,General Government,Total county board,total,70960,64781,-6179
+FY2015_audit,95,expenditure,59,General Government|County farm,Taxes,item,2500,2746,246
+FY2015_audit,95,expenditure,60,General Government,Total county farm,total,2500,2746,246
+FY2015_audit,95,expenditure,61,General Government|County treasurer,Salaries - department head,item,71710,71966,256
+FY2015_audit,95,expenditure,62,General Government|County treasurer,Salaries - deputies,item,78455,75048,-3407
+FY2015_audit,95,expenditure,63,General Government|County treasurer,Office supplies,item,1200,1209,9
+FY2015_audit,95,expenditure,64,General Government|County treasurer,Advertising and publishing,item,13582,346,-13236
+FY2015_audit,95,expenditure,65,General Government|County treasurer,Travel,item,700,472,-228
+FY2015_audit,95,expenditure,66,General Government|County treasurer,Postage,item,4500,11032,6532
+FY2015_audit,95,expenditure,67,General Government|County treasurer,Printing,item,0,4382,4382
+FY2015_audit,95,expenditure,68,General Government|County treasurer,Dues and membership,item,450,360,-90
+FY2015_audit,95,expenditure,69,General Government|County treasurer,Maintenance equipment,item,500,567,67
+FY2015_audit,95,expenditure,70,General Government,Total county treasurer,total,171097,165382,-5715
+FY2015_audit,95,expenditure,71,General Government|County clerk and recorder,Salaries - department head,item,78535,78827,292
+FY2015_audit,95,expenditure,72,General Government|County clerk and recorder,Salaries - deputies,item,159766,160138,372
+FY2015_audit,95,expenditure,73,General Government|County clerk and recorder,Office supplies,item,8500,5336,-3164
+FY2015_audit,95,expenditure,74,General Government|County clerk and recorder,Equipment maintenance,item,500,0,-500
+FY2015_audit,96,expenditure,75,General Government|County clerk and recorder,Travel,item,850,780,-70
+FY2015_audit,96,expenditure,76,General Government|County clerk and recorder,Training,item,2000,2112,112
+FY2015_audit,96,expenditure,77,General Government|County clerk and recorder,"Printing, duplicating and binding",item,4000,2078,-1922
+FY2015_audit,96,expenditure,78,General Government|County clerk and recorder,Postage,item,4000,4000,0
+FY2015_audit,96,expenditure,79,General Government|County clerk and recorder,Dues and memberships,item,465,200,-265
+FY2015_audit,96,expenditure,80,General Government|County clerk and recorder,Data processing,item,29870,29181,-689
+FY2015_audit,96,expenditure,81,General Government|County clerk and recorder,Office equipment,item,6000,3936,-2064
+FY2015_audit,96,expenditure,82,General Government|County clerk and recorder,Miscellaneous fees (register births and deaths),item,350,295,-55
+FY2015_audit,96,expenditure,83,General Government,Total county clerk and recorder,total,294836,286883,-7953
+FY2015_audit,96,expenditure,84,General Government|Zoning,Travel,item,300,385,85
+FY2015_audit,96,expenditure,85,General Government|Zoning,Advertising and publishing,item,100,0,-100
+FY2015_audit,96,expenditure,86,General Government|Zoning,Training and conference,item,100,0,-100
+FY2015_audit,96,expenditure,87,General Government|Zoning,Per diem,item,2000,1560,-440
+FY2015_audit,96,expenditure,88,General Government,Total zoning,total,2500,1945,-555
+FY2015_audit,96,expenditure,89,General Government|Supervisor of assessments,Salaries - department,item,70635,70906,271
+FY2015_audit,96,expenditure,90,General Government|Supervisor of assessments,Salaries - clerks,item,105690,106096,406
+FY2015_audit,96,expenditure,91,General Government|Supervisor of assessments,Office supplies,item,2500,846,-1654
+FY2015_audit,96,expenditure,92,General Government|Supervisor of assessments,Printing,item,7300,988,-6312
+FY2015_audit,96,expenditure,93,General Government|Supervisor of assessments,Equipment maintenance,item,4362,4362,0
+FY2015_audit,96,expenditure,94,General Government|Supervisor of assessments,Travel,item,2233,316,-1917
+FY2015_audit,96,expenditure,95,General Government|Supervisor of assessments,Mapping maintenance,item,950,965,15
+FY2015_audit,96,expenditure,96,General Government|Supervisor of assessments,Training and conference,item,4270,1533,-2737
+FY2015_audit,96,expenditure,97,General Government|Supervisor of assessments,Advertising and publishing,item,19935,19973,38
+FY2015_audit,96,expenditure,98,General Government|Supervisor of assessments,Postage,item,13500,13856,356
+FY2015_audit,96,expenditure,99,General Government|Supervisor of assessments,Dues and memberships,item,822,1006,184
+FY2015_audit,96,expenditure,100,General Government|Supervisor of assessments,Other professional services,item,5148,78,-5070
+FY2015_audit,96,expenditure,101,General Government,Total supervisor of assessments,total,237345,220925,-16420
+FY2015_audit,96,expenditure,102,General Government|Supervisor of Educational Service Region,Intergovernmental education service,item,81624,85115,3491
+FY2015_audit,96,expenditure,103,General Government|Supervisor of Educational Service Region|Administrative services,Salaries - department head,item,122400,122870,470
+FY2015_audit,96,expenditure,104,General Government|Supervisor of Educational Service Region|Administrative services,Salaries - secretary,item,29250,26397,-2853
+FY2015_audit,96,expenditure,105,General Government|Supervisor of Educational Service Region|Administrative services,Salaries - administrative assistant,item,46400,46089,-311
+FY2015_audit,96,expenditure,106,General Government|Supervisor of Educational Service Region|Administrative services,Salaries - part-time administrative assistant,item,6000,0,-6000
+FY2015_audit,96,expenditure,107,General Government|Supervisor of Educational Service Region|Administrative services,Stationery and supplies,item,4400,1731,-2669
+FY2015_audit,96,expenditure,108,General Government|Supervisor of Educational Service Region|Administrative services,Publications,item,120,16,-104
+FY2015_audit,96,expenditure,109,General Government|Supervisor of Educational Service Region|Administrative services,Travel,item,2015,2647,632
+FY2015_audit,96,expenditure,110,General Government|Supervisor of Educational Service Region|Administrative services,Postage,item,3900,3325,-575
+FY2015_audit,96,expenditure,111,General Government|Supervisor of Educational Service Region|Administrative services,Training and conferences,item,2015,1910,-105
+FY2015_audit,97,expenditure,112,General Government|Supervisor of Educational Service Region|Administrative services,Publishing and advertising,item,500,669,169
+FY2015_audit,97,expenditure,113,General Government|Supervisor of Educational Service Region|Administrative services,Maintenance - equipment,item,6300,5511,-789
+FY2015_audit,97,expenditure,114,General Government|Supervisor of Educational Service Region|Administrative services,Dues and memberships,item,1755,1790,35
+FY2015_audit,97,expenditure,115,General Government|Supervisor of Educational Service Region|Administrative services,Equipment,item,250,170,-80
+FY2015_audit,97,expenditure,116,General Government|Supervisor of Educational Service Region,Total administrative services,total,225305,213125,-12180
+FY2015_audit,97,expenditure,117,General Government|Supervisor of Educational Service Region|Board of review,Salaries - board members,item,16975,16539,-436
+FY2015_audit,97,expenditure,118,General Government|Supervisor of Educational Service Region|Board of review,Office supplies,item,200,36,-164
+FY2015_audit,97,expenditure,119,General Government|Supervisor of Educational Service Region|Board of review,Travel,item,1364,231,-1133
+FY2015_audit,97,expenditure,120,General Government|Supervisor of Educational Service Region|Board of review,Advertising and publishing,item,150,0,-150
+FY2015_audit,97,expenditure,121,General Government|Supervisor of Educational Service Region|Board of review,Other professional services,item,5000,4683,-317
+FY2015_audit,97,expenditure,122,General Government|Supervisor of Educational Service Region|Board of review,Postage,item,2000,0,-2000
+FY2015_audit,97,expenditure,123,General Government|Supervisor of Educational Service Region|Board of review,Training and conference,item,2130,31,-2099
+FY2015_audit,97,expenditure,124,General Government|Supervisor of Educational Service Region|Board of review,Dues,item,40,25,-15
+FY2015_audit,97,expenditure,125,General Government|Supervisor of Educational Service Region,Total board of review,total,27859,21545,-6314
+FY2015_audit,97,expenditure,126,General Government|Supervisor of Educational Service Region|Election,Salaries - clerks,item,2500,1490,-1010
+FY2015_audit,97,expenditure,127,General Government|Supervisor of Educational Service Region|Election,Printing paper and supplies,item,210000,149804,-60196
+FY2015_audit,97,expenditure,128,General Government|Supervisor of Educational Service Region|Election,Voter registration,item,25000,26950,1950
+FY2015_audit,97,expenditure,129,General Government|Supervisor of Educational Service Region,Total election,total,237500,178244,-59256
+FY2015_audit,97,expenditure,130,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Salaries - maintenance,item,14762,16560,1798
+FY2015_audit,97,expenditure,131,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Maintenance supplies,item,6000,6432,432
+FY2015_audit,97,expenditure,132,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Property maintenance,item,9195,14048,4853
+FY2015_audit,97,expenditure,133,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Equipment maintenance,item,5000,3063,-1937
+FY2015_audit,97,expenditure,134,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Utilities,item,876,2270,1394
+FY2015_audit,97,expenditure,135,General Government|Supervisor of Educational Service Region|Logan Avenue Building,Utilities,item,25000,19443,-5557
+FY2015_audit,97,expenditure,136,General Government|Supervisor of Educational Service Region,Total Logan Avenue Building,total,60833,61816,983
+FY2015_audit,97,expenditure,137,General Government|Supervisor of Educational Service Region|Information technology,Salaries - computer coordinator,item,52971,53174,203
+FY2015_audit,97,expenditure,138,General Government|Supervisor of Educational Service Region|Information technology,Computer replacement,item,6000,6045,45
+FY2015_audit,97,expenditure,139,General Government|Supervisor of Educational Service Region|Information technology,Telephone,item,12600,7992,-4608
+FY2015_audit,97,expenditure,140,General Government|Supervisor of Educational Service Region|Information technology,Travel,item,500,262,-238
+FY2015_audit,97,expenditure,141,General Government|Supervisor of Educational Service Region|Information technology,Training and conferences,item,250,0,-250
+FY2015_audit,97,expenditure,142,General Government|Supervisor of Educational Service Region|Information technology,Professional services,item,147706,136163,-11543
+FY2015_audit,97,expenditure,143,General Government|Supervisor of Educational Service Region|Information technology,Equipment,item,10000,11608,1608
+FY2015_audit,97,expenditure,144,General Government|Supervisor of Educational Service Region|Information technology,Other,item,100,0,-100
+FY2015_audit,97,expenditure,145,General Government|Supervisor of Educational Service Region,Total information technology,total,230127,215244,-14883
+FY2015_audit,98,expenditure,146,General Government|Supervisor of Educational Service Region|Geographic information systems,GIS coordinator,item,38946,39171,225
+FY2015_audit,98,expenditure,147,General Government|Supervisor of Educational Service Region|Geographic information systems,GIS specialist,item,37288,37432,144
+FY2015_audit,98,expenditure,148,General Government|Supervisor of Educational Service Region|Geographic information systems,Office supplies,item,500,194,-306
+FY2015_audit,98,expenditure,149,General Government|Supervisor of Educational Service Region|Geographic information systems,Maintenance of equipment,item,1070,1070,0
+FY2015_audit,98,expenditure,150,General Government|Supervisor of Educational Service Region|Geographic information systems,Travel,item,150,64,-86
+FY2015_audit,98,expenditure,151,General Government|Supervisor of Educational Service Region|Geographic information systems,Training and conferences,item,350,0,-350
+FY2015_audit,98,expenditure,152,General Government|Supervisor of Educational Service Region|Geographic information systems,Other professional services,item,5000,5000,0
+FY2015_audit,98,expenditure,153,General Government|Supervisor of Educational Service Region|Geographic information systems,Dues,item,100,100,0
+FY2015_audit,98,expenditure,154,General Government|Supervisor of Educational Service Region|Geographic information systems,Equipment,item,1000,0,-1000
+FY2015_audit,98,expenditure,155,General Government|Supervisor of Educational Service Region,Total geographic information systems,total,84404,83031,-1373
+FY2015_audit,98,expenditure,156,General Government|Supervisor of Educational Service Region|Building department,Salary - building inspector,item,58386,59779,1393
+FY2015_audit,98,expenditure,157,General Government|Supervisor of Educational Service Region|Building department,Salary - zoning officer,item,32502,33301,799
+FY2015_audit,98,expenditure,158,General Government|Supervisor of Educational Service Region|Building department,Salary - plumbing inspector,item,12485,12783,298
+FY2015_audit,98,expenditure,159,General Government|Supervisor of Educational Service Region|Building department,Salary - electrical inspector,item,12485,12783,298
+FY2015_audit,98,expenditure,160,General Government|Supervisor of Educational Service Region|Building department,Office supplies,item,1200,564,-636
+FY2015_audit,98,expenditure,161,General Government|Supervisor of Educational Service Region|Building department,Fuel,item,2400,1766,-634
+FY2015_audit,98,expenditure,162,General Government|Supervisor of Educational Service Region|Building department,Uniforms,item,250,0,-250
+FY2015_audit,98,expenditure,163,General Government|Supervisor of Educational Service Region|Building department,Publications,item,500,425,-75
+FY2015_audit,98,expenditure,164,General Government|Supervisor of Educational Service Region|Building department,Maintenance of vehicles,item,2500,1398,-1102
+FY2015_audit,98,expenditure,165,General Government|Supervisor of Educational Service Region|Building department,Equipment maintenance,item,1800,1749,-51
+FY2015_audit,98,expenditure,166,General Government|Supervisor of Educational Service Region|Building department,Travel,item,250,0,-250
+FY2015_audit,98,expenditure,167,General Government|Supervisor of Educational Service Region|Building department,Training and conferences,item,1000,0,-1000
+FY2015_audit,98,expenditure,168,General Government|Supervisor of Educational Service Region|Building department,Postage,item,50,0,-50
+FY2015_audit,98,expenditure,169,General Government|Supervisor of Educational Service Region|Building department,Publishing and advertising,item,100,0,-100
+FY2015_audit,98,expenditure,170,General Government|Supervisor of Educational Service Region|Building department,Software licenses,item,4920,0,-4920
+FY2015_audit,98,expenditure,171,General Government|Supervisor of Educational Service Region|Building department,Printing,item,1000,968,-32
+FY2015_audit,98,expenditure,172,General Government|Supervisor of Educational Service Region|Building department,Other professional services,item,2500,1174,-1326
+FY2015_audit,98,expenditure,173,General Government|Supervisor of Educational Service Region|Building department,Dues,item,300,135,-165
+FY2015_audit,98,expenditure,174,General Government|Supervisor of Educational Service Region|Building department,Refunds,item,500,190,-310
+FY2015_audit,98,expenditure,175,General Government|Supervisor of Educational Service Region|Building department,Equipment,item,500,399,-101
+FY2015_audit,98,expenditure,176,General Government|Supervisor of Educational Service Region,Total building department,total,135628,127414,-8214
+FY2015_audit,98,expenditure,177,General Government|Supervisor of Educational Service Region|Other professional services and capital,Other professional services,item,43500,21177,-22323
+FY2015_audit,98,expenditure,178,General Government|Supervisor of Educational Service Region|Other professional services and capital,Building maintenance,item,5000,0,-5000
+FY2015_audit,98,expenditure,179,General Government|Supervisor of Educational Service Region|Other professional services and capital,Rent - sheriff's storage,item,38750,38478,-272
+FY2015_audit,98,expenditure,180,General Government|Supervisor of Educational Service Region,Total other professional services and capital,total,87250,59655,-27595
+FY2015_audit,98,expenditure,181,General Government|Supervisor of Educational Service Region|Miscellaneous,Annual audit,item,47025,52200,5175
+FY2015_audit,98,expenditure,182,General Government|Supervisor of Educational Service Region|Miscellaneous,Growth Dimensions,item,40950,41000,50
+FY2015_audit,98,expenditure,183,General Government|Supervisor of Educational Service Region|Miscellaneous,CASA,item,45000,45000,0
+FY2015_audit,98,expenditure,184,General Government|Supervisor of Educational Service Region|Miscellaneous,Historical preservation,item,900,0,-900
+FY2015_audit,99,expenditure,185,General Government|Supervisor of Educational Service Region|Miscellaneous,Soil and water conservation district,item,0,24750,24750
+FY2015_audit,99,expenditure,186,General Government|Supervisor of Educational Service Region|Miscellaneous,Contingencies,item,20000,10147,-9853
+FY2015_audit,99,expenditure,187,General Government|Supervisor of Educational Service Region|Miscellaneous,Equipment,item,0,400,400
+FY2015_audit,99,expenditure,188,General Government|Supervisor of Educational Service Region|Miscellaneous,Other,item,0,41,41
+FY2015_audit,99,expenditure,189,General Government|Supervisor of Educational Service Region,Total miscellaneous,total,153875,173538,19663
+FY2015_audit,99,expenditure,190,General Government|Supervisor of Educational Service Region,Employee health insurance,item,0,294948,294948
+FY2015_audit,99,expenditure,191,,Total general government,total,2729539,2823130,93591
+FY2015_audit,99,expenditure,192,Public Safety|Emergency service and disaster assistance,Salaries - director,item,44978,45182,204
+FY2015_audit,99,expenditure,193,Public Safety|Emergency service and disaster assistance,Salaries - overtime,item,1000,0,-1000
+FY2015_audit,99,expenditure,194,Public Safety|Emergency service and disaster assistance,Salaries - aide,item,4080,4090,10
+FY2015_audit,99,expenditure,195,Public Safety|Emergency service and disaster assistance,Office supplies,item,500,309,-191
+FY2015_audit,99,expenditure,196,Public Safety|Emergency service and disaster assistance,Maintenance supplies,item,400,222,-178
+FY2015_audit,99,expenditure,197,Public Safety|Emergency service and disaster assistance,Gas and oil,item,3000,1506,-1494
+FY2015_audit,99,expenditure,198,Public Safety|Emergency service and disaster assistance,Travel,item,1936,219,-1717
+FY2015_audit,99,expenditure,199,Public Safety|Emergency service and disaster assistance,Postage,item,276,52,-224
+FY2015_audit,99,expenditure,200,Public Safety|Emergency service and disaster assistance,Equipment maintenance,item,3900,413,-3487
+FY2015_audit,99,expenditure,201,Public Safety|Emergency service and disaster assistance,Other professional services,item,500,344,-156
+FY2015_audit,99,expenditure,202,Public Safety|Emergency service and disaster assistance,Telephone,item,1500,0,-1500
+FY2015_audit,99,expenditure,203,Public Safety|Emergency service and disaster assistance,Training and conferences,item,4500,3012,-1488
+FY2015_audit,99,expenditure,204,Public Safety|Emergency service and disaster assistance,Dues and memberships,item,500,450,-50
+FY2015_audit,99,expenditure,205,Public Safety|Emergency service and disaster assistance,Machinery and equipment,item,1000,86,-914
+FY2015_audit,99,expenditure,206,Public Safety,Total emergency service and disaster assistance,total,68070,55885,-12185
+FY2015_audit,99,expenditure,207,Public Safety|County coroner,Salaries - coroner,item,55316,55589,273
+FY2015_audit,99,expenditure,208,Public Safety|County coroner,Salaries - deputy,item,20574,16661,-3913
+FY2015_audit,99,expenditure,209,Public Safety|County coroner,Salaries - secretary,item,27534,30763,3229
+FY2015_audit,99,expenditure,210,Public Safety|County coroner,Office supplies,item,1600,587,-1013
+FY2015_audit,99,expenditure,211,Public Safety|County coroner,Medical supplies,item,2000,627,-1373
+FY2015_audit,99,expenditure,212,Public Safety|County coroner,Morgue supplies,item,5000,4924,-76
+FY2015_audit,99,expenditure,213,Public Safety|County coroner,Equipment maintenance,item,720,648,-72
+FY2015_audit,99,expenditure,214,Public Safety|County coroner,Travel,item,2700,2788,88
+FY2015_audit,99,expenditure,215,Public Safety|County coroner,Postage,item,600,587,-13
+FY2015_audit,99,expenditure,216,Public Safety|County coroner,Training and conferences,item,2000,0,-2000
+FY2015_audit,99,expenditure,217,Public Safety|County coroner,Lab fees,item,5500,5825,325
+FY2015_audit,99,expenditure,218,Public Safety|County coroner,Dues and memberships,item,350,350,0
+FY2015_audit,99,expenditure,219,Public Safety|County coroner,Other professional services,item,31000,29972,-1028
+FY2015_audit,99,expenditure,220,Public Safety|County coroner,Telephone,item,2300,1965,-335
+FY2015_audit,99,expenditure,221,Public Safety|County coroner,Equipment,item,1400,192,-1208
+FY2015_audit,99,expenditure,222,Public Safety,Total county coroner,total,158594,151478,-7116
+FY2015_audit,100,expenditure,223,Public Safety|Sheriff's Department,Salaries - sheriff,item,110195,110932,737
+FY2015_audit,100,expenditure,224,Public Safety|Sheriff's Department,Salaries - deputies,item,2604111,2785862,181751
+FY2015_audit,100,expenditure,225,Public Safety|Sheriff's Department,Salaries - overtime,item,210000,240510,30510
+FY2015_audit,100,expenditure,226,Public Safety|Sheriff's Department,Office supplies,item,9300,10405,1105
+FY2015_audit,100,expenditure,227,Public Safety|Sheriff's Department,Publications,item,1177,0,-1177
+FY2015_audit,100,expenditure,228,Public Safety|Sheriff's Department,Gasoline and oil,item,155000,112640,-42360
+FY2015_audit,100,expenditure,229,Public Safety|Sheriff's Department,Clothing - uniforms,item,39600,37115,-2485
+FY2015_audit,100,expenditure,230,Public Safety|Sheriff's Department,Postage,item,3617,2709,-908
+FY2015_audit,100,expenditure,231,Public Safety|Sheriff's Department,Travel expense,item,15000,5934,-9066
+FY2015_audit,100,expenditure,232,Public Safety|Sheriff's Department,Training and conferences,item,34925,34529,-396
+FY2015_audit,100,expenditure,233,Public Safety|Sheriff's Department,Other professional services,item,15000,13232,-1768
+FY2015_audit,100,expenditure,234,Public Safety|Sheriff's Department,Laboratory fees,item,400,0,-400
+FY2015_audit,100,expenditure,235,Public Safety|Sheriff's Department,Dues,item,1305,1300,-5
+FY2015_audit,100,expenditure,236,Public Safety|Sheriff's Department,Maintenance - vehicles,item,65000,74445,9445
+FY2015_audit,100,expenditure,237,Public Safety|Sheriff's Department,Maintenance - equipment,item,58220,53368,-4852
+FY2015_audit,100,expenditure,238,Public Safety|Sheriff's Department,K-9 unit,item,4000,3370,-630
+FY2015_audit,100,expenditure,239,Public Safety|Sheriff's Department,Firing range,item,5500,7668,2168
+FY2015_audit,100,expenditure,240,Public Safety|Sheriff's Department,Equipment - sheriff,item,32000,26031,-5969
+FY2015_audit,100,expenditure,241,Public Safety,Total sheriff's department,total,3364350,3520050,155700
+FY2015_audit,100,expenditure,242,Public Safety,Employee health insurance,item,0,1584319,1584319
+FY2015_audit,100,expenditure,243,,Total public safety,total,3591014,5311732,1720718
+FY2015_audit,100,expenditure,244,Judiciary and Court Related|State's attorney,Salaries - department head,item,166501,167148,647
+FY2015_audit,100,expenditure,245,Judiciary and Court Related|State's attorney,Salaries - assistants,item,385884,370832,-15052
+FY2015_audit,100,expenditure,246,Judiciary and Court Related|State's attorney,Salaries - secretaries,item,144202,142460,-1742
+FY2015_audit,100,expenditure,247,Judiciary and Court Related|State's attorney,Salaries - grant wages,item,95034,84565,-10469
+FY2015_audit,100,expenditure,248,Judiciary and Court Related|State's attorney,Office supplies,item,8900,7828,-1072
+FY2015_audit,100,expenditure,249,Judiciary and Court Related|State's attorney,Publications,item,8000,8636,636
+FY2015_audit,100,expenditure,250,Judiciary and Court Related|State's attorney,Appellate service,item,18000,18000,0
+FY2015_audit,100,expenditure,251,Judiciary and Court Related|State's attorney,Travel,item,2500,4035,1535
+FY2015_audit,100,expenditure,252,Judiciary and Court Related|State's attorney,Training and conferences,item,4000,2079,-1921
+FY2015_audit,100,expenditure,253,Judiciary and Court Related|State's attorney,Equipment maintenance,item,200,0,-200
+FY2015_audit,100,expenditure,254,Judiciary and Court Related|State's attorney,Dues and memberships,item,3600,3582,-18
+FY2015_audit,100,expenditure,255,Judiciary and Court Related|State's attorney,Postage,item,4000,4000,0
+FY2015_audit,100,expenditure,256,Judiciary and Court Related|State's attorney,Other professional service,item,1300,509,-791
+FY2015_audit,100,expenditure,257,Judiciary and Court Related|State's attorney,Office equipment,item,6700,6950,250
+FY2015_audit,100,expenditure,258,Judiciary and Court Related,Total state's attorney,total,848821,820624,-28197
+FY2015_audit,101,expenditure,259,Judiciary and Court Related|Public defender,Salaries - public defender,item,149850,179215,29365
+FY2015_audit,101,expenditure,260,Judiciary and Court Related|Public defender,Salaries - assistant public defender,item,156382,157155,773
+FY2015_audit,101,expenditure,261,Judiciary and Court Related|Public defender,Salaries - secretary,item,68621,67090,-1531
+FY2015_audit,101,expenditure,262,Judiciary and Court Related|Public defender,Publications,item,5403,6310,907
+FY2015_audit,101,expenditure,263,Judiciary and Court Related|Public defender,Training and conferences,item,900,1048,148
+FY2015_audit,101,expenditure,264,Judiciary and Court Related|Public defender,Maintenance,item,1776,2251,475
+FY2015_audit,101,expenditure,265,Judiciary and Court Related|Public defender,Utilities,item,6100,5571,-529
+FY2015_audit,101,expenditure,266,Judiciary and Court Related|Public defender,Postage,item,1200,603,-597
+FY2015_audit,101,expenditure,267,Judiciary and Court Related|Public defender,Dues,item,1131,1267,136
+FY2015_audit,101,expenditure,268,Judiciary and Court Related|Public defender,Equipment,item,2800,1305,-1495
+FY2015_audit,101,expenditure,269,Judiciary and Court Related|Public defender,Lease of property,item,18576,22788,4212
+FY2015_audit,101,expenditure,270,Judiciary and Court Related|Public defender,Office supplies,item,4600,3239,-1361
+FY2015_audit,101,expenditure,271,Judiciary and Court Related,Total public defender,total,417339,447842,30503
+FY2015_audit,101,expenditure,272,Judiciary and Court Related|Probation,Salaries - officers,item,227104,224855,-2249
+FY2015_audit,101,expenditure,273,Judiciary and Court Related|Probation,Salaries - supervisors,item,68693,69627,934
+FY2015_audit,101,expenditure,274,Judiciary and Court Related|Probation,Salaries - secretary,item,25002,21318,-3684
+FY2015_audit,101,expenditure,275,Judiciary and Court Related|Probation,Drug court administrator,item,0,17227,17227
+FY2015_audit,101,expenditure,276,Judiciary and Court Related|Probation,Other professional services,item,500,2166,1666
+FY2015_audit,101,expenditure,277,Judiciary and Court Related|Probation,Office supplies,item,3000,2816,-184
+FY2015_audit,101,expenditure,278,Judiciary and Court Related|Probation,Equipment maintenance,item,4500,4381,-119
+FY2015_audit,101,expenditure,279,Judiciary and Court Related|Probation,Travel,item,2000,1091,-909
+FY2015_audit,101,expenditure,280,Judiciary and Court Related|Probation,Postage,item,1500,1182,-318
+FY2015_audit,101,expenditure,281,Judiciary and Court Related|Probation,Printing and reproduction,item,500,409,-91
+FY2015_audit,101,expenditure,282,Judiciary and Court Related|Probation,Dues,item,300,300,0
+FY2015_audit,101,expenditure,283,Judiciary and Court Related|Probation,Juvenile placement,item,110000,55155,-54845
+FY2015_audit,101,expenditure,284,Judiciary and Court Related,Total probation,total,443099,400527,-42572
+FY2015_audit,101,expenditure,285,Judiciary and Court Related|Circuit clerk,Salaries - circuit clerk,item,67845,71214,3369
+FY2015_audit,101,expenditure,286,Judiciary and Court Related|Circuit clerk,Salaries - clerks,item,413777,399093,-14684
+FY2015_audit,101,expenditure,287,Judiciary and Court Related|Circuit clerk,Salaries - non-union,item,87178,46037,-41141
+FY2015_audit,101,expenditure,288,Judiciary and Court Related|Circuit clerk,Salaries - overtime,item,3000,3397,397
+FY2015_audit,101,expenditure,289,Judiciary and Court Related|Circuit clerk,Office supplies,item,9500,8326,-1174
+FY2015_audit,101,expenditure,290,Judiciary and Court Related|Circuit clerk,Maintenance - equipment,item,900,1443,543
+FY2015_audit,101,expenditure,291,Judiciary and Court Related|Circuit clerk,Travel,item,1000,1212,212
+FY2015_audit,101,expenditure,292,Judiciary and Court Related|Circuit clerk,Postage,item,15600,13200,-2400
+FY2015_audit,101,expenditure,293,Judiciary and Court Related|Circuit clerk,Dues,item,670,360,-310
+FY2015_audit,101,expenditure,294,Judiciary and Court Related|Circuit clerk,Equipment,item,500,0,-500
+FY2015_audit,101,expenditure,295,Judiciary and Court Related,Total circuit clerk,total,599970,544282,-55688
+FY2015_audit,101,expenditure,296,Judiciary and Court Related|Judicial,Salaries - judges,item,2000,1929,-71
+FY2015_audit,101,expenditure,297,Judiciary and Court Related|Judicial,Salaries - assistant,item,16661,16359,-302
+FY2015_audit,101,expenditure,298,Judiciary and Court Related|Judicial,Office supplies,item,3200,3022,-178
+FY2015_audit,101,expenditure,299,Judiciary and Court Related|Judicial,Publications,item,4500,4347,-153
+FY2015_audit,102,expenditure,300,Judiciary and Court Related|Judicial,Equipment maintenance,item,2000,2014,14
+FY2015_audit,102,expenditure,301,Judiciary and Court Related|Judicial,Travel,item,250,0,-250
+FY2015_audit,102,expenditure,302,Judiciary and Court Related|Judicial,Equipment,item,1705,850,-855
+FY2015_audit,102,expenditure,303,Judiciary and Court Related,Total judicial,total,30316,28521,-1795
+FY2015_audit,102,expenditure,304,Judiciary and Court Related|County corrections,Salaries - union,item,1969935,1937772,-32163
+FY2015_audit,102,expenditure,305,Judiciary and Court Related|County corrections,Salaries - non-union,item,86285,121679,35394
+FY2015_audit,102,expenditure,306,Judiciary and Court Related|County corrections,Salaries - overtime,item,200000,304615,104615
+FY2015_audit,102,expenditure,307,Judiciary and Court Related|County corrections,Office supplies,item,6000,5579,-421
+FY2015_audit,102,expenditure,308,Judiciary and Court Related|County corrections,Gas and oil,item,800,535,-265
+FY2015_audit,102,expenditure,309,Judiciary and Court Related|County corrections,Maintenance supplies,item,31000,55317,24317
+FY2015_audit,102,expenditure,310,Judiciary and Court Related|County corrections,Food,item,241986,223324,-18662
+FY2015_audit,102,expenditure,311,Judiciary and Court Related|County corrections,Uniforms,item,30000,27684,-2316
+FY2015_audit,102,expenditure,312,Judiciary and Court Related|County corrections,Maintenance,item,1800,1798,-2
+FY2015_audit,102,expenditure,313,Judiciary and Court Related|County corrections,Snow removal,item,1000,480,-520
+FY2015_audit,102,expenditure,314,Judiciary and Court Related|County corrections,Maintenance - equipment,item,33284,35174,1890
+FY2015_audit,102,expenditure,315,Judiciary and Court Related|County corrections,Waste disposal,item,3800,3643,-157
+FY2015_audit,102,expenditure,316,Judiciary and Court Related|County corrections,Insurance and bonds,item,500,428,-72
+FY2015_audit,102,expenditure,317,Judiciary and Court Related|County corrections,Training and conferences,item,20784,8629,-12155
+FY2015_audit,102,expenditure,318,Judiciary and Court Related|County corrections,Postage,item,225,200,-25
+FY2015_audit,102,expenditure,319,Judiciary and Court Related|County corrections,Publishing and advertising,item,1000,0,-1000
+FY2015_audit,102,expenditure,320,Judiciary and Court Related|County corrections,Printing and reproduction,item,2000,1941,-59
+FY2015_audit,102,expenditure,321,Judiciary and Court Related|County corrections,Dues,item,250,0,-250
+FY2015_audit,102,expenditure,322,Judiciary and Court Related|County corrections,Other professional services,item,64750,59212,-5538
+FY2015_audit,102,expenditure,323,Judiciary and Court Related|County corrections,Machinery and equipment,item,5000,5309,309
+FY2015_audit,102,expenditure,324,Judiciary and Court Related,Total county corrections,total,2700399,2793319,92920
+FY2015_audit,102,expenditure,325,Judiciary and Court Related|County public safety building,Salaries - regular,item,1139728,966171,-173557
+FY2015_audit,102,expenditure,326,Judiciary and Court Related|County public safety building,Salaries - overtime,item,91000,139602,48602
+FY2015_audit,102,expenditure,327,Judiciary and Court Related|County public safety building,Office supplies,item,11000,11463,463
+FY2015_audit,102,expenditure,328,Judiciary and Court Related|County public safety building,Maintenance,item,8000,7286,-714
+FY2015_audit,102,expenditure,329,Judiciary and Court Related|County public safety building,Gas and oil,item,1000,134,-866
+FY2015_audit,102,expenditure,330,Judiciary and Court Related|County public safety building,Uniforms,item,15300,13151,-2149
+FY2015_audit,102,expenditure,331,Judiciary and Court Related|County public safety building,Property maintenance,item,21620,22539,919
+FY2015_audit,102,expenditure,332,Judiciary and Court Related|County public safety building,Equipment maintenance,item,94810,143903,49093
+FY2015_audit,102,expenditure,333,Judiciary and Court Related|County public safety building,Waste disposal,item,3360,2695,-665
+FY2015_audit,102,expenditure,334,Judiciary and Court Related|County public safety building,Utilities,item,16000,10457,-5543
+FY2015_audit,102,expenditure,335,Judiciary and Court Related|County public safety building,Training and conferences,item,3000,2932,-68
+FY2015_audit,102,expenditure,336,Judiciary and Court Related|County public safety building,Postage,item,1000,539,-461
+FY2015_audit,102,expenditure,337,Judiciary and Court Related|County public safety building,Other professional services,item,850,301,-549
+FY2015_audit,102,expenditure,338,Judiciary and Court Related|County public safety building,Snow removal,item,2450,480,-1970
+FY2015_audit,102,expenditure,339,Judiciary and Court Related|County public safety building,Equipment rental,item,9060,8625,-435
+FY2015_audit,102,expenditure,340,Judiciary and Court Related|County public safety building,Machinery and equipment,item,13175,11727,-1448
+FY2015_audit,102,expenditure,341,Judiciary and Court Related,Total county public safety building,total,1431353,1342005,-89348
+FY2015_audit,103,expenditure,342,Judiciary and Court Related|Jurors and other legal services,Legal service - other,item,0,368,368
+FY2015_audit,103,expenditure,343,Judiciary and Court Related|Jurors and other legal services,Legal service/rotation,item,60000,51509,-8491
+FY2015_audit,103,expenditure,344,Judiciary and Court Related|Jurors and other legal services,Legal service/contract,item,40000,40000,0
+FY2015_audit,103,expenditure,345,Judiciary and Court Related|Jurors and other legal services,Interpreter wages,item,31925,37922,5997
+FY2015_audit,103,expenditure,346,Judiciary and Court Related|Jurors and other legal services,Other professional services,item,20000,36189,16189
+FY2015_audit,103,expenditure,347,Judiciary and Court Related|Jurors and other legal services,Court reporter services,item,30000,35741,5741
+FY2015_audit,103,expenditure,348,Judiciary and Court Related|Jurors and other legal services,Grand jury per diem,item,2800,6744,3944
+FY2015_audit,103,expenditure,349,Judiciary and Court Related|Jurors and other legal services,Petit jury per diem,item,42000,65719,23719
+FY2015_audit,103,expenditure,350,Judiciary and Court Related|Jurors and other legal services,Meals and lodging,item,2000,1657,-343
+FY2015_audit,103,expenditure,351,Judiciary and Court Related|Jurors and other legal services,Witness fees,item,22000,13604,-8396
+FY2015_audit,103,expenditure,352,Judiciary and Court Related|Jurors and other legal services,Indigent court cost,item,1000,0,-1000
+FY2015_audit,103,expenditure,353,Judiciary and Court Related|Jurors and other legal services,Court psych evaluation,item,5000,7365,2365
+FY2015_audit,103,expenditure,354,Judiciary and Court Related|Jurors and other legal services,Court administrator services,item,10000,11000,1000
+FY2015_audit,103,expenditure,355,Judiciary and Court Related|Jurors and other legal services,Office supplies,item,400,710,310
+FY2015_audit,103,expenditure,356,Judiciary and Court Related|Jurors and other legal services,Travel,item,0,4325,4325
+FY2015_audit,103,expenditure,357,Judiciary and Court Related|Jurors and other legal services,Publications,item,1500,1356,-144
+FY2015_audit,103,expenditure,358,Judiciary and Court Related,Total jurors and other legal services,total,268625,314209,45584
+FY2015_audit,103,expenditure,359,Judiciary and Court Related,Employee health insurance,item,0,534623,534623
+FY2015_audit,103,expenditure,360,,Total judiciary and court related,total,6739922,7225952,486030
+FY2015_audit,103,expenditure,361,,TOTAL EXPENDITURES,total,13060475,15360814,2300339

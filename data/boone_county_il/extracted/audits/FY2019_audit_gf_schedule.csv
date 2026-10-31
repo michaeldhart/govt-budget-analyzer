@@ -1,0 +1,392 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2019_audit,88,revenue,1,Taxes,Property taxes,item,7065813,6959741,-106072
+FY2019_audit,88,revenue,2,Taxes,State income taxes,item,1870359,2034795,164436
+FY2019_audit,88,revenue,3,Taxes,State sales tax,item,1596422,1589052,-7370
+FY2019_audit,88,revenue,4,Taxes,Replacement tax,item,413787,560212,146425
+FY2019_audit,88,revenue,5,Taxes,Use tax,item,526584,629083,102499
+FY2019_audit,88,revenue,6,Taxes,Video gaming tax,item,76306,68721,-7585
+FY2019_audit,88,revenue,7,,(subtotal of Taxes),total,11549271,11841604,292333
+FY2019_audit,88,revenue,8,"Fees, licenses, permits and fines",County clerk fees,item,37501,125265,87764
+FY2019_audit,88,revenue,9,"Fees, licenses, permits and fines",County sheriff fees,item,82767,71619,-11148
+FY2019_audit,88,revenue,10,"Fees, licenses, permits and fines",State's attorney fees,item,46314,31564,-14750
+FY2019_audit,88,revenue,11,"Fees, licenses, permits and fines",County coroner fees,item,10955,11472,517
+FY2019_audit,88,revenue,12,"Fees, licenses, permits and fines",County recorder,item,129024,153074,24050
+FY2019_audit,88,revenue,13,"Fees, licenses, permits and fines",Licenses and permits,item,194131,321971,127840
+FY2019_audit,88,revenue,14,"Fees, licenses, permits and fines",Criminal fines,item,251177,268469,17292
+FY2019_audit,88,revenue,15,"Fees, licenses, permits and fines",Traffic fines,item,419929,253782,-166147
+FY2019_audit,88,revenue,16,"Fees, licenses, permits and fines",Towing fees,item,0,90850,90850
+FY2019_audit,88,revenue,17,"Fees, licenses, permits and fines",Cable franchise fees,item,97877,143161,45284
+FY2019_audit,88,revenue,18,"Fees, licenses, permits and fines",Circuit court fees,item,501192,584365,83173
+FY2019_audit,88,revenue,19,"Fees, licenses, permits and fines",Counsel fees,item,1466,3285,1819
+FY2019_audit,88,revenue,20,"Fees, licenses, permits and fines",Finance court,item,0,46960,46960
+FY2019_audit,88,revenue,21,"Fees, licenses, permits and fines",Penalty late taxes,item,146053,162938,16885
+FY2019_audit,88,revenue,22,"Fees, licenses, permits and fines",Other,item,169190,98792,-70398
+FY2019_audit,88,revenue,23,,"(subtotal of Fees, licenses, permits and fines)",total,2087576,2367567,279991
+FY2019_audit,88,revenue,24,Intergovernmental revenue,State of Illinois salary reimbursements,item,454783,446544,-8239
+FY2019_audit,88,revenue,25,Intergovernmental revenue,County sheriff reimbursements,item,54750,104400,49650
+FY2019_audit,88,revenue,26,Intergovernmental revenue,Public safety building operations - city,item,827845,765720,-62125
+FY2019_audit,88,revenue,27,Intergovernmental revenue,Grants,item,175420,301285,125865
+FY2019_audit,88,revenue,28,Intergovernmental revenue,Reimbursement from City of Belvidere,item,3990,0,-3990
+FY2019_audit,88,revenue,29,Intergovernmental revenue,Other,item,0,66636,66636
+FY2019_audit,88,revenue,30,,(subtotal of Intergovernmental revenue),total,1516788,1684585,167797
+FY2019_audit,89,revenue,31,Interest,Investments,item,8908,29337,20429
+FY2019_audit,89,revenue,32,Interest|Miscellaneous,Work release,item,31959,22414,-9545
+FY2019_audit,89,revenue,33,Interest|Miscellaneous,Revenue stamps,item,0,95898,95898
+FY2019_audit,89,revenue,34,Interest|Miscellaneous,Miscellaneous,item,170160,184888,14728
+FY2019_audit,89,revenue,35,Interest|Miscellaneous,Penalties,item,16175,15066,-1109
+FY2019_audit,89,revenue,36,Interest|Miscellaneous,Rent,item,139000,139573,573
+FY2019_audit,89,revenue,37,Interest|Miscellaneous,County farm,item,20054,15611,-4443
+FY2019_audit,89,revenue,38,Interest,(subtotal of Miscellaneous),total,377348,473450,96102
+FY2019_audit,89,revenue,39,,Total revenues,total,15539891,16396543,856652
+FY2019_audit,90,expenditure,40,General government|Courthouse,Salaries - other full-time,item,175846,176860,-1014
+FY2019_audit,90,expenditure,41,General government|Courthouse,Maintenance supplies,item,9500,9301,199
+FY2019_audit,90,expenditure,42,General government|Courthouse,Gas and oil,item,1390,143,1247
+FY2019_audit,90,expenditure,43,General government|Courthouse,Uniforms,item,2500,2300,200
+FY2019_audit,90,expenditure,44,General government|Courthouse,Utilities,item,285582,244653,40929
+FY2019_audit,90,expenditure,45,General government|Courthouse,Telephone,item,89151,95643,-6492
+FY2019_audit,90,expenditure,46,General government|Courthouse,Snow removal,item,2000,3332,-1332
+FY2019_audit,90,expenditure,47,General government|Courthouse,Waste disposal,item,1400,1809,-409
+FY2019_audit,90,expenditure,48,General government|Courthouse,Maintenance - equipment,item,10000,16975,-6975
+FY2019_audit,90,expenditure,49,General government|Courthouse,Maintenance - grounds,item,10000,61380,-51380
+FY2019_audit,90,expenditure,50,General government|Courthouse,Training and conferences,item,500,80,420
+FY2019_audit,90,expenditure,51,General government|Courthouse,Rental equipment,item,250,140,110
+FY2019_audit,90,expenditure,52,General government|Courthouse,Equipment,item,250,0,250
+FY2019_audit,90,expenditure,53,General government,(subtotal of Courthouse),total,588369,612616,-24247
+FY2019_audit,90,expenditure,54,General government|County board,Chairman,item,12000,12000,0
+FY2019_audit,90,expenditure,55,General government|County board,Travel,item,9585,7849,1736
+FY2019_audit,90,expenditure,56,General government|County board,Other professional services,item,0,12,-12
+FY2019_audit,90,expenditure,57,General government|County board,Per diem,item,42120,33150,8970
+FY2019_audit,90,expenditure,58,General government|County board,Dues and memberships,item,4150,2200,1950
+FY2019_audit,90,expenditure,59,General government,(subtotal of County board),total,67855,55211,12644
+FY2019_audit,90,expenditure,60,General government|County farm,Taxes,item,3300,3062,238
+FY2019_audit,90,expenditure,61,General government,(subtotal of County farm),total,3300,3062,238
+FY2019_audit,90,expenditure,62,General government|County treasurer,Salaries - department head,item,76859,76858,1
+FY2019_audit,90,expenditure,63,General government|County treasurer,Salaries - deputies,item,81764,80935,829
+FY2019_audit,90,expenditure,64,General government|County treasurer,Office supplies,item,1600,1147,453
+FY2019_audit,90,expenditure,65,General government|County treasurer,Advertising and publishing,item,515,898,-383
+FY2019_audit,90,expenditure,66,General government|County treasurer,Travel,item,700,710,-10
+FY2019_audit,90,expenditure,67,General government|County treasurer,Training and conferences,item,0,135,-135
+FY2019_audit,90,expenditure,68,General government|County treasurer,Postage,item,11200,10734,466
+FY2019_audit,90,expenditure,69,General government|County treasurer,Printing,item,4500,5904,-1404
+FY2019_audit,90,expenditure,70,General government|County treasurer,Dues and memberships,item,450,300,150
+FY2019_audit,90,expenditure,71,General government|County treasurer,Maintenance equipment,item,500,314,186
+FY2019_audit,90,expenditure,72,General government,(subtotal of County treasurer),total,178088,177935,153
+FY2019_audit,91,expenditure,73,General government|County clerk and recorder,Salaries - department head,item,84176,84176,0
+FY2019_audit,91,expenditure,74,General government|County clerk and recorder,Salaries - deputies,item,170886,157250,13636
+FY2019_audit,91,expenditure,75,General government|County clerk and recorder,Office supplies,item,5000,10555,-5555
+FY2019_audit,91,expenditure,76,General government|County clerk and recorder,Equipment maintenance,item,500,0,500
+FY2019_audit,91,expenditure,77,General government|County clerk and recorder,Travel,item,500,338,162
+FY2019_audit,91,expenditure,78,General government|County clerk and recorder,Training,item,2000,841,1159
+FY2019_audit,91,expenditure,79,General government|County clerk and recorder,"Printing, duplicating and binding",item,3000,2626,374
+FY2019_audit,91,expenditure,80,General government|County clerk and recorder,Postage,item,5250,3524,1726
+FY2019_audit,91,expenditure,81,General government|County clerk and recorder,Dues and memberships,item,365,100,265
+FY2019_audit,91,expenditure,82,General government|County clerk and recorder,Data processing,item,15000,10890,4110
+FY2019_audit,91,expenditure,83,General government|County clerk and recorder,Office equipment,item,4000,3228,772
+FY2019_audit,91,expenditure,84,General government|County clerk and recorder,Miscellaneous fees register births and deaths),item,350,344,6
+FY2019_audit,91,expenditure,85,General government,(subtotal of County clerk and recorder),total,291027,273872,17155
+FY2019_audit,91,expenditure,86,General government|Zoning,Travel,item,200,74,126
+FY2019_audit,91,expenditure,87,General government|Zoning,Training and conferences,item,100,0,100
+FY2019_audit,91,expenditure,88,General government|Zoning,Advertising and publishing,item,100,0,100
+FY2019_audit,91,expenditure,89,General government|Zoning,Per diem,item,2000,3384,-1384
+FY2019_audit,91,expenditure,90,General government,(subtotal of Zoning),total,2400,3458,-1058
+FY2019_audit,91,expenditure,91,General government|Planning,Planner,item,60000,0,60000
+FY2019_audit,91,expenditure,92,General government|Planning,Planning director salary,item,0,39664,-39664
+FY2019_audit,91,expenditure,93,General government|Planning,Planning Technician (Intern),item,10000,0,10000
+FY2019_audit,91,expenditure,94,General government|Planning,Office supplies,item,1000,326,674
+FY2019_audit,91,expenditure,95,General government|Planning,Equipment maintenance,item,1000,107,893
+FY2019_audit,91,expenditure,96,General government|Planning,Travel,item,500,1283,-783
+FY2019_audit,91,expenditure,97,General government|Planning,Training and conferences,item,2500,401,2099
+FY2019_audit,91,expenditure,98,General government|Planning,Publishing and advertising,item,1500,1035,465
+FY2019_audit,91,expenditure,99,General government|Planning,Printing,item,500,0,500
+FY2019_audit,91,expenditure,100,General government|Planning,Other professional services - other,item,6000,88633,-82633
+FY2019_audit,91,expenditure,101,General government|Planning,Dues,item,350,0,350
+FY2019_audit,91,expenditure,102,General government,(subtotal of Planning),total,83350,131449,-48099
+FY2019_audit,92,expenditure,103,General government|Supervisor of assessments,Salaries - department,item,71400,71400,0
+FY2019_audit,92,expenditure,104,General government|Supervisor of assessments,Salaries - clerks,item,116004,121151,-5147
+FY2019_audit,92,expenditure,105,General government|Supervisor of assessments,Office supplies,item,1200,659,541
+FY2019_audit,92,expenditure,106,General government|Supervisor of assessments,Printing,item,7000,3703,3297
+FY2019_audit,92,expenditure,107,General government|Supervisor of assessments,Equipment maintenance,item,4800,3720,1080
+FY2019_audit,92,expenditure,108,General government|Supervisor of assessments,Travel,item,1050,400,650
+FY2019_audit,92,expenditure,109,General government|Supervisor of assessments,Mapping maintenance,item,1200,0,1200
+FY2019_audit,92,expenditure,110,General government|Supervisor of assessments,Training and conference,item,2760,509,2251
+FY2019_audit,92,expenditure,111,General government|Supervisor of assessments,Advertising and publishing,item,18000,19720,-1720
+FY2019_audit,92,expenditure,112,General government|Supervisor of assessments,Postage,item,8550,9816,-1266
+FY2019_audit,92,expenditure,113,General government|Supervisor of assessments,Dues and memberships,item,1000,831,169
+FY2019_audit,92,expenditure,114,General government|Supervisor of assessments,Office equipment,item,1000,0,1000
+FY2019_audit,92,expenditure,115,General government|Supervisor of assessments,Other professional services,item,1000,298,702
+FY2019_audit,92,expenditure,116,General government,(subtotal of Supervisor of assessments),total,234964,232207,2757
+FY2019_audit,92,expenditure,117,General government|Supervisor of educational service region,Intergovernmental education service,item,95000,97275,-2275
+FY2019_audit,92,expenditure,118,General government|Supervisor of educational service region|Administrative services,Salaries - department head,item,132502,161816,-29314
+FY2019_audit,92,expenditure,119,General government|Supervisor of educational service region|Administrative services,Salaries - secretary,item,33113,29762,3351
+FY2019_audit,92,expenditure,120,General government|Supervisor of educational service region|Administrative services,Salaries - administrative assistant,item,70000,70000,0
+FY2019_audit,92,expenditure,121,General government|Supervisor of educational service region|Administrative services,Stationery and supplies,item,2167,1193,974
+FY2019_audit,92,expenditure,122,General government|Supervisor of educational service region|Administrative services,Publications,item,150,110,40
+FY2019_audit,92,expenditure,123,General government|Supervisor of educational service region|Administrative services,Travel,item,2500,1064,1436
+FY2019_audit,92,expenditure,124,General government|Supervisor of educational service region|Administrative services,Postage,item,1150,0,1150
+FY2019_audit,92,expenditure,125,General government|Supervisor of educational service region|Administrative services,Training and conferences,item,2560,691,1869
+FY2019_audit,92,expenditure,126,General government|Supervisor of educational service region|Administrative services,Publishing and advertising,item,600,185,415
+FY2019_audit,92,expenditure,127,General government|Supervisor of educational service region|Administrative services,Other professional services,item,0,83,-83
+FY2019_audit,92,expenditure,128,General government|Supervisor of educational service region|Administrative services,Maintenance - equipment,item,5383,3489,1894
+FY2019_audit,92,expenditure,129,General government|Supervisor of educational service region|Administrative services,Dues and memberships,item,1980,1302,678
+FY2019_audit,92,expenditure,130,General government|Supervisor of educational service region|Administrative services,Equipment,item,150,297,-147
+FY2019_audit,92,expenditure,131,General government|Supervisor of educational service region,(subtotal of Administrative services),total,252255,269992,-17737
+FY2019_audit,92,expenditure,132,General government|Supervisor of educational service region|Board of review,Salaries - board members,item,18285,18290,-5
+FY2019_audit,92,expenditure,133,General government|Supervisor of educational service region|Board of review,Office supplies,item,250,0,250
+FY2019_audit,92,expenditure,134,General government|Supervisor of educational service region|Board of review,Travel,item,1100,12,1088
+FY2019_audit,92,expenditure,135,General government|Supervisor of educational service region|Board of review,Advertising and publishing,item,150,99,51
+FY2019_audit,92,expenditure,136,General government|Supervisor of educational service region|Board of review,Other professional services,item,4500,525,3975
+FY2019_audit,92,expenditure,137,General government|Supervisor of educational service region|Board of review,Postage,item,1000,822,178
+FY2019_audit,92,expenditure,138,General government|Supervisor of educational service region|Board of review,Training and conference,item,2100,720,1380
+FY2019_audit,92,expenditure,139,General government|Supervisor of educational service region|Board of review,Office equipment,item,1500,0,1500
+FY2019_audit,92,expenditure,140,General government|Supervisor of educational service region|Board of review,Dues,item,40,0,40
+FY2019_audit,92,expenditure,141,General government|Supervisor of educational service region,(subtotal of Board of review),total,28925,20468,8457
+FY2019_audit,93,expenditure,142,General government|Supervisor of educational service region|Election,Salaries - clerks,item,3000,682,2318
+FY2019_audit,93,expenditure,143,General government|Supervisor of educational service region|Election,Office supplies,item,0,130,-130
+FY2019_audit,93,expenditure,144,General government|Supervisor of educational service region|Election,Printing paper and supplies,item,158000,153075,4925
+FY2019_audit,93,expenditure,145,General government|Supervisor of educational service region|Election,Voter registration,item,35000,55275,-20275
+FY2019_audit,93,expenditure,146,General government|Supervisor of educational service region,(subtotal of Election),total,196000,209162,-13162
+FY2019_audit,93,expenditure,147,General government|Supervisor of educational service region|Logan Avenue building,Salaries - maintenance,item,18600,19020,-420
+FY2019_audit,93,expenditure,148,General government|Supervisor of educational service region|Logan Avenue building,Maintenance supplies,item,6683,6559,124
+FY2019_audit,93,expenditure,149,General government|Supervisor of educational service region|Logan Avenue building,Property maintenance,item,9410,20080,-10670
+FY2019_audit,93,expenditure,150,General government|Supervisor of educational service region|Logan Avenue building,Equipment maintenance,item,2100,1354,746
+FY2019_audit,93,expenditure,151,General government|Supervisor of educational service region|Logan Avenue building,Waste disposal,item,1544,2444,-900
+FY2019_audit,93,expenditure,152,General government|Supervisor of educational service region|Logan Avenue building,Utilities,item,19605,23776,-4171
+FY2019_audit,93,expenditure,153,General government|Supervisor of educational service region,(subtotal of Logan Avenue building),total,57942,73233,-15291
+FY2019_audit,93,expenditure,154,General government|Supervisor of educational service region|Information technology,Salaries - computer coordinator,item,52020,52020,0
+FY2019_audit,93,expenditure,155,General government|Supervisor of educational service region|Information technology,Computer replacement,item,14000,0,14000
+FY2019_audit,93,expenditure,156,General government|Supervisor of educational service region|Information technology,Telephone,item,15600,9753,5847
+FY2019_audit,93,expenditure,157,General government|Supervisor of educational service region|Information technology,Travel,item,500,0,500
+FY2019_audit,93,expenditure,158,General government|Supervisor of educational service region|Information technology,Training and conferences,item,250,0,250
+FY2019_audit,93,expenditure,159,General government|Supervisor of educational service region|Information technology,Data processing,item,0,19232,-19232
+FY2019_audit,93,expenditure,160,General government|Supervisor of educational service region|Information technology,Website expenses,item,36720,48924,-12204
+FY2019_audit,93,expenditure,161,General government|Supervisor of educational service region|Information technology,Software licenses,item,103634,42734,60900
+FY2019_audit,93,expenditure,162,General government|Supervisor of educational service region|Information technology,Computer maintenance,item,15000,9865,5135
+FY2019_audit,93,expenditure,163,General government|Supervisor of educational service region|Information technology,Equipment,item,14000,14329,-329
+FY2019_audit,93,expenditure,164,General government|Supervisor of educational service region|Information technology,Contingencies,item,100,35,65
+FY2019_audit,93,expenditure,165,General government|Supervisor of educational service region,(subtotal of Information technology),total,251824,196892,54932
+FY2019_audit,93,expenditure,166,General government|Supervisor of educational service region|Building department,Senior - building inspector,item,64624,0,64624
+FY2019_audit,93,expenditure,167,General government|Supervisor of educational service region|Building department,Salary - building inspector,item,0,64626,-64626
+FY2019_audit,93,expenditure,168,General government|Supervisor of educational service region|Building department,Salary - zoning officer,item,35982,35984,-2
+FY2019_audit,93,expenditure,169,General government|Supervisor of educational service region|Building department,Salary - plumbing inspector,item,13784,12724,1060
+FY2019_audit,93,expenditure,170,General government|Supervisor of educational service region|Building department,Salary - electrical inspector,item,13784,13784,0
+FY2019_audit,93,expenditure,171,General government|Supervisor of educational service region|Building department,Office supplies,item,700,1336,-636
+FY2019_audit,93,expenditure,172,General government|Supervisor of educational service region|Building department,Fuel,item,2400,1395,1005
+FY2019_audit,93,expenditure,173,General government|Supervisor of educational service region|Building department,Publications,item,500,0,500
+FY2019_audit,93,expenditure,174,General government|Supervisor of educational service region|Building department,Maintenance of vehicles,item,2500,642,1858
+FY2019_audit,93,expenditure,175,General government|Supervisor of educational service region|Building department,Equipment maintenance,item,1800,1312,488
+FY2019_audit,93,expenditure,176,General government|Supervisor of educational service region|Building department,Training and conferences,item,500,0,500
+FY2019_audit,94,expenditure,177,General government|Supervisor of educational service region|Building department,Postage,item,50,16,34
+FY2019_audit,94,expenditure,178,General government|Supervisor of educational service region|Building department,Publishing and advertising,item,100,0,100
+FY2019_audit,94,expenditure,179,General government|Supervisor of educational service region|Building department,Software licenses,item,5654,0,5654
+FY2019_audit,94,expenditure,180,General government|Supervisor of educational service region|Building department,Printing,item,906,276,630
+FY2019_audit,94,expenditure,181,General government|Supervisor of educational service region|Building department,Other professional services,item,3000,8879,-5879
+FY2019_audit,94,expenditure,182,General government|Supervisor of educational service region|Building department,Dues,item,300,145,155
+FY2019_audit,94,expenditure,183,General government|Supervisor of educational service region|Building department,Equipment,item,500,0,500
+FY2019_audit,94,expenditure,184,General government|Supervisor of educational service region|Building department,Refunds,item,0,90,-90
+FY2019_audit,94,expenditure,185,General government|Supervisor of educational service region,(subtotal of Building department),total,147084,141209,5875
+FY2019_audit,94,expenditure,186,General government|Supervisor of educational service region|Other professional services and capital,Other professional services,item,10000,27179,-17179
+FY2019_audit,94,expenditure,187,General government|Supervisor of educational service region|Other professional services and capital,Rent - leased property,item,52000,0,52000
+FY2019_audit,94,expenditure,188,General government|Supervisor of educational service region|Other professional services and capital,Other professional services - legal,item,10000,12875,-2875
+FY2019_audit,94,expenditure,189,General government|Supervisor of educational service region|Other professional services and capital,Building maintenance,item,2000,535,1465
+FY2019_audit,94,expenditure,190,General government|Supervisor of educational service region,(subtotal of Other professional services and capital),total,74000,40589,33411
+FY2019_audit,94,expenditure,191,General government|Supervisor of educational service region|Miscellaneous,Annual audit,item,45000,42500,2500
+FY2019_audit,94,expenditure,192,General government|Supervisor of educational service region|Miscellaneous,Other audit services,item,4000,0,4000
+FY2019_audit,94,expenditure,193,General government|Supervisor of educational service region|Miscellaneous,Growth dimensions,item,34950,34945,5
+FY2019_audit,94,expenditure,194,General government|Supervisor of educational service region|Miscellaneous,CASA,item,25000,18750,6250
+FY2019_audit,94,expenditure,195,General government|Supervisor of educational service region|Miscellaneous,Veterans Assistance Commission,item,15000,14183,817
+FY2019_audit,94,expenditure,196,General government|Supervisor of educational service region|Miscellaneous,Soil and water conservation district,item,27340,20505,6835
+FY2019_audit,94,expenditure,197,General government|Supervisor of educational service region|Miscellaneous,Office supplies,item,100,0,100
+FY2019_audit,94,expenditure,198,General government|Supervisor of educational service region|Miscellaneous,Publications,item,700,0,700
+FY2019_audit,94,expenditure,199,General government|Supervisor of educational service region|Miscellaneous,Travel,item,1500,0,1500
+FY2019_audit,94,expenditure,200,General government|Supervisor of educational service region|Miscellaneous,Training and conferences,item,1750,50,1700
+FY2019_audit,94,expenditure,201,General government|Supervisor of educational service region|Miscellaneous,Contingencies,item,18000,6525,11475
+FY2019_audit,94,expenditure,202,General government|Supervisor of educational service region|Miscellaneous,Sick time buy back,item,6000,0,6000
+FY2019_audit,94,expenditure,203,General government|Supervisor of educational service region|Miscellaneous,Union dues,item,0,150,-150
+FY2019_audit,94,expenditure,204,General government|Supervisor of educational service region|Miscellaneous,E-citation fund,item,3000,0,3000
+FY2019_audit,94,expenditure,205,General government|Supervisor of educational service region,(subtotal of Miscellaneous),total,182340,137608,44732
+FY2019_audit,94,expenditure,206,General government|Supervisor of educational service region,Employee health insurance,item,235009,235009,0
+FY2019_audit,94,expenditure,207,,Total general government,total,2969732,2911247,58485
+FY2019_audit,95,expenditure,208,Public safety|Emergency service and disaster assistance,Salaries - director,item,48689,47380,1309
+FY2019_audit,95,expenditure,209,Public safety|Emergency service and disaster assistance,Salaries - aide,item,4420,4417,3
+FY2019_audit,95,expenditure,210,Public safety|Emergency service and disaster assistance,Overtime,item,1000,0,1000
+FY2019_audit,95,expenditure,211,Public safety|Emergency service and disaster assistance,Office supplies,item,2200,2111,89
+FY2019_audit,95,expenditure,212,Public safety|Emergency service and disaster assistance,Maintenance supplies,item,400,262,138
+FY2019_audit,95,expenditure,213,Public safety|Emergency service and disaster assistance,Gas and oil,item,3000,1788,1212
+FY2019_audit,95,expenditure,214,Public safety|Emergency service and disaster assistance,Travel,item,500,489,11
+FY2019_audit,95,expenditure,215,Public safety|Emergency service and disaster assistance,Postage,item,176,0,176
+FY2019_audit,95,expenditure,216,Public safety|Emergency service and disaster assistance,Publications,item,0,0,0
+FY2019_audit,95,expenditure,217,Public safety|Emergency service and disaster assistance,Materials and services - other,item,0,0,0
+FY2019_audit,95,expenditure,218,Public safety|Emergency service and disaster assistance,Equipment maintenance,item,900,100,800
+FY2019_audit,95,expenditure,219,Public safety|Emergency service and disaster assistance,Other professional services,item,500,454,46
+FY2019_audit,95,expenditure,220,Public safety|Emergency service and disaster assistance,Telephone,item,1500,0,1500
+FY2019_audit,95,expenditure,221,Public safety|Emergency service and disaster assistance,Training and conferences,item,2500,3553,-1053
+FY2019_audit,95,expenditure,222,Public safety|Emergency service and disaster assistance,Dues and memberships,item,500,433,67
+FY2019_audit,95,expenditure,223,Public safety|Emergency service and disaster assistance,Vehicle maintenance,item,3500,3742,-242
+FY2019_audit,95,expenditure,224,Public safety|Emergency service and disaster assistance,Machinery and equipment,item,1500,1460,40
+FY2019_audit,95,expenditure,225,Public safety,(subtotal of Emergency service and disaster assistance),total,71285,66189,5096
+FY2019_audit,95,expenditure,226,Public safety|County coroner,Salaries - coroner,item,60428,60427,1
+FY2019_audit,95,expenditure,227,Public safety|County coroner,Salaries - deputy,item,23506,14909,8597
+FY2019_audit,95,expenditure,228,Public safety|County coroner,Salaries - secretary,item,30069,39800,-9731
+FY2019_audit,95,expenditure,229,Public safety|County coroner,Office supplies,item,1600,1259,341
+FY2019_audit,95,expenditure,230,Public safety|County coroner,Medical supplies,item,2000,789,1211
+FY2019_audit,95,expenditure,231,Public safety|County coroner,Morgue supplies,item,5000,4202,798
+FY2019_audit,95,expenditure,232,Public safety|County coroner,Fuel - other,item,0,21,-21
+FY2019_audit,95,expenditure,233,Public safety|County coroner,Equipment maintenance,item,720,648,72
+FY2019_audit,95,expenditure,234,Public safety|County coroner,Travel,item,3000,1879,1121
+FY2019_audit,95,expenditure,235,Public safety|County coroner,Postage,item,600,530,70
+FY2019_audit,95,expenditure,236,Public safety|County coroner,Training and conferences,item,2000,1196,804
+FY2019_audit,95,expenditure,237,Public safety|County coroner,Lab fees,item,10000,8667,1333
+FY2019_audit,95,expenditure,238,Public safety|County coroner,Dues and memberships,item,350,350,0
+FY2019_audit,95,expenditure,239,Public safety|County coroner,Disposition services,item,1100,500,600
+FY2019_audit,95,expenditure,240,Public safety|County coroner,Other professional services,item,33500,27810,5690
+FY2019_audit,95,expenditure,241,Public safety|County coroner,Telephone,item,2300,1846,454
+FY2019_audit,95,expenditure,242,Public safety,(subtotal of County coroner),total,176173,164833,11340
+FY2019_audit,96,expenditure,243,Public safety|Sheriff's department,Salaries - sheriff,item,117216,117217,-1
+FY2019_audit,96,expenditure,244,Public safety|Sheriff's department,Salaries - deputies,item,2991139,2957392,33747
+FY2019_audit,96,expenditure,245,Public safety|Sheriff's department,Salaries - overtime,item,200000,182904,17096
+FY2019_audit,96,expenditure,246,Public safety|Sheriff's department,E911 Reimbursements,item,0,-85605,85605
+FY2019_audit,96,expenditure,247,Public safety|Sheriff's department,Office supplies,item,9300,10280,-980
+FY2019_audit,96,expenditure,248,Public safety|Sheriff's department,Publications,item,1177,1125,52
+FY2019_audit,96,expenditure,249,Public safety|Sheriff's department,Gasoline and oil,item,130000,99469,30531
+FY2019_audit,96,expenditure,250,Public safety|Sheriff's department,Clothing - uniforms,item,44800,39767,5033
+FY2019_audit,96,expenditure,251,Public safety|Sheriff's department,Postage,item,3738,3008,730
+FY2019_audit,96,expenditure,252,Public safety|Sheriff's department,Travel expense,item,15000,14227,773
+FY2019_audit,96,expenditure,253,Public safety|Sheriff's department,Training and conferences,item,45340,46998,-1658
+FY2019_audit,96,expenditure,254,Public safety|Sheriff's department,Other professional services,item,15000,16614,-1614
+FY2019_audit,96,expenditure,255,Public safety|Sheriff's department,Laboratory fees,item,400,343,57
+FY2019_audit,96,expenditure,256,Public safety|Sheriff's department,Dues,item,2450,2640,-190
+FY2019_audit,96,expenditure,257,Public safety|Sheriff's department,Maintenance - vehicles,item,85000,91702,-6702
+FY2019_audit,96,expenditure,258,Public safety|Sheriff's department,Maintenance - equipment,item,68495,67387,1108
+FY2019_audit,96,expenditure,259,Public safety|Sheriff's department,K-9 unit,item,4500,4866,-366
+FY2019_audit,96,expenditure,260,Public safety|Sheriff's department,DARE program,item,2500,2736,-236
+FY2019_audit,96,expenditure,261,Public safety|Sheriff's department,Firing range,item,5000,5268,-268
+FY2019_audit,96,expenditure,262,Public safety|Sheriff's department,Forfeited funds (State),item,48000,2375,45625
+FY2019_audit,96,expenditure,263,Public safety|Sheriff's department,Equipment - sheriff,item,0,73589,-73589
+FY2019_audit,96,expenditure,264,Public safety,(subtotal of Sheriff's department),total,3789055,3654302,134753
+FY2019_audit,96,expenditure,265,Public safety,Employee health insurance,item,1926917,1926917,0
+FY2019_audit,96,expenditure,266,,Total public safety,total,5963430,5812241,151189
+FY2019_audit,96,expenditure,267,Judiciary and court related|State's attorney,Salaries - department head,item,170171,171682,-1511
+FY2019_audit,96,expenditure,268,Judiciary and court related|State's attorney,Salaries - assistants,item,497553,494471,3082
+FY2019_audit,96,expenditure,269,Judiciary and court related|State's attorney,Salaries - secretaries,item,119711,111939,7772
+FY2019_audit,96,expenditure,270,Judiciary and court related|State's attorney,Salaries - grant wages,item,23850,28050,-4200
+FY2019_audit,96,expenditure,271,Judiciary and court related|State's attorney,Office supplies,item,8900,7118,1782
+FY2019_audit,96,expenditure,272,Judiciary and court related|State's attorney,Food,item,0,0,0
+FY2019_audit,96,expenditure,273,Judiciary and court related|State's attorney,Publications,item,8000,8741,-741
+FY2019_audit,96,expenditure,274,Judiciary and court related|State's attorney,Publications - West Publishing,item,0,0,0
+FY2019_audit,96,expenditure,275,Judiciary and court related|State's attorney,Appellate service,item,18000,18000,0
+FY2019_audit,96,expenditure,276,Judiciary and court related|State's attorney,Travel,item,2500,2373,127
+FY2019_audit,96,expenditure,277,Judiciary and court related|State's attorney,Training and conferences,item,4000,1480,2520
+FY2019_audit,96,expenditure,278,Judiciary and court related|State's attorney,Equipment maintenance,item,0,0,0
+FY2019_audit,96,expenditure,279,Judiciary and court related|State's attorney,Dues and memberships,item,3600,2852,748
+FY2019_audit,97,expenditure,280,Judiciary and court related|State's attorney,Postage,item,4000,218,3782
+FY2019_audit,97,expenditure,281,Judiciary and court related|State's attorney,Other professional service,item,1300,456,844
+FY2019_audit,97,expenditure,282,Judiciary and court related|State's attorney,Office equipment,item,8700,6480,2220
+FY2019_audit,97,expenditure,283,Judiciary and court related,(subtotal of State's attorney),total,870285,853860,16425
+FY2019_audit,97,expenditure,284,Judiciary and court related|Public defender,Salaries - public defender,item,153154,154514,-1360
+FY2019_audit,97,expenditure,285,Judiciary and court related|Public defender,Salaries - assistance public defender,item,169285,169289,-4
+FY2019_audit,97,expenditure,286,Judiciary and court related|Public defender,Salaries - secretary,item,74554,71367,3187
+FY2019_audit,97,expenditure,287,Judiciary and court related|Public defender,Publications,item,5603,6470,-867
+FY2019_audit,97,expenditure,288,Judiciary and court related|Public defender,Training and conferences,item,2500,764,1736
+FY2019_audit,97,expenditure,289,Judiciary and court related|Public defender,Maintenance,item,2294,2270,24
+FY2019_audit,97,expenditure,290,Judiciary and court related|Public defender,Utilities,item,10160,5622,4538
+FY2019_audit,97,expenditure,291,Judiciary and court related|Public defender,Postage,item,588,452,136
+FY2019_audit,97,expenditure,292,Judiciary and court related|Public defender,Dues,item,1540,1540,0
+FY2019_audit,97,expenditure,293,Judiciary and court related|Public defender,Lease of property,item,22788,20889,1899
+FY2019_audit,97,expenditure,294,Judiciary and court related|Public defender,Office supplies,item,2850,3215,-365
+FY2019_audit,97,expenditure,295,Judiciary and court related,(subtotal of Public defender),total,445316,436392,8924
+FY2019_audit,97,expenditure,296,Judiciary and court related|Probation,Salaries - officers,item,284066,269197,14869
+FY2019_audit,97,expenditure,297,Judiciary and court related|Probation,Salaries - supervisors,item,76790,81238,-4448
+FY2019_audit,97,expenditure,298,Judiciary and court related|Probation,Salaries - secretary,item,26880,27394,-514
+FY2019_audit,97,expenditure,299,Judiciary and court related|Probation,Office supplies,item,8000,7974,26
+FY2019_audit,97,expenditure,300,Judiciary and court related|Probation,Equipment maintenance,item,5500,5028,472
+FY2019_audit,97,expenditure,301,Judiciary and court related|Probation,Travel,item,2000,0,2000
+FY2019_audit,97,expenditure,302,Judiciary and court related|Probation,Fuel,item,0,1464,-1464
+FY2019_audit,97,expenditure,303,Judiciary and court related|Probation,Postage,item,1000,657,343
+FY2019_audit,97,expenditure,304,Judiciary and court related|Probation,Printing and reproduction,item,500,487,13
+FY2019_audit,97,expenditure,305,Judiciary and court related|Probation,Dues,item,350,350,0
+FY2019_audit,97,expenditure,306,Judiciary and court related|Probation,Juvenile placement,item,55000,34280,20720
+FY2019_audit,97,expenditure,307,Judiciary and court related,(subtotal of Probation),total,460086,428069,32017
+FY2019_audit,98,expenditure,308,Judiciary and court related|Circuit clerk,Salaries - circuit clerk,item,76294,76628,-334
+FY2019_audit,98,expenditure,309,Judiciary and court related|Circuit clerk,Salaries - clerks,item,676788,625951,50837
+FY2019_audit,98,expenditure,310,Judiciary and court related|Circuit clerk,Salaries - non-union,item,53570,53560,10
+FY2019_audit,98,expenditure,311,Judiciary and court related|Circuit clerk,Salaries - overtime,item,4000,4595,-595
+FY2019_audit,98,expenditure,312,Judiciary and court related|Circuit clerk,Office supplies,item,8000,5308,2692
+FY2019_audit,98,expenditure,313,Judiciary and court related|Circuit clerk,Travel,item,1000,481,519
+FY2019_audit,98,expenditure,314,Judiciary and court related|Circuit clerk,Postage,item,13400,13400,0
+FY2019_audit,98,expenditure,315,Judiciary and court related|Circuit clerk,Printing,item,0,6584,-6584
+FY2019_audit,98,expenditure,316,Judiciary and court related,(subtotal of Circuit clerk),total,833052,786507,46545
+FY2019_audit,98,expenditure,317,Judiciary and court related|Judicial,Salaries - judges,item,2000,2005,-5
+FY2019_audit,98,expenditure,318,Judiciary and court related|Judicial,Salaries - assistant,item,22114,18564,3550
+FY2019_audit,98,expenditure,319,Judiciary and court related|Judicial,Office supplies,item,3000,3928,-928
+FY2019_audit,98,expenditure,320,Judiciary and court related|Judicial,Publications,item,4900,4538,362
+FY2019_audit,98,expenditure,321,Judiciary and court related|Judicial,Equipment maintenance,item,2000,1854,146
+FY2019_audit,98,expenditure,322,Judiciary and court related|Judicial,Travel,item,250,0,250
+FY2019_audit,98,expenditure,323,Judiciary and court related|Judicial,Legal services,item,0,306,-306
+FY2019_audit,98,expenditure,324,Judiciary and court related|Judicial,Equipment,item,1000,853,147
+FY2019_audit,98,expenditure,325,Judiciary and court related,(subtotal of Judicial),total,35264,32048,3216
+FY2019_audit,98,expenditure,326,Judiciary and court related|County corrections,Salaries - union,item,2255459,2226035,29424
+FY2019_audit,98,expenditure,327,Judiciary and court related|County corrections,Salaries - non-union,item,93406,129744,-36338
+FY2019_audit,98,expenditure,328,Judiciary and court related|County corrections,Salaries - jail administration,item,37000,0,37000
+FY2019_audit,98,expenditure,329,Judiciary and court related|County corrections,Salaries - overtime,item,180000,168728,11272
+FY2019_audit,98,expenditure,330,Judiciary and court related|County corrections,Office supplies,item,6500,6157,343
+FY2019_audit,98,expenditure,331,Judiciary and court related|County corrections,Gas and oil,item,800,1046,-246
+FY2019_audit,98,expenditure,332,Judiciary and court related|County corrections,Maintenance supplies,item,36000,35905,95
+FY2019_audit,98,expenditure,333,Judiciary and court related|County corrections,Food,item,248235,210570,37665
+FY2019_audit,98,expenditure,334,Judiciary and court related|County corrections,Uniforms,item,30750,27436,3314
+FY2019_audit,98,expenditure,335,Judiciary and court related|County corrections,Property maintenance - other,item,1800,1835,-35
+FY2019_audit,98,expenditure,336,Judiciary and court related|County corrections,Vehicle maintenance,item,1500,1527,-27
+FY2019_audit,98,expenditure,337,Judiciary and court related|County corrections,Snow removal,item,1000,1027,-27
+FY2019_audit,98,expenditure,338,Judiciary and court related|County corrections,Maintenance - equipment,item,41500,45084,-3584
+FY2019_audit,98,expenditure,339,Judiciary and court related|County corrections,Waste disposal,item,4800,4054,746
+FY2019_audit,98,expenditure,340,Judiciary and court related|County corrections,Insurance and bonds,item,500,335,165
+FY2019_audit,98,expenditure,341,Judiciary and court related|County corrections,Training and conferences,item,21750,20777,973
+FY2019_audit,98,expenditure,342,Judiciary and court related|County corrections,Postage,item,275,222,53
+FY2019_audit,98,expenditure,343,Judiciary and court related|County corrections,Publishing and advertising,item,1250,308,942
+FY2019_audit,98,expenditure,344,Judiciary and court related|County corrections,Printing and reproduction,item,2000,2050,-50
+FY2019_audit,98,expenditure,345,Judiciary and court related|County corrections,Other professional services,item,65957,65998,-41
+FY2019_audit,98,expenditure,346,Judiciary and court related|County corrections,Dues,item,250,0,250
+FY2019_audit,98,expenditure,347,Judiciary and court related|County corrections,Machinery and equipment,item,27000,29150,-2150
+FY2019_audit,98,expenditure,348,Judiciary and court related,(subtotal of County corrections),total,3057732,2977988,79744
+FY2019_audit,99,expenditure,349,Judiciary and court related|County public safety building,Salaries - regular,item,1301266,1215653,85613
+FY2019_audit,99,expenditure,350,Judiciary and court related|County public safety building,Salaries - overtime,item,96000,144585,-48585
+FY2019_audit,99,expenditure,351,Judiciary and court related|County public safety building,Office supplies,item,11000,10723,277
+FY2019_audit,99,expenditure,352,Judiciary and court related|County public safety building,Maintenance,item,8000,8138,-138
+FY2019_audit,99,expenditure,353,Judiciary and court related|County public safety building,Gas and oil,item,600,183,417
+FY2019_audit,99,expenditure,354,Judiciary and court related|County public safety building,Uniforms,item,15950,15620,330
+FY2019_audit,99,expenditure,355,Judiciary and court related|County public safety building,Property maintenance,item,16934,12352,4582
+FY2019_audit,99,expenditure,356,Judiciary and court related|County public safety building,Equipment maintenance,item,157620,131052,26568
+FY2019_audit,99,expenditure,357,Judiciary and court related|County public safety building,Waste disposal,item,3360,3511,-151
+FY2019_audit,99,expenditure,358,Judiciary and court related|County public safety building,Utilities,item,16000,8234,7766
+FY2019_audit,99,expenditure,359,Judiciary and court related|County public safety building,Training and conferences,item,5500,1283,4217
+FY2019_audit,99,expenditure,360,Judiciary and court related|County public safety building,Postage,item,1000,386,614
+FY2019_audit,99,expenditure,361,Judiciary and court related|County public safety building,Other professional services,item,850,0,850
+FY2019_audit,99,expenditure,362,Judiciary and court related|County public safety building,Snow removal,item,2450,1975,475
+FY2019_audit,99,expenditure,363,Judiciary and court related|County public safety building,Equipment rental,item,9060,9351,-291
+FY2019_audit,99,expenditure,364,Judiciary and court related|County public safety building,Machinery and equipment,item,10100,11007,-907
+FY2019_audit,99,expenditure,365,Judiciary and court related,(subtotal of County public safety building),total,1655690,1574053,81637
+FY2019_audit,99,expenditure,366,Judiciary and court related|Jurors and other legal services,Legal service/publications,item,0,275,-275
+FY2019_audit,99,expenditure,367,Judiciary and court related|Jurors and other legal services,Legal service/rotation,item,46000,55084,-9084
+FY2019_audit,99,expenditure,368,Judiciary and court related|Jurors and other legal services,Legal service/contract,item,40000,36667,3333
+FY2019_audit,99,expenditure,369,Judiciary and court related|Jurors and other legal services,Interpreter wages,item,47614,40384,7230
+FY2019_audit,99,expenditure,370,Judiciary and court related|Jurors and other legal services,Other professional services - court legal,item,22500,18600,3900
+FY2019_audit,99,expenditure,371,Judiciary and court related|Jurors and other legal services,Grand jury per diem,item,3000,2006,994
+FY2019_audit,99,expenditure,372,Judiciary and court related|Jurors and other legal services,Petit jury per diem,item,15000,19606,-4606
+FY2019_audit,99,expenditure,373,Judiciary and court related|Jurors and other legal services,Meals and lodging,item,2000,621,1379
+FY2019_audit,99,expenditure,374,Judiciary and court related|Jurors and other legal services,Court administrator services,item,13500,9000,4500
+FY2019_audit,99,expenditure,375,Judiciary and court related|Jurors and other legal services,Office supplies,item,400,500,-100
+FY2019_audit,99,expenditure,376,Judiciary and court related|Jurors and other legal services,Publications,item,1500,2115,-615
+FY2019_audit,99,expenditure,377,Judiciary and court related|Jurors and other legal services,Travel,item,0,20,-20
+FY2019_audit,99,expenditure,378,Judiciary and court related|Jurors and other legal services,Legal service/rotation,item,0,405,-405
+FY2019_audit,99,expenditure,379,Judiciary and court related|Jurors and other legal services,Other professional services - other,item,0,118,-118
+FY2019_audit,99,expenditure,380,Judiciary and court related|Jurors and other legal services,Other legal services - court legal,item,0,1892,-1892
+FY2019_audit,99,expenditure,381,Judiciary and court related|Jurors and other legal services,Court reporter services,item,33000,22310,10690
+FY2019_audit,99,expenditure,382,Judiciary and court related|Jurors and other legal services,Other legal services/legal,item,0,327,-327
+FY2019_audit,99,expenditure,383,Judiciary and court related|Jurors and other legal services,Witness fees,item,14000,1964,12036
+FY2019_audit,99,expenditure,384,Judiciary and court related|Jurors and other legal services,Court evaluations,item,2000,0,2000
+FY2019_audit,99,expenditure,385,Judiciary and court related,(subtotal of Jurors and other legal services),total,240514,211894,28620
+FY2019_audit,100,expenditure,386,Judiciary and court related,Employee health insurance,item,623074,623074,0
+FY2019_audit,100,expenditure,387,,Total judiciary and court related,total,8221013,7923885,297128
+FY2019_audit,100,expenditure,388,,Debt service - principal,item,0,46425,-46425
+FY2019_audit,100,expenditure,389,,Debt service - interest,item,0,0,0
+FY2019_audit,100,expenditure,390,,Capital outlay,item,0,254365,-254365
+FY2019_audit,100,expenditure,391,,Total expenditures,total,17154175,16948163,206012

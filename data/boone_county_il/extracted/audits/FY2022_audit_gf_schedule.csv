@@ -1,0 +1,406 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2022_audit,97,revenue,1,Taxes,Property tax,item,7414834,7436658,21824
+FY2022_audit,97,revenue,2,Taxes,State income tax,item,2100000,3031146,931146
+FY2022_audit,97,revenue,3,Taxes,State sales tax,item,1775000,2555898,780898
+FY2022_audit,97,revenue,4,Taxes,Replacement taxes,item,500000,1778448,1278448
+FY2022_audit,97,revenue,5,Taxes,Use taxes,item,702600,774351,71751
+FY2022_audit,97,revenue,6,Taxes,Video gaming tax,item,70000,86965,16965
+FY2022_audit,97,revenue,7,,(subtotal of Taxes),total,12562434,15663466,3101032
+FY2022_audit,97,revenue,8,"Fees, licenses, permits and fines",County clerk fees,item,115000,109130,-5870
+FY2022_audit,97,revenue,9,"Fees, licenses, permits and fines",County sheriff fees,item,80000,61598,-18402
+FY2022_audit,97,revenue,10,"Fees, licenses, permits and fines",States attorney fees,item,8400,2345,-6055
+FY2022_audit,97,revenue,11,"Fees, licenses, permits and fines",County Coroner fees,item,10000,12037,2037
+FY2022_audit,97,revenue,12,"Fees, licenses, permits and fines",County recorder,item,160000,307977,147977
+FY2022_audit,97,revenue,13,"Fees, licenses, permits and fines",Licenses and permits,item,248000,314775,66775
+FY2022_audit,97,revenue,14,"Fees, licenses, permits and fines",Criminal fees,item,219000,296558,77558
+FY2022_audit,97,revenue,15,"Fees, licenses, permits and fines",Traffic fines,item,157000,90116,-66884
+FY2022_audit,97,revenue,16,"Fees, licenses, permits and fines",Towing fees,item,0,2100,2100
+FY2022_audit,97,revenue,17,"Fees, licenses, permits and fines",Cable franchise fees,item,100000,106149,6149
+FY2022_audit,97,revenue,18,"Fees, licenses, permits and fines",Circuit court fees,item,500000,471327,-28673
+FY2022_audit,97,revenue,19,"Fees, licenses, permits and fines",Counsel fees,item,1500,181,-1319
+FY2022_audit,97,revenue,20,"Fees, licenses, permits and fines",Finance court,item,6000,1818,-4182
+FY2022_audit,97,revenue,21,"Fees, licenses, permits and fines",Penalty late taxes,item,162500,165862,3362
+FY2022_audit,97,revenue,22,"Fees, licenses, permits and fines",Other fees,item,167300,40587,-126713
+FY2022_audit,97,revenue,23,,"(subtotal of Fees, licenses, permits and fines)",total,1934700,1982560,47860
+FY2022_audit,97,revenue,24,Intergovernmental revenue,State of IL salary reimbursements,item,620558,662209,41651
+FY2022_audit,97,revenue,25,Intergovernmental revenue,County Sheriff reimbursements,item,100000,449860,349860
+FY2022_audit,97,revenue,26,Intergovernmental revenue,Public safety building operations - city,item,867000,788300,-78700
+FY2022_audit,97,revenue,27,Intergovernmental revenue,Grants,item,158850,169030,10180
+FY2022_audit,97,revenue,28,Intergovernmental revenue,Other governmental revenue,item,50000,158511,108511
+FY2022_audit,97,revenue,29,,(subtotal of Intergovernmental revenue),total,1796408,2227910,431502
+FY2022_audit,97,revenue,30,Interest,Investments,item,14000,77284,63284
+FY2022_audit,98,revenue,31,Interest|Miscellaneous,Work release,item,30000,0,-30000
+FY2022_audit,98,revenue,32,Interest|Miscellaneous,Miscellaneous,item,155700,100859,-54841
+FY2022_audit,98,revenue,33,Interest|Miscellaneous,Penalties,item,16250,14990,-1260
+FY2022_audit,98,revenue,34,Interest|Miscellaneous,Rent,item,157001,146711,-10290
+FY2022_audit,98,revenue,35,Interest|Miscellaneous,County farm,item,15611,15611,0
+FY2022_audit,98,revenue,36,Interest,(subtotal of Miscellaneous),total,374562,278171,-96391
+FY2022_audit,98,revenue,37,,Total revenues,total,16682104,20229391,3547287
+FY2022_audit,98,expenditure,38,General government|Courthouse,Salaries - other full-time,item,189176,195067,-5891
+FY2022_audit,98,expenditure,39,General government|Courthouse,Maintenance supplies,item,9500,11562,-2062
+FY2022_audit,98,expenditure,40,General government|Courthouse,Gas and oil,item,1390,526,864
+FY2022_audit,98,expenditure,41,General government|Courthouse,Uniforms,item,4500,0,4500
+FY2022_audit,98,expenditure,42,General government|Courthouse,Utilities,item,251210,219983,31227
+FY2022_audit,98,expenditure,43,General government|Courthouse,Telephone,item,109692,137802,-28110
+FY2022_audit,98,expenditure,44,General government|Courthouse,Snow removal,item,2000,2810,-810
+FY2022_audit,98,expenditure,45,General government|Courthouse,Waste disposal,item,1400,4492,-3092
+FY2022_audit,98,expenditure,46,General government|Courthouse,Maintenance - equipment,item,10000,10761,-761
+FY2022_audit,98,expenditure,47,General government|Courthouse,Maintenance - grounds,item,24800,22518,2282
+FY2022_audit,98,expenditure,48,General government|Courthouse,Training and conferences,item,500,0,500
+FY2022_audit,98,expenditure,49,General government|Courthouse,Rental equipment,item,250,0,250
+FY2022_audit,98,expenditure,50,General government|Courthouse,Equipment,item,1250,1,1249
+FY2022_audit,98,expenditure,51,General government,(subtotal of Courthouse),total,605668,605522,146
+FY2022_audit,98,expenditure,52,General government|County board,Chairman,item,12000,12100,-100
+FY2022_audit,98,expenditure,53,General government|County board,Travel,item,4500,2756,1744
+FY2022_audit,98,expenditure,54,General government|County board,Other professional services,item,0,176,-176
+FY2022_audit,98,expenditure,55,General government|County board,Per diem,item,36000,37089,-1089
+FY2022_audit,98,expenditure,56,General government|County board,Dues and memberships,item,10000,7000,3000
+FY2022_audit,98,expenditure,57,General government|County board,Office supplies - other,item,0,357,-357
+FY2022_audit,98,expenditure,58,General government|County board,Training & Conferences,item,0,1112,-1112
+FY2022_audit,98,expenditure,59,General government,(subtotal of County board),total,62500,60590,1910
+FY2022_audit,98,expenditure,60,General government|County farm,Taxes,item,3400,3368,32
+FY2022_audit,98,expenditure,61,General government|County farm,Contingencies #1,item,0,100,-100
+FY2022_audit,98,expenditure,62,General government,(subtotal of County farm),total,3400,3468,-68
+FY2022_audit,99,expenditure,63,General government|County treasurer,Salaries - department head,item,80763,81074,-311
+FY2022_audit,99,expenditure,64,General government|County treasurer,Salaries - deputies,item,79588,79441,147
+FY2022_audit,99,expenditure,65,General government|County treasurer,Office supplies,item,1700,1703,-3
+FY2022_audit,99,expenditure,66,General government|County treasurer,Publications - Other,item,350,350,0
+FY2022_audit,99,expenditure,67,General government|County treasurer,Publishing and advertising,item,550,555,-5
+FY2022_audit,99,expenditure,68,General government|County treasurer,Travel,item,700,691,9
+FY2022_audit,99,expenditure,69,General government|County treasurer,Postage,item,11650,12334,-684
+FY2022_audit,99,expenditure,70,General government|County treasurer,Printing,item,5500,5109,391
+FY2022_audit,99,expenditure,71,General government|County treasurer,Other professional services,item,0,205,-205
+FY2022_audit,99,expenditure,72,General government|County treasurer,Dues and memberships,item,600,600,0
+FY2022_audit,99,expenditure,73,General government|County treasurer,Maintenance - equipment,item,500,75,425
+FY2022_audit,99,expenditure,74,General government|County treasurer,Bank Charges,item,0,35,-35
+FY2022_audit,99,expenditure,75,General government,(subtotal of County treasurer),total,181901,182172,-271
+FY2022_audit,99,expenditure,76,General government|County clerk and recorder,Salaries - department head,item,88452,88793,-341
+FY2022_audit,99,expenditure,77,General government|County clerk and recorder,Salaries - deputies,item,203591,204120,-529
+FY2022_audit,99,expenditure,78,General government|County clerk and recorder,Office supplies,item,6000,8049,-2049
+FY2022_audit,99,expenditure,79,General government|County clerk and recorder,Equipment maintenance,item,500,425,75
+FY2022_audit,99,expenditure,80,General government|County clerk and recorder,Travel,item,500,253,247
+FY2022_audit,99,expenditure,81,General government|County clerk and recorder,Training and conferences,item,1500,583,917
+FY2022_audit,99,expenditure,82,General government|County clerk and recorder,Printing,item,3000,2723,277
+FY2022_audit,99,expenditure,83,General government|County clerk and recorder,Postage,item,6000,2500,3500
+FY2022_audit,99,expenditure,84,General government|County clerk and recorder,Dues,item,650,1160,-510
+FY2022_audit,99,expenditure,85,General government|County clerk and recorder,Data processing,item,15000,15609,-609
+FY2022_audit,99,expenditure,86,General government|County clerk and recorder,Office equipment,item,0,490,-490
+FY2022_audit,99,expenditure,87,General government|County clerk and recorder,Miscellaneous fees register births and deaths,item,350,0,350
+FY2022_audit,99,expenditure,88,General government,(subtotal of County clerk and recorder),total,325543,324705,838
+FY2022_audit,99,expenditure,89,General government|Zoning,Travel,item,200,159,41
+FY2022_audit,99,expenditure,90,General government|Zoning,Per diem,item,2000,0,2000
+FY2022_audit,99,expenditure,91,General government,(subtotal of Zoning),total,2200,159,2041
+FY2022_audit,100,expenditure,92,General government|Planning,Planner,item,67040,0,67040
+FY2022_audit,100,expenditure,93,General government|Planning,Planning director salary,item,0,67298,-67298
+FY2022_audit,100,expenditure,94,General government|Planning,Planning technician (Intern),item,10000,0,10000
+FY2022_audit,100,expenditure,95,General government|Planning,Office supplies,item,800,398,402
+FY2022_audit,100,expenditure,96,General government|Planning,Equipment maintenance,item,1000,0,1000
+FY2022_audit,100,expenditure,97,General government|Planning,Travel,item,1500,228,1272
+FY2022_audit,100,expenditure,98,General government|Planning,Training and conferences,item,1700,1357,343
+FY2022_audit,100,expenditure,99,General government|Planning,Publishing and advertising,item,1500,974,526
+FY2022_audit,100,expenditure,100,General government|Planning,Printing,item,500,0,500
+FY2022_audit,100,expenditure,101,General government|Planning,Other professional services - other,item,10000,3484,6516
+FY2022_audit,100,expenditure,102,General government|Planning,Dues,item,500,427,73
+FY2022_audit,100,expenditure,103,General government,(subtotal of Planning),total,94540,74166,20374
+FY2022_audit,100,expenditure,104,General government|Supervisor of assessments,Salaries - department,item,73182,73463,-281
+FY2022_audit,100,expenditure,105,General government|Supervisor of assessments,Salaries - clerks,item,128860,125115,3745
+FY2022_audit,100,expenditure,106,General government|Supervisor of assessments,Office supplies,item,500,752,-252
+FY2022_audit,100,expenditure,107,General government|Supervisor of assessments,Printing,item,5500,3787,1713
+FY2022_audit,100,expenditure,108,General government|Supervisor of assessments,Equipment maintenance,item,2700,2827,-127
+FY2022_audit,100,expenditure,109,General government|Supervisor of assessments,Travel,item,2500,3106,-606
+FY2022_audit,100,expenditure,110,General government|Supervisor of assessments,Mapping maintenance,item,1200,0,1200
+FY2022_audit,100,expenditure,111,General government|Supervisor of assessments,Training and conferences,item,6000,5051,949
+FY2022_audit,100,expenditure,112,General government|Supervisor of assessments,Publishing and advertising,item,20000,702,19298
+FY2022_audit,100,expenditure,113,General government|Supervisor of assessments,Postage,item,10000,9892,108
+FY2022_audit,100,expenditure,114,General government|Supervisor of assessments,Dues and memberships,item,700,355,345
+FY2022_audit,100,expenditure,115,General government|Supervisor of assessments,Other professional services,item,700,583,117
+FY2022_audit,100,expenditure,116,General government|Supervisor of assessments,Software Licenses,item,0,85460,-85460
+FY2022_audit,100,expenditure,117,General government|Supervisor of assessments,Publications,item,0,17241,-17241
+FY2022_audit,100,expenditure,118,General government|Supervisor of assessments,Maintenance Supplies,item,0,4,-4
+FY2022_audit,100,expenditure,119,General government,(subtotal of Supervisor of assessments),total,251842,328338,-76496
+FY2022_audit,100,expenditure,120,General government|Supervisor of educational service region,Intergovernmental education service,item,114100,74352,39748
+FY2022_audit,101,expenditure,121,General government|Supervisor of educational service region|Administrative services,Salaries - department head,item,131325,193994,-62669
+FY2022_audit,101,expenditure,122,General government|Supervisor of educational service region|Administrative services,Salaries - secretary,item,37659,37799,-140
+FY2022_audit,101,expenditure,123,General government|Supervisor of educational service region|Administrative services,Salaries - administrative assistant,item,85000,45108,39892
+FY2022_audit,101,expenditure,124,General government|Supervisor of educational service region|Administrative services,Stationery and supplies,item,1400,1172,228
+FY2022_audit,101,expenditure,125,General government|Supervisor of educational service region|Administrative services,Fuel - Other,item,0,1,-1
+FY2022_audit,101,expenditure,126,General government|Supervisor of educational service region|Administrative services,Travel,item,2500,546,1954
+FY2022_audit,101,expenditure,127,General government|Supervisor of educational service region|Administrative services,Postage,item,100,20,80
+FY2022_audit,101,expenditure,128,General government|Supervisor of educational service region|Administrative services,Training and conferences,item,2000,972,1028
+FY2022_audit,101,expenditure,129,General government|Supervisor of educational service region|Administrative services,Publishing and advertising,item,500,1076,-576
+FY2022_audit,101,expenditure,130,General government|Supervisor of educational service region|Administrative services,Other professional services,item,20000,-410,20410
+FY2022_audit,101,expenditure,131,General government|Supervisor of educational service region|Administrative services,Maintenance - equipment,item,2500,3315,-815
+FY2022_audit,101,expenditure,132,General government|Supervisor of educational service region|Administrative services,Dues and memberships,item,2000,1717,283
+FY2022_audit,101,expenditure,133,General government|Supervisor of educational service region|Administrative services,Rental equipment,item,0,1768,-1768
+FY2022_audit,101,expenditure,134,General government|Supervisor of educational service region|Administrative services,Equipment,item,0,641,-641
+FY2022_audit,101,expenditure,135,General government|Supervisor of educational service region|Administrative services,Maintenance supplies,item,1000,0,1000
+FY2022_audit,101,expenditure,136,General government|Supervisor of educational service region,(subtotal of Administrative services),total,285984,287719,-1735
+FY2022_audit,101,expenditure,137,General government|Supervisor of educational service region|Board of review,Salaries - board members,item,16000,15058,942
+FY2022_audit,101,expenditure,138,General government|Supervisor of educational service region|Board of review,Office supplies,item,100,0,100
+FY2022_audit,101,expenditure,139,General government|Supervisor of educational service region|Board of review,Travel,item,750,959,-209
+FY2022_audit,101,expenditure,140,General government|Supervisor of educational service region|Board of review,Publishing and advertising,item,100,0,100
+FY2022_audit,101,expenditure,141,General government|Supervisor of educational service region|Board of review,Other professional services,item,4000,0,4000
+FY2022_audit,101,expenditure,142,General government|Supervisor of educational service region|Board of review,Postage,item,400,0,400
+FY2022_audit,101,expenditure,143,General government|Supervisor of educational service region|Board of review,Training and conferences,item,2000,1966,34
+FY2022_audit,101,expenditure,144,General government|Supervisor of educational service region,(subtotal of Board of review),total,23350,17983,5367
+FY2022_audit,101,expenditure,145,General government|Supervisor of educational service region|Election,Salaries - clerks,item,3000,1715,1285
+FY2022_audit,101,expenditure,146,General government|Supervisor of educational service region|Election,Printing paper and supplies,item,75000,179882,-104882
+FY2022_audit,101,expenditure,147,General government|Supervisor of educational service region|Election,Other professional services - other,item,120000,95718,24282
+FY2022_audit,101,expenditure,148,General government|Supervisor of educational service region|Election,Voter registration,item,40000,28180,11820
+FY2022_audit,101,expenditure,149,General government|Supervisor of educational service region|Election,Voter registration,item,40500,0,40500
+FY2022_audit,101,expenditure,150,General government|Supervisor of educational service region|Election,Equipment - other,item,0,251,-251
+FY2022_audit,101,expenditure,151,General government|Supervisor of educational service region,(subtotal of Election),total,278500,305746,-27246
+FY2022_audit,102,expenditure,152,General government|Supervisor of educational service region|Logan Avenue building,Salaries - maintenance,item,20462,23351,-2889
+FY2022_audit,102,expenditure,153,General government|Supervisor of educational service region|Logan Avenue building,Maintenance supplies,item,4500,3069,1431
+FY2022_audit,102,expenditure,154,General government|Supervisor of educational service region|Logan Avenue building,Property maintenance,item,33000,13283,19717
+FY2022_audit,102,expenditure,155,General government|Supervisor of educational service region|Logan Avenue building,Equipment maintenance,item,2000,5141,-3141
+FY2022_audit,102,expenditure,156,General government|Supervisor of educational service region|Logan Avenue building,Waste disposal,item,1550,1952,-402
+FY2022_audit,102,expenditure,157,General government|Supervisor of educational service region|Logan Avenue building,Utilities,item,19000,21346,-2346
+FY2022_audit,102,expenditure,158,General government|Supervisor of educational service region|Logan Avenue building,Other professional services - other,item,0,370,-370
+FY2022_audit,102,expenditure,159,General government|Supervisor of educational service region,(subtotal of Logan Avenue building),total,80512,68512,12000
+FY2022_audit,102,expenditure,160,General government|Supervisor of educational service region|Information technology,Salaries - computer coordinator,item,64018,64372,-354
+FY2022_audit,102,expenditure,161,General government|Supervisor of educational service region|Information technology,Computer replacement,item,25000,0,25000
+FY2022_audit,102,expenditure,162,General government|Supervisor of educational service region|Information technology,Telephone,item,14148,11456,2692
+FY2022_audit,102,expenditure,163,General government|Supervisor of educational service region|Information technology,Data processing,item,24111,26298,-2187
+FY2022_audit,102,expenditure,164,General government|Supervisor of educational service region|Information technology,Website expense,item,13059,13837,-778
+FY2022_audit,102,expenditure,165,General government|Supervisor of educational service region|Information technology,Software licenses,item,77903,0,77903
+FY2022_audit,102,expenditure,166,General government|Supervisor of educational service region|Information technology,Equipment,item,4900,6203,-1303
+FY2022_audit,102,expenditure,167,General government|Supervisor of educational service region,(subtotal of Information technology),total,223139,122166,100973
+FY2022_audit,102,expenditure,168,General government|Supervisor of educational service region|Building department,Senior building inspector,item,0,336,-336
+FY2022_audit,102,expenditure,169,General government|Supervisor of educational service region|Building department,Zoning officer,item,0,192,-192
+FY2022_audit,102,expenditure,170,General government|Supervisor of educational service region|Building department,Salary - electrical inspector,item,14000,7713,6287
+FY2022_audit,102,expenditure,171,General government|Supervisor of educational service region|Building department,Office supplies,item,700,58,642
+FY2022_audit,102,expenditure,172,General government|Supervisor of educational service region|Building department,Fuel,item,2400,3131,-731
+FY2022_audit,102,expenditure,173,General government|Supervisor of educational service region|Building department,Publications,item,500,36,464
+FY2022_audit,102,expenditure,174,General government|Supervisor of educational service region|Building department,Maintenance and vehicles,item,10000,4510,5490
+FY2022_audit,102,expenditure,175,General government|Supervisor of educational service region|Building department,Equipment maintenance,item,1800,999,801
+FY2022_audit,102,expenditure,176,General government|Supervisor of educational service region|Building department,Training and conferences,item,500,490,10
+FY2022_audit,102,expenditure,177,General government|Supervisor of educational service region|Building department,Telephone,item,240,220,20
+FY2022_audit,102,expenditure,178,General government|Supervisor of educational service region|Building department,Postage,item,50,0,50
+FY2022_audit,102,expenditure,179,General government|Supervisor of educational service region|Building department,Publishing and advertising,item,100,0,100
+FY2022_audit,102,expenditure,180,General government|Supervisor of educational service region|Building department,Software licenses,item,10000,0,10000
+FY2022_audit,102,expenditure,181,General government|Supervisor of educational service region|Building department,Printing,item,906,839,67
+FY2022_audit,102,expenditure,182,General government|Supervisor of educational service region|Building department,Other professional services,item,3000,2960,40
+FY2022_audit,102,expenditure,183,General government|Supervisor of educational service region|Building department,Dues,item,300,145,155
+FY2022_audit,102,expenditure,184,General government|Supervisor of educational service region|Building department,Equipment,item,500,379,121
+FY2022_audit,102,expenditure,185,General government|Supervisor of educational service region|Building department,Refunds,item,0,4255,-4255
+FY2022_audit,102,expenditure,186,General government|Supervisor of educational service region|Building department,Travel,item,1000,1696,-696
+FY2022_audit,102,expenditure,187,General government|Supervisor of educational service region|Building department,Senior building inspector,item,69202,70105,-903
+FY2022_audit,102,expenditure,188,General government|Supervisor of educational service region|Building department,Zoning officer,item,39270,39230,40
+FY2022_audit,102,expenditure,189,General government|Supervisor of educational service region,(subtotal of Building department),total,154468,137294,17174
+FY2022_audit,103,expenditure,190,General government|Supervisor of educational service region|Other professional services and capital,Other professional services,item,30000,65057,-35057
+FY2022_audit,103,expenditure,191,General government|Supervisor of educational service region|Other professional services and capital,Other professional services - legal,item,12500,0,12500
+FY2022_audit,103,expenditure,192,General government|Supervisor of educational service region|Other professional services and capital,Building maintenance,item,501284,0,501284
+FY2022_audit,103,expenditure,193,General government|Supervisor of educational service region,(subtotal of Other professional services and capital),total,543784,65057,478727
+FY2022_audit,103,expenditure,194,General government|Supervisor of educational service region|Miscellaneous,Annual audit,item,48700,54725,-6025
+FY2022_audit,103,expenditure,195,General government|Supervisor of educational service region|Miscellaneous,Growth dimensions,item,15000,15000,0
+FY2022_audit,103,expenditure,196,General government|Supervisor of educational service region|Miscellaneous,CASA,item,25000,25000,0
+FY2022_audit,103,expenditure,197,General government|Supervisor of educational service region|Miscellaneous,Veterans Assistance Commission,item,15000,0,15000
+FY2022_audit,103,expenditure,198,General government|Supervisor of educational service region|Miscellaneous,Soil and water conservation district,item,20000,20000,0
+FY2022_audit,103,expenditure,199,General government|Supervisor of educational service region|Miscellaneous,Office supplies,item,100,-7,107
+FY2022_audit,103,expenditure,200,General government|Supervisor of educational service region|Miscellaneous,Publications,item,500,0,500
+FY2022_audit,103,expenditure,201,General government|Supervisor of educational service region|Miscellaneous,Travel,item,1000,0,1000
+FY2022_audit,103,expenditure,202,General government|Supervisor of educational service region|Miscellaneous,Training and conferences,item,1000,164,836
+FY2022_audit,103,expenditure,203,General government|Supervisor of educational service region|Miscellaneous,Contingencies,item,90000,0,90000
+FY2022_audit,103,expenditure,204,General government|Supervisor of educational service region|Miscellaneous,Union dues,item,0,-42,42
+FY2022_audit,103,expenditure,205,General government|Supervisor of educational service region|Miscellaneous,Mapping services,item,0,873,-873
+FY2022_audit,103,expenditure,206,General government|Supervisor of educational service region|Miscellaneous,COVID19,item,0,-1,1
+FY2022_audit,103,expenditure,207,General government|Supervisor of educational service region|Miscellaneous,Unrealized loss on investments,item,0,63955,-63955
+FY2022_audit,103,expenditure,208,General government|Supervisor of educational service region|Miscellaneous,Other,item,0,16195,-16195
+FY2022_audit,103,expenditure,209,General government|Supervisor of educational service region|Miscellaneous,Uniform Allowance,item,0,78013,-78013
+FY2022_audit,103,expenditure,210,General government|Supervisor of educational service region|Miscellaneous,Contingencies #2,item,75000,0,75000
+FY2022_audit,103,expenditure,211,General government|Supervisor of educational service region|Miscellaneous,Miscellaneous,item,0,-262,262
+FY2022_audit,103,expenditure,212,General government|Supervisor of educational service region|Miscellaneous,Unclaimed funds,item,0,-5566,5566
+FY2022_audit,103,expenditure,213,General government|Supervisor of educational service region|Miscellaneous,Bank charges,item,0,338,-338
+FY2022_audit,103,expenditure,214,General government|Supervisor of educational service region|Miscellaneous,Other Professional Services - Other,item,0,-2,2
+FY2022_audit,103,expenditure,215,General government|Supervisor of educational service region|Miscellaneous,Travel,item,0,-3,3
+FY2022_audit,103,expenditure,216,General government|Supervisor of educational service region|Miscellaneous,Telephone,item,0,-1,1
+FY2022_audit,103,expenditure,217,General government|Supervisor of educational service region|Miscellaneous,Capital Improvements,item,0,5420,-5420
+FY2022_audit,103,expenditure,218,General government|Supervisor of educational service region|Miscellaneous,SB1863 Election Postage,item,0,6000,-6000
+FY2022_audit,103,expenditure,219,General government|Supervisor of educational service region|Miscellaneous,Property Maintenance - Other,item,0,666,-666
+FY2022_audit,103,expenditure,220,General government|Supervisor of educational service region|Miscellaneous,Publications - Other,item,0,6,-6
+FY2022_audit,103,expenditure,221,General government|Supervisor of educational service region|Miscellaneous,Uniforms - Other,item,0,1,-1
+FY2022_audit,103,expenditure,222,General government|Supervisor of educational service region|Miscellaneous,Returned deposit Items,item,0,-1,1
+FY2022_audit,103,expenditure,223,General government|Supervisor of educational service region,(subtotal of Miscellaneous),total,291300,280471,10829
+FY2022_audit,103,expenditure,224,General government|Supervisor of educational service region,Employee health insurance,item,0,229001,-229001
+FY2022_audit,103,expenditure,225,,Total general government,total,3522731,3167421,355310
+FY2022_audit,104,expenditure,226,Public Safety|Emergency service and disaster assistance,Salaries - director,item,52227,52502,-275
+FY2022_audit,104,expenditure,227,Public Safety|Emergency service and disaster assistance,Salaries - aide,item,4738,4763,-25
+FY2022_audit,104,expenditure,228,Public Safety|Emergency service and disaster assistance,Office supplies,item,2200,2112,88
+FY2022_audit,104,expenditure,229,Public Safety|Emergency service and disaster assistance,Maintenance supplies,item,500,0,500
+FY2022_audit,104,expenditure,230,Public Safety|Emergency service and disaster assistance,Gas and oil,item,2500,2591,-91
+FY2022_audit,104,expenditure,231,Public Safety|Emergency service and disaster assistance,Travel,item,500,244,256
+FY2022_audit,104,expenditure,232,Public Safety|Emergency service and disaster assistance,Equipment maintenance,item,1000,469,531
+FY2022_audit,104,expenditure,233,Public Safety|Emergency service and disaster assistance,Other professional services,item,500,447,53
+FY2022_audit,104,expenditure,234,Public Safety|Emergency service and disaster assistance,Training and conferences,item,2500,2161,339
+FY2022_audit,104,expenditure,235,Public Safety|Emergency service and disaster assistance,Dues,item,500,507,-7
+FY2022_audit,104,expenditure,236,Public Safety|Emergency service and disaster assistance,Vehicle maintenance,item,3500,1076,2424
+FY2022_audit,104,expenditure,237,Public Safety|Emergency service and disaster assistance,Machinery and equipment,item,4000,2121,1879
+FY2022_audit,104,expenditure,238,Public Safety,(subtotal of Emergency service and disaster assistance),total,74665,68993,5672
+FY2022_audit,104,expenditure,239,Public Safety|County coroner,Salaries - coroner,item,62252,62492,-240
+FY2022_audit,104,expenditure,240,Public Safety|County coroner,Salaries - deputy,item,24969,28893,-3924
+FY2022_audit,104,expenditure,241,Public Safety|County coroner,Salaries - secretary,item,39934,43089,-3155
+FY2022_audit,104,expenditure,242,Public Safety|County coroner,Office supplies,item,1600,905,695
+FY2022_audit,104,expenditure,243,Public Safety|County coroner,Medical supplies,item,2000,843,1157
+FY2022_audit,104,expenditure,244,Public Safety|County coroner,Morgue supplies,item,5000,5008,-8
+FY2022_audit,104,expenditure,245,Public Safety|County coroner,Fuel - other,item,0,58,-58
+FY2022_audit,104,expenditure,246,Public Safety|County coroner,Equipment maintenance,item,720,1044,-324
+FY2022_audit,104,expenditure,247,Public Safety|County coroner,Travel,item,3000,2499,501
+FY2022_audit,104,expenditure,248,Public Safety|County coroner,Postage,item,600,0,600
+FY2022_audit,104,expenditure,249,Public Safety|County coroner,Training and conferences,item,2000,992,1008
+FY2022_audit,104,expenditure,250,Public Safety|County coroner,Lab fees,item,15000,19279,-4279
+FY2022_audit,104,expenditure,251,Public Safety|County coroner,Dues,item,350,0,350
+FY2022_audit,104,expenditure,252,Public Safety|County coroner,Disposition services,item,2000,1000,1000
+FY2022_audit,104,expenditure,253,Public Safety|County coroner,Other professional services,item,35000,41794,-6794
+FY2022_audit,104,expenditure,254,Public Safety|County coroner,Telephone,item,2600,1923,677
+FY2022_audit,104,expenditure,255,Public Safety,(subtotal of County coroner),total,197025,209819,-12794
+FY2022_audit,105,expenditure,256,Public Safety|Sheriff's department,Salaries - sheriff,item,117216,117318,-102
+FY2022_audit,105,expenditure,257,Public Safety|Sheriff's department,Salaries - deputies,item,3035240,3077253,-42013
+FY2022_audit,105,expenditure,258,Public Safety|Sheriff's department,Salaries - overtime,item,235436,253620,-18184
+FY2022_audit,105,expenditure,259,Public Safety|Sheriff's department,E911 Reimbursements,item,-86000,-85676,-324
+FY2022_audit,105,expenditure,260,Public Safety|Sheriff's department,Office supplies,item,9300,8980,320
+FY2022_audit,105,expenditure,261,Public Safety|Sheriff's department,Publications,item,2200,2113,87
+FY2022_audit,105,expenditure,262,Public Safety|Sheriff's department,Gasoline and oil,item,120000,122826,-2826
+FY2022_audit,105,expenditure,263,Public Safety|Sheriff's department,Uniforms,item,52800,18432,34368
+FY2022_audit,105,expenditure,264,Public Safety|Sheriff's department,Postage,item,4100,667,3433
+FY2022_audit,105,expenditure,265,Public Safety|Sheriff's department,Travel,item,15000,11401,3599
+FY2022_audit,105,expenditure,266,Public Safety|Sheriff's department,Training and conferences,item,77000,54221,22779
+FY2022_audit,105,expenditure,267,Public Safety|Sheriff's department,Other professional services,item,15000,14597,403
+FY2022_audit,105,expenditure,268,Public Safety|Sheriff's department,Lab fees,item,400,0,400
+FY2022_audit,105,expenditure,269,Public Safety|Sheriff's department,Dues,item,2450,1747,703
+FY2022_audit,105,expenditure,270,Public Safety|Sheriff's department,Maintenance - vehicles,item,90000,71171,18829
+FY2022_audit,105,expenditure,271,Public Safety|Sheriff's department,Maintenance - equipment,item,73000,82000,-9000
+FY2022_audit,105,expenditure,272,Public Safety|Sheriff's department,K-9 Unit,item,4500,3971,529
+FY2022_audit,105,expenditure,273,Public Safety|Sheriff's department,DARE Program,item,2500,0,2500
+FY2022_audit,105,expenditure,274,Public Safety|Sheriff's department,Firing range,item,5000,3092,1908
+FY2022_audit,105,expenditure,275,Public Safety,(subtotal of Sheriff's department),total,3775142,3757733,17409
+FY2022_audit,105,expenditure,276,Public Safety,Employee health insurance,item,0,1803984,-1803984
+FY2022_audit,105,expenditure,277,,Total public safety,total,4046832,5840529,-1793697
+FY2022_audit,106,expenditure,278,Judiciary and court related|State's attorney,Salaries - department head,item,183434,186370,-2936
+FY2022_audit,106,expenditure,279,Judiciary and court related|State's attorney,Salaries - assistants,item,514722,540512,-25790
+FY2022_audit,106,expenditure,280,Judiciary and court related|State's attorney,Salaries - secretaries,item,116586,155959,-39373
+FY2022_audit,106,expenditure,281,Judiciary and court related|State's attorney,Salaries - grant wages,item,31217,32336,-1119
+FY2022_audit,106,expenditure,282,Judiciary and court related|State's attorney,Office supplies,item,8900,6358,2542
+FY2022_audit,106,expenditure,283,Judiciary and court related|State's attorney,Fuel - other,item,0,1288,-1288
+FY2022_audit,106,expenditure,284,Judiciary and court related|State's attorney,Publications,item,8100,6052,2048
+FY2022_audit,106,expenditure,285,Judiciary and court related|State's attorney,Appellate service,item,22000,21000,1000
+FY2022_audit,106,expenditure,286,Judiciary and court related|State's attorney,Travel,item,4500,3194,1306
+FY2022_audit,106,expenditure,287,Judiciary and court related|State's attorney,Training and conferences,item,2000,1983,17
+FY2022_audit,106,expenditure,288,Judiciary and court related|State's attorney,Dues and memberships,item,3600,1295,2305
+FY2022_audit,106,expenditure,289,Judiciary and court related|State's attorney,Postage,item,4000,34,3966
+FY2022_audit,106,expenditure,290,Judiciary and court related|State's attorney,Other professional services,item,1300,19335,-18035
+FY2022_audit,106,expenditure,291,Judiciary and court related|State's attorney,Office equipment,item,8700,4207,4493
+FY2022_audit,106,expenditure,292,Judiciary and court related|State's attorney,Other professional services/legal,item,26780,0,26780
+FY2022_audit,106,expenditure,293,Judiciary and court related|State's attorney,"Publications, West Publishing",item,0,1330,-1330
+FY2022_audit,106,expenditure,294,Judiciary and court related,(subtotal of State's attorney),total,935839,981253,-45414
+FY2022_audit,106,expenditure,295,Judiciary and court related|Public defender,Salaries - public defender,item,165091,198151,-33060
+FY2022_audit,106,expenditure,296,Judiciary and court related|Public defender,Salaries - assistant public defender,item,181584,161845,19739
+FY2022_audit,106,expenditure,297,Judiciary and court related|Public defender,Salaries - secretaries,item,79997,61376,18621
+FY2022_audit,106,expenditure,298,Judiciary and court related|Public defender,Publications,item,6410,6291,119
+FY2022_audit,106,expenditure,299,Judiciary and court related|Public defender,Training and conferences,item,2500,1774,726
+FY2022_audit,106,expenditure,300,Judiciary and court related|Public defender,Maintenance,item,1133,621,512
+FY2022_audit,106,expenditure,301,Judiciary and court related|Public defender,Utilities,item,6250,6611,-361
+FY2022_audit,106,expenditure,302,Judiciary and court related|Public defender,Postage,item,660,708,-48
+FY2022_audit,106,expenditure,303,Judiciary and court related|Public defender,Dues,item,1540,1540,0
+FY2022_audit,106,expenditure,304,Judiciary and court related|Public defender,Lease of property,item,24000,0,24000
+FY2022_audit,106,expenditure,305,Judiciary and court related|Public defender,Office supplies,item,3000,4018,-1018
+FY2022_audit,106,expenditure,306,Judiciary and court related,(subtotal of Public defender),total,472165,442935,29230
+FY2022_audit,107,expenditure,307,Judiciary and court related|Probation,Salaries - officers,item,356619,337346,19273
+FY2022_audit,107,expenditure,308,Judiciary and court related|Probation,Salaries - supervisors,item,82600,82912,-312
+FY2022_audit,107,expenditure,309,Judiciary and court related|Probation,Salaries - secretary,item,31720,604,31116
+FY2022_audit,107,expenditure,310,Judiciary and court related|Probation,Office supplies,item,8000,5474,2526
+FY2022_audit,107,expenditure,311,Judiciary and court related|Probation,Equipment maintenance,item,6000,4407,1593
+FY2022_audit,107,expenditure,312,Judiciary and court related|Probation,Fuel,item,1500,1175,325
+FY2022_audit,107,expenditure,313,Judiciary and court related|Probation,Postage,item,750,377,373
+FY2022_audit,107,expenditure,314,Judiciary and court related|Probation,Printing and reproduction,item,500,325,175
+FY2022_audit,107,expenditure,315,Judiciary and court related|Probation,Dues,item,400,400,0
+FY2022_audit,107,expenditure,316,Judiciary and court related|Probation,Juvenile placement,item,50000,78473,-28473
+FY2022_audit,107,expenditure,317,Judiciary and court related,(subtotal of Probation),total,538089,511493,26596
+FY2022_audit,107,expenditure,318,Judiciary and court related|Circuit clerk,Salaries - circuit clerk,item,78598,69044,9554
+FY2022_audit,107,expenditure,319,Judiciary and court related|Circuit clerk,Salaries - clerk,item,722407,589160,133247
+FY2022_audit,107,expenditure,320,Judiciary and court related|Circuit clerk,Salaries - non-union,item,59987,72575,-12588
+FY2022_audit,107,expenditure,321,Judiciary and court related|Circuit clerk,Salaries - overtime,item,4000,1788,2212
+FY2022_audit,107,expenditure,322,Judiciary and court related|Circuit clerk,Office supplies,item,6000,7595,-1595
+FY2022_audit,107,expenditure,323,Judiciary and court related|Circuit clerk,Equipment,item,13400,13400,0
+FY2022_audit,107,expenditure,324,Judiciary and court related|Circuit clerk,Overtime,item,0,-702,702
+FY2022_audit,107,expenditure,325,Judiciary and court related,(subtotal of Circuit clerk),total,884392,752860,131532
+FY2022_audit,107,expenditure,326,Judiciary and court related|Judicial,Salaries - judges,item,2015,2051,-36
+FY2022_audit,107,expenditure,327,Judiciary and court related|Judicial,Salaries - assistant,item,21746,21742,4
+FY2022_audit,107,expenditure,328,Judiciary and court related|Judicial,Office supplies,item,3000,2224,776
+FY2022_audit,107,expenditure,329,Judiciary and court related|Judicial,Publications,item,5250,3899,1351
+FY2022_audit,107,expenditure,330,Judiciary and court related|Judicial,Equipment maintenance,item,2000,1039,961
+FY2022_audit,107,expenditure,331,Judiciary and court related|Judicial,Travel,item,250,0,250
+FY2022_audit,107,expenditure,332,Judiciary and court related|Judicial,Equipment,item,3000,42155,-39155
+FY2022_audit,107,expenditure,333,Judiciary and court related|Judicial,Legal Services/Rotation,item,0,123399,-123399
+FY2022_audit,107,expenditure,334,Judiciary and court related,(subtotal of Judicial),total,37261,196509,-159248
+FY2022_audit,108,expenditure,335,Judiciary and court related|County corrections,Salaries - union,item,2028000,2203587,-175587
+FY2022_audit,108,expenditure,336,Judiciary and court related|County corrections,Salaries - non-union,item,139871,139128,743
+FY2022_audit,108,expenditure,337,Judiciary and court related|County corrections,Salaries - overtime,item,180000,246314,-66314
+FY2022_audit,108,expenditure,338,Judiciary and court related|County corrections,Office supplies,item,6500,6376,124
+FY2022_audit,108,expenditure,339,Judiciary and court related|County corrections,Fuel - other,item,1000,1022,-22
+FY2022_audit,108,expenditure,340,Judiciary and court related|County corrections,Maintenance supplies,item,46000,42020,3980
+FY2022_audit,108,expenditure,341,Judiciary and court related|County corrections,Food,item,220000,191544,28456
+FY2022_audit,108,expenditure,342,Judiciary and court related|County corrections,Uniforms,item,37400,5344,32056
+FY2022_audit,108,expenditure,343,Judiciary and court related|County corrections,Property maintenance - other,item,5300,1737,3563
+FY2022_audit,108,expenditure,344,Judiciary and court related|County corrections,Vehicle maintenance,item,1500,1498,2
+FY2022_audit,108,expenditure,345,Judiciary and court related|County corrections,Snow removal,item,1000,1530,-530
+FY2022_audit,108,expenditure,346,Judiciary and court related|County corrections,Equipment maintenance,item,56500,52691,3809
+FY2022_audit,108,expenditure,347,Judiciary and court related|County corrections,Waste disposal,item,6300,6760,-460
+FY2022_audit,108,expenditure,348,Judiciary and court related|County corrections,Insurance and bonds,item,500,429,71
+FY2022_audit,108,expenditure,349,Judiciary and court related|County corrections,Training and conferences,item,21750,20619,1131
+FY2022_audit,108,expenditure,350,Judiciary and court related|County corrections,Postage,item,300,0,300
+FY2022_audit,108,expenditure,351,Judiciary and court related|County corrections,Publishing and advertising,item,1250,0,1250
+FY2022_audit,108,expenditure,352,Judiciary and court related|County corrections,Printing,item,2000,1931,69
+FY2022_audit,108,expenditure,353,Judiciary and court related|County corrections,Other professional services,item,66000,28072,37928
+FY2022_audit,108,expenditure,354,Judiciary and court related|County corrections,Dues,item,250,0,250
+FY2022_audit,108,expenditure,355,Judiciary and court related|County corrections,Machinery and equipment,item,48000,18193,29807
+FY2022_audit,108,expenditure,356,Judiciary and court related|County corrections,COVID19,item,0,167,-167
+FY2022_audit,108,expenditure,357,Judiciary and court related|County corrections,Health Department jail staff wages,item,43185,0,43185
+FY2022_audit,108,expenditure,358,Judiciary and court related,(subtotal of County corrections),total,2912606,2968962,-56356
+FY2022_audit,108,expenditure,359,Judiciary and court related|County public safety building,Salaries - regular,item,1353784,1242903,110881
+FY2022_audit,108,expenditure,360,Judiciary and court related|County public safety building,Salaries - overtime,item,96000,167524,-71524
+FY2022_audit,108,expenditure,361,Judiciary and court related|County public safety building,Office supplies,item,11000,10610,390
+FY2022_audit,108,expenditure,362,Judiciary and court related|County public safety building,Maintenance supplies,item,9600,11180,-1580
+FY2022_audit,108,expenditure,363,Judiciary and court related|County public safety building,Gas and oil,item,600,601,-1
+FY2022_audit,108,expenditure,364,Judiciary and court related|County public safety building,Uniforms,item,16000,1096,14904
+FY2022_audit,108,expenditure,365,Judiciary and court related|County public safety building,Property maintenance,item,19000,13964,5036
+FY2022_audit,108,expenditure,366,Judiciary and court related|County public safety building,Equipment maintenance,item,173000,126110,46890
+FY2022_audit,108,expenditure,367,Judiciary and court related|County public safety building,Waste disposal,item,3700,5393,-1693
+FY2022_audit,108,expenditure,368,Judiciary and court related|County public safety building,Utilities,item,16000,20016,-4016
+FY2022_audit,108,expenditure,369,Judiciary and court related|County public safety building,Training and conferences,item,2500,1782,718
+FY2022_audit,108,expenditure,370,Judiciary and court related|County public safety building,Postage,item,1000,351,649
+FY2022_audit,108,expenditure,371,Judiciary and court related|County public safety building,Other professional services,item,1000,100,900
+FY2022_audit,108,expenditure,372,Judiciary and court related|County public safety building,Snow removal,item,2500,2275,225
+FY2022_audit,108,expenditure,373,Judiciary and court related|County public safety building,Equipment rental,item,5400,4802,598
+FY2022_audit,108,expenditure,374,Judiciary and court related|County public safety building,Machinery and equipment,item,11846,8687,3159
+FY2022_audit,108,expenditure,375,Judiciary and court related,(subtotal of County public safety building),total,1722930,1617394,105536
+FY2022_audit,109,expenditure,376,Judiciary and court related|Jurors and other legal services,Legal service/rotation,item,75000,0,75000
+FY2022_audit,109,expenditure,377,Judiciary and court related|Jurors and other legal services,Legal services/contract,item,40000,33920,6080
+FY2022_audit,109,expenditure,378,Judiciary and court related|Jurors and other legal services,Interpreter wages,item,46218,43496,2722
+FY2022_audit,109,expenditure,379,Judiciary and court related|Jurors and other legal services,Other professional services - court legal,item,22500,0,22500
+FY2022_audit,109,expenditure,380,Judiciary and court related|Jurors and other legal services,Grand jury per diem,item,3000,0,3000
+FY2022_audit,109,expenditure,381,Judiciary and court related|Jurors and other legal services,Petit jury per diem,item,20000,9383,10617
+FY2022_audit,109,expenditure,382,Judiciary and court related|Jurors and other legal services,Meals and lodging,item,2000,275,1725
+FY2022_audit,109,expenditure,383,Judiciary and court related|Jurors and other legal services,Court administrator services,item,13500,13500,0
+FY2022_audit,109,expenditure,384,Judiciary and court related|Jurors and other legal services,Office supplies,item,400,43,357
+FY2022_audit,109,expenditure,385,Judiciary and court related|Jurors and other legal services,Publications,item,3500,5070,-1570
+FY2022_audit,109,expenditure,386,Judiciary and court related|Jurors and other legal services,Travel,item,0,944,-944
+FY2022_audit,109,expenditure,387,Judiciary and court related|Jurors and other legal services,Other professional services,item,0,510,-510
+FY2022_audit,109,expenditure,388,Judiciary and court related|Jurors and other legal services,Other professional services - court legal,item,4000,0,4000
+FY2022_audit,109,expenditure,389,Judiciary and court related|Jurors and other legal services,Court reporter services,item,33000,22569,10431
+FY2022_audit,109,expenditure,390,Judiciary and court related|Jurors and other legal services,Other professional services,item,0,5925,-5925
+FY2022_audit,109,expenditure,391,Judiciary and court related|Jurors and other legal services,Witness fees,item,8000,40,7960
+FY2022_audit,109,expenditure,392,Judiciary and court related|Jurors and other legal services,Court evaluations,item,2000,0,2000
+FY2022_audit,109,expenditure,393,Judiciary and court related|Jurors and other legal services,Other professional services - other,item,0,12534,-12534
+FY2022_audit,109,expenditure,394,Judiciary and court related|Jurors and other legal services,Office Supplies,item,0,238,-238
+FY2022_audit,109,expenditure,395,Judiciary and court related|Jurors and other legal services,Food,item,0,-1,1
+FY2022_audit,109,expenditure,396,Judiciary and court related|Jurors and other legal services,Meals & Lodging - Court,item,0,81,-81
+FY2022_audit,109,expenditure,397,Judiciary and court related,(subtotal of Jurors and other legal services),total,273118,148527,124591
+FY2022_audit,109,expenditure,398,Judiciary and court related,Employee health insurance,item,0,587015,-587015
+FY2022_audit,109,expenditure,399,,Total judiciary and court related,total,7776400,8206948,-430548
+FY2022_audit,109,expenditure,400,Public health,Health dept. staff wages,item,0,25273,-25273
+FY2022_audit,109,expenditure,401,Public health|Debt service and capital outlay,Debt service - principal,item,0,131132,-131132
+FY2022_audit,109,expenditure,402,Public health|Debt service and capital outlay,Debt service - interest,item,0,5534,-5534
+FY2022_audit,109,expenditure,403,Public health|Debt service and capital outlay,Capital outlay,item,0,282238,-282238
+FY2022_audit,109,expenditure,404,Public health,Total debt service and capital outlay,total,0,418904,-418904
+FY2022_audit,109,expenditure,405,,Total expenditures,total,15345963,17659075,-2313112

@@ -58,3 +58,25 @@ def test_general_fund_balance_chain_between_audits():
         assert got == want or (fy, got - want) == (2021, 100024), (fy, want, got)
     assert lines(2025, "General")[-1][1] == 13812064
     assert lines(2025, "Total Governmental")[-1][1] == 43666257
+
+
+def gf_rows(fy):
+    return list(csv.DictReader(open(AUD / f"FY{fy}_audit_gf_schedule.csv", newline="")))
+
+
+def test_general_fund_schedules_pass_every_check_in_all_eleven_audits():
+    for fy in range(2015, 2026):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_gf_schedule_checks.csv", newline="")))
+        assert len(checks) >= 35 and all(c["ok"] == "True" for c in checks), fy
+
+
+def test_general_fund_schedule_totals():
+    def total(fy, name):
+        return next(r for r in gf_rows(fy) if r["line_type"] == "total" and r["path"] == "" and r["label"].lower() == name)
+    assert (int(total(2025, "total revenues")["budget"]), int(total(2025, "total revenues")["actual"])) == (18898960, 20439677)
+    assert int(total(2025, "total expenditures")["actual"]) == 21030404
+    # FY2015-FY2019 the schedules equal the governmental funds statement's General column to the dollar
+    for fy in range(2015, 2020):
+        st = {r["label"].lower(): int(r["amount"]) for r in audit_rows(fy) if r["statement"] == "changes" and r["col"] == "General"}
+        assert int(total(fy, "total revenues")["actual"]) == st["total revenues"], fy
+        assert int(total(fy, "total expenditures")["actual"]) == st["total expenditures"], fy

@@ -1,0 +1,48 @@
+check,ok,detail
+group total: Total taxes,True,
+group total: Total intergovernmental revenue,True,
+group total: Total licenses and permits,True,
+group total: Total fines and fees,True,
+group total: Total charges for service,True,
+group total: Total miscellaneous,True,
+group total: TOTAL REVENUES,True,
+total revenue,True,budget 18809080 actual 21142772
+group total: Total county buildings,True,
+group total: Total county board,True,
+group total: Total county farm,True,
+group total: Total county treasurer,True,
+group total: Total county clerk and recorder,True,
+group total: Total zoning,True,
+group total: Total planning,True,
+group total: Total supervisor of assessments,True,
+group total: Total supervisor of educational service region,True,
+group total: Total administrative services,True,
+group total: Total board of review,True,
+group total: Total election,True,
+group total: Total logan avenue building,True,
+group total: Total information technology,True,
+group total: Total building department,True,
+group total: Total other professional services and capital,True,
+group total: Total miscellaneous,True,
+group total: Total general control and administration,True,
+group total: Total emergency service and disaster assistance,True,
+group total: Total county coroner,True,
+group total: Total sheriff's department,True,
+group total: Total general public safety,True,
+group total: Total public safety,True,
+group total: Total state's attorney,True,
+group total: Total public defender,True,
+group total: Total probation,True,
+group total: Total circuit clerk,True,
+group total: Total judicial,True,
+group total: Total county corrections,True,
+group total: Total court services,True,
+group total: Total jurors and other legal services,True,
+group total: Total judiciary and courts,True,
+accepted difference: Total debt service budget,True,diff -5000
+accepted difference: Total debt service variance,True,diff 5000
+accepted difference: variance of TOTAL EXPENDITURES,True,printed 3377455 expected 3382455
+accepted difference: TOTAL EXPENDITURES variance,True,diff 5000
+total expenditure,True,budget 18014299 actual 21396754
+TOTAL REVENUES actual vs governmental funds statement General column,True,schedule 21142772 statement 21229326 difference 86554
+TOTAL EXPENDITURES actual vs governmental funds statement General column,True,schedule 21396754 statement 21474400 difference 77646

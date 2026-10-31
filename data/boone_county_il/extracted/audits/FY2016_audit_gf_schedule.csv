@@ -1,0 +1,359 @@
+doc_id,pdf_page,schedule,row_seq,path,label,line_type,budget,actual,variance
+FY2016_audit,95,revenue,1,Taxes,Property taxes,item,5710000,5672191,-37809
+FY2016_audit,95,revenue,2,Taxes,State income tax,item,2036027,1859836,-176191
+FY2016_audit,95,revenue,3,Taxes,State sales tax,item,1539240,1441312,-97928
+FY2016_audit,95,revenue,4,Taxes,Replacement tax,item,540556,469562,-70994
+FY2016_audit,95,revenue,5,Taxes,Use tax,item,421512,456218,34706
+FY2016_audit,95,revenue,6,,Total taxes,total,10247335,9899119,-348216
+FY2016_audit,95,revenue,7,"Fees, licenses, permits and fines",County clerk fees,item,54000,37074,-16926
+FY2016_audit,95,revenue,8,"Fees, licenses, permits and fines",County sheriff fees,item,135419,132358,-3061
+FY2016_audit,95,revenue,9,"Fees, licenses, permits and fines",State's attorney fees,item,51000,41201,-9799
+FY2016_audit,95,revenue,10,"Fees, licenses, permits and fines",County coroner fees,item,11000,7965,-3035
+FY2016_audit,95,revenue,11,"Fees, licenses, permits and fines",County recorder,item,99044,107851,8807
+FY2016_audit,95,revenue,12,"Fees, licenses, permits and fines",Licenses and permits,item,179841,163109,-16732
+FY2016_audit,95,revenue,13,"Fees, licenses, permits and fines",Criminal fines,item,265000,241882,-23118
+FY2016_audit,95,revenue,14,"Fees, licenses, permits and fines",Traffic fines,item,740116,597722,-142394
+FY2016_audit,95,revenue,15,"Fees, licenses, permits and fines",Cable franchise fees,item,65000,91695,26695
+FY2016_audit,95,revenue,16,"Fees, licenses, permits and fines",Circuit court fees,item,674788,589734,-85054
+FY2016_audit,95,revenue,17,"Fees, licenses, permits and fines",Counsel fees,item,3000,1792,-1208
+FY2016_audit,95,revenue,18,"Fees, licenses, permits and fines",Finance court,item,0,46544,46544
+FY2016_audit,95,revenue,19,"Fees, licenses, permits and fines",Penalty late taxes,item,156000,149780,-6220
+FY2016_audit,95,revenue,20,"Fees, licenses, permits and fines",Other,item,7849,7435,-414
+FY2016_audit,95,revenue,21,,"Total fees, licenses, permits and fines",total,2442057,2216142,-225915
+FY2016_audit,95,revenue,22,Intergovernmental revenue,State of Illinois salary reimbursements,item,448038,480652,32614
+FY2016_audit,95,revenue,23,Intergovernmental revenue,County sheriff reimbursements,item,259000,312074,53074
+FY2016_audit,95,revenue,24,Intergovernmental revenue,Public safety building operations - city,item,742140,655966,-86174
+FY2016_audit,95,revenue,25,Intergovernmental revenue,Grants,item,277200,164144,-113056
+FY2016_audit,95,revenue,26,Intergovernmental revenue,Reimbursement from City of Belvidere,item,45100,25370,-19730
+FY2016_audit,95,revenue,27,Intergovernmental revenue,Other,item,181500,15951,-165549
+FY2016_audit,95,revenue,28,,Total intergovernmental revenue,total,1952978,1654157,-298821
+FY2016_audit,95,revenue,29,Interest,Investments,item,3000,5000,2000
+FY2016_audit,95,revenue,30,Interest|Miscellaneous,Work release,item,28710,18638,-10072
+FY2016_audit,95,revenue,31,Interest|Miscellaneous,Revenue stamps,item,71000,83850,12850
+FY2016_audit,95,revenue,32,Interest|Miscellaneous,Miscellaneous,item,174793,69463,-105330
+FY2016_audit,95,revenue,33,Interest|Miscellaneous,Penalties,item,20000,15590,-4410
+FY2016_audit,95,revenue,34,Interest|Miscellaneous,Rent,item,124000,124080,80
+FY2016_audit,95,revenue,35,Interest|Miscellaneous,County farm,item,17000,17360,360
+FY2016_audit,95,revenue,36,Interest,Total miscellaneous,total,435503,328981,-106522
+FY2016_audit,95,revenue,37,,TOTAL REVENUES,total,15080873,14103399,-977474
+FY2016_audit,96,expenditure,38,General Government|Courthouse,Salaries - other full-time,item,157955,153645,-4310
+FY2016_audit,96,expenditure,39,General Government|Courthouse,Salaries - overtime,item,1000,0,-1000
+FY2016_audit,96,expenditure,40,General Government|Courthouse,Maintenance supplies,item,9054,8561,-493
+FY2016_audit,96,expenditure,41,General Government|Courthouse,Gas and oil,item,1390,93,-1297
+FY2016_audit,96,expenditure,42,General Government|Courthouse,Uniforms,item,1950,2300,350
+FY2016_audit,96,expenditure,43,General Government|Courthouse,Utilities,item,319022,304000,-15022
+FY2016_audit,96,expenditure,44,General Government|Courthouse,Telephone,item,84000,94436,10436
+FY2016_audit,96,expenditure,45,General Government|Courthouse,Snow removal,item,2000,1307,-693
+FY2016_audit,96,expenditure,46,General Government|Courthouse,Waste disposal,item,1306,1156,-150
+FY2016_audit,96,expenditure,47,General Government|Courthouse,Maintenance - equipment,item,8720,10139,1419
+FY2016_audit,96,expenditure,48,General Government|Courthouse,Maintenance - grounds,item,7900,7921,21
+FY2016_audit,96,expenditure,49,General Government|Courthouse,Training and conferences,item,500,0,-500
+FY2016_audit,96,expenditure,50,General Government|Courthouse,Equipment,item,500,86,-414
+FY2016_audit,96,expenditure,51,General Government,Total courthouse,total,595297,583644,-11653
+FY2016_audit,96,expenditure,52,General Government|County board,Chairman,item,12000,11400,-600
+FY2016_audit,96,expenditure,53,General Government|County board,Travel,item,11000,9364,-1636
+FY2016_audit,96,expenditure,54,General Government|County board,Other professional services,item,0,2,2
+FY2016_audit,96,expenditure,55,General Government|County board,Per diem,item,44000,43082,-918
+FY2016_audit,96,expenditure,56,General Government|County board,Dues and memberships,item,3750,3715,-35
+FY2016_audit,96,expenditure,57,General Government|County board,Liquor commission,item,100,0,-100
+FY2016_audit,96,expenditure,58,General Government,Total county board,total,70850,67563,-3287
+FY2016_audit,96,expenditure,59,General Government|County farm,Taxes,item,2800,2842,42
+FY2016_audit,96,expenditure,60,General Government|County farm|County treasurer,Salaries - department head,item,73144,73702,558
+FY2016_audit,96,expenditure,61,General Government|County farm|County treasurer,Salaries - deputies,item,77389,76623,-766
+FY2016_audit,96,expenditure,62,General Government|County farm|County treasurer,Office supplies,item,1200,1031,-169
+FY2016_audit,96,expenditure,63,General Government|County farm|County treasurer,Advertising and publishing,item,1300,490,-810
+FY2016_audit,96,expenditure,64,General Government|County farm|County treasurer,Travel,item,700,612,-88
+FY2016_audit,96,expenditure,65,General Government|County farm|County treasurer,Postage,item,12200,10664,-1536
+FY2016_audit,96,expenditure,66,General Government|County farm|County treasurer,Printing,item,4500,4494,-6
+FY2016_audit,96,expenditure,67,General Government|County farm|County treasurer,Dues and membership,item,450,300,-150
+FY2016_audit,96,expenditure,68,General Government|County farm|County treasurer,Maintenance equipment,item,500,225,-275
+FY2016_audit,96,expenditure,69,General Government|County farm,Total county treasurer,total,171383,168141,-3242
+FY2016_audit,96,expenditure,70,General Government|County farm|County clerk and recorder,Salaries - department head,item,80207,80805,598
+FY2016_audit,96,expenditure,71,General Government|County farm|County clerk and recorder,Salaries - deputies,item,164336,163053,-1283
+FY2016_audit,96,expenditure,72,General Government|County farm|County clerk and recorder,Office supplies,item,8500,3942,-4558
+FY2016_audit,96,expenditure,73,General Government|County farm|County clerk and recorder,Equipment maintenance,item,500,420,-80
+FY2016_audit,96,expenditure,74,General Government|County farm|County clerk and recorder,Travel,item,850,667,-183
+FY2016_audit,96,expenditure,75,General Government|County farm|County clerk and recorder,Training,item,2000,1773,-227
+FY2016_audit,97,expenditure,76,General Government|County farm|County clerk and recorder,"Printing, duplicating and binding",item,4000,2208,-1792
+FY2016_audit,97,expenditure,77,General Government|County farm|County clerk and recorder,Postage,item,4500,3000,-1500
+FY2016_audit,97,expenditure,78,General Government|County farm|County clerk and recorder,Dues and memberships,item,465,365,-100
+FY2016_audit,97,expenditure,79,General Government|County farm|County clerk and recorder,Data processing,item,25000,30355,5355
+FY2016_audit,97,expenditure,80,General Government|County farm|County clerk and recorder,Office equipment,item,6000,4007,-1993
+FY2016_audit,97,expenditure,81,General Government|County farm|County clerk and recorder,Miscellaneous fees (register births and deaths),item,350,280,-70
+FY2016_audit,97,expenditure,82,General Government|County farm,Total county clerk and recorder,total,296708,290875,-5833
+FY2016_audit,97,expenditure,83,General Government|County farm|Zoning,Travel,item,300,0,-300
+FY2016_audit,97,expenditure,84,General Government|County farm|Zoning,Advertising and publishing,item,100,0,-100
+FY2016_audit,97,expenditure,85,General Government|County farm|Zoning,Training and conference,item,100,0,-100
+FY2016_audit,97,expenditure,86,General Government|County farm|Zoning,Per diem,item,2000,2560,560
+FY2016_audit,97,expenditure,87,General Government|County farm,Total zoning,total,2500,2560,60
+FY2016_audit,97,expenditure,88,General Government|County farm|Supervisor of assessments,Salaries - department,item,72020,72593,573
+FY2016_audit,97,expenditure,89,General Government|County farm|Supervisor of assessments,Salaries - clerks,item,108147,108963,816
+FY2016_audit,97,expenditure,90,General Government|County farm|Supervisor of assessments,Office supplies,item,1500,712,-788
+FY2016_audit,97,expenditure,91,General Government|County farm|Supervisor of assessments,Printing,item,5750,6495,745
+FY2016_audit,97,expenditure,92,General Government|County farm|Supervisor of assessments,Equipment maintenance,item,3708,4263,555
+FY2016_audit,97,expenditure,93,General Government|County farm|Supervisor of assessments,Travel,item,1100,0,-1100
+FY2016_audit,97,expenditure,94,General Government|County farm|Supervisor of assessments,Mapping maintenance,item,1000,999,-1
+FY2016_audit,97,expenditure,95,General Government|County farm|Supervisor of assessments,Training and conference,item,2470,0,-2470
+FY2016_audit,97,expenditure,96,General Government|County farm|Supervisor of assessments,Advertising and publishing,item,12335,16019,3684
+FY2016_audit,97,expenditure,97,General Government|County farm|Supervisor of assessments,Postage,item,9810,7404,-2406
+FY2016_audit,97,expenditure,98,General Government|County farm|Supervisor of assessments,Dues and memberships,item,1019,424,-595
+FY2016_audit,97,expenditure,99,General Government|County farm|Supervisor of assessments,Other professional services,item,2375,520,-1855
+FY2016_audit,97,expenditure,100,General Government|County farm,Total supervisor of assessments,total,221234,218392,-2842
+FY2016_audit,97,expenditure,101,General Government|County farm|Supervisor of Educational Service Region,Intergovernmental education service,item,84567,83821,-746
+FY2016_audit,97,expenditure,102,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Salaries - department head,item,124848,125794,946
+FY2016_audit,97,expenditure,103,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Salaries - secretary,item,31200,23588,-7612
+FY2016_audit,97,expenditure,104,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Salaries - administrative assistant,item,48328,49186,858
+FY2016_audit,97,expenditure,105,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Salaries - part-time administrative assistant,item,3000,0,-3000
+FY2016_audit,97,expenditure,106,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Stationery and supplies,item,3400,1508,-1892
+FY2016_audit,97,expenditure,107,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Publications,item,320,129,-191
+FY2016_audit,97,expenditure,108,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Travel,item,2500,2795,295
+FY2016_audit,97,expenditure,109,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Postage,item,3950,2700,-1250
+FY2016_audit,97,expenditure,110,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Training and conferences,item,2650,2244,-406
+FY2016_audit,97,expenditure,111,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Publishing and advertising,item,500,692,192
+FY2016_audit,97,expenditure,112,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Maintenance - equipment,item,6252,6631,379
+FY2016_audit,97,expenditure,113,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Dues and memberships,item,1980,2276,296
+FY2016_audit,97,expenditure,114,General Government|County farm|Supervisor of Educational Service Region|Administrative services,Equipment,item,0,158,158
+FY2016_audit,97,expenditure,115,General Government|County farm|Supervisor of Educational Service Region,Total administrative services,total,228928,217701,-11227
+FY2016_audit,98,expenditure,116,General Government|County farm|Supervisor of Educational Service Region|Board of review,Salaries - board members,item,17230,17355,125
+FY2016_audit,98,expenditure,117,General Government|County farm|Supervisor of Educational Service Region|Board of review,Office supplies,item,200,98,-102
+FY2016_audit,98,expenditure,118,General Government|County farm|Supervisor of Educational Service Region|Board of review,Travel,item,1000,596,-404
+FY2016_audit,98,expenditure,119,General Government|County farm|Supervisor of Educational Service Region|Board of review,Advertising and publishing,item,150,65,-85
+FY2016_audit,98,expenditure,120,General Government|County farm|Supervisor of Educational Service Region|Board of review|Other professional services,Postage,item,1000,800,-200
+FY2016_audit,98,expenditure,121,General Government|County farm|Supervisor of Educational Service Region|Board of review|Other professional services,Training and conference,item,2130,949,-1181
+FY2016_audit,98,expenditure,122,General Government|County farm|Supervisor of Educational Service Region|Board of review|Other professional services,Dues,item,40,0,-40
+FY2016_audit,98,expenditure,123,General Government|County farm|Supervisor of Educational Service Region,Total board of review,total,21750,19863,-1887
+FY2016_audit,98,expenditure,124,General Government|County farm|Supervisor of Educational Service Region|Election,Salaries - clerks,item,5800,4810,-990
+FY2016_audit,98,expenditure,125,General Government|County farm|Supervisor of Educational Service Region|Election,Printing paper and supplies,item,220127,179796,-40331
+FY2016_audit,98,expenditure,126,General Government|County farm|Supervisor of Educational Service Region|Election,Voter registration,item,27500,33400,5900
+FY2016_audit,98,expenditure,127,General Government|County farm|Supervisor of Educational Service Region,Total election,total,253427,218006,-35421
+FY2016_audit,98,expenditure,128,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Salaries - maintenance,item,15202,17824,2622
+FY2016_audit,98,expenditure,129,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Maintenance supplies,item,6000,5356,-644
+FY2016_audit,98,expenditure,130,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Property maintenance,item,10700,13264,2564
+FY2016_audit,98,expenditure,131,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Equipment maintenance,item,3000,592,-2408
+FY2016_audit,98,expenditure,132,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Waste disposal,item,1700,2274,574
+FY2016_audit,98,expenditure,133,General Government|County farm|Supervisor of Educational Service Region|Logan Avenue Building,Utilities,item,19800,19455,-345
+FY2016_audit,98,expenditure,134,General Government|County farm|Supervisor of Educational Service Region,Total Logan Avenue Building,total,56402,58765,2363
+FY2016_audit,98,expenditure,135,General Government|County farm|Supervisor of Educational Service Region|Information technology,Salaries - computer coordinator,item,54030,38389,-15641
+FY2016_audit,98,expenditure,136,General Government|County farm|Supervisor of Educational Service Region|Information technology,Computer replacement,item,6000,17396,11396
+FY2016_audit,98,expenditure,137,General Government|County farm|Supervisor of Educational Service Region|Information technology,Telephone,item,12600,8896,-3704
+FY2016_audit,98,expenditure,138,General Government|County farm|Supervisor of Educational Service Region|Information technology,Travel,item,500,0,-500
+FY2016_audit,98,expenditure,139,General Government|County farm|Supervisor of Educational Service Region|Information technology,Training and conferences,item,250,0,-250
+FY2016_audit,98,expenditure,140,General Government|County farm|Supervisor of Educational Service Region|Information technology,Professional services,item,135356,130380,-4976
+FY2016_audit,98,expenditure,141,General Government|County farm|Supervisor of Educational Service Region|Information technology,Equipment,item,10000,16655,6655
+FY2016_audit,98,expenditure,142,General Government|County farm|Supervisor of Educational Service Region|Information technology,Other,item,100,136,36
+FY2016_audit,98,expenditure,143,General Government|County farm|Supervisor of Educational Service Region,Total information technology,total,218836,211852,-6984
+FY2016_audit,98,expenditure,144,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,GIS coordinator,item,39725,40045,320
+FY2016_audit,98,expenditure,145,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,GIS specialist,item,38034,38342,308
+FY2016_audit,98,expenditure,146,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Office supplies,item,500,207,-293
+FY2016_audit,98,expenditure,147,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Maintenance of equipment,item,1070,1124,54
+FY2016_audit,98,expenditure,148,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Travel,item,350,25,-325
+FY2016_audit,98,expenditure,149,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Training and conferences,item,2000,0,-2000
+FY2016_audit,98,expenditure,150,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Other professional services,item,5400,5400,0
+FY2016_audit,98,expenditure,151,General Government|County farm|Supervisor of Educational Service Region|Geographic information systems,Dues,item,100,110,10
+FY2016_audit,98,expenditure,152,General Government|County farm|Supervisor of Educational Service Region,Total geographic information systems,total,87179,85253,-1926
+FY2016_audit,99,expenditure,153,General Government|County farm|Supervisor of Educational Service Region|Building department,Salary - building inspector,item,60741,61208,467
+FY2016_audit,99,expenditure,154,General Government|County farm|Supervisor of Educational Service Region|Building department,Salary - building inspector,item,50000,0,-50000
+FY2016_audit,99,expenditure,155,General Government|County farm|Supervisor of Educational Service Region|Building department,Salary - zoning officer,item,33818,34075,257
+FY2016_audit,99,expenditure,156,General Government|County farm|Supervisor of Educational Service Region|Building department,Salary - plumbing inspector,item,12734,13087,353
+FY2016_audit,99,expenditure,157,General Government|County farm|Supervisor of Educational Service Region|Building department,Salary - electrical inspector,item,12734,13087,353
+FY2016_audit,99,expenditure,158,General Government|County farm|Supervisor of Educational Service Region|Building department,Office supplies,item,1200,607,-593
+FY2016_audit,99,expenditure,159,General Government|County farm|Supervisor of Educational Service Region|Building department,Fuel,item,2400,1132,-1268
+FY2016_audit,99,expenditure,160,General Government|County farm|Supervisor of Educational Service Region|Building department,Uniforms,item,250,0,-250
+FY2016_audit,99,expenditure,161,General Government|County farm|Supervisor of Educational Service Region|Building department,Publications,item,500,245,-255
+FY2016_audit,99,expenditure,162,General Government|County farm|Supervisor of Educational Service Region|Building department,Maintenance of vehicles,item,2500,1981,-519
+FY2016_audit,99,expenditure,163,General Government|County farm|Supervisor of Educational Service Region|Building department,Equipment maintenance,item,1800,1277,-523
+FY2016_audit,99,expenditure,164,General Government|County farm|Supervisor of Educational Service Region|Building department,Travel,item,250,0,-250
+FY2016_audit,99,expenditure,165,General Government|County farm|Supervisor of Educational Service Region|Building department,Training and conferences,item,1000,190,-810
+FY2016_audit,99,expenditure,166,General Government|County farm|Supervisor of Educational Service Region|Building department,Postage,item,50,0,-50
+FY2016_audit,99,expenditure,167,General Government|County farm|Supervisor of Educational Service Region|Building department,Publishing and advertising,item,100,0,-100
+FY2016_audit,99,expenditure,168,General Government|County farm|Supervisor of Educational Service Region|Building department,Software licenses,item,5100,5100,0
+FY2016_audit,99,expenditure,169,General Government|County farm|Supervisor of Educational Service Region|Building department,Printing,item,1000,777,-223
+FY2016_audit,99,expenditure,170,General Government|County farm|Supervisor of Educational Service Region|Building department,Other professional services,item,2500,2907,407
+FY2016_audit,99,expenditure,171,General Government|County farm|Supervisor of Educational Service Region|Building department,Dues,item,300,10,-290
+FY2016_audit,99,expenditure,172,General Government|County farm|Supervisor of Educational Service Region|Building department,Refunds,item,500,485,-15
+FY2016_audit,99,expenditure,173,General Government|County farm|Supervisor of Educational Service Region|Building department,Equipment,item,0,150,150
+FY2016_audit,99,expenditure,174,General Government|County farm|Supervisor of Educational Service Region,Total building department,total,189477,136318,-53159
+FY2016_audit,99,expenditure,175,General Government|County farm|Supervisor of Educational Service Region|Other professional services and capital,Other professional services,item,40000,29184,-10816
+FY2016_audit,99,expenditure,176,General Government|County farm|Supervisor of Educational Service Region|Other professional services and capital,Building maintenance,item,5000,490,-4510
+FY2016_audit,99,expenditure,177,General Government|County farm|Supervisor of Educational Service Region|Other professional services and capital,Rent - sheriff's storage,item,48000,52000,4000
+FY2016_audit,99,expenditure,178,General Government|County farm|Supervisor of Educational Service Region,Total other professional services and capital,total,93000,81674,-11326
+FY2016_audit,99,expenditure,179,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Annual audit,item,47124,49926,2802
+FY2016_audit,99,expenditure,180,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Growth Dimensions,item,40950,41000,50
+FY2016_audit,99,expenditure,181,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,CASA,item,45000,45000,0
+FY2016_audit,99,expenditure,182,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Historical preservation,item,900,900,0
+FY2016_audit,99,expenditure,183,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Soil and water conservation district,item,33000,33000,0
+FY2016_audit,99,expenditure,184,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Contingencies,item,20000,15200,-4800
+FY2016_audit,99,expenditure,185,General Government|County farm|Supervisor of Educational Service Region|Miscellaneous,Other,item,6000,30,-5970
+FY2016_audit,99,expenditure,186,General Government|County farm|Supervisor of Educational Service Region,Total miscellaneous,total,192974,185056,-7918
+FY2016_audit,99,expenditure,187,General Government|County farm|Supervisor of Educational Service Region,Employee health insurance,item,263060,316025,52965
+FY2016_audit,99,expenditure,188,,Total general government,total,3050372,2948351,-102021
+FY2016_audit,99,expenditure,189,Public Safety|Emergency service and disaster assistance,Salaries - director,item,45877,46245,368
+FY2016_audit,99,expenditure,190,Public Safety|Emergency service and disaster assistance,Salaries - overtime,item,1000,0,-1000
+FY2016_audit,99,expenditure,191,Public Safety|Emergency service and disaster assistance,Salaries - aide,item,4161,4195,34
+FY2016_audit,99,expenditure,192,Public Safety|Emergency service and disaster assistance,Office supplies,item,500,564,64
+FY2016_audit,100,expenditure,193,Public Safety|Emergency service and disaster assistance,Maintenance supplies,item,400,0,-400
+FY2016_audit,100,expenditure,194,Public Safety|Emergency service and disaster assistance,Gas and oil,item,3000,1589,-1411
+FY2016_audit,100,expenditure,195,Public Safety|Emergency service and disaster assistance,Travel,item,2000,0,-2000
+FY2016_audit,100,expenditure,196,Public Safety|Emergency service and disaster assistance,Postage,item,220,102,-118
+FY2016_audit,100,expenditure,197,Public Safety|Emergency service and disaster assistance,Publications,item,3700,0,-3700
+FY2016_audit,100,expenditure,198,Public Safety|Emergency service and disaster assistance,Equipment maintenance,item,6000,1274,-4726
+FY2016_audit,100,expenditure,199,Public Safety|Emergency service and disaster assistance,Other professional services,item,1500,200,-1300
+FY2016_audit,100,expenditure,200,Public Safety|Emergency service and disaster assistance,Telephone,item,1500,990,-510
+FY2016_audit,100,expenditure,201,Public Safety|Emergency service and disaster assistance,Training and conferences,item,4500,1555,-2945
+FY2016_audit,100,expenditure,202,Public Safety|Emergency service and disaster assistance,Dues and memberships,item,500,450,-50
+FY2016_audit,100,expenditure,203,Public Safety|Emergency service and disaster assistance,Machinery and equipment,item,450,140,-310
+FY2016_audit,100,expenditure,204,Public Safety,Total emergency service and disaster assistance,total,75308,57304,-18004
+FY2016_audit,100,expenditure,205,Public Safety|County coroner,Salaries - coroner,item,55316,55759,443
+FY2016_audit,100,expenditure,206,Public Safety|County coroner,Salaries - deputy,item,20706,17797,-2909
+FY2016_audit,100,expenditure,207,Public Safety|County coroner,Salaries - secretary,item,28314,31265,2951
+FY2016_audit,100,expenditure,208,Public Safety|County coroner,Office supplies,item,1600,1599,-1
+FY2016_audit,100,expenditure,209,Public Safety|County coroner,Medical supplies,item,2000,1773,-227
+FY2016_audit,100,expenditure,210,Public Safety|County coroner,Morgue supplies,item,5000,3502,-1498
+FY2016_audit,100,expenditure,211,Public Safety|County coroner,Equipment maintenance,item,720,648,-72
+FY2016_audit,100,expenditure,212,Public Safety|County coroner,Travel,item,2700,2477,-223
+FY2016_audit,100,expenditure,213,Public Safety|County coroner,Postage,item,600,540,-60
+FY2016_audit,100,expenditure,214,Public Safety|County coroner,Training and conferences,item,2000,1978,-22
+FY2016_audit,100,expenditure,215,Public Safety|County coroner,Lab fees,item,6500,5000,-1500
+FY2016_audit,100,expenditure,216,Public Safety|County coroner,Dues and memberships,item,350,350,0
+FY2016_audit,100,expenditure,217,Public Safety|County coroner,Other professional services,item,34200,27947,-6253
+FY2016_audit,100,expenditure,218,Public Safety|County coroner,Telephone,item,2300,2165,-135
+FY2016_audit,100,expenditure,219,Public Safety|County coroner,Equipment,item,1400,978,-422
+FY2016_audit,100,expenditure,220,Public Safety,Total county coroner,total,163706,153778,-9928
+FY2016_audit,100,expenditure,221,Public Safety|Sheriff's Department,Salaries - sheriff,item,112665,113601,936
+FY2016_audit,100,expenditure,222,Public Safety|Sheriff's Department,Salaries - deputies,item,2867490,2870949,3459
+FY2016_audit,100,expenditure,223,Public Safety|Sheriff's Department,Salaries - overtime,item,200000,210979,10979
+FY2016_audit,100,expenditure,224,Public Safety|Sheriff's Department,Office supplies,item,9300,11980,2680
+FY2016_audit,100,expenditure,225,Public Safety|Sheriff's Department,Publications,item,1177,0,-1177
+FY2016_audit,100,expenditure,226,Public Safety|Sheriff's Department,Gasoline and oil,item,155000,85911,-69089
+FY2016_audit,100,expenditure,227,Public Safety|Sheriff's Department,Clothing - uniforms,item,41300,40127,-1173
+FY2016_audit,100,expenditure,228,Public Safety|Sheriff's Department,Postage,item,3617,481,-3136
+FY2016_audit,100,expenditure,229,Public Safety|Sheriff's Department,Travel expense,item,15000,6817,-8183
+FY2016_audit,100,expenditure,230,Public Safety|Sheriff's Department,Training and conferences,item,44925,45724,799
+FY2016_audit,100,expenditure,231,Public Safety|Sheriff's Department,Other professional services,item,15000,12302,-2698
+FY2016_audit,100,expenditure,232,Public Safety|Sheriff's Department,Laboratory fees,item,400,394,-6
+FY2016_audit,100,expenditure,233,Public Safety|Sheriff's Department,Dues,item,1305,1818,513
+FY2016_audit,100,expenditure,234,Public Safety|Sheriff's Department,Maintenance - vehicles,item,65000,73268,8268
+FY2016_audit,100,expenditure,235,Public Safety|Sheriff's Department,Maintenance - equipment,item,58220,54249,-3971
+FY2016_audit,101,expenditure,236,Public Safety|Sheriff's Department,K-9 unit,item,4000,3270,-730
+FY2016_audit,101,expenditure,237,Public Safety|Sheriff's Department,Firing range,item,5000,2083,-2917
+FY2016_audit,101,expenditure,238,Public Safety|Sheriff's Department,Equipment - sheriff,item,22000,22456,456
+FY2016_audit,101,expenditure,239,Public Safety,Total sheriff's department,total,3621399,3556409,-64990
+FY2016_audit,101,expenditure,240,Public Safety,Employee health insurance,item,1485828,1784988,299160
+FY2016_audit,101,expenditure,241,,Total public safety,total,5346241,5552479,206238
+FY2016_audit,101,expenditure,242,Judiciary and Court Related|State's attorney,Salaries - department head,item,166501,167789,1288
+FY2016_audit,101,expenditure,243,Judiciary and Court Related|State's attorney,Salaries - assistants,item,392764,392091,-673
+FY2016_audit,101,expenditure,244,Judiciary and Court Related|State's attorney,Salaries - secretaries,item,142876,143676,800
+FY2016_audit,101,expenditure,245,Judiciary and Court Related|State's attorney,Salaries - grant wages,item,96931,98011,1080
+FY2016_audit,101,expenditure,246,Judiciary and Court Related|State's attorney,Office supplies,item,8900,6081,-2819
+FY2016_audit,101,expenditure,247,Judiciary and Court Related|State's attorney,Publications,item,8000,9019,1019
+FY2016_audit,101,expenditure,248,Judiciary and Court Related|State's attorney,Appellate service,item,18000,18000,0
+FY2016_audit,101,expenditure,249,Judiciary and Court Related|State's attorney,Travel,item,2500,2630,130
+FY2016_audit,101,expenditure,250,Judiciary and Court Related|State's attorney,Training and conferences,item,4000,1791,-2209
+FY2016_audit,101,expenditure,251,Judiciary and Court Related|State's attorney,Equipment maintenance,item,200,0,-200
+FY2016_audit,101,expenditure,252,Judiciary and Court Related|State's attorney,Dues and memberships,item,3600,1198,-2402
+FY2016_audit,101,expenditure,253,Judiciary and Court Related|State's attorney,Postage,item,4000,3420,-580
+FY2016_audit,101,expenditure,254,Judiciary and Court Related|State's attorney,Other professional service,item,1300,347,-953
+FY2016_audit,101,expenditure,255,Judiciary and Court Related|State's attorney,Office equipment,item,6700,7859,1159
+FY2016_audit,101,expenditure,256,Judiciary and Court Related,Total state's attorney,total,856272,851912,-4360
+FY2016_audit,101,expenditure,257,Judiciary and Court Related|Public defender,Salaries - public defender,item,149850,151003,1153
+FY2016_audit,101,expenditure,258,Judiciary and Court Related|Public defender,Salaries - assistant public defender,item,159510,157965,-1545
+FY2016_audit,101,expenditure,259,Judiciary and Court Related|Public defender,Salaries - secretary,item,71072,69238,-1834
+FY2016_audit,101,expenditure,260,Judiciary and Court Related|Public defender,Publications,item,5836,5889,53
+FY2016_audit,101,expenditure,261,Judiciary and Court Related|Public defender,Training and conferences,item,900,2125,1225
+FY2016_audit,101,expenditure,262,Judiciary and Court Related|Public defender,Maintenance,item,1524,2187,663
+FY2016_audit,101,expenditure,263,Judiciary and Court Related|Public defender,Utilities,item,6880,4329,-2551
+FY2016_audit,101,expenditure,264,Judiciary and Court Related|Public defender,Postage,item,588,177,-411
+FY2016_audit,101,expenditure,265,Judiciary and Court Related|Public defender,Dues,item,1267,1155,-112
+FY2016_audit,101,expenditure,266,Judiciary and Court Related|Public defender,Lease of property,item,20904,22788,1884
+FY2016_audit,101,expenditure,267,Judiciary and Court Related|Public defender,Office supplies,item,2400,2351,-49
+FY2016_audit,101,expenditure,268,Judiciary and Court Related,Total public defender,total,420731,419207,-1524
+FY2016_audit,101,expenditure,269,Judiciary and Court Related|Probation,Salaries - officers,item,264854,237742,-27112
+FY2016_audit,101,expenditure,270,Judiciary and Court Related|Probation,Salaries - supervisors,item,70754,72402,1648
+FY2016_audit,101,expenditure,271,Judiciary and Court Related|Probation,Salaries - secretary,item,25834,24424,-1410
+FY2016_audit,101,expenditure,272,Judiciary and Court Related|Probation,Drug court administrator,item,0,21397,21397
+FY2016_audit,101,expenditure,273,Judiciary and Court Related|Probation,Other professional services,item,500,4879,4379
+FY2016_audit,101,expenditure,274,Judiciary and Court Related|Probation,Office supplies,item,3500,2885,-615
+FY2016_audit,101,expenditure,275,Judiciary and Court Related|Probation,Equipment maintenance,item,4700,2119,-2581
+FY2016_audit,102,expenditure,276,Judiciary and Court Related|Probation,Travel,item,2500,909,-1591
+FY2016_audit,102,expenditure,277,Judiciary and Court Related|Probation,Postage,item,1800,1150,-650
+FY2016_audit,102,expenditure,278,Judiciary and Court Related|Probation,Printing and reproduction,item,500,478,-22
+FY2016_audit,102,expenditure,279,Judiciary and Court Related|Probation,Dues,item,350,350,0
+FY2016_audit,102,expenditure,280,Judiciary and Court Related|Probation,Juvenile placement,item,90000,32050,-57950
+FY2016_audit,102,expenditure,281,Judiciary and Court Related,Total probation,total,465292,400785,-64507
+FY2016_audit,102,expenditure,282,Judiciary and Court Related|Circuit clerk,Salaries - circuit clerk,item,67845,68388,543
+FY2016_audit,102,expenditure,283,Judiciary and Court Related|Circuit clerk,Salaries - clerks,item,440610,406130,-34480
+FY2016_audit,102,expenditure,284,Judiciary and Court Related|Circuit clerk,Salaries - non-union,item,48380,45825,-2555
+FY2016_audit,102,expenditure,285,Judiciary and Court Related|Circuit clerk,Salaries - overtime,item,6000,2551,-3449
+FY2016_audit,102,expenditure,286,Judiciary and Court Related|Circuit clerk,Office supplies,item,10000,5421,-4579
+FY2016_audit,102,expenditure,287,Judiciary and Court Related|Circuit clerk,Maintenance - equipment,item,900,585,-315
+FY2016_audit,102,expenditure,288,Judiciary and Court Related|Circuit clerk,Travel,item,1000,1209,209
+FY2016_audit,102,expenditure,289,Judiciary and Court Related|Circuit clerk,Postage,item,15600,14400,-1200
+FY2016_audit,102,expenditure,290,Judiciary and Court Related|Circuit clerk,Printing and reproduction,item,0,1009,1009
+FY2016_audit,102,expenditure,291,Judiciary and Court Related|Circuit clerk,Equipment,item,500,0,-500
+FY2016_audit,102,expenditure,292,Judiciary and Court Related,Total circuit clerk,total,590835,545518,-45317
+FY2016_audit,102,expenditure,293,Judiciary and Court Related|Judicial,Salaries - judges,item,2000,1923,-77
+FY2016_audit,102,expenditure,294,Judiciary and Court Related|Judicial,Salaries - assistant,item,16712,16839,127
+FY2016_audit,102,expenditure,295,Judiciary and Court Related|Judicial,Office supplies,item,3200,2974,-226
+FY2016_audit,102,expenditure,296,Judiciary and Court Related|Judicial,Publications,item,2500,5874,3374
+FY2016_audit,102,expenditure,297,Judiciary and Court Related|Judicial,Equipment maintenance,item,2000,2235,235
+FY2016_audit,102,expenditure,298,Judiciary and Court Related|Judicial,Travel,item,250,147,-103
+FY2016_audit,102,expenditure,299,Judiciary and Court Related|Judicial,Equipment,item,705,857,152
+FY2016_audit,102,expenditure,300,Judiciary and Court Related,Total judicial,total,27367,30849,3482
+FY2016_audit,102,expenditure,301,Judiciary and Court Related|County corrections,Salaries - union,item,2070293,1984210,-86083
+FY2016_audit,102,expenditure,302,Judiciary and Court Related|County corrections,Salaries - non-union,item,88011,123705,35694
+FY2016_audit,102,expenditure,303,Judiciary and Court Related|County corrections,Salaries - overtime,item,200000,319828,119828
+FY2016_audit,102,expenditure,304,Judiciary and Court Related|County corrections,Office supplies,item,6000,5903,-97
+FY2016_audit,102,expenditure,305,Judiciary and Court Related|County corrections,Gas and oil,item,800,474,-326
+FY2016_audit,102,expenditure,306,Judiciary and Court Related|County corrections,Maintenance supplies,item,31000,31006,6
+FY2016_audit,102,expenditure,307,Judiciary and Court Related|County corrections,Food,item,244235,236585,-7650
+FY2016_audit,102,expenditure,308,Judiciary and Court Related|County corrections,Uniforms,item,31500,29445,-2055
+FY2016_audit,102,expenditure,309,Judiciary and Court Related|County corrections,Maintenance,item,1800,2028,228
+FY2016_audit,102,expenditure,310,Judiciary and Court Related|County corrections,Snow removal,item,1000,390,-610
+FY2016_audit,102,expenditure,311,Judiciary and Court Related|County corrections,Maintenance - equipment,item,33284,26866,-6418
+FY2016_audit,102,expenditure,312,Judiciary and Court Related|County corrections,Waste disposal,item,3800,3415,-385
+FY2016_audit,102,expenditure,313,Judiciary and Court Related|County corrections,Insurance and bonds,item,500,426,-74
+FY2016_audit,102,expenditure,314,Judiciary and Court Related|County corrections,Training and conferences,item,24484,34022,9538
+FY2016_audit,102,expenditure,315,Judiciary and Court Related|County corrections,Postage,item,225,225,0
+FY2016_audit,102,expenditure,316,Judiciary and Court Related|County corrections,Publishing and advertising,item,1000,1996,996
+FY2016_audit,102,expenditure,317,Judiciary and Court Related|County corrections,Printing and reproduction,item,2000,1898,-102
+FY2016_audit,103,expenditure,318,Judiciary and Court Related|County corrections,Dues,item,250,50,-200
+FY2016_audit,103,expenditure,319,Judiciary and Court Related|County corrections,Other professional services,item,64750,63904,-846
+FY2016_audit,103,expenditure,320,Judiciary and Court Related|County corrections,Machinery and equipment,item,4972,5448,476
+FY2016_audit,103,expenditure,321,Judiciary and Court Related,Total county corrections,total,2809904,2871824,61920
+FY2016_audit,103,expenditure,322,Judiciary and Court Related|County public safety building,Salaries - regular,item,1198784,1080798,-117986
+FY2016_audit,103,expenditure,323,Judiciary and Court Related|County public safety building,Salaries - overtime,item,91000,118065,27065
+FY2016_audit,103,expenditure,324,Judiciary and Court Related|County public safety building,Office supplies,item,11000,11536,536
+FY2016_audit,103,expenditure,325,Judiciary and Court Related|County public safety building,Maintenance,item,8000,7940,-60
+FY2016_audit,103,expenditure,326,Judiciary and Court Related|County public safety building,Gas and oil,item,1000,186,-814
+FY2016_audit,103,expenditure,327,Judiciary and Court Related|County public safety building,Uniforms,item,15300,13525,-1775
+FY2016_audit,103,expenditure,328,Judiciary and Court Related|County public safety building,Property maintenance,item,17200,7076,-10124
+FY2016_audit,103,expenditure,329,Judiciary and Court Related|County public safety building,Equipment maintenance,item,93100,86120,-6980
+FY2016_audit,103,expenditure,330,Judiciary and Court Related|County public safety building,Waste disposal,item,3360,2441,-919
+FY2016_audit,103,expenditure,331,Judiciary and Court Related|County public safety building,Utilities,item,16000,7494,-8506
+FY2016_audit,103,expenditure,332,Judiciary and Court Related|County public safety building,Training and conferences,item,3000,3006,6
+FY2016_audit,103,expenditure,333,Judiciary and Court Related|County public safety building,Postage,item,1000,541,-459
+FY2016_audit,103,expenditure,334,Judiciary and Court Related|County public safety building,Other professional services,item,850,599,-251
+FY2016_audit,103,expenditure,335,Judiciary and Court Related|County public safety building,Snow removal,item,2450,778,-1672
+FY2016_audit,103,expenditure,336,Judiciary and Court Related|County public safety building,Equipment rental,item,9060,7130,-1930
+FY2016_audit,103,expenditure,337,Judiciary and Court Related|County public safety building,Machinery and equipment,item,13175,13532,357
+FY2016_audit,103,expenditure,338,Judiciary and Court Related,Total county public safety building,total,1484279,1360767,-123512
+FY2016_audit,103,expenditure,339,Judiciary and Court Related|Jurors and other legal services,Legal service - other,item,0,150,150
+FY2016_audit,103,expenditure,340,Judiciary and Court Related|Jurors and other legal services,Legal service/rotation,item,58000,50679,-7321
+FY2016_audit,103,expenditure,341,Judiciary and Court Related|Jurors and other legal services,Legal service/contract,item,40000,40387,387
+FY2016_audit,103,expenditure,342,Judiciary and Court Related|Jurors and other legal services,Interpreter wages,item,33120,35397,2277
+FY2016_audit,103,expenditure,343,Judiciary and Court Related|Jurors and other legal services,Other professional services,item,20000,29114,9114
+FY2016_audit,103,expenditure,344,Judiciary and Court Related|Jurors and other legal services,Court reporter services,item,34500,40115,5615
+FY2016_audit,103,expenditure,345,Judiciary and Court Related|Jurors and other legal services,Grand jury per diem,item,11200,8450,-2750
+FY2016_audit,103,expenditure,346,Judiciary and Court Related|Jurors and other legal services,Petit jury per diem,item,115500,73114,-42386
+FY2016_audit,103,expenditure,347,Judiciary and Court Related|Jurors and other legal services,Meals and lodging,item,2000,1563,-437
+FY2016_audit,103,expenditure,348,Judiciary and Court Related|Jurors and other legal services,Witness fees,item,23500,7338,-16162
+FY2016_audit,103,expenditure,349,Judiciary and Court Related|Jurors and other legal services,Indigent court cost,item,1000,0,-1000
+FY2016_audit,103,expenditure,350,Judiciary and Court Related|Jurors and other legal services,Court psych evaluation,item,4200,0,-4200
+FY2016_audit,103,expenditure,351,Judiciary and Court Related|Jurors and other legal services,Court administrator services,item,10000,11000,1000
+FY2016_audit,103,expenditure,352,Judiciary and Court Related|Jurors and other legal services,Office supplies,item,400,208,-192
+FY2016_audit,103,expenditure,353,Judiciary and Court Related|Jurors and other legal services,Travel,item,0,269,269
+FY2016_audit,103,expenditure,354,Judiciary and Court Related|Jurors and other legal services,Publications,item,1500,1894,394
+FY2016_audit,103,expenditure,355,Judiciary and Court Related,Total jurors and other legal services,total,354920,299678,-55242
+FY2016_audit,103,expenditure,356,Judiciary and Court Related,Employee health insurance,item,486113,583988,97875
+FY2016_audit,103,expenditure,357,,Total judiciary and court related,total,7495713,7364528,-131185
+FY2016_audit,103,expenditure,358,,TOTAL EXPENDITURES,total,15892326,15865358,-26968
