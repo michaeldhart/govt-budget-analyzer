@@ -2,7 +2,7 @@
 import os
 import re
 
-from .schema import (DEBT_PENSION_TABLES, SALARY_SCHEDULE_COLUMNS, DOC_STATUSES, TAX_DEBT_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
+from .schema import (DEBT_PENSION_TABLES, SALARY_SCHEDULE_COLUMNS, DOC_STATUSES, OPTIONAL_TABLES, TAX_DEBT_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
                      TREATMENTS)
 from .entity import read_csv
 
@@ -81,9 +81,9 @@ def validate_tables(E):
         if r["status"] not in DOC_STATUSES:
             errs.append(f"documents.csv: {r['doc_id']}: status {r['status']!r} is not one of {DOC_STATUSES}")
     exc_ids = {x["exception_id"] for x in E.exceptions()}
-    for name, cols in {**DEBT_PENSION_TABLES, **TAX_DEBT_TABLES}.items():
+    for name, cols in {**DEBT_PENSION_TABLES, **TAX_DEBT_TABLES, **OPTIONAL_TABLES}.items():
         if not os.path.exists(E.data_path(f"{name}.csv")):
-            if name in TAX_DEBT_TABLES or E.config.get("optional_tables", []).count(name):
+            if name in TAX_DEBT_TABLES or name in OPTIONAL_TABLES or E.config.get("optional_tables", []).count(name):
                 continue  # a government may not have the table (no OPEB, no assessed valuation schedule); entity.json `optional_tables` says so
         rows = read_csv(E.data_path(f"{name}.csv")) if os.path.exists(E.data_path(f"{name}.csv")) else []
         if not rows or list(rows[0]) != cols:

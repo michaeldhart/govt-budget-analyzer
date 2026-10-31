@@ -306,7 +306,7 @@ def main():
                 label = r["page_label"]
                 corrections.append(dict(
                     entity_id=E.id, doc_id=r["doc"], source_type="budget", target="line" if r["account"] else "total", fund=r["fund"],
-                    account_printed=r["account"], account_key=E.account_key(r["account"]) if r["account"] else "", label=r["line_item"],
+                    account_printed=r["account"], account_key=E.account_key(r["account"]) if r["account"] and "|" not in r["account"] else "", label=r["line_item"],  # a sub-ledger line's "account" is its key ledger|kind|label#n
                     source_column=r["column"], page_label=label, pdf_page=label[3:] if label.startswith("pdf") else page_map[(r["doc"], label)],
                     raw_value=r["raw_value"], final_value=r["final_value"], method=r["method"], detail=r["detail"], ocr_line=r["ocr_line"]))
     write_csv(E.data_path("corrections.csv"), CORRECTION_COLUMNS, corrections)

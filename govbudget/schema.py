@@ -129,3 +129,13 @@ EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy
 
 # Category schemes: where a category_id is used.
 SCHEMES = ("budget_category", "report_group", "expense_object", "function_group")
+
+# Water / Sewer budget cash sub-ledgers (bond reserves, connection fees, depreciation funding, bond payments) and the ties between them and the
+# rest of the data (built by pipelines/belvidere_il/build_ws_subledgers.py); optional, validated when the file exists.
+OPTIONAL_TABLES = {  # other optional tables (not part of every government's set); validated by govbudget.validate when the file exists
+    "ws_subledgers": ["entity_id", "doc_id", "period_fy", "basis", "ledger", "kind", "line_key", "line_id", "line_group", "line_item", "account_printed", "dept_code",
+                      "amount", "source_column", "page_label", "pdf_page", "flag", "exception_ids"],
+    "ws_subledger_ties": ["entity_id", "doc_id", "period_fy", "basis", "tie_id", "description", "left_label", "left_amount", "right_label", "right_amount",
+                          "diff", "status", "explanation", "exception_ids"],
+}
+WS_TIE_STATUSES = ["exact", "rounding", "explained", "audit_excludes", "unexplained"]

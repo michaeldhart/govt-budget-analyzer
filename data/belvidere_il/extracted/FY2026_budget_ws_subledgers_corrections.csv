@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2026,FY2026_budget,11 of 16,Water/Sewer,,connection_fees|total_sources|total-sources#1,TOTAL Sources,budget_FY2025,424000,124000,auto_resolved,from OCR prep thr150; makes the printed total tie,"TOTAL Sources 771,166 424,000 124,000"

@@ -10,7 +10,7 @@ beginning and ending cash. Output (same long format as the General Fund extracts
 Validation, per department block and column: revenue lines = Total Revenues; expense lines + set-asides (+ the Collection System
 lines inside Sewer) = Total Expenses; Net = Revenues - Expenses; Ending cash = Beginning cash + Net (+ the change in accounts
 receivable line, when printed). The cash sub-ledgers after the department blocks (bond reserves, connection fees, depreciation
-funding, bond payments) are not extracted. Eyeballed corrections: data/belvidere_il/overrides/FY20XX_budget_ws.csv, kinds
+funding, bond payments) are read by extract_budget_ws_subledgers.py. Eyeballed corrections: data/belvidere_il/overrides/FY20XX_budget_ws.csv, kinds
 `row` (page|account -> all column values), `total` (page, printed line name, column, value), `allow_diff`, `account`.
 """
 import csv
@@ -197,7 +197,7 @@ def evaluate(checks, cols, ov, ncols, used):
     for ck in checks:
         e, vals = ck["e"], printed(ck["e"])
         if ck["rows"] is not None:
-            got = [sum(r["vals"][i] for r, _ in ck["rows"]) for i in range(ncols)]
+            got = [sum(sg * r["vals"][i] for r, sg in ck["rows"]) for i in range(ncols)]
             n = len(ck["rows"])
         elif ck.get("kind") == "net":
             a, b = printed(ck["parts"][0]), printed(ck["parts"][1])
@@ -227,19 +227,19 @@ def evaluate(checks, cols, ov, ncols, used):
     return problems, notes, fails
 
 
-def autofix(rows, events, cols, ov, ncols, alts, notes_out):
+def autofix(rows, events, cols, ov, ncols, alts, notes_out, checks_fn=None):
     """Same idea as the General Fund extractor: adopt another reading of a cell (other OCR prep, neighbouring year's document), or a
     single-digit OCR confusion, only when it makes a failing printed total tie exactly (one cell changes at a time; never twice)."""
     fixed = set()
     for _ in range(40):
-        fails = evaluate(build_checks(rows, events, ncols), cols, ov, ncols, set())[2]
+        fails = evaluate((checks_fn or build_checks)(rows, events, ncols), cols, ov, ncols, set())[2]
         changed = False
         for rws, i, d, tol in fails:
             if abs(d) <= 1:
                 continue
             real, synth = [], []
             for r, sign in rws:
-                if (id(r), i) in fixed:
+                if (id(r), i) in fixed or r.get("locked"):
                     continue
                 for v, src in (alts.get(r.get("_key")) or {}).get(i, []):
                     if v != r["vals"][i]:
@@ -268,7 +268,7 @@ def autofix(rows, events, cols, ov, ncols, alts, notes_out):
             break
 
 
-def build_alts(fy, prep, first):
+def build_alts(fy, prep, first, flows=("revenue", "expense")):
     """{(account, nth): {column index: [(value, source)]}} from the other prep(s) and the neighbouring documents' prior-year columns."""
     me = first[prep]
     cols = me["cols"]
@@ -290,7 +290,7 @@ def build_alts(fy, prep, first):
         if mine not in cols:
             continue
         vals = {}
-        for flow in ("revenue", "expense"):
+        for flow in flows:
             path = os.path.join(DATA_E, "extracted", f"FY{nb}_budget_ws_{flow}.csv")
             if os.path.exists(path):
                 for r in csv.DictReader(open(path)):

@@ -1,0 +1,2 @@
+fiscal_year,doc,page_label,fund,dept_code,account,line_item,column,raw_value,final_value,method,detail,ocr_line
+2019,FY2019_budget,10 of 16,Water/Sewer,,connection_fees|ending|ending-cash-investments#1,Ending Cash & Investments,budget_FY2019,2574892,2574692,auto_resolved_digit,from a single-digit OCR confusion; makes the printed total tie,"Ending Cash & Investments 3,981,392 1,969,192 1,969,192 2,574,892"
