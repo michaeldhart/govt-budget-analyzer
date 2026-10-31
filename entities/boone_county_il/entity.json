@@ -1,0 +1,36 @@
+{
+  "entity_id": "boone_county_il",
+  "name": "Boone County, IL",
+  "short_name": "Boone County",
+  "type": "county",
+  "state": "IL",
+  "fy_start_month": 12,
+  "fy_label_rule": "fiscal year runs December 1 to November 30 and is named for the year it ends (FY2026 = December 1, 2025 to November 30, 2026); audits are 'for the year ended November 30'",
+  "currency": "USD",
+  "units": "dollars",
+  "scope_note": "County government only (decision 2026-10-31). The Circuit Clerk's separate audits, the Health Department and other units are out of scope.",
+  "funds": [],
+  "account_format": {
+    "pattern": "FFF-DDDD-OOOOOO in the FY2026 budget (fund-department-object, e.g. 001-0000-301000); earlier layouts to be established when each year is read",
+    "key_segments": [
+      1,
+      2
+    ],
+    "key_note": "provisional until the budgets FY2017-FY2025 are read",
+    "typo_fixes": {}
+  },
+  "source_index": {
+    "financial_information": "https://www.boonecountyil.gov/government/financial_information/index.php"
+  },
+  "documents": {
+    "budget_range": [
+      2017,
+      2027
+    ],
+    "audit_range": [
+      2015,
+      2025
+    ]
+  },
+  "fund_based_budget": true
+}

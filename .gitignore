@@ -28,3 +28,6 @@ web/.astro/
 # Park district source PDFs (re-downloadable with pipelines/belvidere_park_district/fetch_sources.py)
 sources/*/ordinances/
 sources/*/treasurers/
+
+# Boone County source files (re-downloadable with pipelines/boone_county_il/fetch_sources.py)
+sources/boone_county_il/compensation/
