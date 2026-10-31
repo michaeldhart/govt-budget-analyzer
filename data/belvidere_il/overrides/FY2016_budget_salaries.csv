@@ -1,0 +1,2 @@
+kind,position_id,slot,period_fy,value,reason
+cell,building_inspector,1,2016,22614.00,"thr150 OCR reads 22,014; gray reads 22,614, which is 2% above FY2015's 22,171 and equals the FY2017 document's prior-year column"

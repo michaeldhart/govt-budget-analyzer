@@ -1,0 +1,23 @@
+position_id,position,label_pattern,note
+pw_director,Public Works Director,"(Public Works Director|Director PW|Dir PW)",
+asst_pw_director,Assistant Public Works Director,Assistant Public Works Director,new in FY2023
+street_water_sewer_supt,Street/Water/Sewer Superintendent,Street ?/? ?\(?(Wtr|Water),
+sewer_supt,Sewer Superintendent,Sewer Supt,separate position in FY2015-FY2016 only; the Street/Water/Sewer Supt line covers the three from FY2017
+finance_officer,Budget and Finance Officer,Budget (&|and) Finance,"printed 'Budget & Finance Director' in FY2015"
+police_chief,Police Chief,Police Chief,
+deputy_chief,Deputy Police Chief,Dep(uty)? Chief,two positions (slot 1 and 2) in every year
+police_admin,Police Administrative Assistant,Police Admin,
+fire_chief,Fire Chief,Fire Chief,
+deputy_city_clerk,Deputy City Clerk,"Dep(uty)?\.? ?City ?Clerk",
+assistant_clerk,Assistant City Clerk,"(Clerk Typist|Assistant (City )?Clerk)","printed 'Clerk Typist' in FY2015"
+transcriptionist,Transcriptionist / Administrative Assistant,Transcription,
+det_admin_asst,Detective Administrative Assistant,"Det\.? Admin",
+city_attorney,City Attorney,City Att,
+building_director,Building Director,(Chief Building Insp|Building Director),"printed 'Chief Building Insp.' through FY2019; the FY2020 Building Director's prior-year column equals the FY2019 Chief Building Inspector's pay"
+zoning_code_enforcement,Zoning and Code Enforcement,Zoning,
+cd_admin_asst,Community Development Administrative Assistant,"(Building ?/ ?Planning Reception|Community Development Admin)","printed 'Building / Planning Reception' through FY2018; the FY2019 prior-year column continues it"
+building_inspector,Building Inspector,"(Com\w?/?\w+ Plans Examiner|Building Inspector|Assistant Building Inspector)","part-time Com/Ind Plans Examiner through FY2018; FY2019 'changed to Building Inspector FT' at 50,000 and FY2020 Building Inspector FT; FY2021 Building Inspector PT starts again from a part-time pay (the prior-year column does not continue FY2020: exception EX-salary-building-inspector); revision 780H makes it full-time at 78,000"
+fire_admin_asst,Fire Administrative Assistant,Fire Admin,
+cd_planner,Community Development Planner / Event Planner,Community Development Planner,new in FY2017
+gis_specialist,GIS Specialist (part-time),GIS Specialist,new in FY2021
+fire_inspector,Fire Inspector,Fire Inspector,new in FY2025

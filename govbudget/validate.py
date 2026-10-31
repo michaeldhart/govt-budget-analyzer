@@ -2,7 +2,7 @@
 import os
 import re
 
-from .schema import (DEBT_PENSION_TABLES, DOC_STATUSES, TAX_DEBT_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
+from .schema import (DEBT_PENSION_TABLES, SALARY_SCHEDULE_COLUMNS, DOC_STATUSES, TAX_DEBT_TABLES, STATEMENTS, BASES, EXCEPTION_EFFECTS, EXCEPTION_KINDS, EXCEPTION_SCOPES, FLOWS, SCHEMES, SOURCE_TYPES, TOTAL_KINDS,
                      TREATMENTS)
 from .entity import read_csv
 
@@ -95,6 +95,19 @@ def validate_tables(E):
             for e in filter(None, re.split(r"[;|]", r["exception_ids"])):
                 if e not in exc_ids:
                     errs.append(f"{name}.csv line {i}: unknown exception {e!r}")
+    if os.path.exists(E.data_path("salary_schedule.csv")):  # optional table (Exhibit B)
+        rows = read_csv(E.data_path("salary_schedule.csv"))
+        if not rows or list(rows[0]) != SALARY_SCHEDULE_COLUMNS:
+            errs.append("salary_schedule.csv: columns differ from schema.SALARY_SCHEDULE_COLUMNS")
+        else:
+            pos = {r["position_id"] for r in E.table("salary_positions.csv")}
+            ok_docs = docs | {r["doc_id"] for r in E.table("source_urls.csv")}  # includes the revising ordinance, which has no facts
+            for i, r in enumerate(rows, 2):
+                if r["doc_id"] not in ok_docs or r["basis"] not in BASES or r["position_id"] not in pos:
+                    errs.append(f"salary_schedule.csv line {i}: unknown doc_id/basis/position {r['doc_id']!r}/{r['basis']!r}/{r['position_id']!r}")
+                for e in filter(None, r["exception_ids"].split("|")):
+                    if e not in exc_ids:
+                        errs.append(f"salary_schedule.csv line {i}: unknown exception {e!r}")
     for r in read_csv(E.data_path("fund_statements.csv")):
         if r["statement"] not in STATEMENTS:
             errs.append(f"fund_statements.csv: unknown statement {r['statement']!r}")

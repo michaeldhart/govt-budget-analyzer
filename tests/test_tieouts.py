@@ -97,3 +97,28 @@ def test_source_pdfs_match_recorded_hashes(table):
             checked += 1
     if not checked:
         pytest.skip("source PDFs not present")
+
+
+def test_salary_schedule_exhibit_b(table):
+    rows = table("salary_schedule")
+    own = [r for r in rows if r["version"] == "adopted" and r["basis"] == "adopted"]
+    assert Counter(r["period_fy"] for r in own) == Counter({"2015": 18, "2016": 18, "2017": 19, "2018": 19, "2019": 19, "2020": 19, "2021": 20,
+                                                            "2022": 20, "2023": 20, "2024": 21, "2025": 22, "2026": 22, "2027": 22})
+    total = {fy: round(sum(float(r["amount"]) for r in own if r["period_fy"] == fy), 2) for fy in {r["period_fy"] for r in own}}
+    assert total["2027"] == 1810614.28 and total["2022"] == 1342969.28  # printed totals 1,810,614.28 and 1,342,969.27 (a cent of rounding)
+    # ordinance 780H: Building Inspector part-time -> full-time at 78,000, total 1,862,395.85, nothing else changes
+    rev = [r for r in rows if r["version"] == "revised" and r["basis"] == "revised"]
+    assert round(sum(float(r["amount"]) for r in rev), 2) == 1862395.85
+    assert [r["amount"] for r in rev if r["position_id"] == "building_inspector"] == ["78000.00"]
+    checks = Counter((r["check"], r["status"]) for r in table("salary_schedule_checks"))
+    assert checks[("total", "ok")] == 16 and checks[("total_increase", "ok")] == 3
+    assert checks[("prior_year_chain", "ok")] == 261 and checks[("prior_year_chain", "exception")] == 15
+    assert checks[("revision_vs_adopted", "ok")] == 43 and checks[("revision_vs_adopted", "revised")] == 1
+    assert not any(r["status"] == "FAIL" for r in table("salary_schedule_checks"))
+    assert not any(r["exception_ids"] == "" for r in table("salary_schedule_checks") if r["status"] == "exception")
+    share = [float(r["schedule_share"]) for r in table("salary_schedule_vs_budget")]
+    assert len(share) == 13 and 0.13 < min(share) and max(share) < 0.15  # the schedule is 13-15% of budgeted regular salaries
+
+
+def test_salary_schedule_has_no_names(table):
+    assert "incumbent" not in " ".join(table("salary_schedule")[0])

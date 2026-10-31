@@ -118,6 +118,12 @@ TAX_DEBT_TABLES = {
     "assessed_valuations": ["entity_id", "doc_id", "period_fy", "tax_year", "section", "line_item", "amount", "pdf_page", "flag", "exception_ids"],
 }
 
+# Exhibit B of a budget ordinance, the non-union salary schedule (optional table, data/<entity_id>/salary_schedule.csv): one row per position x
+# year column. period_fy is the year the pay is for; basis is adopted (the ordinance's own year), revised (the own year of a revising ordinance)
+# or prior_doc_budget (a prior-year column, which may be restated). Incumbents' names are not in the canonical table (they stay in the extracts).
+SALARY_SCHEDULE_COLUMNS = ["entity_id", "doc_id", "version", "period_fy", "basis", "position_id", "slot", "position", "status", "amount",
+                           "pct_printed", "pdf_page", "flag", "exception_ids"]
+
 EXCEPTION_COLUMNS = ["exception_id", "kind", "scope", "scope_id", "fy_from", "fy_to", "bases", "effect", "summary", "detail",
                      "decided_on", "evidence"]
 

@@ -1,0 +1,3 @@
+doc_id,document_fy,period_fy,kind,printed,computed,diff,n_positions,status,detail
+FY2025_budget,2025,2024,total,1601006.09,1601006.09,0.00,22,ok,
+FY2025_budget,2025,2025,total,1653727.23,1653727.22,-0.01,22,ok,cents rounding
