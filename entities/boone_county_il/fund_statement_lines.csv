@@ -1,0 +1,17 @@
+statement,label_pattern,line_id,note
+balance_sheet,(?i)^cash,cash,"Cash, deposits and investments"
+balance_sheet,(?i)^total assets$,total_assets,
+balance_sheet,(?i)^total liabilities$,total_liabilities,
+balance_sheet,(?i)^total deferred inflows,total_deferred_inflows,
+balance_sheet,(?i)^total fund balances?$,total_fund_balance,
+balance_sheet,(?i)^unassigned,unassigned,
+balance_sheet,(?i)and fund balances?$,total_liabilities_and_fund_balance,
+balance_sheet,(?i)^total liabilities and,total_liabilities_and_deferred_and_fund_balance,
+changes_in_fund_balance,(?i)^total revenues?$,total_revenues,
+changes_in_fund_balance,(?i)^total expenditures?$,total_expenditures,
+changes_in_fund_balance,(?i)^excess|over expenditures,excess_of_revenues_over_expenditures,
+changes_in_fund_balance,(?i)^total other financing,total_other_financing,
+changes_in_fund_balance,(?i)^net change,net_change_in_fund_balance,
+changes_in_fund_balance,(?i)(beginning|december 1).*(restated),fund_balance_beginning_restated,
+changes_in_fund_balance,(?i)(beginning|december 1),fund_balance_beginning,
+changes_in_fund_balance,"(?i)(end of|november 30|, end)",fund_balance_ending,

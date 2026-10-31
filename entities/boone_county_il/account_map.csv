@@ -1,0 +1,876 @@
+flow,account_key,label,department,category_id,treatment,note
+expense,001:0000-414200,Health Ins. Employer Share,Non-Departmental,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0000-454000,Bank Charges,Non-Departmental,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0000-499000,Misc Materials & Services,Non-Departmental,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0000-604000,Equipment - Other,Non-Departmental,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0000-899022,Transfer Out to Property Maintenance Fund,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0000-899025,Transfer Out to Landfill Closure Fund,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0000-899030,Transfer Out to Capital Fund,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0000-899046,Transfer Out to Courthouse Series 2015A Bonds,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0000-899048,Txfr Out to Sheriffs Storage,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0000-899049,Transfer Out to Series 2026 Bond Fund,Non-Departmental,exp_transfers,expense,rule: 89xxxx
+expense,001:0051-401151,County Administrator's Salary,Administration,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0051-401251,Support Staff Wages,Administration,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0051-401351,Deputy County Admin. Salary,Administration,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0051-401451,Grants Manager,Administration,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0051-451000,Office Supplies,Administration,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0051-465000,Publications,Administration,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0051-504000,Equipment Maintenance,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-524000,Travel,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-525000,Training & Conferences,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-526000,Postage,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-527000,Publishing & Advertising,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-535000,Other Professional Services,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-542000,Dues,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-548000,Rental Equipment,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0051-604000,Equipment,Administration,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0052-810100,Growth Dimensions,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0052-810170,Veterans Assistance Commission,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0052-810200,CASA,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0052-810300,Soil & Water Cons. District,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0053-401153,Sup. of Assessments Salary,Assessments,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0053-401253,Assessor Clerks Wages,Assessments,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0053-451000,Office Supplies,Assessments,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0053-465000,Publications,Assessments,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0053-499000,Misc Materials & Services,Assessments,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0053-504000,Equipment Maintenance,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-524000,Travel,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-525000,Training & Conferences,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-526000,Postage,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-527000,Publishing & Advertising,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-528000,Printing,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-533000,Mapping Services,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-535000,Other Professional Services,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-542000,Dues,Assessments,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0053-604000,Equipment,Assessments,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0054-401154,Board of Review Salary,Board of Review,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0054-451000,Office Supplies,Board of Review,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0054-524000,Travel,Board of Review,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0054-525000,Training & Conferences,Board of Review,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0054-526000,Postage,Board of Review,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0054-527000,Publishing & Advertising,Board of Review,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0054-535000,Other Professional Services,Board of Review,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0055-401155,Circuit Clerk's Salary,Circuit Clerk,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0055-401255,Circuit Clerk Wages - Union,Circuit Clerk,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0055-401355,Circuit Clerk Wages - Non-Union,Circuit Clerk,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0055-402055,Circuit Clerk Overtime,Circuit Clerk,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0055-451000,Office Supplies,Circuit Clerk,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0055-526000,Postage,Circuit Clerk,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-401156,Coroner's Salary,Coroner,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0056-401256,Coroner Deputy's Salaries,Coroner,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0056-401356,Coroner Admin Asst. Wages,Coroner,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0056-451000,Office Supplies,Coroner,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0056-452000,Medical Supplies,Coroner,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0056-453000,Maintenance Supplies,Coroner,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0056-461000,Fuel,Coroner,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0056-504000,Equipment Maintenance,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-522000,Telephone,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-524000,Travel,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-525000,Training & Conferences,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-526000,Postage,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-535000,Other Professional Services,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-535055,Disposition Services,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-542000,Dues,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-547000,Lab Fees Coroner,Coroner,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0056-604000,Equipment,Coroner,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0057-401157,County Board Chairman Salary,County Board,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0057-451000,Office Supplies,County Board,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0057-524000,Travel,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0057-525000,Training & Conferences,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0057-526000,Postage,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0057-535000,Other Professional Services,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0057-541100,Per Diem - County Board,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0057-542000,Dues,County Board,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-401058,Maintenance Wages,County Buildings,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0058-402058,Maintenance Overtime,County Buildings,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0058-453000,Maintenance Supplies,County Buildings,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0058-461000,Fuel,County Buildings,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0058-463000,Uniforms,County Buildings,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0058-501000,Property Maintenance,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-504000,Equipment Maintenance,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-511000,Snow Removal,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-512000,Waste Disposal,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-522000,Telephone,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-523000,Utilities,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-525000,Training & Conferences,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-527000,Publishing & Advertising,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-535000,Other Professional Services,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-548000,Rental of Equipment,County Buildings,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0058-604000,Equipment,County Buildings,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0059-401159,County Clerk's Salary,County Clerk & Recorder,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0059-401259,County Clerk Wages,County Clerk & Recorder,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0059-451000,Office Supplies,County Clerk & Recorder,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0059-504000,Equipment Maintenance,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-524000,Travel,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-525000,Training & Conferences,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-526000,Postage,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-527000,Publishing & Advertising,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-528000,Printing,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-534000,Data Processing,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-535000,Other Professional Services,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-542000,Dues,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-548000,Rental Equipment,County Clerk & Recorder,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0059-812000,Registrar Fees,County Clerk & Recorder,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0059-999500,REFUNDS,County Clerk & Recorder,exp_other,expense,rule: 59/79/90/99
+expense,001:0060-811000,Property Tax Expense,County Farm,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0061-401161,EMA Coordinator Salary,Emergency Management,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0061-401261,EMA Aide Salary,Emergency Management,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0061-451000,Office Supplies,Emergency Management,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0061-453000,Maintenance Supplies,Emergency Management,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0061-461000,Fuel,Emergency Management,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0061-503000,Vehicle Maintenance,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-504000,Equipment Maintenance,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-524000,Travel,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-525000,Training & Conferences,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-535000,Other Professional Services,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-542000,Dues,Emergency Management,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0061-604000,Equipment,Emergency Management,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0062-862000,Regional Office of Education,Regional Office of Education,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0063-451000,Office Supplies-LEPC,Local Emergency Planning Commission,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0063-465000,Publications,Local Emergency Planning Commission,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0063-524000,Travel,Local Emergency Planning Commission,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0063-525000,Training & Conferences,Local Emergency Planning Commission,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0064-401164,Judges Salary,Judges,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0064-401264,Judge Admin. Assistant Wages,Judges,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0064-451000,Office Supplies,Judges,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0064-465000,Publications,Judges,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0064-504000,Equipment Maintenance,Judges,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0064-524000,Travel,Judges,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0064-604000,Equipment,Judges,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0065-401065,Interpreter Wages,Jurors and Other Legal Services,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0065-401165,Staff Attorney,Jurors and Other Legal Services,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0065-451000,Office Supplies,Jurors and Other Legal Services,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0065-465000,Publications,Jurors and Other Legal Services,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0065-532200,Legal Services/Rotation,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-532300,Legal Services/Contract,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-535000,Other Professional Services/Interpreters,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-535100,Other Professiona Serv - Courts,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-535300,Court Administrator Services,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-535900,Computer Maintenance,Jurors and Other Legal Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0065-806100,Grand Jury Per Diem,Jurors and Other Legal Services,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0065-806200,Jury Per Diem,Jurors and Other Legal Services,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0065-807000,Meals & Lodging - Court,Jurors and Other Legal Services,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0066-535000,Other Professional Services,Court Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0066-535100,Other Professiona Serv - Courts,Court Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0066-535200,Court Reporter Services,Court Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0066-535500,Other Professional Serv./Legal,Court Services,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0066-808000,Witness Fees,Court Services,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0066-808700,Court Psych Evaluations,Court Services,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0069-401169,Probation Supervisor Salary,Probation,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0069-401269,Probation Officer Salaries,Probation,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0069-401369,Probatio Secretary Wages,Probation,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0069-451000,Office Supplies,Probation,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0069-461000,Fuel,Probation,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0069-504000,Equipment Maintenance,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-524000,Travel,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-525000,Training and Conferences,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-526000,Postage,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-528000,Printing,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-535000,Other Professional Services,Probation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0069-809000,Juvenile Placement,Probation,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0070-401070,Dispatchers,Public Safety,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0070-401170,PSB Support,Public Safety,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0070-402070,PSB Overtime,Public Safety,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0070-451000,Office Supplies,Public Safety,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0070-453000,Maintenance Supplies,Public Safety,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0070-461000,Fuel,Public Safety,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0070-463000,Uniforms,Public Safety,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0070-501000,Property Maintenance,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-503000,Vehicle Maintenance,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-504000,Equipment Maintenance,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-511000,Snow Removal,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-512000,Waste Disposal,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-523000,Utilities,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-525000,Training & Conferences,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-526000,Postage,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-535000,Other Professional Services,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-542000,Dues,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-548000,Rental Equipment,Public Safety,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0070-604000,Equipment,Public Safety,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0071-401132,Health Dept. Staff Wages,Corrections,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0071-401171,Corrections Emp Wages - Union,Corrections,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0071-401271,Jail Supervisor Salary,Corrections,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0071-402071,Corrections Overtime,Corrections,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0071-451000,Office Supplies,Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-451200,Materials Office (Work Release),Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-453000,Maintenance Supplies,Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-461000,Fuel,Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-462000,Food,Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-463000,Uniforms,Corrections,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0071-501000,Property Maintenance,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-503000,Vehicle Maintenance,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-504000,Equipment Maintenance,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-511000,Snow Removal,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-512000,Waste Disposal,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-521000,General Insurance & Bonds,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-525000,Training & Conferences,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-526000,Postage,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-527000,Publishing & Advertising,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-528000,Printing,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-535000,Other Professional Services,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-542000,Dues,Corrections,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0071-604000,Equipment,Corrections,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0072-401172,Public Defender Salary,Public Defender,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0072-401272,Assist. Public Defender Salary,Public Defender,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0072-401372,Public Defender Secretary Wages,Public Defender,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0072-451000,Office Supplies,Public Defender,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0072-465000,Publications,Public Defender,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0072-501300,Rent - Leased Property,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-504000,Equipment Maintenance,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-523000,Utilities,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-525000,Training & Conferences,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-526000,Postage,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-527000,Publishing & Advertising,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-535000,Other Professional Services,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-542000,Dues,Public Defender,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0072-604000,Equipment,Public Defender,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0073-401173,Sheriff's Salary,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-401273,Sheriff Deputies Salary,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-401373,Sheriff Command Staff,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-401473,Sheriff Admin Support Wages,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-401573,Sheriff Security Wages,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-402073,Sheriffs Overtime,Sheriff,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0073-451000,Office Supplies,Sheriff,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0073-461000,Fuel,Sheriff,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0073-463000,Uniforms,Sheriff,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0073-465000,Publications,Sheriff,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0073-503000,Vehicle Maintenance,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-504000,Equipment Maintenance,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-524000,Travel,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-525000,Training & Conferences,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-526000,Postage,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-535000,Other Professional Services,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-542000,Dues,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-575000,Lab Fees - Sheriff,Sheriff,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0073-799100,DARE Program,Sheriff,exp_other,expense,rule: 59/79/90/99
+expense,001:0073-799200,K-9 Unit,Sheriff,exp_other,expense,rule: 59/79/90/99
+expense,001:0073-799300,Firing Range,Sheriff,exp_other,expense,rule: 59/79/90/99
+expense,001:0075-401175,State's Attorney's Salary,State's Attorney,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0075-401275,Assist. State's Attorney Salary,State's Attorney,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0075-401375,SA Administrative Support Wages,State's Attorney,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0075-401475,Investigator Wages,State's Attorney,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0075-401575,State's Attorney Grant Wages,State's Attorney,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0075-451000,Office Supplies,State's Attorney,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0075-461000,Fuel,State's Attorney,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0075-465000,Publications,State's Attorney,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0075-524000,Travel,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-525000,Training & Conferences,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-526000,Postage,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-532000,States Atty Appellate Prosecuto,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-535000,Other Professional Services,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-542000,Dues,State's Attorney,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0075-604000,Equipment,State's Attorney,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0076-401176,Treasurer's Salary,Treasurer,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0076-401276,Treasurer Clerk's Wages,Treasurer,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0076-451000,Office Supplies,Treasurer,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0076-465000,Publications,Treasurer,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0076-504000,Equipment Maintenance,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-524000,Travel,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-526000,Postage,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-527000,Publishing & Advertising,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-528000,Printing,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-535000,Other Professional Services,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0076-542000,Dues,Treasurer,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0077-524000,Travel,Zoning Board of Appeals,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0077-525000,Training and Conferences,Zoning Board of Appeals,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0077-541000,Per Diem ZBA,Zoning Board of Appeals,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-401178,Planning Dir. Salary,Planning,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0078-401278,Environmental Specialist,Planning,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0078-401407,Intern,Planning,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0078-401680,Building/Planning Technician,Planning,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0078-451000,Office Supplies,Planning,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0078-504000,Equipment Maintenance,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-524000,Travel,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-525000,Training & Conferences,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-526000,Postage,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-527000,Publishing & Advertising,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-528000,Printing,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-535000,Other Professional Services,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0078-542000,Dues,Planning,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-401180,Senior Building Inspector,Building,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0080-401280,Zoning Officer,Building,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0080-401480,Plumbing Inspector P.T.,Building,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0080-401580,Electrical Inspector P.T.,Building,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0080-401680,Building/Planning Technician,Building,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0080-451000,Office Supplies,Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0080-461000,Fuel,Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0080-463000,Uniforms,Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0080-465000,Publications,Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0080-503000,Vehicle Maintenance,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-504000,Equipment Maintenance,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-522000,Telephone,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-524000,Travel,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-525000,Training & Conferences,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-526000,Postage,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-527000,Publishing & Advertising,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-528000,Printing,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-535000,Other Professional Services,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-542000,Dues,Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0080-604000,Equipment,Building,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0080-999500,REFUNDS,Building,exp_other,expense,rule: 59/79/90/99
+expense,001:0081-551000,Annual Audit,Audit,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0081-552000,Other Audit Services,Audit,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0082-401282,Election wages,Election,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0082-455000,Election Supplies,Election,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0082-524000,Travel,Election,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0082-526000,Postage,Election,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0082-535000,Other Professional Services,Election,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0082-705351,Loan Interest Payments,Election,exp_debt,expense,rule: 705xxx
+expense,001:0082-805863,SB1863 Election Personnel,Election,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0082-815000,Voter Registration,Election,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,001:0084-604100,FOIA Attorney,Contingency,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0084-900100,Contingencies #1,Contingency,exp_other,expense,rule: 59/79/90/99
+expense,001:0085-401185,IT Wages,Information Technology,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0085-451000,Office Supplies,Information Technology,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0085-463000,Uniforms,Information Technology,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0085-522000,Telephone/Fiber,Information Technology,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0085-526000,Postage,Information Technology,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0085-534000,Data Processing,Information Technology,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0085-535700,Website expense,Information Technology,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0085-535800,Software Licenses,Information Technology,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0085-604000,Equipment,Information Technology,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0085-604200,Computer Replacement,Information Technology,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0085-900100,Contingency,Information Technology,exp_other,expense,rule: 59/79/90/99
+expense,001:0086-499000,Misc Materials & Services,Other Professional Services and Capital,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0086-535000,Other Professional Services,Other Professional Services and Capital,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0086-535500,Other Professional Serv./Legal,Other Professional Services and Capital,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0086-604000,Equipment,Other Professional Services and Capital,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0086-604860,Capital Improvements,Other Professional Services and Capital,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,001:0087-401187,Logan Ave Maintenance Wages,Logan Avenue Building Maintenance,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,001:0087-453000,Maintenance Supplies,Logan Avenue Building Maintenance,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0087-501000,Property Maintenance,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0087-504000,Equipment Maintenance,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0087-512000,Waste Disposal,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0087-523000,Utilities,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0088-453000,Maintenance Supplies,McKinley Ave Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0088-461000,Fuel,McKinley Ave Building,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,001:0088-501000,Property Maintenance,McKinley Ave Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0088-504000,Equipment Maintenance,McKinley Ave Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0088-512000,Waste Disposal,McKinley Ave Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0088-523000,Utilities,McKinley Ave Building,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0088-604000,Equipment,McKinley Ave Building,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,002:0002-401000,Employee Wages,Highway Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,002:0002-402002,Highway Overtime,Highway Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,002:0002-414200,Health Ins. Employer Share,Highway Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,002:0002-451000,Office Supplies,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-453000,Maintenance Supplies,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-454000,Bank Charges,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-457000,Returned Deposit Items,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-461000,Fuel,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-461500,Fuel sold,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-463000,Uniforms,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-499000,Misc Materials & Services,Highway Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,002:0002-501000,Property Maintenance,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-503000,Vehicle Maintenance,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-504000,Equipment Maintenance,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-506000,Maintenance of Hwys & Bridges,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-506100,Road Salt,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-506200,Road Salt - Townships,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-512000,Waste Disposal,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-523000,Utilities,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-524000,Travel,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-525000,Training & Conferences,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-526000,Postage,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-527000,Publishing & Advertising,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-528000,Printing,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-535000,Other Professional Services,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-535800,Software Licenses,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-536000,Janitorial Services,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-542000,Dues,Highway Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,002:0002-562000,"Construction of Bridges, ROW",Highway Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,002:0002-565000,Garage Operations,Highway Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,002:0002-604000,Equipment,Highway Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,002:0002-605000,Vehicles,Highway Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,003:0002-453000,Maintenance Supplies,Bridge Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,003:0002-506000,Maintenance of Hwys & Bridges,Bridge Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,003:0002-562000,"Construction of Bridges, ROW",Bridge Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,004:0002-506000,Maintenance of Hwys & Bridges,Highway Matching Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,004:0002-562000,"Construction of Bridges, ROW",Highway Matching Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,005:0002-401000,Employee Wages,Motor Fuel Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,005:0002-454000,Bank Charges,Motor Fuel Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,005:0002-506000,Maintenance of Hwys & Bridges,Motor Fuel Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,005:0002-506100,Road Salt,Motor Fuel Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,005:0002-562000,"Construction of Bridges, ROW",Motor Fuel Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,005:0002-604860,Capital Improvements,Motor Fuel Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,011:0012-453000,Maintenance Supplies,Animal Serv. Bldg. & Maint.,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,011:0012-499000,Misc Materials & Services,Animal Serv. Bldg. & Maint.,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,011:0012-501000,Property Maintenance,Animal Serv. Bldg. & Maint.,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,011:0012-504000,Equipment Maintenance,Animal Serv. Bldg. & Maint.,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,011:0012-512000,Waste Disposal,Animal Serv. Bldg. & Maint.,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,011:0012-523000,Utilities,Animal Serv. Bldg. & Maint.,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,011:0012-535000,Other Professional Services,Animal Serv. Bldg. & Maint.,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,011:0012-604000,Equipment,Animal Serv. Bldg. & Maint.,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,012:0012-401000,Employee Wages,Animal Services Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,012:0012-402012,Animal Services Overtime,Animal Services Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,012:0012-414200,Health Ins. Employer Share,Animal Services Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,012:0012-451000,Office Supplies,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-452000,Medical Supplies,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-453000,Maintenance Supplies,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-461000,Fuel,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-463000,Uniforms,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-465000,Publications,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-499000,Misc Materials & Services,Animal Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,012:0012-501000,Property Maintenance,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-503000,Vehicle Maintenance,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-504000,Equipment Maintenance,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-512000,Waste Disposal,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-513000,Vet Clinic Service Fees,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-523000,Utilities,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-524000,Travel,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-525000,Training & Conferences,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-526000,Postage,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-527000,Publishing & Advertising,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-535000,Other Professional Services,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-535012,Veterinary Services,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-542000,Dues,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-548000,Rental Equipment,Animal Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,012:0012-604000,Equipment,Animal Services Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,013:0013-401131,Health Dept. Admin. Salary,Health Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,013:0013-401132,Health Dept. Staff Wages,Health Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,013:0013-411100,FICA Tax Employer Share,Health Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,013:0013-411200,IMRF Cont. Employer Share,Health Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,013:0013-414200,Health Ins. Employer Share,Health Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,013:0013-451000,Office Supplies,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-452000,Medical Supplies,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-453000,Maintenance Supplies,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-454000,Bank Charges,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-457000,Returned Deposit Items,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-461000,Fuel,Health Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,013:0013-501000,Property Maintenance,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-501300,Leased Property,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-503000,Vehicle Maintenance,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-504000,Equipment Maintenance,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-512000,Waste Disposal,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-522000,Telephone,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-523000,Utilities,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-524000,Travel,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-525000,Training & Conferences,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-526000,Postage,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-528000,Printing,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-535000,Other Professional Services,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-542000,Dues,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-572000,Laboratory Fees,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-581100,TB Care & Treatment,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-581300,Patient Care & Treatment,Health Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,013:0013-604000,Equipment,Health Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,013:0013-899018,Transfer Out to Tort Fund,Health Fund,exp_transfers,expense,rule: 89xxxx
+expense,013:0013-999400,Outreach & Advertising,Health Fund,exp_other,expense,rule: 59/79/90/99
+expense,015:0015-411015,FICA Expense,FICA Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,015:0015-862150,FICA - Regional Office of Educ.,FICA Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,017:0017-411017,IMRF Expense,IMRF Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,017:0017-862170,IMRF - Regional Office of Educ.,IMRF Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,018:0018-416000,Workers Comp Insurance,Tort Immunity Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,018:0018-417000,Unemployment Comp Insurance,Tort Immunity Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,018:0018-499000,Misc Materials & Services,Tort Immunity Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,018:0018-521000,General Insurance & Bonds,Tort Immunity Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,018:0018-802100,Jail Medical & Dental Claims,Tort Immunity Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,018:0018-802600,Claims & Judgments (Tort),Tort Immunity Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,018:0018-862000,Regional Office of Education,Tort Immunity Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,019:0073-504000,Equipment Maintenance,Court Security Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,019:0073-604000,Equipment,Court Security Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,019:0073-899001,Transfer Out to General Fund,Court Security Fund,exp_transfers,expense,rule: 89xxxx
+expense,020:0064-401000,Employee Wages,Law Library Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,020:0064-451000,Office Supplies,Law Library Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,020:0064-465100,"Publications, West Publishing",Law Library Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,020:0064-504000,Equipment Maintenance,Law Library Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,020:0064-535300,Court Administrator Services,Law Library Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,021:0064-535000,Other Professional Services,Foreclosure Mediation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,021:0064-535100,Other Professional Services- Courts,Foreclosure Mediation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,021:0064-535600,Payment to Winnebago County,Foreclosure Mediation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,022:0000-501000,Property Maintenance,Property Maintenance Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,022:0000-535000,Other Professional Services,Property Maintenance Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,025:0025-515300,Groundwater Monitoring,Landfill Closure Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,025:0025-515400,Maintenance Gas Collection System,Landfill Closure Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,025:0025-523000,Utilities,Landfill Closure Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,025:0025-535000,Other Professional Services,Landfill Closure Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,025:0025-535500,Other Professional Serv./Legal,Landfill Closure Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,030:0000-499000,Miscellaneous,Capital Projects Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,030:0000-535000,Other Professional Services,Capital Projects Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,030:0000-563001,Construction- Courthouse,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0000-563002,Construction- Admin Campus,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0000-563003,Construction- PSB,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0000-563004,Construction- McKinley,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0030-535000,Other Professional Services,Capital Projects Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,030:0030-563001,Construction- Courthouse,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0030-563002,Construction-Admin Campus,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0030-563003,Construction-PSB,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,030:0030-563004,Construction- McKinley,Capital Projects Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,036:0073-499000,Misc Materials & Services,Sheriffs E-Citation Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,036:0073-504000,Maintenance of Equipment,Sheriffs E-Citation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,036:0073-535000,Other Professional Services,Sheriffs E-Citation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,036:0073-604000,Equipment,Sheriffs E-Citation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,036:0073-604100,Patrol Vehicles,Sheriffs E-Citation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,037:0037-414037,Health Insurance Expense,Employee Health Care Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,037:0037-414038,HSA Employer Contribution,Employee Health Care Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,037:0037-414100,Life Insurance Expense,Employee Health Care Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,037:0037-499000,Misc Materials & Services,Employee Health Care Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,037:0037-535000,Other Professional Services,Employee Health Care Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,037:0037-535237,Flex Spending Acct. Admin. Fees,Employee Health Care Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,037:0037-802400,Claims Dental (Emp. Health),Employee Health Care Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,037:0037-802800,Eye Care Reimbursement-Employee,Employee Health Care Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,038:0073-604100,Patrol Vehicles,Sheriffs Vehicle Repl Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,039:0069-499000,Misc Materials & Services,Probation Services Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,039:0069-524000,Travel,Probation Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,039:0069-525000,Training & Conferences,Probation Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,039:0069-535000,Other Professional Services,Probation Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,039:0069-535100,Other Professional Services - Courts,Probation Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,039:0069-542000,Dues,Probation Services Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,039:0069-604000,Equipment,Probation Services Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,039:0069-899001,Placement,Probation Services Fund,exp_transfers,expense,rule: 89xxxx
+expense,040:0055-451000,Office Supplies,Document Storage Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,040:0055-504000,Equipment Maintenance,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-524000,Travel,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-525000,Training & Conferences,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-528000,Printing,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-535000,Other Professional Services,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-535700,Website expense,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-548000,Rental Equipment,Document Storage Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,040:0055-604000,Equipment,Document Storage Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,040:0055-899001,Transfer Out to General Fund,Document Storage Fund,exp_transfers,expense,rule: 89xxxx
+expense,041:0055-504000,Equipment Maintenance,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-524000,Travel,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-525000,Training & Conferences,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-535000,Other Professional Services,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-535100,Other Professiona Serv - Courts,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-535500,Other Professional Serv./Legal,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-535700,Website expense,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-535800,Software Licenses,Court Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,041:0055-604000,Equipment,Court Automation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,041:0055-604200,Computer Replacement,Court Automation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,041:0055-899001,Transfer Out to General Fund,Court Automation Fund,exp_transfers,expense,rule: 89xxxx
+expense,042:0076-524000,Travel,Treasurers Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,042:0076-525000,Training & Conferences,Treasurers Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,042:0076-535000,Other Professional Services,Treasurers Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,042:0076-535800,Software Licenses,Treasurers Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,042:0076-604000,Equipment,Treasurers Automation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,043:0059-451000,Office Supplies,Recorders Automation Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,043:0059-504000,Equipment Maintenance,Recorders Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,043:0059-524000,Travel,Recorders Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,043:0059-525000,Training & Conferences,Recorders Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,043:0059-535000,Other Professional Services,Recorders Automation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,043:0059-604000,Equipment,Recorders Automation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,043:0059-899001,Transfer Out-General Fund,Recorders Automation Fund,exp_transfers,expense,rule: 89xxxx
+expense,044:0075-504000,Equipment Maintenance,State's Attorney Automation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,044:0075-535000,Other Professional Services,State's Attorney Automation,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,044:0075-604000,Equipment,State's Attorney Automation,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,045:0000-899001,Transfer Out to General Fund,Public Safety Sales Tax Fund,exp_transfers,expense,rule: 89xxxx
+expense,045:0000-899022,Transfer Out- Property Maintenance Fund,Public Safety Sales Tax Fund,exp_transfers,expense,rule: 89xxxx
+expense,046:0000-705100,Bond Payments,Courthouse Bond Fund,exp_debt,expense,rule: 705xxx
+expense,046:0000-705300,Bond Interest Payments,Courthouse Bond Fund,exp_debt,expense,rule: 705xxx
+expense,048:0000-705100,Bond Payments,Sheriffs Storage Bond 2017,exp_debt,expense,rule: 705xxx
+expense,048:0000-705300,Bond Interest Payments,Sheriffs Storage Bond 2017,exp_debt,expense,rule: 705xxx
+expense,049:0000-535000,Other Professional Services,Series 2026 Bond Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,049:0000-705100,Bond Payments,Series 2026 Bond Fund,exp_debt,expense,rule: 705xxx
+expense,049:0000-705300,Bond Interest Payments,Series 2026 Bond Fund,exp_debt,expense,rule: 705xxx
+expense,049:0000-899030,Transfer Out to Capital Fund,Series 2026 Bond Fund,exp_transfers,expense,rule: 89xxxx
+expense,100:0012-535012,Veterinary Services,Spay/Neuter Program,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-401000,Employee Wages,GIS Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,116:0116-414200,Health Ins. Employer Share,GIS Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,116:0116-451000,Office Supplies,GIS Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,116:0116-499000,Misc Materials & Services,GIS Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,116:0116-504000,Equipment Maintenance,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-524000,Travel,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-525000,Training & Conferences,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-535000,Other Professional Services,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-535500,Other Professional Serv./Legal,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-535800,Software Licenses,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-535900,Computer Maintenance,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-542000,Dues,GIS Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,116:0116-604000,Equipment,GIS Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,116:0116-604600,Computer Upgrades,GIS Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,116:0116-899001,Transfer Out to General Fund,GIS Fund,exp_transfers,expense,rule: 89xxxx
+expense,120:0012-499000,Misc Materials & Services,Animal Serv. Donation Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,120:0012-535012,Veterinary Services,Animal Serv. Donation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,127:0056-451000,Office Supplies,Death Certificate Surcharge,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,127:0056-504000,Maintenance of Equipment,Death Certificate Surcharge,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,127:0056-604000,Equipment,Death Certificate Surcharge,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,139:0059-451000,Office Supplies,Vital Records Auto. Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,139:0059-535000,Other Professional Services,Vital Records Auto. Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,139:0059-604000,Equipment,Vital Records Auto. Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,144:0144-450000,Materials & Services,Urban Transportation Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,144:0144-535000,Other Professional Services,Urban Transportation Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,144:0144-563005,Construction- Transit Facility,Urban Transportation Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,144:0144-700000,Contractual Services,Urban Transportation Fund,exp_contractual,expense,rule: 700000
+expense,144:0144-810500,Council on Aging Levy Distribution,Urban Transportation Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,145:5311-401451,Grants Manager,Rural Transport. Grant Fund,exp_personnel,expense,rule: 40xxxx-41xxxx
+expense,145:5311-451000,Office Supplies,Rural Transport. Grant Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,145:5311-524000,Travel,Rural Transport. Grant Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,145:5311-525000,Training & Conferences,Rural Transport. Grant Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,145:5311-527000,Publishing & Advertising,Rural Transport. Grant Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,145:5311-604000,Equipment,Rural Transport. Grant Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,145:5311-700000,Contractual Services,Rural Transport. Grant Fund,exp_contractual,expense,rule: 700000
+expense,145:5311-810550,Council on Aging Grant Services,Rural Transport. Grant Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,145:5312-524000,Travel,Rural Transport. Grant Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,145:5312-525000,Training & Conferences,Rural Transport. Grant Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,145:5312-604000,Equipment,Rural Transport. Grant Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,145:5312-700000,Contractual Services,Rural Transport. Grant Fund,exp_contractual,expense,rule: 700000
+expense,145:5312-810550,Council on Aging Grant Services,Rural Transport. Grant Fund,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
+expense,151:0073-504000,Maintenance of Equipment,DUI Equipment Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,151:0073-604000,Equipment,DUI Equipment Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,151:0073-604100,Patrol Vehicles,DUI Equipment Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,152:0073-454000,Bank Charges,Federal Seized Drug Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,152:0073-504000,Maintenance of Equipment,Federal Seized Drug Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,152:0073-535000,Other Professional Services,Federal Seized Drug Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,152:0073-604000,Equipment,Federal Seized Drug Fund,exp_capital,expense,rule: 56xxxx/60xxxx
+expense,152:0073-799000,Sheriffs Department,Federal Seized Drug Fund,exp_other,expense,rule: 59/79/90/99
+expense,153:0073-451000,Office Supplies,Forfeited Funds (State),exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,153:0073-504000,Maintenance of Equipment,Forfeited Funds (State),exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,153:0073-535000,Other Professional Services,Forfeited Funds (State),exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,153:0073-604000,Equipment,Forfeited Funds (State),exp_capital,expense,rule: 56xxxx/60xxxx
+expense,153:0073-799000,Sheriffs Department,Forfeited Funds (State),exp_other,expense,rule: 59/79/90/99
+expense,158:0055-899001,Transfer Out to General Fund,Maint. & Child Sup. Fund,exp_transfers,expense,rule: 89xxxx
+expense,160:0000-501000,Maintenance Maple Crest,Gibson Memorial Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,161:0055-525000,Training & Conferences,Marriage & Civil Union Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,161:0055-535000,Other Professional Services,Marriage & Civil Union Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,166:0000-501000,Maintenance Maple Crest,Schnell Memorial Fund,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,167:0000-499000,Miscellaneous,Wolfram Memorial Fund,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,167:0000-599167,Entertainment Maple Crest,Wolfram Memorial Fund,exp_other,expense,rule: 59/79/90/99
+expense,201:0075-451000,Office Supplies,State's Attorney Collection,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,202:0075-451000,Office Supplies,State's Attorney Forfeited Funds,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,202:0075-461000,Fuel,State's Attorney Forfeited Funds,exp_supplies,expense,rule: 45xxxx-49xxxx
+expense,202:0075-503000,Vehicle Maintenance,State's Attorney Forfeited Funds,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,202:0075-527000,Publishing & Advertising,State's Attorney Forfeited Funds,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,202:0075-604000,Equipment,State's Attorney Forfeited Funds,exp_capital,expense,rule: 56xxxx/60xxxx
+revenue,001:0000-301000,Property Tax Current - Other,Non-Departmental,property_tax,tax,rule: object code is a tax
+revenue,001:0000-304000,Sales Tax (1 Cent),Non-Departmental,sales_tax,tax,rule: object code is a tax
+revenue,001:0000-305000,Sales Tax (1/4 Cent),Non-Departmental,sales_tax,tax,rule: object code is a tax
+revenue,001:0000-306000,Cannabis Retailers Occupation Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-306100,State Income Tax,Non-Departmental,income_tax,tax,rule: object code is a tax
+revenue,001:0000-306200,Personal Property Repl. Tax,Non-Departmental,replacement_tax,tax,rule: object code is a tax
+revenue,001:0000-306300,Penalty Late Taxes,Non-Departmental,fees_fines,non_tax,"rule: penalty or fee charged on taxes, not a tax"
+revenue,001:0000-306400,Tax Sale Fees,Non-Departmental,fees_fines,non_tax,"rule: penalty or fee charged on taxes, not a tax"
+revenue,001:0000-306420,Cannabis Use Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-306800,Out of State Use Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-307000,Video Gaming Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-307001,Hotel Motel Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-307100,State Income Tax,Non-Departmental,income_tax,tax,rule: object code is a tax
+revenue,001:0000-307200,Personal Property Repl Tax,Non-Departmental,replacement_tax,tax,rule: object code is a tax
+revenue,001:0000-307300,Penalty Late Taxes,Non-Departmental,fees_fines,non_tax,"rule: penalty or fee charged on taxes, not a tax"
+revenue,001:0000-307400,Tax Sale Fees,Non-Departmental,fees_fines,non_tax,"rule: penalty or fee charged on taxes, not a tax"
+revenue,001:0000-307420,Cannabis Use Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-307800,Out of State Use Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-308000,Hotel/Motel Tax,Non-Departmental,other_tax,tax,rule: object code is a tax
+revenue,001:0000-329010,Building Dept. Permits - County,Non-Departmental,licenses_permits,non_tax,rule: 329xxx
+revenue,001:0000-329400,Liquor / Dancehall,Non-Departmental,licenses_permits,non_tax,rule: 329xxx
+revenue,001:0000-329600,Other Permits,Non-Departmental,licenses_permits,non_tax,rule: 329xxx
+revenue,001:0000-340015,County Planning Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340042,Duplicate Bill Fee (Treas Auto),Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340101,Circuit Court - Traffic,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340102,Circuit Court - Criminal,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340103,Circuit Court - Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340104,Drug Addiction Services Fee,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340105,Court System Operation Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340150,Jail Housing Fee,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340151,Sheriff's Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340200,State's Attorney Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340201,Financial Compliance Fee,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340250,Public Defender Counsel Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340320,GIS Dept. Map & Data Sales,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340350,Website Subscription Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340400,Coroners Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340501,County Recorder Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340502,Net Revenue Stamps Income,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340503,County Clerk Fees,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-340504,Surplus Equity,Non-Departmental,fees_fines,non_tax,rule: 340xxx
+revenue,001:0000-360000,Miscellaneous Income,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360001,Court System Finance Fees,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360010,Insurance Proceeds,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360015,County Farm,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360017,Planning Dept - County Misc,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360025,Treasurer Miscellaneous,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360030,Assessor Miscellaneous,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360035,Sheriff Miscellaneous,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360038,Drug Crime Disbursement,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360040,Rent Maple Crest,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360045,Cable TV Franchise Fees,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360050,Plote Quarry Royalties,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360056,Coroner Miscellaneous,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360069,Probation Dept. Miscellaneous,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-360075,UCCI Refund,Non-Departmental,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,001:0000-370000,Interest,Non-Departmental,interest,non_tax,rule: 370xxx
+revenue,001:0000-370100,Interest - Courts,Non-Departmental,interest,non_tax,rule: 370xxx
+revenue,001:0000-375000,IT Services Contractual,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-376010,Salary Reimb. State's Attorney,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-376030,Salary Reimb. Public Defender,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-376040,Salary Reimb. Probation Dept.,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-376050,Salary Reimb. Sup. of Assess.,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-376060,Salary Reimbursement Sheriff,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377000,Reimbursements Received,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377020,Belvidere Reimb. PSB,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377024,Belvidere Reimb. IT,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377300,Township Reimb. - CAMA System,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377500,Worker's Comp. Reimbursements,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-377911,Reimbursements E911 Board,Non-Departmental,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,001:0000-380000,Grants - General Fund - Misc,Non-Departmental,grants,non_tax,rule: 379xxx/380xxx
+revenue,001:0000-380061,EMA GRANTS,Non-Departmental,grants,non_tax,rule: 379xxx/380xxx
+revenue,001:0000-380720,Grants Public Defender,Non-Departmental,grants,non_tax,rule: 379xxx/380xxx
+revenue,001:0000-380730,Grants - Sheriff's Dept.,Non-Departmental,grants,non_tax,rule: 379xxx/380xxx
+revenue,001:0000-380750,Grants States Attorney,Non-Departmental,grants,non_tax,rule: 379xxx/380xxx
+revenue,001:0000-390000,Sale of Assets,Non-Departmental,proceeds,non_tax,rule: 390xxx/395xxx
+revenue,001:0000-399001,Transfer In from GF Reserve,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399002,Transfer In- Highway Department,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399019,Transfer In from Court Security,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399040,Transfer In from Document Stor.,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399041,Transfer In from Court Auto.,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399043,Transfer In Recorders Automation Fund,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399045,Transfer In from PSST Fund,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399116,Transfer In from GIS Fund,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,001:0000-399158,Transfer In from Maint & C.S.,Non-Departmental,transfers_in,non_tax,rule: 399xxx
+revenue,002:0002-301000,Property Tax Current,Highway Fund,property_tax,tax,rule: object code is a tax
+revenue,002:0002-329000,Permits & Licenses,Highway Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,002:0002-329002,Highway Dept. Permits,Highway Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,002:0002-370000,Interest,Highway Fund,interest,non_tax,rule: 370xxx
+revenue,002:0002-377000,Reimbursements Received,Highway Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,002:0002-377060,Highway Dept. Reimbursements,Highway Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,002:0002-390000,Sale of Capital Assets,Highway Fund,proceeds,non_tax,rule: 390xxx/395xxx
+revenue,003:0002-301000,Property Tax Current,Bridge Fund,property_tax,tax,rule: object code is a tax
+revenue,003:0002-370000,Interest,Bridge Fund,interest,non_tax,rule: 370xxx
+revenue,003:0002-377000,Reimbursements Received,Bridge Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,004:0002-301000,Property Tax Current,Highway Matching Fund,property_tax,tax,rule: object code is a tax
+revenue,004:0002-370000,Interest,Highway Matching Fund,interest,non_tax,rule: 370xxx
+revenue,004:0002-377000,Reimbursements Received,Highway Matching Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,004:0002-380200,Grants - Highway Department,Highway Matching Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,005:0002-306950,County Motor Fuel Tax,Motor Fuel Fund,other_tax,tax,rule: object code is a tax
+revenue,005:0002-370000,Interest,Motor Fuel Fund,interest,non_tax,rule: 370xxx
+revenue,005:0002-377000,Reimbursements Received,Motor Fuel Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,011:0012-340011,Animal Serv. Bldg. & Maint. Fee,Animal Serv. Bldg. & Maint.,fees_fines,non_tax,rule: 340xxx
+revenue,011:0012-370000,Interest,Animal Serv. Bldg. & Maint.,interest,non_tax,rule: 370xxx
+revenue,012:0012-340005,Adoptions-Animal control,Animal Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,012:0012-340010,Dog & Cat Registration Fees,Animal Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,012:0012-340020,Fines & Fees - Animal Control,Animal Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,012:0012-340025,Municipal Fees,Animal Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,012:0012-340030,Public Safety Fines,Animal Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,012:0012-360000,Miscellaneous Income,Animal Services Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,012:0012-399000,Animal Service - Cremation,Animal Services Fund,transfers_in,non_tax,rule: 399xxx
+revenue,013:0013-301100,Health Tax (Referendum),Health Fund,property_tax,tax,rule: object code is a tax
+revenue,013:0013-301200,Health Tax (Resolution),Health Fund,property_tax,tax,rule: object code is a tax
+revenue,013:0013-329011,Contractors' License,Health Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,013:0013-329110,Septic Permits,Health Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,013:0013-329115,Septic/Well Evaluation,Health Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,013:0013-329120,Food Permits,Health Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,013:0013-329131,Well Permits,Health Fund,licenses_permits,non_tax,rule: 329xxx
+revenue,013:0013-340031,Lab Fees,Health Fund,fees_fines,non_tax,rule: 340xxx
+revenue,013:0013-360000,Miscellaneous Income,Health Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,013:0013-360070,Misc. Health Fund,Health Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,013:0013-370000,Interest,Health Fund,interest,non_tax,rule: 370xxx
+revenue,013:0013-379100,Grant Services,Health Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,013:0013-379300,Other Clinic Services,Health Fund,fees_fines,non_tax,rule: object code
+revenue,013:0013-380100,State or Federal Grants,Health Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,013:0013-380130,Basic Health Grant,Health Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,013:0013-380140,Grants,Health Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,013:0013-380141,Client Fees,Health Fund,fees_fines,non_tax,rule: object code
+revenue,015:0015-301000,Property Tax Current,FICA Fund,property_tax,tax,rule: object code is a tax
+revenue,015:0015-360014,Reimbursement - Health Department,FICA Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,015:0015-370000,Interest,FICA Fund,interest,non_tax,rule: 370xxx
+revenue,015:0015-377000,Reimbursements Received,FICA Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,015:0015-377020,Belvidere Reimb. PSB,FICA Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,015:0015-377911,Reimbursements E911 Board,FICA Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,017:0017-301000,Property Tax Current,IMRF Fund,property_tax,tax,rule: object code is a tax
+revenue,017:0017-360018,IMRF Employer Contributions,IMRF Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,017:0017-370000,Interest,IMRF Fund,interest,non_tax,rule: 370xxx
+revenue,017:0017-377020,Belvidere Reimb. PSB,IMRF Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,017:0017-377400,Reimbursement Health Dept.,IMRF Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,017:0017-377911,Reimbursements E911 Board,IMRF Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,018:0018-301000,Property Tax Current,Tort Immunity Fund,property_tax,tax,rule: object code is a tax
+revenue,018:0018-351000,Cirma Dividend,Tort Immunity Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,018:0018-360010,Insurance Proceeds,Tort Immunity Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,018:0018-370000,Interest,Tort Immunity Fund,interest,non_tax,rule: 370xxx
+revenue,018:0018-377000,Reimbursement,Tort Immunity Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,018:0018-377020,Belvidere Reimb. PSB,Tort Immunity Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,018:0018-377730,Reimbursements - Law Enforcemen,Tort Immunity Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,018:0018-377911,Reimbursements E911 Board,Tort Immunity Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,018:0018-399013,Transfer In from Health Fund,Tort Immunity Fund,transfers_in,non_tax,rule: 399xxx
+revenue,019:0073-340103,Circuit Court - Fees,Court Security Fund,fees_fines,non_tax,rule: 340xxx
+revenue,019:0073-360035,Sheriff Miscellaneous,Court Security Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,019:0073-370000,Interest,Court Security Fund,interest,non_tax,rule: 370xxx
+revenue,020:0064-340103,Circuit Court - Fees,Law Library Fund,fees_fines,non_tax,rule: 340xxx
+revenue,021:0064-340103,Circuit Court - Fees,Foreclosure Mediation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,021:0064-370000,Interest,Foreclosure Mediation Fund,interest,non_tax,rule: 370xxx
+revenue,022:0000-370000,Interest,Property Maintenance Fund,interest,non_tax,rule: 370xxx
+revenue,022:0000-399000,Transfer In- Other,Property Maintenance Fund,transfers_in,non_tax,rule: 399xxx
+revenue,022:0000-399001,Transfer In-General Fund Reserves,Property Maintenance Fund,transfers_in,non_tax,rule: 399xxx
+revenue,025:0025-360000,Miscellaneous Income,Landfill Closure Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,025:0025-377027,Belvidere Reimb. Landfill,Landfill Closure Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,025:0025-399001,Transfer In from General Fund,Landfill Closure Fund,transfers_in,non_tax,rule: 399xxx
+revenue,030:0000-370000,Interest,Capital Projects Fund,interest,non_tax,rule: 370xxx
+revenue,030:0000-399000,Transfer In- Other,Capital Projects Fund,transfers_in,non_tax,rule: 399xxx
+revenue,030:0000-399001,Transfer In- General Fund,Capital Projects Fund,transfers_in,non_tax,rule: 399xxx
+revenue,030:0030-370000,Interest,Capital Projects Fund,interest,non_tax,rule: 370xxx
+revenue,030:0030-399000,Transfer In- Other,Capital Projects Fund,transfers_in,non_tax,rule: 399xxx
+revenue,030:0030-399001,Transfer In- General Fund Reserves,Capital Projects Fund,transfers_in,non_tax,rule: 399xxx
+revenue,036:0073-340103,Circuit Court - Fees,Sheriffs E-Citation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,037:0037-360000,Miscellaneous Income,Employee Health Care Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,037:0037-360019,Employer Contribution,Employee Health Care Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,037:0037-360020,Employee Contribution,Employee Health Care Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,037:0037-360201,Non Employee Contribution,Employee Health Care Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,037:0037-370000,Interest,Employee Health Care Fund,interest,non_tax,rule: 370xxx
+revenue,037:0037-377002,Highway Reimbursement,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,037:0037-377013,Reimbursement Health Dept,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,037:0037-377020,Belvidere Reimb. PSB,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,037:0037-377116,Reimbursement GIS,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,037:0037-377161,GIS Reimbursement,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,037:0037-377911,E911 Board Reimbursement,Employee Health Care Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,038:0073-340103,Circuit Court - Fees,Sheriffs Vehicle Repl Fund,fees_fines,non_tax,rule: 340xxx
+revenue,038:0073-370000,Interest,Sheriffs Vehicle Repl Fund,interest,non_tax,rule: 370xxx
+revenue,038:0073-390000,Sale of Capital Assets,Sheriffs Vehicle Repl Fund,proceeds,non_tax,rule: 390xxx/395xxx
+revenue,039:0069-340103,Circuit Court - Fees,Probation Services Fund,fees_fines,non_tax,rule: 340xxx
+revenue,039:0069-370000,Interest,Probation Services Fund,interest,non_tax,rule: 370xxx
+revenue,040:0055-340103,Circuit Court - Fees,Document Storage Fund,fees_fines,non_tax,rule: 340xxx
+revenue,040:0055-370000,Interest,Document Storage Fund,interest,non_tax,rule: 370xxx
+revenue,041:0055-340103,Circuit Court - Fees,Court Automation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,041:0055-370000,Interest,Court Automation Fund,interest,non_tax,rule: 370xxx
+revenue,042:0076-306400,Tax Sale Fees,Treasurers Automation Fund,fees_fines,non_tax,"rule: penalty or fee charged on taxes, not a tax"
+revenue,042:0076-340042,Duplicate Bill Fee (Treas Auto),Treasurers Automation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,042:0076-340043,AutoAgent Tax File Fees,Treasurers Automation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,042:0076-370000,Interest,Treasurers Automation Fund,interest,non_tax,rule: 370xxx
+revenue,043:0059-340501,County Recorder Fees,Recorders Automation Fund,fees_fines,non_tax,rule: 340xxx
+revenue,043:0059-370000,Interest,Recorders Automation Fund,interest,non_tax,rule: 370xxx
+revenue,044:0075-340044,State's Attorney Automation Fee,State's Attorney Automation,fees_fines,non_tax,rule: 340xxx
+revenue,044:0075-370000,Interest,State's Attorney Automation,interest,non_tax,rule: 370xxx
+revenue,045:0000-303000,Pub Safety Sales Tax/Jail Bond,Public Safety Sales Tax Fund,sales_tax,tax,rule: object code is a tax
+revenue,045:0000-370000,Interest,Public Safety Sales Tax Fund,interest,non_tax,rule: 370xxx
+revenue,046:0000-399001,Transfer In from General Fund,Courthouse Bond Fund,transfers_in,non_tax,rule: 399xxx
+revenue,048:0000-399001,Transfer In from General Fund,Sheriffs Storage Bond 2017,transfers_in,non_tax,rule: 399xxx
+revenue,049:0000-370000,Interest Income,Series 2026 Bond Fund,interest,non_tax,rule: 370xxx
+revenue,049:0000-380000,Bond Proceeds - Series 2026A,Series 2026 Bond Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,049:0000-395000,Sale of Bonds,Series 2026 Bond Fund,proceeds,non_tax,rule: 390xxx/395xxx
+revenue,049:0000-399001,Transfer In from General Fund,Series 2026 Bond Fund,transfers_in,non_tax,rule: 399xxx
+revenue,100:0012-381000,Spay/Neuter Program Misc.,Spay/Neuter Program,fees_fines,non_tax,rule: object code
+revenue,100:0012-381100,Rabies Tag $10 Differential,Spay/Neuter Program,fees_fines,non_tax,rule: object code
+revenue,116:0116-340310,GIS -County Clerk GIS Fees,GIS Fund,fees_fines,non_tax,rule: 340xxx
+revenue,116:0116-370000,Interest,GIS Fund,interest,non_tax,rule: 370xxx
+revenue,116:0116-377000,Reimbursement City of Belvidere,GIS Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,116:0116-377001,Reimbursements Other,GIS Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,120:0012-370000,Interest,Animal Serv. Donation Fund,interest,non_tax,rule: 370xxx
+revenue,120:0012-381500,Donations,Animal Serv. Donation Fund,misc_revenue,non_tax,rule: object code
+revenue,127:0056-380127,Coroner Grants,Death Certificate Surcharge,grants,non_tax,rule: 379xxx/380xxx
+revenue,139:0059-340503,County Clerk Fees,Vital Records Auto. Fund,fees_fines,non_tax,rule: 340xxx
+revenue,139:0059-370000,Interest,Vital Records Auto. Fund,interest,non_tax,rule: 370xxx
+revenue,144:0000-301000,Property Tax Current,Urban Transportation Fund,property_tax,tax,rule: object code is a tax
+revenue,144:0000-377028,Belvidere Reimb. Urban Trans.,Urban Transportation Fund,reimbursements,non_tax,rule: 375xxx-377xxx
+revenue,144:0000-380001,Rebuild Illinois Grant,Urban Transportation Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,145:0145-340145,Bus Fares,Rural Transport. Grant Fund,fees_fines,non_tax,rule: 340xxx
+revenue,145:0145-380000,CARES,Rural Transport. Grant Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,145:0145-380145,Other Grants,Rural Transport. Grant Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,145:0145-380400,5311 Public Transportation,Rural Transport. Grant Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,145:0145-380410,5312 DOAP Public Transportation,Rural Transport. Grant Fund,grants,non_tax,rule: 379xxx/380xxx
+revenue,151:0073-340103,Circuit Court - Fees,DUI Equipment Fund,fees_fines,non_tax,rule: 340xxx
+revenue,151:0073-340151,Sale of Assets,DUI Equipment Fund,fees_fines,non_tax,rule: 340xxx
+revenue,151:0073-340172,Towing Fees,DUI Equipment Fund,fees_fines,non_tax,rule: 340xxx
+revenue,151:0073-370000,Interest,DUI Equipment Fund,interest,non_tax,rule: 370xxx
+revenue,152:0073-360038,Drug Crime Disbursement,Federal Seized Drug Fund,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,152:0073-370000,Interest,Federal Seized Drug Fund,interest,non_tax,rule: 370xxx
+revenue,152:0073-399001,Transfer In from General Fund,Federal Seized Drug Fund,transfers_in,non_tax,rule: 399xxx
+revenue,153:0073-360038,Drug Crime Disbursement,Forfeited Funds (State),misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,153:0073-370000,Interest,Forfeited Funds (State),interest,non_tax,rule: 370xxx
+revenue,158:0055-340103,Circuit Court - Fees,Maint. & Child Sup. Fund,fees_fines,non_tax,rule: 340xxx
+revenue,160:0000-370000,Interest - Other,Gibson Memorial Fund,interest,non_tax,rule: 370xxx
+revenue,161:0055-340103,Circuit Court - Fees,Marriage & Civil Union Fund,fees_fines,non_tax,rule: 340xxx
+revenue,161:0055-370000,Interest,Marriage & Civil Union Fund,interest,non_tax,rule: 370xxx
+revenue,163:0076-340163,Sale in Error Fees,Sale in Error Fund,fees_fines,non_tax,rule: 340xxx
+revenue,166:0000-370000,Interest - Other,Schnell Memorial Fund,interest,non_tax,rule: 370xxx
+revenue,167:0000-370000,Interest - Other,Wolfram Memorial Fund,interest,non_tax,rule: 370xxx
+revenue,201:0075-340210,Financial Compliance Unit Fees,State's Attorney Collection,fees_fines,non_tax,rule: 340xxx
+revenue,201:0075-370000,Interest,State's Attorney Collection,interest,non_tax,rule: 370xxx
+revenue,202:0075-360038,Drug Crime Disbursement,State's Attorney Forfeited Funds,misc_revenue,non_tax,rule: 351xxx/360xxx
+revenue,202:0075-370000,Interest,State's Attorney Forfeited Funds,interest,non_tax,rule: 370xxx

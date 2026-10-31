@@ -1939,12 +1939,11 @@ FY2026_budget,388,53,001,0084,001-0084-900100,Contingencies #1,expense,2024,acti
 FY2026_budget,388,53,001,0084,001-0084-900100,Contingencies #1,expense,2025,budget,Total Budget,95000.00,
 FY2026_budget,388,53,001,0084,001-0084-900100,Contingencies #1,expense,2025,ytd,Thru 9/30/25,83358.17,
 FY2026_budget,388,53,001,0084,001-0084-900100,Contingencies #1,expense,2026,final,Final Budget,133475.00,
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2024,budget,Total Budget,-3.00,placed_by_position
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2024,budget,Total Budget,152000.00,placed_by_position
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2024,activity,Total Activity,149577.83,placed_by_position
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2025,budget,Total Budget,156560.00,placed_by_position
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2025,ytd,Thru 9/30/25,126364.87,placed_by_position
-FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages,expense,2026,final,Final Budget,276259.00,placed_by_position
+FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages (3),expense,2024,budget,Total Budget,152000.00,
+FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages (3),expense,2024,activity,Total Activity,149577.83,
+FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages (3),expense,2025,budget,Total Budget,156560.00,
+FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages (3),expense,2025,ytd,Thru 9/30/25,126364.87,
+FY2026_budget,389,54,001,0085,001-0085-401185,IT Wages (3),expense,2026,final,Final Budget,276259.00,
 FY2026_budget,390,54,001,0085,001-0085-451000,Office Supplies,expense,2024,budget,Total Budget,0.00,
 FY2026_budget,390,54,001,0085,001-0085-451000,Office Supplies,expense,2024,activity,Total Activity,0.00,
 FY2026_budget,390,54,001,0085,001-0085-451000,Office Supplies,expense,2025,budget,Total Budget,0.00,
@@ -2715,12 +2714,11 @@ FY2026_budget,543,68,018,0018,018-0018-521000,General Insurance & Bonds,expense,
 FY2026_budget,543,68,018,0018,018-0018-521000,General Insurance & Bonds,expense,2025,budget,Total Budget,1332500.00,
 FY2026_budget,543,68,018,0018,018-0018-521000,General Insurance & Bonds,expense,2025,ytd,Thru 9/30/25,1333515.00,
 FY2026_budget,543,68,018,0018,018-0018-521000,General Insurance & Bonds,expense,2026,final,Final Budget,1325600.00,
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2024,budget,Total Budget,18.00,placed_by_position
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2024,budget,Total Budget,152000.00,placed_by_position
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2024,activity,Total Activity,150747.52,placed_by_position
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,budget,Total Budget,152000.00,placed_by_position
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,ytd,Thru 9/30/25,113212.50,placed_by_position
-FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2026,final,Final Budget,160000.00,placed_by_position
+FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2024,budget,Total Budget,152000.00,
+FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2024,activity,Total Activity,150747.52,
+FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2025,budget,Total Budget,152000.00,
+FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2025,ytd,Thru 9/30/25,113212.50,
+FY2026_budget,544,68,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2026,final,Final Budget,160000.00,
 FY2026_budget,545,68,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2024,budget,Total Budget,10000.00,
 FY2026_budget,545,68,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2024,activity,Total Activity,5746.49,
 FY2026_budget,545,68,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2025,budget,Total Budget,10000.00,

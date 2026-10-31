@@ -1543,11 +1543,10 @@ FY2025_budget,386,51,001,0084,001-0084-900100,Contingencies #1,expense,2023,acti
 FY2025_budget,386,51,001,0084,001-0084-900100,Contingencies #1,expense,2024,budget,Total Budget,100000.00,
 FY2025_budget,386,51,001,0084,001-0084-900100,Contingencies #1,expense,2024,ytd,YTD Activity,22834.38,
 FY2025_budget,386,51,001,0084,001-0084-900100,Contingencies #1,expense,2025,final,Final Budget,95000.00,
-FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages,expense,2023,activity,Total Activity,-2.00,placed_by_position
-FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages,expense,2023,activity,Total Activity,69738.61,placed_by_position
-FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages,expense,2024,budget,Total Budget,152000.00,placed_by_position
-FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages,expense,2024,ytd,YTD Activity,143731.67,placed_by_position
-FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages,expense,2025,final,Final Budget,156560.00,placed_by_position
+FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages (2),expense,2023,activity,Total Activity,69738.61,
+FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages (2),expense,2024,budget,Total Budget,152000.00,
+FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages (2),expense,2024,ytd,YTD Activity,143731.67,
+FY2025_budget,387,52,001,0085,001-0085-401185,IT Wages (2),expense,2025,final,Final Budget,156560.00,
 FY2025_budget,388,52,001,0085,001-0085-522000,Telephone,expense,2023,activity,Total Activity,11933.44,
 FY2025_budget,388,52,001,0085,001-0085-522000,Telephone,expense,2024,budget,Total Budget,12400.00,
 FY2025_budget,388,52,001,0085,001-0085-522000,Telephone,expense,2024,ytd,YTD Activity,11010.17,
@@ -2168,11 +2167,10 @@ FY2025_budget,542,66,018,0018,018-0018-521000,General Insurance & Bonds,expense,
 FY2025_budget,542,66,018,0018,018-0018-521000,General Insurance & Bonds,expense,2024,budget,Total Budget,1132000.00,
 FY2025_budget,542,66,018,0018,018-0018-521000,General Insurance & Bonds,expense,2024,ytd,YTD Activity,1166830.00,
 FY2025_budget,542,66,018,0018,018-0018-521000,General Insurance & Bonds,expense,2025,final,Final Budget,1332500.00,
-FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2023,activity,Total Activity,18.00,placed_by_position
-FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2023,activity,Total Activity,162072.41,placed_by_position
-FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2024,budget,Total Budget,152000.00,placed_by_position
-FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2024,ytd,YTD Activity,150747.52,placed_by_position
-FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,final,Final Budget,152000.00,placed_by_position
+FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2023,activity,Total Activity,162072.41,
+FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2024,budget,Total Budget,152000.00,
+FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2024,ytd,YTD Activity,150747.52,
+FY2025_budget,543,66,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2025,final,Final Budget,152000.00,
 FY2025_budget,544,66,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2023,activity,Total Activity,42837.75,
 FY2025_budget,544,66,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2024,budget,Total Budget,10000.00,
 FY2025_budget,544,66,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2024,ytd,YTD Activity,5746.49,

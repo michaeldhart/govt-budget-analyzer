@@ -1,0 +1,99 @@
+norm_name,fund_code,match,years,example,note
+,,none,2021-2023,911,no fund number printed and no budget worksheet fund of this name
+americanrescueplangrant,131,verified,2021-2022,American Rescue Plan Grant Fund - Fund 131,fund number printed in the schedule title
+animalcontrol,012,verified,2015-2020,ANIMAL CONTROL FUND - FUND 012,fund number printed in the schedule title
+animalservices,012,by_name,2024-2025,ANIMAL SERVICES FUND,Animal Control Fund - Fund 012 before FY2021
+animalservicesbond,047,verified,2017-2023,ANIMAL SERVICES BOND FUND - FUND 047,fund number printed in the schedule title
+animalservicesbuildingandmaintance,011,verified,2018-2020,Animal Services Building and Maintance Fund - Fund 011,fund number printed in the schedule title
+animalservicesbuildingandmaintenance,011,verified,2015-2025,ANIMAL SERVICES BUILDING AND MAINTENANCE FUND,fund number printed in the schedule title
+animalservicesdonation,120,verified,2015-2025,ANIMAL SERVICES DONATION FUND,fund number printed in the schedule title
+animalservicesother,012,by_name,2021-2023,Animal Services Fund - Other,Animal Services Fund - Other (FY2021-23)
+arresteemedicalcosts,,none,2021-2023,Arrestee Medical Costs,no fund number printed and no budget worksheet fund of this name
+autotheftgrant,,none,2021-2023,Auto Theft Grant,no fund number printed and no budget worksheet fund of this name
+auxiliarydeputies,,none,2021-2023,Auxiliary Deputies,no fund number printed and no budget worksheet fund of this name
+capitalprojects,030,verified,2015-2025,CAPITAL PROJECTS FUND,fund number printed in the schedule title
+childsupportmaintenance,158,verified,2015-2020,CHILD SUPPORT MAINTENANCE FUND - FUND 158,fund number printed in the schedule title
+circuitclerkecitation,,none,2023-2023,Circuit Clerk E-Citation,no fund number printed and no budget worksheet fund of this name
+circuitclerkelectroniccitation,,none,2021-2023,Circuit Clerk Electronic Citation,no fund number printed and no budget worksheet fund of this name
+circuitclerkoperations,,none,2021-2023,Circuit Clerk Operations,no fund number printed and no budget worksheet fund of this name
+circuitclerkoperationsadmin,,none,2023-2023,Circuit Clerk Operations & Admin,no fund number printed and no budget worksheet fund of this name
+citizencorpsgrant,,none,2021-2023,Citizen Corps Grant,no fund number printed and no budget worksheet fund of this name
+coronersfees,056,verified,2015-2023,CORONER'S FEES FUND - FUND 056,fund number printed in the schedule title
+coronersgrant,127,verified,2015-2023,CORONER'S GRANT FUND - FUND 127,fund number printed in the schedule title
+countybridge,003,verified,2015-2025,COUNTY BRIDGE FUND,fund number printed in the schedule title
+countyclerk,,none,2021-2022,County Clerk,no fund number printed and no budget worksheet fund of this name
+countyhealthdepartment,013,verified,2015-2020,COUNTY HEALTH DEPARTMENT FUND - FUND 013,fund number printed in the schedule title
+countyhealthgrant,014,verified,2015-2020,COUNTY HEALTH GRANT FUND - FUND 014,fund number printed in the schedule title
+countyhighway,002,verified,2015-2025,COUNTY HIGHWAY FUND,fund number printed in the schedule title
+countymatching,004,verified,2015-2020,COUNTY MATCHING FUND,fund number printed in the schedule title
+countymotorfueltax,005,verified,2015-2025,COUNTY MOTOR FUEL TAX FUND,fund number printed in the schedule title
+courtautomation,041,verified,2018-2025,COURT AUTOMATION FUND,fund number printed in the schedule title
+courthousebond,046,by_name,2021-2025,COURTHOUSE BOND FUND,Courthouse Construction Fund - Fund 046 before FY2021
+courthouseconstruction,046,verified,2015-2020,COURTHOUSE CONSTRUCTION FUND - FUND 046,fund number printed in the schedule title
+courtsecurity,019,verified,2015-2025,COURT SECURITY FUND,fund number printed in the schedule title
+deathcertificatesurcharge,127,by_name,2024-2025,DEATH CERTIFICATE SURCHARGE FUND,Coroner's Grant Fund - Fund 127 before FY2024; worksheet fund 127 is Death Certificate Surcharge
+documentstorage,040,verified,2015-2025,DOCUMENT STORAGE FUND,fund number printed in the schedule title
+drugcourtgrant,,none,2021-2023,Drug Court Grant,no fund number printed and no budget worksheet fund of this name
+duiequipment,151,verified,2015-2025,DUI EQUIPMENT FUND,fund number printed in the schedule title
+electiongrant,,none,2021-2023,Election Grant,no fund number printed and no budget worksheet fund of this name
+electronicmonitoring,,none,2021-2023,Electronic Monitoring Fund,no fund number printed and no budget worksheet fund of this name
+farmlandprotection,,none,2021-2023,Farmland Protection,no fund number printed and no budget worksheet fund of this name
+federalforfeiteds,152,verified,2015-2018,FEDERAL FORFEITED FUNDS FUND - FUND 152,fund number printed in the schedule title
+federalseizeddrug,152,verified,2019-2025,FEDERAL SEIZED DRUG FUND,fund number printed in the schedule title
+fica,015,verified,2015-2025,FICA,fund number printed in the schedule title
+financialcomplianceunit,201,verified,2015-2023,FINANCIAL COMPLIANCE UNIT - FUND 201,fund number printed in the schedule title
+foodbeverage,,none,2021-2023,Food & Beverage (Community Building),no fund number printed and no budget worksheet fund of this name
+foreclosuremediation,021,verified,2015-2025,FORECLOSURE MEDIATION FUND,fund number printed in the schedule title
+gis,116,verified,2018-2025,GIS,fund number printed in the schedule title
+grant,101,verified,2015-2020,GRANT FUND - FUND 101 AND 154,fund number printed in the schedule title
+havaelection,154,verified,2019-2023,HAVA Election,fund number printed in the schedule title
+healthdepartment,013,by_name,2021-2025,HEALTH DEPARTMENT FUND,County Health Department Fund - Fund 013 before FY2021
+healthgrant,014,by_name,2021-2023,Health Grant,County Health Grant Fund - Fund 014 before FY2021
+highwaymatching,004,by_name,2021-2025,HIGHWAY MATCHING FUND,County Matching Fund - Fund 004 before FY2021
+imrfretirement,017,verified,2015-2025,IMRF/RETIREMENT FUND,fund number printed in the schedule title
+inandout,,none,2021-2023,In and Out,no fund number printed and no budget worksheet fund of this name
+jailbond,,none,2021-2023,Jail Bond,no fund number printed and no budget worksheet fund of this name
+jailcommissary,,none,2021-2023,Jail Commissary,no fund number printed and no budget worksheet fund of this name
+jurypayroll,,none,2021-2023,Jury Payroll,no fund number printed and no budget worksheet fund of this name
+landcashfees,,none,2021-2022,Land Cash Fees Fund (Impact Fees),no fund number printed and no budget worksheet fund of this name
+landfillclosing,025,verified,2015-2020,LANDFILL CLOSING FUND - FUND 025,fund number printed in the schedule title
+landfillclosure,025,by_name,2021-2025,LANDFILL CLOSURE FUND,Landfill Closing Fund - Fund 025 before FY2021
+lawenforcementoperations,051,verified,2019-2023,Law Enforcement Operations,fund number printed in the schedule title
+lawlibrary,020,verified,2015-2025,LAW LIBRARY FUND,fund number printed in the schedule title
+liabilityinsurance,018,verified,2015-2020,LIABILITY INSURANCE FUND - FUND 018,fund number printed in the schedule title
+maintenanceandchildsupport,158,by_name,2021-2025,MAINTENANCE AND CHILD SUPPORT FUND,Child Support Maintenance Fund - Fund 158 before FY2021
+maplecrestmemorial,,none,2015-2025,MAPLECREST MEMORIAL FUND,no fund number printed and no budget worksheet fund of this name
+maplecrestmemorials,,none,2021-2023,Maplecrest Memorial Funds,no fund number printed and no budget worksheet fund of this name
+marriageandcivilunion,161,verified,2015-2024,MARRIAGE AND CIVIL UNION FUND,fund number printed in the schedule title
+motorfueltax,005,verified,2018-2023,Motor Fuel Tax,fund number printed in the schedule title
+officeautomation,,none,2015-2017,"OFFICE AUTOMATION FUND (Court Automation, Treasurer's Automation, Recorder's Automation, GIS, Coroner's Grant, and Vital Records Automation) Funds 116, 139, 041, 042 and 043",no fund number printed and no budget worksheet fund of this name
+opioidgrant,123,verified,2020-2021,Opioid Grant,fund number printed in the schedule title
+planning,007,verified,2015-2023,PLANNING FUND - FUND 007,fund number printed in the schedule title
+prairieshieldgrant,162,verified,2017-2023,PRAIRIE SHIELD GRANT FUND - FUND 162,fund number printed in the schedule title
+probationservices,039,verified,2015-2025,PROBATION SERVICES FUND,fund number printed in the schedule title
+propertymaintenance,022,verified,2015-2025,PROPERTY MAINTENANCE FUND,fund number printed in the schedule title
+publicdefenderautomation,050,verified,2019-2023,Public Defender Automation,fund number printed in the schedule title
+publicsafetysalestax,045,verified,2015-2025,PUBLIC SAFETY SALES TAX FUND,fund number printed in the schedule title
+recordersautomation,043,verified,2018-2025,RECORDER'S AUTOMATION FUND,fund number printed in the schedule title
+regcomstudy,143,verified,2020-2020,Reg Com Study Fund - Fund 143,fund number printed in the schedule title
+regionalcommunicationstudy,,none,2021-2023,Regional Communication Study,no fund number printed and no budget worksheet fund of this name
+ruraltransportationgrant,145,verified,2020-2025,RURAL TRANSPORTATION GRANT FUND,fund number printed in the schedule title
+saleinerror,163,by_name,2021-2022,Sale in Error,worksheet fund 163
+sheriffhighwayhireback,052,verified,2019-2023,Sheriff Highway Hireback,fund number printed in the schedule title
+sheriffkdonation,,none,2021-2023,Sheriff K9 Donation Fund,no fund number printed and no budget worksheet fund of this name
+sheriffsstoragebond,048,verified,2019-2025,SHERIFF'S STORAGE BOND 2017 FUND,fund number printed in the schedule title
+sheriffsvehiclereplacement,038,verified,2015-2025,SHERIFF'S VEHICLE REPLACEMENT FUND,fund number printed in the schedule title
+spayneuterprogram,100,verified,2015-2025,SPAY/NEUTER PROGRAM FUND,fund number printed in the schedule title
+specialtycourts,,none,2021-2023,Specialty Courts,no fund number printed and no budget worksheet fund of this name
+statesattorneyautomation,044,verified,2015-2025,STATE'S ATTORNEY AUTOMATION FUND,fund number printed in the schedule title
+statesattorneycollection,201,by_name,2024-2025,STATE'S ATTORNEY COLLECTION FUND,Financial Compliance Unit - Fund 201 before FY2024; worksheet fund 201 is State's Attorney Collection
+statesattorneyforfeitedrevenue,202,verified,2017-2025,STATE'S ATTORNEY FORFEITED REVENUE FUND,fund number printed in the schedule title
+taxredemption,,none,2021-2022,Tax Redemption,no fund number printed and no budget worksheet fund of this name
+tortimmunity,018,by_name,2021-2025,TORT IMMUNITY FUND,Liability Insurance Fund - Fund 018 before FY2021
+townshipbridge,,none,2021-2022,Township Bridge,no fund number printed and no budget worksheet fund of this name
+townshipmotorfuel,,none,2021-2022,Township Motor Fuel,no fund number printed and no budget worksheet fund of this name
+treasurersautomation,042,verified,2018-2025,TREASURER'S AUTOMATION FUND,fund number printed in the schedule title
+trust,,none,2021-2023,Trust,no fund number printed and no budget worksheet fund of this name
+urbantransportation,144,by_name,2021-2025,144 Urban Transportation,worksheet fund 144
+vcvagrant,,none,2021-2023,VCVA Grant,no fund number printed and no budget worksheet fund of this name
+vitalrecordsautomation,139,verified,2018-2025,VITAL RECORDS AUTOMATION FUND,fund number printed in the schedule title

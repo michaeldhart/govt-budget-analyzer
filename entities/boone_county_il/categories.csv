@@ -1,0 +1,29 @@
+category_id,scheme,name,flow,color,sort,note
+property_tax,budget_category,Property tax,revenue,#2a78d6,0,"county, health, and levy-supported property taxes"
+sales_tax,budget_category,Sales tax,revenue,#1a8f6b,1,"1 cent, 1/4 cent and public safety sales taxes"
+income_tax,budget_category,State income tax,revenue,#8a5cc7,2,state-shared income tax
+replacement_tax,budget_category,Replacement tax,revenue,#d98a1f,3,personal property replacement tax (state-shared)
+other_tax,budget_category,Other taxes,revenue,#7a8794,4,"cannabis, out-of-state use, video gaming, hotel/motel, county motor fuel tax"
+licenses_permits,budget_category,Licenses and permits,revenue,#c4577a,5,"building, health, liquor and other permits"
+fees_fines,budget_category,"Fees, fines and charges",revenue,#3aa0c4,6,"court fees, recorder and clerk fees, jail housing, animal control, penalties and tax-sale fees"
+interest,budget_category,Interest,revenue,#b7a23a,7,investment income
+reimbursements,budget_category,Reimbursements,revenue,#5b6fb5,8,"state salary reimbursements, City of Belvidere and other reimbursements"
+grants,budget_category,Grants,revenue,#6fae3e,9,state and federal grants
+misc_revenue,budget_category,Miscellaneous,revenue,#a97c50,10,"rent, royalties, donations, insurance dividends and other"
+proceeds,budget_category,Bond and asset sale proceeds,revenue,#9aa3ad,11,sale of bonds and capital assets
+transfers_in,budget_category,Transfers in,revenue,#c9ced6,12,transfers from other county funds
+exp_personnel,expense_object,Personnel,expense,#2a78d6,0,"object codes 40xxxx-41xxxx: wages, FICA, IMRF, health insurance"
+exp_supplies,expense_object,Supplies and materials,expense,#1a8f6b,1,45xxxx-49xxxx
+exp_contractual,expense_object,Contractual services,expense,#8a5cc7,2,"50xxxx-55xxxx, 57xxxx-58xxxx: maintenance, utilities, professional services, insurance"
+exp_capital,expense_object,Capital outlay,expense,#d98a1f,3,56xxxx construction and 60xxxx equipment and vehicles
+exp_debt,expense_object,Debt service,expense,#c4577a,4,705xxx bond principal and interest
+exp_claims_grants,expense_object,"Claims, grants and pass-throughs",expense,#3aa0c4,5,"80xxxx claims and judgments, 81xxxx agency grants, 86xxxx Regional Office of Education"
+exp_transfers,expense_object,Transfers out,expense,#c9ced6,6,89xxxx transfers to other county funds
+exp_other,expense_object,Other,expense,#7a8794,7,"79xxxx programs, 90xxxx contingencies, 99xxxx refunds and advertising"
+fn_general,function_group,General control and administration,expense,#2a78d6,0,the audit's function
+fn_safety,function_group,Public safety,expense,#c4577a,1,
+fn_judiciary,function_group,Judiciary and courts,expense,#8a5cc7,2,
+fn_highways,function_group,"Highways, bridges and transportation",expense,#d98a1f,3,
+fn_health,function_group,Public health and animal services,expense,#1a8f6b,4,
+fn_welfare,function_group,Public welfare,expense,#3aa0c4,5,
+fn_capital,function_group,Capital and debt,expense,#7a8794,6,

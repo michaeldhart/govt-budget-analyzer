@@ -9,14 +9,208 @@
   "currency": "USD",
   "units": "dollars",
   "scope_note": "County government only (decision 2026-10-31). The Circuit Clerk's separate audits, the Health Department and other units are out of scope.",
-  "funds": [],
+  "funds": [
+    {
+      "code": "001",
+      "name": "General Fund"
+    },
+    {
+      "code": "002",
+      "name": "Highway Fund"
+    },
+    {
+      "code": "003",
+      "name": "Bridge Fund"
+    },
+    {
+      "code": "004",
+      "name": "Highway Matching Fund"
+    },
+    {
+      "code": "005",
+      "name": "Motor Fuel Fund"
+    },
+    {
+      "code": "011",
+      "name": "Animal Serv. Bldg. & Maint."
+    },
+    {
+      "code": "012",
+      "name": "Animal Services Fund"
+    },
+    {
+      "code": "013",
+      "name": "Health Fund"
+    },
+    {
+      "code": "015",
+      "name": "FICA Fund"
+    },
+    {
+      "code": "017",
+      "name": "IMRF Fund"
+    },
+    {
+      "code": "018",
+      "name": "Tort Immunity Fund"
+    },
+    {
+      "code": "019",
+      "name": "Court Security Fund"
+    },
+    {
+      "code": "020",
+      "name": "Law Library Fund"
+    },
+    {
+      "code": "021",
+      "name": "Foreclosure Mediation Fund"
+    },
+    {
+      "code": "022",
+      "name": "Property Maintenance Fund"
+    },
+    {
+      "code": "025",
+      "name": "Landfill Closure Fund"
+    },
+    {
+      "code": "030",
+      "name": "Capital Projects Fund"
+    },
+    {
+      "code": "036",
+      "name": "Sheriffs E-Citation Fund"
+    },
+    {
+      "code": "037",
+      "name": "Employee Health Care Fund"
+    },
+    {
+      "code": "038",
+      "name": "Sheriffs Vehicle Repl Fund"
+    },
+    {
+      "code": "039",
+      "name": "Probation Services Fund"
+    },
+    {
+      "code": "040",
+      "name": "Document Storage Fund"
+    },
+    {
+      "code": "041",
+      "name": "Court Automation Fund"
+    },
+    {
+      "code": "042",
+      "name": "Treasurers Automation Fund"
+    },
+    {
+      "code": "043",
+      "name": "Recorders Automation Fund"
+    },
+    {
+      "code": "044",
+      "name": "State's Attorney Automation"
+    },
+    {
+      "code": "045",
+      "name": "Public Safety Sales Tax Fund"
+    },
+    {
+      "code": "046",
+      "name": "Courthouse Bond Fund"
+    },
+    {
+      "code": "048",
+      "name": "Sheriffs Storage Bond 2017"
+    },
+    {
+      "code": "049",
+      "name": "Series 2026 Bond Fund"
+    },
+    {
+      "code": "100",
+      "name": "Spay/Neuter Program"
+    },
+    {
+      "code": "116",
+      "name": "GIS Fund"
+    },
+    {
+      "code": "120",
+      "name": "Animal Serv. Donation Fund"
+    },
+    {
+      "code": "127",
+      "name": "Death Certificate Surcharge"
+    },
+    {
+      "code": "139",
+      "name": "Vital Records Auto. Fund"
+    },
+    {
+      "code": "144",
+      "name": "Urban Transportation Fund"
+    },
+    {
+      "code": "145",
+      "name": "Rural Transport. Grant Fund"
+    },
+    {
+      "code": "151",
+      "name": "DUI Equipment Fund"
+    },
+    {
+      "code": "152",
+      "name": "Federal Seized Drug Fund"
+    },
+    {
+      "code": "153",
+      "name": "Forfeited Funds (State)"
+    },
+    {
+      "code": "158",
+      "name": "Maint. & Child Sup. Fund"
+    },
+    {
+      "code": "160",
+      "name": "Gibson Memorial Fund"
+    },
+    {
+      "code": "161",
+      "name": "Marriage & Civil Union Fund"
+    },
+    {
+      "code": "163",
+      "name": "Sale in Error Fund"
+    },
+    {
+      "code": "166",
+      "name": "Schnell Memorial Fund"
+    },
+    {
+      "code": "167",
+      "name": "Wolfram Memorial Fund"
+    },
+    {
+      "code": "201",
+      "name": "State's Attorney Collection"
+    },
+    {
+      "code": "202",
+      "name": "State's Attorney Forfeited Funds"
+    }
+  ],
   "account_format": {
-    "pattern": "FFF-DDDD-OOOOOO in the FY2026 budget (fund-department-object, e.g. 001-0000-301000); earlier layouts to be established when each year is read",
+    "pattern": "FFF-DDDD-OOOOOO in the ERP worksheets (fund-department-object, e.g. 001-0051-401000); canonical key FFF:DDDD-OOOOOO (the fund prefix is always written)",
     "key_segments": [
+      0,
       1,
       2
     ],
-    "key_note": "provisional until the budgets FY2017-FY2025 are read",
+    "key_note": "department + object within the fund; FY2025-FY2027 worksheets only so far",
     "typo_fixes": {}
   },
   "source_index": {
@@ -32,5 +226,13 @@
       2025
     ]
   },
-  "fund_based_budget": true
+  "fund_based_budget": true,
+  "optional_tables": [
+    "debt_balances",
+    "debt_issue_terms",
+    "debt_service_schedule",
+    "pension_rollforward",
+    "pension_summary",
+    "opeb_rollforward"
+  ]
 }

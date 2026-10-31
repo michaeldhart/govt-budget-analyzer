@@ -91,6 +91,9 @@ def extract(doc_id):
             if m and cols:
                 f, d, o, label, nums = m.groups()
                 toks = re.findall(NUM, nums)
+                if len(toks) > len(cols):  # a number that ends the label ("IT Wages (3)", "Jail Medical & Dental Claims 18") is part of the label
+                    label = f"{label} {' '.join(toks[:len(toks) - len(cols)])}"
+                    toks = toks[len(toks) - len(cols):]
                 flow = "revenue" if o[0] == "3" else "expense"
                 flag = ""
                 ends = [mm.end() for mm in re.finditer(NUM, line[len(line) - len(nums):])]

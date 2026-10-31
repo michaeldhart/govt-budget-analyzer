@@ -107,3 +107,40 @@ def test_per_fund_ending_balances_tie_to_the_fund_statements():
         assert ends == statement_end(fy, "Total Governmental") - statement_end(fy, "General"), fy
     mft = [r for r in fund_schedule_rows(2025) if r["line_type"] == "ending" and "MOTOR FUEL" in r["fund_name"]]
     assert int(float(mft[0]["actual"])) == statement_end(2025, "County Motor Fuel Tax") == 5202333
+
+
+DATA = EX.parent
+
+
+def _facts():
+    return list(csv.DictReader(open(DATA / "facts.csv", newline="")))
+
+
+def test_canonical_tables_validate():
+    from govbudget import Entity
+    from govbudget.validate import validate_config, validate_tables
+    e = Entity.load("boone_county_il")
+    assert validate_config(e) == []
+    assert validate_tables(e) == []
+
+
+def test_fact_counts_and_headline_numbers():
+    facts = _facts()
+    assert len(facts) == 24785 and sum(f["source_type"] == "budget" for f in facts) == 9036
+    gf = lambda **k: sum(int(f["amount"]) for f in facts if all(f[a] == str(b) for a, b in k.items()))  # noqa: E731
+    assert gf(doc_id="FY2026_budget", fund_code="001", flow="revenue", period_fy=2026, basis="adopted") == 25188465
+    # the budget extracts reconcile with the totals the county prints (993 fund/department-flow-period groups; 4 are the recorded source slips)
+    assert gf(doc_id="FY2025_budget", fund_code="163", flow="revenue", period_fy=2025, basis="adopted") == 5000
+
+
+def test_budget_facts_reconcile_with_control_totals():
+    import collections
+    fs, n, ts = collections.defaultdict(int), collections.defaultdict(int), collections.defaultdict(int)
+    for r in _facts():
+        if r["source_type"] == "budget":
+            k = (r["doc_id"], r["fund_code"], r["flow"], r["period_fy"], r["basis"])
+            fs[k] += int(r["amount"]); n[k] += 1
+    for r in csv.DictReader(open(DATA / "control_totals.csv", newline="")):
+        ts[(r["doc_id"], r["name"].split("-")[0], "revenue" if r["kind"].endswith("revenues") else "expense", r["period_fy"], r["basis"])] += int(r["amount"])
+    bad = sorted(k for k, v in ts.items() if abs(fs.get(k, 0) - v) > max(1, 0.5 * n.get(k, 0)))
+    assert len(ts) == 993 and len(bad) == 4, bad

@@ -1,0 +1,86 @@
+fund_code,dept_code,name,function,note
+001,0000,Non-Departmental,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0051,Administration,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0052,Grants,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0053,Assessments,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0054,Board of Review,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0055,Circuit Clerk,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0056,Coroner,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0057,County Board,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0058,County Buildings,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0059,County Clerk & Recorder,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0060,County Farm,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0061,Emergency Management,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0062,Regional Office of Education,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0063,Local Emergency Planning Commission,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0064,Judges,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0065,Jurors and Other Legal Services,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0066,Court Services,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0069,Probation,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0070,Public Safety,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0071,Corrections,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0072,Public Defender,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0073,Sheriff,Public safety,rule: department of the General Fund by name; other funds by fund
+001,0075,State's Attorney,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+001,0076,Treasurer,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0077,Zoning Board of Appeals,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0078,Planning,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0080,Building,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0081,Audit,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0082,Election,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0084,Contingency,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0085,Information Technology,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0086,Other Professional Services and Capital,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0087,Logan Avenue Building Maintenance,General control and administration,rule: department of the General Fund by name; other funds by fund
+001,0088,McKinley Ave Building,General control and administration,rule: department of the General Fund by name; other funds by fund
+002,0002,Highway Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+003,0002,Bridge Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+004,0002,Highway Matching Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+005,0002,Motor Fuel Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+011,0012,Animal Serv. Bldg. & Maint.,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+012,0012,Animal Services Fund,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+013,0013,Health Fund,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+015,0015,FICA Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+017,0017,IMRF Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+018,0018,Tort Immunity Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+019,0073,Court Security Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+020,0064,Law Library Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+021,0064,Foreclosure Mediation Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+022,0000,Property Maintenance Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+025,0025,Landfill Closure Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+030,0000,Capital Projects Fund,Capital and debt,rule: department of the General Fund by name; other funds by fund
+030,0030,Capital Projects Fund,Capital and debt,rule: department of the General Fund by name; other funds by fund
+036,0073,Sheriffs E-Citation Fund,Public safety,rule: department of the General Fund by name; other funds by fund
+037,0037,Employee Health Care Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+038,0073,Sheriffs Vehicle Repl Fund,Public safety,rule: department of the General Fund by name; other funds by fund
+039,0069,Probation Services Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+040,0055,Document Storage Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+041,0055,Court Automation Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+042,0076,Treasurers Automation Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+043,0059,Recorders Automation Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+044,0075,State's Attorney Automation,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+045,0000,Public Safety Sales Tax Fund,Public safety,rule: department of the General Fund by name; other funds by fund
+046,0000,Courthouse Bond Fund,Capital and debt,rule: department of the General Fund by name; other funds by fund
+048,0000,Sheriffs Storage Bond 2017,Capital and debt,rule: department of the General Fund by name; other funds by fund
+049,0000,Series 2026 Bond Fund,Capital and debt,rule: department of the General Fund by name; other funds by fund
+100,0012,Spay/Neuter Program,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+116,0116,GIS Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+120,0012,Animal Serv. Donation Fund,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+127,0056,Death Certificate Surcharge,Public health and animal services,rule: department of the General Fund by name; other funds by fund
+139,0059,Vital Records Auto. Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+144,0000,Urban Transportation Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+144,0144,Urban Transportation Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+145,0145,Rural Transport. Grant Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+145,5311,Rural Transport. Grant Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+145,5312,Rural Transport. Grant Fund,"Highways, bridges and transportation",rule: department of the General Fund by name; other funds by fund
+151,0073,DUI Equipment Fund,Public safety,rule: department of the General Fund by name; other funds by fund
+152,0073,Federal Seized Drug Fund,Public safety,rule: department of the General Fund by name; other funds by fund
+153,0073,Forfeited Funds (State),Public safety,rule: department of the General Fund by name; other funds by fund
+158,0055,Maint. & Child Sup. Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+160,0000,Gibson Memorial Fund,Public welfare,rule: department of the General Fund by name; other funds by fund
+161,0055,Marriage & Civil Union Fund,General control and administration,rule: department of the General Fund by name; other funds by fund
+163,0076,Sale in Error Fund,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+166,0000,Schnell Memorial Fund,Public welfare,rule: department of the General Fund by name; other funds by fund
+167,0000,Wolfram Memorial Fund,Public welfare,rule: department of the General Fund by name; other funds by fund
+201,0075,State's Attorney Collection,Judiciary and courts,rule: department of the General Fund by name; other funds by fund
+202,0075,State's Attorney Forfeited Funds,Judiciary and courts,rule: department of the General Fund by name; other funds by fund

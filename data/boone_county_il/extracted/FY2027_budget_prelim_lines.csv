@@ -1914,12 +1914,11 @@ FY2027_budget_prelim,383,36,001,0084,001-0084-900100,Contingencies #1,expense,20
 FY2027_budget_prelim,383,36,001,0084,001-0084-900100,Contingencies #1,expense,2026,budget,Total Budget,133475.00,
 FY2027_budget_prelim,383,36,001,0084,001-0084-900100,Contingencies #1,expense,2026,ytd,Thru 10/6/26,53983.00,
 FY2027_budget_prelim,383,36,001,0084,001-0084-900100,Contingencies #1,expense,2027,prelim,Prelim Budget,246303.00,
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2025,budget,Total Budget,-4.00,placed_by_position
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2025,budget,Total Budget,156560.00,placed_by_position
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2025,activity,Total Activity,160148.00,placed_by_position
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2026,budget,Total Budget,276259.00,placed_by_position
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2026,ytd,Thru 10/6/26,260766.00,placed_by_position
-FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages,expense,2027,prelim,Prelim Budget,350952.00,placed_by_position
+FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages (4),expense,2025,budget,Total Budget,156560.00,
+FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages (4),expense,2025,activity,Total Activity,160148.00,
+FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages (4),expense,2026,budget,Total Budget,276259.00,
+FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages (4),expense,2026,ytd,Thru 10/6/26,260766.00,
+FY2027_budget_prelim,384,37,001,0085,001-0085-401185,IT Wages (4),expense,2027,prelim,Prelim Budget,350952.00,
 FY2027_budget_prelim,385,37,001,0085,001-0085-451000,Office Supplies,expense,2025,budget,Total Budget,0.00,
 FY2027_budget_prelim,385,37,001,0085,001-0085-451000,Office Supplies,expense,2025,activity,Total Activity,0.00,
 FY2027_budget_prelim,385,37,001,0085,001-0085-451000,Office Supplies,expense,2026,budget,Total Budget,700.00,
@@ -2675,12 +2674,11 @@ FY2027_budget_prelim,535,51,018,0018,018-0018-521000,General Insurance & Bonds,e
 FY2027_budget_prelim,535,51,018,0018,018-0018-521000,General Insurance & Bonds,expense,2026,budget,Total Budget,1325600.00,
 FY2027_budget_prelim,535,51,018,0018,018-0018-521000,General Insurance & Bonds,expense,2026,ytd,Thru 10/6/26,1325079.00,
 FY2027_budget_prelim,535,51,018,0018,018-0018-521000,General Insurance & Bonds,expense,2027,prelim,Prelim Budget,1487347.00,
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,budget,Total Budget,18.00,placed_by_position
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,budget,Total Budget,152000.00,placed_by_position
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2025,activity,Total Activity,142506.00,placed_by_position
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2026,budget,Total Budget,160000.00,placed_by_position
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2026,ytd,Thru 10/6/26,150715.00,placed_by_position
-FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims,expense,2027,prelim,Prelim Budget,160000.00,placed_by_position
+FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2025,budget,Total Budget,152000.00,
+FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2025,activity,Total Activity,142506.00,
+FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2026,budget,Total Budget,160000.00,
+FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2026,ytd,Thru 10/6/26,150715.00,
+FY2027_budget_prelim,536,51,018,0018,018-0018-802100,Jail Medical & Dental Claims 18,expense,2027,prelim,Prelim Budget,160000.00,
 FY2027_budget_prelim,537,51,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2025,budget,Total Budget,10000.00,
 FY2027_budget_prelim,537,51,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2025,activity,Total Activity,14641.00,
 FY2027_budget_prelim,537,51,018,0018,018-0018-802600,Claims & Judgments (Tort),expense,2026,budget,Total Budget,10000.00,
