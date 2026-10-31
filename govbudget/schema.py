@@ -103,6 +103,20 @@ DEBT_PENSION_TABLES = {
                          "pdf_page", "flag", "exception_ids"],
 }
 
+# Detail the first debt / pension extraction left out (optional tables, validated when the file exists): plan net position of the police and
+# firefighters' pension funds, target investment allocations, and the GASB 27-era schedules of funding progress and employer contributions.
+PENSION_DETAIL_TABLES = {
+    "pension_plan_net_position": ["entity_id", "doc_id", "period_fy", "statement", "source", "plan_id", "section", "line_item", "line_id", "amount",
+                                  "pdf_page", "flag", "exception_ids"],
+    "pension_investment_allocation": ["entity_id", "doc_id", "period_fy", "plan_id", "asset_class", "range_text", "target_pct", "expected_return_pct",
+                                      "expected_return_text", "pdf_page", "flag", "exception_ids"],
+    "pension_funding_progress": ["entity_id", "doc_id", "period_fy", "plan_id", "valuation_date", "actuarial_value_of_assets", "accrued_liability",
+                                 "funded_ratio_pct", "unfunded_liability", "covered_payroll", "unfunded_pct_covered_payroll", "pdf_page", "flag",
+                                 "exception_ids"],
+    "pension_employer_contributions": ["entity_id", "doc_id", "period_fy", "plan_id", "contribution_fy", "employer_contributions", "required_contribution",
+                                       "pct_contributed", "pdf_page", "flag", "exception_ids"],
+}
+
 # Property tax and debt capacity schedules some audits print (the park district's): optional tables, validated when the file exists.
 TAX_DEBT_TABLES = {
     "legal_debt_margin": ["entity_id", "doc_id", "period_fy", "schedule", "line_item", "column", "amount", "pdf_page", "flag", "exception_ids"],

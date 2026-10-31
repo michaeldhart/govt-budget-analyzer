@@ -1,0 +1,3 @@
+kind,key,value,exception_id,reason
+allow,npos|tie_contrib|fire,-1,EX-adp-plan-npos-rounding,"Fire employer contributions: the FY2015 trend table prints 786,258 where the statements and the schedule of employer contributions print 786,259 (the FY2016 audit repeats 786,258 in its RSI)"
+allow,contrib|note|fire|2015,1,EX-adp-plan-npos-rounding,"Fire FY2015 employer contributions: the schedule of employer contributions prints 786,259 and the trend table in the note 786,258"

@@ -1,0 +1,2 @@
+kind,key,value,exception_id,reason
+allow,npos|tie_fnp|police,1,EX-adp-plan-npos-rounding,"Police fiduciary net position at April 30 2017: the pension note roll-forward prints 19,976,484 (it starts from the RSI's 18,648,665) where every statement prints 19,976,483; the FY2016 note-rounding slip carried one year"

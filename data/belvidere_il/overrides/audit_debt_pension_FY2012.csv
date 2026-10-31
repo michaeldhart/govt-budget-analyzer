@@ -4,3 +4,8 @@ fixtok,"52|57,514","57,511",,"OCR misread (page image: compensated absences endi
 fixtok,"63|124,986","724,988",,"OCR misread: firefighters APC 2011 is 724,988 (FY2013 trend table prints 724,988 for the same year; identity APC = ARC+interest+adjustment)"
 allow,pen|police|trend|2010|npo,-30135,EX-adp-fy2012-npo-2010,"FY2012 trend table: NPO 2010 1,269,471 is not NPO 2009 + APC - contributions (1,299,606); printed this way in the source"
 allow,pen|fire|trend|2010|npo,-30136,EX-adp-fy2012-npo-2010,"same, firefighters"
+fixtok,"54|419,760","119,760",,"OCR misread of a 1 (page image: capital lease payable principal 2015 is 119,760; the principal column sums to the printed 347,024 only with 119,760)"
+fixtok,"54|4,246,940","1,246,940",,"OCR misread of a 1 (page image: business-type total payments 2014 is 1,246,940; principal and interest of the six instruments sum to it)"
+allow,debt|sched|2012|t0|row2016,-8750,EX-adp-fy2012-sched-2016-total,"FY2012 governmental debt service table: the 2016 total principal payments is printed as 50,000 but the principal columns (G.O. certificates 50,000 + revolving loan fund 8,750) sum to 58,750; the printed TOTAL row (1,226,372) also omits the 8,750 (page image)"
+fixline,"54|2023 2032 - 697,008 46 643 1,230,281","2023 2032 - - 697,008 46,643 1,230,281",,"OCR dropped a dash and split 46,643 (page image: capital lease principal and interest are dashes, IEPA loan 697,008 and 46,643, total payments 1,230,281)"
+allow,debt|sched|2012|t2|tie1,-2,EX-adp-fy2012-iepa-sched-2,"FY2012 IEPA loan: the schedule's principal (rows and printed total 1,312,355) is $2 below the outstanding balance in the long-term liability table (1,312,357; page image)"

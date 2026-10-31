@@ -1,4 +1,68 @@
 entity_id,doc_id,period_fy,activity,instrument,line_id,year_ending,principal,interest,total,row_kind,pdf_page,flag,exception_ids
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2013,45000,25942,70942,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2014,45000,24380,69380,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2015,45000,22819,67819,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2016,50000,21170,71170,year,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2017,50000,19435,69435,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2018-2022,280000,69417,349417,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,2023-2027,255982,17969,273951,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,G.O. Debt Certificates,debt_certificates,TOTAL,770982,201132,972114,total,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2013,82500,0,82500,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2014,82500,0,82500,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2015,159140,0,159140,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2016,0,0,0,year,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2017,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2018-2022,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,2023-2027,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,Landfill Post Closure Care Cost,landfill_postclosure,TOTAL,324140,0,324140,total,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2013,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2014,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2015,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2016,8750,0,8750,year,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2017,43750,0,43750,year,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2018-2022,43750,0,43750,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,2023-2027,43750,0,43750,band,54,,
+belvidere_il,FY2012_audit,2012,governmental,Revolving Loan Fund - City,revolving_loan,TOTAL,140000,0,140000,total,54,,EX-adp-fy2012-sched-2016-total
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2013,540000,67375,607375,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2014,555000,45775,600775,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2015,575000,23575,598575,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2016,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2017,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2018-2022,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,2023-2027,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Alternate Revenue Source Series 2003,revenue_bonds,TOTAL,1670000,136725,1806725,total,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2013,190000,19250,209250,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2014,195000,9750,204750,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2015,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2016,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2017,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2018-2022,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,2023-2027,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Refunding Bonds Series 2003,,TOTAL,385000,29000,414000,total,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2013,145000,101010,246010,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2014,150000,93760,243760,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2015,155000,86260,241260,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2016,165000,78510,243510,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2017,175000,70260,245260,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2018-2022,985000,237050,1222050,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,2023-2027,455000,31630,486630,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Revenue Bonds Series 2004,,TOTAL,2230000,698480,2928480,total,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2013,111763,11528,123291,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2014,115501,7789,123290,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2015,119760,3958,123718,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2016,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2017,0,0,0,year,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2018-2022,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,2023-2032,0,0,0,band,54,,
+belvidere_il,FY2012_audit,2012,business_type,Capital Lease Payable,capital_lease,TOTAL,347024,23275,370299,total,54,,
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2013,58142,16223,74365,year,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2014,58871,15494,74365,year,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2015,59609,14756,74365,year,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2016,60357,14009,74366,year,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2017,61113,13252,74365,year,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2018-2022,317255,54571,371826,band,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,2023-2032,697008,46643,743651,band,54,,EX-adp-fy2012-iepa-sched-2
+belvidere_il,FY2012_audit,2012,business_type,IEPA Wastewater Treatment Works Loan,revolving_loan,TOTAL,1312355,174948,1487303,total,54,,EX-adp-fy2012-iepa-sched-2
 belvidere_il,FY2013_audit,2013,governmental,Revolving Loans Payable,revolving_loan,2014,0,0,0,year,63,,
 belvidere_il,FY2013_audit,2013,governmental,Revolving Loans Payable,revolving_loan,2015,0,0,0,year,63,,
 belvidere_il,FY2013_audit,2013,governmental,Revolving Loans Payable,revolving_loan,2016,0,0,0,year,63,,

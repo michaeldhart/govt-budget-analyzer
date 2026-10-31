@@ -1,0 +1,7 @@
+fiscal_year,doc,pdf_page,plan_id,asset_class,range_text,target_pct,expected_return_pct,expected_return_text,flag
+2025,FY2025_audit,71,imrf,Domestic Equity,,33.5,4.35,4.35%,
+2025,FY2025_audit,71,imrf,International Equity,,18.0,5.4,5.40%,
+2025,FY2025_audit,71,imrf,Fixed Income,,24.5,5.2,5.20%,
+2025,FY2025_audit,71,imrf,Real Estate,,10.5,6.4,6.40%,
+2025,FY2025_audit,71,imrf,Alternative Investments,,12.5,,4.85% to 6.25%,
+2025,FY2025_audit,71,imrf,Cash Equivalents,,1.0,3.6,3.60%,

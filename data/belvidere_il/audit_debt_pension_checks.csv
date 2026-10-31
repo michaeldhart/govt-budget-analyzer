@@ -1,5 +1,5 @@
 entity_id,doc_id,period_fy,check_group,passed,accepted_exceptions,failed
-belvidere_il,FY2012_audit,2012,debt,27,0,0
+belvidere_il,FY2012_audit,2012,debt,64,2,0
 belvidere_il,FY2012_audit,2012,opeb,3,0,0
 belvidere_il,FY2012_audit,2012,pen,20,2,0
 belvidere_il,FY2013_audit,2013,debt,37,0,0

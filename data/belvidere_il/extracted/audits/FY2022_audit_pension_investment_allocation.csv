@@ -1,0 +1,5 @@
+fiscal_year,doc,pdf_page,plan_id,asset_class,range_text,target_pct,expected_return_pct,expected_return_text,flag
+2022,FY2022_audit,76,police,Fixed income,,40.0,1.0,1.00%,
+2022,FY2022_audit,76,police,U.S. large company stocks,,42.0,6.4,6.40%,
+2022,FY2022_audit,76,police,U.S. small company stocks,,12.0,8.0,8.00%,
+2022,FY2022_audit,76,police,Foreign stocks,,6.0,6.9,6.90%,

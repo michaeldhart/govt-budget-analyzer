@@ -1,0 +1,9 @@
+fiscal_year,doc,pdf_page,plan_id,asset_class,range_text,target_pct,expected_return_pct,expected_return_text,flag
+2021,FY2021_audit,71,police,Fixed income,,40.0,1.4,1.40%,
+2021,FY2021_audit,71,police,U.S. large company stocks,,42.0,5.8,5.80%,
+2021,FY2021_audit,71,police,U.S. small company stocks,,12.0,7.6,7.60%,
+2021,FY2021_audit,71,police,Foreign stocks,,6.0,7.1,7.10%,
+2021,FY2021_audit,79,fire,Large cap domestic equity,,38.5,5.8,5.80%,
+2021,FY2021_audit,79,fire,Small cap domestic equity,,11.0,7.6,7.60%,
+2021,FY2021_audit,79,fire,International equity,,5.5,7.1,7.10%,
+2021,FY2021_audit,79,fire,Fixed income,,45.0,1.4,1.40%,
