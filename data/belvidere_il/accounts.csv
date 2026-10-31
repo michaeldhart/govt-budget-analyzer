@@ -52,7 +52,7 @@ belvidere_il,expense,160-6800,Insurance Premium,160,Liability Insurance,exp_cont
 belvidere_il,expense,16:110-6090,Maintenance Expense,110,Special Service Area 2 (Farmington Fields),exp_contractual,expense,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
 belvidere_il,expense,16:110-7900,Misc Expense,110,Special Service Area 2 (Farmington Fields),exp_miscellaneous,expense,2015,2027,"Special Service Area 2 (Farmington Fields); first seen FY2015, last FY2027"
 belvidere_il,expense,17:110-6090,Maintenance Expense,110,Special Service Area 3 (Farmington Fields),exp_contractual,expense,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
-belvidere_il,expense,17:110-7900,Misc Expense 7,110,Special Service Area 3 (Farmington Fields),exp_miscellaneous,expense,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027"
+belvidere_il,expense,17:110-7900,Misc Expense,110,Special Service Area 3 (Farmington Fields),exp_miscellaneous,expense,2018,2027,"Special Service Area 3 (Farmington Fields); first seen FY2018, last FY2027; label curated 2026-10-31 (OCR text was 'Misc Expense 7')"
 belvidere_il,expense,18:510-5010,Librarian/Director,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
 belvidere_il,expense,18:510-5020,Salaries,510,Library Operations,exp_personnel,expense,2018,2019,"Library Operations; first seen FY2018, last FY2019"
 belvidere_il,expense,18:510-50XX,Salaries,510,Library Operations,exp_personnel,expense,2015,2017,"Library Operations; first seen FY2015, last FY2017"
@@ -251,14 +251,14 @@ belvidere_il,expense,61:810-7900,Miscellaneous Expenses,810,Water,exp_miscellane
 belvidere_il,expense,61:810-8200,Equipment,810,Water,exp_equipment_grants,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:810-9999,Transfer Out,810,Water,exp_transfers,expense,2016,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:810-BONDSA,Bond Pmt Set Aside,810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
-belvidere_il,expense,61:810-DEPSA,Depreciaton Set Aside,810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:810-DEPSA,Depreciation Set Aside,810,Water,exp_set_aside,expense,2015,2027,Water/Sewer Fund (61); label curated 2026-10-31 (OCR text was 'Depreciaton Set Aside')
 belvidere_il,expense,61:820-5010,Salaries - Regular - FT,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5040,Overtime,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5079,FICA,820,Sewer,exp_personnel,expense,2017,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5120,IMRF,820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5130,Group Health Insurance,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5131,Dental Insurance,820,Sewer,exp_personnel,expense,2015,2026,Water/Sewer Fund (61)
-belvidere_il,expense,61:820-5136,Unemployment Com,820,Sewer,exp_personnel,expense,2027,2027,Water/Sewer Fund (61)
+belvidere_il,expense,61:820-5136,Unemployment Compensation,820,Sewer,exp_personnel,expense,2027,2027,Water/Sewer Fund (61); label curated 2026-10-31 (OCR text was 'Unemployment Com')
 belvidere_il,expense,61:820-5140,Uniform Allowance,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-5151,Travel,820,Sewer,exp_personnel,expense,2015,2027,Water/Sewer Fund (61)
 belvidere_il,expense,61:820-6005,Rep & Maint - Lift Stations,820,Sewer,exp_contractual,expense,2015,2027,Water/Sewer Fund (61)
@@ -311,10 +311,10 @@ belvidere_il,expense,751-8056,Tripp Rd. Reconstruction,751,Utility Tax,exp_capit
 belvidere_il,expense,751-8058,Southside Storm Sewer Study,751,Utility Tax,exp_capital_projects,expense,2020,2027,
 belvidere_il,expense,751-8060,Bellwood Detention Basin,751,Utility Tax,exp_capital_projects,expense,2018,2027,
 belvidere_il,expense,751-8062,Poplar Grove/ Lawrenceville Int,751,Utility Tax,exp_capital_projects,expense,2019,2027,
-belvidere_il,expense,91:000-DISBURS,Disbursement of Collected Fees a,000,Escrow,exp_miscellaneous,expense,2015,2027,"Escrow; first seen FY2015, last FY2027"
+belvidere_il,expense,91:000-DISBURS,Disbursement of Collected Fees,000,Escrow,exp_miscellaneous,expense,2015,2027,"Escrow; first seen FY2015, last FY2027; label curated 2026-10-31 (OCR text was 'Disbursement of Collected Fees a')"
 belvidere_il,expense,FP:000-ADMIN,Administration,000,Fire Pension,exp_miscellaneous,expense,2021,2027,"Fire Pension; first seen FY2021, last FY2027"
 belvidere_il,expense,FP:000-BENEFIT,Benefit Payments,000,Fire Pension,exp_pension_payments,expense,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
-belvidere_il,expense,FP:000-OTHEXP,Other Expenditures whe,000,Fire Pension,exp_miscellaneous,expense,2015,2020,"Fire Pension; first seen FY2015, last FY2020"
+belvidere_il,expense,FP:000-OTHEXP,Other Expenditures,000,Fire Pension,exp_miscellaneous,expense,2015,2020,"Fire Pension; first seen FY2015, last FY2020; label curated 2026-10-31 (OCR text was 'Other Expenditures whe')"
 belvidere_il,expense,FP:000-REFUND,Refund of Contributions,000,Fire Pension,exp_pension_payments,expense,2015,2027,"Fire Pension; first seen FY2015, last FY2027"
 belvidere_il,expense,IPL:000-21300,EMPLOYEE INSURANCE,000,Ida Public Library,exp_contractual,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
 belvidere_il,expense,IPL:000-31567,BOARD TRAINING,000,Ida Public Library,exp_contractual,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
@@ -332,7 +332,7 @@ belvidere_il,expense,IPL:000-41540,Gardening Grant Spending,000,Ida Public Libra
 belvidere_il,expense,IPL:000-41545,IEEE Science Grant Spending,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
 belvidere_il,expense,IPL:000-41551,Per Capita: Collection,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
 belvidere_il,expense,IPL:000-41552,Per Capita: Personnel,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
-belvidere_il,expense,IPL:000-41553,Per Capita: Outsourcing 7,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-41553,Per Capita: Outsourcing,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023; label curated 2026-10-31 (OCR text was 'Per Capita: Outsourcing 7')"
 belvidere_il,expense,IPL:000-41554,Per Capita: Maintenance,000,Ida Public Library,exp_contractual,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
 belvidere_il,expense,IPL:000-50100,DIRECTOR,000,Ida Public Library,exp_personnel,expense,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
 belvidere_il,expense,IPL:000-50115,ASSISTANT DIRECTOR,000,Ida Public Library,exp_personnel,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
@@ -341,7 +341,7 @@ belvidere_il,expense,IPL:000-51100,FICA/MEDICARE,000,Ida Public Library,exp_pers
 belvidere_il,expense,IPL:000-51200,IMRF,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-51300,EMPLOYEE INSURANCE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-51301,DEDUCTIBLE,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
-belvidere_il,expense,IPL:000-51302,Timeclock ADP),000,Ida Public Library,exp_personnel,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027"
+belvidere_il,expense,IPL:000-51302,Timeclock (ADP),000,Ida Public Library,exp_personnel,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027; label curated 2026-10-31 (OCR text was 'Timeclock ADP)')"
 belvidere_il,expense,IPL:000-51519,Staff Meetings/End Year,000,Ida Public Library,exp_personnel,expense,2024,2027,"Ida Public Library; first seen FY2024, last FY2027"
 belvidere_il,expense,IPL:000-51520,STAFF EDUCATION,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-51561,BANK FEES,000,Ida Public Library,exp_personnel,expense,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
@@ -355,15 +355,15 @@ belvidere_il,expense,IPL:000-51569,OUTREACH,000,Ida Public Library,exp_personnel
 belvidere_il,expense,IPL:000-51570,HOSPITALITY,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-51571,MERCHANDISE EXPENSES,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-51572,ADVERTISING,000,Ida Public Library,exp_personnel,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
-belvidere_il,expense,IPL:000-51580,BOOKMOBILE COLLECTION 7,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
+belvidere_il,expense,IPL:000-51580,Bookmobile Collection,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027; label curated 2026-10-31 (OCR text was 'BOOKMOBILE COLLECTION 7')"
 belvidere_il,expense,IPL:000-51585,BOOKMOBILE INSURANCE,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
 belvidere_il,expense,IPL:000-51590,BOOKMOBILE OPERATION,000,Ida Public Library,exp_personnel,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
 belvidere_il,expense,IPL:000-51595,Bookmobile repair,000,Ida Public Library,exp_personnel,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-51664,Program guides,000,Ida Public Library,exp_personnel,expense,2021,2021,"Ida Public Library; first seen FY2021, last FY2021"
-belvidere_il,expense,IPL:000-60100,MAINTENCE/SUPPLIES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-60100,MAINTENANCE/SUPPLIES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027; label curated 2026-10-31 (OCR text was 'MAINTENCE/SUPPLIES')"
 belvidere_il,expense,IPL:000-60101,RENTAL PROP EXPENSES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-60102,PROPERTY TAXES,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
-belvidere_il,expense,IPL:000-60103,Mortgages income from Sullivan/re,000,Ida Public Library,exp_contractual,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027"
+belvidere_il,expense,IPL:000-60103,Mortgages,000,Ida Public Library,exp_contractual,expense,2021,2027,"Ida Public Library; first seen FY2021, last FY2027; label curated 2026-10-31 (OCR text was 'Mortgages income from Sullivan/re')"
 belvidere_il,expense,IPL:000-60104,Ins Deductible,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-60105,Cleaning service,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-61101,Infrastructure and Equipment,000,Ida Public Library,exp_contractual,expense,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
@@ -386,13 +386,13 @@ belvidere_il,expense,IPL:000-64100,MACHINE RENT,000,Ida Public Library,exp_contr
 belvidere_il,expense,IPL:000-68000,INSURANCE,000,Ida Public Library,exp_contractual,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-68002,D&O Insurance,000,Ida Public Library,exp_contractual,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-70200,LIBRARY SUPPLIES,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
-belvidere_il,expense,IPL:000-71120,Unres Gift/Donation 7,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
-belvidere_il,expense,IPL:000-71121,Friends Summer Spending i,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-71120,Unres Gift/Donation,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027; label curated 2026-10-31 (OCR text was 'Unres Gift/Donation 7')"
+belvidere_il,expense,IPL:000-71121,Friends Summer Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027; label curated 2026-10-31 (OCR text was 'Friends Summer Spending i')"
 belvidere_il,expense,IPL:000-71122,Friends Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-71126,Other Grant Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-71127,Gardening Grant Spending,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-71128,List Memorial,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
-belvidere_il,expense,IPL:000-73100,BOOKS FUNDS),000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
+belvidere_il,expense,IPL:000-73100,BOOKS (FUNDS),000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027; label curated 2026-10-31 (OCR text was 'BOOKS FUNDS)')"
 belvidere_il,expense,IPL:000-73101,YYA,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-73102,Y SPANISH,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-73103,Y NON FIC,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
@@ -431,10 +431,10 @@ belvidere_il,expense,IPL:000-73405,HOMETOWN CHRISTMAS,000,Ida Public Library,exp
 belvidere_il,expense,IPL:000-73406,COMMUNITY GARDEN,000,Ida Public Library,exp_supplies,expense,2020,2027,"Ida Public Library; first seen FY2020, last FY2027"
 belvidere_il,expense,IPL:000-73407,TrunkorTreat,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
 belvidere_il,expense,IPL:000-73408,PROGRAMMING TEEN,000,Ida Public Library,exp_supplies,expense,2023,2027,"Ida Public Library; first seen FY2023, last FY2027"
-belvidere_il,expense,IPL:000-73409,Programming All Ages i,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-73409,Programming All Ages,000,Ida Public Library,exp_supplies,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027; label curated 2026-10-31 (OCR text was 'Programming All Ages i')"
 belvidere_il,expense,IPL:000-90000,Misc,000,Ida Public Library,exp_miscellaneous,expense,2024,2027,"Ida Public Library; first seen FY2024, last FY2027"
 belvidere_il,expense,IPL:000-90001,Credit Card Fees,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
-belvidere_il,expense,IPL:000-90002,Lost/Damaged Fees 7,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
+belvidere_il,expense,IPL:000-90002,Lost/Damaged Fees,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027; label curated 2026-10-31 (OCR text was 'Lost/Damaged Fees 7')"
 belvidere_il,expense,IPL:000-90007,Bank Fees,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-90008,Bad Debts,000,Ida Public Library,exp_miscellaneous,expense,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
 belvidere_il,expense,IPL:000-91562,COLLECTION AGENCY,000,Ida Public Library,exp_miscellaneous,expense,2022,2022,"Ida Public Library; first seen FY2022, last FY2022"
@@ -447,11 +447,11 @@ belvidere_il,expense,IPL:000-MISC,MISC,000,Ida Public Library,exp_miscellaneous,
 belvidere_il,expense,IPL:000-ONLINE,ONLINE,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
 belvidere_il,expense,IPL:000-PR,PR,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
 belvidere_il,expense,IPL:000-PROGRAMMIN,PROGRAMMING,000,Ida Public Library,exp_miscellaneous,expense,,,"Ida Public Library; first seen FY2020, last FY2020"
-belvidere_il,expense,IPL:000-SAIMAINTEN,sai MAINTENCE/SUPPLIES,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
-belvidere_il,expense,IPL:000-SIFICAMEDI,SI00 FICA/MEDICARE,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SAIMAINTEN,MAINTENANCE/SUPPLIES,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023; label curated 2026-10-31 (OCR text was 'sai MAINTENCE/SUPPLIES')"
+belvidere_il,expense,IPL:000-SIFICAMEDI,FICA/MEDICARE,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023; label curated 2026-10-31 (OCR text was 'SI00 FICA/MEDICARE')"
 belvidere_il,expense,IPL:000-SISADVERTI,SIS72 ADVERTISING,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
 belvidere_il,expense,IPL:000-SISOHOSPIT,SIS7O HOSPITALITY,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
-belvidere_il,expense,IPL:000-SSSTAFFMEE,S1S19STAFFMEETINGS,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023"
+belvidere_il,expense,IPL:000-SSSTAFFMEE,STAFF MEETINGS,000,Ida Public Library,exp_miscellaneous,expense,2023,2023,"Ida Public Library; first seen FY2023, last FY2023; label curated 2026-10-31 (OCR text was 'S1S19STAFFMEETINGS')"
 belvidere_il,expense,PP:000-ADMIN,Administration,000,Police Pension,exp_miscellaneous,expense,2021,2027,"Police Pension; first seen FY2021, last FY2027"
 belvidere_il,expense,PP:000-BENEFIT,Benefit Payments,000,Police Pension,exp_pension_payments,expense,2015,2027,"Police Pension; first seen FY2015, last FY2027"
 belvidere_il,expense,PP:000-OTHEXP,Other Expenditures,000,Police Pension,exp_miscellaneous,expense,2015,2020,"Police Pension; first seen FY2015, last FY2020"
@@ -502,7 +502,7 @@ belvidere_il,revenue,110-4950,Expense Reimbursement,110,General Administration,n
 belvidere_il,revenue,110-9998,Operating Transfer in,110,General Administration,non_tax,non_tax,2015,2027,
 belvidere_il,revenue,12:110-4010,Property Taxes,110,Downtown TIF,fund_tax_levy,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
 belvidere_il,revenue,12:110-4600,Interest Income,110,Downtown TIF,fund_interest,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
-belvidere_il,revenue,12:110-4900,Misc Revenues 7,110,Downtown TIF,fund_other_revenue,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016"
+belvidere_il,revenue,12:110-4900,Misc Revenues,110,Downtown TIF,fund_other_revenue,non_tax,2015,2016,"Downtown TIF; first seen FY2015, last FY2016; label curated 2026-10-31 (OCR text was 'Misc Revenues 7')"
 belvidere_il,revenue,130-4010,RE Taxes - Audit,130,Audit,property_tax,tax,2015,2027,
 belvidere_il,revenue,13:110-4010,Property Taxes,110,Kishwaukee TIF,fund_tax_levy,non_tax,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
 belvidere_il,revenue,13:110-4600,Interest Income,110,Kishwaukee TIF,fund_interest,non_tax,2015,2027,"Kishwaukee TIF; first seen FY2015, last FY2027"
@@ -712,7 +712,7 @@ belvidere_il,revenue,IPL:000-49530,Unrestricted Gift/Donation,000,Ida Public Lib
 belvidere_il,revenue,IPL:000-49600,MEETING ROOM,000,Ida Public Library,fund_other_revenue,non_tax,2020,2026,"Ida Public Library; first seen FY2020, last FY2026"
 belvidere_il,revenue,IPL:000-49601,PROCTORING,000,Ida Public Library,fund_other_revenue,non_tax,2020,2023,"Ida Public Library; first seen FY2020, last FY2023"
 belvidere_il,revenue,IPL:000-90001,CC INCOME,000,Ida Public Library,fund_other_revenue,non_tax,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
-belvidere_il,revenue,IPL:000-90002,Checking interest sid,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026"
+belvidere_il,revenue,IPL:000-90002,Lost/Damaged Fees,000,Ida Public Library,fund_other_revenue,non_tax,2023,2026,"Ida Public Library; first seen FY2023, last FY2026; label curated 2026-10-31 (OCR text was 'Checking interest sid')"
 belvidere_il,revenue,IPL:000-BUDGETCARR,BUDGET CARRYOVER,000,Ida Public Library,fund_other_revenue,non_tax,2020,2022,"Ida Public Library; first seen FY2020, last FY2022"
 belvidere_il,revenue,IPL:000-GIFTDONATI,GIFT/DONATION,000,Ida Public Library,fund_other_revenue,non_tax,2024,2024,"Ida Public Library; first seen FY2024, last FY2024"
 belvidere_il,revenue,IPL:000-IMPACTFEES,Impact Fees,000,Ida Public Library,fund_other_revenue,non_tax,2027,2027,"Ida Public Library; first seen FY2027, last FY2027"
