@@ -1,0 +1,44 @@
+ledger,kind,label_pattern,nth,line_id,line_group,description
+bond_reserves,source,interest,,br_interest,interest,Bond Reserves: interest income
+bond_reserves,use,^transfer,,br_transfer_out_bond_payment,transfer,Bond Reserves: transfer out to the Bond Payments sub-ledger
+connection_fees,source,interest,,cf_interest,interest,Connection Fees: interest income
+connection_fees,source,^connection fees$,1,cf_fees_water,connection_fee,Connection fees charged by the Water department (61-4-810-4510)
+connection_fees,source,^connection fees$,2,cf_fees_sewer,connection_fee,Connection fees charged by the Sewer department (61-4-820-4510)
+connection_fees,source,^deposits on agreement$,1,cf_deposits_water,connection_fee,Deposits on agreement - Water (61-4-810-4520)
+connection_fees,source,^deposits on agreement$,2,cf_deposits_sewer,connection_fee,Deposits on agreement - Sewer (61-4-820-4520)
+connection_fees,source,set-?aside,,cf_loan_repayment,loan,Connection Fee Set-Aside / Loan Repayment (the Depreciation Funding repays the connection fee loan)
+connection_fees,use,construction in progress - water,,cf_cip_water,capital,Construction in progress - Water
+connection_fees,use,construction in progress - sewer,,cf_cip_sewer,capital,Construction in progress - Sewer
+connection_fees,use,^building 61,,cf_building,capital,Building (61-1730)
+connection_fees,use,^equip,,cf_equipment,capital,Equipment and vehicles (61-1750)
+connection_fees,use,^building$,,cf_building_other,capital,Second Building line (FY2015-FY2020 documents)
+connection_fees,use,^land,,cf_land,capital,Land
+connection_fees,use,loan to depreciation,,cf_loan_to_depreciation,loan,Loan to the Depreciation Funding sub-ledger
+depreciation_funding,source,^interest,,df_interest,interest,Depreciation Funding: interest income
+depreciation_funding,source,^loan funds,,df_loans_grants,borrowing,Loan funds and grant funds
+depreciation_funding,source,^misc,,df_misc,other,Miscellaneous
+depreciation_funding,source,set aside - water \(for plant\),,df_set_aside_water_plant,set_aside,Depreciation set-aside - Water (for Plant)
+depreciation_funding,source,set aside - water \(for syst,,df_set_aside_water_system,set_aside,Depreciation set-aside - Water (for System)
+depreciation_funding,source,set aside - sewer \(for syst,,df_set_aside_sewer_system,set_aside,Depreciation set-aside - Sewer (for System)
+depreciation_funding,source,set aside - sewer \(for rep,,df_set_aside_sewer_replacement,set_aside,Depreciation set-aside - Sewer (for Replacement)
+depreciation_funding,source,set aside - wwtp,,df_set_aside_wwtp,set_aside,Depreciation set-aside - WWTP (FY2027 layout)
+depreciation_funding,source,set aside - water/sewer,,df_set_aside_water_sewer,set_aside,Depreciation set-aside - Water/Sewer (FY2027 layout)
+depreciation_funding,source,loan from connection,,df_loan_from_connection_fees,loan,Loan from the Connection Fees sub-ledger
+depreciation_funding,use,construction in progress - water,,df_cip_water,capital,Construction in progress - Water
+depreciation_funding,use,construction in progress - sewer,,df_cip_sewer,capital,Construction in progress - Sewer
+depreciation_funding,use,construction in progress - w/s,,df_cip_water_sewer,capital,Construction in progress - W/S (FY2027 layout)
+depreciation_funding,use,construction in progress - wwtp,,df_cip_wwtp,capital,Construction in progress - WWTP (FY2027 layout)
+depreciation_funding,use,^equipment,,df_equipment,capital,Equipment and vehicles
+depreciation_funding,use,^buildings,,df_buildings,capital,Buildings
+depreciation_funding,use,^infrastructure,,df_infrastructure,capital,Infrastructure
+depreciation_funding,use,city hall roof,,df_transfer_city_hall_roof,transfer,Transfer out - City Hall roof (General Fund project)
+depreciation_funding,use,loan payment,,df_loan_payment,loan,Transfer out - connection fees loan payment
+bond_payments,source,^interest,,bp_interest,interest,Bond Payments: interest income
+bond_payments,source,bond proceeds,,bp_bond_proceeds,borrowing,Bond proceeds
+bond_payments,source,operating transfer in,,bp_operating_transfer_in,transfer,Operating transfer in
+bond_payments,source,set aside,,bp_set_aside,set_aside,Bond Pmt Set Aside from the department blocks
+bond_payments,use,principal,,bp_principal,debt_service,Debt service - principal
+bond_payments,use,debt serv - interest,,bp_interest_paid,debt_service,Debt service - interest
+bond_payments,use,fiscal charges,,bp_fiscal_charges,debt_service,Fiscal charges
+bond_payments,use,amort,,bp_amortization,debt_service,Amortization of bond premium or discount
+bond_payments,use,issuance cost,,bp_issuance_cost,debt_service,Bond issuance cost

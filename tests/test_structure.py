@@ -217,6 +217,8 @@ def test_corrections_show_the_raw_reading_next_to_the_final_value(table):
     facts = {}
     for f in table("facts"):
         facts.setdefault((f["doc_id"], f["account_printed"], f["source_column"]), set()).add(f["amount"])
+    for f in table("ws_subledgers"):  # the Water / Sewer cash sub-ledger lines have no account: their key is the extract's ledger|kind|label#n
+        facts.setdefault((f["doc_id"], f["line_key"], f["source_column"]), set()).add(f["amount"])
     for r in corr:
         assert r["pdf_page"].isdigit()
         assert r["detail"] or r["method"] in ("account_override", "auto_resolved", "auto_resolved_digit"), r  # an eyeballed override must say why

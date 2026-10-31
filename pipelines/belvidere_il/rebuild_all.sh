@@ -11,6 +11,7 @@ python3 $P/build_audit_expense_compare.py      # audit vs budget: General Fund e
 python3 $P/build_audit_ws_compare.py           # audit vs budget: Water / Sewer operating expenses
 python3 $P/build_fund_summary.py | head -2     # fund balance summary
 python3 $P/build_ws_summary.py | head -1       # Water / Sewer summary
+python3 $P/build_ws_subledgers.py              # Water / Sewer budget cash sub-ledgers and their ties (needs build_facts.py)
 python3 $P/build_other_funds_summary.py        # other funds: audit schedules beside the budget
 python3 $P/build_reference.py                 # population, CPI and assessed valuation by fiscal year (from the committed snapshots and extracts)
 python3 -m govbudget.reconcile belvidere_il | head -1
