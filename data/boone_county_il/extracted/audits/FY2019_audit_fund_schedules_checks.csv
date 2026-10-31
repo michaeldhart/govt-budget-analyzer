@@ -1,0 +1,344 @@
+check,ok,detail
+FY2019_audit p76 County Bridge Fund - Fund 003: revenue items = total,True,"[257220, 230426] vs (257220, 230426)"
+FY2019_audit p76 County Bridge Fund - Fund 003: expenditure items = total,True,"[450000, 331479] vs (450000, 331479)"
+FY2019_audit p76 County Bridge Fund - Fund 003: excess = revenues - expenditures,True,"(-192780, -101053) vs (-192780, -101053)"
+FY2019_audit p76 County Bridge Fund - Fund 003: net change = revenues - expenditures + other financing,True,"(-192780, -101053) vs (-192780, -101053)"
+FY2019_audit p76 County Bridge Fund - Fund 003: ending = beginning + net change,True,4977119 vs 5078172 + -101053
+FY2019_audit p76 County Bridge Fund - Fund 003: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p76 County Bridge Fund - Fund 003: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p76 County Bridge Fund - Fund 003: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: revenue items = total,True,"[1252821, 1273779] vs (1252821, 1273779)"
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: expenditure items = total,True,"[1281483, 1190770] vs (1281483, 1190770)"
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: other_financing has no printed total (items used),True,"[50896, 0]"
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: excess = revenues - expenditures,True,"(-28662, 83009) vs (-28662, 83009)"
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: net change = revenues - expenditures + other financing,True,"(22234, 83009) vs (22234, 83009)"
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: ending = beginning + net change,True,870999 vs 787990 + 83009
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p77 IMRF/Retirement Fund - Fund 017: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: revenue items = total,True,"[870794, 1133497] vs (870794, 1133497)"
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: expenditure has no printed total (items used),True,"[1007438, 637660]"
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: other_financing has no printed total (items used),True,"[0, -125000]"
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: excess = revenues - expenditures,True,"(-136644, 495837) vs (-136644, 495837)"
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: net change = revenues - expenditures + other financing,True,"(-136644, 370837) vs (-136644, 370837)"
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: ending = beginning + net change,True,5888371 vs 5517534 + 370837
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p78 Motor Fuel Tax Fund - Fund 005: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p127 County Highway Fund - Fund 002: revenue items = total,True,"[946628, 881285] vs (946628, 881285)"
+FY2019_audit p127 County Highway Fund - Fund 002: expenditure items = total,True,"[935409, 713398] vs (935409, 713398)"
+FY2019_audit p127 County Highway Fund - Fund 002: other_financing has no printed total (items used),True,"[0, 125000]"
+FY2019_audit p127 County Highway Fund - Fund 002: excess = revenues - expenditures,True,"(11219, 167887) vs (11219, 167887)"
+FY2019_audit p127 County Highway Fund - Fund 002: net change = revenues - expenditures + other financing,True,"(11219, 292887) vs (11219, 292887)"
+FY2019_audit p127 County Highway Fund - Fund 002: ending = beginning + net change,True,1700729 vs 1407842 + 292887
+FY2019_audit p127 County Highway Fund - Fund 002: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p127 County Highway Fund - Fund 002: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p127 County Highway Fund - Fund 002: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p128 County Matching Fund - Fund 004: revenue items = total,True,"[153987, 202474] vs (153987, 202474)"
+FY2019_audit p128 County Matching Fund - Fund 004: expenditure has no printed total (items used),True,"[500000, 78925]"
+FY2019_audit p128 County Matching Fund - Fund 004: net change = revenues - expenditures + other financing,True,"(-346013, 123549) vs (-346013, 123549)"
+FY2019_audit p128 County Matching Fund - Fund 004: ending = beginning + net change,True,3259710 vs 3136161 + 123549
+FY2019_audit p128 County Matching Fund - Fund 004: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p128 County Matching Fund - Fund 004: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p129 County Health Department Fund - Fund 013: revenue items = total,True,"[610937, 1357610] vs (610937, 1357610)"
+FY2019_audit p129 County Health Department Fund - Fund 013: expenditure items = total,True,"[966592, 1115874] vs (966592, 1115874)"
+FY2019_audit p129 County Health Department Fund - Fund 013: other_financing items = total,True,"[355705, -1147] vs (355705, -1147)"
+FY2019_audit p129 County Health Department Fund - Fund 013: excess = revenues - expenditures,True,"(-355655, 241736) vs (-355655, 241736)"
+FY2019_audit p129 County Health Department Fund - Fund 013: net change = revenues - expenditures + other financing,True,"(50, 240589) vs (50, 240589)"
+FY2019_audit p129 County Health Department Fund - Fund 013: ending = beginning + net change,True,627149 vs 386560 + 240589
+FY2019_audit p129 County Health Department Fund - Fund 013: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p129 County Health Department Fund - Fund 013: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p129 County Health Department Fund - Fund 013: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p130 County Health Grant Fund - Fund 014: revenue items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p130 County Health Grant Fund - Fund 014: expenditure items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p130 County Health Grant Fund - Fund 014: other_financing items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p130 County Health Grant Fund - Fund 014: excess = revenues - expenditures,True,"(0, 0) vs (0, 0)"
+FY2019_audit p130 County Health Grant Fund - Fund 014: net change = revenues - expenditures + other financing,True,"(0, 0) vs (0, 0)"
+FY2019_audit p130 County Health Grant Fund - Fund 014: ending = beginning + net change,True,0 vs 0 + 0
+FY2019_audit p130 County Health Grant Fund - Fund 014: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p130 County Health Grant Fund - Fund 014: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p130 County Health Grant Fund - Fund 014: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p131 Animal Control Fund - Fund 012: revenue items = total,True,"[208500, 205297] vs (208500, 205297)"
+FY2019_audit p131 Animal Control Fund - Fund 012: expenditure items = total,True,"[191299, 213628] vs (191299, 213628)"
+FY2019_audit p131 Animal Control Fund - Fund 012: other_financing items = total,True,"[-20000, -20000] vs (-20000, -20000)"
+FY2019_audit p131 Animal Control Fund - Fund 012: excess = revenues - expenditures,True,"(17201, -8331) vs (17201, -8331)"
+FY2019_audit p131 Animal Control Fund - Fund 012: net change = revenues - expenditures + other financing,True,"(-2799, -28331) vs (-2799, -28331)"
+FY2019_audit p131 Animal Control Fund - Fund 012: ending = beginning + net change,True,-4763 vs 23568 + -28331
+FY2019_audit p131 Animal Control Fund - Fund 012: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p131 Animal Control Fund - Fund 012: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p131 Animal Control Fund - Fund 012: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: revenue items = total,True,"[14728, 28796] vs (14728, 28796)"
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: expenditure has no printed total (items used),True,"[23741, 44126]"
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: other_financing items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: excess = revenues - expenditures,True,"(-9013, -15330) vs (-9013, -15330)"
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: net change = revenues - expenditures + other financing,True,"(-9013, -15330) vs (-9013, -15330)"
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: ending = beginning + net change,True,14774 vs 30104 + -15330
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p132 Sheriff's Vehicle Replacement Fund - Fund 038: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p133 GIS Fund - Fund 116: revenue items = total,True,"[140361, 178096] vs (140361, 178096)"
+FY2019_audit p133 GIS Fund - Fund 116: expenditure has no printed total (items used),True,"[104832, 118929]"
+FY2019_audit p133 GIS Fund - Fund 116: other_financing items = total,True,"[-27241, -11106] vs (-27241, -11106)"
+FY2019_audit p133 GIS Fund - Fund 116: excess = revenues - expenditures,True,"(35529, 59167) vs (35529, 59167)"
+FY2019_audit p133 GIS Fund - Fund 116: net change = revenues - expenditures + other financing,True,"(8288, 48061) vs (8288, 48061)"
+FY2019_audit p133 GIS Fund - Fund 116: ending = beginning + net change,True,163165 vs 115104 + 48061
+FY2019_audit p133 GIS Fund - Fund 116: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p133 GIS Fund - Fund 116: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p133 GIS Fund - Fund 116: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: revenue items = total,True,"[1950, 2402] vs (1950, 2402)"
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: expenditure items = total,True,"[4800, 1384] vs (4800, 1384)"
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: net change = revenues - expenditures + other financing,True,"(-2850, 1018) vs (-2850, 1018)"
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: ending = beginning + net change,True,18603 vs 17585 + 1018
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p134 Vital Records Automation Fund - Fund 139: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p135 Court Automation Fund - Fund 041: revenue items = total,True,"[111796, 123947] vs (111796, 123947)"
+FY2019_audit p135 Court Automation Fund - Fund 041: expenditure items = total,True,"[133000, 40203] vs (133000, 40203)"
+FY2019_audit p135 Court Automation Fund - Fund 041: other_financing items = total,True,"[0, -58000] vs (0, -58000)"
+FY2019_audit p135 Court Automation Fund - Fund 041: excess = revenues - expenditures,True,"(-21204, 83744) vs (-21204, 83744)"
+FY2019_audit p135 Court Automation Fund - Fund 041: net change = revenues - expenditures + other financing,True,"(-21204, 25744) vs (-21204, 25744)"
+FY2019_audit p135 Court Automation Fund - Fund 041: ending = beginning + net change,True,157737 vs 131993 + 25744
+FY2019_audit p135 Court Automation Fund - Fund 041: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p135 Court Automation Fund - Fund 041: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p135 Court Automation Fund - Fund 041: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: revenue items = total,True,"[7100, 7437] vs (7100, 7437)"
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: expenditure has no printed total (items used),True,"[2200, 3815]"
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: net change = revenues - expenditures + other financing,True,"(4900, 3622) vs (4900, 3622)"
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: ending = beginning + net change,True,68955 vs 65333 + 3622
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p136 Treasurers Automation Fund - Fund 042: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p137 Recorders Automation Fund - Fund 043: revenue items = total,True,"[107630, 92816] vs (107630, 92816)"
+FY2019_audit p137 Recorders Automation Fund - Fund 043: expenditure has no printed total (items used),True,"[45700, 88249]"
+FY2019_audit p137 Recorders Automation Fund - Fund 043: other_financing items = total,True,"[-31362, -31362] vs (-31362, -31362)"
+FY2019_audit p137 Recorders Automation Fund - Fund 043: excess = revenues - expenditures,True,"(61930, 4567) vs (61930, 4567)"
+FY2019_audit p137 Recorders Automation Fund - Fund 043: net change = revenues - expenditures + other financing,True,"(30568, -26795) vs (30568, -26795)"
+FY2019_audit p137 Recorders Automation Fund - Fund 043: ending = beginning + net change,True,160302 vs 187097 + -26795
+FY2019_audit p137 Recorders Automation Fund - Fund 043: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p137 Recorders Automation Fund - Fund 043: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p137 Recorders Automation Fund - Fund 043: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p138 Probation Services Fund - Fund 039: revenue items = total,True,"[105314, 93996] vs (105314, 93996)"
+FY2019_audit p138 Probation Services Fund - Fund 039: expenditure items = total,True,"[125125, 49065] vs (125125, 49065)"
+FY2019_audit p138 Probation Services Fund - Fund 039: other_financing items = total,True,"[-40000, 0] vs (-40000, 0)"
+FY2019_audit p138 Probation Services Fund - Fund 039: net change = revenues - expenditures + other financing,True,"(-59811, 44931) vs (-59811, 44931)"
+FY2019_audit p138 Probation Services Fund - Fund 039: ending = beginning + net change,True,585666 vs 540735 + 44931
+FY2019_audit p138 Probation Services Fund - Fund 039: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p138 Probation Services Fund - Fund 039: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p138 Probation Services Fund - Fund 039: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p139 DUI Equipment Fund - Fund 151: revenue items = total,True,"[31500, 22730] vs (31500, 22730)"
+FY2019_audit p139 DUI Equipment Fund - Fund 151: expenditure has no printed total (items used),True,"[80000, 20589]"
+FY2019_audit p139 DUI Equipment Fund - Fund 151: net change = revenues - expenditures + other financing,True,"(-48500, 2141) vs (-48500, 2141)"
+FY2019_audit p139 DUI Equipment Fund - Fund 151: ending = beginning + net change,True,63879 vs 61738 + 2141
+FY2019_audit p139 DUI Equipment Fund - Fund 151: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p139 DUI Equipment Fund - Fund 151: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p140 Court Security Fund - Fund 019: revenue items = total,True,"[73321, 77223] vs (73321, 77223)"
+FY2019_audit p140 Court Security Fund - Fund 019: expenditure has no printed total (items used),True,"[3500, 2588]"
+FY2019_audit p140 Court Security Fund - Fund 019: other_financing items = total,True,"[-57000, -57000] vs (-57000, -57000)"
+FY2019_audit p140 Court Security Fund - Fund 019: excess = revenues - expenditures,True,"(69821, 74635) vs (69821, 74635)"
+FY2019_audit p140 Court Security Fund - Fund 019: net change = revenues - expenditures + other financing,True,"(12821, 17635) vs (12821, 17635)"
+FY2019_audit p140 Court Security Fund - Fund 019: ending = beginning + net change,True,113077 vs 95442 + 17635
+FY2019_audit p140 Court Security Fund - Fund 019: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p140 Court Security Fund - Fund 019: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p140 Court Security Fund - Fund 019: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p141 Law Library Fund - Fund 020: revenue has no printed total (items used),True,"[30156, 30051]"
+FY2019_audit p141 Law Library Fund - Fund 020: expenditure items = total,True,"[34340, 30772] vs (34340, 30772)"
+FY2019_audit p141 Law Library Fund - Fund 020: net change = revenues - expenditures + other financing,True,"(-4184, -721) vs (-4184, -721)"
+FY2019_audit p141 Law Library Fund - Fund 020: ending = beginning + net change,True,-22167 vs -21446 + -721
+FY2019_audit p141 Law Library Fund - Fund 020: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p141 Law Library Fund - Fund 020: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p142 Landfill Closing Fund - Fund 025: revenue items = total,True,"[56850, 56800] vs (56850, 56800)"
+FY2019_audit p142 Landfill Closing Fund - Fund 025: expenditure items = total,True,"[100756, 54913] vs (100756, 54913)"
+FY2019_audit p142 Landfill Closing Fund - Fund 025: other_financing items = total,True,"[50000, 50000] vs (50000, 50000)"
+FY2019_audit p142 Landfill Closing Fund - Fund 025: excess = revenues - expenditures,True,"(-43906, 1887) vs (-43906, 1887)"
+FY2019_audit p142 Landfill Closing Fund - Fund 025: net change = revenues - expenditures + other financing,True,"(6094, 51887) vs (6094, 51887)"
+FY2019_audit p142 Landfill Closing Fund - Fund 025: ending = beginning + net change,True,59071 vs 7184 + 51887
+FY2019_audit p142 Landfill Closing Fund - Fund 025: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p142 Landfill Closing Fund - Fund 025: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p142 Landfill Closing Fund - Fund 025: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: revenue items = total,True,"[6050, 19048] vs (6050, 19048)"
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: expenditure items = total,True,"[60000, 94582] vs (60000, 94582)"
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: net change = revenues - expenditures + other financing,True,"(-53950, -75534) vs (-53950, -75534)"
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: ending = beginning + net change,True,35973 vs 111507 + -75534
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p143 Federal Seized Drug Fund - Fund 152: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: revenue has no printed total (items used),True,"[9000, 9582]"
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: other_financing items = total,True,"[-20000, -20000] vs (-20000, -20000)"
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: excess = revenues - expenditures,True,"(9000, 9582) vs (9000, 9582)"
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: net change = revenues - expenditures + other financing,True,"(-11000, -10418) vs (-11000, -10418)"
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: ending = beginning + net change,True,1466 vs 11884 + -10418
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p144 Child Support Maintenance Fund - Fund 158: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p145 HAVA Election Fund - Fund 154: revenue has no printed total (items used),True,"[10000, 0]"
+FY2019_audit p145 HAVA Election Fund - Fund 154: expenditure has no printed total (items used),True,"[10000, 0]"
+FY2019_audit p145 HAVA Election Fund - Fund 154: net change = revenues - expenditures + other financing,True,"(0, 0) vs (0, 0)"
+FY2019_audit p145 HAVA Election Fund - Fund 154: ending = beginning + net change,True,0 vs 0 + 0
+FY2019_audit p145 HAVA Election Fund - Fund 154: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p145 HAVA Election Fund - Fund 154: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p146 Document Storage Fund - Fund 040: revenue items = total,True,"[108950, 118997] vs (108950, 118997)"
+FY2019_audit p146 Document Storage Fund - Fund 040: expenditure items = total,True,"[163000, 53627] vs (163000, 53627)"
+FY2019_audit p146 Document Storage Fund - Fund 040: other_financing items = total,True,"[0, -61000] vs (0, -61000)"
+FY2019_audit p146 Document Storage Fund - Fund 040: excess = revenues - expenditures,True,"(-54050, 65370) vs (-54050, 65370)"
+FY2019_audit p146 Document Storage Fund - Fund 040: net change = revenues - expenditures + other financing,True,"(-54050, 4370) vs (-54050, 4370)"
+FY2019_audit p146 Document Storage Fund - Fund 040: ending = beginning + net change,True,140977 vs 136607 + 4370
+FY2019_audit p146 Document Storage Fund - Fund 040: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p146 Document Storage Fund - Fund 040: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p146 Document Storage Fund - Fund 040: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p147 Grant Fund - Fund 101: expenditure has no printed total (items used),True,"[2500, 0]"
+FY2019_audit p147 Grant Fund - Fund 101: net change = revenues - expenditures + other financing,True,"(-2500, 0) vs (-2500, 0)"
+FY2019_audit p147 Grant Fund - Fund 101: ending = beginning + net change,True,2921 vs 2921 + 0
+FY2019_audit p147 Grant Fund - Fund 101: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p147 Grant Fund - Fund 101: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p148 Financial Compliance Unit - Fund 201: revenue items = total,True,"[7790, 13568] vs (7790, 13568)"
+FY2019_audit p148 Financial Compliance Unit - Fund 201: net change = revenues - expenditures + other financing,True,"(7790, 13568) vs (7790, 13568)"
+FY2019_audit p148 Financial Compliance Unit - Fund 201: ending = beginning + net change,True,34679 vs 21111 + 13568
+FY2019_audit p148 Financial Compliance Unit - Fund 201: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: revenue items = total,True,"[8010, 4405] vs (8010, 4405)"
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: expenditure items = total,True,"[12000, 386] vs (12000, 386)"
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: net change = revenues - expenditures + other financing,True,"(-3990, 4019) vs (-3990, 4019)"
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: ending = beginning + net change,True,28449 vs 24430 + 4019
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p149 States Attorney Forfeited Revenue Fund - Fund 202: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p150 Liability Insurance Fund - Fund 018: revenue items = total,True,"[848648, 843535] vs (848648, 843535)"
+FY2019_audit p150 Liability Insurance Fund - Fund 018: expenditure has no printed total (items used),True,"[871127, 843919]"
+FY2019_audit p150 Liability Insurance Fund - Fund 018: other_financing items = total,True,"[10000, 3253] vs (10000, 3253)"
+FY2019_audit p150 Liability Insurance Fund - Fund 018: excess = revenues - expenditures,True,"(-22479, -384) vs (-22479, -384)"
+FY2019_audit p150 Liability Insurance Fund - Fund 018: net change = revenues - expenditures + other financing,True,"(-12479, 2869) vs (-12479, 2869)"
+FY2019_audit p150 Liability Insurance Fund - Fund 018: ending = beginning + net change,True,413143 vs 410274 + 2869
+FY2019_audit p150 Liability Insurance Fund - Fund 018: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p150 Liability Insurance Fund - Fund 018: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p150 Liability Insurance Fund - Fund 018: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: revenue items = total,True,"[1280, 1703] vs (1280, 1703)"
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: expenditure items = total,True,"[800, 372] vs (800, 372)"
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: net change = revenues - expenditures + other financing,True,"(480, 1331) vs (480, 1331)"
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: ending = beginning + net change,True,9711 vs 8380 + 1331
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p151 Marriage and Civil Union Fund - Fund 161: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: revenue items = total,True,"[6230, 6400] vs (6230, 6400)"
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: expenditure has no printed total (items used),True,"[6400, 6195]"
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: net change = revenues - expenditures + other financing,True,"(-170, 205) vs (-170, 205)"
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: ending = beginning + net change,True,7491 vs 7286 + 205
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p152 Spay/Neuter Program Fund - Fund 100: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: revenue has no printed total (items used),True,"[0, 4412]"
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: expenditure has no printed total (items used),True,"[500, 504]"
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: net change = revenues - expenditures + other financing,True,"(-500, 3908) vs (-500, 3908)"
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: ending = beginning + net change,True,14314 vs 10406 + 3908
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p153 Coroner's Grant Fund - Fund 127: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p154 Coroner's Fees Fund - Fund 056: expenditure has no printed total (items used),True,"[2700, 0]"
+FY2019_audit p154 Coroner's Fees Fund - Fund 056: net change = revenues - expenditures + other financing,True,"(-2700, 0) vs (-2700, 0)"
+FY2019_audit p154 Coroner's Fees Fund - Fund 056: ending = beginning + net change,True,0 vs 0 + 0
+FY2019_audit p154 Coroner's Fees Fund - Fund 056: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p154 Coroner's Fees Fund - Fund 056: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: revenue items = total,True,"[4600, 3625] vs (4600, 3625)"
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: expenditure has no printed total (items used),True,"[9000, 0]"
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: net change = revenues - expenditures + other financing,True,"(-4400, 3625) vs (-4400, 3625)"
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: ending = beginning + net change,True,34711 vs 31086 + 3625
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p155 State's Attorney Automation Fund - Fund 044: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p156 FICA Fund - Fund 015: revenue items = total,True,"[929000, 941092] vs (929000, 941092)"
+FY2019_audit p156 FICA Fund - Fund 015: expenditure items = total,True,"[909676, 897965] vs (909676, 897965)"
+FY2019_audit p156 FICA Fund - Fund 015: other_financing items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p156 FICA Fund - Fund 015: excess = revenues - expenditures,True,"(19324, 43127) vs (19324, 43127)"
+FY2019_audit p156 FICA Fund - Fund 015: net change = revenues - expenditures + other financing,True,"(19324, 43127) vs (19324, 43127)"
+FY2019_audit p156 FICA Fund - Fund 015: ending = beginning + net change,True,15126 vs -28001 + 43127
+FY2019_audit p156 FICA Fund - Fund 015: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p156 FICA Fund - Fund 015: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p156 FICA Fund - Fund 015: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: revenue items = total,True,"[7500, 9439] vs (7500, 9439)"
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: expenditure has no printed total (items used),True,"[15000, 2800]"
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: net change = revenues - expenditures + other financing,True,"(-7500, 6639) vs (-7500, 6639)"
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: ending = beginning + net change,True,41564 vs 34925 + 6639
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p157 Foreclosure Mediation Fund - Fund 021: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p158 Prairie Shield Grant Fund - Fund 162: net change = revenues - expenditures + other financing,True,"(0, 0) vs (0, 0)"
+FY2019_audit p158 Prairie Shield Grant Fund - Fund 162: ending = beginning + net change,True,-725 vs -725 + 0
+FY2019_audit p158 Prairie Shield Grant Fund - Fund 162: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p158 Prairie Shield Grant Fund - Fund 162: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p159 Public Defender Automation Fund - Fund 050: revenue has no printed total (items used),True,"[0, 265]"
+FY2019_audit p159 Public Defender Automation Fund - Fund 050: net change = revenues - expenditures + other financing,True,"(0, 265) vs (0, 265)"
+FY2019_audit p159 Public Defender Automation Fund - Fund 050: ending = beginning + net change,True,265 vs 0 + 265
+FY2019_audit p159 Public Defender Automation Fund - Fund 050: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: revenue has no printed total (items used),True,"[0, 8501]"
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: expenditure has no printed total (items used),True,"[0, 204]"
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: net change = revenues - expenditures + other financing,True,"(0, 8297) vs (0, 8297)"
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: ending = beginning + net change,True,8297 vs 0 + 8297
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p160 Law Enforcement Operations Fund - Fund 051: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p161 Sheriff Highway Hireback Fund - Fund 052: revenue has no printed total (items used),True,"[0, 250]"
+FY2019_audit p161 Sheriff Highway Hireback Fund - Fund 052: net change = revenues - expenditures + other financing,True,"(0, 250) vs (0, 250)"
+FY2019_audit p161 Sheriff Highway Hireback Fund - Fund 052: ending = beginning + net change,True,250 vs 0 + 250
+FY2019_audit p161 Sheriff Highway Hireback Fund - Fund 052: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: revenue items = total,True,"[1509362, 1518897] vs (1509362, 1518897)"
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: expenditure items = total,True,"[621400, 610720] vs (621400, 610720)"
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: other_financing items = total,True,"[-1507162, -1404775] vs (-1507162, -1404775)"
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: excess = revenues - expenditures,True,"(887962, 908177) vs (887962, 908177)"
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: net change = revenues - expenditures + other financing,True,"(-619200, -496598) vs (-619200, -496598)"
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: ending = beginning + net change,True,741381 vs 1237979 + -496598
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p162 Public Safety Sales Tax Fund - Fund 045: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: revenue has no printed total (items used),True,"[0, 190]"
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: expenditure items = total,True,"[0, 51092] vs (0, 51092)"
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: other_financing items = total,True,"[0, 37903] vs (0, 37903)"
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: excess = revenues - expenditures,True,"(0, -50902) vs (0, -50902)"
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: net change = revenues - expenditures + other financing,True,"(0, -12999) vs (0, -12999)"
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: ending = beginning + net change,True,72 vs 13071 + -12999
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p163 Sheriffs Storage Bond 2017 Fund - Fund 048: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: revenue has no printed total (items used),True,"[189, 0]"
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: expenditure items = total,True,"[307000, 308450] vs (307000, 308450)"
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: other_financing items = total,True,"[307700, 309475] vs (307700, 309475)"
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: excess = revenues - expenditures,True,"(-306811, -308450) vs (-306811, -308450)"
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: net change = revenues - expenditures + other financing,True,"(889, 1025) vs (889, 1025)"
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: ending = beginning + net change,True,-750 vs -1775 + 1025
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p164 Courthouse Construction Fund - Fund 046: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: expenditure items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: other_financing items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: excess = revenues - expenditures,True,"(0, 0) vs (0, 0)"
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: net change = revenues - expenditures + other financing,True,"(0, 0) vs (0, 0)"
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: ending = beginning + net change,True,400 vs 400 + 0
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p165 Animal Services Bond Fund - Fund 047: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p166 Property Maintenance Fund - Fund 022: revenue items = total,True,"[186775, 5259] vs (186775, 5259)"
+FY2019_audit p166 Property Maintenance Fund - Fund 022: expenditure items = total,True,"[240600, 22108] vs (240600, 22108)"
+FY2019_audit p166 Property Maintenance Fund - Fund 022: other_financing items = total,True,"[236354, 231302] vs (236354, 231302)"
+FY2019_audit p166 Property Maintenance Fund - Fund 022: excess = revenues - expenditures,True,"(-53825, -16849) vs (-53825, -16849)"
+FY2019_audit p166 Property Maintenance Fund - Fund 022: net change = revenues - expenditures + other financing,True,"(182529, 214453) vs (182529, 214453)"
+FY2019_audit p166 Property Maintenance Fund - Fund 022: ending = beginning + net change,True,232476 vs 18023 + 214453
+FY2019_audit p166 Property Maintenance Fund - Fund 022: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p166 Property Maintenance Fund - Fund 022: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p166 Property Maintenance Fund - Fund 022: other_financing variance = actual - budget (consistent sign),True,
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: revenue has no printed total (items used)",True,"[1663, 2273]"
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: expenditure has no printed total (items used)",True,"[30000, 0]"
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: other_financing items = total",True,"[-7800, 0] vs (-7800, 0)"
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: excess = revenues - expenditures",True,"(-28337, 2273) vs (-28337, 2273)"
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: net change = revenues - expenditures + other financing",True,"(-36137, 2273) vs (-36137, 2273)"
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: ending = beginning + net change",True,139728 vs 137455 + 2273
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: revenue variance = actual - budget (consistent sign)",True,
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: expenditure variance = actual - budget (consistent sign)",True,
+"FY2019_audit p167 Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167: other_financing variance = actual - budget (consistent sign)",True,
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: revenue items = total,True,"[32400, 33892] vs (32400, 33892)"
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: expenditure has no printed total (items used),True,"[0, 1900]"
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: other_financing items = total,True,"[-231145, -231302] vs (-231145, -231302)"
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: excess = revenues - expenditures,True,"(32400, 31992) vs (32400, 31992)"
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: net change = revenues - expenditures + other financing,True,"(-198745, -199310) vs (-198745, -199310)"
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: ending = beginning + net change,True,2250 vs 201560 + -199310
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p168 Animal Services Building and Maintance Fund - Fund 011: other_financing variance = actual - budget (consistent sign),True,
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: revenue has no printed total (items used),True,"[8708, 58902]"
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: expenditure has no printed total (items used),True,"[5458, 6845]"
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: net change = revenues - expenditures + other financing,True,"(3250, 52057) vs (3250, 52057)"
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: ending = beginning + net change,True,68335 vs 16278 + 52057
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p169 Animal Services Donation Fund - Fund 120: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p170 Capital Projects Fund - Fund 030: other_financing items = total,True,"[0, 0] vs (0, 0)"
+FY2019_audit p170 Capital Projects Fund - Fund 030: excess = revenues - expenditures,True,"(0, 0) vs (0, 0)"
+FY2019_audit p170 Capital Projects Fund - Fund 030: net change = revenues - expenditures + other financing,True,"(0, 0) vs (0, 0)"
+FY2019_audit p170 Capital Projects Fund - Fund 030: ending = beginning + net change,True,8534 vs 8534 + 0
+FY2019_audit p170 Capital Projects Fund - Fund 030: revenue variance = actual - budget (consistent sign),True,
+FY2019_audit p170 Capital Projects Fund - Fund 030: expenditure variance = actual - budget (consistent sign),True,
+FY2019_audit p170 Capital Projects Fund - Fund 030: other_financing variance = actual - budget (consistent sign),True,

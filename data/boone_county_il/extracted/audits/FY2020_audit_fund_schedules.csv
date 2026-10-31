@@ -1,0 +1,515 @@
+doc_id,pdf_page,fund_name,fund_code,section,row_seq,label,line_type,budget,actual,variance
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,1,Property taxes,item,142500,141398,-1102
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,2,Intergovernmental revenue,item,0,0,0
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,3,Charges for services,item,10000,9194,-806
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,4,Interest,item,70000,98471,28471
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,5,Other revenue,item,40000,0,-40000
+FY2020_audit,76,County Bridge Fund - Fund 003,003,revenue,6,Total revenues,total,262500,249063,-13437
+FY2020_audit,76,County Bridge Fund - Fund 003,003,expenditure,7,Highways and streets,item,700000,537223,162777
+FY2020_audit,76,County Bridge Fund - Fund 003,003,expenditure,8,Capital outlay,item,0,501448,-501448
+FY2020_audit,76,County Bridge Fund - Fund 003,003,expenditure,9,Total expenditures,total,700000,1038671,-338671
+FY2020_audit,76,County Bridge Fund - Fund 003,003,summary,10,revenues over expenditures,excess,-437500,-789608,325234
+FY2020_audit,76,County Bridge Fund - Fund 003,003,other_financing,11,Capital Contributions,item,0,0,0
+FY2020_audit,76,County Bridge Fund - Fund 003,003,other_financing,12,Transfers in,item,0,0,0
+FY2020_audit,76,County Bridge Fund - Fund 003,003,other_financing,13,Transfers out,item,0,0,0
+FY2020_audit,76,County Bridge Fund - Fund 003,003,summary,14,Net change in fund balance,net_change,-437500,-789608,-352108
+FY2020_audit,76,County Bridge Fund - Fund 003,003,summary,15,"Fund balance, beginning of year",beginning,,4977119,
+FY2020_audit,76,County Bridge Fund - Fund 003,003,summary,16,"Fund balance, end of year",ending,,4187511,
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,1,Property taxes,item,1185000,1274342,89342
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,2,Intergovernmental revenue,item,58646,54280,-4366
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,3,Charges for services,item,0,10374,10374
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,4,Interest,item,9175,13832,4657
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,5,Other revenue,item,0,45660,45660
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,revenue,6,Total revenues,total,1252821,1398488,145667
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,7,General control and administration,item,1503300,109275,1394025
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,8,Public safety,item,0,995106,-995106
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,9,Judiciary and court related,item,0,322963,-322963
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,10,Highways and bridges,item,0,53791,-53791
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,11,Public health,item,0,113581,-113581
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,12,Public welfare,item,0,3493,-3493
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,expenditure,13,Total expenditures,total,1503300,1598209,-94909
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,summary,14,revenues over expenditures,excess,-250479,-199721,50758
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,other_financing,15,Transfers in,item,50896,0,-50896
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,other_financing,16,Transfers out,item,0,0,0
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,summary,17,Net change in fund balance,net_change,-199583,-199721,-138
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,summary,18,"Fund balance, beginning of year",beginning,,870999,
+FY2020_audit,77,IMRF/Retirement Fund - Fund 017,017,summary,19,"Fund balance, end of year",ending,,671278,
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,1,Property taxes,item,0,0,0
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,2,Intergovernmental revenue,item,1100000,2152513,1052513
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,3,Charges for services,item,55000,107576,52576
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,4,Interest,item,90000,121294,31294
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,5,Other revenue,item,0,0,0
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,revenue,6,Total revenues,total,1245000,2381383,1136383
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,expenditure,7,Highways and bridges,item,2814587,1096038,1718549
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,expenditure,8,Capital Outlay,item,0,1388257,-1388257
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,expenditure,9,Total expenditures,total,2814587,2484295,330292
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,summary,10,revenues over expenditures,excess,-1569587,-102912,1466675
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,other_financing,11,Capital Contributions,item,0,0,0
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,other_financing,12,Transfers in,item,0,0,0
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,other_financing,13,Transfers out,item,0,-125000,-125000
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,summary,14,Net change in fund balance,net_change,-1569587,-227912,1341675
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,summary,15,"Fund balance, beginning of year",beginning,,5888371,
+FY2020_audit,78,Motor Fuel Tax Fund - Fund 005,005,summary,16,"Fund balance, end of year",ending,,5660459,
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,1,Property taxes,item,763538,757216,-6322
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,2,Intergovernmental revenue,item,0,0,0
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,3,Licenses and permits,item,5000,12676,7676
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,4,Charges for services,item,0,0,0
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,5,Interest,item,20000,36875,16875
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,6,Other revenue,item,570000,309890,-260110
+FY2020_audit,129,County Highway Fund - Fund 002,002,revenue,7,Total revenues,total,1358538,1116657,-241881
+FY2020_audit,129,County Highway Fund - Fund 002,002,expenditure,8,Streets and highways,item,1369100,810568,558532
+FY2020_audit,129,County Highway Fund - Fund 002,002,expenditure,9,Capital outlay,item,0,39844,-39844
+FY2020_audit,129,County Highway Fund - Fund 002,002,expenditure,10,Total expenditures,total,1369100,850412,518688
+FY2020_audit,129,County Highway Fund - Fund 002,002,summary,11,Excess (deficiency) of revenues over expenditures,excess,-10562,266245,276807
+FY2020_audit,129,County Highway Fund - Fund 002,002,other_financing,12,Transfers in,item,0,125000,125000
+FY2020_audit,129,County Highway Fund - Fund 002,002,summary,13,Net change in fund balance,net_change,-10562,391245,401807
+FY2020_audit,129,County Highway Fund - Fund 002,002,summary,14,"Fund balance, beginning of year",beginning,,1700729,
+FY2020_audit,129,County Highway Fund - Fund 002,002,summary,15,"Fund balance, end of year",ending,,2091974,
+FY2020_audit,130,County Matching Fund - Fund 004,004,revenue,1,Property taxes,item,115250,114400,-850
+FY2020_audit,130,County Matching Fund - Fund 004,004,revenue,2,Interest,item,50000,66191,16191
+FY2020_audit,130,County Matching Fund - Fund 004,004,revenue,3,Other revenue,item,0,38882,38882
+FY2020_audit,130,County Matching Fund - Fund 004,004,revenue,4,Total revenues,total,165250,219473,54223
+FY2020_audit,130,County Matching Fund - Fund 004,004,expenditure,5,Highways and bridges,item,700000,61846,638154
+FY2020_audit,130,County Matching Fund - Fund 004,004,expenditure,6,Capital outlay,item,0,558569,-558569
+FY2020_audit,130,County Matching Fund - Fund 004,004,expenditure,7,Total expenditures,total,700000,620415,79585
+FY2020_audit,130,County Matching Fund - Fund 004,004,summary,8,Net change in fund balance,net_change,-534750,-400942,133808
+FY2020_audit,130,County Matching Fund - Fund 004,004,summary,9,"Fund balance, beginning of year",beginning,,3259710,
+FY2020_audit,130,County Matching Fund - Fund 004,004,summary,10,"Fund balance, end of year",ending,,2858768,
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,1,Property taxes,item,255425,253433,-1992
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,2,Intergovernmental revenue,item,67375,797764,730389
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,3,Licenses and permits,item,157500,117371,-40129
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,4,Charges for services,item,90300,85410,-4890
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,5,Interest,item,2000,7019,5019
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,6,Other revenue,item,0,55221,55221
+FY2020_audit,131,County Health Department Fund - Fund 013,013,revenue,7,Total revenues,total,572600,1316218,743618
+FY2020_audit,131,County Health Department Fund - Fund 013,013,expenditure,8,Public health,item,927080,1387517,-460437
+FY2020_audit,131,County Health Department Fund - Fund 013,013,expenditure,9,Capital Outlay,item,0,157203,-157203
+FY2020_audit,131,County Health Department Fund - Fund 013,013,expenditure,10,Total expenditures,total,927080,1544720,-617640
+FY2020_audit,131,County Health Department Fund - Fund 013,013,summary,11,Excess (deficiency) of revenues over expenditures,excess,-354480,-228502,125978
+FY2020_audit,131,County Health Department Fund - Fund 013,013,other_financing,12,Transfers in,item,627701,0,-627701
+FY2020_audit,131,County Health Department Fund - Fund 013,013,other_financing,13,Transfers out,item,-273221,-2147,271074
+FY2020_audit,131,County Health Department Fund - Fund 013,013,other_financing,14,Total other financing sources (uses),total,354480,-2147,-356627
+FY2020_audit,131,County Health Department Fund - Fund 013,013,summary,15,Net change in fund balance,net_change,0,-230649,-230649
+FY2020_audit,131,County Health Department Fund - Fund 013,013,summary,16,"Fund balance, beginning of year",beginning,,627149,
+FY2020_audit,131,County Health Department Fund - Fund 013,013,summary,17,"Fund balance, end of year",ending,,396500,
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,revenue,1,Intergovernmental revenue,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,revenue,2,Licenses and permits,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,revenue,3,Interest,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,revenue,4,Total revenues,total,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,expenditure,5,General control and administration,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,expenditure,6,Public health,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,expenditure,7,Total expenditures,total,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,summary,8,Excess (deficiency) of revenues over expenditures,excess,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,other_financing,9,Transfers out,item,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,other_financing,10,Total other financing sources (uses),total,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,summary,11,Net change in fund balance,net_change,0,0,0
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,summary,12,"Fund balance, beginning of year",beginning,,0,
+FY2020_audit,132,County Health Grant Fund - Fund 014,014,summary,13,"Fund balance, end of year",ending,,0,
+FY2020_audit,133,Animal Control Fund - Fund 012,012,revenue,1,Charges for services,item,24000,14765,-9235
+FY2020_audit,133,Animal Control Fund - Fund 012,012,revenue,2,License and permits,item,214500,144817,-69683
+FY2020_audit,133,Animal Control Fund - Fund 012,012,revenue,3,Interest,item,0,0,0
+FY2020_audit,133,Animal Control Fund - Fund 012,012,revenue,4,Total revenues,total,238500,159582,-78918
+FY2020_audit,133,Animal Control Fund - Fund 012,012,expenditure,5,General control and administration,item,0,0,0
+FY2020_audit,133,Animal Control Fund - Fund 012,012,expenditure,6,Public safety,item,193113,209153,-16040
+FY2020_audit,133,Animal Control Fund - Fund 012,012,expenditure,7,Total expenditures,total,193113,209153,-16040
+FY2020_audit,133,Animal Control Fund - Fund 012,012,summary,8,Excess (deficiency) of revenues over expenditures,excess,45387,-49571,-94958
+FY2020_audit,133,Animal Control Fund - Fund 012,012,other_financing,9,Transfers out,item,-10000,0,10000
+FY2020_audit,133,Animal Control Fund - Fund 012,012,other_financing,10,Total other financing sources (uses),total,-10000,0,10000
+FY2020_audit,133,Animal Control Fund - Fund 012,012,summary,11,Net change in fund balance,net_change,35387,-49571,-84958
+FY2020_audit,133,Animal Control Fund - Fund 012,012,summary,12,"Fund balance, beginning of year",beginning,,-4763,
+FY2020_audit,133,Animal Control Fund - Fund 012,012,summary,13,"Fund balance, end of year",ending,,-54334,
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,revenue,1,Licenses and permits,item,14583,1061,-13522
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,revenue,2,Interest,item,145,98,-47
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,revenue,3,Other revenue,item,0,8170,8170
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,revenue,4,Total revenues,total,14728,9329,-5399
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,expenditure,5,Public safety,item,23741,18925,4816
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,summary,6,Excess (deficiency) of revenues over expenditures,excess,-9013,-9596,-583
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,other_financing,7,Transfers in,item,0,0,0
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,other_financing,8,Total other financing sources (uses),total,0,0,0
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,summary,9,Net change in fund balance,net_change,-9013,-9596,-583
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,summary,10,"Fund balance, beginning of year",beginning,,14774,
+FY2020_audit,134,Sheriff's Vehicle Replacement Fund - Fund 038,038,summary,11,"Fund balance, end of year",ending,,5178,
+FY2020_audit,135,GIS Fund - Fund 116,116,revenue,1,Intergovernmental revenue,item,15961,6150,-9811
+FY2020_audit,135,GIS Fund - Fund 116,116,revenue,2,Charges for services,item,124000,165446,41446
+FY2020_audit,135,GIS Fund - Fund 116,116,revenue,3,Interest,item,400,3641,3241
+FY2020_audit,135,GIS Fund - Fund 116,116,revenue,4,Total revenues,total,140361,175237,34876
+FY2020_audit,135,GIS Fund - Fund 116,116,expenditure,5,General control and administration,item,99301,73874,25427
+FY2020_audit,135,GIS Fund - Fund 116,116,summary,6,Excess (deficiency) of revenues over expenditures,excess,41060,101363,60303
+FY2020_audit,135,GIS Fund - Fund 116,116,other_financing,7,Transfers in,item,0,0,0
+FY2020_audit,135,GIS Fund - Fund 116,116,other_financing,8,Transfers out,item,-21000,-10000,11000
+FY2020_audit,135,GIS Fund - Fund 116,116,other_financing,9,Total other financing sources (uses),total,-21000,-10000,11000
+FY2020_audit,135,GIS Fund - Fund 116,116,summary,10,Net change in fund balance,net_change,20060,91363,71303
+FY2020_audit,135,GIS Fund - Fund 116,116,summary,11,"Fund balance, beginning of year",beginning,,163165,
+FY2020_audit,135,GIS Fund - Fund 116,116,summary,12,"Fund balance, end of year",ending,,254528,
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,revenue,1,Charges for services,item,1750,1672,-78
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,revenue,2,Interest,item,200,331,131
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,revenue,3,Total revenues,total,1950,2003,53
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,expenditure,4,General control and administration,item,1000,0,1000
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,expenditure,5,Judiciary and court related,item,3800,2313,1487
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,expenditure,6,Total expenditures,total,4800,2313,2487
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,summary,7,Net change in fund balance,net_change,-2850,-310,2540
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,summary,8,"Fund balance, beginning of year",beginning,,18603,
+FY2020_audit,136,Vital Records Automation Fund - Fund 139,139,summary,9,"Fund balance, end of year",ending,,18293,
+FY2020_audit,137,Court Automation Fund - Fund 041,041,revenue,1,Licenses and permits,item,100000,105088,5088
+FY2020_audit,137,Court Automation Fund - Fund 041,041,revenue,2,Interest,item,1250,2967,1717
+FY2020_audit,137,Court Automation Fund - Fund 041,041,revenue,3,Other revenue,item,0,0,0
+FY2020_audit,137,Court Automation Fund - Fund 041,041,revenue,4,Total revenues,total,101250,108055,6805
+FY2020_audit,137,Court Automation Fund - Fund 041,041,expenditure,5,General control and administration,item,1000,116,884
+FY2020_audit,137,Court Automation Fund - Fund 041,041,expenditure,6,Judiciary and court related,item,74000,54627,19373
+FY2020_audit,137,Court Automation Fund - Fund 041,041,expenditure,7,Total expenditures,total,75000,54743,20257
+FY2020_audit,137,Court Automation Fund - Fund 041,041,summary,8,Excess (deficiency) of revenues over expenditures,excess,26250,53312,27062
+FY2020_audit,137,Court Automation Fund - Fund 041,041,other_financing,9,Transfers out,item,-25000,-25000,0
+FY2020_audit,137,Court Automation Fund - Fund 041,041,other_financing,10,Total other financing sources (uses),total,-25000,-25000,0
+FY2020_audit,137,Court Automation Fund - Fund 041,041,summary,11,Net change in fund balance,net_change,1250,28312,27062
+FY2020_audit,137,Court Automation Fund - Fund 041,041,summary,12,"Fund balance, beginning of year",beginning,,157737,
+FY2020_audit,137,Court Automation Fund - Fund 041,041,summary,13,"Fund balance, end of year",ending,,186049,
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,revenue,1,Charges for services,item,3000,5471,2471
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,revenue,2,Licenses and permits,item,3500,1398,-2102
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,revenue,3,Interest,item,500,1380,880
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,revenue,4,Total revenues,total,7000,8249,1249
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,expenditure,5,General control and administration,item,2200,746,1454
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,summary,6,Net change in fund balance,net_change,4800,7503,2703
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,summary,7,"Fund balance, beginning of year",beginning,,68955,
+FY2020_audit,138,Treasurers Automation Fund - Fund 042,042,summary,8,"Fund balance, end of year",ending,,76458,
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,revenue,1,Charges for services,item,100000,103769,3769
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,revenue,2,Interest,item,2500,2727,227
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,revenue,3,Total revenues,total,102500,106496,3996
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,expenditure,4,General control and administration,item,46100,103543,-57443
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,expenditure,5,Capital outlay,item,0,13640,-13640
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,expenditure,6,Total expenditures,total,46100,117183,-71083
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,summary,7,Excess (deficiency) of revenues over expenditures,excess,56400,-10687,-67087
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,other_financing,8,Transfers out,item,-31362,-31362,0
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,other_financing,9,Total other financing sources (uses),total,-31362,-31362,0
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,summary,10,Net change in fund balance,net_change,25038,-42049,-67087
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,summary,11,"Fund balance, beginning of year",beginning,,160302,
+FY2020_audit,139,Recorders Automation Fund - Fund 043,043,summary,12,"Fund balance, end of year",ending,,118253,
+FY2020_audit,140,Probation Services Fund - Fund 039,039,revenue,1,Licenses and permits,item,100000,74774,-25226
+FY2020_audit,140,Probation Services Fund - Fund 039,039,revenue,2,Interest,item,3000,11877,8877
+FY2020_audit,140,Probation Services Fund - Fund 039,039,revenue,3,Total revenues,total,103000,86651,-16349
+FY2020_audit,140,Probation Services Fund - Fund 039,039,expenditure,4,Judiciary and court related,item,125125,33044,92081
+FY2020_audit,140,Probation Services Fund - Fund 039,039,expenditure,5,Capital outlay,item,0,20000,-20000
+FY2020_audit,140,Probation Services Fund - Fund 039,039,expenditure,6,Total expenditures,total,125125,53044,72081
+FY2020_audit,140,Probation Services Fund - Fund 039,039,other_financing,7,Transfers out,item,0,0,0
+FY2020_audit,140,Probation Services Fund - Fund 039,039,other_financing,8,Total other financing sources (uses),total,0,0,0
+FY2020_audit,140,Probation Services Fund - Fund 039,039,summary,9,Net change in fund balance,net_change,-22125,33607,55732
+FY2020_audit,140,Probation Services Fund - Fund 039,039,summary,10,"Fund balance, beginning of year",beginning,,585666,
+FY2020_audit,140,Probation Services Fund - Fund 039,039,summary,11,"Fund balance, end of year",ending,,619273,
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,revenue,1,Licenses and permits,item,31000,25650,-5350
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,revenue,2,Interest,item,500,975,475
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,revenue,3,Total revenues,total,31500,26625,-4875
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,expenditure,4,Public safety,item,80000,10400,69600
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,summary,5,Net change in fund balance,net_change,-48500,16225,64725
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,summary,6,"Fund balance, beginning of year",beginning,,63879,
+FY2020_audit,141,DUI Equipment Fund - Fund 151,151,summary,7,"Fund balance, end of year",ending,,80104,
+FY2020_audit,142,Court Security Fund - Fund 019,019,revenue,1,Licenses and permits,item,70000,91661,21661
+FY2020_audit,142,Court Security Fund - Fund 019,019,revenue,2,Interest,item,500,1758,1258
+FY2020_audit,142,Court Security Fund - Fund 019,019,revenue,3,Total revenues,total,70500,93419,22919
+FY2020_audit,142,Court Security Fund - Fund 019,019,expenditure,4,Judiciary and court related,item,3500,5996,-2496
+FY2020_audit,142,Court Security Fund - Fund 019,019,summary,5,Excess (deficiency) of revenues over expenditures,excess,67000,87423,20423
+FY2020_audit,142,Court Security Fund - Fund 019,019,other_financing,6,Transfers out,item,-57000,-57000,0
+FY2020_audit,142,Court Security Fund - Fund 019,019,other_financing,7,Total other financing sources (uses),total,-57000,-57000,0
+FY2020_audit,142,Court Security Fund - Fund 019,019,summary,8,Net change in fund balance,net_change,10000,30423,20423
+FY2020_audit,142,Court Security Fund - Fund 019,019,summary,9,"Fund balance, beginning of year",beginning,,113077,
+FY2020_audit,142,Court Security Fund - Fund 019,019,summary,10,"Fund balance, end of year",ending,,143500,
+FY2020_audit,143,Law Library Fund - Fund 020,020,revenue,1,Licenses and permits,item,30000,25100,-4900
+FY2020_audit,143,Law Library Fund - Fund 020,020,expenditure,2,General control and administration,item,250,0,250
+FY2020_audit,143,Law Library Fund - Fund 020,020,expenditure,3,Judiciary and court related,item,20800,31364,-10564
+FY2020_audit,143,Law Library Fund - Fund 020,020,expenditure,4,Total expenditures,total,21050,31364,-10314
+FY2020_audit,143,Law Library Fund - Fund 020,020,summary,5,Net change in fund balance,net_change,8950,-6264,-15214
+FY2020_audit,143,Law Library Fund - Fund 020,020,summary,6,"Fund balance, beginning of year",beginning,,-22167,
+FY2020_audit,143,Law Library Fund - Fund 020,020,summary,7,"Fund balance, end of year",ending,,-28431,
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,revenue,1,Intergovernmental revenue,item,50000,50000,0
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,revenue,2,Interest,item,50,0,-50
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,revenue,3,Other revenue,item,6800,6800,0
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,revenue,4,Total revenues,total,56850,56800,-50
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,expenditure,5,General control and administration,item,5500,7,5493
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,expenditure,6,Public welfare,item,86700,84513,2187
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,expenditure,7,Total expenditures,total,92200,84520,7680
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,summary,8,Excess (deficiency) of revenues over expenditures,excess,-35350,-27720,7630
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,other_financing,9,Transfers in,item,50000,0,-50000
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,other_financing,10,Total other financing sources (uses),total,50000,0,-50000
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,summary,11,Net change in fund balance,net_change,14650,-27720,-42370
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,summary,12,"Fund balance, beginning of year",beginning,,59071,
+FY2020_audit,144,Landfill Closing Fund - Fund 025,025,summary,13,"Fund balance, end of year",ending,,31351,
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,revenue,1,Charges for services,item,6000,14887,8887
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,revenue,2,Interest,item,50,11,-39
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,revenue,3,Other revenue,item,0,5000,5000
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,revenue,4,Total revenues,total,6050,19898,13848
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,expenditure,5,General control and administration,item,58000,12092,45908
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,expenditure,6,Judiciary and court related,item,2000,0,2000
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,expenditure,7,Capital outlay,item,0,0,0
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,expenditure,8,Total expenditures,total,60000,12092,47908
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,summary,9,Net change in fund balance,net_change,-53950,7806,61756
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,summary,10,"Fund balance, beginning of year",beginning,,35973,
+FY2020_audit,145,Federal Seized Drug Fund - Fund 152,152,summary,11,"Fund balance, end of year",ending,,43779,
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,revenue,1,Interest,item,335,442,107
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,expenditure,2,Other general government,item,1250,0,1250
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,expenditure,3,Public welfare,item,1000,0,1000
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,expenditure,4,Total expenditures,total,2250,0,2250
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,summary,5,Excess (deficiency) of revenues over expenditures,excess,-1915,442,2357
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,summary,6,Net change in fund balance,net_change,-1915,442,2357
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,summary,7,"Fund balance, beginning of year",beginning,,23811,
+FY2020_audit,146,Reg Com Study Fund - Fund 143,143,summary,8,"Fund balance, end of year",ending,,24253,
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,revenue,1,Licenses and permits,item,9000,9553,553
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,revenue,2,Expenditures,item,0,0,0
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,summary,3,Excess (deficiency) of revenues over expenditures,excess,9000,9553,553
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,other_financing,4,Transfers out,item,-20000,0,20000
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,other_financing,5,Total other financing sources (uses),total,-20000,0,20000
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,summary,6,Net change in fund balance,net_change,-11000,9553,20553
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,summary,7,"Fund balance, beginning of year",beginning,,1466,
+FY2020_audit,147,Child Support Maintenance Fund - Fund 158,158,summary,8,"Fund balance, end of year",ending,,11019,
+FY2020_audit,148,HAVA Election Fund - Fund 154,154,revenue,1,Intergovernmental revenue,item,10000,0,-10000
+FY2020_audit,148,HAVA Election Fund - Fund 154,154,expenditure,2,General control and adminstration,item,10000,0,10000
+FY2020_audit,148,HAVA Election Fund - Fund 154,154,summary,3,Net change in fund balance,net_change,0,0,0
+FY2020_audit,148,HAVA Election Fund - Fund 154,154,summary,4,"Fund balance, beginning of year",beginning,,0,
+FY2020_audit,148,HAVA Election Fund - Fund 154,154,summary,5,"Fund balance, end of year",ending,,0,
+FY2020_audit,149,Document Storage Fund - Fund 040,040,revenue,1,Licenses and permits,item,108000,100157,-7843
+FY2020_audit,149,Document Storage Fund - Fund 040,040,revenue,2,Interest,item,950,2824,1874
+FY2020_audit,149,Document Storage Fund - Fund 040,040,revenue,3,Total revenues,total,108950,102981,-5969
+FY2020_audit,149,Document Storage Fund - Fund 040,040,expenditure,4,General control and administration,item,30000,0,30000
+FY2020_audit,149,Document Storage Fund - Fund 040,040,expenditure,5,Judiciary and court related,item,83000,28837,54163
+FY2020_audit,149,Document Storage Fund - Fund 040,040,expenditure,6,Total expenditures,total,113000,28837,84163
+FY2020_audit,149,Document Storage Fund - Fund 040,040,summary,7,Excess (deficiency) of revenues over expenditures,excess,-4050,74144,78194
+FY2020_audit,149,Document Storage Fund - Fund 040,040,other_financing,8,Transfers out,item,0,-30000,-30000
+FY2020_audit,149,Document Storage Fund - Fund 040,040,other_financing,9,Total other financing sources (uses),total,0,-30000,-30000
+FY2020_audit,149,Document Storage Fund - Fund 040,040,summary,10,Net change in fund balance,net_change,-4050,44144,48194
+FY2020_audit,149,Document Storage Fund - Fund 040,040,summary,11,"Fund balance, beginning of year",beginning,,140977,
+FY2020_audit,149,Document Storage Fund - Fund 040,040,summary,12,"Fund balance, end of year",ending,,185121,
+FY2020_audit,150,Grant Fund - Fund 101,101,revenue,1,Revenue,item,0,0,0
+FY2020_audit,150,Grant Fund - Fund 101,101,expenditure,2,General control and administration,item,2500,0,2500
+FY2020_audit,150,Grant Fund - Fund 101,101,summary,3,Excess (deficiency) of revenues over expenditures,excess,-2500,0,2500
+FY2020_audit,150,Grant Fund - Fund 101,101,other_financing,4,Transfers out,item,0,-2921,2921
+FY2020_audit,150,Grant Fund - Fund 101,101,other_financing,5,Total other financing sources (uses),total,0,-2921,2921
+FY2020_audit,150,Grant Fund - Fund 101,101,summary,6,Net change in fund balance,net_change,-2500,-2921,5421
+FY2020_audit,150,Grant Fund - Fund 101,101,summary,7,"Fund balance, beginning of year",beginning,,2921,
+FY2020_audit,150,Grant Fund - Fund 101,101,summary,8,"Fund balance, end of year",ending,,0,
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,revenue,1,Charges for services,item,7780,11697,3917
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,revenue,2,Interest,item,10,574,564
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,revenue,3,Total revenues,total,7790,12271,4481
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,revenue,4,Expenditures,item,0,0,0
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,summary,5,Net change in fund balance,net_change,7790,12271,4481
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,summary,6,"Fund balance, beginning of year",beginning,,34679,
+FY2020_audit,151,Financial Compliance Unit - Fund 201,201,summary,7,"Fund balance, end of year",ending,,46950,
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,revenue,1,Charges for services,item,8000,14699,6699
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,revenue,2,Interest,item,10,406,396
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,revenue,3,Total revenues,total,8010,15105,7095
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,expenditure,4,General control and administration,item,2000,125,1875
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,expenditure,5,Judiciary and court related,item,10000,1880,8120
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,expenditure,6,Total expenditures,total,12000,2005,9995
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,summary,7,Net change in fund balance,net_change,-3990,13100,17090
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,summary,8,"Fund balance, beginning of year",beginning,,28449,
+FY2020_audit,152,States Attorney Forfeited Revenue Fund - Fund 202,202,summary,9,"Fund balance, end of year",ending,,41549,
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,1,Property taxes,item,773000,766612,-6388
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,2,Intergovernmental revenue,item,0,7947,7947
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,3,Charges for services,item,10000,1997,-8003
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,4,Interest,item,200,-360,-560
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,5,Other revenue,item,5000,14467,9467
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,revenue,6,Total revenues,total,788200,790663,2463
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,expenditure,7,General control and administration,item,873844,827474,46370
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,summary,8,Excess (deficiency) of revenues over expenditures,excess,-85644,-36811,48833
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,other_financing,9,Transfers in,item,10000,2147,-7853
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,other_financing,10,Total other financing sources (uses),total,10000,2147,-7853
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,summary,11,Net change in fund balance,net_change,-75644,-34664,40980
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,summary,12,"Fund balance, beginning of year",beginning,,413143,
+FY2020_audit,153,Liability Insurance Fund - Fund 018,018,summary,13,"Fund balance, end of year",ending,,378479,
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,revenue,1,Licenses and permits,item,1280,1340,60
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,revenue,2,Interest,item,0,1,1
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,revenue,3,Total revenues,total,1280,1341,61
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,expenditure,4,General control and administration,item,400,0,400
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,expenditure,5,Judiciary and court related,item,400,0,400
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,expenditure,6,Total expenditures,total,800,0,800
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,summary,7,Net change in fund balance,net_change,480,1341,861
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,summary,8,"Fund balance, beginning of year",beginning,,9711,
+FY2020_audit,154,Marriage and Civil Union Fund - Fund 161,161,summary,9,"Fund balance, end of year",ending,,11052,
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,revenue,1,Licenses and permits,item,6180,3907,-2273
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,revenue,2,Other,item,0,290,290
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,revenue,3,Miscellaneous,item,50,0,-50
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,revenue,4,Total revenues,total,6230,4197,-2033
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,expenditure,5,Public safety,item,6400,4732,1668
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,summary,6,Net change in fund balance,net_change,-170,-535,-365
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,summary,7,"Fund balance, beginning of year",beginning,,7491,
+FY2020_audit,155,Spay/Neuter Program Fund - Fund 100,100,summary,8,"Fund balance, end of year",ending,,6956,
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,revenue,1,Intergovernmental revenue,item,0,4336,4336
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,expenditure,2,Other general government,item,500,0,500
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,expenditure,3,Public safety,item,500,537,-37
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,expenditure,4,Total expenditures,total,1000,537,463
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,summary,5,Net change in fund balance,net_change,-1000,3799,4799
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,summary,6,"Fund balance, beginning of year",beginning,,14314,
+FY2020_audit,156,Coroner's Grant Fund - Fund 127,127,summary,7,"Fund balance, end of year",ending,,18113,
+FY2020_audit,157,Coroner's Fees Fund - Fund 056,056,revenue,1,Revenues,item,0,0,0
+FY2020_audit,157,Coroner's Fees Fund - Fund 056,056,expenditure,2,Public safety,item,2700,0,2700
+FY2020_audit,157,Coroner's Fees Fund - Fund 056,056,summary,3,Net change in fund balance,net_change,-2700,0,2700
+FY2020_audit,157,Coroner's Fees Fund - Fund 056,056,summary,4,"Fund balance, beginning of year",beginning,,0,
+FY2020_audit,157,Coroner's Fees Fund - Fund 056,056,summary,5,"Fund balance, end of year",ending,,0,
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,revenue,1,Licenses and permits,item,4300,2424,-1876
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,revenue,2,Interest,item,300,629,329
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,revenue,3,Total revenues,total,4600,3053,-1547
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,expenditure,4,General control and administration,item,9000,0,9000
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,summary,5,Net change in fund balance,net_change,-4400,3053,7453
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,summary,6,"Fund balance, beginning of year",beginning,,34711,
+FY2020_audit,158,State's Attorney Automation Fund - Fund 044,044,summary,7,"Fund balance, end of year",ending,,37764,
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,1,Property taxes,item,857000,849958,-7042
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,2,Intergovernmental revenue,item,0,48250,48250
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,3,Charges for services,item,0,8711,8711
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,4,Interest,item,0,774,774
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,5,Other revenue,item,72000,57166,-14834
+FY2020_audit,159,FICA Fund - Fund 015,015,revenue,6,Total revenues,total,929000,964859,35859
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,7,General control and administration,item,909700,61343,848357
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,8,Public safety,item,0,558614,-558614
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,9,Judiciary and court related,item,0,181299,-181299
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,10,Highways and bridges,item,0,30196,-30196
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,11,Public health,item,0,63760,-63760
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,12,Public welfare,item,0,1961,-1961
+FY2020_audit,159,FICA Fund - Fund 015,015,expenditure,13,Total expenditures,total,909700,897173,12527
+FY2020_audit,159,FICA Fund - Fund 015,015,summary,14,Excess (deficiency) of revenues over expenditures,excess,19300,67686,48386
+FY2020_audit,159,FICA Fund - Fund 015,015,other_financing,15,Transfers in,item,0,0,0
+FY2020_audit,159,FICA Fund - Fund 015,015,other_financing,16,Total other financing sources (uses),total,0,0,0
+FY2020_audit,159,FICA Fund - Fund 015,015,summary,17,Net change in fund balance,net_change,19300,67686,48386
+FY2020_audit,159,FICA Fund - Fund 015,015,summary,18,"Fund balance, beginning of year",beginning,,15126,
+FY2020_audit,159,FICA Fund - Fund 015,015,summary,19,"Fund balance, end of year",ending,,82812,
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,revenue,1,Licenses and permits,item,7500,4745,-2755
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,revenue,2,Interest,item,0,681,681
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,revenue,3,Total revenues,total,7500,5426,-2074
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,expenditure,4,General control and administration,item,15000,4630,10370
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,summary,5,Net change in fund balance,net_change,-7500,796,8296
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,summary,6,"Fund balance, beginning of year",beginning,,41564,
+FY2020_audit,160,Foreclosure Mediation Fund - Fund 021,021,summary,7,"Fund balance, end of year",ending,,42360,
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,revenue,1,Interest,item,36200,68112,31912
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,expenditure,2,Public welfare,item,28000,127660,-99660
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,summary,3,Excess (deficiency) of revenues over expenditures,excess,8200,-59548,-67748
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,summary,4,Net change in fund balance,net_change,8200,-59548,-67748
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,summary,5,"Fund balance, beginning of year",beginning,,65731,
+FY2020_audit,161,Rural Transportation Grant Fund - Fund 145,145,summary,6,"Fund balance, end of year",ending,,6183,
+FY2020_audit,162,Prairie Shield Grant Fund - Fund 162,162,revenue,1,Interest,item,0,0,0
+FY2020_audit,162,Prairie Shield Grant Fund - Fund 162,162,expenditure,2,General control and administration,item,0,0,0
+FY2020_audit,162,Prairie Shield Grant Fund - Fund 162,162,summary,3,Net change in fund balance,net_change,0,0,0
+FY2020_audit,162,Prairie Shield Grant Fund - Fund 162,162,summary,4,"Fund balance, beginning of year",beginning,,-725,
+FY2020_audit,162,Prairie Shield Grant Fund - Fund 162,162,summary,5,"Fund balance, end of year",ending,,-725,
+FY2020_audit,163,Public Defender Automation Fund - Fund 050,050,revenue,1,Charges for services,item,0,936,936
+FY2020_audit,163,Public Defender Automation Fund - Fund 050,050,expenditure,2,Judiciary and legal,item,0,663,-663
+FY2020_audit,163,Public Defender Automation Fund - Fund 050,050,summary,3,Net change in fund balance,net_change,0,273,273
+FY2020_audit,163,Public Defender Automation Fund - Fund 050,050,summary,4,"Fund balance, beginning of year",beginning,,265,
+FY2020_audit,163,Public Defender Automation Fund - Fund 050,050,summary,5,"Fund balance, end of year",ending,,538,
+FY2020_audit,164,Law Enforcement Operations Fund - Fund 051,051,revenue,1,Charges for services,item,0,54192,54192
+FY2020_audit,164,Law Enforcement Operations Fund - Fund 051,051,expenditure,2,Public safety,item,0,0,0
+FY2020_audit,164,Law Enforcement Operations Fund - Fund 051,051,summary,3,Net change in fund balance,net_change,0,54192,54192
+FY2020_audit,164,Law Enforcement Operations Fund - Fund 051,051,summary,4,"Fund balance, beginning of year",beginning,,8297,
+FY2020_audit,164,Law Enforcement Operations Fund - Fund 051,051,summary,5,"Fund balance, end of year",ending,,62489,
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,revenue,1,Licenses and permits,item,0,6840,6840
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,revenue,2,Miscellaneous,item,0,200,200
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,revenue,3,Total revenues,total,0,7040,7040
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,revenue,4,Expenditures,item,0,0,0
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,summary,5,Net change in fund balance,net_change,0,7040,7040
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,summary,6,"Fund balance, beginning of year",beginning,,250,
+FY2020_audit,165,Sheriff Highway Hireback Fund - Fund 052,052,summary,7,"Fund balance, end of year",ending,,7290,
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,revenue,1,Other intergovernmental,item,599679,151539,-448140
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,revenue,2,Miscellaneous,item,0,1382,1382
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,revenue,3,Total revenues,total,599679,152921,-446758
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,expenditure,4,Public health,item,93136,151956,-58820
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,summary,5,Excess (deficiency) of revenues over expenditures,excess,506543,965,-505578
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,other_financing,6,Transfers in,item,0,0,0
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,other_financing,7,Transfers out,item,-26443,0,26443
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,other_financing,8,Total other financing sources (uses),total,-26443,0,26443
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,summary,9,Net change in fund balance,net_change,480100,965,-479135
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,summary,10,"Fund balance, beginning of year",beginning,,0,
+FY2020_audit,166,Opioid Grant Fund - Fund 123,123,summary,11,"Fund balance, end of year",ending,,965,
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,revenue,1,Intergovernmental revenues,item,1530000,1431684,-98316
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,revenue,2,Interest,item,2000,7029,5029
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,revenue,3,Total revenues,total,1532000,1438713,-93287
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,4,General control and administration,item,0,0,0
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,5,Public safety,item,0,0,0
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,6,Principal,item,0,0,0
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,7,Interest,item,0,0,0
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,8,Capital outlay,item,0,13631,-13631
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,expenditure,9,Total expenditures,total,0,13631,-13631
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,summary,10,Excess (deficiency) of revenues over expenditures,excess,1532000,1425082,-106918
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,other_financing,11,Transfers out,item,-1530000,-1444476,85524
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,other_financing,12,Total other financing sources (uses),total,-1530000,-1444476,85524
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,summary,13,Net change in fund balance,net_change,2000,-19394,-21394
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,summary,14,"Fund balance, beginning of year",beginning,,741381,
+FY2020_audit,167,Public Safety Sales Tax Fund - Fund 045,045,summary,15,"Fund balance, end of year",ending,,721987,
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,revenue,1,Interest,item,189,0,-189
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,expenditure,2,General control and administration,item,0,775,-775
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,expenditure,3,Principal,item,310800,235000,75800
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,expenditure,4,Interest,item,0,75800,-75800
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,expenditure,5,Total expenditures,total,310800,311575,-775
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,summary,6,Excess (deficiency) of revenues over expenditures,excess,-310611,-311575,-964
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,other_financing,7,Transfers in,item,310800,312325,1525
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,other_financing,8,Total other financing sources (uses),total,310800,312325,1525
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,summary,9,Net change in fund balance,net_change,189,750,561
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,summary,10,"Fund balance, beginning of year",beginning,,-750,
+FY2020_audit,168,Courthouse Construction Fund - Fund 046,046,summary,11,"Fund balance, end of year",ending,,0,
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,revenue,1,Interest,item,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,expenditure,2,General control and administration,item,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,expenditure,3,Principal,item,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,expenditure,4,Interest,item,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,expenditure,5,Total expenditures,total,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,summary,6,Excess (deficiency) of revenues over expenditures,excess,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,other_financing,7,Transfers in,item,0,0,0
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,other_financing,8,Transfers out,item,0,-400,-400
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,other_financing,9,Total other financing sources (uses),total,0,-400,-400
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,summary,10,Net change in fund balance,net_change,0,-400,-400
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,summary,11,"Fund balance, beginning of year",beginning,,400,
+FY2020_audit,169,Animal Services Bond Fund - Fund 047,047,summary,12,"Fund balance, end of year",ending,,0,
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,revenue,1,Interest,item,0,-72,-72
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,expenditure,2,Public safety,item,0,0,0
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,expenditure,3,Principal,item,0,42000,-42000
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,expenditure,4,Interest,item,0,9897,-9897
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,expenditure,5,Total expenditures,total,0,51897,-51897
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,summary,6,Excess (deficiency) of revenues over expenditures,excess,0,-51969,-51969
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,other_financing,7,Transfers in,item,0,51897,51897
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,other_financing,8,Total other financing sources (uses),total,0,51897,51897
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,summary,9,Net change in fund balance,net_change,0,-72,-72
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,summary,10,"Fund balance, beginning of year",beginning,,72,
+FY2020_audit,170,Sheriffs Storage Bond 2017 Fund - Fund 048,048,summary,11,"Fund balance, end of year",ending,,0,
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,1,Intergovernmental revenue,item,0,0,0
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,2,Charges for services,item,50000,105000,55000
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,3,Fees and fines,item,0,0,0
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,4,Interest,item,600,4951,4351
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,5,Other revenue,item,136175,0,-136175
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,revenue,6,Total revenues,total,186775,109951,-76824
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,expenditure,7,General control and administration,item,241000,45267,195733
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,expenditure,8,Capital outlay,item,0,97312,-97312
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,expenditure,9,Total expenditures,total,241000,142579,98421
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,summary,10,Excess (deficiency) of revenues over expenditures,excess,-54225,-32628,21597
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,other_financing,11,Transfers in,item,236354,0,-236354
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,other_financing,12,Total other financing sources (uses),total,236354,0,-236354
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,summary,13,Net change in fund balance,net_change,182129,-32628,-214757
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,summary,14,"Fund balance, beginning of year",beginning,,232476,
+FY2020_audit,171,Property Maintenance Fund - Fund 022,022,summary,15,"Fund balance, end of year",ending,,199848,
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,revenue,1,Interest,item,1663,2901,1238
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,expenditure,2,General control and administration,item,30000,0,30000
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,summary,3,Excess (deficiency) of revenues over expenditures,excess,-28337,2901,31238
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,other_financing,4,Transfers out,item,-7800,0,7800
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,other_financing,5,Total other financing sources (uses),total,-7800,0,7800
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,summary,6,Net change in fund balance,net_change,-36137,2901,39038
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,summary,7,"Fund balance, beginning of year",beginning,,139728,
+FY2020_audit,172,"Maplecrest Memorial Fund (Schnell, Gibson, Wolfgram) Funds 160, 166 and 167",,summary,8,"Fund balance, end of year",ending,,142629,
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,revenue,1,Fees and fines,item,32100,30863,-1237
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,revenue,2,Interest,item,300,0,-300
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,revenue,3,Other revenue,item,0,0,0
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,revenue,4,Total revenues,total,32400,30863,-1537
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,expenditure,5,Public safety,item,30000,6855,23145
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,summary,6,Excess (deficiency) of revenues over expenditures,excess,2400,24008,-21608
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,other_financing,7,Transfers out,item,-231145,0,231145
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,other_financing,8,Total other financing sources (uses),total,-231145,0,231145
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,summary,9,Net change in fund balance,net_change,-228745,24008,-252753
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,summary,10,"Fund balance, beginning of year",beginning,,2250,
+FY2020_audit,173,Animal Services Building and Maintance Fund - Fund 011,011,summary,11,"Fund balance, end of year",ending,,26258,
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,revenue,1,Other revenue,item,8708,3361,-5347
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,expenditure,2,Other general government,item,0,104,-104
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,expenditure,3,Public safety,item,42958,11513,31445
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,expenditure,4,Capital Outlay,item,0,28245,-28245
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,expenditure,5,Total expenditures,total,42958,39862,3096
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,summary,6,Net change in fund balance,net_change,-34250,-36501,-8443
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,summary,7,"Fund balance, beginning of year",beginning,,68335,
+FY2020_audit,174,Animal Services Donation Fund - Fund 120,120,summary,8,"Fund balance, end of year",ending,,31834,
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,revenue,1,Interest,item,0,0,0
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,expenditure,2,Public safety,item,0,0,0
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,summary,3,Excess (deficiency) of revenues over expenditures,excess,0,0,0
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,other_financing,4,Transfers in,item,0,400,400
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,other_financing,5,Transfers out,item,0,0,0
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,other_financing,6,Total other financing sources (uses),total,0,400,400
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,summary,7,Net change in fund balance,net_change,0,400,400
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,summary,8,"Fund balance, beginning of year",beginning,,8534,
+FY2020_audit,175,Capital Projects Fund - Fund 030,030,summary,9,"Fund balance, end of year",ending,,8934,

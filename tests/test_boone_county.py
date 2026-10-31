@@ -80,3 +80,30 @@ def test_general_fund_schedule_totals():
         st = {r["label"].lower(): int(r["amount"]) for r in audit_rows(fy) if r["statement"] == "changes" and r["col"] == "General"}
         assert int(total(fy, "total revenues")["actual"]) == st["total revenues"], fy
         assert int(total(fy, "total expenditures")["actual"]) == st["total expenditures"], fy
+
+
+def fund_schedule_rows(fy):
+    return list(csv.DictReader(open(AUD / f"FY{fy}_audit_fund_schedules.csv", newline="")))
+
+
+def test_per_fund_schedules_pass_every_check_in_all_eleven_audits():
+    counts = {}
+    for fy in range(2015, 2026):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_fund_schedules_checks.csv", newline="")))
+        assert len(checks) >= 260 and all(c["ok"] == "True" for c in checks), fy
+        counts[fy] = len({(r["pdf_page"], r["fund_name"]) for r in fund_schedule_rows(fy)})
+    assert counts[2025] == 39 and counts[2022] == 76 and counts[2020] == 50
+
+
+def test_per_fund_ending_balances_tie_to_the_fund_statements():
+    def statement_end(fy, col):
+        last = None
+        for r in audit_rows(fy):
+            if r["statement"] == "changes" and r["col"] == col:
+                last = int(r["amount"])
+        return last
+    for fy in (2021, 2022):  # every non-General governmental fund has a schedule these years
+        ends = sum(int(float(r["actual"])) for r in fund_schedule_rows(fy) if r["line_type"] == "ending" and r["actual"] != "")
+        assert ends == statement_end(fy, "Total Governmental") - statement_end(fy, "General"), fy
+    mft = [r for r in fund_schedule_rows(2025) if r["line_type"] == "ending" and "MOTOR FUEL" in r["fund_name"]]
+    assert int(float(mft[0]["actual"])) == statement_end(2025, "County Motor Fuel Tax") == 5202333

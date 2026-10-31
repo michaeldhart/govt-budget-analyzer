@@ -1,0 +1,871 @@
+doc_id,pdf_page,fund_name,fund_code,section,row_seq,label,line_type,budget,actual,variance
+FY2021_audit,83,County Bridge - Fund 003,003,revenue,1,Property taxes,item,142500,142717,217
+FY2021_audit,83,County Bridge - Fund 003,003,revenue,2,Charges for services,item,10000,96526,86526
+FY2021_audit,83,County Bridge - Fund 003,003,revenue,3,Interest,item,70000,75505,5505
+FY2021_audit,83,County Bridge - Fund 003,003,revenue,4,Total revenues,total,222500,314748,92248
+FY2021_audit,83,County Bridge - Fund 003,003,expenditure,5,Highways and bridges,item,1501000,372540,1128460
+FY2021_audit,83,County Bridge - Fund 003,003,expenditure,6,Capital outlay,item,0,28635,-28635
+FY2021_audit,83,County Bridge - Fund 003,003,expenditure,7,Total expenditures,total,1501000,401175,1099825
+FY2021_audit,83,County Bridge - Fund 003,003,summary,8,Excess (deficiency) of revenue over expenditures,excess,-1278500,-86427,1192073
+FY2021_audit,83,County Bridge - Fund 003,003,other_financing,9,Transfers in,item,0,797660,797660
+FY2021_audit,83,County Bridge - Fund 003,003,other_financing,10,Total other financing sources (uses),total,0,797660,797660
+FY2021_audit,83,County Bridge - Fund 003,003,summary,11,Net change in fund balance,net_change,-1278500,711233,1989733
+FY2021_audit,83,County Bridge - Fund 003,003,summary,12,Fund balance at beginning of year,beginning,,4187511,
+FY2021_audit,83,County Bridge - Fund 003,003,summary,13,Fund balance at end of year,ending,,4898744,
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,revenue,1,Intergovernmental revenues,item,1970000,2092455,122455
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,revenue,2,Charges for services,item,100000,103429,3429
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,revenue,3,Interest,item,70000,88688,18688
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,revenue,4,Total revenues,total,2140000,2284572,144572
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,expenditure,5,Highways and bridges,item,2813000,1724781,1088219
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,expenditure,6,Capital outlay,item,0,35428,-35428
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,expenditure,7,Total expenditures,total,2813000,1760209,1052791
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,summary,8,Excess of revenue over expenditures,excess,-673000,524363,1197363
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,other_financing,9,Transfers out,item,0,-470672,-470672
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,other_financing,10,Total other financing sources (uses),total,0,-470672,-470672
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,summary,11,Net change in fund balance,net_change,-673000,53691,726691
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,summary,12,Fund balance at beginning of year,beginning,,5660459,
+FY2021_audit,84,Motor Fuel Tax - Fund 005,005,summary,13,Fund balance at end of year,ending,,5714150,
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,revenue,1,Intergovernmental revenues,item,0,436000,436000
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,revenue,2,Interest,item,0,42364,42364
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,revenue,3,Total revenues,total,0,478364,478364
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,expenditure,4,Public health,item,0,436000,-436000
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,expenditure,5,Total expenditures,total,0,436000,-436000
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,summary,6,Net change in fund balance,net_change,0,42364,42364
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,summary,7,Fund balance at beginning of year,beginning,,0,
+FY2021_audit,85,American Rescue Plan Grant Fund - Fund 131,131,summary,8,Fund balance at end of year,ending,,42364,
+FY2021_audit,150,County Highway,,revenue,1,Property taxes,item,786000,786909,909
+FY2021_audit,150,County Highway,,revenue,2,Licenses and permits,item,7000,12209,5209
+FY2021_audit,150,County Highway,,revenue,3,Charges for services,item,560000,0,-560000
+FY2021_audit,150,County Highway,,revenue,4,Interest,item,25000,35650,10650
+FY2021_audit,150,County Highway,,revenue,5,Miscellaneous,item,0,232002,232002
+FY2021_audit,150,County Highway,,revenue,6,Total revenues,total,1378000,1066770,-311230
+FY2021_audit,150,County Highway,,expenditure,7,Highways and bridges,item,1626170,645237,980933
+FY2021_audit,150,County Highway,,expenditure,8,Capital outlay,item,0,350056,-350056
+FY2021_audit,150,County Highway,,expenditure,9,Total expenditures,total,1626170,995293,630877
+FY2021_audit,150,County Highway,,summary,10,Excess of revenue over expenditures,excess,-248170,71477,319647
+FY2021_audit,150,County Highway,,summary,11,Net change in fund balance,net_change,-248170,71477,319647
+FY2021_audit,150,County Highway,,summary,12,Fund balance at beginning of year,beginning,,2091974,
+FY2021_audit,150,County Highway,,summary,13,Fund balance at end of year,ending,,2163451,
+FY2021_audit,150,Highway Matching,,revenue,1,Property taxes,item,115200,115341,141
+FY2021_audit,150,Highway Matching,,revenue,2,Licenses and permits,item,0,0,0
+FY2021_audit,150,Highway Matching,,revenue,3,Charges for services,item,0,0,0
+FY2021_audit,150,Highway Matching,,revenue,4,Interest,item,50000,44177,-5823
+FY2021_audit,150,Highway Matching,,revenue,5,Miscellaneous,item,40000,0,-40000
+FY2021_audit,150,Highway Matching,,revenue,6,Total revenues,total,205200,159518,-45682
+FY2021_audit,150,Highway Matching,,expenditure,7,Highways and bridges,item,700000,100017,599983
+FY2021_audit,150,Highway Matching,,expenditure,8,Capital outlay,item,0,166326,-166326
+FY2021_audit,150,Highway Matching,,expenditure,9,Total expenditures,total,700000,266343,433657
+FY2021_audit,150,Highway Matching,,summary,10,Excess of revenue over expenditures,excess,-494800,-106825,387975
+FY2021_audit,150,Highway Matching,,summary,11,Net change in fund balance,net_change,-494800,-106825,387975
+FY2021_audit,150,Highway Matching,,summary,12,Fund balance at beginning of year,beginning,,2858768,
+FY2021_audit,150,Highway Matching,,summary,13,Fund balance at end of year,ending,,2751943,
+FY2021_audit,151,Planning,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,151,Planning,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,151,Planning,,revenue,3,Total revenues,total,0,0,0
+FY2021_audit,151,Planning,,expenditure,4,Public safety,item,0,0,0
+FY2021_audit,151,Planning,,expenditure,5,Total expenditures,total,0,0,0
+FY2021_audit,151,Planning,,other_financing,6,Transfers out,item,0,0,0
+FY2021_audit,151,Planning,,other_financing,7,Total other financing sources (uses),total,0,0,0
+FY2021_audit,151,Planning,,summary,8,Net change in fund balance,net_change,0,0,0
+FY2021_audit,151,Planning,,summary,9,Fund balance at beginning of year,beginning,,0,
+FY2021_audit,151,Planning,,summary,10,Fund balance at end of year,ending,,0,
+FY2021_audit,151,Animal Services Fund - Other,,revenue,1,Licenses and permits,item,208500,259581,51081
+FY2021_audit,151,Animal Services Fund - Other,,revenue,2,Charges for services,item,12500,26493,13993
+FY2021_audit,151,Animal Services Fund - Other,,revenue,3,Total revenues,total,221000,286074,65074
+FY2021_audit,151,Animal Services Fund - Other,,expenditure,4,Public safety,item,206757,195360,11397
+FY2021_audit,151,Animal Services Fund - Other,,expenditure,5,Total expenditures,total,206757,195360,11397
+FY2021_audit,151,Animal Services Fund - Other,,summary,6,Excess of revenue over expenditures,excess,14243,90714,76471
+FY2021_audit,151,Animal Services Fund - Other,,other_financing,7,Transfers out,item,-10000,-10000,0
+FY2021_audit,151,Animal Services Fund - Other,,other_financing,8,Total other financing sources (uses),total,-10000,-10000,0
+FY2021_audit,151,Animal Services Fund - Other,,summary,9,Net change in fund balance,net_change,4243,80714,76471
+FY2021_audit,151,Animal Services Fund - Other,,summary,10,Fund balance at beginning of year,beginning,,-54334,
+FY2021_audit,151,Animal Services Fund - Other,,summary,11,Fund balance at end of year,ending,,26380,
+FY2021_audit,152,Health Department,,revenue,1,Property taxes,item,256325,256710,385
+FY2021_audit,152,Health Department,,revenue,2,Intergovernmental revenues,item,67375,1532362,1464987
+FY2021_audit,152,Health Department,,revenue,3,Licenses and permits,item,167500,148488,-19012
+FY2021_audit,152,Health Department,,revenue,4,Charges for services,item,70300,184156,113856
+FY2021_audit,152,Health Department,,revenue,5,Interest,item,7500,5616,-1884
+FY2021_audit,152,Health Department,,revenue,6,Miscellaneous,item,0,23093,23093
+FY2021_audit,152,Health Department,,revenue,7,Total revenues,total,569000,2150425,1581425
+FY2021_audit,152,Health Department,,expenditure,8,Public health,item,1487680,1741239,-253559
+FY2021_audit,152,Health Department,,expenditure,9,Capital outlay,item,0,26643,-26643
+FY2021_audit,152,Health Department,,expenditure,10,Total expenditures,total,1487680,1767882,-280202
+FY2021_audit,152,Health Department,,summary,11,Excess of revenue over expenditures,excess,-918680,382543,1301223
+FY2021_audit,152,Health Department,,other_financing,12,Transfers in,item,1269424,0,-1269424
+FY2021_audit,152,Health Department,,other_financing,13,Transfers out,item,-350744,-2147,348597
+FY2021_audit,152,Health Department,,other_financing,14,Total other financing sources (uses),total,918680,-2147,-920827
+FY2021_audit,152,Health Department,,summary,15,Net change in fund balance,net_change,0,380396,380396
+FY2021_audit,152,Health Department,,summary,16,Fund balance at beginning of year,beginning,,396500,
+FY2021_audit,152,Health Department,,summary,17,Fund balance at end of year,ending,,776896,
+FY2021_audit,152,Health Grant,,revenue,1,Property taxes,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,2,Intergovernmental revenues,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,3,Licenses and permits,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,4,Charges for services,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,5,Interest,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,6,Miscellaneous,item,0,0,0
+FY2021_audit,152,Health Grant,,revenue,7,Total revenues,total,0,0,0
+FY2021_audit,152,Health Grant,,expenditure,8,Public health,item,0,0,0
+FY2021_audit,152,Health Grant,,expenditure,9,Capital outlay,item,0,0,0
+FY2021_audit,152,Health Grant,,expenditure,10,Total expenditures,total,0,0,0
+FY2021_audit,152,Health Grant,,summary,11,Excess of revenue over expenditures,excess,0,0,0
+FY2021_audit,152,Health Grant,,other_financing,12,Transfers in,item,0,0,0
+FY2021_audit,152,Health Grant,,other_financing,13,Transfers out,item,0,0,0
+FY2021_audit,152,Health Grant,,other_financing,14,Total other financing sources (uses),total,0,0,0
+FY2021_audit,152,Health Grant,,summary,15,Net change in fund balance,net_change,0,0,0
+FY2021_audit,152,Health Grant,,summary,16,Fund balance at beginning of year,beginning,,0,
+FY2021_audit,152,Health Grant,,summary,17,Fund balance at end of year,ending,,0,
+FY2021_audit,153,FICA,,revenue,1,Property taxes,item,900000,901013,1013
+FY2021_audit,153,FICA,,revenue,2,Intergovernmental revenues,item,0,53647,53647
+FY2021_audit,153,FICA,,revenue,3,Charges for services,item,0,7169,7169
+FY2021_audit,153,FICA,,revenue,4,Interest,item,0,7,7
+FY2021_audit,153,FICA,,revenue,5,Miscellaneous,item,219850,67731,-152119
+FY2021_audit,153,FICA,,revenue,6,Total revenues,total,1119850,1029567,-90283
+FY2021_audit,153,FICA,,expenditure,7,administration,item,932989,62348,870641
+FY2021_audit,153,FICA,,expenditure,8,Public safety,item,0,558276,-558276
+FY2021_audit,153,FICA,,expenditure,9,Judiciary and courts,item,0,183110,-183110
+FY2021_audit,153,FICA,,expenditure,10,Highways and bridges,item,0,29980,-29980
+FY2021_audit,153,FICA,,expenditure,11,Public welfare,item,0,1570,-1570
+FY2021_audit,153,FICA,,expenditure,12,Public health,item,0,92543,-92543
+FY2021_audit,153,FICA,,expenditure,13,Total expenditures,total,932989,927827,5162
+FY2021_audit,153,FICA,,summary,14,Excess of revenue over expenditures,excess,186861,101740,-85121
+FY2021_audit,153,FICA,,other_financing,15,Transfers in,item,0,0,0
+FY2021_audit,153,FICA,,other_financing,16,(uses),total,0,0,0
+FY2021_audit,153,FICA,,summary,17,Net change in fund balance,net_change,186861,101740,-85121
+FY2021_audit,153,FICA,,summary,18,Fund balance at beginning of year,beginning,,82812,
+FY2021_audit,153,FICA,,summary,19,Fund balance at end of year,ending,,184552,
+FY2021_audit,153,IMRF/Retirement,,revenue,1,Property taxes,item,1250000,1251326,1326
+FY2021_audit,153,IMRF/Retirement,,revenue,2,Intergovernmental revenues,item,58646,62067,3421
+FY2021_audit,153,IMRF/Retirement,,revenue,3,Charges for services,item,0,8136,8136
+FY2021_audit,153,IMRF/Retirement,,revenue,4,Interest,item,9000,7577,-1423
+FY2021_audit,153,IMRF/Retirement,,revenue,5,Miscellaneous,item,65318,55663,-9655
+FY2021_audit,153,IMRF/Retirement,,revenue,6,Total revenues,total,1382964,1384769,1805
+FY2021_audit,153,IMRF/Retirement,,expenditure,7,administration,item,1511336,97109,1414227
+FY2021_audit,153,IMRF/Retirement,,expenditure,8,Public safety,item,0,869537,-869537
+FY2021_audit,153,IMRF/Retirement,,expenditure,9,Judiciary and courts,item,0,285200,-285200
+FY2021_audit,153,IMRF/Retirement,,expenditure,10,Highways and bridges,item,0,46695,-46695
+FY2021_audit,153,IMRF/Retirement,,expenditure,11,Public welfare,item,0,2445,-2445
+FY2021_audit,153,IMRF/Retirement,,expenditure,12,Public health,item,0,144140,-144140
+FY2021_audit,153,IMRF/Retirement,,expenditure,13,Total expenditures,total,1511336,1445126,66210
+FY2021_audit,153,IMRF/Retirement,,summary,14,Excess of revenue over expenditures,excess,-128372,-60357,68015
+FY2021_audit,153,IMRF/Retirement,,other_financing,15,Transfers in,item,185744,0,-185744
+FY2021_audit,153,IMRF/Retirement,,other_financing,16,(uses),total,185744,0,-185744
+FY2021_audit,153,IMRF/Retirement,,summary,17,Net change in fund balance,net_change,57372,-60357,-117729
+FY2021_audit,153,IMRF/Retirement,,summary,18,Fund balance at beginning of year,beginning,,671278,
+FY2021_audit,153,IMRF/Retirement,,summary,19,Fund balance at end of year,ending,,610921,
+FY2021_audit,154,Tort Immunity,,revenue,1,Property taxes,item,800000,800869,869
+FY2021_audit,154,Tort Immunity,,revenue,2,revenues,item,0,8951,8951
+FY2021_audit,154,Tort Immunity,,revenue,3,Licenses and permits,item,0,0,0
+FY2021_audit,154,Tort Immunity,,revenue,4,Charges for services,item,10000,1938,-8062
+FY2021_audit,154,Tort Immunity,,revenue,5,Interest,item,200,-3234,-3434
+FY2021_audit,154,Tort Immunity,,revenue,6,Miscellaneous,item,5000,17154,12154
+FY2021_audit,154,Tort Immunity,,revenue,7,Total revenues,total,815200,825678,10478
+FY2021_audit,154,Tort Immunity,,expenditure,8,administration,item,942000,1033972,-91972
+FY2021_audit,154,Tort Immunity,,expenditure,9,Judiciary and courts,item,0,0,0
+FY2021_audit,154,Tort Immunity,,expenditure,10,Total expenditures,total,942000,1033972,-91972
+FY2021_audit,154,Tort Immunity,,summary,11,over expenditures,excess,-126800,-208294,-81494
+FY2021_audit,154,Tort Immunity,,other_financing,12,Transfers in,item,25000,2147,-22853
+FY2021_audit,154,Tort Immunity,,other_financing,13,Transfers out,item,0,0,0
+FY2021_audit,154,Tort Immunity,,other_financing,14,sources (uses),total,25000,2147,-22853
+FY2021_audit,154,Tort Immunity,,summary,15,Net change in fund balance,net_change,-101800,-206147,-104347
+FY2021_audit,154,Tort Immunity,,summary,16,year,beginning,,378479,
+FY2021_audit,154,Tort Immunity,,summary,17,Fund balance at end of year,ending,,172332,
+FY2021_audit,154,Court Security,,revenue,1,Property taxes,item,0,0,0
+FY2021_audit,154,Court Security,,revenue,2,revenues,item,0,0,0
+FY2021_audit,154,Court Security,,revenue,3,Licenses and permits,item,70000,96661,26661
+FY2021_audit,154,Court Security,,revenue,4,Charges for services,item,0,0,0
+FY2021_audit,154,Court Security,,revenue,5,Interest,item,500,1922,1422
+FY2021_audit,154,Court Security,,revenue,6,Miscellaneous,item,0,0,0
+FY2021_audit,154,Court Security,,revenue,7,Total revenues,total,70500,98583,28083
+FY2021_audit,154,Court Security,,expenditure,8,administration,item,0,0,0
+FY2021_audit,154,Court Security,,expenditure,9,Judiciary and courts,item,3000,839,2161
+FY2021_audit,154,Court Security,,expenditure,10,Total expenditures,total,3000,839,2161
+FY2021_audit,154,Court Security,,summary,11,over expenditures,excess,67500,97744,30244
+FY2021_audit,154,Court Security,,other_financing,12,Transfers in,item,0,0,0
+FY2021_audit,154,Court Security,,other_financing,13,Transfers out,item,-57000,-57000,0
+FY2021_audit,154,Court Security,,other_financing,14,sources (uses),total,-57000,-57000,0
+FY2021_audit,154,Court Security,,summary,15,Net change in fund balance,net_change,10500,40744,30244
+FY2021_audit,154,Court Security,,summary,16,year,beginning,,143500,
+FY2021_audit,154,Court Security,,summary,17,Fund balance at end of year,ending,,184244,
+FY2021_audit,155,Law Library,,revenue,1,Licenses and permits,item,30000,27174,-2826
+FY2021_audit,155,Law Library,,revenue,2,Interest,item,0,0,0
+FY2021_audit,155,Law Library,,revenue,3,Total revenues,total,30000,27174,-2826
+FY2021_audit,155,Law Library,,expenditure,4,administration,item,250,0,250
+FY2021_audit,155,Law Library,,expenditure,5,Judiciary and courts,item,35454,35515,-61
+FY2021_audit,155,Law Library,,expenditure,6,Total expenditures,total,35704,35515,189
+FY2021_audit,155,Law Library,,summary,7,over expenditures,excess,-5704,-8341,-2637
+FY2021_audit,155,Law Library,,summary,8,Net change in fund balance,net_change,-5704,-8341,-2637
+FY2021_audit,155,Law Library,,summary,9,year,beginning,,-28431,
+FY2021_audit,155,Law Library,,summary,10,Fund balance at end of year,ending,,-36772,
+FY2021_audit,155,Foreclosure Mediation,,revenue,1,Licenses and permits,item,7500,910,-6590
+FY2021_audit,155,Foreclosure Mediation,,revenue,2,Interest,item,0,531,531
+FY2021_audit,155,Foreclosure Mediation,,revenue,3,Total revenues,total,7500,1441,-6059
+FY2021_audit,155,Foreclosure Mediation,,expenditure,4,administration,item,15000,0,15000
+FY2021_audit,155,Foreclosure Mediation,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2021_audit,155,Foreclosure Mediation,,expenditure,6,Total expenditures,total,15000,0,15000
+FY2021_audit,155,Foreclosure Mediation,,summary,7,over expenditures,excess,-7500,1441,8941
+FY2021_audit,155,Foreclosure Mediation,,summary,8,Net change in fund balance,net_change,-7500,1441,8941
+FY2021_audit,155,Foreclosure Mediation,,summary,9,year,beginning,,42360,
+FY2021_audit,155,Foreclosure Mediation,,summary,10,Fund balance at end of year,ending,,43801,
+FY2021_audit,156,Landfill Closure,,revenue,1,revenues,item,50000,50000,0
+FY2021_audit,156,Landfill Closure,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,156,Landfill Closure,,revenue,3,Interest,item,50,0,-50
+FY2021_audit,156,Landfill Closure,,revenue,4,Miscellaneous,item,0,7500,7500
+FY2021_audit,156,Landfill Closure,,revenue,5,Total revenues,total,50050,57500,7450
+FY2021_audit,156,Landfill Closure,,expenditure,6,administration,item,4500,0,4500
+FY2021_audit,156,Landfill Closure,,expenditure,7,Public welfare,item,95200,106601,-11401
+FY2021_audit,156,Landfill Closure,,expenditure,8,Total expenditures,total,99700,106601,-6901
+FY2021_audit,156,Landfill Closure,,summary,9,over expenditures,excess,-49650,-49101,549
+FY2021_audit,156,Landfill Closure,,other_financing,10,Transfers in,item,50000,50000,0
+FY2021_audit,156,Landfill Closure,,other_financing,11,sources (uses),total,50000,50000,0
+FY2021_audit,156,Landfill Closure,,summary,12,Net change in fund balance,net_change,350,899,549
+FY2021_audit,156,Landfill Closure,,summary,13,year,beginning,,31351,
+FY2021_audit,156,Landfill Closure,,summary,14,Fund balance at end of year,ending,,32250,
+FY2021_audit,156,Specialty Courts,,revenue,1,revenues,item,0,0,0
+FY2021_audit,156,Specialty Courts,,revenue,2,Charges for services,item,0,1625,1625
+FY2021_audit,156,Specialty Courts,,revenue,3,Interest,item,0,0,0
+FY2021_audit,156,Specialty Courts,,revenue,4,Miscellaneous,item,0,0,0
+FY2021_audit,156,Specialty Courts,,revenue,5,Total revenues,total,0,1625,1625
+FY2021_audit,156,Specialty Courts,,expenditure,6,administration,item,0,0,0
+FY2021_audit,156,Specialty Courts,,expenditure,7,Public welfare,item,0,0,0
+FY2021_audit,156,Specialty Courts,,expenditure,8,Total expenditures,total,0,0,0
+FY2021_audit,156,Specialty Courts,,summary,9,over expenditures,excess,0,1625,1625
+FY2021_audit,156,Specialty Courts,,other_financing,10,Transfers in,item,0,0,0
+FY2021_audit,156,Specialty Courts,,other_financing,11,sources (uses),total,0,0,0
+FY2021_audit,156,Specialty Courts,,summary,12,Net change in fund balance,net_change,0,1625,1625
+FY2021_audit,156,Specialty Courts,,summary,13,year,beginning,,1554,
+FY2021_audit,156,Specialty Courts,,summary,14,Fund balance at end of year,ending,,3179,
+FY2021_audit,157,Auxiliary Deputies,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,157,Auxiliary Deputies,,revenue,2,Interest,item,0,0,0
+FY2021_audit,157,Auxiliary Deputies,,revenue,3,Miscellaneous,item,0,10488,10488
+FY2021_audit,157,Auxiliary Deputies,,revenue,4,Total revenues,total,0,10488,10488
+FY2021_audit,157,Auxiliary Deputies,,expenditure,5,Public safety,item,0,2730,-2730
+FY2021_audit,157,Auxiliary Deputies,,expenditure,6,Capital outlay,item,0,0,0
+FY2021_audit,157,Auxiliary Deputies,,expenditure,7,Total expenditures,total,0,2730,-2730
+FY2021_audit,157,Auxiliary Deputies,,summary,8,expenditures,excess,,7758,7758
+FY2021_audit,157,Auxiliary Deputies,,other_financing,9,Transfers in,item,0,0,0
+FY2021_audit,157,Auxiliary Deputies,,other_financing,10,sources (uses),total,0,0,0
+FY2021_audit,157,Auxiliary Deputies,,summary,11,Net change in fund balance,net_change,0,7758,7758
+FY2021_audit,157,Auxiliary Deputies,,summary,12,year,beginning,,12200,
+FY2021_audit,157,Auxiliary Deputies,,summary,13,Fund balance at end of year,ending,,19958,
+FY2021_audit,157,Sheriff's Vehicle Replacement,,revenue,1,Licenses and permits,item,14000,660,-13340
+FY2021_audit,157,Sheriff's Vehicle Replacement,,revenue,2,Interest,item,140,78,-62
+FY2021_audit,157,Sheriff's Vehicle Replacement,,revenue,3,Miscellaneous,item,0,35406,35406
+FY2021_audit,157,Sheriff's Vehicle Replacement,,revenue,4,Total revenues,total,14140,36144,22004
+FY2021_audit,157,Sheriff's Vehicle Replacement,,expenditure,5,Public safety,item,23741,18690,5051
+FY2021_audit,157,Sheriff's Vehicle Replacement,,expenditure,6,Capital outlay,item,0,139940,-139940
+FY2021_audit,157,Sheriff's Vehicle Replacement,,expenditure,7,Total expenditures,total,23741,158630,-134889
+FY2021_audit,157,Sheriff's Vehicle Replacement,,summary,8,expenditures,excess,-9601,-122486,-112885
+FY2021_audit,157,Sheriff's Vehicle Replacement,,other_financing,9,Transfers in,item,0,139940,139940
+FY2021_audit,157,Sheriff's Vehicle Replacement,,other_financing,10,sources (uses),total,0,139940,139940
+FY2021_audit,157,Sheriff's Vehicle Replacement,,summary,11,Net change in fund balance,net_change,-9601,17454,27055
+FY2021_audit,157,Sheriff's Vehicle Replacement,,summary,12,year,beginning,,5178,
+FY2021_audit,157,Sheriff's Vehicle Replacement,,summary,13,Fund balance at end of year,ending,,22632,
+FY2021_audit,158,Probation Services,,revenue,1,Licenses and permits,item,100000,87476,-12524
+FY2021_audit,158,Probation Services,,revenue,2,Interest,item,3000,9747,6747
+FY2021_audit,158,Probation Services,,revenue,3,Total revenues,total,103000,97223,-5777
+FY2021_audit,158,Probation Services,,expenditure,4,administration,item,0,0,0
+FY2021_audit,158,Probation Services,,expenditure,5,Judiciary and courts,item,125500,38432,87068
+FY2021_audit,158,Probation Services,,expenditure,6,Total expenditures,total,125500,38432,87068
+FY2021_audit,158,Probation Services,,summary,7,expenditures,excess,-22500,58791,81291
+FY2021_audit,158,Probation Services,,other_financing,8,Transfers out,item,0,0,0
+FY2021_audit,158,Probation Services,,other_financing,9,sources (uses),total,0,0,0
+FY2021_audit,158,Probation Services,,summary,10,Net change in fund balance,net_change,-22500,58791,81291
+FY2021_audit,158,Probation Services,,summary,11,year,beginning,,619273,
+FY2021_audit,158,Probation Services,,summary,12,Fund balance at end of year,ending,,678064,
+FY2021_audit,158,Document Storage,,revenue,1,Licenses and permits,item,110000,97775,-12225
+FY2021_audit,158,Document Storage,,revenue,2,Interest,item,950,2571,1621
+FY2021_audit,158,Document Storage,,revenue,3,Total revenues,total,110950,100346,-10604
+FY2021_audit,158,Document Storage,,expenditure,4,administration,item,30000,0,30000
+FY2021_audit,158,Document Storage,,expenditure,5,Judiciary and courts,item,83000,32373,50627
+FY2021_audit,158,Document Storage,,expenditure,6,Total expenditures,total,113000,32373,80627
+FY2021_audit,158,Document Storage,,summary,7,expenditures,excess,-2050,67973,70023
+FY2021_audit,158,Document Storage,,other_financing,8,Transfers out,item,0,-30000,-30000
+FY2021_audit,158,Document Storage,,other_financing,9,sources (uses),total,0,-30000,-30000
+FY2021_audit,158,Document Storage,,summary,10,Net change in fund balance,net_change,-2050,37973,40023
+FY2021_audit,158,Document Storage,,summary,11,year,beginning,,185121,
+FY2021_audit,158,Document Storage,,summary,12,Fund balance at end of year,ending,,223094,
+FY2021_audit,159,Court Automation,,revenue,1,revenues,item,0,1964,1964
+FY2021_audit,159,Court Automation,,revenue,2,Licenses and permits,item,100000,102312,2312
+FY2021_audit,159,Court Automation,,revenue,3,Charges for services,item,0,0,0
+FY2021_audit,159,Court Automation,,revenue,4,Interest,item,1250,2515,1265
+FY2021_audit,159,Court Automation,,revenue,5,Total revenues,total,101250,106791,5541
+FY2021_audit,159,Court Automation,,expenditure,6,administration,item,1000,0,1000
+FY2021_audit,159,Court Automation,,expenditure,7,Judiciary and courts,item,74000,60083,13917
+FY2021_audit,159,Court Automation,,expenditure,8,Total expenditures,total,75000,60083,14917
+FY2021_audit,159,Court Automation,,summary,9,expenditures,excess,26250,46708,20458
+FY2021_audit,159,Court Automation,,other_financing,10,Transfers out,item,-25000,-25000,0
+FY2021_audit,159,Court Automation,,other_financing,11,sources (uses),total,-25000,-25000,0
+FY2021_audit,159,Court Automation,,summary,12,Net change in fund balance,net_change,1250,21708,20458
+FY2021_audit,159,Court Automation,,summary,13,year,beginning,,186049,
+FY2021_audit,159,Court Automation,,summary,14,Fund balance at end of year,ending,,207757,
+FY2021_audit,159,Treasurer's Automation,,revenue,1,revenues,item,0,0,0
+FY2021_audit,159,Treasurer's Automation,,revenue,2,Licenses and permits,item,3500,2157,-1343
+FY2021_audit,159,Treasurer's Automation,,revenue,3,Charges for services,item,3000,9521,6521
+FY2021_audit,159,Treasurer's Automation,,revenue,4,Interest,item,500,1109,609
+FY2021_audit,159,Treasurer's Automation,,revenue,5,Total revenues,total,7000,12787,5787
+FY2021_audit,159,Treasurer's Automation,,expenditure,6,administration,item,3200,3143,57
+FY2021_audit,159,Treasurer's Automation,,expenditure,7,Judiciary and courts,item,0,0,0
+FY2021_audit,159,Treasurer's Automation,,expenditure,8,Total expenditures,total,3200,3143,57
+FY2021_audit,159,Treasurer's Automation,,summary,9,expenditures,excess,3800,9644,5844
+FY2021_audit,159,Treasurer's Automation,,other_financing,10,Transfers out,item,0,0,0
+FY2021_audit,159,Treasurer's Automation,,other_financing,11,sources (uses),total,0,0,0
+FY2021_audit,159,Treasurer's Automation,,summary,12,Net change in fund balance,net_change,3800,9644,5844
+FY2021_audit,159,Treasurer's Automation,,summary,13,year,beginning,,76458,
+FY2021_audit,159,Treasurer's Automation,,summary,14,Fund balance at end of year,ending,,86102,
+FY2021_audit,160,Recorder's Automation,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,160,Recorder's Automation,,revenue,2,Charges for services,item,100000,121022,21022
+FY2021_audit,160,Recorder's Automation,,revenue,3,Interest,item,2500,1821,-679
+FY2021_audit,160,Recorder's Automation,,revenue,4,Total revenues,total,102500,122843,20343
+FY2021_audit,160,Recorder's Automation,,expenditure,5,administration,item,46100,90002,-43902
+FY2021_audit,160,Recorder's Automation,,expenditure,6,Total expenditures,total,46100,90002,-43902
+FY2021_audit,160,Recorder's Automation,,summary,7,expenditures,excess,56400,32841,-23559
+FY2021_audit,160,Recorder's Automation,,other_financing,8,Transfers out,item,-31362,31362,62724
+FY2021_audit,160,Recorder's Automation,,other_financing,9,sources (uses),total,-31362,-31362,62724
+FY2021_audit,160,Recorder's Automation,,summary,10,Net change in fund balance,net_change,25038,1479,39165
+FY2021_audit,160,Recorder's Automation,,summary,11,year,beginning,,118253,
+FY2021_audit,160,Recorder's Automation,,summary,12,Fund balance at end of year,ending,,119732,
+FY2021_audit,160,State's Attorney Automation,,revenue,1,Licenses and permits,item,4300,2481,-1819
+FY2021_audit,160,State's Attorney Automation,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,160,State's Attorney Automation,,revenue,3,Interest,item,200,487,287
+FY2021_audit,160,State's Attorney Automation,,revenue,4,Total revenues,total,4500,2968,-1532
+FY2021_audit,160,State's Attorney Automation,,expenditure,5,administration,item,9000,0,9000
+FY2021_audit,160,State's Attorney Automation,,expenditure,6,Total expenditures,total,9000,0,9000
+FY2021_audit,160,State's Attorney Automation,,summary,7,expenditures,excess,-4500,2968,7468
+FY2021_audit,160,State's Attorney Automation,,other_financing,8,Transfers out,item,0,0,0
+FY2021_audit,160,State's Attorney Automation,,other_financing,9,sources (uses),total,0,0,0
+FY2021_audit,160,State's Attorney Automation,,summary,10,Net change in fund balance,net_change,-4500,2968,7468
+FY2021_audit,160,State's Attorney Automation,,summary,11,year,beginning,,37764,
+FY2021_audit,160,State's Attorney Automation,,summary,12,Fund balance at end of year,ending,,40732,
+FY2021_audit,161,Public Defender Automation,,revenue,1,Charges for services,item,0,1123,1123
+FY2021_audit,161,Public Defender Automation,,revenue,2,Total revenues,total,0,1123,1123
+FY2021_audit,161,Public Defender Automation,,expenditure,3,Public safety,item,0,0,0
+FY2021_audit,161,Public Defender Automation,,expenditure,4,Judiciary and courts,item,0,1318,-1318
+FY2021_audit,161,Public Defender Automation,,expenditure,5,Capital outlay,item,0,0,0
+FY2021_audit,161,Public Defender Automation,,expenditure,6,Total expenditures,total,0,1318,-1318
+FY2021_audit,161,Public Defender Automation,,summary,7,over expenditures,excess,0,-195,-195
+FY2021_audit,161,Public Defender Automation,,summary,8,Net change in fund balance,net_change,0,-195,-195
+FY2021_audit,161,Public Defender Automation,,summary,9,year,beginning,,538,
+FY2021_audit,161,Public Defender Automation,,summary,10,Fund balance at end of year,ending,,343,
+FY2021_audit,161,Law Enforcement Operations,,revenue,1,Charges for services,item,0,76608,76608
+FY2021_audit,161,Law Enforcement Operations,,revenue,2,Total revenues,total,0,76608,76608
+FY2021_audit,161,Law Enforcement Operations,,expenditure,3,Public safety,item,0,18,-18
+FY2021_audit,161,Law Enforcement Operations,,expenditure,4,Judiciary and courts,item,0,0,0
+FY2021_audit,161,Law Enforcement Operations,,expenditure,5,Capital outlay,item,0,71160,-71160
+FY2021_audit,161,Law Enforcement Operations,,expenditure,6,Total expenditures,total,0,71178,-71178
+FY2021_audit,161,Law Enforcement Operations,,summary,7,over expenditures,excess,0,5430,5430
+FY2021_audit,161,Law Enforcement Operations,,summary,8,Net change in fund balance,net_change,0,5430,5430
+FY2021_audit,161,Law Enforcement Operations,,summary,9,year,beginning,,62489,
+FY2021_audit,161,Law Enforcement Operations,,summary,10,Fund balance at end of year,ending,,67919,
+FY2021_audit,162,Sheriff Highway Hireback,,revenue,1,Licenses and permits,item,0,2472,2472
+FY2021_audit,162,Sheriff Highway Hireback,,revenue,2,Total revenues,total,0,2472,2472
+FY2021_audit,162,Sheriff Highway Hireback,,expenditure,3,Public safety,item,0,0,0
+FY2021_audit,162,Sheriff Highway Hireback,,expenditure,4,Total expenditures,total,0,0,0
+FY2021_audit,162,Sheriff Highway Hireback,,summary,5,expenditures,excess,,2472,2472
+FY2021_audit,162,Sheriff Highway Hireback,,summary,6,Net change in fund balance,net_change,0,2472,2472
+FY2021_audit,162,Sheriff Highway Hireback,,summary,7,year,beginning,,7290,
+FY2021_audit,162,Sheriff Highway Hireback,,summary,8,Fund balance at end of year,ending,,9762,
+FY2021_audit,162,Electronic Monitoring Fund,,revenue,1,Licenses and permits,item,0,20576,20576
+FY2021_audit,162,Electronic Monitoring Fund,,revenue,2,Total revenues,total,0,20576,20576
+FY2021_audit,162,Electronic Monitoring Fund,,expenditure,3,Public safety,item,0,5920,-5920
+FY2021_audit,162,Electronic Monitoring Fund,,expenditure,4,Total expenditures,total,0,5920,-5920
+FY2021_audit,162,Electronic Monitoring Fund,,summary,5,expenditures,excess,0,14656,14656
+FY2021_audit,162,Electronic Monitoring Fund,,summary,6,Net change in fund balance,net_change,0,14656,14656
+FY2021_audit,162,Electronic Monitoring Fund,,summary,7,year,beginning,,0,
+FY2021_audit,162,Electronic Monitoring Fund,,summary,8,Fund balance at end of year,ending,,14656,
+FY2021_audit,163,Coroner's Fees,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,163,Coroner's Fees,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,163,Coroner's Fees,,revenue,3,Miscellaneous,item,0,0,0
+FY2021_audit,163,Coroner's Fees,,revenue,4,Total revenues,total,0,0,0
+FY2021_audit,163,Coroner's Fees,,expenditure,5,Public safety,item,2200,0,2200
+FY2021_audit,163,Coroner's Fees,,expenditure,6,Total expenditures,total,2200,0,2200
+FY2021_audit,163,Coroner's Fees,,summary,7,expenditures,excess,-2200,0,2200
+FY2021_audit,163,Coroner's Fees,,summary,8,Net change in fund balance,net_change,-2200,0,2200
+FY2021_audit,163,Coroner's Fees,,summary,9,year,beginning,,0,
+FY2021_audit,163,Coroner's Fees,,summary,10,Fund balance at end of year,ending,,0,
+FY2021_audit,163,Spay/Neuter Program,,revenue,1,Licenses and permits,item,3000,8150,5150
+FY2021_audit,163,Spay/Neuter Program,,revenue,2,Charges for services,item,0,1260,1260
+FY2021_audit,163,Spay/Neuter Program,,revenue,3,Miscellaneous,item,50,0,-50
+FY2021_audit,163,Spay/Neuter Program,,revenue,4,Total revenues,total,3050,9410,6360
+FY2021_audit,163,Spay/Neuter Program,,expenditure,5,Public safety,item,6000,5207,793
+FY2021_audit,163,Spay/Neuter Program,,expenditure,6,Total expenditures,total,6000,5207,793
+FY2021_audit,163,Spay/Neuter Program,,summary,7,expenditures,excess,-2950,4203,7153
+FY2021_audit,163,Spay/Neuter Program,,summary,8,Net change in fund balance,net_change,-2950,4203,7153
+FY2021_audit,163,Spay/Neuter Program,,summary,9,year,beginning,,6956,
+FY2021_audit,163,Spay/Neuter Program,,summary,10,Fund balance at end of year,ending,,11159,
+FY2021_audit,164,Citizen Corps Grant,,revenue,1,revenues,item,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,revenue,3,Interest,item,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,revenue,4,Total revenues,total,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,expenditure,5,administration,item,2500,0,2500
+FY2021_audit,164,Citizen Corps Grant,,expenditure,6,Total expenditures,total,2500,0,2500
+FY2021_audit,164,Citizen Corps Grant,,summary,7,expenditures,excess,-2500,0,2500
+FY2021_audit,164,Citizen Corps Grant,,other_financing,8,Transfers out,item,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,other_financing,9,sources (uses),total,0,0,0
+FY2021_audit,164,Citizen Corps Grant,,summary,10,Net change in fund balance,net_change,-2500,0,2500
+FY2021_audit,164,Citizen Corps Grant,,summary,11,year,beginning,,0,
+FY2021_audit,164,Citizen Corps Grant,,summary,12,Fund balance at end of year,ending,,0,
+FY2021_audit,164,GIS,,revenue,1,revenues,item,16000,6150,-9850
+FY2021_audit,164,GIS,,revenue,2,Charges for services,item,124000,185906,61906
+FY2021_audit,164,GIS,,revenue,3,Interest,item,300,4389,4089
+FY2021_audit,164,GIS,,revenue,4,Total revenues,total,140300,196445,56145
+FY2021_audit,164,GIS,,expenditure,5,administration,item,101516,69874,31642
+FY2021_audit,164,GIS,,expenditure,6,Total expenditures,total,101516,69874,31642
+FY2021_audit,164,GIS,,summary,7,expenditures,excess,38784,126571,87787
+FY2021_audit,164,GIS,,other_financing,8,Transfers out,item,-22000,-10000,12000
+FY2021_audit,164,GIS,,other_financing,9,sources (uses),total,-22000,-10000,12000
+FY2021_audit,164,GIS,,summary,10,Net change in fund balance,net_change,16784,116571,99787
+FY2021_audit,164,GIS,,summary,11,year,beginning,,254528,
+FY2021_audit,164,GIS,,summary,12,Fund balance at end of year,ending,,371099,
+FY2021_audit,165,Sheriff K9 Donation Fund,,revenue,1,revenues,item,0,0,0
+FY2021_audit,165,Sheriff K9 Donation Fund,,revenue,2,Miscellaneous,item,0,40964,40964
+FY2021_audit,165,Sheriff K9 Donation Fund,,revenue,3,Total revenues,total,0,40964,40964
+FY2021_audit,165,Sheriff K9 Donation Fund,,expenditure,4,Public safety,item,0,18400,-18400
+FY2021_audit,165,Sheriff K9 Donation Fund,,expenditure,5,Public health,item,0,0,0
+FY2021_audit,165,Sheriff K9 Donation Fund,,expenditure,6,Capital outlay,item,0,20000,-20000
+FY2021_audit,165,Sheriff K9 Donation Fund,,expenditure,7,Total expenditures,total,0,38400,-38400
+FY2021_audit,165,Sheriff K9 Donation Fund,,summary,8,expenditures,excess,0,2564,2564
+FY2021_audit,165,Sheriff K9 Donation Fund,,other_financing,9,Transfers out,item,0,0,0
+FY2021_audit,165,Sheriff K9 Donation Fund,,other_financing,10,sources (uses),total,0,0,0
+FY2021_audit,165,Sheriff K9 Donation Fund,,summary,11,Net change in fund balance,net_change,0,2564,2564
+FY2021_audit,165,Sheriff K9 Donation Fund,,summary,12,year,beginning,,0,
+FY2021_audit,165,Sheriff K9 Donation Fund,,summary,13,Fund balance at end of year,ending,,2564,
+FY2021_audit,165,Opioid Grant,,revenue,1,revenues,item,0,147930,147930
+FY2021_audit,165,Opioid Grant,,revenue,2,Miscellaneous,item,0,300,300
+FY2021_audit,165,Opioid Grant,,revenue,3,Total revenues,total,0,148230,148230
+FY2021_audit,165,Opioid Grant,,expenditure,4,Public safety,item,0,0,0
+FY2021_audit,165,Opioid Grant,,expenditure,5,Public health,item,485884,173877,312007
+FY2021_audit,165,Opioid Grant,,expenditure,6,Capital outlay,item,0,0,0
+FY2021_audit,165,Opioid Grant,,expenditure,7,Total expenditures,total,485884,173877,312007
+FY2021_audit,165,Opioid Grant,,summary,8,expenditures,excess,-485884,-25647,460237
+FY2021_audit,165,Opioid Grant,,other_financing,9,Transfers out,item,-65318,0,65318
+FY2021_audit,165,Opioid Grant,,other_financing,10,sources (uses),total,-65318,0,65318
+FY2021_audit,165,Opioid Grant,,summary,11,Net change in fund balance,net_change,-551202,-25647,525555
+FY2021_audit,165,Opioid Grant,,summary,12,year,beginning,,965,
+FY2021_audit,165,Opioid Grant,,summary,13,Fund balance at end of year,ending,,-24682,
+FY2021_audit,166,Opioid Grant,,revenue,1,Miscellaneous,item,0,23983,23983
+FY2021_audit,166,Opioid Grant,,revenue,2,Total revenues,total,0,23983,23983
+FY2021_audit,166,Opioid Grant,,expenditure,3,administration,item,0,0,0
+FY2021_audit,166,Opioid Grant,,expenditure,4,Public health,item,0,64371,-64371
+FY2021_audit,166,Opioid Grant,,expenditure,5,Total expenditures,total,0,64371,-64371
+FY2021_audit,166,Opioid Grant,,summary,6,over expenditures,excess,0,-40388,-40388
+FY2021_audit,166,Opioid Grant,,summary,7,Net change in fund balance,net_change,0,-40388,-40388
+FY2021_audit,166,Opioid Grant,,summary,8,year,beginning,,0,
+FY2021_audit,166,Opioid Grant,,summary,9,Fund balance at end of year,ending,,-40388,
+FY2021_audit,166,Election Grant,,revenue,1,Miscellaneous,item,0,0,0
+FY2021_audit,166,Election Grant,,revenue,2,Total revenues,total,0,0,0
+FY2021_audit,166,Election Grant,,expenditure,3,administration,item,0,-9269,9269
+FY2021_audit,166,Election Grant,,expenditure,4,Public health,item,0,0,0
+FY2021_audit,166,Election Grant,,expenditure,5,Total expenditures,total,0,-9269,9269
+FY2021_audit,166,Election Grant,,summary,6,over expenditures,excess,0,9269,9269
+FY2021_audit,166,Election Grant,,summary,7,Net change in fund balance,net_change,0,9269,9269
+FY2021_audit,166,Election Grant,,summary,8,year,beginning,,0,
+FY2021_audit,166,Election Grant,,summary,9,Fund balance at end of year,ending,,9269,
+FY2021_audit,167,Coroner's Grant,,revenue,1,Intergovernmental revenues,item,0,3922,3922
+FY2021_audit,167,Coroner's Grant,,revenue,2,Total revenues,total,0,3922,3922
+FY2021_audit,167,Coroner's Grant,,expenditure,3,administration,item,500,1015,-515
+FY2021_audit,167,Coroner's Grant,,expenditure,4,Public safety,item,500,70,430
+FY2021_audit,167,Coroner's Grant,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2021_audit,167,Coroner's Grant,,expenditure,6,Total expenditures,total,1000,1085,-85
+FY2021_audit,167,Coroner's Grant,,summary,7,Excess of revenue over expenditures,excess,-1000,2837,3837
+FY2021_audit,167,Coroner's Grant,,summary,8,Net change in fund balance,net_change,-1000,2837,3837
+FY2021_audit,167,Coroner's Grant,,summary,9,Fund balance at beginning of year,beginning,,18113,
+FY2021_audit,167,Coroner's Grant,,summary,10,Fund balance at end of year,ending,,20950,
+FY2021_audit,167,Drug Court Grant,,revenue,1,Intergovernmental revenues,item,0,63713,63713
+FY2021_audit,167,Drug Court Grant,,revenue,2,Total revenues,total,0,63713,63713
+FY2021_audit,167,Drug Court Grant,,expenditure,3,administration,item,0,0,0
+FY2021_audit,167,Drug Court Grant,,expenditure,4,Public safety,item,0,0,0
+FY2021_audit,167,Drug Court Grant,,expenditure,5,Judiciary and courts,item,0,37343,-37343
+FY2021_audit,167,Drug Court Grant,,expenditure,6,Total expenditures,total,0,37343,-37343
+FY2021_audit,167,Drug Court Grant,,summary,7,Excess of revenue over expenditures,excess,0,26370,26370
+FY2021_audit,167,Drug Court Grant,,summary,8,Net change in fund balance,net_change,0,26370,26370
+FY2021_audit,167,Drug Court Grant,,summary,9,Fund balance at beginning of year,beginning,,91234,
+FY2021_audit,167,Drug Court Grant,,summary,10,Fund balance at end of year,ending,,117604,
+FY2021_audit,168,Auto Theft Grant,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,168,Auto Theft Grant,,expenditure,2,Total expenditures,item,0,0,0
+FY2021_audit,168,Auto Theft Grant,,summary,3,Net change in fund balance,net_change,0,0,0
+FY2021_audit,168,Auto Theft Grant,,summary,4,Fund balance at beginning of year,beginning,,0,
+FY2021_audit,168,Auto Theft Grant,,summary,5,Fund balance at end of year,ending,,0,
+FY2021_audit,168,VCVA Grant,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,168,VCVA Grant,,expenditure,2,Total expenditures,item,0,0,0
+FY2021_audit,168,VCVA Grant,,summary,3,Excess of revenue over expenditures,excess,0,0,0
+FY2021_audit,168,VCVA Grant,,summary,4,Net change in fund balance,net_change,0,0,0
+FY2021_audit,168,VCVA Grant,,summary,5,Fund balance at beginning of year,beginning,,0,
+FY2021_audit,168,VCVA Grant,,summary,6,Fund balance at end of year,ending,,0,
+FY2021_audit,169,Township Bridge,,revenue,1,Intergovernmental revenues,item,0,0,0
+FY2021_audit,169,Township Bridge,,revenue,2,Interest,item,0,19,19
+FY2021_audit,169,Township Bridge,,revenue,3,Total revenues,total,0,19,19
+FY2021_audit,169,Township Bridge,,expenditure,4,Highways and bridges,item,0,0,0
+FY2021_audit,169,Township Bridge,,expenditure,5,Total expenditures,total,0,0,0
+FY2021_audit,169,Township Bridge,,summary,6,Excess of revenue over expenditures,excess,0,19,19
+FY2021_audit,169,Township Bridge,,other_financing,7,Transfers out,item,0,-326988,-326988
+FY2021_audit,169,Township Bridge,,other_financing,8,Total other financing sources (uses),total,0,-326988,-326988
+FY2021_audit,169,Township Bridge,,summary,9,Net change in fund balance,net_change,0,-326969,-326969
+FY2021_audit,169,Township Bridge,,summary,10,Fund balance at beginning of year,beginning,,374352,
+FY2021_audit,169,Township Bridge,,summary,11,Fund balance at end of year,ending,,47383,
+FY2021_audit,169,Township Motor Fuel,,revenue,1,Intergovernmental revenues,item,0,1202480,1202480
+FY2021_audit,169,Township Motor Fuel,,revenue,2,Interest,item,0,2105,2105
+FY2021_audit,169,Township Motor Fuel,,revenue,3,Total revenues,total,0,1204585,1204585
+FY2021_audit,169,Township Motor Fuel,,expenditure,4,Highways and bridges,item,0,1386535,-1386535
+FY2021_audit,169,Township Motor Fuel,,expenditure,5,Total expenditures,total,0,1386535,-1386535
+FY2021_audit,169,Township Motor Fuel,,summary,6,Excess of revenue over expenditures,excess,0,-181950,-181950
+FY2021_audit,169,Township Motor Fuel,,other_financing,7,Transfers out,item,0,0,0
+FY2021_audit,169,Township Motor Fuel,,other_financing,8,Total other financing sources (uses),total,0,0,0
+FY2021_audit,169,Township Motor Fuel,,summary,9,Net change in fund balance,net_change,0,-181950,-181950
+FY2021_audit,169,Township Motor Fuel,,summary,10,Fund balance at beginning of year,beginning,,385022,
+FY2021_audit,169,Township Motor Fuel,,summary,11,Fund balance at end of year,ending,,203072,
+FY2021_audit,170,Vital Records Automation,,revenue,1,Charges for services,item,1750,1952,202
+FY2021_audit,170,Vital Records Automation,,revenue,2,Interest,item,100,258,158
+FY2021_audit,170,Vital Records Automation,,revenue,3,Total revenues,total,1850,2210,360
+FY2021_audit,170,Vital Records Automation,,expenditure,4,administration,item,1000,0,1000
+FY2021_audit,170,Vital Records Automation,,expenditure,5,Judiciary and courts,item,3800,615,3185
+FY2021_audit,170,Vital Records Automation,,expenditure,6,Public welfare,item,0,0,0
+FY2021_audit,170,Vital Records Automation,,expenditure,7,Total expenditures,total,4800,615,4185
+FY2021_audit,170,Vital Records Automation,,summary,8,Excess of revenue over expenditures,excess,-2950,1595,4545
+FY2021_audit,170,Vital Records Automation,,summary,9,Net change in fund balance,net_change,-2950,1595,4545
+FY2021_audit,170,Vital Records Automation,,summary,10,Fund balance at beginning of year,beginning,,18293,
+FY2021_audit,170,Vital Records Automation,,summary,11,Fund balance at end of year,ending,,19888,
+FY2021_audit,170,Regional Communication Study,,revenue,1,Charges for services,item,0,0,0
+FY2021_audit,170,Regional Communication Study,,revenue,2,Interest,item,335,343,8
+FY2021_audit,170,Regional Communication Study,,revenue,3,Total revenues,total,335,343,8
+FY2021_audit,170,Regional Communication Study,,expenditure,4,administration,item,750,0,750
+FY2021_audit,170,Regional Communication Study,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2021_audit,170,Regional Communication Study,,expenditure,6,Public welfare,item,500,0,500
+FY2021_audit,170,Regional Communication Study,,expenditure,7,Total expenditures,total,1250,0,1250
+FY2021_audit,170,Regional Communication Study,,summary,8,Excess of revenue over expenditures,excess,-915,343,1258
+FY2021_audit,170,Regional Communication Study,,summary,9,Net change in fund balance,net_change,-915,343,1258
+FY2021_audit,170,Regional Communication Study,,summary,10,Fund balance at beginning of year,beginning,,24253,
+FY2021_audit,170,Regional Communication Study,,summary,11,Fund balance at end of year,ending,,24596,
+FY2021_audit,171,144 Urban Transportation,,revenue,1,Property taxes,item,73000,73000,0
+FY2021_audit,171,144 Urban Transportation,,revenue,2,Intergovernmental revenues,item,19914,0,-19914
+FY2021_audit,171,144 Urban Transportation,,revenue,3,Charges for services,item,51000,0,-51000
+FY2021_audit,171,144 Urban Transportation,,revenue,4,Total revenues,total,143914,73000,-70914
+FY2021_audit,171,144 Urban Transportation,,expenditure,5,Highways and bridges,item,124100,154649,-30549
+FY2021_audit,171,144 Urban Transportation,,expenditure,6,Public welfare,item,0,0,0
+FY2021_audit,171,144 Urban Transportation,,expenditure,7,Total expenditures,total,124100,154649,-30549
+FY2021_audit,171,144 Urban Transportation,,summary,8,expenditures,excess,19814,-81649,-101463
+FY2021_audit,171,144 Urban Transportation,,summary,9,Net change in fund balance,net_change,19814,-81649,-101463
+FY2021_audit,171,144 Urban Transportation,,summary,10,Fund balance at beginning of year,beginning,,-77507,
+FY2021_audit,171,144 Urban Transportation,,summary,11,Fund balance at end of year,ending,,-159156,
+FY2021_audit,171,Rural Transportation Grant,,revenue,1,Property taxes,item,0,0,0
+FY2021_audit,171,Rural Transportation Grant,,revenue,2,Intergovernmental revenues,item,36200,173996,137796
+FY2021_audit,171,Rural Transportation Grant,,revenue,3,Charges for services,item,0,0,0
+FY2021_audit,171,Rural Transportation Grant,,revenue,4,Total revenues,total,36200,173996,137796
+FY2021_audit,171,Rural Transportation Grant,,expenditure,5,Highways and bridges,item,0,0,0
+FY2021_audit,171,Rural Transportation Grant,,expenditure,6,Public welfare,item,28000,143880,-115880
+FY2021_audit,171,Rural Transportation Grant,,expenditure,7,Total expenditures,total,28000,143880,-115880
+FY2021_audit,171,Rural Transportation Grant,,summary,8,expenditures,excess,8200,30116,21916
+FY2021_audit,171,Rural Transportation Grant,,summary,9,Net change in fund balance,net_change,8200,30116,21916
+FY2021_audit,171,Rural Transportation Grant,,summary,10,Fund balance at beginning of year,beginning,,6183,
+FY2021_audit,171,Rural Transportation Grant,,summary,11,Fund balance at end of year,ending,,36299,
+FY2021_audit,172,DUI Equipment,,revenue,1,Licenses and permits,item,32000,22966,-9034
+FY2021_audit,172,DUI Equipment,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,172,DUI Equipment,,revenue,3,Interest,item,500,757,257
+FY2021_audit,172,DUI Equipment,,revenue,4,Miscellaneous,item,0,0,0
+FY2021_audit,172,DUI Equipment,,revenue,5,Total revenues,total,32500,23723,-8777
+FY2021_audit,172,DUI Equipment,,expenditure,6,administration,item,0,0,0
+FY2021_audit,172,DUI Equipment,,expenditure,7,Public safety,item,75000,11805,63195
+FY2021_audit,172,DUI Equipment,,expenditure,8,Capital outlay,item,0,36770,-36770
+FY2021_audit,172,DUI Equipment,,expenditure,9,Total expenditures,total,75000,48575,26425
+FY2021_audit,172,DUI Equipment,,summary,10,expenditures,excess,-42500,-24852,17648
+FY2021_audit,172,DUI Equipment,,summary,11,Net change in fund balance,net_change,-42500,-24852,17648
+FY2021_audit,172,DUI Equipment,,summary,12,Fund balance at beginning of year,beginning,,80104,
+FY2021_audit,172,DUI Equipment,,summary,13,Fund balance at end of year,ending,,55252,
+FY2021_audit,172,Federal Seized Drug,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,172,Federal Seized Drug,,revenue,2,Charges for services,item,6000,6045,45
+FY2021_audit,172,Federal Seized Drug,,revenue,3,Interest,item,50,6,-44
+FY2021_audit,172,Federal Seized Drug,,revenue,4,Miscellaneous,item,0,14002,14002
+FY2021_audit,172,Federal Seized Drug,,revenue,5,Total revenues,total,6050,20053,14003
+FY2021_audit,172,Federal Seized Drug,,expenditure,6,administration,item,38000,0,38000
+FY2021_audit,172,Federal Seized Drug,,expenditure,7,Public safety,item,2000,0,2000
+FY2021_audit,172,Federal Seized Drug,,expenditure,8,Capital outlay,item,0,0,0
+FY2021_audit,172,Federal Seized Drug,,expenditure,9,Total expenditures,total,40000,0,40000
+FY2021_audit,172,Federal Seized Drug,,summary,10,expenditures,excess,-33950,20053,54003
+FY2021_audit,172,Federal Seized Drug,,summary,11,Net change in fund balance,net_change,-33950,20053,54003
+FY2021_audit,172,Federal Seized Drug,,summary,12,Fund balance at beginning of year,beginning,,43779,
+FY2021_audit,172,Federal Seized Drug,,summary,13,Fund balance at end of year,ending,,63832,
+FY2021_audit,173,HAVA Election,,revenue,1,revenues,item,10000,0,-10000
+FY2021_audit,173,HAVA Election,,revenue,2,Fines and forfeitures,item,0,0,0
+FY2021_audit,173,HAVA Election,,revenue,3,Total revenues,total,10000,0,-10000
+FY2021_audit,173,HAVA Election,,expenditure,4,administration,item,10000,0,10000
+FY2021_audit,173,HAVA Election,,expenditure,5,Total expenditures,total,10000,0,10000
+FY2021_audit,173,HAVA Election,,summary,6,expenditures,excess,0,0,0
+FY2021_audit,173,HAVA Election,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2021_audit,173,HAVA Election,,summary,8,year,beginning,,0,
+FY2021_audit,173,HAVA Election,,summary,9,Fund balance at end of year,ending,,0,
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,revenue,1,revenues,item,0,0,0
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,revenue,2,Fines and forfeitures,item,10000,11065,1065
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,revenue,3,Total revenues,total,10000,11065,1065
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,expenditure,4,administration,item,10000,0,10000
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,expenditure,5,Total expenditures,total,10000,0,10000
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,summary,6,expenditures,excess,0,11065,11065
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,summary,7,Net change in fund balance,net_change,0,11065,11065
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,summary,8,year,beginning,,6722,
+FY2021_audit,173,Land Cash Fees Fund (Impact Fees),,summary,9,Fund balance at end of year,ending,,17787,
+FY2021_audit,174,Maintenance and Child Support,,revenue,1,Licenses and permits,item,9000,11008,2008
+FY2021_audit,174,Maintenance and Child Support,,revenue,2,Interest,item,0,0,0
+FY2021_audit,174,Maintenance and Child Support,,revenue,3,Total revenues,total,9000,11008,2008
+FY2021_audit,174,Maintenance and Child Support,,expenditure,4,administration,item,0,0,0
+FY2021_audit,174,Maintenance and Child Support,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2021_audit,174,Maintenance and Child Support,,expenditure,6,Total expenditures,total,0,0,0
+FY2021_audit,174,Maintenance and Child Support,,summary,7,expenditures,excess,9000,11008,2008
+FY2021_audit,174,Maintenance and Child Support,,other_financing,8,Transfers out,item,-10000,-9000,1000
+FY2021_audit,174,Maintenance and Child Support,,other_financing,9,sources (uses),total,-10000,-9000,1000
+FY2021_audit,174,Maintenance and Child Support,,summary,10,Net change in fund balance,net_change,-1000,2008,3008
+FY2021_audit,174,Maintenance and Child Support,,summary,11,year,beginning,,11019,
+FY2021_audit,174,Maintenance and Child Support,,summary,12,Fund balance at end of year,ending,,13027,
+FY2021_audit,174,Marriage and Civil Union,,revenue,1,Licenses and permits,item,1200,1410,210
+FY2021_audit,174,Marriage and Civil Union,,revenue,2,Interest,item,0,1,1
+FY2021_audit,174,Marriage and Civil Union,,revenue,3,Total revenues,total,1200,1411,211
+FY2021_audit,174,Marriage and Civil Union,,expenditure,4,administration,item,400,0,400
+FY2021_audit,174,Marriage and Civil Union,,expenditure,5,Judiciary and courts,item,400,0,400
+FY2021_audit,174,Marriage and Civil Union,,expenditure,6,Total expenditures,total,800,0,800
+FY2021_audit,174,Marriage and Civil Union,,summary,7,expenditures,excess,400,1411,1011
+FY2021_audit,174,Marriage and Civil Union,,other_financing,8,Transfers out,item,0,0,0
+FY2021_audit,174,Marriage and Civil Union,,other_financing,9,sources (uses),total,0,0,0
+FY2021_audit,174,Marriage and Civil Union,,summary,10,Net change in fund balance,net_change,400,1411,1011
+FY2021_audit,174,Marriage and Civil Union,,summary,11,year,beginning,,11052,
+FY2021_audit,174,Marriage and Civil Union,,summary,12,Fund balance at end of year,ending,,12463,
+FY2021_audit,175,Prairie Shield Grant,,revenue,1,Fines and forfeitures,item,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,revenue,2,Total revenues,total,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,expenditure,3,administration,item,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,expenditure,4,Total expenditures,total,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,summary,5,expenditures,excess,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2021_audit,175,Prairie Shield Grant,,summary,7,year,beginning,,-725,
+FY2021_audit,175,Prairie Shield Grant,,summary,8,Fund balance at end of year,ending,,-725,
+FY2021_audit,175,Sale in Error,,revenue,1,Fines and forfeitures,item,0,9985,9985
+FY2021_audit,175,Sale in Error,,revenue,2,Total revenues,total,0,9985,9985
+FY2021_audit,175,Sale in Error,,expenditure,3,administration,item,1500,0,1500
+FY2021_audit,175,Sale in Error,,expenditure,4,Total expenditures,total,1500,0,1500
+FY2021_audit,175,Sale in Error,,summary,5,expenditures,excess,-1500,9985,11485
+FY2021_audit,175,Sale in Error,,summary,6,Net change in fund balance,net_change,-1500,9985,11485
+FY2021_audit,175,Sale in Error,,summary,7,year,beginning,,-23201,
+FY2021_audit,175,Sale in Error,,summary,8,Fund balance at end of year,ending,,-13216,
+FY2021_audit,176,Arrestee Medical Costs,,revenue,1,Charges for services,item,0,6106,6106
+FY2021_audit,176,Arrestee Medical Costs,,revenue,2,Interest,item,0,664,664
+FY2021_audit,176,Arrestee Medical Costs,,revenue,3,Total revenues,total,0,6770,6770
+FY2021_audit,176,Arrestee Medical Costs,,expenditure,4,Public safety,item,0,27629,-27629
+FY2021_audit,176,Arrestee Medical Costs,,expenditure,5,Total expenditures,total,0,27629,-27629
+FY2021_audit,176,Arrestee Medical Costs,,summary,6,over expenditures,excess,0,-20859,-20859
+FY2021_audit,176,Arrestee Medical Costs,,summary,7,Net change in fund balance,net_change,0,-20859,-20859
+FY2021_audit,176,Arrestee Medical Costs,,summary,8,year,beginning,,59385,
+FY2021_audit,176,Arrestee Medical Costs,,summary,9,Fund balance at end of year,ending,,38526,
+FY2021_audit,176,Farmland Protection,,revenue,1,Charges for services,item,0,0,0
+FY2021_audit,176,Farmland Protection,,revenue,2,Interest,item,0,0,0
+FY2021_audit,176,Farmland Protection,,revenue,3,Total revenues,total,0,0,0
+FY2021_audit,176,Farmland Protection,,expenditure,4,Public safety,item,0,0,0
+FY2021_audit,176,Farmland Protection,,expenditure,5,Total expenditures,total,0,0,0
+FY2021_audit,176,Farmland Protection,,summary,6,over expenditures,excess,0,0,0
+FY2021_audit,176,Farmland Protection,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2021_audit,176,Farmland Protection,,summary,8,year,beginning,,1019,
+FY2021_audit,176,Farmland Protection,,summary,9,Fund balance at end of year,ending,,1019,
+FY2021_audit,177,In and Out,,revenue,1,Property taxes,item,0,525800,525800
+FY2021_audit,177,In and Out,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,177,In and Out,,revenue,3,Interest,item,0,105,105
+FY2021_audit,177,In and Out,,revenue,4,Total revenues,total,0,525905,525905
+FY2021_audit,177,In and Out,,expenditure,5,administration,item,0,525800,-525800
+FY2021_audit,177,In and Out,,expenditure,6,Total expenditures,total,0,525800,-525800
+FY2021_audit,177,In and Out,,summary,7,expenditures,excess,0,105,105
+FY2021_audit,177,In and Out,,summary,8,Net change in fund balance,net_change,0,105,105
+FY2021_audit,177,In and Out,,summary,9,year,beginning,,161,
+FY2021_audit,177,In and Out,,summary,10,Fund balance at end of year,ending,,266,
+FY2021_audit,177,Financial Compliance Unit,,revenue,1,Property taxes,item,0,0,0
+FY2021_audit,177,Financial Compliance Unit,,revenue,2,Charges for services,item,7500,4641,-2859
+FY2021_audit,177,Financial Compliance Unit,,revenue,3,Interest,item,10,650,640
+FY2021_audit,177,Financial Compliance Unit,,revenue,4,Total revenues,total,7510,5291,-2219
+FY2021_audit,177,Financial Compliance Unit,,expenditure,5,administration,item,0,0,0
+FY2021_audit,177,Financial Compliance Unit,,expenditure,6,Total expenditures,total,0,0,0
+FY2021_audit,177,Financial Compliance Unit,,summary,7,expenditures,excess,7510,5291,-2219
+FY2021_audit,177,Financial Compliance Unit,,summary,8,Net change in fund balance,net_change,7510,5291,-2219
+FY2021_audit,177,Financial Compliance Unit,,summary,9,year,beginning,,46950,
+FY2021_audit,177,Financial Compliance Unit,,summary,10,Fund balance at end of year,ending,,52241,
+FY2021_audit,178,State's Attorney Forfeited Revenue,,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,178,State's Attorney Forfeited Revenue,,revenue,2,Charges for services,item,8000,15235,7235
+FY2021_audit,178,State's Attorney Forfeited Revenue,,revenue,3,Interest,item,10,622,612
+FY2021_audit,178,State's Attorney Forfeited Revenue,,revenue,4,Total revenues,total,8010,15857,7847
+FY2021_audit,178,State's Attorney Forfeited Revenue,,expenditure,5,administration,item,2000,227,1773
+FY2021_audit,178,State's Attorney Forfeited Revenue,,expenditure,6,Judiciary and courts,item,10000,3981,6019
+FY2021_audit,178,State's Attorney Forfeited Revenue,,expenditure,7,Total expenditures,total,12000,4208,7792
+FY2021_audit,178,State's Attorney Forfeited Revenue,,summary,8,expenditures,excess,-3990,11649,15639
+FY2021_audit,178,State's Attorney Forfeited Revenue,,summary,9,Net change in fund balance,net_change,-3990,11649,15639
+FY2021_audit,178,State's Attorney Forfeited Revenue,,summary,10,year,beginning,,41549,
+FY2021_audit,178,State's Attorney Forfeited Revenue,,summary,11,Fund balance at end of year,ending,,53198,
+FY2021_audit,178,Circuit Clerk Electronic Citation,,revenue,1,Licenses and permits,item,0,24883,24883
+FY2021_audit,178,Circuit Clerk Electronic Citation,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,178,Circuit Clerk Electronic Citation,,revenue,3,Interest,item,0,2,2
+FY2021_audit,178,Circuit Clerk Electronic Citation,,revenue,4,Total revenues,total,0,24885,24885
+FY2021_audit,178,Circuit Clerk Electronic Citation,,expenditure,5,administration,item,0,0,0
+FY2021_audit,178,Circuit Clerk Electronic Citation,,expenditure,6,Judiciary and courts,item,0,13159,-13159
+FY2021_audit,178,Circuit Clerk Electronic Citation,,expenditure,7,Total expenditures,total,0,13159,-13159
+FY2021_audit,178,Circuit Clerk Electronic Citation,,summary,8,expenditures,excess,0,11726,11726
+FY2021_audit,178,Circuit Clerk Electronic Citation,,summary,9,Net change in fund balance,net_change,0,11726,11726
+FY2021_audit,178,Circuit Clerk Electronic Citation,,summary,10,year,beginning,,15290,
+FY2021_audit,178,Circuit Clerk Electronic Citation,,summary,11,Fund balance at end of year,ending,,27016,
+FY2021_audit,179,Circuit Clerk Operations,,revenue,1,Licenses and permits,item,0,29359,29359
+FY2021_audit,179,Circuit Clerk Operations,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,179,Circuit Clerk Operations,,revenue,3,Interest,item,0,0,0
+FY2021_audit,179,Circuit Clerk Operations,,revenue,4,Fines and forfeitures,item,0,0,0
+FY2021_audit,179,Circuit Clerk Operations,,revenue,5,Other Taxes,item,0,0,0
+FY2021_audit,179,Circuit Clerk Operations,,revenue,6,Total revenues,total,0,29359,29359
+FY2021_audit,179,Circuit Clerk Operations,,expenditure,7,administration,item,0,0,0
+FY2021_audit,179,Circuit Clerk Operations,,expenditure,8,Judiciary and courts,item,0,23194,-23194
+FY2021_audit,179,Circuit Clerk Operations,,expenditure,9,Total expenditures,total,0,23194,-23194
+FY2021_audit,179,Circuit Clerk Operations,,summary,10,expenditures,excess,0,6165,6165
+FY2021_audit,179,Circuit Clerk Operations,,summary,11,Net change in fund balance,net_change,0,6165,6165
+FY2021_audit,179,Circuit Clerk Operations,,summary,12,year,beginning,,34252,
+FY2021_audit,179,Circuit Clerk Operations,,summary,13,Fund balance at end of year,ending,,40417,
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,1,Licenses and permits,item,0,0,0
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,2,Charges for services,item,0,25,25
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,3,Interest,item,0,2,2
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,4,Fines and forfeitures,item,0,289784,289784
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,5,Other Taxes,item,0,671,671
+FY2021_audit,179,Food & Beverage (Community Building),,revenue,6,Total revenues,total,0,290482,290482
+FY2021_audit,179,Food & Beverage (Community Building),,expenditure,7,administration,item,0,284132,-284132
+FY2021_audit,179,Food & Beverage (Community Building),,expenditure,8,Judiciary and courts,item,0,0,0
+FY2021_audit,179,Food & Beverage (Community Building),,expenditure,9,Total expenditures,total,0,284132,-284132
+FY2021_audit,179,Food & Beverage (Community Building),,summary,10,expenditures,excess,0,6350,6350
+FY2021_audit,179,Food & Beverage (Community Building),,summary,11,Net change in fund balance,net_change,0,6350,6350
+FY2021_audit,179,Food & Beverage (Community Building),,summary,12,year,beginning,,28120,
+FY2021_audit,179,Food & Beverage (Community Building),,summary,13,Fund balance at end of year,ending,,34470,
+FY2021_audit,180,911,,revenue,1,revenues,item,0,786185,786185
+FY2021_audit,180,911,,revenue,2,Charges for services,item,0,0,0
+FY2021_audit,180,911,,revenue,3,Interest,item,0,1798,1798
+FY2021_audit,180,911,,revenue,4,Total revenues,total,0,787983,787983
+FY2021_audit,180,911,,expenditure,5,Public safety,item,0,323104,-323104
+FY2021_audit,180,911,,expenditure,6,Total expenditures,total,0,323104,-323104
+FY2021_audit,180,911,,summary,7,expenditures,excess,0,464879,464879
+FY2021_audit,180,911,,summary,8,Net change in fund balance,net_change,0,464879,464879
+FY2021_audit,180,911,,summary,9,year,beginning,,2062115,
+FY2021_audit,180,911,,summary,10,Fund balance at end of year,ending,,2526994,
+FY2021_audit,180,Jail Commissary,,revenue,1,revenues,item,0,0,0
+FY2021_audit,180,Jail Commissary,,revenue,2,Charges for services,item,0,518333,518333
+FY2021_audit,180,Jail Commissary,,revenue,3,Interest,item,0,0,0
+FY2021_audit,180,Jail Commissary,,revenue,4,Total revenues,total,0,518333,518333
+FY2021_audit,180,Jail Commissary,,expenditure,5,Public safety,item,0,487792,-487792
+FY2021_audit,180,Jail Commissary,,expenditure,6,Total expenditures,total,0,487792,-487792
+FY2021_audit,180,Jail Commissary,,summary,7,expenditures,excess,0,30541,30541
+FY2021_audit,180,Jail Commissary,,summary,8,Net change in fund balance,net_change,0,30541,30541
+FY2021_audit,180,Jail Commissary,,summary,9,year,beginning,,57991,
+FY2021_audit,180,Jail Commissary,,summary,10,Fund balance at end of year,ending,,88532,
+FY2021_audit,181,Tax Redemption,,revenue,1,Charges for services,item,0,1400385,1400385
+FY2021_audit,181,Tax Redemption,,revenue,2,Total revenues,total,0,1400385,1400385
+FY2021_audit,181,Tax Redemption,,expenditure,3,administration,item,0,1397103,-1397103
+FY2021_audit,181,Tax Redemption,,expenditure,4,Total expenditures,total,0,1397103,-1397103
+FY2021_audit,181,Tax Redemption,,summary,5,expenditures,excess,0,3282,3282
+FY2021_audit,181,Tax Redemption,,summary,6,Net change in fund balance,net_change,0,3282,3282
+FY2021_audit,181,Tax Redemption,,summary,7,year,beginning,,99227,
+FY2021_audit,181,Tax Redemption,,summary,8,Fund balance at end of year,ending,,102509,
+FY2021_audit,181,County Clerk,,revenue,1,Charges for services,item,0,0,0
+FY2021_audit,181,County Clerk,,revenue,2,Total revenues,total,0,0,0
+FY2021_audit,181,County Clerk,,expenditure,3,administration,item,0,0,0
+FY2021_audit,181,County Clerk,,expenditure,4,Total expenditures,total,0,0,0
+FY2021_audit,181,County Clerk,,summary,5,expenditures,excess,0,0,0
+FY2021_audit,181,County Clerk,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2021_audit,181,County Clerk,,summary,7,year,beginning,,0,
+FY2021_audit,181,County Clerk,,summary,8,Fund balance at end of year,ending,,0,
+FY2021_audit,182,Trust,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,182,Trust,,expenditure,2,Total expenditures,item,0,0,0
+FY2021_audit,182,Trust,,summary,3,Net change in fund balance,net_change,0,0,0
+FY2021_audit,182,Trust,,summary,4,year,beginning,,0,
+FY2021_audit,182,Trust,,summary,5,Fund balance at end of year,ending,,0,
+FY2021_audit,182,Jury Payroll,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,182,Jury Payroll,,expenditure,2,Total expenditures,item,0,0,0
+FY2021_audit,182,Jury Payroll,,expenditure,3,,item,0,0,0
+FY2021_audit,182,Jury Payroll,,summary,4,Net change in fund balance,net_change,0,0,0
+FY2021_audit,182,Jury Payroll,,summary,5,year,beginning,,0,
+FY2021_audit,182,Jury Payroll,,summary,6,Fund balance at end of year,ending,,0,
+FY2021_audit,183,Jail Bond,,revenue,1,revenues,item,1495000,1970874,475874
+FY2021_audit,183,Jail Bond,,revenue,2,Interest,item,2000,5509,3509
+FY2021_audit,183,Jail Bond,,revenue,3,Total revenues,total,1497000,1976383,479383
+FY2021_audit,183,Jail Bond,,expenditure,4,administration,item,0,0,0
+FY2021_audit,183,Jail Bond,,expenditure,5,Public safety,item,0,53068,-53068
+FY2021_audit,183,Jail Bond,,expenditure,6,Principal payments,item,0,0,0
+FY2021_audit,183,Jail Bond,,expenditure,7,debt,item,0,0,0
+FY2021_audit,183,Jail Bond,,expenditure,8,Total expenditures,total,0,53068,-53068
+FY2021_audit,183,Jail Bond,,summary,9,expenditures,excess,1497000,1923315,426315
+FY2021_audit,183,Jail Bond,,other_financing,10,Transfers in,item,0,0,0
+FY2021_audit,183,Jail Bond,,other_financing,11,Transfers out,item,-1495000,-1728265,-233265
+FY2021_audit,183,Jail Bond,,other_financing,12,sources (uses),total,-1495000,-1728265,-233265
+FY2021_audit,183,Jail Bond,,summary,13,Net change in fund balance,net_change,2000,195050,193050
+FY2021_audit,183,Jail Bond,,summary,14,year,beginning,,721987,
+FY2021_audit,183,Jail Bond,,summary,15,Fund balance at end of year,ending,,917037,
+FY2021_audit,183,Courthouse Bond,,revenue,1,revenues,item,0,0,0
+FY2021_audit,183,Courthouse Bond,,revenue,2,Interest,item,0,0,0
+FY2021_audit,183,Courthouse Bond,,revenue,3,Total revenues,total,0,0,0
+FY2021_audit,183,Courthouse Bond,,expenditure,4,administration,item,0,750,-750
+FY2021_audit,183,Courthouse Bond,,expenditure,5,Public safety,item,0,0,0
+FY2021_audit,183,Courthouse Bond,,expenditure,6,Principal payments,item,308675,240000,68675
+FY2021_audit,183,Courthouse Bond,,expenditure,7,debt,item,0,68675,-68675
+FY2021_audit,183,Courthouse Bond,,expenditure,8,Total expenditures,total,308675,309425,-750
+FY2021_audit,183,Courthouse Bond,,summary,9,expenditures,excess,-308675,-309425,-750
+FY2021_audit,183,Courthouse Bond,,other_financing,10,Transfers in,item,308675,309425,750
+FY2021_audit,183,Courthouse Bond,,other_financing,11,Transfers out,item,0,0,0
+FY2021_audit,183,Courthouse Bond,,other_financing,12,sources (uses),total,308675,309425,750
+FY2021_audit,183,Courthouse Bond,,summary,13,Net change in fund balance,net_change,0,0,0
+FY2021_audit,183,Courthouse Bond,,summary,14,year,beginning,,0,
+FY2021_audit,183,Courthouse Bond,,summary,15,Fund balance at end of year,ending,,0,
+FY2021_audit,184,Animal Services Bond,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,184,Animal Services Bond,,expenditure,2,Principal payments,item,0,0,0
+FY2021_audit,184,Animal Services Bond,,expenditure,3,debt,item,0,0,0
+FY2021_audit,184,Animal Services Bond,,expenditure,4,Total expenditures,total,0,0,0
+FY2021_audit,184,Animal Services Bond,,summary,5,expenditures,excess,0,0,0
+FY2021_audit,184,Animal Services Bond,,other_financing,6,Transfers in,item,0,0,0
+FY2021_audit,184,Animal Services Bond,,other_financing,7,sources (uses),total,0,0,0
+FY2021_audit,184,Animal Services Bond,,summary,8,Net change in fund balance,net_change,0,0,0
+FY2021_audit,184,Animal Services Bond,,summary,9,year,beginning,,0,
+FY2021_audit,184,Animal Services Bond,,summary,10,Fund balance at end of year,ending,,0,
+FY2021_audit,184,Sheriffs Storage Bond 2017,,revenue,1,Total revenues,item,0,0,0
+FY2021_audit,184,Sheriffs Storage Bond 2017,,expenditure,2,Principal payments,item,0,65000,-65000
+FY2021_audit,184,Sheriffs Storage Bond 2017,,expenditure,3,debt,item,0,12508,-12508
+FY2021_audit,184,Sheriffs Storage Bond 2017,,expenditure,4,Total expenditures,total,0,77508,-77508
+FY2021_audit,184,Sheriffs Storage Bond 2017,,summary,5,expenditures,excess,0,-77508,-77508
+FY2021_audit,184,Sheriffs Storage Bond 2017,,other_financing,6,Transfers in,item,0,77508,77508
+FY2021_audit,184,Sheriffs Storage Bond 2017,,other_financing,7,sources (uses),total,0,77508,77508
+FY2021_audit,184,Sheriffs Storage Bond 2017,,summary,8,Net change in fund balance,net_change,0,0,0
+FY2021_audit,184,Sheriffs Storage Bond 2017,,summary,9,year,beginning,,0,
+FY2021_audit,184,Sheriffs Storage Bond 2017,,summary,10,Fund balance at end of year,ending,,0,
+FY2021_audit,185,Animal Services Building and Maintenance,,revenue,1,Charges for services,item,30000,40185,10185
+FY2021_audit,185,Animal Services Building and Maintenance,,revenue,2,Interest,item,0,0,0
+FY2021_audit,185,Animal Services Building and Maintenance,,revenue,3,Miscellaneous,item,0,0,0
+FY2021_audit,185,Animal Services Building and Maintenance,,revenue,4,Total revenues,total,30000,40185,10185
+FY2021_audit,185,Animal Services Building and Maintenance,,expenditure,5,administration,item,0,0,0
+FY2021_audit,185,Animal Services Building and Maintenance,,expenditure,6,Public safety,item,15000,8509,6491
+FY2021_audit,185,Animal Services Building and Maintenance,,expenditure,7,Total expenditures,total,15000,8509,6491
+FY2021_audit,185,Animal Services Building and Maintenance,,summary,8,expenditures,excess,15000,31676,16676
+FY2021_audit,185,Animal Services Building and Maintenance,,summary,9,Net change in fund balance,net_change,15000,31676,16676
+FY2021_audit,185,Animal Services Building and Maintenance,,summary,10,year,beginning,,26258,
+FY2021_audit,185,Animal Services Building and Maintenance,,summary,11,Fund balance at end of year,ending,,57934,
+FY2021_audit,185,Property Maintenance,,revenue,1,Charges for services,item,0,50000,50000
+FY2021_audit,185,Property Maintenance,,revenue,2,Interest,item,500,3110,2610
+FY2021_audit,185,Property Maintenance,,revenue,3,Miscellaneous,item,15000,6000,-9000
+FY2021_audit,185,Property Maintenance,,revenue,4,Total revenues,total,15500,59110,43610
+FY2021_audit,185,Property Maintenance,,expenditure,5,administration,item,105000,250,104750
+FY2021_audit,185,Property Maintenance,,expenditure,6,Public safety,item,0,0,0
+FY2021_audit,185,Property Maintenance,,expenditure,7,Total expenditures,total,105000,250,104750
+FY2021_audit,185,Property Maintenance,,summary,8,expenditures,excess,-89500,58860,148360
+FY2021_audit,185,Property Maintenance,,summary,9,Net change in fund balance,net_change,-89500,58860,148360
+FY2021_audit,185,Property Maintenance,,summary,10,year,beginning,,199848,
+FY2021_audit,185,Property Maintenance,,summary,11,Fund balance at end of year,ending,,258708,
+FY2021_audit,186,Capital Projects,,revenue,1,Miscellaneous,item,0,0,0
+FY2021_audit,186,Capital Projects,,revenue,2,Total revenues,total,0,0,0
+FY2021_audit,186,Capital Projects,,expenditure,3,Public safety,item,0,0,0
+FY2021_audit,186,Capital Projects,,expenditure,4,Total expenditures,total,0,0,0
+FY2021_audit,186,Capital Projects,,summary,5,Net change in fund balance,net_change,0,0,0
+FY2021_audit,186,Capital Projects,,summary,6,year,beginning,,8934,
+FY2021_audit,186,Capital Projects,,summary,7,Fund balance at end of year,ending,,8934,
+FY2021_audit,186,Animal Services Donation,,revenue,1,Miscellaneous,item,7500,4380,-3120
+FY2021_audit,186,Animal Services Donation,,revenue,2,Total revenues,total,7500,4380,-3120
+FY2021_audit,186,Animal Services Donation,,expenditure,3,Public safety,item,2500,6212,-3712
+FY2021_audit,186,Animal Services Donation,,expenditure,4,Total expenditures,total,2500,6212,-3712
+FY2021_audit,186,Animal Services Donation,,summary,5,expenditures,excess,5000,-1832,-6832
+FY2021_audit,186,Animal Services Donation,,summary,6,Net change in fund balance,net_change,5000,-1832,-6832
+FY2021_audit,186,Animal Services Donation,,summary,7,year,beginning,,31834,
+FY2021_audit,186,Animal Services Donation,,summary,8,Fund balance at end of year,ending,,30002,
+FY2021_audit,187,Maplecrest Memorial Funds,,revenue,1,Interest,item,11950,2247,-9703
+FY2021_audit,187,Maplecrest Memorial Funds,,revenue,2,Total revenues,total,11950,2247,-9703
+FY2021_audit,187,Maplecrest Memorial Funds,,expenditure,3,General control and administration,item,53000,22240,30760
+FY2021_audit,187,Maplecrest Memorial Funds,,expenditure,4,Total expenditures,total,53000,22240,30760
+FY2021_audit,187,Maplecrest Memorial Funds,,summary,5,Excess (deficiency) of revenue over expenditures,excess,-41050,-19993,21057
+FY2021_audit,187,Maplecrest Memorial Funds,,summary,6,Net change in fund balance,net_change,-41050,-19993,21057
+FY2021_audit,187,Maplecrest Memorial Funds,,summary,7,Fund balance at beginning of year,beginning,,142629,
+FY2021_audit,187,Maplecrest Memorial Funds,,summary,8,Fund balance at end of year,ending,,122636,

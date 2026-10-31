@@ -1,0 +1,854 @@
+doc_id,pdf_page,fund_name,fund_code,section,row_seq,label,line_type,budget,actual,variance
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,revenue,1,Intergovernmental revenues,item,1400000,2910789,1510789
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,revenue,2,Charges for services,item,100000,16416,-83584
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,revenue,3,Interest,item,70000,36822,-33178
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,revenue,4,Total revenues,total,1570000,2964027,1394027
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,expenditure,5,Highways and bridges,item,3215267,1247747,1967520
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,expenditure,6,Capital outlay,item,0,4537,-4537
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,expenditure,7,Total expenditures,total,3215267,1252284,1962983
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,summary,8,Excess of revenue over expenditures,excess,-1645267,1711743,3357010
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,other_financing,9,Transfers out,item,0,-38517,-38517
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,other_financing,10,Total other financing sources (uses),total,0,-38517,-38517
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,summary,11,Net change in fund balance,net_change,-1645267,1673226,3318493
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,summary,12,Fund balance at beginning of year,beginning,,5714150,
+FY2022_audit,85,Motor Fuel Tax - Fund 005,005,summary,13,Fund balance at end of year,ending,,7387376,
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,revenue,1,Intergovernmental revenues,item,0,378599,378599
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,revenue,2,Interest,item,0,50681,50681
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,revenue,3,Total revenues,total,0,429280,429280
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,expenditure,4,General control and administration,item,0,61063,-61063
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,expenditure,5,Public health,item,0,309216,-309216
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,expenditure,6,Capital outlay,item,0,69383,-69383
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,expenditure,7,Total expenditures,total,0,439662,-439662
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,summary,8,Net change in fund balance,net_change,0,-10382,-10382
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,summary,9,Fund balance at beginning of year,beginning,,42364,
+FY2022_audit,86,American Rescue Plan Grant Fund - Fund 131,131,summary,10,Fund balance at end of year,ending,,31982,
+FY2022_audit,151,County Highway,,revenue,1,Property taxes,item,795000,794810,-190
+FY2022_audit,151,County Highway,,revenue,2,Intergovernmental revenues,item,0,46061,46061
+FY2022_audit,151,County Highway,,revenue,3,Licenses and permits,item,8000,26434,18434
+FY2022_audit,151,County Highway,,revenue,4,Charges for services,item,500000,0,-500000
+FY2022_audit,151,County Highway,,revenue,5,Interest,item,20000,12013,-7987
+FY2022_audit,151,County Highway,,revenue,6,Miscellaneous,item,25000,84781,59781
+FY2022_audit,151,County Highway,,revenue,7,Total revenues,total,1348000,964099,-383901
+FY2022_audit,151,County Highway,,expenditure,8,Highways and bridges,item,1630605,785334,845271
+FY2022_audit,151,County Highway,,expenditure,9,Capital outlay,item,0,228685,-228685
+FY2022_audit,151,County Highway,,expenditure,10,Total expenditures,total,1630605,1014019,616586
+FY2022_audit,151,County Highway,,summary,11,expenditures,excess,-282605,-49920,232685
+FY2022_audit,151,County Highway,,other_financing,12,Transfers in,item,0,50892,50892
+FY2022_audit,151,County Highway,,other_financing,13,Total other financing sources (uses),total,0,50892,50892
+FY2022_audit,151,County Highway,,summary,14,Net change in fund balance,net_change,-282605,972,283577
+FY2022_audit,151,County Highway,,summary,15,Fund balance at beginning of year,beginning,,2163451,
+FY2022_audit,151,County Highway,,summary,16,Fund balance at end of year,ending,,2164423,
+FY2022_audit,151,Highway Matching,,revenue,1,Property taxes,item,115000,115234,234
+FY2022_audit,151,Highway Matching,,revenue,2,Intergovernmental revenues,item,0,0,0
+FY2022_audit,151,Highway Matching,,revenue,3,Licenses and permits,item,0,0,0
+FY2022_audit,151,Highway Matching,,revenue,4,Charges for services,item,0,0,0
+FY2022_audit,151,Highway Matching,,revenue,5,Interest,item,50000,16420,-33580
+FY2022_audit,151,Highway Matching,,revenue,6,Miscellaneous,item,0,10808,10808
+FY2022_audit,151,Highway Matching,,revenue,7,Total revenues,total,165000,142462,-22538
+FY2022_audit,151,Highway Matching,,expenditure,8,Highways and bridges,item,700000,65285,634715
+FY2022_audit,151,Highway Matching,,expenditure,9,Capital outlay,item,0,0,0
+FY2022_audit,151,Highway Matching,,expenditure,10,Total expenditures,total,700000,65285,634715
+FY2022_audit,151,Highway Matching,,summary,11,expenditures,excess,-535000,77177,612177
+FY2022_audit,151,Highway Matching,,other_financing,12,Transfers in,item,0,0,0
+FY2022_audit,151,Highway Matching,,other_financing,13,Total other financing sources (uses),total,0,0,0
+FY2022_audit,151,Highway Matching,,summary,14,Net change in fund balance,net_change,-535000,77177,612177
+FY2022_audit,151,Highway Matching,,summary,15,Fund balance at beginning of year,beginning,,2751943,
+FY2022_audit,151,Highway Matching,,summary,16,Fund balance at end of year,ending,,2829120,
+FY2022_audit,152,Planning,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,152,Planning,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,152,Planning,,revenue,3,Total revenues,total,0,0,0
+FY2022_audit,152,Planning,,expenditure,4,Public safety,item,0,0,0
+FY2022_audit,152,Planning,,expenditure,5,Public health,item,0,0,0
+FY2022_audit,152,Planning,,expenditure,6,Total expenditures,total,0,0,0
+FY2022_audit,152,Planning,,other_financing,7,Transfers out,item,0,0,0
+FY2022_audit,152,Planning,,other_financing,8,Total other financing sources (uses),total,0,0,0
+FY2022_audit,152,Planning,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2022_audit,152,Planning,,summary,10,Fund balance at beginning of year,beginning,,0,
+FY2022_audit,152,Planning,,summary,11,Fund balance at end of year,ending,,0,
+FY2022_audit,152,Animal Services Fund - Other,,revenue,1,Licenses and permits,item,223500,213402,-10098
+FY2022_audit,152,Animal Services Fund - Other,,revenue,2,Charges for services,item,20000,26339,6339
+FY2022_audit,152,Animal Services Fund - Other,,revenue,3,Total revenues,total,243500,239741,-3759
+FY2022_audit,152,Animal Services Fund - Other,,expenditure,4,Public safety,item,192353,202405,-10052
+FY2022_audit,152,Animal Services Fund - Other,,expenditure,5,Public health,item,0,20000,-20000
+FY2022_audit,152,Animal Services Fund - Other,,expenditure,6,Total expenditures,total,192353,222405,-30052
+FY2022_audit,152,Animal Services Fund - Other,,summary,7,Excess of revenue over expenditures,excess,51147,17336,-33811
+FY2022_audit,152,Animal Services Fund - Other,,other_financing,8,Transfers out,item,-30000,-10000,20000
+FY2022_audit,152,Animal Services Fund - Other,,other_financing,9,Total other financing sources (uses),total,-30000,-10000,20000
+FY2022_audit,152,Animal Services Fund - Other,,summary,10,Net change in fund balance,net_change,21147,7336,-13811
+FY2022_audit,152,Animal Services Fund - Other,,summary,11,Fund balance at beginning of year,beginning,,26380,
+FY2022_audit,152,Animal Services Fund - Other,,summary,12,Fund balance at end of year,ending,,33716,
+FY2022_audit,153,Health Department,,revenue,1,Property taxes,item,256325,190937,-65388
+FY2022_audit,153,Health Department,,revenue,2,Intergovernmental revenues,item,102612,1862346,1759734
+FY2022_audit,153,Health Department,,revenue,3,Licenses and permits,item,160500,117750,-42750
+FY2022_audit,153,Health Department,,revenue,4,Charges for services,item,85487,137742,52255
+FY2022_audit,153,Health Department,,revenue,5,Interest,item,7000,3440,-3560
+FY2022_audit,153,Health Department,,revenue,6,Miscellaneous,item,0,75282,75282
+FY2022_audit,153,Health Department,,revenue,7,Total revenues,total,611924,2387497,1775573
+FY2022_audit,153,Health Department,,expenditure,8,General control and administration,item,0,-66,66
+FY2022_audit,153,Health Department,,expenditure,9,Public health,item,1243808,2115172,-871364
+FY2022_audit,153,Health Department,,expenditure,10,Capital outlay,item,0,64605,-64605
+FY2022_audit,153,Health Department,,expenditure,11,Total expenditures,total,1243808,2179711,-935903
+FY2022_audit,153,Health Department,,summary,12,Excess of revenue over expenditures,excess,-631884,207786,839670
+FY2022_audit,153,Health Department,,other_financing,13,Transfers in,item,652081,0,-652081
+FY2022_audit,153,Health Department,,other_financing,14,Transfers out,item,-2147,-2147,0
+FY2022_audit,153,Health Department,,other_financing,15,Total other financing sources (uses),total,649934,-2147,-652081
+FY2022_audit,153,Health Department,,summary,16,Net change in fund balance,net_change,18050,205639,187589
+FY2022_audit,153,Health Department,,summary,17,Fund balance at beginning of year,beginning,,711826,
+FY2022_audit,153,Health Department,,summary,18,Fund balance at end of year,ending,,917465,
+FY2022_audit,153,Health Grant,,revenue,1,Property taxes,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,2,Intergovernmental revenues,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,3,Licenses and permits,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,4,Charges for services,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,5,Interest,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,6,Miscellaneous,item,0,0,0
+FY2022_audit,153,Health Grant,,revenue,7,Total revenues,total,0,0,0
+FY2022_audit,153,Health Grant,,expenditure,8,General control and administration,item,0,0,0
+FY2022_audit,153,Health Grant,,expenditure,9,Public health,item,0,0,0
+FY2022_audit,153,Health Grant,,expenditure,10,Capital outlay,item,0,0,0
+FY2022_audit,153,Health Grant,,expenditure,11,Total expenditures,total,0,0,0
+FY2022_audit,153,Health Grant,,summary,12,Excess of revenue over expenditures,excess,0,0,0
+FY2022_audit,153,Health Grant,,other_financing,13,Transfers in,item,0,0,0
+FY2022_audit,153,Health Grant,,other_financing,14,Transfers out,item,0,0,0
+FY2022_audit,153,Health Grant,,other_financing,15,Total other financing sources (uses),total,0,0,0
+FY2022_audit,153,Health Grant,,summary,16,Net change in fund balance,net_change,0,0,0
+FY2022_audit,153,Health Grant,,summary,17,Fund balance at beginning of year,beginning,,0,
+FY2022_audit,153,Health Grant,,summary,18,Fund balance at end of year,ending,,0,
+FY2022_audit,154,FICA,,revenue,1,Property taxes,item,877976,877688,-288
+FY2022_audit,154,FICA,,revenue,2,Intergovernmental revenues,item,0,42144,42144
+FY2022_audit,154,FICA,,revenue,3,Charges for services,item,0,6554,6554
+FY2022_audit,154,FICA,,revenue,4,Interest,item,0,339,339
+FY2022_audit,154,FICA,,revenue,5,Miscellaneous,item,87798,71595,-16203
+FY2022_audit,154,FICA,,revenue,6,Total revenues,total,965774,998320,32546
+FY2022_audit,154,FICA,,expenditure,7,administration,item,965774,82064,883710
+FY2022_audit,154,FICA,,expenditure,8,Public safety,item,0,646469,-646469
+FY2022_audit,154,FICA,,expenditure,9,Judiciary and courts,item,0,210361,-210361
+FY2022_audit,154,FICA,,expenditure,10,Highways and bridges,item,0,36269,-36269
+FY2022_audit,154,FICA,,expenditure,11,Public health,item,0,106312,-106312
+FY2022_audit,154,FICA,,expenditure,12,Total expenditures,total,965774,1081475,-115701
+FY2022_audit,154,FICA,,summary,13,expenditures,excess,0,-83155,-83155
+FY2022_audit,154,FICA,,other_financing,14,Transfers in,item,0,0,0
+FY2022_audit,154,FICA,,other_financing,15,(uses),total,0,0,0
+FY2022_audit,154,FICA,,summary,16,Net change in fund balance,net_change,0,-83155,-83155
+FY2022_audit,154,FICA,,summary,17,Fund balance at beginning of year,beginning,,184552,
+FY2022_audit,154,FICA,,summary,18,Fund balance at end of year,ending,,101397,
+FY2022_audit,154,IMRF/Retirement,,revenue,1,Property taxes,item,1154890,1154481,-409
+FY2022_audit,154,IMRF/Retirement,,revenue,2,Intergovernmental revenues,item,62525,38030,-24495
+FY2022_audit,154,IMRF/Retirement,,revenue,3,Charges for services,item,0,5629,5629
+FY2022_audit,154,IMRF/Retirement,,revenue,4,Interest,item,5000,2687,-2313
+FY2022_audit,154,IMRF/Retirement,,revenue,5,Miscellaneous,item,10902,53547,42645
+FY2022_audit,154,IMRF/Retirement,,revenue,6,Total revenues,total,1233317,1254374,21057
+FY2022_audit,154,IMRF/Retirement,,expenditure,7,administration,item,1254513,101113,1153400
+FY2022_audit,154,IMRF/Retirement,,expenditure,8,Public safety,item,0,796527,-796527
+FY2022_audit,154,IMRF/Retirement,,expenditure,9,Judiciary and courts,item,0,259190,-259190
+FY2022_audit,154,IMRF/Retirement,,expenditure,10,Highways and bridges,item,0,44688,-44688
+FY2022_audit,154,IMRF/Retirement,,expenditure,11,Public health,item,0,130990,-130990
+FY2022_audit,154,IMRF/Retirement,,expenditure,12,Total expenditures,total,1254513,1332508,-77995
+FY2022_audit,154,IMRF/Retirement,,summary,13,expenditures,excess,-21196,-78134,-56938
+FY2022_audit,154,IMRF/Retirement,,other_financing,14,Transfers in,item,21196,0,-21196
+FY2022_audit,154,IMRF/Retirement,,other_financing,15,(uses),total,21196,0,-21196
+FY2022_audit,154,IMRF/Retirement,,summary,16,Net change in fund balance,net_change,0,-78134,-78134
+FY2022_audit,154,IMRF/Retirement,,summary,17,Fund balance at beginning of year,beginning,,610921,
+FY2022_audit,154,IMRF/Retirement,,summary,18,Fund balance at end of year,ending,,532787,
+FY2022_audit,155,Tort Immunity,,revenue,1,Property taxes,item,1000000,999728,-272
+FY2022_audit,155,Tort Immunity,,revenue,2,revenues,item,0,6885,6885
+FY2022_audit,155,Tort Immunity,,revenue,3,Licenses and permits,item,0,0,0
+FY2022_audit,155,Tort Immunity,,revenue,4,Charges for services,item,10000,1433,-8567
+FY2022_audit,155,Tort Immunity,,revenue,5,Interest,item,1000,-799,-1799
+FY2022_audit,155,Tort Immunity,,revenue,6,Miscellaneous,item,43000,25298,-17702
+FY2022_audit,155,Tort Immunity,,revenue,7,Total revenues,total,1054000,1032545,-21455
+FY2022_audit,155,Tort Immunity,,expenditure,8,administration,item,1055500,1118057,-62557
+FY2022_audit,155,Tort Immunity,,expenditure,9,Judiciary and courts,item,0,0,0
+FY2022_audit,155,Tort Immunity,,expenditure,10,Total expenditures,total,1055500,1118057,-62557
+FY2022_audit,155,Tort Immunity,,summary,11,over expenditures,excess,-1500,-85512,-84012
+FY2022_audit,155,Tort Immunity,,other_financing,12,Transfers in,item,2147,2147,0
+FY2022_audit,155,Tort Immunity,,other_financing,13,Transfers out,item,0,0,0
+FY2022_audit,155,Tort Immunity,,other_financing,14,sources (uses),total,2147,2147,0
+FY2022_audit,155,Tort Immunity,,summary,15,Net change in fund balance,net_change,647,-83365,-84012
+FY2022_audit,155,Tort Immunity,,summary,16,year,beginning,,172332,
+FY2022_audit,155,Tort Immunity,,summary,17,Fund balance at end of year,ending,,88967,
+FY2022_audit,155,Court Security,,revenue,1,Property taxes,item,0,0,0
+FY2022_audit,155,Court Security,,revenue,2,revenues,item,0,0,0
+FY2022_audit,155,Court Security,,revenue,3,Licenses and permits,item,90000,81794,-8206
+FY2022_audit,155,Court Security,,revenue,4,Charges for services,item,0,0,0
+FY2022_audit,155,Court Security,,revenue,5,Interest,item,500,747,247
+FY2022_audit,155,Court Security,,revenue,6,Miscellaneous,item,0,0,0
+FY2022_audit,155,Court Security,,revenue,7,Total revenues,total,90500,82541,-7959
+FY2022_audit,155,Court Security,,expenditure,8,administration,item,0,0,0
+FY2022_audit,155,Court Security,,expenditure,9,Judiciary and courts,item,3000,6730,-3730
+FY2022_audit,155,Court Security,,expenditure,10,Total expenditures,total,3000,6730,-3730
+FY2022_audit,155,Court Security,,summary,11,over expenditures,excess,87500,75811,-11689
+FY2022_audit,155,Court Security,,other_financing,12,Transfers in,item,0,0,0
+FY2022_audit,155,Court Security,,other_financing,13,Transfers out,item,-57000,-57000,0
+FY2022_audit,155,Court Security,,other_financing,14,sources (uses),total,-57000,-57000,0
+FY2022_audit,155,Court Security,,summary,15,Net change in fund balance,net_change,30500,18811,-11689
+FY2022_audit,155,Court Security,,summary,16,year,beginning,,184244,
+FY2022_audit,155,Court Security,,summary,17,Fund balance at end of year,ending,,203055,
+FY2022_audit,156,Law Library,,revenue,1,Licenses and permits,item,30000,23961,-6039
+FY2022_audit,156,Law Library,,revenue,2,Interest,item,0,0,0
+FY2022_audit,156,Law Library,,revenue,3,Miscellaneous,item,0,1075,1075
+FY2022_audit,156,Law Library,,revenue,4,Total revenues,total,30000,25036,-4964
+FY2022_audit,156,Law Library,,expenditure,5,administration,item,250,0,250
+FY2022_audit,156,Law Library,,expenditure,6,Judiciary and courts,item,33786,27586,6200
+FY2022_audit,156,Law Library,,expenditure,7,Total expenditures,total,34036,27586,6450
+FY2022_audit,156,Law Library,,summary,8,over expenditures,excess,-4036,-2550,1486
+FY2022_audit,156,Law Library,,summary,9,Net change in fund balance,net_change,-4036,-2550,1486
+FY2022_audit,156,Law Library,,summary,10,year,beginning,,-36772,
+FY2022_audit,156,Law Library,,summary,11,Fund balance at end of year,ending,,-39322,
+FY2022_audit,156,Foreclosure Mediation,,revenue,1,Licenses and permits,item,1000,5590,4590
+FY2022_audit,156,Foreclosure Mediation,,revenue,2,Interest,item,0,201,201
+FY2022_audit,156,Foreclosure Mediation,,revenue,3,Miscellaneous,item,0,0,0
+FY2022_audit,156,Foreclosure Mediation,,revenue,4,Total revenues,total,1000,5791,4791
+FY2022_audit,156,Foreclosure Mediation,,expenditure,5,administration,item,15000,1616,13384
+FY2022_audit,156,Foreclosure Mediation,,expenditure,6,Judiciary and courts,item,0,0,0
+FY2022_audit,156,Foreclosure Mediation,,expenditure,7,Total expenditures,total,15000,1616,13384
+FY2022_audit,156,Foreclosure Mediation,,summary,8,over expenditures,excess,-14000,4175,18175
+FY2022_audit,156,Foreclosure Mediation,,summary,9,Net change in fund balance,net_change,-14000,4175,18175
+FY2022_audit,156,Foreclosure Mediation,,summary,10,year,beginning,,43801,
+FY2022_audit,156,Foreclosure Mediation,,summary,11,Fund balance at end of year,ending,,47976,
+FY2022_audit,157,Landfill Closure,,revenue,1,revenues,item,50000,50000,0
+FY2022_audit,157,Landfill Closure,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,157,Landfill Closure,,revenue,3,Interest,item,0,-1,-1
+FY2022_audit,157,Landfill Closure,,revenue,4,Miscellaneous,item,7500,7500,0
+FY2022_audit,157,Landfill Closure,,revenue,5,Total revenues,total,57500,57499,-1
+FY2022_audit,157,Landfill Closure,,expenditure,6,administration,item,4500,0,4500
+FY2022_audit,157,Landfill Closure,,expenditure,7,Public welfare,item,95200,103359,-8159
+FY2022_audit,157,Landfill Closure,,expenditure,8,Total expenditures,total,99700,103359,-3659
+FY2022_audit,157,Landfill Closure,,summary,9,over expenditures,excess,-42200,-45860,-3660
+FY2022_audit,157,Landfill Closure,,other_financing,10,Transfers in,item,50000,50000,0
+FY2022_audit,157,Landfill Closure,,other_financing,11,sources (uses),total,50000,50000,0
+FY2022_audit,157,Landfill Closure,,summary,12,Net change in fund balance,net_change,7800,4140,-3660
+FY2022_audit,157,Landfill Closure,,summary,13,year,beginning,,32250,
+FY2022_audit,157,Landfill Closure,,summary,14,Fund balance at end of year,ending,,36390,
+FY2022_audit,157,Specialty Courts,,revenue,1,revenues,item,0,0,0
+FY2022_audit,157,Specialty Courts,,revenue,2,Charges for services,item,0,1841,1841
+FY2022_audit,157,Specialty Courts,,revenue,3,Interest,item,0,0,0
+FY2022_audit,157,Specialty Courts,,revenue,4,Miscellaneous,item,0,0,0
+FY2022_audit,157,Specialty Courts,,revenue,5,Total revenues,total,0,1841,1841
+FY2022_audit,157,Specialty Courts,,expenditure,6,administration,item,0,0,0
+FY2022_audit,157,Specialty Courts,,expenditure,7,Public welfare,item,0,0,0
+FY2022_audit,157,Specialty Courts,,expenditure,8,Total expenditures,total,0,0,0
+FY2022_audit,157,Specialty Courts,,summary,9,over expenditures,excess,0,1841,1841
+FY2022_audit,157,Specialty Courts,,other_financing,10,Transfers in,item,0,0,0
+FY2022_audit,157,Specialty Courts,,other_financing,11,sources (uses),total,0,0,0
+FY2022_audit,157,Specialty Courts,,summary,12,Net change in fund balance,net_change,0,1841,1841
+FY2022_audit,157,Specialty Courts,,summary,13,year,beginning,,3179,
+FY2022_audit,157,Specialty Courts,,summary,14,Fund balance at end of year,ending,,5020,
+FY2022_audit,158,Auxiliary Deputies,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,158,Auxiliary Deputies,,revenue,2,Interest,item,0,0,0
+FY2022_audit,158,Auxiliary Deputies,,revenue,3,Miscellaneous,item,0,7162,7162
+FY2022_audit,158,Auxiliary Deputies,,revenue,4,Total revenues,total,0,7162,7162
+FY2022_audit,158,Auxiliary Deputies,,expenditure,5,Public safety,item,0,1690,-1690
+FY2022_audit,158,Auxiliary Deputies,,expenditure,6,Total expenditures,total,0,1690,-1690
+FY2022_audit,158,Auxiliary Deputies,,summary,7,expenditures,excess,,5472,5472
+FY2022_audit,158,Auxiliary Deputies,,summary,8,Net change in fund balance,net_change,0,5472,5472
+FY2022_audit,158,Auxiliary Deputies,,summary,9,year,beginning,,19958,
+FY2022_audit,158,Auxiliary Deputies,,summary,10,Fund balance at end of year,ending,,25430,
+FY2022_audit,158,Sheriff's Vehicle Replacement,,revenue,1,Licenses and permits,item,1000,80,-920
+FY2022_audit,158,Sheriff's Vehicle Replacement,,revenue,2,Interest,item,0,28,28
+FY2022_audit,158,Sheriff's Vehicle Replacement,,revenue,3,Miscellaneous,item,0,25057,25057
+FY2022_audit,158,Sheriff's Vehicle Replacement,,revenue,4,Total revenues,total,1000,25165,24165
+FY2022_audit,158,Sheriff's Vehicle Replacement,,expenditure,5,Public safety,item,0,15086,-15086
+FY2022_audit,158,Sheriff's Vehicle Replacement,,expenditure,6,Total expenditures,total,0,15086,-15086
+FY2022_audit,158,Sheriff's Vehicle Replacement,,summary,7,expenditures,excess,1000,10079,9079
+FY2022_audit,158,Sheriff's Vehicle Replacement,,summary,8,Net change in fund balance,net_change,1000,10079,9079
+FY2022_audit,158,Sheriff's Vehicle Replacement,,summary,9,year,beginning,,22632,
+FY2022_audit,158,Sheriff's Vehicle Replacement,,summary,10,Fund balance at end of year,ending,,32711,
+FY2022_audit,159,Probation Services,,revenue,1,Licenses and permits,item,100000,71535,-28465
+FY2022_audit,159,Probation Services,,revenue,2,Interest,item,3000,3920,920
+FY2022_audit,159,Probation Services,,revenue,3,Total revenues,total,103000,75455,-27545
+FY2022_audit,159,Probation Services,,expenditure,4,Judiciary and courts,item,133300,61993,71307
+FY2022_audit,159,Probation Services,,expenditure,5,Total expenditures,total,133300,61993,71307
+FY2022_audit,159,Probation Services,,summary,6,expenditures,excess,-30300,13462,43762
+FY2022_audit,159,Probation Services,,other_financing,7,Transfers out,item,0,0,0
+FY2022_audit,159,Probation Services,,other_financing,8,sources (uses),total,0,0,0
+FY2022_audit,159,Probation Services,,summary,9,Net change in fund balance,net_change,-30300,13462,43762
+FY2022_audit,159,Probation Services,,summary,10,year,beginning,,678064,
+FY2022_audit,159,Probation Services,,summary,11,Fund balance at end of year,ending,,691526,
+FY2022_audit,159,Document Storage,,revenue,1,Licenses and permits,item,100000,80261,-19739
+FY2022_audit,159,Document Storage,,revenue,2,Interest,item,1000,1111,111
+FY2022_audit,159,Document Storage,,revenue,3,Total revenues,total,101000,81372,-19628
+FY2022_audit,159,Document Storage,,expenditure,4,Judiciary and courts,item,85000,24344,60656
+FY2022_audit,159,Document Storage,,expenditure,5,Total expenditures,total,85000,24344,60656
+FY2022_audit,159,Document Storage,,summary,6,expenditures,excess,16000,57028,41028
+FY2022_audit,159,Document Storage,,other_financing,7,Transfers out,item,-15000,-15000,0
+FY2022_audit,159,Document Storage,,other_financing,8,sources (uses),total,-15000,-15000,0
+FY2022_audit,159,Document Storage,,summary,9,Net change in fund balance,net_change,1000,42028,41028
+FY2022_audit,159,Document Storage,,summary,10,year,beginning,,223094,
+FY2022_audit,159,Document Storage,,summary,11,Fund balance at end of year,ending,,265122,
+FY2022_audit,160,Court Automation,,revenue,1,Licenses and permits,item,100000,84680,-15320
+FY2022_audit,160,Court Automation,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,160,Court Automation,,revenue,3,Interest,item,1250,957,-293
+FY2022_audit,160,Court Automation,,revenue,4,Total revenues,total,101250,85637,-15613
+FY2022_audit,160,Court Automation,,expenditure,5,administration,item,0,0,0
+FY2022_audit,160,Court Automation,,expenditure,6,Judiciary and courts,item,95000,68051,26949
+FY2022_audit,160,Court Automation,,expenditure,7,Capital outlay,item,0,23063,-23063
+FY2022_audit,160,Court Automation,,expenditure,8,Total expenditures,total,95000,91114,3886
+FY2022_audit,160,Court Automation,,summary,9,over expenditures,excess,6250,-5477,-11727
+FY2022_audit,160,Court Automation,,other_financing,10,Transfers out,item,-5000,-5000,0
+FY2022_audit,160,Court Automation,,other_financing,11,sources (uses),total,-5000,-5000,0
+FY2022_audit,160,Court Automation,,summary,12,Net change in fund balance,net_change,1250,-10477,-11727
+FY2022_audit,160,Court Automation,,summary,13,year,beginning,,207757,
+FY2022_audit,160,Court Automation,,summary,14,Fund balance at end of year,ending,,197280,
+FY2022_audit,160,Treasurer's Automation,,revenue,1,Licenses and permits,item,1400,2327,927
+FY2022_audit,160,Treasurer's Automation,,revenue,2,Charges for services,item,3900,3881,-19
+FY2022_audit,160,Treasurer's Automation,,revenue,3,Interest,item,1200,422,-778
+FY2022_audit,160,Treasurer's Automation,,revenue,4,Total revenues,total,6500,6630,130
+FY2022_audit,160,Treasurer's Automation,,expenditure,5,administration,item,11200,6040,5160
+FY2022_audit,160,Treasurer's Automation,,expenditure,6,Judiciary and courts,item,0,0,0
+FY2022_audit,160,Treasurer's Automation,,expenditure,7,Capital outlay,item,0,0,0
+FY2022_audit,160,Treasurer's Automation,,expenditure,8,Total expenditures,total,11200,6040,5160
+FY2022_audit,160,Treasurer's Automation,,summary,9,over expenditures,excess,-4700,590,5290
+FY2022_audit,160,Treasurer's Automation,,other_financing,10,Transfers out,item,0,0,0
+FY2022_audit,160,Treasurer's Automation,,other_financing,11,sources (uses),total,0,0,0
+FY2022_audit,160,Treasurer's Automation,,summary,12,Net change in fund balance,net_change,-4700,590,5290
+FY2022_audit,160,Treasurer's Automation,,summary,13,year,beginning,,86102,
+FY2022_audit,160,Treasurer's Automation,,summary,14,Fund balance at end of year,ending,,86692,
+FY2022_audit,161,Recorder's Automation,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,161,Recorder's Automation,,revenue,2,Charges for services,item,100000,96987,-3013
+FY2022_audit,161,Recorder's Automation,,revenue,3,Interest,item,2500,463,-2037
+FY2022_audit,161,Recorder's Automation,,revenue,4,Total revenues,total,102500,97450,-5050
+FY2022_audit,161,Recorder's Automation,,expenditure,5,administration,item,46100,60412,-14312
+FY2022_audit,161,Recorder's Automation,,expenditure,6,Total expenditures,total,46100,60412,-14312
+FY2022_audit,161,Recorder's Automation,,summary,7,expenditures,excess,56400,37038,-19362
+FY2022_audit,161,Recorder's Automation,,other_financing,8,Transfers out,item,31362,31362,0
+FY2022_audit,161,Recorder's Automation,,other_financing,9,sources (uses),total,-31362,-31362,0
+FY2022_audit,161,Recorder's Automation,,summary,10,Net change in fund balance,net_change,25038,5676,-19362
+FY2022_audit,161,Recorder's Automation,,summary,11,year,beginning,,119732,
+FY2022_audit,161,Recorder's Automation,,summary,12,Fund balance at end of year,ending,,125408,
+FY2022_audit,161,State's Attorney Automation,,revenue,1,Licenses and permits,item,4300,1875,-2425
+FY2022_audit,161,State's Attorney Automation,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,161,State's Attorney Automation,,revenue,3,Interest,item,200,186,-14
+FY2022_audit,161,State's Attorney Automation,,revenue,4,Total revenues,total,4500,2061,-2439
+FY2022_audit,161,State's Attorney Automation,,expenditure,5,administration,item,9000,199,8801
+FY2022_audit,161,State's Attorney Automation,,expenditure,6,Total expenditures,total,9000,199,8801
+FY2022_audit,161,State's Attorney Automation,,summary,7,expenditures,excess,-4500,1862,6362
+FY2022_audit,161,State's Attorney Automation,,other_financing,8,Transfers out,item,0,0,0
+FY2022_audit,161,State's Attorney Automation,,other_financing,9,sources (uses),total,0,0,0
+FY2022_audit,161,State's Attorney Automation,,summary,10,Net change in fund balance,net_change,-4500,1862,6362
+FY2022_audit,161,State's Attorney Automation,,summary,11,year,beginning,,40732,
+FY2022_audit,161,State's Attorney Automation,,summary,12,Fund balance at end of year,ending,,42594,
+FY2022_audit,162,Public Defender Automation,,revenue,1,Charges for services,item,0,893,893
+FY2022_audit,162,Public Defender Automation,,revenue,2,Interest,item,0,0,0
+FY2022_audit,162,Public Defender Automation,,revenue,3,Total revenues,total,0,893,893
+FY2022_audit,162,Public Defender Automation,,expenditure,4,Public safety,item,0,0,0
+FY2022_audit,162,Public Defender Automation,,expenditure,5,Judiciary and courts,item,0,1119,-1119
+FY2022_audit,162,Public Defender Automation,,expenditure,6,Capital outlay,item,0,0,0
+FY2022_audit,162,Public Defender Automation,,expenditure,7,Total expenditures,total,0,1119,-1119
+FY2022_audit,162,Public Defender Automation,,summary,8,over expenditures,excess,0,-226,-226
+FY2022_audit,162,Public Defender Automation,,summary,9,Net change in fund balance,net_change,0,-226,-226
+FY2022_audit,162,Public Defender Automation,,summary,10,year,beginning,,343,
+FY2022_audit,162,Public Defender Automation,,summary,11,Fund balance at end of year,ending,,117,
+FY2022_audit,162,Law Enforcement Operations,,revenue,1,Charges for services,item,0,73742,73742
+FY2022_audit,162,Law Enforcement Operations,,revenue,2,Interest,item,0,74,74
+FY2022_audit,162,Law Enforcement Operations,,revenue,3,Total revenues,total,0,73816,73816
+FY2022_audit,162,Law Enforcement Operations,,expenditure,4,Public safety,item,0,7399,-7399
+FY2022_audit,162,Law Enforcement Operations,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2022_audit,162,Law Enforcement Operations,,expenditure,6,Capital outlay,item,0,36580,-36580
+FY2022_audit,162,Law Enforcement Operations,,expenditure,7,Total expenditures,total,0,43979,-43979
+FY2022_audit,162,Law Enforcement Operations,,summary,8,over expenditures,excess,0,29837,29837
+FY2022_audit,162,Law Enforcement Operations,,summary,9,Net change in fund balance,net_change,0,29837,29837
+FY2022_audit,162,Law Enforcement Operations,,summary,10,year,beginning,,67919,
+FY2022_audit,162,Law Enforcement Operations,,summary,11,Fund balance at end of year,ending,,97756,
+FY2022_audit,163,Sheriff Highway Hireback,,revenue,1,Licenses and permits,item,0,657,657
+FY2022_audit,163,Sheriff Highway Hireback,,revenue,2,Total revenues,total,0,657,657
+FY2022_audit,163,Sheriff Highway Hireback,,expenditure,3,Public safety,item,0,0,0
+FY2022_audit,163,Sheriff Highway Hireback,,expenditure,4,Total expenditures,total,0,0,0
+FY2022_audit,163,Sheriff Highway Hireback,,summary,5,expenditures,excess,,657,657
+FY2022_audit,163,Sheriff Highway Hireback,,summary,6,Net change in fund balance,net_change,0,657,657
+FY2022_audit,163,Sheriff Highway Hireback,,summary,7,year,beginning,,9762,
+FY2022_audit,163,Sheriff Highway Hireback,,summary,8,Fund balance at end of year,ending,,10419,
+FY2022_audit,163,Electronic Monitoring Fund,,revenue,1,Licenses and permits,item,0,74341,74341
+FY2022_audit,163,Electronic Monitoring Fund,,revenue,2,Total revenues,total,0,74341,74341
+FY2022_audit,163,Electronic Monitoring Fund,,expenditure,3,Public safety,item,0,28576,-28576
+FY2022_audit,163,Electronic Monitoring Fund,,expenditure,4,Total expenditures,total,0,28576,-28576
+FY2022_audit,163,Electronic Monitoring Fund,,summary,5,expenditures,excess,0,45765,45765
+FY2022_audit,163,Electronic Monitoring Fund,,summary,6,Net change in fund balance,net_change,0,45765,45765
+FY2022_audit,163,Electronic Monitoring Fund,,summary,7,year,beginning,,14656,
+FY2022_audit,163,Electronic Monitoring Fund,,summary,8,Fund balance at end of year,ending,,60421,
+FY2022_audit,164,Coroner's Fees,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,164,Coroner's Fees,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,164,Coroner's Fees,,revenue,3,Total revenues,total,0,0,0
+FY2022_audit,164,Coroner's Fees,,expenditure,4,Public safety,item,2200,0,2200
+FY2022_audit,164,Coroner's Fees,,expenditure,5,Total expenditures,total,2200,0,2200
+FY2022_audit,164,Coroner's Fees,,summary,6,expenditures,excess,-2200,0,2200
+FY2022_audit,164,Coroner's Fees,,summary,7,Net change in fund balance,net_change,-2200,0,2200
+FY2022_audit,164,Coroner's Fees,,summary,8,year,beginning,,0,
+FY2022_audit,164,Coroner's Fees,,summary,9,Fund balance at end of year,ending,,0,
+FY2022_audit,164,Spay/Neuter Program,,revenue,1,Licenses and permits,item,0,7840,7840
+FY2022_audit,164,Spay/Neuter Program,,revenue,2,Charges for services,item,0,71,71
+FY2022_audit,164,Spay/Neuter Program,,revenue,3,Total revenues,total,0,7911,7911
+FY2022_audit,164,Spay/Neuter Program,,expenditure,4,Public safety,item,6000,3456,2544
+FY2022_audit,164,Spay/Neuter Program,,expenditure,5,Total expenditures,total,6000,3456,2544
+FY2022_audit,164,Spay/Neuter Program,,summary,6,expenditures,excess,-6000,4455,10455
+FY2022_audit,164,Spay/Neuter Program,,summary,7,Net change in fund balance,net_change,-6000,4455,10455
+FY2022_audit,164,Spay/Neuter Program,,summary,8,year,beginning,,11159,
+FY2022_audit,164,Spay/Neuter Program,,summary,9,Fund balance at end of year,ending,,15614,
+FY2022_audit,165,Citizen Corps Grant,,revenue,1,revenues,item,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,revenue,3,Interest,item,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,revenue,4,Total revenues,total,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,expenditure,5,administration,item,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,expenditure,6,Total expenditures,total,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,summary,7,expenditures,excess,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,other_financing,8,Transfers out,item,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,other_financing,9,sources (uses),total,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,summary,10,Net change in fund balance,net_change,0,0,0
+FY2022_audit,165,Citizen Corps Grant,,summary,11,year,beginning,,0,
+FY2022_audit,165,Citizen Corps Grant,,summary,12,Fund balance at end of year,ending,,0,
+FY2022_audit,165,GIS,,revenue,1,revenues,item,5000,0,-5000
+FY2022_audit,165,GIS,,revenue,2,Charges for services,item,150000,140758,-9242
+FY2022_audit,165,GIS,,revenue,3,Interest,item,3000,2045,-955
+FY2022_audit,165,GIS,,revenue,4,Total revenues,total,158000,142803,-15197
+FY2022_audit,165,GIS,,expenditure,5,administration,item,73023,81143,-8120
+FY2022_audit,165,GIS,,expenditure,6,Total expenditures,total,73023,81143,-8120
+FY2022_audit,165,GIS,,summary,7,expenditures,excess,84977,61660,-23317
+FY2022_audit,165,GIS,,other_financing,8,Transfers out,item,-30000,-20000,10000
+FY2022_audit,165,GIS,,other_financing,9,sources (uses),total,-30000,-20000,10000
+FY2022_audit,165,GIS,,summary,10,Net change in fund balance,net_change,54977,41660,-13317
+FY2022_audit,165,GIS,,summary,11,year,beginning,,371099,
+FY2022_audit,165,GIS,,summary,12,Fund balance at end of year,ending,,412759,
+FY2022_audit,166,Sheriff K9 Donation Fund,,revenue,1,Total revenues,item,0,0,0
+FY2022_audit,166,Sheriff K9 Donation Fund,,expenditure,2,Total expenditures,item,0,0,0
+FY2022_audit,166,Sheriff K9 Donation Fund,,summary,3,expenditures,excess,0,0,0
+FY2022_audit,166,Sheriff K9 Donation Fund,,summary,4,Net change in fund balance,net_change,0,0,0
+FY2022_audit,166,Sheriff K9 Donation Fund,,summary,5,year,beginning,,2564,
+FY2022_audit,166,Sheriff K9 Donation Fund,,summary,6,Fund balance at end of year,ending,,2564,
+FY2022_audit,166,Election Grant,,revenue,1,Total revenues,item,0,0,0
+FY2022_audit,166,Election Grant,,expenditure,2,Total expenditures,item,0,0,0
+FY2022_audit,166,Election Grant,,summary,3,expenditures,excess,0,0,0
+FY2022_audit,166,Election Grant,,summary,4,Net change in fund balance,net_change,0,0,0
+FY2022_audit,166,Election Grant,,summary,5,year,beginning,,9269,
+FY2022_audit,166,Election Grant,,summary,6,Fund balance at end of year,ending,,9269,
+FY2022_audit,167,Coroner's Grant,,revenue,1,Intergovernmental revenues,item,0,5130,5130
+FY2022_audit,167,Coroner's Grant,,revenue,2,Total revenues,total,0,5130,5130
+FY2022_audit,167,Coroner's Grant,,expenditure,3,administration,item,500,0,500
+FY2022_audit,167,Coroner's Grant,,expenditure,4,Public safety,item,500,0,500
+FY2022_audit,167,Coroner's Grant,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2022_audit,167,Coroner's Grant,,expenditure,6,Total expenditures,total,1000,0,1000
+FY2022_audit,167,Coroner's Grant,,summary,7,Excess of revenue over expenditures,excess,-1000,5130,6130
+FY2022_audit,167,Coroner's Grant,,summary,8,Net change in fund balance,net_change,-1000,5130,6130
+FY2022_audit,167,Coroner's Grant,,summary,9,Fund balance at beginning of year,beginning,,20950,
+FY2022_audit,167,Coroner's Grant,,summary,10,Fund balance at end of year,ending,,26080,
+FY2022_audit,167,Drug Court Grant,,revenue,1,Intergovernmental revenues,item,0,62007,62007
+FY2022_audit,167,Drug Court Grant,,revenue,2,Total revenues,total,0,62007,62007
+FY2022_audit,167,Drug Court Grant,,expenditure,3,administration,item,0,0,0
+FY2022_audit,167,Drug Court Grant,,expenditure,4,Public safety,item,0,0,0
+FY2022_audit,167,Drug Court Grant,,expenditure,5,Judiciary and courts,item,0,45301,-45301
+FY2022_audit,167,Drug Court Grant,,expenditure,6,Total expenditures,total,0,45301,-45301
+FY2022_audit,167,Drug Court Grant,,summary,7,Excess of revenue over expenditures,excess,0,16706,16706
+FY2022_audit,167,Drug Court Grant,,summary,8,Net change in fund balance,net_change,0,16706,16706
+FY2022_audit,167,Drug Court Grant,,summary,9,Fund balance at beginning of year,beginning,,117604,
+FY2022_audit,167,Drug Court Grant,,summary,10,Fund balance at end of year,ending,,134310,
+FY2022_audit,168,Auto Theft Grant,,revenue,1,Miscellaneous,item,0,35842,35842
+FY2022_audit,168,Auto Theft Grant,,revenue,2,Total revenues,total,0,35842,35842
+FY2022_audit,168,Auto Theft Grant,,expenditure,3,administration,item,0,15,-15
+FY2022_audit,168,Auto Theft Grant,,expenditure,4,Total expenditures,total,0,15,-15
+FY2022_audit,168,Auto Theft Grant,,summary,5,Net change in fund balance,net_change,0,35827,35827
+FY2022_audit,168,Auto Theft Grant,,summary,6,Fund balance at beginning of year,beginning,,0,
+FY2022_audit,168,Auto Theft Grant,,summary,7,Fund balance at end of year,ending,,35827,
+FY2022_audit,168,VCVA Grant,,revenue,1,Miscellaneous,item,0,0,0
+FY2022_audit,168,VCVA Grant,,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,168,VCVA Grant,,expenditure,3,administration,item,0,0,0
+FY2022_audit,168,VCVA Grant,,expenditure,4,Total expenditures,total,0,0,0
+FY2022_audit,168,VCVA Grant,,summary,5,Excess of revenue over expenditures,excess,0,0,0
+FY2022_audit,168,VCVA Grant,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2022_audit,168,VCVA Grant,,summary,7,Fund balance at beginning of year,beginning,,0,
+FY2022_audit,168,VCVA Grant,,summary,8,Fund balance at end of year,ending,,0,
+FY2022_audit,169,Township Bridge,,revenue,1,Intergovernmental revenues,item,0,5157,5157
+FY2022_audit,169,Township Bridge,,revenue,2,Interest,item,0,2,2
+FY2022_audit,169,Township Bridge,,revenue,3,Total revenues,total,0,5159,5159
+FY2022_audit,169,Township Bridge,,expenditure,4,General control and administration,item,0,0,0
+FY2022_audit,169,Township Bridge,,expenditure,5,Highways and bridges,item,0,51568,-51568
+FY2022_audit,169,Township Bridge,,expenditure,6,Total expenditures,total,0,51568,-51568
+FY2022_audit,169,Township Bridge,,summary,7,expenditures,excess,0,-46409,-46409
+FY2022_audit,169,Township Bridge,,other_financing,8,Transfers in,item,0,5065,5065
+FY2022_audit,169,Township Bridge,,other_financing,9,Transfers out,item,0,0,0
+FY2022_audit,169,Township Bridge,,other_financing,10,Total other financing sources (uses),total,0,5065,5065
+FY2022_audit,169,Township Bridge,,summary,11,Net change in fund balance,net_change,0,-41344,-41344
+FY2022_audit,169,Township Bridge,,summary,12,Fund balance at beginning of year,beginning,,47383,
+FY2022_audit,169,Township Bridge,,summary,13,Fund balance at end of year,ending,,6039,
+FY2022_audit,169,Township Motor Fuel,,revenue,1,Intergovernmental revenues,item,0,1227641,1227641
+FY2022_audit,169,Township Motor Fuel,,revenue,2,Interest,item,0,1305,1305
+FY2022_audit,169,Township Motor Fuel,,revenue,3,Total revenues,total,0,1228946,1228946
+FY2022_audit,169,Township Motor Fuel,,expenditure,4,General control and administration,item,0,2733,-2733
+FY2022_audit,169,Township Motor Fuel,,expenditure,5,Highways and bridges,item,0,751899,-751899
+FY2022_audit,169,Township Motor Fuel,,expenditure,6,Total expenditures,total,0,754632,-754632
+FY2022_audit,169,Township Motor Fuel,,summary,7,expenditures,excess,0,474314,474314
+FY2022_audit,169,Township Motor Fuel,,other_financing,8,Transfers in,item,0,0,0
+FY2022_audit,169,Township Motor Fuel,,other_financing,9,Transfers out,item,0,-11218,-11218
+FY2022_audit,169,Township Motor Fuel,,other_financing,10,Total other financing sources (uses),total,0,-11218,-11218
+FY2022_audit,169,Township Motor Fuel,,summary,11,Net change in fund balance,net_change,0,463096,463096
+FY2022_audit,169,Township Motor Fuel,,summary,12,Fund balance at beginning of year,beginning,,203072,
+FY2022_audit,169,Township Motor Fuel,,summary,13,Fund balance at end of year,ending,,666168,
+FY2022_audit,170,Vital Records Automation,,revenue,1,Charges for services,item,1750,1716,-34
+FY2022_audit,170,Vital Records Automation,,revenue,2,Interest,item,100,98,-2
+FY2022_audit,170,Vital Records Automation,,revenue,3,Total revenues,total,1850,1814,-36
+FY2022_audit,170,Vital Records Automation,,expenditure,4,administration,item,1000,3055,-2055
+FY2022_audit,170,Vital Records Automation,,expenditure,5,Judiciary and courts,item,3800,0,3800
+FY2022_audit,170,Vital Records Automation,,expenditure,6,Total expenditures,total,4800,3055,1745
+FY2022_audit,170,Vital Records Automation,,summary,7,expenditures,excess,-2950,-1241,1709
+FY2022_audit,170,Vital Records Automation,,summary,8,Net change in fund balance,net_change,-2950,-1241,1709
+FY2022_audit,170,Vital Records Automation,,summary,9,Fund balance at beginning of year,beginning,,19888,
+FY2022_audit,170,Vital Records Automation,,summary,10,Fund balance at end of year,ending,,18647,
+FY2022_audit,170,Regional Communication Study,,revenue,1,Charges for services,item,0,0,0
+FY2022_audit,170,Regional Communication Study,,revenue,2,Interest,item,0,130,130
+FY2022_audit,170,Regional Communication Study,,revenue,3,Total revenues,total,0,130,130
+FY2022_audit,170,Regional Communication Study,,expenditure,4,administration,item,0,140,-140
+FY2022_audit,170,Regional Communication Study,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2022_audit,170,Regional Communication Study,,expenditure,6,Total expenditures,total,0,140,-140
+FY2022_audit,170,Regional Communication Study,,summary,7,expenditures,excess,0,-10,-10
+FY2022_audit,170,Regional Communication Study,,summary,8,Net change in fund balance,net_change,0,-10,-10
+FY2022_audit,170,Regional Communication Study,,summary,9,Fund balance at beginning of year,beginning,,24596,
+FY2022_audit,170,Regional Communication Study,,summary,10,Fund balance at end of year,ending,,24586,
+FY2022_audit,171,144 Urban Transportation,,revenue,1,Property taxes,item,73000,73000,0
+FY2022_audit,171,144 Urban Transportation,,revenue,2,Intergovernmental revenues,item,19914,0,-19914
+FY2022_audit,171,144 Urban Transportation,,revenue,3,Charges for services,item,51000,41000,-10000
+FY2022_audit,171,144 Urban Transportation,,revenue,4,Total revenues,total,143914,114000,-29914
+FY2022_audit,171,144 Urban Transportation,,expenditure,5,Highways and bridges,item,124100,182992,-58892
+FY2022_audit,171,144 Urban Transportation,,expenditure,6,Public welfare,item,0,0,0
+FY2022_audit,171,144 Urban Transportation,,expenditure,7,Total expenditures,total,124100,182992,-58892
+FY2022_audit,171,144 Urban Transportation,,summary,8,expenditures,excess,19814,-68992,-88806
+FY2022_audit,171,144 Urban Transportation,,summary,9,Net change in fund balance,net_change,19814,-68992,-88806
+FY2022_audit,171,144 Urban Transportation,,summary,10,Fund balance at beginning of year,beginning,,-159156,
+FY2022_audit,171,144 Urban Transportation,,summary,11,Fund balance at end of year,ending,,-228148,
+FY2022_audit,171,Rural Transportation Grant,,revenue,1,Property taxes,item,0,0,0
+FY2022_audit,171,Rural Transportation Grant,,revenue,2,Intergovernmental revenues,item,36200,229245,193045
+FY2022_audit,171,Rural Transportation Grant,,revenue,3,Charges for services,item,0,0,0
+FY2022_audit,171,Rural Transportation Grant,,revenue,4,Total revenues,total,36200,229245,193045
+FY2022_audit,171,Rural Transportation Grant,,expenditure,5,Highways and bridges,item,0,0,0
+FY2022_audit,171,Rural Transportation Grant,,expenditure,6,Public welfare,item,11800,251313,-239513
+FY2022_audit,171,Rural Transportation Grant,,expenditure,7,Total expenditures,total,11800,251313,-239513
+FY2022_audit,171,Rural Transportation Grant,,summary,8,expenditures,excess,24400,-22068,-46468
+FY2022_audit,171,Rural Transportation Grant,,summary,9,Net change in fund balance,net_change,24400,-22068,-46468
+FY2022_audit,171,Rural Transportation Grant,,summary,10,Fund balance at beginning of year,beginning,,36299,
+FY2022_audit,171,Rural Transportation Grant,,summary,11,Fund balance at end of year,ending,,14231,
+FY2022_audit,172,DUI Equipment,,revenue,1,Licenses and permits,item,32000,35923,3923
+FY2022_audit,172,DUI Equipment,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,172,DUI Equipment,,revenue,3,Interest,item,500,288,-212
+FY2022_audit,172,DUI Equipment,,revenue,4,Miscellaneous,item,0,8570,8570
+FY2022_audit,172,DUI Equipment,,revenue,5,Total revenues,total,32500,44781,12281
+FY2022_audit,172,DUI Equipment,,expenditure,6,administration,item,0,0,0
+FY2022_audit,172,DUI Equipment,,expenditure,7,Public safety,item,50000,15190,34810
+FY2022_audit,172,DUI Equipment,,expenditure,8,Total expenditures,total,50000,15190,34810
+FY2022_audit,172,DUI Equipment,,summary,9,Excess of revenue over expenditures,excess,-17500,29591,47091
+FY2022_audit,172,DUI Equipment,,summary,10,Net change in fund balance,net_change,-17500,29591,47091
+FY2022_audit,172,DUI Equipment,,summary,11,Fund balance at beginning of year,beginning,,55252,
+FY2022_audit,172,DUI Equipment,,summary,12,Fund balance at end of year,ending,,84843,
+FY2022_audit,172,Federal Seized Drug,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,172,Federal Seized Drug,,revenue,2,Charges for services,item,6000,24308,18308
+FY2022_audit,172,Federal Seized Drug,,revenue,3,Interest,item,50,7,-43
+FY2022_audit,172,Federal Seized Drug,,revenue,4,Miscellaneous,item,0,0,0
+FY2022_audit,172,Federal Seized Drug,,revenue,5,Total revenues,total,6050,24315,18265
+FY2022_audit,172,Federal Seized Drug,,expenditure,6,administration,item,38000,15980,22020
+FY2022_audit,172,Federal Seized Drug,,expenditure,7,Public safety,item,2000,0,2000
+FY2022_audit,172,Federal Seized Drug,,expenditure,8,Total expenditures,total,40000,15980,24020
+FY2022_audit,172,Federal Seized Drug,,summary,9,Excess of revenue over expenditures,excess,-33950,8335,42285
+FY2022_audit,172,Federal Seized Drug,,summary,10,Net change in fund balance,net_change,-33950,8335,42285
+FY2022_audit,172,Federal Seized Drug,,summary,11,Fund balance at beginning of year,beginning,,63832,
+FY2022_audit,172,Federal Seized Drug,,summary,12,Fund balance at end of year,ending,,72167,
+FY2022_audit,173,HAVA Election,,revenue,1,revenues,item,10000,0,-10000
+FY2022_audit,173,HAVA Election,,revenue,2,Total revenues,total,10000,0,-10000
+FY2022_audit,173,HAVA Election,,expenditure,3,administration,item,10000,0,10000
+FY2022_audit,173,HAVA Election,,expenditure,4,Total expenditures,total,10000,0,10000
+FY2022_audit,173,HAVA Election,,summary,5,expenditures,excess,0,0,0
+FY2022_audit,173,HAVA Election,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2022_audit,173,HAVA Election,,summary,7,year,beginning,,0,
+FY2022_audit,173,HAVA Election,,summary,8,Fund balance at end of year,ending,,0,
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,revenue,1,revenues,item,0,0,0
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,expenditure,3,administration,item,0,17202,-17202
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,expenditure,4,Total expenditures,total,0,17202,-17202
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,summary,5,expenditures,excess,0,-17202,-17202
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,summary,6,Net change in fund balance,net_change,0,-17202,-17202
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,summary,7,year,beginning,,17787,
+FY2022_audit,173,Land Cash Fees Fund (Impact Fees),,summary,8,Fund balance at end of year,ending,,585,
+FY2022_audit,174,Maintenance and Child Support,,revenue,1,Licenses and permits,item,9000,9698,698
+FY2022_audit,174,Maintenance and Child Support,,revenue,2,Interest,item,0,0,0
+FY2022_audit,174,Maintenance and Child Support,,revenue,3,Total revenues,total,9000,9698,698
+FY2022_audit,174,Maintenance and Child Support,,expenditure,4,administration,item,0,0,0
+FY2022_audit,174,Maintenance and Child Support,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2022_audit,174,Maintenance and Child Support,,expenditure,6,Total expenditures,total,0,0,0
+FY2022_audit,174,Maintenance and Child Support,,summary,7,expenditures,excess,9000,9698,698
+FY2022_audit,174,Maintenance and Child Support,,other_financing,8,Transfers out,item,-9000,-9000,0
+FY2022_audit,174,Maintenance and Child Support,,other_financing,9,sources (uses),total,-9000,-9000,0
+FY2022_audit,174,Maintenance and Child Support,,summary,10,Net change in fund balance,net_change,0,698,698
+FY2022_audit,174,Maintenance and Child Support,,summary,11,year,beginning,,13027,
+FY2022_audit,174,Maintenance and Child Support,,summary,12,Fund balance at end of year,ending,,13725,
+FY2022_audit,174,Marriage and Civil Union,,revenue,1,Licenses and permits,item,1200,1580,380
+FY2022_audit,174,Marriage and Civil Union,,revenue,2,Interest,item,0,6,6
+FY2022_audit,174,Marriage and Civil Union,,revenue,3,Total revenues,total,1200,1586,386
+FY2022_audit,174,Marriage and Civil Union,,expenditure,4,administration,item,400,0,400
+FY2022_audit,174,Marriage and Civil Union,,expenditure,5,Judiciary and courts,item,400,0,400
+FY2022_audit,174,Marriage and Civil Union,,expenditure,6,Total expenditures,total,800,0,800
+FY2022_audit,174,Marriage and Civil Union,,summary,7,expenditures,excess,400,1586,1186
+FY2022_audit,174,Marriage and Civil Union,,other_financing,8,Transfers out,item,0,0,0
+FY2022_audit,174,Marriage and Civil Union,,other_financing,9,sources (uses),total,0,0,0
+FY2022_audit,174,Marriage and Civil Union,,summary,10,Net change in fund balance,net_change,400,1586,1186
+FY2022_audit,174,Marriage and Civil Union,,summary,11,year,beginning,,12463,
+FY2022_audit,174,Marriage and Civil Union,,summary,12,Fund balance at end of year,ending,,14049,
+FY2022_audit,175,Prairie Shield Grant,,revenue,1,Fines and forfeitures,item,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,expenditure,3,administration,item,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,expenditure,4,Total expenditures,total,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,summary,5,expenditures,excess,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2022_audit,175,Prairie Shield Grant,,summary,7,year,beginning,,-725,
+FY2022_audit,175,Prairie Shield Grant,,summary,8,Fund balance at end of year,ending,,-725,
+FY2022_audit,175,Sale in Error,,revenue,1,Fines and forfeitures,item,0,4100,4100
+FY2022_audit,175,Sale in Error,,revenue,2,Total revenues,total,0,4100,4100
+FY2022_audit,175,Sale in Error,,expenditure,3,administration,item,1500,0,1500
+FY2022_audit,175,Sale in Error,,expenditure,4,Total expenditures,total,1500,0,1500
+FY2022_audit,175,Sale in Error,,summary,5,expenditures,excess,-1500,4100,5600
+FY2022_audit,175,Sale in Error,,summary,6,Net change in fund balance,net_change,-1500,4100,5600
+FY2022_audit,175,Sale in Error,,summary,7,year,beginning,,-13216,
+FY2022_audit,175,Sale in Error,,summary,8,Fund balance at end of year,ending,,-9116,
+FY2022_audit,176,Arrestee Medical Costs,,revenue,1,Charges for services,item,0,5637,5637
+FY2022_audit,176,Arrestee Medical Costs,,revenue,2,Interest,item,0,177,177
+FY2022_audit,176,Arrestee Medical Costs,,revenue,3,Total revenues,total,0,5814,5814
+FY2022_audit,176,Arrestee Medical Costs,,expenditure,4,Public safety,item,0,31840,-31840
+FY2022_audit,176,Arrestee Medical Costs,,expenditure,5,Total expenditures,total,0,31840,-31840
+FY2022_audit,176,Arrestee Medical Costs,,summary,6,over expenditures,excess,0,-26026,-26026
+FY2022_audit,176,Arrestee Medical Costs,,summary,7,Net change in fund balance,net_change,0,-26026,-26026
+FY2022_audit,176,Arrestee Medical Costs,,summary,8,year,beginning,,38526,
+FY2022_audit,176,Arrestee Medical Costs,,summary,9,Fund balance at end of year,ending,,12500,
+FY2022_audit,176,Farmland Protection,,revenue,1,Charges for services,item,0,0,0
+FY2022_audit,176,Farmland Protection,,revenue,2,Interest,item,0,0,0
+FY2022_audit,176,Farmland Protection,,revenue,3,Total revenues,total,0,0,0
+FY2022_audit,176,Farmland Protection,,expenditure,4,Public safety,item,0,0,0
+FY2022_audit,176,Farmland Protection,,expenditure,5,Total expenditures,total,0,0,0
+FY2022_audit,176,Farmland Protection,,summary,6,over expenditures,excess,0,0,0
+FY2022_audit,176,Farmland Protection,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2022_audit,176,Farmland Protection,,summary,8,year,beginning,,1019,
+FY2022_audit,176,Farmland Protection,,summary,9,Fund balance at end of year,ending,,1019,
+FY2022_audit,177,In and Out,,revenue,1,Property taxes,item,0,514787,514787
+FY2022_audit,177,In and Out,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,177,In and Out,,revenue,3,Interest,item,0,136,136
+FY2022_audit,177,In and Out,,revenue,4,Total revenues,total,0,514923,514923
+FY2022_audit,177,In and Out,,expenditure,5,administration,item,0,514787,-514787
+FY2022_audit,177,In and Out,,expenditure,6,Total expenditures,total,0,514787,-514787
+FY2022_audit,177,In and Out,,summary,7,expenditures,excess,0,136,136
+FY2022_audit,177,In and Out,,summary,8,Net change in fund balance,net_change,0,136,136
+FY2022_audit,177,In and Out,,summary,9,year,beginning,,266,
+FY2022_audit,177,In and Out,,summary,10,Fund balance at end of year,ending,,402,
+FY2022_audit,177,Financial Compliance Unit,,revenue,1,Property taxes,item,0,0,0
+FY2022_audit,177,Financial Compliance Unit,,revenue,2,Charges for services,item,7500,6726,-774
+FY2022_audit,177,Financial Compliance Unit,,revenue,3,Interest,item,500,248,-252
+FY2022_audit,177,Financial Compliance Unit,,revenue,4,Total revenues,total,8000,6974,-1026
+FY2022_audit,177,Financial Compliance Unit,,expenditure,5,administration,item,0,265,-265
+FY2022_audit,177,Financial Compliance Unit,,expenditure,6,Total expenditures,total,0,265,-265
+FY2022_audit,177,Financial Compliance Unit,,summary,7,expenditures,excess,8000,6709,-1291
+FY2022_audit,177,Financial Compliance Unit,,summary,8,Net change in fund balance,net_change,8000,6709,-1291
+FY2022_audit,177,Financial Compliance Unit,,summary,9,year,beginning,,52241,
+FY2022_audit,177,Financial Compliance Unit,,summary,10,Fund balance at end of year,ending,,58950,
+FY2022_audit,178,State's Attorney Forfeited Revenue,,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,178,State's Attorney Forfeited Revenue,,revenue,2,Charges for services,item,10000,2875,-7125
+FY2022_audit,178,State's Attorney Forfeited Revenue,,revenue,3,Interest,item,500,237,-263
+FY2022_audit,178,State's Attorney Forfeited Revenue,,revenue,4,Total revenues,total,10500,3112,-7388
+FY2022_audit,178,State's Attorney Forfeited Revenue,,expenditure,5,administration,item,2000,0,2000
+FY2022_audit,178,State's Attorney Forfeited Revenue,,expenditure,6,Public safety,item,0,650,-650
+FY2022_audit,178,State's Attorney Forfeited Revenue,,expenditure,7,Judiciary and courts,item,10000,4727,5273
+FY2022_audit,178,State's Attorney Forfeited Revenue,,expenditure,8,Total expenditures,total,12000,5377,6623
+FY2022_audit,178,State's Attorney Forfeited Revenue,,summary,9,over expenditures,excess,-1500,-2265,-765
+FY2022_audit,178,State's Attorney Forfeited Revenue,,summary,10,Net change in fund balance,net_change,-1500,-2265,-765
+FY2022_audit,178,State's Attorney Forfeited Revenue,,summary,11,year,beginning,,53198,
+FY2022_audit,178,State's Attorney Forfeited Revenue,,summary,12,Fund balance at end of year,ending,,50933,
+FY2022_audit,178,Circuit Clerk Electronic Citation,,revenue,1,Licenses and permits,item,0,19460,19460
+FY2022_audit,178,Circuit Clerk Electronic Citation,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,178,Circuit Clerk Electronic Citation,,revenue,3,Interest,item,0,17,17
+FY2022_audit,178,Circuit Clerk Electronic Citation,,revenue,4,Total revenues,total,0,19477,19477
+FY2022_audit,178,Circuit Clerk Electronic Citation,,expenditure,5,administration,item,0,0,0
+FY2022_audit,178,Circuit Clerk Electronic Citation,,expenditure,6,Public safety,item,0,0,0
+FY2022_audit,178,Circuit Clerk Electronic Citation,,expenditure,7,Judiciary and courts,item,0,13088,-13088
+FY2022_audit,178,Circuit Clerk Electronic Citation,,expenditure,8,Total expenditures,total,0,13088,-13088
+FY2022_audit,178,Circuit Clerk Electronic Citation,,summary,9,over expenditures,excess,0,6389,6389
+FY2022_audit,178,Circuit Clerk Electronic Citation,,summary,10,Net change in fund balance,net_change,0,6389,6389
+FY2022_audit,178,Circuit Clerk Electronic Citation,,summary,11,year,beginning,,27016,
+FY2022_audit,178,Circuit Clerk Electronic Citation,,summary,12,Fund balance at end of year,ending,,33405,
+FY2022_audit,179,Circuit Clerk Operations,,revenue,1,Licenses and permits,item,0,23126,23126
+FY2022_audit,179,Circuit Clerk Operations,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,179,Circuit Clerk Operations,,revenue,3,Interest,item,0,25,25
+FY2022_audit,179,Circuit Clerk Operations,,revenue,4,Other Taxes,item,0,0,0
+FY2022_audit,179,Circuit Clerk Operations,,revenue,5,Total revenues,total,0,23151,23151
+FY2022_audit,179,Circuit Clerk Operations,,expenditure,6,administration,item,0,0,0
+FY2022_audit,179,Circuit Clerk Operations,,expenditure,7,Judiciary and courts,item,0,4490,-4490
+FY2022_audit,179,Circuit Clerk Operations,,expenditure,8,Total expenditures,total,0,4490,-4490
+FY2022_audit,179,Circuit Clerk Operations,,summary,9,expenditures,excess,0,18661,18661
+FY2022_audit,179,Circuit Clerk Operations,,summary,10,Net change in fund balance,net_change,0,18661,18661
+FY2022_audit,179,Circuit Clerk Operations,,summary,11,year,beginning,,40417,
+FY2022_audit,179,Circuit Clerk Operations,,summary,12,Fund balance at end of year,ending,,59078,
+FY2022_audit,179,Food & Beverage (Community Building),,revenue,1,Licenses and permits,item,0,0,0
+FY2022_audit,179,Food & Beverage (Community Building),,revenue,2,Charges for services,item,0,675023,675023
+FY2022_audit,179,Food & Beverage (Community Building),,revenue,3,Interest,item,0,17,17
+FY2022_audit,179,Food & Beverage (Community Building),,revenue,4,Other Taxes,item,0,1580,1580
+FY2022_audit,179,Food & Beverage (Community Building),,revenue,5,Total revenues,total,0,676620,676620
+FY2022_audit,179,Food & Beverage (Community Building),,expenditure,6,administration,item,0,661074,-661074
+FY2022_audit,179,Food & Beverage (Community Building),,expenditure,7,Judiciary and courts,item,0,0,0
+FY2022_audit,179,Food & Beverage (Community Building),,expenditure,8,Total expenditures,total,0,661074,-661074
+FY2022_audit,179,Food & Beverage (Community Building),,summary,9,expenditures,excess,0,15546,15546
+FY2022_audit,179,Food & Beverage (Community Building),,summary,10,Net change in fund balance,net_change,0,15546,15546
+FY2022_audit,179,Food & Beverage (Community Building),,summary,11,year,beginning,,34470,
+FY2022_audit,179,Food & Beverage (Community Building),,summary,12,Fund balance at end of year,ending,,50016,
+FY2022_audit,180,911,,revenue,1,revenues,item,0,874155,874155
+FY2022_audit,180,911,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,180,911,,revenue,3,Interest,item,0,21448,21448
+FY2022_audit,180,911,,revenue,4,Total revenues,total,0,895603,895603
+FY2022_audit,180,911,,expenditure,5,Public safety,item,0,467402,-467402
+FY2022_audit,180,911,,expenditure,6,Total expenditures,total,0,467402,-467402
+FY2022_audit,180,911,,summary,7,expenditures,excess,0,428201,428201
+FY2022_audit,180,911,,summary,8,Net change in fund balance,net_change,0,428201,428201
+FY2022_audit,180,911,,summary,9,year,beginning,,2526994,
+FY2022_audit,180,911,,summary,10,Fund balance at end of year,ending,,2955195,
+FY2022_audit,180,Jail Commissary,,revenue,1,revenues,item,0,0,0
+FY2022_audit,180,Jail Commissary,,revenue,2,Charges for services,item,0,511885,511885
+FY2022_audit,180,Jail Commissary,,revenue,3,Interest,item,0,0,0
+FY2022_audit,180,Jail Commissary,,revenue,4,Total revenues,total,0,511885,511885
+FY2022_audit,180,Jail Commissary,,expenditure,5,Public safety,item,0,533141,-533141
+FY2022_audit,180,Jail Commissary,,expenditure,6,Total expenditures,total,0,533141,-533141
+FY2022_audit,180,Jail Commissary,,summary,7,expenditures,excess,0,-21256,-21256
+FY2022_audit,180,Jail Commissary,,summary,8,Net change in fund balance,net_change,0,-21256,-21256
+FY2022_audit,180,Jail Commissary,,summary,9,year,beginning,,88532,
+FY2022_audit,180,Jail Commissary,,summary,10,Fund balance at end of year,ending,,67276,
+FY2022_audit,181,Tax Redemption,,revenue,1,Charges for services,item,0,853890,853890
+FY2022_audit,181,Tax Redemption,,revenue,2,Total revenues,total,0,853890,853890
+FY2022_audit,181,Tax Redemption,,expenditure,3,administration,item,0,780396,-780396
+FY2022_audit,181,Tax Redemption,,expenditure,4,Total expenditures,total,0,780396,-780396
+FY2022_audit,181,Tax Redemption,,summary,5,expenditures,excess,0,73494,73494
+FY2022_audit,181,Tax Redemption,,summary,6,Net change in fund balance,net_change,0,73494,73494
+FY2022_audit,181,Tax Redemption,,summary,7,year,beginning,,102509,
+FY2022_audit,181,Tax Redemption,,summary,8,Fund balance at end of year,ending,,176003,
+FY2022_audit,181,County Clerk,,revenue,1,Charges for services,item,0,0,0
+FY2022_audit,181,County Clerk,,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,181,County Clerk,,expenditure,3,administration,item,0,0,0
+FY2022_audit,181,County Clerk,,expenditure,4,Total expenditures,total,0,0,0
+FY2022_audit,181,County Clerk,,summary,5,expenditures,excess,0,0,0
+FY2022_audit,181,County Clerk,,summary,6,Net change in fund balance,net_change,0,0,0
+FY2022_audit,181,County Clerk,,summary,7,year,beginning,,0,
+FY2022_audit,181,County Clerk,,summary,8,Fund balance at end of year,ending,,0,
+FY2022_audit,182,Trust,,revenue,1,Total revenues,item,0,0,0
+FY2022_audit,182,Trust,,expenditure,2,Total expenditures,item,0,0,0
+FY2022_audit,182,Trust,,summary,3,Net change in fund balance,net_change,0,0,0
+FY2022_audit,182,Trust,,summary,4,year,beginning,,0,
+FY2022_audit,182,Trust,,summary,5,Fund balance at end of year,ending,,0,
+FY2022_audit,182,Jury Payroll,,revenue,1,Total revenues,item,0,0,0
+FY2022_audit,182,Jury Payroll,,expenditure,2,Total expenditures,item,0,0,0
+FY2022_audit,182,Jury Payroll,,expenditure,3,,item,0,0,0
+FY2022_audit,182,Jury Payroll,,summary,4,Net change in fund balance,net_change,0,0,0
+FY2022_audit,182,Jury Payroll,,summary,5,year,beginning,,0,
+FY2022_audit,182,Jury Payroll,,summary,6,Fund balance at end of year,ending,,0,
+FY2022_audit,183,Jail Bond,,revenue,1,revenues,item,1575000,2316576,741576
+FY2022_audit,183,Jail Bond,,revenue,2,Interest,item,4000,2077,-1923
+FY2022_audit,183,Jail Bond,,revenue,3,Total revenues,total,1579000,2318653,739653
+FY2022_audit,183,Jail Bond,,expenditure,4,administration,item,0,0,0
+FY2022_audit,183,Jail Bond,,expenditure,5,Public safety,item,124000,7011,116989
+FY2022_audit,183,Jail Bond,,expenditure,6,Principal payments,item,0,0,0
+FY2022_audit,183,Jail Bond,,expenditure,7,debt,item,0,0,0
+FY2022_audit,183,Jail Bond,,expenditure,8,Capital outlay,item,0,16550,-16550
+FY2022_audit,183,Jail Bond,,expenditure,9,Total expenditures,total,124000,23561,100439
+FY2022_audit,183,Jail Bond,,summary,10,expenditures,excess,1455000,2295092,840092
+FY2022_audit,183,Jail Bond,,other_financing,11,Transfers in,item,0,0,0
+FY2022_audit,183,Jail Bond,,other_financing,12,Transfers out,item,-1575000,-2266256,-691256
+FY2022_audit,183,Jail Bond,,other_financing,13,sources (uses),total,-1575000,-2266256,-691256
+FY2022_audit,183,Jail Bond,,summary,14,Net change in fund balance,net_change,-120000,28836,148836
+FY2022_audit,183,Jail Bond,,summary,15,year,beginning,,917037,
+FY2022_audit,183,Jail Bond,,summary,16,Fund balance at end of year,ending,,945873,
+FY2022_audit,183,Courthouse Bond,,revenue,1,revenues,item,0,0,0
+FY2022_audit,183,Courthouse Bond,,revenue,2,Interest,item,0,0,0
+FY2022_audit,183,Courthouse Bond,,revenue,3,Total revenues,total,0,0,0
+FY2022_audit,183,Courthouse Bond,,expenditure,4,administration,item,750,775,-25
+FY2022_audit,183,Courthouse Bond,,expenditure,5,Public safety,item,0,0,0
+FY2022_audit,183,Courthouse Bond,,expenditure,6,Principal payments,item,250000,250000,0
+FY2022_audit,183,Courthouse Bond,,expenditure,7,debt,item,61325,61325,0
+FY2022_audit,183,Courthouse Bond,,expenditure,8,Capital outlay,item,0,0,0
+FY2022_audit,183,Courthouse Bond,,expenditure,9,Total expenditures,total,312075,312100,-25
+FY2022_audit,183,Courthouse Bond,,summary,10,expenditures,excess,-312075,-312100,-25
+FY2022_audit,183,Courthouse Bond,,other_financing,11,Transfers in,item,312075,312100,25
+FY2022_audit,183,Courthouse Bond,,other_financing,12,Transfers out,item,0,0,0
+FY2022_audit,183,Courthouse Bond,,other_financing,13,sources (uses),total,312075,312100,25
+FY2022_audit,183,Courthouse Bond,,summary,14,Net change in fund balance,net_change,0,0,0
+FY2022_audit,183,Courthouse Bond,,summary,15,year,beginning,,0,
+FY2022_audit,183,Courthouse Bond,,summary,16,Fund balance at end of year,ending,,0,
+FY2022_audit,184,Animal Services Bond,,revenue,1,revenues,item,0,0,0
+FY2022_audit,184,Animal Services Bond,,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,184,Animal Services Bond,,expenditure,3,Principal payments,item,0,0,0
+FY2022_audit,184,Animal Services Bond,,expenditure,4,debt,item,0,0,0
+FY2022_audit,184,Animal Services Bond,,expenditure,5,Total expenditures,total,0,0,0
+FY2022_audit,184,Animal Services Bond,,summary,6,expenditures,excess,0,0,0
+FY2022_audit,184,Animal Services Bond,,other_financing,7,Transfers in,item,0,0,0
+FY2022_audit,184,Animal Services Bond,,other_financing,8,sources (uses),total,0,0,0
+FY2022_audit,184,Animal Services Bond,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2022_audit,184,Animal Services Bond,,summary,10,year,beginning,,0,
+FY2022_audit,184,Animal Services Bond,,summary,11,Fund balance at end of year,ending,,0,
+FY2022_audit,184,Sheriffs Storage Bond 2017,,revenue,1,revenues,item,51375,0,-51375
+FY2022_audit,184,Sheriffs Storage Bond 2017,,revenue,2,Total revenues,total,51375,0,-51375
+FY2022_audit,184,Sheriffs Storage Bond 2017,,expenditure,3,Principal payments,item,44000,22000,22000
+FY2022_audit,184,Sheriffs Storage Bond 2017,,expenditure,4,debt,item,7375,3525,3850
+FY2022_audit,184,Sheriffs Storage Bond 2017,,expenditure,5,Total expenditures,total,51375,25525,25850
+FY2022_audit,184,Sheriffs Storage Bond 2017,,summary,6,expenditures,excess,0,-25525,-25525
+FY2022_audit,184,Sheriffs Storage Bond 2017,,other_financing,7,Transfers in,item,0,25525,25525
+FY2022_audit,184,Sheriffs Storage Bond 2017,,other_financing,8,sources (uses),total,0,25525,25525
+FY2022_audit,184,Sheriffs Storage Bond 2017,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2022_audit,184,Sheriffs Storage Bond 2017,,summary,10,year,beginning,,0,
+FY2022_audit,184,Sheriffs Storage Bond 2017,,summary,11,Fund balance at end of year,ending,,0,
+FY2022_audit,185,Animal Services Building and Maintenance,,revenue,1,Charges for services,item,35000,38895,3895
+FY2022_audit,185,Animal Services Building and Maintenance,,revenue,2,Interest,item,0,0,0
+FY2022_audit,185,Animal Services Building and Maintenance,,revenue,3,Total revenues,total,35000,38895,3895
+FY2022_audit,185,Animal Services Building and Maintenance,,expenditure,4,administration,item,0,0,0
+FY2022_audit,185,Animal Services Building and Maintenance,,expenditure,5,Public safety,item,30000,4879,25121
+FY2022_audit,185,Animal Services Building and Maintenance,,expenditure,6,Total expenditures,total,30000,4879,25121
+FY2022_audit,185,Animal Services Building and Maintenance,,summary,7,expenditures,excess,5000,34016,29016
+FY2022_audit,185,Animal Services Building and Maintenance,,summary,8,Net change in fund balance,net_change,5000,34016,29016
+FY2022_audit,185,Animal Services Building and Maintenance,,summary,9,year,beginning,,57934,
+FY2022_audit,185,Animal Services Building and Maintenance,,summary,10,Fund balance at end of year,ending,,91950,
+FY2022_audit,185,Property Maintenance,,revenue,1,Charges for services,item,0,0,0
+FY2022_audit,185,Property Maintenance,,revenue,2,Interest,item,2000,1182,-818
+FY2022_audit,185,Property Maintenance,,revenue,3,Total revenues,total,2000,1182,-818
+FY2022_audit,185,Property Maintenance,,expenditure,4,administration,item,105000,15985,89015
+FY2022_audit,185,Property Maintenance,,expenditure,5,Public safety,item,0,0,0
+FY2022_audit,185,Property Maintenance,,expenditure,6,Total expenditures,total,105000,15985,89015
+FY2022_audit,185,Property Maintenance,,summary,7,expenditures,excess,-103000,-14803,88197
+FY2022_audit,185,Property Maintenance,,summary,8,Net change in fund balance,net_change,-103000,-14803,88197
+FY2022_audit,185,Property Maintenance,,summary,9,year,beginning,,258708,
+FY2022_audit,185,Property Maintenance,,summary,10,Fund balance at end of year,ending,,243905,
+FY2022_audit,186,Capital Projects,,revenue,1,Miscellaneous,item,0,0,0
+FY2022_audit,186,Capital Projects,,revenue,2,Total revenues,total,0,0,0
+FY2022_audit,186,Capital Projects,,expenditure,3,Public safety,item,0,0,0
+FY2022_audit,186,Capital Projects,,expenditure,4,Total expenditures,total,0,0,0
+FY2022_audit,186,Capital Projects,,summary,5,Net change in fund balance,net_change,0,0,0
+FY2022_audit,186,Capital Projects,,summary,6,year,beginning,,8934,
+FY2022_audit,186,Capital Projects,,summary,7,Fund balance at end of year,ending,,8934,
+FY2022_audit,186,Animal Services Donation,,revenue,1,Miscellaneous,item,3000,21122,18122
+FY2022_audit,186,Animal Services Donation,,revenue,2,Total revenues,total,3000,21122,18122
+FY2022_audit,186,Animal Services Donation,,expenditure,3,Public safety,item,2500,8434,-5934
+FY2022_audit,186,Animal Services Donation,,expenditure,4,Total expenditures,total,2500,8434,-5934
+FY2022_audit,186,Animal Services Donation,,summary,5,expenditures,excess,500,12688,12188
+FY2022_audit,186,Animal Services Donation,,summary,6,Net change in fund balance,net_change,500,12688,12188
+FY2022_audit,186,Animal Services Donation,,summary,7,year,beginning,,30002,
+FY2022_audit,186,Animal Services Donation,,summary,8,Fund balance at end of year,ending,,42690,
+FY2022_audit,187,Maplecrest Memorial Funds,,revenue,1,Property taxes,item,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,revenue,2,Charges for services,item,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,revenue,3,Interest,item,1550,773,-777
+FY2022_audit,187,Maplecrest Memorial Funds,,revenue,4,Total revenues,total,1550,773,-777
+FY2022_audit,187,Maplecrest Memorial Funds,,expenditure,5,administration,item,53000,20662,32338
+FY2022_audit,187,Maplecrest Memorial Funds,,expenditure,6,Highways and bridges,item,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,expenditure,7,Capital outlay,item,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,expenditure,8,Total expenditures,total,53000,20662,32338
+FY2022_audit,187,Maplecrest Memorial Funds,,summary,9,expenditures,excess,-51450,-19889,31561
+FY2022_audit,187,Maplecrest Memorial Funds,,other_financing,10,Transfers out,item,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,other_financing,11,(uses),total,0,0,0
+FY2022_audit,187,Maplecrest Memorial Funds,,summary,12,Net change in fund balance,net_change,-51450,-19889,31561
+FY2022_audit,187,Maplecrest Memorial Funds,,summary,13,Fund balance at beginning of year,beginning,,122636,
+FY2022_audit,187,Maplecrest Memorial Funds,,summary,14,Fund balance at end of year,ending,,102747,
+FY2022_audit,187,County Bridge,,revenue,1,Property taxes,item,150000,149978,-22
+FY2022_audit,187,County Bridge,,revenue,2,Charges for services,item,50000,44533,-5467
+FY2022_audit,187,County Bridge,,revenue,3,Interest,item,50000,29116,-20884
+FY2022_audit,187,County Bridge,,revenue,4,Total revenues,total,250000,223627,-26373
+FY2022_audit,187,County Bridge,,expenditure,5,administration,item,0,0,0
+FY2022_audit,187,County Bridge,,expenditure,6,Highways and bridges,item,1830000,166374,1663626
+FY2022_audit,187,County Bridge,,expenditure,7,Capital outlay,item,0,53868,-53868
+FY2022_audit,187,County Bridge,,expenditure,8,Total expenditures,total,1830000,220242,1609758
+FY2022_audit,187,County Bridge,,summary,9,expenditures,excess,-1580000,3385,1583385
+FY2022_audit,187,County Bridge,,other_financing,10,Transfers out,item,0,-6222,-6222
+FY2022_audit,187,County Bridge,,other_financing,11,(uses),total,0,-6222,-6222
+FY2022_audit,187,County Bridge,,summary,12,Net change in fund balance,net_change,-1580000,-2837,1577163
+FY2022_audit,187,County Bridge,,summary,13,Fund balance at beginning of year,beginning,,4898744,
+FY2022_audit,187,County Bridge,,summary,14,Fund balance at end of year,ending,,4895907,

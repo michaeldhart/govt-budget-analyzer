@@ -1,0 +1,952 @@
+doc_id,pdf_page,fund_name,fund_code,section,row_seq,label,line_type,budget,actual,variance
+FY2023_audit,140,County Highway,,revenue,1,Property taxes,item,810000,809987,-13
+FY2023_audit,140,County Highway,,revenue,2,Licenses and permits,item,10000,82417,72417
+FY2023_audit,140,County Highway,,revenue,3,Charges for services,item,400000,216694,-183306
+FY2023_audit,140,County Highway,,revenue,4,Interest,item,20000,39757,19757
+FY2023_audit,140,County Highway,,revenue,5,Miscellaneous,item,25000,73392,48392
+FY2023_audit,140,County Highway,,revenue,6,Total revenues,total,1265000,1222247,-42753
+FY2023_audit,140,County Highway,,expenditure,7,General control and administration,item,0,592,-592
+FY2023_audit,140,County Highway,,expenditure,8,Highways and bridges,item,1653744,855558,798186
+FY2023_audit,140,County Highway,,expenditure,9,Capital outlay,item,0,480760,-480760
+FY2023_audit,140,County Highway,,expenditure,10,Total expenditures,total,1653744,1336910,316834
+FY2023_audit,140,County Highway,,summary,11,expenditures,excess,-388744,-114663,274081
+FY2023_audit,140,County Highway,,other_financing,12,Transfers in,item,0,480760,480760
+FY2023_audit,140,County Highway,,other_financing,13,Transfers out,item,0,0,0
+FY2023_audit,140,County Highway,,other_financing,14,Total other financing sources (uses),total,0,480760,480760
+FY2023_audit,140,County Highway,,summary,15,Net change in fund balance,net_change,-388744,366097,754841
+FY2023_audit,140,County Highway,,summary,16,Fund balance at beginning of year,beginning,,2164423,
+FY2023_audit,140,County Highway,,summary,17,Fund balance at end of year,ending,,2530520,
+FY2023_audit,140,Highway Matching,,revenue,1,Property taxes,item,120000,120081,81
+FY2023_audit,140,Highway Matching,,revenue,2,Licenses and permits,item,0,0,0
+FY2023_audit,140,Highway Matching,,revenue,3,Charges for services,item,0,0,0
+FY2023_audit,140,Highway Matching,,revenue,4,Interest,item,25000,62024,37024
+FY2023_audit,140,Highway Matching,,revenue,5,Miscellaneous,item,0,130000,130000
+FY2023_audit,140,Highway Matching,,revenue,6,Total revenues,total,145000,312105,167105
+FY2023_audit,140,Highway Matching,,expenditure,7,General control and administration,item,0,0,0
+FY2023_audit,140,Highway Matching,,expenditure,8,Highways and bridges,item,600000,921339,-321339
+FY2023_audit,140,Highway Matching,,expenditure,9,Capital outlay,item,0,0,0
+FY2023_audit,140,Highway Matching,,expenditure,10,Total expenditures,total,600000,921339,-321339
+FY2023_audit,140,Highway Matching,,summary,11,expenditures,excess,-455000,-609234,-154234
+FY2023_audit,140,Highway Matching,,other_financing,12,Transfers in,item,0,0,0
+FY2023_audit,140,Highway Matching,,other_financing,13,Transfers out,item,0,0,0
+FY2023_audit,140,Highway Matching,,other_financing,14,Total other financing sources (uses),total,0,0,0
+FY2023_audit,140,Highway Matching,,summary,15,Net change in fund balance,net_change,-455000,-609234,-154234
+FY2023_audit,140,Highway Matching,,summary,16,Fund balance at beginning of year,beginning,,2829120,
+FY2023_audit,140,Highway Matching,,summary,17,Fund balance at end of year,ending,,2219886,
+FY2023_audit,141,Planning,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,141,Planning,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,141,Planning,,revenue,3,Miscellaneous,item,0,0,0
+FY2023_audit,141,Planning,,revenue,4,Total revenues,total,0,0,0
+FY2023_audit,141,Planning,,expenditure,5,Public safety,item,0,0,0
+FY2023_audit,141,Planning,,expenditure,6,Public health,item,0,0,0
+FY2023_audit,141,Planning,,expenditure,7,Total expenditures,total,0,0,0
+FY2023_audit,141,Planning,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,141,Planning,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,141,Planning,,other_financing,10,Total other financing sources (uses),total,0,0,0
+FY2023_audit,141,Planning,,summary,11,Net change in fund balance,net_change,0,0,0
+FY2023_audit,141,Planning,,summary,12,Fund balance at beginning of year,beginning,,0,
+FY2023_audit,141,Planning,,summary,13,Fund balance at end of year,ending,,0,
+FY2023_audit,141,Animal Services Fund - Other,,revenue,1,Licenses and permits,item,223500,201170,-22330
+FY2023_audit,141,Animal Services Fund - Other,,revenue,2,Charges for services,item,20000,20965,965
+FY2023_audit,141,Animal Services Fund - Other,,revenue,3,Miscellaneous,item,0,43,43
+FY2023_audit,141,Animal Services Fund - Other,,revenue,4,Total revenues,total,243500,222178,-21322
+FY2023_audit,141,Animal Services Fund - Other,,expenditure,5,Public safety,item,224064,205288,18776
+FY2023_audit,141,Animal Services Fund - Other,,expenditure,6,Public health,item,0,20000,-20000
+FY2023_audit,141,Animal Services Fund - Other,,expenditure,7,Total expenditures,total,224064,225288,-1224
+FY2023_audit,141,Animal Services Fund - Other,,summary,8,Excess of revenue over expenditures,excess,19436,-3110,-22546
+FY2023_audit,141,Animal Services Fund - Other,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,141,Animal Services Fund - Other,,other_financing,10,Transfers out,item,-30000,-10000,20000
+FY2023_audit,141,Animal Services Fund - Other,,other_financing,11,Total other financing sources (uses),total,-30000,-10000,20000
+FY2023_audit,141,Animal Services Fund - Other,,summary,12,Net change in fund balance,net_change,-10564,-13110,-2546
+FY2023_audit,141,Animal Services Fund - Other,,summary,13,Fund balance at beginning of year,beginning,,33716,
+FY2023_audit,141,Animal Services Fund - Other,,summary,14,Fund balance at end of year,ending,,20606,
+FY2023_audit,142,Health Department,,revenue,1,Property taxes,item,321725,256385,-65340
+FY2023_audit,142,Health Department,,revenue,2,Intergovernmental revenues,item,88562,1918660,1830098
+FY2023_audit,142,Health Department,,revenue,3,Licenses and permits,item,162500,156072,-6428
+FY2023_audit,142,Health Department,,revenue,4,Charges for services,item,70300,114162,43862
+FY2023_audit,142,Health Department,,revenue,5,Interest,item,7000,14675,7675
+FY2023_audit,142,Health Department,,revenue,6,Miscellaneous,item,0,192491,192491
+FY2023_audit,142,Health Department,,revenue,7,Total revenues,total,650087,2652445,2002358
+FY2023_audit,142,Health Department,,expenditure,8,General control and administration,item,0,21,-21
+FY2023_audit,142,Health Department,,expenditure,9,Public health,item,2904956,2490395,414561
+FY2023_audit,142,Health Department,,expenditure,10,Capital outlay,item,0,5746,-5746
+FY2023_audit,142,Health Department,,expenditure,11,Total expenditures,total,2904956,2496162,408794
+FY2023_audit,142,Health Department,,summary,12,Excess of revenue over expenditures,excess,-2254869,156283,2411152
+FY2023_audit,142,Health Department,,other_financing,13,Transfers in,item,1695555,0,-1695555
+FY2023_audit,142,Health Department,,other_financing,14,Transfers out,item,-2147,-2147,0
+FY2023_audit,142,Health Department,,other_financing,15,Total other financing sources (uses),total,1693408,-2147,-1695555
+FY2023_audit,142,Health Department,,summary,16,Net change in fund balance,net_change,-561461,154136,715597
+FY2023_audit,142,Health Department,,summary,17,Fund balance at beginning of year,beginning,,917465,
+FY2023_audit,142,Health Department,,summary,18,Fund balance at end of year,ending,,1071601,
+FY2023_audit,142,Health Grant,,revenue,1,Property taxes,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,2,Intergovernmental revenues,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,3,Licenses and permits,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,4,Charges for services,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,5,Interest,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,6,Miscellaneous,item,0,0,0
+FY2023_audit,142,Health Grant,,revenue,7,Total revenues,total,0,0,0
+FY2023_audit,142,Health Grant,,expenditure,8,General control and administration,item,0,0,0
+FY2023_audit,142,Health Grant,,expenditure,9,Public health,item,0,0,0
+FY2023_audit,142,Health Grant,,expenditure,10,Capital outlay,item,0,0,0
+FY2023_audit,142,Health Grant,,expenditure,11,Total expenditures,total,0,0,0
+FY2023_audit,142,Health Grant,,summary,12,Excess of revenue over expenditures,excess,0,0,0
+FY2023_audit,142,Health Grant,,other_financing,13,Transfers in,item,0,0,0
+FY2023_audit,142,Health Grant,,other_financing,14,Transfers out,item,0,0,0
+FY2023_audit,142,Health Grant,,other_financing,15,Total other financing sources (uses),total,0,0,0
+FY2023_audit,142,Health Grant,,summary,16,Net change in fund balance,net_change,0,0,0
+FY2023_audit,142,Health Grant,,summary,17,Fund balance at beginning of year,beginning,,0,
+FY2023_audit,142,Health Grant,,summary,18,Fund balance at end of year,ending,,0,
+FY2023_audit,143,FICA,,revenue,1,Property taxes,item,870520,870473,-47
+FY2023_audit,143,FICA,,revenue,2,Intergovernmental revenues,item,0,51168,51168
+FY2023_audit,143,FICA,,revenue,3,Charges for services,item,8000,8591,591
+FY2023_audit,143,FICA,,revenue,4,Interest,item,0,608,608
+FY2023_audit,143,FICA,,revenue,5,Miscellaneous,item,113480,94690,-18790
+FY2023_audit,143,FICA,,revenue,6,Total revenues,total,992000,1025530,33530
+FY2023_audit,143,FICA,,expenditure,7,administration,item,992000,83742,908258
+FY2023_audit,143,FICA,,expenditure,8,Public safety,item,0,631907,-631907
+FY2023_audit,143,FICA,,expenditure,9,Judiciary and courts,item,0,221249,-221249
+FY2023_audit,143,FICA,,expenditure,10,Highways and bridges,item,0,37726,-37726
+FY2023_audit,143,FICA,,expenditure,11,Public health,item,0,112319,-112319
+FY2023_audit,143,FICA,,expenditure,12,Total expenditures,total,992000,1086943,-94943
+FY2023_audit,143,FICA,,summary,13,expenditures,excess,0,-61413,-61413
+FY2023_audit,143,FICA,,other_financing,14,Transfers in,item,0,0,0
+FY2023_audit,143,FICA,,other_financing,15,Transfers out,item,0,0,0
+FY2023_audit,143,FICA,,other_financing,16,(uses),total,0,0,0
+FY2023_audit,143,FICA,,summary,17,Net change in fund balance,net_change,0,-61413,-61413
+FY2023_audit,143,FICA,,summary,18,Fund balance at beginning of year,beginning,,101397,
+FY2023_audit,143,FICA,,summary,19,Fund balance at end of year,ending,,39984,
+FY2023_audit,143,IMRF/Retirement,,revenue,1,Property taxes,item,995337,995247,-90
+FY2023_audit,143,IMRF/Retirement,,revenue,2,Intergovernmental revenues,item,49200,36501,-12699
+FY2023_audit,143,IMRF/Retirement,,revenue,3,Charges for services,item,8000,7332,-668
+FY2023_audit,143,IMRF/Retirement,,revenue,4,Interest,item,5000,10002,5002
+FY2023_audit,143,IMRF/Retirement,,revenue,5,Miscellaneous,item,0,44452,44452
+FY2023_audit,143,IMRF/Retirement,,revenue,6,Total revenues,total,1057537,1093534,35997
+FY2023_audit,143,IMRF/Retirement,,expenditure,7,administration,item,1096646,90089,1006557
+FY2023_audit,143,IMRF/Retirement,,expenditure,8,Public safety,item,0,679798,-679798
+FY2023_audit,143,IMRF/Retirement,,expenditure,9,Judiciary and courts,item,0,238018,-238018
+FY2023_audit,143,IMRF/Retirement,,expenditure,10,Highways and bridges,item,0,40586,-40586
+FY2023_audit,143,IMRF/Retirement,,expenditure,11,Public health,item,0,120832,-120832
+FY2023_audit,143,IMRF/Retirement,,expenditure,12,Total expenditures,total,1096646,1169323,-72677
+FY2023_audit,143,IMRF/Retirement,,summary,13,expenditures,excess,-39109,-75789,-36680
+FY2023_audit,143,IMRF/Retirement,,other_financing,14,Transfers in,item,39109,0,-39109
+FY2023_audit,143,IMRF/Retirement,,other_financing,15,Transfers out,item,0,0,0
+FY2023_audit,143,IMRF/Retirement,,other_financing,16,(uses),total,39109,0,-39109
+FY2023_audit,143,IMRF/Retirement,,summary,17,Net change in fund balance,net_change,0,-75789,-75789
+FY2023_audit,143,IMRF/Retirement,,summary,18,Fund balance at beginning of year,beginning,,532787,
+FY2023_audit,143,IMRF/Retirement,,summary,19,Fund balance at end of year,ending,,456998,
+FY2023_audit,144,Tort Immunity,,revenue,1,Property taxes,item,1130000,1129905,-95
+FY2023_audit,144,Tort Immunity,,revenue,2,revenues,item,0,10426,10426
+FY2023_audit,144,Tort Immunity,,revenue,3,Licenses and permits,item,0,0,0
+FY2023_audit,144,Tort Immunity,,revenue,4,Charges for services,item,10000,1755,-8245
+FY2023_audit,144,Tort Immunity,,revenue,5,Interest,item,0,102,102
+FY2023_audit,144,Tort Immunity,,revenue,6,Miscellaneous,item,59000,12973,-46027
+FY2023_audit,144,Tort Immunity,,revenue,7,Total revenues,total,1199000,1155161,-43839
+FY2023_audit,144,Tort Immunity,,expenditure,8,administration,item,1201500,1275550,-74050
+FY2023_audit,144,Tort Immunity,,expenditure,9,Judiciary and courts,item,0,0,0
+FY2023_audit,144,Tort Immunity,,expenditure,10,Total expenditures,total,1201500,1275550,-74050
+FY2023_audit,144,Tort Immunity,,summary,11,over expenditures,excess,-2500,-120389,-117889
+FY2023_audit,144,Tort Immunity,,other_financing,12,Transfers in,item,2500,2147,-353
+FY2023_audit,144,Tort Immunity,,other_financing,13,Transfers out,item,0,0,0
+FY2023_audit,144,Tort Immunity,,other_financing,14,sources (uses),total,2500,2147,-353
+FY2023_audit,144,Tort Immunity,,summary,15,Net change in fund balance,net_change,0,-118242,-118242
+FY2023_audit,144,Tort Immunity,,summary,16,year,beginning,,88967,
+FY2023_audit,144,Tort Immunity,,summary,17,Fund balance at end of year,ending,,-29275,
+FY2023_audit,144,Court Security,,revenue,1,Property taxes,item,0,0,0
+FY2023_audit,144,Court Security,,revenue,2,revenues,item,0,0,0
+FY2023_audit,144,Court Security,,revenue,3,Licenses and permits,item,90000,99853,9853
+FY2023_audit,144,Court Security,,revenue,4,Charges for services,item,0,0,0
+FY2023_audit,144,Court Security,,revenue,5,Interest,item,500,2638,2138
+FY2023_audit,144,Court Security,,revenue,6,Miscellaneous,item,0,0,0
+FY2023_audit,144,Court Security,,revenue,7,Total revenues,total,90500,102491,11991
+FY2023_audit,144,Court Security,,expenditure,8,administration,item,0,0,0
+FY2023_audit,144,Court Security,,expenditure,9,Judiciary and courts,item,3000,654,2346
+FY2023_audit,144,Court Security,,expenditure,10,Total expenditures,total,3000,654,2346
+FY2023_audit,144,Court Security,,summary,11,over expenditures,excess,87500,101837,14337
+FY2023_audit,144,Court Security,,other_financing,12,Transfers in,item,0,0,0
+FY2023_audit,144,Court Security,,other_financing,13,Transfers out,item,-57000,-57000,0
+FY2023_audit,144,Court Security,,other_financing,14,sources (uses),total,-57000,-57000,0
+FY2023_audit,144,Court Security,,summary,15,Net change in fund balance,net_change,30500,44837,14337
+FY2023_audit,144,Court Security,,summary,16,year,beginning,,203055,
+FY2023_audit,144,Court Security,,summary,17,Fund balance at end of year,ending,,247892,
+FY2023_audit,145,Law Library,,revenue,1,Licenses and permits,item,30000,26280,-3720
+FY2023_audit,145,Law Library,,revenue,2,Interest,item,0,0,0
+FY2023_audit,145,Law Library,,revenue,3,Total revenues,total,30000,26280,-3720
+FY2023_audit,145,Law Library,,expenditure,4,administration,item,250,0,250
+FY2023_audit,145,Law Library,,expenditure,5,Judiciary and courts,item,34234,30846,3388
+FY2023_audit,145,Law Library,,expenditure,6,Total expenditures,total,34484,30846,3638
+FY2023_audit,145,Law Library,,summary,7,over expenditures,excess,-4484,-4566,-82
+FY2023_audit,145,Law Library,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,145,Law Library,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,145,Law Library,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,145,Law Library,,summary,11,Net change in fund balance,net_change,-4484,-4566,-82
+FY2023_audit,145,Law Library,,summary,12,year,beginning,,-39322,
+FY2023_audit,145,Law Library,,summary,13,Fund balance at end of year,ending,,-43888,
+FY2023_audit,145,Foreclosure Mediation,,revenue,1,Licenses and permits,item,1000,5915,4915
+FY2023_audit,145,Foreclosure Mediation,,revenue,2,Interest,item,0,749,749
+FY2023_audit,145,Foreclosure Mediation,,revenue,3,Total revenues,total,1000,6664,5664
+FY2023_audit,145,Foreclosure Mediation,,expenditure,4,administration,item,15000,7000,8000
+FY2023_audit,145,Foreclosure Mediation,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2023_audit,145,Foreclosure Mediation,,expenditure,6,Total expenditures,total,15000,7000,8000
+FY2023_audit,145,Foreclosure Mediation,,summary,7,over expenditures,excess,-14000,-336,13664
+FY2023_audit,145,Foreclosure Mediation,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,145,Foreclosure Mediation,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,145,Foreclosure Mediation,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,145,Foreclosure Mediation,,summary,11,Net change in fund balance,net_change,-14000,-336,13664
+FY2023_audit,145,Foreclosure Mediation,,summary,12,year,beginning,,47976,
+FY2023_audit,145,Foreclosure Mediation,,summary,13,Fund balance at end of year,ending,,47640,
+FY2023_audit,146,Landfill Closure,,revenue,1,revenues,item,50000,50000,0
+FY2023_audit,146,Landfill Closure,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,146,Landfill Closure,,revenue,3,Miscellaneous,item,7500,18000,10500
+FY2023_audit,146,Landfill Closure,,revenue,4,Total revenues,total,57500,68000,10500
+FY2023_audit,146,Landfill Closure,,expenditure,5,administration,item,4500,0,4500
+FY2023_audit,146,Landfill Closure,,expenditure,6,Public welfare,item,95200,106680,-11480
+FY2023_audit,146,Landfill Closure,,expenditure,7,Total expenditures,total,99700,106680,-6980
+FY2023_audit,146,Landfill Closure,,summary,8,over expenditures,excess,-42200,-38680,3520
+FY2023_audit,146,Landfill Closure,,other_financing,9,Transfers in,item,50000,50000,0
+FY2023_audit,146,Landfill Closure,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,146,Landfill Closure,,other_financing,11,sources (uses),total,50000,50000,0
+FY2023_audit,146,Landfill Closure,,summary,12,Net change in fund balance,net_change,7800,11320,3520
+FY2023_audit,146,Landfill Closure,,summary,13,year,beginning,,36390,
+FY2023_audit,146,Landfill Closure,,summary,14,Fund balance at end of year,ending,,47710,
+FY2023_audit,146,Specialty Courts,,revenue,1,revenues,item,0,0,0
+FY2023_audit,146,Specialty Courts,,revenue,2,Charges for services,item,0,1382,1382
+FY2023_audit,146,Specialty Courts,,revenue,3,Miscellaneous,item,0,0,0
+FY2023_audit,146,Specialty Courts,,revenue,4,Total revenues,total,0,1382,1382
+FY2023_audit,146,Specialty Courts,,expenditure,5,administration,item,0,0,0
+FY2023_audit,146,Specialty Courts,,expenditure,6,Public welfare,item,0,0,0
+FY2023_audit,146,Specialty Courts,,expenditure,7,Total expenditures,total,0,0,0
+FY2023_audit,146,Specialty Courts,,summary,8,over expenditures,excess,0,1382,1382
+FY2023_audit,146,Specialty Courts,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,146,Specialty Courts,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,146,Specialty Courts,,other_financing,11,sources (uses),total,0,0,0
+FY2023_audit,146,Specialty Courts,,summary,12,Net change in fund balance,net_change,0,1382,1382
+FY2023_audit,146,Specialty Courts,,summary,13,year,beginning,,5020,
+FY2023_audit,146,Specialty Courts,,summary,14,Fund balance at end of year,ending,,6402,
+FY2023_audit,147,Circuit Clerk Operations & Admin,,revenue,1,Charges for services,item,0,2117,2117
+FY2023_audit,147,Circuit Clerk Operations & Admin,,revenue,2,Total revenues,total,0,2117,2117
+FY2023_audit,147,Circuit Clerk Operations & Admin,,expenditure,3,Total expenditures,item,0,0,0
+FY2023_audit,147,Circuit Clerk Operations & Admin,,summary,4,expenditures,excess,0,2117,2117
+FY2023_audit,147,Circuit Clerk Operations & Admin,,other_financing,5,Transfers in,item,0,0,0
+FY2023_audit,147,Circuit Clerk Operations & Admin,,other_financing,6,Transfers out,item,0,0,0
+FY2023_audit,147,Circuit Clerk Operations & Admin,,other_financing,7,sources (uses),total,0,0,0
+FY2023_audit,147,Circuit Clerk Operations & Admin,,summary,8,Net change in fund balance,net_change,0,2117,2117
+FY2023_audit,147,Circuit Clerk Operations & Admin,,summary,9,year,beginning,,0,
+FY2023_audit,147,Circuit Clerk Operations & Admin,,summary,10,Fund balance at end of year,ending,,2117,
+FY2023_audit,147,Circuit Clerk E-Citation,,revenue,1,Charges for services,item,0,2265,2265
+FY2023_audit,147,Circuit Clerk E-Citation,,revenue,2,Total revenues,total,0,2265,2265
+FY2023_audit,147,Circuit Clerk E-Citation,,expenditure,3,Total expenditures,item,0,0,0
+FY2023_audit,147,Circuit Clerk E-Citation,,summary,4,expenditures,excess,0,2265,2265
+FY2023_audit,147,Circuit Clerk E-Citation,,other_financing,5,Transfers in,item,0,0,0
+FY2023_audit,147,Circuit Clerk E-Citation,,other_financing,6,Transfers out,item,0,0,0
+FY2023_audit,147,Circuit Clerk E-Citation,,other_financing,7,sources (uses),total,0,0,0
+FY2023_audit,147,Circuit Clerk E-Citation,,summary,8,Net change in fund balance,net_change,0,2265,2265
+FY2023_audit,147,Circuit Clerk E-Citation,,summary,9,year,beginning,,0,
+FY2023_audit,147,Circuit Clerk E-Citation,,summary,10,Fund balance at end of year,ending,,2265,
+FY2023_audit,148,Auxiliary Deputies,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,revenue,2,Interest,item,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,revenue,3,Miscellaneous,item,0,14660,14660
+FY2023_audit,148,Auxiliary Deputies,,revenue,4,Total revenues,total,0,14660,14660
+FY2023_audit,148,Auxiliary Deputies,,expenditure,5,Public safety,item,0,1680,-1680
+FY2023_audit,148,Auxiliary Deputies,,expenditure,6,Judiciary and courts,item,0,107,-107
+FY2023_audit,148,Auxiliary Deputies,,expenditure,7,Capital outlay,item,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,expenditure,8,Total expenditures,total,0,1787,-1787
+FY2023_audit,148,Auxiliary Deputies,,summary,9,expenditures,excess,,12873,12873
+FY2023_audit,148,Auxiliary Deputies,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,other_financing,12,sources (uses),total,0,0,0
+FY2023_audit,148,Auxiliary Deputies,,summary,13,Net change in fund balance,net_change,0,12873,12873
+FY2023_audit,148,Auxiliary Deputies,,summary,14,year,beginning,,25430,
+FY2023_audit,148,Auxiliary Deputies,,summary,15,Fund balance at end of year,ending,,38303,
+FY2023_audit,148,Sheriff's Vehicle Replacement,,revenue,1,Licenses and permits,item,1000,40,-960
+FY2023_audit,148,Sheriff's Vehicle Replacement,,revenue,2,Interest,item,0,114,114
+FY2023_audit,148,Sheriff's Vehicle Replacement,,revenue,3,Miscellaneous,item,0,15287,15287
+FY2023_audit,148,Sheriff's Vehicle Replacement,,revenue,4,Total revenues,total,1000,15441,14441
+FY2023_audit,148,Sheriff's Vehicle Replacement,,expenditure,5,Public safety,item,0,22513,-22513
+FY2023_audit,148,Sheriff's Vehicle Replacement,,expenditure,6,Judiciary and courts,item,0,0,0
+FY2023_audit,148,Sheriff's Vehicle Replacement,,expenditure,7,Capital outlay,item,0,30000,-30000
+FY2023_audit,148,Sheriff's Vehicle Replacement,,expenditure,8,Total expenditures,total,0,52513,-52513
+FY2023_audit,148,Sheriff's Vehicle Replacement,,summary,9,expenditures,excess,1000,-37072,-38072
+FY2023_audit,148,Sheriff's Vehicle Replacement,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,148,Sheriff's Vehicle Replacement,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,148,Sheriff's Vehicle Replacement,,other_financing,12,sources (uses),total,0,0,0
+FY2023_audit,148,Sheriff's Vehicle Replacement,,summary,13,Net change in fund balance,net_change,1000,-37072,-38072
+FY2023_audit,148,Sheriff's Vehicle Replacement,,summary,14,year,beginning,,32711,
+FY2023_audit,148,Sheriff's Vehicle Replacement,,summary,15,Fund balance at end of year,ending,,-4361,
+FY2023_audit,149,Probation Services,,revenue,1,Licenses and permits,item,100000,70144,-29856
+FY2023_audit,149,Probation Services,,revenue,2,Interest,item,3000,14586,11586
+FY2023_audit,149,Probation Services,,revenue,3,Total revenues,total,103000,84730,-18270
+FY2023_audit,149,Probation Services,,expenditure,4,Judiciary and courts,item,206000,100217,105783
+FY2023_audit,149,Probation Services,,expenditure,5,Total expenditures,total,206000,100217,105783
+FY2023_audit,149,Probation Services,,summary,6,over expenditures,excess,-103000,-15487,87513
+FY2023_audit,149,Probation Services,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,149,Probation Services,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,149,Probation Services,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,149,Probation Services,,summary,10,Net change in fund balance,net_change,-103000,-15487,87513
+FY2023_audit,149,Probation Services,,summary,11,year,beginning,,691526,
+FY2023_audit,149,Probation Services,,summary,12,Fund balance at end of year,ending,,676039,
+FY2023_audit,149,Document Storage,,revenue,1,Licenses and permits,item,100000,100296,296
+FY2023_audit,149,Document Storage,,revenue,2,Interest,item,1000,4041,3041
+FY2023_audit,149,Document Storage,,revenue,3,Total revenues,total,101000,104337,3337
+FY2023_audit,149,Document Storage,,expenditure,4,Judiciary and courts,item,85000,27286,57714
+FY2023_audit,149,Document Storage,,expenditure,5,Total expenditures,total,85000,27286,57714
+FY2023_audit,149,Document Storage,,summary,6,over expenditures,excess,16000,77051,61051
+FY2023_audit,149,Document Storage,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,149,Document Storage,,other_financing,8,Transfers out,item,-15000,-15000,0
+FY2023_audit,149,Document Storage,,other_financing,9,sources (uses),total,-15000,-15000,0
+FY2023_audit,149,Document Storage,,summary,10,Net change in fund balance,net_change,1000,62051,61051
+FY2023_audit,149,Document Storage,,summary,11,year,beginning,,265122,
+FY2023_audit,149,Document Storage,,summary,12,Fund balance at end of year,ending,,327173,
+FY2023_audit,150,Court Automation,,revenue,1,Licenses and permits,item,100000,104893,4893
+FY2023_audit,150,Court Automation,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,150,Court Automation,,revenue,3,Interest,item,1250,3490,2240
+FY2023_audit,150,Court Automation,,revenue,4,Total revenues,total,101250,108383,7133
+FY2023_audit,150,Court Automation,,expenditure,5,administration,item,0,6821,-6821
+FY2023_audit,150,Court Automation,,expenditure,6,Judiciary and courts,item,95000,47663,47337
+FY2023_audit,150,Court Automation,,expenditure,7,Total expenditures,total,95000,54484,40516
+FY2023_audit,150,Court Automation,,summary,8,expenditures,excess,6250,53899,47649
+FY2023_audit,150,Court Automation,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,150,Court Automation,,other_financing,10,Transfers out,item,-5000,-5000,0
+FY2023_audit,150,Court Automation,,other_financing,11,sources (uses),total,-5000,-5000,0
+FY2023_audit,150,Court Automation,,summary,12,Net change in fund balance,net_change,1250,48899,47649
+FY2023_audit,150,Court Automation,,summary,13,year,beginning,,197280,
+FY2023_audit,150,Court Automation,,summary,14,Fund balance at end of year,ending,,246179,
+FY2023_audit,150,Treasurer's Automation,,revenue,1,Licenses and permits,item,2300,2083,-217
+FY2023_audit,150,Treasurer's Automation,,revenue,2,Charges for services,item,2600,4348,1748
+FY2023_audit,150,Treasurer's Automation,,revenue,3,Interest,item,1700,1553,-147
+FY2023_audit,150,Treasurer's Automation,,revenue,4,Total revenues,total,6600,7984,1384
+FY2023_audit,150,Treasurer's Automation,,expenditure,5,administration,item,7200,11669,-4469
+FY2023_audit,150,Treasurer's Automation,,expenditure,6,Judiciary and courts,item,0,0,0
+FY2023_audit,150,Treasurer's Automation,,expenditure,7,Total expenditures,total,7200,11669,-4469
+FY2023_audit,150,Treasurer's Automation,,summary,8,expenditures,excess,-600,-3685,-3085
+FY2023_audit,150,Treasurer's Automation,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,150,Treasurer's Automation,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,150,Treasurer's Automation,,other_financing,11,sources (uses),total,0,0,0
+FY2023_audit,150,Treasurer's Automation,,summary,12,Net change in fund balance,net_change,-600,-3685,-3085
+FY2023_audit,150,Treasurer's Automation,,summary,13,year,beginning,,86692,
+FY2023_audit,150,Treasurer's Automation,,summary,14,Fund balance at end of year,ending,,83007,
+FY2023_audit,151,Recorder's Automation,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,151,Recorder's Automation,,revenue,2,Charges for services,item,100000,81097,-18903
+FY2023_audit,151,Recorder's Automation,,revenue,3,Interest,item,2500,1606,-894
+FY2023_audit,151,Recorder's Automation,,revenue,4,Total revenues,total,102500,82703,-19797
+FY2023_audit,151,Recorder's Automation,,expenditure,5,administration,item,49500,71704,-22204
+FY2023_audit,151,Recorder's Automation,,expenditure,6,Total expenditures,total,49500,71704,-22204
+FY2023_audit,151,Recorder's Automation,,summary,7,expenditures,excess,53000,10999,-42001
+FY2023_audit,151,Recorder's Automation,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,151,Recorder's Automation,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,151,Recorder's Automation,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,151,Recorder's Automation,,summary,11,Net change in fund balance,net_change,53000,10999,-42001
+FY2023_audit,151,Recorder's Automation,,summary,12,year,beginning,,125408,
+FY2023_audit,151,Recorder's Automation,,summary,13,Fund balance at end of year,ending,,136407,
+FY2023_audit,151,State's Attorney Automation,,revenue,1,Licenses and permits,item,4300,1987,-2313
+FY2023_audit,151,State's Attorney Automation,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,151,State's Attorney Automation,,revenue,3,Interest,item,200,690,490
+FY2023_audit,151,State's Attorney Automation,,revenue,4,Total revenues,total,4500,2677,-1823
+FY2023_audit,151,State's Attorney Automation,,expenditure,5,administration,item,9000,0,9000
+FY2023_audit,151,State's Attorney Automation,,expenditure,6,Total expenditures,total,9000,0,9000
+FY2023_audit,151,State's Attorney Automation,,summary,7,expenditures,excess,-4500,2677,7177
+FY2023_audit,151,State's Attorney Automation,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,151,State's Attorney Automation,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,151,State's Attorney Automation,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,151,State's Attorney Automation,,summary,11,Net change in fund balance,net_change,-4500,2677,7177
+FY2023_audit,151,State's Attorney Automation,,summary,12,year,beginning,,42594,
+FY2023_audit,151,State's Attorney Automation,,summary,13,Fund balance at end of year,ending,,45271,
+FY2023_audit,152,Public Defender Automation,,revenue,1,Charges for services,item,0,1025,1025
+FY2023_audit,152,Public Defender Automation,,revenue,2,Interest,item,0,0,0
+FY2023_audit,152,Public Defender Automation,,revenue,3,Total revenues,total,0,1025,1025
+FY2023_audit,152,Public Defender Automation,,expenditure,4,Judiciary and courts,item,0,670,-670
+FY2023_audit,152,Public Defender Automation,,expenditure,5,Total expenditures,total,0,670,-670
+FY2023_audit,152,Public Defender Automation,,summary,6,expenditures,excess,0,355,355
+FY2023_audit,152,Public Defender Automation,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,152,Public Defender Automation,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,152,Public Defender Automation,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,152,Public Defender Automation,,summary,10,Net change in fund balance,net_change,0,355,355
+FY2023_audit,152,Public Defender Automation,,summary,11,year,beginning,,117,
+FY2023_audit,152,Public Defender Automation,,summary,12,Fund balance at end of year,ending,,472,
+FY2023_audit,152,Law Enforcement Operations,,revenue,1,Charges for services,item,0,69443,69443
+FY2023_audit,152,Law Enforcement Operations,,revenue,2,Interest,item,0,1992,1992
+FY2023_audit,152,Law Enforcement Operations,,revenue,3,Total revenues,total,0,71435,71435
+FY2023_audit,152,Law Enforcement Operations,,expenditure,4,Judiciary and courts,item,0,0,0
+FY2023_audit,152,Law Enforcement Operations,,expenditure,5,Total expenditures,total,0,0,0
+FY2023_audit,152,Law Enforcement Operations,,summary,6,expenditures,excess,0,71435,71435
+FY2023_audit,152,Law Enforcement Operations,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,152,Law Enforcement Operations,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,152,Law Enforcement Operations,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,152,Law Enforcement Operations,,summary,10,Net change in fund balance,net_change,0,71435,71435
+FY2023_audit,152,Law Enforcement Operations,,summary,11,year,beginning,,97756,
+FY2023_audit,152,Law Enforcement Operations,,summary,12,Fund balance at end of year,ending,,169191,
+FY2023_audit,153,Sheriff Highway Hireback,,revenue,1,Licenses and permits,item,0,750,750
+FY2023_audit,153,Sheriff Highway Hireback,,revenue,2,Total revenues,total,0,750,750
+FY2023_audit,153,Sheriff Highway Hireback,,expenditure,3,Public safety,item,0,0,0
+FY2023_audit,153,Sheriff Highway Hireback,,expenditure,4,Total expenditures,total,0,0,0
+FY2023_audit,153,Sheriff Highway Hireback,,summary,5,expenditures,excess,,750,750
+FY2023_audit,153,Sheriff Highway Hireback,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,153,Sheriff Highway Hireback,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,153,Sheriff Highway Hireback,,other_financing,8,sources (uses),total,0,0,0
+FY2023_audit,153,Sheriff Highway Hireback,,summary,9,Net change in fund balance,net_change,0,750,750
+FY2023_audit,153,Sheriff Highway Hireback,,summary,10,year,beginning,,10419,
+FY2023_audit,153,Sheriff Highway Hireback,,summary,11,Fund balance at end of year,ending,,11169,
+FY2023_audit,153,Electronic Monitoring Fund,,revenue,1,Licenses and permits,item,0,57798,57798
+FY2023_audit,153,Electronic Monitoring Fund,,revenue,2,Total revenues,total,0,57798,57798
+FY2023_audit,153,Electronic Monitoring Fund,,expenditure,3,Public safety,item,0,17278,-17278
+FY2023_audit,153,Electronic Monitoring Fund,,expenditure,4,Total expenditures,total,0,17278,-17278
+FY2023_audit,153,Electronic Monitoring Fund,,summary,5,expenditures,excess,0,40520,40520
+FY2023_audit,153,Electronic Monitoring Fund,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,153,Electronic Monitoring Fund,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,153,Electronic Monitoring Fund,,other_financing,8,sources (uses),total,0,0,0
+FY2023_audit,153,Electronic Monitoring Fund,,summary,9,Net change in fund balance,net_change,0,40520,40520
+FY2023_audit,153,Electronic Monitoring Fund,,summary,10,year,beginning,,60421,
+FY2023_audit,153,Electronic Monitoring Fund,,summary,11,Fund balance at end of year,ending,,100941,
+FY2023_audit,154,Coroner's Fees,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,154,Coroner's Fees,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,154,Coroner's Fees,,revenue,3,Total revenues,total,0,0,0
+FY2023_audit,154,Coroner's Fees,,expenditure,4,Public safety,item,2200,0,2200
+FY2023_audit,154,Coroner's Fees,,expenditure,5,Total expenditures,total,2200,0,2200
+FY2023_audit,154,Coroner's Fees,,summary,6,expenditures,excess,-2200,0,2200
+FY2023_audit,154,Coroner's Fees,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,154,Coroner's Fees,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,154,Coroner's Fees,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,154,Coroner's Fees,,summary,10,Net change in fund balance,net_change,-2200,0,2200
+FY2023_audit,154,Coroner's Fees,,summary,11,year,beginning,,0,
+FY2023_audit,154,Coroner's Fees,,summary,12,Fund balance at end of year,ending,,0,
+FY2023_audit,154,Spay/Neuter Program,,revenue,1,Licenses and permits,item,7500,8959,1459
+FY2023_audit,154,Spay/Neuter Program,,revenue,2,Charges for services,item,0,20,20
+FY2023_audit,154,Spay/Neuter Program,,revenue,3,Total revenues,total,7500,8979,1479
+FY2023_audit,154,Spay/Neuter Program,,expenditure,4,Public safety,item,6000,6715,-715
+FY2023_audit,154,Spay/Neuter Program,,expenditure,5,Total expenditures,total,6000,6715,-715
+FY2023_audit,154,Spay/Neuter Program,,summary,6,expenditures,excess,1500,2264,764
+FY2023_audit,154,Spay/Neuter Program,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,154,Spay/Neuter Program,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,154,Spay/Neuter Program,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,154,Spay/Neuter Program,,summary,10,Net change in fund balance,net_change,1500,2264,764
+FY2023_audit,154,Spay/Neuter Program,,summary,11,year,beginning,,15614,
+FY2023_audit,154,Spay/Neuter Program,,summary,12,Fund balance at end of year,ending,,17878,
+FY2023_audit,155,Citizen Corps Grant,,revenue,1,revenues,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,revenue,3,Interest,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,revenue,4,Total revenues,total,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,expenditure,5,administration,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,expenditure,6,Judiciary and courts,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,expenditure,7,Total expenditures,total,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,summary,8,expenditures,excess,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,other_financing,11,sources (uses),total,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,summary,12,Net change in fund balance,net_change,0,0,0
+FY2023_audit,155,Citizen Corps Grant,,summary,13,year,beginning,,0,
+FY2023_audit,155,Citizen Corps Grant,,summary,14,Fund balance at end of year,ending,,0,
+FY2023_audit,155,GIS,,revenue,1,revenues,item,5000,0,-5000
+FY2023_audit,155,GIS,,revenue,2,Charges for services,item,150000,106606,-43394
+FY2023_audit,155,GIS,,revenue,3,Interest,item,3000,7555,4555
+FY2023_audit,155,GIS,,revenue,4,Total revenues,total,158000,114161,-43839
+FY2023_audit,155,GIS,,expenditure,5,administration,item,105646,111174,-5528
+FY2023_audit,155,GIS,,expenditure,6,Judiciary and courts,item,0,260,-260
+FY2023_audit,155,GIS,,expenditure,7,Total expenditures,total,105646,111434,-5788
+FY2023_audit,155,GIS,,summary,8,expenditures,excess,52354,2727,-49627
+FY2023_audit,155,GIS,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,155,GIS,,other_financing,10,Transfers out,item,-22000,-10000,12000
+FY2023_audit,155,GIS,,other_financing,11,sources (uses),total,-22000,-10000,12000
+FY2023_audit,155,GIS,,summary,12,Net change in fund balance,net_change,30354,-7273,-37627
+FY2023_audit,155,GIS,,summary,13,year,beginning,,412759,
+FY2023_audit,155,GIS,,summary,14,Fund balance at end of year,ending,,405486,
+FY2023_audit,156,Sheriff K9 Donation Fund,,revenue,1,Total revenues,item,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,expenditure,2,Total expenditures,item,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,summary,3,expenditures,excess,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,other_financing,4,Transfers in,item,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,other_financing,5,Transfers out,item,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,other_financing,6,sources (uses),total,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2023_audit,156,Sheriff K9 Donation Fund,,summary,8,year,beginning,,2564,
+FY2023_audit,156,Sheriff K9 Donation Fund,,summary,9,Fund balance at end of year,ending,,2564,
+FY2023_audit,156,Election Grant,,revenue,1,Total revenues,item,0,0,0
+FY2023_audit,156,Election Grant,,expenditure,2,Total expenditures,item,0,0,0
+FY2023_audit,156,Election Grant,,summary,3,expenditures,excess,0,0,0
+FY2023_audit,156,Election Grant,,other_financing,4,Transfers in,item,0,0,0
+FY2023_audit,156,Election Grant,,other_financing,5,Transfers out,item,0,0,0
+FY2023_audit,156,Election Grant,,other_financing,6,sources (uses),total,0,0,0
+FY2023_audit,156,Election Grant,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2023_audit,156,Election Grant,,summary,8,year,beginning,,9269,
+FY2023_audit,156,Election Grant,,summary,9,Fund balance at end of year,ending,,9269,
+FY2023_audit,157,Coroner's Grant,,revenue,1,Intergovernmental revenues,item,0,3365,3365
+FY2023_audit,157,Coroner's Grant,,revenue,2,Total revenues,total,0,3365,3365
+FY2023_audit,157,Coroner's Grant,,expenditure,3,administration,item,500,0,500
+FY2023_audit,157,Coroner's Grant,,expenditure,4,Public safety,item,500,857,-357
+FY2023_audit,157,Coroner's Grant,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2023_audit,157,Coroner's Grant,,expenditure,6,Total expenditures,total,1000,857,143
+FY2023_audit,157,Coroner's Grant,,summary,7,Excess of revenue over expenditures,excess,-1000,2508,3508
+FY2023_audit,157,Coroner's Grant,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,157,Coroner's Grant,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,157,Coroner's Grant,,other_financing,10,(uses),total,0,0,0
+FY2023_audit,157,Coroner's Grant,,summary,11,Net change in fund balance,net_change,-1000,2508,3508
+FY2023_audit,157,Coroner's Grant,,summary,12,Fund balance at beginning of year,beginning,,26080,
+FY2023_audit,157,Coroner's Grant,,summary,13,Fund balance at end of year,ending,,28588,
+FY2023_audit,157,Drug Court Grant,,revenue,1,Intergovernmental revenues,item,0,44407,44407
+FY2023_audit,157,Drug Court Grant,,revenue,2,Total revenues,total,0,44407,44407
+FY2023_audit,157,Drug Court Grant,,expenditure,3,administration,item,0,0,0
+FY2023_audit,157,Drug Court Grant,,expenditure,4,Public safety,item,0,0,0
+FY2023_audit,157,Drug Court Grant,,expenditure,5,Judiciary and courts,item,0,57795,-57795
+FY2023_audit,157,Drug Court Grant,,expenditure,6,Total expenditures,total,0,57795,-57795
+FY2023_audit,157,Drug Court Grant,,summary,7,Excess of revenue over expenditures,excess,0,-13388,-13388
+FY2023_audit,157,Drug Court Grant,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,157,Drug Court Grant,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,157,Drug Court Grant,,other_financing,10,(uses),total,0,0,0
+FY2023_audit,157,Drug Court Grant,,summary,11,Net change in fund balance,net_change,0,-13388,-13388
+FY2023_audit,157,Drug Court Grant,,summary,12,Fund balance at beginning of year,beginning,,134310,
+FY2023_audit,157,Drug Court Grant,,summary,13,Fund balance at end of year,ending,,120922,
+FY2023_audit,158,Auto Theft Grant,,revenue,1,Interest,item,0,176,176
+FY2023_audit,158,Auto Theft Grant,,revenue,2,Miscellaneous,item,0,88697,88697
+FY2023_audit,158,Auto Theft Grant,,revenue,3,Total revenues,total,0,88873,88873
+FY2023_audit,158,Auto Theft Grant,,expenditure,4,administration,item,0,45,-45
+FY2023_audit,158,Auto Theft Grant,,expenditure,5,Total expenditures,total,0,45,-45
+FY2023_audit,158,Auto Theft Grant,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,158,Auto Theft Grant,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,158,Auto Theft Grant,,other_financing,8,(uses),total,0,0,0
+FY2023_audit,158,Auto Theft Grant,,summary,9,Net change in fund balance,net_change,0,88828,88828
+FY2023_audit,158,Auto Theft Grant,,summary,10,Fund balance at beginning of year,beginning,,35827,
+FY2023_audit,158,Auto Theft Grant,,summary,11,Fund balance at end of year,ending,,124655,
+FY2023_audit,158,VCVA Grant,,revenue,1,Interest,item,0,0,0
+FY2023_audit,158,VCVA Grant,,revenue,2,Miscellaneous,item,0,0,0
+FY2023_audit,158,VCVA Grant,,revenue,3,Total revenues,total,0,0,0
+FY2023_audit,158,VCVA Grant,,expenditure,4,administration,item,0,0,0
+FY2023_audit,158,VCVA Grant,,expenditure,5,Total expenditures,total,0,0,0
+FY2023_audit,158,VCVA Grant,,summary,6,Excess of revenue over expenditures,excess,0,0,0
+FY2023_audit,158,VCVA Grant,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,158,VCVA Grant,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,158,VCVA Grant,,other_financing,9,(uses),total,0,0,0
+FY2023_audit,158,VCVA Grant,,summary,10,Net change in fund balance,net_change,0,0,0
+FY2023_audit,158,VCVA Grant,,summary,11,Fund balance at beginning of year,beginning,,0,
+FY2023_audit,158,VCVA Grant,,summary,12,Fund balance at end of year,ending,,0,
+FY2023_audit,159,Vital Records Automation,,revenue,1,Charges for services,item,1750,1512,-238
+FY2023_audit,159,Vital Records Automation,,revenue,2,Interest,item,100,363,263
+FY2023_audit,159,Vital Records Automation,,revenue,3,Total revenues,total,1850,1875,25
+FY2023_audit,159,Vital Records Automation,,expenditure,4,administration,item,1000,200,800
+FY2023_audit,159,Vital Records Automation,,expenditure,5,Judiciary and courts,item,3800,0,3800
+FY2023_audit,159,Vital Records Automation,,expenditure,6,Total expenditures,total,4800,200,4600
+FY2023_audit,159,Vital Records Automation,,summary,7,Excess of revenue over expenditures,excess,-2950,1675,4625
+FY2023_audit,159,Vital Records Automation,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,159,Vital Records Automation,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,159,Vital Records Automation,,other_financing,10,(uses),total,0,0,0
+FY2023_audit,159,Vital Records Automation,,summary,11,Net change in fund balance,net_change,-2950,1675,4625
+FY2023_audit,159,Vital Records Automation,,summary,12,Fund balance at beginning of year,beginning,,18647,
+FY2023_audit,159,Vital Records Automation,,summary,13,Fund balance at end of year,ending,,20322,
+FY2023_audit,159,Regional Communication Study,,revenue,1,Charges for services,item,0,0,0
+FY2023_audit,159,Regional Communication Study,,revenue,2,Interest,item,0,485,485
+FY2023_audit,159,Regional Communication Study,,revenue,3,Total revenues,total,0,485,485
+FY2023_audit,159,Regional Communication Study,,expenditure,4,administration,item,0,0,0
+FY2023_audit,159,Regional Communication Study,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2023_audit,159,Regional Communication Study,,expenditure,6,Total expenditures,total,0,0,0
+FY2023_audit,159,Regional Communication Study,,summary,7,Excess of revenue over expenditures,excess,0,485,485
+FY2023_audit,159,Regional Communication Study,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,159,Regional Communication Study,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,159,Regional Communication Study,,other_financing,10,(uses),total,0,0,0
+FY2023_audit,159,Regional Communication Study,,summary,11,Net change in fund balance,net_change,0,485,485
+FY2023_audit,159,Regional Communication Study,,summary,12,Fund balance at beginning of year,beginning,,24586,
+FY2023_audit,159,Regional Communication Study,,summary,13,Fund balance at end of year,ending,,25071,
+FY2023_audit,160,Urban Transportation,,revenue,1,Property taxes,item,73000,73000,0
+FY2023_audit,160,Urban Transportation,,revenue,2,Intergovernmental revenues,item,0,0,0
+FY2023_audit,160,Urban Transportation,,revenue,3,Charges for services,item,41000,82000,41000
+FY2023_audit,160,Urban Transportation,,revenue,4,Miscellaneous,item,0,0,0
+FY2023_audit,160,Urban Transportation,,revenue,5,Total revenues,total,114000,155000,41000
+FY2023_audit,160,Urban Transportation,,expenditure,6,Public safety,item,0,0,0
+FY2023_audit,160,Urban Transportation,,expenditure,7,Highways and bridges,item,165000,304577,-139577
+FY2023_audit,160,Urban Transportation,,expenditure,8,Public welfare,item,0,0,0
+FY2023_audit,160,Urban Transportation,,expenditure,9,Total expenditures,total,165000,304577,-139577
+FY2023_audit,160,Urban Transportation,,summary,10,expenditures,excess,-51000,-149577,-98577
+FY2023_audit,160,Urban Transportation,,other_financing,11,Transfers in,item,0,0,0
+FY2023_audit,160,Urban Transportation,,other_financing,12,Transfers out,item,0,0,0
+FY2023_audit,160,Urban Transportation,,summary,13,Net change in fund balance,net_change,-51000,-149577,-98577
+FY2023_audit,160,Urban Transportation,,summary,14,Fund balance at beginning of year,beginning,,-228148,
+FY2023_audit,160,Urban Transportation,,summary,15,Fund balance at end of year,ending,,-377725,
+FY2023_audit,160,Rural Transportation Grant,,revenue,1,Property taxes,item,0,0,0
+FY2023_audit,160,Rural Transportation Grant,,revenue,2,Intergovernmental revenues,item,167500,268142,100642
+FY2023_audit,160,Rural Transportation Grant,,revenue,3,Charges for services,item,0,0,0
+FY2023_audit,160,Rural Transportation Grant,,revenue,4,Miscellaneous,item,0,2026,2026
+FY2023_audit,160,Rural Transportation Grant,,revenue,5,Total revenues,total,167500,270168,102668
+FY2023_audit,160,Rural Transportation Grant,,expenditure,6,Public safety,item,0,1961,-1961
+FY2023_audit,160,Rural Transportation Grant,,expenditure,7,Highways and bridges,item,0,0,0
+FY2023_audit,160,Rural Transportation Grant,,expenditure,8,Public welfare,item,167500,242954,-75454
+FY2023_audit,160,Rural Transportation Grant,,expenditure,9,Total expenditures,total,167500,244915,-77415
+FY2023_audit,160,Rural Transportation Grant,,summary,10,expenditures,excess,0,25253,25253
+FY2023_audit,160,Rural Transportation Grant,,other_financing,11,Transfers in,item,0,0,0
+FY2023_audit,160,Rural Transportation Grant,,other_financing,12,Transfers out,item,0,0,0
+FY2023_audit,160,Rural Transportation Grant,,summary,13,Net change in fund balance,net_change,0,25253,25253
+FY2023_audit,160,Rural Transportation Grant,,summary,14,Fund balance at beginning of year,beginning,,14231,
+FY2023_audit,160,Rural Transportation Grant,,summary,15,Fund balance at end of year,ending,,39484,
+FY2023_audit,161,DUI Equipment,,revenue,1,Licenses and permits,item,32000,35471,3471
+FY2023_audit,161,DUI Equipment,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,161,DUI Equipment,,revenue,3,Interest,item,500,1070,570
+FY2023_audit,161,DUI Equipment,,revenue,4,Total revenues,total,32500,36541,4041
+FY2023_audit,161,DUI Equipment,,expenditure,5,administration,item,0,0,0
+FY2023_audit,161,DUI Equipment,,expenditure,6,Public safety,item,50000,25629,24371
+FY2023_audit,161,DUI Equipment,,expenditure,7,Capital outlay,item,0,10140,-10140
+FY2023_audit,161,DUI Equipment,,expenditure,8,Total expenditures,total,50000,35769,14231
+FY2023_audit,161,DUI Equipment,,summary,9,Excess of revenue over expenditures,excess,-17500,772,18272
+FY2023_audit,161,DUI Equipment,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,161,DUI Equipment,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,161,DUI Equipment,,other_financing,12,(uses),total,0,0,0
+FY2023_audit,161,DUI Equipment,,summary,13,Net change in fund balance,net_change,-17500,772,18272
+FY2023_audit,161,DUI Equipment,,summary,14,Fund balance at beginning of year,beginning,,84843,
+FY2023_audit,161,DUI Equipment,,summary,15,Fund balance at end of year,ending,,85615,
+FY2023_audit,161,Federal Seized Drug,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,161,Federal Seized Drug,,revenue,2,Charges for services,item,6000,790,-5210
+FY2023_audit,161,Federal Seized Drug,,revenue,3,Interest,item,50,24,-26
+FY2023_audit,161,Federal Seized Drug,,revenue,4,Total revenues,total,6050,814,-5236
+FY2023_audit,161,Federal Seized Drug,,expenditure,5,administration,item,38000,24247,13753
+FY2023_audit,161,Federal Seized Drug,,expenditure,6,Public safety,item,2000,0,2000
+FY2023_audit,161,Federal Seized Drug,,expenditure,7,Capital outlay,item,0,0,0
+FY2023_audit,161,Federal Seized Drug,,expenditure,8,Total expenditures,total,40000,24247,15753
+FY2023_audit,161,Federal Seized Drug,,summary,9,Excess of revenue over expenditures,excess,-33950,-23433,10517
+FY2023_audit,161,Federal Seized Drug,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,161,Federal Seized Drug,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,161,Federal Seized Drug,,other_financing,12,(uses),total,0,0,0
+FY2023_audit,161,Federal Seized Drug,,summary,13,Net change in fund balance,net_change,-33950,-23433,10517
+FY2023_audit,161,Federal Seized Drug,,summary,14,Fund balance at beginning of year,beginning,,72167,
+FY2023_audit,161,Federal Seized Drug,,summary,15,Fund balance at end of year,ending,,48734,
+FY2023_audit,162,HAVA Election,,revenue,1,revenues,item,10000,0,-10000
+FY2023_audit,162,HAVA Election,,revenue,2,Total revenues,total,10000,0,-10000
+FY2023_audit,162,HAVA Election,,expenditure,3,administration,item,10000,0,10000
+FY2023_audit,162,HAVA Election,,expenditure,4,Total expenditures,total,10000,0,10000
+FY2023_audit,162,HAVA Election,,summary,5,expenditures,excess,0,0,0
+FY2023_audit,162,HAVA Election,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,162,HAVA Election,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,162,HAVA Election,,other_financing,8,sources (uses),total,0,0,0
+FY2023_audit,162,HAVA Election,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2023_audit,162,HAVA Election,,summary,10,year,beginning,,0,
+FY2023_audit,162,HAVA Election,,summary,11,Fund balance at end of year,ending,,0,
+FY2023_audit,162,Prairie Shield Grant,,revenue,1,revenues,item,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,revenue,2,Total revenues,total,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,expenditure,3,administration,item,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,expenditure,4,Total expenditures,total,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,summary,5,expenditures,excess,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,other_financing,8,sources (uses),total,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2023_audit,162,Prairie Shield Grant,,summary,10,year,beginning,,-725,
+FY2023_audit,162,Prairie Shield Grant,,summary,11,Fund balance at end of year,ending,,-725,
+FY2023_audit,163,Maintenance and Child Support,,revenue,1,Licenses and permits,item,9000,7147,-1853
+FY2023_audit,163,Maintenance and Child Support,,revenue,2,Interest,item,0,0,0
+FY2023_audit,163,Maintenance and Child Support,,revenue,3,Total revenues,total,9000,7147,-1853
+FY2023_audit,163,Maintenance and Child Support,,expenditure,4,administration,item,0,0,0
+FY2023_audit,163,Maintenance and Child Support,,expenditure,5,Judiciary and courts,item,0,0,0
+FY2023_audit,163,Maintenance and Child Support,,expenditure,6,Total expenditures,total,0,0,0
+FY2023_audit,163,Maintenance and Child Support,,summary,7,expenditures,excess,9000,7147,-1853
+FY2023_audit,163,Maintenance and Child Support,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,163,Maintenance and Child Support,,other_financing,9,Transfers out,item,-9000,-9000,0
+FY2023_audit,163,Maintenance and Child Support,,other_financing,10,sources (uses),total,-9000,-9000,0
+FY2023_audit,163,Maintenance and Child Support,,summary,11,Net change in fund balance,net_change,0,-1853,-1853
+FY2023_audit,163,Maintenance and Child Support,,summary,12,year,beginning,,13725,
+FY2023_audit,163,Maintenance and Child Support,,summary,13,Fund balance at end of year,ending,,11872,
+FY2023_audit,163,Marriage and Civil Union,,revenue,1,Licenses and permits,item,1200,1200,0
+FY2023_audit,163,Marriage and Civil Union,,revenue,2,Interest,item,0,17,17
+FY2023_audit,163,Marriage and Civil Union,,revenue,3,Total revenues,total,1200,1217,17
+FY2023_audit,163,Marriage and Civil Union,,expenditure,4,administration,item,400,0,400
+FY2023_audit,163,Marriage and Civil Union,,expenditure,5,Judiciary and courts,item,400,0,400
+FY2023_audit,163,Marriage and Civil Union,,expenditure,6,Total expenditures,total,800,0,800
+FY2023_audit,163,Marriage and Civil Union,,summary,7,expenditures,excess,400,1217,817
+FY2023_audit,163,Marriage and Civil Union,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,163,Marriage and Civil Union,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,163,Marriage and Civil Union,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,163,Marriage and Civil Union,,summary,11,Net change in fund balance,net_change,400,1217,817
+FY2023_audit,163,Marriage and Civil Union,,summary,12,year,beginning,,14049,
+FY2023_audit,163,Marriage and Civil Union,,summary,13,Fund balance at end of year,ending,,15266,
+FY2023_audit,164,Arrestee Medical Costs,,revenue,1,Charges for services,item,0,4790,4790
+FY2023_audit,164,Arrestee Medical Costs,,revenue,2,Interest,item,0,291,291
+FY2023_audit,164,Arrestee Medical Costs,,revenue,3,Miscellaneous,item,0,20,20
+FY2023_audit,164,Arrestee Medical Costs,,revenue,4,Total revenues,total,0,5101,5101
+FY2023_audit,164,Arrestee Medical Costs,,expenditure,5,Public safety,item,0,15011,-15011
+FY2023_audit,164,Arrestee Medical Costs,,expenditure,6,Total expenditures,total,0,15011,-15011
+FY2023_audit,164,Arrestee Medical Costs,,summary,7,over expenditures,excess,0,-9910,-9910
+FY2023_audit,164,Arrestee Medical Costs,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,164,Arrestee Medical Costs,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,164,Arrestee Medical Costs,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,164,Arrestee Medical Costs,,summary,11,Net change in fund balance,net_change,0,-9910,-9910
+FY2023_audit,164,Arrestee Medical Costs,,summary,12,year,beginning,,12500,
+FY2023_audit,164,Arrestee Medical Costs,,summary,13,Fund balance at end of year,ending,,2590,
+FY2023_audit,164,Farmland Protection,,revenue,1,Charges for services,item,0,0,0
+FY2023_audit,164,Farmland Protection,,revenue,2,Interest,item,0,0,0
+FY2023_audit,164,Farmland Protection,,revenue,3,Miscellaneous,item,0,0,0
+FY2023_audit,164,Farmland Protection,,revenue,4,Total revenues,total,0,0,0
+FY2023_audit,164,Farmland Protection,,expenditure,5,Public safety,item,0,0,0
+FY2023_audit,164,Farmland Protection,,expenditure,6,Total expenditures,total,0,0,0
+FY2023_audit,164,Farmland Protection,,summary,7,over expenditures,excess,0,0,0
+FY2023_audit,164,Farmland Protection,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,164,Farmland Protection,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,164,Farmland Protection,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,164,Farmland Protection,,summary,11,Net change in fund balance,net_change,0,0,0
+FY2023_audit,164,Farmland Protection,,summary,12,year,beginning,,1019,
+FY2023_audit,164,Farmland Protection,,summary,13,Fund balance at end of year,ending,,1019,
+FY2023_audit,165,In and Out,,revenue,1,Property taxes,item,0,527143,527143
+FY2023_audit,165,In and Out,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,165,In and Out,,revenue,3,Interest,item,0,601,601
+FY2023_audit,165,In and Out,,revenue,4,Total revenues,total,0,527744,527744
+FY2023_audit,165,In and Out,,expenditure,5,administration,item,0,527143,-527143
+FY2023_audit,165,In and Out,,expenditure,6,Total expenditures,total,0,527143,-527143
+FY2023_audit,165,In and Out,,summary,7,expenditures,excess,0,601,601
+FY2023_audit,165,In and Out,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,165,In and Out,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,165,In and Out,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,165,In and Out,,summary,11,Net change in fund balance,net_change,0,601,601
+FY2023_audit,165,In and Out,,summary,12,year,beginning,,402,
+FY2023_audit,165,In and Out,,summary,13,Fund balance at end of year,ending,,1003,
+FY2023_audit,165,Financial Compliance Unit,,revenue,1,Property taxes,item,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,revenue,2,Charges for services,item,7500,1682,-5818
+FY2023_audit,165,Financial Compliance Unit,,revenue,3,Interest,item,500,919,419
+FY2023_audit,165,Financial Compliance Unit,,revenue,4,Total revenues,total,8000,2601,-5399
+FY2023_audit,165,Financial Compliance Unit,,expenditure,5,administration,item,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,expenditure,6,Total expenditures,total,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,summary,7,expenditures,excess,8000,2601,-5399
+FY2023_audit,165,Financial Compliance Unit,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,165,Financial Compliance Unit,,summary,11,Net change in fund balance,net_change,8000,2601,-5399
+FY2023_audit,165,Financial Compliance Unit,,summary,12,year,beginning,,58950,
+FY2023_audit,165,Financial Compliance Unit,,summary,13,Fund balance at end of year,ending,,61551,
+FY2023_audit,166,State's Attorney Forfeited Revenue,,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,166,State's Attorney Forfeited Revenue,,revenue,2,Charges for services,item,10000,6941,-3059
+FY2023_audit,166,State's Attorney Forfeited Revenue,,revenue,3,Interest,item,500,878,378
+FY2023_audit,166,State's Attorney Forfeited Revenue,,revenue,4,Total revenues,total,10500,7819,-2681
+FY2023_audit,166,State's Attorney Forfeited Revenue,,expenditure,5,administration,item,2000,295,1705
+FY2023_audit,166,State's Attorney Forfeited Revenue,,expenditure,6,Judiciary and courts,item,10000,2672,7328
+FY2023_audit,166,State's Attorney Forfeited Revenue,,expenditure,7,Total expenditures,total,12000,2967,9033
+FY2023_audit,166,State's Attorney Forfeited Revenue,,summary,8,expenditures,excess,-1500,4852,6352
+FY2023_audit,166,State's Attorney Forfeited Revenue,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,166,State's Attorney Forfeited Revenue,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,166,State's Attorney Forfeited Revenue,,other_financing,11,sources (uses),total,0,0,0
+FY2023_audit,166,State's Attorney Forfeited Revenue,,summary,12,Net change in fund balance,net_change,-1500,4852,6352
+FY2023_audit,166,State's Attorney Forfeited Revenue,,summary,13,year,beginning,,50933,
+FY2023_audit,166,State's Attorney Forfeited Revenue,,summary,14,Fund balance at end of year,ending,,55785,
+FY2023_audit,166,Circuit Clerk Electronic Citation,,revenue,1,Licenses and permits,item,0,23640,23640
+FY2023_audit,166,Circuit Clerk Electronic Citation,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,166,Circuit Clerk Electronic Citation,,revenue,3,Interest,item,0,69,69
+FY2023_audit,166,Circuit Clerk Electronic Citation,,revenue,4,Total revenues,total,0,23709,23709
+FY2023_audit,166,Circuit Clerk Electronic Citation,,expenditure,5,administration,item,0,0,0
+FY2023_audit,166,Circuit Clerk Electronic Citation,,expenditure,6,Judiciary and courts,item,0,13613,-13613
+FY2023_audit,166,Circuit Clerk Electronic Citation,,expenditure,7,Total expenditures,total,0,13613,-13613
+FY2023_audit,166,Circuit Clerk Electronic Citation,,summary,8,expenditures,excess,0,10096,10096
+FY2023_audit,166,Circuit Clerk Electronic Citation,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,166,Circuit Clerk Electronic Citation,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,166,Circuit Clerk Electronic Citation,,other_financing,11,sources (uses),total,0,0,0
+FY2023_audit,166,Circuit Clerk Electronic Citation,,summary,12,Net change in fund balance,net_change,0,10096,10096
+FY2023_audit,166,Circuit Clerk Electronic Citation,,summary,13,year,beginning,,33405,
+FY2023_audit,166,Circuit Clerk Electronic Citation,,summary,14,Fund balance at end of year,ending,,43501,
+FY2023_audit,167,Circuit Clerk Operations,,revenue,1,Licenses and permits,item,0,25225,25225
+FY2023_audit,167,Circuit Clerk Operations,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,revenue,3,Interest,item,0,92,92
+FY2023_audit,167,Circuit Clerk Operations,,revenue,4,Miscellaneous,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,revenue,5,Total revenues,total,0,25317,25317
+FY2023_audit,167,Circuit Clerk Operations,,expenditure,6,administration,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,expenditure,7,Public safety,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,expenditure,8,Judiciary and courts,item,0,5593,-5593
+FY2023_audit,167,Circuit Clerk Operations,,expenditure,9,Total expenditures,total,0,5593,-5593
+FY2023_audit,167,Circuit Clerk Operations,,summary,10,expenditures,excess,0,19724,19724
+FY2023_audit,167,Circuit Clerk Operations,,other_financing,11,Transfers in,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,other_financing,12,Transfers out,item,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,other_financing,13,sources (uses),total,0,0,0
+FY2023_audit,167,Circuit Clerk Operations,,summary,14,Net change in fund balance,net_change,0,19724,19724
+FY2023_audit,167,Circuit Clerk Operations,,summary,15,year,beginning,,59078,
+FY2023_audit,167,Circuit Clerk Operations,,summary,16,Fund balance at end of year,ending,,78802,
+FY2023_audit,167,Food & Beverage (Community Building),,revenue,1,Licenses and permits,item,0,0,0
+FY2023_audit,167,Food & Beverage (Community Building),,revenue,2,Charges for services,item,0,721604,721604
+FY2023_audit,167,Food & Beverage (Community Building),,revenue,3,Interest,item,0,46,46
+FY2023_audit,167,Food & Beverage (Community Building),,revenue,4,Miscellaneous,item,0,1756,1756
+FY2023_audit,167,Food & Beverage (Community Building),,revenue,5,Total revenues,total,0,723406,723406
+FY2023_audit,167,Food & Beverage (Community Building),,expenditure,6,administration,item,0,720500,-720500
+FY2023_audit,167,Food & Beverage (Community Building),,expenditure,7,Public safety,item,0,1681,-1681
+FY2023_audit,167,Food & Beverage (Community Building),,expenditure,8,Judiciary and courts,item,0,0,0
+FY2023_audit,167,Food & Beverage (Community Building),,expenditure,9,Total expenditures,total,0,722181,-722181
+FY2023_audit,167,Food & Beverage (Community Building),,summary,10,expenditures,excess,0,1225,1225
+FY2023_audit,167,Food & Beverage (Community Building),,other_financing,11,Transfers in,item,0,0,0
+FY2023_audit,167,Food & Beverage (Community Building),,other_financing,12,Transfers out,item,0,0,0
+FY2023_audit,167,Food & Beverage (Community Building),,other_financing,13,sources (uses),total,0,0,0
+FY2023_audit,167,Food & Beverage (Community Building),,summary,14,Net change in fund balance,net_change,0,1225,1225
+FY2023_audit,167,Food & Beverage (Community Building),,summary,15,year,beginning,,50016,
+FY2023_audit,167,Food & Beverage (Community Building),,summary,16,Fund balance at end of year,ending,,51241,
+FY2023_audit,168,911,,revenue,1,revenues,item,0,809485,809485
+FY2023_audit,168,911,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,168,911,,revenue,3,Interest,item,0,113237,113237
+FY2023_audit,168,911,,revenue,4,Total revenues,total,0,922722,922722
+FY2023_audit,168,911,,expenditure,5,Public safety,item,0,457285,-457285
+FY2023_audit,168,911,,expenditure,6,Total expenditures,total,0,457285,-457285
+FY2023_audit,168,911,,summary,7,expenditures,excess,0,465437,465437
+FY2023_audit,168,911,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,168,911,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,168,911,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,168,911,,summary,11,Net change in fund balance,net_change,0,465437,465437
+FY2023_audit,168,911,,summary,12,year,beginning,,2955195,
+FY2023_audit,168,911,,summary,13,Fund balance at end of year,ending,,3420632,
+FY2023_audit,168,Jail Commissary,,revenue,1,revenues,item,0,0,0
+FY2023_audit,168,Jail Commissary,,revenue,2,Charges for services,item,0,411975,411975
+FY2023_audit,168,Jail Commissary,,revenue,3,Interest,item,0,0,0
+FY2023_audit,168,Jail Commissary,,revenue,4,Total revenues,total,0,411975,411975
+FY2023_audit,168,Jail Commissary,,expenditure,5,Public safety,item,0,429429,-429429
+FY2023_audit,168,Jail Commissary,,expenditure,6,Total expenditures,total,0,429429,-429429
+FY2023_audit,168,Jail Commissary,,summary,7,expenditures,excess,0,-17454,-17454
+FY2023_audit,168,Jail Commissary,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,168,Jail Commissary,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,168,Jail Commissary,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,168,Jail Commissary,,summary,11,Net change in fund balance,net_change,0,-17454,-17454
+FY2023_audit,168,Jail Commissary,,summary,12,year,beginning,,67276,
+FY2023_audit,168,Jail Commissary,,summary,13,Fund balance at end of year,ending,,49822,
+FY2023_audit,169,Trust,,revenue,1,Total revenues,item,0,0,0
+FY2023_audit,169,Trust,,expenditure,2,Total expenditures,item,0,0,0
+FY2023_audit,169,Trust,,summary,3,expenditures,excess,0,0,0
+FY2023_audit,169,Trust,,other_financing,4,Transfers in,item,0,0,0
+FY2023_audit,169,Trust,,other_financing,5,Transfers out,item,0,0,0
+FY2023_audit,169,Trust,,other_financing,6,sources (uses),total,0,0,0
+FY2023_audit,169,Trust,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2023_audit,169,Trust,,summary,8,year,beginning,,0,
+FY2023_audit,169,Trust,,summary,9,Fund balance at end of year,ending,,0,
+FY2023_audit,169,Jury Payroll,,revenue,1,Total revenues,item,0,0,0
+FY2023_audit,169,Jury Payroll,,expenditure,2,Total expenditures,item,0,0,0
+FY2023_audit,169,Jury Payroll,,summary,3,expenditures,excess,0,0,0
+FY2023_audit,169,Jury Payroll,,other_financing,4,Transfers in,item,0,0,0
+FY2023_audit,169,Jury Payroll,,other_financing,5,Transfers out,item,0,0,0
+FY2023_audit,169,Jury Payroll,,other_financing,6,sources (uses),total,0,0,0
+FY2023_audit,169,Jury Payroll,,summary,7,Net change in fund balance,net_change,0,0,0
+FY2023_audit,169,Jury Payroll,,summary,8,year,beginning,,0,
+FY2023_audit,169,Jury Payroll,,summary,9,Fund balance at end of year,ending,,0,
+FY2023_audit,170,Jail Bond,,revenue,1,revenues,item,1920000,2429347,509347
+FY2023_audit,170,Jail Bond,,revenue,2,Interest,item,0,7316,7316
+FY2023_audit,170,Jail Bond,,revenue,3,Total revenues,total,1920000,2436663,516663
+FY2023_audit,170,Jail Bond,,expenditure,4,administration,item,0,0,0
+FY2023_audit,170,Jail Bond,,expenditure,5,Principal payments,item,0,0,0
+FY2023_audit,170,Jail Bond,,expenditure,6,debt,item,0,0,0
+FY2023_audit,170,Jail Bond,,expenditure,7,Total expenditures,total,0,0,0
+FY2023_audit,170,Jail Bond,,summary,8,expenditures,excess,1920000,2436663,516663
+FY2023_audit,170,Jail Bond,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,170,Jail Bond,,other_financing,10,Transfers out,item,-1920000,-2399514,-479514
+FY2023_audit,170,Jail Bond,,other_financing,11,sources (uses),total,-1920000,-2399514,-479514
+FY2023_audit,170,Jail Bond,,summary,12,Net change in fund balance,net_change,0,37149,37149
+FY2023_audit,170,Jail Bond,,summary,13,year,beginning,,945873,
+FY2023_audit,170,Jail Bond,,summary,14,Fund balance at end of year,ending,,983022,
+FY2023_audit,170,Courthouse Bond,,revenue,1,revenues,item,0,0,0
+FY2023_audit,170,Courthouse Bond,,revenue,2,Interest,item,0,0,0
+FY2023_audit,170,Courthouse Bond,,revenue,3,Total revenues,total,0,0,0
+FY2023_audit,170,Courthouse Bond,,expenditure,4,administration,item,0,750,-750
+FY2023_audit,170,Courthouse Bond,,expenditure,5,Principal payments,item,260000,260000,0
+FY2023_audit,170,Courthouse Bond,,expenditure,6,debt,item,53675,53675,0
+FY2023_audit,170,Courthouse Bond,,expenditure,7,Total expenditures,total,313675,314425,-750
+FY2023_audit,170,Courthouse Bond,,summary,8,expenditures,excess,-313675,-314425,-750
+FY2023_audit,170,Courthouse Bond,,other_financing,9,Transfers in,item,313675,314425,750
+FY2023_audit,170,Courthouse Bond,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,170,Courthouse Bond,,other_financing,11,sources (uses),total,313675,314425,750
+FY2023_audit,170,Courthouse Bond,,summary,12,Net change in fund balance,net_change,0,0,0
+FY2023_audit,170,Courthouse Bond,,summary,13,year,beginning,,0,
+FY2023_audit,170,Courthouse Bond,,summary,14,Fund balance at end of year,ending,,0,
+FY2023_audit,171,Animal Services Bond,,revenue,1,revenues,item,0,0,0
+FY2023_audit,171,Animal Services Bond,,revenue,2,Total revenues,total,0,0,0
+FY2023_audit,171,Animal Services Bond,,expenditure,3,Principal payments,item,0,0,0
+FY2023_audit,171,Animal Services Bond,,expenditure,4,debt,item,0,0,0
+FY2023_audit,171,Animal Services Bond,,expenditure,5,Total expenditures,total,0,0,0
+FY2023_audit,171,Animal Services Bond,,summary,6,expenditures,excess,0,0,0
+FY2023_audit,171,Animal Services Bond,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,171,Animal Services Bond,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,171,Animal Services Bond,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,171,Animal Services Bond,,summary,10,Net change in fund balance,net_change,0,0,0
+FY2023_audit,171,Animal Services Bond,,summary,11,year,beginning,,0,
+FY2023_audit,171,Animal Services Bond,,summary,12,Fund balance at end of year,ending,,0,
+FY2023_audit,171,Sheriffs Storage Bond 2017,,revenue,1,revenues,item,52062,0,-52062
+FY2023_audit,171,Sheriffs Storage Bond 2017,,revenue,2,Total revenues,total,52062,0,-52062
+FY2023_audit,171,Sheriffs Storage Bond 2017,,expenditure,3,Principal payments,item,46000,46000,0
+FY2023_audit,171,Sheriffs Storage Bond 2017,,expenditure,4,debt,item,6062,6062,0
+FY2023_audit,171,Sheriffs Storage Bond 2017,,expenditure,5,Total expenditures,total,52062,52062,0
+FY2023_audit,171,Sheriffs Storage Bond 2017,,summary,6,expenditures,excess,0,-52062,-52062
+FY2023_audit,171,Sheriffs Storage Bond 2017,,other_financing,7,Transfers in,item,0,52062,52062
+FY2023_audit,171,Sheriffs Storage Bond 2017,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,171,Sheriffs Storage Bond 2017,,other_financing,9,sources (uses),total,0,52062,52062
+FY2023_audit,171,Sheriffs Storage Bond 2017,,summary,10,Net change in fund balance,net_change,0,0,0
+FY2023_audit,171,Sheriffs Storage Bond 2017,,summary,11,year,beginning,,0,
+FY2023_audit,171,Sheriffs Storage Bond 2017,,summary,12,Fund balance at end of year,ending,,0,
+FY2023_audit,172,Animal Services Building and Maintenance,,revenue,1,Charges for services,item,35000,37010,2010
+FY2023_audit,172,Animal Services Building and Maintenance,,revenue,2,Interest,item,0,311,311
+FY2023_audit,172,Animal Services Building and Maintenance,,revenue,3,Total revenues,total,35000,37321,2321
+FY2023_audit,172,Animal Services Building and Maintenance,,expenditure,4,administration,item,0,3388,-3388
+FY2023_audit,172,Animal Services Building and Maintenance,,expenditure,5,Public safety,item,30000,15496,14504
+FY2023_audit,172,Animal Services Building and Maintenance,,expenditure,6,Total expenditures,total,30000,18884,11116
+FY2023_audit,172,Animal Services Building and Maintenance,,summary,7,expenditures,excess,5000,18437,13437
+FY2023_audit,172,Animal Services Building and Maintenance,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,172,Animal Services Building and Maintenance,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,172,Animal Services Building and Maintenance,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,172,Animal Services Building and Maintenance,,summary,11,Net change in fund balance,net_change,5000,18437,13437
+FY2023_audit,172,Animal Services Building and Maintenance,,summary,12,year,beginning,,91950,
+FY2023_audit,172,Animal Services Building and Maintenance,,summary,13,Fund balance at end of year,ending,,110387,
+FY2023_audit,172,Property Maintenance,,revenue,1,Charges for services,item,0,0,0
+FY2023_audit,172,Property Maintenance,,revenue,2,Interest,item,2000,4398,2398
+FY2023_audit,172,Property Maintenance,,revenue,3,Total revenues,total,2000,4398,2398
+FY2023_audit,172,Property Maintenance,,expenditure,4,administration,item,105000,1600,103400
+FY2023_audit,172,Property Maintenance,,expenditure,5,Public safety,item,0,0,0
+FY2023_audit,172,Property Maintenance,,expenditure,6,Total expenditures,total,105000,1600,103400
+FY2023_audit,172,Property Maintenance,,summary,7,expenditures,excess,-103000,2798,105798
+FY2023_audit,172,Property Maintenance,,other_financing,8,Transfers in,item,0,0,0
+FY2023_audit,172,Property Maintenance,,other_financing,9,Transfers out,item,0,0,0
+FY2023_audit,172,Property Maintenance,,other_financing,10,sources (uses),total,0,0,0
+FY2023_audit,172,Property Maintenance,,summary,11,Net change in fund balance,net_change,-103000,2798,105798
+FY2023_audit,172,Property Maintenance,,summary,12,year,beginning,,243905,
+FY2023_audit,172,Property Maintenance,,summary,13,Fund balance at end of year,ending,,246703,
+FY2023_audit,173,Capital Projects,,revenue,1,Interest,item,0,0,0
+FY2023_audit,173,Capital Projects,,revenue,2,Miscellaneous,item,0,0,0
+FY2023_audit,173,Capital Projects,,revenue,3,Total revenues,total,0,0,0
+FY2023_audit,173,Capital Projects,,expenditure,4,Public safety,item,0,0,0
+FY2023_audit,173,Capital Projects,,expenditure,5,Total expenditures,total,0,0,0
+FY2023_audit,173,Capital Projects,,other_financing,6,Transfers in,item,0,0,0
+FY2023_audit,173,Capital Projects,,other_financing,7,Transfers out,item,0,0,0
+FY2023_audit,173,Capital Projects,,other_financing,8,sources (uses),total,0,0,0
+FY2023_audit,173,Capital Projects,,summary,9,Net change in fund balance,net_change,0,0,0
+FY2023_audit,173,Capital Projects,,summary,10,year,beginning,,8934,
+FY2023_audit,173,Capital Projects,,summary,11,Fund balance at end of year,ending,,8934,
+FY2023_audit,173,Animal Services Donation,,revenue,1,Interest,item,0,-37,-37
+FY2023_audit,173,Animal Services Donation,,revenue,2,Miscellaneous,item,7500,20992,13492
+FY2023_audit,173,Animal Services Donation,,revenue,3,Total revenues,total,7500,20955,13455
+FY2023_audit,173,Animal Services Donation,,expenditure,4,Public safety,item,2500,23839,-21339
+FY2023_audit,173,Animal Services Donation,,expenditure,5,Total expenditures,total,2500,23839,-21339
+FY2023_audit,173,Animal Services Donation,,summary,6,expenditures,excess,5000,-2884,-7884
+FY2023_audit,173,Animal Services Donation,,other_financing,7,Transfers in,item,0,0,0
+FY2023_audit,173,Animal Services Donation,,other_financing,8,Transfers out,item,0,0,0
+FY2023_audit,173,Animal Services Donation,,other_financing,9,sources (uses),total,0,0,0
+FY2023_audit,173,Animal Services Donation,,summary,10,Net change in fund balance,net_change,5000,-2884,-7884
+FY2023_audit,173,Animal Services Donation,,summary,11,year,beginning,,42690,
+FY2023_audit,173,Animal Services Donation,,summary,12,Fund balance at end of year,ending,,39806,
+FY2023_audit,174,Maplecrest Memorial Funds,,revenue,1,Property taxes,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,revenue,2,Charges for services,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,revenue,3,Interest,item,1550,2259,709
+FY2023_audit,174,Maplecrest Memorial Funds,,revenue,4,Total revenues,total,1550,2259,709
+FY2023_audit,174,Maplecrest Memorial Funds,,expenditure,5,administration,item,53000,7038,45962
+FY2023_audit,174,Maplecrest Memorial Funds,,expenditure,6,Highways and bridges,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,expenditure,7,Capital outlay,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,expenditure,8,Total expenditures,total,53000,7038,45962
+FY2023_audit,174,Maplecrest Memorial Funds,,summary,9,expenditures,excess,-51450,-4779,46671
+FY2023_audit,174,Maplecrest Memorial Funds,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,other_financing,12,(uses),total,0,0,0
+FY2023_audit,174,Maplecrest Memorial Funds,,summary,13,Net change in fund balance,net_change,-51450,-4779,46671
+FY2023_audit,174,Maplecrest Memorial Funds,,summary,14,Fund balance at beginning of year,beginning,,102747,
+FY2023_audit,174,Maplecrest Memorial Funds,,summary,15,Fund balance at end of year,ending,,97968,
+FY2023_audit,174,County Bridge,,revenue,1,Property taxes,item,185000,185000,0
+FY2023_audit,174,County Bridge,,revenue,2,Charges for services,item,50000,96854,46854
+FY2023_audit,174,County Bridge,,revenue,3,Interest,item,20000,103375,83375
+FY2023_audit,174,County Bridge,,revenue,4,Total revenues,total,255000,385229,130229
+FY2023_audit,174,County Bridge,,expenditure,5,administration,item,0,0,0
+FY2023_audit,174,County Bridge,,expenditure,6,Highways and bridges,item,800000,255875,544125
+FY2023_audit,174,County Bridge,,expenditure,7,Capital outlay,item,0,692697,-692697
+FY2023_audit,174,County Bridge,,expenditure,8,Total expenditures,total,800000,948572,-148572
+FY2023_audit,174,County Bridge,,summary,9,expenditures,excess,-545000,-563343,-18343
+FY2023_audit,174,County Bridge,,other_financing,10,Transfers in,item,0,0,0
+FY2023_audit,174,County Bridge,,other_financing,11,Transfers out,item,0,0,0
+FY2023_audit,174,County Bridge,,other_financing,12,(uses),total,0,0,0
+FY2023_audit,174,County Bridge,,summary,13,Net change in fund balance,net_change,-545000,-563343,-18343
+FY2023_audit,174,County Bridge,,summary,14,Fund balance at beginning of year,beginning,,4895907,
+FY2023_audit,174,County Bridge,,summary,15,Fund balance at end of year,ending,,4332564,
+FY2023_audit,175,Motor Fuel Tax,,revenue,1,Intergovernmental revenues,item,1400000,1612063,212063
+FY2023_audit,175,Motor Fuel Tax,,revenue,2,Charges for services,item,100000,38556,-61444
+FY2023_audit,175,Motor Fuel Tax,,revenue,3,Interest,item,50000,150019,100019
+FY2023_audit,175,Motor Fuel Tax,,revenue,4,Total revenues,total,1550000,1800638,250638
+FY2023_audit,175,Motor Fuel Tax,,expenditure,5,Highways and bridges,item,3222700,2566451,656249
+FY2023_audit,175,Motor Fuel Tax,,expenditure,6,Capital outlay,item,0,396844,-396844
+FY2023_audit,175,Motor Fuel Tax,,expenditure,7,Total expenditures,total,3222700,2963295,259405
+FY2023_audit,175,Motor Fuel Tax,,summary,8,Excess (deficiency) of revenue over expenditures,excess,-1672700,-1162657,510043
+FY2023_audit,175,Motor Fuel Tax,,other_financing,9,Transfers in,item,0,0,0
+FY2023_audit,175,Motor Fuel Tax,,other_financing,10,Transfers out,item,0,0,0
+FY2023_audit,175,Motor Fuel Tax,,other_financing,11,Total other financing sources (uses),total,0,0,0
+FY2023_audit,175,Motor Fuel Tax,,summary,12,Net change in fund balance,net_change,-1672700,-1162657,510043
+FY2023_audit,175,Motor Fuel Tax,,summary,13,Fund balance at beginning of year,beginning,,7387376,
+FY2023_audit,175,Motor Fuel Tax,,summary,14,Fund balance at end of year,ending,,6224719,

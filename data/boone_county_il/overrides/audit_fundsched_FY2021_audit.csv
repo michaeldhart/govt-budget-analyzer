@@ -1,0 +1,2 @@
+fund_name,check,reason
+Recorder's Automation,other_financing items = total,"The Transfers out line prints 31,362 (budget and actual) without parentheses while the total, the net change and the ending balance treat it as an outflow (31,362). Sign omitted in the source"
