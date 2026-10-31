@@ -262,3 +262,14 @@ def test_reference_series_by_fiscal_year(table, entity):
     assert src == {"cpi", "population", "eav"} and all(r["url"].startswith("https://") and r["retrieved_on"] for r in entity.table("reference_sources.csv"))
     ex = {r["exception_id"] for r in entity.exceptions()}
     assert {r["eav_flag"] for r in rows.values() if r["eav_flag"]} <= ex
+
+
+def test_extract_all_entry_point_names_real_scripts():
+    """pipelines/belvidere_il/extract_all.sh (roadmap T6): its dry run lists only scripts that exist, covers every budget year and audit year, and ends with the rebuild."""
+    import re
+    import subprocess
+    out = subprocess.run(["sh", "pipelines/belvidere_il/extract_all.sh", "--dry-run"], capture_output=True, text=True, cwd=ROOT, check=True).stdout.splitlines()
+    scripts = {m for l in out for m in re.findall(r"pipelines/belvidere_il/\w+\.(?:py|sh)", l)}
+    assert scripts and all(os.path.exists(os.path.join(ROOT, s)) for s in scripts)
+    assert sum("extract_budget.py FY" in l for l in out) == 13 and sum("extract_audit.py FY" in l for l in out) == 15
+    assert out[-1].endswith("rebuild_all.sh")
