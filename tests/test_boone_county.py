@@ -30,3 +30,31 @@ def test_adjacent_documents_agree_on_the_shared_budget_column():
     shared = [(k, v) for k, v in a.items() if k[1:] == ("2025", "final") and (k[0], "2025", "budget") in b]
     bad = [k for k, v in shared if abs(v - b[(k[0], "2025", "budget")]) > 1]
     assert len(shared) == 793 and len(bad) == 16  # restated prior-year budgets, to be listed as exceptions
+
+
+AUD = EX / "audits"
+
+
+def audit_rows(fy):
+    return list(csv.DictReader(open(AUD / f"FY{fy}_audit_fund_statements.csv", newline="")))
+
+
+def test_audit_fund_statements_pass_every_check_in_all_eleven_audits():
+    for fy in range(2015, 2026):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_fund_checks.csv", newline="")))
+        assert len(checks) >= 18 and all(c["ok"] == "True" for c in checks), fy
+
+
+def test_general_fund_balance_chain_between_audits():
+    def lines(fy, col):
+        return [(r["label"], int(r["amount"])) for r in audit_rows(fy) if r["statement"] == "changes" and r["col"] == col]
+
+    def beginning(fy, col):
+        return next(v for l, v in lines(fy, col) if "beginning" in l.lower() or "DECEMBER 1" in l.upper())
+    for fy in range(2015, 2025):
+        want = lines(fy, "General")[-1][1]
+        got = beginning(fy + 1, "General")
+        # FY2021's audit restates the General Fund opening balance by 100,024 (Note 15: prior year restatement)
+        assert got == want or (fy, got - want) == (2021, 100024), (fy, want, got)
+    assert lines(2025, "General")[-1][1] == 13812064
+    assert lines(2025, "Total Governmental")[-1][1] == 43666257

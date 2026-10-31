@@ -1,0 +1,257 @@
+doc_id,pdf_page,statement,row_seq,prev_text,label,col,amount
+FY2024_audit,34,balance_sheet,1,,Cash and investments,General,15967863
+FY2024_audit,34,balance_sheet,1,,Cash and investments,American Rescue Plan Grant,6714062
+FY2024_audit,34,balance_sheet,1,,Cash and investments,Nonmajor Governmental,25158850
+FY2024_audit,34,balance_sheet,1,,Cash and investments,Total Governmental,47840775
+FY2024_audit,34,balance_sheet,2,Receivables,Property taxes,General,7400000
+FY2024_audit,34,balance_sheet,2,Receivables,Property taxes,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,2,Receivables,Property taxes,Nonmajor Governmental,5851360
+FY2024_audit,34,balance_sheet,2,Receivables,Property taxes,Total Governmental,13251360
+FY2024_audit,34,balance_sheet,3,,Accounts,General,393211
+FY2024_audit,34,balance_sheet,3,,Accounts,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,3,,Accounts,Nonmajor Governmental,702255
+FY2024_audit,34,balance_sheet,3,,Accounts,Total Governmental,1095466
+FY2024_audit,34,balance_sheet,4,,Intergovernmental,General,1011484
+FY2024_audit,34,balance_sheet,4,,Intergovernmental,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,4,,Intergovernmental,Nonmajor Governmental,1418626
+FY2024_audit,34,balance_sheet,4,,Intergovernmental,Total Governmental,2430110
+FY2024_audit,34,balance_sheet,5,,Leases,General,737314
+FY2024_audit,34,balance_sheet,5,,Leases,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,5,,Leases,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,5,,Leases,Total Governmental,737314
+FY2024_audit,34,balance_sheet,6,,Other,General,12183
+FY2024_audit,34,balance_sheet,6,,Other,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,6,,Other,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,6,,Other,Total Governmental,12183
+FY2024_audit,34,balance_sheet,7,,Prepaids,General,0
+FY2024_audit,34,balance_sheet,7,,Prepaids,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,7,,Prepaids,Nonmajor Governmental,295913
+FY2024_audit,34,balance_sheet,7,,Prepaids,Total Governmental,295913
+FY2024_audit,34,balance_sheet,8,,Inventory,General,0
+FY2024_audit,34,balance_sheet,8,,Inventory,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,8,,Inventory,Nonmajor Governmental,35793
+FY2024_audit,34,balance_sheet,8,,Inventory,Total Governmental,35793
+FY2024_audit,34,balance_sheet,9,,Due from other funds,General,1012626
+FY2024_audit,34,balance_sheet,9,,Due from other funds,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,9,,Due from other funds,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,9,,Due from other funds,Total Governmental,1012626
+FY2024_audit,34,balance_sheet,10,,TOTAL ASSETS,General,26534681
+FY2024_audit,34,balance_sheet,10,,TOTAL ASSETS,American Rescue Plan Grant,6714062
+FY2024_audit,34,balance_sheet,10,,TOTAL ASSETS,Nonmajor Governmental,33462797
+FY2024_audit,34,balance_sheet,10,,TOTAL ASSETS,Total Governmental,66711540
+FY2024_audit,34,balance_sheet,11,"LIABILITIES, DEFERRED INFLOWS OF RESOURCES AND FUND BALANCES LIABILITIES",Accounts payable,General,134534
+FY2024_audit,34,balance_sheet,11,"LIABILITIES, DEFERRED INFLOWS OF RESOURCES AND FUND BALANCES LIABILITIES",Accounts payable,American Rescue Plan Grant,43601
+FY2024_audit,34,balance_sheet,11,"LIABILITIES, DEFERRED INFLOWS OF RESOURCES AND FUND BALANCES LIABILITIES",Accounts payable,Nonmajor Governmental,56563
+FY2024_audit,34,balance_sheet,11,"LIABILITIES, DEFERRED INFLOWS OF RESOURCES AND FUND BALANCES LIABILITIES",Accounts payable,Total Governmental,234698
+FY2024_audit,34,balance_sheet,12,,Accrued payroll,General,377943
+FY2024_audit,34,balance_sheet,12,,Accrued payroll,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,12,,Accrued payroll,Nonmajor Governmental,404537
+FY2024_audit,34,balance_sheet,12,,Accrued payroll,Total Governmental,782480
+FY2024_audit,34,balance_sheet,13,,Unearned revenue,General,0
+FY2024_audit,34,balance_sheet,13,,Unearned revenue,American Rescue Plan Grant,6082700
+FY2024_audit,34,balance_sheet,13,,Unearned revenue,Nonmajor Governmental,412501
+FY2024_audit,34,balance_sheet,13,,Unearned revenue,Total Governmental,6495201
+FY2024_audit,34,balance_sheet,14,,Due to other funds,General,0
+FY2024_audit,34,balance_sheet,14,,Due to other funds,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,14,,Due to other funds,Nonmajor Governmental,1012626
+FY2024_audit,34,balance_sheet,14,,Due to other funds,Total Governmental,1012626
+FY2024_audit,34,balance_sheet,15,,Total liabilities,General,512477
+FY2024_audit,34,balance_sheet,15,,Total liabilities,American Rescue Plan Grant,6126301
+FY2024_audit,34,balance_sheet,15,,Total liabilities,Nonmajor Governmental,1886227
+FY2024_audit,34,balance_sheet,15,,Total liabilities,Total Governmental,8525005
+FY2024_audit,34,balance_sheet,16,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,General,7400000
+FY2024_audit,34,balance_sheet,16,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,16,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,Nonmajor Governmental,5851360
+FY2024_audit,34,balance_sheet,16,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,Total Governmental,13251360
+FY2024_audit,34,balance_sheet,17,,Unavailable revenue - grants,General,0
+FY2024_audit,34,balance_sheet,17,,Unavailable revenue - grants,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,17,,Unavailable revenue - grants,Nonmajor Governmental,213381
+FY2024_audit,34,balance_sheet,17,,Unavailable revenue - grants,Total Governmental,213381
+FY2024_audit,34,balance_sheet,18,,Deferred inflows - leases,General,703330
+FY2024_audit,34,balance_sheet,18,,Deferred inflows - leases,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,18,,Deferred inflows - leases,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,18,,Deferred inflows - leases,Total Governmental,703330
+FY2024_audit,34,balance_sheet,19,,Total deferred inflows of resources,General,8103330
+FY2024_audit,34,balance_sheet,19,,Total deferred inflows of resources,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,19,,Total deferred inflows of resources,Nonmajor Governmental,6064741
+FY2024_audit,34,balance_sheet,19,,Total deferred inflows of resources,Total Governmental,14168071
+FY2024_audit,34,balance_sheet,20,,Total liabilities and deferred inflows of resources,General,8615807
+FY2024_audit,34,balance_sheet,20,,Total liabilities and deferred inflows of resources,American Rescue Plan Grant,6126301
+FY2024_audit,34,balance_sheet,20,,Total liabilities and deferred inflows of resources,Nonmajor Governmental,7950968
+FY2024_audit,34,balance_sheet,20,,Total liabilities and deferred inflows of resources,Total Governmental,22693076
+FY2024_audit,34,balance_sheet,21,Nonspendable,Inventory,General,0
+FY2024_audit,34,balance_sheet,21,Nonspendable,Inventory,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,21,Nonspendable,Inventory,Nonmajor Governmental,35793
+FY2024_audit,34,balance_sheet,21,Nonspendable,Inventory,Total Governmental,35793
+FY2024_audit,34,balance_sheet,22,Restricted,General control and administration,General,0
+FY2024_audit,34,balance_sheet,22,Restricted,General control and administration,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,22,Restricted,General control and administration,Nonmajor Governmental,1671939
+FY2024_audit,34,balance_sheet,22,Restricted,General control and administration,Total Governmental,1671939
+FY2024_audit,34,balance_sheet,23,,Public safety,General,0
+FY2024_audit,34,balance_sheet,23,,Public safety,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,23,,Public safety,Nonmajor Governmental,5721003
+FY2024_audit,34,balance_sheet,23,,Public safety,Total Governmental,5721003
+FY2024_audit,34,balance_sheet,24,,Judiciary and courts,General,0
+FY2024_audit,34,balance_sheet,24,,Judiciary and courts,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,24,,Judiciary and courts,Nonmajor Governmental,1881839
+FY2024_audit,34,balance_sheet,24,,Judiciary and courts,Total Governmental,1881839
+FY2024_audit,34,balance_sheet,25,,Highways and bridges,General,0
+FY2024_audit,34,balance_sheet,25,,Highways and bridges,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,25,,Highways and bridges,Nonmajor Governmental,15086311
+FY2024_audit,34,balance_sheet,25,,Highways and bridges,Total Governmental,15086311
+FY2024_audit,34,balance_sheet,26,,Public health,General,0
+FY2024_audit,34,balance_sheet,26,,Public health,American Rescue Plan Grant,587761
+FY2024_audit,34,balance_sheet,26,,Public health,Nonmajor Governmental,1189606
+FY2024_audit,34,balance_sheet,26,,Public health,Total Governmental,1777367
+FY2024_audit,34,balance_sheet,27,,Public welfare,General,0
+FY2024_audit,34,balance_sheet,27,,Public welfare,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,27,,Public welfare,Nonmajor Governmental,113949
+FY2024_audit,34,balance_sheet,27,,Public welfare,Total Governmental,113949
+FY2024_audit,34,balance_sheet,28,,Capital improvements,General,0
+FY2024_audit,34,balance_sheet,28,,Capital improvements,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,28,,Capital improvements,Nonmajor Governmental,123066
+FY2024_audit,34,balance_sheet,28,,Capital improvements,Total Governmental,123066
+FY2024_audit,34,balance_sheet,29,Assigned,Subsequent year budget deficit,General,0
+FY2024_audit,34,balance_sheet,29,Assigned,Subsequent year budget deficit,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,29,Assigned,Subsequent year budget deficit,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,29,Assigned,Subsequent year budget deficit,Total Governmental,0
+FY2024_audit,34,balance_sheet,30,,General control and administration,General,1165563
+FY2024_audit,34,balance_sheet,30,,General control and administration,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,30,,General control and administration,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,30,,General control and administration,Total Governmental,1165563
+FY2024_audit,34,balance_sheet,31,,Public safety,General,114004
+FY2024_audit,34,balance_sheet,31,,Public safety,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,31,,Public safety,Nonmajor Governmental,0
+FY2024_audit,34,balance_sheet,31,,Public safety,Total Governmental,114004
+FY2024_audit,34,balance_sheet,32,,Capital purposes,General,0
+FY2024_audit,34,balance_sheet,32,,Capital purposes,American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,32,,Capital purposes,Nonmajor Governmental,357179
+FY2024_audit,34,balance_sheet,32,,Capital purposes,Total Governmental,357179
+FY2024_audit,34,balance_sheet,33,,Unassigned (deficit),General,16639307
+FY2024_audit,34,balance_sheet,33,,Unassigned (deficit),American Rescue Plan Grant,0
+FY2024_audit,34,balance_sheet,33,,Unassigned (deficit),Nonmajor Governmental,-668856
+FY2024_audit,34,balance_sheet,33,,Unassigned (deficit),Total Governmental,15970451
+FY2024_audit,34,balance_sheet,34,,Total fund balances,General,17918874
+FY2024_audit,34,balance_sheet,34,,Total fund balances,American Rescue Plan Grant,587761
+FY2024_audit,34,balance_sheet,34,,Total fund balances,Nonmajor Governmental,25511829
+FY2024_audit,34,balance_sheet,34,,Total fund balances,Total Governmental,44018464
+FY2024_audit,34,balance_sheet,35,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,General,26534681
+FY2024_audit,34,balance_sheet,35,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,American Rescue Plan Grant,6714062
+FY2024_audit,34,balance_sheet,35,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,Nonmajor Governmental,33462797
+FY2024_audit,34,balance_sheet,35,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,Total Governmental,66711540
+FY2024_audit,36,changes,1,,Taxes,General,7553748
+FY2024_audit,36,changes,1,,Taxes,American Rescue Plan Grant,0
+FY2024_audit,36,changes,1,,Taxes,Nonmajor Governmental,8058159
+FY2024_audit,36,changes,1,,Taxes,Total Governmental,15611907
+FY2024_audit,36,changes,2,,Intergovernmental,General,9983528
+FY2024_audit,36,changes,2,,Intergovernmental,American Rescue Plan Grant,1442888
+FY2024_audit,36,changes,2,,Intergovernmental,Nonmajor Governmental,7390357
+FY2024_audit,36,changes,2,,Intergovernmental,Total Governmental,18816773
+FY2024_audit,36,changes,3,,Charges for services,General,2212678
+FY2024_audit,36,changes,3,,Charges for services,American Rescue Plan Grant,0
+FY2024_audit,36,changes,3,,Charges for services,Nonmajor Governmental,2612945
+FY2024_audit,36,changes,3,,Charges for services,Total Governmental,4825623
+FY2024_audit,36,changes,4,,Investment income,General,713194
+FY2024_audit,36,changes,4,,Investment income,American Rescue Plan Grant,389035
+FY2024_audit,36,changes,4,,Investment income,Nonmajor Governmental,1054125
+FY2024_audit,36,changes,4,,Investment income,Total Governmental,2156354
+FY2024_audit,36,changes,5,,Miscellaneous,General,766178
+FY2024_audit,36,changes,5,,Miscellaneous,American Rescue Plan Grant,0
+FY2024_audit,36,changes,5,,Miscellaneous,Nonmajor Governmental,378258
+FY2024_audit,36,changes,5,,Miscellaneous,Total Governmental,1144436
+FY2024_audit,36,changes,6,,Total revenues,General,21229326
+FY2024_audit,36,changes,6,,Total revenues,American Rescue Plan Grant,1831923
+FY2024_audit,36,changes,6,,Total revenues,Nonmajor Governmental,19493844
+FY2024_audit,36,changes,6,,Total revenues,Total Governmental,42555093
+FY2024_audit,36,changes,7,Current,General control and administration,General,3868753
+FY2024_audit,36,changes,7,Current,General control and administration,American Rescue Plan Grant,0
+FY2024_audit,36,changes,7,Current,General control and administration,Nonmajor Governmental,3548009
+FY2024_audit,36,changes,7,Current,General control and administration,Total Governmental,7416762
+FY2024_audit,36,changes,8,,Public safety,General,8478994
+FY2024_audit,36,changes,8,,Public safety,American Rescue Plan Grant,0
+FY2024_audit,36,changes,8,,Public safety,Nonmajor Governmental,2077921
+FY2024_audit,36,changes,8,,Public safety,Total Governmental,10556915
+FY2024_audit,36,changes,9,,Judiciary and courts,General,7127637
+FY2024_audit,36,changes,9,,Judiciary and courts,American Rescue Plan Grant,0
+FY2024_audit,36,changes,9,,Judiciary and courts,Nonmajor Governmental,844448
+FY2024_audit,36,changes,9,,Judiciary and courts,Total Governmental,7972085
+FY2024_audit,36,changes,10,,Highways and bridges,General,0
+FY2024_audit,36,changes,10,,Highways and bridges,American Rescue Plan Grant,0
+FY2024_audit,36,changes,10,,Highways and bridges,Nonmajor Governmental,5914970
+FY2024_audit,36,changes,10,,Highways and bridges,Total Governmental,5914970
+FY2024_audit,36,changes,11,,Public health,General,0
+FY2024_audit,36,changes,11,,Public health,American Rescue Plan Grant,1486489
+FY2024_audit,36,changes,11,,Public health,Nonmajor Governmental,2438429
+FY2024_audit,36,changes,11,,Public health,Total Governmental,3924918
+FY2024_audit,36,changes,12,,Public welfare,General,0
+FY2024_audit,36,changes,12,,Public welfare,American Rescue Plan Grant,0
+FY2024_audit,36,changes,12,,Public welfare,Nonmajor Governmental,51163
+FY2024_audit,36,changes,12,,Public welfare,Total Governmental,51163
+FY2024_audit,36,changes,13,,Capital outlay,General,1789713
+FY2024_audit,36,changes,13,,Capital outlay,American Rescue Plan Grant,0
+FY2024_audit,36,changes,13,,Capital outlay,Nonmajor Governmental,1988727
+FY2024_audit,36,changes,13,,Capital outlay,Total Governmental,3778440
+FY2024_audit,36,changes,14,Debt service,Principal retirement,General,202846
+FY2024_audit,36,changes,14,Debt service,Principal retirement,American Rescue Plan Grant,443
+FY2024_audit,36,changes,14,Debt service,Principal retirement,Nonmajor Governmental,318569
+FY2024_audit,36,changes,14,Debt service,Principal retirement,Total Governmental,521858
+FY2024_audit,36,changes,15,,Interest and fiscal charges,General,6457
+FY2024_audit,36,changes,15,,Interest and fiscal charges,American Rescue Plan Grant,0
+FY2024_audit,36,changes,15,,Interest and fiscal charges,Nonmajor Governmental,50505
+FY2024_audit,36,changes,15,,Interest and fiscal charges,Total Governmental,56962
+FY2024_audit,36,changes,16,,Total expenditures,General,21474400
+FY2024_audit,36,changes,16,,Total expenditures,American Rescue Plan Grant,1486932
+FY2024_audit,36,changes,16,,Total expenditures,Nonmajor Governmental,17232741
+FY2024_audit,36,changes,16,,Total expenditures,Total Governmental,40194073
+FY2024_audit,36,changes,17,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,General,-245074
+FY2024_audit,36,changes,17,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,American Rescue Plan Grant,344991
+FY2024_audit,36,changes,17,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,Nonmajor Governmental,2261103
+FY2024_audit,36,changes,17,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,Total Governmental,2361020
+FY2024_audit,36,changes,18,OTHER FINANCING SOURCES (USES),Transfers in,General,2883595
+FY2024_audit,36,changes,18,OTHER FINANCING SOURCES (USES),Transfers in,American Rescue Plan Grant,0
+FY2024_audit,36,changes,18,OTHER FINANCING SOURCES (USES),Transfers in,Nonmajor Governmental,424347
+FY2024_audit,36,changes,18,OTHER FINANCING SOURCES (USES),Transfers in,Total Governmental,3307942
+FY2024_audit,36,changes,19,,Transfers (out),General,-424347
+FY2024_audit,36,changes,19,,Transfers (out),American Rescue Plan Grant,0
+FY2024_audit,36,changes,19,,Transfers (out),Nonmajor Governmental,-2883595
+FY2024_audit,36,changes,19,,Transfers (out),Total Governmental,-3307942
+FY2024_audit,36,changes,20,,SBITA issuance,General,219514
+FY2024_audit,36,changes,20,,SBITA issuance,American Rescue Plan Grant,0
+FY2024_audit,36,changes,20,,SBITA issuance,Nonmajor Governmental,236064
+FY2024_audit,36,changes,20,,SBITA issuance,Total Governmental,455578
+FY2024_audit,36,changes,21,,Notes payable issuance,General,319684
+FY2024_audit,36,changes,21,,Notes payable issuance,American Rescue Plan Grant,0
+FY2024_audit,36,changes,21,,Notes payable issuance,Nonmajor Governmental,0
+FY2024_audit,36,changes,21,,Notes payable issuance,Total Governmental,319684
+FY2024_audit,36,changes,22,,Settlement proceeds,General,0
+FY2024_audit,36,changes,22,,Settlement proceeds,American Rescue Plan Grant,0
+FY2024_audit,36,changes,22,,Settlement proceeds,Nonmajor Governmental,107443
+FY2024_audit,36,changes,22,,Settlement proceeds,Total Governmental,107443
+FY2024_audit,36,changes,23,,Sale of capital assets,General,435214
+FY2024_audit,36,changes,23,,Sale of capital assets,American Rescue Plan Grant,0
+FY2024_audit,36,changes,23,,Sale of capital assets,Nonmajor Governmental,17500
+FY2024_audit,36,changes,23,,Sale of capital assets,Total Governmental,452714
+FY2024_audit,36,changes,24,,Total other financing sources (uses),General,3433660
+FY2024_audit,36,changes,24,,Total other financing sources (uses),American Rescue Plan Grant,0
+FY2024_audit,36,changes,24,,Total other financing sources (uses),Nonmajor Governmental,-2098241
+FY2024_audit,36,changes,24,,Total other financing sources (uses),Total Governmental,1335419
+FY2024_audit,36,changes,25,,NET CHANGE IN FUND BALANCES,General,3188586
+FY2024_audit,36,changes,25,,NET CHANGE IN FUND BALANCES,American Rescue Plan Grant,344991
+FY2024_audit,36,changes,25,,NET CHANGE IN FUND BALANCES,Nonmajor Governmental,162862
+FY2024_audit,36,changes,25,,NET CHANGE IN FUND BALANCES,Total Governmental,3696439
+FY2024_audit,36,changes,26,,"FUND BALANCE, DECEMBER 1, AS REPORTED",General,14744008
+FY2024_audit,36,changes,26,,"FUND BALANCE, DECEMBER 1, AS REPORTED",American Rescue Plan Grant,242770
+FY2024_audit,36,changes,26,,"FUND BALANCE, DECEMBER 1, AS REPORTED",Nonmajor Governmental,24837574
+FY2024_audit,36,changes,26,,"FUND BALANCE, DECEMBER 1, AS REPORTED",Total Governmental,39824352
+FY2024_audit,36,changes,27,,Error correction,General,-13720
+FY2024_audit,36,changes,27,,Error correction,American Rescue Plan Grant,0
+FY2024_audit,36,changes,27,,Error correction,Nonmajor Governmental,511393
+FY2024_audit,36,changes,27,,Error correction,Total Governmental,497673
+FY2024_audit,36,changes,28,,"FUND BALANCE, DECEMBER 1, AS RESTATED",General,14730288
+FY2024_audit,36,changes,28,,"FUND BALANCE, DECEMBER 1, AS RESTATED",American Rescue Plan Grant,242770
+FY2024_audit,36,changes,28,,"FUND BALANCE, DECEMBER 1, AS RESTATED",Nonmajor Governmental,25348967
+FY2024_audit,36,changes,28,,"FUND BALANCE, DECEMBER 1, AS RESTATED",Total Governmental,40322025
+FY2024_audit,36,changes,29,,"FUND BALANCE, NOVEMBER 30",General,17918874
+FY2024_audit,36,changes,29,,"FUND BALANCE, NOVEMBER 30",American Rescue Plan Grant,587761
+FY2024_audit,36,changes,29,,"FUND BALANCE, NOVEMBER 30",Nonmajor Governmental,25511829
+FY2024_audit,36,changes,29,,"FUND BALANCE, NOVEMBER 30",Total Governmental,44018464

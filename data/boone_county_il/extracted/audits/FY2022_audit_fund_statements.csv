@@ -1,0 +1,251 @@
+doc_id,pdf_page,statement,row_seq,prev_text,label,col,amount
+FY2022_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",General,10443003
+FY2022_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Motor Fuel Tax,7048777
+FY2022_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",American Rescue Plan Grant,9617677
+FY2022_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Other Governmental,18768182
+FY2022_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Total Governmental,45877639
+FY2022_audit,26,balance_sheet,2,,Property taxes,General,7400000
+FY2022_audit,26,balance_sheet,2,,Property taxes,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,2,,Property taxes,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,2,,Property taxes,Other Governmental,4967182
+FY2022_audit,26,balance_sheet,2,,Property taxes,Total Governmental,12367182
+FY2022_audit,26,balance_sheet,3,,Accounts receivable,General,339310
+FY2022_audit,26,balance_sheet,3,,Accounts receivable,Motor Fuel Tax,240000
+FY2022_audit,26,balance_sheet,3,,Accounts receivable,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,3,,Accounts receivable,Other Governmental,337635
+FY2022_audit,26,balance_sheet,3,,Accounts receivable,Total Governmental,916945
+FY2022_audit,26,balance_sheet,4,,Due from State of Illinois,General,1300361
+FY2022_audit,26,balance_sheet,4,,Due from State of Illinois,Motor Fuel Tax,104362
+FY2022_audit,26,balance_sheet,4,,Due from State of Illinois,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,4,,Due from State of Illinois,Other Governmental,1137609
+FY2022_audit,26,balance_sheet,4,,Due from State of Illinois,Total Governmental,2542332
+FY2022_audit,26,balance_sheet,5,,Inventories,General,0
+FY2022_audit,26,balance_sheet,5,,Inventories,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,5,,Inventories,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,5,,Inventories,Other Governmental,14156
+FY2022_audit,26,balance_sheet,5,,Inventories,Total Governmental,14156
+FY2022_audit,26,balance_sheet,6,,Due from other funds,General,0
+FY2022_audit,26,balance_sheet,6,,Due from other funds,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,6,,Due from other funds,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,6,,Due from other funds,Other Governmental,261227
+FY2022_audit,26,balance_sheet,6,,Due from other funds,Total Governmental,261227
+FY2022_audit,26,balance_sheet,7,,Lease receivables,General,1023938
+FY2022_audit,26,balance_sheet,7,,Lease receivables,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,7,,Lease receivables,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,7,,Lease receivables,Other Governmental,0
+FY2022_audit,26,balance_sheet,7,,Lease receivables,Total Governmental,1023938
+FY2022_audit,26,balance_sheet,8,,Total assets,General,20506612
+FY2022_audit,26,balance_sheet,8,,Total assets,Motor Fuel Tax,7393139
+FY2022_audit,26,balance_sheet,8,,Total assets,American Rescue Plan Grant,9617677
+FY2022_audit,26,balance_sheet,8,,Total assets,Other Governmental,25485991
+FY2022_audit,26,balance_sheet,8,,Total assets,Total Governmental,63003419
+FY2022_audit,26,balance_sheet,9,Liabilities,Accounts payable,General,186242
+FY2022_audit,26,balance_sheet,9,Liabilities,Accounts payable,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,9,Liabilities,Accounts payable,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,9,Liabilities,Accounts payable,Other Governmental,304480
+FY2022_audit,26,balance_sheet,9,Liabilities,Accounts payable,Total Governmental,490722
+FY2022_audit,26,balance_sheet,10,,Payroll and related,General,646011
+FY2022_audit,26,balance_sheet,10,,Payroll and related,Motor Fuel Tax,5763
+FY2022_audit,26,balance_sheet,10,,Payroll and related,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,10,,Payroll and related,Other Governmental,216430
+FY2022_audit,26,balance_sheet,10,,Payroll and related,Total Governmental,868204
+FY2022_audit,26,balance_sheet,11,,Unearned grant revenue,General,0
+FY2022_audit,26,balance_sheet,11,,Unearned grant revenue,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,11,,Unearned grant revenue,American Rescue Plan Grant,9585695
+FY2022_audit,26,balance_sheet,11,,Unearned grant revenue,Other Governmental,69945
+FY2022_audit,26,balance_sheet,11,,Unearned grant revenue,Total Governmental,9655640
+FY2022_audit,26,balance_sheet,12,,Funds held in trust,General,178203
+FY2022_audit,26,balance_sheet,12,,Funds held in trust,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,12,,Funds held in trust,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,12,,Funds held in trust,Other Governmental,0
+FY2022_audit,26,balance_sheet,12,,Funds held in trust,Total Governmental,178203
+FY2022_audit,26,balance_sheet,13,,Due to other funds,General,0
+FY2022_audit,26,balance_sheet,13,,Due to other funds,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,13,,Due to other funds,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,13,,Due to other funds,Other Governmental,261227
+FY2022_audit,26,balance_sheet,13,,Due to other funds,Total Governmental,261227
+FY2022_audit,26,balance_sheet,14,,Total liabilities,General,1010456
+FY2022_audit,26,balance_sheet,14,,Total liabilities,Motor Fuel Tax,5763
+FY2022_audit,26,balance_sheet,14,,Total liabilities,American Rescue Plan Grant,9585695
+FY2022_audit,26,balance_sheet,14,,Total liabilities,Other Governmental,852082
+FY2022_audit,26,balance_sheet,14,,Total liabilities,Total Governmental,11453996
+FY2022_audit,26,balance_sheet,15,Deferred inflows of resources,Unavailable property taxes,General,7400000
+FY2022_audit,26,balance_sheet,15,Deferred inflows of resources,Unavailable property taxes,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,15,Deferred inflows of resources,Unavailable property taxes,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,15,Deferred inflows of resources,Unavailable property taxes,Other Governmental,4967182
+FY2022_audit,26,balance_sheet,15,Deferred inflows of resources,Unavailable property taxes,Total Governmental,12367182
+FY2022_audit,26,balance_sheet,16,,Deferred revenue - leases,General,904676
+FY2022_audit,26,balance_sheet,16,,Deferred revenue - leases,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,16,,Deferred revenue - leases,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,16,,Deferred revenue - leases,Other Governmental,0
+FY2022_audit,26,balance_sheet,16,,Deferred revenue - leases,Total Governmental,904676
+FY2022_audit,26,balance_sheet,17,,Total deferred inflows of resources,General,8304676
+FY2022_audit,26,balance_sheet,17,,Total deferred inflows of resources,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,17,,Total deferred inflows of resources,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,17,,Total deferred inflows of resources,Other Governmental,4967182
+FY2022_audit,26,balance_sheet,17,,Total deferred inflows of resources,Total Governmental,13271858
+FY2022_audit,26,balance_sheet,18,Fund balances,Nonspendable,General,0
+FY2022_audit,26,balance_sheet,18,Fund balances,Nonspendable,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,18,Fund balances,Nonspendable,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,18,Fund balances,Nonspendable,Other Governmental,14156
+FY2022_audit,26,balance_sheet,18,Fund balances,Nonspendable,Total Governmental,14156
+FY2022_audit,26,balance_sheet,19,,Restricted,General,0
+FY2022_audit,26,balance_sheet,19,,Restricted,Motor Fuel Tax,7387376
+FY2022_audit,26,balance_sheet,19,,Restricted,American Rescue Plan Grant,31982
+FY2022_audit,26,balance_sheet,19,,Restricted,Other Governmental,19583230
+FY2022_audit,26,balance_sheet,19,,Restricted,Total Governmental,27002588
+FY2022_audit,26,balance_sheet,20,,Assigned,General,153890
+FY2022_audit,26,balance_sheet,20,,Assigned,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,20,,Assigned,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,20,,Assigned,Other Governmental,346652
+FY2022_audit,26,balance_sheet,20,,Assigned,Total Governmental,500542
+FY2022_audit,26,balance_sheet,21,,Unassigned,General,11037590
+FY2022_audit,26,balance_sheet,21,,Unassigned,Motor Fuel Tax,0
+FY2022_audit,26,balance_sheet,21,,Unassigned,American Rescue Plan Grant,0
+FY2022_audit,26,balance_sheet,21,,Unassigned,Other Governmental,-277311
+FY2022_audit,26,balance_sheet,21,,Unassigned,Total Governmental,10760279
+FY2022_audit,26,balance_sheet,22,,Total fund balances,General,11191480
+FY2022_audit,26,balance_sheet,22,,Total fund balances,Motor Fuel Tax,7387376
+FY2022_audit,26,balance_sheet,22,,Total fund balances,American Rescue Plan Grant,31982
+FY2022_audit,26,balance_sheet,22,,Total fund balances,Other Governmental,19666727
+FY2022_audit,26,balance_sheet,22,,Total fund balances,Total Governmental,38277565
+FY2022_audit,26,balance_sheet,23,"Total liabilities, deferred inflows of","resources, and fund balances",General,20506612
+FY2022_audit,26,balance_sheet,23,"Total liabilities, deferred inflows of","resources, and fund balances",Motor Fuel Tax,7393139
+FY2022_audit,26,balance_sheet,23,"Total liabilities, deferred inflows of","resources, and fund balances",American Rescue Plan Grant,9617677
+FY2022_audit,26,balance_sheet,23,"Total liabilities, deferred inflows of","resources, and fund balances",Other Governmental,25485991
+FY2022_audit,26,balance_sheet,23,"Total liabilities, deferred inflows of","resources, and fund balances",Total Governmental,63003419
+FY2022_audit,29,changes,1,,Taxes,General,7436658
+FY2022_audit,29,changes,1,,Taxes,Motor Fuel Tax,0
+FY2022_audit,29,changes,1,,Taxes,American Rescue Plan Grant,0
+FY2022_audit,29,changes,1,,Taxes,Other Governmental,4870643
+FY2022_audit,29,changes,1,,Taxes,Total Governmental,12307301
+FY2022_audit,29,changes,2,,Intergovernmental revenues,General,10454718
+FY2022_audit,29,changes,2,,Intergovernmental revenues,Motor Fuel Tax,2910789
+FY2022_audit,29,changes,2,,Intergovernmental revenues,American Rescue Plan Grant,378599
+FY2022_audit,29,changes,2,,Intergovernmental revenues,Other Governmental,6765377
+FY2022_audit,29,changes,2,,Intergovernmental revenues,Total Governmental,20509483
+FY2022_audit,29,changes,3,,Charges for services,General,0
+FY2022_audit,29,changes,3,,Charges for services,Motor Fuel Tax,16416
+FY2022_audit,29,changes,3,,Charges for services,American Rescue Plan Grant,0
+FY2022_audit,29,changes,3,,Charges for services,Other Governmental,2702358
+FY2022_audit,29,changes,3,,Charges for services,Total Governmental,2718774
+FY2022_audit,29,changes,4,,Licenses and permits,General,2051302
+FY2022_audit,29,changes,4,,Licenses and permits,Motor Fuel Tax,0
+FY2022_audit,29,changes,4,,Licenses and permits,American Rescue Plan Grant,0
+FY2022_audit,29,changes,4,,Licenses and permits,Other Governmental,882314
+FY2022_audit,29,changes,4,,Licenses and permits,Total Governmental,2933616
+FY2022_audit,29,changes,5,,Fines and forfeitures,General,0
+FY2022_audit,29,changes,5,,Fines and forfeitures,Motor Fuel Tax,0
+FY2022_audit,29,changes,5,,Fines and forfeitures,American Rescue Plan Grant,0
+FY2022_audit,29,changes,5,,Fines and forfeitures,Other Governmental,4100
+FY2022_audit,29,changes,5,,Fines and forfeitures,Total Governmental,4100
+FY2022_audit,29,changes,6,,Other revenue,General,0
+FY2022_audit,29,changes,6,,Other revenue,Motor Fuel Tax,0
+FY2022_audit,29,changes,6,,Other revenue,American Rescue Plan Grant,0
+FY2022_audit,29,changes,6,,Other revenue,Other Governmental,1580
+FY2022_audit,29,changes,6,,Other revenue,Total Governmental,1580
+FY2022_audit,29,changes,7,,Interest,General,78005
+FY2022_audit,29,changes,7,,Interest,Motor Fuel Tax,36822
+FY2022_audit,29,changes,7,,Interest,American Rescue Plan Grant,50681
+FY2022_audit,29,changes,7,,Interest,Other Governmental,101542
+FY2022_audit,29,changes,7,,Interest,Total Governmental,267050
+FY2022_audit,29,changes,8,,Miscellaneous,General,278171
+FY2022_audit,29,changes,8,,Miscellaneous,Motor Fuel Tax,0
+FY2022_audit,29,changes,8,,Miscellaneous,American Rescue Plan Grant,0
+FY2022_audit,29,changes,8,,Miscellaneous,Other Governmental,427639
+FY2022_audit,29,changes,8,,Miscellaneous,Total Governmental,705810
+FY2022_audit,29,changes,9,,Total revenues,General,20298854
+FY2022_audit,29,changes,9,,Total revenues,Motor Fuel Tax,2964027
+FY2022_audit,29,changes,9,,Total revenues,American Rescue Plan Grant,429280
+FY2022_audit,29,changes,9,,Total revenues,Other Governmental,15755553
+FY2022_audit,29,changes,9,,Total revenues,Total Governmental,39447714
+FY2022_audit,29,changes,10,Current:,General control and administration,General,3187299
+FY2022_audit,29,changes,10,Current:,General control and administration,Motor Fuel Tax,0
+FY2022_audit,29,changes,10,Current:,General control and administration,American Rescue Plan Grant,61063
+FY2022_audit,29,changes,10,Current:,General control and administration,Other Governmental,3483647
+FY2022_audit,29,changes,10,Current:,General control and administration,Total Governmental,6732009
+FY2022_audit,29,changes,11,,Public safety,General,5915277
+FY2022_audit,29,changes,11,,Public safety,Motor Fuel Tax,0
+FY2022_audit,29,changes,11,,Public safety,American Rescue Plan Grant,0
+FY2022_audit,29,changes,11,,Public safety,Other Governmental,2770155
+FY2022_audit,29,changes,11,,Public safety,Total Governmental,8685432
+FY2022_audit,29,changes,12,,Judiciary and courts,General,8206948
+FY2022_audit,29,changes,12,,Judiciary and courts,Motor Fuel Tax,0
+FY2022_audit,29,changes,12,,Judiciary and courts,American Rescue Plan Grant,0
+FY2022_audit,29,changes,12,,Judiciary and courts,Other Governmental,726980
+FY2022_audit,29,changes,12,,Judiciary and courts,Total Governmental,8933928
+FY2022_audit,29,changes,13,,Highways and bridges,General,0
+FY2022_audit,29,changes,13,,Highways and bridges,Motor Fuel Tax,1247747
+FY2022_audit,29,changes,13,,Highways and bridges,American Rescue Plan Grant,0
+FY2022_audit,29,changes,13,,Highways and bridges,Other Governmental,2084409
+FY2022_audit,29,changes,13,,Highways and bridges,Total Governmental,3332156
+FY2022_audit,29,changes,14,,Public health,General,25273
+FY2022_audit,29,changes,14,,Public health,Motor Fuel Tax,0
+FY2022_audit,29,changes,14,,Public health,American Rescue Plan Grant,309216
+FY2022_audit,29,changes,14,,Public health,Other Governmental,2372474
+FY2022_audit,29,changes,14,,Public health,Total Governmental,2706963
+FY2022_audit,29,changes,15,,Public welfare,General,0
+FY2022_audit,29,changes,15,,Public welfare,Motor Fuel Tax,0
+FY2022_audit,29,changes,15,,Public welfare,American Rescue Plan Grant,0
+FY2022_audit,29,changes,15,,Public welfare,Other Governmental,354672
+FY2022_audit,29,changes,15,,Public welfare,Total Governmental,354672
+FY2022_audit,29,changes,16,Debt service,Principal,General,131132
+FY2022_audit,29,changes,16,Debt service,Principal,Motor Fuel Tax,0
+FY2022_audit,29,changes,16,Debt service,Principal,American Rescue Plan Grant,0
+FY2022_audit,29,changes,16,Debt service,Principal,Other Governmental,272000
+FY2022_audit,29,changes,16,Debt service,Principal,Total Governmental,403132
+FY2022_audit,29,changes,17,,Interest on long-term debt,General,5534
+FY2022_audit,29,changes,17,,Interest on long-term debt,Motor Fuel Tax,0
+FY2022_audit,29,changes,17,,Interest on long-term debt,American Rescue Plan Grant,0
+FY2022_audit,29,changes,17,,Interest on long-term debt,Other Governmental,0
+FY2022_audit,29,changes,17,,Interest on long-term debt,Total Governmental,5534
+FY2022_audit,29,changes,18,,Fiscal agent fees,General,0
+FY2022_audit,29,changes,18,,Fiscal agent fees,Motor Fuel Tax,0
+FY2022_audit,29,changes,18,,Fiscal agent fees,American Rescue Plan Grant,0
+FY2022_audit,29,changes,18,,Fiscal agent fees,Other Governmental,64850
+FY2022_audit,29,changes,18,,Fiscal agent fees,Total Governmental,64850
+FY2022_audit,29,changes,19,,Capital outlay,General,318548
+FY2022_audit,29,changes,19,,Capital outlay,Motor Fuel Tax,4537
+FY2022_audit,29,changes,19,,Capital outlay,American Rescue Plan Grant,69383
+FY2022_audit,29,changes,19,,Capital outlay,Other Governmental,423351
+FY2022_audit,29,changes,19,,Capital outlay,Total Governmental,815819
+FY2022_audit,29,changes,20,,Total expenditures,General,17790011
+FY2022_audit,29,changes,20,,Total expenditures,Motor Fuel Tax,1252284
+FY2022_audit,29,changes,20,,Total expenditures,American Rescue Plan Grant,439662
+FY2022_audit,29,changes,20,,Total expenditures,Other Governmental,12552538
+FY2022_audit,29,changes,20,,Total expenditures,Total Governmental,32034495
+FY2022_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,General,2508843
+FY2022_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Motor Fuel Tax,1711743
+FY2022_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,American Rescue Plan Grant,-10382
+FY2022_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Other Governmental,3203015
+FY2022_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Total Governmental,7413219
+FY2022_audit,29,changes,22,Other financing sources (uses),Transfers in,General,2413618
+FY2022_audit,29,changes,22,Other financing sources (uses),Transfers in,Motor Fuel Tax,0
+FY2022_audit,29,changes,22,Other financing sources (uses),Transfers in,American Rescue Plan Grant,0
+FY2022_audit,29,changes,22,Other financing sources (uses),Transfers in,Other Governmental,445729
+FY2022_audit,29,changes,22,Other financing sources (uses),Transfers in,Total Governmental,2859347
+FY2022_audit,29,changes,23,,Transfers out,General,-387625
+FY2022_audit,29,changes,23,,Transfers out,Motor Fuel Tax,-38517
+FY2022_audit,29,changes,23,,Transfers out,American Rescue Plan Grant,0
+FY2022_audit,29,changes,23,,Transfers out,Other Governmental,-2433205
+FY2022_audit,29,changes,23,,Transfers out,Total Governmental,-2859347
+FY2022_audit,29,changes,24,,Total other financing sources (uses),General,2025993
+FY2022_audit,29,changes,24,,Total other financing sources (uses),Motor Fuel Tax,-38517
+FY2022_audit,29,changes,24,,Total other financing sources (uses),American Rescue Plan Grant,0
+FY2022_audit,29,changes,24,,Total other financing sources (uses),Other Governmental,-1987476
+FY2022_audit,29,changes,24,,Total other financing sources (uses),Total Governmental,0
+FY2022_audit,29,changes,25,,Net change in fund balance,General,4534836
+FY2022_audit,29,changes,25,,Net change in fund balance,Motor Fuel Tax,1673226
+FY2022_audit,29,changes,25,,Net change in fund balance,American Rescue Plan Grant,-10382
+FY2022_audit,29,changes,25,,Net change in fund balance,Other Governmental,1215539
+FY2022_audit,29,changes,25,,Net change in fund balance,Total Governmental,7413219
+FY2022_audit,29,changes,26,,"Fund balances, beginning of year, as restated",General,6656644
+FY2022_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Motor Fuel Tax,5714150
+FY2022_audit,29,changes,26,,"Fund balances, beginning of year, as restated",American Rescue Plan Grant,42364
+FY2022_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Other Governmental,18451188
+FY2022_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Total Governmental,30864346
+FY2022_audit,29,changes,27,,"Fund balances, end of year",General,11191480
+FY2022_audit,29,changes,27,,"Fund balances, end of year",Motor Fuel Tax,7387376
+FY2022_audit,29,changes,27,,"Fund balances, end of year",American Rescue Plan Grant,31982
+FY2022_audit,29,changes,27,,"Fund balances, end of year",Other Governmental,19666727
+FY2022_audit,29,changes,27,,"Fund balances, end of year",Total Governmental,38277565

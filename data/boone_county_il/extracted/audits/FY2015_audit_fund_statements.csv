@@ -1,0 +1,415 @@
+doc_id,pdf_page,statement,row_seq,prev_text,label,col,amount
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,General,74137
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,County Bridge,67652
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,IMRF/Retirement,12409
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,County Motor Fuel Tax,245297
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,Nonmajor Governmental,1456498
+FY2015_audit,28,balance_sheet,1,,Cash and cash equivalents,Total Governmental,1855993
+FY2015_audit,28,balance_sheet,2,,Investments,General,2371482
+FY2015_audit,28,balance_sheet,2,,Investments,County Bridge,4758811
+FY2015_audit,28,balance_sheet,2,,Investments,IMRF/Retirement,447857
+FY2015_audit,28,balance_sheet,2,,Investments,County Motor Fuel Tax,3723554
+FY2015_audit,28,balance_sheet,2,,Investments,Nonmajor Governmental,9589474
+FY2015_audit,28,balance_sheet,2,,Investments,Total Governmental,20891178
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,General,5750000
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,County Bridge,201000
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,IMRF/Retirement,1700000
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,Nonmajor Governmental,3572824
+FY2015_audit,28,balance_sheet,3,Receivables,Property taxes,Total Governmental,11223824
+FY2015_audit,28,balance_sheet,4,,Accounts,General,549761
+FY2015_audit,28,balance_sheet,4,,Accounts,County Bridge,58367
+FY2015_audit,28,balance_sheet,4,,Accounts,IMRF/Retirement,7118
+FY2015_audit,28,balance_sheet,4,,Accounts,County Motor Fuel Tax,318196
+FY2015_audit,28,balance_sheet,4,,Accounts,Nonmajor Governmental,369812
+FY2015_audit,28,balance_sheet,4,,Accounts,Total Governmental,1303254
+FY2015_audit,28,balance_sheet,5,,Inventory,General,6200
+FY2015_audit,28,balance_sheet,5,,Inventory,County Bridge,0
+FY2015_audit,28,balance_sheet,5,,Inventory,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,5,,Inventory,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,5,,Inventory,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,5,,Inventory,Total Governmental,6200
+FY2015_audit,28,balance_sheet,6,,Due from other governments,General,989808
+FY2015_audit,28,balance_sheet,6,,Due from other governments,County Bridge,0
+FY2015_audit,28,balance_sheet,6,,Due from other governments,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,6,,Due from other governments,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,6,,Due from other governments,Nonmajor Governmental,450722
+FY2015_audit,28,balance_sheet,6,,Due from other governments,Total Governmental,1440530
+FY2015_audit,28,balance_sheet,7,,Due from other funds,General,19391
+FY2015_audit,28,balance_sheet,7,,Due from other funds,County Bridge,0
+FY2015_audit,28,balance_sheet,7,,Due from other funds,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,7,,Due from other funds,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,7,,Due from other funds,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,7,,Due from other funds,Total Governmental,19391
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,General,9760779
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,County Bridge,5085830
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,IMRF/Retirement,2167384
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,County Motor Fuel Tax,4287047
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,Nonmajor Governmental,15439330
+FY2015_audit,28,balance_sheet,8,,TOTAL ASSETS,Total Governmental,36740370
+FY2015_audit,28,balance_sheet,9,,Accounts payable,General,238046
+FY2015_audit,28,balance_sheet,9,,Accounts payable,County Bridge,74289
+FY2015_audit,28,balance_sheet,9,,Accounts payable,IMRF/Retirement,888
+FY2015_audit,28,balance_sheet,9,,Accounts payable,County Motor Fuel Tax,133073
+FY2015_audit,28,balance_sheet,9,,Accounts payable,Nonmajor Governmental,83058
+FY2015_audit,28,balance_sheet,9,,Accounts payable,Total Governmental,529354
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,General,231714
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,County Bridge,0
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,County Motor Fuel Tax,2247
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,Nonmajor Governmental,57241
+FY2015_audit,28,balance_sheet,10,,Accrued payroll,Total Governmental,291202
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,General,3130
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,County Bridge,0
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,IMRF/Retirement,189572
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,11,,IMRF payable and withholding,Total Governmental,192702
+FY2015_audit,28,balance_sheet,12,,Due to others,General,0
+FY2015_audit,28,balance_sheet,12,,Due to others,County Bridge,0
+FY2015_audit,28,balance_sheet,12,,Due to others,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,12,,Due to others,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,12,,Due to others,Nonmajor Governmental,7190
+FY2015_audit,28,balance_sheet,12,,Due to others,Total Governmental,7190
+FY2015_audit,28,balance_sheet,13,,Due to other funds,General,0
+FY2015_audit,28,balance_sheet,13,,Due to other funds,County Bridge,0
+FY2015_audit,28,balance_sheet,13,,Due to other funds,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,13,,Due to other funds,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,13,,Due to other funds,Nonmajor Governmental,19391
+FY2015_audit,28,balance_sheet,13,,Due to other funds,Total Governmental,19391
+FY2015_audit,28,balance_sheet,14,,Total liabilities,General,472890
+FY2015_audit,28,balance_sheet,14,,Total liabilities,County Bridge,74289
+FY2015_audit,28,balance_sheet,14,,Total liabilities,IMRF/Retirement,190460
+FY2015_audit,28,balance_sheet,14,,Total liabilities,County Motor Fuel Tax,135320
+FY2015_audit,28,balance_sheet,14,,Total liabilities,Nonmajor Governmental,166880
+FY2015_audit,28,balance_sheet,14,,Total liabilities,Total Governmental,1039839
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,General,5750000
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,County Bridge,201000
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,IMRF/Retirement,1700000
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,Nonmajor Governmental,3572824
+FY2015_audit,28,balance_sheet,15,DEFERRED INFLOWS OF RESOURCES,Unavailable revenue - property taxes,Total Governmental,11223824
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,General,5750000
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,County Bridge,201000
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,IMRF/Retirement,1700000
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,Nonmajor Governmental,3572824
+FY2015_audit,28,balance_sheet,16,,Total deferred inflows of resources,Total Governmental,11223824
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,General,6222890
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,County Bridge,275289
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,IMRF/Retirement,1890460
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,County Motor Fuel Tax,135320
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,Nonmajor Governmental,3739704
+FY2015_audit,28,balance_sheet,17,,Total liabilities and deferred inflows of resources,Total Governmental,12263663
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,General,6200
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,County Bridge,0
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,18,FUND BALANCES,Nonspendable - inventory,Total Governmental,6200
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,General,0
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,County Bridge,0
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,Nonmajor Governmental,546234
+FY2015_audit,28,balance_sheet,19,,Restricted for tort liability,Total Governmental,546234
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,General,0
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,County Bridge,4683420
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,County Motor Fuel Tax,4051146
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,Nonmajor Governmental,4306705
+FY2015_audit,28,balance_sheet,20,,Restricted for highways and streets,Total Governmental,13041271
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,General,0
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,County Bridge,0
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,Nonmajor Governmental,1170840
+FY2015_audit,28,balance_sheet,21,,Restricted for public safety,Total Governmental,1170840
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,General,0
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,County Bridge,0
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,Nonmajor Governmental,411294
+FY2015_audit,28,balance_sheet,22,,Restricted for health and welfare,Total Governmental,411294
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,General,0
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,County Bridge,0
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,Nonmajor Governmental,596197
+FY2015_audit,28,balance_sheet,23,,Restricted for judicial purposes,Total Governmental,596197
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,General,0
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,County Bridge,0
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,Nonmajor Governmental,521209
+FY2015_audit,28,balance_sheet,24,,Restricted for equipment replacement,Total Governmental,521209
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,General,0
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,County Bridge,0
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,Nonmajor Governmental,788297
+FY2015_audit,28,balance_sheet,25,,Restricted for capital purposes,Total Governmental,788297
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,General,0
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,County Bridge,0
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,Nonmajor Governmental,2394855
+FY2015_audit,28,balance_sheet,26,,Restricted for debt service,Total Governmental,2394855
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,General,0
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,County Bridge,0
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,IMRF/Retirement,104534
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,Nonmajor Governmental,27768
+FY2015_audit,28,balance_sheet,27,,Restricted for retirement,Total Governmental,132302
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,General,0
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,County Bridge,127121
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,County Motor Fuel Tax,100581
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,Nonmajor Governmental,218078
+FY2015_audit,28,balance_sheet,28,Unrestricted,Assigned for highways and streets,Total Governmental,445780
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,General,0
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,County Bridge,0
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,Nonmajor Governmental,83200
+FY2015_audit,28,balance_sheet,29,,Assigned for public safety,Total Governmental,83200
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,General,0
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,County Bridge,0
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,Nonmajor Governmental,199142
+FY2015_audit,28,balance_sheet,30,,Assigned for health and welfare,Total Governmental,199142
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,General,0
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,County Bridge,0
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,Nonmajor Governmental,28524
+FY2015_audit,28,balance_sheet,31,,Assigned for judicial purposes,Total Governmental,28524
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,General,0
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,County Bridge,0
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,Nonmajor Governmental,66236
+FY2015_audit,28,balance_sheet,32,,Assigned for equipment replacement,Total Governmental,66236
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,General,0
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,County Bridge,0
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,Nonmajor Governmental,341115
+FY2015_audit,28,balance_sheet,33,,Assigned for capital purposes,Total Governmental,341115
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,General,0
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,County Bridge,0
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,Nonmajor Governmental,6750
+FY2015_audit,28,balance_sheet,34,,Assigned for planning purposes,Total Governmental,6750
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,General,0
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,County Bridge,0
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,IMRF/Retirement,172390
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,35,,Assigned for retirement,Total Governmental,172390
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,General,4777
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,County Bridge,0
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,Nonmajor Governmental,0
+FY2015_audit,28,balance_sheet,36,,Assigned for future expenditures,Total Governmental,4777
+FY2015_audit,28,balance_sheet,37,,Unassigned,General,3526912
+FY2015_audit,28,balance_sheet,37,,Unassigned,County Bridge,0
+FY2015_audit,28,balance_sheet,37,,Unassigned,IMRF/Retirement,0
+FY2015_audit,28,balance_sheet,37,,Unassigned,County Motor Fuel Tax,0
+FY2015_audit,28,balance_sheet,37,,Unassigned,Nonmajor Governmental,-6818
+FY2015_audit,28,balance_sheet,37,,Unassigned,Total Governmental,3520094
+FY2015_audit,28,balance_sheet,38,,Total fund balances,General,3537889
+FY2015_audit,28,balance_sheet,38,,Total fund balances,County Bridge,4810541
+FY2015_audit,28,balance_sheet,38,,Total fund balances,IMRF/Retirement,276924
+FY2015_audit,28,balance_sheet,38,,Total fund balances,County Motor Fuel Tax,4151727
+FY2015_audit,28,balance_sheet,38,,Total fund balances,Nonmajor Governmental,11699626
+FY2015_audit,28,balance_sheet,38,,Total fund balances,Total Governmental,24476707
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,General,9760779
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,County Bridge,5085830
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,IMRF/Retirement,2167384
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,County Motor Fuel Tax,4287047
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,Nonmajor Governmental,15439330
+FY2015_audit,28,balance_sheet,39,"TOTAL LIABILITIES, DEFERRED INFLOWS",OF RESOURCES AND FUND BALANCES,Total Governmental,36740370
+FY2015_audit,31,changes,1,,Taxes,General,10222290
+FY2015_audit,31,changes,1,,Taxes,County Bridge,326281
+FY2015_audit,31,changes,1,,Taxes,IMRF/Retirement,1566503
+FY2015_audit,31,changes,1,,Taxes,County Motor Fuel Tax,0
+FY2015_audit,31,changes,1,,Taxes,Nonmajor Governmental,4713655
+FY2015_audit,31,changes,1,,Taxes,Total Governmental,16828729
+FY2015_audit,31,changes,2,,Licenses and permits,General,2457802
+FY2015_audit,31,changes,2,,Licenses and permits,County Bridge,0
+FY2015_audit,31,changes,2,,Licenses and permits,IMRF/Retirement,0
+FY2015_audit,31,changes,2,,Licenses and permits,County Motor Fuel Tax,0
+FY2015_audit,31,changes,2,,Licenses and permits,Nonmajor Governmental,429234
+FY2015_audit,31,changes,2,,Licenses and permits,Total Governmental,2887036
+FY2015_audit,31,changes,3,,Intergovernmental,General,1525161
+FY2015_audit,31,changes,3,,Intergovernmental,County Bridge,77338
+FY2015_audit,31,changes,3,,Intergovernmental,IMRF/Retirement,0
+FY2015_audit,31,changes,3,,Intergovernmental,County Motor Fuel Tax,961223
+FY2015_audit,31,changes,3,,Intergovernmental,Nonmajor Governmental,821019
+FY2015_audit,31,changes,3,,Intergovernmental,Total Governmental,3384741
+FY2015_audit,31,changes,4,,Charges for services,General,0
+FY2015_audit,31,changes,4,,Charges for services,County Bridge,0
+FY2015_audit,31,changes,4,,Charges for services,IMRF/Retirement,7118
+FY2015_audit,31,changes,4,,Charges for services,County Motor Fuel Tax,0
+FY2015_audit,31,changes,4,,Charges for services,Nonmajor Governmental,1316169
+FY2015_audit,31,changes,4,,Charges for services,Total Governmental,1323287
+FY2015_audit,31,changes,5,,Investment income,General,6683
+FY2015_audit,31,changes,5,,Investment income,County Bridge,17814
+FY2015_audit,31,changes,5,,Investment income,IMRF/Retirement,1167
+FY2015_audit,31,changes,5,,Investment income,County Motor Fuel Tax,15560
+FY2015_audit,31,changes,5,,Investment income,Nonmajor Governmental,36902
+FY2015_audit,31,changes,5,,Investment income,Total Governmental,78126
+FY2015_audit,31,changes,6,,Miscellaneous,General,381457
+FY2015_audit,31,changes,6,,Miscellaneous,County Bridge,0
+FY2015_audit,31,changes,6,,Miscellaneous,IMRF/Retirement,64611
+FY2015_audit,31,changes,6,,Miscellaneous,County Motor Fuel Tax,12153
+FY2015_audit,31,changes,6,,Miscellaneous,Nonmajor Governmental,65004
+FY2015_audit,31,changes,6,,Miscellaneous,Total Governmental,523225
+FY2015_audit,31,changes,7,,Total revenues,General,14593393
+FY2015_audit,31,changes,7,,Total revenues,County Bridge,421433
+FY2015_audit,31,changes,7,,Total revenues,IMRF/Retirement,1639399
+FY2015_audit,31,changes,7,,Total revenues,County Motor Fuel Tax,988936
+FY2015_audit,31,changes,7,,Total revenues,Nonmajor Governmental,7381983
+FY2015_audit,31,changes,7,,Total revenues,Total Governmental,25025144
+FY2015_audit,31,changes,8,Current,General government,General,2823130
+FY2015_audit,31,changes,8,Current,General government,County Bridge,0
+FY2015_audit,31,changes,8,Current,General government,IMRF/Retirement,191766
+FY2015_audit,31,changes,8,Current,General government,County Motor Fuel Tax,0
+FY2015_audit,31,changes,8,Current,General government,Nonmajor Governmental,976367
+FY2015_audit,31,changes,8,Current,General government,Total Governmental,3991263
+FY2015_audit,31,changes,9,,Public safety,General,5311732
+FY2015_audit,31,changes,9,,Public safety,County Bridge,0
+FY2015_audit,31,changes,9,,Public safety,IMRF/Retirement,1030592
+FY2015_audit,31,changes,9,,Public safety,County Motor Fuel Tax,0
+FY2015_audit,31,changes,9,,Public safety,Nonmajor Governmental,1432191
+FY2015_audit,31,changes,9,,Public safety,Total Governmental,7774515
+FY2015_audit,31,changes,10,,Highways and streets,General,0
+FY2015_audit,31,changes,10,,Highways and streets,County Bridge,140490
+FY2015_audit,31,changes,10,,Highways and streets,IMRF/Retirement,55910
+FY2015_audit,31,changes,10,,Highways and streets,County Motor Fuel Tax,849806
+FY2015_audit,31,changes,10,,Highways and streets,Nonmajor Governmental,624035
+FY2015_audit,31,changes,10,,Highways and streets,Total Governmental,1670241
+FY2015_audit,31,changes,11,,Health and welfare,General,0
+FY2015_audit,31,changes,11,,Health and welfare,County Bridge,0
+FY2015_audit,31,changes,11,,Health and welfare,IMRF/Retirement,87356
+FY2015_audit,31,changes,11,,Health and welfare,County Motor Fuel Tax,0
+FY2015_audit,31,changes,11,,Health and welfare,Nonmajor Governmental,1696521
+FY2015_audit,31,changes,11,,Health and welfare,Total Governmental,1783877
+FY2015_audit,31,changes,12,,Judiciary and court related,General,7225952
+FY2015_audit,31,changes,12,,Judiciary and court related,County Bridge,0
+FY2015_audit,31,changes,12,,Judiciary and court related,IMRF/Retirement,347653
+FY2015_audit,31,changes,12,,Judiciary and court related,County Motor Fuel Tax,0
+FY2015_audit,31,changes,12,,Judiciary and court related,Nonmajor Governmental,794979
+FY2015_audit,31,changes,12,,Judiciary and court related,Total Governmental,8368584
+FY2015_audit,31,changes,13,,Capital outlay,General,0
+FY2015_audit,31,changes,13,,Capital outlay,County Bridge,0
+FY2015_audit,31,changes,13,,Capital outlay,IMRF/Retirement,0
+FY2015_audit,31,changes,13,,Capital outlay,County Motor Fuel Tax,0
+FY2015_audit,31,changes,13,,Capital outlay,Nonmajor Governmental,677120
+FY2015_audit,31,changes,13,,Capital outlay,Total Governmental,677120
+FY2015_audit,31,changes,14,Debt service,Principal retirement,General,0
+FY2015_audit,31,changes,14,Debt service,Principal retirement,County Bridge,0
+FY2015_audit,31,changes,14,Debt service,Principal retirement,IMRF/Retirement,0
+FY2015_audit,31,changes,14,Debt service,Principal retirement,County Motor Fuel Tax,0
+FY2015_audit,31,changes,14,Debt service,Principal retirement,Nonmajor Governmental,805000
+FY2015_audit,31,changes,14,Debt service,Principal retirement,Total Governmental,805000
+FY2015_audit,31,changes,15,,Interest and fiscal charges,General,0
+FY2015_audit,31,changes,15,,Interest and fiscal charges,County Bridge,0
+FY2015_audit,31,changes,15,,Interest and fiscal charges,IMRF/Retirement,0
+FY2015_audit,31,changes,15,,Interest and fiscal charges,County Motor Fuel Tax,0
+FY2015_audit,31,changes,15,,Interest and fiscal charges,Nonmajor Governmental,252896
+FY2015_audit,31,changes,15,,Interest and fiscal charges,Total Governmental,252896
+FY2015_audit,31,changes,16,,Bond issuance costs,General,0
+FY2015_audit,31,changes,16,,Bond issuance costs,County Bridge,0
+FY2015_audit,31,changes,16,,Bond issuance costs,IMRF/Retirement,0
+FY2015_audit,31,changes,16,,Bond issuance costs,County Motor Fuel Tax,0
+FY2015_audit,31,changes,16,,Bond issuance costs,Nonmajor Governmental,78154
+FY2015_audit,31,changes,16,,Bond issuance costs,Total Governmental,78154
+FY2015_audit,31,changes,17,,Total expenditures,General,15360814
+FY2015_audit,31,changes,17,,Total expenditures,County Bridge,140490
+FY2015_audit,31,changes,17,,Total expenditures,IMRF/Retirement,1713277
+FY2015_audit,31,changes,17,,Total expenditures,County Motor Fuel Tax,849806
+FY2015_audit,31,changes,17,,Total expenditures,Nonmajor Governmental,7337263
+FY2015_audit,31,changes,17,,Total expenditures,Total Governmental,25401650
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,General,-767421
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,County Bridge,280943
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,IMRF/Retirement,-73878
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,County Motor Fuel Tax,139130
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,Nonmajor Governmental,44720
+FY2015_audit,31,changes,18,EXCESS (DEFICIENCY) OF REVENUES,OVER EXPENDITURES,Total Governmental,-376506
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,General,0
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,County Bridge,0
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,IMRF/Retirement,0
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,County Motor Fuel Tax,0
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,Nonmajor Governmental,8933
+FY2015_audit,31,changes,19,OTHER FINANCING SOURCES (USES),Sale of capital assets,Total Governmental,8933
+FY2015_audit,31,changes,20,,Transfers in,General,553722
+FY2015_audit,31,changes,20,,Transfers in,County Bridge,0
+FY2015_audit,31,changes,20,,Transfers in,IMRF/Retirement,0
+FY2015_audit,31,changes,20,,Transfers in,County Motor Fuel Tax,24417
+FY2015_audit,31,changes,20,,Transfers in,Nonmajor Governmental,606659
+FY2015_audit,31,changes,20,,Transfers in,Total Governmental,1184798
+FY2015_audit,31,changes,21,,Transfers (out),General,-504155
+FY2015_audit,31,changes,21,,Transfers (out),County Bridge,0
+FY2015_audit,31,changes,21,,Transfers (out),IMRF/Retirement,0
+FY2015_audit,31,changes,21,,Transfers (out),County Motor Fuel Tax,0
+FY2015_audit,31,changes,21,,Transfers (out),Nonmajor Governmental,-680643
+FY2015_audit,31,changes,21,,Transfers (out),Total Governmental,-1184798
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,General,0
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,County Bridge,0
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,IMRF/Retirement,0
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,County Motor Fuel Tax,0
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,Nonmajor Governmental,800000
+FY2015_audit,31,changes,22,,Issuance of general obligation bonds,Total Governmental,800000
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,General,0
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,County Bridge,0
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,IMRF/Retirement,0
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,County Motor Fuel Tax,0
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,Nonmajor Governmental,3165000
+FY2015_audit,31,changes,23,,Issuance of refunding bonds,Total Governmental,3165000
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,General,0
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,County Bridge,0
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,IMRF/Retirement,0
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,County Motor Fuel Tax,0
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,Nonmajor Governmental,107579
+FY2015_audit,31,changes,24,,Premium on refunding bonds issued,Total Governmental,107579
+FY2015_audit,31,changes,25,,Insurance proceeds,General,0
+FY2015_audit,31,changes,25,,Insurance proceeds,County Bridge,0
+FY2015_audit,31,changes,25,,Insurance proceeds,IMRF/Retirement,0
+FY2015_audit,31,changes,25,,Insurance proceeds,County Motor Fuel Tax,0
+FY2015_audit,31,changes,25,,Insurance proceeds,Nonmajor Governmental,50552
+FY2015_audit,31,changes,25,,Insurance proceeds,Total Governmental,50552
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,General,0
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,County Bridge,0
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,IMRF/Retirement,0
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,County Motor Fuel Tax,0
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,Nonmajor Governmental,-3248203
+FY2015_audit,31,changes,26,,Payment to bond escrow agent,Total Governmental,-3248203
+FY2015_audit,31,changes,27,,Total other financing sources (uses),General,49567
+FY2015_audit,31,changes,27,,Total other financing sources (uses),County Bridge,0
+FY2015_audit,31,changes,27,,Total other financing sources (uses),IMRF/Retirement,0
+FY2015_audit,31,changes,27,,Total other financing sources (uses),County Motor Fuel Tax,24417
+FY2015_audit,31,changes,27,,Total other financing sources (uses),Nonmajor Governmental,809877
+FY2015_audit,31,changes,27,,Total other financing sources (uses),Total Governmental,883861
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,General,-717854
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,County Bridge,280943
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,IMRF/Retirement,-73878
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,County Motor Fuel Tax,163547
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,Nonmajor Governmental,854597
+FY2015_audit,31,changes,28,,NET CHANGE IN FUND BALANCES,Total Governmental,507355
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",General,4255743
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",County Bridge,4529598
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",IMRF/Retirement,350802
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",County Motor Fuel Tax,3988180
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",Nonmajor Governmental,10845029
+FY2015_audit,31,changes,29,,"FUND BALANCES, DECEMBER 1, 2014",Total Governmental,23969352
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",General,3537889
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",County Bridge,4810541
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",IMRF/Retirement,276924
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",County Motor Fuel Tax,4151727
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",Nonmajor Governmental,11699626
+FY2015_audit,31,changes,30,,"FUND BALANCES, NOVEMBER 30, 2015",Total Governmental,24476707

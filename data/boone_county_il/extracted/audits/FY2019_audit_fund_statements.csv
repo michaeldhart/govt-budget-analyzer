@@ -1,0 +1,325 @@
+doc_id,pdf_page,statement,row_seq,prev_text,label,col,amount
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",General,2586021
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",County Bridge,4976734
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",IMRF/Retirement,974958
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",Motor Fuel Tax,5753480
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",Other Governmental,10115673
+FY2019_audit,26,balance_sheet,1,,"Cash, deposits, and investments",Total Governmental,24406866
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,General,822610
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,County Bridge,0
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,Motor Fuel Tax,107191
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,Other Governmental,686437
+FY2019_audit,26,balance_sheet,2,"Receivables, net of allowance:",Due from State of Illinois,Total Governmental,1616238
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,General,7310213
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,County Bridge,142500
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,IMRF/Retirement,1285000
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,Other Governmental,3362213
+FY2019_audit,26,balance_sheet,3,,Property taxes receivable,Total Governmental,12099926
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,General,286137
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,County Bridge,385
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,IMRF/Retirement,4586
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,Motor Fuel Tax,31832
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,Other Governmental,278898
+FY2019_audit,26,balance_sheet,4,,Accounts receivable,Total Governmental,601838
+FY2019_audit,26,balance_sheet,5,,Loans,General,0
+FY2019_audit,26,balance_sheet,5,,Loans,County Bridge,0
+FY2019_audit,26,balance_sheet,5,,Loans,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,5,,Loans,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,5,,Loans,Other Governmental,0
+FY2019_audit,26,balance_sheet,5,,Loans,Total Governmental,0
+FY2019_audit,26,balance_sheet,6,,Inventory,General,0
+FY2019_audit,26,balance_sheet,6,,Inventory,County Bridge,0
+FY2019_audit,26,balance_sheet,6,,Inventory,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,6,,Inventory,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,6,,Inventory,Other Governmental,0
+FY2019_audit,26,balance_sheet,6,,Inventory,Total Governmental,0
+FY2019_audit,26,balance_sheet,7,,Due from other funds,General,32107
+FY2019_audit,26,balance_sheet,7,,Due from other funds,County Bridge,0
+FY2019_audit,26,balance_sheet,7,,Due from other funds,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,7,,Due from other funds,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,7,,Due from other funds,Other Governmental,0
+FY2019_audit,26,balance_sheet,7,,Due from other funds,Total Governmental,32107
+FY2019_audit,26,balance_sheet,8,,Total assets,General,11037088
+FY2019_audit,26,balance_sheet,8,,Total assets,County Bridge,5119619
+FY2019_audit,26,balance_sheet,8,,Total assets,IMRF/Retirement,2264544
+FY2019_audit,26,balance_sheet,8,,Total assets,Motor Fuel Tax,5892503
+FY2019_audit,26,balance_sheet,8,,Total assets,Other Governmental,14443221
+FY2019_audit,26,balance_sheet,8,,Total assets,Total Governmental,38756975
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,General,266787
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,County Bridge,0
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,Other Governmental,21412
+FY2019_audit,26,balance_sheet,9,Liabilities:,Accounts payable,Total Governmental,288199
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,General,454647
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,County Bridge,0
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,IMRF/Retirement,108545
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,Motor Fuel Tax,4132
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,Other Governmental,86858
+FY2019_audit,26,balance_sheet,10,,Accrued payroll,Total Governmental,654182
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,General,0
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,County Bridge,0
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,Other Governmental,0
+FY2019_audit,26,balance_sheet,11,,Accrued compensated absences,Total Governmental,0
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,General,63211
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,County Bridge,0
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,Other Governmental,0
+FY2019_audit,26,balance_sheet,12,,Funds held in trust for others,Total Governmental,63211
+FY2019_audit,26,balance_sheet,13,,Due to other funds,General,0
+FY2019_audit,26,balance_sheet,13,,Due to other funds,County Bridge,0
+FY2019_audit,26,balance_sheet,13,,Due to other funds,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,13,,Due to other funds,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,13,,Due to other funds,Other Governmental,32107
+FY2019_audit,26,balance_sheet,13,,Due to other funds,Total Governmental,32107
+FY2019_audit,26,balance_sheet,14,,Total liabilities,General,784645
+FY2019_audit,26,balance_sheet,14,,Total liabilities,County Bridge,0
+FY2019_audit,26,balance_sheet,14,,Total liabilities,IMRF/Retirement,108545
+FY2019_audit,26,balance_sheet,14,,Total liabilities,Motor Fuel Tax,4132
+FY2019_audit,26,balance_sheet,14,,Total liabilities,Other Governmental,140377
+FY2019_audit,26,balance_sheet,14,,Total liabilities,Total Governmental,1037699
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,General,0
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,County Bridge,0
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,Other Governmental,0
+FY2019_audit,26,balance_sheet,15,Deferred inflows of resources -,Deferred lease payments,Total Governmental,0
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,General,7310213
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,County Bridge,142500
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,IMRF/Retirement,1285000
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,Other Governmental,3362213
+FY2019_audit,26,balance_sheet,16,,Deferred property tax revenues,Total Governmental,12099926
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,General,7310213
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,County Bridge,142500
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,IMRF/Retirement,1285000
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,Other Governmental,3362213
+FY2019_audit,26,balance_sheet,17,Total deferred inflows of,resources,Total Governmental,12099926
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,General,0
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,County Bridge,0
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,Other Governmental,0
+FY2019_audit,26,balance_sheet,18,Fund balances:,Nonspendable,Total Governmental,0
+FY2019_audit,26,balance_sheet,19,,Restricted,General,0
+FY2019_audit,26,balance_sheet,19,,Restricted,County Bridge,4977119
+FY2019_audit,26,balance_sheet,19,,Restricted,IMRF/Retirement,870999
+FY2019_audit,26,balance_sheet,19,,Restricted,Motor Fuel Tax,5888371
+FY2019_audit,26,balance_sheet,19,,Restricted,Other Governmental,10596832
+FY2019_audit,26,balance_sheet,19,,Restricted,Total Governmental,22333321
+FY2019_audit,26,balance_sheet,20,,Committed,General,0
+FY2019_audit,26,balance_sheet,20,,Committed,County Bridge,0
+FY2019_audit,26,balance_sheet,20,,Committed,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,20,,Committed,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,20,,Committed,Other Governmental,0
+FY2019_audit,26,balance_sheet,20,,Committed,Total Governmental,0
+FY2019_audit,26,balance_sheet,21,,Assigned,General,210865
+FY2019_audit,26,balance_sheet,21,,Assigned,County Bridge,0
+FY2019_audit,26,balance_sheet,21,,Assigned,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,21,,Assigned,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,21,,Assigned,Other Governmental,372204
+FY2019_audit,26,balance_sheet,21,,Assigned,Total Governmental,583069
+FY2019_audit,26,balance_sheet,22,,Unassigned,General,2731365
+FY2019_audit,26,balance_sheet,22,,Unassigned,County Bridge,0
+FY2019_audit,26,balance_sheet,22,,Unassigned,IMRF/Retirement,0
+FY2019_audit,26,balance_sheet,22,,Unassigned,Motor Fuel Tax,0
+FY2019_audit,26,balance_sheet,22,,Unassigned,Other Governmental,-28405
+FY2019_audit,26,balance_sheet,22,,Unassigned,Total Governmental,2702960
+FY2019_audit,26,balance_sheet,23,,Total fund balances,General,2942230
+FY2019_audit,26,balance_sheet,23,,Total fund balances,County Bridge,4977119
+FY2019_audit,26,balance_sheet,23,,Total fund balances,IMRF/Retirement,870999
+FY2019_audit,26,balance_sheet,23,,Total fund balances,Motor Fuel Tax,5888371
+FY2019_audit,26,balance_sheet,23,,Total fund balances,Other Governmental,10940631
+FY2019_audit,26,balance_sheet,23,,Total fund balances,Total Governmental,25619350
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,General,11037088
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,County Bridge,5119619
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,IMRF/Retirement,2264544
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,Motor Fuel Tax,5892503
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,Other Governmental,14443221
+FY2019_audit,26,balance_sheet,24,inflows of resources,and fund balances,Total Governmental,38756975
+FY2019_audit,28,changes,1,,Property taxes,General,6959741
+FY2019_audit,28,changes,1,,Property taxes,County Bridge,134941
+FY2019_audit,28,changes,1,,Property taxes,IMRF/Retirement,1184008
+FY2019_audit,28,changes,1,,Property taxes,Motor Fuel Tax,0
+FY2019_audit,28,changes,1,,Property taxes,Other Governmental,3340598
+FY2019_audit,28,changes,1,,Property taxes,Total Governmental,11619288
+FY2019_audit,28,changes,2,,Intergovernmental revenue,General,6566448
+FY2019_audit,28,changes,2,,Intergovernmental revenue,County Bridge,0
+FY2019_audit,28,changes,2,,Intergovernmental revenue,IMRF/Retirement,44899
+FY2019_audit,28,changes,2,,Intergovernmental revenue,Motor Fuel Tax,879274
+FY2019_audit,28,changes,2,,Intergovernmental revenue,Other Governmental,3566593
+FY2019_audit,28,changes,2,,Intergovernmental revenue,Total Governmental,11057214
+FY2019_audit,28,changes,3,,Charges for services,General,0
+FY2019_audit,28,changes,3,,Charges for services,County Bridge,14962
+FY2019_audit,28,changes,3,,Charges for services,IMRF/Retirement,5830
+FY2019_audit,28,changes,3,,Charges for services,Motor Fuel Tax,163890
+FY2019_audit,28,changes,3,,Charges for services,Other Governmental,465497
+FY2019_audit,28,changes,3,,Charges for services,Total Governmental,650179
+FY2019_audit,28,changes,4,,Fees and fines,General,0
+FY2019_audit,28,changes,4,,Fees and fines,County Bridge,0
+FY2019_audit,28,changes,4,,Fees and fines,IMRF/Retirement,0
+FY2019_audit,28,changes,4,,Fees and fines,Motor Fuel Tax,0
+FY2019_audit,28,changes,4,,Fees and fines,Other Governmental,0
+FY2019_audit,28,changes,4,,Fees and fines,Total Governmental,0
+FY2019_audit,28,changes,5,,Licenses and permits,General,2383018
+FY2019_audit,28,changes,5,,Licenses and permits,County Bridge,0
+FY2019_audit,28,changes,5,,Licenses and permits,IMRF/Retirement,0
+FY2019_audit,28,changes,5,,Licenses and permits,Motor Fuel Tax,90333
+FY2019_audit,28,changes,5,,Licenses and permits,Other Governmental,881254
+FY2019_audit,28,changes,5,,Licenses and permits,Total Governmental,3354605
+FY2019_audit,28,changes,6,,Interest,General,29337
+FY2019_audit,28,changes,6,,Interest,County Bridge,80523
+FY2019_audit,28,changes,6,,Interest,IMRF/Retirement,10878
+FY2019_audit,28,changes,6,,Interest,Motor Fuel Tax,0
+FY2019_audit,28,changes,6,,Interest,Other Governmental,134496
+FY2019_audit,28,changes,6,,Interest,Total Governmental,255234
+FY2019_audit,28,changes,7,,Other revenue,General,457999
+FY2019_audit,28,changes,7,,Other revenue,County Bridge,0
+FY2019_audit,28,changes,7,,Other revenue,IMRF/Retirement,28164
+FY2019_audit,28,changes,7,,Other revenue,Motor Fuel Tax,0
+FY2019_audit,28,changes,7,,Other revenue,Other Governmental,333986
+FY2019_audit,28,changes,7,,Other revenue,Total Governmental,820149
+FY2019_audit,28,changes,8,,Total revenues,General,16396543
+FY2019_audit,28,changes,8,,Total revenues,County Bridge,230426
+FY2019_audit,28,changes,8,,Total revenues,IMRF/Retirement,1273779
+FY2019_audit,28,changes,8,,Total revenues,Motor Fuel Tax,1133497
+FY2019_audit,28,changes,8,,Total revenues,Other Governmental,8722424
+FY2019_audit,28,changes,8,,Total revenues,Total Governmental,27756669
+FY2019_audit,28,changes,9,General control and,administration,General,2911247
+FY2019_audit,28,changes,9,General control and,administration,County Bridge,0
+FY2019_audit,28,changes,9,General control and,administration,IMRF/Retirement,91166
+FY2019_audit,28,changes,9,General control and,administration,Motor Fuel Tax,0
+FY2019_audit,28,changes,9,General control and,administration,Other Governmental,1691473
+FY2019_audit,28,changes,9,General control and,administration,Total Governmental,4693886
+FY2019_audit,28,changes,10,,Public safety,General,5812241
+FY2019_audit,28,changes,10,,Public safety,County Bridge,0
+FY2019_audit,28,changes,10,,Public safety,IMRF/Retirement,747493
+FY2019_audit,28,changes,10,,Public safety,Motor Fuel Tax,0
+FY2019_audit,28,changes,10,,Public safety,Other Governmental,1106314
+FY2019_audit,28,changes,10,,Public safety,Total Governmental,7666048
+FY2019_audit,28,changes,11,,Judiciary and court related,General,7923885
+FY2019_audit,28,changes,11,,Judiciary and court related,County Bridge,0
+FY2019_audit,28,changes,11,,Judiciary and court related,IMRF/Retirement,241704
+FY2019_audit,28,changes,11,,Judiciary and court related,Motor Fuel Tax,0
+FY2019_audit,28,changes,11,,Judiciary and court related,Other Governmental,439723
+FY2019_audit,28,changes,11,,Judiciary and court related,Total Governmental,8605312
+FY2019_audit,28,changes,12,,Corrections,General,0
+FY2019_audit,28,changes,12,,Corrections,County Bridge,0
+FY2019_audit,28,changes,12,,Corrections,IMRF/Retirement,0
+FY2019_audit,28,changes,12,,Corrections,Motor Fuel Tax,0
+FY2019_audit,28,changes,12,,Corrections,Other Governmental,0
+FY2019_audit,28,changes,12,,Corrections,Total Governmental,0
+FY2019_audit,28,changes,13,,Highways and bridges,General,0
+FY2019_audit,28,changes,13,,Highways and bridges,County Bridge,0
+FY2019_audit,28,changes,13,,Highways and bridges,IMRF/Retirement,39961
+FY2019_audit,28,changes,13,,Highways and bridges,Motor Fuel Tax,637660
+FY2019_audit,28,changes,13,,Highways and bridges,Other Governmental,726419
+FY2019_audit,28,changes,13,,Highways and bridges,Total Governmental,1404040
+FY2019_audit,28,changes,14,,Public health,General,0
+FY2019_audit,28,changes,14,,Public health,County Bridge,112655
+FY2019_audit,28,changes,14,,Public health,IMRF/Retirement,67887
+FY2019_audit,28,changes,14,,Public health,Motor Fuel Tax,0
+FY2019_audit,28,changes,14,,Public health,Other Governmental,1167068
+FY2019_audit,28,changes,14,,Public health,Total Governmental,1347610
+FY2019_audit,28,changes,15,,Public welfare,General,0
+FY2019_audit,28,changes,15,,Public welfare,County Bridge,0
+FY2019_audit,28,changes,15,,Public welfare,IMRF/Retirement,2559
+FY2019_audit,28,changes,15,,Public welfare,Motor Fuel Tax,0
+FY2019_audit,28,changes,15,,Public welfare,Other Governmental,191538
+FY2019_audit,28,changes,15,,Public welfare,Total Governmental,194097
+FY2019_audit,28,changes,16,,Education,General,0
+FY2019_audit,28,changes,16,,Education,County Bridge,0
+FY2019_audit,28,changes,16,,Education,IMRF/Retirement,0
+FY2019_audit,28,changes,16,,Education,Motor Fuel Tax,0
+FY2019_audit,28,changes,16,,Education,Other Governmental,0
+FY2019_audit,28,changes,16,,Education,Total Governmental,0
+FY2019_audit,28,changes,17,Debt service:,Principal,General,46425
+FY2019_audit,28,changes,17,Debt service:,Principal,County Bridge,0
+FY2019_audit,28,changes,17,Debt service:,Principal,IMRF/Retirement,0
+FY2019_audit,28,changes,17,Debt service:,Principal,Motor Fuel Tax,0
+FY2019_audit,28,changes,17,Debt service:,Principal,Other Governmental,835000
+FY2019_audit,28,changes,17,Debt service:,Principal,Total Governmental,881425
+FY2019_audit,28,changes,18,,Interest,General,0
+FY2019_audit,28,changes,18,,Interest,County Bridge,0
+FY2019_audit,28,changes,18,,Interest,IMRF/Retirement,0
+FY2019_audit,28,changes,18,,Interest,Motor Fuel Tax,0
+FY2019_audit,28,changes,18,,Interest,Other Governmental,99492
+FY2019_audit,28,changes,18,,Interest,Total Governmental,99492
+FY2019_audit,28,changes,19,,Capital outlay,General,254365
+FY2019_audit,28,changes,19,,Capital outlay,County Bridge,218824
+FY2019_audit,28,changes,19,,Capital outlay,IMRF/Retirement,0
+FY2019_audit,28,changes,19,,Capital outlay,Motor Fuel Tax,0
+FY2019_audit,28,changes,19,,Capital outlay,Other Governmental,246373
+FY2019_audit,28,changes,19,,Capital outlay,Total Governmental,719562
+FY2019_audit,28,changes,20,,Total expenditures,General,16948163
+FY2019_audit,28,changes,20,,Total expenditures,County Bridge,331479
+FY2019_audit,28,changes,20,,Total expenditures,IMRF/Retirement,1190770
+FY2019_audit,28,changes,20,,Total expenditures,Motor Fuel Tax,637660
+FY2019_audit,28,changes,20,,Total expenditures,Other Governmental,6503400
+FY2019_audit,28,changes,20,,Total expenditures,Total Governmental,25611472
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,General,-551620
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,County Bridge,-101053
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,IMRF/Retirement,83009
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,Motor Fuel Tax,495837
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,Other Governmental,2219024
+FY2019_audit,28,changes,21,Excess (deficiency) of revenues,over expenditures,Total Governmental,2145197
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,General,1670179
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,County Bridge,0
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,IMRF/Retirement,0
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,Motor Fuel Tax,0
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,Other Governmental,757933
+FY2019_audit,28,changes,22,Other financing sources and (uses),Transfers in,Total Governmental,2428112
+FY2019_audit,28,changes,23,,Transfers out,General,-398378
+FY2019_audit,28,changes,23,,Transfers out,County Bridge,0
+FY2019_audit,28,changes,23,,Transfers out,IMRF/Retirement,0
+FY2019_audit,28,changes,23,,Transfers out,Motor Fuel Tax,-125000
+FY2019_audit,28,changes,23,,Transfers out,Other Governmental,-1904734
+FY2019_audit,28,changes,23,,Transfers out,Total Governmental,-2428112
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,General,0
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,County Bridge,0
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,IMRF/Retirement,0
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,Motor Fuel Tax,0
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,Other Governmental,0
+FY2019_audit,28,changes,24,,Proceeds from long-term debt,Total Governmental,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,General,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,County Bridge,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,IMRF/Retirement,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,Motor Fuel Tax,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,Other Governmental,0
+FY2019_audit,28,changes,25,,Premium on issuance of bonds,Total Governmental,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,General,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,County Bridge,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,IMRF/Retirement,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,Motor Fuel Tax,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,Other Governmental,0
+FY2019_audit,28,changes,26,Payment to refunded bonds,escrow agent,Total Governmental,0
+FY2019_audit,28,changes,27,Total other financing,sources (uses),General,1271801
+FY2019_audit,28,changes,27,Total other financing,sources (uses),County Bridge,0
+FY2019_audit,28,changes,27,Total other financing,sources (uses),IMRF/Retirement,0
+FY2019_audit,28,changes,27,Total other financing,sources (uses),Motor Fuel Tax,-125000
+FY2019_audit,28,changes,27,Total other financing,sources (uses),Other Governmental,-1146801
+FY2019_audit,28,changes,27,Total other financing,sources (uses),Total Governmental,0
+FY2019_audit,28,changes,28,,Net change in fund balance,General,720181
+FY2019_audit,28,changes,28,,Net change in fund balance,County Bridge,-101053
+FY2019_audit,28,changes,28,,Net change in fund balance,IMRF/Retirement,83009
+FY2019_audit,28,changes,28,,Net change in fund balance,Motor Fuel Tax,370837
+FY2019_audit,28,changes,28,,Net change in fund balance,Other Governmental,1072223
+FY2019_audit,28,changes,28,,Net change in fund balance,Total Governmental,2145197
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",General,2222049
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",County Bridge,5078172
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",IMRF/Retirement,787990
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",Motor Fuel Tax,5517534
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",Other Governmental,9868408
+FY2019_audit,28,changes,29,,"Fund balances, beginning of year",Total Governmental,23474153
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",General,2942230
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",County Bridge,4977119
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",IMRF/Retirement,870999
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",Motor Fuel Tax,5888371
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",Other Governmental,10940631
+FY2019_audit,28,changes,30,,"Fund balances (deficit), end of year",Total Governmental,25619350

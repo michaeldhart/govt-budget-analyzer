@@ -1,0 +1,289 @@
+doc_id,pdf_page,statement,row_seq,prev_text,label,col,amount
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",General,5921794
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",County Bridge,4908478
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Motor Fuel Tax,5611706
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",American Rescue Plan Grant,5242511
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Other Governmental,12716542
+FY2021_audit,26,balance_sheet,1,Current assets,"Cash, deposits, and investments",Total Governmental,34401031
+FY2021_audit,26,balance_sheet,2,,Property taxes,General,7414834
+FY2021_audit,26,balance_sheet,2,,Property taxes,County Bridge,150000
+FY2021_audit,26,balance_sheet,2,,Property taxes,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,2,,Property taxes,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,2,,Property taxes,Other Governmental,4787391
+FY2021_audit,26,balance_sheet,2,,Property taxes,Total Governmental,12352225
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,General,427496
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,County Bridge,2486
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,Other Governmental,280233
+FY2021_audit,26,balance_sheet,3,,Accounts receivable,Total Governmental,710215
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,General,1152870
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,County Bridge,0
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,Motor Fuel Tax,107609
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,Other Governmental,1098477
+FY2021_audit,26,balance_sheet,4,,Due from State of Illinois,Total Governmental,2358956
+FY2021_audit,26,balance_sheet,5,,Inventories,General,0
+FY2021_audit,26,balance_sheet,5,,Inventories,County Bridge,0
+FY2021_audit,26,balance_sheet,5,,Inventories,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,5,,Inventories,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,5,,Inventories,Other Governmental,10322
+FY2021_audit,26,balance_sheet,5,,Inventories,Total Governmental,10322
+FY2021_audit,26,balance_sheet,6,,Due from other funds,General,28357
+FY2021_audit,26,balance_sheet,6,,Due from other funds,County Bridge,0
+FY2021_audit,26,balance_sheet,6,,Due from other funds,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,6,,Due from other funds,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,6,,Due from other funds,Other Governmental,278601
+FY2021_audit,26,balance_sheet,6,,Due from other funds,Total Governmental,306958
+FY2021_audit,26,balance_sheet,7,,Total assets,General,14945351
+FY2021_audit,26,balance_sheet,7,,Total assets,County Bridge,5060964
+FY2021_audit,26,balance_sheet,7,,Total assets,Motor Fuel Tax,5719315
+FY2021_audit,26,balance_sheet,7,,Total assets,American Rescue Plan Grant,5242511
+FY2021_audit,26,balance_sheet,7,,Total assets,Other Governmental,19171566
+FY2021_audit,26,balance_sheet,7,,Total assets,Total Governmental,50139707
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,General,188730
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,County Bridge,12220
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,Other Governmental,366028
+FY2021_audit,26,balance_sheet,8,Liabilities,Accounts payable,Total Governmental,566978
+FY2021_audit,26,balance_sheet,9,,Payroll and related,General,613456
+FY2021_audit,26,balance_sheet,9,,Payroll and related,County Bridge,0
+FY2021_audit,26,balance_sheet,9,,Payroll and related,Motor Fuel Tax,5165
+FY2021_audit,26,balance_sheet,9,,Payroll and related,American Rescue Plan Grant,436000
+FY2021_audit,26,balance_sheet,9,,Payroll and related,Other Governmental,154647
+FY2021_audit,26,balance_sheet,9,,Payroll and related,Total Governmental,1209268
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,General,0
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,County Bridge,0
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,American Rescue Plan Grant,4764147
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,Other Governmental,36985
+FY2021_audit,26,balance_sheet,10,,Unearned grant revenue,Total Governmental,4801132
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,General,138824
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,County Bridge,0
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,Other Governmental,0
+FY2021_audit,26,balance_sheet,11,,Funds held in trust,Total Governmental,138824
+FY2021_audit,26,balance_sheet,12,,Due to other funds,General,32887
+FY2021_audit,26,balance_sheet,12,,Due to other funds,County Bridge,0
+FY2021_audit,26,balance_sheet,12,,Due to other funds,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,12,,Due to other funds,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,12,,Due to other funds,Other Governmental,274071
+FY2021_audit,26,balance_sheet,12,,Due to other funds,Total Governmental,306958
+FY2021_audit,26,balance_sheet,13,,Total liabilities,General,973897
+FY2021_audit,26,balance_sheet,13,,Total liabilities,County Bridge,12220
+FY2021_audit,26,balance_sheet,13,,Total liabilities,Motor Fuel Tax,5165
+FY2021_audit,26,balance_sheet,13,,Total liabilities,American Rescue Plan Grant,5200147
+FY2021_audit,26,balance_sheet,13,,Total liabilities,Other Governmental,831731
+FY2021_audit,26,balance_sheet,13,,Total liabilities,Total Governmental,7023160
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,General,7414834
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,County Bridge,150000
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,Other Governmental,4787391
+FY2021_audit,26,balance_sheet,14,Deferred inflows of resources,Unavailable property taxes,Total Governmental,12352225
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,General,7414834
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,County Bridge,150000
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,Other Governmental,4787391
+FY2021_audit,26,balance_sheet,15,,Total deferred inflows of resources,Total Governmental,12352225
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,General,0
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,County Bridge,0
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,Other Governmental,10322
+FY2021_audit,26,balance_sheet,16,Fund balances,Non-spendable,Total Governmental,10322
+FY2021_audit,26,balance_sheet,17,,Restricted,General,0
+FY2021_audit,26,balance_sheet,17,,Restricted,County Bridge,4898744
+FY2021_audit,26,balance_sheet,17,,Restricted,Motor Fuel Tax,5714150
+FY2021_audit,26,balance_sheet,17,,Restricted,American Rescue Plan Grant,42364
+FY2021_audit,26,balance_sheet,17,,Restricted,Other Governmental,13435717
+FY2021_audit,26,balance_sheet,17,,Restricted,Total Governmental,24090975
+FY2021_audit,26,balance_sheet,18,,Assigned,General,215363
+FY2021_audit,26,balance_sheet,18,,Assigned,County Bridge,0
+FY2021_audit,26,balance_sheet,18,,Assigned,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,18,,Assigned,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,18,,Assigned,Other Governmental,381344
+FY2021_audit,26,balance_sheet,18,,Assigned,Total Governmental,596707
+FY2021_audit,26,balance_sheet,19,,Unassigned,General,6341257
+FY2021_audit,26,balance_sheet,19,,Unassigned,County Bridge,0
+FY2021_audit,26,balance_sheet,19,,Unassigned,Motor Fuel Tax,0
+FY2021_audit,26,balance_sheet,19,,Unassigned,American Rescue Plan Grant,0
+FY2021_audit,26,balance_sheet,19,,Unassigned,Other Governmental,-274939
+FY2021_audit,26,balance_sheet,19,,Unassigned,Total Governmental,6066318
+FY2021_audit,26,balance_sheet,20,,Total fund balances,General,6556620
+FY2021_audit,26,balance_sheet,20,,Total fund balances,County Bridge,4898744
+FY2021_audit,26,balance_sheet,20,,Total fund balances,Motor Fuel Tax,5714150
+FY2021_audit,26,balance_sheet,20,,Total fund balances,American Rescue Plan Grant,42364
+FY2021_audit,26,balance_sheet,20,,Total fund balances,Other Governmental,13552444
+FY2021_audit,26,balance_sheet,20,,Total fund balances,Total Governmental,30764322
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",General,14945351
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",County Bridge,5060964
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",Motor Fuel Tax,5719315
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",American Rescue Plan Grant,5242511
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",Other Governmental,19171566
+FY2021_audit,26,balance_sheet,21,"Total liabilities, deferred inflows of","resources, and fund balances",Total Governmental,50139707
+FY2021_audit,29,changes,1,,Taxes,General,7511317
+FY2021_audit,29,changes,1,,Taxes,County Bridge,142717
+FY2021_audit,29,changes,1,,Taxes,Motor Fuel Tax,0
+FY2021_audit,29,changes,1,,Taxes,American Rescue Plan Grant,0
+FY2021_audit,29,changes,1,,Taxes,Other Governmental,4710968
+FY2021_audit,29,changes,1,,Taxes,Total Governmental,12365002
+FY2021_audit,29,changes,2,,Intergovernmental revenues,General,9105474
+FY2021_audit,29,changes,2,,Intergovernmental revenues,County Bridge,0
+FY2021_audit,29,changes,2,,Intergovernmental revenues,Motor Fuel Tax,2092455
+FY2021_audit,29,changes,2,,Intergovernmental revenues,American Rescue Plan Grant,436000
+FY2021_audit,29,changes,2,,Intergovernmental revenues,Other Governmental,6064241
+FY2021_audit,29,changes,2,,Intergovernmental revenues,Total Governmental,17698170
+FY2021_audit,29,changes,3,,Charges for services,General,0
+FY2021_audit,29,changes,3,,Charges for services,County Bridge,96526
+FY2021_audit,29,changes,3,,Charges for services,Motor Fuel Tax,103429
+FY2021_audit,29,changes,3,,Charges for services,American Rescue Plan Grant,0
+FY2021_audit,29,changes,3,,Charges for services,Other Governmental,2667864
+FY2021_audit,29,changes,3,,Charges for services,Total Governmental,2867819
+FY2021_audit,29,changes,4,,Licenses and permits,General,2191206
+FY2021_audit,29,changes,4,,Licenses and permits,County Bridge,0
+FY2021_audit,29,changes,4,,Licenses and permits,Motor Fuel Tax,0
+FY2021_audit,29,changes,4,,Licenses and permits,American Rescue Plan Grant,0
+FY2021_audit,29,changes,4,,Licenses and permits,Other Governmental,958708
+FY2021_audit,29,changes,4,,Licenses and permits,Total Governmental,3149914
+FY2021_audit,29,changes,5,,Fines and forfeitures,General,0
+FY2021_audit,29,changes,5,,Fines and forfeitures,County Bridge,0
+FY2021_audit,29,changes,5,,Fines and forfeitures,Motor Fuel Tax,0
+FY2021_audit,29,changes,5,,Fines and forfeitures,American Rescue Plan Grant,0
+FY2021_audit,29,changes,5,,Fines and forfeitures,Other Governmental,310834
+FY2021_audit,29,changes,5,,Fines and forfeitures,Total Governmental,310834
+FY2021_audit,29,changes,6,,Other revenue,General,0
+FY2021_audit,29,changes,6,,Other revenue,County Bridge,0
+FY2021_audit,29,changes,6,,Other revenue,Motor Fuel Tax,0
+FY2021_audit,29,changes,6,,Other revenue,American Rescue Plan Grant,0
+FY2021_audit,29,changes,6,,Other revenue,Other Governmental,671
+FY2021_audit,29,changes,6,,Other revenue,Total Governmental,671
+FY2021_audit,29,changes,7,,Interest,General,55948
+FY2021_audit,29,changes,7,,Interest,County Bridge,75505
+FY2021_audit,29,changes,7,,Interest,Motor Fuel Tax,88688
+FY2021_audit,29,changes,7,,Interest,American Rescue Plan Grant,42364
+FY2021_audit,29,changes,7,,Interest,Other Governmental,133161
+FY2021_audit,29,changes,7,,Interest,Total Governmental,395666
+FY2021_audit,29,changes,8,,Miscellaneous,General,292090
+FY2021_audit,29,changes,8,,Miscellaneous,County Bridge,0
+FY2021_audit,29,changes,8,,Miscellaneous,Motor Fuel Tax,0
+FY2021_audit,29,changes,8,,Miscellaneous,American Rescue Plan Grant,0
+FY2021_audit,29,changes,8,,Miscellaneous,Other Governmental,538666
+FY2021_audit,29,changes,8,,Miscellaneous,Total Governmental,830756
+FY2021_audit,29,changes,9,,Total revenues,General,19156035
+FY2021_audit,29,changes,9,,Total revenues,County Bridge,314748
+FY2021_audit,29,changes,9,,Total revenues,Motor Fuel Tax,2284572
+FY2021_audit,29,changes,9,,Total revenues,American Rescue Plan Grant,478364
+FY2021_audit,29,changes,9,,Total revenues,Other Governmental,15385113
+FY2021_audit,29,changes,9,,Total revenues,Total Governmental,37618832
+FY2021_audit,29,changes,10,Current:,General control and administration,General,2971583
+FY2021_audit,29,changes,10,Current:,General control and administration,County Bridge,0
+FY2021_audit,29,changes,10,Current:,General control and administration,Motor Fuel Tax,0
+FY2021_audit,29,changes,10,Current:,General control and administration,American Rescue Plan Grant,0
+FY2021_audit,29,changes,10,Current:,General control and administration,Other Governmental,3578696
+FY2021_audit,29,changes,10,Current:,General control and administration,Total Governmental,6550279
+FY2021_audit,29,changes,11,,Public safety,General,6040053
+FY2021_audit,29,changes,11,,Public safety,County Bridge,0
+FY2021_audit,29,changes,11,,Public safety,Motor Fuel Tax,0
+FY2021_audit,29,changes,11,,Public safety,American Rescue Plan Grant,0
+FY2021_audit,29,changes,11,,Public safety,Other Governmental,2592327
+FY2021_audit,29,changes,11,,Public safety,Total Governmental,8632380
+FY2021_audit,29,changes,12,,Judiciary and courts,General,8293847
+FY2021_audit,29,changes,12,,Judiciary and courts,County Bridge,0
+FY2021_audit,29,changes,12,,Judiciary and courts,Motor Fuel Tax,0
+FY2021_audit,29,changes,12,,Judiciary and courts,American Rescue Plan Grant,0
+FY2021_audit,29,changes,12,,Judiciary and courts,Other Governmental,715162
+FY2021_audit,29,changes,12,,Judiciary and courts,Total Governmental,9009009
+FY2021_audit,29,changes,13,,Highways and bridges,General,0
+FY2021_audit,29,changes,13,,Highways and bridges,County Bridge,372540
+FY2021_audit,29,changes,13,,Highways and bridges,Motor Fuel Tax,1724781
+FY2021_audit,29,changes,13,,Highways and bridges,American Rescue Plan Grant,0
+FY2021_audit,29,changes,13,,Highways and bridges,Other Governmental,2363113
+FY2021_audit,29,changes,13,,Highways and bridges,Total Governmental,4460434
+FY2021_audit,29,changes,14,,Public health,General,36562
+FY2021_audit,29,changes,14,,Public health,County Bridge,0
+FY2021_audit,29,changes,14,,Public health,Motor Fuel Tax,0
+FY2021_audit,29,changes,14,,Public health,American Rescue Plan Grant,436000
+FY2021_audit,29,changes,14,,Public health,Other Governmental,2216170
+FY2021_audit,29,changes,14,,Public health,Total Governmental,2688732
+FY2021_audit,29,changes,15,,Public welfare,General,0
+FY2021_audit,29,changes,15,,Public welfare,County Bridge,0
+FY2021_audit,29,changes,15,,Public welfare,Motor Fuel Tax,0
+FY2021_audit,29,changes,15,,Public welfare,American Rescue Plan Grant,0
+FY2021_audit,29,changes,15,,Public welfare,Other Governmental,254496
+FY2021_audit,29,changes,15,,Public welfare,Total Governmental,254496
+FY2021_audit,29,changes,16,Debt service,Principal,General,107530
+FY2021_audit,29,changes,16,Debt service,Principal,County Bridge,0
+FY2021_audit,29,changes,16,Debt service,Principal,Motor Fuel Tax,0
+FY2021_audit,29,changes,16,Debt service,Principal,American Rescue Plan Grant,0
+FY2021_audit,29,changes,16,Debt service,Principal,Other Governmental,305000
+FY2021_audit,29,changes,16,Debt service,Principal,Total Governmental,412530
+FY2021_audit,29,changes,17,,Interest on long-term debt,General,5135
+FY2021_audit,29,changes,17,,Interest on long-term debt,County Bridge,0
+FY2021_audit,29,changes,17,,Interest on long-term debt,Motor Fuel Tax,0
+FY2021_audit,29,changes,17,,Interest on long-term debt,American Rescue Plan Grant,0
+FY2021_audit,29,changes,17,,Interest on long-term debt,Other Governmental,0
+FY2021_audit,29,changes,17,,Interest on long-term debt,Total Governmental,5135
+FY2021_audit,29,changes,18,,Fiscal agent fees,General,0
+FY2021_audit,29,changes,18,,Fiscal agent fees,County Bridge,0
+FY2021_audit,29,changes,18,,Fiscal agent fees,Motor Fuel Tax,0
+FY2021_audit,29,changes,18,,Fiscal agent fees,American Rescue Plan Grant,0
+FY2021_audit,29,changes,18,,Fiscal agent fees,Other Governmental,81183
+FY2021_audit,29,changes,18,,Fiscal agent fees,Total Governmental,81183
+FY2021_audit,29,changes,19,,Capital outlay,General,107291
+FY2021_audit,29,changes,19,,Capital outlay,County Bridge,28635
+FY2021_audit,29,changes,19,,Capital outlay,Motor Fuel Tax,35428
+FY2021_audit,29,changes,19,,Capital outlay,American Rescue Plan Grant,0
+FY2021_audit,29,changes,19,,Capital outlay,Other Governmental,810895
+FY2021_audit,29,changes,19,,Capital outlay,Total Governmental,982249
+FY2021_audit,29,changes,20,,Total expenditures,General,17562001
+FY2021_audit,29,changes,20,,Total expenditures,County Bridge,401175
+FY2021_audit,29,changes,20,,Total expenditures,Motor Fuel Tax,1760209
+FY2021_audit,29,changes,20,,Total expenditures,American Rescue Plan Grant,436000
+FY2021_audit,29,changes,20,,Total expenditures,Other Governmental,12917042
+FY2021_audit,29,changes,20,,Total expenditures,Total Governmental,33076427
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,General,1594034
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,County Bridge,-86427
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Motor Fuel Tax,524363
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,American Rescue Plan Grant,42364
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Other Governmental,2468071
+FY2021_audit,29,changes,21,,Excess (deficiency) of revenues over expenditures,Total Governmental,4542405
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,General,1900627
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,County Bridge,797660
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,Motor Fuel Tax,0
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,American Rescue Plan Grant,0
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,Other Governmental,579020
+FY2021_audit,29,changes,22,Other financing sources (uses),Transfers in,Total Governmental,3277307
+FY2021_audit,29,changes,23,,Transfers out,General,-576873
+FY2021_audit,29,changes,23,,Transfers out,County Bridge,0
+FY2021_audit,29,changes,23,,Transfers out,Motor Fuel Tax,-470672
+FY2021_audit,29,changes,23,,Transfers out,American Rescue Plan Grant,0
+FY2021_audit,29,changes,23,,Transfers out,Other Governmental,-2229762
+FY2021_audit,29,changes,23,,Transfers out,Total Governmental,-3277307
+FY2021_audit,29,changes,24,,Total other financing sources (uses),General,1323754
+FY2021_audit,29,changes,24,,Total other financing sources (uses),County Bridge,797660
+FY2021_audit,29,changes,24,,Total other financing sources (uses),Motor Fuel Tax,-470672
+FY2021_audit,29,changes,24,,Total other financing sources (uses),American Rescue Plan Grant,0
+FY2021_audit,29,changes,24,,Total other financing sources (uses),Other Governmental,-1650742
+FY2021_audit,29,changes,24,,Total other financing sources (uses),Total Governmental,0
+FY2021_audit,29,changes,25,,Net change in fund balance,General,2917788
+FY2021_audit,29,changes,25,,Net change in fund balance,County Bridge,711233
+FY2021_audit,29,changes,25,,Net change in fund balance,Motor Fuel Tax,53691
+FY2021_audit,29,changes,25,,Net change in fund balance,American Rescue Plan Grant,42364
+FY2021_audit,29,changes,25,,Net change in fund balance,Other Governmental,817329
+FY2021_audit,29,changes,25,,Net change in fund balance,Total Governmental,4542405
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",General,3638832
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",County Bridge,4187511
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Motor Fuel Tax,5660459
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",American Rescue Plan Grant,0
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Other Governmental,12735115
+FY2021_audit,29,changes,26,,"Fund balances, beginning of year, as restated",Total Governmental,26221917
+FY2021_audit,29,changes,27,,"Fund balances, end of year",General,6556620
+FY2021_audit,29,changes,27,,"Fund balances, end of year",County Bridge,4898744
+FY2021_audit,29,changes,27,,"Fund balances, end of year",Motor Fuel Tax,5714150
+FY2021_audit,29,changes,27,,"Fund balances, end of year",American Rescue Plan Grant,42364
+FY2021_audit,29,changes,27,,"Fund balances, end of year",Other Governmental,13552444
+FY2021_audit,29,changes,27,,"Fund balances, end of year",Total Governmental,30764322
