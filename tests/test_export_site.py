@@ -247,9 +247,9 @@ def test_water_sewer_datasets(site):
 def test_other_funds_dataset(site):
     rows = site(ENTITY, "other_funds.json")["rows"]
     verified = [r for r in rows if r["match"] == "verified" and r["revenues_diff"] is not None]
-    assert {r["fund_code"] for r in verified} == {"10", "13", "16", "17"}  # Motor Fuel Tax, Kishwaukee TIF, SSA 2 and 3
+    assert {r["fund_code"] for r in verified} == {"10", "13", "14", "16", "17"}  # Motor Fuel Tax, 1993 TIF (#14; #12 has no overlap year with a budget), Kishwaukee TIF, SSA 2 and 3
     diffs = [d for r in rows if r["match"] == "verified" for d in (r["revenues_diff"], r["expenditures_diff"]) if d is not None]
-    assert len(diffs) == 88 and set(diffs) == {0}  # 88 revenue and expenditure total comparisons (funds.csv: 23+24+23+18), the audit's budget = the budget page to the dollar
+    assert len(diffs) == 90 and sorted(set(diffs)) == [0, 24000]  # (24,000: 1993 TIF FY2016 original budget, EX-tif14-fy2016-original-budget) # 88 revenue and expenditure total comparisons (funds.csv: 23+24+23+18), the audit's budget = the budget page to the dollar
     audited = [r for r in rows if None not in (r["ending_balance"], r["beginning_balance"], r["net_change_actual"])]
     assert len(audited) > 70
     for r in audited:  # beginning + net change = ending

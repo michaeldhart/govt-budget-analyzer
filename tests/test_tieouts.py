@@ -39,8 +39,8 @@ def test_water_sewer_vs_audit(table):
 def test_verified_other_funds_agree(table):
     rows = [r for r in table("other_funds_summary") if r["match"] == "verified"]
     diffs = [int(d) for r in rows for d in (r["revenues_diff"], r["expenditures_diff"]) if d != ""]
-    assert diffs and not any(diffs)
-    assert sum(1 for r in rows if r["revenues_diff"] != "" or r["expenditures_diff"] != "") == 45
+    assert diffs and sum(1 for d in diffs if d) == 1  # the one miss: 1993 TIF FY2016 original 24,000 vs budget 0 (EX-tif14-fy2016-original-budget)
+    assert sum(1 for r in rows if r["revenues_diff"] != "" or r["expenditures_diff"] != "") == 46
 
 
 def test_general_fund_statements_vs_schedules(table):

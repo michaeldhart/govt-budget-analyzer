@@ -102,6 +102,9 @@ Phases 0-9 of `docs/PARK_DISTRICT_PLAN.md` are done (per-phase results, decision
 - **Site**: `entity.json` `fund_based_budget: true` makes `govbudget.export_site` build the datasets of `govbudget/export_park.py` (`park_revenue`, `park_spending`, `levies`, `park_audit_vs_budget`, `park_fund_balance`, `park_debt`; shared helpers in `export_common.py`) instead of the city's General Fund ones; pages `revenue/`, `spending/`, `levy/`, `audit-budget/`, `fund-balances/`, `liabilities/` under `web/src/pages/[entity]/` use the existing chart components. Tests: `tests/test_park_district.py`, `test_park_structure.py`, `test_export_park.py`; the golden rebuild covers both governments.
 - Not done: comparison across governments (S5/G4), more years of park history (FY2012-18 audits, pre-FY2019 budgets), Exhibit-style drill-downs by department.
 
+## TIF and Capital Projects cross-check, Water/Sewer FY2013-15 spot check (2026-10-31, D4/D5)
+The audit's 1990 TIF and 1993 TIF are budget funds #12 and #14 (verified: FY2013 actual line for line, cash chains, same years; `funds.csv` no longer has T90/T93). `build_fund_crosscheck.py` -> `fund_crosscheck.csv` (fund x year x measure x basis, audit vs budget; in `rebuild_all.sh`): TIF funds 30 of 36 comparisons tie, Capital Projects adopted budgets tie except two project lines the audit omits (FY2020 500,000, FY2022 1,500,000), its preliminary actuals and cash vs fund balance do not (exceptions `EX-tif-*`, `EX-cp-*`); #41 stays `by_name`. The FY2013-15 Water/Sewer statements match the page images and a second OCR reading; no corrections. Details: `docs/extraction-notes/tif_capital_crosscheck.md`.
+
 ## Fiscal year
 Belvidere's fiscal year runs May 1 to April 30. "FY2027" = May 1, 2026 to April 30, 2027.
 
