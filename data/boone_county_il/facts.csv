@@ -219,11 +219,11 @@ boone_county_il,FY2025_budget,budget,73,2023,actual_prelim,revenue,001,0000,001:
 boone_county_il,FY2025_budget,budget,73,2024,prior_doc_budget,revenue,001,0000,001:0000-399001,001-0000-399001,,Transfer In from General Fund Reserves,0,Total Budget,,20,,
 boone_county_il,FY2025_budget,budget,73,2025,adopted,revenue,001,0000,001:0000-399001,001-0000-399001,,Transfer In from General Fund Reserves,6000000,Final Budget,,20,,
 boone_county_il,FY2025_budget,budget,74,2023,actual_prelim,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2620000,Total Activity,,22,,
-boone_county_il,FY2025_budget,budget,74,2024,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,22,,
-boone_county_il,FY2025_budget,budget,74,2025,adopted,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Final Budget,,22,,
+boone_county_il,FY2025_budget,budget,74,2024,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,22,,EX-audit-budget-omits-health-insurance
+boone_county_il,FY2025_budget,budget,74,2025,adopted,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Final Budget,,22,,EX-audit-budget-omits-health-insurance
 boone_county_il,FY2025_budget,budget,75,2023,actual_prelim,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,0,Total Activity,,22,,
 boone_county_il,FY2025_budget,budget,75,2024,prior_doc_budget,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,0,Total Budget,,22,,
-boone_county_il,FY2025_budget,budget,75,2025,adopted,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,2400,Final Budget,,22,,
+boone_county_il,FY2025_budget,budget,75,2025,adopted,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,2400,Final Budget,,22,,EX-gf-bank-charges-netting
 boone_county_il,FY2025_budget,budget,76,2023,actual_prelim,expense,001,0000,001:0000-499000,001-0000-499000,,Misc Materials & Services,32887,Total Activity,,22,,
 boone_county_il,FY2025_budget,budget,76,2024,prior_doc_budget,expense,001,0000,001:0000-499000,001-0000-499000,,Misc Materials & Services,0,Total Budget,,22,,
 boone_county_il,FY2025_budget,budget,76,2025,adopted,expense,001,0000,001:0000-499000,001-0000-499000,,Misc Materials & Services,0,Final Budget,,22,,
@@ -2002,7 +2002,7 @@ boone_county_il,FY2025_budget,budget,667,2024,prior_doc_budget,revenue,045,0000,
 boone_county_il,FY2025_budget,budget,667,2025,adopted,revenue,045,0000,045:0000-303000,045-0000-303000,,Pub Safety Sales Tax/Jail Bond,2205000,Final Budget,,82,,
 boone_county_il,FY2025_budget,budget,668,2023,actual_prelim,revenue,045,0000,045:0000-370000,045-0000-370000,,Interest,8113,Total Activity,,82,rounded_from_cents,
 boone_county_il,FY2025_budget,budget,668,2024,prior_doc_budget,revenue,045,0000,045:0000-370000,045-0000-370000,,Interest,13000,Total Budget,,82,,
-boone_county_il,FY2025_budget,budget,668,2025,adopted,revenue,045,0000,045:0000-370000,045-0000-370000,,Interest,8000,Final Budget,,82,,
+boone_county_il,FY2025_budget,budget,668,2025,adopted,revenue,045,0000,045:0000-370000,045-0000-370000,,Interest,8000,Final Budget,,82,,EX-budget-amended-after-adoption
 boone_county_il,FY2025_budget,budget,669,2023,actual_prelim,expense,045,0000,045:0000-899001,045-0000-899001,,Transfer Out to General Fund,2399514,Total Activity,,82,rounded_from_cents,
 boone_county_il,FY2025_budget,budget,669,2024,prior_doc_budget,expense,045,0000,045:0000-899001,045-0000-899001,,Transfer Out to General Fund,2029000,Total Budget,,82,,
 boone_county_il,FY2025_budget,budget,669,2025,adopted,expense,045,0000,045:0000-899001,045-0000-899001,,Transfer Out to General Fund,2215000,Final Budget,,82,,
@@ -2092,7 +2092,7 @@ boone_county_il,FY2025_budget,budget,697,2024,prior_doc_budget,expense,116,0116,
 boone_county_il,FY2025_budget,budget,697,2025,adopted,expense,116,0116,116:0116-899001,116-0116-899001,,Transfer Out to General Fund,10000,Final Budget,,86,,
 boone_county_il,FY2025_budget,budget,698,2023,actual_prelim,revenue,120,0012,120:0012-370000,120-0012-370000,,Interest,56,Total Activity,,87,rounded_from_cents,
 boone_county_il,FY2025_budget,budget,698,2024,prior_doc_budget,revenue,120,0012,120:0012-370000,120-0012-370000,,Interest,1500,Total Budget,,87,,
-boone_county_il,FY2025_budget,budget,698,2025,adopted,revenue,120,0012,120:0012-370000,120-0012-370000,,Interest,800,Final Budget,,87,,
+boone_county_il,FY2025_budget,budget,698,2025,adopted,revenue,120,0012,120:0012-370000,120-0012-370000,,Interest,800,Final Budget,,87,,EX-budget-amended-after-adoption
 boone_county_il,FY2025_budget,budget,699,2023,actual_prelim,revenue,120,0012,120:0012-381500,120-0012-381500,,Donations,20217,Total Activity,,87,rounded_from_cents,
 boone_county_il,FY2025_budget,budget,699,2024,prior_doc_budget,revenue,120,0012,120:0012-381500,120-0012-381500,,Donations,10000,Total Budget,,87,,
 boone_county_il,FY2025_budget,budget,699,2025,adopted,revenue,120,0012,120:0012-381500,120-0012-381500,,Donations,10000,Final Budget,,87,,
@@ -2767,9 +2767,9 @@ boone_county_il,FY2026_budget,budget,72,2024,prior_doc_budget,revenue,001,0000,0
 boone_county_il,FY2026_budget,budget,72,2024,actual_prelim,revenue,001,0000,001:0000-399001,001-0000-399001,,Transfer In from GF Reserve,0,Total Activity,,22,,
 boone_county_il,FY2026_budget,budget,72,2025,prior_doc_budget,revenue,001,0000,001:0000-399001,001-0000-399001,,Transfer In from GF Reserve,6000000,Total Budget,,22,,
 boone_county_il,FY2026_budget,budget,72,2026,adopted,revenue,001,0000,001:0000-399001,001-0000-399001,,Transfer In from GF Reserve,2500000,Final Budget,,22,,
-boone_county_il,FY2026_budget,budget,73,2024,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,24,,
+boone_county_il,FY2026_budget,budget,73,2024,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,24,,EX-audit-budget-omits-health-insurance
 boone_county_il,FY2026_budget,budget,73,2024,actual_prelim,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Activity,,24,rounded_from_cents,
-boone_county_il,FY2026_budget,budget,73,2025,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,24,,
+boone_county_il,FY2026_budget,budget,73,2025,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,24,,EX-audit-budget-omits-health-insurance
 boone_county_il,FY2026_budget,budget,73,2026,adopted,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2950000,Final Budget,,24,,
 boone_county_il,FY2026_budget,budget,74,2024,prior_doc_budget,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,0,Total Budget,,24,,
 boone_county_il,FY2026_budget,budget,74,2024,actual_prelim,expense,001,0000,001:0000-454000,001-0000-454000,,Bank Charges,2324,Total Activity,,24,rounded_from_cents,
@@ -6079,7 +6079,7 @@ boone_county_il,FY2027_budget_prelim,budget,72,2025,prior_doc_budget,revenue,001
 boone_county_il,FY2027_budget_prelim,budget,72,2025,actual_prelim,revenue,001,0000,001:0000-399158,001-0000-399158,,Transfer In from Maint & C.S.,9000,Total Activity,,5,,
 boone_county_il,FY2027_budget_prelim,budget,72,2026,prior_doc_budget,revenue,001,0000,001:0000-399158,001-0000-399158,,Transfer In from Maint & C.S.,5000,Total Budget,,5,,
 boone_county_il,FY2027_budget_prelim,budget,72,2027,requested,revenue,001,0000,001:0000-399158,001-0000-399158,,Transfer In from Maint & C.S.,4000,Prelim Budget,,5,,
-boone_county_il,FY2027_budget_prelim,budget,73,2025,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,7,,
+boone_county_il,FY2027_budget_prelim,budget,73,2025,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Budget,,7,,EX-audit-budget-omits-health-insurance
 boone_county_il,FY2027_budget_prelim,budget,73,2025,actual_prelim,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2570000,Total Activity,,7,,
 boone_county_il,FY2027_budget_prelim,budget,73,2026,prior_doc_budget,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,2945040,Total Budget,,7,,
 boone_county_il,FY2027_budget_prelim,budget,73,2027,requested,expense,001,0000,001:0000-414200,001-0000-414200,,Health Ins. Employer Share,3060000,Prelim Budget,,7,,

@@ -53,7 +53,7 @@ def revenue_category(obj):
     sys.exit(f"no revenue rule for object {obj}")
 
 
-def expense_category(obj):
+def expense_category(obj, label=""):
     p2, p3 = obj[:2], obj[:3]
     if p2 in ("40", "41"):
         return "exp_personnel", "rule: 40xxxx-41xxxx"
@@ -70,6 +70,8 @@ def expense_category(obj):
     if p2 in ("80", "81", "86"):
         return "exp_claims_grants", "rule: 80xxxx/81xxxx/86xxxx"
     if p2 == "89":
+        if not re.search(r"(?i)transfer|txfr", label):
+            return "exp_contractual", "rule: 89xxxx whose label is not a transfer (Probation 'Placement' is a program cost)"
         return "exp_transfers", "rule: 89xxxx"
     return "exp_other", "rule: 59/79/90/99"
 
@@ -78,9 +80,9 @@ GF_FUNCTION = {"0000": "fn_general", "0051": "fn_general", "0052": "fn_general",
                "0058": "fn_general", "0059": "fn_general", "0060": "fn_general", "0062": "fn_general", "0076": "fn_general", "0077": "fn_general",
                "0078": "fn_general", "0080": "fn_general", "0081": "fn_general", "0082": "fn_general", "0084": "fn_general", "0085": "fn_general",
                "0086": "fn_general", "0087": "fn_general", "0088": "fn_general",
-               "0056": "fn_safety", "0061": "fn_safety", "0063": "fn_safety", "0070": "fn_safety", "0071": "fn_safety", "0073": "fn_safety",
+               "0056": "fn_safety", "0061": "fn_safety", "0063": "fn_safety", "0070": "fn_safety", "0073": "fn_safety",
                "0055": "fn_judiciary", "0064": "fn_judiciary", "0065": "fn_judiciary", "0066": "fn_judiciary", "0069": "fn_judiciary",
-               "0072": "fn_judiciary", "0075": "fn_judiciary"}
+               "0072": "fn_judiciary", "0075": "fn_judiciary", "0071": "fn_judiciary"}
 FUND_FUNCTION = {"002": "fn_highways", "003": "fn_highways", "004": "fn_highways", "005": "fn_highways", "144": "fn_highways", "145": "fn_highways",
                  "011": "fn_health", "012": "fn_health", "013": "fn_health", "100": "fn_health", "120": "fn_health", "127": "fn_health",
                  "019": "fn_judiciary", "020": "fn_judiciary", "021": "fn_judiciary", "039": "fn_judiciary", "040": "fn_judiciary", "041": "fn_judiciary",
@@ -131,7 +133,7 @@ def main(write):
             name = dept_names.get(dept) if fund == "001" else None
             name = name if name and not name.startswith(("Treasurer Total", "Urban Transportation Fund Total")) else fund_names.get(fund, f"{fund}-{dept}")
             fn = FN_NAME[GF_FUNCTION.get(dept, "fn_general") if fund == "001" else FUND_FUNCTION.get(fund, "fn_general")]
-            depts[(fund, dept)] = dict(fund_code=fund, dept_code=dept, name=name, function=fn, note="rule: department of the General Fund by name; other funds by fund")
+            depts[(fund, dept)] = dict(fund_code=fund, dept_code=dept, name=name, function=fn, note="rule: department of the General Fund by name (County Corrections is Judiciary and courts, as the audit presents it); other funds by fund")
     amap = {(r["flow"], r["account_key"]): r for r in E.table("account_map.csv")} if os.path.exists(E.config_path("account_map.csv")) else {}
     added = 0
     for (flow, fund, dept, obj), label in sorted(labels.items()):
@@ -142,7 +144,7 @@ def main(write):
         if flow == "revenue":
             cat, treat, note = revenue_category(obj)
         else:
-            cat, note = expense_category(obj)
+            cat, note = expense_category(obj, label)
             treat = "expense"
         amap[(flow, key)] = dict(flow=flow, account_key=key, label=label, department=dname, category_id=cat, treatment=treat, note=note)
         added += 1

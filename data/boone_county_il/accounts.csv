@@ -320,7 +320,7 @@ boone_county_il,expense,001:0082-805863,SB1863 Election Personnel,0082,Election,
 boone_county_il,expense,001:0082-815000,Voter Registration,0082,Election,exp_claims_grants,expense,2025,2026,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,001:0084-604100,FOIA Attorney,0084,Contingency,exp_capital,expense,2025,2025,rule: 56xxxx/60xxxx
 boone_county_il,expense,001:0084-900100,Contingencies #1,0084,Contingency,exp_other,expense,2025,2026,rule: 59/79/90/99
-boone_county_il,expense,001:0085-401185,IT Wages,0085,Information Technology,exp_personnel,expense,2025,2026,rule: 40xxxx-41xxxx
+boone_county_il,expense,001:0085-401185,IT Wages (4),0085,Information Technology,exp_personnel,expense,2025,2026,rule: 40xxxx-41xxxx
 boone_county_il,expense,001:0085-451000,Office Supplies,0085,Information Technology,exp_supplies,expense,2026,2026,rule: 45xxxx-49xxxx
 boone_county_il,expense,001:0085-463000,Uniforms,0085,Information Technology,exp_supplies,expense,,,rule: 45xxxx-49xxxx
 boone_county_il,expense,001:0085-522000,Telephone/Fiber,0085,Information Technology,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx
@@ -463,7 +463,7 @@ boone_county_il,expense,018:0018-416000,Workers Comp Insurance,0018,Tort Immunit
 boone_county_il,expense,018:0018-417000,Unemployment Comp Insurance,0018,Tort Immunity Fund,exp_personnel,expense,2025,2026,rule: 40xxxx-41xxxx
 boone_county_il,expense,018:0018-499000,Misc Materials & Services,0018,Tort Immunity Fund,exp_supplies,expense,2025,2026,rule: 45xxxx-49xxxx
 boone_county_il,expense,018:0018-521000,General Insurance & Bonds,0018,Tort Immunity Fund,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx
-boone_county_il,expense,018:0018-802100,Jail Medical & Dental Claims,0018,Tort Immunity Fund,exp_claims_grants,expense,2025,2026,rule: 80xxxx/81xxxx/86xxxx
+boone_county_il,expense,018:0018-802100,Jail Medical & Dental Claims 18,0018,Tort Immunity Fund,exp_claims_grants,expense,2025,2026,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,018:0018-802600,Claims & Judgments (Tort),0018,Tort Immunity Fund,exp_claims_grants,expense,2025,2026,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,018:0018-862000,Regional Office of Education,0018,Tort Immunity Fund,exp_claims_grants,expense,2025,2026,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,019:0073-504000,Equipment Maintenance,0073,Court Security Fund,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx
@@ -516,7 +516,7 @@ boone_county_il,expense,039:0069-535000,Other Professional Services,0069,Probati
 boone_county_il,expense,039:0069-535100,Other Professional Services - Courts,0069,Probation Services Fund,exp_contractual,expense,2025,2025,rule: 50xxxx-58xxxx
 boone_county_il,expense,039:0069-542000,Dues,0069,Probation Services Fund,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,039:0069-604000,Equipment,0069,Probation Services Fund,exp_capital,expense,2025,2026,rule: 56xxxx/60xxxx
-boone_county_il,expense,039:0069-899001,Placement,0069,Probation Services Fund,exp_transfers,expense,2025,2026,rule: 89xxxx
+boone_county_il,expense,039:0069-899001,Placement,0069,Probation Services Fund,exp_contractual,expense,2025,2026,rule: 89xxxx whose label is not a transfer (Probation 'Placement' is a program cost)
 boone_county_il,expense,040:0055-451000,Office Supplies,0055,Document Storage Fund,exp_supplies,expense,2025,2026,rule: 45xxxx-49xxxx
 boone_county_il,expense,040:0055-504000,Equipment Maintenance,0055,Document Storage Fund,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,040:0055-524000,Travel,0055,Document Storage Fund,exp_contractual,expense,2025,2026,rule: 50xxxx-58xxxx

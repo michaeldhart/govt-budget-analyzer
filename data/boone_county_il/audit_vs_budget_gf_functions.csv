@@ -1,0 +1,11 @@
+entity_id,period_fy,function,worksheet_budget,audit_budget,budget_diff,worksheet_activity,audit_actual,actual_diff
+boone_county_il,2024,County-wide health insurance (Non-Departmental),2570000,0,-2570000,2570000,0,-2570000
+boone_county_il,2024,Debt service,0,0,0,0,209303,209303
+boone_county_il,2024,General control and administration,4670985,4670865,-120,4684161,5586643,902482
+boone_county_il,2024,Judiciary and courts,6849045,6849045,0,6505194,7127637,622443
+boone_county_il,2024,Public safety,6494269,6494389,120,6717543,8473171,1755628
+boone_county_il,2025,County-wide health insurance (Non-Departmental),2570000,0,-2570000,2570000,0,-2570000
+boone_county_il,2025,Debt service,0,0,0,0,180971,180971
+boone_county_il,2025,General control and administration,4134508,4363408,228900,4401868,4514222,112354
+boone_county_il,2025,Judiciary and courts,7263203,7880003,616800,7155570,7795873,640303
+boone_county_il,2025,Public safety,6845638,8567538,1721900,6863863,8539338,1675475

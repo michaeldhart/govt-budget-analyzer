@@ -144,3 +144,15 @@ def test_budget_facts_reconcile_with_control_totals():
         ts[(r["doc_id"], r["name"].split("-")[0], "revenue" if r["kind"].endswith("revenues") else "expense", r["period_fy"], r["basis"])] += int(r["amount"])
     bad = sorted(k for k, v in ts.items() if abs(fs.get(k, 0) - v) > max(1, 0.5 * n.get(k, 0)))
     assert len(ts) == 993 and len(bad) == 4, bad
+
+
+def test_audit_vs_budget_comparison():
+    rows = list(csv.DictReader(open(DATA / "audit_vs_budget.csv", newline="")))
+    budget = [r for r in rows if r["budget_status"]]
+    assert len(budget) == 177 and sum(r["budget_status"] == "agree" for r in budget) == 172
+    differ = sorted((r["fund_code"], r["period_fy"], r["measure"], int(r["budget_diff"])) for r in budget if r["budget_status"] == "differs")
+    assert differ == [("001", "2024", "expenditure", -2570000), ("001", "2025", "expenditure", -2400), ("001", "2025", "revenue", -2400),
+                      ("045", "2025", "revenue", 2000), ("120", "2025", "revenue", 200)]
+    funcs = {(r["period_fy"], r["function"]): int(r["budget_diff"]) for r in csv.DictReader(open(DATA / "audit_vs_budget_gf_functions.csv", newline=""))}
+    assert funcs[("2024", "Judiciary and courts")] == 0 and funcs[("2024", "Public safety")] == 120
+    assert funcs[("2025", "General control and administration")] + funcs[("2025", "Judiciary and courts")] + funcs[("2025", "Public safety")] == 2567600
