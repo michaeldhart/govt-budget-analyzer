@@ -1,0 +1,50 @@
+check,ok,detail
+imrf_eco contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco npl 2014: liability components add to the net change,True,180874.0 vs 180874.0
+imrf_eco npl 2014: beginning + change = ending liability,True,
+imrf_eco npl 2014: fiduciary net position components add to the net change,True,96782.0 vs 96782.0
+imrf_eco npl 2014: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2014: net pension liability = liability - fiduciary net position,True,1902140.0 vs 1902140.0
+imrf_eco npl 2014: fiduciary net position percentage,True,64.141 vs 64.14
+imrf_eco npl 2015: liability components add to the net change,True,60562.0 vs 60562.0
+imrf_eco npl 2015: beginning + change = ending liability,True,
+imrf_eco npl 2015: fiduciary net position components add to the net change,True,300704.0 vs 300704.0
+imrf_eco npl 2015: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2015: net pension liability = liability - fiduciary net position,True,1661998.0 vs 1661998.0
+imrf_eco npl 2015: fiduciary net position percentage,True,69.021 vs 69.02
+imrf_regular contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2015: contributions / payroll,True,
+imrf_regular contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2016: contributions / payroll,True,
+imrf_regular npl 2014: liability components add to the net change,True,2527020.0 vs 2527020.0
+imrf_regular npl 2014: beginning + change = ending liability,True,
+imrf_regular npl 2014: fiduciary net position components add to the net change,True,1867588.0 vs 1867588.0
+imrf_regular npl 2014: net pension liability as a percentage of payroll,True,20.882 vs 20.88
+imrf_regular npl 2015: liability components add to the net change,True,1970658.0 vs 1970658.0
+imrf_regular npl 2015: beginning + change = ending liability,True,
+imrf_regular npl 2015: fiduciary net position components add to the net change,True,-330842.0 vs -330842.0
+imrf_regular npl 2015: net pension liability as a percentage of payroll,True,46.459 vs 46.46
+slep contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2015: contributions / payroll,True,
+slep contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2016: contributions / payroll,True,
+slep npl 2014: liability components add to the net change,True,1095747.0 vs 1095747.0
+slep npl 2014: beginning + change = ending liability,True,
+slep npl 2014: fiduciary net position components add to the net change,True,886610.0 vs 886610.0
+slep npl 2014: beginning + change = ending fiduciary net position,True,
+slep npl 2014: net pension liability = liability - fiduciary net position,True,2627199.0 vs 2627199.0
+slep npl 2014: fiduciary net position percentage,True,85.771 vs 85.77
+slep npl 2014: net pension liability as a percentage of payroll,True,106.252 vs 106.25
+slep npl 2015: liability components add to the net change,True,1454029.0 vs 1454029.0
+slep npl 2015: beginning + change = ending liability,True,
+slep npl 2015: fiduciary net position components add to the net change,True,144488.0 vs 144488.0
+slep npl 2015: beginning + change = ending fiduciary net position,True,
+slep npl 2015: net pension liability = liability - fiduciary net position,True,3936740.0 vs 3936740.0
+slep npl 2015: fiduciary net position percentage,True,80.235 vs 80.24
+slep npl 2015: net pension liability as a percentage of payroll,True,147.679 vs 147.68
+imrf_eco npl 2014->2015: liability_ending = next liability_beginning,True,
+imrf_eco npl 2014->2015: fnp_ending = next fnp_beginning,True,
+imrf_regular npl 2014->2015: liability_ending = next liability_beginning,True,
+slep npl 2014->2015: liability_ending = next liability_beginning,True,
+slep npl 2014->2015: fnp_ending = next fnp_beginning,True,

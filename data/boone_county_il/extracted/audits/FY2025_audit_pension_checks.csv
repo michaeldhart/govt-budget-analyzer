@@ -1,0 +1,297 @@
+check,ok,detail
+imrf_eco contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2017: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2018: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2019: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2020: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2021: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2022: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2023: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2024: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco contributions 2025: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_eco npl 2015: liability components add to the net change,True,49066.0 vs 49066.0
+imrf_eco npl 2015: beginning + change = ending liability,True,
+imrf_eco npl 2015: fiduciary net position components add to the net change,True,197590.0 vs 197590.0
+imrf_eco npl 2015: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2015: net pension liability = liability - fiduciary net position,True,1661998.0 vs 1661998.0
+imrf_eco npl 2015: fiduciary net position percentage,True,69.021 vs 69.02
+imrf_eco npl 2016: liability components add to the net change,True,-40394.0 vs -40394.0
+imrf_eco npl 2016: beginning + change = ending liability,True,
+imrf_eco npl 2016: fiduciary net position components add to the net change,True,97920.0 vs 97920.0
+imrf_eco npl 2016: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2016: net pension liability = liability - fiduciary net position,True,1523684.0 vs 1523684.0
+imrf_eco npl 2016: fiduciary net position percentage,True,71.384 vs 71.38
+imrf_eco npl 2017: liability components add to the net change,True,-170331.0 vs -170331.0
+imrf_eco npl 2017: beginning + change = ending liability,True,
+imrf_eco npl 2017: fiduciary net position components add to the net change,True,363591.0 vs 363591.0
+imrf_eco npl 2017: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2017: net pension liability = liability - fiduciary net position,True,989762.0 vs 989762.0
+imrf_eco npl 2017: fiduciary net position percentage,True,80.797 vs 80.8
+imrf_eco npl 2018: liability components add to the net change,True,-286437.0 vs -286437.0
+imrf_eco npl 2018: beginning + change = ending liability,True,
+imrf_eco npl 2018: fiduciary net position components add to the net change,True,-871856.0 vs -871856.0
+imrf_eco npl 2018: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2018: net pension liability = liability - fiduciary net position,True,1575181.0 vs 1575181.0
+imrf_eco npl 2018: fiduciary net position percentage,True,67.641 vs 67.64
+imrf_eco npl 2019: liability components add to the net change,True,48648.0 vs 48648.0
+imrf_eco npl 2019: beginning + change = ending liability,True,
+imrf_eco npl 2019: fiduciary net position components add to the net change,True,489935.0 vs 489935.0
+imrf_eco npl 2019: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2019: net pension liability = liability - fiduciary net position,True,1133894.0 vs 1133894.0
+imrf_eco npl 2019: fiduciary net position percentage,True,76.937 vs 76.94
+imrf_eco npl 2020: liability components add to the net change,True,-22080.0 vs -22080.0
+imrf_eco npl 2020: beginning + change = ending liability,True,
+imrf_eco npl 2020: fiduciary net position components add to the net change,True,369415.0 vs 369415.0
+imrf_eco npl 2020: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2020: net pension liability = liability - fiduciary net position,True,742399.0 vs 742399.0
+imrf_eco npl 2020: fiduciary net position percentage,True,84.832 vs 84.83
+imrf_eco npl 2021: liability components add to the net change,True,-42015.0 vs -42015.0
+imrf_eco npl 2021: beginning + change = ending liability,True,
+imrf_eco npl 2021: fiduciary net position components add to the net change,True,485087.0 vs 485087.0
+imrf_eco npl 2021: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2021: net pension liability = liability - fiduciary net position,True,215297.0 vs 215297.0
+imrf_eco npl 2021: fiduciary net position percentage,True,95.563 vs 95.56
+imrf_eco npl 2022: liability components add to the net change,True,182208.0 vs 182208.0
+imrf_eco npl 2022: beginning + change = ending liability,True,
+imrf_eco npl 2022: fiduciary net position components add to the net change,True,-1040437.0 vs -1040437.0
+imrf_eco npl 2022: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2022: net pension liability = liability - fiduciary net position,True,1437942.0 vs 1437942.0
+imrf_eco npl 2022: fiduciary net position percentage,True,71.439 vs 71.44
+imrf_eco npl 2023: liability components add to the net change,True,-64534.0 vs -64534.0
+imrf_eco npl 2023: beginning + change = ending liability,True,
+imrf_eco npl 2023: fiduciary net position components add to the net change,True,155515.0 vs 155515.0
+imrf_eco npl 2023: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2023: net pension liability = liability - fiduciary net position,True,1217893.0 vs 1217893.0
+imrf_eco npl 2023: fiduciary net position percentage,True,75.495 vs 75.5
+imrf_eco npl 2024: liability components add to the net change,True,-50644.0 vs -50644.0
+imrf_eco npl 2024: beginning + change = ending liability,True,
+imrf_eco npl 2024: fiduciary net position components add to the net change,True,-79920.0 vs -79920.0
+imrf_eco npl 2024: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2024: net pension liability = liability - fiduciary net position,True,1247169.0 vs 1247169.0
+imrf_eco npl 2024: fiduciary net position percentage,True,74.648 vs 74.65
+imrf_regular contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2016: contributions / payroll,True,
+imrf_regular contributions 2017: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2017: contributions / payroll,True,
+imrf_regular contributions 2018: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2018: contributions / payroll,True,
+imrf_regular contributions 2019: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2019: contributions / payroll,True,
+imrf_regular contributions 2020: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2020: contributions / payroll,True,
+imrf_regular contributions 2021: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2021: contributions / payroll,True,
+imrf_regular contributions 2022: ADC - contributions = deficiency,True,3125.0 vs 3125.0
+imrf_regular contributions 2022: contributions / payroll,True,
+imrf_regular contributions 2023: ADC - contributions = deficiency,True,3137.0 vs 3137.0
+imrf_regular contributions 2023: contributions / payroll,True,
+imrf_regular contributions 2024: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2024: contributions / payroll,True,
+imrf_regular contributions 2025: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2025: contributions / payroll,True,
+imrf_regular npl 2015: liability components add to the net change,True,1928354.0 vs 1928354.0
+imrf_regular npl 2015: beginning + change = ending liability,True,
+imrf_regular npl 2015: fiduciary net position components add to the net change,True,-1087253.0 vs -1087253.0
+imrf_regular npl 2015: net pension liability as a percentage of payroll,True,46.459 vs 46.46
+imrf_regular npl 2016: liability components add to the net change,True,2451437.0 vs 2451437.0
+imrf_regular npl 2016: beginning + change = ending liability,True,
+imrf_regular npl 2016: fiduciary net position components add to the net change,True,2815904.0 vs 2815904.0
+imrf_regular npl 2016: net pension liability as a percentage of payroll,True,42.228 vs 42.23
+imrf_regular npl 2017: liability components add to the net change,True,643663.0 vs 643663.0
+imrf_regular npl 2017: beginning + change = ending liability,True,
+imrf_regular npl 2017: fiduciary net position components add to the net change,True,5864434.0 vs 5864434.0
+imrf_regular npl 2017: net pension liability as a percentage of payroll,True,-16.831 vs -16.83
+imrf_regular npl 2018: liability components add to the net change,True,3695729.0 vs 3695729.0
+imrf_regular npl 2018: beginning + change = ending liability,True,
+imrf_regular npl 2018: fiduciary net position components add to the net change,True,-2976458.0 vs -2976458.0
+imrf_regular npl 2018: net pension liability as a percentage of payroll,True,57.558 vs 57.56
+imrf_regular npl 2019: liability components add to the net change,True,2545261.0 vs 2545261.0
+imrf_regular npl 2019: beginning + change = ending liability,True,
+imrf_regular npl 2019: fiduciary net position components add to the net change,True,7109572.0 vs 7109572.0
+imrf_regular npl 2019: net pension liability as a percentage of payroll,True,6.700 vs 6.7
+imrf_regular npl 2020: liability components add to the net change,True,2189330.0 vs 2189330.0
+imrf_regular npl 2020: beginning + change = ending liability,True,
+imrf_regular npl 2020: fiduciary net position components add to the net change,True,6526459.0 vs 6526459.0
+imrf_regular npl 2020: net pension liability as a percentage of payroll,True,-37.498 vs -37.5
+imrf_regular npl 2021: liability components add to the net change,True,3214264.0 vs 3214264.0
+imrf_regular npl 2021: beginning + change = ending liability,True,
+imrf_regular npl 2021: fiduciary net position components add to the net change,True,8532478.0 vs 8532478.0
+imrf_regular npl 2021: net pension liability as a percentage of payroll,True,-86.116 vs -86.12
+imrf_regular npl 2022: liability components add to the net change,True,2638883.0 vs 2638883.0
+imrf_regular npl 2022: beginning + change = ending liability,True,
+imrf_regular npl 2022: fiduciary net position components add to the net change,True,-9019397.0 vs -9019397.0
+imrf_regular npl 2022: net pension liability as a percentage of payroll,True,25.156 vs 25.16
+imrf_regular npl 2023: liability components add to the net change,True,2191463.0 vs 2191463.0
+imrf_regular npl 2023: beginning + change = ending liability,True,
+imrf_regular npl 2023: fiduciary net position components add to the net change,True,5821171.0 vs 5821171.0
+imrf_regular npl 2023: net pension liability as a percentage of payroll,True,-9.375 vs -9.38
+imrf_regular npl 2024: liability components add to the net change,True,2545583.0 vs 2545583.0
+imrf_regular npl 2024: beginning + change = ending liability,True,
+imrf_regular npl 2024: fiduciary net position components add to the net change,True,2521807.0 vs 2521807.0
+imrf_regular npl 2024: net pension liability as a percentage of payroll,True,-8.618 vs -8.62
+opeb opeb 2018: liability components add to the net change,True,165655.0 vs 165655.0
+opeb opeb 2018: beginning + change = ending liability,True,
+opeb opeb 2018: OPEB liability as a percentage of payroll,True,
+opeb opeb 2019: liability components add to the net change,True,737018.0 vs 737018.0
+opeb opeb 2019: beginning + change = ending liability,True,
+opeb opeb 2019: OPEB liability as a percentage of payroll,True,
+opeb opeb 2020: liability components add to the net change,True,764197.0 vs 764197.0
+opeb opeb 2020: beginning + change = ending liability,True,
+opeb opeb 2020: OPEB liability as a percentage of payroll,True,
+opeb opeb 2021: liability components add to the net change,True,-620487.0 vs -620487.0
+opeb opeb 2021: beginning + change = ending liability,True,
+opeb opeb 2021: OPEB liability as a percentage of payroll,True,
+opeb opeb 2022: liability components add to the net change,True,-392926.0 vs -392926.0
+opeb opeb 2022: beginning + change = ending liability,True,
+opeb opeb 2022: OPEB liability as a percentage of payroll,True,
+opeb opeb 2023: liability components add to the net change,True,367497.0 vs 367497.0
+opeb opeb 2023: beginning + change = ending liability,True,
+opeb opeb 2023: OPEB liability as a percentage of payroll,True,
+opeb opeb 2024: liability components add to the net change,True,375247.0 vs 375247.0
+opeb opeb 2024: beginning + change = ending liability,True,
+opeb opeb 2024: OPEB liability as a percentage of payroll,True,
+opeb opeb 2025: liability components add to the net change,True,1486181.0 vs 1486181.0
+opeb opeb 2025: beginning + change = ending liability,True,
+opeb opeb 2025: OPEB liability as a percentage of payroll,True,
+slep contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2016: contributions / payroll,True,
+slep contributions 2017: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2017: contributions / payroll,True,
+slep contributions 2018: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2018: contributions / payroll,True,
+slep contributions 2019: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2019: contributions / payroll,True,
+slep contributions 2020: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2020: contributions / payroll,True,
+slep contributions 2021: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2021: contributions / payroll,True,
+slep contributions 2022: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2022: contributions / payroll,True,
+slep contributions 2023: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2023: contributions / payroll,True,
+slep contributions 2024: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2024: contributions / payroll,True,
+slep contributions 2025: ADC - contributions = deficiency,True,0.0 vs 0.0
+slep contributions 2025: contributions / payroll,True,
+slep npl 2015: liability components add to the net change,True,1432539.0 vs 1432539.0
+slep npl 2015: beginning + change = ending liability,True,
+slep npl 2015: fiduciary net position components add to the net change,True,44725.0 vs 44725.0
+slep npl 2015: beginning + change = ending fiduciary net position,True,
+slep npl 2015: net pension liability = liability - fiduciary net position,True,3936740.0 vs 3936740.0
+slep npl 2015: fiduciary net position percentage,True,80.235 vs 80.24
+slep npl 2015: net pension liability as a percentage of payroll,True,147.679 vs 147.68
+slep npl 2016: liability components add to the net change,True,350593.0 vs 350593.0
+slep npl 2016: beginning + change = ending liability,True,
+slep npl 2016: fiduciary net position components add to the net change,True,1122429.0 vs 1122429.0
+slep npl 2016: beginning + change = ending fiduciary net position,True,
+slep npl 2016: net pension liability = liability - fiduciary net position,True,3164904.0 vs 3164904.0
+slep npl 2016: fiduciary net position percentage,True,84.385 vs 84.39
+slep npl 2016: net pension liability as a percentage of payroll,True,114.776 vs 114.78
+slep npl 2017: liability components add to the net change,True,764398.0 vs 764398.0
+slep npl 2017: beginning + change = ending liability,True,
+slep npl 2017: fiduciary net position components add to the net change,True,2700481.0 vs 2700481.0
+slep npl 2017: beginning + change = ending fiduciary net position,True,
+slep npl 2017: net pension liability = liability - fiduciary net position,True,1228821.0 vs 1228821.0
+slep npl 2017: fiduciary net position percentage,True,94.158 vs 94.16
+slep npl 2017: net pension liability as a percentage of payroll,True,44.355 vs 44.36
+slep npl 2018: liability components add to the net change,True,2124190.0 vs 2124190.0
+slep npl 2018: beginning + change = ending liability,True,
+slep npl 2018: fiduciary net position components add to the net change,True,-1016808.0 vs -1016808.0
+slep npl 2018: beginning + change = ending fiduciary net position,True,
+slep npl 2018: net pension liability = liability - fiduciary net position,True,4369819.0 vs 4369819.0
+slep npl 2018: fiduciary net position percentage,True,81.130 vs 81.13
+slep npl 2018: net pension liability as a percentage of payroll,True,152.725 vs 152.72
+slep npl 2019: liability components add to the net change,True,675047.0 vs 675047.0
+slep npl 2019: beginning + change = ending liability,True,
+slep npl 2019: fiduciary net position components add to the net change,True,3411442.0 vs 3411442.0
+slep npl 2019: beginning + change = ending fiduciary net position,True,
+slep npl 2019: net pension liability = liability - fiduciary net position,True,1633424.0 vs 1633424.0
+slep npl 2019: fiduciary net position percentage,True,93.146 vs 93.15
+slep npl 2019: net pension liability as a percentage of payroll,True,58.725 vs 58.72
+slep npl 2020: liability components add to the net change,True,1245742.0 vs 1245742.0
+slep npl 2020: beginning + change = ending liability,True,
+slep npl 2020: fiduciary net position components add to the net change,True,3429539.0 vs 3429539.0
+slep npl 2020: beginning + change = ending fiduciary net position,True,
+slep npl 2020: net pension liability = liability - fiduciary net position,True,-550373.0 vs -550373.0
+slep npl 2020: fiduciary net position percentage,True,102.195 vs 102.19
+slep npl 2020: net pension liability as a percentage of payroll,True,-19.085 vs -19.08
+slep npl 2021: liability components add to the net change,True,1747127.0 vs 1747127.0
+slep npl 2021: beginning + change = ending liability,True,
+slep npl 2021: fiduciary net position components add to the net change,True,3960490.0 vs 3960490.0
+slep npl 2021: beginning + change = ending fiduciary net position,True,
+slep npl 2021: net pension liability = liability - fiduciary net position,True,-2763736.0 vs -2763736.0
+slep npl 2021: fiduciary net position percentage,True,110.303 vs 110.3
+slep npl 2021: net pension liability as a percentage of payroll,True,-93.510 vs -93.51
+slep npl 2022: liability components add to the net change,True,930897.0 vs 930897.0
+slep npl 2022: beginning + change = ending liability,True,
+slep npl 2022: fiduciary net position components add to the net change,True,-4241820.0 vs -4241820.0
+slep npl 2022: beginning + change = ending fiduciary net position,True,
+slep npl 2022: net pension liability = liability - fiduciary net position,True,2408981.0 vs 2408981.0
+slep npl 2022: fiduciary net position percentage,True,91.321 vs 91.32
+slep npl 2022: net pension liability as a percentage of payroll,True,81.231 vs 81.23
+slep npl 2023: liability components add to the net change,True,2215145.0 vs 2215145.0
+slep npl 2023: beginning + change = ending liability,True,
+slep npl 2023: fiduciary net position components add to the net change,True,3104436.0 vs 3104436.0
+slep npl 2023: beginning + change = ending fiduciary net position,True,
+slep npl 2023: net pension liability = liability - fiduciary net position,True,1519690.0 vs 1519690.0
+slep npl 2023: fiduciary net position percentage,True,94.929 vs 94.93
+slep npl 2023: net pension liability as a percentage of payroll,True,48.095 vs 48.09
+slep npl 2024: liability components add to the net change,True,460426.0 vs 460426.0
+slep npl 2024: beginning + change = ending liability,True,
+slep npl 2024: fiduciary net position components add to the net change,True,1773397.0 vs 1773397.0
+slep npl 2024: beginning + change = ending fiduciary net position,True,
+slep npl 2024: net pension liability = liability - fiduciary net position,True,206719.0 vs 206719.0
+slep npl 2024: fiduciary net position percentage,True,99.321 vs 99.32
+slep npl 2024: net pension liability as a percentage of payroll,True,6.280 vs 6.28
+imrf_eco npl 2015->2016: liability_ending = next liability_beginning,True,
+imrf_eco npl 2015->2016: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2016->2017: liability_ending = next liability_beginning,True,
+imrf_eco npl 2016->2017: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2017->2018: liability_ending = next liability_beginning,True,
+imrf_eco npl 2017->2018: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2018->2019: liability_ending = next liability_beginning,True,
+imrf_eco npl 2018->2019: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2019->2020: liability_ending = next liability_beginning,True,
+imrf_eco npl 2019->2020: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2020->2021: liability_ending = next liability_beginning,True,
+imrf_eco npl 2020->2021: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2021->2022: liability_ending = next liability_beginning,True,
+imrf_eco npl 2021->2022: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2022->2023: liability_ending = next liability_beginning,True,
+imrf_eco npl 2022->2023: fnp_ending = next fnp_beginning,True,
+imrf_eco npl 2023->2024: liability_ending = next liability_beginning,True,
+imrf_eco npl 2023->2024: fnp_ending = next fnp_beginning,True,
+imrf_regular npl 2015->2016: liability_ending = next liability_beginning,True,
+imrf_regular npl 2016->2017: liability_ending = next liability_beginning,True,
+imrf_regular npl 2017->2018: liability_ending = next liability_beginning,True,
+imrf_regular npl 2018->2019: liability_ending = next liability_beginning,True,
+imrf_regular npl 2019->2020: liability_ending = next liability_beginning,True,
+imrf_regular npl 2020->2021: liability_ending = next liability_beginning,True,
+imrf_regular npl 2021->2022: liability_ending = next liability_beginning,True,
+imrf_regular npl 2022->2023: liability_ending = next liability_beginning,True,
+imrf_regular npl 2023->2024: liability_ending = next liability_beginning,True,
+opeb opeb 2018->2019: liability_ending = next liability_beginning,True,
+opeb opeb 2019->2020: liability_ending = next liability_beginning,True,
+opeb opeb 2020->2021: liability_ending = next liability_beginning,True,
+opeb opeb 2021->2022: liability_ending = next liability_beginning,True,
+opeb opeb 2022->2023: liability_ending = next liability_beginning,True,
+opeb opeb 2023->2024: liability_ending = next liability_beginning,True,
+opeb opeb 2024->2025: liability_ending = next liability_beginning,True,
+slep npl 2015->2016: liability_ending = next liability_beginning,True,
+slep npl 2015->2016: fnp_ending = next fnp_beginning,True,
+slep npl 2016->2017: liability_ending = next liability_beginning,True,
+slep npl 2016->2017: fnp_ending = next fnp_beginning,True,
+slep npl 2017->2018: liability_ending = next liability_beginning,True,
+slep npl 2017->2018: fnp_ending = next fnp_beginning,True,
+slep npl 2018->2019: liability_ending = next liability_beginning,True,
+slep npl 2018->2019: fnp_ending = next fnp_beginning,True,
+slep npl 2019->2020: liability_ending = next liability_beginning,True,
+slep npl 2019->2020: fnp_ending = next fnp_beginning,True,
+slep npl 2020->2021: liability_ending = next liability_beginning,True,
+slep npl 2020->2021: fnp_ending = next fnp_beginning,True,
+slep npl 2021->2022: liability_ending = next liability_beginning,True,
+slep npl 2021->2022: fnp_ending = next fnp_beginning,True,
+slep npl 2022->2023: liability_ending = next liability_beginning,True,
+slep npl 2022->2023: fnp_ending = next fnp_beginning,True,
+slep npl 2023->2024: liability_ending = next liability_beginning,True,
+slep npl 2023->2024: fnp_ending = next fnp_beginning,True,

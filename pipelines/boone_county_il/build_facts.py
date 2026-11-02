@@ -236,6 +236,37 @@ def debt_part(docs):
     return bal, sched, tax
 
 
+PENSION_EXCEPTION = "EX-pension-restated-2014-2015"
+
+
+def pension_part(docs):
+    """pension_rollforward.csv (dollar lines of the schedules of changes in net pension liability and of employer contributions), pension_summary.csv (ratios and covered
+    payroll) and opeb_rollforward.csv (the total OPEB liability schedule), from the required supplementary schedules (extract_audit_pension.py)."""
+    roll, summ, opeb = [], [], []
+    for d in docs:
+        doc, fy = d["doc_id"], int(d["fiscal_year"])
+        path = E.data_path("extracted", "audits", f"{doc}_pension_rsi.csv")
+        if not os.path.exists(path):
+            continue
+        for r in csv.DictReader(open(path)):
+            y = int(r["column_year"])
+            ex = PENSION_EXCEPTION if r["plan_id"] != "opeb" and y <= 2015 and r["schedule"] == "npl" else ""
+            mdate = f"{'November' if r['schedule'] in ('opeb', 'contributions') else 'December'} 30, {y}" if r["schedule"] in ("opeb", "contributions") else f"December 31, {y}"
+            base = dict(entity_id=E.id, doc_id=doc, period_fy=fy, plan_id=r["plan_id"], pdf_page=r["pdf_page"], flag="", exception_ids=ex)
+            val = float(r["value"])
+            lid = r["line_id"] or re.sub(r"[^a-z]+", "_", r["label"].lower()).strip("_")[:40]
+            if r["plan_id"] == "opeb":
+                if r["unit"] == "usd":
+                    opeb.append(dict(base, source="rsi", measurement_date=mdate, column_year=y, line_id=lid, amount=int(val)))
+                else:
+                    summ.append(dict(base, measure=lid, period_label=str(y), value=val, value_text=f"{val}%", unit="percent", source="rsi"))
+            elif r["unit"] == "percent" or lid in ("covered_payroll",):
+                summ.append(dict(base, measure=lid, period_label=str(y), value=val, value_text=(f"{val}%" if r["unit"] == "percent" else f"{int(val)}"), unit=r["unit"], source="rsi_" + r["schedule"]))
+            else:
+                roll.append(dict(base, source="rsi_" + r["schedule"], measurement_date=mdate, column_year=y, component=r["label"], line_id=lid, amount=int(val)))
+    return roll, summ, opeb
+
+
 def accounts_table(facts):
     amap = E.account_map()
     years = {}
@@ -275,6 +306,10 @@ def main():
     write_csv(E.data_path("debt_balances.csv"), DEBT_PENSION_TABLES["debt_balances"], bal)
     write_csv(E.data_path("debt_service_schedule.csv"), DEBT_PENSION_TABLES["debt_service_schedule"], sched)
     write_csv(E.data_path("property_tax_levies.csv"), OPTIONAL_TABLES["property_tax_levies"], tax)
+    roll, summ, opeb = pension_part(sorted((d for d in docs if d["doc_type"] == "audit"), key=lambda d: int(d["fiscal_year"])))
+    write_csv(E.data_path("pension_rollforward.csv"), DEBT_PENSION_TABLES["pension_rollforward"], roll)
+    write_csv(E.data_path("pension_summary.csv"), DEBT_PENSION_TABLES["pension_summary"], summ)
+    write_csv(E.data_path("opeb_rollforward.csv"), DEBT_PENSION_TABLES["opeb_rollforward"], opeb)
     n_b = sum(1 for f in facts if f["source_type"] == "budget")
     print(f"{len(docs)} documents, {len(facts)} facts ({n_b} budget, {len(facts) - n_b} audit), {len(totals)} control totals, {len(statements)} statement cells")
 

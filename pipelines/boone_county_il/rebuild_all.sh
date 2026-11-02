@@ -15,6 +15,7 @@ if [ "$stage" = "extract" ]; then
     python3 pipelines/boone_county_il/extract_audit_fund_schedules.py FY$y
     python3 pipelines/boone_county_il/extract_audit_tax.py FY$y
     python3 pipelines/boone_county_il/extract_audit_debt.py FY$y
+    python3 pipelines/boone_county_il/extract_audit_pension.py FY$y
   done
 fi
 python3 pipelines/boone_county_il/build_account_map.py --write

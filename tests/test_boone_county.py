@@ -234,3 +234,23 @@ def test_liabilities_chain_between_audits():
     assert (ok, bad) == (62, 14)
     ends = {(r["line_id"], r["period_fy"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "debt_balances.csv", newline="")) if r["measure"] == "ending"}
     assert ends[("bonds_payable", "2025")] == 1165000 and ends[("total", "2025")] == 10203886
+
+
+def test_pension_schedules_agree_across_audits_and_tie_to_the_debt_note():
+    import collections
+    seen = collections.defaultdict(dict)
+    for fy in (2016, 2017, 2024, 2025):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_pension_checks.csv", newline="")))
+        assert len(checks) > 40 and all(c["ok"] == "True" for c in checks), fy
+        for r in csv.DictReader(open(AUD / f"FY{fy}_audit_pension_rsi.csv", newline="")):
+            if r["line_id"]:
+                seen[(r["plan_id"], r["schedule"], r["line_id"], r["column_year"])][fy] = float(r["value"])
+    differ = [k for k, v in seen.items() if len(set(v.values())) > 1]
+    assert len(seen) == 943 and len(differ) == 62 and all(int(k[3]) <= 2015 for k in differ)  # IMRF restated its 2014 and 2015 columns (EX-pension-restated-2014-2015)
+    roll = list(csv.DictReader(open(DATA / "pension_rollforward.csv", newline="")))
+    npl = {(r["doc_id"], r["plan_id"], r["column_year"]): int(r["amount"]) for r in roll if r["line_id"] == "npl"}
+    debt = {(r["period_fy"], r["line_id"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "debt_balances.csv", newline="")) if r["measure"] == "ending"}
+    assert npl[("FY2025_audit", "slep", "2024")] == debt[("2025", "npl_slep")] == 206719
+    assert npl[("FY2025_audit", "imrf_eco", "2024")] == debt[("2025", "npl_eco")] == 1247169
+    opeb = {(r["doc_id"], r["column_year"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "opeb_rollforward.csv", newline="")) if r["line_id"] == "liability_ending"}
+    assert opeb[("FY2025_audit", "2025")] == debt[("2025", "opeb")] == 5436603

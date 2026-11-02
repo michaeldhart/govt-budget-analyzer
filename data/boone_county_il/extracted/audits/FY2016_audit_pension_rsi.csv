@@ -1,0 +1,157 @@
+doc_id,pdf_page,plan_id,schedule,section,line_id,label,column_year,value,unit
+FY2016_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2015,939452.0,usd
+FY2016_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2016,883355.0,usd
+FY2016_audit,82,imrf_regular,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2015,939452.0,usd
+FY2016_audit,82,imrf_regular,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2016,883355.0,usd
+FY2016_audit,82,imrf_regular,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2015,0.0,usd
+FY2016_audit,82,imrf_regular,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2016,0.0,usd
+FY2016_audit,82,imrf_regular,contributions,,covered_payroll,Covered-employee payroll,2015,8610902.0,usd
+FY2016_audit,82,imrf_regular,contributions,,covered_payroll,Covered-employee payroll,2016,8850036.0,usd
+FY2016_audit,82,imrf_regular,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2015,10.91,percent
+FY2016_audit,82,imrf_regular,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2016,9.98,percent
+FY2016_audit,83,imrf_eco,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2015,217922.0,usd
+FY2016_audit,83,imrf_eco,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2016,194771.0,usd
+FY2016_audit,83,imrf_eco,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2015,217922.0,usd
+FY2016_audit,83,imrf_eco,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2016,194771.0,usd
+FY2016_audit,83,imrf_eco,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2015,0.0,usd
+FY2016_audit,83,imrf_eco,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2016,0.0,usd
+FY2016_audit,83,imrf_eco,contributions,,covered_payroll,Covered-employee payroll,2015,0.0,usd
+FY2016_audit,83,imrf_eco,contributions,,covered_payroll,Covered-employee payroll,2016,0.0,usd
+FY2016_audit,83,imrf_eco,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2015,0.0,percent
+FY2016_audit,83,imrf_eco,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2016,0.0,percent
+FY2016_audit,84,slep,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2015,556230.0,usd
+FY2016_audit,84,slep,contributions,,actuarially_determined_contribution,Actuarially determined contribution,2016,558602.0,usd
+FY2016_audit,84,slep,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2015,556230.0,usd
+FY2016_audit,84,slep,contributions,,contributions_actual,Contributions in relation to actuarially determined contribution,2016,558602.0,usd
+FY2016_audit,84,slep,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2015,0.0,usd
+FY2016_audit,84,slep,contributions,,contribution_deficiency,CONTRIBUTION DEFICIENCY (Excess),2016,0.0,usd
+FY2016_audit,84,slep,contributions,,covered_payroll,Covered-employee payroll,2015,2472619.0,usd
+FY2016_audit,84,slep,contributions,,covered_payroll,Covered-employee payroll,2016,2758536.0,usd
+FY2016_audit,84,slep,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2015,22.5,percent
+FY2016_audit,84,slep,contributions,,contribution_pct_payroll,Contributions as a percentage of covered-employee payroll,2016,20.25,percent
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2014,981713.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2015,946717.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,interest,Interest,2014,2686576.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,interest,Interest,2015,2870415.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2014,0.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2015,0.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2014,-1191454.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2015,-591491.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2014,1244163.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2015,55677.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2014,-1193978.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2015,-1310660.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2014,2527020.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2015,1970658.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2014,35905999.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2015,38433019.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2014,38433019.0,usd
+FY2016_audit,86,imrf_regular,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2015,40403677.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2014,961303.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2015,936650.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2014,406326.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2015,416307.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2014,1706199.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2015,186957.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2014,-1193978.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2015,-1310660.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense/other (net transfer),2014,-12262.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense/other (net transfer),2015,-560096.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,1867588.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2015,-330842.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,34767341.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2015,36634929.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2014,36634929.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2015,36304087.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2014,1798090.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2015,4099590.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,95.32,percent
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,89.85,percent
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,8610902.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2015,8824059.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2014,20.88,percent
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2015,46.46,percent
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2014,19860.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2015,0.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,interest,Interest,2014,365809.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,interest,Interest,2015,373974.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2014,0.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2015,0.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2014,-136885.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2015,84912.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2014,256555.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2015,-9827.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2014,-324465.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2015,-388497.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2014,180874.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2015,60562.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2014,5123552.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2015,5304426.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2014,5304426.0,usd
+FY2016_audit,87,imrf_eco,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2015,5364988.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2014,259116.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2015,217571.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2014,636.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2015,295.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2014,160322.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2015,17072.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2014,-324465.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2015,-296879.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2014,1173.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2015,362645.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,96782.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2015,300704.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,3305504.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2015,3402286.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCIARY NET POSITION - ENDING,2014,3402286.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCIARY NET POSITION - ENDING,2015,3702990.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2014,1902140.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2015,1661998.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,64.14,percent
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,69.02,percent
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,0.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2015,0.0,usd
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2014,0.0,percent
+FY2016_audit,87,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2015,0.0,percent
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2014,490252.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,service_cost,Service cost,2015,511883.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,interest,Interest,2014,1299064.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,interest,Interest,2015,1379841.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2014,0.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,benefit_changes,Changes of benefit terms,2015,0.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2014,-260300.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,experience_difference,Differences between expected and actual experience,2015,171125.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2014,173258.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,assumption_changes,Changes of assumptions,2015,56791.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2014,-606527.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,benefit_payments_liability,"Benefit payments, including refunds of member contributions",2015,-665611.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2014,1095747.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,net_change_liability,Net change in total pension liability,2015,1454029.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2014,17368246.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,liability_beginning,Total pension liability - beginning,2015,18463993.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2014,18463993.0,usd
+FY2016_audit,88,slep,npl,TOTAL PENSION LIABILITY,liability_ending,TOTAL PENSION LIABILITY - ENDING,2015,19918022.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2014,586086.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,contributions_employer,Contributions - employer,2015,570484.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2014,194334.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,contributions_member,Contributions - member,2015,199931.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2014,735973.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,net_investment_income,Net investment income,2015,79891.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2014,-606527.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benefit payments, including refunds of member contributions",2015,-665611.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2014,-23256.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2015,-40207.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,886610.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2015,144488.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,14950184.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2015,15836794.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCIARY NET POSITION - ENDING,2014,15836794.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCIARY NET POSITION - ENDING,2015,15981282.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2014,2627199.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2015,3936740.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,85.77,percent
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,80.24,percent
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,2472619.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2015,2665744.0,usd
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2014,106.25,percent
+FY2016_audit,88,slep,npl,PLAN FIDUCIARY NET POSITION,liability_pct_payroll,Employer's net pension liability as a percentage of covered employee payroll,2015,147.68,percent
