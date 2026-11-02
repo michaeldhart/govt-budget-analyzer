@@ -7,6 +7,7 @@ cd "$(dirname "$0")/../.."
 stage="${1:-build}"
 if [ "$stage" = "extract" ]; then
   python3 pipelines/boone_county_il/extract_budget_worksheet.py FY2025_budget FY2026_budget FY2027_budget_prelim
+  for d in FY2020_budget FY2021_budget FY2022_budget FY2024_budget; do python3 pipelines/boone_county_il/extract_budget_book.py $d; done
   for y in 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025; do
     python3 pipelines/boone_county_il/extract_audit_fund_statements.py FY$y
     python3 pipelines/boone_county_il/extract_audit_gf_schedules.py FY$y

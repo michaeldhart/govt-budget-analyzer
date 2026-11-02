@@ -126,7 +126,7 @@ def test_canonical_tables_validate():
 
 def test_fact_counts_and_headline_numbers():
     facts = _facts()
-    assert len(facts) == 24785 and sum(f["source_type"] == "budget" for f in facts) == 9036
+    assert len(facts) == 33944 and sum(f["source_type"] == "budget" for f in facts) == 18195
     gf = lambda **k: sum(int(f["amount"]) for f in facts if all(f[a] == str(b) for a, b in k.items()))  # noqa: E731
     assert gf(doc_id="FY2026_budget", fund_code="001", flow="revenue", period_fy=2026, basis="adopted") == 25188465
     # the budget extracts reconcile with the totals the county prints (993 fund/department-flow-period groups; 4 are the recorded source slips)
@@ -137,7 +137,7 @@ def test_budget_facts_reconcile_with_control_totals():
     import collections
     fs, n, ts = collections.defaultdict(int), collections.defaultdict(int), collections.defaultdict(int)
     for r in _facts():
-        if r["source_type"] == "budget":
+        if r["source_type"] == "budget" and r["doc_id"] in ("FY2025_budget", "FY2026_budget", "FY2027_budget_prelim"):
             k = (r["doc_id"], r["fund_code"], r["flow"], r["period_fy"], r["basis"])
             fs[k] += int(r["amount"]); n[k] += 1
     for r in csv.DictReader(open(DATA / "control_totals.csv", newline="")):
@@ -148,11 +148,34 @@ def test_budget_facts_reconcile_with_control_totals():
 
 def test_audit_vs_budget_comparison():
     rows = list(csv.DictReader(open(DATA / "audit_vs_budget.csv", newline="")))
-    budget = [r for r in rows if r["budget_status"]]
-    assert len(budget) == 177 and sum(r["budget_status"] == "agree" for r in budget) == 172
-    differ = sorted((r["fund_code"], r["period_fy"], r["measure"], int(r["budget_diff"])) for r in budget if r["budget_status"] == "differs")
-    assert differ == [("001", "2024", "expenditure", -2570000), ("001", "2025", "expenditure", -2400), ("001", "2025", "revenue", -2400),
-                      ("045", "2025", "revenue", 2000), ("120", "2025", "revenue", 200)]
+    by_year = {}
+    for fy in range(2019, 2026):
+        b = [r for r in rows if r["period_fy"] == str(fy) and r["budget_status"]]
+        by_year[fy] = (len(b), sum(r["budget_status"] == "agree" for r in b))
+    assert by_year == {2019: (95, 74), 2020: (105, 99), 2021: (97, 92), 2022: (93, 87), 2023: (71, 63), 2024: (89, 82), 2025: (89, 85)}
+    # the budget books and worksheets agree with the audits' original budgets to the dollar in 582 of 639 fund-year-measure comparisons
+    assert sum(r["budget_status"] == "agree" for r in rows) == 582 and sum(r["budget_status"] == "differs" for r in rows) == 57
+    diff25 = sorted((r["fund_code"], r["measure"], int(r["budget_diff"])) for r in rows if r["period_fy"] == "2025" and r["budget_status"] == "differs")
+    assert diff25 == [("001", "expenditure", -2400), ("001", "revenue", -2400), ("045", "revenue", 2000), ("120", "revenue", 200)]
+    # the county's employee health insurance (a transfer out in the books) is the whole FY2019 and most of the FY2023 General Fund expenditure gap
+    gf = {(r["period_fy"], r["measure"]): int(r["budget_diff"]) for r in rows if r["fund_code"] == "001" and r["budget_status"]}
+    assert gf[("2019", "expenditure")] == 2762000 and gf[("2023", "expenditure")] == 2483999
     funcs = {(r["period_fy"], r["function"]): int(r["budget_diff"]) for r in csv.DictReader(open(DATA / "audit_vs_budget_gf_functions.csv", newline=""))}
     assert funcs[("2024", "Judiciary and courts")] == 0 and funcs[("2024", "Public safety")] == 120
     assert funcs[("2025", "General control and administration")] + funcs[("2025", "Judiciary and courts")] + funcs[("2025", "Public safety")] == 2567600
+
+
+def test_budget_books_tie_to_their_printed_totals():
+    expected = {"FY2020_budget": 813, "FY2021_budget": 837, "FY2022_budget": 878, "FY2024_budget": 875}
+    for doc, n_lines in expected.items():
+        checks = list(csv.DictReader(open(EX / f"{doc}_book_checks.csv", newline="")))
+        assert all(c["ok"] == "True" for c in checks), (doc, [c for c in checks if c["ok"] != "True"][:3])
+        assert len({r["row_seq"] for r in csv.DictReader(open(EX / f"{doc}_book_lines.csv", newline=""))}) == n_lines, doc
+        totals = list(csv.DictReader(open(EX / f"{doc}_book_totals.csv", newline="")))
+        assert len(totals) > 400
+    # the FY2024 book's budget column equals the FY2025 worksheet's FY2024 column for most accounts, with the ERP renumbering the rest
+    book = {}
+    for r in csv.DictReader(open(EX / "FY2024_budget_book_lines.csv", newline="")):
+        if r["period_fy"] == "2024" and r["measure"] == "budget" and r["code"]:
+            book[(r["fund_code"], r["code"].replace(".", ""))] = book.get((r["fund_code"], r["code"].replace(".", "")), 0) + int(r["amount"])
+    assert book[("001", "301000")] == 7400000

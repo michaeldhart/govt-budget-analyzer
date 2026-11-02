@@ -33,6 +33,7 @@ from govbudget.entity import read_csv, write_csv  # noqa: E402
 from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, CORRECTION_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
                               FUND_STATEMENT_COLUMNS)
 from build_audit_fund_names import norm  # noqa: E402
+from build_account_map import BOOK_DOCS, book_key, book_obj  # noqa: E402
 
 E = Entity.load("boone_county_il")
 BUDGET_DOCS = ("FY2025_budget", "FY2026_budget", "FY2027_budget_prelim")
@@ -109,6 +110,47 @@ def budget_part(ex, docs_by_id):
     return facts, totals
 
 
+def book_part(ex, docs_by_id):
+    """Facts and control totals from the budget books (FY2020, FY2021, FY2022, FY2024; extract_budget_book.py).  A book's own-year budget is `adopted`, an
+    earlier year's budget column `prior_doc_budget`, a closed year's Actual `actual_prelim`; the Estimate and year-to-date ('Actual - Aug') columns and the
+    Summary tables (department totals without codes) are not facts.  Account keys are the ERP's fund:department-object (the books' codes with a dot)."""
+    from collections import Counter, defaultdict
+    amap = E.account_map()
+    wdept = defaultdict(Counter)
+    seen_acct = set()
+    for d in BUDGET_DOCS:  # same counts as build_account_map.py: one per (flow, fund, dept, object) of the worksheets
+        for f in csv.DictReader(open(E.data_path("extracted", f"{d}_lines.csv"))):
+            k = (f["flow"], f["fund_code"], f["dept_code"], f["account_printed"].split("-")[2])
+            if k not in seen_acct:
+                seen_acct.add(k)
+                wdept[f["fund_code"]][f["dept_code"]] += 1
+    facts, totals = [], []
+    for doc_id in BOOK_DOCS:
+        fy_doc = int(docs_by_id[doc_id]["fiscal_year"])
+        status = docs_by_id[doc_id]["status"]
+        rows = list(csv.DictReader(open(E.data_path("extracted", f"{doc_id}_book_lines.csv"))))
+        for r in rows:
+            if "Summary" in r["table"] or not r["fund_code"]:
+                continue
+            fy, meas = int(r["period_fy"]), r["measure"]
+            if meas in ("estimate", "partial"):
+                continue
+            basis = ("requested" if status == "draft" else "adopted") if fy == fy_doc and meas in ("budget", "proposed") else \
+                "prior_doc_budget" if meas in ("budget", "proposed") else "actual_prelim"
+            flow, fund, dept, obj = book_key(r, wdept)
+            key = f"{fund}:{dept}-{obj}"
+            if (flow, key) not in amap:
+                sys.exit(f"{doc_id}: {flow}:{key} missing from account_map.csv (run build_account_map.py --write)")
+            flag = ("code_short " if r["flag"] == "code_short" else "") + ("no_object_code" if not r["code"] else "")
+            facts.append(dict(entity_id=E.id, doc_id=doc_id, source_type="budget", row_seq=int(r["row_seq"]), period_fy=fy, basis=basis, flow=flow,
+                              fund_code=fund, dept_code=dept, account_key=key, account_printed=r["code"], audit_section="", label=r["label"],
+                              amount=int(r["amount"]), source_column=r["column_label"], page_label="", pdf_page=r["pdf_page"], flag=flag.strip(),
+                              exception_ids=attach(ex, doc_id, key, fy, basis)))
+        # The books print several totals per fund (department totals, Total Revenues, Total App. & Exp., Total General Fund ...), so they are not control totals
+        # of the facts (summing them would double count); extract_budget_book.py ties every printed total to its lines (data/.../<doc>_book_totals.csv).
+    return facts, totals
+
+
 def audit_bases(fy):
     if fy in COMBINED_COLUMN_YEARS:
         return [("audit_original", "combined_column"), ("audit_final", "combined_column")]
@@ -180,11 +222,13 @@ def accounts_table(facts):
 
 def main():
     sources = [s for s in E.table("source_urls.csv") if s["doc_type"] in ("budget", "audit")]
-    have = lambda s: (s["doc_id"] in BUDGET_DOCS) or (s["doc_type"] == "audit")  # noqa: E731
+    have = lambda s: (s["doc_id"] in BUDGET_DOCS) or (s["doc_id"] in BOOK_DOCS) or (s["doc_type"] == "audit")  # noqa: E731
     docs = documents([s for s in sources if have(s)])
     by_id = {d["doc_id"]: d for d in docs}
     ex = exception_index()
     bf, totals = budget_part(ex, by_id)
+    kf, ktotals = book_part(ex, by_id)
+    bf, totals = bf + kf, totals + ktotals
     af, statements = audit_part(ex, sorted((d for d in docs if d["doc_type"] == "audit"), key=lambda d: int(d["fiscal_year"])))
     facts = bf + af
     write_csv(E.data_path("documents.csv"), DOCUMENT_COLUMNS, docs)

@@ -45,7 +45,7 @@ def main():
             aud[(f["fund_code"], measure, fy, f["basis"])] += amt
             audit_names[(f["fund_code"], fy)].add(f["audit_section"].split(" | ")[0] or "General Fund")
     rows = []
-    for (fund, measure, fy), _ in sorted({(k[0], k[1], k[2]): 0 for k in aud if k[2] >= 2023}.items()):
+    for (fund, measure, fy), _ in sorted({(k[0], k[1], k[2]): 0 for k in aud if k[2] >= 2015}.items()):
         # budget column to compare: the document's own adopted budget if it has one, else the earliest document's prior-year column
         cands = [(k[3], k[4], v) for k, v in ws.items() if k[:3] == (fund, measure, fy) and k[3] in ("adopted", "prior_doc_budget")]
         cands.sort(key=lambda c: (c[0] != "adopted", c[1]))

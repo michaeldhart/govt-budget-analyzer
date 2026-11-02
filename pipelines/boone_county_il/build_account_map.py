@@ -16,6 +16,9 @@ from govbudget.schema import ACCOUNT_MAP_COLUMNS, DEPARTMENT_COLUMNS  # noqa: E4
 
 E = Entity.load("boone_county_il")
 DOCS = ("FY2025_budget", "FY2026_budget", "FY2027_budget_prelim")
+BOOK_DOCS = ("FY2020_budget", "FY2021_budget", "FY2022_budget", "FY2024_budget")  # budget books (extract_budget_book.py), oldest first
+EXTRA_FUND_NAMES = {"047": "Animal Services Bond Fund", "056": "Coroner's Fees Fund", "101": "Grant Fund", "123": "Opioid Grant Fund",
+                    "143": "Regional Communication Study Fund", "154": "HAVA Election Grant Fund", "157": "Land/Cash Fees Fund"}
 FUND_COLUMNS = ["fund_code", "name", "type", "numbering", "audit_name", "note"]
 
 TAX = {"property_tax": ["301000", "301100", "301200"], "sales_tax": ["303000", "304000", "305000"], "income_tax": ["306100", "307100"],
@@ -23,7 +26,22 @@ TAX = {"property_tax": ["301000", "301100", "301200"], "sales_tax": ["303000", "
        "other_tax": ["306000", "306420", "306800", "306950", "307000", "307001", "307420", "307800", "308000"]}
 TAX_BY_OBJECT = {o: c for c, objs in TAX.items() for o in objs}
 FEES_NOT_TAX = {"306300", "306400", "307300", "307400"}  # penalties on late taxes and tax sale fees: fees, not taxes
-GRANT_EXCEPT = {"380141": "fees_fines", "381000": "fees_fines", "381100": "fees_fines", "381500": "misc_revenue", "379300": "fees_fines"}
+GRANT_EXCEPT = {"380141": "fees_fines", "381000": "fees_fines", "381100": "fees_fines", "381600": "fees_fines", "381500": "misc_revenue", "379300": "fees_fines"}
+
+
+UNCODED_REVENUE = [  # label keywords for book lines printed without an object code (FY2020 General Fund revenue detail), first match wins
+    (r"transfer", "transfers_in", "non_tax"), (r"property tax", "property_tax", "tax"), (r"sales tax", "sales_tax", "tax"), (r"income tax", "income_tax", "tax"),
+    (r"replacement", "replacement_tax", "tax"), (r"use tax|video gaming|hotel|motor fuel|cannabis", "other_tax", "tax"), (r"penalty", "fees_fines", "non_tax"),
+    (r"liquor|licen|building fee|permit", "licenses_permits", "non_tax"), (r"interest", "interest", "non_tax"),
+    (r"salary|probation|reimburs|assessor|psb operations|township|workers", "reimbursements", "non_tax"), (r"grant", "grants", "non_tax"),
+    (r"fee|circuit court|fines|jail housing|counsel|gis mapping|website|coroner|clerk|first offender|finance court|work release|zoning", "fees_fines", "non_tax")]
+
+
+def uncoded_revenue_category(label):
+    for rx, cat, treat in UNCODED_REVENUE:
+        if re.search(rx, label, re.I):
+            return cat, treat, "rule: label keyword (line printed without an object code)"
+    return "misc_revenue", "non_tax", "rule: label keyword (line printed without an object code); default miscellaneous"
 
 
 def revenue_category(obj):
@@ -36,8 +54,8 @@ def revenue_category(obj):
     p = obj[:3]
     if p == "329":
         return "licenses_permits", "non_tax", "rule: 329xxx"
-    if p == "340":
-        return "fees_fines", "non_tax", "rule: 340xxx"
+    if p in ("340", "365"):
+        return "fees_fines", "non_tax", "rule: 340xxx/365xxx"
     if p in ("351", "360"):
         return "misc_revenue", "non_tax", "rule: 351xxx/360xxx"
     if p == "370":
@@ -70,7 +88,7 @@ def expense_category(obj, label=""):
     if p2 in ("80", "81", "86"):
         return "exp_claims_grants", "rule: 80xxxx/81xxxx/86xxxx"
     if p2 == "89":
-        if not re.search(r"(?i)transfer|txfr", label):
+        if not re.search(r"(?i)transfer|txfr|\bfund\b", label):  # the books print transfers out as 'Employee Health Care Fund -37'
             return "exp_contractual", "rule: 89xxxx whose label is not a transfer (Probation 'Placement' is a program cost)"
         return "exp_transfers", "rule: 89xxxx"
     return "exp_other", "rule: 59/79/90/99"
@@ -112,7 +130,45 @@ def read_names():
     return funds, depts
 
 
+def book_obj(code, label):
+    if not code:
+        return "U" + re.sub(r"[^a-z0-9]", "", label.lower())[:24]
+    a, _, b = code.partition(".")
+    return a + (b + "000")[:3]
+
+
+def book_flow(r):
+    if r["code"]:
+        return "revenue" if r["code"][0] == "3" else "expense"
+    t = (r["section"] + " " + r["table"]).lower()
+    return "revenue" if "revenue" in r["section"].lower() or ("revenue" in t and "expenditure" not in t) else "expense"
+
+
+def book_dept(r, wdept):
+    if r["dept_code"]:
+        return r["dept_code"]
+    fund = r["fund_code"]
+    if fund == "001":
+        return "0000"
+    if fund in ("030", "145"):
+        return "0" + fund
+    c = wdept.get(fund)
+    non0 = [d for d, _ in (c or Counter()).most_common() if d != "0000"]
+    return non0[0] if non0 else (c.most_common(1)[0][0] if c else "0" + fund)
+
+
+def book_key(r, wdept):
+    """(flow, fund, dept, object) of a budget-book line; object codes are the ERP codes written with a dot."""
+    if not r["fund_code"]:
+        return None
+    return (book_flow(r), r["fund_code"], book_dept(r, wdept), book_obj(r["code"], r["label"]))
+
+
+book_transfer = set()
+
+
 def main(write):
+    global book_transfer
     lines = defaultdict(lambda: defaultdict(Counter))
     labels = {}
     for d in DOCS:  # later documents override earlier labels
@@ -120,6 +176,22 @@ def main(write):
             key = (r["flow"], r["fund_code"], r["dept_code"], r["account_printed"].split("-")[2])
             labels[key] = r["label"]
     fund_names, dept_names = read_names()
+    fund_names = {**EXTRA_FUND_NAMES, **fund_names}
+    wdept = defaultdict(Counter)
+    for (fl, fu, de, ob) in labels:
+        wdept[fu][de] += 1
+    book_label, book_transfer = {}, set()
+    for d in BOOK_DOCS:
+        for r in csv.DictReader(open(E.data_path("extracted", f"{d}_book_lines.csv"))):
+            if "Summary" in r["table"]:
+                continue
+            k = book_key(r, wdept)
+            if k:
+                book_label[k] = r["label"]
+                if "transfer" in r["section"].lower() and k[0] == "revenue":
+                    book_transfer.add(k)
+    for k, lab in book_label.items():
+        labels.setdefault(k, lab)  # worksheet labels win; the books add the accounts that no worksheet has
     existing_funds = {r["fund_code"]: r for r in E.table("funds.csv")} if os.path.exists(E.config_path("funds.csv")) else {}
     funds = dict(existing_funds)
     for code in sorted({k[1] for k in labels}):
@@ -141,10 +213,16 @@ def main(write):
         if (flow, key) in amap:
             continue
         dname = depts[(fund, dept)]["name"]
-        if flow == "revenue":
+        if (flow, fund, dept, obj) in book_transfer and not obj.startswith("399"):
+            cat, treat, note = "transfers_in", "non_tax", "rule: line sits under the book's 'Transfers In' heading"
+        elif flow == "revenue" and re.search(r"(?i)transfer", label) and not obj.startswith("399"):
+            cat, treat, note = "transfers_in", "non_tax", "rule: label says transfer in (book code differs from the ERP's 399xxx)"
+        elif flow == "revenue" and obj.startswith("U"):
+            cat, treat, note = uncoded_revenue_category(label)
+        elif flow == "revenue":
             cat, treat, note = revenue_category(obj)
         else:
-            cat, note = expense_category(obj, label)
+            cat, note = expense_category(obj if not obj.startswith("U") else "99", label)
             treat = "expense"
         amap[(flow, key)] = dict(flow=flow, account_key=key, label=label, department=dname, category_id=cat, treatment=treat, note=note)
         added += 1

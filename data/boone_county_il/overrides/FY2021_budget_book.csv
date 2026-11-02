@@ -1,0 +1,2 @@
+kind,fund_code,dept_code,label,period_fy,measure,value,reason
+allow_diff,042,,Total App. & Exp.,2019,actual,1799,"Treasurer's Automation Fund FY2019 actual: the four expenditure lines (Travel 165, Training and Conferences 1,331, Other Professional Services 685, Equipment '1634' printed without its comma) add to 3,815 but the printed Total App. & Exp. is 2,016. Source error in the FY2021 book (the revenue total and every other column tie)."
