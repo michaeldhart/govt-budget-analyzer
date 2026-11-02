@@ -1,0 +1,26 @@
+check,ok,detail
+Bonds payable: beginning + additions - reductions = ending,True,1965000 + 0 - 260000 vs 1705000
+Debt certificates: beginning + additions - reductions = ending,True,217000 + 0 - 46000 vs 171000
+Bond premium: beginning + additions - reductions = ending,True,20002 + 0 - 5505 vs 14497
+Landfill post-closure costs: beginning + additions - reductions = ending,True,131000 + 282000 - 0 vs 413000
+Notes payable: beginning + additions - reductions = ending,True,345941 + 0 - 103491 vs 242450
+Compensated absences: beginning + additions - reductions = ending,True,820851 + 1145028 - 1213890 vs 751989
+Lease obligations: beginning + additions - reductions = ending,True,23363 + 0 - 23363 vs 0
+SBITA obligations: beginning + additions - reductions = ending,True,66084 + 119132 - 78720 vs 106496
+liabilities beginning add to the printed total,True,3589241 vs 3589241
+liabilities additions add to the printed total,True,1546160 vs 1546160
+liabilities reductions add to the printed total,True,1730969 vs 1730969
+liabilities ending add to the printed total,True,3404432 vs 3404432
+liabilities current_portion add to the printed total,True,548646 vs 548646
+p51 Bonds payable: principal adds to the printed total,True,1705000 vs 1705000
+p51 Bonds payable: interest adds to the printed total,True,155362 vs 155362
+p51 Bonds payable: principal total = ending balance,True,1705000 vs 1705000
+p51 Debt certificates: principal adds to the printed total,True,171000 vs 171000
+p51 Debt certificates: interest adds to the printed total,True,10266 vs 10266
+p51 Debt certificates: principal total = ending balance,True,171000 vs 171000
+p51 Notes payable: principal adds to the printed total,True,242450 vs 242450
+p51 Notes payable: interest adds to the printed total,True,15004 vs 15004
+p51 Notes payable: principal total = ending balance,True,242450 vs 242450
+p51 SBITAs payable: principal adds to the printed total,True,106496 vs 106496
+p51 SBITAs payable: interest adds to the printed total,True,6586 vs 6586
+p51 SBITAs payable: principal total = ending balance,True,106496 vs 106496

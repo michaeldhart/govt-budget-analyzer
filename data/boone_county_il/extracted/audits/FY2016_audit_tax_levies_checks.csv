@@ -1,0 +1,13 @@
+check,ok,detail
+p158 2015: extensions add to the printed total,True,11093531 vs 11093531
+p158 2014: extensions add to the printed total,True,10921850 vs 10921850
+p158 2013: extensions add to the printed total,True,10397890 vs 10397890
+p158 2012: extensions add to the printed total,True,9859856 vs 9859856
+p158 2015: collections add to the printed total,True,11079190 vs 11079190
+p158 2014: collections add to the printed total,True,10915339 vs 10915339
+p158 2013: collections add to the printed total,True,"ACCEPTED (The printed FY2013-levy collection total (10,109,538) is the FY2015 audit's total (10,366,065) less the Veterans Assistance collection (256,527) that the same column still lists; the lines add to the earlier audit's total) 10366065 vs 10109538"
+p158 2012: collections add to the printed total,True,9844877 vs 9844877
+2015: percentage collected = collections / extensions,True,99.871 vs 99.87
+2014: percentage collected = collections / extensions,True,99.940 vs 99.94
+2013: percentage collected = collections / extensions,True,97.227 vs 97.23
+2012: percentage collected = collections / extensions,True,99.848 vs 99.85

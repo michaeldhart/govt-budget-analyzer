@@ -1,0 +1,16 @@
+check,ok,detail
+p191 2021: extensions add to the printed total,True,12311714 vs 12311714
+p191 2020: extensions add to the printed total,True,12352225 vs 12352225
+p191 2021: collections add to the printed total,True,12306301 vs 12306301
+p191 2020: collections add to the printed total,True,12365002 vs 12365002
+p192 2019: extensions add to the printed total,True,12028162 vs 12028162
+p192 2018: extensions add to the printed total,True,11701868 vs 11701868
+p192 2019: collections add to the printed total,True,12000560 vs 12000560
+p192 2018: collections add to the printed total,True,11692791 vs 11692791
+p193 2017: extensions add to the printed total,True,11324258 vs 11324258
+p193 2017: collections add to the printed total,True,11328409 vs 11328409
+2021: percentage collected = collections / extensions,True,99.956 vs 99.96
+2020: percentage collected = collections / extensions,True,100.103 vs 100.1
+2019: percentage collected = collections / extensions,True,99.771 vs 99.77
+2018: percentage collected = collections / extensions,True,99.922 vs 99.92
+2017: percentage collected = collections / extensions,True,100.037 vs 100.04

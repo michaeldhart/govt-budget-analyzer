@@ -1,0 +1,9 @@
+doc_id,pdf_page,instrument,fiscal_year_ending,row_kind,principal,interest
+FY2015_audit,51,Bonds payable,2016,year,970000,140804
+FY2015_audit,51,Bonds payable,2017,year,1020000,142950
+FY2015_audit,51,Bonds payable,2018,year,905000,110038
+FY2015_audit,51,Bonds payable,2019,year,795000,88400
+FY2015_audit,51,Bonds payable,2020,year,235000,75800
+FY2015_audit,51,Bonds payable,2021-2025,band,1290000,267863
+FY2015_audit,51,Bonds payable,2026-2029,band,1165000,71175
+FY2015_audit,51,Bonds payable,TOTAL,total,6380000,897030

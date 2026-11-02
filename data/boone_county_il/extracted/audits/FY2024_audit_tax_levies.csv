@@ -1,0 +1,105 @@
+doc_id,pdf_page,tax_year,section,line_item,rate,amount
+FY2024_audit,171,2023,assessed_valuation,Assessed valuation,,1380153053
+FY2024_audit,171,2022,assessed_valuation,Assessed valuation,,1268123153
+FY2024_audit,171,2021,assessed_valuation,Assessed valuation,,1194549570
+FY2024_audit,171,2020,assessed_valuation,Assessed valuation,,1125241388
+FY2024_audit,171,2023,pct_collected,Percentage collected,99.87,
+FY2024_audit,171,2022,pct_collected,Percentage collected,99.99,
+FY2024_audit,171,2021,pct_collected,Percentage collected,99.96,
+FY2024_audit,171,2020,pct_collected,Percentage collected,100.1,
+FY2024_audit,171,2023,extension,County general,0.5427,7493082
+FY2024_audit,171,2022,extension,County general,0.585,7418141
+FY2024_audit,171,2021,extension,County general,0.6207,7429614
+FY2024_audit,171,2020,extension,County general,0.6668,7503560
+FY2024_audit,171,2023,extension,Illinois municipal retirement,0.0659,910437
+FY2024_audit,171,2022,extension,Illinois municipal retirement,0.0785,995350
+FY2024_audit,171,2021,extension,Illinois municipal retirement,0.0967,1157178
+FY2024_audit,171,2020,extension,Illinois municipal retirement,0.1111,1250030
+FY2024_audit,171,2023,extension,County highway,0.0609,840435
+FY2024_audit,171,2022,extension,County highway,0.0639,810077
+FY2024_audit,171,2021,extension,County highway,0.0666,796667
+FY2024_audit,171,2020,extension,County highway,0.0699,786094
+FY2024_audit,171,2023,extension,County bridge,0.0207,285115
+FY2024_audit,171,2022,extension,County bridge,0.0146,185019
+FY2024_audit,171,2021,extension,County bridge,0.0126,150333
+FY2024_audit,171,2020,extension,County bridge,0.0127,142568
+FY2024_audit,171,2023,extension,County matching,0.0089,123159
+FY2024_audit,171,2022,extension,County matching,0.0095,120091
+FY2024_audit,171,2021,extension,County matching,0.0097,115502
+FY2024_audit,171,2020,extension,County matching,0.0102,115224
+FY2024_audit,171,2023,extension,County health department,0.023,316733
+FY2024_audit,171,2022,extension,County health department,0.0202,256414
+FY2024_audit,171,2021,extension,County health department,0.016,191387
+FY2024_audit,171,2020,extension,County health department,0.0228,256442
+FY2024_audit,171,2023,extension,Liability insurance,0.0917,1265554
+FY2024_audit,171,2022,extension,Liability insurance,0.0891,1130025
+FY2024_audit,171,2021,extension,Liability insurance,0.0837,1002058
+FY2024_audit,171,2020,extension,Liability insurance,0.0711,800047
+FY2024_audit,171,2023,extension,Social security,0.067,925486
+FY2024_audit,171,2022,extension,Social security,0.0687,870567
+FY2024_audit,171,2021,extension,Social security,0.0735,879733
+FY2024_audit,171,2020,extension,Social security,0.08,900081
+FY2024_audit,171,2023,extension,Cooperative extension,0.0094,130062
+FY2024_audit,171,2022,extension,Cooperative extension,0.0103,130109
+FY2024_audit,171,2021,extension,Cooperative extension,0.0101,120290
+FY2024_audit,171,2020,extension,Cooperative extension,0.0116,130078
+FY2024_audit,171,2023,extension,Veterans assistance,0.0188,260125
+FY2024_audit,171,2022,extension,Veterans assistance,0.0205,260092
+FY2024_audit,171,2021,extension,Veterans assistance,0.0216,258534
+FY2024_audit,171,2020,extension,Veterans assistance,0.0229,258018
+FY2024_audit,171,2023,extension,Keen-age center (senior citizen),0.025,345176
+FY2024_audit,171,2022,extension,Keen-age center (senior citizen),0.0166,210001
+FY2024_audit,171,2021,extension,Keen-age center (senior citizen),0.0176,210418
+FY2024_audit,171,2020,extension,Keen-age center (senior citizen),0.0187,210083
+FY2024_audit,171,2023,extension_total,Total,0.934,12895364
+FY2024_audit,171,2022,extension_total,Total,0.9769,12385886
+FY2024_audit,171,2021,extension_total,Total,1.0288,12311714
+FY2024_audit,171,2020,extension_total,Total,1.0978,12352225
+FY2024_audit,171,2023,collection,County general,,7487860
+FY2024_audit,171,2022,collection,County general,,7417332
+FY2024_audit,171,2021,collection,County general,,7436658
+FY2024_audit,171,2020,collection,County general,,7511317
+FY2024_audit,171,2023,collection,Illinois municipal retirement,,908283
+FY2024_audit,171,2022,collection,Illinois municipal retirement,,995247
+FY2024_audit,171,2021,collection,Illinois municipal retirement,,1154481
+FY2024_audit,171,2020,collection,Illinois municipal retirement,,1251326
+FY2024_audit,171,2023,collection,County highway,,839292
+FY2024_audit,171,2022,collection,County highway,,809987
+FY2024_audit,171,2021,collection,County highway,,794810
+FY2024_audit,171,2020,collection,County highway,,786909
+FY2024_audit,171,2023,collection,County bridge,,284441
+FY2024_audit,171,2022,collection,County bridge,,185000
+FY2024_audit,171,2021,collection,County bridge,,149978
+FY2024_audit,171,2020,collection,County bridge,,142717
+FY2024_audit,171,2023,collection,County matching,,122872
+FY2024_audit,171,2022,collection,County matching,,120081
+FY2024_audit,171,2021,collection,County matching,,115234
+FY2024_audit,171,2020,collection,County matching,,115341
+FY2024_audit,171,2023,collection,County health department,,315986
+FY2024_audit,171,2022,collection,County health department,,256385
+FY2024_audit,171,2021,collection,County health department,,190937
+FY2024_audit,171,2020,collection,County health department,,256710
+FY2024_audit,171,2023,collection,Liability insurance,,1262555
+FY2024_audit,171,2022,collection,Liability insurance,,1129905
+FY2024_audit,171,2021,collection,Liability insurance,,999728
+FY2024_audit,171,2020,collection,Liability insurance,,800869
+FY2024_audit,171,2023,collection,Social security,,923296
+FY2024_audit,171,2022,collection,Social security,,870473
+FY2024_audit,171,2021,collection,Social security,,877688
+FY2024_audit,171,2020,collection,Social security,,901013
+FY2024_audit,171,2023,collection,Cooperative extension,,129755
+FY2024_audit,171,2022,collection,Cooperative extension,,130109
+FY2024_audit,171,2021,collection,Cooperative extension,,120052
+FY2024_audit,171,2020,collection,Cooperative extension,,130078
+FY2024_audit,171,2023,collection,Veterans assistance,,259509
+FY2024_audit,171,2022,collection,Veterans assistance,,260092
+FY2024_audit,171,2021,collection,Veterans assistance,,258023
+FY2024_audit,171,2020,collection,Veterans assistance,,258018
+FY2024_audit,171,2023,collection,Keen-age center (senior citizen),,344353
+FY2024_audit,171,2022,collection,Keen-age center (senior citizen),,210001
+FY2024_audit,171,2021,collection,Keen-age center (senior citizen),,208712
+FY2024_audit,171,2020,collection,Keen-age center (senior citizen),,210704
+FY2024_audit,171,2023,collection_total,Total,,12878202
+FY2024_audit,171,2022,collection_total,Total,,12384612
+FY2024_audit,171,2021,collection_total,Total,,12306301
+FY2024_audit,171,2020,collection_total,Total,,12365002

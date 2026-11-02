@@ -1,0 +1,141 @@
+doc_id,pdf_page,tax_year,section,line_item,rate,amount
+FY2019_audit,176,2018,assessed_valuation,Assessed valuation,,1016184030
+FY2019_audit,176,2017,assessed_valuation,Assessed valuation,,967273490
+FY2019_audit,176,2016,assessed_valuation,Assessed valuation,,933081090
+FY2019_audit,176,2015,assessed_valuation,Assessed valuation,,889481991
+FY2019_audit,176,2014,assessed_valuation,Assessed valuation,,874797758
+FY2019_audit,176,2018,pct_collected,Percentage collected,99.92,
+FY2019_audit,176,2017,pct_collected,Percentage collected,100.04,
+FY2019_audit,176,2016,pct_collected,Percentage collected,99.96,
+FY2019_audit,176,2015,pct_collected,Percentage collected,99.87,
+FY2019_audit,176,2014,pct_collected,Percentage collected,99.94,
+FY2019_audit,176,2018,extension,County General,0.69533,6965433
+FY2019_audit,176,2017,extension,County General,0.66275,6410605
+FY2019_audit,176,2016,extension,County General,0.6543,6080516
+FY2019_audit,176,2015,extension,County General,0.6464,5679520
+FY2019_audit,176,2014,extension,County General,0.6602,5711904
+FY2019_audit,176,2018,extension,Bonds and Interest,0.0,0
+FY2019_audit,176,2017,extension,Bonds and Interest,0.0,0
+FY2019_audit,176,2016,extension,Bonds and Interest,0.0286,269381
+FY2019_audit,176,2015,extension,Bonds and Interest,0.03,269335
+FY2019_audit,176,2014,extension,Bonds and Interest,0.0306,270575
+FY2019_audit,176,2018,extension,Illinois Municipal Retirement,0.11661,1184972
+FY2019_audit,176,2017,extension,Illinois Municipal Retirement,0.1611,1558278
+FY2019_audit,176,2016,extension,Illinois Municipal Retirement,0.19,1699980
+FY2019_audit,176,2015,extension,Illinois Municipal Retirement,0.1911,1679431
+FY2019_audit,176,2014,extension,Illinois Municipal Retirement,0.1772,1533258
+FY2019_audit,176,2018,extension,County Highway,0.07514,763561
+FY2019_audit,176,2017,extension,County Highway,0.0786,760277
+FY2019_audit,176,2016,extension,County Highway,0.0564,525791
+FY2019_audit,176,2015,extension,County Highway,0.0598,525773
+FY2019_audit,176,2014,extension,County Highway,0.0643,556109
+FY2019_audit,176,2018,extension,County Bridge,0.01329,135051
+FY2019_audit,176,2017,extension,County Bridge,0.0109,105433
+FY2019_audit,176,2016,extension,County Bridge,0.0146,136043
+FY2019_audit,176,2015,extension,County Bridge,0.0226,198621
+FY2019_audit,176,2014,extension,County Bridge,0.0377,326475
+FY2019_audit,176,2018,extension,County Matching,0.01083,110053
+FY2019_audit,176,2017,extension,County Matching,0.01008,97501
+FY2019_audit,176,2016,extension,County Matching,0.0253,236070
+FY2019_audit,176,2015,extension,County Matching,0.0337,296375
+FY2019_audit,176,2014,extension,County Matching,0.0343,297169
+FY2019_audit,176,2018,extension,County Health Department,0.02514,255469
+FY2019_audit,176,2017,extension,County Health Department,0.02636,254973
+FY2019_audit,176,2016,extension,County Health Department,0.0252,235509
+FY2019_audit,176,2015,extension,County Health Department,0.0271,237581
+FY2019_audit,176,2014,extension,County Health Department,0.0277,239869
+FY2019_audit,176,2018,extension,Liability Insurance,0.08103,823414
+FY2019_audit,176,2017,extension,Liability Insurance,0.08051,778752
+FY2019_audit,176,2016,extension,Liability Insurance,0.0686,631043
+FY2019_audit,176,2015,extension,Liability Insurance,0.0899,790305
+FY2019_audit,176,2014,extension,Liability Insurance,0.0915,791342
+FY2019_audit,176,2018,extension,Social Security,0.08434,857050
+FY2019_audit,176,2017,extension,Social Security,0.07786,753119
+FY2019_audit,176,2016,extension,Social Security,0.0911,799930
+FY2019_audit,176,2015,extension,Social Security,0.0905,795286
+FY2019_audit,176,2014,extension,Social Security,0.0669,578766
+FY2019_audit,176,2018,extension,Cooperative Extension,0.01309,133018
+FY2019_audit,176,2017,extension,Cooperative Extension,0.01372,132710
+FY2019_audit,176,2016,extension,Cooperative Extension,0.0158,147334
+FY2019_audit,176,2015,extension,Cooperative Extension,0.0169,148277
+FY2019_audit,176,2014,extension,Cooperative Extension,0.0167,144779
+FY2019_audit,176,2018,extension,Veterans Assistance,0.02547,258822
+FY2019_audit,176,2017,extension,Veterans Assistance,0.02669,258165
+FY2019_audit,176,2016,extension,Veterans Assistance,0.0277,258837
+FY2019_audit,176,2015,extension,Veterans Assistance,0.03,263554
+FY2019_audit,176,2014,extension,Veterans Assistance,0.0299,258853
+FY2019_audit,176,2018,extension,Keen-Age Center (Senior Citizen),0.02116,215025
+FY2019_audit,176,2017,extension,Keen-Age Center (Senior Citizen),0.02217,214445
+FY2019_audit,176,2016,extension,Keen-Age Center (Senior Citizen),0.0231,215075
+FY2019_audit,176,2015,extension,Keen-Age Center (Senior Citizen),0.0238,209473
+FY2019_audit,176,2014,extension,Keen-Age Center (Senior Citizen),0.0246,212751
+FY2019_audit,176,2018,extension_total,Total,1.16143,11701868
+FY2019_audit,176,2017,extension_total,Total,1.17074,11324258
+FY2019_audit,176,2016,extension_total,Total,1.2207,11235509
+FY2019_audit,176,2015,extension_total,Total,1.2618,11093531
+FY2019_audit,176,2014,extension_total,Total,1.2616,10921850
+FY2019_audit,176,2018,collection,County General,,6959741
+FY2019_audit,176,2017,collection,County General,,6413340
+FY2019_audit,176,2016,collection,County General,,6078332
+FY2019_audit,176,2015,collection,County General,,5672191
+FY2019_audit,176,2014,collection,County General,,5708503
+FY2019_audit,176,2018,collection,Bonds and Interest,,0
+FY2019_audit,176,2017,collection,Bonds and Interest,,0
+FY2019_audit,176,2016,collection,Bonds and Interest,,269285
+FY2019_audit,176,2015,collection,Bonds and Interest,,268992
+FY2019_audit,176,2014,collection,Bonds and Interest,,270417
+FY2019_audit,176,2018,collection,Illinois Municipal Retirement,,1184008
+FY2019_audit,176,2017,collection,Illinois Municipal Retirement,,1558939
+FY2019_audit,176,2016,collection,Illinois Municipal Retirement,,1699362
+FY2019_audit,176,2015,collection,Illinois Municipal Retirement,,1677256
+FY2019_audit,176,2014,collection,Illinois Municipal Retirement,,1532339
+FY2019_audit,176,2018,collection,County Highway,,762933
+FY2019_audit,176,2017,collection,County Highway,,760601
+FY2019_audit,176,2016,collection,County Highway,,525598
+FY2019_audit,176,2015,collection,County Highway,,525098
+FY2019_audit,176,2014,collection,County Highway,,555776
+FY2019_audit,176,2018,collection,County Bridge,,134941
+FY2019_audit,176,2017,collection,County Bridge,,105474
+FY2019_audit,176,2016,collection,County Bridge,,135990
+FY2019_audit,176,2015,collection,County Bridge,,198362
+FY2019_audit,176,2014,collection,County Bridge,,326281
+FY2019_audit,176,2018,collection,County Matching,,109966
+FY2019_audit,176,2017,collection,County Matching,,97543
+FY2019_audit,176,2016,collection,County Matching,,235984
+FY2019_audit,176,2015,collection,County Matching,,295992
+FY2019_audit,176,2014,collection,County Matching,,296995
+FY2019_audit,176,2018,collection,County Health Department,,255254
+FY2019_audit,176,2017,collection,County Health Department,,255086
+FY2019_audit,176,2016,collection,County Health Department,,235422
+FY2019_audit,176,2015,collection,County Health Department,,237272
+FY2019_audit,176,2014,collection,County Health Department,,239723
+FY2019_audit,176,2018,collection,Liability Insurance,,822740
+FY2019_audit,176,2017,collection,Liability Insurance,,779079
+FY2019_audit,176,2016,collection,Liability Insurance,,630814
+FY2019_audit,176,2015,collection,Liability Insurance,,789281
+FY2019_audit,176,2014,collection,Liability Insurance,,790871
+FY2019_audit,176,2018,collection,Social Security,,856343
+FY2019_audit,176,2017,collection,Social Security,,753411
+FY2019_audit,176,2016,collection,Social Security,,799645
+FY2019_audit,176,2015,collection,Social Security,,794256
+FY2019_audit,176,2014,collection,Social Security,,578426
+FY2019_audit,176,2018,collection,Cooperative Extension,,133018
+FY2019_audit,176,2017,collection,Cooperative Extension,,132623
+FY2019_audit,176,2016,collection,Cooperative Extension,,147278
+FY2019_audit,176,2015,collection,Cooperative Extension,,148084
+FY2019_audit,176,2014,collection,Cooperative Extension,,144694
+FY2019_audit,176,2018,collection,Veterans Assistance,,258822
+FY2019_audit,176,2017,collection,Veterans Assistance,,258004
+FY2019_audit,176,2016,collection,Veterans Assistance,,258739
+FY2019_audit,176,2015,collection,Veterans Assistance,,263209
+FY2019_audit,176,2014,collection,Veterans Assistance,,258694
+FY2019_audit,176,2018,collection,Keen-Age Center (Senior Citizen),,215025
+FY2019_audit,176,2017,collection,Keen-Age Center (Senior Citizen),,214309
+FY2019_audit,176,2016,collection,Keen-Age Center (Senior Citizen),,214992
+FY2019_audit,176,2015,collection,Keen-Age Center (Senior Citizen),,209197
+FY2019_audit,176,2014,collection,Keen-Age Center (Senior Citizen),,212620
+FY2019_audit,176,2018,collection_total,Total,,11692791
+FY2019_audit,176,2017,collection_total,Total,,11328409
+FY2019_audit,176,2016,collection_total,Total,,11231441
+FY2019_audit,176,2015,collection_total,Total,,11079190
+FY2019_audit,176,2014,collection_total,Total,,10915339

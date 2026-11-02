@@ -1,0 +1,23 @@
+doc_id,pdf_page,instrument,fiscal_year_ending,row_kind,principal,interest
+FY2025_audit,58,Bonds payable,2026,year,280000,30750
+FY2025_audit,58,Debt certificates,2026,year,50000,1873
+FY2025_audit,58,Bonds payable,2027,year,285000,22275
+FY2025_audit,58,Debt certificates,2027,year,26000,384
+FY2025_audit,58,Bonds payable,2028,year,295000,13575
+FY2025_audit,58,Debt certificates,2028,year,0,0
+FY2025_audit,58,Bonds payable,2029,year,305000,4575
+FY2025_audit,58,Debt certificates,2029,year,0,0
+FY2025_audit,58,Bonds payable,TOTAL,total,1165000,71175
+FY2025_audit,58,Debt certificates,TOTAL,total,76000,2257
+FY2025_audit,58,Notes payable,2026,year,84414,15247
+FY2025_audit,58,SBITAs payable,2026,year,108760,12177
+FY2025_audit,58,Notes payable,2027,year,88043,11617
+FY2025_audit,58,SBITAs payable,2027,year,89919,10768
+FY2025_audit,58,Notes payable,2028,year,45414,7822
+FY2025_audit,58,SBITAs payable,2028,year,89919,9910
+FY2025_audit,58,Notes payable,2029,year,47884,5352
+FY2025_audit,58,SBITAs payable,2029,year,75008,7137
+FY2025_audit,58,Notes payable,2030,year,50490,2747
+FY2025_audit,58,SBITAs payable,2030,year,35231,323
+FY2025_audit,58,Notes payable,TOTAL,total,316245,42785
+FY2025_audit,58,SBITAs payable,TOTAL,total,398837,40315

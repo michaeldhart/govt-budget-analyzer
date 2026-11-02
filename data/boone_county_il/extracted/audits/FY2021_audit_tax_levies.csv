@@ -1,0 +1,141 @@
+doc_id,pdf_page,tax_year,section,line_item,rate,amount
+FY2021_audit,191,2020,assessed_valuation,Assessed valuation,,1125241388
+FY2021_audit,191,2019,assessed_valuation,Assessed valuation,,1069692991
+FY2021_audit,191,2020,pct_collected,Percentage collected,100.1,
+FY2021_audit,191,2019,pct_collected,Percentage collected,99.77,
+FY2021_audit,191,2020,extension,County General,0.66684,7503560
+FY2021_audit,191,2019,extension,County General,0.67926,7265997
+FY2021_audit,191,2020,extension,Bonds and Interest,0.0,0
+FY2021_audit,191,2019,extension,Bonds and Interest,0.0,0
+FY2021_audit,191,2020,extension,Illinois Municipal Retirement,0.11109,1250030
+FY2021_audit,191,2019,extension,Illinois Municipal Retirement,0.11942,1277427
+FY2021_audit,191,2020,extension,County Highway,0.06986,786094
+FY2021_audit,191,2019,extension,County Highway,0.07096,759054
+FY2021_audit,191,2020,extension,County Bridge,0.01267,142568
+FY2021_audit,191,2019,extension,County Bridge,0.01325,141734
+FY2021_audit,191,2020,extension,County Matching,0.01024,115224
+FY2021_audit,191,2019,extension,County Matching,0.01072,114671
+FY2021_audit,191,2020,extension,County Health Department,0.02279,256442
+FY2021_audit,191,2019,extension,County Health Department,0.02375,254053
+FY2021_audit,191,2020,extension,Liability Insurance,0.0711,800047
+FY2021_audit,191,2019,extension,Liability Insurance,0.07184,768467
+FY2021_audit,191,2020,extension,Social Security,0.07999,900081
+FY2021_audit,191,2019,extension,Social Security,0.07965,852010
+FY2021_audit,191,2020,extension,Cooperative Extension,0.01156,130078
+FY2021_audit,191,2019,extension,Cooperative Extension,0.01209,129326
+FY2021_audit,191,2020,extension,Veterans Assistance,0.02293,258018
+FY2021_audit,191,2019,extension,Veterans Assistance,0.02398,256512
+FY2021_audit,191,2020,extension,Keen-Age Center (Senior Citizen),0.01867,210083
+FY2021_audit,191,2019,extension,Keen-Age Center (Senior Citizen),0.01953,208911
+FY2021_audit,191,2020,extension_total,Total,1.09774,12352225
+FY2021_audit,191,2019,extension_total,Total,1.12445,12028162
+FY2021_audit,191,2020,collection,County General,,7511317
+FY2021_audit,191,2019,collection,County General,,7248452
+FY2021_audit,191,2020,collection,Bonds and Interest,,0
+FY2021_audit,191,2019,collection,Bonds and Interest,,0
+FY2021_audit,191,2020,collection,Illinois Municipal Retirement,,1251326
+FY2021_audit,191,2019,collection,Illinois Municipal Retirement,,1274342
+FY2021_audit,191,2020,collection,County Highway,,786909
+FY2021_audit,191,2019,collection,County Highway,,757216
+FY2021_audit,191,2020,collection,County Bridge,,142717
+FY2021_audit,191,2019,collection,County Bridge,,141398
+FY2021_audit,191,2020,collection,County Matching,,115341
+FY2021_audit,191,2019,collection,County Matching,,114400
+FY2021_audit,191,2020,collection,County Health Department,,256710
+FY2021_audit,191,2019,collection,County Health Department,,253433
+FY2021_audit,191,2020,collection,Liability Insurance,,800869
+FY2021_audit,191,2019,collection,Liability Insurance,,766612
+FY2021_audit,191,2020,collection,Social Security,,901013
+FY2021_audit,191,2019,collection,Social Security,,849958
+FY2021_audit,191,2020,collection,Cooperative Extension,,130078
+FY2021_audit,191,2019,collection,Cooperative Extension,,129326
+FY2021_audit,191,2020,collection,Veterans Assistance,,258018
+FY2021_audit,191,2019,collection,Veterans Assistance,,256512
+FY2021_audit,191,2020,collection,Keen-Age Center (Senior Citizen),,210704
+FY2021_audit,191,2019,collection,Keen-Age Center (Senior Citizen),,208911
+FY2021_audit,191,2020,collection_total,Total,,12365002
+FY2021_audit,191,2019,collection_total,Total,,12000560
+FY2021_audit,192,2018,assessed_valuation,Assessed valuation,,1016184030
+FY2021_audit,192,2017,assessed_valuation,Assessed valuation,,967273490
+FY2021_audit,192,2018,pct_collected,Percentage collected,99.92,
+FY2021_audit,192,2017,pct_collected,Percentage collected,100.04,
+FY2021_audit,192,2018,extension,County General,0.69533,6965433
+FY2021_audit,192,2017,extension,County General,0.66275,6410605
+FY2021_audit,192,2018,extension,Bonds and Interest,0.0,0
+FY2021_audit,192,2017,extension,Bonds and Interest,0.0,0
+FY2021_audit,192,2018,extension,Illinois Municipal Retirement,0.11661,1184972
+FY2021_audit,192,2017,extension,Illinois Municipal Retirement,0.1611,1558278
+FY2021_audit,192,2018,extension,County Highway,0.07514,763561
+FY2021_audit,192,2017,extension,County Highway,0.0786,760277
+FY2021_audit,192,2018,extension,County Bridge,0.01329,135051
+FY2021_audit,192,2017,extension,County Bridge,0.0109,105433
+FY2021_audit,192,2018,extension,County Matching,0.01083,110053
+FY2021_audit,192,2017,extension,County Matching,0.01008,97501
+FY2021_audit,192,2018,extension,County Health Department,0.02514,255469
+FY2021_audit,192,2017,extension,County Health Department,0.02636,254973
+FY2021_audit,192,2018,extension,Liability Insurance,0.08103,823414
+FY2021_audit,192,2017,extension,Liability Insurance,0.08051,778752
+FY2021_audit,192,2018,extension,Social Security,0.08434,857050
+FY2021_audit,192,2017,extension,Social Security,0.07786,753119
+FY2021_audit,192,2018,extension,Cooperative Extension,0.01309,133018
+FY2021_audit,192,2017,extension,Cooperative Extension,0.01372,132710
+FY2021_audit,192,2018,extension,Veterans Assistance,0.02547,258822
+FY2021_audit,192,2017,extension,Veterans Assistance,0.02669,258165
+FY2021_audit,192,2018,extension,Keen-Age Center (Senior Citizen),0.02116,215025
+FY2021_audit,192,2017,extension,Keen-Age Center (Senior Citizen),0.02217,214445
+FY2021_audit,192,2018,extension_total,Total,1.16143,11701868
+FY2021_audit,192,2017,extension_total,Total,1.17074,11324258
+FY2021_audit,192,2018,collection,County General,,6959741
+FY2021_audit,192,2017,collection,County General,,6413340
+FY2021_audit,192,2018,collection,Bonds and Interest,,0
+FY2021_audit,192,2017,collection,Bonds and Interest,,0
+FY2021_audit,192,2018,collection,Illinois Municipal Retirement,,1184008
+FY2021_audit,192,2017,collection,Illinois Municipal Retirement,,1558939
+FY2021_audit,192,2018,collection,County Highway,,762933
+FY2021_audit,192,2017,collection,County Highway,,760601
+FY2021_audit,192,2018,collection,County Bridge,,134941
+FY2021_audit,192,2017,collection,County Bridge,,105474
+FY2021_audit,192,2018,collection,County Matching,,109966
+FY2021_audit,192,2017,collection,County Matching,,97543
+FY2021_audit,192,2018,collection,County Health Department,,255254
+FY2021_audit,192,2017,collection,County Health Department,,255086
+FY2021_audit,192,2018,collection,Liability Insurance,,822740
+FY2021_audit,192,2017,collection,Liability Insurance,,779079
+FY2021_audit,192,2018,collection,Social Security,,856343
+FY2021_audit,192,2017,collection,Social Security,,753411
+FY2021_audit,192,2018,collection,Cooperative Extension,,133018
+FY2021_audit,192,2017,collection,Cooperative Extension,,132623
+FY2021_audit,192,2018,collection,Veterans Assistance,,258822
+FY2021_audit,192,2017,collection,Veterans Assistance,,258004
+FY2021_audit,192,2018,collection,Keen-Age Center (Senior Citizen),,215025
+FY2021_audit,192,2017,collection,Keen-Age Center (Senior Citizen),,214309
+FY2021_audit,192,2018,collection_total,Total,,11692791
+FY2021_audit,192,2017,collection_total,Total,,11328409
+FY2021_audit,193,2016,assessed_valuation,Assessed valuation,,933081090
+FY2021_audit,193,2016,pct_collected,Percentage collected,99.96,
+FY2021_audit,193,2016,extension,County General,0.6543,6080516
+FY2021_audit,193,2016,extension,Bonds and Interest,0.0286,269381
+FY2021_audit,193,2016,extension,Illinois Municipal Retirement,0.19,1699980
+FY2021_audit,193,2016,extension,County Highway,0.0564,525791
+FY2021_audit,193,2016,extension,County Bridge,0.0146,136043
+FY2021_audit,193,2016,extension,County Matching,0.0253,236070
+FY2021_audit,193,2016,extension,County Health Department,0.0252,235509
+FY2021_audit,193,2016,extension,Liability Insurance,0.0686,631043
+FY2021_audit,193,2016,extension,Social Security,0.0911,799930
+FY2021_audit,193,2016,extension,Cooperative Extension,0.0158,147334
+FY2021_audit,193,2016,extension,Veterans Assistance,0.0277,258837
+FY2021_audit,193,2016,extension,Keen-Age Center (Senior Citizen),0.0231,215075
+FY2021_audit,193,2016,extension_total,Total,1.2207,11235509
+FY2021_audit,193,2016,collection,County General,,6078332
+FY2021_audit,193,2016,collection,Bonds and Interest,,269285
+FY2021_audit,193,2016,collection,Illinois Municipal Retirement,,1699362
+FY2021_audit,193,2016,collection,County Highway,,525598
+FY2021_audit,193,2016,collection,County Bridge,,135990
+FY2021_audit,193,2016,collection,County Matching,,235984
+FY2021_audit,193,2016,collection,County Health Department,,235422
+FY2021_audit,193,2016,collection,Liability Insurance,,630814
+FY2021_audit,193,2016,collection,Social Security,,799645
+FY2021_audit,193,2016,collection,Cooperative Extension,,147278
+FY2021_audit,193,2016,collection,Veterans Assistance,,258739
+FY2021_audit,193,2016,collection,Keen-Age Center (Senior Citizen),,214992
+FY2021_audit,193,2016,collection_total,Total,,11231441

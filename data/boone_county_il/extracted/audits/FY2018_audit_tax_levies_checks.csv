@@ -1,0 +1,16 @@
+check,ok,detail
+p168 2017: extensions add to the printed total,True,11324258 vs 11324258
+p168 2016: extensions add to the printed total,True,11235509 vs 11235509
+p168 2015: extensions add to the printed total,True,11093531 vs 11093531
+p168 2014: extensions add to the printed total,True,10921850 vs 10921850
+p168 2013: extensions add to the printed total,True,10397890 vs 10397890
+p168 2017: collections add to the printed total,True,11328409 vs 11328409
+p168 2016: collections add to the printed total,True,11231441 vs 11231441
+p168 2015: collections add to the printed total,True,11079190 vs 11079190
+p168 2014: collections add to the printed total,True,10915339 vs 10915339
+p168 2013: collections add to the printed total,True,10366065 vs 10366065
+2017: percentage collected = collections / extensions,True,100.037 vs 100.04
+2016: percentage collected = collections / extensions,True,99.964 vs 99.96
+2015: percentage collected = collections / extensions,True,99.871 vs 99.87
+2014: percentage collected = collections / extensions,True,99.940 vs 99.94
+2013: percentage collected = collections / extensions,True,99.694 vs 99.69

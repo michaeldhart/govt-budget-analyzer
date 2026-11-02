@@ -1,0 +1,141 @@
+doc_id,pdf_page,tax_year,section,line_item,rate,amount
+FY2017_audit,159,2016,assessed_valuation,Assessed valuation,,933081090
+FY2017_audit,159,2015,assessed_valuation,Assessed valuation,,889481991
+FY2017_audit,159,2014,assessed_valuation,Assessed valuation,,874797758
+FY2017_audit,159,2013,assessed_valuation,Assessed valuation,,879931692
+FY2017_audit,159,2012,assessed_valuation,Assessed valuation,,953167968
+FY2017_audit,159,2016,pct_collected,Percentage collected,99.96,
+FY2017_audit,159,2015,pct_collected,Percentage collected,99.87,
+FY2017_audit,159,2014,pct_collected,Percentage collected,99.94,
+FY2017_audit,159,2013,pct_collected,Percentage collected,97.23,
+FY2017_audit,159,2012,pct_collected,Percentage collected,99.85,
+FY2017_audit,159,2016,extension,County General,0.6543,6080516
+FY2017_audit,159,2015,extension,County General,0.6464,5679520
+FY2017_audit,159,2014,extension,County General,0.6602,5711904
+FY2017_audit,159,2013,extension,County General,0.625,5361600
+FY2017_audit,159,2012,extension,County General,0.5088,4836279
+FY2017_audit,159,2016,extension,Bonds and Interest,0.0286,269381
+FY2017_audit,159,2015,extension,Bonds and Interest,0.03,269335
+FY2017_audit,159,2014,extension,Bonds and Interest,0.0306,270575
+FY2017_audit,159,2013,extension,Bonds and Interest,0.0,0
+FY2017_audit,159,2012,extension,Bonds and Interest,0.0,0
+FY2017_audit,159,2016,extension,County Highway,0.0564,525791
+FY2017_audit,159,2015,extension,County Highway,0.0598,525773
+FY2017_audit,159,2014,extension,County Highway,0.0643,556109
+FY2017_audit,159,2013,extension,County Highway,0.0725,622112
+FY2017_audit,159,2012,extension,County Highway,0.0669,632427
+FY2017_audit,159,2016,extension,County Bridge,0.0146,136043
+FY2017_audit,159,2015,extension,County Bridge,0.0226,198621
+FY2017_audit,159,2014,extension,County Bridge,0.0377,326475
+FY2017_audit,159,2013,extension,County Bridge,0.0455,389986
+FY2017_audit,159,2012,extension,County Bridge,0.0629,599924
+FY2017_audit,159,2016,extension,County Matching,0.0253,236070
+FY2017_audit,159,2015,extension,County Matching,0.0337,296375
+FY2017_audit,159,2014,extension,County Matching,0.0343,297169
+FY2017_audit,159,2013,extension,County Matching,0.0397,340358
+FY2017_audit,159,2012,extension,County Matching,0.0543,472390
+FY2017_audit,159,2016,extension,Illinois Municipal Retirement,0.19,1699980
+FY2017_audit,159,2015,extension,Illinois Municipal Retirement,0.1911,1679431
+FY2017_audit,159,2014,extension,Illinois Municipal Retirement,0.1772,1533258
+FY2017_audit,159,2013,extension,Illinois Municipal Retirement,0.1705,1462446
+FY2017_audit,159,2012,extension,Illinois Municipal Retirement,0.1395,1280867
+FY2017_audit,159,2016,extension,Liability Insurance,0.0686,631043
+FY2017_audit,159,2015,extension,Liability Insurance,0.0899,790305
+FY2017_audit,159,2014,extension,Liability Insurance,0.0915,791342
+FY2017_audit,159,2013,extension,Liability Insurance,0.0875,750758
+FY2017_audit,159,2012,extension,Liability Insurance,0.0808,763202
+FY2017_audit,159,2016,extension,County Health Department,0.0252,235509
+FY2017_audit,159,2015,extension,County Health Department,0.0271,237581
+FY2017_audit,159,2014,extension,County Health Department,0.0277,239869
+FY2017_audit,159,2013,extension,County Health Department,0.0312,267323
+FY2017_audit,159,2012,extension,County Health Department,0.0313,296530
+FY2017_audit,159,2016,extension,Keen-Age Center,0.0231,215075
+FY2017_audit,159,2015,extension,Keen-Age Center,0.0238,209473
+FY2017_audit,159,2014,extension,Keen-Age Center,0.0246,212751
+FY2017_audit,159,2013,extension,Keen-Age Center,0.025,214527
+FY2017_audit,159,2012,extension,Keen-Age Center,0.0236,224948
+FY2017_audit,159,2016,extension,Social Security,0.0911,799930
+FY2017_audit,159,2015,extension,Social Security,0.0905,795286
+FY2017_audit,159,2014,extension,Social Security,0.0669,578766
+FY2017_audit,159,2013,extension,Social Security,0.0682,585067
+FY2017_audit,159,2012,extension,Social Security,0.0629,594682
+FY2017_audit,159,2016,extension,Cooperative Extension,0.0158,147334
+FY2017_audit,159,2015,extension,Cooperative Extension,0.0169,148277
+FY2017_audit,159,2014,extension,Cooperative Extension,0.0167,144779
+FY2017_audit,159,2013,extension,Cooperative Extension,0.017,146333
+FY2017_audit,159,2012,extension,Cooperative Extension,0.0168,158607
+FY2017_audit,159,2016,extension,Veterans Assistance,0.0277,258837
+FY2017_audit,159,2015,extension,Veterans Assistance,0.03,263554
+FY2017_audit,159,2014,extension,Veterans Assistance,0.0299,258853
+FY2017_audit,159,2013,extension,Veterans Assistance,0.03,257380
+FY2017_audit,159,2012,extension,Veterans Assistance,0.0,0
+FY2017_audit,159,2016,extension_total,Total,1.2207,11235509
+FY2017_audit,159,2015,extension_total,Total,1.2618,11093531
+FY2017_audit,159,2014,extension_total,Total,1.2616,10921850
+FY2017_audit,159,2013,extension_total,Total,1.2121,10397890
+FY2017_audit,159,2012,extension_total,Total,1.0478,9859856
+FY2017_audit,159,2016,collection,County General,,6078332
+FY2017_audit,159,2015,collection,County General,,5672191
+FY2017_audit,159,2014,collection,County General,,5708503
+FY2017_audit,159,2013,collection,County General,,5345176
+FY2017_audit,159,2012,collection,County General,,4828954
+FY2017_audit,159,2016,collection,Bonds and Interest,,269285
+FY2017_audit,159,2015,collection,Bonds and Interest,,268992
+FY2017_audit,159,2014,collection,Bonds and Interest,,270417
+FY2017_audit,159,2013,collection,Bonds and Interest,,0
+FY2017_audit,159,2012,collection,Bonds and Interest,,0
+FY2017_audit,159,2016,collection,County Highway,,525598
+FY2017_audit,159,2015,collection,County Highway,,525098
+FY2017_audit,159,2014,collection,County Highway,,555776
+FY2017_audit,159,2013,collection,County Highway,,620230
+FY2017_audit,159,2012,collection,County Highway,,631470
+FY2017_audit,159,2016,collection,County Bridge,,135990
+FY2017_audit,159,2015,collection,County Bridge,,198362
+FY2017_audit,159,2014,collection,County Bridge,,326281
+FY2017_audit,159,2013,collection,County Bridge,,388856
+FY2017_audit,159,2012,collection,County Bridge,,599012
+FY2017_audit,159,2016,collection,County Matching,,235984
+FY2017_audit,159,2015,collection,County Matching,,295992
+FY2017_audit,159,2014,collection,County Matching,,296995
+FY2017_audit,159,2013,collection,County Matching,,339357
+FY2017_audit,159,2012,collection,County Matching,,471668
+FY2017_audit,159,2016,collection,Illinois Municipal Retirement,,1699362
+FY2017_audit,159,2015,collection,Illinois Municipal Retirement,,1677256
+FY2017_audit,159,2014,collection,Illinois Municipal Retirement,,1532339
+FY2017_audit,159,2013,collection,Illinois Municipal Retirement,,1457952
+FY2017_audit,159,2012,collection,Illinois Municipal Retirement,,1278919
+FY2017_audit,159,2016,collection,Liability Insurance,,630814
+FY2017_audit,159,2015,collection,Liability Insurance,,789281
+FY2017_audit,159,2014,collection,Liability Insurance,,790871
+FY2017_audit,159,2013,collection,Liability Insurance,,748483
+FY2017_audit,159,2012,collection,Liability Insurance,,762043
+FY2017_audit,159,2016,collection,County Health Department,,235422
+FY2017_audit,159,2015,collection,County Health Department,,237272
+FY2017_audit,159,2014,collection,County Health Department,,239723
+FY2017_audit,159,2013,collection,County Health Department,,266526
+FY2017_audit,159,2012,collection,County Health Department,,296075
+FY2017_audit,159,2016,collection,Keen-Age Center,,214992
+FY2017_audit,159,2015,collection,Keen-Age Center,,209197
+FY2017_audit,159,2014,collection,Keen-Age Center,,212620
+FY2017_audit,159,2013,collection,Keen-Age Center,,213819
+FY2017_audit,159,2012,collection,Keen-Age Center,,224601
+FY2017_audit,159,2016,collection,Social Security,,799645
+FY2017_audit,159,2015,collection,Social Security,,794256
+FY2017_audit,159,2014,collection,Social Security,,578426
+FY2017_audit,159,2013,collection,Social Security,,583294
+FY2017_audit,159,2012,collection,Social Security,,593774
+FY2017_audit,159,2016,collection,Cooperative Extension,,147278
+FY2017_audit,159,2015,collection,Cooperative Extension,,148084
+FY2017_audit,159,2014,collection,Cooperative Extension,,144694
+FY2017_audit,159,2013,collection,Cooperative Extension,,145845
+FY2017_audit,159,2012,collection,Cooperative Extension,,158361
+FY2017_audit,159,2016,collection,Veterans Assistance,,258739
+FY2017_audit,159,2015,collection,Veterans Assistance,,263209
+FY2017_audit,159,2014,collection,Veterans Assistance,,258694
+FY2017_audit,159,2013,collection,Veterans Assistance,,256527
+FY2017_audit,159,2012,collection,Veterans Assistance,,256527
+FY2017_audit,159,2016,collection_total,Total,,11231441
+FY2017_audit,159,2015,collection_total,Total,,11079190
+FY2017_audit,159,2014,collection_total,Total,,10915339
+FY2017_audit,159,2013,collection_total,Total,,10109538
+FY2017_audit,159,2012,collection_total,Total,,9844877

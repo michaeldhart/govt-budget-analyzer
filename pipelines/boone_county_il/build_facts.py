@@ -30,8 +30,8 @@ sys.path.insert(0, HERE)
 
 from govbudget import Entity  # noqa: E402
 from govbudget.entity import read_csv, write_csv  # noqa: E402
-from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, CORRECTION_COLUMNS, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
-                              FUND_STATEMENT_COLUMNS)
+from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, CORRECTION_COLUMNS, DEBT_PENSION_TABLES, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
+                              FUND_STATEMENT_COLUMNS, OPTIONAL_TABLES)
 from build_audit_fund_names import norm  # noqa: E402
 from build_account_map import BOOK_DOCS, book_key, book_obj  # noqa: E402
 
@@ -202,6 +202,40 @@ def audit_part(ex, audits):
     return facts, statements
 
 
+LIABILITY_IDS = [(r"bonds? payable", "bonds_payable"), (r"debt certificate", "debt_certificates"), (r"bond premium", "bond_premium"), (r"landfill", "landfill_postclosure"),
+                 (r"notes? payable", "notes_payable"), (r"compensated", "compensated_absences"), (r"capital lease|lease obligation", "leases"), (r"sbita", "sbita"),
+                 (r"net pension liability.*(slep|sheriff)", "npl_slep"), (r"net pension liability.*eco", "npl_eco"), (r"net pension liability", "npl_imrf"),
+                 (r"other post|opeb", "opeb"), (r"^total", "total")]
+
+
+def liability_id(label):
+    for rx, i in LIABILITY_IDS:
+        if re.search(rx, label, re.I):
+            return i
+    return re.sub(r"[^a-z]+", "_", label.lower()).strip("_")
+
+
+def debt_part(docs):
+    """debt_balances.csv (the note's summary of changes in long-term liabilities), debt_service_schedule.csv (debt service to maturity) and
+    property_tax_levies.csv (the statistical section's levies, extensions and collections), one row per printed figure."""
+    bal, sched, tax = [], [], []
+    for d in docs:
+        doc, fy = d["doc_id"], int(d["fiscal_year"])
+        base = dict(entity_id=E.id, doc_id=doc, period_fy=fy, flag="", exception_ids="")
+        for r in csv.DictReader(open(E.data_path("extracted", "audits", f"{doc}_debt_changes.csv"))):
+            lid = liability_id(r["line_item"])
+            for m in ("beginning", "additions", "reductions", "ending", "current_portion"):
+                if r[m] != "":
+                    bal.append(dict(base, activity="governmental activities", line_id=lid, line_item=r["line_item"], measure=m, amount=int(float(r[m])), pdf_page=r["pdf_page"]))
+        for r in csv.DictReader(open(E.data_path("extracted", "audits", f"{doc}_debt_maturity.csv"))):
+            sched.append(dict(base, activity="governmental activities", instrument=r["instrument"], line_id=liability_id(r["instrument"]), year_ending=r["fiscal_year_ending"],
+                              principal=int(float(r["principal"])), interest=int(float(r["interest"])), total=int(float(r["principal"])) + int(float(r["interest"])),
+                              row_kind={"year": "year", "band": "band", "total": "total"}[r["row_kind"]], pdf_page=r["pdf_page"]))
+        for r in csv.DictReader(open(E.data_path("extracted", "audits", f"{doc}_tax_levies.csv"))):
+            tax.append(dict(base, tax_year=int(r["tax_year"]), section=r["section"], line_item=r["line_item"], rate=r["rate"], amount=r["amount"], pdf_page=r["pdf_page"]))
+    return bal, sched, tax
+
+
 def accounts_table(facts):
     amap = E.account_map()
     years = {}
@@ -237,6 +271,10 @@ def main():
     write_csv(E.data_path("control_totals.csv"), CONTROL_TOTAL_COLUMNS, totals)
     write_csv(E.data_path("corrections.csv"), CORRECTION_COLUMNS, [])
     write_csv(E.data_path("fund_statements.csv"), FUND_STATEMENT_COLUMNS, statements)
+    bal, sched, tax = debt_part(sorted((d for d in docs if d["doc_type"] == "audit"), key=lambda d: int(d["fiscal_year"])))
+    write_csv(E.data_path("debt_balances.csv"), DEBT_PENSION_TABLES["debt_balances"], bal)
+    write_csv(E.data_path("debt_service_schedule.csv"), DEBT_PENSION_TABLES["debt_service_schedule"], sched)
+    write_csv(E.data_path("property_tax_levies.csv"), OPTIONAL_TABLES["property_tax_levies"], tax)
     n_b = sum(1 for f in facts if f["source_type"] == "budget")
     print(f"{len(docs)} documents, {len(facts)} facts ({n_b} budget, {len(facts) - n_b} audit), {len(totals)} control totals, {len(statements)} statement cells")
 

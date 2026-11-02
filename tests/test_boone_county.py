@@ -199,3 +199,38 @@ def test_scanned_fy2023_book_agrees_with_its_neighbours():
         a, b = load("FY2023_budget", fy), load(other, fy)
         shared = set(a) & set(b)
         assert len(shared) > 700 and sum(a[k] != b[k] for k in shared) <= 8, other
+
+
+def test_audit_tax_and_debt_tables_pass_every_check():
+    for fy in range(2015, 2026):
+        for kind in ("tax_levies", "debt"):
+            checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_{kind}_checks.csv", newline="")))
+            assert checks and all(c["ok"] == "True" for c in checks), (fy, kind)
+
+
+def test_property_tax_levies_agree_across_audits():
+    import collections
+    seen = collections.defaultdict(set)
+    for r in csv.DictReader(open(DATA / "property_tax_levies.csv", newline="")):
+        if r["section"] in ("assessed_valuation", "extension", "extension_total"):
+            seen[(r["tax_year"], r["section"], r["line_item"].lower())].add(r["amount"])
+    assert len(seen) > 150 and all(len(v) == 1 for v in seen.values())  # the same levy year, valuation and extension in every audit that prints it
+    totals = {r["tax_year"]: int(r["amount"]) for r in csv.DictReader(open(DATA / "property_tax_levies.csv", newline=""))
+              if r["doc_id"] == "FY2025_audit" and r["section"] == "extension_total"}
+    assert totals["2024"] == 13429472 and totals["2021"] == 12311714
+
+
+def test_liabilities_chain_between_audits():
+    import collections
+    d = collections.defaultdict(dict)
+    for r in csv.DictReader(open(DATA / "debt_balances.csv", newline="")):
+        d[(r["line_id"], int(r["period_fy"]))][r["measure"]] = int(r["amount"])
+    ok = bad = 0
+    for (lid, fy), v in d.items():
+        n = d.get((lid, fy + 1))
+        if n and "ending" in v and "beginning" in n:
+            ok += v["ending"] == n["beginning"]
+            bad += v["ending"] != n["beginning"]
+    assert (ok, bad) == (62, 14)
+    ends = {(r["line_id"], r["period_fy"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "debt_balances.csv", newline="")) if r["measure"] == "ending"}
+    assert ends[("bonds_payable", "2025")] == 1165000 and ends[("total", "2025")] == 10203886

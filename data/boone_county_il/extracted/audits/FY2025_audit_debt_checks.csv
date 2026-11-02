@@ -1,0 +1,28 @@
+check,ok,detail
+GOVERNMENTAL ACTIVITIES Bonds payable: beginning + additions - reductions = ending,True,1440000 + 0 - 275000 vs 1165000
+Debt certificates: beginning + additions - reductions = ending,True,124000 + 0 - 48000 vs 76000
+Bond premium: beginning + additions - reductions = ending,True,8992 + 0 - 5505 vs 3487
+Landfill post-closure costs: beginning + additions - reductions = ending,True,352000 + 0 - 74500 vs 277500
+Notes payable: beginning + additions - reductions = ending,True,402690 + 0 - 86445 vs 316245
+Compensated absences*/**: beginning + additions - reductions = ending,True,1011758 + 64568 - 0 vs 1076326
+SBITAs payable: beginning + additions - reductions = ending,True,511660 + 0 - 112823 vs 398837
+Net pension liability - IMRF - SLEP: beginning + additions - reductions = ending,True,1519690 + 0 - 1312971 vs 206719
+Net pension liability - IMRF - ECO: beginning + additions - reductions = ending,True,1217893 + 29276 - 0 vs 1247169
+Other postemployment benefit: beginning + additions - reductions = ending,True,3950422 + 1486181 - 0 vs 5436603
+liabilities beginning add to the printed total,True,10539105 vs 10539105
+liabilities additions add to the printed total,True,1580025 vs 1580025
+liabilities reductions add to the printed total,True,1915244 vs 1915244
+liabilities ending add to the printed total,True,10203886 vs 10203886
+liabilities current_portion add to the printed total,True,976967 vs 976967
+p58 Bonds payable: principal adds to the printed total,True,1165000 vs 1165000
+p58 Bonds payable: interest adds to the printed total,True,71175 vs 71175
+p58 Bonds payable: principal total = ending balance,True,1165000 vs 1165000
+p58 Debt certificates: principal adds to the printed total,True,76000 vs 76000
+p58 Debt certificates: interest adds to the printed total,True,2257 vs 2257
+p58 Debt certificates: principal total = ending balance,True,76000 vs 76000
+p58 Notes payable: principal adds to the printed total,True,316245 vs 316245
+p58 Notes payable: interest adds to the printed total,True,42785 vs 42785
+p58 Notes payable: principal total = ending balance,True,316245 vs 316245
+p58 SBITAs payable: principal adds to the printed total,True,398837 vs 398837
+p58 SBITAs payable: interest adds to the printed total,True,40315 vs 40315
+p58 SBITAs payable: principal total = ending balance,True,398837 vs 398837

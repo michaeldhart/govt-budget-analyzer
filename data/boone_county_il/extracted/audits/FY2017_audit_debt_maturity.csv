@@ -1,0 +1,17 @@
+doc_id,pdf_page,instrument,fiscal_year_ending,row_kind,principal,interest
+FY2017_audit,52,Bonds payable,2018,year,905000,110037
+FY2017_audit,52,Debt certificates,2018,year,39000,12780
+FY2017_audit,52,Bonds payable,2019,year,795000,88400
+FY2017_audit,52,Debt certificates,2019,year,40000,11092
+FY2017_audit,52,Bonds payable,2020,year,235000,75800
+FY2017_audit,52,Debt certificates,2020,year,42000,9897
+FY2017_audit,52,Bonds payable,2021,year,240000,68675
+FY2017_audit,52,Debt certificates,2021,year,43000,8658
+FY2017_audit,52,Bonds payable,2022,year,250000,61325
+FY2017_audit,52,Debt certificates,2022,year,44000,7375
+FY2017_audit,52,Bonds payable,2023-2027,band,1365000,190888
+FY2017_audit,52,Debt certificates,2023-2027,band,217000,16328
+FY2017_audit,52,Bonds payable,2028-2029,band,600000,18150
+FY2017_audit,52,Debt certificates,2028-2029,band,0,0
+FY2017_audit,52,Bonds payable,TOTAL,total,4390000,613275
+FY2017_audit,52,Debt certificates,TOTAL,total,425000,66130

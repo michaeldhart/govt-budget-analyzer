@@ -1,0 +1,25 @@
+check,ok,detail
+Bonds payable: beginning + additions - reductions = ending,True,2455000 + 0 - 240000 vs 2215000
+Debt certificates: beginning + additions - reductions = ending,True,304000 + 0 - 65000 vs 239000
+Bond premium: beginning + additions - reductions = ending,True,33557 + 0 - 7190 vs 26367
+Capital lease: beginning + additions - reductions = ending,True,304075 + 0 - 46425 vs 257650
+Landfill post-closure costs: beginning + additions - reductions = ending,True,258000 + 0 - 39000 vs 219000
+Notes payable: beginning + additions - reductions = ending,True,258303 + 0 - 61105 vs 197198
+Compensated absences: beginning + additions - reductions = ending,True,643525 + 1325589 - 1230971 vs 738143
+liabilities beginning add to the printed total,True,4256460 vs 4256460
+liabilities additions add to the printed total,True,1325589 vs 1325589
+liabilities reductions add to the printed total,True,1689691 vs 1689691
+liabilities ending add to the printed total,True,3892358 vs 3892358
+liabilities current_portion add to the printed total,True,475270 vs 475270
+p49 Bonds payable: principal adds to the printed total,True,2215000 vs 2215000
+p49 Bonds payable: interest adds to the printed total,True,270362 vs 270362
+p49 Bonds payable: principal total = ending balance,True,2215000 vs 2215000
+p49 Debt certificates: principal adds to the printed total,True,239000 vs 239000
+p49 Debt certificates: interest adds to the printed total,True,19853 vs 19853
+p49 Debt certificates: principal total = ending balance,True,239000 vs 239000
+p49 Notes payable: principal adds to the printed total,True,197198 vs 197198
+p49 Notes payable: interest adds to the printed total,True,7037 vs 7037
+p49 Notes payable: principal total = ending balance,True,197198 vs 197198
+p49 Capital lease: principal adds to the printed total,True,257650 vs 257650
+p49 Capital lease: interest adds to the printed total,True,20900 vs 20900
+p49 Capital lease: principal total = ending balance,True,257650 vs 257650

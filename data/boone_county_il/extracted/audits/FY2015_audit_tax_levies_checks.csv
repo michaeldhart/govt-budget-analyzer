@@ -1,0 +1,13 @@
+check,ok,detail
+p159 2014: extensions add to the printed total,True,10921850 vs 10921850
+p159 2013: extensions add to the printed total,True,10397890 vs 10397890
+p159 2012: extensions add to the printed total,True,9859856 vs 9859856
+p159 2011: extensions add to the printed total,True,9394319 vs 9394319
+p159 2014: collections add to the printed total,True,10915339 vs 10915339
+p159 2013: collections add to the printed total,True,10366065 vs 10366065
+p159 2012: collections add to the printed total,True,9844877 vs 9844877
+p159 2011: collections add to the printed total,True,9360636 vs 9360636
+2014: percentage collected = collections / extensions,True,99.940 vs 99.94
+2013: percentage collected = collections / extensions,True,99.694 vs 99.69
+2012: percentage collected = collections / extensions,True,99.848 vs 99.85
+2011: percentage collected = collections / extensions,True,99.641 vs 99.64

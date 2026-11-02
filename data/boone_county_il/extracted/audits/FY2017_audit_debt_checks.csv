@@ -1,0 +1,21 @@
+check,ok,detail
+GOVERNMENTAL ACTIVITIES Compensated absences: beginning + additions - reductions = ending,True,407948 + 267140 - 160344 vs 514744
+Bonds payable: beginning + additions - reductions = ending,True,5410000 + 0 - 1020000 vs 4390000
+Debt certificates: beginning + additions - reductions = ending,True,0 + 425000 - 0 vs 425000
+Bond premium: beginning + additions - reductions = ending,True,184727 + 0 - 52918 vs 131809
+Landfill postclosure costs: beginning + additions - reductions = ending,True,468074 + 76102 - 121742 vs 422434
+Net pension liability - IMRF - County: beginning + additions - reductions = ending,True,4099590 + 0 - 364467 vs 3735123
+Net pension liability - IMRF - SLEP: beginning + additions - reductions = ending,True,3936740 + 0 - 771836 vs 3164904
+Net pension liability - IMRF - ECO: beginning + additions - reductions = ending,True,1661998 + 0 - 138314 vs 1523684
+Other postemployment benefit: beginning + additions - reductions = ending,True,998198 + 235477 - 0 vs 1233675
+liabilities beginning add to the printed total,True,17167275 vs 17167275
+liabilities additions add to the printed total,True,1003719 vs 1003719
+liabilities reductions add to the printed total,True,2629621 vs 2629621
+liabilities ending add to the printed total,True,15541373 vs 15541373
+liabilities current_portion add to the printed total,True,1213305 vs 1213305
+p52 Bonds payable: principal adds to the printed total,True,4390000 vs 4390000
+p52 Bonds payable: interest adds to the printed total,True,613275 vs 613275
+p52 Bonds payable: principal total = ending balance,True,4390000 vs 4390000
+p52 Debt certificates: principal adds to the printed total,True,425000 vs 425000
+p52 Debt certificates: interest adds to the printed total,True,66130 vs 66130
+p52 Debt certificates: principal total = ending balance,True,425000 vs 425000

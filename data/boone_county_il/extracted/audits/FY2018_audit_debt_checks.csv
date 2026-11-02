@@ -1,0 +1,18 @@
+check,ok,detail
+Bonds payable: beginning + additions - reductions = ending,True,4390000 + 0 - 905000 vs 3485000
+Debt certificates: beginning + additions - reductions = ending,True,425000 + 0 - 39000 vs 386000
+Bond premium: beginning + additions - reductions = ending,True,131808 + 0 - 81509 vs 50299
+Landfill post‐closure costs: beginning + additions - reductions = ending,True,422434 + 0 - 49660 vs 372774
+Other post‐employment benefits: beginning + additions - reductions = ending,True,2554221 + 165655 - 0 vs 2719876
+Compensated absences: beginning + additions - reductions = ending,True,514744 + 453747 - 292339 vs 676152
+liabilities beginning add to the printed total,True,8438207 vs 8438207
+liabilities additions add to the printed total,True,619402 vs 619402
+liabilities reductions add to the printed total,True,1367508 vs 1367508
+liabilities ending add to the printed total,True,7690101 vs 7690101
+liabilities current_portion add to the printed total,True,894534 vs 894534
+p48 Bonds payable: principal adds to the printed total,True,3485000 vs 3485000
+p48 Bonds payable: interest adds to the printed total,True,503237 vs 503237
+p48 Bonds payable: principal total = ending balance,True,3485000 vs 3485000
+p48 Debt certificates: principal adds to the printed total,True,386000 vs 386000
+p48 Debt certificates: interest adds to the printed total,True,"ACCEPTED (The 2021 interest cell prints 9,658; the FY2017 audit prints 8,658 and the printed total 53,350 equals the column with 8,658. Source typo) 54350 vs 53350"
+p48 Debt certificates: principal total = ending balance,True,386000 vs 386000

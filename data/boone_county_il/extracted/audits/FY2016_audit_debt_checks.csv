@@ -1,0 +1,14 @@
+check,ok,detail
+GOVERNMENTAL ACTIVITIES Compensated absences: beginning + additions - reductions = ending,True,491739 + 98419 - 182210 vs 407948
+Bonds payable: beginning + additions - reductions = ending,True,6380000 + 0 - 970000 vs 5410000
+Bond premium: beginning + additions - reductions = ending,True,237645 + 0 - 52918 vs 184727
+Landfill postclosure costs: beginning + additions - reductions = ending,True,560900 + 74 - 92900 vs 468074
+Other postemployment benefit: beginning + additions - reductions = ending,True,780818 + 217380 - 0 vs 998198
+liabilities beginning add to the printed total,True,8451102 vs 8451102
+liabilities additions add to the printed total,True,315873 vs 315873
+liabilities reductions add to the printed total,True,1298028 vs 1298028
+liabilities ending add to the printed total,True,7468947 vs 7468947
+liabilities current_portion add to the printed total,True,1286336 vs 1286336
+p52 Bonds payable: principal adds to the printed total,True,5410000 vs 5410000
+p52 Bonds payable: interest adds to the printed total,True,756226 vs 756226
+p52 Bonds payable: principal total = ending balance,True,5410000 vs 5410000

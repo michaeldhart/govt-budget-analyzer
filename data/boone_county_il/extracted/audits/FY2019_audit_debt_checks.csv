@@ -1,0 +1,22 @@
+check,ok,detail
+Bonds payable: beginning + additions - reductions = ending,True,3485000 + 0 - 795000 vs 2690000
+Debt certificates: beginning + additions - reductions = ending,True,386000 + 0 - 40000 vs 346000
+Bond premium: beginning + additions - reductions = ending,True,50299 + 0 - 8760 vs 41539
+Capital lease: beginning + additions - reductions = ending,True,396925 + 0 - 46425 vs 350500
+Landfill post‐closure costs: beginning + additions - reductions = ending,True,372774 + 0 - 72574 vs 300200
+Other post‐employment benefits: beginning + additions - reductions = ending,True,2719876 + 737018 - 0 vs 3456894
+Compensated absences: beginning + additions - reductions = ending,True,676152 + 948166 - 993279 vs 631039
+liabilities beginning add to the printed total,True,8087026 vs 8087026
+liabilities additions add to the printed total,True,1685184 vs 1685184
+liabilities reductions add to the printed total,True,1956038 vs 1956038
+liabilities ending add to the printed total,True,7816172 vs 7816172
+liabilities current_portion add to the printed total,True,373408 vs 373408
+p48 Bonds payable: principal adds to the printed total,True,2690000 vs 2690000
+p48 Bonds payable: interest adds to the printed total,True,414837 vs 414837
+p48 Bonds payable: principal total = ending balance,True,2690000 vs 2690000
+p48 Debt certificates: principal adds to the printed total,True,346000 vs 346000
+p48 Debt certificates: interest adds to the printed total,True,42257 vs 42257
+p48 Debt certificates: principal total = ending balance,True,346000 vs 346000
+p48 Capital lease: principal adds to the printed total,True,350500 vs 350500
+p48 Capital lease: interest adds to the printed total,True,20900 vs 20900
+p48 Capital lease: principal total = ending balance,True,350500 vs 350500

@@ -1,0 +1,13 @@
+check,ok,detail
+p171 2023: extensions add to the printed total,True,12895364 vs 12895364
+p171 2022: extensions add to the printed total,True,12385886 vs 12385886
+p171 2021: extensions add to the printed total,True,12311714 vs 12311714
+p171 2020: extensions add to the printed total,True,12352225 vs 12352225
+p171 2023: collections add to the printed total,True,12878202 vs 12878202
+p171 2022: collections add to the printed total,True,12384612 vs 12384612
+p171 2021: collections add to the printed total,True,12306301 vs 12306301
+p171 2020: collections add to the printed total,True,12365002 vs 12365002
+2023: percentage collected = collections / extensions,True,99.867 vs 99.87
+2022: percentage collected = collections / extensions,True,99.990 vs 99.99
+2021: percentage collected = collections / extensions,True,99.956 vs 99.96
+2020: percentage collected = collections / extensions,True,100.103 vs 100.1

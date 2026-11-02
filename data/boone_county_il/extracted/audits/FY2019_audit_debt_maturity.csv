@@ -1,0 +1,22 @@
+doc_id,pdf_page,instrument,fiscal_year_ending,row_kind,principal,interest
+FY2019_audit,48,Bonds payable,2020,year,235000,75800
+FY2019_audit,48,Debt certificates,2020,year,42000,9897
+FY2019_audit,48,Capital lease,2020,year,46425,0
+FY2019_audit,48,Bonds payable,2021,year,240000,68675
+FY2019_audit,48,Debt certificates,2021,year,43000,8658
+FY2019_audit,48,Capital lease,2021,year,46425,0
+FY2019_audit,48,Bonds payable,2022,year,250000,61325
+FY2019_audit,48,Debt certificates,2022,year,44000,7374
+FY2019_audit,48,Capital lease,2022,year,46425,0
+FY2019_audit,48,Bonds payable,2023,year,260000,53675
+FY2019_audit,48,Debt certificates,2023,year,46000,6062
+FY2019_audit,48,Capital lease,2023,year,39603,6822
+FY2019_audit,48,Bonds payable,2024,year,265000,45800
+FY2019_audit,48,Debt certificates,2024,year,47000,4705
+FY2019_audit,48,Capital lease,2024,year,40882,5543
+FY2019_audit,48,Bonds payable,2025-2029,band,1440000,109562
+FY2019_audit,48,Debt certificates,2025-2029,band,124000,5561
+FY2019_audit,48,Capital lease,2025-2029,band,130740,8535
+FY2019_audit,48,Bonds payable,TOTAL,total,2690000,414837
+FY2019_audit,48,Debt certificates,TOTAL,total,346000,42257
+FY2019_audit,48,Capital lease,TOTAL,total,350500,20900
