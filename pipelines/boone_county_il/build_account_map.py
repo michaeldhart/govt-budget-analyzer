@@ -16,7 +16,7 @@ from govbudget.schema import ACCOUNT_MAP_COLUMNS, DEPARTMENT_COLUMNS  # noqa: E4
 
 E = Entity.load("boone_county_il")
 DOCS = ("FY2025_budget", "FY2026_budget", "FY2027_budget_prelim")
-BOOK_DOCS = ("FY2017_budget", "FY2019_budget", "FY2020_budget", "FY2021_budget", "FY2022_budget", "FY2024_budget")  # budget books (extract_budget_book.py), oldest first
+BOOK_DOCS = ("FY2017_budget", "FY2019_budget", "FY2020_budget", "FY2021_budget", "FY2022_budget", "FY2023_budget", "FY2024_budget")  # budget books (extract_budget_book.py), oldest first
 EXTRA_FUND_NAMES = {"047": "Animal Services Bond Fund", "056": "Coroner's Fees Fund", "101": "Grant Fund", "123": "Opioid Grant Fund",
                     "143": "Regional Communication Study Fund", "154": "HAVA Election Grant Fund", "157": "Land/Cash Fees Fund"}
 FUND_COLUMNS = ["fund_code", "name", "type", "numbering", "audit_name", "note"]

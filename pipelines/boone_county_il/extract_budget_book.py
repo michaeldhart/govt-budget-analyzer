@@ -21,6 +21,7 @@ SRC = ROOT / "sources/boone_county_il/budgets"
 OUT = ROOT / "data/boone_county_il/extracted"
 OVR = ROOT / "data/boone_county_il/overrides"
 
+SCANNED = ("FY2018_budget", "FY2023_budget")
 YEAR_TOK = re.compile(r"FY\s*'?\s*(\d{2,4})")
 LABEL_TOK = re.compile(r"Percent\s+Change\s*\(\w+\)|Actual\s*-\s*\w+|Actual|Budget|Estimated?|Proposed|Percent|Projected|Request(?:ed)?|Appropriation")
 FALLBACK_LABELS = re.compile(r"(?:^|\s)(?:Actual|Acrual)\s+\S+\s+\S+\s+\S+\s*$")
@@ -70,6 +71,19 @@ def repair_numbers(line):
     return re.sub(r"(?<![\d,])(\d{1,3}(?:,\d{3})*,\d{1,2}) (\d{1,2})(?=\s|$)", join, line)
 
 
+def ocr_clean(line):
+    """Typical tesseract slips in these scans: '48.700' for 48,700, a stray quote before 'Total', 'Tota!' / 'Totai'."""
+    line = re.sub(r"^(\s*\d{3}),(\d{1,3})(?=\s)", r"\1.\2", line)  # an object code read with a comma: '604,000' -> '604.000'
+    line = re.sub(r"\b[A-Z]Y\s*[\"'’]\s*[lI]?(\d{2})\b", r"FY '\1", line)  # 'KY '16', 'BY 'I17' -> FY '16
+    head = re.match(r"^(\s*\d{3}\.\d{3})(?=\s)", line)  # keep a leading object code ('401.155') out of the thousands repair
+    start = head.end() if head else 0
+    line = line[:start] + re.sub(r"(?<=\d)\.(?=\d{3}(?:\s|$))", ",", line[start:])
+    line = re.sub(r"^(\s*)[‘’'`\"|.,:;~_—-]+\s*(?=[A-Za-z])", r"\1", line)
+    line = re.sub(r"\bTota[l!1i|]\b|\bT[o0]tal\b", "Total", line)
+    line = re.sub(r"(?<=\d)\.(?=\s|$)", "", line)  # '100.' for 100
+    return re.sub(r"(?<![(\d,])\b([\d,]+)\)(?=\s|$)", r"\1", line)  # a stray ')' after a figure ('0)' for '0'); '(3)' keeps its parentheses
+
+
 def fixfy(line):
     """The text layer reads FY'18 as FY'l8 in some books."""
     return re.sub(r"(FY\s*'?\s*)[lI](\d)", r"\g<1>1\2", line)
@@ -105,9 +119,21 @@ def load_overrides(doc):
     return list(csv.DictReader(open(p, newline=""))) if p.exists() else []
 
 
+def page_texts(doc):
+    """Pages of a book: the PDF's text layer, or the OCR cache (ocr_pages.py) for the scanned FY2018 and FY2023 books."""
+    cache = ROOT / "data/boone_county_il/ocr" / doc
+    if doc in SCANNED:
+        files = sorted(cache.glob("p*.txt"))
+        if not files:
+            sys.exit(f"{doc} is a scan: run pipelines/boone_county_il/ocr_pages.py {doc} first")
+        return [f.read_text() for f in files]
+    return subprocess.run(["pdftotext", "-layout", str(SRC / f"{doc}.pdf"), "-"], capture_output=True, text=True, check=True).stdout.split("\f")
+
+
 def main(doc):
-    text = subprocess.run(["pdftotext", "-layout", str(SRC / f"{doc}.pdf"), "-"], capture_output=True, text=True, check=True).stdout
-    pages = text.split("\f")
+    pages = page_texts(doc)
+    if doc in SCANNED:
+        pages = ["\n".join(ocr_clean(l) for l in pg.split("\n")) for pg in pages]
     overrides = load_overrides(doc)
     lines_out, totals_out, checks = [], [], []
     seq = 0
@@ -168,7 +194,7 @@ def main(doc):
                     cols = cols[:-1] + [(int(doc[2:6]), cols[-1][1], cols[-1][2])]
                 continue
             if cols is None:
-                if doc in ("FY2017_budget", "FY2019_budget") and CODE.match(re.sub(r"\s+", " ", line.strip())) and len(num_tokens(repair_numbers(line))[1]) == 4:
+                if doc in ("FY2017_budget", "FY2018_budget", "FY2019_budget") and CODE.match(re.sub(r"\s+", " ", line.strip())) and len(num_tokens(repair_numbers(line))[1]) == 4:
                     # the header of this page is unreadable (FICA Retirement Fund page of the FY2019 book): the four-column Actual / Budget / Estimate / Budget layout
                     fy0 = int(doc[2:6])
                     cols = [(fy0 - 2, "actual", "Actual"), (fy0 - 1, "budget", "Budget"), (fy0 - 1, "estimate", "Estimate"), (fy0, "budget", "Budget")]
@@ -184,6 +210,7 @@ def main(doc):
                 dept, section = dm.group(2).zfill(4), ""
                 continue
             label, vals = num_tokens(line)
+            label = re.sub(r"\s+", " ", label)
             if not vals:
                 m = DEPT_LINE.match(label.strip())
                 if m:

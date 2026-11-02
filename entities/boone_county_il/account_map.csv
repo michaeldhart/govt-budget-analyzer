@@ -38,6 +38,7 @@ expense,001:0051-542000,Dues,Administration,exp_contractual,expense,rule: 50xxxx
 expense,001:0051-548000,Rental Equipment,Administration,exp_contractual,expense,rule: 50xxxx-58xxxx
 expense,001:0051-604000,Equipment,Administration,exp_capital,expense,rule: 56xxxx/60xxxx
 expense,001:0051-Ugrantsmanager,Grants Manager,Administration,exp_other,expense,rule: 59/79/90/99
+expense,001:0051-Upcomgrantmanager,PCOM/Grant Manager,Administration,exp_other,expense,rule: 59/79/90/99
 expense,001:0052-810100,Growth Dimensions,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
 expense,001:0052-810170,Veterans Assistance Commission,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
 expense,001:0052-810200,CASA,Grants,exp_claims_grants,expense,rule: 80xxxx/81xxxx/86xxxx
@@ -502,6 +503,7 @@ expense,001:0087-519000,COVID19,Logan Avenue Building Maintenance,exp_contractua
 expense,001:0087-522000,Telephone,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
 expense,001:0087-523000,Utilities,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
 expense,001:0087-535000,Other Professional Services,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
+expense,001:0087-535700,Other Professional Services - Website Expense,Logan Avenue Building Maintenance,exp_contractual,expense,rule: 50xxxx-58xxxx
 expense,001:0087-604000,Equipment,Logan Avenue Building Maintenance,exp_capital,expense,rule: 56xxxx/60xxxx
 expense,001:0088-453000,Maintenance Supplies,McKinley Ave Building,exp_supplies,expense,rule: 45xxxx-49xxxx
 expense,001:0088-461000,Fuel,McKinley Ave Building,exp_supplies,expense,rule: 45xxxx-49xxxx

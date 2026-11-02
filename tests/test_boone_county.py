@@ -126,7 +126,7 @@ def test_canonical_tables_validate():
 
 def test_fact_counts_and_headline_numbers():
     facts = _facts()
-    assert len(facts) == 39240 and sum(f["source_type"] == "budget" for f in facts) == 23491
+    assert len(facts) == 41634 and sum(f["source_type"] == "budget" for f in facts) == 25885
     gf = lambda **k: sum(int(f["amount"]) for f in facts if all(f[a] == str(b) for a, b in k.items()))  # noqa: E731
     assert gf(doc_id="FY2026_budget", fund_code="001", flow="revenue", period_fy=2026, basis="adopted") == 25188465
     # the budget extracts reconcile with the totals the county prints (993 fund/department-flow-period groups; 4 are the recorded source slips)
@@ -153,9 +153,9 @@ def test_audit_vs_budget_comparison():
         b = [r for r in rows if r["period_fy"] == str(fy) and r["budget_status"]]
         by_year[fy] = (len(b), sum(r["budget_status"] == "agree" for r in b))
     assert by_year == {2016: (80, 64), 2017: (91, 78), 2018: (93, 76), 2019: (102, 95), 2020: (105, 99), 2021: (97, 92), 2022: (93, 87),
-                       2023: (71, 63), 2024: (89, 82), 2025: (89, 85)}
-    # the budget books and worksheets agree with the audits' original budgets to the dollar in 821 of 910 fund-year-measure comparisons
-    assert sum(r["budget_status"] == "agree" for r in rows) == 821 and sum(r["budget_status"] == "differs" for r in rows) == 89
+                       2023: (94, 89), 2024: (89, 82), 2025: (89, 85)}
+    # the budget books and worksheets agree with the audits' original budgets to the dollar in 847 of 933 fund-year-measure comparisons
+    assert sum(r["budget_status"] == "agree" for r in rows) == 847 and sum(r["budget_status"] == "differs" for r in rows) == 86
     diff25 = sorted((r["fund_code"], r["measure"], int(r["budget_diff"])) for r in rows if r["period_fy"] == "2025" and r["budget_status"] == "differs")
     assert diff25 == [("001", "expenditure", -2400), ("001", "revenue", -2400), ("045", "revenue", 2000), ("120", "revenue", 200)]
     # the county's employee health insurance (a transfer out in the books, 2.3M-2.9M a year) is most of the General Fund expenditure gap in the years
@@ -168,7 +168,7 @@ def test_audit_vs_budget_comparison():
 
 
 def test_budget_books_tie_to_their_printed_totals():
-    expected = {"FY2017_budget": 876, "FY2019_budget": 880, "FY2020_budget": 813, "FY2021_budget": 837, "FY2022_budget": 878, "FY2024_budget": 875}
+    expected = {"FY2017_budget": 876, "FY2019_budget": 880, "FY2020_budget": 813, "FY2021_budget": 837, "FY2022_budget": 878, "FY2023_budget": 862, "FY2024_budget": 875}
     for doc, n_lines in expected.items():
         checks = list(csv.DictReader(open(EX / f"{doc}_book_checks.csv", newline="")))
         assert all(c["ok"] == "True" for c in checks), (doc, [c for c in checks if c["ok"] != "True"][:3])
@@ -181,3 +181,21 @@ def test_budget_books_tie_to_their_printed_totals():
         if r["period_fy"] == "2024" and r["measure"] == "budget" and r["code"]:
             book[(r["fund_code"], r["code"].replace(".", ""))] = book.get((r["fund_code"], r["code"].replace(".", "")), 0) + int(r["amount"])
     assert book[("001", "301000")] == 7400000
+
+
+def test_scanned_fy2023_book_agrees_with_its_neighbours():
+    """The FY2023 book is a scan read by OCR; its budget columns equal the FY2022 and FY2024 books' for 99% of the lines both print."""
+    import re
+
+    def load(doc, fy):
+        d = {}
+        for r in csv.DictReader(open(EX / f"{doc}_book_lines.csv", newline="")):
+            if "Summary" in r["table"] or not r["fund_code"] or r["period_fy"] != str(fy) or r["measure"] != "budget":
+                continue
+            k = (r["fund_code"], r["dept_code"] if r["code"][:1] != "3" else "", r["code"] or "U", re.sub(r"[^a-z]", "", r["label"].lower())[:8])
+            d[k] = d.get(k, 0) + int(r["amount"])
+        return d
+    for other, fy in (("FY2024_budget", 2023), ("FY2022_budget", 2022)):
+        a, b = load("FY2023_budget", fy), load(other, fy)
+        shared = set(a) & set(b)
+        assert len(shared) > 700 and sum(a[k] != b[k] for k in shared) <= 8, other

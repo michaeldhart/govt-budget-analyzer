@@ -1,0 +1,2 @@
+check,ok,detail
+p51 003: header year 2022 read as 2023 for the document's own budget column,True,duplicate period/measure pair in the header
