@@ -16,12 +16,12 @@ from govbudget.schema import ACCOUNT_MAP_COLUMNS, DEPARTMENT_COLUMNS  # noqa: E4
 
 E = Entity.load("boone_county_il")
 DOCS = ("FY2025_budget", "FY2026_budget", "FY2027_budget_prelim")
-BOOK_DOCS = ("FY2020_budget", "FY2021_budget", "FY2022_budget", "FY2024_budget")  # budget books (extract_budget_book.py), oldest first
+BOOK_DOCS = ("FY2017_budget", "FY2019_budget", "FY2020_budget", "FY2021_budget", "FY2022_budget", "FY2024_budget")  # budget books (extract_budget_book.py), oldest first
 EXTRA_FUND_NAMES = {"047": "Animal Services Bond Fund", "056": "Coroner's Fees Fund", "101": "Grant Fund", "123": "Opioid Grant Fund",
                     "143": "Regional Communication Study Fund", "154": "HAVA Election Grant Fund", "157": "Land/Cash Fees Fund"}
 FUND_COLUMNS = ["fund_code", "name", "type", "numbering", "audit_name", "note"]
 
-TAX = {"property_tax": ["301000", "301100", "301200"], "sales_tax": ["303000", "304000", "305000"], "income_tax": ["306100", "307100"],
+TAX = {"property_tax": ["301000", "301100", "301200", "302000", "313000"], "sales_tax": ["303000", "304000", "305000"], "income_tax": ["306100", "307100"],
        "replacement_tax": ["306200", "307200"],
        "other_tax": ["306000", "306420", "306800", "306950", "307000", "307001", "307420", "307800", "308000"]}
 TAX_BY_OBJECT = {o: c for c, objs in TAX.items() for o in objs}

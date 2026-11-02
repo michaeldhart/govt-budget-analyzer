@@ -23,6 +23,7 @@ OVR = ROOT / "data/boone_county_il/overrides"
 
 YEAR_TOK = re.compile(r"FY\s*'?\s*(\d{2,4})")
 LABEL_TOK = re.compile(r"Percent\s+Change\s*\(\w+\)|Actual\s*-\s*\w+|Actual|Budget|Estimated?|Proposed|Percent|Projected|Request(?:ed)?|Appropriation")
+FALLBACK_LABELS = re.compile(r"(?:^|\s)(?:Actual|Acrual)\s+\S+\s+\S+\s+\S+\s*$")
 FUND_LINE = re.compile(r"^(.*?)\s*\((\d{1,3})\)\s*(?:[–-].*)?$")
 DEPT_LINE = re.compile(r"^(.*?)\s*\((\d{1,3})\)\s*$")
 CODE = re.compile(r"^(\d{3}(?:\.\d{1,3})?)\s+(.*)$")
@@ -48,14 +49,25 @@ def title_of(lines):
         return None
     title = []
     for x in L[1:]:
-        if YEAR_TOK.search(x) or re.search(r"\d,\d{3}", x):
-            break
+        if YEAR_TOK.search(x) or re.search(r"\d,\d{3}", x) or re.search(r"\b(Actual|Acrual|Budget|Estimate\w*)\b|[rJt]['’·]?Y ?'", x):
+            break  # (the last alternative is a garbled 'FY '17' of the FY2019 book)
         title.append(x)
     fund = next((FUND_LINE.match(x) for x in title if FUND_LINE.match(x) and not re.search(r"(?i)revenue|expenditure", x)), None)
     table = " ".join(x for x in title if not (fund and x == fund.string))
-    if not fund and re.match(r"General Fund\b", table):  # FY2020-21 books title the General Fund without its number
-        return "001", "General Fund", re.sub(r"^General Fund\s*", "", table)
+    if not fund and re.search(r"General Fund\b", table):  # FY2017-21 books title the General Fund without its number (sometimes on one line with the book's name)
+        return "001", "General Fund", re.sub(r"^.*?General Fund\s*", "", table)
     return ((fund.group(2).zfill(3) if fund else ""), (fund.group(1) if fund else ""), table)
+
+
+def repair_numbers(line):
+    """The text layer of the FY2017 and FY2019 books splits some figures ('114,9 18' for 114,918): join the two pieces when they complete a thousands group."""
+    def join(m):
+        a, b = m.group(1), m.group(2)
+        return a + b if len(a.split(",")[-1]) + len(b) == 3 else m.group(0)
+    line = re.sub(r"^(\s*\d{3}) \.(\d{3})\b", r"\1.\2", line)  # '329 .002' -> '329.002'
+    line = re.sub(r"\bE\s*911\b", "E911", line)  # 'Reimbursements E 911' must not leak 911 into the amounts
+    line = re.sub(r"(?<![\d,])(\d{1,2}) (\d,\d{3})(?=\s|$)", lambda m: m.group(1) + m.group(2), line)  # '13 1,538' -> '131,538'
+    return re.sub(r"(?<![\d,])(\d{1,3}(?:,\d{3})*,\d{1,2}) (\d{1,2})(?=\s|$)", join, line)
 
 
 def fixfy(line):
@@ -75,7 +87,11 @@ def columns_at(lines, i):
         return None
     labels = LABEL_TOK.findall(re.sub(r"Change\s*\(\w+\)", "", re.sub(r"\s+", " ", lines[j])))
     if len(labels) != len(years):
-        return None
+        # a noisy label row ('E stimate', 'Acnial', '~'): the FY2017 and FY2019 books always print Actual / Budget / Estimate / Budget under four years
+        if len(years) == 4 and not re.search(r"\d,\d{3}", lines[j]):
+            labels = ["Actual", "Budget", "Estimate", "Budget"]
+        else:
+            return None
     return j, [(year4(y), measure_of(lab), lab) for y, lab in zip(years, labels)]
 
 
@@ -97,6 +113,7 @@ def main(doc):
     seq = 0
     acc = {}  # (fund, table) -> accumulators that persist across the pages of a table
     last_cols = {}
+    pending_pages = []
     for pn, page in enumerate(pages, 1):
         raw = page.split("\n")
         h = title_of(raw)
@@ -106,6 +123,7 @@ def main(doc):
         dept, section = "", ""
         st = acc.setdefault((fund, re.sub(r"\s*\(Continued\).*$", "", table)), dict(total={}, sub={}, subsum={}))
         since_total, since_sub, subsum = st["total"], st["sub"], st["subsum"]
+        n_before = len(lines_out)
         cols = last_cols.get(fund) if "continued" in table.lower() else None  # a continuation page repeats no column header
         skip_to = -1
         edges = {}
@@ -119,14 +137,28 @@ def main(doc):
                 edges[nc] = [sorted(x[k] for x in full_edges)[len(full_edges) // 2] for k in range(nc)]
         out_of_scope = re.search(r"(?i)debt service schedule|cash (&|and) investment|bank account|balance sheet|cash flow report|capital improvements detail|salary compensation|accrual basis",
                                  " ".join(page.split()[:30]))
-        if cols is None and not out_of_scope and not any(columns_at(raw, i) for i in range(len(raw))) and len(re.findall(r"\d{1,3}(?:,\d{3})+", page)) >= 8:
-            checks.append((f"p{pn} {fund} {table}: no column header found on a page with figures", False, " ".join(page.split()[:12])))
+        header_pending = cols is None and not out_of_scope and not any(columns_at(raw, i) for i in range(len(raw))) and len(re.findall(r"\d{1,3}(?:,\d{3})+", page)) >= 8
+        if header_pending:
+            pending_pages.append((pn, fund, table, " ".join(page.split()[:12])))
         for li, line in enumerate(raw):
             if li <= skip_to:
                 continue
             c = columns_at(raw, li)
+            fb = FALLBACK_LABELS.search(line) if not c and not YEAR_TOK.search(line) else None
+            if fb and not re.search(r"\d,\d{3}", line):
+                # garbled header block (FY2017 and FY2019 books): Actual / Budget / Estimate / Budget under FY-2, FY-1, FY-1, FY
+                fy0 = int(doc[2:6])
+                cols = [(fy0 - 2, "actual", "Actual"), (fy0 - 1, "budget", "Budget"), (fy0 - 1, "estimate", "Estimate"), (fy0, "budget", "Budget")]
+                last_cols[fund] = cols
+                continue
             if c:
                 skip_to, cols = c[0], c[1]
+                dm0 = re.match(r"\s*(.+?)\s*\((\d{1,3})\)\s{2,}", raw[c[0]])
+                if dm0:  # 'Planning (78)   Acnial  Budget  Estimated  Budget': the department heading shares the label row
+                    dept, section = dm0.group(2).zfill(4), ""
+                if all(m in ("estimate", "projected") for _, m, _ in cols):
+                    cols = None  # a 'Cash Flow' block (Estimated / Projected balances), not budget lines: skipped until the next column header
+                    continue
                 last_cols[fund] = cols
                 pairs = [(y, m) for y, m, _ in cols]
                 if len(pairs) != len(set(pairs)) and cols[-1][1] in ("budget", "proposed") and cols[-1][0] != int(doc[2:6]):
@@ -136,10 +168,17 @@ def main(doc):
                     cols = cols[:-1] + [(int(doc[2:6]), cols[-1][1], cols[-1][2])]
                 continue
             if cols is None:
-                continue
+                if doc in ("FY2017_budget", "FY2019_budget") and CODE.match(re.sub(r"\s+", " ", line.strip())) and len(num_tokens(repair_numbers(line))[1]) == 4:
+                    # the header of this page is unreadable (FICA Retirement Fund page of the FY2019 book): the four-column Actual / Budget / Estimate / Budget layout
+                    fy0 = int(doc[2:6])
+                    cols = [(fy0 - 2, "actual", "Actual"), (fy0 - 1, "budget", "Budget"), (fy0 - 1, "estimate", "Estimate"), (fy0, "budget", "Budget")]
+                    last_cols[fund] = cols
+                    checks.append((f"p{pn} {fund}: column header unreadable, four-column layout assumed", True, "figures tie to the printed total"))
+                else:
+                    continue
             if not line.strip() or re.search(r"(?i)estimated expenditure column|^\s*\d+\s*$", line):
                 continue
-            line = re.sub(r"\s(?:-?\d+(?:\.\d+)?%|n/a|N/A)\s*$", "", line)  # the FY2021 book's 'Percent Change (Budget)' column is dropped
+            line = repair_numbers(re.sub(r"\s(?:-?\d+(?:\.\d+)?%|n/a|N/A)\s*$", "", line))  # the FY2021 book's 'Percent Change (Budget)' column is dropped
             dm = DEPT_LINE.match(re.sub(r"\s+", " ", line.strip()))
             if dm and not re.search(r"\d,\d|\d{3,}", dm.group(1)):
                 dept, section = dm.group(2).zfill(4), ""
@@ -156,10 +195,10 @@ def main(doc):
             if len(vals) > ncol:
                 label = f"{label} {' '.join(str(v) for v, _ in vals[:len(vals) - ncol])}".strip()
                 vals = vals[len(vals) - ncol:]
-            if len(vals) == 1 and ncol > 1 and not re.match(r"(?i)\s*(sub)?total\b", label):
-                continue  # cash flow, fund balance policy and other one-number lines are not budget lines
+            if len(vals) == 1 and ncol > 1 and not CODE.match(label.strip()):
+                continue  # a coded line with one figure (the other columns blank) is placed by position below  # cash flow, fund balance policy and other one-number lines are not budget lines
             if len(vals) != ncol:
-                if 2 <= len(vals) < ncol and edges.get(ncol):
+                if 1 <= len(vals) < ncol and edges.get(ncol):
                     cells, ed = [0] * ncol, edges[ncol]
                     for v, e in vals:
                         cells[min(range(ncol), key=lambda k: abs(ed[k] - e))] = (v, e)
@@ -171,7 +210,10 @@ def main(doc):
             else:
                 flag_short = ""
             amounts = [v for v, _ in vals]
-            m = re.match(r"(?i)\s*(sub)?total\b", label)
+            m = re.match(r"(?i)\s*(?:grand\s+)?(s ?u ?b ?)?t ?o ?t ?a ?l\b", label)  # the FY2017/19 text layer prints 'T otal'
+            if m and re.search(r"(?i)general fund", label):
+                since_total.clear(); since_sub.clear(); subsum.clear()
+                continue  # 'Total General Fund' / 'Grand Total General Fund' add department totals, transfers and summaries: tied in audit_vs_budget.csv instead
             if m:
                 kind = "subtotal" if m.group(1) else "total"
                 sums = since_sub if kind == "subtotal" else since_total
@@ -203,6 +245,10 @@ def main(doc):
                                       period_fy=fy, measure=meas, column_label=collab, amount=amounts[c], flag=flag))
                 since_total[c] = since_total.get(c, 0) + amounts[c]
                 since_sub[c] = since_sub.get(c, 0) + amounts[c]
+    read_pages = {r["pdf_page"] for r in lines_out}
+    for pn_, fund_, table_, words in pending_pages:
+        if pn_ not in read_pages:
+            checks.append((f"p{pn_} {fund_} {table_}: no column header found on a page with figures", False, words))
     allowed = {(o["fund_code"], o["dept_code"], o["label"], o["period_fy"], o["measure"]): int(o["value"]) for o in overrides if o["kind"] == "allow_diff"}
     n_lines = {}
     for r in lines_out:

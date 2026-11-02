@@ -1,0 +1,3 @@
+kind,fund_code,dept_code,label,period_fy,measure,value,reason
+allow_diff,116,,Total,2019,budget,1,"GIS Fund FY2019 budget: the lines add to 132,073 and the printed total is 132,072 (rounding in the county's spreadsheet)"
+allow_diff,145,,Total App. & Exp.,2019,budget,-400,"Rural Transportation Grant Fund FY2019 budget: the printed total is 28,000 (equal to the Appropriations figure in the page's cash flow block) but the lines in the text layer add to 27,600; a 400 line is missing from the text layer"

@@ -1,0 +1,3 @@
+check,ok,detail
+"p69 015: column header unreadable, four-column layout assumed",True,figures tie to the printed total
+p73 019: header year 2018 read as 2019 for the document's own budget column,True,duplicate period/measure pair in the header
