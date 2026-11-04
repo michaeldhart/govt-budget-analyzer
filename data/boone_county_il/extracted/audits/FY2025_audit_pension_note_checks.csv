@@ -1,0 +1,64 @@
+check,ok,detail
+opeb sensitivity: the middle column of both tables = the total OPEB liability,True,"[5436603.0, 5436603.0] vs 5436603.0"
+opeb deferred outflows add to the total,True,2199726.0 vs 2199726.0
+opeb deferred inflows add to the total,True,1514293.0 vs 1514293.0
+imrf_regular: summary net pension liability = schedule,True,-980767.0 vs -980767.0
+imrf_regular changes '(a)             (b)         (a': (a) - (b) = net,True,
+imrf_regular changes 'Interest': (a) - (b) = net,True,
+imrf_regular changes 'Difference between expected an': (a) - (b) = net,True,
+imrf_regular changes 'Changes in assumptions': (a) - (b) = net,True,
+imrf_regular changes 'Employer contributions': (a) - (b) = net,True,
+imrf_regular changes 'Employee contributions': (a) - (b) = net,True,
+imrf_regular changes 'Net investment income': (a) - (b) = net,True,
+imrf_regular changes 'Benefit payments and refunds': (a) - (b) = net,True,
+imrf_regular changes 'Administrative/other (net': (a) - (b) = net,True,
+imrf_regular changes 'transfer) Net changes': (a) - (b) = net,True,
+imrf_regular sensitivity: lower rate gives the larger liability,True,6632823.0 > -980767.0 > -7003426.0
+imrf_regular sensitivity: current rate = net pension liability,True,-980767.0 vs -980767.0
+imrf_regular deferred outflows add to the total,True,
+imrf_regular deferred outflows total = plan summary,True,1902650.0 vs 1902650.0
+imrf_regular deferred inflows add to the total,True,
+imrf_regular deferred inflows total = plan summary,True,112388.0 vs 112388.0
+imrf_regular recognition schedule adds to the total,True,1316283.0 vs 1316283.0
+imrf_regular membership adds to the total,True,590.0 vs 590.0
+imrf_regular target allocation adds to the total,True,100.0 vs 100.0
+slep: summary net pension liability = schedule,True,206719.0 vs 206719.0
+slep changes '(a)             (b)           ': (a) - (b) = net,True,
+slep changes 'Interest': (a) - (b) = net,True,
+slep changes 'Difference between expected an': (a) - (b) = net,True,
+slep changes 'Changes in assumptions': (a) - (b) = net,True,
+slep changes 'Employer contributions': (a) - (b) = net,True,
+slep changes 'Employee contributions': (a) - (b) = net,True,
+slep changes 'Net investment income': (a) - (b) = net,True,
+slep changes 'Benefit payments and refunds': (a) - (b) = net,True,
+slep changes 'Administrative/other': (a) - (b) = net,True,
+slep changes 'Net changes': (a) - (b) = net,True,
+slep sensitivity: lower rate gives the larger liability,True,4531237.0 > 206719.0 > -3311673.0
+slep sensitivity: current rate = net pension liability,True,206719.0 vs 206719.0
+slep deferred outflows add to the total,True,
+slep deferred outflows total = plan summary,True,1733006.0 vs 1733006.0
+slep deferred inflows add to the total,True,
+slep deferred inflows total = plan summary,True,1099447.0 vs 1099447.0
+slep recognition schedule adds to the total,True,235029.0 vs 235029.0
+slep membership adds to the total,True,72.0 vs 72.0
+slep target allocation adds to the total,True,100.0 vs 100.0
+imrf_eco: summary net pension liability = schedule,True,1247169.0 vs 1247169.0
+imrf_eco changes '(a)                 (b)       ': (a) - (b) = net,True,
+imrf_eco changes 'Interest': (a) - (b) = net,True,
+imrf_eco changes 'Difference between expected an': (a) - (b) = net,True,
+imrf_eco changes 'Changes in assumptions': (a) - (b) = net,True,
+imrf_eco changes 'Employer contributions': (a) - (b) = net,True,
+imrf_eco changes 'Employee contributions': (a) - (b) = net,True,
+imrf_eco changes 'Net investment income': (a) - (b) = net,True,
+imrf_eco changes 'Benefit payments and refunds': (a) - (b) = net,True,
+imrf_eco changes 'Administrative': (a) - (b) = net,True,
+imrf_eco changes 'Net changes': (a) - (b) = net,True,
+imrf_eco sensitivity: lower rate gives the larger liability,True,1622970.0 > 1247169.0 > 919039.0
+imrf_eco sensitivity: current rate = net pension liability,True,1247169.0 vs 1247169.0
+imrf_eco deferred outflows add to the total,True,
+imrf_eco deferred outflows total = plan summary,True,310373.0 vs 310373.0
+imrf_eco deferred inflows add to the total,True,
+imrf_eco deferred inflows total = plan summary,True,0.0 vs 0.0
+imrf_eco recognition schedule adds to the total,True,211083.0 vs 211083.0
+imrf_eco membership adds to the total,True,9.0 vs 9.0
+imrf_eco target allocation adds to the total,True,100.0 vs 100.0

@@ -1,0 +1,207 @@
+doc_id,pdf_page,plan_id,section,line_item,column,value,value_text,unit
+FY2024_audit,61,imrf_regular,membership,"At December 31, 2023 (most recent available), IMRF membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,189.0,,count
+FY2024_audit,61,imrf_regular,membership,Inactive employees entitled to but not yet receiving benefits,members,194.0,,count
+FY2024_audit,61,imrf_regular,membership,Active employees,members,182.0,,count
+FY2024_audit,61,imrf_regular,membership,TOTAL,members,565.0,,count
+FY2024_audit,62,imrf_regular,contributions,member contribution rate,rate,4.5,,percent
+FY2024_audit,62,imrf_regular,contributions,employer contribution rate,rate,4.43,,percent
+FY2024_audit,62,imrf_regular,assumptions,Actuarial valuation date,assumption,,"December 31, 2023",text
+FY2024_audit,62,imrf_regular,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2024_audit,62,imrf_regular,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2024_audit,62,imrf_regular,assumptions,Salary increases,assumption,,2.85% to 13.75%,text
+FY2024_audit,62,imrf_regular,assumptions,Interest rate,assumption,7.25,7.25%,percent
+FY2024_audit,62,imrf_regular,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2024_audit,62,imrf_regular,assumptions,Asset valuation method,assumption,,Fair value,text
+FY2024_audit,63,imrf_regular,npl_changes,(a)              (b)            (a) - (b) Total             Plan           Net Pension Pension         Fiduciary          Liability Liability      Net Position         (Asset) BALANCES AT Changes for the period Service cost,total_pension_liability,975789.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,(a)              (b)            (a) - (b) Total             Plan           Net Pension Pension         Fiduciary          Liability Liability      Net Position         (Asset) BALANCES AT Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,(a)              (b)            (a) - (b) Total             Plan           Net Pension Pension         Fiduciary          Liability Liability      Net Position         (Asset) BALANCES AT Changes for the period Service cost,net_pension_liability,975789.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Interest,total_pension_liability,4127834.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Interest,net_pension_liability,4127834.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Difference between expected and actual experience,total_pension_liability,-280292.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Difference between expected and actual experience,net_pension_liability,-280292.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Changes in assumptions,total_pension_liability,37129.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Changes in assumptions,net_pension_liability,37129.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employer contributions,fiduciary_net_position,538655.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employer contributions,net_pension_liability,-538655.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employee contributions,fiduciary_net_position,485014.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Employee contributions,net_pension_liability,-485014.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net investment income,fiduciary_net_position,6084211.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net investment income,net_pension_liability,-6084211.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Benefit payments and refunds,total_pension_liability,-2668997.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Benefit payments and refunds,fiduciary_net_position,-2668997.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Administrative/other (net transfer),fiduciary_net_position,1382288.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Administrative/other (net transfer),net_pension_liability,-1382288.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net changes,total_pension_liability,2191463.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net changes,fiduciary_net_position,5821171.0,,usd
+FY2024_audit,63,imrf_regular,npl_changes,Net changes,net_pension_liability,-3629708.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Difference between expected and actual experience,deferred_outflows,208085.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Difference between expected and actual experience,deferred_inflows,196340.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Changes in assumption,deferred_outflows,26008.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Changes in assumption,deferred_inflows,0.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,3060046.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,0.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Contributions made after measurement date,deferred_outflows,452947.0,,usd
+FY2024_audit,64,imrf_regular,deferred,Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2024_audit,64,imrf_regular,deferred,TOTAL,deferred_outflows,3747086.0,,usd
+FY2024_audit,64,imrf_regular,deferred,TOTAL,deferred_inflows,196340.0,,usd
+FY2024_audit,64,imrf_regular,deferred,recognition 2025,net_amount,458719.0,,usd
+FY2024_audit,64,imrf_regular,deferred,recognition 2026,net_amount,970648.0,,usd
+FY2024_audit,64,imrf_regular,deferred,recognition 2027,net_amount,2087402.0,,usd
+FY2024_audit,64,imrf_regular,deferred,recognition 2028,net_amount,-418970.0,,usd
+FY2024_audit,64,imrf_regular,deferred,recognition total,net_amount,3097799.0,,usd
+FY2024_audit,65,imrf_regular,sensitivity,Net pension liability (asset),rate_6.25,6471657.0,,usd
+FY2024_audit,65,imrf_regular,sensitivity,Net pension liability (asset),rate_7.25,-1004543.0,,usd
+FY2024_audit,65,imrf_regular,sensitivity,Net pension liability (asset),rate_8.25,-6900554.0,,usd
+FY2024_audit,65,imrf_eco,membership,"At December 31, 2023 (most recent available), IMRF-ECO membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,9.0,,count
+FY2024_audit,65,imrf_eco,membership,Inactive employees entitled to but not yet receiving benefits,members,0.0,,count
+FY2024_audit,65,imrf_eco,membership,Active employees,members,0.0,,count
+FY2024_audit,65,imrf_eco,membership,TOTAL,members,9.0,,count
+FY2024_audit,66,imrf_eco,contributions,member contribution rate,rate,7.5,,percent
+FY2024_audit,66,imrf_eco,contributions,employer contributions for the fiscal year,amount,103769.0,,usd
+FY2024_audit,67,imrf_eco,assumptions,Actuarial valuation date,assumption,,"December 31, 2023",text
+FY2024_audit,67,imrf_eco,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2024_audit,67,imrf_eco,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2024_audit,67,imrf_eco,assumptions,Salary increases,assumption,,2.85% to 13.75%,text
+FY2024_audit,67,imrf_eco,assumptions,Interest rate,assumption,7.25,7.25%,percent
+FY2024_audit,67,imrf_eco,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2024_audit,67,imrf_eco,assumptions,Asset valuation method,assumption,,Fair value,text
+FY2024_audit,68,imrf_eco,npl_changes,(a)                  (b)             (a) - (b) Total                 Plan               Net Pension             Fiduciary           Pension Liability          Net Position         Liability BALANCES AT Changes for the period Service cost,total_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,(a)                  (b)             (a) - (b) Total                 Plan               Net Pension             Fiduciary           Pension Liability          Net Position         Liability BALANCES AT Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,(a)                  (b)             (a) - (b) Total                 Plan               Net Pension             Fiduciary           Pension Liability          Net Position         Liability BALANCES AT Changes for the period Service cost,net_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Interest,total_pension_liability,346585.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Interest,net_pension_liability,346585.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Difference between expected and actual experience,total_pension_liability,107572.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Difference between expected and actual experience,net_pension_liability,107572.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Changes in assumptions,total_pension_liability,-10488.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Changes in assumptions,net_pension_liability,-10488.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employer contributions,fiduciary_net_position,73885.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employer contributions,net_pension_liability,-73885.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employee contributions,fiduciary_net_position,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Employee contributions,net_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net investment income,fiduciary_net_position,429323.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net investment income,net_pension_liability,-429323.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Benefit payments and refunds,total_pension_liability,-508203.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Benefit payments and refunds,fiduciary_net_position,-508203.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Administrative/other (net transfer),fiduciary_net_position,160510.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Administrative/other (net transfer),net_pension_liability,-160510.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net changes,total_pension_liability,-64534.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net changes,fiduciary_net_position,155515.0,,usd
+FY2024_audit,68,imrf_eco,npl_changes,Net changes,net_pension_liability,-220049.0,,usd
+FY2024_audit,69,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,233593.0,,usd
+FY2024_audit,69,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,0.0,,usd
+FY2024_audit,69,imrf_eco,deferred,Contributions made after measurement date,deferred_outflows,97612.0,,usd
+FY2024_audit,69,imrf_eco,deferred,Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2024_audit,69,imrf_eco,deferred,TOTAL,deferred_outflows,331205.0,,usd
+FY2024_audit,69,imrf_eco,deferred,TOTAL,deferred_inflows,0.0,,usd
+FY2024_audit,69,imrf_eco,deferred,recognition 2025,net_amount,16384.0,,usd
+FY2024_audit,69,imrf_eco,deferred,recognition 2026,net_amount,77531.0,,usd
+FY2024_audit,69,imrf_eco,deferred,recognition 2027,net_amount,175378.0,,usd
+FY2024_audit,69,imrf_eco,deferred,recognition 2028,net_amount,-35700.0,,usd
+FY2024_audit,69,imrf_eco,deferred,recognition total,net_amount,233593.0,,usd
+FY2024_audit,70,imrf_eco,sensitivity,Net pension liability,rate_6.25,1607715.0,,usd
+FY2024_audit,70,imrf_eco,sensitivity,Net pension liability,rate_7.25,1217893.0,,usd
+FY2024_audit,70,imrf_eco,sensitivity,Net pension liability,rate_8.25,878372.0,,usd
+FY2024_audit,70,slep,membership,"At December 31, 2023 (most recent available), SLEP membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,27.0,,count
+FY2024_audit,70,slep,membership,Inactive employees entitled to but not yet receiving benefits,members,8.0,,count
+FY2024_audit,70,slep,membership,Active employees,members,37.0,,count
+FY2024_audit,70,slep,membership,TOTAL,members,72.0,,count
+FY2024_audit,71,slep,contributions,member contribution rate,rate,7.5,,percent
+FY2024_audit,71,slep,contributions,employer contribution rate,rate,12.01,,percent
+FY2024_audit,71,slep,assumptions,Actuarial valuation date,assumption,,"December 31, 2023",text
+FY2024_audit,71,slep,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2024_audit,71,slep,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2024_audit,71,slep,assumptions,Salary increases,assumption,,2.85% to 13.75%,text
+FY2024_audit,71,slep,assumptions,Interest rate,assumption,7.25,7.25%,percent
+FY2024_audit,71,slep,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2024_audit,71,slep,assumptions,Asset valuation method,assumption,,Fair value,text
+FY2024_audit,73,slep,npl_changes,(a)               (b)         (a) - (b) Total              Plan           Net Pension          Fiduciary       Pension Liability       Net Position     Liability BALANCES AT Changes for the period Service cost,total_pension_liability,507414.0,,usd
+FY2024_audit,73,slep,npl_changes,(a)               (b)         (a) - (b) Total              Plan           Net Pension          Fiduciary       Pension Liability       Net Position     Liability BALANCES AT Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2024_audit,73,slep,npl_changes,(a)               (b)         (a) - (b) Total              Plan           Net Pension          Fiduciary       Pension Liability       Net Position     Liability BALANCES AT Changes for the period Service cost,net_pension_liability,507414.0,,usd
+FY2024_audit,73,slep,npl_changes,Interest,total_pension_liability,1992743.0,,usd
+FY2024_audit,73,slep,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Interest,net_pension_liability,1992743.0,,usd
+FY2024_audit,73,slep,npl_changes,Difference between expected and actual experience,total_pension_liability,818294.0,,usd
+FY2024_audit,73,slep,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Difference between expected and actual experience,net_pension_liability,818294.0,,usd
+FY2024_audit,73,slep,npl_changes,Changes in assumptions,total_pension_liability,-56070.0,,usd
+FY2024_audit,73,slep,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Changes in assumptions,net_pension_liability,-56070.0,,usd
+FY2024_audit,73,slep,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Employer contributions,fiduciary_net_position,405014.0,,usd
+FY2024_audit,73,slep,npl_changes,Employer contributions,net_pension_liability,-405014.0,,usd
+FY2024_audit,73,slep,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Employee contributions,fiduciary_net_position,237366.0,,usd
+FY2024_audit,73,slep,npl_changes,Employee contributions,net_pension_liability,-237366.0,,usd
+FY2024_audit,73,slep,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Net investment income,fiduciary_net_position,2752524.0,,usd
+FY2024_audit,73,slep,npl_changes,Net investment income,net_pension_liability,-2752524.0,,usd
+FY2024_audit,73,slep,npl_changes,Benefit payments and refunds,total_pension_liability,-1047236.0,,usd
+FY2024_audit,73,slep,npl_changes,Benefit payments and refunds,fiduciary_net_position,-1047236.0,,usd
+FY2024_audit,73,slep,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2024_audit,73,slep,npl_changes,Administrative/other (net transfer),fiduciary_net_position,756768.0,,usd
+FY2024_audit,73,slep,npl_changes,Administrative/other (net transfer),net_pension_liability,-756768.0,,usd
+FY2024_audit,73,slep,npl_changes,Net changes,total_pension_liability,2215145.0,,usd
+FY2024_audit,73,slep,npl_changes,Net changes,fiduciary_net_position,3104436.0,,usd
+FY2024_audit,73,slep,npl_changes,Net changes,net_pension_liability,-889291.0,,usd
+FY2024_audit,74,slep,deferred,Difference between expected and actual experience,deferred_outflows,816938.0,,usd
+FY2024_audit,74,slep,deferred,Difference between expected and actual experience,deferred_inflows,475537.0,,usd
+FY2024_audit,74,slep,deferred,Changes in assumption,deferred_outflows,51315.0,,usd
+FY2024_audit,74,slep,deferred,Changes in assumption,deferred_inflows,103902.0,,usd
+FY2024_audit,74,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,1595292.0,,usd
+FY2024_audit,74,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,0.0,,usd
+FY2024_audit,74,slep,deferred,Contributions made after measurement date,deferred_outflows,356202.0,,usd
+FY2024_audit,74,slep,deferred,Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2024_audit,74,slep,deferred,TOTAL,deferred_outflows,2819747.0,,usd
+FY2024_audit,74,slep,deferred,TOTAL,deferred_inflows,579439.0,,usd
+FY2024_audit,74,slep,deferred,recognition 2025,net_amount,248722.0,,usd
+FY2024_audit,74,slep,deferred,recognition 2026,net_amount,569972.0,,usd
+FY2024_audit,74,slep,deferred,recognition 2027,net_amount,1102487.0,,usd
+FY2024_audit,74,slep,deferred,recognition 2028,net_amount,-37075.0,,usd
+FY2024_audit,74,slep,deferred,recognition total,net_amount,1884106.0,,usd
+FY2024_audit,75,slep,sensitivity,Net pension liability (asset),rate_6.25,5830564.0,,usd
+FY2024_audit,75,slep,sensitivity,Net pension liability (asset),rate_7.25,1519690.0,,usd
+FY2024_audit,75,slep,sensitivity,Net pension liability (asset),rate_8.25,-1975820.0,,usd
+FY2024_audit,76,opeb,membership,"At November 30, 2023 (most recent information available), membership consisted of: Inactive employees currently receiving benefits",members,22.0,,count
+FY2024_audit,76,opeb,membership,Active employees,members,219.0,,count
+FY2024_audit,76,opeb,membership,TOTAL,members,241.0,,count
+FY2024_audit,76,opeb,membership,Participating employers,members,1.0,,count
+FY2024_audit,76,opeb,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2024_audit,76,opeb,assumptions,Inflation,assumption,2.5,2.50%,percent
+FY2024_audit,76,opeb,assumptions,Discount rate,assumption,4.06,4.06%,percent
+FY2024_audit,76,opeb,assumptions,Healthcare cost trend rates,assumption,,3.37% Initial,text
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_3.06,4336659.0,,usd
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_4.06,3950422.0,,usd
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_5.06,3602860.0,,usd
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_3.06,3507854.0,,usd
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_4.06,3950422.0,,usd
+FY2024_audit,78,opeb,sensitivity,Total OPEB liability,rate_5.06,4469763.0,,usd
+FY2024_audit,78,opeb,deferred,expense recognized,amount,199310.0,,usd
+FY2024_audit,78,opeb,deferred,Differences between expected and actual experience,deferred_outflows,105358.0,,usd
+FY2024_audit,78,opeb,deferred,Differences between expected and actual experience,deferred_inflows,534058.0,,usd
+FY2024_audit,78,opeb,deferred,Changes in assumptions,deferred_outflows,722825.0,,usd
+FY2024_audit,78,opeb,deferred,Changes in assumptions,deferred_inflows,799066.0,,usd
+FY2024_audit,78,opeb,deferred,TOTAL,deferred_outflows,828183.0,,usd
+FY2024_audit,78,opeb,deferred,TOTAL,deferred_inflows,1333124.0,,usd
+FY2024_audit,79,opeb,deferred,recognition 2025,net_amount,-126815.0,,usd
+FY2024_audit,79,opeb,deferred,recognition 2026,net_amount,-126815.0,,usd
+FY2024_audit,79,opeb,deferred,recognition 2027,net_amount,-126013.0,,usd
+FY2024_audit,79,opeb,deferred,recognition 2028,net_amount,-108652.0,,usd
+FY2024_audit,79,opeb,deferred,recognition 2029,net_amount,-33933.0,,usd
+FY2024_audit,79,opeb,deferred,recognition total,net_amount,-504941.0,,usd

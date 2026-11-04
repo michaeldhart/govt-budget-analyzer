@@ -31,7 +31,7 @@ sys.path.insert(0, HERE)
 from govbudget import Entity  # noqa: E402
 from govbudget.entity import read_csv, write_csv  # noqa: E402
 from govbudget.schema import (ACCOUNT_COLUMNS, CONTROL_TOTAL_COLUMNS, CORRECTION_COLUMNS, DEBT_PENSION_TABLES, DOCUMENT_COLUMNS, FACT_COLUMNS,  # noqa: E402
-                              FUND_STATEMENT_COLUMNS, OPTIONAL_TABLES)
+                              FUND_STATEMENT_COLUMNS, OPTIONAL_TABLES, TAX_DEBT_TABLES)
 from build_audit_fund_names import norm  # noqa: E402
 from build_account_map import BOOK_DOCS, book_key, book_obj  # noqa: E402
 
@@ -274,6 +274,19 @@ def pension_part(docs):
     return roll, summ, opeb
 
 
+def pension_note_part(docs):
+    """imrf_note.csv (shared TAX_DEBT_TABLES layout): the narrative pension and OPEB notes of the FY2024 and FY2025 audits, section = 'plan|section'."""
+    out = []
+    for d in docs:
+        path = E.data_path("extracted", "audits", f"{d['doc_id']}_pension_note.csv")
+        if not os.path.exists(path):
+            continue
+        for r in csv.DictReader(open(path)):
+            out.append(dict(entity_id=E.id, doc_id=d["doc_id"], period_fy=int(d["fiscal_year"]), section=f"{r['plan_id']}|{r['section']}", line_item=r["line_item"], column=r["column"],
+                            value=r["value"], value_text=r["value_text"], unit=r["unit"], pdf_page=r["pdf_page"], flag="", exception_ids=""))
+    return out
+
+
 def accounts_table(facts):
     amap = E.account_map()
     years = {}
@@ -313,6 +326,7 @@ def main():
     write_csv(E.data_path("debt_balances.csv"), DEBT_PENSION_TABLES["debt_balances"], bal)
     write_csv(E.data_path("debt_service_schedule.csv"), DEBT_PENSION_TABLES["debt_service_schedule"], sched)
     write_csv(E.data_path("property_tax_levies.csv"), OPTIONAL_TABLES["property_tax_levies"], tax)
+    write_csv(E.data_path("imrf_note.csv"), TAX_DEBT_TABLES["imrf_note"], pension_note_part(sorted((d for d in docs if d["doc_type"] == "audit"), key=lambda d: int(d["fiscal_year"]))))
     roll, summ, opeb = pension_part(sorted((d for d in docs if d["doc_type"] == "audit"), key=lambda d: int(d["fiscal_year"])))
     write_csv(E.data_path("pension_rollforward.csv"), DEBT_PENSION_TABLES["pension_rollforward"], roll)
     write_csv(E.data_path("pension_summary.csv"), DEBT_PENSION_TABLES["pension_summary"], summ)

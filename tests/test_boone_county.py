@@ -308,3 +308,17 @@ def test_general_fund_revenue_by_source():
     from govbudget import Entity
     from govbudget.validate import validate_config
     assert validate_config(Entity.load("boone_county_il")) == []
+
+
+def test_pension_notes_tie_to_the_schedules():
+    for fy in (2024, 2025):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_pension_note_checks.csv", newline="")))
+        assert len(checks) > 45 and all(c["ok"] == "True" for c in checks), fy
+    rows = list(csv.DictReader(open(DATA / "imrf_note.csv", newline="")))
+    get = lambda doc, sec, item, col: [r for r in rows if r["doc_id"] == doc and r["section"] == sec and item.lower() in r["line_item"].lower() and r["column"] == col]  # noqa: E731
+    npl = get("FY2025_audit", "imrf_regular|summary", "net pension liability", "value")[0]
+    assert float(npl["value"]) == -980767  # a net pension asset, equal to the schedule's December 31, 2024 figure
+    sens = {r["column"]: float(r["value"]) for r in rows if r["doc_id"] == "FY2025_audit" and r["section"] == "imrf_regular|sensitivity"}
+    assert sens == {"rate_6.25": 6632823.0, "rate_7.25": -980767.0, "rate_8.25": -7003426.0}
+    assert float(get("FY2025_audit", "imrf_regular|contributions", "employer contribution rate", "rate")[0]["value"]) == 4.24
+    assert float(get("FY2025_audit", "opeb|assumptions", "discount rate", "assumption")[0]["value"]) == 4.4
