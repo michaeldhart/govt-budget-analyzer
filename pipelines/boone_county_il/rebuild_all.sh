@@ -23,3 +23,4 @@ python3 pipelines/boone_county_il/build_account_map.py --write
 python3 pipelines/boone_county_il/build_audit_fund_names.py
 python3 pipelines/boone_county_il/build_facts.py
 python3 pipelines/boone_county_il/build_audit_budget_compare.py
+python3 pipelines/boone_county_il/build_reference.py

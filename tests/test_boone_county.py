@@ -282,3 +282,15 @@ def test_combining_statements_of_the_nonmajor_funds():
     beg25 = {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == "FY2025_audit" and r["statement"] == "combining_changes_in_fund_balance" and r["line_id"] == "fund_balance_beginning"}
     common = set(end24) & set(beg25)
     assert len(common) == 61 and all(end24[f] == beg25[f] for f in common)  # 60 funds and the Total column
+
+
+def test_reference_series():
+    rows = {int(r["fiscal_year"]): r for r in csv.DictReader(open(DATA / "reference_by_fy.csv", newline=""))}
+    assert sorted(rows) == list(range(2012, 2028))
+    assert rows[2025]["cpi_factor"] == "1.0" and rows[2025]["cpi_base_fy"] == "2025" and rows[2025]["cpi_flag"] == "missing_month:2025-10"
+    assert rows[2025]["population"] == "53568" and rows[2012]["population"] == "53735" and rows[2026]["population_flag"] == "carried_forward"
+    # the assessed valuation of tax year N-1 is the one the FY2025 budget quotes for taxes paid FY2025
+    assert rows[2025]["eav_city"] == "1547516447" and rows[2025]["eav_levy_year"] == "2024"
+    assert rows[2026]["eav_flag"] == "EX-reference-eav-estimate" and rows[2026]["eav_city"] == "1722225472"
+    assert all(rows[y]["eav_city"] for y in range(2012, 2027))
+    assert float(rows[2012]["cpi_factor"]) > float(rows[2020]["cpi_factor"]) > 1.0
