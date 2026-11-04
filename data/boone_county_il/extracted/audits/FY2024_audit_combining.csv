@@ -1,5 +1,5 @@
 doc_id,pdf_page,statement,fund,row_seq,label,amount
-FY2024_audit,112,combining_balance_sheet,County Highway,1,ASSETS Cash and investments,2574617
+FY2024_audit,112,combining_balance_sheet,County Highway,1,Cash and investments,2574617
 FY2024_audit,112,combining_balance_sheet,County Highway,2,Receivables Property taxes,900000
 FY2024_audit,112,combining_balance_sheet,County Highway,3,Accounts,0
 FY2024_audit,112,combining_balance_sheet,County Highway,4,Intergovernmental,0
@@ -27,7 +27,7 @@ FY2024_audit,112,combining_balance_sheet,County Highway,25,Assigned Capital purp
 FY2024_audit,112,combining_balance_sheet,County Highway,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,County Highway,27,Total fund balances (deficit),2566267
 FY2024_audit,112,combining_balance_sheet,County Highway,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",3474617
-FY2024_audit,112,combining_balance_sheet,County Bridge,1,ASSETS Cash and investments,4034007
+FY2024_audit,112,combining_balance_sheet,County Bridge,1,Cash and investments,4034007
 FY2024_audit,112,combining_balance_sheet,County Bridge,2,Receivables Property taxes,325000
 FY2024_audit,112,combining_balance_sheet,County Bridge,3,Accounts,328328
 FY2024_audit,112,combining_balance_sheet,County Bridge,4,Intergovernmental,0
@@ -55,7 +55,7 @@ FY2024_audit,112,combining_balance_sheet,County Bridge,25,Assigned Capital purpo
 FY2024_audit,112,combining_balance_sheet,County Bridge,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,County Bridge,27,Total fund balances (deficit),4362276
 FY2024_audit,112,combining_balance_sheet,County Bridge,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",4687335
-FY2024_audit,112,combining_balance_sheet,Highway Matching,1,ASSETS Cash and investments,2645331
+FY2024_audit,112,combining_balance_sheet,Highway Matching,1,Cash and investments,2645331
 FY2024_audit,112,combining_balance_sheet,Highway Matching,2,Receivables Property taxes,125000
 FY2024_audit,112,combining_balance_sheet,Highway Matching,3,Accounts,0
 FY2024_audit,112,combining_balance_sheet,Highway Matching,4,Intergovernmental,0
@@ -83,7 +83,7 @@ FY2024_audit,112,combining_balance_sheet,Highway Matching,25,Assigned Capital pu
 FY2024_audit,112,combining_balance_sheet,Highway Matching,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,Highway Matching,27,Total fund balances (deficit),2645331
 FY2024_audit,112,combining_balance_sheet,Highway Matching,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",2770331
-FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,1,ASSETS Cash and investments,4934306
+FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,1,Cash and investments,4934306
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,2,Receivables Property taxes,0
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,3,Accounts,0
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,4,Intergovernmental,122874
@@ -111,7 +111,7 @@ FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,25,Assigned Capit
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,27,Total fund balances (deficit),5036118
 FY2024_audit,112,combining_balance_sheet,County Motor Fuel Tax,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",5057180
-FY2024_audit,112,combining_balance_sheet,Animal Services,1,ASSETS Cash and investments,11428
+FY2024_audit,112,combining_balance_sheet,Animal Services,1,Cash and investments,11428
 FY2024_audit,112,combining_balance_sheet,Animal Services,2,Receivables Property taxes,0
 FY2024_audit,112,combining_balance_sheet,Animal Services,3,Accounts,15122
 FY2024_audit,112,combining_balance_sheet,Animal Services,4,Intergovernmental,0
@@ -139,7 +139,7 @@ FY2024_audit,112,combining_balance_sheet,Animal Services,25,Assigned Capital pur
 FY2024_audit,112,combining_balance_sheet,Animal Services,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,Animal Services,27,Total fund balances (deficit),18029
 FY2024_audit,112,combining_balance_sheet,Animal Services,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",26550
-FY2024_audit,112,combining_balance_sheet,Health Department,1,ASSETS Cash and investments,1257136
+FY2024_audit,112,combining_balance_sheet,Health Department,1,Cash and investments,1257136
 FY2024_audit,112,combining_balance_sheet,Health Department,2,Receivables Property taxes,316360
 FY2024_audit,112,combining_balance_sheet,Health Department,3,Accounts,248659
 FY2024_audit,112,combining_balance_sheet,Health Department,4,Intergovernmental,279935
@@ -167,7 +167,7 @@ FY2024_audit,112,combining_balance_sheet,Health Department,25,Assigned Capital p
 FY2024_audit,112,combining_balance_sheet,Health Department,26,Unassigned (deficit),0
 FY2024_audit,112,combining_balance_sheet,Health Department,27,Total fund balances (deficit),1225399
 FY2024_audit,112,combining_balance_sheet,Health Department,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",2137883
-FY2024_audit,113,combining_balance_sheet,FICA,1,ASSETS Cash and investments,256527
+FY2024_audit,113,combining_balance_sheet,FICA,1,Cash and investments,256527
 FY2024_audit,113,combining_balance_sheet,FICA,2,Receivables Property taxes,960000
 FY2024_audit,113,combining_balance_sheet,FICA,3,Accounts,23012
 FY2024_audit,113,combining_balance_sheet,FICA,4,Intergovernmental,0
@@ -195,7 +195,7 @@ FY2024_audit,113,combining_balance_sheet,FICA,25,Assigned Capital purposes,0
 FY2024_audit,113,combining_balance_sheet,FICA,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,FICA,27,Total fund balances (deficit),179763
 FY2024_audit,113,combining_balance_sheet,FICA,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1239539
-FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,1,ASSETS Cash and investments,614229
+FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,1,Cash and investments,614229
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,2,Receivables Property taxes,930000
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,4,Intergovernmental,0
@@ -223,7 +223,7 @@ FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,25,Assigned Capital pu
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,27,Total fund balances (deficit),355899
 FY2024_audit,113,combining_balance_sheet,IMRF/ Retirement,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1544229
-FY2024_audit,113,combining_balance_sheet,Tort Immunity,1,ASSETS Cash and investments,0
+FY2024_audit,113,combining_balance_sheet,Tort Immunity,1,Cash and investments,0
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,2,Receivables Property taxes,1480000
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,4,Intergovernmental,0
@@ -251,7 +251,7 @@ FY2024_audit,113,combining_balance_sheet,Tort Immunity,25,Assigned Capital purpo
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,26,Unassigned (deficit),-81868
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,27,Total fund balances (deficit),-81868
 FY2024_audit,113,combining_balance_sheet,Tort Immunity,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1480000
-FY2024_audit,113,combining_balance_sheet,Court Security,1,ASSETS Cash and investments,156248
+FY2024_audit,113,combining_balance_sheet,Court Security,1,Cash and investments,156248
 FY2024_audit,113,combining_balance_sheet,Court Security,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Court Security,3,Accounts,7957
 FY2024_audit,113,combining_balance_sheet,Court Security,4,Intergovernmental,0
@@ -279,7 +279,7 @@ FY2024_audit,113,combining_balance_sheet,Court Security,25,Assigned Capital purp
 FY2024_audit,113,combining_balance_sheet,Court Security,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,Court Security,27,Total fund balances (deficit),163869
 FY2024_audit,113,combining_balance_sheet,Court Security,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",164205
-FY2024_audit,113,combining_balance_sheet,Law Library,1,ASSETS Cash and investments,0
+FY2024_audit,113,combining_balance_sheet,Law Library,1,Cash and investments,0
 FY2024_audit,113,combining_balance_sheet,Law Library,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Law Library,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Law Library,4,Intergovernmental,0
@@ -307,7 +307,7 @@ FY2024_audit,113,combining_balance_sheet,Law Library,25,Assigned Capital purpose
 FY2024_audit,113,combining_balance_sheet,Law Library,26,Unassigned (deficit),-43550
 FY2024_audit,113,combining_balance_sheet,Law Library,27,Total fund balances (deficit),-43550
 FY2024_audit,113,combining_balance_sheet,Law Library,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",0
-FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,1,ASSETS Cash and investments,45543
+FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,1,Cash and investments,45543
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,4,Intergovernmental,0
@@ -335,7 +335,7 @@ FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,25,Assigned Capit
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,27,Total fund balances (deficit),45543
 FY2024_audit,113,combining_balance_sheet,Foreclosure Mediation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",45543
-FY2024_audit,113,combining_balance_sheet,Landfill Closure,1,ASSETS Cash and investments,113949
+FY2024_audit,113,combining_balance_sheet,Landfill Closure,1,Cash and investments,113949
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,4,Intergovernmental,0
@@ -363,7 +363,7 @@ FY2024_audit,113,combining_balance_sheet,Landfill Closure,25,Assigned Capital pu
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,27,Total fund balances (deficit),113949
 FY2024_audit,113,combining_balance_sheet,Landfill Closure,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",113949
-FY2024_audit,113,combining_balance_sheet,Specialty Courts,1,ASSETS Cash and investments,7563
+FY2024_audit,113,combining_balance_sheet,Specialty Courts,1,Cash and investments,7563
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,4,Intergovernmental,0
@@ -391,7 +391,7 @@ FY2024_audit,113,combining_balance_sheet,Specialty Courts,25,Assigned Capital pu
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,27,Total fund balances (deficit),7563
 FY2024_audit,113,combining_balance_sheet,Specialty Courts,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",7563
-FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,1,ASSETS Cash and investments,34479
+FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,1,Cash and investments,34479
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,4,Intergovernmental,0
@@ -419,7 +419,7 @@ FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,25,Assigned Capital 
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,26,Unassigned (deficit),0
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,27,Total fund balances (deficit),34479
 FY2024_audit,113,combining_balance_sheet,Auxiliary Deputies,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",34479
-FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,1,ASSETS Cash and investments,0
+FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,1,Cash and investments,0
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,2,Receivables Property taxes,0
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,3,Accounts,0
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,4,Intergovernmental,0
@@ -447,7 +447,7 @@ FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,25,Assign
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,26,Unassigned (deficit),-4275
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,27,Total fund balances (deficit),-4275
 FY2024_audit,113,combining_balance_sheet,Sheriff's Vehicle Replacement,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",0
-FY2024_audit,114,combining_balance_sheet,Probation Services,1,ASSETS Cash and investments,660496
+FY2024_audit,114,combining_balance_sheet,Probation Services,1,Cash and investments,660496
 FY2024_audit,114,combining_balance_sheet,Probation Services,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,Probation Services,3,Accounts,0
 FY2024_audit,114,combining_balance_sheet,Probation Services,4,Intergovernmental,0
@@ -475,7 +475,7 @@ FY2024_audit,114,combining_balance_sheet,Probation Services,25,Assigned Capital 
 FY2024_audit,114,combining_balance_sheet,Probation Services,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,Probation Services,27,Total fund balances (deficit),660496
 FY2024_audit,114,combining_balance_sheet,Probation Services,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",660496
-FY2024_audit,114,combining_balance_sheet,Document Storage,1,ASSETS Cash and investments,419218
+FY2024_audit,114,combining_balance_sheet,Document Storage,1,Cash and investments,419218
 FY2024_audit,114,combining_balance_sheet,Document Storage,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,Document Storage,3,Accounts,8996
 FY2024_audit,114,combining_balance_sheet,Document Storage,4,Intergovernmental,0
@@ -503,7 +503,7 @@ FY2024_audit,114,combining_balance_sheet,Document Storage,25,Assigned Capital pu
 FY2024_audit,114,combining_balance_sheet,Document Storage,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,Document Storage,27,Total fund balances (deficit),428214
 FY2024_audit,114,combining_balance_sheet,Document Storage,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",428214
-FY2024_audit,114,combining_balance_sheet,Court Automation,1,ASSETS Cash and investments,322150
+FY2024_audit,114,combining_balance_sheet,Court Automation,1,Cash and investments,322150
 FY2024_audit,114,combining_balance_sheet,Court Automation,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,Court Automation,3,Accounts,9073
 FY2024_audit,114,combining_balance_sheet,Court Automation,4,Intergovernmental,0
@@ -531,7 +531,7 @@ FY2024_audit,114,combining_balance_sheet,Court Automation,25,Assigned Capital pu
 FY2024_audit,114,combining_balance_sheet,Court Automation,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,Court Automation,27,Total fund balances (deficit),331223
 FY2024_audit,114,combining_balance_sheet,Court Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",331223
-FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,1,ASSETS Cash and investments,78969
+FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,1,Cash and investments,78969
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,3,Accounts,0
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,4,Intergovernmental,0
@@ -559,7 +559,7 @@ FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,25,Assigned Capi
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,27,Total fund balances (deficit),77962
 FY2024_audit,114,combining_balance_sheet,Treasurer's Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",78969
-FY2024_audit,114,combining_balance_sheet,Recorder's Automation,1,ASSETS Cash and investments,136854
+FY2024_audit,114,combining_balance_sheet,Recorder's Automation,1,Cash and investments,136854
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,3,Accounts,10524
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,4,Intergovernmental,0
@@ -587,7 +587,7 @@ FY2024_audit,114,combining_balance_sheet,Recorder's Automation,25,Assigned Capit
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,27,Total fund balances (deficit),147378
 FY2024_audit,114,combining_balance_sheet,Recorder's Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",147378
-FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,1,ASSETS Cash and investments,49001
+FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,1,Cash and investments,49001
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,2,Receivables Property taxes,0
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,3,Accounts,0
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,4,Intergovernmental,0
@@ -615,7 +615,7 @@ FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,25,Assigned
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,26,Unassigned (deficit),0
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,27,Total fund balances (deficit),49001
 FY2024_audit,114,combining_balance_sheet,State's Attorney Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",49001
-FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,1,ASSETS Cash and investments,350990
+FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,1,Cash and investments,350990
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,4,Intergovernmental,647757
@@ -643,7 +643,7 @@ FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,25,Assigned Cap
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,27,Total fund balances (deficit),998747
 FY2024_audit,115,combining_balance_sheet,Public Safety Sales Tax,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",998747
-FY2024_audit,115,combining_balance_sheet,Public Defender Automation,1,ASSETS Cash and investments,115
+FY2024_audit,115,combining_balance_sheet,Public Defender Automation,1,Cash and investments,115
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,4,Intergovernmental,0
@@ -671,7 +671,7 @@ FY2024_audit,115,combining_balance_sheet,Public Defender Automation,25,Assigned 
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,27,Total fund balances (deficit),115
 FY2024_audit,115,combining_balance_sheet,Public Defender Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",115
-FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,1,ASSETS Cash and investments,226274
+FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,1,Cash and investments,226274
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,4,Intergovernmental,0
@@ -699,7 +699,7 @@ FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,25,Assigned 
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,27,Total fund balances (deficit),226274
 FY2024_audit,115,combining_balance_sheet,Law Enforcement Operations,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",226274
-FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,1,ASSETS Cash and investments,11605
+FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,1,Cash and investments,11605
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,4,Intergovernmental,0
@@ -727,7 +727,7 @@ FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,25,Assigned Ca
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,27,Total fund balances (deficit),11605
 FY2024_audit,115,combining_balance_sheet,Sheriff Highway Hireback,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",11605
-FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,1,ASSETS Cash and investments,146867
+FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,1,Cash and investments,146867
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,4,Intergovernmental,0
@@ -755,7 +755,7 @@ FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,25,Assigned Capit
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,27,Total fund balances (deficit),146867
 FY2024_audit,115,combining_balance_sheet,Electronic Monitoring,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",146867
-FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,1,ASSETS Cash and investments,21679
+FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,1,Cash and investments,21679
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,4,Intergovernmental,0
@@ -783,7 +783,7 @@ FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,25,Assigned Capital
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,27,Total fund balances (deficit),21064
 FY2024_audit,115,combining_balance_sheet,Spay/Neuter Program,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",21679
-FY2024_audit,115,combining_balance_sheet,GIS,1,ASSETS Cash and investments,376114
+FY2024_audit,115,combining_balance_sheet,GIS,1,Cash and investments,376114
 FY2024_audit,115,combining_balance_sheet,GIS,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,GIS,3,Accounts,9584
 FY2024_audit,115,combining_balance_sheet,GIS,4,Intergovernmental,0
@@ -811,7 +811,7 @@ FY2024_audit,115,combining_balance_sheet,GIS,25,Assigned Capital purposes,0
 FY2024_audit,115,combining_balance_sheet,GIS,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,GIS,27,Total fund balances (deficit),383550
 FY2024_audit,115,combining_balance_sheet,GIS,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",385698
-FY2024_audit,115,combining_balance_sheet,Animal Services Donation,1,ASSETS Cash and investments,30782
+FY2024_audit,115,combining_balance_sheet,Animal Services Donation,1,Cash and investments,30782
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,4,Intergovernmental,0
@@ -839,7 +839,7 @@ FY2024_audit,115,combining_balance_sheet,Animal Services Donation,25,Assigned Ca
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,27,Total fund balances (deficit),30782
 FY2024_audit,115,combining_balance_sheet,Animal Services Donation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",30782
-FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,1,ASSETS Cash and investments,2564
+FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,1,Cash and investments,2564
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,4,Intergovernmental,0
@@ -867,7 +867,7 @@ FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,25,Assigned Capital
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,27,Total fund balances (deficit),2564
 FY2024_audit,115,combining_balance_sheet,Sheriff K9 Donation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",2564
-FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,1,ASSETS Cash and investments,9269
+FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,1,Cash and investments,9269
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,2,Receivables Property taxes,0
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,3,Accounts,0
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,4,Intergovernmental,0
@@ -895,7 +895,7 @@ FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,25,Assigned
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,26,Unassigned (deficit),0
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,27,Total fund balances (deficit),9269
 FY2024_audit,115,combining_balance_sheet,Hitech Civic Election Grant,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",9269
-FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,1,ASSETS Cash and investments,32172
+FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,1,Cash and investments,32172
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,4,Intergovernmental,0
@@ -923,7 +923,7 @@ FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,25,Assigned
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,27,Total fund balances (deficit),32172
 FY2024_audit,116,combining_balance_sheet,Death Certificate Surcharge,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",32172
-FY2024_audit,116,combining_balance_sheet,Drug Court Grant,1,ASSETS Cash and investments,165540
+FY2024_audit,116,combining_balance_sheet,Drug Court Grant,1,Cash and investments,165540
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,4,Intergovernmental,60508
@@ -951,7 +951,7 @@ FY2024_audit,116,combining_balance_sheet,Drug Court Grant,25,Assigned Capital pu
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,27,Total fund balances (deficit),213312
 FY2024_audit,116,combining_balance_sheet,Drug Court Grant,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",226048
-FY2024_audit,116,combining_balance_sheet,Opioid Settlement,1,ASSETS Cash and investments,238574
+FY2024_audit,116,combining_balance_sheet,Opioid Settlement,1,Cash and investments,238574
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,4,Intergovernmental,0
@@ -979,7 +979,7 @@ FY2024_audit,116,combining_balance_sheet,Opioid Settlement,25,Assigned Capital p
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,27,Total fund balances (deficit),238574
 FY2024_audit,116,combining_balance_sheet,Opioid Settlement,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",238574
-FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,1,ASSETS Cash and investments,275555
+FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,1,Cash and investments,275555
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,4,Intergovernmental,79817
@@ -1007,7 +1007,7 @@ FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,25,Assigned Capital
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,27,Total fund balances (deficit),355372
 FY2024_audit,116,combining_balance_sheet,Township Motor Fuel,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",355372
-FY2024_audit,116,combining_balance_sheet,Township Bridge,1,ASSETS Cash and investments,116092
+FY2024_audit,116,combining_balance_sheet,Township Bridge,1,Cash and investments,116092
 FY2024_audit,116,combining_balance_sheet,Township Bridge,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Township Bridge,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Township Bridge,4,Intergovernmental,0
@@ -1035,7 +1035,7 @@ FY2024_audit,116,combining_balance_sheet,Township Bridge,25,Assigned Capital pur
 FY2024_audit,116,combining_balance_sheet,Township Bridge,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Township Bridge,27,Total fund balances (deficit),116092
 FY2024_audit,116,combining_balance_sheet,Township Bridge,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",116092
-FY2024_audit,116,combining_balance_sheet,Vital Records Automation,1,ASSETS Cash and investments,25299
+FY2024_audit,116,combining_balance_sheet,Vital Records Automation,1,Cash and investments,25299
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,2,Receivables Property taxes,0
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,3,Accounts,0
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,4,Intergovernmental,0
@@ -1063,7 +1063,7 @@ FY2024_audit,116,combining_balance_sheet,Vital Records Automation,25,Assigned Ca
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,26,Unassigned (deficit),0
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,27,Total fund balances (deficit),25299
 FY2024_audit,116,combining_balance_sheet,Vital Records Automation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",25299
-FY2024_audit,117,combining_balance_sheet,Regional Communications Study,1,ASSETS Cash and investments,26158
+FY2024_audit,117,combining_balance_sheet,Regional Communications Study,1,Cash and investments,26158
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,4,Intergovernmental,0
@@ -1091,7 +1091,7 @@ FY2024_audit,117,combining_balance_sheet,Regional Communications Study,25,Assign
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,27,Total fund balances (deficit),26158
 FY2024_audit,117,combining_balance_sheet,Regional Communications Study,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",26158
-FY2024_audit,117,combining_balance_sheet,Urban Transportation,1,ASSETS Cash and investments,0
+FY2024_audit,117,combining_balance_sheet,Urban Transportation,1,Cash and investments,0
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,3,Accounts,41000
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,4,Intergovernmental,0
@@ -1119,7 +1119,7 @@ FY2024_audit,117,combining_balance_sheet,Urban Transportation,25,Assigned Capita
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,26,Unassigned (deficit),-495384
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,27,Total fund balances (deficit),-495384
 FY2024_audit,117,combining_balance_sheet,Urban Transportation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",41000
-FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,1,ASSETS Cash and investments,0
+FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,1,Cash and investments,0
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,4,Intergovernmental,74300
@@ -1147,7 +1147,7 @@ FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,25,Assigned 
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,27,Total fund balances (deficit),4855
 FY2024_audit,117,combining_balance_sheet,Rural Transportation Grant,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",74300
-FY2024_audit,117,combining_balance_sheet,DUI Equipment,1,ASSETS Cash and investments,64263
+FY2024_audit,117,combining_balance_sheet,DUI Equipment,1,Cash and investments,64263
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,4,Intergovernmental,0
@@ -1175,7 +1175,7 @@ FY2024_audit,117,combining_balance_sheet,DUI Equipment,25,Assigned Capital purpo
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,27,Total fund balances (deficit),64263
 FY2024_audit,117,combining_balance_sheet,DUI Equipment,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",64263
-FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,1,ASSETS Cash and investments,39298
+FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,1,Cash and investments,39298
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,4,Intergovernmental,0
@@ -1203,7 +1203,7 @@ FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,25,Assigned Capital
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,27,Total fund balances (deficit),39298
 FY2024_audit,117,combining_balance_sheet,Federal Seized Drug,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",39298
-FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,1,ASSETS Cash and investments,8254
+FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,1,Cash and investments,8254
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,4,Intergovernmental,0
@@ -1231,7 +1231,7 @@ FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,25,Assign
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,27,Total fund balances (deficit),8254
 FY2024_audit,117,combining_balance_sheet,Maintenance and Child Support,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",8254
-FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,1,ASSETS Cash and investments,16934
+FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,1,Cash and investments,16934
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,4,Intergovernmental,0
@@ -1259,7 +1259,7 @@ FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,25,Assigned Ca
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,27,Total fund balances (deficit),16934
 FY2024_audit,117,combining_balance_sheet,Marriage and Civil Union,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",16934
-FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,1,ASSETS Cash and investments,0
+FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,1,Cash and investments,0
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,4,Intergovernmental,0
@@ -1287,7 +1287,7 @@ FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,25,Assigned Capita
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,26,Unassigned (deficit),-725
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,27,Total fund balances (deficit),-725
 FY2024_audit,117,combining_balance_sheet,Prairie Shield Grant,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",0
-FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,1,ASSETS Cash and investments,0
+FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,1,Cash and investments,0
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,4,Intergovernmental,0
@@ -1315,7 +1315,7 @@ FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,25,Assigned Capi
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,26,Unassigned (deficit),-43054
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,27,Total fund balances (deficit),-43054
 FY2024_audit,117,combining_balance_sheet,Arrestee Medical Costs,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",0
-FY2024_audit,117,combining_balance_sheet,Farmland and Protection,1,ASSETS Cash and investments,1019
+FY2024_audit,117,combining_balance_sheet,Farmland and Protection,1,Cash and investments,1019
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,2,Receivables Property taxes,0
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,3,Accounts,0
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,4,Intergovernmental,0
@@ -1343,7 +1343,7 @@ FY2024_audit,117,combining_balance_sheet,Farmland and Protection,25,Assigned Cap
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,26,Unassigned (deficit),0
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,27,Total fund balances (deficit),1019
 FY2024_audit,117,combining_balance_sheet,Farmland and Protection,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1019
-FY2024_audit,118,combining_balance_sheet,In and Out,1,ASSETS Cash and investments,17842
+FY2024_audit,118,combining_balance_sheet,In and Out,1,Cash and investments,17842
 FY2024_audit,118,combining_balance_sheet,In and Out,2,Receivables Property taxes,815000
 FY2024_audit,118,combining_balance_sheet,In and Out,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,In and Out,4,Intergovernmental,0
@@ -1371,7 +1371,7 @@ FY2024_audit,118,combining_balance_sheet,In and Out,25,Assigned Capital purposes
 FY2024_audit,118,combining_balance_sheet,In and Out,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,In and Out,27,Total fund balances (deficit),3455
 FY2024_audit,118,combining_balance_sheet,In and Out,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",832842
-FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,1,ASSETS Cash and investments,66741
+FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,1,Cash and investments,66741
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,2,Receivables Property taxes,0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,4,Intergovernmental,0
@@ -1399,7 +1399,7 @@ FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,25,Assigned
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,27,Total fund balances (deficit),66741
 FY2024_audit,118,combining_balance_sheet,State's Attorney Collection,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",66741
-FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,1,ASSETS Cash and investments,65116
+FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,1,Cash and investments,65116
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,2,Receivables Property taxes,0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,4,Intergovernmental,0
@@ -1427,7 +1427,7 @@ FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,25,A
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,27,Total fund balances (deficit),65116
 FY2024_audit,118,combining_balance_sheet,State's Attorney Forfeited Revenue,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",65116
-FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,1,ASSETS Cash and investments,64028
+FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,1,Cash and investments,64028
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,2,Receivables Property taxes,0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,4,Intergovernmental,0
@@ -1455,7 +1455,7 @@ FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,25,As
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,27,Total fund balances (deficit),64028
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Electronic Citation,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",64028
-FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,1,ASSETS Cash and investments,109802
+FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,1,Cash and investments,109802
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,2,Receivables Property taxes,0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,4,Intergovernmental,0
@@ -1483,7 +1483,7 @@ FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,25,Assigned Ca
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,27,Total fund balances (deficit),109802
 FY2024_audit,118,combining_balance_sheet,Circuit Clerk Operations,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",109802
-FY2024_audit,118,combining_balance_sheet,911 Fund,1,ASSETS Cash and investments,3722299
+FY2024_audit,118,combining_balance_sheet,911 Fund,1,Cash and investments,3722299
 FY2024_audit,118,combining_balance_sheet,911 Fund,2,Receivables Property taxes,0
 FY2024_audit,118,combining_balance_sheet,911 Fund,3,Accounts,0
 FY2024_audit,118,combining_balance_sheet,911 Fund,4,Intergovernmental,153435
@@ -1511,7 +1511,7 @@ FY2024_audit,118,combining_balance_sheet,911 Fund,25,Assigned Capital purposes,0
 FY2024_audit,118,combining_balance_sheet,911 Fund,26,Unassigned (deficit),0
 FY2024_audit,118,combining_balance_sheet,911 Fund,27,Total fund balances (deficit),3875734
 FY2024_audit,118,combining_balance_sheet,911 Fund,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",3875734
-FY2024_audit,119,combining_balance_sheet,Jail Commissary,1,ASSETS Cash and investments,72464
+FY2024_audit,119,combining_balance_sheet,Jail Commissary,1,Cash and investments,72464
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,4,Intergovernmental,0
@@ -1539,7 +1539,7 @@ FY2024_audit,119,combining_balance_sheet,Jail Commissary,25,Assigned Capital pur
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,27,Total fund balances (deficit),72464
 FY2024_audit,119,combining_balance_sheet,Jail Commissary,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",72464
-FY2024_audit,119,combining_balance_sheet,Food and Beverage,1,ASSETS Cash and investments,21902
+FY2024_audit,119,combining_balance_sheet,Food and Beverage,1,Cash and investments,21902
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,4,Intergovernmental,0
@@ -1567,7 +1567,7 @@ FY2024_audit,119,combining_balance_sheet,Food and Beverage,25,Assigned Capital p
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,27,Total fund balances (deficit),21902
 FY2024_audit,119,combining_balance_sheet,Food and Beverage,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",21902
-FY2024_audit,119,combining_balance_sheet,Capital Projects,1,ASSETS Cash and investments,8934
+FY2024_audit,119,combining_balance_sheet,Capital Projects,1,Cash and investments,8934
 FY2024_audit,119,combining_balance_sheet,Capital Projects,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Capital Projects,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Capital Projects,4,Intergovernmental,0
@@ -1595,7 +1595,7 @@ FY2024_audit,119,combining_balance_sheet,Capital Projects,25,Assigned Capital pu
 FY2024_audit,119,combining_balance_sheet,Capital Projects,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Capital Projects,27,Total fund balances (deficit),8934
 FY2024_audit,119,combining_balance_sheet,Capital Projects,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",8934
-FY2024_audit,119,combining_balance_sheet,Property Maintenance,1,ASSETS Cash and investments,255400
+FY2024_audit,119,combining_balance_sheet,Property Maintenance,1,Cash and investments,255400
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,4,Intergovernmental,0
@@ -1623,7 +1623,7 @@ FY2024_audit,119,combining_balance_sheet,Property Maintenance,25,Assigned Capita
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,27,Total fund balances (deficit),254938
 FY2024_audit,119,combining_balance_sheet,Property Maintenance,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",255400
-FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,1,ASSETS Cash and investments,102241
+FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,1,Cash and investments,102241
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,4,Intergovernmental,0
@@ -1651,7 +1651,7 @@ FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,25,Assigned Capital
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,27,Total fund balances (deficit),102241
 FY2024_audit,119,combining_balance_sheet,Maplecrest Memorial,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",102241
-FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,1,ASSETS Cash and investments,114613
+FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,1,Cash and investments,114613
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,4,Intergovernmental,0
@@ -1679,7 +1679,7 @@ FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenanc
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,27,Total fund balances (deficit),114132
 FY2024_audit,119,combining_balance_sheet,Animal Services Building and Maintenance,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",114613
-FY2024_audit,119,combining_balance_sheet,Courthouse Bond,1,ASSETS Cash and investments,0
+FY2024_audit,119,combining_balance_sheet,Courthouse Bond,1,Cash and investments,0
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,4,Intergovernmental,0
@@ -1707,7 +1707,7 @@ FY2024_audit,119,combining_balance_sheet,Courthouse Bond,25,Assigned Capital pur
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,27,Total fund balances (deficit),0
 FY2024_audit,119,combining_balance_sheet,Courthouse Bond,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",295913
-FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,1,ASSETS Cash and investments,0
+FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,1,Cash and investments,0
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,2,Receivables Property taxes,0
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,3,Accounts,0
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,4,Intergovernmental,0
@@ -1735,7 +1735,7 @@ FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,25,Assigned
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,26,Unassigned (deficit),0
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,27,Total fund balances (deficit),0
 FY2024_audit,119,combining_balance_sheet,Sheriff's Storage Bond 2017,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",0
-FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,1,ASSETS Cash and investments,25158850
+FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,1,Cash and investments,25158850
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,2,Receivables Property taxes,5851360
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,3,Accounts,702255
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,4,Intergovernmental,1418626
@@ -1763,7 +1763,7 @@ FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,25,As
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,26,Unassigned (deficit),-668856
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,27,Total fund balances (deficit),25511829
 FY2024_audit,119,combining_balance_sheet,Total Nonmajor Governmental Funds,28,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",33462797
-FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,839292
+FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,1,Taxes,839292
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,2,Intergovernmental,364424
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,3,Charges for services,24077
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,4,Investment income,112682
@@ -1791,7 +1791,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES 
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",2530520
 FY2024_audit,120,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",2566267
-FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,284731
+FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,1,Taxes,284731
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,2,Intergovernmental,399357
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,3,Charges for services,0
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,4,Investment income,209651
@@ -1819,7 +1819,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,25,"FUND BALANC
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",4332564
 FY2024_audit,120,combining_changes_in_fund_balance,County Bridge,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",4362276
-FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,122997
+FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,1,Taxes,122997
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,2,Intergovernmental,360159
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,3,Charges for services,0
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,4,Investment income,103961
@@ -1847,7 +1847,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,25,"FUND BAL
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",2219886
 FY2024_audit,120,combining_changes_in_fund_balance,Highway Matching,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",2645331
-FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,1,Taxes,0
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,2,Intergovernmental,1883317
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,3,Charges for services,0
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,4,Investment income,228468
@@ -1875,7 +1875,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,25,"FUN
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",6224719
 FY2024_audit,120,combining_changes_in_fund_balance,County Motor Fuel Tax,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",5036118
-FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,1,Taxes,0
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,2,Intergovernmental,0
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,3,Charges for services,243993
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,4,Investment income,0
@@ -1903,7 +1903,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,25,"FUND BALA
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",20606
 FY2024_audit,120,combining_changes_in_fund_balance,Animal Services,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",18029
-FY2024_audit,120,combining_changes_in_fund_balance,Health Department,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,381804
+FY2024_audit,120,combining_changes_in_fund_balance,Health Department,1,Taxes,381804
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,2,Intergovernmental,1702011
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,3,Charges for services,176066
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,4,Investment income,35564
@@ -1931,7 +1931,7 @@ FY2024_audit,120,combining_changes_in_fund_balance,Health Department,25,"FUND BA
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,26,Error Correction,0
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",1071601
 FY2024_audit,120,combining_changes_in_fund_balance,Health Department,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",1225399
-FY2024_audit,121,combining_changes_in_fund_balance,FICA,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,924235
+FY2024_audit,121,combining_changes_in_fund_balance,FICA,1,Taxes,924235
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,2,Intergovernmental,165222
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,3,Charges for services,0
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,4,Investment income,20498
@@ -1959,7 +1959,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,FICA,25,"FUND BALANCE (DEFICI
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",39984
 FY2024_audit,121,combining_changes_in_fund_balance,FICA,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",179763
-FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,909207
+FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,1,Taxes,909207
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,2,Intergovernmental,89045
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,3,Charges for services,0
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,4,Investment income,36195
@@ -1987,7 +1987,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,25,"FUND BAL
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",456998
 FY2024_audit,121,combining_changes_in_fund_balance,IMRF/ Retirement,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",355899
-FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,1263839
+FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,1,Taxes,1263839
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,2,Intergovernmental,13412
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,3,Charges for services,0
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,4,Investment income,-34478
@@ -2015,7 +2015,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,25,"FUND BALANC
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",-29275
 FY2024_audit,121,combining_changes_in_fund_balance,Tort Immunity,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-81868
-FY2024_audit,121,combining_changes_in_fund_balance,Court Security,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Court Security,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,3,Charges for services,114934
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,4,Investment income,11210
@@ -2043,7 +2043,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Court Security,25,"FUND BALAN
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",247892
 FY2024_audit,121,combining_changes_in_fund_balance,Court Security,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",163869
-FY2024_audit,121,combining_changes_in_fund_balance,Law Library,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Law Library,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,3,Charges for services,30040
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,4,Investment income,0
@@ -2071,7 +2071,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Law Library,25,"FUND BALANCE 
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",-43888
 FY2024_audit,121,combining_changes_in_fund_balance,Law Library,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-43550
-FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,3,Charges for services,4225
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,4,Investment income,1678
@@ -2099,7 +2099,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,25,"FUN
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",47640
 FY2024_audit,121,combining_changes_in_fund_balance,Foreclosure Mediation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",45543
-FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,2,Intergovernmental,50000
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,3,Charges for services,0
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,4,Investment income,0
@@ -2127,7 +2127,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,25,"FUND BAL
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",47710
 FY2024_audit,121,combining_changes_in_fund_balance,Landfill Closure,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",113949
-FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,3,Charges for services,1161
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,4,Investment income,0
@@ -2155,7 +2155,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,25,"FUND BAL
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",6402
 FY2024_audit,121,combining_changes_in_fund_balance,Specialty Courts,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",7563
-FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,3,Charges for services,0
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,4,Investment income,0
@@ -2183,7 +2183,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,25,"FUND B
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",38303
 FY2024_audit,121,combining_changes_in_fund_balance,Auxiliary Deputies,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",34479
-FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,1,Taxes,0
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,2,Intergovernmental,0
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,3,Charges for services,86
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,4,Investment income,0
@@ -2211,7 +2211,7 @@ FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,26,Error Correction,0
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",-4361
 FY2024_audit,121,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-4275
-FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,3,Charges for services,43505
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,4,Investment income,32947
@@ -2239,7 +2239,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,25,"FUND B
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",676039
 FY2024_audit,122,combining_changes_in_fund_balance,Probation Services,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",660496
-FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,3,Charges for services,125553
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,4,Investment income,14624
@@ -2267,7 +2267,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,25,"FUND BAL
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",327173
 FY2024_audit,122,combining_changes_in_fund_balance,Document Storage,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",428214
-FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,3,Charges for services,129601
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,4,Investment income,11599
@@ -2295,7 +2295,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,25,"FUND BAL
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",246179
 FY2024_audit,122,combining_changes_in_fund_balance,Court Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",331223
-FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,3,Charges for services,7855
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,4,Investment income,3497
@@ -2323,7 +2323,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,25,"FU
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",83007
 FY2024_audit,122,combining_changes_in_fund_balance,Treasurer's Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",77962
-FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,3,Charges for services,189032
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,4,Investment income,5887
@@ -2351,7 +2351,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,25,"FUN
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",136407
 FY2024_audit,122,combining_changes_in_fund_balance,Recorder's Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",147378
-FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,1,Taxes,0
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,2,Intergovernmental,0
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,3,Charges for services,2185
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,4,Investment income,1545
@@ -2379,7 +2379,7 @@ FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,2
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,26,Error Correction,0
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",45271
 FY2024_audit,122,combining_changes_in_fund_balance,State's Attorney Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",49001
-FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,2591580
+FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,1,Taxes,2591580
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,3,Charges for services,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,4,Investment income,11233
@@ -2407,7 +2407,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,25,"F
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",983022
 FY2024_audit,123,combining_changes_in_fund_balance,Public Safety Sales Tax,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",998747
-FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,3,Charges for services,536
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,4,Investment income,0
@@ -2435,7 +2435,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,25
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",472
 FY2024_audit,123,combining_changes_in_fund_balance,Public Defender Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",115
-FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,3,Charges for services,51733
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,4,Investment income,5350
@@ -2463,7 +2463,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,25
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",169191
 FY2024_audit,123,combining_changes_in_fund_balance,Law Enforcement Operations,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",226274
-FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,3,Charges for services,436
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,4,Investment income,0
@@ -2491,7 +2491,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,25,"
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",11169
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff Highway Hireback,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",11605
-FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,3,Charges for services,60050
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,4,Investment income,0
@@ -2519,7 +2519,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,25,"FUN
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",100941
 FY2024_audit,123,combining_changes_in_fund_balance,Electronic Monitoring,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",146867
-FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,3,Charges for services,9120
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,4,Investment income,0
@@ -2547,7 +2547,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,25,"FUND 
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",17878
 FY2024_audit,123,combining_changes_in_fund_balance,Spay/Neuter Program,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",21064
-FY2024_audit,123,combining_changes_in_fund_balance,GIS,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,GIS,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,2,Intergovernmental,5280
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,3,Charges for services,106316
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,4,Investment income,19544
@@ -2575,7 +2575,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,GIS,25,"FUND BALANCE (DEFICIT
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",405486
 FY2024_audit,123,combining_changes_in_fund_balance,GIS,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",383550
-FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,3,Charges for services,0
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,4,Investment income,2076
@@ -2603,7 +2603,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,25,"
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",39806
 FY2024_audit,123,combining_changes_in_fund_balance,Animal Services Donation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",30782
-FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,3,Charges for services,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,4,Investment income,0
@@ -2631,7 +2631,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,25,"FUND 
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",2564
 FY2024_audit,123,combining_changes_in_fund_balance,Sheriff K9 Donation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",2564
-FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,1,Taxes,0
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,2,Intergovernmental,0
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,3,Charges for services,0
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,4,Investment income,0
@@ -2659,7 +2659,7 @@ FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,2
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,26,Error Correction,0
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",9269
 FY2024_audit,123,combining_changes_in_fund_balance,Hitech Civic Election Grant,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",9269
-FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,2,Intergovernmental,3584
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,3,Charges for services,0
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,4,Investment income,0
@@ -2687,7 +2687,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,2
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,26,Error Correction,0
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",28588
 FY2024_audit,124,combining_changes_in_fund_balance,Death Certificate Surcharge,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",32172
-FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,2,Intergovernmental,195190
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,3,Charges for services,0
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,4,Investment income,0
@@ -2715,7 +2715,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,25,"FUND BAL
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,26,Error Correction,0
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",120922
 FY2024_audit,124,combining_changes_in_fund_balance,Drug Court Grant,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",213312
-FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,2,Intergovernmental,0
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,3,Charges for services,0
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,4,Investment income,6476
@@ -2743,7 +2743,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,25,"FUND BA
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,26,Error Correction,0
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",124655
 FY2024_audit,124,combining_changes_in_fund_balance,Opioid Settlement,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",238574
-FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,2,Intergovernmental,881130
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,3,Charges for services,0
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,4,Investment income,27986
@@ -2771,7 +2771,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,25,"FUND 
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,26,Error Correction,505351
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",505351
 FY2024_audit,124,combining_changes_in_fund_balance,Township Motor Fuel,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",355372
-FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,2,Intergovernmental,110137
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,3,Charges for services,0
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,4,Investment income,8
@@ -2799,7 +2799,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,25,"FUND BALA
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,26,Error Correction,6042
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",6042
 FY2024_audit,124,combining_changes_in_fund_balance,Township Bridge,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",116092
-FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,1,Taxes,0
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,2,Intergovernmental,0
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,3,Charges for services,4163
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,4,Investment income,814
@@ -2827,7 +2827,7 @@ FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,25,"
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,26,Error Correction,0
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",20322
 FY2024_audit,124,combining_changes_in_fund_balance,Vital Records Automation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",25299
-FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,3,Charges for services,0
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,4,Investment income,1087
@@ -2855,7 +2855,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",25071
 FY2024_audit,125,combining_changes_in_fund_balance,Regional Communications Study,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",26158
-FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,183000
+FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,1,Taxes,183000
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,2,Intergovernmental,11817
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,3,Charges for services,0
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,4,Investment income,0
@@ -2883,7 +2883,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,25,"FUND
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",-377725
 FY2024_audit,125,combining_changes_in_fund_balance,Urban Transportation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-495384
-FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,2,Intergovernmental,270447
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,3,Charges for services,4687
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,4,Investment income,0
@@ -2911,7 +2911,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,25
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",39484
 FY2024_audit,125,combining_changes_in_fund_balance,Rural Transportation Grant,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",4855
-FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,3,Charges for services,29176
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,4,Investment income,2397
@@ -2939,7 +2939,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,25,"FUND BALANC
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",85615
 FY2024_audit,125,combining_changes_in_fund_balance,DUI Equipment,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",64263
-FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,3,Charges for services,0
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,4,Investment income,98
@@ -2967,7 +2967,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,25,"FUND 
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",48734
 FY2024_audit,125,combining_changes_in_fund_balance,Federal Seized Drug,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",39298
-FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,3,Charges for services,5382
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,4,Investment income,0
@@ -2995,7 +2995,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",11872
 FY2024_audit,125,combining_changes_in_fund_balance,Maintenance and Child Support,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",8254
-FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,3,Charges for services,1650
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,4,Investment income,18
@@ -3023,7 +3023,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,25,"
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",15266
 FY2024_audit,125,combining_changes_in_fund_balance,Marriage and Civil Union,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",16934
-FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,3,Charges for services,0
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,4,Investment income,0
@@ -3051,7 +3051,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,25,"FUND
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",-725
 FY2024_audit,125,combining_changes_in_fund_balance,Prairie Shield Grant,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-725
-FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,2,Intergovernmental,81
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,3,Charges for services,784
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,4,Investment income,0
@@ -3079,7 +3079,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,25,"FU
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",2590
 FY2024_audit,125,combining_changes_in_fund_balance,Arrestee Medical Costs,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",-43054
-FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,1,Taxes,0
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,2,Intergovernmental,0
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,3,Charges for services,0
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,4,Investment income,0
@@ -3107,7 +3107,7 @@ FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,25,"F
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,26,Error Correction,0
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",1019
 FY2024_audit,125,combining_changes_in_fund_balance,Farmland and Protection,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",1019
-FY2024_audit,126,combining_changes_in_fund_balance,In and Out,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,551651
+FY2024_audit,126,combining_changes_in_fund_balance,In and Out,1,Taxes,551651
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,2,Intergovernmental,0
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,3,Charges for services,0
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,4,Investment income,2452
@@ -3135,7 +3135,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,In and Out,25,"FUND BALANCE (
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",1003
 FY2024_audit,126,combining_changes_in_fund_balance,In and Out,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",3455
-FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,1,Taxes,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,2,Intergovernmental,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,3,Charges for services,3133
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,4,Investment income,2057
@@ -3163,7 +3163,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,2
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",61551
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Collection,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",66741
-FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,1,Taxes,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,2,Intergovernmental,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,3,Charges for services,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,4,Investment income,1968
@@ -3191,7 +3191,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Re
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",55785
 FY2024_audit,126,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",65116
-FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,1,Taxes,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,2,Intergovernmental,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,3,Charges for services,32396
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,4,Investment income,16
@@ -3219,7 +3219,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Cita
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",45766
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",64028
-FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,1,Taxes,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,2,Intergovernmental,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,3,Charges for services,28664
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,4,Investment income,2137
@@ -3247,7 +3247,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,25,"
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",80919
 FY2024_audit,126,combining_changes_in_fund_balance,Circuit Clerk Operations,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",109802
-FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,1,Taxes,0
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,2,Intergovernmental,885744
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,3,Charges for services,0
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,4,Investment income,154426
@@ -3275,7 +3275,7 @@ FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,25,"FUND BALANCE (DE
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,26,Error Correction,0
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",3420632
 FY2024_audit,126,combining_changes_in_fund_balance,911 Fund,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",3875734
-FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,3,Charges for services,395503
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,4,Investment income,0
@@ -3303,7 +3303,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,25,"FUND BALA
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",49822
 FY2024_audit,127,combining_changes_in_fund_balance,Jail Commissary,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",72464
-FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,5823
+FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,1,Taxes,5823
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,3,Charges for services,748720
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,4,Investment income,51
@@ -3331,7 +3331,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,25,"FUND BA
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",51241
 FY2024_audit,127,combining_changes_in_fund_balance,Food and Beverage,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",21902
-FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,3,Charges for services,0
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,4,Investment income,0
@@ -3359,7 +3359,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,25,"FUND BAL
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",8934
 FY2024_audit,127,combining_changes_in_fund_balance,Capital Projects,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",8934
-FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,3,Charges for services,0
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,4,Investment income,9849
@@ -3387,7 +3387,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,25,"FUND
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",246703
 FY2024_audit,127,combining_changes_in_fund_balance,Property Maintenance,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",254938
-FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,3,Charges for services,0
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,4,Investment income,4273
@@ -3415,7 +3415,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,25,"FUND 
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",97968
 FY2024_audit,127,combining_changes_in_fund_balance,Maplecrest Memorial,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",102241
-FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,3,Charges for services,38183
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,4,Investment income,4281
@@ -3443,7 +3443,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and 
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",110387
 FY2024_audit,127,combining_changes_in_fund_balance,Animal Services Building and Maintenance,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",114132
-FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,3,Charges for services,0
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,4,Investment income,0
@@ -3471,7 +3471,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,25,"FUND BALA
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",0
 FY2024_audit,127,combining_changes_in_fund_balance,Courthouse Bond,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",0
-FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,0
+FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,1,Taxes,0
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,2,Intergovernmental,0
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,3,Charges for services,0
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,4,Investment income,0
@@ -3499,7 +3499,7 @@ FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,2
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,26,Error Correction,0
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,27,"FUND BALANCE (DEFICIT), DECEMBER 1, AS RESTATED",0
 FY2024_audit,127,combining_changes_in_fund_balance,Sheriff's Storage Bond 2017,28,"FUND BALANCE (DEFICIT), NOVEMBER 30",0
-FY2024_audit,127,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,1,Highway         Bridge          Matching         Fuel Tax          Services     Department REVENUES Taxes,8058159
+FY2024_audit,127,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,1,Taxes,8058159
 FY2024_audit,127,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,2,Intergovernmental,7390357
 FY2024_audit,127,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,3,Charges for services,2612945
 FY2024_audit,127,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,4,Investment income,1054125

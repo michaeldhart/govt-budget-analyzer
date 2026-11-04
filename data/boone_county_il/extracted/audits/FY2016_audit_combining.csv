@@ -1,5 +1,5 @@
 doc_id,pdf_page,statement,fund,row_seq,label,amount
-FY2016_audit,106,combining_balance_sheet,County Highway,1,ASSETS Cash and cash equivalents,26527
+FY2016_audit,106,combining_balance_sheet,County Highway,1,Cash and cash equivalents,26527
 FY2016_audit,106,combining_balance_sheet,County Highway,2,Investments,1277816
 FY2016_audit,106,combining_balance_sheet,County Highway,3,Receivables Property taxes,525772
 FY2016_audit,106,combining_balance_sheet,County Highway,4,Accounts,0
@@ -33,7 +33,7 @@ FY2016_audit,106,combining_balance_sheet,County Highway,31,Assigned for planning
 FY2016_audit,106,combining_balance_sheet,County Highway,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,County Highway,33,Total fund balances,1295845
 FY2016_audit,106,combining_balance_sheet,County Highway,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1830115
-FY2016_audit,106,combining_balance_sheet,County Matching,1,ASSETS Cash and cash equivalents,700
+FY2016_audit,106,combining_balance_sheet,County Matching,1,Cash and cash equivalents,700
 FY2016_audit,106,combining_balance_sheet,County Matching,2,Investments,3061166
 FY2016_audit,106,combining_balance_sheet,County Matching,3,Receivables Property taxes,236000
 FY2016_audit,106,combining_balance_sheet,County Matching,4,Accounts,0
@@ -67,7 +67,7 @@ FY2016_audit,106,combining_balance_sheet,County Matching,31,Assigned for plannin
 FY2016_audit,106,combining_balance_sheet,County Matching,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,County Matching,33,Total fund balances,3061866
 FY2016_audit,106,combining_balance_sheet,County Matching,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",3297866
-FY2016_audit,106,combining_balance_sheet,County Health Department,1,ASSETS Cash and cash equivalents,88221
+FY2016_audit,106,combining_balance_sheet,County Health Department,1,Cash and cash equivalents,88221
 FY2016_audit,106,combining_balance_sheet,County Health Department,2,Investments,103869
 FY2016_audit,106,combining_balance_sheet,County Health Department,3,Receivables Property taxes,235425
 FY2016_audit,106,combining_balance_sheet,County Health Department,4,Accounts,2638
@@ -101,7 +101,7 @@ FY2016_audit,106,combining_balance_sheet,County Health Department,31,Assigned fo
 FY2016_audit,106,combining_balance_sheet,County Health Department,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,County Health Department,33,Total fund balances,181308
 FY2016_audit,106,combining_balance_sheet,County Health Department,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",430153
-FY2016_audit,106,combining_balance_sheet,Health Grant,1,ASSETS Cash and cash equivalents,49868
+FY2016_audit,106,combining_balance_sheet,Health Grant,1,Cash and cash equivalents,49868
 FY2016_audit,106,combining_balance_sheet,Health Grant,2,Investments,136541
 FY2016_audit,106,combining_balance_sheet,Health Grant,3,Receivables Property taxes,0
 FY2016_audit,106,combining_balance_sheet,Health Grant,4,Accounts,0
@@ -135,7 +135,7 @@ FY2016_audit,106,combining_balance_sheet,Health Grant,31,Assigned for planning p
 FY2016_audit,106,combining_balance_sheet,Health Grant,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,Health Grant,33,Total fund balances,207292
 FY2016_audit,106,combining_balance_sheet,Health Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",215607
-FY2016_audit,106,combining_balance_sheet,Animal Control,1,ASSETS Cash and cash equivalents,40027
+FY2016_audit,106,combining_balance_sheet,Animal Control,1,Cash and cash equivalents,40027
 FY2016_audit,106,combining_balance_sheet,Animal Control,2,Investments,0
 FY2016_audit,106,combining_balance_sheet,Animal Control,3,Receivables Property taxes,0
 FY2016_audit,106,combining_balance_sheet,Animal Control,4,Accounts,0
@@ -169,7 +169,7 @@ FY2016_audit,106,combining_balance_sheet,Animal Control,31,Assigned for planning
 FY2016_audit,106,combining_balance_sheet,Animal Control,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,Animal Control,33,Total fund balances,34295
 FY2016_audit,106,combining_balance_sheet,Animal Control,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",40027
-FY2016_audit,106,combining_balance_sheet,Planning,1,ASSETS Cash and cash equivalents,10223
+FY2016_audit,106,combining_balance_sheet,Planning,1,Cash and cash equivalents,10223
 FY2016_audit,106,combining_balance_sheet,Planning,2,Investments,0
 FY2016_audit,106,combining_balance_sheet,Planning,3,Receivables Property taxes,0
 FY2016_audit,106,combining_balance_sheet,Planning,4,Accounts,0
@@ -203,7 +203,7 @@ FY2016_audit,106,combining_balance_sheet,Planning,31,Assigned for planning purpo
 FY2016_audit,106,combining_balance_sheet,Planning,32,Unassigned,0
 FY2016_audit,106,combining_balance_sheet,Planning,33,Total fund balances,8238
 FY2016_audit,106,combining_balance_sheet,Planning,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",10223
-FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,1,ASSETS Cash and cash equivalents,27867
+FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,1,Cash and cash equivalents,27867
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,2,Investments,25146
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,4,Accounts,0
@@ -237,7 +237,7 @@ FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,31,Assign
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,33,Total fund balances,53013
 FY2016_audit,107,combining_balance_sheet,Sheriff's Vehicle Replacement,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",53013
-FY2016_audit,107,combining_balance_sheet,Office Automation,1,ASSETS Cash and cash equivalents,81239
+FY2016_audit,107,combining_balance_sheet,Office Automation,1,Cash and cash equivalents,81239
 FY2016_audit,107,combining_balance_sheet,Office Automation,2,Investments,406105
 FY2016_audit,107,combining_balance_sheet,Office Automation,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Office Automation,4,Accounts,19014
@@ -271,7 +271,7 @@ FY2016_audit,107,combining_balance_sheet,Office Automation,31,Assigned for plann
 FY2016_audit,107,combining_balance_sheet,Office Automation,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Office Automation,33,Total fund balances,503988
 FY2016_audit,107,combining_balance_sheet,Office Automation,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",506358
-FY2016_audit,107,combining_balance_sheet,Probation Services,1,ASSETS Cash and cash equivalents,54174
+FY2016_audit,107,combining_balance_sheet,Probation Services,1,Cash and cash equivalents,54174
 FY2016_audit,107,combining_balance_sheet,Probation Services,2,Investments,321511
 FY2016_audit,107,combining_balance_sheet,Probation Services,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Probation Services,4,Accounts,8005
@@ -305,7 +305,7 @@ FY2016_audit,107,combining_balance_sheet,Probation Services,31,Assigned for plan
 FY2016_audit,107,combining_balance_sheet,Probation Services,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Probation Services,33,Total fund balances,383690
 FY2016_audit,107,combining_balance_sheet,Probation Services,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",383690
-FY2016_audit,107,combining_balance_sheet,DUI Equipment,1,ASSETS Cash and cash equivalents,8730
+FY2016_audit,107,combining_balance_sheet,DUI Equipment,1,Cash and cash equivalents,8730
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,2,Investments,124612
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,4,Accounts,4650
@@ -339,7 +339,7 @@ FY2016_audit,107,combining_balance_sheet,DUI Equipment,31,Assigned for planning 
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,33,Total fund balances,137992
 FY2016_audit,107,combining_balance_sheet,DUI Equipment,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",137992
-FY2016_audit,107,combining_balance_sheet,911,1,ASSETS Cash and cash equivalents,36736
+FY2016_audit,107,combining_balance_sheet,911,1,Cash and cash equivalents,36736
 FY2016_audit,107,combining_balance_sheet,911,2,Investments,475111
 FY2016_audit,107,combining_balance_sheet,911,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,911,4,Accounts,119902
@@ -373,7 +373,7 @@ FY2016_audit,107,combining_balance_sheet,911,31,Assigned for planning purposes,0
 FY2016_audit,107,combining_balance_sheet,911,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,911,33,Total fund balances,631749
 FY2016_audit,107,combining_balance_sheet,911,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",631749
-FY2016_audit,107,combining_balance_sheet,Court Security,1,ASSETS Cash and cash equivalents,2696
+FY2016_audit,107,combining_balance_sheet,Court Security,1,Cash and cash equivalents,2696
 FY2016_audit,107,combining_balance_sheet,Court Security,2,Investments,68616
 FY2016_audit,107,combining_balance_sheet,Court Security,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Court Security,4,Accounts,5322
@@ -407,7 +407,7 @@ FY2016_audit,107,combining_balance_sheet,Court Security,31,Assigned for planning
 FY2016_audit,107,combining_balance_sheet,Court Security,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Court Security,33,Total fund balances,76634
 FY2016_audit,107,combining_balance_sheet,Court Security,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",76634
-FY2016_audit,107,combining_balance_sheet,Law Library,1,ASSETS Cash and cash equivalents,462
+FY2016_audit,107,combining_balance_sheet,Law Library,1,Cash and cash equivalents,462
 FY2016_audit,107,combining_balance_sheet,Law Library,2,Investments,14656
 FY2016_audit,107,combining_balance_sheet,Law Library,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Law Library,4,Accounts,2058
@@ -441,7 +441,7 @@ FY2016_audit,107,combining_balance_sheet,Law Library,31,Assigned for planning pu
 FY2016_audit,107,combining_balance_sheet,Law Library,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Law Library,33,Total fund balances,10497
 FY2016_audit,107,combining_balance_sheet,Law Library,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",17176
-FY2016_audit,107,combining_balance_sheet,Landfill Closing,1,ASSETS Cash and cash equivalents,10197
+FY2016_audit,107,combining_balance_sheet,Landfill Closing,1,Cash and cash equivalents,10197
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,2,Investments,0
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,4,Accounts,0
@@ -475,7 +475,7 @@ FY2016_audit,107,combining_balance_sheet,Landfill Closing,31,Assigned for planni
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,33,Total fund balances,4315
 FY2016_audit,107,combining_balance_sheet,Landfill Closing,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",10197
-FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,1,ASSETS Cash and cash equivalents,13106
+FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,1,Cash and cash equivalents,13106
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,2,Investments,0
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,4,Accounts,0
@@ -509,7 +509,7 @@ FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,31,Assigned f
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,33,Total fund balances,13106
 FY2016_audit,107,combining_balance_sheet,Child Support Maintenance,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",13106
-FY2016_audit,107,combining_balance_sheet,Document Storage,1,ASSETS Cash and cash equivalents,9394
+FY2016_audit,107,combining_balance_sheet,Document Storage,1,Cash and cash equivalents,9394
 FY2016_audit,107,combining_balance_sheet,Document Storage,2,Investments,212079
 FY2016_audit,107,combining_balance_sheet,Document Storage,3,Receivables Property taxes,0
 FY2016_audit,107,combining_balance_sheet,Document Storage,4,Accounts,8605
@@ -543,7 +543,7 @@ FY2016_audit,107,combining_balance_sheet,Document Storage,31,Assigned for planni
 FY2016_audit,107,combining_balance_sheet,Document Storage,32,Unassigned,0
 FY2016_audit,107,combining_balance_sheet,Document Storage,33,Total fund balances,226029
 FY2016_audit,107,combining_balance_sheet,Document Storage,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",230078
-FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,1,ASSETS Cash and cash equivalents,120099
+FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,1,Cash and cash equivalents,120099
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,2,Investments,0
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,3,Receivables Property taxes,0
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,4,Accounts,0
@@ -577,7 +577,7 @@ FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,31,Assigned for
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,33,Total fund balances,120099
 FY2016_audit,108,combining_balance_sheet,Federal Forfeited Funds,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",120099
-FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,1,ASSETS Cash and cash equivalents,2564
+FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,1,Cash and cash equivalents,2564
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,2,Investments,20297
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,3,Receivables Property taxes,0
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,4,Accounts,0
@@ -611,7 +611,7 @@ FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,31,Assigned 
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,33,Total fund balances,22861
 FY2016_audit,108,combining_balance_sheet,Regional Communication Fee,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",22861
-FY2016_audit,108,combining_balance_sheet,Grant,1,ASSETS Cash and cash equivalents,2920
+FY2016_audit,108,combining_balance_sheet,Grant,1,Cash and cash equivalents,2920
 FY2016_audit,108,combining_balance_sheet,Grant,2,Investments,0
 FY2016_audit,108,combining_balance_sheet,Grant,3,Receivables Property taxes,0
 FY2016_audit,108,combining_balance_sheet,Grant,4,Accounts,0
@@ -645,7 +645,7 @@ FY2016_audit,108,combining_balance_sheet,Grant,31,Assigned for planning purposes
 FY2016_audit,108,combining_balance_sheet,Grant,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,Grant,33,Total fund balances,2920
 FY2016_audit,108,combining_balance_sheet,Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",2920
-FY2016_audit,108,combining_balance_sheet,In and Out,1,ASSETS Cash and cash equivalents,101227
+FY2016_audit,108,combining_balance_sheet,In and Out,1,Cash and cash equivalents,101227
 FY2016_audit,108,combining_balance_sheet,In and Out,2,Investments,0
 FY2016_audit,108,combining_balance_sheet,In and Out,3,Receivables Property taxes,621100
 FY2016_audit,108,combining_balance_sheet,In and Out,4,Accounts,7913
@@ -679,7 +679,7 @@ FY2016_audit,108,combining_balance_sheet,In and Out,31,Assigned for planning pur
 FY2016_audit,108,combining_balance_sheet,In and Out,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,In and Out,33,Total fund balances,96220
 FY2016_audit,108,combining_balance_sheet,In and Out,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",848366
-FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,1,ASSETS Cash and cash equivalents,389
+FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,1,Cash and cash equivalents,389
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,2,Investments,28323
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,3,Receivables Property taxes,0
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,4,Accounts,0
@@ -713,7 +713,7 @@ FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,31,Assigned f
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,33,Total fund balances,28712
 FY2016_audit,108,combining_balance_sheet,Financial Compliance Unit,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",28712
-FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,1,ASSETS Cash and cash equivalents,3823
+FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,1,Cash and cash equivalents,3823
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,2,Investments,0
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,3,Receivables Property taxes,0
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,4,Accounts,0
@@ -747,7 +747,7 @@ FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,31,A
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,32,Unassigned,0
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,33,Total fund balances,3823
 FY2016_audit,108,combining_balance_sheet,State's Attorney Forfeited Revenue,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",3823
-FY2016_audit,109,combining_balance_sheet,Liability Insurance,1,ASSETS Cash and cash equivalents,77997
+FY2016_audit,109,combining_balance_sheet,Liability Insurance,1,Cash and cash equivalents,77997
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,2,Investments,500510
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,3,Receivables Property taxes,640000
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,4,Accounts,0
@@ -781,7 +781,7 @@ FY2016_audit,109,combining_balance_sheet,Liability Insurance,31,Assigned for pla
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,33,Total fund balances,565610
 FY2016_audit,109,combining_balance_sheet,Liability Insurance,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",1218507
-FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,1,ASSETS Cash and cash equivalents,5918
+FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,1,Cash and cash equivalents,5918
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,4,Accounts,0
@@ -815,7 +815,7 @@ FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,31,Assigned fo
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,33,Total fund balances,5918
 FY2016_audit,109,combining_balance_sheet,Marriage and Civil Union,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",5918
-FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,1,ASSETS Cash and cash equivalents,6645
+FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,1,Cash and cash equivalents,6645
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,4,Accounts,0
@@ -849,7 +849,7 @@ FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,31,Assigned for pl
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,33,Total fund balances,6645
 FY2016_audit,109,combining_balance_sheet,Spay/ Neuter Program,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",6645
-FY2016_audit,109,combining_balance_sheet,Coroner's Grant,1,ASSETS Cash and cash equivalents,416
+FY2016_audit,109,combining_balance_sheet,Coroner's Grant,1,Cash and cash equivalents,416
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,4,Accounts,3948
@@ -883,7 +883,7 @@ FY2016_audit,109,combining_balance_sheet,Coroner's Grant,31,Assigned for plannin
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,33,Total fund balances,4364
 FY2016_audit,109,combining_balance_sheet,Coroner's Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",4364
-FY2016_audit,109,combining_balance_sheet,Coroner's Fees,1,ASSETS Cash and cash equivalents,3587
+FY2016_audit,109,combining_balance_sheet,Coroner's Fees,1,Cash and cash equivalents,3587
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,4,Accounts,0
@@ -917,7 +917,7 @@ FY2016_audit,109,combining_balance_sheet,Coroner's Fees,31,Assigned for planning
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,33,Total fund balances,3587
 FY2016_audit,109,combining_balance_sheet,Coroner's Fees,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",3587
-FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,1,ASSETS Cash and cash equivalents,11383
+FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,1,Cash and cash equivalents,11383
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,2,Investments,10058
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,4,Accounts,0
@@ -951,7 +951,7 @@ FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,31,Assigned
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,33,Total fund balances,21441
 FY2016_audit,109,combining_balance_sheet,State's Attorney Automation,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",21441
-FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,1,ASSETS Cash and cash equivalents,16591
+FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,1,Cash and cash equivalents,16591
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,4,Accounts,0
@@ -985,7 +985,7 @@ FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,31,Assigned fo
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,33,Total fund balances,16591
 FY2016_audit,109,combining_balance_sheet,Circuit Clerk Operations,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",16591
-FY2016_audit,109,combining_balance_sheet,Drug Court Grant,1,ASSETS Cash and cash equivalents,49765
+FY2016_audit,109,combining_balance_sheet,Drug Court Grant,1,Cash and cash equivalents,49765
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,4,Accounts,13677
@@ -1019,7 +1019,7 @@ FY2016_audit,109,combining_balance_sheet,Drug Court Grant,31,Assigned for planni
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,33,Total fund balances,58146
 FY2016_audit,109,combining_balance_sheet,Drug Court Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",63442
-FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,1,ASSETS Cash and cash equivalents,21310
+FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,1,Cash and cash equivalents,21310
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,3,Receivables Property taxes,0
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,4,Accounts,0
@@ -1053,7 +1053,7 @@ FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,31,Assigned for planni
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,33,Total fund balances,21310
 FY2016_audit,109,combining_balance_sheet,Auto Theft Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",21310
-FY2016_audit,109,combining_balance_sheet,FICA,1,ASSETS Cash and cash equivalents,50224
+FY2016_audit,109,combining_balance_sheet,FICA,1,Cash and cash equivalents,50224
 FY2016_audit,109,combining_balance_sheet,FICA,2,Investments,0
 FY2016_audit,109,combining_balance_sheet,FICA,3,Receivables Property taxes,850000
 FY2016_audit,109,combining_balance_sheet,FICA,4,Accounts,0
@@ -1087,7 +1087,7 @@ FY2016_audit,109,combining_balance_sheet,FICA,31,Assigned for planning purposes,
 FY2016_audit,109,combining_balance_sheet,FICA,32,Unassigned,0
 FY2016_audit,109,combining_balance_sheet,FICA,33,Total fund balances,24179
 FY2016_audit,109,combining_balance_sheet,FICA,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",900224
-FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,1,ASSETS Cash and cash equivalents,29757
+FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,1,Cash and cash equivalents,29757
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,2,Investments,0
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,4,Accounts,0
@@ -1121,7 +1121,7 @@ FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,31,Assigned for 
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,32,Unassigned,0
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,33,Total fund balances,29757
 FY2016_audit,110,combining_balance_sheet,Arrestee Medical Costs,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",29757
-FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,1,ASSETS Cash and cash equivalents,50605
+FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,1,Cash and cash equivalents,50605
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,2,Investments,0
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,4,Accounts,0
@@ -1155,7 +1155,7 @@ FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,31,As
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,32,Unassigned,0
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,33,Total fund balances,50605
 FY2016_audit,110,combining_balance_sheet,Circuit Clerk Electronic Citation,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",50605
-FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,1,ASSETS Cash and cash equivalents,17950
+FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,1,Cash and cash equivalents,17950
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,2,Investments,0
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,4,Accounts,0
@@ -1189,7 +1189,7 @@ FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,31,Assigned for p
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,32,Unassigned,0
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,33,Total fund balances,17950
 FY2016_audit,110,combining_balance_sheet,Foreclosure Mediation,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",17950
-FY2016_audit,110,combining_balance_sheet,VCVA Grant,1,ASSETS Cash and cash equivalents,11932
+FY2016_audit,110,combining_balance_sheet,VCVA Grant,1,Cash and cash equivalents,11932
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,2,Investments,0
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,4,Accounts,0
@@ -1223,7 +1223,7 @@ FY2016_audit,110,combining_balance_sheet,VCVA Grant,31,Assigned for planning pur
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,32,Unassigned,0
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,33,Total fund balances,11932
 FY2016_audit,110,combining_balance_sheet,VCVA Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",11932
-FY2016_audit,110,combining_balance_sheet,Transportation Grant,1,ASSETS Cash and cash equivalents,7470
+FY2016_audit,110,combining_balance_sheet,Transportation Grant,1,Cash and cash equivalents,7470
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,2,Investments,0
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,4,Accounts,0
@@ -1257,7 +1257,7 @@ FY2016_audit,110,combining_balance_sheet,Transportation Grant,31,Assigned for pl
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,32,Unassigned,-3444
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,33,Total fund balances,-3444
 FY2016_audit,110,combining_balance_sheet,Transportation Grant,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",7470
-FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,1,ASSETS Cash and cash equivalents,0
+FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,1,Cash and cash equivalents,0
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,2,Investments,1785559
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,3,Receivables Property taxes,0
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,4,Accounts,0
@@ -1291,7 +1291,7 @@ FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,31,Assigned for
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,32,Unassigned,0
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,33,Total fund balances,2238838
 FY2016_audit,110,combining_balance_sheet,Public Safety Sales Tax,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",2258475
-FY2016_audit,111,combining_balance_sheet,Courthouse Construction,1,ASSETS Cash and cash equivalents,0
+FY2016_audit,111,combining_balance_sheet,Courthouse Construction,1,Cash and cash equivalents,0
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,2,Investments,267142
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,4,Accounts,0
@@ -1325,7 +1325,7 @@ FY2016_audit,111,combining_balance_sheet,Courthouse Construction,31,Assigned for
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,33,Total fund balances,267142
 FY2016_audit,111,combining_balance_sheet,Courthouse Construction,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",267142
-FY2016_audit,111,combining_balance_sheet,Animal Services Bond,1,ASSETS Cash and cash equivalents,133080
+FY2016_audit,111,combining_balance_sheet,Animal Services Bond,1,Cash and cash equivalents,133080
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,2,Investments,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,4,Accounts,0
@@ -1359,7 +1359,7 @@ FY2016_audit,111,combining_balance_sheet,Animal Services Bond,31,Assigned for pl
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,33,Total fund balances,133080
 FY2016_audit,111,combining_balance_sheet,Animal Services Bond,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",133080
-FY2016_audit,111,combining_balance_sheet,Property Maintenance,1,ASSETS Cash and cash equivalents,40402
+FY2016_audit,111,combining_balance_sheet,Property Maintenance,1,Cash and cash equivalents,40402
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,2,Investments,142107
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,4,Accounts,0
@@ -1393,7 +1393,7 @@ FY2016_audit,111,combining_balance_sheet,Property Maintenance,31,Assigned for pl
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,33,Total fund balances,168733
 FY2016_audit,111,combining_balance_sheet,Property Maintenance,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",182509
-FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,1,ASSETS Cash and cash equivalents,0
+FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,1,Cash and cash equivalents,0
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,2,Investments,133478
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,4,Accounts,0
@@ -1427,7 +1427,7 @@ FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,31,Assigned for pla
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,33,Total fund balances,133478
 FY2016_audit,111,combining_balance_sheet,Maplecrest Memorial,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",133478
-FY2016_audit,111,combining_balance_sheet,Building and Maintenance,1,ASSETS Cash and cash equivalents,67994
+FY2016_audit,111,combining_balance_sheet,Building and Maintenance,1,Cash and cash equivalents,67994
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,2,Investments,0
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,3,Receivables Property taxes,266667
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,4,Accounts,0
@@ -1461,7 +1461,7 @@ FY2016_audit,111,combining_balance_sheet,Building and Maintenance,31,Assigned fo
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,33,Total fund balances,67994
 FY2016_audit,111,combining_balance_sheet,Building and Maintenance,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",334661
-FY2016_audit,111,combining_balance_sheet,Animal Services Donation,1,ASSETS Cash and cash equivalents,21040
+FY2016_audit,111,combining_balance_sheet,Animal Services Donation,1,Cash and cash equivalents,21040
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,2,Investments,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,4,Accounts,0
@@ -1495,7 +1495,7 @@ FY2016_audit,111,combining_balance_sheet,Animal Services Donation,31,Assigned fo
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,33,Total fund balances,21040
 FY2016_audit,111,combining_balance_sheet,Animal Services Donation,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",21040
-FY2016_audit,111,combining_balance_sheet,Capital Projects,1,ASSETS Cash and cash equivalents,73536
+FY2016_audit,111,combining_balance_sheet,Capital Projects,1,Cash and cash equivalents,73536
 FY2016_audit,111,combining_balance_sheet,Capital Projects,2,Investments,63135
 FY2016_audit,111,combining_balance_sheet,Capital Projects,3,Receivables Property taxes,0
 FY2016_audit,111,combining_balance_sheet,Capital Projects,4,Accounts,0
@@ -1529,7 +1529,7 @@ FY2016_audit,111,combining_balance_sheet,Capital Projects,31,Assigned for planni
 FY2016_audit,111,combining_balance_sheet,Capital Projects,32,Unassigned,0
 FY2016_audit,111,combining_balance_sheet,Capital Projects,33,Total fund balances,1196
 FY2016_audit,111,combining_balance_sheet,Capital Projects,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",136671
-FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,1,ASSETS Cash and cash equivalents,1388791
+FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,1,Cash and cash equivalents,1388791
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,2,Investments,9177837
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,3,Receivables Property taxes,3374964
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,4,Accounts,195732
@@ -1563,7 +1563,7 @@ FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,31,As
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,32,Unassigned,-3444
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,33,Total fund balances,10970584
 FY2016_audit,111,combining_balance_sheet,Total Nonmajor Governmental Funds,34,"TOTAL LIABILITIES, DEFERRED INFLOWS AND FUND BALANCES",14757564
-FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,525098
+FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,1,Taxes,525098
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,2,Licenses and permits,7303
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,3,Intergovernmental,154595
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,4,Charges for services,0
@@ -1587,7 +1587,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES 
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,22,NET CHANGE IN FUND BALANCES,-90633
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",1386478
 FY2016_audit,112,combining_changes_in_fund_balance,AND CHANGES IN FUND BALANCES County Highway,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",1295845
-FY2016_audit,112,combining_changes_in_fund_balance,County Matching,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,295992
+FY2016_audit,112,combining_changes_in_fund_balance,County Matching,1,Taxes,295992
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,2,Licenses and permits,0
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,3,Intergovernmental,0
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,4,Charges for services,0
@@ -1611,7 +1611,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,County Matching,21,Total othe
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,22,NET CHANGE IN FUND BALANCES,-76439
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",3138305
 FY2016_audit,112,combining_changes_in_fund_balance,County Matching,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",3061866
-FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,237272
+FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,1,Taxes,237272
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,2,Licenses and permits,168228
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,3,Intergovernmental,71864
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,4,Charges for services,61089
@@ -1635,7 +1635,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,21,T
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,22,NET CHANGE IN FUND BALANCES,-125954
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",307262
 FY2016_audit,112,combining_changes_in_fund_balance,County Health Department,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",181308
-FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,1,Taxes,0
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,2,Licenses and permits,0
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,3,Intergovernmental,456761
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,4,Charges for services,1536
@@ -1659,7 +1659,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,21,Total other f
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,22,NET CHANGE IN FUND BALANCES,-54041
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",261333
 FY2016_audit,112,combining_changes_in_fund_balance,Health Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",207292
-FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,1,Taxes,0
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,2,Licenses and permits,201574
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,3,Intergovernmental,0
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,4,Charges for services,0
@@ -1683,7 +1683,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,21,Total other
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,22,NET CHANGE IN FUND BALANCES,8682
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",25613
 FY2016_audit,112,combining_changes_in_fund_balance,Animal Control,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",34295
-FY2016_audit,112,combining_changes_in_fund_balance,Planning,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,112,combining_changes_in_fund_balance,Planning,1,Taxes,0
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,2,Licenses and permits,31980
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,3,Intergovernmental,15333
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,4,Charges for services,0
@@ -1707,7 +1707,7 @@ FY2016_audit,112,combining_changes_in_fund_balance,Planning,21,Total other finan
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,22,NET CHANGE IN FUND BALANCES,10448
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",-2210
 FY2016_audit,112,combining_changes_in_fund_balance,Planning,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",8238
-FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,4,Charges for services,11702
@@ -1731,7 +1731,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,22,NET CHANGE IN FUND BALANCES,11849
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",41164
 FY2016_audit,113,combining_changes_in_fund_balance,Sheriff's Vehicle Replacement,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",53013
-FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,4,Charges for services,348771
@@ -1755,7 +1755,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,21,Total ot
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,22,NET CHANGE IN FUND BALANCES,-42293
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",546281
 FY2016_audit,113,combining_changes_in_fund_balance,Office Automation,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",503988
-FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,4,Charges for services,121383
@@ -1779,7 +1779,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,21,Total o
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,22,NET CHANGE IN FUND BALANCES,96180
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",287510
 FY2016_audit,113,combining_changes_in_fund_balance,Probation Services,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",383690
-FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,4,Charges for services,44301
@@ -1803,7 +1803,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,21,Total other 
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,22,NET CHANGE IN FUND BALANCES,44711
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",93281
 FY2016_audit,113,combining_changes_in_fund_balance,DUI Equipment,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",137992
-FY2016_audit,113,combining_changes_in_fund_balance,911,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,911,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,911,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,911,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,911,4,Charges for services,423747
@@ -1827,7 +1827,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,911,21,Total other financing 
 FY2016_audit,113,combining_changes_in_fund_balance,911,22,NET CHANGE IN FUND BALANCES,-47385
 FY2016_audit,113,combining_changes_in_fund_balance,911,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",679134
 FY2016_audit,113,combining_changes_in_fund_balance,911,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",631749
-FY2016_audit,113,combining_changes_in_fund_balance,Court Security,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Court Security,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,4,Charges for services,74357
@@ -1851,7 +1851,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Court Security,21,Total other
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,22,NET CHANGE IN FUND BALANCES,-50809
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",127443
 FY2016_audit,113,combining_changes_in_fund_balance,Court Security,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",76634
-FY2016_audit,113,combining_changes_in_fund_balance,Law Library,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Law Library,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,4,Charges for services,30849
@@ -1875,7 +1875,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Law Library,21,Total other fi
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,22,NET CHANGE IN FUND BALANCES,-15889
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",26386
 FY2016_audit,113,combining_changes_in_fund_balance,Law Library,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",10497
-FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,3,Intergovernmental,45000
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,4,Charges for services,0
@@ -1899,7 +1899,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,21,Total oth
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,22,NET CHANGE IN FUND BALANCES,-2435
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",6750
 FY2016_audit,113,combining_changes_in_fund_balance,Landfill Closing,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",4315
-FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,4,Charges for services,11152
@@ -1923,7 +1923,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,21,
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,22,NET CHANGE IN FUND BALANCES,11160
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",1946
 FY2016_audit,113,combining_changes_in_fund_balance,Child Support Maintenance,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",13106
-FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,1,Taxes,0
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,2,Licenses and permits,0
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,3,Intergovernmental,0
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,4,Charges for services,137905
@@ -1947,7 +1947,7 @@ FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,21,Total oth
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,22,NET CHANGE IN FUND BALANCES,-74237
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",300266
 FY2016_audit,113,combining_changes_in_fund_balance,Document Storage,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",226029
-FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,1,Taxes,0
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,3,Intergovernmental,8956
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,4,Charges for services,0
@@ -1971,7 +1971,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,21,Total ot
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,22,NET CHANGE IN FUND BALANCES,472
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",119627
 FY2016_audit,114,combining_changes_in_fund_balance,Federal Forfeited,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",120099
-FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,1,Taxes,0
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,3,Intergovernmental,0
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,4,Charges for services,0
@@ -1995,7 +1995,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,21
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,22,NET CHANGE IN FUND BALANCES,108
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",22753
 FY2016_audit,114,combining_changes_in_fund_balance,Regional Communication Fee,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",22861
-FY2016_audit,114,combining_changes_in_fund_balance,Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,114,combining_changes_in_fund_balance,Grant,1,Taxes,0
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,3,Intergovernmental,0
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,4,Charges for services,0
@@ -2019,7 +2019,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,Grant,21,Total other financin
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,22,NET CHANGE IN FUND BALANCES,1
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",2919
 FY2016_audit,114,combining_changes_in_fund_balance,Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",2920
-FY2016_audit,114,combining_changes_in_fund_balance,In and Out,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,587995
+FY2016_audit,114,combining_changes_in_fund_balance,In and Out,1,Taxes,587995
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,3,Intergovernmental,60663
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,4,Charges for services,0
@@ -2043,7 +2043,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,In and Out,21,Total other fin
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,22,NET CHANGE IN FUND BALANCES,96215
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",5
 FY2016_audit,114,combining_changes_in_fund_balance,In and Out,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",96220
-FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,1,Taxes,0
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,3,Intergovernmental,0
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,4,Charges for services,6050
@@ -2067,7 +2067,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,21,
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,22,NET CHANGE IN FUND BALANCES,-21254
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",49966
 FY2016_audit,114,combining_changes_in_fund_balance,Financial Compliance Unit,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",28712
-FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,1,Taxes,0
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,2,Licenses and permits,0
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,3,Intergovernmental,4280
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,4,Charges for services,0
@@ -2091,7 +2091,7 @@ FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Re
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,22,NET CHANGE IN FUND BALANCES,3812
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",11
 FY2016_audit,114,combining_changes_in_fund_balance,State's Attorney Forfeited Revenue,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",3823
-FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,789282
+FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,1,Taxes,789282
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,3,Intergovernmental,11000
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,4,Charges for services,1122
@@ -2115,7 +2115,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,21,Total 
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,22,NET CHANGE IN FUND BALANCES,19376
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",546234
 FY2016_audit,115,combining_changes_in_fund_balance,Liability Insurance,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",565610
-FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,4,Charges for services,2590
@@ -2139,7 +2139,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,21,T
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,22,NET CHANGE IN FUND BALANCES,2157
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",3761
 FY2016_audit,115,combining_changes_in_fund_balance,Marriage and Civil Union,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",5918
-FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,4,Charges for services,4585
@@ -2163,7 +2163,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,21,Total
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,22,NET CHANGE IN FUND BALANCES,1267
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",5378
 FY2016_audit,115,combining_changes_in_fund_balance,Spay/ Neuter Program,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",6645
-FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,3,Intergovernmental,3947
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,4,Charges for services,0
@@ -2187,7 +2187,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,21,Total othe
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,22,NET CHANGE IN FUND BALANCES,3947
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",417
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",4364
-FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,4,Charges for services,0
@@ -2211,7 +2211,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,21,Total other
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,22,NET CHANGE IN FUND BALANCES,1
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",3586
 FY2016_audit,115,combining_changes_in_fund_balance,Coroner's Fees,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",3587
-FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,4,Charges for services,5112
@@ -2235,7 +2235,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,2
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,22,NET CHANGE IN FUND BALANCES,5170
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",16271
 FY2016_audit,115,combining_changes_in_fund_balance,State's Attorney Automation,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",21441
-FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,4,Charges for services,22313
@@ -2259,7 +2259,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,21,T
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,22,NET CHANGE IN FUND BALANCES,1221
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",15370
 FY2016_audit,115,combining_changes_in_fund_balance,Circuit Clerk Operations,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",16591
-FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,3,Intergovernmental,69921
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,4,Charges for services,0
@@ -2283,7 +2283,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,21,Total oth
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,22,NET CHANGE IN FUND BALANCES,45733
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",12413
 FY2016_audit,115,combining_changes_in_fund_balance,Drug Court Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",58146
-FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,1,Taxes,0
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,4,Charges for services,0
@@ -2307,7 +2307,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,21,Total oth
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,22,NET CHANGE IN FUND BALANCES,13
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",21297
 FY2016_audit,115,combining_changes_in_fund_balance,Auto Theft Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",21310
-FY2016_audit,115,combining_changes_in_fund_balance,FICA,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,794256
+FY2016_audit,115,combining_changes_in_fund_balance,FICA,1,Taxes,794256
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,2,Licenses and permits,0
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,3,Intergovernmental,0
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,4,Charges for services,5610
@@ -2331,7 +2331,7 @@ FY2016_audit,115,combining_changes_in_fund_balance,FICA,21,Total other financing
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,22,NET CHANGE IN FUND BALANCES,-3589
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",27768
 FY2016_audit,115,combining_changes_in_fund_balance,FICA,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",24179
-FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,1,Taxes,0
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,2,Licenses and permits,0
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,3,Intergovernmental,0
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,4,Charges for services,14940
@@ -2355,7 +2355,7 @@ FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,21,Tot
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,22,NET CHANGE IN FUND BALANCES,14957
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",14800
 FY2016_audit,116,combining_changes_in_fund_balance,Arrestee Medical Costs,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",29757
-FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,1,Taxes,0
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,2,Licenses and permits,0
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,3,Intergovernmental,0
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,4,Charges for services,9020
@@ -2379,7 +2379,7 @@ FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Cita
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,22,NET CHANGE IN FUND BALANCES,9020
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",41585
 FY2016_audit,116,combining_changes_in_fund_balance,Circuit Clerk Electronic Citation,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",50605
-FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,1,Taxes,0
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,2,Licenses and permits,0
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,3,Intergovernmental,0
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,4,Charges for services,9750
@@ -2403,7 +2403,7 @@ FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,21,Tota
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,22,NET CHANGE IN FUND BALANCES,9461
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",8489
 FY2016_audit,116,combining_changes_in_fund_balance,Foreclosure Mediation,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",17950
-FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,1,Taxes,0
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,2,Licenses and permits,0
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,3,Intergovernmental,1987
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,4,Charges for services,0
@@ -2427,7 +2427,7 @@ FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,21,Total other fin
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,22,NET CHANGE IN FUND BALANCES,1994
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",9938
 FY2016_audit,116,combining_changes_in_fund_balance,VCVA Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",11932
-FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,1,Taxes,0
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,2,Licenses and permits,0
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,3,Intergovernmental,0
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,4,Charges for services,0
@@ -2451,7 +2451,7 @@ FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,21,Total
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,22,NET CHANGE IN FUND BALANCES,0
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",-3444
 FY2016_audit,116,combining_changes_in_fund_balance,Transportation Grant,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",-3444
-FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,1360993
+FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,1,Taxes,1360993
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,4,Charges for services,0
@@ -2475,7 +2475,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,21,To
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,22,NET CHANGE IN FUND BALANCES,-38742
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",2277580
 FY2016_audit,117,combining_changes_in_fund_balance,Public Safety Sales Tax,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",2238838
-FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,4,Charges for services,0
@@ -2499,7 +2499,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,21,To
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,22,NET CHANGE IN FUND BALANCES,268306
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",-1164
 FY2016_audit,117,combining_changes_in_fund_balance,Courthouse Construction,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",267142
-FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,268992
+FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,1,Taxes,268992
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,4,Charges for services,0
@@ -2523,7 +2523,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,21,Total
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,22,NET CHANGE IN FUND BALANCES,-3836
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",136916
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Bond,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",133080
-FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,4,Charges for services,0
@@ -2547,7 +2547,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,21,Total
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,22,NET CHANGE IN FUND BALANCES,-39552
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",208285
 FY2016_audit,117,combining_changes_in_fund_balance,Property Maintenance,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",168733
-FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,4,Charges for services,0
@@ -2571,7 +2571,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,21,Total 
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,22,NET CHANGE IN FUND BALANCES,697
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",132781
 FY2016_audit,117,combining_changes_in_fund_balance,Maplecrest Memorial,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",133478
-FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,2,Licenses and permits,30671
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,4,Charges for services,0
@@ -2595,7 +2595,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,21,T
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,22,NET CHANGE IN FUND BALANCES,30712
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",37282
 FY2016_audit,117,combining_changes_in_fund_balance,Building and Maintenance,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",67994
-FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,4,Charges for services,0
@@ -2619,7 +2619,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,21,T
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,22,NET CHANGE IN FUND BALANCES,10195
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",10845
 FY2016_audit,117,combining_changes_in_fund_balance,Animal Services Donation,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",21040
-FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,0
+FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,1,Taxes,0
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,2,Licenses and permits,0
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,3,Intergovernmental,0
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,4,Charges for services,0
@@ -2643,7 +2643,7 @@ FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,21,Total oth
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,22,NET CHANGE IN FUND BALANCES,-749819
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,23,"FUND BALANCES (DEFICIT), DECEMBER 1, 2015",751015
 FY2016_audit,117,combining_changes_in_fund_balance,Capital Projects,24,"FUND BALANCES (DEFICIT), NOVEMBER 30, 2016",1196
-FY2016_audit,117,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,1,Highway          Matching      Department          Grant           Control          Planning REVENUES Taxes,4859880
+FY2016_audit,117,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,1,Taxes,4859880
 FY2016_audit,117,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,2,Licenses and permits,439756
 FY2016_audit,117,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,3,Intergovernmental,904307
 FY2016_audit,117,combining_changes_in_fund_balance,Total Nonmajor Governmental Funds,4,Charges for services,1347884

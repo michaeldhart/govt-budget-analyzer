@@ -66,7 +66,8 @@ def sheet_of(page, labelled):
     names = [[] for _ in range(n)]
     hdr_lines = [l for l in lines[:first_idx] if l.strip()]
     for h in hdr_lines:
-        if re.search(r"(?i)boone county|combining|nonmajor governmental funds$|november 30|^\s*assets\s*$|liabilities, deferred|revenues|inflows|continued", h):
+        h = re.sub(r"^(\s*)(?:Year Ended )?(?:November|December) \d{1,2},? \d{4}", lambda m_: " " * len(m_.group()), h)  # FY2021-23: the date shares a line with the last row of column names
+        if re.search(r"(?i)boone county|combining|nonmajor governmental funds$|november 30|^\s*assets\s*$|liabilities, deferred|revenues|inflows|continued", h) or not h.strip():
             continue
         for m in re.finditer(r"\S+(?: \S+)*", h):
             chunk = m.group()
@@ -79,7 +80,7 @@ def sheet_of(page, labelled):
             names[j].append(chunk)
     sheet_rows = []
     prev = ""
-    for line, label, vals in parsed[first_idx - 3 if first_idx >= 3 else 0:]:
+    for line, label, vals in parsed[first_idx:]:
         if n >= 6 and len(vals) <= 2 and not label.strip():
             continue  # a stray fragment line of dashes (the text layer of the FY2025 page 123 splits one row in two)
         if len(vals) >= 2 and not PAGE_NO.match(line):
@@ -99,13 +100,60 @@ def sheet_of(page, labelled):
 
 # header words of neighbouring columns that run into each other (a word centred between two columns)
 NAME_FIXES = {"Probation Replacement Services": "Probation Services", "Public Defender": "Public Defender Automation",
-              "Law Enforcement Automation Operations": "Law Enforcement Operations"}
-READ_LAYOUTS = {"FY2016", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2023 put the Total column first, name funds under 'Special Revenue Funds'
+              "Law Enforcement Automation Operations": "Law Enforcement Operations",
+              # FY2021-23: wrapped names of neighbouring columns read in the wrong order
+              "IMRF/Retirement Immunity": "IMRF/Retirement", "Tort": "Tort Immunity", "Automation": "Vital Records Automation",
+              "Regional Vital Records Communication Study": "Regional Communication Study", "Marriage and Prairie Shield Grant": "Prairie Shield Grant",
+              "Civil Union": "Marriage and Civil Union",
+              "Regional Communicatio n Study": "Regional Communication Study", "Electronic Monitoring Fund": "Electronic Monitoring", "tronic Monitoring": "Electronic Monitoring",
+              "iff K9 Donation": "Sheriff K9 Donation", "ecrest Memorial Funds": "Maplecrest Memorial", "Maplecrest Memorial Funds": "Maplecrest Memorial", "Circuit Clerk E- Citation": "Circuit Clerk E-Citation"}
+LEGACY = {2018: True, 2019: True, 2020: True, 2021: True, 2022: True, 2023: True}  # no 'Total deferred inflows' line; fund balances by classification only
+
+
+TITLE_WORDS = re.compile(r"^(?:(?:Nonmajor Government(?:al)? Funds|Special Revenue Funds|Debt Service|Capital Projects(?= \S)|\(Continued\))\s+)+", re.I)
+
+
+def clean_name(nm):
+    """Drop title/group words that the header reading picked up above the column names (FY2018-FY2020)."""
+    return TITLE_WORDS.sub("", nm).strip()
+
+
+def check_legacy_bs(rows):
+    """Balance sheet identities for the FY2018-FY2023 layout: assets add up; liabilities add up; total liabilities and deferred inflows = liabilities + the deferred line(s);
+    the fund balance lines add to the total; assets = liabilities and deferred inflows + fund balances."""
+    out = []
+    v = lambda i: rows[i]["vals"][0]  # noqa: E731
+    lab = [re.sub(r"[^a-z ]", "", (r["prev_text"] + " " + r["label"]).lower()).strip() for r in rows]
+
+    def idx(rx, start=0):
+        return next((i for i in range(start, len(lab)) if re.search(rx, lab[i])), None)
+    ta = idx(r"^total assets")
+    tl = idx(r"^total liabilities$")
+    tld = idx(r"^total liabilities and")
+    tfb = idx(r"^total fund balance")
+    tt = idx(r"^total liabilities, deferred inflows .* and fund balances|^total liabilities deferred inflows .*fund balances", (tld or 0) + 1) if tld is not None else None
+    if None in (ta, tl, tld, tfb):
+        return [("legacy balance sheet: total lines found", False, f"{ta} {tl} {tld} {tfb}")]
+    out.append(("assets add to the total", sum(v(i) for i in range(0, ta)) == v(ta), ""))
+    out.append(("liabilities add to the total", sum(v(i) for i in range(ta + 1, tl)) == v(tl), ""))
+    dfd = sum(v(i) for i in range(tl + 1, tld))
+    tld_v = v(tld) if (v(tld) or dfd) else v(tl)  # a fund with no deferred inflows prints no 'Total liabilities and deferred inflows' figure
+    note = ""
+    if v(tl) and dfd and tld_v == dfd:  # FY2021-22: the line holds the deferred-inflows subtotal (the label is the source's); the true total is liabilities + deferred
+        tld_v, note = v(tl) + dfd, f" (source prints the deferred-inflows subtotal {dfd} on this line)"
+    out.append(("total liabilities and deferred inflows = liabilities + deferred inflows", v(tl) + dfd == tld_v, f"{v(tl)} + {dfd} vs {tld_v}{note}"))
+    out.append(("fund balance lines add to the total", sum(v(i) for i in range(tld + 1, tfb)) == v(tfb), ""))
+    out.append(("assets = liabilities and deferred inflows + fund balances", v(ta) == tld_v + v(tfb), f"{v(ta)} vs {tld_v + v(tfb)}"))
+    return out
+
+
+READ_LAYOUTS = {"FY2016", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2020 (Total column first, funds named under group headings, statements of changes whose rows differ page to page) are not read yet
 # and have no total-deferred-inflows line: their funds' ending balances are in the per-fund schedules (extract_audit_fund_schedules.py)
 
 
 def main(fy):
     doc = f"{fy}_audit"
+    fy_int = int(fy[2:])
     if fy not in READ_LAYOUTS:
         print(f"{doc}: layout not read")
         return
@@ -143,37 +191,57 @@ def main(fy):
         if not base:
             checks.append((f"{kind}: labelled page", False, ""))
             continue
-        # master rows: the labelled pages' rows in order; a page whose fund has no 'Restricted for ...' line, say, is aligned by label (and occurrence)
-        def keyed(rows):
+        # master rows: the first labelled page's rows in order; a later labelled page is aligned by label (a wrapped label may be split differently from page to page, so a
+        # row matches on its full text, its own text or its first line, with the occurrence number of that text); a fund with no 'Restricted for ...' line, say, gets zero
+        def norm_(x):
+            k = re.sub(r"[^a-z]", "", re.sub(r"\(.*?\)", "", x).lower())
+            return "cashdepositsandinvestments" if k.startswith("cash") else k  # 'Cash and cash equivalents' / 'Cash, deposits and investments'
+
+
+        def cand(rows):
             seen, out_ = {}, []
             for lab, prev, v in rows:
-                k = re.sub(r"[^a-z]", "", re.sub(r"\(.*?\)", "", lab).lower()) or re.sub(r"[^a-z]", "", prev.lower())
-                seen[k] = seen.get(k, 0) + 1
-                out_.append(((k, seen[k]), lab, prev, v))
+                ks = []
+                for t in ((prev + " " + lab), lab, prev):
+                    t = norm_(t)
+                    if t and t not in ks:
+                        ks.append(t)
+                occ = tuple((k, seen.setdefault(k, 0) + 1) for k in ks)
+                for k in ks:
+                    seen[k] += 1
+                out_.append((occ, lab, prev, v))
             return out_
-        order, meta = [], {}
-        for sh in sheets:
-            if sh["labelled"]:
-                for k, lab, prev, _ in keyed(sh["rows"]):
-                    if k not in meta:
-                        meta[k] = (lab, prev)
-                        order.append(k)
-        full = [dict(label=meta[k][0], prev_text=meta[k][1], vals=[], key=k) for k in order]
-        nrows = len(order)
+        full, index = [], {}
         names = []
-        last_lab = None
+        last_rows = None
         for sh in sheets:
             if sh["labelled"]:
-                last_lab = {k: v for k, _, _, v in keyed(sh["rows"])}
-                cells = last_lab
+                last_rows = cand(sh["rows"])
+                assigned, prev_obj = [], None
+                for occ, lab, prev, v in last_rows:
+                    obj = next((index[k] for k in occ if k in index), None)
+                    if obj is None:
+                        obj = dict(label=lab, prev_text=prev, vals=[0] * len(names))
+                        full.insert((full.index(prev_obj) + 1) if prev_obj is not None else 0, obj)  # a row only this page prints goes after the row above it
+                        for k in occ:
+                            index[k] = obj
+                    assigned.append((obj, v))
+                    prev_obj = obj
+                last_assign = [o for o, _ in assigned]
+                col_vals = {id(o): v for o, v in assigned}
             else:
-                if last_lab is None or len(sh["rows"]) != len(last_lab):
-                    checks.append((f"{kind} p{sh['pn']}: row count {len(sh['rows'])} vs {len(last_lab) if last_lab else 0}", False, ""))
+                if last_rows is None or len(sh["rows"]) != len(last_assign):
+                    checks.append((f"{kind} p{sh['pn']}: row count {len(sh['rows'])} vs {len(last_assign) if last_rows else 0}", False, ""))
                     continue
-                cells = dict(zip(last_lab.keys(), (r[2] for r in sh["rows"])))
-            names += [(sh["pn"], NAME_FIXES.get(nm, nm)) for nm in sh["names"]]
+                col_vals = {id(o): r[2] for o, r in zip(last_assign, sh["rows"])}
+            names += [(sh["pn"], NAME_FIXES.get(nm, nm)) for nm in (clean_name(x) for x in sh["names"])]
             for f_ in full:
-                f_["vals"] += cells.get(f_["key"], [0] * sh["n"])
+                f_["vals"] += col_vals.get(id(f_), [0] * sh["n"])
+        if names and re.search(r"(?i)^total", names[0][1]) and not re.search(r"(?i)^total", names[-1][1]):  # FY2018-FY2020 print the Total column first
+            names = names[1:] + names[:1]
+            for f_ in full:
+                f_["vals"] = f_["vals"][1:] + f_["vals"][:1]
+        nrows = len(full)
         width = len(names)
         total_name = names[-1][1]
         for r in full:
@@ -182,7 +250,7 @@ def main(fy):
         nfail = 0
         for j, (pn, nm) in enumerate(names):
             col_rows = [dict(label=r["label"], prev_text=r["prev_text"], vals=[r["vals"][j]]) for r in full]
-            sub = check_statement("balance_sheet" if kind == "balance_sheet" else "changes", col_rows, 1)
+            sub = check_legacy_bs(col_rows) if (kind == "balance_sheet" and LEGACY.get(int(fy[2:]))) else check_statement("balance_sheet" if kind == "balance_sheet" else "changes", col_rows, 1)
             for c, ok, d in sub:
                 if not ok:
                     nfail += 1

@@ -1,0 +1,9 @@
+check,ok,detail
+balance_sheet p130 Total: total liabilities and deferred inflows = liabilities + deferred inflows,True,"ACCEPTED (source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122) 831731 + 4787391 vs 5318652"
+balance_sheet p130 Total: assets = liabilities and deferred inflows + fund balances,True,"ACCEPTED (source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122) 19171566 vs 18871096"
+balance_sheet: statement identities hold in every one of the 76 columns,True,"ACCEPTED (source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122) "
+balance_sheet: 76 columns x 20 rows read; last column 'Total',True,
+balance_sheet: 4 of 4 total lines equal the governmental funds statement,True,
+changes: statement identities hold in every one of the 76 columns,True,
+changes: 76 columns x 26 rows read; last column 'Total',True,
+changes: 4 of 4 total lines equal the governmental funds statement,True,

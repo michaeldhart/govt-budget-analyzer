@@ -1,0 +1,4 @@
+check,reason
+p130 Total: total liabilities and deferred inflows,"source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122"
+p130 Total: assets = liabilities,"source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122"
+statement identities hold,"source typo: the Total column prints 5,318,652 for total liabilities and deferred inflows; its lines (liabilities + deferred inflows) and total assets less fund balances give 5,619,122"
