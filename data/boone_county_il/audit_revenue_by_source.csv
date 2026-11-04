@@ -1,0 +1,109 @@
+entity_id,period_fy,comparable_group,report_group,budget_basis,budget_doc,budget,audit_budget_basis,audit_budget,budget_diff,worksheet_activity,audit_actual,actual_diff,budget_status,actual_status
+boone_county_il,2015,property_tax,Property tax,,,,audit_original,5774956,,,5708503,,,
+boone_county_il,2015,sales_use_tax,State sales and use tax,,,,audit_original,1877615,,,1957961,,,
+boone_county_il,2015,income_tax,State income tax,,,,audit_original,1859066,,,2025439,,,
+boone_county_il,2015,replacement_tax,Replacement tax,,,,audit_original,514508,,,530387,,,
+boone_county_il,2015,licenses_permits,Licenses and permits,,,,audit_original,143000,,,206910,,,
+boone_county_il,2015,fees_fines,"Fees, fines and charges",,,,audit_original,2267545,,,2349678,,,
+boone_county_il,2015,investment_income,Investment income,,,,audit_original,3000,,,6683,,,
+boone_county_il,2015,reimbursements_grants,Reimbursements and grants,,,,audit_original,2284900,,,1525161,,,
+boone_county_il,2015,miscellaneous,Miscellaneous,,,,audit_original,326896,,,282671,,,
+boone_county_il,2016,property_tax,Property tax,,,,audit_original,5710000,,,5672191,,,
+boone_county_il,2016,sales_use_tax,State sales and use tax,,,,audit_original,1960752,,,1897530,,,
+boone_county_il,2016,income_tax,State income tax,,,,audit_original,2036027,,,1859836,,,
+boone_county_il,2016,replacement_tax,Replacement tax,,,,audit_original,540556,,,469562,,,
+boone_county_il,2016,licenses_permits,Licenses and permits,,,,audit_original,179841,,,163109,,,
+boone_county_il,2016,fees_fines,"Fees, fines and charges",,,,audit_original,2353216,,,2152473,,,
+boone_county_il,2016,investment_income,Investment income,,,,audit_original,3000,,,5000,,,
+boone_county_il,2016,reimbursements_grants,Reimbursements and grants,,,,audit_original,1952978,,,1654157,,,
+boone_county_il,2016,miscellaneous,Miscellaneous,,,,audit_original,344503,,,229541,,,
+boone_county_il,2017,property_tax,Property tax,,,,audit_original,6104620,,,6079562,,,
+boone_county_il,2017,sales_use_tax,State sales and use tax,,,,audit_original,2100051,,,1958555,,,
+boone_county_il,2017,income_tax,State income tax,,,,audit_original,1993050,,,1757871,,,
+boone_county_il,2017,replacement_tax,Replacement tax,,,,audit_original,452000,,,501480,,,
+boone_county_il,2017,other_taxes,Other taxes,,,,audit_original,61566,,,78315,,,
+boone_county_il,2017,licenses_permits,Licenses and permits,,,,audit_original,180630,,,211153,,,
+boone_county_il,2017,fees_fines,"Fees, fines and charges",,,,audit_original,2060081,,,2080952,,,
+boone_county_il,2017,investment_income,Investment income,,,,audit_original,0,,,3375,,,
+boone_county_il,2017,reimbursements_grants,Reimbursements and grants,,,,audit_original,1727306,,,1960302,,,
+boone_county_il,2017,miscellaneous,Miscellaneous,,,,audit_original,285400,,,253648,,,
+boone_county_il,2018,property_tax,Property tax,,,,audit_final,6428334,,,6413340,,,
+boone_county_il,2018,sales_use_tax,State sales and use tax,,,,audit_final,1892985,,,2200152,,,
+boone_county_il,2018,income_tax,State income tax,,,,audit_final,1909200,,,1930442,,,
+boone_county_il,2018,replacement_tax,Replacement tax,,,,audit_final,404945,,,465651,,,
+boone_county_il,2018,other_taxes,Other taxes,,,,audit_final,66625,,,68925,,,
+boone_county_il,2018,licenses_permits,Licenses and permits,,,,audit_final,214935,,,207907,,,
+boone_county_il,2018,fees_fines,"Fees, fines and charges",,,,audit_final,2014015,,,2100161,,,
+boone_county_il,2018,investment_income,Investment income,,,,audit_final,14,,,18960,,,
+boone_county_il,2018,reimbursements_grants,Reimbursements and grants,,,,audit_final,1956168,,,1610821,,,
+boone_county_il,2018,miscellaneous,Miscellaneous,,,,audit_final,230039,,,364175,,,
+boone_county_il,2019,property_tax,Property tax,prior_doc_budget,FY2020_budget,7065813,audit_final,7065813,0,,6959741,,agree,
+boone_county_il,2019,sales_use_tax,State sales and use tax,prior_doc_budget,FY2020_budget,2123006,audit_final,2123006,0,,2218135,,agree,
+boone_county_il,2019,income_tax,State income tax,prior_doc_budget,FY2020_budget,1870359,audit_final,1870359,0,,2034795,,agree,
+boone_county_il,2019,replacement_tax,Replacement tax,prior_doc_budget,FY2020_budget,413787,audit_final,413787,0,,560212,,agree,
+boone_county_il,2019,other_taxes,Other taxes,prior_doc_budget,FY2020_budget,76306,audit_final,76306,0,,68721,,agree,
+boone_county_il,2019,licenses_permits,Licenses and permits,prior_doc_budget,FY2020_budget,194131,audit_final,194131,0,,321971,,agree,
+boone_county_il,2019,fees_fines,"Fees, fines and charges",prior_doc_budget,FY2020_budget,1996625,audit_final,1909620,-87005,,2156560,,differs,
+boone_county_il,2019,investment_income,Investment income,prior_doc_budget,FY2020_budget,8894,audit_final,8908,14,,29337,,differs,
+boone_county_il,2019,reimbursements_grants,Reimbursements and grants,prior_doc_budget,FY2020_budget,1521316,audit_final,1516788,-4528,,1684585,,differs,
+boone_county_il,2019,miscellaneous,Miscellaneous,prior_doc_budget,FY2020_budget,250074,audit_final,361173,111099,,362486,,differs,
+boone_county_il,2020,property_tax,Property tax,adopted,FY2020_budget,7310213,audit_final,7310213,0,7248452,7248452,0,agree,agree
+boone_county_il,2020,sales_use_tax,State sales and use tax,adopted,FY2020_budget,2240000,audit_final,2240000,0,2392664,2392664,0,agree,agree
+boone_county_il,2020,income_tax,State income tax,adopted,FY2020_budget,2000000,audit_final,2000000,0,2077424,2077424,0,agree,agree
+boone_county_il,2020,replacement_tax,Replacement tax,adopted,FY2020_budget,557164,audit_final,557164,0,500685,500685,0,agree,agree
+boone_county_il,2020,other_taxes,Other taxes,adopted,FY2020_budget,75000,audit_final,75000,0,49526,49526,0,agree,agree
+boone_county_il,2020,licenses_permits,Licenses and permits,adopted,FY2020_budget,223000,audit_final,223000,0,346307,346307,0,agree,agree
+boone_county_il,2020,fees_fines,"Fees, fines and charges",adopted,FY2020_budget,1857524,audit_final,1832885,-24639,1736074,1658255,-77819,differs,differs
+boone_county_il,2020,investment_income,Investment income,adopted,FY2020_budget,10500,audit_final,10500,0,20735,23285,2550,agree,differs
+boone_county_il,2020,reimbursements_grants,Reimbursements and grants,adopted,FY2020_budget,1588720,audit_final,1597970,9250,1649150,1741609,92459,differs,differs
+boone_county_il,2020,miscellaneous,Miscellaneous,adopted,FY2020_budget,254700,audit_final,376400,121700,379817,257333,-122484,differs,differs
+boone_county_il,2021,property_tax,Property tax,adopted,FY2021_budget,7503511,audit_final,7503511,0,7511317,7511317,0,agree,agree
+boone_county_il,2021,sales_use_tax,State sales and use tax,adopted,FY2021_budget,2309000,audit_final,2309000,0,2162749,3017099,854350,agree,differs
+boone_county_il,2021,income_tax,State income tax,adopted,FY2021_budget,1865000,audit_final,1865000,0,2378875,2521231,142356,agree,differs
+boone_county_il,2021,replacement_tax,Replacement tax,adopted,FY2021_budget,460000,audit_final,460000,0,831737,878961,47224,agree,differs
+boone_county_il,2021,other_taxes,Other taxes,adopted,FY2021_budget,65000,audit_final,65000,0,73726,82840,9114,agree,differs
+boone_county_il,2021,licenses_permits,Licenses and permits,adopted,FY2021_budget,223000,audit_final,223000,0,288011,299898,11887,agree,differs
+boone_county_il,2021,fees_fines,"Fees, fines and charges",adopted,FY2021_budget,1727900,audit_final,1691900,-36000,1773969,1845797,71828,differs,differs
+boone_county_il,2021,investment_income,Investment income,adopted,FY2021_budget,10500,audit_final,10500,0,30006,53631,23625,agree,differs
+boone_county_il,2021,reimbursements_grants,Reimbursements and grants,adopted,FY2021_budget,1665825,audit_final,1676825,11000,2181671,2605343,423672,differs,differs
+boone_county_il,2021,miscellaneous,Miscellaneous,adopted,FY2021_budget,267150,audit_final,367150,100000,320458,223698,-96760,differs,differs
+boone_county_il,2022,property_tax,Property tax,adopted,FY2022_budget,7414834,audit_final,7414834,0,7436658,7436658,0,agree,agree
+boone_county_il,2022,sales_use_tax,State sales and use tax,adopted,FY2022_budget,2477600,audit_final,2477600,0,3252120,3330249,78129,agree,differs
+boone_county_il,2022,income_tax,State income tax,adopted,FY2022_budget,2100000,audit_final,2100000,0,3003016,3031146,28130,agree,differs
+boone_county_il,2022,replacement_tax,Replacement tax,adopted,FY2022_budget,500000,audit_final,500000,0,1711587,1778448,66861,agree,differs
+boone_county_il,2022,other_taxes,Other taxes,adopted,FY2022_budget,70000,audit_final,70000,0,87507,86965,-542,agree,differs
+boone_county_il,2022,licenses_permits,Licenses and permits,adopted,FY2022_budget,248000,audit_final,248000,0,312285,314775,2490,agree,differs
+boone_county_il,2022,fees_fines,"Fees, fines and charges",adopted,FY2022_budget,1764650,audit_final,1702950,-61700,2149526,1682775,-466751,differs,differs
+boone_county_il,2022,investment_income,Investment income,adopted,FY2022_budget,14000,audit_final,14000,0,47756,77284,29528,agree,differs
+boone_county_il,2022,reimbursements_grants,Reimbursements and grants,adopted,FY2022_budget,1765708,audit_final,1796408,30700,1807414,2227910,420496,differs,differs
+boone_county_il,2022,miscellaneous,Miscellaneous,adopted,FY2022_budget,413312,audit_final,358312,-55000,401206,263181,-138025,differs,differs
+boone_county_il,2023,property_tax,Property tax,adopted,FY2023_budget,7400000,audit_final,7400000,0,7417332,7417332,0,agree,agree
+boone_county_il,2023,sales_use_tax,State sales and use tax,adopted,FY2023_budget,2820000,audit_final,2820000,0,3407135,3379962,-27173,agree,differs
+boone_county_il,2023,income_tax,State income tax,adopted,FY2023_budget,2700000,audit_final,2700000,0,2970986,2971101,115,agree,differs
+boone_county_il,2023,replacement_tax,Replacement tax,adopted,FY2023_budget,500000,audit_final,500000,0,1526846,1479591,-47255,agree,differs
+boone_county_il,2023,other_taxes,Other taxes,adopted,FY2023_budget,70000,audit_final,70000,0,91458,90381,-1077,agree,differs
+boone_county_il,2023,licenses_permits,Licenses and permits,adopted,FY2023_budget,247000,audit_final,247000,0,449767,453106,3339,agree,differs
+boone_county_il,2023,fees_fines,"Fees, fines and charges",adopted,FY2023_budget,1696750,audit_final,1635050,-61700,1408974,1553346,144372,differs,differs
+boone_county_il,2023,investment_income,Investment income,adopted,FY2023_budget,14000,audit_final,14000,0,271304,256793,-14511,agree,differs
+boone_county_il,2023,reimbursements_grants,Reimbursements and grants,adopted,FY2023_budget,1861209,audit_final,1891909,30700,2040318,2176080,135762,differs,differs
+boone_county_il,2023,miscellaneous,Miscellaneous,adopted,FY2023_budget,391035,audit_final,336035,-55000,431203,359962,-71241,differs,differs
+boone_county_il,2024,property_tax,Property tax,adopted,FY2024_budget,7400000,audit_original,7400000,0,7417447,7417447,0,agree,agree
+boone_county_il,2024,sales_use_tax,State sales and use tax,adopted,FY2024_budget,3464400,audit_original,3464400,0,3639952,3733329,93377,agree,differs
+boone_county_il,2024,income_tax,State income tax,adopted,FY2024_budget,2730000,audit_original,2730000,0,3166686,2996085,-170601,agree,differs
+boone_county_il,2024,replacement_tax,Replacement tax,adopted,FY2024_budget,900000,audit_original,900000,0,895133,828303,-66830,agree,differs
+boone_county_il,2024,other_taxes,Other taxes,adopted,FY2024_budget,85000,audit_original,85000,0,103630,108936,5306,agree,differs
+boone_county_il,2024,licenses_permits,Licenses and permits,adopted,FY2024_budget,294675,audit_original,294675,0,366738,361196,-5542,agree,differs
+boone_county_il,2024,fees_fines,"Fees, fines and charges",adopted,FY2024_budget,1156500,audit_original,1156500,0,1863133,1783281,-79852,agree,differs
+boone_county_il,2024,investment_income,Investment income,adopted,FY2024_budget,375000,audit_original,375000,0,505444,707824,202380,agree,differs
+boone_county_il,2024,reimbursements_grants,Reimbursements and grants,adopted,FY2024_budget,2022518,audit_original,2022518,0,2325866,2453176,127310,agree,differs
+boone_county_il,2024,miscellaneous,Miscellaneous,adopted,FY2024_budget,380987,audit_original,380987,0,428966,753195,324229,agree,differs
+boone_county_il,2025,property_tax,Property tax,adopted,FY2025_budget,7400000,audit_original,7400000,0,7410611,7410611,0,agree,agree
+boone_county_il,2025,sales_use_tax,State sales and use tax,adopted,FY2025_budget,3328000,audit_original,3328000,0,3632840,3886378,253538,agree,differs
+boone_county_il,2025,income_tax,State income tax,adopted,FY2025_budget,2850000,audit_original,2850000,0,3329796,3329796,0,agree,agree
+boone_county_il,2025,replacement_tax,Replacement tax,adopted,FY2025_budget,600000,audit_original,600000,0,644719,644719,0,agree,agree
+boone_county_il,2025,other_taxes,Other taxes,adopted,FY2025_budget,94982,audit_original,94982,0,553169,86826,-466343,agree,differs
+boone_county_il,2025,licenses_permits,Licenses and permits,adopted,FY2025_budget,306000,audit_original,306000,0,321021,321021,0,agree,agree
+boone_county_il,2025,fees_fines,"Fees, fines and charges",adopted,FY2025_budget,1379250,audit_original,1379250,0,1353484,1566289,212805,agree,differs
+boone_county_il,2025,investment_income,Investment income,adopted,FY2025_budget,395000,audit_original,395000,0,242666,314666,72000,agree,differs
+boone_county_il,2025,reimbursements_grants,Reimbursements and grants,adopted,FY2025_budget,2099514,audit_original,2099514,0,2369466,2395559,26093,agree,differs
+boone_county_il,2025,miscellaneous,Miscellaneous,adopted,FY2025_budget,448614,audit_original,446214,-2400,507195,483812,-23383,differs,differs

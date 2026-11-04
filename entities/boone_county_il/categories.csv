@@ -27,3 +27,13 @@ fn_highways,function_group,"Highways, bridges and transportation",expense,#d98a1
 fn_health,function_group,Public health and animal services,expense,#1a8f6b,4,
 fn_welfare,function_group,Public welfare,expense,#3aa0c4,5,
 fn_capital,function_group,Capital and debt,expense,#7a8794,6,
+rg_0,report_group,Property tax,revenue,#2a78d6,0,General Fund revenue by source (audit comparison)
+rg_1,report_group,State sales and use tax,revenue,#1a8f6b,1,General Fund revenue by source (audit comparison)
+rg_2,report_group,State income tax,revenue,#8a5cc7,2,General Fund revenue by source (audit comparison)
+rg_3,report_group,Replacement tax,revenue,#d98a1f,3,General Fund revenue by source (audit comparison)
+rg_4,report_group,Other taxes,revenue,#7a8794,4,General Fund revenue by source (audit comparison)
+rg_5,report_group,Licenses and permits,revenue,#c4577a,5,General Fund revenue by source (audit comparison)
+rg_6,report_group,"Fees, fines and charges",revenue,#3aa0c4,6,General Fund revenue by source (audit comparison)
+rg_7,report_group,Investment income,revenue,#b7a23a,7,General Fund revenue by source (audit comparison)
+rg_8,report_group,Reimbursements and grants,revenue,#5b6fb5,8,General Fund revenue by source (audit comparison)
+rg_9,report_group,Miscellaneous,revenue,#a97c50,9,General Fund revenue by source (audit comparison)

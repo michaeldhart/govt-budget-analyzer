@@ -1,0 +1,14 @@
+audit_label,comparable_group,heading_regex,label_regex
+ | ^property tax,property_tax,,^property tax
+ | ^state sales|^use tax|sales and use,sales_use_tax,,^state sales|^use tax|sales and use
+ | ^state income,income_tax,,^state income
+ | ^replacement tax,replacement_tax,,^replacement tax
+ | cannabis,sales_use_tax,,cannabis
+ | video gaming,other_taxes,,video gaming
+ | ^licenses and permits$|^building permits|^liquor permits|^other permits,licenses_permits,,^licenses and permits$|^building permits|^liquor permits|^other permits
+ | ^investments$|^investment income,investment_income,,^investments$|^investment income
+(?i)intergovernmental | ^(grants|other|other governmental revenue|other reimbursements|county sheriff reimbursements|public safety building|reimbursement from city|state of il),reimbursements_grants,(?i)intergovernmental,^(grants|other|other governmental revenue|other reimbursements|county sheriff reimbursements|public safety building|reimbursement from city|state of il)
+(?i)interest|miscellaneous | ^penalties,fees_fines,(?i)interest|miscellaneous,^penalties
+(?i)interest|miscellaneous | ^(county farm|miscellaneous|rent|work release|assessor|drug crime|dis?pursement|other$|plot|sheriff|treasurer),miscellaneous,(?i)interest|miscellaneous,^(county farm|miscellaneous|rent|work release|assessor|drug crime|dis?pursement|other$|plot|sheriff|treasurer)
+(?i)interest | ^revenue stamps,fees_fines,(?i)interest,^revenue stamps
+(?i)fees|charges | .,fees_fines,(?i)fees|charges,.

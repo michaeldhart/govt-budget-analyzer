@@ -294,3 +294,17 @@ def test_reference_series():
     assert rows[2026]["eav_flag"] == "EX-reference-eav-estimate" and rows[2026]["eav_city"] == "1722225472"
     assert all(rows[y]["eav_city"] for y in range(2012, 2027))
     assert float(rows[2012]["cpi_factor"]) > float(rows[2020]["cpi_factor"]) > 1.0
+
+
+def test_general_fund_revenue_by_source():
+    rows = list(csv.DictReader(open(DATA / "audit_revenue_by_source.csv", newline="")))
+    b = [r for r in rows if r["budget_status"]]
+    assert len(b) == 70 and sum(r["budget_status"] == "agree" for r in b) == 53
+    assert {r["period_fy"] for r in b} == {str(y) for y in range(2019, 2026)}  # FY2015-FY2018 have no line-level budget
+    total = lambda fy, col: sum(int(r[col]) for r in rows if r["period_fy"] == str(fy) and r[col] != "")  # noqa: E731
+    assert [total(fy, "audit_budget") - total(fy, "budget") for fy in range(2019, 2026)] == [19580, 106311, 75000, -86000, -86000, 0, -2400]
+    fy24 = [r for r in b if r["period_fy"] == "2024"]
+    assert len(fy24) == 10 and all(r["budget_status"] == "agree" for r in fy24)
+    from govbudget import Entity
+    from govbudget.validate import validate_config
+    assert validate_config(Entity.load("boone_county_il")) == []
