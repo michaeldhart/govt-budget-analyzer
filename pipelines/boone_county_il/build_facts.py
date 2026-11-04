@@ -193,6 +193,13 @@ def audit_part(ex, audits):
                         audit_section=f"{r['fund_name']} | {'Other financing sources' if financing else r['section']} | ", label=r["label"],
                         page_label="", pdf_page=r["pdf_page"], flag="other_financing" if financing else "")
             emit(base, r["budget"], r["actual"])
+        comb = E.data_path(*adir, f"{doc_id}_combining.csv")
+        if os.path.exists(comb):  # combining statements of the nonmajor funds (extract_audit_combining.py): one row per fund column x line
+            for r in csv.DictReader(open(comb)):
+                base_st = "balance_sheet" if r["statement"] == "combining_balance_sheet" else "changes_in_fund_balance"
+                lid = next((i for st, rx, i in stmt_map if st == base_st and rx.search(r["label"])), "")
+                statements.append(dict(entity_id=E.id, doc_id=doc_id, period_fy=fy, statement=r["statement"], fund=r["fund"], section="", subsection="",
+                                       line_item=r["label"], line_id=lid, amount=int(float(r["amount"])), pdf_page=r["pdf_page"], flag=""))
         for r in csv.DictReader(open(E.data_path(*adir, f"{doc_id}_fund_statements.csv"))):
             statement = {"balance_sheet": "balance_sheet", "changes": "changes_in_fund_balance"}[r["statement"]]
             item = (r["prev_text"] + " " + r["label"]).strip()

@@ -254,3 +254,31 @@ def test_pension_schedules_agree_across_audits_and_tie_to_the_debt_note():
     assert npl[("FY2025_audit", "imrf_eco", "2024")] == debt[("2025", "npl_eco")] == 1247169
     opeb = {(r["doc_id"], r["column_year"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "opeb_rollforward.csv", newline="")) if r["line_id"] == "liability_ending"}
     assert opeb[("FY2025_audit", "2025")] == debt[("2025", "opeb")] == 5436603
+
+
+def test_combining_statements_of_the_nonmajor_funds():
+    import re
+    for fy in (2016, 2024, 2025):
+        checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_combining_checks.csv", newline="")))
+        assert checks and all(c["ok"] == "True" for c in checks), fy
+    rows = list(csv.DictReader(open(DATA / "fund_statements.csv", newline="")))
+    bal = {}
+    for r in rows:
+        if r["doc_id"] == "FY2025_audit" and r["statement"] == "combining_balance_sheet" and r["line_id"] == "total_fund_balance":
+            bal[r["fund"]] = int(r["amount"])
+    total = bal.pop("Total Nonmajor Governmental Funds")
+    assert len(bal) == 60 and sum(bal.values()) == total == 20302376
+    # every fund that has a per-fund schedule shows the same ending balance there; 23 funds (5.6M) have none
+    sched = {}
+    for r in csv.DictReader(open(AUD / "FY2025_audit_fund_schedules.csv", newline="")):
+        if r["line_type"] == "ending" and r["actual"] != "":
+            sched[re.sub(r"[^a-z]", "", r["fund_name"].lower().replace("fund", ""))] = int(float(r["actual"]))
+    key = lambda s: re.sub(r"[^a-z]", "", s.lower().replace("fund", ""))  # noqa: E731
+    both = {k: v for k, v in bal.items() if key(k) in sched}
+    assert len(both) == 37 and all(v == sched[key(k)] for k, v in both.items())
+    assert sum(v for k, v in bal.items() if key(k) not in sched) == 5620309
+    # each fund's FY2025 opening balance is its FY2024 closing balance (61 of 61 funds in both audits)
+    end24 = {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == "FY2024_audit" and r["statement"] == "combining_changes_in_fund_balance" and r["line_id"] == "fund_balance_ending"}
+    beg25 = {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == "FY2025_audit" and r["statement"] == "combining_changes_in_fund_balance" and r["line_id"] == "fund_balance_beginning"}
+    common = set(end24) & set(beg25)
+    assert len(common) == 61 and all(end24[f] == beg25[f] for f in common)  # 60 funds and the Total column

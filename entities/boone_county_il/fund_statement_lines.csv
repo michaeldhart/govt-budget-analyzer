@@ -3,7 +3,7 @@ balance_sheet,(?i)^cash,cash,"Cash, deposits and investments"
 balance_sheet,(?i)^total assets$,total_assets,
 balance_sheet,(?i)^total liabilities$,total_liabilities,
 balance_sheet,(?i)^total deferred inflows,total_deferred_inflows,
-balance_sheet,(?i)^total fund balances?$,total_fund_balance,
+balance_sheet,(?i)^total fund balances?( \(deficit\))?$,total_fund_balance,
 balance_sheet,(?i)^unassigned,unassigned,
 balance_sheet,(?i)and fund balances?$,total_liabilities_and_fund_balance,
 balance_sheet,(?i)^total liabilities and,total_liabilities_and_deferred_and_fund_balance,
