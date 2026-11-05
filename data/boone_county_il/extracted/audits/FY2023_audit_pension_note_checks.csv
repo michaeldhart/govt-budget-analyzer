@@ -1,0 +1,74 @@
+check,ok,detail
+imrf_regular changes 'Net Pension Total Pension     ': (a) - (b) = net,True,
+imrf_regular changes 'Changes for the year: Service ': (a) - (b) = net,True,
+imrf_regular changes 'Interest on the total pension ': (a) - (b) = net,True,
+imrf_regular changes 'Differences between expected a': (a) - (b) = net,True,
+imrf_regular changes 'Contributions - employer': (a) - (b) = net,True,
+imrf_regular changes 'Contributions - employees': (a) - (b) = net,True,
+imrf_regular changes 'Net investment income (loss)': (a) - (b) = net,True,
+"imrf_regular changes 'Benefit payments, including re': (a) - (b) = net",True,
+imrf_regular changes 'Other (net transfer)': (a) - (b) = net,True,
+imrf_regular changes 'Net changes': (a) - (b) = net,True,
+"imrf_regular changes 'Balances at December 31, 2022': (a) - (b) = net",True,
+imrf_regular changes total_pension_liability: beginning + net changes = ending,True,55143361.0 + 2638883.0 vs 57782244.0
+imrf_regular changes fiduciary_net_position: beginning + net changes = ending,True,64176476.0 + -9019397.0 vs 55157079.0
+imrf_regular changes net_pension_liability: beginning + net changes = ending,True,-9033115.0 + 11658280.0 vs 2625165.0
+imrf_regular changes total_pension_liability: components add to the net changes,True,2638883.0 vs 2638883.0
+imrf_regular changes fiduciary_net_position: components add to the net changes,True,-9019397.0 vs -9019397.0
+imrf_regular changes net_pension_liability: components add to the net changes,True,11658280.0 vs 11658280.0
+imrf_regular changes: ending net pension liability = schedule,True,2625165.0 vs 2625165.0
+imrf_regular sensitivity: lower rate gives the larger liability,True,9881132.0 > 2625165.0 > -3037324.0
+imrf_regular sensitivity: current rate = net pension liability,True,2625165.0 vs 2625165.0
+imrf_regular deferred outflows add to the total,True,
+imrf_regular deferred inflows add to the total,True,
+imrf_regular recognition schedule adds to the total,True,4920596.0 vs 4920596.0
+imrf_regular membership adds to the total,True,561.0 vs 561.0
+imrf_regular target allocation adds to the total,True,100.0 vs 100.0
+slep changes 'Total Pension Plan Fiduciary  ': (a) - (b) = net,True,
+slep changes 'Changes for the year: Service ': (a) - (b) = net,True,
+slep changes 'Interest on the total pension ': (a) - (b) = net,True,
+slep changes 'Differences between expected a': (a) - (b) = net,True,
+slep changes 'Contributions - employer': (a) - (b) = net,True,
+slep changes 'Contributions - employees': (a) - (b) = net,True,
+slep changes 'Net investment income (loss)': (a) - (b) = net,True,
+"slep changes 'Benefit payments, including re': (a) - (b) = net",True,
+slep changes 'Other (net transfer)': (a) - (b) = net,True,
+slep changes 'Net changes': (a) - (b) = net,True,
+"slep changes 'Balances at December 31, 2022': (a) - (b) = net",True,
+slep changes total_pension_liability: beginning + net changes = ending,True,26825119.0 + 930897.0 vs 27756016.0
+slep changes fiduciary_net_position: beginning + net changes = ending,True,29588855.0 + -4241820.0 vs 25347035.0
+slep changes net_pension_liability: beginning + net changes = ending,True,-2763736.0 + 5172717.0 vs 2408981.0
+slep changes total_pension_liability: components add to the net changes,True,930897.0 vs 930897.0
+slep changes fiduciary_net_position: components add to the net changes,True,-4241820.0 vs -4241820.0
+slep changes net_pension_liability: components add to the net changes,True,5172717.0 vs 5172717.0
+slep changes: ending net pension liability = schedule,True,2408981.0 vs 2408981.0
+slep sensitivity: lower rate gives the larger liability,True,6396317.0 > 2408981.0 > -844529.0
+slep sensitivity: current rate = net pension liability,True,2408981.0 vs 2408981.0
+slep deferred outflows add to the total,True,
+slep deferred inflows add to the total,True,
+slep recognition schedule adds to the total,True,1813541.0 vs 1813541.0
+slep membership adds to the total,True,68.0 vs 68.0
+slep target allocation adds to the total,True,100.0 vs 100.0
+imrf_eco changes 'Net Pension Total Pension     ': (a) - (b) = net,True,
+imrf_eco changes 'Interest on the total pension ': (a) - (b) = net,True,
+imrf_eco changes 'Differences between expected a': (a) - (b) = net,True,
+imrf_eco changes 'Contributions - employer': (a) - (b) = net,True,
+imrf_eco changes 'Net investment income (loss)': (a) - (b) = net,True,
+"imrf_eco changes 'Benefit payments, including re': (a) - (b) = net",True,
+imrf_eco changes 'Other (net transfer)': (a) - (b) = net,True,
+imrf_eco changes 'Net changes': (a) - (b) = net,True,
+"imrf_eco changes 'Balances at December 31, 2022': (a) - (b) = net",True,
+imrf_eco changes total_pension_liability: beginning + net changes = ending,True,4852379.0 + 182208.0 vs 5034587.0
+imrf_eco changes fiduciary_net_position: beginning + net changes = ending,True,4637082.0 + -1040437.0 vs 3596645.0
+imrf_eco changes net_pension_liability: beginning + net changes = ending,True,215297.0 + 1222645.0 vs 1437942.0
+imrf_eco changes total_pension_liability: components add to the net changes,True,182208.0 vs 182208.0
+imrf_eco changes fiduciary_net_position: components add to the net changes,True,-1040437.0 vs -1040437.0
+imrf_eco changes net_pension_liability: components add to the net changes,True,1222645.0 vs 1222645.0
+imrf_eco changes: ending net pension liability = schedule,True,1437942.0 vs 1437942.0
+imrf_eco sensitivity: lower rate gives the larger liability,True,1844984.0 > 1437942.0 > 1084477.0
+imrf_eco sensitivity: current rate = net pension liability,True,1437942.0 vs 1437942.0
+imrf_eco deferred outflows add to the total,True,
+imrf_eco deferred inflows add to the total,True,
+imrf_eco recognition schedule adds to the total,True,336798.0 vs 336798.0
+imrf_eco membership adds to the total,True,9.0 vs 9.0
+imrf_eco target allocation adds to the total,True,100.0 vs 100.0

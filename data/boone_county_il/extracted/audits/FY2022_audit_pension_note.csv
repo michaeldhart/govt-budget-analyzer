@@ -1,0 +1,262 @@
+doc_id,pdf_page,plan_id,section,line_item,column,value,value_text,unit
+FY2022_audit,55,imrf_regular,membership,were covered by the benefit terms: Retirees and beneficiaries currently receiving benefits,members,176.0,,count
+FY2022_audit,55,imrf_regular,membership,Inactive plan member entitled to but not yet receiving benefits,members,173.0,,count
+FY2022_audit,55,imrf_regular,membership,Active employees,members,182.0,,count
+FY2022_audit,55,imrf_regular,membership,Total,members,531.0,,count
+FY2022_audit,55,imrf_regular,contributions,member contribution rate,rate,4.5,,percent
+FY2022_audit,55,imrf_regular,contributions,employer contribution rate,rate,8.82,,percent
+FY2022_audit,55,imrf_regular,contributions,employer contributions for the fiscal year,amount,744502.0,,usd
+FY2022_audit,55,imrf_regular,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2022_audit,55,imrf_regular,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2022_audit,55,imrf_regular,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2022_audit,55,imrf_regular,assumptions,Salary increases,assumption,,"2.85% to 13.75%, including inflation",text
+FY2022_audit,55,imrf_regular,assumptions,Investment rate of return,assumption,7.25,7.25%,percent
+FY2022_audit,55,imrf_regular,assumptions,Retirement age,assumption,,Experience-based table of rates that are specific to the type of eligibility,text
+FY2022_audit,55,imrf_regular,assumptions,Mortality,assumption,,"For non-disabled retirees, the Pub-2010, Amount-Weighted, below-median",text
+FY2022_audit,56,imrf_regular,allocation,Domestic equity,target_pct,39.0,,percent
+FY2022_audit,56,imrf_regular,allocation,Domestic equity,expected_real_return,1.9,1.90%,percent
+FY2022_audit,56,imrf_regular,allocation,International equity,target_pct,15.0,,percent
+FY2022_audit,56,imrf_regular,allocation,International equity,expected_real_return,3.15,3.15%,percent
+FY2022_audit,56,imrf_regular,allocation,Fixed income,target_pct,25.0,,percent
+FY2022_audit,56,imrf_regular,allocation,Fixed income,expected_real_return,,(0.60)%,percent
+FY2022_audit,56,imrf_regular,allocation,Real estate,target_pct,10.0,,percent
+FY2022_audit,56,imrf_regular,allocation,Real estate,expected_real_return,3.3,3.30%,percent
+FY2022_audit,56,imrf_regular,allocation,Alternative investments,target_pct,10.0,,percent
+FY2022_audit,56,imrf_regular,allocation,Alternative investments,expected_real_return,,1.70-5.50%,percent
+FY2022_audit,56,imrf_regular,allocation,Cash equivalents,target_pct,1.0,,percent
+FY2022_audit,56,imrf_regular,allocation,Cash equivalents,expected_real_return,,(0.90)%,percent
+FY2022_audit,56,imrf_regular,allocation,TOTAL,target_pct,100.0,,percent
+FY2022_audit,56,imrf_regular,discount_rate,discount rate,rate,7.25,,percent
+FY2022_audit,57,imrf_regular,npl_changes,"Net Pension Total Pension                        Liability Liability       Plan Net            (Asset) (A)         Position (B)         (A) - (B) Balances at January 1, 2021",total_pension_liability,51929097.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Net Pension Total Pension                        Liability Liability       Plan Net            (Asset) (A)         Position (B)         (A) - (B) Balances at January 1, 2021",fiduciary_net_position,55643998.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Net Pension Total Pension                        Liability Liability       Plan Net            (Asset) (A)         Position (B)         (A) - (B) Balances at January 1, 2021",net_pension_liability,-3714901.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Changes for the year: Service cost,total_pension_liability,978625.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Changes for the year: Service cost,fiduciary_net_position,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Changes for the year: Service cost,net_pension_liability,978625.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Interest on the total pension liability,total_pension_liability,3717999.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Interest on the total pension liability,net_pension_liability,3717999.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,788976.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,788976.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employer,total_pension_liability,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employer,fiduciary_net_position,925173.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employer,net_pension_liability,-925173.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employees,total_pension_liability,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employees,fiduciary_net_position,472027.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Contributions - employees,net_pension_liability,-472027.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net investment income,fiduciary_net_position,9414773.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net investment income,net_pension_liability,-9414773.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-2271336.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-2271336.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Other (net transfer),fiduciary_net_position,-8159.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Other (net transfer),net_pension_liability,8159.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net changes,total_pension_liability,3214264.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net changes,fiduciary_net_position,8532478.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,Net changes,net_pension_liability,-5318214.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Balances at December 31, 2021",total_pension_liability,55143361.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Balances at December 31, 2021",fiduciary_net_position,64176476.0,,usd
+FY2022_audit,57,imrf_regular,npl_changes,"Balances at December 31, 2021",net_pension_liability,-9033115.0,,usd
+FY2022_audit,58,imrf_regular,sensitivity,Net pension liability (asset),rate_6.25,-1933891.0,,usd
+FY2022_audit,58,imrf_regular,sensitivity,Net pension liability (asset),rate_7.25,-9033115.0,,usd
+FY2022_audit,58,imrf_regular,sensitivity,Net pension liability (asset),rate_8.25,-14603021.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Difference between expected and actual experience,deferred_outflows,893013.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Difference between expected and actual experience,deferred_inflows,0.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Changes in assumptions,deferred_outflows,49961.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Changes in assumptions,deferred_inflows,338446.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,0.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,7189161.0,,usd
+FY2022_audit,58,imrf_regular,deferred,subtotal future periods,deferred_outflows,942974.0,,usd
+FY2022_audit,58,imrf_regular,deferred,subtotal future periods,deferred_inflows,7527607.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Pension contributions subsequent to the measurement date,deferred_outflows,604588.0,,usd
+FY2022_audit,58,imrf_regular,deferred,Pension contributions subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2022_audit,58,imrf_regular,deferred,TOTAL,deferred_outflows,1547562.0,,usd
+FY2022_audit,58,imrf_regular,deferred,TOTAL,deferred_inflows,7527607.0,,usd
+FY2022_audit,59,imrf_regular,deferred,recognition 2023,net_amount,-1317852.0,,usd
+FY2022_audit,59,imrf_regular,deferred,recognition 2024,net_amount,-2579105.0,,usd
+FY2022_audit,59,imrf_regular,deferred,recognition 2025,net_amount,-1605162.0,,usd
+FY2022_audit,59,imrf_regular,deferred,recognition 2026,net_amount,-1082514.0,,usd
+FY2022_audit,59,imrf_regular,deferred,recognition total,net_amount,-6584633.0,,usd
+FY2022_audit,59,slep,membership,benefit terms: Retirees and beneficiaries currently receiving benefits,members,24.0,,count
+FY2022_audit,59,slep,membership,Inactive plan member entitled to but not yet receiving benefits,members,6.0,,count
+FY2022_audit,59,slep,membership,Active employees,members,33.0,,count
+FY2022_audit,59,slep,membership,Total,members,63.0,,count
+FY2022_audit,59,slep,contributions,member contribution rate,rate,7.5,,percent
+FY2022_audit,59,slep,contributions,employer contribution rate,rate,19.03,,percent
+FY2022_audit,59,slep,contributions,employer contributions for the fiscal year,amount,448870.0,,usd
+FY2022_audit,60,slep,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2022_audit,60,slep,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2022_audit,60,slep,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2022_audit,60,slep,assumptions,Salary increases,assumption,,"2.85% to 13.75%, including inflation",text
+FY2022_audit,60,slep,assumptions,Investment rate of return,assumption,7.25,7.25%,percent
+FY2022_audit,60,slep,assumptions,Retirement age,assumption,,"Experience based Table of Rates, specific to the type of eligibility condition, last",text
+FY2022_audit,60,slep,assumptions,Mortality,assumption,,"For non-disabled retirees, the Pub-2010, Amount-Weighted, below-median",text
+FY2022_audit,60,slep,allocation,Domestic equity,target_pct,39.0,,percent
+FY2022_audit,60,slep,allocation,Domestic equity,expected_real_return,1.9,1.90%,percent
+FY2022_audit,60,slep,allocation,International equity,target_pct,15.0,,percent
+FY2022_audit,60,slep,allocation,International equity,expected_real_return,3.15,3.15%,percent
+FY2022_audit,60,slep,allocation,Fixed income,target_pct,25.0,,percent
+FY2022_audit,60,slep,allocation,Fixed income,expected_real_return,,(0.60)%,percent
+FY2022_audit,60,slep,allocation,Real estate,target_pct,10.0,,percent
+FY2022_audit,60,slep,allocation,Real estate,expected_real_return,3.3,3.30%,percent
+FY2022_audit,60,slep,allocation,Alternative investments,target_pct,10.0,,percent
+FY2022_audit,60,slep,allocation,Alternative investments,expected_real_return,,1.70-5.50%,percent
+FY2022_audit,60,slep,allocation,Cash equivalents,target_pct,1.0,,percent
+FY2022_audit,60,slep,allocation,Cash equivalents,expected_real_return,1.85,1.85%,percent
+FY2022_audit,60,slep,allocation,TOTAL,target_pct,100.0,,percent
+FY2022_audit,61,slep,discount_rate,discount rate,rate,7.25,,percent
+FY2022_audit,61,slep,npl_changes,"Total Pension Plan Fiduciary     Net Pension Liability    Net Position       Liability (A)            (B)            (A) - (B) Balances at January 1, 2021",total_pension_liability,25077992.0,,usd
+FY2022_audit,61,slep,npl_changes,"Total Pension Plan Fiduciary     Net Pension Liability    Net Position       Liability (A)            (B)            (A) - (B) Balances at January 1, 2021",fiduciary_net_position,25628365.0,,usd
+FY2022_audit,61,slep,npl_changes,"Total Pension Plan Fiduciary     Net Pension Liability    Net Position       Liability (A)            (B)            (A) - (B) Balances at January 1, 2021",net_pension_liability,-550373.0,,usd
+FY2022_audit,61,slep,npl_changes,Changes for the year: Service cost,total_pension_liability,493523.0,,usd
+FY2022_audit,61,slep,npl_changes,Changes for the year: Service cost,fiduciary_net_position,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Changes for the year: Service cost,net_pension_liability,493523.0,,usd
+FY2022_audit,61,slep,npl_changes,Interest on the total pension liability,total_pension_liability,1803594.0,,usd
+FY2022_audit,61,slep,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Interest on the total pension liability,net_pension_liability,1803594.0,,usd
+FY2022_audit,61,slep,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,345208.0,,usd
+FY2022_audit,61,slep,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,345208.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employer,total_pension_liability,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employer,fiduciary_net_position,562443.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employer,net_pension_liability,-562443.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employees,total_pension_liability,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employees,fiduciary_net_position,245599.0,,usd
+FY2022_audit,61,slep,npl_changes,Contributions - employees,net_pension_liability,-245599.0,,usd
+FY2022_audit,61,slep,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Net investment income,fiduciary_net_position,4350098.0,,usd
+FY2022_audit,61,slep,npl_changes,Net investment income,net_pension_liability,-4350098.0,,usd
+FY2022_audit,61,slep,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-895198.0,,usd
+FY2022_audit,61,slep,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-895198.0,,usd
+FY2022_audit,61,slep,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2022_audit,61,slep,npl_changes,Other (net transfer),fiduciary_net_position,-302452.0,,usd
+FY2022_audit,61,slep,npl_changes,Other (net transfer),net_pension_liability,302452.0,,usd
+FY2022_audit,61,slep,npl_changes,Net changes,total_pension_liability,1747127.0,,usd
+FY2022_audit,61,slep,npl_changes,Net changes,fiduciary_net_position,3960490.0,,usd
+FY2022_audit,61,slep,npl_changes,Net changes,net_pension_liability,-2213363.0,,usd
+FY2022_audit,61,slep,npl_changes,"Balances at December 31, 2021",total_pension_liability,26825119.0,,usd
+FY2022_audit,61,slep,npl_changes,"Balances at December 31, 2021",fiduciary_net_position,29588855.0,,usd
+FY2022_audit,61,slep,npl_changes,"Balances at December 31, 2021",net_pension_liability,-2763736.0,,usd
+FY2022_audit,62,slep,sensitivity,Net pension liability (asset),rate_6.25,1116199.0,,usd
+FY2022_audit,62,slep,sensitivity,Net pension liability (asset),rate_7.25,-2763736.0,,usd
+FY2022_audit,62,slep,sensitivity,Net pension liability (asset),rate_8.25,-5924323.0,,usd
+FY2022_audit,62,slep,deferred,Difference between expected and actual experience,deferred_outflows,321672.0,,usd
+FY2022_audit,62,slep,deferred,Difference between expected and actual experience,deferred_inflows,544871.0,,usd
+FY2022_audit,62,slep,deferred,Changes in assumptions,deferred_outflows,291498.0,,usd
+FY2022_audit,62,slep,deferred,Changes in assumptions,deferred_inflows,162410.0,,usd
+FY2022_audit,62,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,0.0,,usd
+FY2022_audit,62,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,3282111.0,,usd
+FY2022_audit,62,slep,deferred,subtotal future periods,deferred_outflows,613170.0,,usd
+FY2022_audit,62,slep,deferred,subtotal future periods,deferred_inflows,3989392.0,,usd
+FY2022_audit,62,slep,deferred,Pension contributions subsequent to the measurement date,deferred_outflows,369776.0,,usd
+FY2022_audit,62,slep,deferred,Pension contributions subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2022_audit,62,slep,deferred,TOTAL,deferred_outflows,982946.0,,usd
+FY2022_audit,62,slep,deferred,TOTAL,deferred_inflows,3989392.0,,usd
+FY2022_audit,63,slep,deferred,recognition 2023,net_amount,-822188.0,,usd
+FY2022_audit,63,slep,deferred,recognition 2024,net_amount,-1274224.0,,usd
+FY2022_audit,63,slep,deferred,recognition 2025,net_amount,-815054.0,,usd
+FY2022_audit,63,slep,deferred,recognition 2026,net_amount,-493804.0,,usd
+FY2022_audit,63,slep,deferred,recognition 2027,net_amount,29048.0,,usd
+FY2022_audit,63,slep,deferred,recognition total,net_amount,-3376222.0,,usd
+FY2022_audit,63,imrf_eco,membership,were covered by the benefit terms: Retirees and beneficiaries currently receiving benefits,members,8.0,,count
+FY2022_audit,63,imrf_eco,membership,Inactive plan member entitled to but not yet receiving benefits,members,1.0,,count
+FY2022_audit,63,imrf_eco,membership,Active employees,members,0.0,,count
+FY2022_audit,63,imrf_eco,membership,Total,members,9.0,,count
+FY2022_audit,63,imrf_eco,contributions,member contribution rate,rate,4.5,,percent
+FY2022_audit,63,imrf_eco,contributions,employer contribution rate,rate,15.08,,percent
+FY2022_audit,63,imrf_eco,contributions,employer contributions for the fiscal year,amount,103725.0,,usd
+FY2022_audit,64,imrf_eco,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2022_audit,64,imrf_eco,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2022_audit,64,imrf_eco,assumptions,Inflation,assumption,2.25,2.25%,percent
+FY2022_audit,64,imrf_eco,assumptions,Salary increases,assumption,,2.85% to 13.75%,text
+FY2022_audit,64,imrf_eco,assumptions,Investment rate of return,assumption,7.25,7.25%,percent
+FY2022_audit,64,imrf_eco,assumptions,Retirement age,assumption,,"Experience based Table of Rates, specific to the type of eligibility condition, last",text
+FY2022_audit,64,imrf_eco,assumptions,Mortality,assumption,,"For non-disabled retirees, the Pub-2010, Amount-Weighted, below-median",text
+FY2022_audit,64,imrf_eco,allocation,Domestic equity,target_pct,39.0,,percent
+FY2022_audit,64,imrf_eco,allocation,Domestic equity,expected_real_return,1.9,1.90%,percent
+FY2022_audit,64,imrf_eco,allocation,International equity,target_pct,15.0,,percent
+FY2022_audit,64,imrf_eco,allocation,International equity,expected_real_return,3.15,3.15%,percent
+FY2022_audit,64,imrf_eco,allocation,Fixed income,target_pct,25.0,,percent
+FY2022_audit,64,imrf_eco,allocation,Fixed income,expected_real_return,,(0.60)%,percent
+FY2022_audit,64,imrf_eco,allocation,Real estate,target_pct,10.0,,percent
+FY2022_audit,64,imrf_eco,allocation,Real estate,expected_real_return,3.3,3.30%,percent
+FY2022_audit,64,imrf_eco,allocation,Alternative investments,target_pct,10.0,,percent
+FY2022_audit,64,imrf_eco,allocation,Alternative investments,expected_real_return,,1.70-5.50%,percent
+FY2022_audit,64,imrf_eco,allocation,Cash equivalents,target_pct,1.0,,percent
+FY2022_audit,64,imrf_eco,allocation,Cash equivalents,expected_real_return,1.85,1.85%,percent
+FY2022_audit,64,imrf_eco,allocation,TOTAL,target_pct,100.0,,percent
+FY2022_audit,65,imrf_eco,discount_rate,discount rate,rate,7.25,,percent
+FY2022_audit,65,imrf_eco,npl_changes,"Net Pension Total Pension                      Liability Liability        Plan Net         (Asset) (A)          Position (B)      (A) - (B) Balances at January 1, 2021",total_pension_liability,4894394.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Net Pension Total Pension                      Liability Liability        Plan Net         (Asset) (A)          Position (B)      (A) - (B) Balances at January 1, 2021",fiduciary_net_position,4151995.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Net Pension Total Pension                      Liability Liability        Plan Net         (Asset) (A)          Position (B)      (A) - (B) Balances at January 1, 2021",net_pension_liability,742399.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Interest on the total pension liability,total_pension_liability,337880.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Interest on the total pension liability,net_pension_liability,337880.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,88061.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,88061.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Contributions - employer,total_pension_liability,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Contributions - employer,fiduciary_net_position,121544.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Contributions - employer,net_pension_liability,-121544.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net investment income,fiduciary_net_position,779577.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net investment income,net_pension_liability,-779577.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-467956.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-467956.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Other (net transfer),fiduciary_net_position,51922.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Other (net transfer),net_pension_liability,-51922.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net changes,total_pension_liability,-42015.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net changes,fiduciary_net_position,485087.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,Net changes,net_pension_liability,-527102.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Balances at December 31, 2021",total_pension_liability,4852379.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Balances at December 31, 2021",fiduciary_net_position,4637082.0,,usd
+FY2022_audit,65,imrf_eco,npl_changes,"Balances at December 31, 2021",net_pension_liability,215297.0,,usd
+FY2022_audit,66,imrf_eco,sensitivity,Net pension liability (asset),rate_6.25,614621.0,,usd
+FY2022_audit,66,imrf_eco,sensitivity,Net pension liability (asset),rate_7.25,215297.0,,usd
+FY2022_audit,66,imrf_eco,sensitivity,Net pension liability (asset),rate_8.25,-130764.0,,usd
+FY2022_audit,66,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,0.0,,usd
+FY2022_audit,66,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,637517.0,,usd
+FY2022_audit,66,imrf_eco,deferred,subtotal future periods,deferred_outflows,0.0,,usd
+FY2022_audit,66,imrf_eco,deferred,subtotal future periods,deferred_inflows,637517.0,,usd
+FY2022_audit,66,imrf_eco,deferred,Pension contributions subsequent to the measurement date,deferred_outflows,93596.0,,usd
+FY2022_audit,66,imrf_eco,deferred,Pension contributions subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2022_audit,66,imrf_eco,deferred,TOTAL,deferred_outflows,93596.0,,usd
+FY2022_audit,66,imrf_eco,deferred,TOTAL,deferred_inflows,637517.0,,usd
+FY2022_audit,67,imrf_eco,deferred,recognition 2023,net_amount,-130017.0,,usd
+FY2022_audit,67,imrf_eco,deferred,recognition 2024,net_amount,-250663.0,,usd
+FY2022_audit,67,imrf_eco,deferred,recognition 2025,net_amount,-158992.0,,usd
+FY2022_audit,67,imrf_eco,deferred,recognition 2026,net_amount,-97845.0,,usd
+FY2022_audit,67,imrf_eco,deferred,recognition total,net_amount,-637517.0,,usd
+FY2022_audit,67,opeb,text,member contribution rate,rate,80.0,,percent
+FY2022_audit,68,opeb,membership,employees were covered by the benefit terms: Active employees,members,179.0,,count
+FY2022_audit,68,opeb,membership,Inactive employees currently receiving benefits,members,0.0,,count
+FY2022_audit,68,opeb,membership,Retirees and beneficiaries currently receiving benefits,members,20.0,,count
+FY2022_audit,68,opeb,membership,Total,members,199.0,,count
+FY2022_audit,69,opeb,assumptions,Discount Rate,assumption,4.19,4.19%,percent
+FY2022_audit,70,opeb,assumptions,Mortality,assumption,,"IMRF Employees and Retirees: Rates from the December 31, 2020",text
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_low,2923233.0,,usd
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_current,3207678.0,,usd
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_high,3520436.0,,usd
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_low,3633502.0,,usd
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_current,3207678.0,,usd
+FY2022_audit,75,opeb,sensitivity,Net OPEB liability,rate_high,2841944.0,,usd
+FY2022_audit,76,opeb,deferred,expense recognized,amount,147152.0,,usd
+FY2022_audit,76,opeb,deferred,Difference between expected and actual experience,deferred_outflows,44486.0,,usd
+FY2022_audit,76,opeb,deferred,Difference between expected and actual experience,deferred_inflows,815728.0,,usd
+FY2022_audit,76,opeb,deferred,Changes in assumptions,deferred_outflows,995613.0,,usd
+FY2022_audit,76,opeb,deferred,Changes in assumptions,deferred_inflows,1062834.0,,usd
+FY2022_audit,76,opeb,deferred,TOTAL,deferred_outflows,1040099.0,,usd
+FY2022_audit,76,opeb,deferred,TOTAL,deferred_inflows,1878562.0,,usd
+FY2022_audit,76,opeb,deferred,recognition 2023,net_amount,135759.0,,usd
+FY2022_audit,76,opeb,deferred,recognition 2024,net_amount,135759.0,,usd
+FY2022_audit,76,opeb,deferred,recognition 2025,net_amount,135759.0,,usd
+FY2022_audit,76,opeb,deferred,recognition 2026,net_amount,135759.0,,usd
+FY2022_audit,76,opeb,deferred,recognition 2027,net_amount,134955.0,,usd
+FY2022_audit,76,opeb,deferred,recognition thereafter,net_amount,160472.0,,usd
+FY2022_audit,76,opeb,deferred,recognition total,net_amount,838463.0,,usd

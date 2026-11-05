@@ -1,0 +1,235 @@
+doc_id,pdf_page,plan_id,section,line_item,column,value,value_text,unit
+FY2015_audit,57,imrf_regular,membership,"At December 31, 2014 (most recent available), IMRF membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,124.0,,count
+FY2015_audit,57,imrf_regular,membership,Inactive employees entitled to but not yet receiving benefits,members,189.0,,count
+FY2015_audit,57,imrf_regular,membership,Active employees,members,181.0,,count
+FY2015_audit,57,imrf_regular,membership,TOTAL,members,494.0,,count
+FY2015_audit,58,imrf_regular,contributions,member contribution rate,rate,4.5,,percent
+FY2015_audit,58,imrf_regular,contributions,employer contribution rate,rate,11.38,,percent
+FY2015_audit,58,imrf_regular,assumptions,Actuarial valuation date,assumption,,"December 31, 2014",text
+FY2015_audit,58,imrf_regular,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2015_audit,58,imrf_regular,assumptions,Inflation,assumption,2.75,2.75%,percent
+FY2015_audit,58,imrf_regular,assumptions,Salary increases,assumption,,3.75% to 14.50%,text
+FY2015_audit,58,imrf_regular,assumptions,Interest rate,assumption,7.5,7.50%,percent
+FY2015_audit,58,imrf_regular,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2015_audit,58,imrf_regular,assumptions,Asset valuation method,assumption,,Market value,text
+FY2015_audit,59,imrf_regular,discount_rate,discount rate,rate,7.5,,percent
+FY2015_audit,59,imrf_regular,npl_changes,"(a)              (b)              (a) - (b) Total Pension   Plan Fiduciary        Net Pension Liability      Net Position          Liability BALANCES AT JANUARY 1, 2014",total_pension_liability,35905999.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,"(a)              (b)              (a) - (b) Total Pension   Plan Fiduciary        Net Pension Liability      Net Position          Liability BALANCES AT JANUARY 1, 2014",fiduciary_net_position,34767341.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,"(a)              (b)              (a) - (b) Total Pension   Plan Fiduciary        Net Pension Liability      Net Position          Liability BALANCES AT JANUARY 1, 2014",net_pension_liability,1138658.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes for the period Service cost,total_pension_liability,981713.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes for the period Service cost,net_pension_liability,981713.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Interest,total_pension_liability,2686576.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Interest,net_pension_liability,2686576.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Difference between expected and actual experience,total_pension_liability,-1191454.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Difference between expected and actual experience,net_pension_liability,-1191454.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes in assumptions,total_pension_liability,1244163.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Changes in assumptions,net_pension_liability,1244163.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employer contributions,fiduciary_net_position,961303.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employer contributions,net_pension_liability,-961303.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employee contributions,fiduciary_net_position,406326.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Employee contributions,net_pension_liability,-406326.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net investment income,fiduciary_net_position,1706199.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net investment income,net_pension_liability,-1706199.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Benefit payments and refunds,total_pension_liability,-1193978.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Benefit payments and refunds,fiduciary_net_position,-1193978.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Administrative/other (net transfer),fiduciary_net_position,-12262.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Administrative/other (net transfer),net_pension_liability,12262.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net changes,total_pension_liability,2527020.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net changes,fiduciary_net_position,1867588.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,Net changes,net_pension_liability,659432.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,"BALANCES AT DECEMBER 31, 2014",total_pension_liability,38433019.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,"BALANCES AT DECEMBER 31, 2014",fiduciary_net_position,36634929.0,,usd
+FY2015_audit,59,imrf_regular,npl_changes,"BALANCES AT DECEMBER 31, 2014",net_pension_liability,1798090.0,,usd
+FY2015_audit,60,imrf_regular,deferred,expense recognized,amount,1209042.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Difference between expected and actual experience,deferred_outflows,0.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Difference between expected and actual experience,deferred_inflows,897050.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Changes in assumption,deferred_outflows,936735.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Changes in assumption,deferred_inflows,0.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,390676.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,0.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Contributions made after measurement date,deferred_outflows,864212.0,,usd
+FY2015_audit,60,imrf_regular,deferred,Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2015_audit,60,imrf_regular,deferred,TOTAL,deferred_outflows,2191623.0,,usd
+FY2015_audit,60,imrf_regular,deferred,TOTAL,deferred_inflows,897050.0,,usd
+FY2015_audit,60,imrf_regular,deferred,recognition 2016,net_amount,974905.0,,usd
+FY2015_audit,60,imrf_regular,deferred,recognition 2017,net_amount,110693.0,,usd
+FY2015_audit,60,imrf_regular,deferred,recognition 2018,net_amount,110693.0,,usd
+FY2015_audit,60,imrf_regular,deferred,recognition 2019,net_amount,98282.0,,usd
+FY2015_audit,60,imrf_regular,deferred,recognition total,net_amount,1294573.0,,usd
+FY2015_audit,61,imrf_regular,sensitivity,Net pension liability (asset),rate_6.50,6809485.0,,usd
+FY2015_audit,61,imrf_regular,sensitivity,Net pension liability (asset),rate_7.50,1798090.0,,usd
+FY2015_audit,61,imrf_regular,sensitivity,Net pension liability (asset),rate_8.50,-3532042.0,,usd
+FY2015_audit,61,imrf_eco,membership,"At December 31, 2014 (most recent available), IMRF-ECO membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,9.0,,count
+FY2015_audit,61,imrf_eco,membership,Inactive employees entitled to but not yet receiving benefits,members,3.0,,count
+FY2015_audit,61,imrf_eco,membership,Active employees,members,0.0,,count
+FY2015_audit,61,imrf_eco,membership,TOTAL,members,12.0,,count
+FY2015_audit,62,imrf_eco,contributions,member contribution rate,rate,7.5,,percent
+FY2015_audit,63,imrf_eco,assumptions,Actuarial valuation date,assumption,,"December 31, 2014",text
+FY2015_audit,63,imrf_eco,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2015_audit,63,imrf_eco,assumptions,Inflation,assumption,2.75,2.75%,percent
+FY2015_audit,63,imrf_eco,assumptions,Salary increases,assumption,,3.75% to 14.50%,text
+FY2015_audit,63,imrf_eco,assumptions,Interest rate,assumption,7.5,7.50%,percent
+FY2015_audit,63,imrf_eco,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2015_audit,63,imrf_eco,assumptions,Asset valuation method,assumption,,Market value,text
+FY2015_audit,63,imrf_eco,discount_rate,discount rate,rate,7.31,,percent
+FY2015_audit,64,imrf_eco,npl_changes,"(a)              (b)                  (a) - (b) Total Pension   Plan Fiduciary            Net Pension Liability      Net Position              Liability BALANCES AT JANUARY 1, 2014",total_pension_liability,5123552.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,"(a)              (b)                  (a) - (b) Total Pension   Plan Fiduciary            Net Pension Liability      Net Position              Liability BALANCES AT JANUARY 1, 2014",fiduciary_net_position,3305504.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,"(a)              (b)                  (a) - (b) Total Pension   Plan Fiduciary            Net Pension Liability      Net Position              Liability BALANCES AT JANUARY 1, 2014",net_pension_liability,1818048.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes for the period Service cost,total_pension_liability,19860.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes for the period Service cost,net_pension_liability,19860.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Interest,total_pension_liability,365809.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Interest,net_pension_liability,365809.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Difference between expected and actual experience,total_pension_liability,-136885.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Difference between expected and actual experience,net_pension_liability,-136885.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes in assumptions,total_pension_liability,256555.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Changes in assumptions,net_pension_liability,256555.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employer contributions,fiduciary_net_position,259116.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employer contributions,net_pension_liability,-259116.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employee contributions,fiduciary_net_position,636.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Employee contributions,net_pension_liability,-636.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net investment income,fiduciary_net_position,160322.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net investment income,net_pension_liability,-160322.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Benefit payments and refunds,total_pension_liability,-324465.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Benefit payments and refunds,fiduciary_net_position,-324465.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Administrative/other (net transfer),fiduciary_net_position,1173.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Administrative/other (net transfer),net_pension_liability,-1173.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net changes,total_pension_liability,180874.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net changes,fiduciary_net_position,96782.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,Net changes,net_pension_liability,84092.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,"BALANCES AT DECEMBER 31, 2014",total_pension_liability,5304426.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,"BALANCES AT DECEMBER 31, 2014",fiduciary_net_position,3402286.0,,usd
+FY2015_audit,64,imrf_eco,npl_changes,"BALANCES AT DECEMBER 31, 2014",net_pension_liability,1902140.0,,usd
+FY2015_audit,64,imrf_eco,deferred,expense recognized,amount,295768.0,,usd
+FY2015_audit,64,imrf_eco,deferred,Net difference between projected and actual earnings,deferred_outflows,37641.0,,usd
+FY2015_audit,64,imrf_eco,deferred,Net difference between projected and actual earnings,deferred_inflows,0.0,,usd
+FY2015_audit,64,imrf_eco,deferred,on pension plan investments Contributions made after measurement date,deferred_outflows,197146.0,,usd
+FY2015_audit,64,imrf_eco,deferred,on pension plan investments Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2015_audit,64,imrf_eco,deferred,TOTAL,deferred_outflows,234787.0,,usd
+FY2015_audit,64,imrf_eco,deferred,TOTAL,deferred_inflows,0.0,,usd
+FY2015_audit,65,imrf_eco,deferred,recognition 2016,net_amount,206556.0,,usd
+FY2015_audit,65,imrf_eco,deferred,recognition 2017,net_amount,9410.0,,usd
+FY2015_audit,65,imrf_eco,deferred,recognition 2018,net_amount,9410.0,,usd
+FY2015_audit,65,imrf_eco,deferred,recognition 2019,net_amount,9411.0,,usd
+FY2015_audit,65,imrf_eco,deferred,recognition total,net_amount,234787.0,,usd
+FY2015_audit,65,imrf_eco,sensitivity,Net pension liability,rate_6.31,2360922.0,,usd
+FY2015_audit,65,imrf_eco,sensitivity,Net pension liability,rate_7.31,1902139.0,,usd
+FY2015_audit,65,imrf_eco,sensitivity,Net pension liability,rate_8.31,1345252.0,,usd
+FY2015_audit,66,slep,membership,"At December 31, 2014 (most recent available), IMRF membership consisted of: Inactive employees or their beneficiaries currently receiving benefits",members,17.0,,count
+FY2015_audit,66,slep,membership,Inactive employees entitled to but not yet receiving benefits,members,7.0,,count
+FY2015_audit,66,slep,membership,Active employees,members,36.0,,count
+FY2015_audit,66,slep,membership,TOTAL,members,60.0,,count
+FY2015_audit,66,slep,contributions,member contribution rate,rate,7.5,,percent
+FY2015_audit,67,slep,assumptions,Actuarial valuation date,assumption,,"December 31, 2014",text
+FY2015_audit,67,slep,assumptions,Actuarial cost method,assumption,,Entry-age normal,text
+FY2015_audit,67,slep,assumptions,Inflation,assumption,2.75,2.75%,percent
+FY2015_audit,67,slep,assumptions,Salary increases,assumption,,3.75% to 14.50%,text
+FY2015_audit,67,slep,assumptions,Interest rate,assumption,7.5,7.50%,percent
+FY2015_audit,67,slep,assumptions,Cost of living adjustments,assumption,3.5,3.50%,percent
+FY2015_audit,67,slep,assumptions,Asset valuation method,assumption,,Market value,text
+FY2015_audit,68,slep,discount_rate,discount rate,rate,7.5,,percent
+FY2015_audit,68,slep,npl_changes,"(a)              (b)             (a) - (b) Total Pension   Plan Fiduciary       Net Pension Liability      Net Position         Liability BALANCES AT JANUARY 1, 2014",total_pension_liability,17368246.0,,usd
+FY2015_audit,68,slep,npl_changes,"(a)              (b)             (a) - (b) Total Pension   Plan Fiduciary       Net Pension Liability      Net Position         Liability BALANCES AT JANUARY 1, 2014",fiduciary_net_position,14950184.0,,usd
+FY2015_audit,68,slep,npl_changes,"(a)              (b)             (a) - (b) Total Pension   Plan Fiduciary       Net Pension Liability      Net Position         Liability BALANCES AT JANUARY 1, 2014",net_pension_liability,2418062.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes for the period Service cost,total_pension_liability,490252.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes for the period Service cost,fiduciary_net_position,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes for the period Service cost,net_pension_liability,490252.0,,usd
+FY2015_audit,68,slep,npl_changes,Interest,total_pension_liability,1299064.0,,usd
+FY2015_audit,68,slep,npl_changes,Interest,fiduciary_net_position,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Interest,net_pension_liability,1299064.0,,usd
+FY2015_audit,68,slep,npl_changes,Difference between expected and actual experience,total_pension_liability,-260300.0,,usd
+FY2015_audit,68,slep,npl_changes,Difference between expected and actual experience,fiduciary_net_position,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Difference between expected and actual experience,net_pension_liability,-260300.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes in assumptions,total_pension_liability,173258.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Changes in assumptions,net_pension_liability,173258.0,,usd
+FY2015_audit,68,slep,npl_changes,Employer contributions,total_pension_liability,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Employer contributions,fiduciary_net_position,586086.0,,usd
+FY2015_audit,68,slep,npl_changes,Employer contributions,net_pension_liability,-586086.0,,usd
+FY2015_audit,68,slep,npl_changes,Employee contributions,total_pension_liability,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Employee contributions,fiduciary_net_position,194334.0,,usd
+FY2015_audit,68,slep,npl_changes,Employee contributions,net_pension_liability,-194334.0,,usd
+FY2015_audit,68,slep,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Net investment income,fiduciary_net_position,735973.0,,usd
+FY2015_audit,68,slep,npl_changes,Net investment income,net_pension_liability,-735973.0,,usd
+FY2015_audit,68,slep,npl_changes,Benefit payments and refunds,total_pension_liability,-606527.0,,usd
+FY2015_audit,68,slep,npl_changes,Benefit payments and refunds,fiduciary_net_position,-606527.0,,usd
+FY2015_audit,68,slep,npl_changes,Benefit payments and refunds,net_pension_liability,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Administrative/other (net transfer),total_pension_liability,0.0,,usd
+FY2015_audit,68,slep,npl_changes,Administrative/other (net transfer),fiduciary_net_position,-23256.0,,usd
+FY2015_audit,68,slep,npl_changes,Administrative/other (net transfer),net_pension_liability,23256.0,,usd
+FY2015_audit,68,slep,npl_changes,Net changes,total_pension_liability,1095747.0,,usd
+FY2015_audit,68,slep,npl_changes,Net changes,fiduciary_net_position,886610.0,,usd
+FY2015_audit,68,slep,npl_changes,Net changes,net_pension_liability,209137.0,,usd
+FY2015_audit,68,slep,npl_changes,"BALANCES AT DECEMBER 31, 2014",total_pension_liability,18463993.0,,usd
+FY2015_audit,68,slep,npl_changes,"BALANCES AT DECEMBER 31, 2014",fiduciary_net_position,15836794.0,,usd
+FY2015_audit,68,slep,npl_changes,"BALANCES AT DECEMBER 31, 2014",net_pension_liability,2627199.0,,usd
+FY2015_audit,69,slep,deferred,expense recognized,amount,702259.0,,usd
+FY2015_audit,69,slep,deferred,Difference between expected and actual experience,deferred_outflows,0.0,,usd
+FY2015_audit,69,slep,deferred,Difference between expected and actual experience,deferred_inflows,225373.0,,usd
+FY2015_audit,69,slep,deferred,Changes in assumption,deferred_outflows,150010.0,,usd
+FY2015_audit,69,slep,deferred,Changes in assumption,deferred_inflows,0.0,,usd
+FY2015_audit,69,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,161328.0,,usd
+FY2015_audit,69,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,0.0,,usd
+FY2015_audit,69,slep,deferred,Contributions made after measurement date,deferred_outflows,509478.0,,usd
+FY2015_audit,69,slep,deferred,Contributions made after measurement date,deferred_inflows,0.0,,usd
+FY2015_audit,69,slep,deferred,TOTAL,deferred_outflows,820816.0,,usd
+FY2015_audit,69,slep,deferred,TOTAL,deferred_inflows,225373.0,,usd
+FY2015_audit,69,slep,deferred,recognition 2016,net_amount,538131.0,,usd
+FY2015_audit,69,slep,deferred,recognition 2017,net_amount,28653.0,,usd
+FY2015_audit,69,slep,deferred,recognition 2018,net_amount,28653.0,,usd
+FY2015_audit,69,slep,deferred,recognition 2019,net_amount,28653.0,,usd
+FY2015_audit,69,slep,deferred,recognition 2020,net_amount,-11679.0,,usd
+FY2015_audit,69,slep,deferred,recognition thereafter,net_amount,-16968.0,,usd
+FY2015_audit,69,slep,deferred,recognition total,net_amount,595443.0,,usd
+FY2015_audit,70,slep,sensitivity,Net pension liability (asset),rate_6.5,5448689.0,,usd
+FY2015_audit,70,slep,sensitivity,Net pension liability (asset),rate_7.5,2627199.0,,usd
+FY2015_audit,70,slep,sensitivity,Net pension liability (asset),rate_8.5,206506.0,,usd
+FY2015_audit,70,opeb,text,member contribution rate,rate,80.0,,percent
+FY2015_audit,71,opeb,membership,"At November 30, 2014 (most recent available), membership consisted of: Active employees",members,213.0,,count
+FY2015_audit,71,opeb,membership,Retirees and beneficiaries currently receiving benefits,members,15.0,,count
+FY2015_audit,71,opeb,membership,TOTAL,members,228.0,,count
+FY2015_audit,71,opeb,membership,Participating employers,members,1.0,,count
+FY2015_audit,71,opeb,opeb_cost,annual OPEB cost,fy2013,154127.0,,usd
+FY2015_audit,71,opeb,opeb_cost,employer contributions,fy2013,39798.0,,usd
+FY2015_audit,71,opeb,opeb_cost,percentage contributed,fy2013,25.82,,percent
+FY2015_audit,71,opeb,opeb_cost,net OPEB obligation,fy2013,412000.0,,usd
+FY2015_audit,71,opeb,opeb_cost,annual OPEB cost,fy2014,178827.0,,usd
+FY2015_audit,71,opeb,opeb_cost,employer contributions,fy2014,21517.0,,usd
+FY2015_audit,71,opeb,opeb_cost,percentage contributed,fy2014,12.03,,percent
+FY2015_audit,71,opeb,opeb_cost,net OPEB obligation,fy2014,569310.0,,usd
+FY2015_audit,71,opeb,opeb_cost,annual OPEB cost,fy2015,285283.0,,usd
+FY2015_audit,71,opeb,opeb_cost,employer contributions,fy2015,73775.0,,usd
+FY2015_audit,71,opeb,opeb_cost,percentage contributed,fy2015,25.86,,percent
+FY2015_audit,71,opeb,opeb_cost,net OPEB obligation,fy2015,780818.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Annual required contribution,value,293110.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Interest on net OPEB obligation,value,25619.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Adjustment to annual required contribution,value,-33446.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Annual OPEB cost,value,285283.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Contributions made,value,-73775.0,,usd
+FY2015_audit,71,opeb,opeb_cost,Increase in net OPEB obligation,value,211508.0,,usd
+FY2015_audit,71,opeb,opeb_cost,"Net OPEB obligation, beginning of year",value,569310.0,,usd
+FY2015_audit,71,opeb,opeb_cost,"NET OPEB OBLIGATION, END OF YEAR",value,780818.0,,usd
+FY2015_audit,72,opeb,funded_status,Actuarial accrued liability (AAL),value,2347482.0,,usd
+FY2015_audit,72,opeb,funded_status,Actuarial value of plan assets,value,0.0,,usd
+FY2015_audit,72,opeb,funded_status,Unfunded actuarial accrued liability (UAAL),value,2347482.0,,usd
+FY2015_audit,72,opeb,funded_status,Funded ratio (actuarial value of plan assets/AAL),value,0.0,,percent
+FY2015_audit,72,opeb,funded_status,Covered payroll (active plan members),value,9919545.0,,usd
+FY2015_audit,72,opeb,funded_status,UAAL as a percentage of covered payroll,value,23.67,,percent

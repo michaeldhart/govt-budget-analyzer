@@ -335,8 +335,23 @@ def test_general_fund_revenue_by_source():
     assert validate_config(Entity.load("boone_county_il")) == []
 
 
+def test_pension_notes_fy2015_2023():
+    rows = list(csv.DictReader(open(DATA / "imrf_note.csv", newline="")))
+    assert len(rows) == 2854 and {r["doc_id"] for r in rows} == {f"FY{y}_audit" for y in range(2015, 2026)}
+    # GASB 45 (FY2015-FY2017): the net OPEB obligation of the note equals the debt note's line
+    for fy, noo in ((2015, 780818), (2016, 998198), (2017, 1233675)):
+        d = f"FY{fy}_audit"
+        end = [float(r["value"]) for r in rows if r["doc_id"] == d and r["section"] == "opeb|opeb_cost" and r["line_item"].startswith("NET OPEB OBLIGATION, END")]
+        debt = [r for r in csv.DictReader(open(AUD / f"{d}_debt_changes.csv", newline="")) if r["line_item"].startswith("Other postemployment")]
+        assert end == [noo] or end == [float(noo)]
+        assert int(debt[0]["ending"]) == noo
+    # deferred inflows and outflows by source add to each plan's total in every year (checked by the extractor; spot values)
+    ch = {r["line_item"]: float(r["value"]) for r in rows if r["doc_id"] == "FY2021_audit" and r["section"] == "imrf_regular|npl_changes" and r["column"] == "net_pension_liability"}
+    assert ch["Balances at December 31, 2020"] == -3714901
+
+
 def test_pension_notes_tie_to_the_schedules():
-    for fy in (2024, 2025):
+    for fy in range(2015, 2026):
         checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_pension_note_checks.csv", newline="")))
         assert len(checks) > 45 and all(c["ok"] == "True" for c in checks), fy
     rows = list(csv.DictReader(open(DATA / "imrf_note.csv", newline="")))

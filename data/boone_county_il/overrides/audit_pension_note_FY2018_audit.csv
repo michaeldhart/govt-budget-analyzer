@@ -1,0 +1,4 @@
+check,reason
+imrf_eco sensitivity: current rate = net pension liability,"source slip: the ECO sensitivity table prints 989,792 at the 7.50% rate; the plan's net pension liability (changes table, schedule of changes in net pension liability) is 989,762"
+imrf_regular changes,"source slip: the note prints the 2017 difference between expected and actual experience as (180,083); the schedule of changes in net pension liability prints (189,083) and the table's net change (643,663) agrees with the schedule"
+slep changes,"source slip: the note prints the 2017 difference between expected and actual experience as (398,744); the schedule of changes in net pension liability prints (398,344), which makes the components add to the printed net change of 764,398"

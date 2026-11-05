@@ -1,0 +1,283 @@
+doc_id,pdf_page,plan_id,section,line_item,column,value,value_text,unit
+FY2018_audit,53,imrf_regular,membership,the benefit terms: Retirees or beneficiaries currently receiving benefits,members,156.0,,count
+FY2018_audit,53,imrf_regular,membership,Inactive plan member entitled to but not yet receiving benefits,members,136.0,,count
+FY2018_audit,53,imrf_regular,membership,Active employees,members,175.0,,count
+FY2018_audit,53,imrf_regular,membership,Total,members,467.0,,count
+FY2018_audit,53,imrf_regular,contributions,member contribution rate,rate,4.5,,percent
+FY2018_audit,53,imrf_regular,contributions,employer contribution rate,rate,9.68,,percent
+FY2018_audit,53,imrf_regular,contributions,employer contributions for the fiscal year,amount,856055.0,,usd
+FY2018_audit,53,imrf_regular,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2018_audit,53,imrf_regular,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2018_audit,53,imrf_regular,assumptions,Inflation,assumption,2.5,2.50%,percent
+FY2018_audit,53,imrf_regular,assumptions,Salary increases,assumption,,3.39% to 14.25%,text
+FY2018_audit,53,imrf_regular,assumptions,Investment rate of return,assumption,7.5,7.50%,percent
+FY2018_audit,54,imrf_regular,allocation,Domestic Equity,target_pct,38.0,,percent
+FY2018_audit,54,imrf_regular,allocation,Domestic Equity,expected_real_return,6.85,6.85%,percent
+FY2018_audit,54,imrf_regular,allocation,International Equity,target_pct,17.0,,percent
+FY2018_audit,54,imrf_regular,allocation,International Equity,expected_real_return,6.75,6.75%,percent
+FY2018_audit,54,imrf_regular,allocation,Fixed Income,target_pct,27.0,,percent
+FY2018_audit,54,imrf_regular,allocation,Fixed Income,expected_real_return,3.0,3.00%,percent
+FY2018_audit,54,imrf_regular,allocation,Real Estate,target_pct,8.0,,percent
+FY2018_audit,54,imrf_regular,allocation,Real Estate,expected_real_return,5.75,5.75%,percent
+FY2018_audit,54,imrf_regular,allocation,Alternative Investments,target_pct,9.0,,percent
+FY2018_audit,54,imrf_regular,allocation,Alternative Investments,expected_real_return,,2.65‐7.35%,percent
+FY2018_audit,54,imrf_regular,allocation,Cash Equivalents,target_pct,1.0,,percent
+FY2018_audit,54,imrf_regular,allocation,Cash Equivalents,expected_real_return,2.25,2.25%,percent
+FY2018_audit,54,imrf_regular,allocation,TOTAL,target_pct,100.0,,percent
+FY2018_audit,54,imrf_regular,discount_rate,discount rate,rate,7.5,,percent
+FY2018_audit,55,imrf_regular,npl_changes,"Pension         Plan Net         Net Pension Liability       Position       Liability (Asset) (A)             (B)             (A)‐(B) Balances at January 1, 2017",total_pension_liability,42855114.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Pension         Plan Net         Net Pension Liability       Position       Liability (Asset) (A)             (B)             (A)‐(B) Balances at January 1, 2017",fiduciary_net_position,39119991.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Pension         Plan Net         Net Pension Liability       Position       Liability (Asset) (A)             (B)             (A)‐(B) Balances at January 1, 2017",net_pension_liability,3735123.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes for the year: Service cost,total_pension_liability,912096.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes for the year: Service cost,fiduciary_net_position,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes for the year: Service cost,net_pension_liability,912096.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Interest on the total pension liability,total_pension_liability,3182544.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Interest on the total pension liability,net_pension_liability,3182544.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,-180083.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,-180083.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes in assumptions,total_pension_liability,-1507404.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Changes in assumptions,net_pension_liability,-1507404.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employer,total_pension_liability,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employer,fiduciary_net_position,854451.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employer,net_pension_liability,-854451.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employees,total_pension_liability,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employees,fiduciary_net_position,398473.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Contributions ‐ employees,net_pension_liability,-398473.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net investment income,fiduciary_net_position,6883654.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net investment income,net_pension_liability,-6883654.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-1754490.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-1754490.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Other (net transfer),fiduciary_net_position,-517654.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Other (net transfer),net_pension_liability,517654.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net Changes,total_pension_liability,643663.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net Changes,fiduciary_net_position,5864434.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,Net Changes,net_pension_liability,-5220771.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Balance at December 31, 2017",total_pension_liability,43498777.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Balance at December 31, 2017",fiduciary_net_position,44984425.0,,usd
+FY2018_audit,55,imrf_regular,npl_changes,"Balance at December 31, 2017",net_pension_liability,-1485648.0,,usd
+FY2018_audit,55,imrf_regular,sensitivity,Net Pension Liability (Asset),rate_6.50,4698902.0,,usd
+FY2018_audit,55,imrf_regular,sensitivity,Net Pension Liability (Asset),rate_7.50,-1485648.0,,usd
+FY2018_audit,55,imrf_regular,sensitivity,Net Pension Liability (Asset),rate_8.50,-6501382.0,,usd
+FY2018_audit,56,imrf_regular,deferred,expense recognized,amount,611632.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Differences between expected and actual experience,deferred_outflows,20793.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Differences between expected and actual experience,deferred_inflows,314832.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Changes in assumptions,deferred_outflows,29013.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Changes in assumptions,deferred_inflows,1196204.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,1280450.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,3190300.0,,usd
+FY2018_audit,56,imrf_regular,deferred,subtotal future periods,deferred_outflows,1330256.0,,usd
+FY2018_audit,56,imrf_regular,deferred,subtotal future periods,deferred_inflows,4701336.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Pension contributions made subsequent to the measurement date,deferred_outflows,788769.0,,usd
+FY2018_audit,56,imrf_regular,deferred,Pension contributions made subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2018_audit,56,imrf_regular,deferred,TOTAL,deferred_outflows,2119025.0,,usd
+FY2018_audit,56,imrf_regular,deferred,TOTAL,deferred_inflows,4701336.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition 2019,net_amount,-653771.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition 2020,net_amount,-628386.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition 2021,net_amount,-1130073.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition 2022,net_amount,-958850.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition 2023,net_amount,0.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition thereafter,net_amount,0.0,,usd
+FY2018_audit,56,imrf_regular,deferred,recognition total,net_amount,-3371080.0,,usd
+FY2018_audit,57,slep,membership,the benefit terms: Retirees or beneficiaries currently receiving benefits,members,18.0,,count
+FY2018_audit,57,slep,membership,Inactive plan member entitled to but not yet receiving benefits,members,8.0,,count
+FY2018_audit,57,slep,membership,Active employees,members,36.0,,count
+FY2018_audit,57,slep,membership,Total,members,62.0,,count
+FY2018_audit,57,slep,contributions,member contribution rate,rate,7.5,,percent
+FY2018_audit,57,slep,contributions,employer contribution rate,rate,20.29,,percent
+FY2018_audit,57,slep,contributions,employer contributions for the fiscal year,amount,526941.0,,usd
+FY2018_audit,57,slep,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2018_audit,57,slep,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2018_audit,57,slep,assumptions,Inflation,assumption,2.5,2.5%,percent
+FY2018_audit,57,slep,assumptions,Salary increases,assumption,,3.39% to 14.25%,text
+FY2018_audit,57,slep,assumptions,Investment rate of return,assumption,7.5,7.50%,percent
+FY2018_audit,58,slep,allocation,Domestic Equity,target_pct,38.0,,percent
+FY2018_audit,58,slep,allocation,Domestic Equity,expected_real_return,,6.85,percent
+FY2018_audit,58,slep,allocation,International Equity,target_pct,17.0,,percent
+FY2018_audit,58,slep,allocation,International Equity,expected_real_return,6.75,6.75%,percent
+FY2018_audit,58,slep,allocation,Fixed Income,target_pct,27.0,,percent
+FY2018_audit,58,slep,allocation,Fixed Income,expected_real_return,3.0,3.00%,percent
+FY2018_audit,58,slep,allocation,Real Estate,target_pct,8.0,,percent
+FY2018_audit,58,slep,allocation,Real Estate,expected_real_return,5.75,5.75%,percent
+FY2018_audit,58,slep,allocation,Alternative Investments,target_pct,9.0,,percent
+FY2018_audit,58,slep,allocation,Alternative Investments,expected_real_return,,2.65‐7.35%,percent
+FY2018_audit,58,slep,allocation,Cash Equivalents,target_pct,1.0,,percent
+FY2018_audit,58,slep,allocation,Cash Equivalents,expected_real_return,2.25,2.25%,percent
+FY2018_audit,58,slep,allocation,TOTAL,target_pct,100.0,,percent
+FY2018_audit,58,slep,discount_rate,discount rate,rate,7.5,,percent
+FY2018_audit,59,slep,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",total_pension_liability,20268615.0,,usd
+FY2018_audit,59,slep,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",fiduciary_net_position,17103711.0,,usd
+FY2018_audit,59,slep,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",net_pension_liability,3164904.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes for the year: Service cost,total_pension_liability,533336.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes for the year: Service cost,fiduciary_net_position,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes for the year: Service cost,net_pension_liability,533336.0,,usd
+FY2018_audit,59,slep,npl_changes,Interest on the total pension liability,total_pension_liability,1511520.0,,usd
+FY2018_audit,59,slep,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Interest on the total pension liability,net_pension_liability,1511520.0,,usd
+FY2018_audit,59,slep,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,-398744.0,,usd
+FY2018_audit,59,slep,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,-398744.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes in assumptions,total_pension_liability,-118754.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Changes in assumptions,net_pension_liability,-118754.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employer,total_pension_liability,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employer,fiduciary_net_position,564274.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employer,net_pension_liability,-564274.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employees,total_pension_liability,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employees,fiduciary_net_position,234406.0,,usd
+FY2018_audit,59,slep,npl_changes,Contributions ‐ employees,net_pension_liability,-234406.0,,usd
+FY2018_audit,59,slep,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Net investment income,fiduciary_net_position,3106851.0,,usd
+FY2018_audit,59,slep,npl_changes,Net investment income,net_pension_liability,-3106851.0,,usd
+FY2018_audit,59,slep,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-763360.0,,usd
+FY2018_audit,59,slep,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-763360.0,,usd
+FY2018_audit,59,slep,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2018_audit,59,slep,npl_changes,Other (net transfer),fiduciary_net_position,-441690.0,,usd
+FY2018_audit,59,slep,npl_changes,Other (net transfer),net_pension_liability,441690.0,,usd
+FY2018_audit,59,slep,npl_changes,Net Changes,total_pension_liability,764398.0,,usd
+FY2018_audit,59,slep,npl_changes,Net Changes,fiduciary_net_position,2700481.0,,usd
+FY2018_audit,59,slep,npl_changes,Net Changes,net_pension_liability,-1936083.0,,usd
+FY2018_audit,59,slep,npl_changes,"Balance at December 31, 2017",total_pension_liability,21033013.0,,usd
+FY2018_audit,59,slep,npl_changes,"Balance at December 31, 2017",fiduciary_net_position,19804192.0,,usd
+FY2018_audit,59,slep,npl_changes,"Balance at December 31, 2017",net_pension_liability,1228821.0,,usd
+FY2018_audit,59,slep,sensitivity,Net Pension Liability,rate_6.50,4396738.0,,usd
+FY2018_audit,59,slep,sensitivity,Net Pension Liability,rate_7.50,1228821.0,,usd
+FY2018_audit,59,slep,sensitivity,Net Pension Liability,rate_8.50,-1344984.0,,usd
+FY2018_audit,60,slep,deferred,expense recognized,amount,635929.0,,usd
+FY2018_audit,60,slep,deferred,Differences between expected and actual experience,deferred_outflows,100508.0,,usd
+FY2018_audit,60,slep,deferred,Differences between expected and actual experience,deferred_inflows,1069950.0,,usd
+FY2018_audit,60,slep,deferred,Changes in assumptions,deferred_outflows,113621.0,,usd
+FY2018_audit,60,slep,deferred,Changes in assumptions,deferred_inflows,143187.0,,usd
+FY2018_audit,60,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,526979.0,,usd
+FY2018_audit,60,slep,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,1471450.0,,usd
+FY2018_audit,60,slep,deferred,subtotal future periods,deferred_outflows,741108.0,,usd
+FY2018_audit,60,slep,deferred,subtotal future periods,deferred_inflows,2684587.0,,usd
+FY2018_audit,60,slep,deferred,Pension contributions made subsequent to the measurement date,deferred_outflows,485001.0,,usd
+FY2018_audit,60,slep,deferred,Pension contributions made subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2018_audit,60,slep,deferred,TOTAL,deferred_outflows,1226109.0,,usd
+FY2018_audit,60,slep,deferred,TOTAL,deferred_inflows,2684587.0,,usd
+FY2018_audit,60,slep,deferred,recognition 2019,net_amount,-272936.0,,usd
+FY2018_audit,60,slep,deferred,recognition 2020,net_amount,-313266.0,,usd
+FY2018_audit,60,slep,deferred,recognition 2021,net_amount,-536072.0,,usd
+FY2018_audit,60,slep,deferred,recognition 2022,net_amount,-543363.0,,usd
+FY2018_audit,60,slep,deferred,recognition 2023,net_amount,-193102.0,,usd
+FY2018_audit,60,slep,deferred,recognition thereafter,net_amount,-84740.0,,usd
+FY2018_audit,60,slep,deferred,recognition total,net_amount,-1943479.0,,usd
+FY2018_audit,61,imrf_eco,membership,the benefit terms: Retirees or beneficiaries currently receiving benefits,members,8.0,,count
+FY2018_audit,61,imrf_eco,membership,Inactive plan member entitled to but not yet receiving benefits,members,2.0,,count
+FY2018_audit,61,imrf_eco,membership,Active employees,members,0.0,,count
+FY2018_audit,61,imrf_eco,membership,Total,members,10.0,,count
+FY2018_audit,61,imrf_eco,contributions,member contribution rate,rate,4.5,,percent
+FY2018_audit,61,imrf_eco,contributions,employer contribution rate,rate,17.73,,percent
+FY2018_audit,61,imrf_eco,contributions,employer contributions for the fiscal year,amount,144320.0,,usd
+FY2018_audit,61,imrf_eco,assumptions,Actuarial cost method,assumption,,Entry Age Normal,text
+FY2018_audit,61,imrf_eco,assumptions,Asset valuation method,assumption,,Market Value of Assets,text
+FY2018_audit,61,imrf_eco,assumptions,Inflation,assumption,2.5,2.50%,percent
+FY2018_audit,61,imrf_eco,assumptions,Salary increases,assumption,,3.39% to 14.25%,text
+FY2018_audit,61,imrf_eco,assumptions,Investment rate of return,assumption,7.5,7.50%,percent
+FY2018_audit,62,imrf_eco,allocation,Domestic Equity,target_pct,38.0,,percent
+FY2018_audit,62,imrf_eco,allocation,Domestic Equity,expected_real_return,6.85,6.85%,percent
+FY2018_audit,62,imrf_eco,allocation,International Equity,target_pct,17.0,,percent
+FY2018_audit,62,imrf_eco,allocation,International Equity,expected_real_return,6.75,6.75%,percent
+FY2018_audit,62,imrf_eco,allocation,Fixed Income,target_pct,27.0,,percent
+FY2018_audit,62,imrf_eco,allocation,Fixed Income,expected_real_return,3.0,3.00%,percent
+FY2018_audit,62,imrf_eco,allocation,Real Estate,target_pct,8.0,,percent
+FY2018_audit,62,imrf_eco,allocation,Real Estate,expected_real_return,5.75,5.75%,percent
+FY2018_audit,62,imrf_eco,allocation,Alternative Investments,target_pct,9.0,,percent
+FY2018_audit,62,imrf_eco,allocation,Alternative Investments,expected_real_return,,2.65‐7.35%,percent
+FY2018_audit,62,imrf_eco,allocation,Cash Equivalents,target_pct,1.0,,percent
+FY2018_audit,62,imrf_eco,allocation,Cash Equivalents,expected_real_return,2.25,2.25%,percent
+FY2018_audit,62,imrf_eco,allocation,TOTAL,target_pct,100.0,,percent
+FY2018_audit,62,imrf_eco,discount_rate,discount rate,rate,7.5,,percent
+FY2018_audit,63,imrf_eco,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",total_pension_liability,5324594.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",fiduciary_net_position,3800910.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Pension        Plan Net         Net Pension Liability      Position       Liability (Asset) (A)            (B)             (A)‐(B) Balances at January 1, 2017",net_pension_liability,1523684.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes for the year: Service cost,total_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes for the year: Service cost,fiduciary_net_position,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes for the year: Service cost,net_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Interest on the total pension liability,total_pension_liability,383562.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Interest on the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Interest on the total pension liability,net_pension_liability,383562.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,total_pension_liability,64809.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,fiduciary_net_position,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Differences between expected and actual experience of the total pension liability,net_pension_liability,64809.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes in assumptions,total_pension_liability,-197828.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes in assumptions,fiduciary_net_position,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Changes in assumptions,net_pension_liability,-197828.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employer,total_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employer,fiduciary_net_position,174100.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employer,net_pension_liability,-174100.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employees,total_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employees,fiduciary_net_position,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Contributions ‐ employees,net_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net investment income,total_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net investment income,fiduciary_net_position,747752.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net investment income,net_pension_liability,-747752.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",total_pension_liability,-420874.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",fiduciary_net_position,-420874.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Benefit payments, including refunds of employee contributions",net_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Other (net transfer),total_pension_liability,0.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Other (net transfer),fiduciary_net_position,-137387.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Other (net transfer),net_pension_liability,137387.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net Changes,total_pension_liability,-170331.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net Changes,fiduciary_net_position,363591.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,Net Changes,net_pension_liability,-533922.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Balance at December 31, 2017",total_pension_liability,5154263.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Balance at December 31, 2017",fiduciary_net_position,4164501.0,,usd
+FY2018_audit,63,imrf_eco,npl_changes,"Balance at December 31, 2017",net_pension_liability,989762.0,,usd
+FY2018_audit,63,imrf_eco,sensitivity,Net Pension Liability,rate_6.50,1453951.0,,usd
+FY2018_audit,63,imrf_eco,sensitivity,Net Pension Liability,rate_7.50,989792.0,,usd
+FY2018_audit,63,imrf_eco,sensitivity,Net Pension Liability,rate_8.50,591014.0,,usd
+FY2018_audit,64,imrf_eco,deferred,expense recognized,amount,54038.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Differences between expected and actual experience,deferred_outflows,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Differences between expected and actual experience,deferred_inflows,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Changes in assumptions,deferred_outflows,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Changes in assumptions,deferred_inflows,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_outflows,120721.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Net difference between projected and actual earnings on pension plan investments,deferred_inflows,381672.0,,usd
+FY2018_audit,64,imrf_eco,deferred,subtotal future periods,deferred_outflows,120721.0,,usd
+FY2018_audit,64,imrf_eco,deferred,subtotal future periods,deferred_inflows,381672.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Pension contributions made subsequent to the measurement date,deferred_outflows,129812.0,,usd
+FY2018_audit,64,imrf_eco,deferred,Pension contributions made subsequent to the measurement date,deferred_inflows,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,TOTAL,deferred_outflows,250533.0,,usd
+FY2018_audit,64,imrf_eco,deferred,TOTAL,deferred_inflows,381672.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition 2019,net_amount,-32065.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition 2020,net_amount,-41474.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition 2021,net_amount,-91994.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition 2022,net_amount,-95418.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition 2023,net_amount,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition thereafter,net_amount,0.0,,usd
+FY2018_audit,64,imrf_eco,deferred,recognition total,net_amount,-260951.0,,usd
+FY2018_audit,65,opeb,text,member contribution rate,rate,80.0,,percent
+FY2018_audit,65,opeb,membership,the benefit terms: Active employees,members,202.0,,count
+FY2018_audit,65,opeb,membership,Inactive employees entitled to but not yet receiving benefits,members,0.0,,count
+FY2018_audit,65,opeb,membership,Retirees and beneficiaries currently receiving benefits,members,17.0,,count
+FY2018_audit,65,opeb,membership,Total,members,219.0,,count
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_low,2479607.0,,usd
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_current,2719876.0,,usd
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_high,2979837.0,,usd
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_low,3147782.0,,usd
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_current,2719876.0,,usd
+FY2018_audit,67,opeb,sensitivity,Total OPEB liability,rate_high,2362446.0,,usd
+FY2018_audit,68,opeb,deferred,expense recognized,amount,165655.0,,usd
+FY2018_audit,68,opeb,deferred,Resources         Resources Deferred amounts to be recognized in OPEB expense in future periods: Differences between expected and actual experience,deferred_outflows,90605.0,,usd
+FY2018_audit,68,opeb,deferred,Resources         Resources Deferred amounts to be recognized in OPEB expense in future periods: Differences between expected and actual experience,deferred_inflows,0.0,,usd
+FY2018_audit,68,opeb,deferred,Changes of assumptions,deferred_outflows,201290.0,,usd
+FY2018_audit,68,opeb,deferred,Changes of assumptions,deferred_inflows,336482.0,,usd
+FY2018_audit,68,opeb,deferred,Net difference between projected and actual earnings on OPEB plan investments,deferred_outflows,0.0,,usd
+FY2018_audit,68,opeb,deferred,Net difference between projected and actual earnings on OPEB plan investments,deferred_inflows,0.0,,usd
+FY2018_audit,68,opeb,deferred,TOTAL,deferred_outflows,291895.0,,usd
+FY2018_audit,68,opeb,deferred,TOTAL,deferred_inflows,336482.0,,usd
+FY2018_audit,68,opeb,deferred,recognition 2019,net_amount,-4539.0,,usd
+FY2018_audit,68,opeb,deferred,recognition 2020,net_amount,-4539.0,,usd
+FY2018_audit,68,opeb,deferred,recognition 2021,net_amount,-4539.0,,usd
+FY2018_audit,68,opeb,deferred,recognition 2022,net_amount,-4539.0,,usd
+FY2018_audit,68,opeb,deferred,recognition 2023,net_amount,-4539.0,,usd
+FY2018_audit,68,opeb,deferred,recognition thereafter,net_amount,93233.0,,usd
+FY2018_audit,68,opeb,deferred,recognition total,net_amount,-44587.0,,usd

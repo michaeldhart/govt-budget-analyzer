@@ -1,0 +1,84 @@
+check,ok,detail
+opeb: required contribution + interest + adjustment = annual OPEB cost,True,302220.0 vs 302220.0
+opeb: annual cost - contributions = increase in the obligation,True,217380.0 vs 217380.0
+opeb: beginning + increase = ending net OPEB obligation,True,998198.0 vs 998198.0
+opeb: obligation in the three-year table = the roll-forward,True,998198.0 vs 998198.0
+opeb 2015: contributions / annual cost = the printed percentage,True,25.860 vs 25.86
+opeb 2016: contributions / annual cost = the printed percentage,True,28.072 vs 28.07
+opeb: AAL - assets = UAAL,True,2347482.0 - 0.0 vs 2347482.0
+opeb: UAAL / covered payroll = the printed percentage,True,23.665 vs 23.67
+imrf_regular changes '(a)               (b)         ': (a) - (b) = net,True,
+imrf_regular changes 'Changes for the period Service': (a) - (b) = net,True,
+imrf_regular changes 'Interest': (a) - (b) = net,True,
+imrf_regular changes 'Difference between expected an': (a) - (b) = net,True,
+imrf_regular changes 'Changes in assumptions': (a) - (b) = net,True,
+imrf_regular changes 'Employer contributions': (a) - (b) = net,True,
+imrf_regular changes 'Employee contributions': (a) - (b) = net,True,
+imrf_regular changes 'Net investment income': (a) - (b) = net,True,
+imrf_regular changes 'Benefit payments and refunds': (a) - (b) = net,True,
+imrf_regular changes 'Administrative/other (net tran': (a) - (b) = net,True,
+imrf_regular changes 'Net changes': (a) - (b) = net,True,
+"imrf_regular changes 'BALANCES AT DECEMBER 31, 2015': (a) - (b) = net",True,
+imrf_regular changes total_pension_liability: beginning + net changes = ending,True,38433019.0 + 1970658.0 vs 40403677.0
+imrf_regular changes fiduciary_net_position: beginning + net changes = ending,True,36634929.0 + -330842.0 vs 36304087.0
+imrf_regular changes net_pension_liability: beginning + net changes = ending,True,1798090.0 + 2301500.0 vs 4099590.0
+imrf_regular changes total_pension_liability: components add to the net changes,True,1970658.0 vs 1970658.0
+imrf_regular changes fiduciary_net_position: components add to the net changes,True,-330842.0 vs -330842.0
+imrf_regular changes net_pension_liability: components add to the net changes,True,2301500.0 vs 2301500.0
+imrf_regular changes: ending net pension liability = schedule,True,4099590.0 vs 4099590.0
+imrf_regular sensitivity: lower rate gives the larger liability,True,10172559.0 > 4099590.0 > -796624.0
+imrf_regular sensitivity: current rate = net pension liability,True,4099590.0 vs 4099590.0
+imrf_regular deferred outflows add to the total,True,
+imrf_regular deferred inflows add to the total,True,
+imrf_regular recognition schedule adds to the total,True,1971439.0 vs 1971439.0
+imrf_regular membership adds to the total,True,498.0 vs 498.0
+slep changes '(a)              (b)          ': (a) - (b) = net,True,
+slep changes 'Changes for the period Service': (a) - (b) = net,True,
+slep changes 'Interest': (a) - (b) = net,True,
+slep changes 'Difference between expected an': (a) - (b) = net,True,
+slep changes 'Changes in assumptions': (a) - (b) = net,True,
+slep changes 'Employer contributions': (a) - (b) = net,True,
+slep changes 'Employee contributions': (a) - (b) = net,True,
+slep changes 'Net investment income': (a) - (b) = net,True,
+slep changes 'Benefit payments and refunds': (a) - (b) = net,True,
+slep changes 'Administrative/other (net tran': (a) - (b) = net,True,
+slep changes 'Net changes': (a) - (b) = net,True,
+"slep changes 'BALANCES AT DECEMBER 31, 2015': (a) - (b) = net",True,
+slep changes total_pension_liability: beginning + net changes = ending,True,18463993.0 + 1454029.0 vs 19918022.0
+slep changes fiduciary_net_position: beginning + net changes = ending,True,15836794.0 + 144488.0 vs 15981282.0
+slep changes net_pension_liability: beginning + net changes = ending,True,2627199.0 + 1309541.0 vs 3936740.0
+slep changes total_pension_liability: components add to the net changes,True,1454029.0 vs 1454029.0
+slep changes fiduciary_net_position: components add to the net changes,True,144488.0 vs 144488.0
+slep changes net_pension_liability: components add to the net changes,True,1309541.0 vs 1309541.0
+slep changes: ending net pension liability = schedule,True,3936740.0 vs 3936740.0
+slep sensitivity: lower rate gives the larger liability,True,7038377.0 > 3936740.0 > 1431323.0
+slep sensitivity: current rate = net pension liability,True,3936740.0 vs 3936740.0
+slep deferred outflows add to the total,True,
+slep deferred inflows add to the total,True,
+slep recognition schedule adds to the total,True,1145103.0 vs 1145103.0
+slep membership adds to the total,True,61.0 vs 61.0
+imrf_eco changes '(a)              (b)          ': (a) - (b) = net,True,
+imrf_eco changes 'Changes for the period Service': (a) - (b) = net,True,
+imrf_eco changes 'Interest': (a) - (b) = net,True,
+imrf_eco changes 'Difference between expected an': (a) - (b) = net,True,
+imrf_eco changes 'Changes in assumptions': (a) - (b) = net,True,
+imrf_eco changes 'Employer contributions': (a) - (b) = net,True,
+imrf_eco changes 'Employee contributions': (a) - (b) = net,True,
+imrf_eco changes 'Net investment income': (a) - (b) = net,True,
+imrf_eco changes 'Benefit payments and refunds': (a) - (b) = net,True,
+imrf_eco changes 'Administrative/other (net tran': (a) - (b) = net,True,
+imrf_eco changes 'Net changes': (a) - (b) = net,True,
+"imrf_eco changes 'BALANCES AT DECEMBER 31, 2015': (a) - (b) = net",True,
+imrf_eco changes total_pension_liability: beginning + net changes = ending,True,5304426.0 + 60562.0 vs 5364988.0
+imrf_eco changes fiduciary_net_position: beginning + net changes = ending,True,3402286.0 + 300704.0 vs 3702990.0
+imrf_eco changes net_pension_liability: beginning + net changes = ending,True,1902140.0 + -240142.0 vs 1661998.0
+imrf_eco changes total_pension_liability: components add to the net changes,True,60562.0 vs 60562.0
+imrf_eco changes fiduciary_net_position: components add to the net changes,True,300704.0 vs 300704.0
+imrf_eco changes net_pension_liability: components add to the net changes,True,-240142.0 vs -240142.0
+imrf_eco changes: ending net pension liability = schedule,True,1661998.0 vs 1661998.0
+imrf_eco sensitivity: lower rate gives the larger liability,True,2200922.0 > 1661998.0 > 1204792.0
+imrf_eco sensitivity: current rate = net pension liability,True,1661998.0 vs 1661998.0
+imrf_eco deferred outflows add to the total,True,
+imrf_eco deferred inflows add to the total,True,
+imrf_eco recognition schedule adds to the total,True,230313.0 vs 230313.0
+imrf_eco membership adds to the total,True,12.0 vs 12.0
