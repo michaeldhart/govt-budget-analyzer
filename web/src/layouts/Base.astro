@@ -14,12 +14,18 @@ const nav = entity ? [
   { id: 'pensions', label: 'Pensions', path: `/${entity}/pensions/`, show: has('pension_plans') },
   { id: 'debt', label: 'Debt', path: `/${entity}/debt/`, show: has('debt_balances') },
   { id: 'fund-balance', label: 'Fund balance', path: `/${entity}/fund-balance/`, show: has('fund_balance') },
-  { id: 'revenue', label: 'Revenue', path: `/${entity}/revenue/`, show: has('park_revenue') },
-  { id: 'spending', label: 'Spending', path: `/${entity}/spending/`, show: has('park_spending') },
+  { id: 'revenue', label: 'Revenue', path: `/${entity}/revenue/`, show: has('fund_revenue') },
+  { id: 'spending', label: 'Spending', path: `/${entity}/spending/`, show: has('fund_spending') },
   { id: 'levy', label: 'Property tax levy', path: `/${entity}/levy/`, show: has('levies') },
-  { id: 'audit-budget', label: 'Audit vs budget', path: `/${entity}/audit-budget/`, show: has('park_audit_vs_budget') },
-  { id: 'fund-balances', label: 'Fund balances', path: `/${entity}/fund-balances/`, show: has('park_fund_balance') },
-  { id: 'liabilities', label: 'Debt', path: `/${entity}/liabilities/`, show: has('park_debt') },
+  { id: 'audit-budget', label: 'Audit vs budget', path: `/${entity}/audit-budget/`, show: has('fund_audit_vs_budget') },
+  { id: 'fund-balances', label: 'Fund balances', path: `/${entity}/fund-balances/`, show: has('fund_balances') },
+  { id: 'liabilities', label: 'Debt', path: `/${entity}/liabilities/`, show: has('fund_debt') },
+  { id: 'budget', label: 'Budget', path: `/${entity}/budget/`, show: has('county_spending') },
+  { id: 'results', label: 'Audited results', path: `/${entity}/results/`, show: has('county_audit_vs_budget') },
+  { id: 'balances', label: 'Fund balances', path: `/${entity}/balances/`, show: has('county_fund_balances') },
+  { id: 'property-tax', label: 'Property tax', path: `/${entity}/property-tax/`, show: has('property_tax') },
+  { id: 'retirement', label: 'Pensions', path: `/${entity}/retirement/`, show: has('retirement') },
+  { id: 'long-term-debt', label: 'Debt', path: `/${entity}/long-term-debt/`, show: has('county_debt') },
 ].filter((n) => n.show) : [];
 const palette = readData<Record<string, string>>('palette.json');
 const vars = Object.entries(palette).map(([k, v]) => `--${k.replace(/_/g, '-')}: ${v};`).join(' ');

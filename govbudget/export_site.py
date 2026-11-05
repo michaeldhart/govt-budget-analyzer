@@ -27,7 +27,7 @@ from collections import defaultdict
 from . import palette, schema
 from .entity import ROOT, Entity, read_csv
 from .export_common import ids, in_range, num
-from .export_park import PARK_DATASETS
+from .export_park import COUNTY_DATASETS, PARK_DATASETS
 
 DEFAULT_OUT = os.path.join(ROOT, "web", "public", "data")
 
@@ -710,8 +710,8 @@ def export_entity(E, out):
     written = []
     copies = set()
     for name, (build, sources) in DATASETS.items():
-        if name not in SHARED_DATASETS and (name in PARK_DATASETS) != bool(E.config.get("fund_based_budget")):
-            continue  # entity.json "fund_based_budget": true picks the fund-organised datasets (export_park.py) instead of the General Fund ones
+        if name not in SHARED_DATASETS and dataset_profile(name) != profile(E):
+            continue  # entity.json "export_profile" (county) or "fund_based_budget" (park district) picks the datasets of that kind of government; the default is the city's
         if not all(os.path.exists(E.data_path(s)) for s in sources):
             continue
         d = build(E, read)
@@ -723,7 +723,8 @@ def export_entity(E, out):
     dump(os.path.join(base, "meta.json"), dict(
         entity_id=E.id, name=cfg["name"], short_name=cfg.get("short_name", cfg["name"]), type=cfg.get("type"), state=cfg.get("state"),
         fy_start_month=cfg["fy_start_month"], fy_label_rule=cfg.get("fy_label_rule"), currency=cfg.get("currency"),
-        funds=cfg.get("funds", []), documents=cfg.get("documents", {}), source_index=cfg.get("source_index", {}),
+        funds=cfg.get("funds", []), documents=cfg.get("documents", {}), source_index=cfg.get("source_index", {}), profile=cfg.get("export_profile"),
+        noun=cfg.get("govt_noun"), site=cfg.get("site", {}),
         bases=schema.BASES, datasets=written))
     cats = defaultdict(list)
     for c in sorted(E.categories(), key=lambda c: (c["scheme"], int(c["sort"]))):
@@ -757,6 +758,16 @@ def export_entity(E, out):
 
 
 DATASETS.update(PARK_DATASETS)
+DATASETS.update(COUNTY_DATASETS)
+
+def profile(E):
+    return E.config.get("export_profile") or ("park" if E.config.get("fund_based_budget") else "city")
+
+
+def dataset_profile(name):
+    return "county" if name in COUNTY_DATASETS else "park" if name in PARK_DATASETS else "city"
+
+
 SHARED_DATASETS = {"reference", "reference_sources"}  # built for every government that has the tables
 
 

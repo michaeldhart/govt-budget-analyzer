@@ -27,7 +27,7 @@ LINES = [  # (label regex, line_id) per schedule; first match wins
     (r"^total (pension|opeb) liability - ending", "liability_ending"), (r"^contributions - employer|^employer contributions", "contributions_employer"),
     (r"^contributions - (member|employees?)|^employee contributions", "contributions_member"), (r"^((pension|opeb) plan )?net investment income", "net_investment_income"),
     (r"^administrative expense", "administrative_expense"), (r"^net change in plan fiduciary", "net_change_fnp"),
-    (r"^plan (fiduciary )?net position,? - beginning|^plan (fiduciary )?net position, beginning", "fnp_beginning"), (r"^plan (fiducia\w+ )?net position,? - ending|^plan (fiducia\w+ )?net position, ending", "fnp_ending"),
+    (r"^plan (fiduciary )?net position,? - beginning|^plan (fiduciary )?net position, beginning", "fnp_beginning"), (r"^plan (fiduc\w+ )?net position,? - ending|^plan (fiduc\w+ )?net position, ending", "fnp_ending"),
     (r"^employer'?s net pension liability$|^employer'?s net pension liability \(|^net pension liability ?\(asset\) - ending", "npl"), (r"plan fiduciary net position as a percentage|^plan fiduciary net position$", "fnp_pct_tpl"),
     (r"^covered(-employee)? (valuation )?payroll", "covered_payroll"), (r"net pension liability as a percentage|total opeb liability as a percentage|liability as a percentage", "liability_pct_payroll"),
     (r"^actuarially determined contribution", "actuarially_determined_contribution"), (r"^contributions in relation", "contributions_actual"),

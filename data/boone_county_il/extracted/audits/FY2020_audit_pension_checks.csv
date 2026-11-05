@@ -41,18 +41,18 @@ imrf_eco npl 2019: fiduciary net position components add to the net change,True,
 imrf_eco npl 2019: beginning + change = ending fiduciary net position,True,
 imrf_eco npl 2019: net pension liability = liability - fiduciary net position,True,1133894.0 vs 1133894.0
 imrf_eco npl 2019: fiduciary net position percentage,True,76.937 vs 76.94
-imrf_non_slep contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2015: contributions / payroll,True,
-imrf_non_slep contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2016: contributions / payroll,True,
-imrf_non_slep contributions 2017: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2017: contributions / payroll,True,
-imrf_non_slep contributions 2018: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2018: contributions / payroll,True,
-imrf_non_slep contributions 2019: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2019: contributions / payroll,True,
-imrf_non_slep contributions 2020: ADC - contributions = deficiency,True,0.0 vs 0.0
-imrf_non_slep contributions 2020: contributions / payroll,True,
+imrf_regular contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2015: contributions / payroll,True,
+imrf_regular contributions 2016: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2016: contributions / payroll,True,
+imrf_regular contributions 2017: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2017: contributions / payroll,True,
+imrf_regular contributions 2018: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2018: contributions / payroll,True,
+imrf_regular contributions 2019: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2019: contributions / payroll,True,
+imrf_regular contributions 2020: ADC - contributions = deficiency,True,0.0 vs 0.0
+imrf_regular contributions 2020: contributions / payroll,True,
 imrf_regular npl 2014: liability components add to the net change,True,2569324.0 vs 2569324.0
 imrf_regular npl 2014: beginning + change = ending liability,True,
 imrf_regular npl 2014: fiduciary net position components add to the net change,True,2151779.0 vs 2151779.0

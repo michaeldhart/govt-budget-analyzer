@@ -61,8 +61,8 @@ FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net 
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2015,-330842.0,usd
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,34767341.0,usd
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2015,36634929.0,usd
-FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2014,36634929.0,usd
-FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2015,36304087.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCARIY NET POSITION - ENDING,2014,36634929.0,usd
+FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCARIY NET POSITION - ENDING,2015,36304087.0,usd
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2014,1798090.0,usd
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY,2015,4099590.0,usd
 FY2016_audit,86,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,95.32,percent

@@ -3,10 +3,15 @@ audited spending against the budget, fund balances and long-term debt. Registere
 missing. Same envelope and conventions as export_site (exception_ids on every row)."""
 from collections import defaultdict
 
+from . import export_county
 from .export_common import ids, in_range, num
 
 DEBT_GROUPS = {"alt_rev_2012A": "Bonds", "refunding_2020": "Bonds", "agreement_deed": "Other borrowing", "sbita": "Other borrowing",
                "premium": "Bond premium", "net_pension": "Net pension liability (IMRF)", "compensated_absences": "Compensated absences"}
+
+
+def is_county(E):
+    return E.config.get("export_profile") == "county"
 
 
 def fund_names(E):
@@ -22,11 +27,13 @@ def budget_facts(read, flow):
     return {fy: (("adopted", b["adopted"]) if b["adopted"] else ("requested", b["requested"])) for fy, b in sorted(by.items())}
 
 
-def park_revenue(E, read):
+def fund_revenue(E, read):
     amap, cats, funds = E.account_map(), {c["category_id"]: c for c in E.categories("budget_category")}, fund_names(E)
     sums, ex = defaultdict(int), defaultdict(set)
     basis_of = {}
     for fy, (basis, facts) in budget_facts(read, "revenue").items():
+        if is_county(E) and fy <= 2019:
+            continue  # the FY2017 and FY2019 budget books print only a seven-category revenue summary (no line detail, the General Fund's taxes are missing)
         basis_of[fy] = basis
         for f in facts:
             k = (fy, funds[f["fund_code"]], amap[("revenue", f["account_key"])]["category_id"])
@@ -34,17 +41,21 @@ def park_revenue(E, read):
             ex[k].update(ids(f["exception_ids"]))
     rows = [dict(fiscal_year=fy, fund=fund, category_id=c, category=cats[c]["name"], basis=basis_of[fy], amount=a, exception_ids=sorted(ex[(fy, fund, c)]))
             for (fy, fund, c), a in sorted(sums.items())]
+    desc = ("Every revenue line of the county's budgets summed per fund and category: the adopted budget of each year (FY2017-FY2026); FY2027 is the preliminary budget (basis requested). "
+            "Transfers between funds and bond proceeds are budgeted as revenue. FY2017-FY2019 are left out: those budget books print only a summary of revenue by source "
+            "(the General Fund's tax lines are not in them), so a line-level total would be far too small." if is_county(E) else
+            "Every revenue line of the district's budgets summed per fund and category. The adopted budget where the district's document is the adopted one; "
+            "FY2027 is the draft request (basis requested). FY2022's budget has no revenue report. Bond proceeds are budgeted as revenue.")
     return dict(
         title="Budgeted revenue by fund and category",
-        description="Every revenue line of the district's budgets summed per fund and category. The adopted budget where the district's document is the adopted one; "
-                    "FY2027 is the draft request (basis requested). FY2022's budget has no revenue report. Bond proceeds are budgeted as revenue.",
+        description=desc,
         sources=["facts.csv", "entities/<id>/account_map.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", category_id="budget category (categories.json, scheme budget_category)",
                      category="category name", basis="adopted | requested (a draft request)", amount="dollars", exception_ids="exceptions touching the lines in this cell"),
         rows=rows)
 
 
-def park_spending(E, read):
+def fund_spending(E, read):
     amap, objs, funds = E.account_map(), {c["category_id"]: c for c in E.categories("expense_object")}, fund_names(E)
     fns = {c["name"]: c for c in E.categories("function_group")}
     depts = {}
@@ -60,10 +71,14 @@ def park_spending(E, read):
             ex[k].update(ids(f["exception_ids"]))
     rows = [dict(fiscal_year=fy, fund=fund, function=fn, function_id=fns[fn]["category_id"], object_id=o, object=objs[o]["name"], basis=basis_of[fy], amount=a,
                  exception_ids=sorted(ex[(fy, fund, fn, o)])) for (fy, fund, fn, o), a in sorted(sums.items())]
+    desc = ("Every expense line of the county's budgets summed per fund, function group and object category (adopted budget of each year, FY2017-FY2026; FY2027 is the "
+            "preliminary budget). The employee health insurance fund's claims and the transfers into it are both budgeted, so spending is counted once in the General Fund (as a "
+            "transfer out) and once in the health fund (as claims)." if is_county(E) else
+            "Every expense line of the district's budgets summed per fund, function group and object category (adopted budget; FY2027 is a draft request). "
+            "Transfers between funds are not separated out by the district.")
     return dict(
         title="Budgeted spending by fund, function and object",
-        description="Every expense line of the district's budgets summed per fund, function group and object category (adopted budget; FY2027 is a draft request). "
-                    "Transfers between funds are not separated out by the district.",
+        description=desc,
         sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", function="function group (categories.json, scheme function_group)", function_id="function id",
                      object_id="object category (scheme expense_object)", object="object category name", basis="adopted | requested", amount="dollars",
@@ -95,12 +110,12 @@ def _by_department(E, read, flow, cat_scheme):
     return rows
 
 
-def park_spending_by_department(E, read):
+def fund_spending_by_department(E, read):
     return dict(
         title="Budgeted spending by department and object",
         description="Every expense line of the district's budgets summed per fiscal year, fund, department (program) and object category: the adopted budget, else the draft request "
                     "(FY2027). Departments are identified by fund and name because the district renumbered its departments between FY2024 and FY2025 (a program keeps its name, "
-                    "not its code); dept_codes lists the printed fund-department codes behind each cell. The department rows add to park_spending's totals in every year.",
+                    "not its code); dept_codes lists the printed fund-department codes behind each cell. The department rows add to fund_spending's totals in every year.",
         sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", dept_id="fund name | department name", department="department name",
                      function="function group", function_id="function id", category_id="object category (scheme expense_object)", category="object category name",
@@ -108,11 +123,11 @@ def park_spending_by_department(E, read):
         rows=_by_department(E, read, "expense", "expense_object"))
 
 
-def park_revenue_by_department(E, read):
+def fund_revenue_by_department(E, read):
     return dict(
         title="Budgeted revenue by department and category",
         description="Every revenue line of the district's budgets summed per fiscal year, fund, department (program) and revenue category, with the same department identity as "
-                    "park_spending_by_department. The district prints program fees under the program's own department; taxes and transfers sit under administration. "
+                    "fund_spending_by_department. The district prints program fees under the program's own department; taxes and transfers sit under administration. "
                     "FY2022's budget has no revenue report.",
         sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", dept_id="fund name | department name", department="department name",
@@ -162,7 +177,7 @@ def levies(E, read):
         rows=rows)
 
 
-def park_audit_vs_budget(E, read):
+def fund_audit_vs_budget(E, read):
     def n(x):
         return None if x in ("", None) else int(float(x))
 
@@ -190,7 +205,7 @@ def park_audit_vs_budget(E, read):
         rows=rows)
 
 
-def park_fund_balance(E, read):
+def fund_balances(E, read):
     want = {"total_fund_balance": "fund_balance", "unassigned": "unassigned", "cash": "cash", "total_revenues": "revenues", "total_expenditures": "expenditures",
             "net_change_in_fund_balance": "net_change", "total_other_financing": "other_financing"}
     cells = defaultdict(dict)
@@ -214,7 +229,7 @@ def park_fund_balance(E, read):
         rows=rows)
 
 
-def park_debt(E, read):
+def fund_debt(E, read):
     docs = {d["doc_id"]: d for d in read("documents.csv")}
     inst = {r["instrument_id"]: r["name"] for r in E.table("debt_instruments.csv")}
     by, total, ex = defaultdict(int), {}, defaultdict(set)
@@ -242,13 +257,23 @@ def park_debt(E, read):
         rows=rows)
 
 
+COUNTY_DATASETS = {
+    "county_revenue": (fund_revenue, ["facts.csv"]),
+    "county_spending": (fund_spending, ["facts.csv"]),
+    "county_audit_vs_budget": (export_county.audit_vs_budget, ["audit_vs_budget.csv"]),
+    "county_fund_balances": (export_county.fund_balances, ["fund_statements.csv"]),
+    "county_debt": (export_county.debt, ["debt_balances.csv"]),
+    "property_tax": (export_county.property_tax, ["property_tax_levies.csv", "documents.csv"]),
+    "retirement": (export_county.retirement, ["pension_rollforward.csv", "pension_summary.csv", "opeb_rollforward.csv", "documents.csv"]),
+}
+
 PARK_DATASETS = {
-    "park_revenue": (park_revenue, ["facts.csv"]),
-    "park_spending": (park_spending, ["facts.csv"]),
-    "park_spending_by_department": (park_spending_by_department, ["facts.csv"]),
-    "park_revenue_by_department": (park_revenue_by_department, ["facts.csv"]),
+    "fund_revenue": (fund_revenue, ["facts.csv"]),
+    "fund_spending": (fund_spending, ["facts.csv"]),
+    "fund_spending_by_department": (fund_spending_by_department, ["facts.csv"]),
+    "fund_revenue_by_department": (fund_revenue_by_department, ["facts.csv"]),
     "levies": (levies, ["ordinance_lines.csv", "ordinance_summary.csv", "reference_by_fy.csv", "documents.csv"]),
-    "park_audit_vs_budget": (park_audit_vs_budget, ["audit_vs_budget.csv"]),
-    "park_fund_balance": (park_fund_balance, ["fund_statements.csv"]),
-    "park_debt": (park_debt, ["debt_balances.csv"]),
+    "fund_audit_vs_budget": (fund_audit_vs_budget, ["audit_vs_budget.csv"]),
+    "fund_balances": (fund_balances, ["fund_statements.csv"]),
+    "fund_debt": (fund_debt, ["debt_balances.csv"]),
 }

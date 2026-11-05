@@ -234,5 +234,7 @@
     "pension_rollforward",
     "pension_summary",
     "opeb_rollforward"
-  ]
+  ],
+  "export_profile": "county",
+  "govt_noun": "county"
 }

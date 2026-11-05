@@ -7,7 +7,7 @@ import pytest
 from govbudget import export_site
 
 ENT = "belvidere_park_district"
-PARK = ["park_revenue", "park_spending", "park_spending_by_department", "park_revenue_by_department", "levies", "park_audit_vs_budget", "park_fund_balance", "park_debt"]
+PARK = ["fund_revenue", "fund_spending", "fund_spending_by_department", "fund_revenue_by_department", "levies", "fund_audit_vs_budget", "fund_balances", "fund_debt"]
 
 
 @pytest.fixture(scope="module")
@@ -38,7 +38,7 @@ def test_envelope_and_rows(site, name):
 
 
 def test_budget_totals_equal_the_adopted_lines(site):
-    rev, exp = site(ENT, "park_revenue.json")["rows"], site(ENT, "park_spending.json")["rows"]
+    rev, exp = site(ENT, "fund_revenue.json")["rows"], site(ENT, "fund_spending.json")["rows"]
     assert sum(r["amount"] for r in rev if r["fiscal_year"] == 2026) == 9322993
     assert sum(r["amount"] for r in exp if r["fiscal_year"] == 2026) == 9299597
     assert {r["fiscal_year"] for r in rev if r["basis"] == "requested"} == {2027}  # only FY2027 is still a draft
@@ -53,9 +53,9 @@ def test_levies_debt_and_balances(site):
     assert [agg[y]["extension"] for y in range(2022, 2026)] == [3851324, 4128720, 4372109, 4557070] and agg[2026]["extension"] is None
     assert [agg[y]["extension_rate_per_100"] for y in range(2022, 2026)] == [0.53223, 0.54416, 0.52927, 0.49246]
     assert agg[2027]["status"] == "draft" and agg[2024]["status"] == "adopted" and agg[2023]["status"] == "adopted"
-    debt = site(ENT, "park_debt.json")["rows"]
+    debt = site(ENT, "fund_debt.json")["rows"]
     assert sum(r["ending_balance"] for r in debt if r["fiscal_year"] == 2025) == 4887628
-    fb = {r["fiscal_year"]: r["fund_balance"] for r in site(ENT, "park_fund_balance.json")["rows"] if r["fund"] == "Total Governmental Funds"}
+    fb = {r["fiscal_year"]: r["fund_balance"] for r in site(ENT, "fund_balances.json")["rows"] if r["fund"] == "Total Governmental Funds"}
     assert fb[2019] == 5342620 and fb[2025] == 6966239
 
 
@@ -65,7 +65,7 @@ def test_reference_rows_carry_the_population_exception(site):
 
 
 def test_department_datasets_add_to_the_fund_level_totals(site):
-    for dept, whole in (("park_spending_by_department", "park_spending"), ("park_revenue_by_department", "park_revenue")):
+    for dept, whole in (("fund_spending_by_department", "fund_spending"), ("fund_revenue_by_department", "fund_revenue")):
         d, w = site(ENT, dept + ".json")["rows"], site(ENT, whole + ".json")["rows"]
         for fy in sorted({r["fiscal_year"] for r in w}):
             assert sum(r["amount"] for r in d if r["fiscal_year"] == fy) == sum(r["amount"] for r in w if r["fiscal_year"] == fy), (dept, fy)
@@ -74,7 +74,7 @@ def test_department_datasets_add_to_the_fund_level_totals(site):
 
 
 def test_department_identity_is_fund_and_name(site):
-    rows = site(ENT, "park_spending_by_department.json")["rows"]
+    rows = site(ENT, "fund_spending_by_department.json")["rows"]
     assert all(r["dept_id"] == f"{r['fund']}|{r['department']}" and r["dept_codes"] for r in rows)
     # one function per department, and a program keeps one identity across the FY2025 renumbering (Third Base was 02-8000, then 02-050)
     assert len({(r["dept_id"], r["function"]) for r in rows}) == len({r["dept_id"] for r in rows})

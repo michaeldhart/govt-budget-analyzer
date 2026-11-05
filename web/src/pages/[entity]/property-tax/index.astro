@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('property_tax')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'property_tax.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const totals = all.filter((r) => r.levy === 'All levies').sort((a, b) => a.tax_year - b.tax_year);
+const levies = all.filter((r) => r.levy !== 'All levies' && r.extension != null);
+const first = totals[0], last = totals.at(-1)!;
+const series = seriesOf(levies, 'levy', {}, 'extension');
+const extRows = toRows(levies, 'levy', 'extension');
+const avRows = totals.filter((r) => r.assessed_valuation != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Assessed valuation', value: r.assessed_valuation, exception_ids: r.exception_ids }));
+const collectedRows = totals.filter((r) => r.pct_collected != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Percent of the extension collected', value: r.pct_collected, exception_ids: r.exception_ids }));
+const rateRows = levies.filter((r) => r.rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: r.levy, value: r.rate_per_100, exception_ids: r.exception_ids }));
+const exIds = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+const growth = (a: number, b: number) => ((a / b - 1) * 100).toFixed(0);
+---
+<Base entity={entity} section="property-tax" title={`Property tax – ${meta.short_name}`} description={`${meta.name}: property tax levies, extensions and collections by tax year.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Property tax</p>
+  <h1>Property tax levies and collections</h1>
+  <p class="muted">The audits' "Property Tax Levies and Collections" table, tax years {first.tax_year}–{last.tax_year}. Each tax year's bills are collected in the next fiscal year, so tax year {last.tax_year} appears as {fyLabel(last.fiscal_year)}. The county's total extension is split among about a dozen levies (county general, bonds and interest, IMRF, highway, bridge, matching, health, liability insurance, social security, cooperative extension, senior citizen, veterans).</p>
+
+  <dl class="summary">
+    <div><dt>Tax year {last.tax_year} extension</dt><dd>{millions(last.extension, 1)}</dd></div>
+    <div><dt>Tax year {first.tax_year}</dt><dd>{millions(first.extension, 1)}</dd></div>
+    <div><dt>Assessed valuation, {last.tax_year}</dt><dd>${(last.assessed_valuation / 1e9).toFixed(2)}B</dd></div>
+    <div><dt>Total rate per $100</dt><dd>{last.rate_per_100?.toFixed(4)}</dd></div>
+  </dl>
+  <p class="muted">Since tax year {first.tax_year} the assessed valuation grew {growth(last.assessed_valuation, first.assessed_valuation)}% and the extension {growth(last.extension, first.extension)}%; the rate per $100 fell from {first.rate_per_100?.toFixed(4)} to {last.rate_per_100?.toFixed(4)}.</p>
+
+  <h2>Extension by levy</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="extension" ink={palette.ink} series={series} rows={extRows} ignoreRange={true}
+    title="Property tax extension by levy (fiscal year of collection)" filename="county-property-tax-extension.csv" totalLabel="Total extension"
+    note="What the county clerk extended on the tax bills for each levy. Bonds and interest is the levy for debt service." />
+
+  <h2>Assessed valuation</h2>
+  <LineSeries client:load exceptions={exceptionMap} units={ref?.units} id="av" rows={avRows} series={[{ name: 'Assessed valuation', color: '#2a78d6' }]}
+    title="Equalized assessed valuation of the county (fiscal year of collection)" filename="county-assessed-valuation.csv" kind="money"
+    note="The tax base the rates apply to. The extension is not exactly rate times valuation: the rates apply to the valuation without tax increment financing districts' increments." />
+
+  <h2>Share collected</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="collected" rows={collectedRows} series={[{ name: 'Percent of the extension collected', color: '#1baf7a' }]}
+    title="Percent of the extension collected" filename="county-property-tax-collected.csv" kind="percent"
+    note="Collections divided by the extension, as the audit prints it." />
+
+  <h2>Every levy and tax year</h2>
+  <details><summary>Show the table ({all.length} rows)</summary>
+  <div class="scroll"><table>
+    <thead><tr><th>Tax year</th><th>Levy</th><th class="num">Rate per $100</th><th class="num">Extension</th><th class="num">Collected</th></tr></thead>
+    <tbody>{all.slice().sort((a, b) => b.tax_year - a.tax_year || (a.levy === 'All levies' ? 1 : b.levy === 'All levies' ? -1 : (b.extension ?? 0) - (a.extension ?? 0))).map((r) => (
+      <tr><td>{r.tax_year}</td><td>{r.levy}</td><td class="num">{r.rate_per_100 == null ? '' : r.rate_per_100.toFixed(4)}</td><td class="num">{dollars(r.extension)}</td><td class="num">{dollars(r.collected)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  </details>
+
+  <h2>Notes on the numbers</h2>
+  <p class="muted">Each tax year is printed in several audits with identical figures; the earliest audit that prints it is used. Where an audit's total omits a levy's collection, the data keep what each audit prints (see below).</p>
+  <ul>{exIds.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/property_tax.json`)}>levies, extensions and collections by tax year</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

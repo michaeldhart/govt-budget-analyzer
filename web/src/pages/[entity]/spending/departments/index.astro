@@ -12,14 +12,14 @@ import { toRows, seriesOf, colorsOf } from '../../../../lib/series';
 
 export function getStaticPaths() {
   const { entities } = readData('index.json');
-  return entities.filter((e: any) => e.datasets.includes('park_spending_by_department')).map((e: any) => ({ params: { entity: e.entity_id } }));
+  return entities.filter((e: any) => e.datasets.includes('fund_spending_by_department')).map((e: any) => ({ params: { entity: e.entity_id } }));
 }
 const entity = '' + Astro.params.entity;
 const meta = readData(entity, 'meta.json');
 const palette = readData('palette.json');
 const schemes = readData(entity, 'categories.json').schemes;
-const spending: any[] = readData(entity, 'park_spending_by_department.json').rows;
-const revenue: any[] = readData(entity, 'park_revenue_by_department.json').rows;
+const spending: any[] = readData(entity, 'fund_spending_by_department.json').rows;
+const revenue: any[] = readData(entity, 'fund_revenue_by_department.json').rows;
 const ref = referenceFor(entity);
 const exceptionMap = exceptionsUsedBy(entity, spending, revenue);
 const years = [...new Set<number>(spending.map((r) => r.fiscal_year))].sort();
@@ -101,7 +101,7 @@ const exIds = ['EX-fund-renumbering-fy2025'].filter((id) => exceptions[id]);
     <li>Department revenue is what the budget prints under the department's own code. Program fees sit with their program; the district prints property tax, replacement tax and transfers under the administration departments, so for those the revenue chart is not a program's earnings.</li>
     {exIds.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}
   </ul>
-  <p class="muted">Data: <a href={href(`/data/${entity}/park_spending_by_department.json`)}>spending by department and object</a> · <a href={href(`/data/${entity}/park_revenue_by_department.json`)}>revenue by department</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+  <p class="muted">Data: <a href={href(`/data/${entity}/fund_spending_by_department.json`)}>spending by department and object</a> · <a href={href(`/data/${entity}/fund_revenue_by_department.json`)}>revenue by department</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
 </Base>
 
 <style>

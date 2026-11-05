@@ -24,7 +24,7 @@ boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,
 boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,Administrative expense,administrative_expense,-12262,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,Net change in plan fiduciary net position,net_change_fnp,1867588,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,Plan fiduciary net position - beginning,fnp_beginning,34767341,84,,EX-pension-restated-2014-2015
-boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36634929,84,,EX-pension-restated-2014-2015
+boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36634929,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_regular,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY (ASSET),npl,1798090,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,Service cost,service_cost,19860,85,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,Interest,interest,365809,85,,EX-pension-restated-2014-2015
@@ -42,7 +42,7 @@ boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,"Ben
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,Administrative expense,administrative_expense,1173,85,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,Net change in plan fiduciary net position,net_change_fnp,96782,85,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,Plan fiduciary net position - beginning,fnp_beginning,3305504,85,,EX-pension-restated-2014-2015
-boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,3402286,85,,EX-pension-restated-2014-2015
+boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,3402286,85,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,imrf_eco,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY (ASSET),npl,1902140,85,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,Service cost,service_cost,490252,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,Interest,interest,1299064,86,,EX-pension-restated-2014-2015
@@ -60,7 +60,7 @@ boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,"Benefit
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,Administrative expense,administrative_expense,-23256,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,Net change in plan fiduciary net position,net_change_fnp,886610,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,Plan fiduciary net position - beginning,fnp_beginning,14950184,86,,EX-pension-restated-2014-2015
-boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,15836794,86,,EX-pension-restated-2014-2015
+boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,15836794,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2015_audit,2015,slep,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY (ASSET),npl,2627199,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_contributions,"November 30, 2015",2015,Actuarially determined contribution,actuarially_determined_contribution,939452,82,,
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_contributions,"November 30, 2016",2016,Actuarially determined contribution,actuarially_determined_contribution,883355,82,,
@@ -112,8 +112,8 @@ boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2014",2014,
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2015",2015,Net change in plan fiduciary net position,net_change_fnp,-330842,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2014",2014,Plan fiduciary net position - beginning,fnp_beginning,34767341,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2015",2015,Plan fiduciary net position - beginning,fnp_beginning,36634929,86,,EX-pension-restated-2014-2015
-boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36634929,86,,EX-pension-restated-2014-2015
-boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36304087,86,,EX-pension-restated-2014-2015
+boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36634929,86,,EX-pension-restated-2014-2015
+boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36304087,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY,npl,1798090,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_regular,rsi_npl,"December 31, 2015",2015,EMPLOYER'S NET PENSION LIABILITY,npl,4099590,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2016_audit,2016,imrf_eco,rsi_npl,"December 31, 2014",2014,Service cost,service_cost,19860,87,,EX-pension-restated-2014-2015
@@ -263,9 +263,9 @@ boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2016",2016,
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2014",2014,Plan fiduciary net position - beginning,fnp_beginning,34767341,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2015",2015,Plan fiduciary net position - beginning,fnp_beginning,36634929,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2016",2016,Plan fiduciary net position - beginning,fnp_beginning,36304087,84,,
-boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36634929,84,,EX-pension-restated-2014-2015
-boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36304087,84,,EX-pension-restated-2014-2015
-boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,39119991,84,,
+boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36634929,84,,EX-pension-restated-2014-2015
+boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36304087,84,,EX-pension-restated-2014-2015
+boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,39119991,84,,
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY,npl,1798090,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2015",2015,EMPLOYER'S NET PENSION LIABILITY,npl,4099590,84,,EX-pension-restated-2014-2015
 boone_county_il,FY2017_audit,2017,imrf_regular,rsi_npl,"December 31, 2016",2016,EMPLOYER'S NET PENSION LIABILITY,npl,3735123,84,,
@@ -905,21 +905,21 @@ boone_county_il,FY2019_audit,2019,imrf_eco,rsi_npl,"December 31, 2017",2017,Net 
 boone_county_il,FY2019_audit,2019,imrf_eco,rsi_npl,"December 31, 2016",2016,Net pension liability(asset) - Ending (a) - (b),npl,1523684,81,,
 boone_county_il,FY2019_audit,2019,imrf_eco,rsi_npl,"December 31, 2015",2015,Net pension liability(asset) - Ending (a) - (b),npl,1661998,81,,EX-pension-restated-2014-2015
 boone_county_il,FY2019_audit,2019,imrf_eco,rsi_npl,"December 31, 2014",2014,Net pension liability(asset) - Ending (a) - (b),npl,1810522,81,,EX-pension-restated-2014-2015
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,82,,
-boone_county_il,FY2019_audit,2019,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,82,,
+boone_county_il,FY2019_audit,2019,imrf_regular,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,82,,
 boone_county_il,FY2019_audit,2019,slep,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,480695,82,,
 boone_county_il,FY2019_audit,2019,slep,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,480695,82,,
 boone_county_il,FY2019_audit,2019,slep,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,82,,
@@ -1277,24 +1277,24 @@ boone_county_il,FY2020_audit,2020,imrf_eco,rsi_npl,"December 31, 2017",2017,Net 
 boone_county_il,FY2020_audit,2020,imrf_eco,rsi_npl,"December 31, 2016",2016,Net pension liability(asset) - Ending (a) - (b),npl,1523684,81,,
 boone_county_il,FY2020_audit,2020,imrf_eco,rsi_npl,"December 31, 2015",2015,Net pension liability(asset) - Ending (a) - (b),npl,1661998,81,,EX-pension-restated-2014-2015
 boone_county_il,FY2020_audit,2020,imrf_eco,rsi_npl,"December 31, 2014",2014,Net pension liability(asset) - Ending (a) - (b),npl,1810522,81,,EX-pension-restated-2014-2015
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,82,,
-boone_county_il,FY2020_audit,2020,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,82,,
+boone_county_il,FY2020_audit,2020,imrf_regular,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,82,,
 boone_county_il,FY2020_audit,2020,slep,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,575444,82,,
 boone_county_il,FY2020_audit,2020,slep,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,575444,82,,
 boone_county_il,FY2020_audit,2020,slep,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,82,,
@@ -1709,27 +1709,27 @@ boone_county_il,FY2021_audit,2021,imrf_eco,rsi_npl,"December 31, 2017",2017,Net 
 boone_county_il,FY2021_audit,2021,imrf_eco,rsi_npl,"December 31, 2016",2016,Net pension liability (asset) - Ending (a) - (b),npl,1523684,88,,
 boone_county_il,FY2021_audit,2021,imrf_eco,rsi_npl,"December 31, 2015",2015,Net pension liability (asset) - Ending (a) - (b),npl,1661998,88,,EX-pension-restated-2014-2015
 boone_county_il,FY2021_audit,2021,imrf_eco,rsi_npl,"December 31, 2014",2014,Net pension liability (asset) - Ending (a) - (b),npl,1810522,88,,EX-pension-restated-2014-2015
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,actuarially determined contribution,actuarially_determined_contribution,892374,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,contributions actual,contributions_actual,892374,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,89,,
-boone_county_il,FY2021_audit,2021,imrf_non_slep,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2021",2021,actuarially determined contribution,actuarially_determined_contribution,892374,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2021",2021,contributions actual,contributions_actual,892374,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2021",2021,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2015",2015,actuarially determined contribution,actuarially_determined_contribution,939452,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2015",2015,contributions actual,contributions_actual,939452,89,,
+boone_county_il,FY2021_audit,2021,imrf_regular,rsi_contributions,"November 30, 2015",2015,contribution deficiency,contribution_deficiency,0,89,,
 boone_county_il,FY2021_audit,2021,slep,rsi_contributions,"November 30, 2021",2021,actuarially determined contribution,actuarially_determined_contribution,548047,89,,
 boone_county_il,FY2021_audit,2021,slep,rsi_contributions,"November 30, 2021",2021,contributions actual,contributions_actual,548047,89,,
 boone_county_il,FY2021_audit,2021,slep,rsi_contributions,"November 30, 2021",2021,contribution deficiency,contribution_deficiency,0,89,,
@@ -2200,27 +2200,27 @@ boone_county_il,FY2022_audit,2022,imrf_eco,rsi_npl,"December 31, 2017",2017,Net 
 boone_county_il,FY2022_audit,2022,imrf_eco,rsi_npl,"December 31, 2016",2016,Net pension liability (asset) - Ending (a) - (b),npl,1523684,89,,
 boone_county_il,FY2022_audit,2022,imrf_eco,rsi_npl,"December 31, 2015",2015,Net pension liability (asset) - Ending (a) - (b),npl,1661998,89,,EX-pension-restated-2014-2015
 boone_county_il,FY2022_audit,2022,imrf_eco,rsi_npl,"December 31, 2014",2014,Net pension liability (asset) - Ending (a) - (b),npl,1810522,89,,EX-pension-restated-2014-2015
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2022",2022,actuarially determined contribution,actuarially_determined_contribution,747627,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2022",2022,contributions actual,contributions_actual,744502,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2022",2022,contribution deficiency,contribution_deficiency,3125,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,actuarially determined contribution,actuarially_determined_contribution,892374,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,contributions actual,contributions_actual,892374,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2021",2021,contribution deficiency,contribution_deficiency,0,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,90,,
-boone_county_il,FY2022_audit,2022,imrf_non_slep,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2022",2022,actuarially determined contribution,actuarially_determined_contribution,747627,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2022",2022,contributions actual,contributions_actual,744502,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2022",2022,contribution deficiency,contribution_deficiency,3125,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2021",2021,actuarially determined contribution,actuarially_determined_contribution,892374,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2021",2021,contributions actual,contributions_actual,892374,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2021",2021,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2020",2020,actuarially determined contribution,actuarially_determined_contribution,844304,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2020",2020,contributions actual,contributions_actual,844304,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2020",2020,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2019",2019,actuarially determined contribution,actuarially_determined_contribution,647987,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2019",2019,contributions actual,contributions_actual,647987,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2019",2019,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2018",2018,actuarially determined contribution,actuarially_determined_contribution,856055,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2018",2018,contributions actual,contributions_actual,856055,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2018",2018,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2017",2017,actuarially determined contribution,actuarially_determined_contribution,853818,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2017",2017,contributions actual,contributions_actual,853818,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2017",2017,contribution deficiency,contribution_deficiency,0,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2016",2016,actuarially determined contribution,actuarially_determined_contribution,883355,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2016",2016,contributions actual,contributions_actual,883355,90,,
+boone_county_il,FY2022_audit,2022,imrf_regular,rsi_contributions,"November 30, 2016",2016,contribution deficiency,contribution_deficiency,0,90,,
 boone_county_il,FY2022_audit,2022,slep,rsi_contributions,"November 30, 2022",2022,actuarially determined contribution,actuarially_determined_contribution,448870,90,,
 boone_county_il,FY2022_audit,2022,slep,rsi_contributions,"November 30, 2022",2022,contributions actual,contributions_actual,448870,90,,
 boone_county_il,FY2022_audit,2022,slep,rsi_contributions,"November 30, 2022",2022,contribution deficiency,contribution_deficiency,0,90,,
@@ -3062,16 +3062,16 @@ boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2020",2020,
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2021",2021,Plan fiduciary net position - beginning,fnp_beginning,55643998,86,,
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2022",2022,Plan fiduciary net position - beginning,fnp_beginning,64176476,86,,
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2023",2023,Plan fiduciary net position - beginning,fnp_beginning,55157079,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,37391340,86,,EX-pension-restated-2014-2015
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36304087,86,,EX-pension-restated-2014-2015
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,39119991,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2017",2017,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,44984425,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2018",2018,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,42007967,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2019",2019,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,49117539,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2020",2020,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,55643998,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2021",2021,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,64176476,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2022",2022,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,55157079,86,,
-boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2023",2023,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,60978250,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2014",2014,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,37391340,86,,EX-pension-restated-2014-2015
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36304087,86,,EX-pension-restated-2014-2015
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,39119991,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2017",2017,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,44984425,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2018",2018,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,42007967,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2019",2019,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,49117539,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2020",2020,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,55643998,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2021",2021,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,64176476,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2022",2022,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,55157079,86,,
+boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2023",2023,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,60978250,86,,
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2014",2014,EMPLOYER'S NET PENSION LIABILITY,npl,1083983,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2015",2015,EMPLOYER'S NET PENSION LIABILITY,npl,4099590,86,,EX-pension-restated-2014-2015
 boone_county_il,FY2024_audit,2024,imrf_regular,rsi_npl,"December 31, 2016",2016,EMPLOYER'S NET PENSION LIABILITY,npl,3735123,86,,
@@ -3692,16 +3692,16 @@ boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2021",2021,
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2022",2022,Plan fiduciary net position - beginning,fnp_beginning,64176476,91,,
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2023",2023,Plan fiduciary net position - beginning,fnp_beginning,55157079,91,,
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2024",2024,Plan fiduciary net position - beginning,fnp_beginning,60978250,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,36304087,91,,EX-pension-restated-2014-2015
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,39119991,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2017",2017,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,44984425,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2018",2018,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,42007967,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2019",2019,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,49117539,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2020",2020,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,55643998,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2021",2021,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,64176476,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2022",2022,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,55157079,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2023",2023,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,60978250,91,,
-boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2024",2024,PLAN FIDUCARIY NET POSITION - ENDING,plan_fiducariy_net_position_ending,63500057,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2015",2015,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,36304087,91,,EX-pension-restated-2014-2015
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2016",2016,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,39119991,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2017",2017,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,44984425,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2018",2018,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,42007967,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2019",2019,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,49117539,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2020",2020,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,55643998,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2021",2021,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,64176476,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2022",2022,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,55157079,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2023",2023,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,60978250,91,,
+boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2024",2024,PLAN FIDUCARIY NET POSITION - ENDING,fnp_ending,63500057,91,,
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2015",2015,EMPLOYER'S NET PENSION LIABILITY,npl,4099590,91,,EX-pension-restated-2014-2015
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2016",2016,EMPLOYER'S NET PENSION LIABILITY,npl,3735123,91,,
 boone_county_il,FY2025_audit,2025,imrf_regular,rsi_npl,"December 31, 2017",2017,EMPLOYER'S NET PENSION LIABILITY,npl,-1485648,91,,

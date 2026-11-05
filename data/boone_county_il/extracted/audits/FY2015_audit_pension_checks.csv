@@ -3,15 +3,24 @@ imrf_eco contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
 imrf_eco npl 2014: liability components add to the net change,True,180874.0 vs 180874.0
 imrf_eco npl 2014: beginning + change = ending liability,True,
 imrf_eco npl 2014: fiduciary net position components add to the net change,True,96782.0 vs 96782.0
+imrf_eco npl 2014: beginning + change = ending fiduciary net position,True,
+imrf_eco npl 2014: net pension liability = liability - fiduciary net position,True,1902140.0 vs 1902140.0
+imrf_eco npl 2014: fiduciary net position percentage,True,64.141 vs 64.14
 imrf_regular contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
 imrf_regular contributions 2015: contributions / payroll,True,
 imrf_regular npl 2014: liability components add to the net change,True,2527020.0 vs 2527020.0
 imrf_regular npl 2014: beginning + change = ending liability,True,
 imrf_regular npl 2014: fiduciary net position components add to the net change,True,1867588.0 vs 1867588.0
+imrf_regular npl 2014: beginning + change = ending fiduciary net position,True,
+imrf_regular npl 2014: net pension liability = liability - fiduciary net position,True,1798090.0 vs 1798090.0
+imrf_regular npl 2014: fiduciary net position percentage,True,95.321 vs 95.32
 imrf_regular npl 2014: net pension liability as a percentage of payroll,True,20.882 vs 20.88
 slep contributions 2015: ADC - contributions = deficiency,True,0.0 vs 0.0
 slep contributions 2015: contributions / payroll,True,
 slep npl 2014: liability components add to the net change,True,1095747.0 vs 1095747.0
 slep npl 2014: beginning + change = ending liability,True,
 slep npl 2014: fiduciary net position components add to the net change,True,886610.0 vs 886610.0
+slep npl 2014: beginning + change = ending fiduciary net position,True,
+slep npl 2014: net pension liability = liability - fiduciary net position,True,2627199.0 vs 2627199.0
+slep npl 2014: fiduciary net position percentage,True,85.771 vs 85.77
 slep npl 2014: net pension liability as a percentage of payroll,True,106.252 vs 106.25

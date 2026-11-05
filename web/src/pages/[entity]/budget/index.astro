@@ -1,0 +1,97 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf, colorsOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('county_spending')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const revenue: any[] = readData(entity, 'county_revenue.json').rows;
+const spending: any[] = readData(entity, 'county_spending.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, revenue, spending);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const years = [...new Set(spending.map((r) => r.fiscal_year))].sort() as number[];
+const revYears = [...new Set(revenue.map((r) => r.fiscal_year))].sort() as number[];
+const total = (rows: any[], fy: number, f: (r: any) => boolean = () => true) => rows.filter((r) => r.fiscal_year === fy && f(r)).reduce((s, r) => s + r.amount, 0);
+const latest = years.at(-1)!;
+const adopted = [...years].reverse().find((y) => spending.some((r) => r.fiscal_year === y && r.basis === 'adopted'))!;
+const drafts = years.filter((y) => spending.find((r) => r.fiscal_year === y)?.basis === 'requested');
+const share = (rows: any[], fy: number, key: string, id: string) => total(rows, fy, (r) => r[key] === id) / total(rows, fy);
+const byCat = seriesOf(revenue, 'category', colorsOf(schemes.budget_category));
+const byFn = seriesOf(spending, 'function', colorsOf(schemes.function_group));
+const byObj = seriesOf(spending, 'object', colorsOf(schemes.expense_object));
+// the county has about 55 funds: the ten biggest by budgeted spending are drawn, the rest are summed
+const fundTotals = new Map<string, number>();
+for (const r of spending) fundTotals.set(r.fund, (fundTotals.get(r.fund) ?? 0) + r.amount);
+const top = [...fundTotals].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([f]) => f);
+const fundRows = spending.map((r) => ({ ...r, fundGroup: top.includes(r.fund) ? r.fund : 'All other funds' }));
+const HUES = ['#2a78d6', '#1baf7a', '#eb6834', '#e87ba4', '#eda100', '#4a3aa7', '#52514e', '#7a9a2e', '#2b9aa0', '#a0522d'];
+const byFund = [...top, 'All other funds'].map((name, i) => ({ name, color: name === 'All other funds' ? '#b4b2a9' : HUES[i] }));
+const latestFund = top.map((f) => ({ fund: f, rev: total(revenue, revYears.at(-1)!, (r) => r.fund === f), exp: total(spending, latest, (r) => r.fund === f) }));
+const exIds = ['EX-health-insurance-transfer-vs-expense', 'EX-expense-categories', 'EX-revenue-source-classification'].filter((id) => exceptions[id]);
+---
+<Base entity={entity} section="budget" title={`Budget – ${meta.short_name}`} description={`${meta.name}: budgeted revenue and spending by fund, function and object.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Budget</p>
+  <h1>The county's budget</h1>
+  <p class="muted">Every revenue and expense line in the county's budgets, {fyLabel(years[0])}–{fyLabel(latest)} (the fiscal year runs December 1 to November 30 and is named for the year it ends). Each year is the adopted budget; {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the preliminary budget the county board has not yet adopted. These are budgets, not what was collected or spent: see <a href={href(`/${entity}/results/`)}>audited results vs the budget</a>.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(adopted)} adopted spending</dt><dd>{millions(total(spending, adopted), 1)}</dd></div>
+    <div><dt>{fyLabel(adopted)} adopted revenue</dt><dd>{millions(total(revenue, adopted), 1)}</dd></div>
+    <div><dt>Personnel share of spending</dt><dd>{(share(spending, adopted, 'object_id', 'exp_personnel') * 100).toFixed(0)}%</dd></div>
+    <div><dt>Property tax share of revenue</dt><dd>{(share(revenue, adopted, 'category_id', 'property_tax') * 100).toFixed(0)}%</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>Revenue by category</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="revenue-category" ink={palette.ink} series={byCat} rows={toRows(revenue, 'category')}
+    title="Budgeted revenue by category" filename="county-revenue-by-category.csv" totalLabel="Total budgeted revenue"
+    note={`Starts in ${fyLabel(revYears[0])}: the FY2017-FY2019 budget books print only a summary of revenue by source. Transfers between funds and bond proceeds are budgeted as revenue, so a total includes money that moves from one fund to another.`} />
+
+  <h2>Spending by function</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-function" ink={palette.ink} series={byFn} rows={toRows(spending, 'function')}
+    title="Budgeted spending by function" filename="county-spending-by-function.csv" totalLabel="Total budgeted spending"
+    note="Function groups follow the county's departments and the way the audit presents them (general control and administration, judiciary and courts, public safety, highways and bridges, health and welfare, capital, debt service). Transfers out are in the function of the fund that pays them." />
+
+  <h2>Spending by object</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-object" ink={palette.ink} series={byObj} rows={toRows(spending, 'object')}
+    title="Budgeted spending by object category" filename="county-spending-by-object.csv" totalLabel="Total budgeted spending"
+    note="Object categories follow the county's account numbers (personnel 401-4xx, supplies, contractual services, claims and grants, capital, debt, transfers). The ERP conversion in FY2025 renumbered the accounts; the old books' codes are mapped to the new ones." />
+
+  <h2>Spending by fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="spending-fund" ink={palette.ink} series={byFund} rows={toRows(fundRows, 'fundGroup')}
+    title="Budgeted spending by fund (ten largest)" filename="county-spending-by-fund.csv" totalLabel="Total budgeted spending"
+    note="The county keeps its money in about 55 funds. The employee health insurance fund (claims) is large because the General Fund and the other funds transfer into it, so those dollars are budgeted twice: once as a transfer out, once as claims." />
+
+  <h2>{fyLabel(latest)} by fund (ten largest)</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fund</th><th class="num">Revenue ({fyLabel(revYears.at(-1)!)})</th><th class="num">Spending ({fyLabel(latest)})</th></tr></thead>
+    <tbody>{latestFund.map((r) => <tr><td>{r.fund}</td><td class="num">{dollars(r.rev)}</td><td class="num">{dollars(r.exp)}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{exIds.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/county_revenue.json`)}>budgeted revenue</a> · <a href={href(`/data/${entity}/county_spending.json`)}>budgeted spending</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

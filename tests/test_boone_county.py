@@ -265,7 +265,7 @@ def test_pension_schedules_agree_across_audits_and_tie_to_the_debt_note():
     differ = [k for k, v in seen.items() if len(set(v.values())) > 1]
     # IMRF restated its 2014 and 2015 columns (EX-pension-restated-2014-2015); the 2019 OPEB experience lines are presented differently from FY2024 (EX-opeb-2019-reclass);
     # everything else, measurement years 2016-2024, is identical in every audit that prints it (eleven audits FY2015-FY2025)
-    assert len(seen) == 1097 and len(differ) == 63
+    assert len(seen) == 1059 and len(differ) == 64
     assert all(int(k[3]) <= 2015 or (k[0] == "opeb" and k[3] == "2019") for k in differ)
     roll = list(csv.DictReader(open(DATA / "pension_rollforward.csv", newline="")))
     npl = {(r["doc_id"], r["plan_id"], r["column_year"]): int(r["amount"]) for r in roll if r["line_id"] == "npl"}

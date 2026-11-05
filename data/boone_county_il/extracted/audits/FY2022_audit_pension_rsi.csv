@@ -492,41 +492,41 @@ FY2022_audit,89,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,
 FY2022_audit,89,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2016,0.0,percent
 FY2022_audit,89,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2015,0.0,percent
 FY2022_audit,89,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2014,0.0,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,747627.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2022,744502.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2022,3125.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2022,10831126.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2022,6.87,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,892374.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2021,892374.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2021,10078924.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2021,8.85,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,844304.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2020,844304.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2020,9449522.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2020,8.93,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,647987.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2019,647987.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2019,9248883.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2019,7.01,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,856055.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2018,856055.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2018,9024235.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2018,9.49,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,853818.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2017,853818.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2017,8805846.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2017,9.7,percent
-FY2022_audit,90,imrf_non_slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,883355.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contributions_actual,contributions actual,2016,883355.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,covered_payroll,covered payroll,2016,8850036.0,usd
-FY2022_audit,90,imrf_non_slep,contributions,,contribution_pct_payroll,contribution pct payroll,2016,9.98,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,747627.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2022,744502.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2022,3125.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2022,10831126.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2022,6.87,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,892374.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2021,892374.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2021,10078924.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2021,8.85,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,844304.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2020,844304.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2020,9449522.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2020,8.93,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,647987.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2019,647987.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2019,9248883.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2019,7.01,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,856055.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2018,856055.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2018,9024235.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2018,9.49,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,853818.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2017,853818.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2017,8805846.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2017,9.7,percent
+FY2022_audit,90,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,883355.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contributions_actual,contributions actual,2016,883355.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2022_audit,90,imrf_regular,contributions,,covered_payroll,covered payroll,2016,8850036.0,usd
+FY2022_audit,90,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2016,9.98,percent
 FY2022_audit,90,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,448870.0,usd
 FY2022_audit,90,slep,contributions,,contributions_actual,contributions actual,2022,448870.0,usd
 FY2022_audit,90,slep,contributions,,contribution_deficiency,contribution deficiency,2022,0.0,usd

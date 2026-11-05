@@ -1,0 +1,63 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows, seriesOf } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('county_debt')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'county_debt.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const years = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
+const total = (fy: number, f: (r: any) => boolean = () => true) => all.filter((r) => r.fiscal_year === fy && f(r)).reduce((s, r) => s + r.ending_balance, 0);
+const first = years[0], last = years.at(-1)!;
+const series = seriesOf(all, 'group', {}, 'ending_balance');
+const exIds = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+const latestRows = all.filter((r) => r.fiscal_year === last).sort((a, b) => b.ending_balance - a.ending_balance);
+---
+<Base entity={entity} section="long-term-debt" title={`Long-term debt – ${meta.short_name}`} description={`${meta.name}: long-term liabilities by kind.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Long-term debt</p>
+  <h1>Long-term debt and other long-term liabilities</h1>
+  <p class="muted">From the long-term debt note of each audit, {fyLabel(first)}–{fyLabel(last)} (balances at November 30; governmental activities). The county's borrowing (bonds and debt certificates) is small; the other long-term liabilities in the table are compensated absences, landfill post-closure care, retiree health benefits and the net pension liabilities, which the audits add to it over FY2016-FY2018. The groups add to the audit's printed total in every year.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last)} total</dt><dd>{millions(total(last), 1)}</dd></div>
+    <div><dt>of which bonds and certificates</dt><dd>{millions(total(last, (r) => r.group === 'Bonds and debt certificates'), 1)}</dd></div>
+    <div><dt>{fyLabel(first)} total</dt><dd>{millions(total(first), 1)}</dd></div>
+  </dl>
+
+  <h2>By kind</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="liabilities" ink={palette.ink} series={series} rows={toRows(all, 'group', 'ending_balance')}
+    title="Long-term liabilities at year end" filename="county-liabilities.csv" totalLabel="Total long-term liabilities"
+    note="Bonds and debt certificates include the premium. Net pension liabilities are the ones the debt note lists (a plan with a net pension asset is not a liability). The total changes composition when the audits start listing the pension and retiree health liabilities in this table." />
+
+  <h2>{fyLabel(last)}</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Kind</th><th class="num">Balance at November 30</th></tr></thead>
+    <tbody>{latestRows.map((r) => <tr><td>{r.group}</td><td class="num">{dollars(r.ending_balance)}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{exIds.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/county_debt.json`)}>long-term liabilities by kind</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

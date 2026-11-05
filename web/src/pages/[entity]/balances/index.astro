@@ -1,0 +1,99 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StackedBars from '../../../components/StackedBars.svelte';
+import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+import { toRows } from '../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('county_fund_balances')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const all: any[] = readData(entity, 'county_fund_balances.json').rows;
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const TOTAL = 'All governmental funds', NONMAJOR = 'All nonmajor funds';
+const tot = all.filter((r) => r.fund === TOTAL).sort((a, b) => a.fiscal_year - b.fiscal_year);
+const gf = all.filter((r) => r.fund === 'General Fund').sort((a, b) => a.fiscal_year - b.fiscal_year);
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, all);
+const years = tot.map((r) => r.fiscal_year);
+const first = tot[0], last = tot.at(-1)!;
+const gfLast = gf.at(-1)!;
+// the stack: the General Fund, the major funds of the year and the nonmajor total would double count (a fund moves between the two), so the chart uses
+// the General Fund, the three biggest other funds of the latest year, and everything else as the remainder of the total
+const latestFunds = all.filter((r) => r.fiscal_year === last.fiscal_year && ![TOTAL, NONMAJOR, 'General Fund'].includes(r.fund)).sort((a, b) => b.fund_balance - a.fund_balance);
+const named = ['General Fund', ...latestFunds.slice(0, 3).map((r) => r.fund)];
+const stackRows = years.flatMap((fy) => {
+  const at = (name: string) => all.find((r) => r.fiscal_year === fy && r.fund === name)?.fund_balance;
+  const T = at(TOTAL) ?? 0;
+  const parts = named.map((n) => ({ fiscal_year: fy, series: n, value: at(n) ?? 0, exception_ids: [] }));
+  return [...parts, { fiscal_year: fy, series: 'All other funds', value: T - parts.reduce((s, p) => s + p.value, 0), exception_ids: [] }];
+});
+const HUES = ['#2a78d6', '#1baf7a', '#eb6834', '#e87ba4'];
+const stackSeries = [...named.map((n, i) => ({ name: n, color: HUES[i] })), { name: 'All other funds', color: '#b4b2a9' }];
+const monthsRows = gf.filter((r) => r.unassigned_pct_of_spending != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'General Fund unassigned', value: r.unassigned_pct_of_spending * 12, exception_ids: r.exception_ids }));
+const latestTable = all.filter((r) => r.fiscal_year === last.fiscal_year && ![TOTAL, NONMAJOR].includes(r.fund)).sort((a, b) => b.fund_balance - a.fund_balance);
+const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+---
+<Base entity={entity} section="balances" title={`Fund balances – ${meta.short_name}`} description={`${meta.name}: fund balances by fund from the audits.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Fund balances</p>
+  <h1>Fund balances</h1>
+  <p class="muted">From the county's audited balance sheets and statements of revenues, expenditures and changes in fund balances, {fyLabel(first.fiscal_year)}–{fyLabel(last.fiscal_year)} (year ends November 30). The audit shows the General Fund and a few other major funds on the main statements and the other funds, about 60 in all, on the combining statements; both are in the data. Most of the special funds hold restricted money; the General Fund holds the unassigned balance.</p>
+
+  <dl class="summary">
+    <div><dt>{fyLabel(last.fiscal_year)} total fund balance</dt><dd>{millions(last.fund_balance, 1)}</dd></div>
+    <div><dt>{fyLabel(first.fiscal_year)}</dt><dd>{millions(first.fund_balance, 1)}</dd></div>
+    <div><dt>General Fund unassigned</dt><dd>{millions(gfLast.unassigned ?? 0, 1)}</dd></div>
+    <div><dt>…in months of General Fund spending</dt><dd>{((gfLast.unassigned_pct_of_spending ?? 0) * 12).toFixed(1)}</dd></div>
+  </dl>
+
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+
+  <h2>Balance by fund</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="balance-fund" ink={palette.ink} series={stackSeries} rows={stackRows}
+    title="Fund balance, all governmental funds" filename="county-fund-balance.csv" totalLabel="All governmental funds"
+    note="The General Fund, the three biggest other funds in the latest audit, and everything else (the remainder of the audit's total). Fund balance is the money a fund holds at year end; restricted money can only be spent for the fund's purpose." />
+
+  <h2>General Fund reserves in months of spending</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="months" rows={monthsRows} series={[{ name: 'General Fund unassigned', color: '#2a78d6' }]}
+    title="General Fund unassigned balance as months of its own spending" filename="county-fund-balance-months.csv" kind="months"
+    reference={{ value: 2, label: 'Two months (GFOA minimum)', color: palette.ink2 }}
+    note="Unassigned balance divided by that year's General Fund expenditures, times 12. The General Fund's spending excludes the employee health insurance transfer when the audit treats it as other financing." />
+
+  <h2>{fyLabel(last.fiscal_year)} by fund</h2>
+  <details open><summary>{latestTable.length} funds</summary>
+  <div class="scroll"><table>
+    <thead><tr><th>Fund</th><th class="num">Fund balance</th><th class="num">Cash</th><th class="num">Revenues</th><th class="num">Expenditures</th><th class="num">Net change</th></tr></thead>
+    <tbody>{latestTable.map((r) => (
+      <tr><td>{r.fund}</td><td class="num">{dollars(r.fund_balance)}</td><td class="num">{dollars(r.cash)}</td><td class="num">{dollars(r.revenues)}</td><td class="num">{dollars(r.expenditures)}</td><td class="num">{dollars(r.net_change)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  </details>
+
+  <h2>All governmental funds</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Fiscal year</th><th class="num">Fund balance</th><th class="num">Revenues</th><th class="num">Expenditures</th><th class="num">Net change</th></tr></thead>
+    <tbody>{tot.slice().reverse().map((r) => (
+      <tr><td>{fyLabel(r.fiscal_year)}</td><td class="num">{dollars(r.fund_balance)}</td><td class="num">{dollars(r.revenues)}</td><td class="num">{dollars(r.expenditures)}</td><td class="num">{dollars(r.net_change)}</td></tr>
+    ))}</tbody>
+  </table></div>
+  <ul>{usedEx.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/county_fund_balances.json`)}>fund balances by fund and year</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

@@ -12,12 +12,12 @@ import { toRows, seriesOf } from '../../../lib/series';
 
 export function getStaticPaths() {
   const { entities } = readData('index.json');
-  return entities.filter((e: any) => e.datasets.includes('park_fund_balance')).map((e: any) => ({ params: { entity: e.entity_id } }));
+  return entities.filter((e: any) => e.datasets.includes('fund_balances')).map((e: any) => ({ params: { entity: e.entity_id } }));
 }
 const entity = '' + Astro.params.entity;
 const meta = readData(entity, 'meta.json');
 const palette = readData('palette.json');
-const all: any[] = readData(entity, 'park_fund_balance.json').rows;
+const all: any[] = readData(entity, 'fund_balances.json').rows;
 const TOTAL = 'Total Governmental Funds';
 const funds = all.filter((r) => r.fund !== TOTAL);
 const tot = all.filter((r) => r.fund === TOTAL).sort((a, b) => a.fiscal_year - b.fiscal_year);
@@ -62,7 +62,7 @@ const gfLast = gf.at(-1)!;
       <tr><td>{fyLabel(r.fiscal_year)}</td><td class="num">{dollars(r.fund_balance)}</td><td class="num">{dollars(r.cash)}</td><td class="num">{dollars(r.revenues)}</td><td class="num">{dollars(r.expenditures)}</td><td class="num">{dollars(r.net_change)}</td></tr>
     ))}</tbody>
   </table></div>
-  <p class="muted">Data: <a href={href(`/data/${entity}/park_fund_balance.json`)}>fund balances by fund and year</a></p>
+  <p class="muted">Data: <a href={href(`/data/${entity}/fund_balances.json`)}>fund balances by fund and year</a></p>
 </Base>
 
 <style>

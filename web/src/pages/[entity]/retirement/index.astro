@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LineSeries from '../../../components/LineSeries.svelte';
+import { readData, href } from '../../../lib/data';
+import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { dollars, fyLabel } from '../../../lib/format';
+import { millions } from '../../../lib/chart';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('retirement')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const all: any[] = readData(entity, 'retirement.json').rows;
+const exceptionMap = exceptionsUsedBy(entity, all);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const PLANS = ['imrf_regular', 'imrf_eco', 'slep'];
+const SHORT: Record<string, string> = { imrf_regular: 'IMRF County Regular', imrf_eco: 'IMRF Elected County Officials', slep: 'SLEP (Sheriff)' };
+const COLOR: Record<string, string> = { imrf_regular: '#2a78d6', imrf_eco: '#eb6834', slep: '#1baf7a' };
+const pens = all.filter((r) => PLANS.includes(r.plan));
+const opeb = all.filter((r) => r.plan === 'opeb').sort((a, b) => a.measurement_year - b.measurement_year);
+const years = [...new Set(pens.map((r) => r.measurement_year))].sort() as number[];
+const lastY = years.at(-1)!;
+const at = (plan: string, y: number) => pens.find((r) => r.plan === plan && r.measurement_year === y);
+const rows = (key: string) => pens.filter((r) => r[key] != null).map((r) => ({ fiscal_year: r.fiscal_year, series: SHORT[r.plan], value: r[key], exception_ids: r.exception_ids }));
+const planSeries = PLANS.map((p) => ({ name: SHORT[p], color: COLOR[p] }));
+const nplNow = PLANS.reduce((s, p) => s + (at(p, lastY)?.npl ?? 0), 0);
+const nplFirst = PLANS.reduce((s, p) => s + (at(p, years[0])?.npl ?? 0), 0);
+const opebRows = opeb.map((r) => ({ fiscal_year: r.fiscal_year, series: 'Total OPEB liability', value: r.tpl, exception_ids: r.exception_ids }));
+const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+---
+<Base entity={entity} section="retirement" title={`Pensions and retiree health – ${meta.short_name}`} description={`${meta.name}: pension plans' funded status and the retiree health liability.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › Pensions and retiree health</p>
+  <h1>Pensions and retiree health</h1>
+  <p class="muted">The county's employees are in three plans run through the Illinois Municipal Retirement Fund: County Regular (most employees), Elected County Officials and the Sheriff's Law Enforcement Personnel plan (SLEP). The audits report each plan's total pension liability, plan assets and the difference, the net pension liability, measured at December 31 and reported in the audit for the fiscal year that ends the next November (December 31, {lastY} appears as {fyLabel(lastY + 1)}). The county also promises retiree health benefits, which it does not pre-fund.</p>
+
+  <dl class="summary">
+    <div><dt>Net pension liability, {lastY}</dt><dd>{millions(nplNow, 1)}</dd></div>
+    <div><dt>…in {years[0]}</dt><dd>{millions(nplFirst, 1)}</dd></div>
+    <div><dt>County Regular funded</dt><dd>{at('imrf_regular', lastY)?.funded_ratio_pct?.toFixed(1)}%</dd></div>
+    <div><dt>Retiree health liability, {opeb.at(-1)!.measurement_year}</dt><dd>{millions(opeb.at(-1)!.tpl, 1)}</dd></div>
+  </dl>
+
+  <h2>Funded ratio</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="funded" rows={rows('funded_ratio_pct')} series={planSeries}
+    title="Plan assets as a percent of the total pension liability" filename="county-pension-funded-ratio.csv" kind="percent"
+    note="Above 100% means the plan holds more than it owes on the measurement date." />
+
+  <h2>Net pension liability</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="npl" rows={rows('npl')} series={planSeries}
+    title="Net pension liability by plan" filename="county-net-pension-liability.csv" kind="money"
+    note="Total pension liability minus plan assets. Below zero is a net pension asset. IMRF restated the 2014 and 2015 figures in later audits; the latest audit's figures are shown." />
+
+  <h2>Retiree health benefits (OPEB)</h2>
+  <LineSeries client:load exceptions={exceptionMap} id="opeb" rows={opebRows} series={[{ name: 'Total OPEB liability', color: '#e87ba4' }]}
+    title="Total OPEB liability (measured at November 30)" filename="county-opeb-liability.csv" kind="money"
+    note="The county does not set money aside for retiree health care, so the whole liability is unfunded. GASB 75 measures start in FY2018." />
+
+  <h2>Latest measurement</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Plan</th><th>Measured</th><th class="num">Total liability</th><th class="num">Plan assets</th><th class="num">Net liability</th><th class="num">Funded</th></tr></thead>
+    <tbody>{[...PLANS, 'opeb'].map((p) => { const r = p === 'opeb' ? opeb.at(-1)! : at(p, lastY)!; return (
+      <tr><td>{r.plan_name}</td><td>{p === 'opeb' ? `November 30, ${r.measurement_year}` : `December 31, ${r.measurement_year}`}</td><td class="num">{dollars(r.tpl)}</td><td class="num">{dollars(r.fnp)}</td><td class="num">{dollars(r.npl)}</td><td class="num">{r.funded_ratio_pct?.toFixed(1)}%</td></tr>
+    ); })}</tbody>
+  </table></div>
+
+  <h2>Notes on the numbers</h2>
+  <ul>{usedEx.map((id: any) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/retirement.json`)}>pension and OPEB liabilities by year</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scroll { overflow-x: auto; }
+  td.num, th.num { white-space: nowrap; }
+</style>

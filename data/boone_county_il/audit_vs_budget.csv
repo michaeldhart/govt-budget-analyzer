@@ -166,24 +166,24 @@ boone_county_il,005,Motor Fuel Fund,2022,revenue,adopted,FY2022_budget,1570000,1
 boone_county_il,005,Motor Fuel Fund,2023,revenue,adopted,FY2023_budget,1550000,1550000,0,FY2025_budget,2027799,1800638,-227161,agree,differs,Motor Fuel Tax
 boone_county_il,005,Motor Fuel Fund,2024,revenue,adopted,FY2024_budget,1800000,1800000,0,FY2026_budget,2134003,2111785,-22218,agree,differs,COUNTY MOTOR FUEL TAX FUND
 boone_county_il,005,Motor Fuel Fund,2025,revenue,adopted,FY2025_budget,1770000,1770000,0,FY2027_budget_prelim,1855571,1939163,83592,agree,differs,COUNTY MOTOR FUEL TAX FUND
-boone_county_il,007,007,2015,expenditure,,,,119894,,FY2017_budget,108685,124115,15430,,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2016,expenditure,prior_doc_budget,FY2017_budget,111338,125061,13723,FY2018_budget,50401,62155,11754,differs,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2017,expenditure,adopted,FY2017_budget,0,0,0,,,338,,agree,,PLANNING FUND - FUND 007
-boone_county_il,007,007,2021,expenditure,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2022,expenditure,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2023,expenditure,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2015,other_financing,,,,30000,,FY2017_budget,60000,30000,-30000,,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2016,other_financing,prior_doc_budget,FY2017_budget,87277,50500,-36777,FY2018_budget,50500,25250,-25250,differs,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2017,other_financing,adopted,FY2017_budget,-19492,-19492,0,,,-7900,,agree,,PLANNING FUND - FUND 007
-boone_county_il,007,007,2021,other_financing,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2022,other_financing,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2023,other_financing,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2015,revenue,,,,59350,,FY2017_budget,37230,66574,29344,,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2016,revenue,prior_doc_budget,FY2017_budget,32450,82950,50500,FY2018_budget,22099,47353,25254,differs,differs,PLANNING FUND - FUND 007
-boone_county_il,007,007,2017,revenue,adopted,FY2017_budget,0,0,0,,,0,,agree,,PLANNING FUND - FUND 007
-boone_county_il,007,007,2021,revenue,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2022,revenue,,,,0,,,,0,,,,Planning
-boone_county_il,007,007,2023,revenue,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2015,expenditure,,,,119894,,FY2017_budget,108685,124115,15430,,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2016,expenditure,prior_doc_budget,FY2017_budget,111338,125061,13723,FY2018_budget,50401,62155,11754,differs,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2017,expenditure,adopted,FY2017_budget,0,0,0,,,338,,agree,,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2021,expenditure,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2022,expenditure,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2023,expenditure,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2015,other_financing,,,,30000,,FY2017_budget,60000,30000,-30000,,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2016,other_financing,prior_doc_budget,FY2017_budget,87277,50500,-36777,FY2018_budget,50500,25250,-25250,differs,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2017,other_financing,adopted,FY2017_budget,-19492,-19492,0,,,-7900,,agree,,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2021,other_financing,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2022,other_financing,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2023,other_financing,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2015,revenue,,,,59350,,FY2017_budget,37230,66574,29344,,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2016,revenue,prior_doc_budget,FY2017_budget,32450,82950,50500,FY2018_budget,22099,47353,25254,differs,differs,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2017,revenue,adopted,FY2017_budget,0,0,0,,,0,,agree,,PLANNING FUND - FUND 007
+boone_county_il,007,Planning Department Fund,2021,revenue,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2022,revenue,,,,0,,,,0,,,,Planning
+boone_county_il,007,Planning Department Fund,2023,revenue,,,,0,,,,0,,,,Planning
 boone_county_il,011,Animal Serv. Bldg. & Maint.,2015,expenditure,,,,810000,,FY2017_budget,5150,5150,0,,agree,ANIMAL SERVICES BUILDING AND MAINTENANCE FUND - FUND 011
 boone_county_il,011,Animal Serv. Bldg. & Maint.,2016,expenditure,prior_doc_budget,FY2017_budget,37000,37000,0,FY2018_budget,0,0,0,agree,agree,ANIMAL SERVICES BUILDING AND MAINTENANCE FUND - FUND 011
 boone_county_il,011,Animal Serv. Bldg. & Maint.,2017,expenditure,adopted,FY2017_budget,0,0,0,FY2019_budget,0,0,0,agree,agree,ANIMAL SERVICES BUILDING AND MAINTENANCE FUND - FUND 011
@@ -273,33 +273,33 @@ boone_county_il,013,Health Fund,2022,revenue,adopted,FY2022_budget,611924,611924
 boone_county_il,013,Health Fund,2023,revenue,adopted,FY2023_budget,650087,650087,0,FY2025_budget,2601032,2652445,51413,agree,differs,Health Department
 boone_county_il,013,Health Fund,2024,revenue,adopted,FY2024_budget,847726,2491218,1643492,FY2026_budget,2897481,2506532,-390949,differs,differs,HEALTH DEPARTMENT FUND
 boone_county_il,013,Health Fund,2025,revenue,adopted,FY2025_budget,2549867,2549867,0,FY2027_budget_prelim,2547570,2656761,109191,agree,differs,HEALTH DEPARTMENT FUND
-boone_county_il,014,014,2015,expenditure,,,,381779,,FY2017_budget,320547,447307,126760,,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2016,expenditure,prior_doc_budget,FY2017_budget,337572,471666,134094,FY2018_budget,367047,499130,132083,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2017,expenditure,adopted,FY2017_budget,305761,445157,139396,FY2019_budget,366146,513206,147060,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2018,expenditure,adopted,FY2018_budget,425020,353520,-71500,,,0,,differs,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2019,expenditure,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2020,expenditure,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2021,expenditure,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2022,expenditure,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2023,expenditure,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2015,other_financing,,,,0,,FY2017_budget,-50893,-11596,39297,,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2016,other_financing,prior_doc_budget,FY2017_budget,-134344,-250,134094,FY2018_budget,-138773,-14406,124367,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2017,other_financing,adopted,FY2017_budget,-139646,-250,139396,FY2019_budget,-115023,-26882,88141,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2018,other_financing,adopted,FY2018_budget,-132948,-132948,0,,,-167905,,agree,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2019,other_financing,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2020,other_financing,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2021,other_financing,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2022,other_financing,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2023,other_financing,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2015,revenue,,,,439270,,FY2017_budget,444896,340019,-104877,,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2016,revenue,prior_doc_budget,FY2017_budget,461459,461459,0,FY2018_budget,454510,459495,4985,agree,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2017,revenue,adopted,FY2017_budget,445408,445408,0,FY2019_budget,442540,500701,58161,agree,differs,COUNTY HEALTH GRANT FUND - FUND 014
-boone_county_il,014,014,2018,revenue,adopted,FY2018_budget,557968,486468,-71500,,,0,,differs,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2019,revenue,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2020,revenue,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
-boone_county_il,014,014,2021,revenue,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2022,revenue,,,,0,,,,0,,,,Health Grant
-boone_county_il,014,014,2023,revenue,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2015,expenditure,,,,381779,,FY2017_budget,320547,447307,126760,,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2016,expenditure,prior_doc_budget,FY2017_budget,337572,471666,134094,FY2018_budget,367047,499130,132083,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2017,expenditure,adopted,FY2017_budget,305761,445157,139396,FY2019_budget,366146,513206,147060,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2018,expenditure,adopted,FY2018_budget,425020,353520,-71500,,,0,,differs,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2019,expenditure,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2020,expenditure,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2021,expenditure,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2022,expenditure,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2023,expenditure,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2015,other_financing,,,,0,,FY2017_budget,-50893,-11596,39297,,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2016,other_financing,prior_doc_budget,FY2017_budget,-134344,-250,134094,FY2018_budget,-138773,-14406,124367,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2017,other_financing,adopted,FY2017_budget,-139646,-250,139396,FY2019_budget,-115023,-26882,88141,differs,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2018,other_financing,adopted,FY2018_budget,-132948,-132948,0,,,-167905,,agree,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2019,other_financing,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2020,other_financing,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2021,other_financing,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2022,other_financing,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2023,other_financing,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2015,revenue,,,,439270,,FY2017_budget,444896,340019,-104877,,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2016,revenue,prior_doc_budget,FY2017_budget,461459,461459,0,FY2018_budget,454510,459495,4985,agree,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2017,revenue,adopted,FY2017_budget,445408,445408,0,FY2019_budget,442540,500701,58161,agree,differs,COUNTY HEALTH GRANT FUND - FUND 014
+boone_county_il,014,Board of Health Grant Fund,2018,revenue,adopted,FY2018_budget,557968,486468,-71500,,,0,,differs,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2019,revenue,adopted,FY2019_budget,0,0,0,,,0,,agree,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2020,revenue,,,,0,,,,0,,,,County Health Grant Fund - Fund 014
+boone_county_il,014,Board of Health Grant Fund,2021,revenue,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2022,revenue,,,,0,,,,0,,,,Health Grant
+boone_county_il,014,Board of Health Grant Fund,2023,revenue,,,,0,,,,0,,,,Health Grant
 boone_county_il,015,FICA Fund,2015,expenditure,,,,733885,,FY2017_budget,841451,838534,-2917,,differs,FICA FUND - FUND 015
 boone_county_il,015,FICA Fund,2016,expenditure,prior_doc_budget,FY2017_budget,874836,874836,0,FY2018_budget,845216,849326,4110,agree,differs,FICA FUND - FUND 015
 boone_county_il,015,FICA Fund,2017,expenditure,adopted,FY2017_budget,852741,852741,0,FY2019_budget,866333,844805,-21528,agree,differs,FICA FUND - FUND 015
@@ -1161,21 +1161,21 @@ boone_county_il,161,Marriage & Civil Union Fund,2021,revenue,adopted,FY2021_budg
 boone_county_il,161,Marriage & Civil Union Fund,2022,revenue,adopted,FY2022_budget,1200,1200,0,,,1586,,agree,,Marriage and Civil Union
 boone_county_il,161,Marriage & Civil Union Fund,2023,revenue,adopted,FY2023_budget,1200,1200,0,FY2025_budget,1117,1217,100,agree,differs,Marriage and Civil Union
 boone_county_il,161,Marriage & Civil Union Fund,2024,revenue,adopted,FY2024_budget,1000,1000,0,FY2026_budget,1768,1668,-100,agree,differs,MARRIAGE AND CIVIL UNION FUND
-boone_county_il,162,162,2017,expenditure,adopted,FY2017_budget,11000,11000,0,,,725,,agree,,PRAIRIE SHIELD GRANT FUND - FUND 162
-boone_county_il,162,162,2018,expenditure,adopted,FY2018_budget,2250,2250,0,,,0,,agree,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2019,expenditure,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2020,expenditure,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2021,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2022,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2023,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2023,other_financing,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2017,revenue,adopted,FY2017_budget,40,40,0,,,0,,agree,,PRAIRIE SHIELD GRANT FUND - FUND 162
-boone_county_il,162,162,2018,revenue,adopted,FY2018_budget,132,132,0,,,0,,agree,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2019,revenue,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2020,revenue,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
-boone_county_il,162,162,2021,revenue,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2022,revenue,,,,0,,,,0,,,,Prairie Shield Grant
-boone_county_il,162,162,2023,revenue,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2017,expenditure,adopted,FY2017_budget,11000,11000,0,,,725,,agree,,PRAIRIE SHIELD GRANT FUND - FUND 162
+boone_county_il,162,Regional Communication Fund,2018,expenditure,adopted,FY2018_budget,2250,2250,0,,,0,,agree,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2019,expenditure,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2020,expenditure,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2021,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2022,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2023,expenditure,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2023,other_financing,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2017,revenue,adopted,FY2017_budget,40,40,0,,,0,,agree,,PRAIRIE SHIELD GRANT FUND - FUND 162
+boone_county_il,162,Regional Communication Fund,2018,revenue,adopted,FY2018_budget,132,132,0,,,0,,agree,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2019,revenue,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2020,revenue,,,,0,,,,0,,,,Prairie Shield Grant Fund - Fund 162
+boone_county_il,162,Regional Communication Fund,2021,revenue,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2022,revenue,,,,0,,,,0,,,,Prairie Shield Grant
+boone_county_il,162,Regional Communication Fund,2023,revenue,,,,0,,,,0,,,,Prairie Shield Grant
 boone_county_il,163,Sale in Error Fund,2021,expenditure,adopted,FY2021_budget,1500,1500,0,,,0,,agree,,Sale in Error
 boone_county_il,163,Sale in Error Fund,2022,expenditure,adopted,FY2022_budget,1500,1500,0,,,0,,agree,,Sale in Error
 boone_county_il,163,Sale in Error Fund,2021,revenue,adopted,FY2021_budget,0,0,0,,,9985,,agree,,Sale in Error

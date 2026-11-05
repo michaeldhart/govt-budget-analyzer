@@ -30,7 +30,7 @@ FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fn
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2014,-12262.0,usd
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,1867588.0,usd
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,34767341.0,usd
-FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2014,36634929.0,usd
+FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCARIY NET POSITION - ENDING,2014,36634929.0,usd
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY (ASSET),2014,1798090.0,usd
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability (asset),2014,95.32,percent
 FY2015_audit,84,imrf_regular,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,8610902.0,usd
@@ -51,7 +51,7 @@ FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"B
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2014,1173.0,usd
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,96782.0,usd
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,3305504.0,usd
-FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2014,3402286.0,usd
+FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCARIY NET POSITION - ENDING,2014,3402286.0,usd
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY (ASSET),2014,1902140.0,usd
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability (asset),2014,64.14,percent
 FY2015_audit,85,imrf_eco,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,0.0,usd
@@ -72,7 +72,7 @@ FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,benefit_payments_fnp,"Benef
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,administrative_expense,Administrative expense,2014,-23256.0,usd
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,net_change_fnp,Net change in plan fiduciary net position,2014,886610.0,usd
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_beginning,Plan fiduciary net position - beginning,2014,14950184.0,usd
-FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,,PLAN FIDUCARIY NET POSITION - ENDING,2014,15836794.0,usd
+FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_ending,PLAN FIDUCARIY NET POSITION - ENDING,2014,15836794.0,usd
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,npl,EMPLOYER'S NET PENSION LIABILITY (ASSET),2014,2627199.0,usd
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability (asset),2014,85.77,percent
 FY2015_audit,86,slep,npl,PLAN FIDUCIARY NET POSITION,covered_payroll,Covered-employee payroll,2014,2472619.0,usd
