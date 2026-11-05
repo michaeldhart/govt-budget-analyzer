@@ -104,13 +104,15 @@ NAME_FIXES = {"Probation Replacement Services": "Probation Services", "Public De
               # FY2021-23: wrapped names of neighbouring columns read in the wrong order
               "IMRF/Retirement Immunity": "IMRF/Retirement", "Tort": "Tort Immunity", "Automation": "Vital Records Automation",
               "Regional Vital Records Communication Study": "Regional Communication Study", "Marriage and Prairie Shield Grant": "Prairie Shield Grant",
-              "Civil Union": "Marriage and Civil Union",
+              "Civil Union": "Marriage and Civil Union", "Spay/ Neuter Program": "Spay/Neuter Program", "Circuit Clerk Citation": "Circuit Clerk Electronic Citation",
+              "Electronic Foreclosure Mediation": "Foreclosure Mediation", "Speciality Courts": "Specialty Courts", "Federal Forfeited": "Federal Seized Drug",
               "Regional Communicatio n Study": "Regional Communication Study", "Electronic Monitoring Fund": "Electronic Monitoring", "tronic Monitoring": "Electronic Monitoring",
               "iff K9 Donation": "Sheriff K9 Donation", "ecrest Memorial Funds": "Maplecrest Memorial", "Maplecrest Memorial Funds": "Maplecrest Memorial", "Circuit Clerk E- Citation": "Circuit Clerk E-Citation"}
+POSITIONAL = {2018: True, 2019: True, 2020: True}
 LEGACY = {2018: True, 2019: True, 2020: True, 2021: True, 2022: True, 2023: True}  # no 'Total deferred inflows' line; fund balances by classification only
 
 
-TITLE_WORDS = re.compile(r"^(?:(?:Nonmajor Government(?:al)? Funds|Special Revenue Funds|Debt Service|Capital Projects(?= \S)|\(Continued\))\s+)+", re.I)
+TITLE_WORDS = re.compile(r"^(?:(?:Changes in Fund Balances|Nonmajor Government(?:al)? Funds|Special Revenue Funds|Debt Service|Capital Projects(?= \S)|\(Continued\))\s+)+", re.I)
 
 
 def clean_name(nm):
@@ -147,7 +149,7 @@ def check_legacy_bs(rows):
     return out
 
 
-READ_LAYOUTS = {"FY2016", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2020 (Total column first, funds named under group headings, statements of changes whose rows differ page to page) are not read yet
+READ_LAYOUTS = {"FY2016", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2020 put the Total column first and match rows by position (POSITIONAL)
 # and have no total-deferred-inflows line: their funds' ending balances are in the per-fund schedules (extract_audit_fund_schedules.py)
 
 
@@ -162,6 +164,10 @@ def main(fy):
     sp = statement_pages(pages)
     out, checks = [], []
     stm_map = {"balance_sheet": "combining_balance_sheet", "changes": "combining_changes_in_fund_balance"}
+    name_ovr, bs_names = {}, {}
+    nf = ROOT / "data/boone_county_il/overrides" / f"audit_combining_names_{doc}.csv"
+    if nf.exists():
+        name_ovr = {int(o["page_ordinal"]): o["names"].split("|") for o in csv.DictReader(open(nf, newline=""))}
     for kind, pns in sp.items():
         if not pns:
             checks.append((f"{kind}: pages found", False, ""))
@@ -215,16 +221,20 @@ def main(fy):
         names = []
         last_rows = None
         for sh in sheets:
-            if sh["labelled"]:
+            if sh["labelled"] and POSITIONAL.get(int(fy[2:])) and full and len(sh["rows"]) == len(last_assign):
+                # FY2018-FY2020: every page prints the same rows (labels drift a little), so rows are matched by position
+                col_vals = {id(o): r[2] for o, r in zip(last_assign, sh["rows"])}
+            elif sh["labelled"]:
                 last_rows = cand(sh["rows"])
                 assigned, prev_obj = [], None
+                first_sheet = not full  # the first labelled page defines the row list: its rows are never matched to each other
                 for occ, lab, prev, v in last_rows:
-                    obj = next((index[k] for k in occ if k in index), None)
+                    obj = None if first_sheet else next((index[k] for k in occ if k in index), None)
                     if obj is None:
                         obj = dict(label=lab, prev_text=prev, vals=[0] * len(names))
-                        full.insert((full.index(prev_obj) + 1) if prev_obj is not None else 0, obj)  # a row only this page prints goes after the row above it
+                        full.insert((next(i_ for i_, o_ in enumerate(full) if o_ is prev_obj) + 1) if prev_obj is not None else 0, obj)  # a row only this page prints goes after the row above it
                         for k in occ:
-                            index[k] = obj
+                            index.setdefault(k, obj)
                     assigned.append((obj, v))
                     prev_obj = obj
                 last_assign = [o for o, _ in assigned]
@@ -234,7 +244,16 @@ def main(fy):
                     checks.append((f"{kind} p{sh['pn']}: row count {len(sh['rows'])} vs {len(last_assign) if last_rows else 0}", False, ""))
                     continue
                 col_vals = {id(o): r[2] for o, r in zip(last_assign, sh["rows"])}
-            names += [(sh["pn"], NAME_FIXES.get(nm, nm)) for nm in (clean_name(x) for x in sh["names"])]
+            page_i = sheets.index(sh) + 1
+            nms = name_ovr.get(page_i, sh["names"])
+            if kind != "balance_sheet" and POSITIONAL.get(int(fy[2:])) and len(bs_names.get(page_i, [])) == sh["n"] and page_i not in name_ovr:
+                nms = bs_names[page_i]  # FY2018-FY2020: the statement of changes repeats the balance sheet's columns page for page  # column names of a page whose header the reader cannot split (tight columns, wrapped names)
+            if len(nms) != sh["n"]:
+                checks.append((f"{kind} p{sh['pn']}: name override has {len(nms)} names for {sh['n']} columns", False, ""))
+                nms = sh["names"]
+            names += [(sh["pn"], NAME_FIXES.get(nm, nm)) for nm in (clean_name(x) for x in nms)]
+            if kind == "balance_sheet":
+                bs_names[page_i] = nms
             for f_ in full:
                 f_["vals"] += col_vals.get(id(f_), [0] * sh["n"])
         if names and re.search(r"(?i)^total", names[0][1]) and not re.search(r"(?i)^total", names[-1][1]):  # FY2018-FY2020 print the Total column first

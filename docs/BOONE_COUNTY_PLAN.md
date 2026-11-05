@@ -175,3 +175,11 @@ Read the newest budget first: `extract_budget_worksheet.py FY2026|FY2025|FY2027_
 - Year-to-year: each fund's opening balance equals the prior closing in 74 of 76 (FY2021-22) and 69 of 70 (FY2022-23) shared columns; the misses are the Total column and Health Department (restated).
 - `fund_statements.csv` now has 23,910 combining cells (FY2016, FY2021-FY2025).
 - **Not read**: FY2018-FY2020 (Total column first, funds under group headings, statements of changes whose rows differ page to page), FY2015, FY2017.
+
+## Phase 16 progress (2026-11-05): combining statements FY2018-FY2020
+- FY2018, FY2019 and FY2020 read with 0 failed checks (54, 59 and 61 fund columns). Their layout: the Total Nonmajor column is printed first (rotated to the end), every page is self-contained with the same rows (matched by position, `POSITIONAL`), group headings ("Special Revenue Funds", "Debt Service") sit among the column names (`clean_name`) and the statement of changes repeats the balance sheet's columns page for page, so it takes the balance sheet's names.
+- Fixed a bug that had mis-ordered rows in every layout with two lines of the same label and equal contents (list.index compared dicts; now identity). FY2021-FY2025 outputs were unchanged by the fix.
+- Header names of tightly spaced pages are set in `overrides/audit_combining_names_<doc>.csv` (FY2018 one page, FY2020 three).
+- Opening balance = prior closing: 54 of 54 (FY2018 to FY2019) and 59 of 59 (FY2019 to FY2020) funds; FY2020 to FY2021 has 45 shared names (funds renamed or added).
+- `fund_statements.csv` carries 32,201 combining cells (FY2016, FY2018-FY2025).
+- **Not read**: FY2015 and FY2017 (rows differ page to page and labels drift).
