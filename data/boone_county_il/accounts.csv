@@ -450,17 +450,17 @@ boone_county_il,expense,001:0082-805863,SB1863 Election Personnel,0082,Election,
 boone_county_il,expense,001:0082-815000,Voter Registration,0082,Election,exp_claims_grants,expense,2017,2026,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,001:0082-899100,HAVA,0082,Election,exp_contractual,expense,2017,2021,rule: 89xxxx whose label is not a transfer (Probation 'Placement' is a program cost)
 boone_county_il,expense,001:0082-899200,NVRA,0082,Election,exp_contractual,expense,2017,2021,rule: 89xxxx whose label is not a transfer (Probation 'Placement' is a program cost)
-boone_county_il,expense,001:0083-401183,GIS Coordinator,0083,General Fund,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,001:0083-401283,GIS Specialist,0083,General Fund,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,001:0083-451000,Office Supplies,0083,General Fund,exp_supplies,expense,2017,2017,rule: 45xxxx-49xxxx
-boone_county_il,expense,001:0083-465000,Publications,0083,General Fund,exp_supplies,expense,2017,2017,rule: 45xxxx-49xxxx
-boone_county_il,expense,001:0083-504000,Equipment Maintenance,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-524000,Travel,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-525000,Training and Conferences,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-526000,Postage,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-535000,Other Professional Services,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-542000,Dues,0083,General Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,001:0083-604000,Equipment,0083,General Fund,exp_capital,expense,2017,2017,rule: 56xxxx/60xxxx
+boone_county_il,expense,001:0083-401183,GIS Coordinator,0083,General Fund,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,001:0083-401283,GIS Specialist,0083,General Fund,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,001:0083-451000,Office Supplies,0083,General Fund,exp_supplies,expense,2017,2018,rule: 45xxxx-49xxxx
+boone_county_il,expense,001:0083-465000,Publications,0083,General Fund,exp_supplies,expense,2017,2018,rule: 45xxxx-49xxxx
+boone_county_il,expense,001:0083-504000,Equipment Maintenance,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-524000,Travel,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-525000,Training and Conferences,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-526000,Postage,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-535000,Other Professional Services,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-542000,Dues,0083,General Fund,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,001:0083-604000,Equipment,0083,General Fund,exp_capital,expense,2017,2018,rule: 56xxxx/60xxxx
 boone_county_il,expense,001:0084-604000,Equipment,0084,Contingency,exp_capital,expense,2022,2024,rule: 56xxxx/60xxxx
 boone_county_il,expense,001:0084-604100,FOIA Attorney,0084,Contingency,exp_capital,expense,2025,2025,rule: 56xxxx/60xxxx
 boone_county_il,expense,001:0084-900100,Contingencies #1,0084,Contingency,exp_other,expense,2017,2026,rule: 59/79/90/99
@@ -552,7 +552,7 @@ boone_county_il,expense,003:0002-506000,Maintenance of Hwys & Bridges,0002,Bridg
 boone_county_il,expense,003:0002-562000,"Construction of Bridges, ROW",0002,Bridge Fund,exp_capital,expense,2017,2026,rule: 56xxxx/60xxxx
 boone_county_il,expense,004:0002-502000,Various Highway Const.,0002,Highway Matching Fund,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
 boone_county_il,expense,004:0002-506000,Maintenance of Hwys & Bridges,0002,Highway Matching Fund,exp_contractual,expense,2022,2026,rule: 50xxxx-58xxxx
-boone_county_il,expense,004:0002-562000,"Construction of Bridges, ROW",0002,Highway Matching Fund,exp_capital,expense,2019,2026,rule: 56xxxx/60xxxx
+boone_county_il,expense,004:0002-562000,"Construction of Bridges, ROW",0002,Highway Matching Fund,exp_capital,expense,2018,2026,rule: 56xxxx/60xxxx
 boone_county_il,expense,005:0002-280201,Shared Revenue,0002,Motor Fuel Fund,exp_other,expense,2017,2019,rule: 59/79/90/99
 boone_county_il,expense,005:0002-401000,Employee Wages,0002,Motor Fuel Fund,exp_personnel,expense,2017,2026,rule: 40xxxx-41xxxx
 boone_county_il,expense,005:0002-454000,Bank Charges,0002,Motor Fuel Fund,exp_supplies,expense,2025,2025,rule: 45xxxx-49xxxx
@@ -561,29 +561,29 @@ boone_county_il,expense,005:0002-506100,Road Salt,0002,Motor Fuel Fund,exp_contr
 boone_county_il,expense,005:0002-506200,Road Salt - Townships,0002,Motor Fuel Fund,exp_contractual,expense,2022,2024,rule: 50xxxx-58xxxx
 boone_county_il,expense,005:0002-562000,"Construction of Bridges, ROW",0002,Motor Fuel Fund,exp_capital,expense,2019,2026,rule: 56xxxx/60xxxx
 boone_county_il,expense,005:0002-604860,Capital Improvements,0002,Motor Fuel Fund,exp_capital,expense,2025,2026,rule: 56xxxx/60xxxx
-boone_county_il,expense,007:0007-401107,Planning Director Salary,0007,007-0007,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,007:0007-401207,Associate Planner,0007,007-0007,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,007:0007-401307,Associate Planner,0007,007-0007,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,007:0007-401407,Planning Technician,0007,007-0007,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,007:0007-402007,Overtime,0007,007-0007,exp_personnel,expense,2017,2017,rule: 40xxxx-41xxxx
-boone_county_il,expense,007:0007-451000,Office Supplies,0007,007-0007,exp_supplies,expense,2017,2017,rule: 45xxxx-49xxxx
-boone_county_il,expense,007:0007-465000,Publications,0007,007-0007,exp_supplies,expense,2017,2017,rule: 45xxxx-49xxxx
-boone_county_il,expense,007:0007-499000,Miscellaneous,0007,007-0007,exp_supplies,expense,2017,2017,rule: 45xxxx-49xxxx
-boone_county_il,expense,007:0007-504000,Equipment Maintenance,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-522000,Telephone,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-524000,Travel,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-525000,Training & Conferences,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-526000,Postage,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-527000,Publishing & Advertising,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-528000,Printing,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-533000,GIS Mapping,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-535000,Other Professional Services,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-542000,Dues,0007,007-0007,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,007:0007-604000,Office Equipment,0007,007-0007,exp_capital,expense,2017,2017,rule: 56xxxx/60xxxx
-boone_county_il,expense,007:0007-899001,Transfer Out - County,0007,007-0007,exp_transfers,expense,2017,2017,rule: 89xxxx
-boone_county_il,expense,007:0007-899037,Health Insurance Fund,0007,007-0007,exp_transfers,expense,2017,2017,rule: 89xxxx
-boone_county_il,expense,007:0007-899900,Transfer Out - City,0007,007-0007,exp_transfers,expense,2017,2017,rule: 89xxxx
-boone_county_il,expense,007:0007-999500,Refunds,0007,007-0007,exp_other,expense,2017,2017,rule: 59/79/90/99
+boone_county_il,expense,007:0007-401107,Planning Director Salary,0007,007-0007,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,007:0007-401207,Associate Planner,0007,007-0007,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,007:0007-401307,Associate Planner,0007,007-0007,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,007:0007-401407,Planning Technician,0007,007-0007,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,007:0007-402007,Overtime,0007,007-0007,exp_personnel,expense,2017,2018,rule: 40xxxx-41xxxx
+boone_county_il,expense,007:0007-451000,Office Supplies,0007,007-0007,exp_supplies,expense,2017,2018,rule: 45xxxx-49xxxx
+boone_county_il,expense,007:0007-465000,Publications,0007,007-0007,exp_supplies,expense,2017,2018,rule: 45xxxx-49xxxx
+boone_county_il,expense,007:0007-499000,Miscellaneous,0007,007-0007,exp_supplies,expense,2017,2018,rule: 45xxxx-49xxxx
+boone_county_il,expense,007:0007-504000,Equipment Maintenance,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-522000,Telephone,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-524000,Travel,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-525000,Training & Conferences,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-526000,Postage,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-527000,Publishing & Advertising,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-528000,Printing,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-533000,GIS Mapping,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-535000,Other Professional Services,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-542000,Dues,0007,007-0007,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,007:0007-604000,Office Equipment,0007,007-0007,exp_capital,expense,2017,2018,rule: 56xxxx/60xxxx
+boone_county_il,expense,007:0007-899001,Transfer Out - County,0007,007-0007,exp_transfers,expense,2017,2018,rule: 89xxxx
+boone_county_il,expense,007:0007-899037,Health Insurance Fund,0007,007-0007,exp_transfers,expense,2017,2018,rule: 89xxxx
+boone_county_il,expense,007:0007-899900,Transfer Out - City,0007,007-0007,exp_transfers,expense,2017,2018,rule: 89xxxx
+boone_county_il,expense,007:0007-999500,Refunds,0007,007-0007,exp_other,expense,2017,2018,rule: 59/79/90/99
 boone_county_il,expense,011:0012-453000,Maintenance Supplies,0012,Animal Serv. Bldg. & Maint.,exp_supplies,expense,2022,2026,rule: 45xxxx-49xxxx
 boone_county_il,expense,011:0012-499000,Misc Materials & Services,0012,Animal Serv. Bldg. & Maint.,exp_supplies,expense,2025,2026,rule: 45xxxx-49xxxx
 boone_county_il,expense,011:0012-501000,Property Maintenance,0012,Animal Serv. Bldg. & Maint.,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
@@ -626,7 +626,7 @@ boone_county_il,expense,012:0012-604000,Equipment,0012,Animal Services Fund,exp_
 boone_county_il,expense,012:0012-604500,Equipment/Building Maintenance,0012,Animal Services Fund,exp_capital,expense,2023,2024,rule: 56xxxx/60xxxx
 boone_county_il,expense,012:0012-899037,Transfer Out - Employee Health Fund -37,0012,Animal Services Fund,exp_transfers,expense,2017,2024,rule: 89xxxx
 boone_county_il,expense,012:0012-899300,Transfer Out - General Fund -1,0012,Animal Services Fund,exp_transfers,expense,2017,2024,rule: 89xxxx
-boone_county_il,expense,012:0012-U399001transferingeneral,399..001 Transfer In- General,0012,Animal Services Fund,exp_other,expense,2017,2017,rule: 59/79/90/99
+boone_county_il,expense,012:0012-U399001transferingeneral,399..001 Transfer In- General,0012,Animal Services Fund,exp_other,expense,2017,2018,rule: 59/79/90/99
 boone_county_il,expense,012:0012-U401112animalservicesoffi,40 1.112 Animal Services Officer,0012,Animal Services Fund,exp_other,expense,2019,2019,rule: 59/79/90/99
 boone_county_il,expense,013:0013-401000,Employee Wages - Other,0013,Health Fund,exp_personnel,expense,2022,2024,rule: 40xxxx-41xxxx
 boone_county_il,expense,013:0013-401013,Soil & Water Salary & Wages,0013,Health Fund,exp_personnel,expense,2017,2019,rule: 40xxxx-41xxxx
@@ -666,7 +666,7 @@ boone_county_il,expense,013:0013-581100,TB Care & Treatment,0013,Health Fund,exp
 boone_county_il,expense,013:0013-581200,AIDS I nfectious Disease,0013,Health Fund,exp_contractual,expense,2017,2019,rule: 50xxxx-58xxxx
 boone_county_il,expense,013:0013-581300,Patient Care & Treatment,0013,Health Fund,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,013:0013-604000,Equipment,0013,Health Fund,exp_capital,expense,2017,2026,rule: 56xxxx/60xxxx
-boone_county_il,expense,013:0013-810300,Grant Funding (SWCD Funding),0013,Health Fund,exp_claims_grants,expense,2017,2017,rule: 80xxxx/81xxxx/86xxxx
+boone_county_il,expense,013:0013-810300,Grant Funding (SWCD Funding),0013,Health Fund,exp_claims_grants,expense,2017,2018,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,013:0013-899000,Transfer Out IMRF,0013,Health Fund,exp_transfers,expense,2017,2021,rule: 89xxxx
 boone_county_il,expense,013:0013-899018,Transfer Out to Tort Fund,0013,Health Fund,exp_transfers,expense,2022,2025,rule: 89xxxx
 boone_county_il,expense,013:0013-999400,Outreach & Advertising,0013,Health Fund,exp_other,expense,2019,2026,rule: 59/79/90/99
@@ -886,7 +886,7 @@ boone_county_il,expense,116:0116-604000,Equipment,0116,GIS Fund,exp_capital,expe
 boone_county_il,expense,116:0116-604600,Computer Upgrades,0116,GIS Fund,exp_capital,expense,2025,2026,rule: 56xxxx/60xxxx
 boone_county_il,expense,116:0116-899001,Transfer Out to General Fund,0116,GIS Fund,exp_transfers,expense,2017,2026,rule: 89xxxx
 boone_county_il,expense,116:0116-899037,Transfer Out - Employee Health Fund -37,0116,GIS Fund,exp_transfers,expense,2017,2024,rule: 89xxxx
-boone_county_il,expense,116:0116-Ucityofbelviderereimburse,City Of Belvidere Reimbursement,0116,GIS Fund,exp_other,expense,2019,2019,rule: 59/79/90/99
+boone_county_il,expense,116:0116-Ucityofbelviderereimburse,City Of Belvidere Reimbursement,0116,GIS Fund,exp_other,expense,2018,2019,rule: 59/79/90/99
 boone_county_il,expense,120:0012-452000,Medical Supplies,0012,Animal Serv. Donation Fund,exp_supplies,expense,2022,2024,rule: 45xxxx-49xxxx
 boone_county_il,expense,120:0012-453000,Maintenance Supplies,0012,Animal Serv. Donation Fund,exp_supplies,expense,2017,2024,rule: 45xxxx-49xxxx
 boone_county_il,expense,120:0012-461000,Fuel,0012,Animal Serv. Donation Fund,exp_supplies,expense,2017,2021,rule: 45xxxx-49xxxx
@@ -939,7 +939,7 @@ boone_county_il,expense,144:0144-563005,Construction- Transit Facility,0144,Urba
 boone_county_il,expense,144:0144-604000,Equipment,0144,Urban Transportation Fund,exp_capital,expense,2019,2019,rule: 56xxxx/60xxxx
 boone_county_il,expense,144:0144-700000,Contractual Services,0144,Urban Transportation Fund,exp_contractual,expense,2017,2026,rule: 700000
 boone_county_il,expense,144:0144-810500,Council on Aging Levy Distribution,0144,Urban Transportation Fund,exp_claims_grants,expense,2026,2026,rule: 80xxxx/81xxxx/86xxxx
-boone_county_il,expense,144:0144-899000,Transfer Out,0144,Urban Transportation Fund,exp_transfers,expense,2017,2017,rule: 89xxxx
+boone_county_il,expense,144:0144-899000,Transfer Out,0144,Urban Transportation Fund,exp_transfers,expense,2017,2018,rule: 89xxxx
 boone_county_il,expense,144:0144-U,,0144,Urban Transportation Fund,exp_other,expense,2019,2019,rule: 59/79/90/99
 boone_county_il,expense,145:0145-401000,Employee Wages,0145,Rural Transport. Grant Fund,exp_personnel,expense,2019,2024,rule: 40xxxx-41xxxx
 boone_county_il,expense,145:0145-450000,Materials and Services,0145,Rural Transport. Grant Fund,exp_supplies,expense,2019,2019,rule: 45xxxx-49xxxx
@@ -989,14 +989,14 @@ boone_county_il,expense,154:0154-604000,E quipment,0154,HAVA Election Grant Fund
 boone_county_il,expense,154:0154-815000,Voter Registration,0154,HAVA Election Grant Fund,exp_claims_grants,expense,2017,2019,rule: 80xxxx/81xxxx/86xxxx
 boone_county_il,expense,157:0157-870000,Land/Cash Fees Paid,0157,Land/Cash Fees Fund,exp_other,expense,2017,2024,rule: 59/79/90/99
 boone_county_il,expense,158:0055-899001,Transfer Out to General Fund,0055,Maint. & Child Sup. Fund,exp_transfers,expense,2017,2026,rule: 89xxxx
-boone_county_il,expense,158:0055-U,,0055,Maint. & Child Sup. Fund,exp_other,expense,2019,2019,rule: 59/79/90/99
+boone_county_il,expense,158:0055-U,,0055,Maint. & Child Sup. Fund,exp_other,expense,2018,2019,rule: 59/79/90/99
 boone_county_il,expense,160:0000-501000,Maintenance Maple Crest,0000,Gibson Memorial Fund,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,161:0055-525000,Training & Conferences,0055,Marriage & Civil Union Fund,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,161:0055-535000,Other Professional Services,0055,Marriage & Civil Union Fund,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,161:0055-899001,Transfer Out: General Fund,0055,Marriage & Civil Union Fund,exp_transfers,expense,2017,2019,rule: 89xxxx
-boone_county_il,expense,162:0162-524000,Travel,0162,162-0162,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,162:0162-535000,Other Professional Services,0162,162-0162,exp_contractual,expense,2017,2017,rule: 50xxxx-58xxxx
-boone_county_il,expense,162:0162-604000,Equipment,0162,162-0162,exp_capital,expense,2017,2017,rule: 56xxxx/60xxxx
+boone_county_il,expense,162:0162-524000,Travel,0162,162-0162,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,162:0162-535000,Other Professional Services,0162,162-0162,exp_contractual,expense,2017,2018,rule: 50xxxx-58xxxx
+boone_county_il,expense,162:0162-604000,Equipment,0162,162-0162,exp_capital,expense,2017,2018,rule: 56xxxx/60xxxx
 boone_county_il,expense,163:0076-825000,Sale in Error Fund Expense,0076,Sale in Error Fund,exp_other,expense,2017,2024,rule: 59/79/90/99
 boone_county_il,expense,166:0000-501000,Maintenance Maple Crest,0000,Schnell Memorial Fund,exp_contractual,expense,2017,2026,rule: 50xxxx-58xxxx
 boone_county_il,expense,167:0000-499000,Miscellaneous,0000,Wolfram Memorial Fund,exp_supplies,expense,2026,2026,rule: 45xxxx-49xxxx
@@ -1228,22 +1228,22 @@ boone_county_il,revenue,005:0002-377000,Reimbursements Received,0002,Motor Fuel 
 boone_county_il,revenue,005:0002-377060,Highway Department Reimbursements,0002,Motor Fuel Fund,reimbursements,non_tax,2017,2022,rule: 375xxx-377xxx
 boone_county_il,revenue,005:0002-380000,State Grant,0002,Motor Fuel Fund,grants,non_tax,2021,2024,rule: 379xxx/380xxx
 boone_county_il,revenue,005:0002-380305,State MFT,0002,Motor Fuel Fund,grants,non_tax,2017,2020,rule: 379xxx/380xxx
-boone_county_il,revenue,007:0007-340014,Planning Dept. Zoning - City,0007,007-0007,fees_fines,non_tax,2017,2017,rule: 340xxx/365xxx
-boone_county_il,revenue,007:0007-340015,Planning Dept. Zoning - County,0007,007-0007,fees_fines,non_tax,2017,2017,rule: 340xxx/365xxx
-boone_county_il,revenue,007:0007-340035,"Sales: maps, plans, GIS",0007,007-0007,fees_fines,non_tax,2017,2017,rule: 340xxx/365xxx
-boone_county_il,revenue,007:0007-360000,"Miscellaneous Grants, etc.",0007,007-0007,misc_revenue,non_tax,2017,2017,rule: 351xxx/360xxx
-boone_county_il,revenue,007:0007-360016,Planning Dept. Misc. - City,0007,007-0007,misc_revenue,non_tax,2017,2017,rule: 351xxx/360xxx
-boone_county_il,revenue,007:0007-360017,Planning Dept. Misc. - County,0007,007-0007,misc_revenue,non_tax,2017,2017,rule: 351xxx/360xxx
-boone_county_il,revenue,007:0007-370000,Interest,0007,007-0007,interest,non_tax,2017,2017,rule: 370xxx
-boone_county_il,revenue,007:0007-377025,Transfer In - City,0007,007-0007,transfers_in,non_tax,2017,2017,rule: label says transfer in (book code differs from the ERP's 399xxx)
-boone_county_il,revenue,007:0007-377026,Village of Poplar Grove Fee,0007,007-0007,reimbursements,non_tax,2017,2017,rule: 375xxx-377xxx
-boone_county_il,revenue,007:0007-399001,Transfer In - County,0007,007-0007,transfers_in,non_tax,2017,2017,rule: 399xxx
+boone_county_il,revenue,007:0007-340014,Planning Dept. Zoning - City,0007,007-0007,fees_fines,non_tax,2017,2018,rule: 340xxx/365xxx
+boone_county_il,revenue,007:0007-340015,Planning Dept. Zoning - County,0007,007-0007,fees_fines,non_tax,2017,2018,rule: 340xxx/365xxx
+boone_county_il,revenue,007:0007-340035,"Sales: maps, plans, GIS",0007,007-0007,fees_fines,non_tax,2017,2018,rule: 340xxx/365xxx
+boone_county_il,revenue,007:0007-360000,"Miscellaneous Grants, etc.",0007,007-0007,misc_revenue,non_tax,2017,2018,rule: 351xxx/360xxx
+boone_county_il,revenue,007:0007-360016,Planning Dept. Misc. - City,0007,007-0007,misc_revenue,non_tax,2017,2018,rule: 351xxx/360xxx
+boone_county_il,revenue,007:0007-360017,Planning Dept. Misc. - County,0007,007-0007,misc_revenue,non_tax,2017,2018,rule: 351xxx/360xxx
+boone_county_il,revenue,007:0007-370000,Interest,0007,007-0007,interest,non_tax,2017,2018,rule: 370xxx
+boone_county_il,revenue,007:0007-377025,Transfer In - City,0007,007-0007,transfers_in,non_tax,2017,2018,rule: label says transfer in (book code differs from the ERP's 399xxx)
+boone_county_il,revenue,007:0007-377026,Village of Poplar Grove Fee,0007,007-0007,reimbursements,non_tax,2017,2018,rule: 375xxx-377xxx
+boone_county_il,revenue,007:0007-399001,Transfer In - County,0007,007-0007,transfers_in,non_tax,2017,2018,rule: 399xxx
 boone_county_il,revenue,011:0012-301000,Property Taxes,0012,Animal Serv. Bldg. & Maint.,property_tax,tax,2017,2019,rule: object code is a tax
 boone_county_il,revenue,011:0012-340011,Animal Serv. Bldg. & Maint. Fee,0012,Animal Serv. Bldg. & Maint.,fees_fines,non_tax,2017,2026,rule: 340xxx
 boone_county_il,revenue,011:0012-340020,Fines and Fees,0012,Animal Serv. Bldg. & Maint.,fees_fines,non_tax,2022,2024,rule: 340xxx/365xxx
 boone_county_il,revenue,011:0012-360000,Other - Miscellaneous,0012,Animal Serv. Bldg. & Maint.,misc_revenue,non_tax,2017,2021,rule: 351xxx/360xxx
 boone_county_il,revenue,011:0012-370000,Interest,0012,Animal Serv. Bldg. & Maint.,interest,non_tax,2024,2026,rule: 370xxx
-boone_county_il,revenue,011:0012-370300,Interest,0012,Animal Serv. Bldg. & Maint.,interest,non_tax,2019,2021,rule: 370xxx
+boone_county_il,revenue,011:0012-370300,Interest,0012,Animal Serv. Bldg. & Maint.,interest,non_tax,2018,2021,rule: 370xxx
 boone_county_il,revenue,011:0012-381500,Donations,0012,Animal Serv. Bldg. & Maint.,misc_revenue,non_tax,2017,2019,rule: object code
 boone_county_il,revenue,012:0012-340005,Adoptions-Animal control,0012,Animal Services Fund,fees_fines,non_tax,2017,2026,rule: 340xxx
 boone_county_il,revenue,012:0012-340010,Dog & Cat Registration Fees,0012,Animal Services Fund,fees_fines,non_tax,2017,2026,rule: 340xxx
@@ -1302,7 +1302,7 @@ boone_county_il,revenue,015:0015-377000,Reimbursements Received,0015,FICA Fund,r
 boone_county_il,revenue,015:0015-377020,Belvidere Reimb. PSB,0015,FICA Fund,reimbursements,non_tax,2017,2026,rule: 375xxx-377xxx
 boone_county_il,revenue,015:0015-377025,Reimbursement - City of Belvidere (PSB),0015,FICA Fund,reimbursements,non_tax,2017,2024,rule: 375xxx-377xxx
 boone_county_il,revenue,015:0015-377911,Reimbursements E911 Board,0015,FICA Fund,reimbursements,non_tax,2019,2026,rule: 375xxx-377xxx
-boone_county_il,revenue,015:0015-399007,Transfer In- Planning & E911,0015,FICA Fund,transfers_in,non_tax,2017,2017,rule: 399xxx
+boone_county_il,revenue,015:0015-399007,Transfer In- Planning & E911,0015,FICA Fund,transfers_in,non_tax,2017,2018,rule: 399xxx
 boone_county_il,revenue,015:0015-399014,Transfer In- H ealth G rant,0015,FICA Fund,transfers_in,non_tax,2017,2019,rule: 399xxx
 boone_county_il,revenue,017:0017-301000,Property Tax Current,0017,IMRF Fund,property_tax,tax,2017,2026,rule: object code is a tax
 boone_county_il,revenue,017:0017-302000,Taxes / Prior Years,0017,IMRF Fund,property_tax,tax,2017,2019,rule: object code is a tax
@@ -1311,7 +1311,7 @@ boone_county_il,revenue,017:0017-360000,Miscellaneous,0017,IMRF Fund,misc_revenu
 boone_county_il,revenue,017:0017-360018,IMRF Employer Contributions,0017,IMRF Fund,misc_revenue,non_tax,2021,2025,rule: 351xxx/360xxx
 boone_county_il,revenue,017:0017-370000,Interest,0017,IMRF Fund,interest,non_tax,2017,2026,rule: 370xxx
 boone_county_il,revenue,017:0017-377020,Belvidere Reimb. PSB,0017,IMRF Fund,reimbursements,non_tax,2019,2026,rule: 375xxx-377xxx
-boone_county_il,revenue,017:0017-377025,Reimbursements,0017,IMRF Fund,reimbursements,non_tax,2017,2017,rule: 375xxx-377xxx
+boone_county_il,revenue,017:0017-377025,Reimbursements,0017,IMRF Fund,reimbursements,non_tax,2017,2018,rule: 375xxx-377xxx
 boone_county_il,revenue,017:0017-377400,Reimbursement Health Dept.,0017,IMRF Fund,reimbursements,non_tax,2025,2026,rule: 375xxx-377xxx
 boone_county_il,revenue,017:0017-377911,Reimbursements E911 Board,0017,IMRF Fund,reimbursements,non_tax,2017,2026,rule: 375xxx-377xxx
 boone_county_il,revenue,017:0017-399007,Transfer In- Planning,0017,IMRF Fund,transfers_in,non_tax,2017,2017,rule: 399xxx
@@ -1350,16 +1350,16 @@ boone_county_il,revenue,022:0000-399000,Transfer In- Other,0000,Property Mainten
 boone_county_il,revenue,022:0000-399001,Transfer In-General Fund Reserves,0000,Property Maintenance Fund,transfers_in,non_tax,2019,2021,rule: 399xxx
 boone_county_il,revenue,025:0025-360000,Miscellaneous Income,0025,Landfill Closure Fund,misc_revenue,non_tax,2019,2026,rule: 351xxx/360xxx
 boone_county_il,revenue,025:0025-370000,Interest,0025,Landfill Closure Fund,interest,non_tax,2017,2022,rule: 370xxx
-boone_county_il,revenue,025:0025-377000,Reimbursement,0025,Landfill Closure Fund,reimbursements,non_tax,2017,2017,rule: 375xxx-377xxx
+boone_county_il,revenue,025:0025-377000,Reimbursement,0025,Landfill Closure Fund,reimbursements,non_tax,2017,2018,rule: 375xxx-377xxx
 boone_county_il,revenue,025:0025-377027,Belvidere Reimb. Landfill,0025,Landfill Closure Fund,reimbursements,non_tax,2017,2026,rule: 375xxx-377xxx
-boone_county_il,revenue,025:0025-380000,Grants Received,0025,Landfill Closure Fund,grants,non_tax,2017,2017,rule: 379xxx/380xxx
+boone_county_il,revenue,025:0025-380000,Grants Received,0025,Landfill Closure Fund,grants,non_tax,2017,2018,rule: 379xxx/380xxx
 boone_county_il,revenue,025:0025-399001,Transfer In from General Fund,0025,Landfill Closure Fund,transfers_in,non_tax,2017,2026,rule: 399xxx
 boone_county_il,revenue,025:0025-U,,0025,Landfill Closure Fund,misc_revenue,non_tax,2019,2019,rule: label keyword (line printed without an object code); default miscellaneous
 boone_county_il,revenue,030:0000-370000,Interest,0000,Capital Projects Fund,interest,non_tax,2025,2025,rule: 370xxx
 boone_county_il,revenue,030:0000-399000,Transfer In- Other,0000,Capital Projects Fund,transfers_in,non_tax,2025,2025,rule: 399xxx
 boone_county_il,revenue,030:0000-399001,Transfer In- General Fund,0000,Capital Projects Fund,transfers_in,non_tax,2025,2025,rule: 399xxx
 boone_county_il,revenue,030:0030-301000,Bond Sale Revenues,0030,Capital Projects Fund,property_tax,tax,2017,2020,rule: object code is a tax
-boone_county_il,revenue,030:0030-370000,Interest,0030,Capital Projects Fund,interest,non_tax,2019,2026,rule: 370xxx
+boone_county_il,revenue,030:0030-370000,Interest,0030,Capital Projects Fund,interest,non_tax,2018,2026,rule: 370xxx
 boone_county_il,revenue,030:0030-399000,Transfer In- Other,0030,Capital Projects Fund,transfers_in,non_tax,2026,2026,rule: 399xxx
 boone_county_il,revenue,030:0030-399001,Transfer In- General Fund Reserves,0030,Capital Projects Fund,transfers_in,non_tax,2017,2026,rule: 399xxx
 boone_county_il,revenue,036:0073-340103,Circuit Court - Fees,0073,Sheriffs E-Citation Fund,fees_fines,non_tax,2017,2026,rule: 340xxx
@@ -1443,7 +1443,7 @@ boone_county_il,revenue,101:0101-399001,Transfer In - County,0101,Grant Fund,tra
 boone_county_il,revenue,116:0116-340310,GIS -County Clerk GIS Fees,0116,GIS Fund,fees_fines,non_tax,2025,2026,rule: 340xxx
 boone_county_il,revenue,116:0116-340320,GIS Fees (County Clerk and Recorder),0116,GIS Fund,fees_fines,non_tax,2017,2024,rule: 340xxx/365xxx
 boone_county_il,revenue,116:0116-370000,Interest,0116,GIS Fund,interest,non_tax,2025,2026,rule: 370xxx
-boone_county_il,revenue,116:0116-370300,I nterest,0116,GIS Fund,interest,non_tax,2019,2019,rule: 370xxx
+boone_county_il,revenue,116:0116-370300,I nterest,0116,GIS Fund,interest,non_tax,2018,2019,rule: 370xxx
 boone_county_il,revenue,116:0116-377000,Reimbursement City of Belvidere,0116,GIS Fund,reimbursements,non_tax,2020,2026,rule: 375xxx-377xxx
 boone_county_il,revenue,116:0116-377001,Reimbursements Other,0116,GIS Fund,reimbursements,non_tax,2026,2026,rule: 375xxx-377xxx
 boone_county_il,revenue,116:0116-377300,Interest,0116,GIS Fund,reimbursements,non_tax,2020,2024,rule: 375xxx-377xxx
@@ -1480,7 +1480,7 @@ boone_county_il,revenue,145:0145-380410,5312 DOAP Public Transportation,0145,Rur
 boone_county_il,revenue,145:0145-399000,Transfer In,0145,Rural Transport. Grant Fund,transfers_in,non_tax,2019,2019,rule: 399xxx
 boone_county_il,revenue,145:0145-399001,Transfer In - General Fund -1,0145,Rural Transport. Grant Fund,transfers_in,non_tax,2023,2024,rule: 399xxx
 boone_county_il,revenue,151:0073-340103,Circuit Court - Fees,0073,DUI Equipment Fund,fees_fines,non_tax,2017,2026,rule: 340xxx
-boone_county_il,revenue,151:0073-340151,Sale of Assets,0073,DUI Equipment Fund,fees_fines,non_tax,2019,2026,rule: 340xxx
+boone_county_il,revenue,151:0073-340151,Sale of Assets,0073,DUI Equipment Fund,fees_fines,non_tax,2018,2026,rule: 340xxx
 boone_county_il,revenue,151:0073-340172,Towing Fees,0073,DUI Equipment Fund,fees_fines,non_tax,2025,2026,rule: 340xxx
 boone_county_il,revenue,151:0073-370000,Interest,0073,DUI Equipment Fund,interest,non_tax,2017,2026,rule: 370xxx
 boone_county_il,revenue,151:0073-390000,Sale of Capital Assets,0073,DUI Equipment Fund,proceeds,non_tax,2017,2021,rule: 390xxx/395xxx
@@ -1498,9 +1498,9 @@ boone_county_il,revenue,158:0055-370000,Interest,0055,Maint. & Child Sup. Fund,i
 boone_county_il,revenue,160:0000-370000,Interest - Other,0000,Gibson Memorial Fund,interest,non_tax,2017,2026,rule: 370xxx
 boone_county_il,revenue,161:0055-340103,Circuit Court - Fees,0055,Marriage & Civil Union Fund,fees_fines,non_tax,2017,2026,rule: 340xxx
 boone_county_il,revenue,161:0055-370000,Interest,0055,Marriage & Civil Union Fund,interest,non_tax,2017,2026,rule: 370xxx
-boone_county_il,revenue,162:0162-370000,Interest,0162,162-0162,interest,non_tax,2017,2017,rule: 370xxx
-boone_county_il,revenue,162:0162-380000,Grant Reimbursement,0162,162-0162,grants,non_tax,2017,2017,rule: 379xxx/380xxx
-boone_county_il,revenue,162:0162-395000,Membership fees,0162,162-0162,proceeds,non_tax,2017,2017,rule: 390xxx/395xxx
+boone_county_il,revenue,162:0162-370000,Interest,0162,162-0162,interest,non_tax,2017,2018,rule: 370xxx
+boone_county_il,revenue,162:0162-380000,Grant Reimbursement,0162,162-0162,grants,non_tax,2017,2018,rule: 379xxx/380xxx
+boone_county_il,revenue,162:0162-395000,Membership fees,0162,162-0162,proceeds,non_tax,2017,2018,rule: 390xxx/395xxx
 boone_county_il,revenue,163:0076-340103,Circuit Court Fees,0076,Sale in Error Fund,fees_fines,non_tax,2017,2023,rule: 340xxx/365xxx
 boone_county_il,revenue,163:0076-340163,Sale in Error Fees,0076,Sale in Error Fund,fees_fines,non_tax,2024,2025,rule: 340xxx
 boone_county_il,revenue,163:0076-370000,Interest,0076,Sale in Error Fund,interest,non_tax,2017,2019,rule: 370xxx

@@ -1,0 +1,3 @@
+kind,fund_code,dept_code,label,period_fy,measure,value,reason
+fix_cell,003,,370.000,2016,actual,44,"Bridge fund (003) Interest, FY2016 actual: both OCR readings are unreadable (A / Ad); the page image prints 44, and with it the revenue lines add to the printed Total Revenues 483,965"
+allow_diff,116,,Total,2018,budget,-1,"GIS Fund FY2018 budget: every figure was checked on the page image; the lines add to 156,439 and the printed total (and the cash flow block) is 156,440, a rounding slip in the county's spreadsheet"

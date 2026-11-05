@@ -126,7 +126,7 @@ def test_canonical_tables_validate():
 
 def test_fact_counts_and_headline_numbers():
     facts = _facts()
-    assert len(facts) == 41634 and sum(f["source_type"] == "budget" for f in facts) == 25885
+    assert len(facts) == 44271 and sum(f["source_type"] == "budget" for f in facts) == 28522
     gf = lambda **k: sum(int(f["amount"]) for f in facts if all(f[a] == str(b) for a, b in k.items()))  # noqa: E731
     assert gf(doc_id="FY2026_budget", fund_code="001", flow="revenue", period_fy=2026, basis="adopted") == 25188465
     # the budget extracts reconcile with the totals the county prints (993 fund/department-flow-period groups; 4 are the recorded source slips)
@@ -152,10 +152,10 @@ def test_audit_vs_budget_comparison():
     for fy in range(2016, 2026):
         b = [r for r in rows if r["period_fy"] == str(fy) and r["budget_status"]]
         by_year[fy] = (len(b), sum(r["budget_status"] == "agree" for r in b))
-    assert by_year == {2016: (80, 64), 2017: (91, 78), 2018: (93, 76), 2019: (102, 95), 2020: (105, 99), 2021: (97, 92), 2022: (93, 87),
+    assert by_year == {2016: (80, 64), 2017: (92, 79), 2018: (95, 87), 2019: (102, 95), 2020: (105, 99), 2021: (97, 92), 2022: (93, 87),
                        2023: (94, 89), 2024: (89, 82), 2025: (89, 85)}
-    # the budget books and worksheets agree with the audits' original budgets to the dollar in 847 of 933 fund-year-measure comparisons
-    assert sum(r["budget_status"] == "agree" for r in rows) == 847 and sum(r["budget_status"] == "differs" for r in rows) == 86
+    # the budget books and worksheets agree with the audits' original budgets to the dollar in 859 of 936 fund-year-measure comparisons
+    assert sum(r["budget_status"] == "agree" for r in rows) == 859 and sum(r["budget_status"] == "differs" for r in rows) == 77
     diff25 = sorted((r["fund_code"], r["measure"], int(r["budget_diff"])) for r in rows if r["period_fy"] == "2025" and r["budget_status"] == "differs")
     assert diff25 == [("001", "expenditure", -2400), ("001", "revenue", -2400), ("045", "revenue", 2000), ("120", "revenue", 200)]
     # the county's employee health insurance (a transfer out in the books, 2.3M-2.9M a year) is most of the General Fund expenditure gap in the years
@@ -167,8 +167,25 @@ def test_audit_vs_budget_comparison():
     assert funcs[("2025", "General control and administration")] + funcs[("2025", "Judiciary and courts")] + funcs[("2025", "Public safety")] == 2567600
 
 
+def test_fy2018_scanned_book_against_its_neighbours():
+    import collections
+
+    def load(doc, fy):
+        d = collections.defaultdict(int)
+        for r in csv.DictReader(open(EX / f"{doc}_book_lines.csv", newline="")):
+            if int(r["period_fy"]) == fy and r["measure"] == "budget" and r["code"] and "Summary" not in r["table"]:
+                d[(r["fund_code"], r["dept_code"], r["code"])] += int(r["amount"])
+        return d
+    # the repair ladder (second reading, page images) leaves 0 open problems; independently, the FY2018 book's own budget column equals the FY2019 book's prior-year column
+    # on 771 of 804 shared lines and its FY2017 budget column the FY2017 book's own column on 843 of 859 (the rest are restated budgets, not misreads: every printed total ties)
+    for (a, fa, b, fb), (n, nbad) in {(("FY2018_budget", 2018, "FY2019_budget", 2018)): (804, 33), (("FY2018_budget", 2017, "FY2017_budget", 2017)): (859, 16)}.items():
+        x, y = load(a, fa), load(b, fb)
+        common = set(x) & set(y)
+        assert len(common) == n and sum(x[k] != y[k] for k in common) == nbad, (a, b)
+
+
 def test_budget_books_tie_to_their_printed_totals():
-    expected = {"FY2017_budget": 876, "FY2019_budget": 880, "FY2020_budget": 813, "FY2021_budget": 837, "FY2022_budget": 878, "FY2023_budget": 862, "FY2024_budget": 875}
+    expected = {"FY2017_budget": 876, "FY2018_budget": 879, "FY2019_budget": 880, "FY2020_budget": 813, "FY2021_budget": 837, "FY2022_budget": 878, "FY2023_budget": 862, "FY2024_budget": 875}
     for doc, n_lines in expected.items():
         checks = list(csv.DictReader(open(EX / f"{doc}_book_checks.csv", newline="")))
         assert all(c["ok"] == "True" for c in checks), (doc, [c for c in checks if c["ok"] != "True"][:3])

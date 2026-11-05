@@ -8,7 +8,7 @@ FY 2024 Budget"). Codes `301.000` are the ERP object codes written with a dot, d
 Output data/boone_county_il/extracted/<doc>_book_lines.csv (doc_id, pdf_page, row_seq, fund_code, dept_code, table, section, code, label, period_fy, measure,
 column_label, amount, flag), <doc>_book_totals.csv (printed Subtotal / Total lines with the sum of their lines) and <doc>_book_checks.csv.
 measure: actual (closed year), budget, estimate (year-end estimate), proposed, partial (year to date: "Actual - Aug"), percent is dropped.
-Overrides: data/boone_county_il/overrides/<doc>_book.csv (kind allow_diff|fix_code|fix_line, reason required).
+Overrides: data/boone_county_il/overrides/<doc>_book.csv (kind allow_diff | fix_cell: fund_code, label = object code, period_fy, measure, value; reason required).
 Usage: python3 pipelines/boone_county_il/extract_budget_book.py FY2024_budget [...]
 """
 import csv, re, subprocess, sys
@@ -73,6 +73,10 @@ def repair_numbers(line):
 
 def ocr_clean(line):
     """Typical tesseract slips in these scans: '48.700' for 48,700, a stray quote before 'Total', 'Tota!' / 'Totai'."""
+    line = re.sub(r"^\s*(?:(?:[^\w\s]|\b[A-Za-z]{1,2}\b)\s*){1,3}(?=\d{3}[.,]\d{3}\s)", lambda m: " " * len(m.group()), line)  # specks before the object code (': ; 504,000', 'a. i 417,000')
+    line = re.sub(r"^(\s*)(?:[^\w\s]\s*)+(?=Total\b)", r"\1", line)  # a speck before 'Total'
+    line = re.sub(r"(?<=Grand )[‘’'`]\s*(?=Total)", "", line)
+    line = re.sub(r"(?<=\d)[:;](?=\s|$)", "", line)  # '3.533:' for 3,533
     line = re.sub(r"^(\s*\d{3}),(\d{1,3})(?=\s)", r"\1.\2", line)  # an object code read with a comma: '604,000' -> '604.000'
     line = re.sub(r"\b[A-Z]Y\s*[\"'’]\s*[lI]?(\d{2})\b", r"FY '\1", line)  # 'KY '16', 'BY 'I17' -> FY '16
     head = re.match(r"^(\s*\d{3}\.\d{3})(?=\s)", line)  # keep a leading object code ('401.155') out of the thousands repair
@@ -80,7 +84,13 @@ def ocr_clean(line):
     line = line[:start] + re.sub(r"(?<=\d)\.(?=\d{3}(?:\s|$))", ",", line[start:])
     line = re.sub(r"^(\s*)[‘’'`\"|.,:;~_—-]+\s*(?=[A-Za-z])", r"\1", line)
     line = re.sub(r"\bTota[l!1i|]\b|\bT[o0]tal\b", "Total", line)
+    line = re.sub(r"\bAppr\w{3,6}ations\b", "Appropriations", line)  # 'Approptiations'
+    line = re.sub(r"\b[A-Za-zÉé]{1,2}stimate[d]?\b", "Estimate", line)  # 'Listimate', 'Jéstimate', 'Lstimated' (the column header)
     line = re.sub(r"(?<=\d)\.(?=\s|$)", "", line)  # '100.' for 100
+    line = re.sub(r"^(\s*)[A-Za-z]{1,3}\s+(?=Total\b)", r"\1", line)  # a speck read as a word before 'Total' ('so Total Revenues')
+    line = re.sub(r"(?<=\d)[:;](?=\d{3}(?:\s|$))", ",", line)  # '1:331' for 1,331
+    line = re.sub(r"(?<=\d)\s+[A-Za-z|!:;]\s+(?=[\d(])", " ", line)  # a speck read as a letter between two figures ('150   F   500')
+    line = re.sub(r"(?<=\d)\s+[;:|'‘’`~_.,—-]+\s*$", "", line)  # a speck of the scan after the last figure ('500   ;')
     return re.sub(r"(?<![(\d,])\b([\d,]+)\)(?=\s|$)", r"\1", line)  # a stray ')' after a figure ('0)' for '0'); '(3)' keeps its parentheses
 
 
@@ -130,12 +140,10 @@ def page_texts(doc):
     return subprocess.run(["pdftotext", "-layout", str(SRC / f"{doc}.pdf"), "-"], capture_output=True, text=True, check=True).stdout.split("\f")
 
 
-def main(doc):
-    pages = page_texts(doc)
-    if doc in SCANNED:
-        pages = ["\n".join(ocr_clean(l) for l in pg.split("\n")) for pg in pages]
-    overrides = load_overrides(doc)
+def extract(doc, pages, overrides):
+    """-> (lines, totals, checks, line count) of a book's pages (text, already cleaned)."""
     lines_out, totals_out, checks = [], [], []
+    cell_fixes = {(o["fund_code"], o["label"], o["period_fy"], o["measure"]): int(o["value"]) for o in overrides if o["kind"] == "fix_cell"}  # label holds the object code
     seq = 0
     acc = {}  # (fund, table) -> accumulators that persist across the pages of a table
     last_cols = {}
@@ -153,7 +161,14 @@ def main(doc):
         cols = last_cols.get(fund) if "continued" in table.lower() else None  # a continuation page repeats no column header
         skip_to = -1
         edges = {}
-        for nc in {len(c[1]) for c in (columns_at(raw, i) for i in range(len(raw))) if c}:
+        widths = {len(c[1]) for c in (columns_at(raw, i) for i in range(len(raw))) if c}
+        if doc in ("FY2017_budget", "FY2018_budget", "FY2019_budget"):  # garbled headers (no column header read): the widths of the figure rows themselves
+            cnt = {}
+            for line in raw:
+                k_ = len(num_tokens(repair_numbers(line))[1])
+                cnt[k_] = cnt.get(k_, 0) + 1
+            widths |= {k_ for k_, n_ in cnt.items() if k_ >= 3 and n_ >= 3}
+        for nc in widths:
             full_edges = []
             for line in raw:
                 lab_, v_ = num_tokens(line)
@@ -169,6 +184,8 @@ def main(doc):
         for li, line in enumerate(raw):
             if li <= skip_to:
                 continue
+            if doc == "FY2018_budget" and re.search(r"(?i)ending\s+balance\s*\(cash", line):
+                break  # the fund's 'Ending Balance (Cash and CD's)' block closes the page: not budget lines
             c = columns_at(raw, li)
             fb = FALLBACK_LABELS.search(line) if not c and not YEAR_TOK.search(line) else None
             if fb and not re.search(r"\d,\d{3}", line):
@@ -176,10 +193,13 @@ def main(doc):
                 fy0 = int(doc[2:6])
                 cols = [(fy0 - 2, "actual", "Actual"), (fy0 - 1, "budget", "Budget"), (fy0 - 1, "estimate", "Estimate"), (fy0, "budget", "Budget")]
                 last_cols[fund] = cols
+                dm1 = re.match(r"\s*(.+?)\s*\((\d{1,3})\)\s{2,}", line)
+                if dm1 and not re.search(r"\d,\d", dm1.group(1)):  # 'Administration (51)   Actual  Budget  Estimate  Budget': the department heading shares the label row
+                    dept, section = dm1.group(2).zfill(4), ""
                 continue
             if c:
                 skip_to, cols = c[0], c[1]
-                dm0 = re.match(r"\s*(.+?)\s*\((\d{1,3})\)\s{2,}", raw[c[0]])
+                dm0 = re.match(r"\s*(.+?)\s*\((\d{1,3})\)(?:\s{2,}|\s*$)", raw[c[0]])
                 if dm0:  # 'Planning (78)   Acnial  Budget  Estimated  Budget': the department heading shares the label row
                     dept, section = dm0.group(2).zfill(4), ""
                 if all(m in ("estimate", "projected") for _, m, _ in cols):
@@ -201,6 +221,9 @@ def main(doc):
                     last_cols[fund] = cols
                     checks.append((f"p{pn} {fund}: column header unreadable, four-column layout assumed", True, "figures tie to the printed total"))
                 else:
+                    dm2 = DEPT_LINE.match(re.sub(r"\s+", " ", line.strip()))
+                    if doc == "FY2018_budget" and dm2 and dm2.group(2).zfill(3) != fund and not re.search(r"\d,\d|\d{3,}", dm2.group(1)):
+                        dept, section = dm2.group(2).zfill(4), ""  # the scan's department heading comes before an unreadable column header
                     continue
             if not line.strip() or re.search(r"(?i)estimated expenditure column|^\s*\d+\s*$", line):
                 continue
@@ -263,6 +286,11 @@ def main(doc):
             code, lab = (code_m.group(1), code_m.group(2).strip()) if code_m else ("", label.strip())
             seq += 1
             flag = flag_short
+            for c, (fy, meas, collab) in enumerate(cols):  # eyeballed figure the scan reader cannot make out (override kind fix_cell, page image)
+                fv = cell_fixes.get((fund, code, str(fy), meas))
+                if fv is not None and code:
+                    amounts[c] = fv
+                    flag = "override_cell"
             if code and "." in code and len(code.split(".")[1]) < 3:
                 flag = "code_short"
             for c, (fy, meas, collab) in enumerate(cols):
@@ -293,6 +321,70 @@ def main(doc):
                        f"printed {t['printed']} lines {t['lines_sum']} diff {t['diff']}"))
     for t in totals_out:
         t.setdefault("flag", "")
+    return lines_out, totals_out, checks, seq
+
+
+def numeric_signature(line):
+    return [v for v, _ in num_tokens(repair_numbers(line))[1]]
+
+
+def autofix(doc, pages, pages2, overrides):
+    """Repair ladder for the scanned FY2018 book: another reading of every page (450 dpi, psm 4: data/.../ocr/<doc>_r2) is compared line by line with the first one; a
+    figure line on which the two readings differ is swapped for the other reading when that strictly reduces the failing printed totals and creates none.
+    -> (pages, corrections) with corrections = [(pdf_page, line_index, first reading, adopted reading)]."""
+    base = extract(doc, pages, overrides)
+    nbad = lambda r: len([c for c in r[2] if not c[1]])  # noqa: E731
+    best, fixes = nbad(base), []
+    cands = []
+    for pn, (a, b) in enumerate(zip(pages, pages2), 1):
+        la, lb = a.split("\n"), b.split("\n")
+        by_code = {}
+        for j, l in enumerate(lb):
+            m = CODE.match(re.sub(r"\s+", " ", l.strip()))
+            if m:
+                by_code.setdefault(m.group(1), []).append(l)
+        for i, l in enumerate(la):
+            m = CODE.match(re.sub(r"\s+", " ", l.strip()))
+            if not m or m.group(1) not in by_code:
+                continue
+            sig = numeric_signature(l)
+            for alt in by_code[m.group(1)]:
+                alt_sig = numeric_signature(alt)
+                if (len(alt_sig) == len(sig) or len(alt_sig) > len(sig)) and alt_sig != sig and re.sub(r"[^A-Za-z]", "", l)[:9].lower() == re.sub(r"[^A-Za-z]", "", alt)[:9].lower():
+                    cands.append((pn, i, l, alt))
+    changed = True
+    while changed and best:
+        changed = False
+        for pn, i, l, alt in cands:
+            if any(f[0] == pn and f[1] == i for f in fixes):
+                continue
+            trial = list(pages)
+            ls = trial[pn - 1].split("\n")
+            ls[i] = alt
+            trial[pn - 1] = "\n".join(ls)
+            r = extract(doc, trial, overrides)
+            failing_before = {c[0] for c in base[2] if not c[1]}
+            failing_after = {c[0] for c in r[2] if not c[1]}
+            if nbad(r) < best and failing_after <= failing_before:
+                pages, base, best, changed = trial, r, nbad(r), True
+                fixes.append((pn, i, l, alt))
+    return pages, fixes
+
+
+def main(doc):
+    pages = page_texts(doc)
+    if doc in SCANNED:
+        pages = ["\n".join(ocr_clean(l) for l in pg.split("\n")) for pg in pages]
+    overrides = load_overrides(doc)
+    fixes = []
+    r2 = ROOT / "data/boone_county_il/ocr" / f"{doc}_r2"
+    if doc in SCANNED and r2.exists():
+        pages2 = ["\n".join(ocr_clean(l) for l in f.read_text().split("\n")) for f in sorted(r2.glob("p*.txt"))]
+        if len(pages2) == len(pages):
+            pages, fixes = autofix(doc, pages, pages2, overrides)
+    lines_out, totals_out, checks, seq = extract(doc, pages, overrides)
+    for pn, i, l, alt in fixes:
+        checks.append((f"p{pn} line {i}: first reading replaced by the second reading (it makes a failing printed total tie)", True, f"{' '.join(l.split())[:70]} -> {' '.join(alt.split())[:70]}"))
     OUT.mkdir(parents=True, exist_ok=True)
     for name, rows in (("lines", lines_out), ("totals", totals_out)):
         with open(OUT / f"{doc}_book_{name}.csv", "w", newline="") as f:

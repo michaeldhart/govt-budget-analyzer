@@ -7,8 +7,9 @@ cd "$(dirname "$0")/../.."
 stage="${1:-build}"
 if [ "$stage" = "extract" ]; then
   python3 pipelines/boone_county_il/extract_budget_worksheet.py FY2025_budget FY2026_budget FY2027_budget_prelim
-  python3 pipelines/boone_county_il/ocr_pages.py FY2023_budget  # the FY2023 book is a scan (the FY2018 book too, see the plan: not loaded)
-  for d in FY2017_budget FY2019_budget FY2020_budget FY2021_budget FY2022_budget FY2023_budget FY2024_budget; do python3 pipelines/boone_county_il/extract_budget_book.py $d; done
+  python3 pipelines/boone_county_il/ocr_pages.py FY2018_budget FY2023_budget  # the FY2018 and FY2023 books are scans
+  python3 pipelines/boone_county_il/ocr_pages.py FY2018_budget --second  # the second reading of the FY2018 book (repair ladder in extract_budget_book.py)
+  for d in FY2017_budget FY2018_budget FY2019_budget FY2020_budget FY2021_budget FY2022_budget FY2023_budget FY2024_budget; do python3 pipelines/boone_county_il/extract_budget_book.py $d; done
   for y in 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025; do
     python3 pipelines/boone_county_il/extract_audit_fund_statements.py FY$y
     python3 pipelines/boone_county_il/extract_audit_gf_schedules.py FY$y
