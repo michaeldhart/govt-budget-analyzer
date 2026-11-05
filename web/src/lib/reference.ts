@@ -7,6 +7,6 @@ export function referenceFor(entity: string): { units: Record<number, any>; base
   const rows: any[] = readData(entity, 'reference.json').rows;
   return {
     base: rows[0].cpi_base_fy,
-    units: Object.fromEntries(rows.map((r) => [r.fiscal_year, { factor: r.cpi_factor, population: r.population, cpi_flag: r.cpi_flag, population_flag: r.population_flag, base: r.cpi_base_fy }])),
+    units: Object.fromEntries(rows.map((r) => [r.fiscal_year, { factor: r.cpi_factor, population: r.population, cpi_flag: r.cpi_flag, population_flag: r.population_flag, base: r.cpi_base_fy, place: meta.name }])),
   };
 }

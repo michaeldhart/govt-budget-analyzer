@@ -6,8 +6,8 @@
   import { url } from '../lib/urlState.svelte';
 
   type Row = { fiscal_year: number; dept_id: string; department: string; fund: string; category: string; amount: number; exception_ids?: string[] };
-  let { spending, revenue, objects, ink, up, down, exceptions = {}, units, revenueYears }: {
-    spending: Row[]; revenue: Row[]; objects: { name: string; color: string }[]; ink: string; up: string; down: string; exceptions?: Record<string, any>; units?: any; revenueYears: number[];
+  let { spending, revenue, objects, ink, up, down, exceptions = {}, units, revenueYears, noun = 'district', prefix = 'park' }: {
+    spending: Row[]; revenue: Row[]; objects: { name: string; color: string }[]; ink: string; up: string; down: string; exceptions?: Record<string, any>; units?: any; revenueYears: number[]; noun?: string; prefix?: string;
   } = $props();
 
   const pick = (rows: Row[]) => rows.filter((r) => !url.dept || r.dept_id === url.dept);
@@ -26,13 +26,13 @@
   const net = $derived(years.map((y) => ({ fiscal_year: y, value: total(rv, y) - total(sp, y), exception_ids: [...ids(rv, y), ...ids(sp, y)] })));
 </script>
 
-<StackedBars id="dept-object" {exceptions} {units} rows={obj} series={used} {ink} title={`Budgeted spending by object: ${name}`} filename="park-department-spending-by-object.csv"
+<StackedBars id="dept-object" {exceptions} {units} rows={obj} series={used} {ink} title={`Budgeted spending by object: ${name}`} filename={`${prefix}-department-spending-by-object.csv`}
   totalLabel="All objects" note="Object categories group accounts by object code. Pick a department in the filter bar above." />
 
 <h2>Revenue against spending: {name}</h2>
 <LineSeries id="dept-rev-vs-spend" {exceptions} {units} kind="money" rows={lines} series={[{ name: 'Revenue', color: up }, { name: 'Spending', color: down }]}
-  title={`Budgeted revenue and spending: ${name}`} filename="park-department-revenue-vs-spending.csv"
-  note="Revenue is what the district's budget prints under this department's own code; property tax, replacement tax and transfers are printed under the administration departments." />
+  title={`Budgeted revenue and spending: ${name}`} filename={`${prefix}-department-revenue-vs-spending.csv`}
+  note={`Revenue is what the ${noun}'s budget prints under this department's own code; taxes and transfers are printed under the administration departments (the County's Non-Departmental) or the fund itself.`} />
 <ValueBars id="dept-net" {exceptions} {units} rows={net} {up} {down} {ink} valueLabel="Revenue minus spending ($)"
-  title={`Revenue minus spending: ${name}`} filename="park-department-revenue-minus-spending.csv"
+  title={`Revenue minus spending: ${name}`} filename={`${prefix}-department-revenue-minus-spending.csv`}
   note="Positive: the department's printed revenue exceeds its budgeted spending; negative: spending the department's own revenue does not cover." />

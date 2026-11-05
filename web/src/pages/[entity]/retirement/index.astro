@@ -1,8 +1,10 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
+import { referenceFor } from '../../../lib/reference';
 import { dollars, fyLabel } from '../../../lib/format';
 import { millions } from '../../../lib/chart';
 
@@ -14,6 +16,8 @@ const entity = '' + Astro.params.entity;
 const meta = readData(entity, 'meta.json');
 const all: any[] = readData(entity, 'retirement.json').rows;
 const exceptionMap = exceptionsUsedBy(entity, all);
+const ref = referenceFor(entity);
+const fyears = [...new Set(all.map((r) => r.fiscal_year))].sort() as number[];
 const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
 const PLANS = ['imrf_regular', 'imrf_eco', 'slep'];
 const SHORT: Record<string, string> = { imrf_regular: 'IMRF County Regular', imrf_eco: 'IMRF Elected County Officials', slep: 'SLEP (Sheriff)' };
@@ -42,18 +46,21 @@ const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id
     <div><dt>Retiree health liability, {opeb.at(-1)!.measurement_year}</dt><dd>{millions(opeb.at(-1)!.tpl, 1)}</dd></div>
   </dl>
 
+  <ChartFilters client:load years={fyears} showDept={false} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">The year range and the Dollars selector (as reported, adjusted for inflation, per resident) apply to the dollar charts; the funded ratio is a percentage and is not adjusted.</p>
+
   <h2>Funded ratio</h2>
   <LineSeries client:load exceptions={exceptionMap} id="funded" rows={rows('funded_ratio_pct')} series={planSeries}
     title="Plan assets as a percent of the total pension liability" filename="county-pension-funded-ratio.csv" kind="percent"
     note="Above 100% means the plan holds more than it owes on the measurement date." />
 
   <h2>Net pension liability</h2>
-  <LineSeries client:load exceptions={exceptionMap} id="npl" rows={rows('npl')} series={planSeries}
+  <LineSeries client:load exceptions={exceptionMap} units={ref?.units} id="npl" rows={rows('npl')} series={planSeries}
     title="Net pension liability by plan" filename="county-net-pension-liability.csv" kind="money"
     note="Total pension liability minus plan assets. Below zero is a net pension asset. IMRF restated the 2014 and 2015 figures in later audits; the latest audit's figures are shown." />
 
   <h2>Retiree health benefits (OPEB)</h2>
-  <LineSeries client:load exceptions={exceptionMap} id="opeb" rows={opebRows} series={[{ name: 'Total OPEB liability', color: '#e87ba4' }]}
+  <LineSeries client:load exceptions={exceptionMap} units={ref?.units} id="opeb" rows={opebRows} series={[{ name: 'Total OPEB liability', color: '#e87ba4' }]}
     title="Total OPEB liability (measured at November 30)" filename="county-opeb-liability.csv" kind="money"
     note="The county does not set money aside for retiree health care, so the whole liability is unfunded. GASB 75 measures start in FY2018." />
 
@@ -75,6 +82,7 @@ const usedEx = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id
   .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
   .summary dt { color: var(--ink2); font-size: 0.8125rem; }
   .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
   .scroll { overflow-x: auto; }
   td.num, th.num { white-space: nowrap; }
 </style>

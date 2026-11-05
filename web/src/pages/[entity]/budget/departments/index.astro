@@ -1,0 +1,118 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import DeptDrill from '../../../../components/DeptDrill.svelte';
+import StackedBars from '../../../../components/StackedBars.svelte';
+import ChartFilters from '../../../../components/ChartFilters.svelte';
+import { readData, href } from '../../../../lib/data';
+import { exceptionsUsedBy } from '../../../../lib/exceptions';
+import { referenceFor } from '../../../../lib/reference';
+import { dollars, fyLabel } from '../../../../lib/format';
+import { millions } from '../../../../lib/chart';
+import { toRows, seriesOf, colorsOf } from '../../../../lib/series';
+
+export function getStaticPaths() {
+  const { entities } = readData('index.json');
+  return entities.filter((e: any) => e.datasets.includes('county_spending_by_department')).map((e: any) => ({ params: { entity: e.entity_id } }));
+}
+const entity = '' + Astro.params.entity;
+const meta = readData(entity, 'meta.json');
+const palette = readData('palette.json');
+const schemes = readData(entity, 'categories.json').schemes;
+const spending: any[] = readData(entity, 'county_spending_by_department.json').rows;
+const revenue: any[] = readData(entity, 'county_revenue_by_department.json').rows;
+const ref = referenceFor(entity);
+const exceptionMap = exceptionsUsedBy(entity, spending, revenue);
+const years = [...new Set<number>(spending.map((r) => r.fiscal_year))].sort();
+const revenueYears = [...new Set<number>(revenue.map((r) => r.fiscal_year))].sort();
+const first = years[0], last = years.at(-1)!;
+const adopted = [...years].reverse().find((y) => spending.some((r) => r.fiscal_year === y && r.basis === 'adopted'))!;
+const drafts = years.filter((y) => spending.find((r) => r.fiscal_year === y)?.basis === 'requested');
+const fnColors = colorsOf(schemes.function_group);
+const objects = schemes.expense_object.filter((c: any) => c.color).map((c: any) => ({ name: c.name, color: c.color }));
+
+const byDept = new Map<string, any>();
+for (const r of spending) {
+  const d = byDept.get(r.dept_id) ?? { id: r.dept_id, name: r.department, fund: r.fund, function: r.function, years: {} as Record<number, number> };
+  d.years[r.fiscal_year] = (d.years[r.fiscal_year] ?? 0) + r.amount;
+  byDept.set(r.dept_id, d);
+}
+const total = (y: number) => spending.filter((r) => r.fiscal_year === y).reduce((s, r) => s + r.amount, 0);
+// the table compares the first adopted year with the latest adopted year (the preliminary budget of the year after is on the charts)
+const table = [...byDept.values()].map((d) => {
+  const a = d.years[first] ?? 0, b = d.years[adopted] ?? 0;
+  return { ...d, a, b, change: b - a, growth: a > 0 ? b / a - 1 : null, share: b / total(adopted), seen: Object.keys(d.years).map(Number).sort() };
+}).sort((x, y) => y.b - x.b || x.name.localeCompare(y.name));
+const active = table.filter((d) => d.b > 0);
+const gfActive = active.filter((d) => d.fund === 'General Fund');
+const top5 = active.slice(0, 5);
+const retired = table.filter((d) => d.b === 0);
+const departments = table.map((d) => ({ code: d.id, name: d.fund === d.name ? d.name : `${d.name} (${d.fund})`, function: d.function })).sort((a, b) => a.function.localeCompare(b.function) || a.name.localeCompare(b.name));
+const pct = (v: number) => `${v >= 0 ? '+' : ''}${(v * 100).toFixed(0)}%`;
+const label = (d: any) => (d.fund === d.name ? d.name : `${d.name} (${d.fund})`);
+const byFn = seriesOf(spending, 'function', fnColors);
+const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
+const exIds = ['EX-health-insurance-transfer-vs-expense', 'EX-expense-categories'].filter((id) => exceptions[id]);
+---
+<Base entity={entity} section="budget" title={`Spending by department – ${meta.short_name}`} description={`${meta.name}: budgeted spending and revenue by department.`}>
+  <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/budget/`)}>Budget</a> › Departments</p>
+  <h1>Spending by department</h1>
+  <p class="muted">Every expense line in the county's budgets, {fyLabel(first)}–{fyLabel(last)}, summed per department. The General Fund has departments (Administration, Circuit Clerk, Sheriff, State's Attorney, Treasurer and so on); each of the other funds is one department named for the fund. {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the preliminary budget, not yet adopted; the table compares the adopted budgets of {fyLabel(first)} and {fyLabel(adopted)}. Revenue by department starts in {fyLabel(revenueYears[0])}.</p>
+
+  <dl class="summary">
+    <div><dt>Departments with a {fyLabel(adopted)} budget</dt><dd>{active.length}</dd></div>
+    <div><dt>of which General Fund departments</dt><dd>{gfActive.length}</dd></div>
+    <div><dt>{fyLabel(adopted)} adopted spending</dt><dd>{millions(total(adopted), 1)}</dd></div>
+    <div><dt>Largest department</dt><dd class="small">{label(top5[0])} ({millions(top5[0].b, 1)})</dd></div>
+  </dl>
+
+  <h2>What stands out</h2>
+  <ul>
+    <li>The five largest in {fyLabel(adopted)} are {top5.map((d) => `${label(d)} (${millions(d.b, 1)})`).join(', ')}; together {((top5.reduce((s, d) => s + d.b, 0) / total(adopted)) * 100).toFixed(0)}% of the adopted budget. The employee health insurance fund is large because the other funds transfer money into it (see the notes).</li>
+    <li>The General Fund's {gfActive.length} departments budget {millions(gfActive.reduce((s, d) => s + d.b, 0), 1)} in {fyLabel(adopted)}; the largest is {label(gfActive[0])} at {millions(gfActive[0].b, 1)}.</li>
+    <li>{retired.length} departments in the table have no {fyLabel(adopted)} budget (a fund or department that ended or was renamed); the table shows the years each appears.</li>
+  </ul>
+
+  <ChartFilters client:load years={years} departments={departments} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">Filters are saved in the page address. The year range and Dollars selector apply to every chart; the department applies to the three department charts.</p>
+
+  <h2>One department</h2>
+  <DeptDrill client:load spending={spending} revenue={revenue} objects={objects} ink={palette.ink} up={palette.up} down="#eb6834" exceptions={exceptionMap} units={ref?.units} revenueYears={revenueYears} noun="county" prefix="county" />
+
+  <h2>All departments by function</h2>
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="dept-function" ink={palette.ink} series={byFn} rows={toRows(spending, 'function')}
+    title="Budgeted spending by function group" filename="county-spending-by-function.csv" totalLabel="Total budgeted spending" />
+
+  <h2>Departments ranked by {fyLabel(adopted)} budget</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Department</th><th>Function</th><th class="num">{fyLabel(first)}</th><th class="num">{fyLabel(adopted)}</th><th class="num">Change</th><th class="num">Growth</th><th class="num">Share of {fyLabel(adopted)}</th><th>Years in the budgets</th></tr></thead>
+    <tbody>{table.map((d) => (
+      <tr><td><a href={href(`/${entity}/budget/departments/?dept=${encodeURIComponent(d.id)}`)}>{label(d)}</a></td>
+        <td><span class="swatch" style={`background:${fnColors[d.function] ?? '#b4b2a9'}`}></span>{d.function}</td>
+        <td class="num">{dollars(d.a)}</td><td class="num">{dollars(d.b)}</td><td class="num">{dollars(d.change)}</td>
+        <td class="num">{d.growth != null ? pct(d.growth) : d.b === 0 ? '–' : 'no ' + fyLabel(first) + ' match'}</td><td class="num">{(d.share * 100).toFixed(1)}%</td>
+        <td>{d.seen[0] === d.seen.at(-1) ? fyLabel(d.seen[0]) : `${fyLabel(d.seen[0])}–${fyLabel(d.seen.at(-1))}`}{d.seen.length !== d.seen.at(-1) - d.seen[0] + 1 ? ' (gaps)' : ''}</td></tr>
+    ))}</tbody>
+    <tfoot><tr><th colspan="2">Total</th><th class="num">{dollars(total(first))}</th><th class="num">{dollars(total(adopted))}</th><th class="num">{dollars(total(adopted) - total(first))}</th><th class="num">{pct(total(adopted) / total(first) - 1)}</th><th></th><th></th></tr></tfoot>
+  </table></div>
+  <p class="muted">Dollar amounts in the table are as budgeted, not adjusted for inflation or population; the charts above can be switched with the Dollars selector.</p>
+
+  <h2>Notes on the numbers</h2>
+  <ul>
+    <li>Department revenue is what the budget prints under the department's own code. Taxes (property, sales, state-shared) and transfers in are printed under Non-Departmental in the General Fund or under the fund itself, so a department's revenue is not what it earns.</li>
+    {exIds.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}
+  </ul>
+  <p class="muted">Data: <a href={href(`/data/${entity}/county_spending_by_department.json`)}>spending by department and object</a> · <a href={href(`/data/${entity}/county_revenue_by_department.json`)}>revenue by department</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>
+</Base>
+
+<style>
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
+  .summary dt { color: var(--ink2); font-size: 0.8125rem; }
+  .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .summary dd.small { font-size: 1rem; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
+  .scroll { overflow-x: auto; }
+  .swatch { display: inline-block; width: 0.75em; height: 0.75em; border-radius: 2px; margin-right: 0.4em; }
+  td.num, th.num { white-space: nowrap; }
+  tfoot th { border-top: 2px solid var(--rule); }
+</style>

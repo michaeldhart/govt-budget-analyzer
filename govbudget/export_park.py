@@ -97,6 +97,8 @@ def _by_department(E, read, flow, cat_scheme):
     fns = {c["name"]: c for c in E.categories("function_group")}
     sums, ex, codes, basis_of = defaultdict(int), defaultdict(set), defaultdict(set), {}
     for fy, (basis, facts) in budget_facts(read, flow).items():
+        if is_county(E) and flow == "revenue" and fy <= 2019:
+            continue  # no line-level revenue in the FY2017-FY2019 books
         basis_of[fy] = basis
         for f in facts:
             d = depts[(f["fund_code"], f["dept_code"])]
@@ -133,6 +135,33 @@ def fund_revenue_by_department(E, read):
         columns=dict(fiscal_year="fiscal year (calendar year)", fund="fund name", dept_id="fund name | department name", department="department name",
                      function="function group", function_id="function id", category_id="budget category (scheme budget_category)", category="category name",
                      basis="adopted | requested", amount="dollars", dept_codes="printed fund-department codes", exception_ids="exceptions touching the lines in this cell"),
+        rows=_by_department(E, read, "revenue", "budget_category"))
+
+
+def county_spending_by_department(E, read):
+    return dict(
+        title="Budgeted spending by department and object",
+        description="Every expense line of the county's budgets summed per fiscal year, fund, department and object category: the adopted budget of each year (FY2017-FY2026), the "
+                    "preliminary budget for FY2027 (basis requested). The General Fund's departments (Administration, Circuit Clerk, Sheriff and so on) keep their code across the FY2025 "
+                    "ERP conversion; every other fund is one department named for the fund. Transfers out are in the department that pays them (mostly Non-Departmental). "
+                    "The department rows add to county_spending's totals in every year.",
+        sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
+        columns=dict(fiscal_year="fiscal year (December 1 to November 30)", fund="fund name", dept_id="fund name | department name", department="department name",
+                     function="function group", function_id="function id", category_id="object category (scheme expense_object)", category="object category name",
+                     basis="adopted | requested", amount="dollars", dept_codes="fund-department codes behind the cell", exception_ids="exceptions touching the lines in this cell"),
+        rows=_by_department(E, read, "expense", "expense_object"))
+
+
+def county_revenue_by_department(E, read):
+    return dict(
+        title="Budgeted revenue by department and category",
+        description="Every revenue line of the county's budgets summed per fiscal year, fund, department and revenue category, with the same department identity as "
+                    "county_spending_by_department. Property tax, sales tax, state taxes and transfers in are printed under Non-Departmental (General Fund) or under the fund itself, so "
+                    "a department's revenue is not a measure of what it earns. FY2017-FY2019 are left out: those books print no revenue lines.",
+        sources=["facts.csv", "entities/<id>/account_map.csv, departments.csv, funds.csv, categories.csv"],
+        columns=dict(fiscal_year="fiscal year (December 1 to November 30)", fund="fund name", dept_id="fund name | department name", department="department name",
+                     function="function group", function_id="function id", category_id="budget category (scheme budget_category)", category="category name",
+                     basis="adopted | requested", amount="dollars", dept_codes="fund-department codes behind the cell", exception_ids="exceptions touching the lines in this cell"),
         rows=_by_department(E, read, "revenue", "budget_category"))
 
 
@@ -260,6 +289,8 @@ def fund_debt(E, read):
 COUNTY_DATASETS = {
     "county_revenue": (fund_revenue, ["facts.csv"]),
     "county_spending": (fund_spending, ["facts.csv"]),
+    "county_spending_by_department": (county_spending_by_department, ["facts.csv"]),
+    "county_revenue_by_department": (county_revenue_by_department, ["facts.csv"]),
     "county_audit_vs_budget": (export_county.audit_vs_budget, ["audit_vs_budget.csv"]),
     "county_fund_balances": (export_county.fund_balances, ["fund_statements.csv"]),
     "county_debt": (export_county.debt, ["debt_balances.csv"]),

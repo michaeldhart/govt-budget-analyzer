@@ -7,7 +7,7 @@ import pytest
 from govbudget import export_site
 
 ENT = "boone_county_il"
-COUNTY = ["county_revenue", "county_spending", "county_audit_vs_budget", "county_fund_balances", "county_debt", "property_tax", "retirement"]
+COUNTY = ["county_revenue", "county_spending", "county_spending_by_department", "county_revenue_by_department", "county_audit_vs_budget", "county_fund_balances", "county_debt", "property_tax", "retirement"]
 
 
 @pytest.fixture(scope="module")
@@ -69,3 +69,15 @@ def test_balances_debt_tax_and_retirement(site):
     rt = {(r["plan"], r["measurement_year"]): r for r in site(ENT, "retirement.json")["rows"]}
     assert rt[("imrf_regular", 2024)]["npl"] == -980767 and rt[("slep", 2024)]["npl"] == 206719 and rt[("imrf_eco", 2024)]["npl"] == 1247169
     assert all(r["tpl"] - r["fnp"] == r["npl"] for r in rt.values())
+
+
+def test_department_rows_add_up_to_the_totals(site):
+    for dept, whole in (("county_spending_by_department", "county_spending"), ("county_revenue_by_department", "county_revenue")):
+        a, b = site(ENT, dept + ".json")["rows"], site(ENT, whole + ".json")["rows"]
+        for fy in {r["fiscal_year"] for r in b}:
+            assert sum(r["amount"] for r in a if r["fiscal_year"] == fy) == sum(r["amount"] for r in b if r["fiscal_year"] == fy), (dept, fy)
+        assert {r["fiscal_year"] for r in a} == {r["fiscal_year"] for r in b}
+    rows = site(ENT, "county_spending_by_department.json")["rows"]
+    depts = {r["dept_id"] for r in rows}
+    assert len(depts) == 92 and "General Fund|Sheriff" in depts and "General Fund|Non-Departmental" in depts
+    assert sum(r["amount"] for r in rows if r["fiscal_year"] == 2026 and r["dept_id"] == "General Fund|Sheriff") == 4983096

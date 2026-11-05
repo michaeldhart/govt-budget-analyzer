@@ -25,6 +25,7 @@ const { budget_range, audit_range } = meta.documents;
   <h2>Pages</h2>
   <ul>
     {meta.datasets.includes('county_spending') && <li><a href={href(`/${entity}/budget/`)}>Budget</a>: budgeted revenue and spending by category, function, object and fund</li>}
+    {meta.datasets.includes('county_spending_by_department') && <li><a href={href(`/${entity}/budget/departments/`)}>Spending by department</a>: each department's budget over time, by object, and against its own revenue</li>}
     {meta.datasets.includes('county_audit_vs_budget') && <li><a href={href(`/${entity}/results/`)}>Audited results vs the budget</a>: what each fund collected and spent against its budget</li>}
     {meta.datasets.includes('county_fund_balances') && <li><a href={href(`/${entity}/balances/`)}>Fund balances</a>: all funds, and General Fund reserves in months of spending</li>}
     {meta.datasets.includes('property_tax') && <li><a href={href(`/${entity}/property-tax/`)}>Property tax</a>: levies, extensions, assessed valuation and collections</li>}

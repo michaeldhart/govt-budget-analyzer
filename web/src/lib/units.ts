@@ -1,7 +1,7 @@
 // Dollars as reported, or adjusted for inflation (constant base-year dollars) and/or divided by the resident population.
 import type { Unit } from './urlParams';
 
-export type Ref = Record<number, { factor: number; population: number; cpi_flag?: string; population_flag?: string; base: number }>;
+export type Ref = Record<number, { factor: number; population: number; cpi_flag?: string; population_flag?: string; base: number; place?: string }>;
 
 export const isCapita = (u: Unit | null): boolean => u === 'capita' || u === 'real_capita';
 export const isReal = (u: Unit | null): boolean => u === 'real' || u === 'real_capita';
@@ -25,7 +25,7 @@ export function unitNote(unit: Unit | null, ref: Ref | undefined, years: number[
   const base = Object.values(ref)[0]?.base;
   const bits: string[] = [];
   if (isReal(unit)) bits.push(`Dollars adjusted for inflation with the CPI-U (U.S. city average, fiscal-year mean) to FY${base} dollars.`);
-  if (isCapita(unit)) bits.push("Divided by the Census Bureau's population estimate for the City of Belvidere.");
+  if (isCapita(unit)) bits.push(`Divided by the resident population estimate for ${Object.values(ref)[0]?.place ?? 'the government'} (sources on the overview page).`);
   const prov = years.filter((y) => ref[y]?.cpi_flag === 'provisional' && isReal(unit));
   const carried = years.filter((y) => ref[y]?.population_flag === 'carried_forward' && isCapita(unit));
   if (prov.length) bits.push(`FY${prov.join(', FY')} uses a price level for part of the year only.`);

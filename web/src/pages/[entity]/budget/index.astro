@@ -82,6 +82,8 @@ const exIds = ['EX-health-insurance-transfer-vs-expense', 'EX-expense-categories
     <tbody>{latestFund.map((r) => <tr><td>{r.fund}</td><td class="num">{dollars(r.rev)}</td><td class="num">{dollars(r.exp)}</td></tr>)}</tbody>
   </table></div>
 
+  <p>Each department's own budget, over time, by object and against its revenue: <a href={href(`/${entity}/budget/departments/`)}>spending by department</a>.</p>
+
   <h2>Notes on the numbers</h2>
   <ul>{exIds.map((id) => <li id={id}><strong>{exceptions[id].summary}.</strong> {exceptions[id].detail}</li>)}</ul>
   <p class="muted">Data: <a href={href(`/data/${entity}/county_revenue.json`)}>budgeted revenue</a> · <a href={href(`/data/${entity}/county_spending.json`)}>budgeted spending</a> · <a href={href(`/data/${entity}/downloads/facts.csv.gz`)}>all extracted lines</a></p>

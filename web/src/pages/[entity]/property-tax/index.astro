@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import StackedBars from '../../../components/StackedBars.svelte';
 import LineSeries from '../../../components/LineSeries.svelte';
+import ChartFilters from '../../../components/ChartFilters.svelte';
 import { readData, href } from '../../../lib/data';
 import { exceptionsUsedBy } from '../../../lib/exceptions';
 import { referenceFor } from '../../../lib/reference';
@@ -29,6 +30,7 @@ const avRows = totals.filter((r) => r.assessed_valuation != null).map((r) => ({ 
 const collectedRows = totals.filter((r) => r.pct_collected != null).map((r) => ({ fiscal_year: r.fiscal_year, series: 'Percent of the extension collected', value: r.pct_collected, exception_ids: r.exception_ids }));
 const rateRows = levies.filter((r) => r.rate_per_100 != null).map((r) => ({ fiscal_year: r.fiscal_year, series: r.levy, value: r.rate_per_100, exception_ids: r.exception_ids }));
 const exIds = [...new Set(all.flatMap((r: any) => r.exception_ids))].filter((id: any) => exceptions[id]);
+const years = [...new Set(totals.map((r) => r.fiscal_year))].sort() as number[];
 const growth = (a: number, b: number) => ((a / b - 1) * 100).toFixed(0);
 ---
 <Base entity={entity} section="property-tax" title={`Property tax – ${meta.short_name}`} description={`${meta.name}: property tax levies, extensions and collections by tax year.`}>
@@ -44,8 +46,11 @@ const growth = (a: number, b: number) => ((a / b - 1) * 100).toFixed(0);
   </dl>
   <p class="muted">Since tax year {first.tax_year} the assessed valuation grew {growth(last.assessed_valuation, first.assessed_valuation)}% and the extension {growth(last.extension, first.extension)}%; the rate per $100 fell from {first.rate_per_100?.toFixed(4)} to {last.rate_per_100?.toFixed(4)}.</p>
 
+  <ChartFilters client:load years={years} showDept={false} unitBase={ref?.base ?? null} />
+  <p class="muted small-note">The year range and the Dollars selector (as reported, adjusted for inflation, per resident) apply to the dollar charts.</p>
+
   <h2>Extension by levy</h2>
-  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="extension" ink={palette.ink} series={series} rows={extRows} ignoreRange={true}
+  <StackedBars client:load exceptions={exceptionMap} units={ref?.units} id="extension" ink={palette.ink} series={series} rows={extRows}
     title="Property tax extension by levy (fiscal year of collection)" filename="county-property-tax-extension.csv" totalLabel="Total extension"
     note="What the county clerk extended on the tax bills for each levy. Bonds and interest is the levy for debt service." />
 
@@ -80,6 +85,7 @@ const growth = (a: number, b: number) => ((a / b - 1) * 100).toFixed(0);
   .summary div { background: var(--panel); padding: 10px 14px; border-radius: 6px; }
   .summary dt { color: var(--ink2); font-size: 0.8125rem; }
   .summary dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .small-note { font-size: 0.8125rem; margin-top: 6px; }
   .scroll { overflow-x: auto; }
   td.num, th.num { white-space: nowrap; }
 </style>
