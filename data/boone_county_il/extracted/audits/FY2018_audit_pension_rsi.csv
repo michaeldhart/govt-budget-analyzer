@@ -1,0 +1,331 @@
+doc_id,pdf_page,plan_id,schedule,section,line_id,label,column_year,value,unit
+FY2018_audit,79,imrf_regular,npl,,,Calendar year ending December,2017,31.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2017,912096.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2016,942761.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2015,946717.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2014,981713.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,interest,Interest on the total pension liability,2017,3182544.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,interest,Interest on the total pension liability,2016,3006126.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,interest,Interest on the total pension liability,2015,2870415.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,interest,Interest on the total pension liability,2014,2686576.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_changes,Benefit changes,2017,0.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_changes,Benefit changes,2016,0.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_changes,Benefit changes,2015,0.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_changes,Benefit changes,2014,0.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2017,-189083.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2016,40809.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2015,-591491.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2014,-1191454.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,assumption_changes,Assumption changes,2017,-1507404.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,assumption_changes,Assumption changes,2016,-58536.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,assumption_changes,Assumption changes,2015,55677.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,assumption_changes,Assumption changes,2014,1244163.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2017,-1754490.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2016,-1479723.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2015,-1352964.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2014,-1151674.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,643663.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,2451437.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,1928354.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,2569324.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2017,42855114.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2016,40403677.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2015,38475323.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2014,35905999.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2017,43498777.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2016,42855114.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2015,40403677.0,usd
+FY2018_audit,79,imrf_regular,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2014,38475323.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2017,854451.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2016,874788.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2015,936650.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2014,924768.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2017,398473.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2016,398174.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2015,416307.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2014,387743.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2017,6883654.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2016,2477277.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2015,186957.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2014,2154519.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2017,-1754490.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2016,-1479723.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2015,-1352964.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2014,-1151674.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other,2017,-517654.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other,2016,545388.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other,2015,-1274203.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other,2014,-163577.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,5864434.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,2815904.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,-1087253.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,2151779.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2017,39119991.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2016,36304087.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2015,37391340.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2014,35239561.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2017,44984425.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2016,39119991.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2015,36304087.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2014,37391340.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2017,-1485648.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2016,3735123.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2015,4099590.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2014,1083983.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2017,103.42,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2016,91.28,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2015,89.85,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2014,97.18,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,8826975.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,8845183.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,8824059.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2014,8553030.0,usd
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2017,-16.83,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2016,42.23,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2015,46.46,percent
+FY2018_audit,79,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2014,12.67,percent
+FY2018_audit,80,slep,npl,,,Calendar year ending December,2017,31.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,service_cost,Service cost,2017,533336.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,service_cost,Service cost,2016,523364.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,service_cost,Service cost,2015,511883.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,service_cost,Service cost,2014,490252.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,interest,Interest on the total pension liability,2017,1511520.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,interest,Interest on the total pension liability,2016,1481407.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,interest,Interest on the total pension liability,2015,1379841.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,interest,Interest on the total pension liability,2014,1299064.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_changes,Benefit changes,2017,0.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_changes,Benefit changes,2016,0.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_changes,Benefit changes,2015,0.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_changes,Benefit changes,2014,0.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2017,-398344.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2016,-846896.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2015,171125.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2014,-260300.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,assumption_changes,Assumption changes,2017,-118754.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,assumption_changes,Assumption changes,2016,-57698.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,assumption_changes,Assumption changes,2015,56791.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,assumption_changes,Assumption changes,2014,173258.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2017,-763360.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2016,-749584.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2015,-687101.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2014,-585037.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,764398.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,350593.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,1432539.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,1117237.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2017,20268615.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2016,19918022.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2015,18485483.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2014,17368246.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2017,21033013.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2016,20268615.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2015,19918022.0,usd
+FY2018_audit,80,slep,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2014,18485483.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2017,564274.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2016,558384.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2015,570484.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2014,563812.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2017,234406.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2016,224994.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2015,199931.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2014,185446.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2017,3106851.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2016,1129928.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2015,79891.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2014,929357.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2017,-763360.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2016,-749584.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2015,-687101.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2014,-585037.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,other_fnp,Other,2017,-441690.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,other_fnp,Other,2016,-41293.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,other_fnp,Other,2015,-118480.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,other_fnp,Other,2014,-310263.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,2700481.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,1122429.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,44725.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,783315.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2017,17103711.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2016,15981282.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2015,15936557.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2014,15153242.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2017,19804192.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2016,17103711.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2015,15981282.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2014,15936557.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2017,1228821.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2016,3164904.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2015,3936740.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2014,2548926.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2017,94.16,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2016,84.39,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2015,80.24,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2014,86.21,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,2770403.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,2757458.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,2665744.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2014,2599155.0,usd
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2017,44.36,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2016,114.78,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2015,147.68,percent
+FY2018_audit,80,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2014,98.07,percent
+FY2018_audit,81,imrf_eco,npl,,,Calendar year ending December,2017,31.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2017,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2016,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2015,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2014,19860.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,interest,Interest on the total pension liability,2017,383562.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,interest,Interest on the total pension liability,2016,378090.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,interest,Interest on the total pension liability,2015,373974.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,interest,Interest on the total pension liability,2014,365809.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_changes,Benefit changes,2017,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_changes,Benefit changes,2016,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_changes,Benefit changes,2015,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_changes,Benefit changes,2014,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2017,64809.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2016,77164.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2015,84912.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,experience_difference,Difference between expected and actual experience,2014,-136885.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,assumption_changes,Assumption changes,2017,-197828.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,assumption_changes,Assumption changes,2016,-81916.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,assumption_changes,Assumption changes,2015,-9827.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,assumption_changes,Assumption changes,2014,256555.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2017,-420874.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2016,-413732.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2015,-399993.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,benefit_payments_liability,Benefit payments and refunds,2014,-312969.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,-170331.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,-40394.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,49066.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,192370.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2017,5324594.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2016,5364988.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2015,5315922.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_beginning,Total pension liability - beginning,2014,5123552.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2017,5154263.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2016,5324594.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2015,5364988.0,usd
+FY2018_audit,81,imrf_eco,npl,Total pension liability:,liability_ending,Total pension liability - ending (a),2014,5315922.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2017,174100.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2016,190707.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2015,217571.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Employer contributions,2014,249268.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2017,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2016,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2015,295.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Employee contributions,2014,607.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2017,747752.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2016,254732.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2015,17072.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Pension plan net investment income,2014,202450.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2017,-420874.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2016,-413732.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2015,-399993.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,Benefit payments and refunds,2014,-312969.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other,2017,-137387.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other,2016,66213.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other,2015,362645.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other,2014,15644.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,363591.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,97920.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,197590.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,155000.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2017,3800910.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2016,3702990.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2015,3505400.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,Plan fiduciary net position - beginning,2014,3350400.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2017,4164501.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2016,3800910.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2015,3702990.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,Plan fiduciary net position - ending (b),2014,3505400.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2017,989762.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2016,1523684.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2015,1661998.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability(asset) - Ending (a) - (b),2014,1810522.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2017,80.8,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2016,71.38,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2015,69.02,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of total pension liability,2014,65.94,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2014,0.0,usd
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2017,0.0,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2016,0.0,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2015,0.0,percent
+FY2018_audit,81,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered valuation payroll,2014,0.0,percent
+FY2018_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,856055.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contributions_actual,contributions actual,2018,856055.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2018_audit,82,imrf_regular,contributions,,covered_payroll,covered payroll,2018,9024235.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2018,9.49,percent
+FY2018_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,853818.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contributions_actual,contributions actual,2017,853818.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2018_audit,82,imrf_regular,contributions,,covered_payroll,covered payroll,2017,8805846.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2017,9.7,percent
+FY2018_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,883355.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contributions_actual,contributions actual,2016,883355.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2018_audit,82,imrf_regular,contributions,,covered_payroll,covered payroll,2016,8850036.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2016,9.98,percent
+FY2018_audit,82,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2015,939452.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contributions_actual,contributions actual,2015,939452.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2015,0.0,usd
+FY2018_audit,82,imrf_regular,contributions,,covered_payroll,covered payroll,2015,8610902.0,usd
+FY2018_audit,82,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2015,10.91,percent
+FY2018_audit,82,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,526941.0,usd
+FY2018_audit,82,slep,contributions,,contributions_actual,contributions actual,2018,526941.0,usd
+FY2018_audit,82,slep,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2018_audit,82,slep,contributions,,covered_payroll,covered payroll,2018,2845444.0,usd
+FY2018_audit,82,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2018,18.52,percent
+FY2018_audit,82,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,560737.0,usd
+FY2018_audit,82,slep,contributions,,contributions_actual,contributions actual,2017,560737.0,usd
+FY2018_audit,82,slep,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2018_audit,82,slep,contributions,,covered_payroll,covered payroll,2017,2771773.0,usd
+FY2018_audit,82,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2017,20.23,percent
+FY2018_audit,82,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,558602.0,usd
+FY2018_audit,82,slep,contributions,,contributions_actual,contributions actual,2016,558602.0,usd
+FY2018_audit,82,slep,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2018_audit,82,slep,contributions,,covered_payroll,covered payroll,2016,2758536.0,usd
+FY2018_audit,82,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2016,20.25,percent
+FY2018_audit,82,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2015,556230.0,usd
+FY2018_audit,82,slep,contributions,,contributions_actual,contributions actual,2015,556230.0,usd
+FY2018_audit,82,slep,contributions,,contribution_deficiency,contribution deficiency,2015,0.0,usd
+FY2018_audit,82,slep,contributions,,covered_payroll,covered payroll,2015,2472619.0,usd
+FY2018_audit,82,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2015,22.5,percent
+FY2018_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,144320.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2018,144320.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2018,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2018,0.0,percent
+FY2018_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,175484.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2017,175484.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2017,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2017,0.0,percent
+FY2018_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,194771.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2016,194771.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2016,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2016,0.0,percent
+FY2018_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2015,217922.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2015,217922.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2015,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2015,0.0,usd
+FY2018_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2015,0.0,percent
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2017,188158.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2017,90301.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,benefit_changes,Changes of benefit terms,2017,0.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Difference between expected and actual experience,2017,99829.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumption or other inputs,2017,24585.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,contributions_employer,Contributions - employer,2017,0.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,,Contributions - active & inactive employees,2017,0.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,net_investment_income,Net investment income,2017,0.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2017,-63678.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2017,-173540.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total pension liability,2017,165655.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,liability_beginning,Total OPEB liability - beginning,2017,2554221.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,liability_ending,Total OPEB liability - ending (a),2017,2719876.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2017,11011717.0,usd
+FY2018_audit,83,opeb,opeb,Total OPEB liability:,liability_pct_payroll,Total OPEB Liability as a percentage of covered-employee payroll,2017,24.7,percent

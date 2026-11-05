@@ -20,15 +20,15 @@ OUT = ROOT / "data/boone_county_il/extracted/audits"
 PLANS = [(r"COUNTY REGULAR|REGULAR PLAN", "imrf_regular"), (r"ELECTED COUNTY|\bECO\b", "imrf_eco"), (r"SHERIFF|SLEP|LAW ENFORCEMENT", "slep"),
          (r"POSTEMPLOYMENT|OPEB", "opeb")]
 LINES = [  # (label regex, line_id) per schedule; first match wins
-    (r"^service cost", "service_cost"), (r"^interest\b", "interest"), (r"changes? of benefit terms|changes in benefit terms", "benefit_changes"),
-    (r"differences between expected", "experience_difference"), (r"changes (of|in) assumptions", "assumption_changes"),
-    (r"^benefit payments", "benefit_payments"), (r"^other changes", "other_changes"),
+    (r"^service cost", "service_cost"), (r"^actuarial experience", "actuarial_experience"), (r"^interest\b", "interest"), (r"changes? of benefit (terms|changes)|changes in benefit terms|^benefit changes", "benefit_changes"),
+    (r"differences? between expected", "experience_difference"), (r"changes (of|in) assumptions?|^assumption changes", "assumption_changes"),
+    (r"^benefit payments", "benefit_payments"), (r"^other changes|^other( \(net transfers\))?$", "other_changes"),
     (r"^net change in total (pension|opeb) liability", "net_change_liability"), (r"^total (pension|opeb) liability - beginning", "liability_beginning"),
-    (r"^total (pension|opeb) liability - ending", "liability_ending"), (r"^contributions - employer", "contributions_employer"),
-    (r"^contributions - member", "contributions_member"), (r"^net investment income", "net_investment_income"),
+    (r"^total (pension|opeb) liability - ending", "liability_ending"), (r"^contributions - employer|^employer contributions", "contributions_employer"),
+    (r"^contributions - (member|employees?)|^employee contributions", "contributions_member"), (r"^((pension|opeb) plan )?net investment income", "net_investment_income"),
     (r"^administrative expense", "administrative_expense"), (r"^net change in plan fiduciary", "net_change_fnp"),
-    (r"^plan fiduciary net position - beginning", "fnp_beginning"), (r"^plan fiducia\w+ net position - ending", "fnp_ending"),
-    (r"^employer'?s net pension liability$|^employer'?s net pension liability \(", "npl"), (r"plan fiduciary net position as a percentage|^plan fiduciary net position$", "fnp_pct_tpl"),
+    (r"^plan (fiduciary )?net position,? - beginning|^plan (fiduciary )?net position, beginning", "fnp_beginning"), (r"^plan (fiducia\w+ )?net position,? - ending|^plan (fiducia\w+ )?net position, ending", "fnp_ending"),
+    (r"^employer'?s net pension liability$|^employer'?s net pension liability \(|^net pension liability ?\(asset\) - ending", "npl"), (r"plan fiduciary net position as a percentage|^plan fiduciary net position$", "fnp_pct_tpl"),
     (r"^covered(-employee)? (valuation )?payroll", "covered_payroll"), (r"net pension liability as a percentage|total opeb liability as a percentage|liability as a percentage", "liability_pct_payroll"),
     (r"^actuarially determined contribution", "actuarially_determined_contribution"), (r"^contributions in relation", "contributions_actual"),
     (r"^contribution deficiency", "contribution_deficiency"), (r"^contributions as a percentage", "contribution_pct_payroll")]
@@ -39,6 +39,7 @@ def number_tokens(line):
     (zero).  A dash inside a label ('Contributions - employer') is not a figure because it is not followed only by figures."""
     s = re.sub(r"\$", " ", line)
     s = re.sub(r"\(\s+", "(", s)
+    s = re.sub(r"(\d|\))\s+%", r"\1%", s)  # '107.15 %' and '(19.08) %' (FY2021-FY2023 print a space before the sign)
     toks = s.split()
     k = len(toks)
     while k > 0 and re.fullmatch(r"\(?-?\d[\d,]*(?:\.\d+)?%?\)?|-|–", toks[k - 1]):
@@ -51,8 +52,16 @@ def number_tokens(line):
         if t in ("-", "–"):
             vals.append(0.0)
         else:
-            vals.append((-1 if t.startswith("(") else 1) * float(t.strip("()").replace(",", "").rstrip("%")))
+            vals.append((-1 if t.startswith("(") else 1) * float(re.sub(r"[()%,]", "", t)))
     return " ".join(toks[:k]), vals
+
+
+def number_ends(line, n):
+    """Right edges (character offsets) of the last n figures of a line."""
+    s = line.replace("$", " ")
+    toks = [(m_.group(), m_.end()) for m_ in re.finditer(r"\S+", s)]
+    toks = [t for t in toks if re.fullmatch(r"\(?-?\d[\d,]*(?:\.\d+)?%?\)?|-|–", t[0])]
+    return [e for _, e in toks[-n:]] if len(toks) >= n else []
 
 
 def plan_of(text):
@@ -63,15 +72,58 @@ def plan_of(text):
     return ""
 
 
+VROW = re.compile(r"^\s*(20\d{2})\s+(.*)$")
+VPLANS = [(r"NON-?\s?SLEP", "imrf_regular"), (r"\bSLEP\b", "slep"), (r"\bECO\b", "imrf_eco")]
+
+
+def vertical_contributions(doc, pn, page, rows):
+    """FY2018-FY2023: schedules of employer contributions with the fiscal years down the page (year, actuarially determined contribution, actual, deficiency,
+    covered payroll, percentage); several plans on a page, named by the heading above each table. -> number of rows read."""
+    plan = "opeb" if re.search(r"(?i)contributions\s*[-–]\s*opeb", " ".join(page.split())[:400]) else ""
+    n = 0
+    for l in page.split("\n"):
+        if not plan or not VROW.match(l):
+            for rx, pid in VPLANS:
+                if re.search(rx, l.upper()) and re.search(r"(?i)imrf|slep|eco", l) and not VROW.match(l):
+                    plan = pid
+                    break
+        m = VROW.match(l)
+        if not m or not plan:
+            continue
+        rest = re.sub(r"(\d) %", r"\1%", m.group(2).replace("$", " ")).replace("DIV/0 %", "n/a").replace("DIV/0%", "n/a").replace("#DIV/0!", "n/a").replace("(", "").replace(")", "")
+        toks = rest.split()
+        if len(toks) != 5 or not (toks[4].endswith("%") or toks[4] == "n/a"):
+            continue
+        try:
+            nums = [0.0 if t in ("-", "–") else float(t.replace(",", "")) for t in toks[:4]]
+        except ValueError:
+            continue
+        try:
+            pct = None if toks[4] == "n/a" else float(toks[4].rstrip("%"))
+        except ValueError:
+            pct = None  # a dash where the percentage would be
+        for lid, v, unit in zip(("actuarially_determined_contribution", "contributions_actual", "contribution_deficiency", "covered_payroll", "contribution_pct_payroll"),
+                                nums + [pct], ("usd",) * 4 + ("percent",)):
+            if v is None:
+                continue
+            rows.append(dict(doc_id=doc, pdf_page=pn, plan_id=plan, schedule="contributions", section="", line_id=lid, label=lid.replace("_", " "),
+                             column_year=int(m.group(1)), value=v, unit=unit))
+        n += 1
+    return n
+
+
 def read_doc(doc, pages):
     rows, checks = [], []
     current = {"plan": "", "schedule": ""}
     for pn, page in enumerate(pages, 1):
         head = re.sub(r"\s+", " ", page).strip()[:520]
         U = head.upper()
+        if "TABLE OF CONTENTS" not in U[:250] and re.search(r"SCHEDULE OF (IMRF|EMPLOYER) CONTRIBUTIONS|SCHEDULE OF CONTRIBUTIONS", U[:300]):
+            if vertical_contributions(doc, pn, page, rows):
+                continue
         title = re.search(r"(NET PENSION LIABILITY|EMPLOYER CONTRIBUTIONS|OPEB LIABILITY|OPEB)", U) and re.search(r"SCHEDULE", U[:200])
         cont = bool(re.match(r"MEASU[A-Z]*NT DATE|FISCAL YEAR ENDING", U)) and current["plan"]
-        if "TABLE OF CONTENTS" in U[:250] or not (title or cont):
+        if "TABLE OF CONTENTS" in U[:250] or "GAAP REQUIRES" in U[:200] or not (title or cont):
             continue
         if title:
             sched = "contributions" if "EMPLOYER CONTRIBUTIONS" in U[:300] else ("opeb" if "OPEB LIABILITY" in U[:300] else "npl")
@@ -84,39 +136,70 @@ def read_doc(doc, pages):
             checks.append((f"p{pn}: plan identified", False, head[:80]))
             continue
         lines = [l for l in page.split("\n") if l.strip()]
-        years, hdr = [], None
+        years, hdr, year_edges = [], None, []
         for i, l in enumerate(lines):
             if re.search(r"(?i)(measu\w*nt date|fiscal year ending)", l):
                 ys = re.findall(r"\b(20\d{2})\b", l)
                 if len(ys) >= 2:
                     years, hdr = [int(y) for y in ys], i
                     break
+        if not years:  # FY2018 on: a line of years (latest first, the older columns empty) above 'Calendar year ending'
+            for i, l in enumerate(lines[:14]):
+                ys = re.findall(r"\b(20\d{2})\b", l)
+                if len(ys) >= 6 and not re.search(r"[A-Za-z]{4}", re.sub(r"(?i)imrf|regular|slep|eco|plan", "", l)):
+                    years, hdr = [int(y) for y in ys], i
+                    year_edges = [m_.end() for m_ in re.finditer(r"\b20\d{2}\b", l)]
+                    break
+        if not years and doc.startswith("FY2015"):  # GASB 68's first year: one column; the pension liability is measured December 31 of the prior year, contributions are for the fiscal year
+            if current["schedule"] == "npl":
+                m_ = re.search(r"measurement date is December 31,\s*(20\d{2})", " ".join(page.split()), re.I)
+                years = [int(m_.group(1))] if m_ else []
+            else:
+                m_ = re.search(r"November 30,\s*(20\d{2})", " ".join(page.split())[:300])
+                years = [int(m_.group(1))] if m_ else []
+            hdr = next((i for i, l in enumerate(lines) if re.search(r"(?i)november 30", l)), 0) if years else None
+            if years and current["schedule"] == "npl":
+                hdr = next((i for i, l in enumerate(lines) if re.search(r"(?i)november 30", l)), 0)
         if not years:
             checks.append((f"p{pn} {current['plan']}: column years found", False, ""))
             continue
         section, pending = "", ""
+        hdr_blank = not re.search(r"(?i)(measu\w*nt date|fiscal year ending)", lines[hdr])
         for l in lines[hdr + 1:]:
-            if re.search(r"(?i)see independent|notes to required|^\s*-\s*\d+\s*-\s*$|^\s*\d{4}\s*[-–]\s*(changes|$)|ultimately, this|no assets are", l):
+            if re.search(r"(?i)see independent|notes to required|^\s*-\s*\d+\s*-\s*$|^\s*\d{4}\s*[-–]\s*(changes|$)|ultimately, this|no assets are|the following are the|the county implemented|discount rate", l):
                 break
             label, vals = number_tokens(l)
             if not vals:
                 t = l.strip()
-                if t.isupper() and len(t) < 50:
+                if (t.isupper() or t.endswith(":")) and len(t) < 50:
                     section, pending = t, ""
                 else:
                     pending = (pending + " " + t).strip()
                 continue
+            if re.match(r"(?i)\s*(fiscal year ending|see multiyear|see notes)", label):
+                continue
             label = (pending + " " + label).strip() if pending else label
             pending = ""
-            if len(vals) != len(years):
+            if len(vals) < len(years) and hdr_blank:
+                row_years = years[:len(vals)]  # the older columns are blank (trailing)
+                ends = number_ends(l, len(vals))
+                if ends and year_edges:  # a blank cell can also sit between figures: place each figure under the year whose heading ends nearest
+                    pick = [min(range(len(years)), key=lambda k, e=e: abs(year_edges[k] - e)) for e in ends]
+                    if len(set(pick)) == len(pick):
+                        row_years = [years[k] for k in pick]
+            else:
+                row_years = years
+            if len(vals) != len(row_years):
                 checks.append((f"p{pn} {current['plan']}: row '{label[:40]}' has {len(vals)} numbers for {len(years)} years", False, ""))
                 continue
             clean = re.sub(r"\s+", " ", label).strip().lower()
             lid = next((i for rx, i in LINES if re.search(rx, clean)), "")
             if lid == "benefit_payments":
                 lid = "benefit_payments_fnp" if "FIDUCIARY" in section.upper() else "benefit_payments_liability"
+            if lid == "other_changes" and "FIDUCIARY" in section.upper():
+                lid = "other_fnp"
             unit = "percent" if "%" in l else "usd"
-            for y, v in zip(years, vals):
+            for y, v in zip(row_years, vals):
                 rows.append(dict(doc_id=doc, pdf_page=pn, plan_id=current["plan"], schedule=current["schedule"], section=section, line_id=lid,
                                  label=re.sub(r"\s+", " ", label).strip(), column_year=y, value=v, unit=unit))
     return rows, checks
@@ -140,13 +223,13 @@ def verify(rows, checks):
             g = lambda lid: v(plan, sched, lid, y)  # noqa: E731
             name = f"{plan} {sched} {y}"
             if sched in ("npl", "opeb"):
-                parts = [g(i) for i in ("service_cost", "interest", "benefit_changes", "experience_difference", "assumption_changes", "benefit_payments_liability", "other_changes") if g(i) is not None]
+                parts = [g(i) for i in ("service_cost", "interest", "benefit_changes", "actuarial_experience", "experience_difference", "assumption_changes", "benefit_payments_liability", "other_changes") if g(i) is not None]
                 if g("net_change_liability") is not None and parts:
                     checks.append((f"{name}: liability components add to the net change", tol(sum(parts), g("net_change_liability"), 3), f"{sum(parts)} vs {g('net_change_liability')}"))
                 if None not in (g("liability_beginning"), g("net_change_liability"), g("liability_ending")):
                     checks.append((f"{name}: beginning + change = ending liability", tol(g("liability_beginning") + g("net_change_liability"), g("liability_ending"), 3), ""))
                 if sched == "npl":
-                    fp = [g(i) for i in ("contributions_employer", "contributions_member", "net_investment_income", "benefit_payments_fnp", "administrative_expense") if g(i) is not None]
+                    fp = [g(i) for i in ("contributions_employer", "contributions_member", "net_investment_income", "benefit_payments_fnp", "administrative_expense", "other_fnp") if g(i) is not None]
                     if g("net_change_fnp") is not None and fp:
                         checks.append((f"{name}: fiduciary net position components add to the net change", tol(sum(fp), g("net_change_fnp"), 3), f"{sum(fp)} vs {g('net_change_fnp')}"))
                     if None not in (g("fnp_beginning"), g("net_change_fnp"), g("fnp_ending")):
@@ -180,7 +263,7 @@ def verify(rows, checks):
                     checks.append((f"{plan} {sched} {y}->{y2}: {e} = next {b}", tol(v(plan, sched, e, y), v(plan, sched, b, y2), 1), ""))
 
 
-READ_LAYOUTS = {"FY2016", "FY2017", "FY2024", "FY2025"}  # the ten-column 'Schedule of Changes in the Employer's Net Pension Liability' family; FY2015 and FY2018-FY2023 print
+READ_LAYOUTS = {"FY2015", "FY2016", "FY2017", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # the ten-column 'Schedule of Changes in the Employer's Net Pension Liability' family; FY2015 and FY2018-FY2023 print
 # other layouts (one column, years across with the latest first, 'IMRF Non-SLEP' / 'SLEP' contribution tables); their figures are the earlier columns of the FY2024 and FY2025 tables
 
 

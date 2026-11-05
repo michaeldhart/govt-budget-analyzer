@@ -258,6 +258,8 @@ def pension_part(docs):
         for r in csv.DictReader(open(path)):
             y = int(r["column_year"])
             ex = PENSION_EXCEPTION if r["plan_id"] != "opeb" and y <= 2015 and r["schedule"] == "npl" else ""
+            if r["plan_id"] == "opeb" and y == 2019 and r["line_id"] in ("experience_difference", "actuarial_experience"):
+                ex = "EX-opeb-2019-reclass"
             mdate = f"{'November' if r['schedule'] in ('opeb', 'contributions') else 'December'} 30, {y}" if r["schedule"] in ("opeb", "contributions") else f"December 31, {y}"
             base = dict(entity_id=E.id, doc_id=doc, period_fy=fy, plan_id=r["plan_id"], pdf_page=r["pdf_page"], flag="", exception_ids=ex)
             val = float(r["value"])

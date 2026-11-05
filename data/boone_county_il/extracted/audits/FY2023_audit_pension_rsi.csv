@@ -1,0 +1,770 @@
+doc_id,pdf_page,plan_id,schedule,section,line_id,label,column_year,value,unit
+FY2023_audit,78,imrf_regular,npl,,,Calendar year ending December,2022,31.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2022,1005017.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2021,978625.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2020,946763.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2019,937252.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2018,857770.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2017,912096.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2016,942761.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2015,946717.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,service_cost,Service cost,2014,981713.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2022,3947280.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2021,3717999.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2020,3562093.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2019,3384178.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2018,3224664.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2017,3182544.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2016,3006126.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2015,2870415.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,interest,Interest on total pension liability,2014,2686576.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2022,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2021,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2020,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2019,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2018,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2017,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2022,87841.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2021,788976.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2020,536302.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2019,193471.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2018,2237.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2017,-189083.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2016,40809.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2015,-591491.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2014,-1191454.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2022,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2021,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2020,-694162.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2019,0.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2018,1475353.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2017,-1507404.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2016,-58536.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2015,55677.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,assumption_changes,Changes of assumption,2014,1244163.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2022,-2401255.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2021,-2271336.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2020,-2161666.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2019,-1969640.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2018,-1864295.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2017,-1754490.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2016,-1479723.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2015,-1352964.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2014,-1151674.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2022,2638883.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2021,3214264.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2020,2189330.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2019,2545261.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2018,3695729.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,643663.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,2451437.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,1928354.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,2569324.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2022,55143361.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2021,51929097.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2020,49739767.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2019,47194506.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2018,43498777.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2017,42855114.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2016,40403677.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2015,38475323.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, beginning",2014,35905999.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2022,57782244.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2021,55143361.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2020,51929097.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2019,49739767.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2018,47194506.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2017,43498777.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2016,42855114.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2015,40403677.0,usd
+FY2023_audit,78,imrf_regular,npl,Total pension liability:,,"Total pension liability, ending (a)",2014,38475323.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2022,685181.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2021,925173.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2020,902526.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2019,632407.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2018,863994.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2017,854451.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2016,874788.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2015,936650.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2014,924768.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2022,472616.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2021,472027.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2020,456459.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2019,438882.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2018,426186.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2017,398473.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2016,398174.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2015,416307.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2014,387743.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2022,-8038001.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2021,9414773.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2020,7004559.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2019,7893062.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2018,-2483487.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2017,6883654.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2016,2477277.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2015,186957.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2014,2154519.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2022,-2401255.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2021,-2271336.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2020,-2161666.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2019,-1969640.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2018,-1864295.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2017,-1754490.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2016,-1479723.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2015,-1352964.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2014,-1151674.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2022,262062.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2021,-8159.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2020,324581.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2019,114861.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2018,81144.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2017,-517654.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2016,545388.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2015,-1274203.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2014,-163577.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2022,-9019397.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2021,8532478.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2020,6526459.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2019,7109572.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2018,-2976458.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,5864434.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,2815904.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,-1087253.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,2151779.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2022,64176476.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2021,55643998.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2020,49117539.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2019,42007967.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2018,44984425.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2017,39119991.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2016,36304087.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2015,37391340.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2014,35239561.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2022,55157079.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2021,64176476.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2020,55643998.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2019,49117539.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2018,42007967.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2017,44984425.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2016,39119991.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2015,36304087.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2014,37391340.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2022,2625165.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2021,-9033115.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2020,-3714901.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2019,622228.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2018,5186539.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2017,-1485648.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2016,3735123.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2015,4099590.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2014,1083983.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2022,95.46,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2021,116.38,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2020,107.15,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2019,98.75,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2018,89.01,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2017,103.42,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2016,91.28,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,89.85,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,97.18,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2022,10435566.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2021,10489485.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2020,9906995.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2019,9286439.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2018,9011017.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,8826975.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,8845183.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,8824059.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2014,8553030.0,usd
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 25.16% (86.12)% (37.50)% 6.70% 57.56% (16.83)%,2016,42.23,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 25.16% (86.12)% (37.50)% 6.70% 57.56% (16.83)%,2015,46.46,percent
+FY2023_audit,78,imrf_regular,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 25.16% (86.12)% (37.50)% 6.70% 57.56% (16.83)%,2014,12.67,percent
+FY2023_audit,79,slep,npl,,,Calendar year ending December,2022,31.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2022,502366.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2021,493523.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2020,537119.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2019,551980.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2018,514317.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2017,533336.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2016,523364.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2015,511883.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,service_cost,Service cost,2014,490252.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2022,1930306.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2021,1803594.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2020,1716727.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2019,1663829.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2018,1567380.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2017,1511520.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2016,1481407.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2015,1379841.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,interest,Interest on total pension liability,2014,1299064.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2022,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2021,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2020,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2019,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2018,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2017,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2022,-599000.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2021,345208.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2020,15771.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2019,-573118.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2018,60501.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2017,-398344.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2016,-846896.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2015,171125.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2014,-260300.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2022,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2021,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2020,-180249.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2019,0.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2018,765543.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2017,-118754.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2016,-57698.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2015,56791.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,assumption_changes,Changes of assumption,2014,173258.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2022,-902775.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2021,-895198.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2020,-843626.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2019,-967644.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2018,-783551.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2017,-763360.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2016,-749584.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2015,-687101.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2014,-585037.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2022,930897.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2021,1747127.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2020,1245742.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2019,675047.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2018,2124190.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,764398.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,350593.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,1432539.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,1117237.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2022,26825119.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2021,25077992.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2020,23832250.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2019,23157203.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2018,21033013.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2017,20268615.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2016,19918022.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2015,18485483.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, beginning",2014,17368246.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2022,27756016.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2021,26825119.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2020,25077992.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2019,23832250.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2018,23157203.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2017,21033013.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2016,20268615.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2015,19918022.0,usd
+FY2023_audit,79,slep,npl,Total pension liability:,,"Total pension liability, ending (a)",2014,18485483.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2022,429970.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2021,562443.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2020,600413.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2019,479529.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2018,525896.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2017,564274.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2016,558384.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2015,570484.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2014,563812.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2022,235972.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2021,245599.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2020,216287.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2019,208613.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2018,214593.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2017,234406.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2016,224994.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2015,199931.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2014,185446.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2022,-3922439.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2021,4350098.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2020,3189059.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2019,3593052.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2018,-1305837.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2017,3106851.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2016,1129928.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2015,79891.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2014,929357.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2022,-902775.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2021,-895198.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2020,-843626.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2019,-967644.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2018,-783551.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2017,-763360.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2016,-749584.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2015,-687101.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2014,-585037.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2022,-82548.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2021,-302452.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2020,267406.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2019,97892.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2018,332091.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2017,-441690.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2016,-41293.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2015,-118480.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2014,-310263.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2022,-4241820.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2021,3960490.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2020,3429539.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2019,3411442.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2018,-1016808.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,2700481.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,1122429.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,44725.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,783315.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2022,29588855.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2021,25628365.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2020,22198826.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2019,18787384.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2018,19804192.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2017,17103711.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2016,15981282.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2015,15936557.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2014,15153242.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2022,25347035.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2021,29588855.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2020,25628365.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2019,22198826.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2018,18787384.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2017,19804192.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2016,17103711.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2015,15981282.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2014,15936557.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2022,2408981.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2021,-2763736.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2020,-550373.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2019,1633424.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2018,4369819.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2017,1228821.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2016,3164904.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2015,3936740.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2014,2548926.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2022,91.32,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2021,110.3,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2020,102.19,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2019,93.15,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2018,81.13,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2017,94.16,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2016,84.39,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,80.24,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,86.21,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2022,2965605.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2021,2955559.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2020,2883829.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2019,2781496.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2018,2861238.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,2770403.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,2757458.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,2665744.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2014,2599155.0,usd
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2019,58.72,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2018,152.72,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2017,44.36,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2016,114.78,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2015,147.68,percent
+FY2023_audit,79,slep,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll 81.23% (93.51)% (19.08)%,2014,98.07,percent
+FY2023_audit,80,imrf_eco,npl,,,Calendar year ending December,2022,31.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2022,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2021,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2020,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2019,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2018,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2017,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,service_cost,Service cost,2014,19860.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2022,333432.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2021,337880.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2020,340596.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2019,339474.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2018,371714.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2017,383562.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2016,378090.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2015,373974.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,interest,Interest on total pension liability,2014,365809.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2022,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2021,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2020,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2019,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2018,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_changes,Changes of benefit changes,2017,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2022,355407.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2021,88061.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2020,122745.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2019,80036.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2018,-363232.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2017,64809.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2016,77164.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2015,84912.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2014,-136885.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2022,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2021,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2020,-48227.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2019,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2018,101239.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2017,-197828.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2016,-81916.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2015,-9827.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,assumption_changes,Changes of assumption,2014,256555.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2022,-506631.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2021,-467956.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2020,-437194.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2019,-370862.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2018,-396158.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2017,-420874.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2016,-413732.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2015,-399993.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,benefit_payments_liability,"Benefit payments, including refunds of employee contributions",2014,-312969.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2022,182208.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2021,-42015.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2020,-22080.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2019,48648.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2018,-286437.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2017,-170331.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2016,-40394.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2015,49066.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,net_change_liability,Net change in total pension liability,2014,192370.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2022,4852379.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2021,4894394.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2020,4916474.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2019,4867826.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2018,5154263.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2017,5324594.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2016,5364988.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2015,5315922.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, beginning",2014,5123552.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2022,5034587.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2021,4852379.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2020,4894394.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2019,4916474.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2018,4867826.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2017,5154263.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2016,5324594.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2015,5364988.0,usd
+FY2023_audit,80,imrf_eco,npl,Total pension liability:,,"Total pension liability, ending (a)",2014,5315922.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2022,102105.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2021,121544.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2020,130468.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2019,114723.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2018,141613.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2017,174100.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2016,190707.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2015,217571.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_employer,Contributions - employer,2014,249268.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2022,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2021,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2020,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2019,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2018,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2017,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2015,295.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,contributions_member,Contributions - employees,2014,607.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2022,-730422.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2021,779577.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2020,572597.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2019,689830.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2018,-311892.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2017,747752.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2016,254732.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2015,17072.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_investment_income,Net investment income,2014,202450.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2022,-506631.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2021,-467956.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2020,-437194.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2019,-370862.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2018,-396158.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2017,-420874.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2016,-413732.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2015,-399993.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,benefit_payments_fnp,"Benefit payments, including refunds of employee contributions",2014,-312969.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2022,94511.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2021,51922.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2020,103544.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2019,56244.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2018,-305419.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2017,-137387.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2016,66213.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2015,362645.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,other_fnp,Other (net transfers),2014,15644.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2022,-1040437.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2021,485087.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2020,369415.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2019,489935.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2018,-871856.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2017,363591.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2016,97920.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2015,197590.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,net_change_fnp,Net change in plan fiduciary net position,2014,155000.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2022,4637082.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2021,4151995.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2020,3782580.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2019,3292645.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2018,4164501.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2017,3800910.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2016,3702990.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2015,3505400.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_beginning,"Plan net position, beginning",2014,3350400.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2022,3596645.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2021,4637082.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2020,4151995.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2019,3782580.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2018,3292645.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2017,4164501.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2016,3800910.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2015,3702990.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_ending,"Plan net position, ending (b)",2014,3505400.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2022,1437942.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2021,215297.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2020,742399.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2019,1133894.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2018,1575181.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2017,989762.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2016,1523684.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2015,1661998.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,npl,Net pension liability (asset) - Ending (a) - (b),2014,1810522.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2022,71.44,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2021,95.56,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2020,84.83,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2019,76.94,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2018,67.64,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2017,80.8,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2016,71.38,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2015,69.02,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,fnp_pct_tpl,Plan fiduciary net position as a percentage of the total pension liability,2014,65.94,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2022,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2021,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2020,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2019,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2018,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2017,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2016,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,covered_payroll,Covered valuation payroll,2015,0.0,usd
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2022,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2021,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2020,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2019,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2018,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2017,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2016,0.0,percent
+FY2023_audit,80,imrf_eco,npl,Plan fiduciary net position:,liability_pct_payroll,Net pension liability as a percentage of covered payroll,2015,0.0,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2023,557302.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2023,554165.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2023,3137.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2023,10692757.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2023,5.18,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,747627.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2022,744502.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2022,3125.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2022,10831126.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2022,6.87,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,892374.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2021,892374.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2021,10078924.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2021,8.85,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,844304.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2020,844304.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2020,9449522.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2020,8.93,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,647987.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2019,647987.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2019,9248883.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2019,7.01,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,856055.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2018,856055.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2018,9024235.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2018,9.49,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,853818.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2017,853818.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2017,8805846.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2017,9.7,percent
+FY2023_audit,81,imrf_regular,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,883355.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contributions_actual,contributions actual,2016,883355.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2023_audit,81,imrf_regular,contributions,,covered_payroll,covered payroll,2016,8850036.0,usd
+FY2023_audit,81,imrf_regular,contributions,,contribution_pct_payroll,contribution pct payroll,2016,9.98,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2023,411141.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2023,411141.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2023,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2023,3157541.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2023,13.02,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,448870.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2022,448870.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2022,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2022,2965808.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2022,15.13,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,548047.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2021,548047.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2021,2850682.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2021,19.23,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,575444.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2020,575444.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2020,2803526.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2020,20.53,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,480695.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2019,480695.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2019,2773541.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2019,17.33,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,526941.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2018,526941.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2018,2845444.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2018,18.52,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,560737.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2017,560737.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2017,2771773.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2017,20.23,percent
+FY2023_audit,81,slep,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,558602.0,usd
+FY2023_audit,81,slep,contributions,,contributions_actual,contributions actual,2016,558602.0,usd
+FY2023_audit,81,slep,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2023_audit,81,slep,contributions,,covered_payroll,covered payroll,2016,2758536.0,usd
+FY2023_audit,81,slep,contributions,,contribution_pct_payroll,contribution pct payroll,2016,20.25,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2023,76237.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2023,76237.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2023,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2023,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2023,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,103725.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2022,103725.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2022,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2022,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2022,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,122288.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2021,122288.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2021,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2021,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,129156.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2020,129156.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2020,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2020,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,116964.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2019,116964.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2019,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2019,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,144320.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2018,144320.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2018,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2018,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2017,175484.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2017,175484.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2017,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2017,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2017,0.0,percent
+FY2023_audit,82,imrf_eco,contributions,,actuarially_determined_contribution,actuarially determined contribution,2016,194771.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contributions_actual,contributions actual,2016,194771.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_deficiency,contribution deficiency,2016,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,covered_payroll,covered payroll,2016,0.0,usd
+FY2023_audit,82,imrf_eco,contributions,,contribution_pct_payroll,contribution pct payroll,2016,0.0,percent
+FY2023_audit,83,opeb,opeb,,,Calendar year ending December,2023,31.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2023,162575.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2022,203008.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2021,208204.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2020,286696.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2019,226684.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,service_cost,Service cost,2018,188158.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2023,133885.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2022,79903.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2021,85493.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2020,110582.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2019,104708.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,interest,Interest on the total OPEB liability,2018,90301.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,actuarial_experience,Actuarial experience,2023,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,actuarial_experience,Actuarial experience,2022,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,actuarial_experience,Actuarial experience,2021,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,actuarial_experience,Actuarial experience,2019,262904.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_changes,Changes of benefit changes,2023,107490.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_changes,Changes of benefit changes,2022,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_changes,Changes of benefit changes,2021,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2023,107331.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2022,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2021,-975524.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2019,-153896.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,experience_difference,Differences between expected and actual experience of the total pension liability,2018,99829.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2023,-119137.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2022,-640833.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2021,80569.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2020,412181.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2019,621612.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,assumption_changes,Changes of assumptions or other inputs,2018,24585.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2023,-24647.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2022,-35004.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2021,-19229.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2020,-45316.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2019,-33083.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,benefit_payments_liability,Benefit payments,2018,-63678.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2023,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2022,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2021,0.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2020,54.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2019,-291911.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,other_changes,Other changes,2018,-173540.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2023,367497.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2022,-392926.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2021,-620487.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2020,764197.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2019,737018.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,net_change_liability,Net change in total OPEB liability,2018,165655.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2023,3207678.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2022,3600604.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2021,4221091.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2020,3456894.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2019,2719876.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, beginning",2018,2554221.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2023,3575175.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2022,3207678.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2021,3600604.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2020,4221091.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2019,3456894.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,"Total OPEB liability, ending",2018,2719876.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2023,13496124.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2022,11563142.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2021,11172118.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2020,9992027.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2019,9992027.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,covered_payroll,Covered-employee payroll,2018,11011717.0,usd
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,liability_pct_payroll,Net OPEB liability as a percentage of covered-employee payroll,2023,26.49,percent
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,liability_pct_payroll,Net OPEB liability as a percentage of covered-employee payroll,2022,27.74,percent
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,liability_pct_payroll,Net OPEB liability as a percentage of covered-employee payroll,2021,32.23,percent
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,liability_pct_payroll,Net OPEB liability as a percentage of covered-employee payroll,2020,42.24,percent
+FY2023_audit,83,opeb,opeb,Total OPEB liability:,,See Multiyear Schedule of Contributions - OPEB for Notes.,2014,77.0,usd
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2023,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2023,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2023,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2023,13496124.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2023,0.0,percent
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2022,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2022,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2022,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2022,11563142.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2022,0.0,percent
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2021,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2021,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2021,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2021,11172118.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2021,0.0,percent
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2020,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2020,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2020,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2020,9992027.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2020,0.0,percent
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2019,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2019,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2019,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2019,9992027.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2019,0.0,percent
+FY2023_audit,84,opeb,contributions,,actuarially_determined_contribution,actuarially determined contribution,2018,0.0,usd
+FY2023_audit,84,opeb,contributions,,contributions_actual,contributions actual,2018,0.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_deficiency,contribution deficiency,2018,0.0,usd
+FY2023_audit,84,opeb,contributions,,covered_payroll,covered payroll,2018,11011717.0,usd
+FY2023_audit,84,opeb,contributions,,contribution_pct_payroll,contribution pct payroll,2018,0.0,percent

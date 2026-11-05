@@ -239,14 +239,17 @@ def test_liabilities_chain_between_audits():
 def test_pension_schedules_agree_across_audits_and_tie_to_the_debt_note():
     import collections
     seen = collections.defaultdict(dict)
-    for fy in (2016, 2017, 2024, 2025):
+    for fy in range(2015, 2026):
         checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_pension_checks.csv", newline="")))
-        assert len(checks) > 40 and all(c["ok"] == "True" for c in checks), fy
+        assert len(checks) > 15 and all(c["ok"] == "True" for c in checks), fy
         for r in csv.DictReader(open(AUD / f"FY{fy}_audit_pension_rsi.csv", newline="")):
             if r["line_id"]:
                 seen[(r["plan_id"], r["schedule"], r["line_id"], r["column_year"])][fy] = float(r["value"])
     differ = [k for k, v in seen.items() if len(set(v.values())) > 1]
-    assert len(seen) == 943 and len(differ) == 62 and all(int(k[3]) <= 2015 for k in differ)  # IMRF restated its 2014 and 2015 columns (EX-pension-restated-2014-2015)
+    # IMRF restated its 2014 and 2015 columns (EX-pension-restated-2014-2015); the 2019 OPEB experience lines are presented differently from FY2024 (EX-opeb-2019-reclass);
+    # everything else, measurement years 2016-2024, is identical in every audit that prints it (eleven audits FY2015-FY2025)
+    assert len(seen) == 1097 and len(differ) == 63
+    assert all(int(k[3]) <= 2015 or (k[0] == "opeb" and k[3] == "2019") for k in differ)
     roll = list(csv.DictReader(open(DATA / "pension_rollforward.csv", newline="")))
     npl = {(r["doc_id"], r["plan_id"], r["column_year"]): int(r["amount"]) for r in roll if r["line_id"] == "npl"}
     debt = {(r["period_fy"], r["line_id"]): int(r["amount"]) for r in csv.DictReader(open(DATA / "debt_balances.csv", newline="")) if r["measure"] == "ending"}
