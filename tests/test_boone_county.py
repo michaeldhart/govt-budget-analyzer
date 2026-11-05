@@ -258,7 +258,7 @@ def test_pension_schedules_agree_across_audits_and_tie_to_the_debt_note():
 
 def test_combining_statements_of_the_nonmajor_funds():
     import re
-    for fy in (2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025):
+    for fy in (2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025):
         checks = list(csv.DictReader(open(AUD / f"FY{fy}_audit_combining_checks.csv", newline="")))
         assert checks and all(c["ok"] == "True" for c in checks), fy
     rows = list(csv.DictReader(open(DATA / "fund_statements.csv", newline="")))
@@ -289,11 +289,21 @@ def test_combining_statements_fy2021_2023_chain():
 
     def col(doc, line):
         return {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == doc and r["statement"] == "combining_changes_in_fund_balance" and r["line_id"] == line}
-    for a, b, n, nbad in ((2018, 2019, 54, 0), (2019, 2020, 59, 0), (2021, 2022, 74, 2), (2022, 2023, 69, 1)):  # the misses: the Total column (fund set changed) and Health Department (restated)
+    for a, b, n, nbad in ((2015, 2016, 45, 0), (2016, 2017, 46, 0), (2017, 2018, 46, 0), (2018, 2019, 54, 0), (2019, 2020, 59, 0), (2021, 2022, 74, 2), (2022, 2023, 69, 1)):  # the misses: the Total column (fund set changed) and Health Department (restated)
         end = col(f"FY{a}_audit", "fund_balance_ending")
         beg = col(f"FY{b}_audit", "fund_balance_beginning_restated") or col(f"FY{b}_audit", "fund_balance_beginning")
         common = set(end) & set(beg)
         assert len(common) == n and sum(end[f] != beg[f] for f in common) == nbad
+
+
+def test_combining_balance_sheet_equals_changes_statement():
+    # each fund's closing balance on the balance sheet equals the statement of changes, every year FY2015-FY2025; FY2023 prints dashes for three funds' totals
+    rows = list(csv.DictReader(open(DATA / "fund_statements.csv", newline="")))
+    for fy in range(2015, 2026):
+        d = f"FY{fy}_audit"
+        bs = {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == d and r["statement"] == "combining_balance_sheet" and r["line_id"] == "total_fund_balance"}
+        ch = {r["fund"]: int(r["amount"]) for r in rows if r["doc_id"] == d and r["statement"] == "combining_changes_in_fund_balance" and r["line_id"] == "fund_balance_ending"}
+        assert sum(bs[f] != ch[f] for f in bs if f in ch) == (4 if fy == 2023 else 0), fy
 
 
 def test_reference_series():

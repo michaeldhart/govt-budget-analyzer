@@ -53,9 +53,8 @@ def sheet_of(page, labelled):
     for line in lines:
         label, vals = parse_line(line)
         parsed.append((line, label, vals))
-    rows = [(l, lab, vals) for l, lab, vals in parsed if len(vals) >= 2 and not PAGE_NO.match(l)]
-    if not rows:
-        return None
+    # a heading that one page prints with dashes ("Receivables - - -") is not a data row
+    rows = [(l, lab, vals) for l, lab, vals in parsed if len(vals) >= 2 and not PAGE_NO.match(l) and not (lab.strip().lower() == "receivables" and not any(v for v, _ in vals))]
     if not rows:
         return None
     first_idx = next(i for i, (l, lab, vals) in enumerate(parsed) if len(vals) >= 2 and not PAGE_NO.match(l))
@@ -83,7 +82,7 @@ def sheet_of(page, labelled):
     for line, label, vals in parsed[first_idx:]:
         if n >= 6 and len(vals) <= 2 and not label.strip():
             continue  # a stray fragment line of dashes (the text layer of the FY2025 page 123 splits one row in two)
-        if len(vals) >= 2 and not PAGE_NO.match(line):
+        if len(vals) >= 2 and not PAGE_NO.match(line) and not (label.strip().lower() == "receivables" and not any(v for v, _ in vals)):
             if len(vals) != n:
                 cells = [0] * n
                 for v, e in vals:
@@ -104,15 +103,18 @@ NAME_FIXES = {"Probation Replacement Services": "Probation Services", "Public De
               # FY2021-23: wrapped names of neighbouring columns read in the wrong order
               "IMRF/Retirement Immunity": "IMRF/Retirement", "Tort": "Tort Immunity", "Automation": "Vital Records Automation",
               "Regional Vital Records Communication Study": "Regional Communication Study", "Marriage and Prairie Shield Grant": "Prairie Shield Grant",
-              "Civil Union": "Marriage and Civil Union", "Spay/ Neuter Program": "Spay/Neuter Program", "Circuit Clerk Citation": "Circuit Clerk Electronic Citation",
-              "Electronic Foreclosure Mediation": "Foreclosure Mediation", "Speciality Courts": "Specialty Courts", "Federal Forfeited": "Federal Seized Drug",
+              "Civil Union": "Marriage and Civil Union", "Sheriff's Vehicle": "Sheriff's Vehicle Replacement",
+              "Office Replacement Automation": "Office Automation", "Prairie": "Prairie Shield Grant", "Farmland Sheild Grant Protection": "Farmland Protection",
+              "Prairie Sheild Grant": "Prairie Shield Grant", "Child Communication Support Maintenance": "Child Support Maintenance", "Spay/ Neuter Program": "Spay/Neuter Program", "Circuit Clerk Citation": "Circuit Clerk Electronic Citation",
+              "Electronic Foreclosure Mediation": "Foreclosure Mediation", "Speciality Courts": "Specialty Courts", "Federal Forfeited": "Federal Seized Drug", "Federal Forfeited Funds": "Federal Seized Drug",
               "Regional Communicatio n Study": "Regional Communication Study", "Electronic Monitoring Fund": "Electronic Monitoring", "tronic Monitoring": "Electronic Monitoring",
               "iff K9 Donation": "Sheriff K9 Donation", "ecrest Memorial Funds": "Maplecrest Memorial", "Maplecrest Memorial Funds": "Maplecrest Memorial", "Circuit Clerk E- Citation": "Circuit Clerk E-Citation"}
-POSITIONAL = {2018: True, 2019: True, 2020: True}
+INHERIT_ALL = {2015: True}
+POSITIONAL = {2015: True, 2018: True, 2019: True, 2020: True}
 LEGACY = {2018: True, 2019: True, 2020: True, 2021: True, 2022: True, 2023: True}  # no 'Total deferred inflows' line; fund balances by classification only
 
 
-TITLE_WORDS = re.compile(r"^(?:(?:Changes in Fund Balances|Nonmajor Government(?:al)? Funds|Special Revenue Funds|Debt Service|Capital Projects(?= \S)|\(Continued\))\s+)+", re.I)
+TITLE_WORDS = re.compile(r"^(?:(?:And Changes in Fund Balances|Changes in Fund Balances|Nonmajor Government(?:al)? Funds|Special Revenue Funds|Debt Service|Capital Projects(?= \S)|\(Continued\))\s+)+", re.I)
 
 
 def clean_name(nm):
@@ -149,7 +151,7 @@ def check_legacy_bs(rows):
     return out
 
 
-READ_LAYOUTS = {"FY2016", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2020 put the Total column first and match rows by position (POSITIONAL)
+READ_LAYOUTS = {"FY2015", "FY2016", "FY2017", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022", "FY2023", "FY2024", "FY2025"}  # FY2015 and FY2017 print rows that differ page to page; FY2018-FY2020 put the Total column first and match rows by position (POSITIONAL)
 # and have no total-deferred-inflows line: their funds' ending balances are in the per-fund schedules (extract_audit_fund_schedules.py)
 
 
@@ -164,11 +166,13 @@ def main(fy):
     sp = statement_pages(pages)
     out, checks = [], []
     stm_map = {"balance_sheet": "combining_balance_sheet", "changes": "combining_changes_in_fund_balance"}
-    name_ovr, bs_names = {}, {}
+    name_ovr_all, bs_names, bs_all = [], {}, []
     nf = ROOT / "data/boone_county_il/overrides" / f"audit_combining_names_{doc}.csv"
     if nf.exists():
-        name_ovr = {int(o["page_ordinal"]): o["names"].split("|") for o in csv.DictReader(open(nf, newline=""))}
+        name_ovr_all = list(csv.DictReader(open(nf, newline="")))
     for kind, pns in sp.items():
+        # optional 'statement' column limits a row to one statement
+        name_ovr = {int(o["page_ordinal"]): o["names"].split("|") for o in name_ovr_all if o.get("statement", "") in ("", kind)}
         if not pns:
             checks.append((f"{kind}: pages found", False, ""))
             continue
@@ -256,6 +260,10 @@ def main(fy):
                 bs_names[page_i] = nms
             for f_ in full:
                 f_["vals"] += col_vals.get(id(f_), [0] * sh["n"])
+        if kind == "balance_sheet":
+            bs_all = [nm for _, nm in names]
+        elif INHERIT_ALL.get(int(fy[2:])) and len(bs_all) == len(names):
+            names = [(pn, nm) for (pn, _), nm in zip(names, bs_all)]  # FY2015: the changes pages split the columns differently; their values follow the balance sheet's order
         if names and re.search(r"(?i)^total", names[0][1]) and not re.search(r"(?i)^total", names[-1][1]):  # FY2018-FY2020 print the Total column first
             names = names[1:] + names[:1]
             for f_ in full:

@@ -1,0 +1,7 @@
+check,ok,detail
+balance_sheet: statement identities hold in every one of the 49 columns,True,
+balance_sheet: 49 columns x 33 rows read; last column 'Total Nonmajor Governmental Funds',True,
+balance_sheet: 5 of 5 total lines equal the governmental funds statement,True,
+changes: statement identities hold in every one of the 49 columns,True,
+changes: 49 columns x 25 rows read; last column 'Total Nonmajor Governmental Funds',True,
+changes: 5 of 5 total lines equal the governmental funds statement,True,

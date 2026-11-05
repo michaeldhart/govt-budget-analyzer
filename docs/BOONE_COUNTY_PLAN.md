@@ -183,3 +183,9 @@ Read the newest budget first: `extract_budget_worksheet.py FY2026|FY2025|FY2027_
 - Opening balance = prior closing: 54 of 54 (FY2018 to FY2019) and 59 of 59 (FY2019 to FY2020) funds; FY2020 to FY2021 has 45 shared names (funds renamed or added).
 - `fund_statements.csv` carries 32,201 combining cells (FY2016, FY2018-FY2025).
 - **Not read**: FY2015 and FY2017 (rows differ page to page and labels drift).
+
+## Phase 17 progress (2026-11-05): combining statements FY2015 and FY2017
+- FY2015 and FY2017 now read (0 failed checks; 46 and 49 columns). FY2015 matches rows by position and gives the statement of changes the balance sheet's column names (its pages split the columns differently; the values follow the same order); FY2017 prints a labelled page followed by an unlabelled continuation, and one page prints the "Receivables" heading with dashes, which is no longer read as a data row. Wrapped or misspelled names ("Sheild") are repaired in `NAME_FIXES`.
+- New cross-check, all eleven years FY2015-FY2025: each fund's closing balance on the balance sheet equals the statement of changes (0 differences; FY2023's four are the dashes noted in Phase 15). It exposed a column shift in FY2015's changes names that the identity checks could not see.
+- Opening balance = prior closing: 45 of 45 (FY2015-16), 46 of 46 (FY2016-17), 46 of 46 (FY2017-18).
+- `fund_statements.csv` carries 37,941 combining cells, FY2015-FY2025: the whole audit series is read.
