@@ -21,6 +21,7 @@ const nav = entity ? [
   { id: 'fund-balances', label: 'Fund balances', path: `/${entity}/fund-balances/`, show: has('fund_balances') },
   { id: 'liabilities', label: 'Debt', path: `/${entity}/liabilities/`, show: has('fund_debt') },
   { id: 'budget', label: 'Budget', path: `/${entity}/budget/`, show: has('county_spending') },
+  { id: 'departments', label: 'Departments', path: `/${entity}/budget/departments/`, show: has('county_spending_by_department') },
   { id: 'results', label: 'Audited results', path: `/${entity}/results/`, show: has('county_audit_vs_budget') },
   { id: 'balances', label: 'Fund balances', path: `/${entity}/balances/`, show: has('county_fund_balances') },
   { id: 'property-tax', label: 'Property tax', path: `/${entity}/property-tax/`, show: has('property_tax') },

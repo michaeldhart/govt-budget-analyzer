@@ -53,7 +53,7 @@ const byFn = seriesOf(spending, 'function', fnColors);
 const exceptions: Record<string, any> = Object.fromEntries(readData(entity, 'exceptions.json').exceptions.map((e: any) => [e.exception_id, e]));
 const exIds = ['EX-health-insurance-transfer-vs-expense', 'EX-expense-categories'].filter((id) => exceptions[id]);
 ---
-<Base entity={entity} section="budget" title={`Spending by department – ${meta.short_name}`} description={`${meta.name}: budgeted spending and revenue by department.`}>
+<Base entity={entity} section="departments" title={`Spending by department – ${meta.short_name}`} description={`${meta.name}: budgeted spending and revenue by department.`}>
   <p class="muted"><a href={href(`/${entity}/`)}>{meta.short_name}</a> › <a href={href(`/${entity}/budget/`)}>Budget</a> › Departments</p>
   <h1>Spending by department</h1>
   <p class="muted">Every expense line in the county's budgets, {fyLabel(first)}–{fyLabel(last)}, summed per department. The General Fund has departments (Administration, Circuit Clerk, Sheriff, State's Attorney, Treasurer and so on); each of the other funds is one department named for the fund. {drafts.map(fyLabel).join(' and ')} {drafts.length > 1 ? 'are' : 'is'} the preliminary budget, not yet adopted; the table compares the adopted budgets of {fyLabel(first)} and {fyLabel(adopted)}. Revenue by department starts in {fyLabel(revenueYears[0])}.</p>
